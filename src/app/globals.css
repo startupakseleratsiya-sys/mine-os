@@ -46,6 +46,15 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Brand tokens */
+  --finora-cream: #f5f4ee;
+  --finora-cream-dark: #eeede6;
+  --finora-forest: #0f2017;
+  --finora-forest-mid: #163e32;
+  --finora-green: #2a5e47;
+  --finora-mint: #4a9e72;
+  --finora-glow: rgba(74, 158, 114, 0.35);
 }
 
 :root {
@@ -127,11 +136,145 @@
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c5cfc9;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8ea89d;
   }
 }
 
 @layer components {
+  /* Auth inputs */
   .auth-input {
     @apply h-12 w-full rounded-xl border border-[#13251f]/12 bg-white px-4 text-sm outline-none transition placeholder:text-[#9aa39f] focus:border-[#35624f]/50 focus:ring-4 focus:ring-[#dce7dd];
   }
+
+  /* Glass card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px rgba(19, 37, 31, 0.08);
+  }
+
+  /* Glow effect */
+  .glow-green {
+    box-shadow: 0 0 40px var(--finora-glow), 0 0 80px rgba(74, 158, 114, 0.15);
+  }
+
+  /* 3D card tilt - base for JS enhancement */
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    background: linear-gradient(135deg, #163e32 0%, #4a9e72 50%, #163e32 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+  }
+
+  /* Shimmer loading */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      #f5f4ee 0%,
+      #e8e7de 50%,
+      #f5f4ee 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
 }
+
+/* ── Keyframe Animations ── */
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-12px) rotate(1deg); }
+  66% { transform: translateY(-6px) rotate(-0.5deg); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px var(--finora-glow); }
+  50% { box-shadow: 0 0 60px var(--finora-glow), 0 0 100px rgba(74, 158, 114, 0.2); }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@keyframes ping-slow {
+  0%, 100% { transform: scale(1); opacity: 0.75; }
+  50% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes draw-circle {
+  from { stroke-dashoffset: 339.3; }
+  to { stroke-dashoffset: 0; }
+}
+
+/* Utility animation classes */
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-float-slow { animation: float-slow 8s ease-in-out infinite; }
+.animate-glow-pulse { animation: glow-pulse 3s ease-in-out infinite; }
+.animate-gradient-shift { animation: gradient-shift 4s ease infinite; }
+.animate-spin-slow { animation: spin-slow 12s linear infinite; }
+.animate-spin-reverse { animation: spin-reverse 8s linear infinite; }
+.animate-ping-slow { animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+.animate-slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.animate-slide-in-right { animation: slide-in-right 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.animate-fade-in { animation: fade-in 0.5s ease forwards; }

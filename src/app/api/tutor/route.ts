@@ -1,6 +1,7 @@
-import { anthropic } from '@ai-sdk/anthropic';
-import { streamText } from 'ai';
-import { NextResponse } from 'next/server';
+import { anthropic } from "@ai-sdk/anthropic";
+import { streamText } from "ai";
+import { NextResponse } from "next/server";
+import { z } from "zod";
 
 export const maxDuration = 45;
 
@@ -17,19 +18,44 @@ Vazifangiz moliyani har qanday darajadagi odamga sodda, xolis va amaliy qilib o'
 - O'zbekiston kontekstida aniq stavka, qonun yoki soliq aytsangiz, ma'lumot o'zgarishi mumkinligini belgilang va rasmiy manbani tekshirishni tavsiya qiling.
 - Har javob oxirida, tabiiy bo'lsa, bitta foydali keyingi qadam taklif qiling.`;
 
+const RequestSchema = z.object({
+  messages: z
+    .array(
+      z.object({
+        role: z.enum(["user", "assistant"]),
+        content: z.string().min(1).max(10000),
+      })
+    )
+    .min(1)
+    .max(50),
+});
+
 export async function POST(req: Request) {
   try {
-    const { messages } = await req.json();
-
     if (!process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json(
-        { error: "AI hali sozlanmagan. ANTHROPIC_API_KEY ni .env.local fayliga kiriting." },
+        {
+          error:
+            "AI hali sozlanmagan. ANTHROPIC_API_KEY ni .env.local fayliga kiriting.",
+        },
         { status: 503 }
       );
     }
 
+    const body: unknown = await req.json();
+    const parsed = RequestSchema.safeParse(body);
+
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: "Noto'g'ri so'rov formati." },
+        { status: 400 }
+      );
+    }
+
+    const { messages } = parsed.data;
+
     const result = streamText({
-      model: anthropic('claude-3-5-sonnet-20240620'),
+      model: anthropic("claude-3-5-sonnet-20240620"),
       system: SYSTEM_PROMPT,
       messages,
       temperature: 0.7,
@@ -37,11 +63,10 @@ export async function POST(req: Request) {
 
     return result.toTextStreamResponse();
   } catch (error) {
-    console.error("Tutor route error", error);
+    console.error("Tutor route error:", error);
     return NextResponse.json(
-      { error: "So‘rovni bajarib bo‘lmadi. Internet aloqasini tekshiring." },
+      { error: "So'rovni bajarib bo'lmadi. Internet aloqasini tekshiring." },
       { status: 500 }
     );
   }
 }
-

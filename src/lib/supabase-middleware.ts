@@ -49,14 +49,22 @@ export async function updateSession(request: NextRequest) {
     }
   }
 
-  // Protect Dashboard / Progress / Tutor routes
-  if (
-    !user &&
-    (request.nextUrl.pathname.startsWith('/dashboard') ||
-      request.nextUrl.pathname.startsWith('/progress') ||
-      request.nextUrl.pathname.startsWith('/tutor'))
-  ) {
+  // Protect authenticated routes
+  const PROTECTED_PATHS = [
+    '/dashboard',
+    '/progress',
+    '/tutor',
+    '/calculators',
+    '/profile',
+  ]
+  if (!user && PROTECTED_PATHS.some((p) => request.nextUrl.pathname.startsWith(p))) {
     return NextResponse.redirect(new URL('/sign-in', request.url))
+  }
+
+  // Redirect logged-in users away from auth pages
+  const AUTH_PATHS = ['/sign-in', '/sign-up']
+  if (user && AUTH_PATHS.some((p) => request.nextUrl.pathname.startsWith(p))) {
+    return NextResponse.redirect(new URL('/dashboard', request.url))
   }
 
   return supabaseResponse
