@@ -158,23 +158,23 @@ export default async function DashboardPage() {
                     Joriy daraja
                   </span>
                   <h2 className="text-2xl font-extrabold text-[#0f2017] tracking-tight mb-1">
-                    CP3P Foundation
+                    Shaxsiy budjet: Moliyaviy barqarorlik
                   </h2>
                   <p className="text-[#6B7A74] text-sm mb-6">
-                    1-Bob: Davlat-Xususiy Sheriklikka Kirish
+                    1-Bob: Moliyaviy rejalashtirishga kirish
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="flex-1 h-2 bg-[#F5F4EE] rounded-full overflow-hidden">
                       <div
                         className="h-full bg-[#163e32] rounded-full transition-all duration-1000"
-                        style={{ width: "10%" }}
+                        style={{ width: "25%" }}
                       />
                     </div>
-                    <span className="text-sm font-bold text-[#354841] shrink-0">10%</span>
+                    <span className="text-sm font-bold text-[#354841] shrink-0">25%</span>
                   </div>
                 </div>
                 <Link
-                  href="/courses"
+                  href="/study/shaxsiy-budjet/mod-1"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#163e32] text-white font-bold rounded-2xl shadow-lg shadow-[#163e32]/15 hover:bg-[#0e3026] transition-all hover:-translate-y-0.5 shrink-0 text-sm"
                 >
                   Davom etish
@@ -249,12 +249,12 @@ export default async function DashboardPage() {
                 </div>
                 <h3 className="font-bold text-[#0f2017] mb-2">Tayyorgarlik</h3>
                 <p className="text-sm text-[#6B7A74] leading-relaxed">
-                  Imtihonga tayyor bo&apos;lishingiz uchun yana 7 ta bob qoldi.
+                  Moliyaviy maqsadga yetish uchun yana 3 ta bob qoldi.
                 </p>
                 <div className="mt-5 h-1.5 bg-[#F5F4EE] rounded-full overflow-hidden">
-                  <div className="h-full w-[14%] bg-[#163e32] rounded-full" />
+                  <div className="h-full w-[25%] bg-[#163e32] rounded-full" />
                 </div>
-                <p className="mt-2 text-right text-xs text-[#6B7A74]">14% tayyor</p>
+                <p className="mt-2 text-right text-xs text-[#6B7A74]">25% tayyor</p>
               </div>
             </div>
           </div>

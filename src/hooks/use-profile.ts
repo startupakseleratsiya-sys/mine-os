@@ -16,6 +16,7 @@ export function useProfile(userId: string | undefined) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    let mounted = true;
     if (!userId) {
       setLoading(false);
       return;
@@ -28,21 +29,35 @@ export function useProfile(userId: string | undefined) {
       .eq("id", userId)
       .single()
       .then(({ data, error: err }) => {
-        if (err) setError(err.message);
-        setProfile(data);
+        if (!mounted) return;
+        if (err) {
+          console.error("Error fetching profile:", err);
+          setError(err.message);
+        } else {
+          setProfile(data as Profile);
+        }
         setLoading(false);
       });
+      
+    return () => {
+      mounted = false;
+    };
   }, [userId]);
 
   const refresh = async () => {
     if (!userId) return;
     const supabase = createClient();
-    const { data } = await supabase
+    const { data, error: err } = await supabase
       .from("users")
       .select("*")
       .eq("id", userId)
       .single();
-    setProfile(data);
+      
+    if (err) {
+      console.error("Error refreshing profile:", err);
+    } else {
+      setProfile(data as Profile);
+    }
   };
 
   return { profile, loading, error, refresh };

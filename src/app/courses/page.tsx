@@ -26,7 +26,7 @@ const ALL_COURSES = [
     lessons: 8,
     time: "1 soat 40 daqiqa",
     progress: 72,
-    href: "/courses",
+    href: "/courses/shaxsiy-budjet",
   },
   {
     icon: PiggyBank,
@@ -37,7 +37,7 @@ const ALL_COURSES = [
     lessons: 6,
     time: "1 soat 15 daqiqa",
     progress: 25,
-    href: "/courses",
+    href: "/courses/jamgarma-tizimi",
   },
   {
     icon: TrendingUp,
@@ -48,7 +48,7 @@ const ALL_COURSES = [
     lessons: 10,
     time: "2 soat 20 daqiqa",
     progress: 0,
-    href: "/courses",
+    href: "/courses/investitsiya-asoslari",
   },
 ];
 

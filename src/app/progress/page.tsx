@@ -112,32 +112,36 @@ export default function ProgressPage() {
           </div>
         </motion.div>
 
-        {/* Goal card */}
+        {/* Goal card - Exam Readiness */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="rounded-3xl bg-[#163e32] p-6 text-white flex flex-col"
+          className="rounded-3xl bg-[#163e32] p-6 text-white flex flex-col relative overflow-hidden"
         >
-          <Target className="size-6 text-[#b7d2c1]" />
-          <div className="mt-auto">
-            <p className="text-xs text-[#acc1b9] font-medium mb-2">Joriy maqsad</p>
-            <h2 className="text-xl font-bold leading-tight">
-              Budjet kursini yakunlash
+          <div className="absolute -right-6 -top-6 size-32 bg-white/5 rounded-full blur-2xl pointer-events-none" />
+          
+          <Target className="size-6 text-[#b7d2c1] mb-2 relative z-10" />
+          <div className="mt-auto relative z-10">
+            <p className="text-xs text-[#acc1b9] font-medium mb-1 tracking-widest uppercase">Imtihonga Tayyorgarlik</p>
+            <h2 className="text-xl font-bold leading-tight mb-2">
+              Shaxsiy Budjet Sertifikati
             </h2>
-            <p className="text-xs text-[#8dbca9] mt-2">8 ta darsdan 6 tasi tugatildi</p>
+            <p className="text-xs text-[#8dbca9] leading-relaxed">
+              Asosiy tushunchalar o'zlashtirildi. 2 ta amaliy mashg'ulot qoldi.
+            </p>
           </div>
-          <div className="mt-6">
-            <div className="flex justify-between text-xs text-[#acc1b9] mb-2">
-              <span>Progress</span>
-              <span className="font-bold">72%</span>
+          <div className="mt-6 relative z-10">
+            <div className="flex justify-between items-end text-xs text-[#acc1b9] mb-2">
+              <span>Tayyorgarlik darajasi</span>
+              <span className="font-bold text-xl text-white">75%</span>
             </div>
-            <div className="h-2 rounded-full bg-white/15 overflow-hidden">
+            <div className="h-2.5 rounded-full bg-black/20 overflow-hidden backdrop-blur-sm">
               <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: "72%" }}
-                transition={{ delay: 0.6, duration: 0.9, ease: "easeOut" }}
-                className="h-full rounded-full bg-[#c7dbce]"
+                animate={{ width: "75%" }}
+                transition={{ delay: 0.6, duration: 1.2, ease: "easeOut" }}
+                className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-[#c7dbce]"
               />
             </div>
           </div>
