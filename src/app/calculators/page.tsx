@@ -171,7 +171,7 @@ function BudgetBar({ label, amount, total, color, fmt }: { label: string; amount
     <div className="bg-[#f8f7f2] rounded-2xl p-4">
       <div className="flex justify-between mb-2">
         <span className="text-sm font-semibold text-[#0f2017]">{label}</span>
-        <span className="text-sm font-bold text-[#0f2017]">{fmt(amount)} so'm</span>
+        <span suppressHydrationWarning className="text-sm font-bold text-[#0f2017]">{fmt(amount)} so'm</span>
       </div>
       <div className="h-2.5 bg-[#e9ebe7] rounded-full overflow-hidden">
         <motion.div
@@ -259,7 +259,7 @@ function Slider({
     <div>
       <div className="flex justify-between mb-2">
         <label className="text-sm font-medium text-[#65736d]">{label}</label>
-        <span className="text-sm font-bold text-[#0f2017]">{display}</span>
+        <span suppressHydrationWarning className="text-sm font-bold text-[#0f2017]">{display}</span>
       </div>
       <input
         type="range"
@@ -280,7 +280,7 @@ function Result({ label, value, highlight }: { label: string; value: string; hig
       <p className={`text-[11px] font-medium mb-1 ${highlight ? "text-[#8ea89d]" : "text-[#65736d]"}`}>
         {label}
       </p>
-      <p className={`text-sm font-bold leading-tight ${highlight ? "text-white" : "text-[#0f2017]"}`}>
+      <p suppressHydrationWarning className={`text-sm font-bold leading-tight ${highlight ? "text-white" : "text-[#0f2017]"}`}>
         {value}
       </p>
     </div>

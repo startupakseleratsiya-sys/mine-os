@@ -138,6 +138,7 @@ export function TutorChat() {
           signal: abortRef.current.signal,
           body: JSON.stringify({
             messages: nextMessages
+              .filter((m) => m.content.trim().length > 0)
               .map((m) => ({ role: m.role, content: m.content }))
               .slice(-20),
           }),

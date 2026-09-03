@@ -308,10 +308,10 @@ function HeroSection() {
                 Bepul boshlash
                 <ArrowRight className="size-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <button className="flex items-center justify-center gap-2 h-14 px-8 text-base font-bold text-[#163e32] bg-white border border-[#E2E4DF] rounded-2xl hover:border-[#a7c4b1] hover:bg-[#f5f4ee] transition-all hover:-translate-y-0.5 shadow-sm">
+              <Link href="/tutor" className="flex items-center justify-center gap-2 h-14 px-8 text-base font-bold text-[#163e32] bg-white border border-[#E2E4DF] rounded-2xl hover:border-[#a7c4b1] hover:bg-[#f5f4ee] transition-all hover:-translate-y-0.5 shadow-sm">
                 <Sparkles className="size-5 text-[#4a9e72]" />
                 AI Tutorni sinab ko'ring
-              </button>
+              </Link>
             </motion.div>
 
             {/* Social proof */}
@@ -611,9 +611,9 @@ function Footer() {
             Ta'lim. Tushunish. Ishonchli qaror. © 2025 Finora
           </p>
           <div className="flex items-center gap-6 text-sm text-[#5d7a6e]">
-            <Link href="#" className="hover:text-white transition-colors">Maxfiylik</Link>
-            <Link href="#" className="hover:text-white transition-colors">Shartlar</Link>
-            <Link href="#" className="hover:text-white transition-colors">Aloqa</Link>
+            <Link href="/" className="hover:text-white transition-colors">Maxfiylik</Link>
+            <Link href="/" className="hover:text-white transition-colors">Shartlar</Link>
+            <Link href="/" className="hover:text-white transition-colors">Aloqa</Link>
           </div>
         </div>
       </div>
