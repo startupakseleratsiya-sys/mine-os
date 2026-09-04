@@ -12,7 +12,11 @@ import {
   Plus,
   ShieldCheck,
   UserRound,
+  Mic,
+  MicOff,
 } from "lucide-react";
+
+import { AvatarViewer } from "./avatar";
 
 type Message = {
   id: string;
@@ -87,9 +91,65 @@ export function TutorChat() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const [isListening, setIsListening] = useState(false);
+  
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const abortRef = useRef<AbortController | null>(null);
+  const recognitionRef = useRef<any>(null);
+
+  // Initialize Speech Recognition
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+      if (SpeechRecognition) {
+        recognitionRef.current = new SpeechRecognition();
+        recognitionRef.current.continuous = true;
+        recognitionRef.current.interimResults = true;
+        recognitionRef.current.lang = "uz-UZ";
+
+        recognitionRef.current.onresult = (event: any) => {
+          let currentTranscript = "";
+          for (let i = event.resultIndex; i < event.results.length; i++) {
+            currentTranscript += event.results[i][0].transcript;
+          }
+          if (currentTranscript) {
+             setInput((prev) => {
+               // A bit of logic to append cleanly
+               const space = prev.length > 0 && !prev.endsWith(" ") ? " " : "";
+               return prev + space + currentTranscript;
+             });
+          }
+        };
+
+        recognitionRef.current.onerror = (event: any) => {
+          console.error("Speech recognition error", event.error);
+          setIsListening(false);
+        };
+
+        recognitionRef.current.onend = () => {
+          setIsListening(false);
+        };
+      }
+    }
+    
+    return () => {
+      if (recognitionRef.current) {
+        recognitionRef.current.stop();
+      }
+    };
+  }, []);
+
+  const toggleListening = () => {
+    if (isListening) {
+      recognitionRef.current?.stop();
+      setIsListening(false);
+    } else {
+      setInput("");
+      recognitionRef.current?.start();
+      setIsListening(true);
+    }
+  };
 
   // Smooth scroll to bottom after new messages
   useEffect(() => {
@@ -240,7 +300,12 @@ export function TutorChat() {
 
       {/* Messages area */}
       <main className="flex-1 overflow-y-auto">
-        <div className="mx-auto max-w-[900px] px-4 sm:px-6">
+        <div className="mx-auto max-w-[900px] px-4 sm:px-6 py-6">
+          {/* Avatar Container */}
+          <div className="mb-8 w-full max-w-[400px] mx-auto h-[300px] shadow-lg rounded-3xl overflow-hidden">
+             <AvatarViewer isSpeaking={isLoading || isListening} />
+          </div>
+
           {messages.length === 0 ? (
             /* Welcome screen */
             <div className="flex min-h-full flex-col items-center justify-center py-20 text-center">
@@ -349,6 +414,20 @@ export function TutorChat() {
               placeholder="Masalan: 50/30/20 qoidasi nima?"
               className="max-h-36 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-sm leading-6 outline-none placeholder:text-[#89948f]"
             />
+            
+            <button
+              type="button"
+              onClick={toggleListening}
+              title="Ovozli kiritish"
+              className={`grid size-11 shrink-0 place-items-center rounded-full transition-colors ${
+                isListening 
+                  ? "bg-red-100 text-red-600 animate-pulse border border-red-200" 
+                  : "bg-[#f3f1eb] text-[#65736d] hover:bg-[#e7ece6] hover:text-[#13251f]"
+              }`}
+            >
+              {isListening ? <MicOff className="size-5" /> : <Mic className="size-5" />}
+            </button>
+
             <button
               type="submit"
               disabled={!input.trim() || isLoading}
