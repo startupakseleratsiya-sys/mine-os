@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import { login, signup } from "./actions";
 
-export default function AuthPage() {
+export default function AuthPage({ searchParams }: { searchParams: { error?: string } }) {
   return (
     <div className="min-h-screen flex bg-[#F5F4EE] font-sans">
       
@@ -33,8 +34,14 @@ export default function AuthPage() {
             </p>
           </div>
 
+          {searchParams?.error && (
+            <div className="mb-4 p-3 rounded-xl bg-red-50 border border-red-100 text-red-600 text-sm font-semibold">
+              Xatolik: {searchParams.error.replace(/_/g, " ")}
+            </div>
+          )}
+
           {/* Form */}
-          <form className="space-y-5">
+          <form action={login} className="space-y-5">
             
             {/* Email */}
             <div className="space-y-2">
@@ -45,7 +52,9 @@ export default function AuthPage() {
                 Email
               </label>
               <input 
+                name="email"
                 type="email" 
+                required
                 placeholder="siz@example.com" 
                 className="w-full px-4 py-3.5 rounded-xl border border-[#E2E4DF] bg-white text-[#13251F] placeholder-[#A3ACA8] focus:outline-none focus:ring-2 focus:ring-[#13251F]/20 focus:border-[#13251F] transition-all shadow-sm"
               />
@@ -61,23 +70,19 @@ export default function AuthPage() {
               </label>
               <div className="relative">
                 <input 
+                  name="password"
                   type="password" 
+                  required
                   placeholder="Kamida 8 ta belgi" 
                   className="w-full px-4 py-3.5 rounded-xl border border-[#E2E4DF] bg-white text-[#13251F] placeholder-[#A3ACA8] focus:outline-none focus:ring-2 focus:ring-[#13251F]/20 focus:border-[#13251F] transition-all shadow-sm pr-12"
                 />
-                <button type="button" className="absolute right-4 top-1/2 -translate-y-1/2 text-[#A3ACA8] hover:text-[#13251F] transition-colors">
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
-                </button>
               </div>
             </div>
 
             {/* Remember me & Forgot Password */}
             <div className="flex items-center justify-between pt-1">
               <label className="flex items-center gap-2 cursor-pointer group">
-                <div className="w-4 h-4 rounded border border-[#C5CAC6] bg-white flex items-center justify-center group-hover:border-[#13251F] transition-colors"></div>
+                <input type="checkbox" className="w-4 h-4 rounded border border-[#C5CAC6] bg-white cursor-pointer accent-[#13251F]" />
                 <span className="text-[13px] font-bold text-[#6B7A74] group-hover:text-[#13251F] transition-colors">Eslab qolish</span>
               </label>
               <Link href="#" className="text-[13px] font-bold text-[#354841] hover:text-[#13251F] transition-colors">
@@ -86,22 +91,27 @@ export default function AuthPage() {
             </div>
 
             {/* Submit Button */}
-            <Link href="/onboarding" className="block w-full">
-              <button 
-                type="button"
-                className="w-full py-4 mt-2 bg-[#13251F] hover:bg-[#1C362D] text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
-              >
-                Kirish 
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </button>
-            </Link>
+            <button 
+              type="submit"
+              className="w-full py-4 mt-2 bg-[#13251F] hover:bg-[#1C362D] text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
+            >
+              Kirish 
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+            <button 
+              formAction={signup}
+              className="w-full py-3.5 bg-white border border-[#E2E4DF] hover:bg-[#F5F4EE] text-[#13251F] rounded-2xl font-bold text-sm flex items-center justify-center transition-all"
+            >
+              Yangi hisob yaratish
+            </button>
           </form>
 
           {/* Footer text */}
           <p className="text-center mt-8 text-[13px] font-medium text-[#6B7A74]">
-            Hali hisobingiz yo&apos;qmi? <Link href="#" className="font-bold text-[#13251F] hover:underline transition-colors">Ro&apos;yxatdan o&apos;tish</Link>
+            Hali hisobingiz yo&apos;qmi? 
+            <button formAction={signup} className="ml-1 font-bold text-[#13251F] hover:underline transition-colors">Ro&apos;yxatdan o&apos;tish</button>
           </p>
 
         </div>
