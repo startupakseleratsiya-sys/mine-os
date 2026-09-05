@@ -21,8 +21,8 @@ jobs:
           node-version: 22
       - name: Deploy (production)
         env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: team_DAgMINGi469pXW8vdEN6Up0i
+          VERCEL_PROJECT_ID: prj_GrJgj7nKx3Twt1Z0BW2jXj08dC4B
         run: npx vercel@59 deploy --prod --yes --token ${{ secrets.VERCEL_TOKEN }}
 
       - name: Health check (Vercel)
