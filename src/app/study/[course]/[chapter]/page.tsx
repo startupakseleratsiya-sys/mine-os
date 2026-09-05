@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, MessageSquareText, X, CheckCircle2, ChevronRight, CircleDollarSign } from "lucide-react";
@@ -27,11 +27,13 @@ Oxirgi oylik xarajatlaringizni hisoblab chiqing va qaysi kategoriyaga (50, 30 yo
 `;
 };
 
-export default function StudyPage({ params }: { params: { course: string; chapter: string } }) {
+// Next 15+: `params` Promise — client komponentda React.use() bilan ochiladi.
+export default function StudyPage({ params }: { params: Promise<{ course: string; chapter: string }> }) {
+  const { course, chapter } = use(params);
   const [isTutorOpen, setIsTutorOpen] = useState(false);
   const [completed, setCompleted] = useState(false);
 
-  const content = generateContent(params.course, params.chapter);
+  const content = generateContent(course, chapter);
 
   return (
     <div className="flex h-screen bg-[#F5F4EE] text-[#13251F] overflow-hidden">
@@ -47,7 +49,7 @@ export default function StudyPage({ params }: { params: { course: string; chapte
              </Link>
              <span className="text-[#E2E4DF] hidden sm:block">|</span>
              <Link
-               href={`/courses/${params.course}`}
+               href={`/courses/${course}`}
                className="inline-flex items-center gap-1 text-sm font-semibold text-[#6B7A74] hover:text-[#163e32] transition-colors"
              >
                Dasturga qaytish
@@ -66,7 +68,7 @@ export default function StudyPage({ params }: { params: { course: string; chapte
         <main className="max-w-3xl mx-auto px-6 py-12">
           <div className="mb-8">
             <span className="text-xs font-bold text-[#6B7A74] tracking-widest uppercase mb-2 block">
-              {params.course.replace("-", " ")}
+              {course.replace("-", " ")}
             </span>
           </div>
           
@@ -111,7 +113,7 @@ export default function StudyPage({ params }: { params: { course: string; chapte
             </button>
             
             <Link
-              href={`/courses/${params.course}`}
+              href={`/courses/${course}`}
               className="flex items-center gap-2 px-6 py-3 rounded-xl font-bold bg-[#163e32] text-white hover:bg-[#0e3026] shadow-lg shadow-[#163e32]/10 transition-all hover:-translate-y-0.5 w-full sm:w-auto justify-center"
             >
               Keyingi bob <ArrowRight className="size-4" />

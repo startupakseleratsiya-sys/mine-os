@@ -83,8 +83,10 @@ const COURSES_DATA: Record<string, Course> = {
   },
 };
 
-export default function CourseDetailsPage({ params }: { params: { slug: string } }) {
-  const course = COURSES_DATA[params.slug];
+// Next 15+: `params` Promise — sinxron o'qilsa slug undefined bo'lib har kurs 404 qaytaradi.
+export default async function CourseDetailsPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const course = COURSES_DATA[slug];
 
   if (!course) {
     notFound();
@@ -120,7 +122,7 @@ export default function CourseDetailsPage({ params }: { params: { slug: string }
           </p>
 
           <Link
-            href={`/study/${params.slug}/${course.modules[0].id}`}
+            href={`/study/${slug}/${course.modules[0].id}`}
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#163e32] text-white font-bold rounded-2xl shadow-lg shadow-[#163e32]/15 hover:bg-[#0e3026] transition-all hover:-translate-y-0.5"
           >
             Kursni boshlash
@@ -156,7 +158,7 @@ export default function CourseDetailsPage({ params }: { params: { slug: string }
                     </div>
                   </div>
                   <Link
-                    href={`/study/${params.slug}/${mod.id}`}
+                    href={`/study/${slug}/${mod.id}`}
                     className="text-sm font-bold text-[#163e32] hover:underline"
                   >
                     O'qish →
