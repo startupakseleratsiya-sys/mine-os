@@ -19,6 +19,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+
+      # Tekshiruv darvozasi: typecheck yiqilsa deploy boshlanmaydi.
+      # Lint hozircha darvoza emas (54 ta eski xato bor) — tozalangach qo'shiladi.
+      - name: Install
+        run: npm ci
+      - name: Typecheck
+        run: npx tsc --noEmit
+
       - name: Deploy (production)
         env:
           VERCEL_ORG_ID: team_DAgMINGi469pXW8vdEN6Up0i
