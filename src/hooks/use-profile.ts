@@ -12,15 +12,15 @@ export type Profile = {
 
 export function useProfile(userId: string | undefined) {
   const [profile, setProfile] = useState<Profile | null>(null);
-  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  // Qaysi userId uchun so'rov tugagani — loading shundan hisoblanadi
+  // (effekt ichida sinxron setState qilinmaydi: react-hooks/set-state-in-effect).
+  const [loadedFor, setLoadedFor] = useState<string | null>(null);
+  const loading = Boolean(userId) && loadedFor !== userId;
 
   useEffect(() => {
     let mounted = true;
-    if (!userId) {
-      setLoading(false);
-      return;
-    }
+    if (!userId) return;
 
     const supabase = createClient();
     supabase
@@ -36,9 +36,9 @@ export function useProfile(userId: string | undefined) {
         } else {
           setProfile(data as Profile);
         }
-        setLoading(false);
+        setLoadedFor(userId);
       });
-      
+
     return () => {
       mounted = false;
     };

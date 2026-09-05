@@ -11,7 +11,18 @@ import {
   ListChecks,
 } from "lucide-react";
 
-const COURSES_DATA: Record<string, any> = {
+type CourseModule = { id: string; title: string; duration: string };
+type Course = {
+  title: string;
+  description: string;
+  level: string;
+  lessons: number;
+  time: string;
+  outcomes: string[];
+  modules: CourseModule[];
+};
+
+const COURSES_DATA: Record<string, Course> = {
   "shaxsiy-budjet": {
     title: "Shaxsiy budjet: Moliyaviy barqarorlik asoslari",
     description:
@@ -128,7 +139,7 @@ export default function CourseDetailsPage({ params }: { params: { slug: string }
               <h2 className="text-2xl font-bold text-[#0f2017]">O'quv dasturi (Syllabus)</h2>
             </div>
             <div className="bg-white rounded-3xl border border-[#E2E4DF] overflow-hidden">
-              {course.modules.map((mod: any, index: number) => (
+              {course.modules.map((mod, index) => (
                 <div
                   key={mod.id}
                   className={`flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-5 hover:bg-[#F5F4EE] transition-colors ${

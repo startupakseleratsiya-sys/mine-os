@@ -125,22 +125,34 @@ function OrbitRings() {
 }
 
 /* ── Floating particles (small spheres) ── */
+/** Deterministik PRNG (mulberry32): render ichida Math.random ishlatib bo'lmaydi (react-hooks/purity),
+ *  seed'li generator esa sof — bir xil count uchun doim bir xil zarrachalar. */
+function seededRandom(seed: number) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
 function Particles({ count = 60 }: { count?: number }) {
-  const particles = useMemo(
-    () =>
-      Array.from({ length: count }, () => ({
-        position: [
-          (Math.random() - 0.5) * 9,
-          (Math.random() - 0.5) * 9,
-          (Math.random() - 0.5) * 5,
-        ] as [number, number, number],
-        size: Math.random() * 0.045 + 0.01,
-        speed: Math.random() * 0.4 + 0.1,
-        color: Math.random() > 0.6 ? "#4a9e72" : Math.random() > 0.5 ? "#c8952a" : "#dce7dd",
-        opacity: Math.random() * 0.6 + 0.2,
-      })),
-    [count]
-  );
+  const particles = useMemo(() => {
+    const rand = seededRandom(count * 7919 + 42);
+    return Array.from({ length: count }, () => ({
+      position: [
+        (rand() - 0.5) * 9,
+        (rand() - 0.5) * 9,
+        (rand() - 0.5) * 5,
+      ] as [number, number, number],
+      size: rand() * 0.045 + 0.01,
+      speed: rand() * 0.4 + 0.1,
+      color: rand() > 0.6 ? "#4a9e72" : rand() > 0.5 ? "#c8952a" : "#dce7dd",
+      opacity: rand() * 0.6 + 0.2,
+    }));
+  }, [count]);
 
   const groupRef = useRef<THREE.Group>(null);
 

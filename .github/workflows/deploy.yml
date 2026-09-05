@@ -21,12 +21,13 @@ jobs:
           node-version: 22
           cache: npm
 
-      # Tekshiruv darvozasi: typecheck yiqilsa deploy boshlanmaydi.
-      # Lint hozircha darvoza emas (54 ta eski xato bor) — tozalangach qo'shiladi.
+      # Tekshiruv darvozasi: typecheck yoki lint yiqilsa deploy boshlanmaydi.
       - name: Install
         run: npm ci
       - name: Typecheck
         run: npx tsc --noEmit
+      - name: Lint (0 error shart)
+        run: npx eslint src
 
       - name: Deploy (production)
         env:

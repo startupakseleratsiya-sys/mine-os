@@ -86,6 +86,27 @@ function TypingDots() {
   );
 }
 
+/* Web Speech API brauzer tiplari (lib.dom'da yo'q) — faqat ishlatiladigan qismi. */
+type SpeechRecognitionEventLike = {
+  resultIndex: number;
+  results: ArrayLike<ArrayLike<{ transcript: string }>>;
+};
+type SpeechRecognitionErrorEventLike = { error: string };
+type SpeechRecognitionLike = {
+  continuous: boolean;
+  interimResults: boolean;
+  lang: string;
+  onresult: ((event: SpeechRecognitionEventLike) => void) | null;
+  onerror: ((event: SpeechRecognitionErrorEventLike) => void) | null;
+  onend: (() => void) | null;
+  start: () => void;
+  stop: () => void;
+};
+type SpeechRecognitionWindow = Window & {
+  SpeechRecognition?: new () => SpeechRecognitionLike;
+  webkitSpeechRecognition?: new () => SpeechRecognitionLike;
+};
+
 export function TutorChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -96,19 +117,20 @@ export function TutorChat() {
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const recognitionRef = useRef<any>(null);
+  const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
 
   // Initialize Speech Recognition
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+      const w = window as SpeechRecognitionWindow;
+      const SpeechRecognition = w.SpeechRecognition || w.webkitSpeechRecognition;
       if (SpeechRecognition) {
         recognitionRef.current = new SpeechRecognition();
         recognitionRef.current.continuous = true;
         recognitionRef.current.interimResults = true;
         recognitionRef.current.lang = "uz-UZ";
 
-        recognitionRef.current.onresult = (event: any) => {
+        recognitionRef.current.onresult = (event: SpeechRecognitionEventLike) => {
           let currentTranscript = "";
           for (let i = event.resultIndex; i < event.results.length; i++) {
             currentTranscript += event.results[i][0].transcript;
@@ -122,7 +144,7 @@ export function TutorChat() {
           }
         };
 
-        recognitionRef.current.onerror = (event: any) => {
+        recognitionRef.current.onerror = (event: SpeechRecognitionErrorEventLike) => {
           console.error("Speech recognition error", event.error);
           setIsListening(false);
         };

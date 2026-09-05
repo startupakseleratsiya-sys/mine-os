@@ -13,6 +13,12 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    rules: {
+      // O'zbekcha matnda apostrof (o'zbek, ta'lim) ko'p — JSX ichida &apos; talab qilish shovqin.
+      "react/no-unescaped-entities": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
