@@ -54,11 +54,14 @@ export async function POST(req: Request) {
 
     const { messages } = parsed.data;
 
+    // Opus 5 temperature/top_p qabul qilmaydi (400) — sampling parametrlari yuborilmaydi.
     const result = streamText({
-      model: anthropic("claude-3-5-sonnet-20240620"),
+      model: anthropic("claude-opus-5"),
       system: SYSTEM_PROMPT,
       messages,
-      temperature: 0.7,
+      onError: ({ error }) => {
+        console.error("Tutor stream error:", error);
+      },
     });
 
     return result.toTextStreamResponse();
