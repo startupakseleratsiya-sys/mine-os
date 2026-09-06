@@ -6,6 +6,7 @@ import {
   BookOpen,
   Calculator,
   CircleDollarSign,
+  Flame,
   GraduationCap,
   LogOut,
   MessageSquareText,
@@ -13,8 +14,20 @@ import {
   TrendingUp,
   User,
 } from "lucide-react";
-import { getCurrentUser, getProfile, getUserProgress } from "@/services/user-service";
+import { getCurrentUser, getProfile, getChatSessionCount } from "@/services/user-service";
 import { signOut } from "@/app/actions/auth";
+import { COURSES, TOTAL_CHAPTERS } from "@/content/courses";
+import { activeCourse, computeStreak, courseProgress, getLessonProgress } from "@/lib/progress";
+
+export const metadata = { title: "Kabinet" };
+
+const NAV = [
+  { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
+  { href: "/courses", icon: BookOpen, label: "Kurslar" },
+  { href: "/tutor", icon: MessageSquareText, label: "AI Tutor" },
+  { href: "/calculators", icon: Calculator, label: "Kalkulyator" },
+  { href: "/progress", icon: Target, label: "Progress" },
+];
 
 export default async function DashboardPage() {
   let user;
@@ -37,12 +50,14 @@ export default async function DashboardPage() {
   }
   if (!user) redirect("/sign-in");
 
-  const [profile, progress] = await Promise.all([
+  const [profile, rows, chatCount] = await Promise.all([
     getProfile(user.id),
-    getUserProgress(user.id),
+    getLessonProgress(user.id),
+    getChatSessionCount(user.id),
   ]);
 
-  const displayName = profile?.full_name || user.email?.split("@")[0] || "Foydalanuvchi";
+  const metaName = typeof user.user_metadata?.full_name === "string" ? user.user_metadata.full_name : "";
+  const displayName = profile?.full_name || metaName || user.email?.split("@")[0] || "Foydalanuvchi";
   const initials = displayName
     .split(" ")
     .map((n: string) => n[0])
@@ -50,35 +65,27 @@ export default async function DashboardPage() {
     .toUpperCase()
     .slice(0, 2);
 
-  const totalLessons = progress.reduce(
-    (sum: number, p: { completed_lessons: number }) => sum + p.completed_lessons,
-    0
-  );
+  const active = activeCourse(rows);
+  const startedCourses = COURSES.filter((c) => courseProgress(rows, c).completed > 0).length;
+  const streak = computeStreak(rows);
+  const continueHref = active.nextChapter
+    ? `/study/${active.course.slug}/${active.nextChapter.id}`
+    : `/courses/${active.course.slug}`;
+  const overallPercent = Math.round((rows.length / TOTAL_CHAPTERS) * 100);
 
   return (
     <div className="min-h-screen bg-[#F5F4EE] text-[#13251F] font-sans">
-      {/* Header */}
       <header className="bg-white border-b border-[#E2E4DF] sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-18 flex justify-between items-center">
-          {/* Logo */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-18 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2.5">
             <span className="grid size-9 place-items-center rounded-full bg-[#163e32] text-white">
               <CircleDollarSign className="size-4.5" />
             </span>
-            <span className="text-xl font-bold tracking-tight text-[#0f2017] hidden sm:block">
-              finora
-            </span>
+            <span className="text-xl font-bold tracking-tight text-[#0f2017] hidden sm:block">finora</span>
           </Link>
 
-          {/* Nav */}
           <nav className="hidden md:flex items-center gap-1">
-            {[
-              { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
-              { href: "/courses", icon: BookOpen, label: "Kurslar" },
-              { href: "/tutor", icon: MessageSquareText, label: "AI Tutor" },
-              { href: "/calculators", icon: Calculator, label: "Kalkulyator" },
-              { href: "/progress", icon: Target, label: "Progress" },
-            ].map(({ href, icon: Icon, label }) => (
+            {NAV.map(({ href, icon: Icon, label }) => (
               <Link
                 key={href}
                 href={href}
@@ -88,17 +95,16 @@ export default async function DashboardPage() {
                 {label}
               </Link>
             ))}
+            {profile?.role === "admin" && (
+              <Link href="/admin" className="px-3 py-2 rounded-lg text-sm font-medium text-[#65736d] hover:bg-[#f5f4ee]">
+                Admin
+              </Link>
+            )}
           </nav>
 
-          {/* User */}
           <div className="flex items-center gap-3">
-            <Link
-              href="/profile"
-              className="flex items-center gap-2.5 hover:opacity-80 transition-opacity"
-            >
-              <span className="hidden sm:block text-sm font-semibold text-[#354841]">
-                {displayName}
-              </span>
+            <Link href="/profile" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+              <span className="hidden sm:block text-sm font-semibold text-[#354841]">{displayName}</span>
               <div className="size-9 rounded-full bg-[#163e32] grid place-items-center text-white text-sm font-bold">
                 {initials}
               </div>
@@ -114,27 +120,32 @@ export default async function DashboardPage() {
             </form>
           </div>
         </div>
+        <nav className="md:hidden flex gap-1 overflow-x-auto px-3 pb-2">
+          {NAV.map(({ href, label }) => (
+            <Link key={href} href={href} className="shrink-0 rounded-full border border-[#E2E4DF] px-3 py-1.5 text-xs font-medium text-[#65736d]">
+              {label}
+            </Link>
+          ))}
+        </nav>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
-        {/* Greeting */}
-        <div className="mb-10">
-          <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-2">
-            Xush kelibsiz 👋
-          </p>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-14">
+        <div className="mb-8 sm:mb-10">
+          <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-2">Xush kelibsiz 👋</p>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f2017] tracking-tight">
             Salom, {displayName.split(" ")[0]}!
           </h1>
-          <p className="mt-2 text-[#6B7A74]">O'rganishni davom ettiramizmi?</p>
+          <p className="mt-2 text-[#6B7A74]">
+            {rows.length === 0 ? "Birinchi darsni boshlaymizmi?" : "O'rganishni davom ettiramizmi?"}
+          </p>
         </div>
 
-        {/* Quick stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { label: "Tugatilgan darslar", value: totalLessons.toString(), icon: BookOpen, color: "text-emerald-600" },
-            { label: "Faol kurslar", value: progress.length.toString(), icon: GraduationCap, color: "text-sky-600" },
-            { label: "O'rganish streigi", value: "3 kun", icon: TrendingUp, color: "text-amber-600" },
-            { label: "AI suhbatlar", value: "12", icon: MessageSquareText, color: "text-violet-600" },
+            { label: "Tugatilgan boblar", value: `${rows.length}/${TOTAL_CHAPTERS}`, icon: BookOpen, color: "text-emerald-600" },
+            { label: "Boshlangan kurslar", value: `${startedCourses}/${COURSES.length}`, icon: GraduationCap, color: "text-sky-600" },
+            { label: "O'rganish streigi", value: `${streak} kun`, icon: Flame, color: "text-amber-600" },
+            { label: "AI suhbatlar", value: `${chatCount}`, icon: MessageSquareText, color: "text-violet-600" },
           ].map(({ label, value, icon: Icon, color }) => (
             <div key={label} className="bg-white rounded-2xl p-5 border border-[#E2E4DF]">
               <Icon className={`size-5 ${color} mb-3`} />
@@ -144,49 +155,68 @@ export default async function DashboardPage() {
           ))}
         </div>
 
-        {/* Main grid */}
         <div className="grid lg:grid-cols-3 gap-6">
-          {/* Active course — wide */}
           <div className="lg:col-span-2">
             <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">
-              Faol kurs
+              {rows.length === 0 ? "Tavsiya etilgan kurs" : "Faol kurs"}
             </p>
-            <div className="bg-white rounded-3xl border border-[#E2E4DF] p-7 shadow-sm">
+            <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 sm:p-7 shadow-sm">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
                 <div className="flex-1">
                   <span className="inline-block text-xs font-bold px-3 py-1.5 rounded-full bg-[#dce7dd] text-[#2a5e47] uppercase tracking-wider mb-4">
-                    Joriy daraja
+                    {active.course.level}
                   </span>
-                  <h2 className="text-2xl font-extrabold text-[#0f2017] tracking-tight mb-1">
-                    Shaxsiy budjet: Moliyaviy barqarorlik
-                  </h2>
+                  <h2 className="text-2xl font-extrabold text-[#0f2017] tracking-tight mb-1">{active.course.title}</h2>
                   <p className="text-[#6B7A74] text-sm mb-6">
-                    1-Bob: Moliyaviy rejalashtirishga kirish
+                    {active.nextChapter
+                      ? `Keyingi: ${active.nextChapter.title}`
+                      : "Barcha boblar tugatilgan 🎉"}
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="flex-1 h-2 bg-[#F5F4EE] rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-[#163e32] rounded-full transition-all duration-1000"
-                        style={{ width: "25%" }}
-                      />
+                      <div className="h-full bg-[#163e32] rounded-full transition-all duration-1000" style={{ width: `${active.percent}%` }} />
                     </div>
-                    <span className="text-sm font-bold text-[#354841] shrink-0">25%</span>
+                    <span className="text-sm font-bold text-[#354841] shrink-0">
+                      {active.completed}/{active.total} · {active.percent}%
+                    </span>
                   </div>
                 </div>
                 <Link
-                  href="/study/shaxsiy-budjet/mod-1"
+                  href={continueHref}
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#163e32] text-white font-bold rounded-2xl shadow-lg shadow-[#163e32]/15 hover:bg-[#0e3026] transition-all hover:-translate-y-0.5 shrink-0 text-sm"
                 >
-                  Davom etish
+                  {active.completed === 0 ? "Boshlash" : active.nextChapter ? "Davom etish" : "Ko'rish"}
                   <ArrowRight className="size-4" />
                 </Link>
               </div>
             </div>
 
-            {/* Quick actions */}
-            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4">
-              Tezkor harakatlar
-            </p>
+            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4">Barcha kurslar</p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {COURSES.map((course) => {
+                const cp = courseProgress(rows, course);
+                const href = cp.nextChapter ? `/study/${course.slug}/${cp.nextChapter.id}` : `/courses/${course.slug}`;
+                return (
+                  <Link
+                    key={course.slug}
+                    href={href}
+                    className="group bg-white rounded-2xl border border-[#E2E4DF] p-5 hover:border-[#a7c4b1] hover:shadow-md transition-all"
+                  >
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="text-2xl">{course.emoji}</span>
+                      <span className="text-xs font-bold text-[#354841]">{cp.percent}%</span>
+                    </div>
+                    <p className="text-sm font-bold text-[#0f2017] leading-snug">{course.shortTitle}</p>
+                    <p className="text-xs text-[#6B7A74] mt-1">{cp.completed}/{cp.total} bob</p>
+                    <div className="mt-3 h-1.5 bg-[#F5F4EE] rounded-full overflow-hidden">
+                      <div className="h-full bg-[#4a9e72] rounded-full" style={{ width: `${cp.percent}%` }} />
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+
+            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4">Tezkor harakatlar</p>
             <div className="grid sm:grid-cols-3 gap-4">
               {[
                 { href: "/tutor", icon: MessageSquareText, label: "AI Tutor", desc: "Savol bering", color: "bg-violet-50 text-violet-600" },
@@ -211,21 +241,17 @@ export default async function DashboardPage() {
             </div>
           </div>
 
-          {/* Right column */}
           <div className="space-y-6">
-            {/* Profile card */}
             <div>
-              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">
-                Profil
-              </p>
+              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">Profil</p>
               <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6">
                 <div className="flex items-center gap-4 mb-5">
                   <div className="size-14 rounded-full bg-[#163e32] grid place-items-center text-white text-xl font-bold">
                     {initials}
                   </div>
-                  <div>
-                    <p className="font-bold text-[#0f2017]">{displayName}</p>
-                    <p className="text-xs text-[#6B7A74] mt-0.5">{user.email}</p>
+                  <div className="min-w-0">
+                    <p className="font-bold text-[#0f2017] truncate">{displayName}</p>
+                    <p className="text-xs text-[#6B7A74] mt-0.5 truncate">{user.email}</p>
                   </div>
                 </div>
                 <Link
@@ -238,23 +264,24 @@ export default async function DashboardPage() {
               </div>
             </div>
 
-            {/* Achievement */}
             <div>
-              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">
-                Yutuqlar
-              </p>
+              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">Umumiy yo&apos;l</p>
               <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 text-center">
                 <div className="size-16 mx-auto bg-[#F5F4EE] border border-[#E2E4DF] rounded-full grid place-items-center mb-5">
-                  <span className="text-3xl">🏅</span>
+                  <span className="text-3xl">{overallPercent === 100 ? "🏆" : overallPercent >= 50 ? "🚀" : "🏅"}</span>
                 </div>
-                <h3 className="font-bold text-[#0f2017] mb-2">Tayyorgarlik</h3>
+                <h3 className="font-bold text-[#0f2017] mb-2">
+                  {overallPercent === 100 ? "Barcha kurslar tugatildi!" : overallPercent === 0 ? "Boshlang'ich" : "Yaxshi ketyapsiz"}
+                </h3>
                 <p className="text-sm text-[#6B7A74] leading-relaxed">
-                  Moliyaviy maqsadga yetish uchun yana 3 ta bob qoldi.
+                  {TOTAL_CHAPTERS - rows.length === 0
+                    ? "Endi AI Tutor bilan bilimni mustahkamlang."
+                    : `Barcha kurslarni tugatish uchun yana ${TOTAL_CHAPTERS - rows.length} ta bob qoldi.`}
                 </p>
                 <div className="mt-5 h-1.5 bg-[#F5F4EE] rounded-full overflow-hidden">
-                  <div className="h-full w-[25%] bg-[#163e32] rounded-full" />
+                  <div className="h-full bg-[#163e32] rounded-full" style={{ width: `${overallPercent}%` }} />
                 </div>
-                <p className="mt-2 text-right text-xs text-[#6B7A74]">25% tayyor</p>
+                <p className="mt-2 text-right text-xs text-[#6B7A74]">{overallPercent}% tayyor</p>
               </div>
             </div>
           </div>

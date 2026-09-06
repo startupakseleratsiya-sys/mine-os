@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, CircleDollarSign, BookOpen, Calculator, MessageSquareText, TrendingUp } from "lucide-react";
+import { ArrowLeft, CircleDollarSign } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/dashboard", label: "Dashboard" },
@@ -22,10 +22,8 @@ export function SectionShell({
 }) {
   return (
     <div className="min-h-screen bg-[#f3f1eb] text-[#13251f]">
-      {/* Sticky header */}
       <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]/90 backdrop-blur-xl">
-        <div className="mx-auto flex h-18 max-w-[1120px] items-center justify-between px-4 sm:px-8">
-          {/* Logo */}
+        <div className="mx-auto flex h-16 sm:h-18 max-w-[1120px] items-center justify-between px-4 sm:px-8">
           <Link href="/dashboard" className="flex items-center gap-2.5 shrink-0">
             <span className="grid size-8 place-items-center rounded-full bg-[#163e32] text-white">
               <CircleDollarSign className="size-4" />
@@ -33,7 +31,6 @@ export function SectionShell({
             <span className="font-semibold tracking-tight hidden sm:block">finora</span>
           </Link>
 
-          {/* Center nav (desktop) */}
           <nav className="hidden md:flex items-center gap-1">
             {NAV_ITEMS.map(({ href, label }) => (
               <Link
@@ -46,7 +43,6 @@ export function SectionShell({
             ))}
           </nav>
 
-          {/* Back button */}
           <Link
             href="/dashboard"
             className="inline-flex items-center gap-2 rounded-full border border-[#13251f]/12 bg-white px-4 py-2.5 text-xs font-semibold hover:bg-[#f5f4ee] transition-colors"
@@ -56,20 +52,26 @@ export function SectionShell({
             <span className="sm:hidden">Qaytish</span>
           </Link>
         </div>
+
+        {/* Mobil nav */}
+        <nav className="md:hidden flex gap-1 overflow-x-auto px-3 pb-2 -mt-1">
+          {NAV_ITEMS.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="shrink-0 rounded-full border border-[#13251f]/10 bg-white px-3 py-1.5 text-xs font-medium text-[#65736d]"
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
       </header>
 
-      {/* Main content */}
-      <main className="mx-auto max-w-[1120px] px-4 py-12 sm:px-8 sm:py-20">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#527264]">
-          {eyebrow}
-        </p>
-        <h1 className="mt-4 max-w-3xl text-3xl font-semibold tracking-[-0.04em] sm:text-5xl">
-          {title}
-        </h1>
-        <p className="mt-5 max-w-2xl text-base leading-7 text-[#66736e]">
-          {description}
-        </p>
-        <div className="mt-12">{children}</div>
+      <main className="mx-auto max-w-[1120px] px-4 py-10 sm:px-8 sm:py-20">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#527264]">{eyebrow}</p>
+        <h1 className="mt-4 max-w-3xl text-3xl font-semibold tracking-[-0.04em] sm:text-5xl">{title}</h1>
+        <p className="mt-5 max-w-2xl text-base leading-7 text-[#66736e]">{description}</p>
+        <div className="mt-10 sm:mt-12">{children}</div>
       </main>
     </div>
   );

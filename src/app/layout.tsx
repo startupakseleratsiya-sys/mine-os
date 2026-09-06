@@ -17,25 +17,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-finance-tutor.vercel.app"),
   title: {
     default: "Finora — O'zbek tilida AI Moliya Ustozi",
     template: "%s | Finora",
   },
   description:
-    "CP3P, CFA va ACCA imtihonlariga tayyorlaning. O'zbek tilidagi birinchi AI moliyaviy o'qituvchi bilan moliyaviy savodxonligingizni oshiring.",
+    "Shaxsiy budjet, jamg'arma va investitsiya asoslarini o'zbek tilida o'rganing. AI moliya ustozi, amaliy kurslar va kalkulyatorlar bilan moliyaviy savodxonligingizni oshiring.",
   keywords: [
-    "moliya", "finance", "AI tutor", "CP3P", "CFA", "ACCA",
-    "o'zbek", "moliyaviy savodxonlik", "investitsiya", "budjet",
+    "moliya", "finance", "AI tutor", "moliyaviy savodxonlik",
+    "o'zbek", "investitsiya", "budjet", "jamg'arma", "kredit kalkulyatori",
   ],
   authors: [{ name: "Finora" }],
   creator: "Finora",
   openGraph: {
     type: "website",
     locale: "uz_UZ",
-    url: "https://finora.uz",
     title: "Finora — O'zbek tilida AI Moliya Ustozi",
     description:
-      "CP3P, CFA va ACCA imtihonlariga tayyorlaning. O'zbek tilidagi birinchi AI moliyaviy o'qituvchi.",
+      "Shaxsiy budjet, jamg'arma va investitsiya asoslari. O'zbek tilidagi AI moliyaviy o'qituvchi.",
     siteName: "Finora",
   },
   twitter: {

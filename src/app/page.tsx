@@ -20,6 +20,7 @@ import {
   Zap,
 } from "lucide-react";
 import dynamic from "next/dynamic";
+import { COURSES as COURSE_CONTENT, TOTAL_CHAPTERS, courseMinutes, formatMinutes } from "@/content/courses";
 
 const FinanceScene = dynamic(
   () => import("@/components/3d/finance-scene").then((m) => m.FinanceScene),
@@ -35,10 +36,10 @@ const NAV_LINKS = [
 ];
 
 const STATS = [
-  { value: "12,000+", label: "Faol o'quvchilar" },
-  { value: "98%", label: "Muvaffaqiyat darajasi" },
-  { value: "4.9★", label: "Foydalanuvchi bahosi" },
-  { value: "50+", label: "Dars mavzulari" },
+  { value: `${COURSE_CONTENT.length}`, label: "Amaliy kurs" },
+  { value: `${TOTAL_CHAPTERS}`, label: "Dars bobi" },
+  { value: "4", label: "Moliyaviy kalkulyator" },
+  { value: "24/7", label: "AI ustoz" },
 ];
 
 const FEATURES = [
@@ -51,8 +52,8 @@ const FEATURES = [
   {
     icon: GraduationCap,
     color: "bg-emerald-50 text-emerald-600",
-    title: "Sertifikat Kurslari",
-    desc: "CP3P, CFA va ACCA imtihonlariga moslashtirilgan bosqichma-bosqich dastur.",
+    title: "Amaliy Kurslar",
+    desc: "Shaxsiy budjet, jamg'arma va investitsiya bo'yicha bosqichma-bosqich, topshiriqli darslar.",
   },
   {
     icon: Calculator,
@@ -80,38 +81,22 @@ const FEATURES = [
   },
 ];
 
-const COURSES = [
-  {
-    emoji: "📚",
-    tag: "Eng mashhur",
-    tagColor: "bg-[#dce7dd] text-[#2a5e47]",
-    title: "CP3P Foundation",
-    desc: "Davlat-Xususiy Sheriklik asoslari. O'zbekiston bozorida eng talab qilinadigan sertifikat.",
-    lessons: 24,
-    hours: "8 soat",
-    level: "Boshlang'ich",
-  },
-  {
-    emoji: "📊",
-    tag: "Tez kunda",
-    tagColor: "bg-amber-50 text-amber-700",
-    title: "CFA Level 1",
-    desc: "Xalqaro moliya tahlilchisi sertifikati uchun to'liq tayyorgarlik dasturi.",
-    lessons: 48,
-    hours: "20 soat",
-    level: "O'rta",
-  },
-  {
-    emoji: "🏦",
-    tag: "Tez kunda",
-    tagColor: "bg-amber-50 text-amber-700",
-    title: "ACCA Fundamentals",
-    desc: "Xalqaro buxgalteriya va moliya professional sertifikati.",
-    lessons: 36,
-    hours: "15 soat",
-    level: "O'rta",
-  },
-];
+const COURSES = COURSE_CONTENT.map((c) => ({
+  slug: c.slug,
+  emoji: c.emoji,
+  tag: c.tag === "top" ? "Eng mashhur" : c.tag === "new" ? "Yangi" : "Bepul",
+  tagColor:
+    c.tag === "top"
+      ? "bg-[#dce7dd] text-[#2a5e47]"
+      : c.tag === "new"
+        ? "bg-violet-50 text-violet-700"
+        : "bg-amber-50 text-amber-700",
+  title: c.shortTitle,
+  desc: c.description,
+  lessons: c.chapters.length,
+  hours: formatMinutes(courseMinutes(c)),
+  level: c.level,
+}));
 
 /* ── Sub-components ── */
 function Navbar({ mobileOpen, setMobileOpen }: { mobileOpen: boolean; setMobileOpen: (v: boolean) => void }) {
@@ -259,7 +244,7 @@ function HeroSection() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#4a9e72] opacity-75" />
                 <span className="relative inline-flex rounded-full size-2.5 bg-[#163e32]" />
               </span>
-              CP3P kursi endi o'zbek tilida mavjud
+              {COURSE_CONTENT.length} ta kurs, {TOTAL_CHAPTERS} bob — hammasi o'zbek tilida, bepul
             </motion.div>
 
             {/* Headline */}
@@ -290,7 +275,7 @@ function HeroSection() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg sm:text-xl text-[#6B7A74] mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium"
             >
-              CP3P, CFA va ACCA imtihonlariga tayyorlaning. O'zbek tilidagi birinchi
+              Shaxsiy budjet, jamg'arma va investitsiya asoslarini o'zbek tilidagi
               AI moliya ustozi bilan tushunib o'rganing.
             </motion.p>
 
@@ -333,7 +318,7 @@ function HeroSection() {
                 ))}
               </div>
               <p className="text-sm text-[#6B7A74] font-medium">
-                <span className="font-bold text-[#0f2017]">12,000+</span> o'quvchi qo'shilgan
+                <span className="font-bold text-[#0f2017]">Bepul</span> — karta kerak emas
               </p>
             </motion.div>
           </motion.div>
@@ -358,11 +343,11 @@ function HeroSection() {
               transition={{ delay: 1, duration: 0.6 }}
               className="absolute -left-4 sm:-left-8 top-1/4 glass-card rounded-2xl px-4 py-3 shadow-xl"
             >
-              <p className="text-xs text-[#6B7A74] font-medium">Haftalik o'sish</p>
-              <p className="text-2xl font-bold text-[#0f2017]">+24%</p>
+              <p className="text-xs text-[#6B7A74] font-medium">Murakkab foiz</p>
+              <p className="text-2xl font-bold text-[#0f2017]">×16</p>
               <div className="mt-1 flex items-center gap-1">
                 <TrendingUp className="size-3.5 text-emerald-500" />
-                <span className="text-[10px] text-emerald-600 font-semibold">Yuqoriga qarab</span>
+                <span className="text-[10px] text-emerald-600 font-semibold">20 yilda, 15% da</span>
               </div>
             </motion.div>
 
@@ -373,8 +358,8 @@ function HeroSection() {
               className="absolute -right-4 sm:-right-8 bottom-1/4 glass-card rounded-2xl px-4 py-3 shadow-xl"
             >
               <p className="text-xs text-[#6B7A74] font-medium">AI suhbat</p>
-              <p className="text-2xl font-bold text-[#0f2017]">2.4K</p>
-              <p className="text-[10px] text-[#6B7A74] mt-0.5">bugungi javoblar</p>
+              <p className="text-2xl font-bold text-[#0f2017]">24/7</p>
+              <p className="text-[10px] text-[#6B7A74] mt-0.5">o'zbek tilida javob</p>
             </motion.div>
 
             <motion.div
@@ -387,8 +372,8 @@ function HeroSection() {
                 <Users className="size-4 text-[#163e32]" />
               </div>
               <div>
-                <p className="text-xs font-semibold text-[#0f2017]">Faol o'quvchilar</p>
-                <p className="text-[10px] text-[#6B7A74]">hozir online: 342</p>
+                <p className="text-xs font-semibold text-[#0f2017]">50/30/20 qoidasi</p>
+                <p className="text-[10px] text-[#6B7A74]">2-bobda amaliy misol bilan</p>
               </div>
               <div className="size-2.5 rounded-full bg-emerald-400 animate-ping-slow ml-1" />
             </motion.div>
@@ -516,13 +501,13 @@ function CoursesPreview() {
         <div className="grid lg:grid-cols-3 gap-6">
           {COURSES.map((course, i) => (
             <motion.div
-              key={course.title}
+              key={course.slug}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               whileHover={{ y: -6 }}
-              className="group rounded-3xl border-2 border-[#E2E4DF] p-7 hover:border-[#a7c4b1] hover:shadow-xl transition-all cursor-pointer"
+              className="group rounded-3xl border-2 border-[#E2E4DF] p-7 hover:border-[#a7c4b1] hover:shadow-xl transition-all"
             >
               <div className="flex items-start justify-between mb-6">
                 <span className="text-4xl">{course.emoji}</span>
@@ -542,12 +527,15 @@ function CoursesPreview() {
                   {course.level}
                 </span>
               </div>
-              <div className="flex items-center justify-between pt-5 border-t border-[#E2E4DF]">
+              <Link
+                href={`/courses/${course.slug}`}
+                className="flex items-center justify-between pt-5 border-t border-[#E2E4DF]"
+              >
                 <span className="text-sm font-bold text-[#163e32] group-hover:text-[#0e3026]">
-                  {i === 0 ? "Hozir boshlash" : "Tez kunda..."}
+                  Kursni ko'rish
                 </span>
                 <ArrowRight className="size-4 text-[#163e32] group-hover:translate-x-1 transition-transform" />
-              </div>
+              </Link>
             </motion.div>
           ))}
         </div>

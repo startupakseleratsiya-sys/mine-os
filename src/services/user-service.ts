@@ -1,5 +1,12 @@
 import { createClient } from "@/lib/supabase-server";
 
+export type Profile = {
+  id: string;
+  full_name: string | null;
+  role: "user" | "admin";
+  created_at: string;
+};
+
 export async function getCurrentUser() {
   const supabase = await createClient();
   const {
@@ -8,37 +15,28 @@ export async function getCurrentUser() {
   return user;
 }
 
-export async function getProfile(userId: string) {
+/** Profil qatori. Yo'q bo'lsa (yoki baza sozlanmagan bo'lsa) null — sahifa yiqilmaydi. */
+export async function getProfile(userId: string): Promise<Profile | null> {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("users")
-    .select("*")
+    .select("id, full_name, role, created_at")
     .eq("id", userId)
-    .single();
-  if (error) return null;
-  return data;
+    .maybeSingle();
+  if (error) {
+    console.error("Profil o'qishda xato:", error.message);
+    return null;
+  }
+  return data as Profile | null;
 }
 
-export async function updateProfile(
-  userId: string,
-  updates: { full_name?: string }
-) {
+/** Foydalanuvchining AI suhbatlari soni. */
+export async function getChatSessionCount(userId: string): Promise<number> {
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("users")
-    .update(updates)
-    .eq("id", userId)
-    .select()
-    .single();
-  return { data, error };
-}
-
-export async function getUserProgress(userId: string) {
-  const supabase = await createClient();
-  const { data } = await supabase
-    .from("user_progress")
-    .select("*, courses(*)")
-    .eq("user_id", userId)
-    .order("last_accessed", { ascending: false });
-  return data ?? [];
+  const { count, error } = await supabase
+    .from("chat_sessions")
+    .select("id", { count: "exact", head: true })
+    .eq("user_id", userId);
+  if (error) return 0;
+  return count ?? 0;
 }

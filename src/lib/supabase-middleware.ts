@@ -1,71 +1,90 @@
-import { createServerClient } from '@supabase/ssr'
-import { NextResponse, type NextRequest } from 'next/server'
+import { createServerClient } from "@supabase/ssr";
+import { NextResponse, type NextRequest } from "next/server";
 
+/** Kirish talab qiladigan yo'llar (prefiks). */
+export const PROTECTED_PATHS = [
+  "/dashboard",
+  "/progress",
+  "/tutor",
+  "/calculators",
+  "/profile",
+  "/study",
+  "/onboarding",
+  "/admin",
+];
+
+/** Kirgan foydalanuvchi ko'rmasligi kerak bo'lgan sahifalar. */
+export const AUTH_PATHS = ["/sign-in", "/sign-up"];
+
+/**
+ * Supabase sessiyasini yangilaydi va yo'naltirishlarni bajaradi.
+ * Muhim: redirect javobiga ham yangilangan cookie'lar ko'chiriladi, aks holda
+ * yangilangan token yo'qolib, foydalanuvchi "chiqib ketgan"dek bo'lib qoladi.
+ */
 export async function updateSession(request: NextRequest) {
-  let supabaseResponse = NextResponse.next({
-    request,
-  })
+  let supabaseResponse = NextResponse.next({ request });
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    console.warn('Supabase environment variables missing. Bypassing authentication middleware.')
-    return supabaseResponse
+    console.warn("Supabase env o'zgaruvchilari yo'q. Auth proxy o'tkazib yuborildi.");
+    return supabaseResponse;
   }
 
-  const supabase = createServerClient(
-    supabaseUrl,
-    supabaseAnonKey,
-    {
-      cookies: {
-        getAll() {
-          return request.cookies.getAll()
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => request.cookies.set(name, value))
-          supabaseResponse = NextResponse.next({
-            request,
-          })
-          cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options)
-          )
-        },
+  const supabase = createServerClient(supabaseUrl, supabaseAnonKey, {
+    cookies: {
+      getAll() {
+        return request.cookies.getAll();
       },
-    }
-  )
+      setAll(cookiesToSet) {
+        cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value));
+        supabaseResponse = NextResponse.next({ request });
+        cookiesToSet.forEach(({ name, value, options }) =>
+          supabaseResponse.cookies.set(name, value, options)
+        );
+      },
+    },
+  });
 
-  // Fetch the user session
-  const { data: { user } } = await supabase.auth.getUser()
+  // getUser() — tokenni serverda tekshiradi (getSession'dan farqli).
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-  // Protect Admin routes
-  if (request.nextUrl.pathname.startsWith('/admin')) {
-    if (!user) {
-      return NextResponse.redirect(new URL('/sign-in', request.url))
-    }
-    const { data: profile } = await supabase.from('users').select('role').eq('id', user.id).single()
-    if (profile?.role !== 'admin') {
-      return NextResponse.redirect(new URL('/dashboard', request.url))
+  const { pathname, search } = request.nextUrl;
+
+  const redirectWithCookies = (to: string) => {
+    const url = request.nextUrl.clone();
+    url.pathname = to;
+    url.search = "";
+    const redirect = NextResponse.redirect(url);
+    supabaseResponse.cookies.getAll().forEach((c) => redirect.cookies.set(c));
+    return redirect;
+  };
+
+  const isProtected = PROTECTED_PATHS.some((p) => pathname === p || pathname.startsWith(p + "/"));
+  const isAuthPage = AUTH_PATHS.some((p) => pathname === p || pathname.startsWith(p + "/"));
+
+  if (!user && isProtected) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/sign-in";
+    url.search = `?next=${encodeURIComponent(pathname + search)}`;
+    const redirect = NextResponse.redirect(url);
+    supabaseResponse.cookies.getAll().forEach((c) => redirect.cookies.set(c));
+    return redirect;
+  }
+
+  if (user && isAuthPage) {
+    return redirectWithCookies("/dashboard");
+  }
+
+  if (user && pathname.startsWith("/admin")) {
+    const { data: profile } = await supabase.from("users").select("role").eq("id", user.id).maybeSingle();
+    if (profile?.role !== "admin") {
+      return redirectWithCookies("/dashboard");
     }
   }
 
-  // Protect authenticated routes
-  const PROTECTED_PATHS = [
-    '/dashboard',
-    '/progress',
-    '/tutor',
-    '/calculators',
-    '/profile',
-  ]
-  if (!user && PROTECTED_PATHS.some((p) => request.nextUrl.pathname.startsWith(p))) {
-    return NextResponse.redirect(new URL('/sign-in', request.url))
-  }
-
-  // Redirect logged-in users away from auth pages
-  const AUTH_PATHS = ['/sign-in', '/sign-up']
-  if (user && AUTH_PATHS.some((p) => request.nextUrl.pathname.startsWith(p))) {
-    return NextResponse.redirect(new URL('/dashboard', request.url))
-  }
-
-  return supabaseResponse
+  return supabaseResponse;
 }

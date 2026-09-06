@@ -5,6 +5,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, Environment, MeshTransmissionMaterial } from "@react-three/drei";
 import { Suspense } from "react";
 import * as THREE from "three";
+import { ErrorBoundary } from "@/components/error-boundary";
 
 /* ── Floating gold coin ── */
 function Coin() {
@@ -265,34 +266,37 @@ function SceneFallback() {
 }
 
 /* ── Main exported component ── */
+// ErrorBoundary: WebGL yo'q yoki HDR (Environment) yuklanmasa butun landing yiqilmasin.
 export function FinanceScene({ className = "" }: { className?: string }) {
   return (
     <div className={`w-full h-full ${className}`}>
-      <Canvas
-        camera={{ position: [0, 0, 7], fov: 45 }}
-        gl={{ antialias: true, alpha: true }}
-        dpr={[1, 2]}
-      >
-        <Suspense fallback={null}>
-          <ambientLight intensity={0.8} />
-          <directionalLight
-            position={[5, 8, 5]}
-            intensity={2}
-            color="#ffffff"
-            castShadow
-          />
-          <pointLight position={[-4, -4, 3]} intensity={1.5} color="#4a9e72" />
-          <pointLight position={[4, 4, -3]} intensity={1} color="#c8952a" />
+      <ErrorBoundary fallback={<SceneFallback />}>
+        <Canvas
+          camera={{ position: [0, 0, 7], fov: 45 }}
+          gl={{ antialias: true, alpha: true }}
+          dpr={[1, 2]}
+        >
+          <Suspense fallback={null}>
+            <ambientLight intensity={0.8} />
+            <directionalLight
+              position={[5, 8, 5]}
+              intensity={2}
+              color="#ffffff"
+              castShadow
+            />
+            <pointLight position={[-4, -4, 3]} intensity={1.5} color="#4a9e72" />
+            <pointLight position={[4, 4, -3]} intensity={1} color="#c8952a" />
 
-          <GlassSphere />
-          <Coin />
-          <OrbitRings />
-          <MiniCoins />
-          <Particles count={50} />
+            <GlassSphere />
+            <Coin />
+            <OrbitRings />
+            <MiniCoins />
+            <Particles count={50} />
 
-          <Environment preset="city" />
-        </Suspense>
-      </Canvas>
+            <Environment preset="city" />
+          </Suspense>
+        </Canvas>
+      </ErrorBoundary>
     </div>
   );
 }
