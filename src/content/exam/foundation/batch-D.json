@@ -1,0 +1,882 @@
+[
+  {
+    "id": "D-001",
+    "section": "6.1",
+    "topic": "ppp-project-structure",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes what the PPP Guide means by the 'project structure' of a PPP?",
+    "options": [
+      "The architecture of contract relationships and cash flows that govern the project's development and life",
+      "The physical design and engineering layout of the infrastructure asset to be built",
+      "The internal organisation chart of the procuring authority's PPP unit and its advisors",
+      "The sequence of approval gateways that the project passes through before the tender"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide defines the project structure as the architecture of contract relationships and cash flows governing the development and life of the project.",
+      "Incorrect. The technical design of the asset is part of the scope, not the definition of the project structure.",
+      "Incorrect. The authority's internal organisation is a governance matter, not the project structure.",
+      "Incorrect. Gateway approvals describe the process cycle, not the contractual and cash-flow architecture of the project."
+    ],
+    "ref": "Ch 1 §6.1, p. 79"
+  },
+  {
+    "id": "D-002",
+    "section": "6.1",
+    "topic": "ppp-project-structure",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: The core element of the project structure is the PPP contract between the authority and the private partner, which is also referred to as the '______ contract'.",
+    "options": [
+      "downstream",
+      "upstream",
+      "off-take",
+      "back-to-back"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Downstream contracts are those the SPV signs with its contractors, lenders and other private actors.",
+      "Correct. The Guide calls the PPP contract between the authority and the private partner the 'upstream contract'.",
+      "Incorrect. An off-take agreement is a possible link with a third-party public body, not the name of the core PPP contract.",
+      "Incorrect. 'Back-to-back' describes downstream contracts that mirror the PPP contract, not the PPP contract itself."
+    ],
+    "ref": "Ch 1 §6.1, p. 79"
+  },
+  {
+    "id": "D-003",
+    "section": "6.1",
+    "topic": "ppp-project-structure",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why are the SPV's downstream project contracts often described as 'back-to-back' contracts?",
+    "options": [
+      "They must be signed on the same day as the PPP contract with the authority",
+      "They are signed directly between the procuring authority and the lenders",
+      "They commit the government to back the SPV's debt if the project fails",
+      "They mirror the obligations and risks of the PPP contract and pass them on"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. 'Back-to-back' refers to mirroring the PPP contract's obligations and risks, not to timing; the Guide describes downstream contracts being entered into after contract signature.",
+      "Incorrect. Contracts between the authority and lenders are direct agreements, not downstream contracts of the SPV.",
+      "Incorrect. Downstream contracts are handled by the private partner and do not create government guarantees of the SPV's debt.",
+      "Correct. Downstream contracts are called back-to-back because they are intended to mirror the obligations and risks in the PPP contract, passing them to other private actors."
+    ],
+    "ref": "Ch 1 §6.1, p. 79"
+  },
+  {
+    "id": "D-004",
+    "section": "6.1",
+    "topic": "ppp-project-structure",
+    "level": 1,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the shareholders of an SPV: 1. The construction/EPC and O&M contractors, or related investment companies, are often also shareholders of the SPV. 2. As a general rule, a company must be a shareholder of the SPV in order to act as one of its contractors.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Contractors are often SPV shareholders, but the Guide says it is not generally necessary to be a shareholder to act as a contractor.",
+      "Incorrect. Statement 2 is false: being a shareholder is not generally required to act as a contractor, although some governments may require it.",
+      "Incorrect. Only statement 1 is supported by the Guide; statement 2 contradicts it.",
+      "Incorrect. Statement 1 is true: construction and O&M contractors are often shareholders of the SPV."
+    ],
+    "ref": "Ch 1 §6.1, p. 80"
+  },
+  {
+    "id": "D-005",
+    "section": "6.1.1",
+    "topic": "spv-and-contract-signing",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: The signing of the PPP contract between the SPV and the procuring authority is also referred to as '______'.",
+    "options": [
+      "financial close",
+      "hand-back",
+      "commercial close",
+      "commissioning"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Financial close refers to the SPV entering into the financing (loan) agreements.",
+      "Incorrect. Hand-back is the return of the asset to the government when the contract expires.",
+      "Correct. The Guide says contract signature is also referred to as commercial close (or commercial closing).",
+      "Incorrect. Commissioning happens when the works are completed and approved to start operations."
+    ],
+    "ref": "Ch 1 §6.1.1, p. 81"
+  },
+  {
+    "id": "D-006",
+    "section": "6.1.2",
+    "topic": "spv-and-contract-signing",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the milestone that the PPP Guide calls 'financial close'?",
+    "options": [
+      "The award of the contract to the preferred bidder",
+      "The SPV entering into the loan agreements with its lenders",
+      "The final repayment of the senior debt of the project",
+      "The first availability payment made by the authority"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Award comes before the SPV signs the contract and is not financial close.",
+      "Correct. The Guide describes the SPV entering into the financing agreements (loan agreements) as financial close.",
+      "Incorrect. Final debt repayment happens at the end of the loan life, not at financial close.",
+      "Incorrect. Payments from the authority start only once operations begin, well after financial close."
+    ],
+    "ref": "Ch 1 §6.1.2, p. 81"
+  },
+  {
+    "id": "D-007",
+    "section": "6.1.1",
+    "topic": "spv-and-contract-signing",
+    "level": 2,
+    "style": "applied",
+    "stem": "A consortium of companies wins the tender for a DBFOM hospital project. According to the typical sequence in the PPP Guide, what normally happens next?",
+    "options": [
+      "The consortium members sign the PPP contract individually and create an SPV later",
+      "The lenders create an SPV and sign the PPP contract for the consortium",
+      "The procuring authority creates an SPV and transfers its shares to the consortium",
+      "The consortium creates an SPV, and the SPV signs the PPP contract with the authority"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says the SPV is formed after award but before signature, and it is the SPV that signs the contract.",
+      "Incorrect. Lenders provide finance to the SPV; they do not create it or sign the PPP contract.",
+      "Incorrect. In the typical structure all equity comes from the private consortium, which creates the SPV itself.",
+      "Correct. After award the consortium establishes the SPV, which then signs the contract with the procuring authority."
+    ],
+    "ref": "Ch 1 §6.1.1, p. 81"
+  },
+  {
+    "id": "D-008",
+    "section": "6.1.2",
+    "topic": "ppp-project-structure",
+    "level": 2,
+    "style": "applied",
+    "stem": "The SPV of a light rail PPP signs separate contracts with different contractor groups for civil works, tracks, systems and rolling stock, instead of one contract with a single group. Who keeps the risk of integrating all the elements of the system?",
+    "options": [
+      "The SPV",
+      "The civil works contractor",
+      "The procuring authority",
+      "The lenders to the project"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide explains that with separate contracts the integration risk is retained by the SPV.",
+      "Incorrect. The civil works contractor is responsible only for its own package, not for integrating the whole system.",
+      "Incorrect. The integration risk is part of the private partner's scope under the PPP contract, not retained by the authority.",
+      "Incorrect. Lenders finance the project but do not take on the integration risk of construction packages."
+    ],
+    "ref": "Ch 1 §6.1.2, p. 82"
+  },
+  {
+    "id": "D-009",
+    "section": "6.1.3",
+    "topic": "construction-phase",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes 'conditions precedent' (CPs) as used in the construction start of a PPP project?",
+    "options": [
+      "Penalties the SPV pays if construction finishes later than planned",
+      "Conditions the asset must meet when it is handed back to the government",
+      "Preset conditions that must be met before construction starts, such as land availability or permit clearance",
+      "Performance standards used to calculate payment deductions during operations"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Delay penalties are liquidated damages, not conditions precedent.",
+      "Incorrect. Hand-back conditions apply at contract expiry, not before construction starts.",
+      "Correct. CPs are preset conditions to be met before construction starts; some are the authority's responsibility (e.g. land) and some are lender requirements (e.g. permits).",
+      "Incorrect. Performance standards for deductions belong to the payment mechanism during operations."
+    ],
+    "ref": "Ch 1 §6.1.3, p. 82"
+  },
+  {
+    "id": "D-010",
+    "section": "6.1.3",
+    "topic": "construction-phase",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about payments during construction: 1. In a typical PPP fully financed by the private sector, the private partner receives no payment from the government or users until the works are completed and commissioned. 2. In co-financing schemes, the public partner may make payments during or at the completion of construction.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: co-financing schemes can include public payments during or at completion of construction.",
+      "Incorrect. Statement 1 is also true for the typical, fully privately financed PPP.",
+      "Correct. The Guide supports both: no payments before commissioning in the typical structure, and possible public payments during construction in co-financing schemes.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §6.1.3, p. 83"
+  },
+  {
+    "id": "D-011",
+    "section": "6.1.4",
+    "topic": "operations-cashflow",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the cashflow waterfall described in the PPP Guide, which item does the SPV pay FIRST from the funds it collects?",
+    "options": [
+      "O&M costs, typically the payments due to the O&M contractors",
+      "Interest and principal due on the senior debt",
+      "Taxes and the reserves required by law and the contract",
+      "Distributions to the equity holders of the SPV"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says the SPV first offsets O&M costs, which usually correspond to payments due to O&M contractors.",
+      "Incorrect. Debt service comes after O&M costs, taxes and reserves.",
+      "Incorrect. Taxes and reserves come second, after O&M costs.",
+      "Incorrect. Equity distributions come last, only after all other obligations are met."
+    ],
+    "ref": "Ch 1 §6.1.4, p. 83"
+  },
+  {
+    "id": "D-012",
+    "section": "6.1.6",
+    "topic": "hand-back",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes 'hand-back' in a PPP contract?",
+    "options": [
+      "The transfer of the SPV's shares from the consortium to new equity investors",
+      "The return of unused loan amounts by the SPV to the lenders",
+      "The early termination of the contract because of private partner default",
+      "The return of the infrastructure to the government when the contract expires"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. An equity transfer changes the SPV's owners; it is not hand-back.",
+      "Incorrect. Repaying lenders is part of debt service, not hand-back.",
+      "Incorrect. Early termination ends the contract before its term; hand-back refers to the asset returning to public hands, typically at expiry.",
+      "Correct. Hand-back is the handover of the asset to public hands when the contract expires."
+    ],
+    "ref": "Ch 1 §6.1.6, p. 84"
+  },
+  {
+    "id": "D-013",
+    "section": "6.1.6",
+    "topic": "hand-back",
+    "level": 1,
+    "style": "two-statement",
+    "stem": "Consider the following statements about hand-back: 1. It is good practice to require the private partner to hand back the infrastructure in a specified condition. 2. Because the contract sets the hand-back condition, the public partner does not need to assess the asset's condition before hand-back.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Requiring a specified hand-back condition is good practice, and the Guide says a condition assessment by the public partner is critically important.",
+      "Incorrect. Statement 2 is false: the Guide stresses that the public partner must complete a condition assessment.",
+      "Incorrect. Only statement 1 is supported by the Guide.",
+      "Incorrect. Statement 1 is true: a specified hand-back condition is good practice."
+    ],
+    "ref": "Ch 1 §6.1.6, p. 84"
+  },
+  {
+    "id": "D-014",
+    "section": "6.1",
+    "topic": "spv-and-contract-signing",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is a benefit of creating an SPV from the point of view of the public party?",
+    "options": [
+      "Its private partner is dedicated only to the specific PPP contract",
+      "It can share in the profits of the SPV's other projects",
+      "The SPV's debt is recorded on the government's balance sheet",
+      "The lenders guarantee the SPV's service performance to the authority"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says the public party benefits because its partner is dedicated only to the specific PPP contract.",
+      "Incorrect. The SPV is commonly prohibited from developing other projects, so there are no other projects to share in.",
+      "Incorrect. SPV finance is described as off balance sheet from the equity investors' side; it is not a benefit of putting debt on the government's books.",
+      "Incorrect. Lenders provide finance; they do not guarantee the SPV's service performance."
+    ],
+    "ref": "Ch 1 §6.1 (Box 1.21), p. 85"
+  },
+  {
+    "id": "D-015",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In a government-pays PPP, which describes the 'payment mechanism'?",
+    "options": [
+      "The schedule by which the SPV repays its lenders",
+      "The means of compensating the private partner, with most revenue linked to performance",
+      "The system of bid bonds and guarantees provided during the tender",
+      "The tariff that users pay directly to the private partner for each use"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The debt repayment profile is set in the financial agreements, not in the payment mechanism.",
+      "Correct. The Guide says that in government-pays PPPs most revenue should be linked to performance, and the means of compensating the private partner is the payment mechanism.",
+      "Incorrect. Bid bonds and guarantees are security instruments, not the way the private partner is paid.",
+      "Incorrect. User charges are the revenue of user-pays PPPs, and the Guide prefers not to call these a payment mechanism."
+    ],
+    "ref": "Ch 1 §6.2, p. 86"
+  },
+  {
+    "id": "D-016",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about how the PPP Guide uses the term 'payment mechanism': 1. The Guide prefers to use it for all user charges collected in pure user-pays PPPs. 2. The Guide treats penalties and liquidated damages for contract breaches as part of the payment mechanism.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide uses the term only for government-pays PPPs or user-pays PPPs with a clear component of public payments.",
+      "Incorrect. Statement 2 is false: the Guide treats penalties and liquidated damages as a separate penalty system.",
+      "Incorrect. Both statements are false: the Guide limits the term to cases with public payments and treats penalties and LDs as a separate penalty system.",
+      "Correct. The Guide limits the term to cases with public payments and treats penalties as a separate penalty system, so both statements are false."
+    ],
+    "ref": "Ch 1 §6.2, p. 86"
+  },
+  {
+    "id": "D-017",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is the reason the PPP Guide gives for starting payments in a government-pays PPP only once the asset is operational?",
+    "options": [
+      "Government budgets are usually approved only after construction is completed",
+      "Lenders do not allow the SPV to receive revenue during construction",
+      "Construction risk, including time, is transferred, and the asset creates value only once in service",
+      "Payments during construction would make the contract a traditional public works contract"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide links payment timing to risk transfer and value creation, not to budget approval dates.",
+      "Incorrect. The Guide does not say lenders forbid construction-period revenue; co-financing can include such payments.",
+      "Correct. A PPP transfers construction risk, including time, and the asset only generates value for users once it is in service.",
+      "Incorrect. The Guide recognises co-financing schemes with payments during construction that are still PPPs."
+    ],
+    "ref": "Ch 1 §6.2, p. 86"
+  },
+  {
+    "id": "D-018",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: In PPPs, payments are made for ______ and not for means (inputs).",
+    "options": [
+      "costs incurred",
+      "construction milestones",
+      "staff time spent",
+      "results (outcomes)"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says payments are not granted as the private partner incurs costs.",
+      "Incorrect. PPP payments depend on the service meeting the output specifications once the asset is operational, not on construction progress.",
+      "Incorrect. Staff time is an input, which is exactly what PPP payments are not based on.",
+      "Correct. The Guide states that PPP payments are for results (outcomes), depending on meeting the output specifications."
+    ],
+    "ref": "Ch 1 §6.2, p. 86"
+  },
+  {
+    "id": "D-019",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In availability payments, which describes 'deemed availability'?",
+    "options": [
+      "Meeting the level of service set in the contract, such as no more than one lane closed",
+      "The actual ability of a user to use the asset under reasonable safety conditions",
+      "The number of users or volume of output delivered by the asset in a period",
+      "The condition in which the asset must be returned at the end of the contract"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Deemed availability refers to achieving the level of service established in the contract.",
+      "Incorrect. This describes 'availability to use', the other meaning of availability.",
+      "Incorrect. Payments based on users or output volume are volume payments, not availability.",
+      "Incorrect. The return condition of the asset is a hand-back requirement."
+    ],
+    "ref": "Ch 1 §6.2, p. 87"
+  },
+  {
+    "id": "D-020",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government procures a hospital PPP in which the private partner provides the building and facility management, while clinical services stay public. Under the PPP Guide, which payment mechanism is most suitable?",
+    "options": [
+      "Volume payments per patient treated in the hospital",
+      "Availability payments linked to functionality and quality standards",
+      "User charges collected directly from patients by the SPV",
+      "Shadow payments based on the number of hospital visits"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide says the government should not be interested in higher demand for clinical services, so paying per patient misaligns interests.",
+      "Correct. The Guide's hospital example says the government is interested in the facility's availability and quality (comfort, space, safety, cleanliness).",
+      "Incorrect. The scenario is a government-pays hospital with public clinical services; the Guide's hospital example points to availability payments, not charges collected from patients.",
+      "Incorrect. Payments by number of visits are volume-based and would reward higher demand, which is not the government's goal here."
+    ],
+    "ref": "Ch 1 §6.2, p. 87"
+  },
+  {
+    "id": "D-021",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is an example of a volume payment as described in the PPP Guide?",
+    "options": [
+      "A deduction when one lane of a road is closed beyond the allowed limit",
+      "A fixed monthly payment for keeping a school building maintained",
+      "A shadow toll paid per vehicle on a toll-free highway",
+      "A fee paid for keeping hospital wards clean and safe"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Deductions for lane closures belong to an availability payment mechanism.",
+      "Incorrect. A fixed payment for maintaining a building is availability-based, not linked to volume.",
+      "Correct. The Guide gives a shadow toll on a toll-free highway as an example of payment linked to the number of users.",
+      "Incorrect. Payments for cleanliness and safety relate to quality or availability, not volume."
+    ],
+    "ref": "Ch 1 §6.2, p. 87"
+  },
+  {
+    "id": "D-022",
+    "section": "6.2",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is the reason some user-pays PPPs include minimum service or quality requirements backed by penalties?",
+    "options": [
+      "User revenue gives the private party no incentive to keep the asset available",
+      "Users are legally required to pay only if quality standards are certified",
+      "Lenders require penalties so that the SPV can repay its debt more quickly",
+      "User revenue encourages availability but gives weak incentives for quality that does not affect demand"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says user revenue gives a strong incentive to keep the infrastructure available.",
+      "Incorrect. The Guide does not link users' obligation to pay to certified quality standards.",
+      "Incorrect. Penalties reduce SPV revenue; they are not a lender tool to speed up debt repayment.",
+      "Correct. The Guide notes that user-pays PPPs encourage availability, but quality issues that do not affect demand (e.g. litter on a toll road) need separate requirements."
+    ],
+    "ref": "Ch 1 §6.2, p. 87"
+  },
+  {
+    "id": "D-023",
+    "section": "6.3",
+    "topic": "scope-variations",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT one of the health PPP scopes described in the PPP Guide?",
+    "options": [
+      "Permanent sale of existing public hospitals to private owners",
+      "Integrated delivery of the hospital, facility management and clinical services",
+      "Only infrastructure provision and maintenance, with clinical services kept public",
+      "Only the provision of medical equipment"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. A permanent sale of public hospitals would be privatization, which is not listed as a health PPP scope.",
+      "Incorrect. The Guide lists the integrated delivery of infrastructure, facility management and clinical services as a health PPP scope.",
+      "Incorrect. The Guide lists infrastructure-only scope with public clinical services, the predominant model in several countries.",
+      "Incorrect. The Guide lists a scope covering only medical equipment."
+    ],
+    "ref": "Ch 1 §6.3, pp. 88-89"
+  },
+  {
+    "id": "D-024",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, which describes a 'project failure'?",
+    "options": [
+      "Any delay in reaching financial close after contract signature",
+      "Any change of the project scope during the appraisal phase",
+      "A failure to achieve the expected value for money",
+      "A decision by the private partner to sell part of its equity"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A delay may contribute to failure, but the Guide defines failure in terms of value for money.",
+      "Incorrect. Refining the scope during appraisal is a normal part of progressive preparation.",
+      "Correct. The Guide states that a failure to achieve the expected VfM constitutes a project failure.",
+      "Incorrect. An equity transfer is a normal event subject to contract restrictions, not a definition of failure."
+    ],
+    "ref": "Ch 1 §8.1, p. 119"
+  },
+  {
+    "id": "D-025",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about project failure before contract signature: 1. The more advanced the process is when a failure happens, the higher the loss suffered. 2. The worst situation before contract signature is cancelling a project after the tender has been launched.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: cancellation after tender launch has the highest impact before signature.",
+      "Incorrect. Statement 1 is also true: losses grow the further the process has advanced.",
+      "Correct. The Guide states both: losses increase with progress, and cancellation after tender launch is the worst pre-signature case, also harming the government's PPP reputation.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §8.1, p. 120"
+  },
+  {
+    "id": "D-026",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes 'absolute contract failure' in the PPP Guide?",
+    "options": [
+      "VfM is partly lost because performance is below expectations",
+      "The project is suspended during preparation and its scope is redefined",
+      "The tender attracts no qualifying bids and must be relaunched",
+      "The government has to rescue or re-tender the contract, e.g. after SPV default or bankruptcy"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A partial loss of VfM is 'relative project failure'.",
+      "Incorrect. Suspension and redefinition is a pre-signature failure category, not a contract failure.",
+      "Incorrect. A tender with no bids is a failure before contract signature.",
+      "Correct. Absolute contract failure is when the government must rescue or re-tender the contract, mainly due to serious default or bankruptcy of the private partner."
+    ],
+    "ref": "Ch 1 §8.1, p. 121"
+  },
+  {
+    "id": "D-027",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 2,
+    "style": "applied",
+    "stem": "A PPP road is in operation. Service performance is below expectations, but the contract does not capture the loss of service value, and the contract continues. Under the PPP Guide, what type of failure is this?",
+    "options": [
+      "Absolute contract failure",
+      "Relative project failure",
+      "Failure during preparation and tender",
+      "Termination for force majeure"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Absolute failure requires the government to rescue or re-tender the contract, which has not happened.",
+      "Correct. Relative project failure is when VfM is partly lost, for example when performance is below expectations and the contract does not capture the loss.",
+      "Incorrect. The contract has already been signed and is in operation.",
+      "Incorrect. The contract has not been terminated, and the cause is poor performance, not a force majeure event."
+    ],
+    "ref": "Ch 1 §8.1, p. 121"
+  },
+  {
+    "id": "D-028",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is the main reason the PPP Guide advocates a step-by-step process with progressive approvals (a 'gateway process')?",
+    "options": [
+      "The later in the process a failure occurs, the higher the loss suffered",
+      "It removes the need for external advisors during project preparation",
+      "It guarantees that every project reaching tender will be signed",
+      "It allows the tender to be launched before the appraisal is complete"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says the higher loss from later failures is the ultimate reason for a progressive process with gateway approvals.",
+      "Incorrect. The Guide still recommends external advisors; gateways do not replace them.",
+      "Incorrect. No process can guarantee signature; the Guide says a decision not to proceed can be a valid outcome.",
+      "Incorrect. Gateways exist to make sure appraisal and preparation are done before moving forward."
+    ],
+    "ref": "Ch 1 §8.1, p. 120"
+  },
+  {
+    "id": "D-029",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT one of the conditions the PPP Guide lists for success in managing the PPP process?",
+    "options": [
+      "The project is the right project, an optimal VfM option that is properly prioritised",
+      "PPP is the right delivery model and likely to give better VfM than traditional procurement",
+      "The project is prepared, structured and managed to minimise impacts on cost, time, scope and quality",
+      "The private partner's expected return is maximised to attract as many bidders as possible"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Being the right project is listed as a condition for success.",
+      "Incorrect. PPP being the right delivery model is listed as a condition for success.",
+      "Incorrect. Proper appraisal, structuring and management is listed as a condition for success.",
+      "Correct. Maximising the private return is not a success condition; the Guide focuses on protecting and maximising VfM for the government."
+    ],
+    "ref": "Ch 1 §8.1, p. 120"
+  },
+  {
+    "id": "D-030",
+    "section": "8.1",
+    "topic": "project-failure-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the two main categories of project failure during preparation and tender, in terms of consequences?",
+    "options": [
+      "Absolute contract failure and relative project failure",
+      "The process is suspended and redefined, or the process is definitively cancelled as a PPP",
+      "Early termination of the contract and partial loss of VfM",
+      "Serious default of the private partner and bankruptcy of the SPV"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Absolute and relative failure are the categories after contract signature.",
+      "Correct. Before signature, the Guide distinguishes suspension and redefinition from definitive cancellation, at least as a PPP.",
+      "Incorrect. Early termination and partial VfM loss are failures during the life of the contract.",
+      "Incorrect. Default and bankruptcy are causes of absolute contract failure after signature."
+    ],
+    "ref": "Ch 1 §8.1, p. 120"
+  },
+  {
+    "id": "D-031",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: The ultimate cause of poor management of the PPP process is often a lack of ______ capacity.",
+    "options": [
+      "construction",
+      "borrowing",
+      "transaction management",
+      "fiscal"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Construction capacity is the private contractor's concern, not the root cause of poor process management.",
+      "Incorrect. Borrowing capacity relates to financing, not to managing the PPP process.",
+      "Correct. The Guide names a lack of transaction management capacity as the ultimate cause of poor process management.",
+      "Incorrect. Fiscal capacity relates to affordability, not to the skills needed to manage the process."
+    ],
+    "ref": "Ch 1 §8.2, p. 122"
+  },
+  {
+    "id": "D-032",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about building capacity to manage PPPs: 1. Hiring experienced external advisors is, on its own, a solution to a lack of capacity. 2. The government and its procuring authorities need to develop in-house skills.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says external advisors alone are not a solution, though their support is recommended.",
+      "Correct. The Guide says advisors alone are not enough and that governments must also build in-house skills.",
+      "Incorrect. Only statement 2 is supported by the Guide.",
+      "Incorrect. Statement 2 is true: developing in-house skills is required."
+    ],
+    "ref": "Ch 1 §8.2, p. 122"
+  },
+  {
+    "id": "D-033",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, when does PPP as a procurement mechanism fail in the face of unavoidable risks such as force majeure?",
+    "options": [
+      "Whenever a force majeure event occurs during the life of the contract",
+      "When the contract does not give the parties flexibility to deal with such events",
+      "When the private partner claims compensation for an unforeseen event",
+      "When the risk would also have affected a traditionally procured project"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Unavoidable events will happen; the Guide says the contract should be ready to tackle them.",
+      "Correct. The Guide says PPP fails when the contract does not allow flexibility, causing unbalanced situations or avoidable early terminations.",
+      "Incorrect. A compensation claim may be a proper response under the contract, not a failure in itself.",
+      "Incorrect. The Guide notes that such failures are not necessarily failures of PPP, as they could equally affect traditional delivery."
+    ],
+    "ref": "Ch 1 §8.2, p. 122"
+  },
+  {
+    "id": "D-034",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the causes of project failure: 1. All project failures in a PPP are failures of PPP as a procurement mechanism. 2. The contract itself may be a source of risks, sometimes called 'contract risk'.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says not all project failures are failures of PPP as a procurement mechanism.",
+      "Correct. The Guide rejects statement 1 and confirms that the contract itself can be a source of risk ('contract risk').",
+      "Incorrect. Only statement 2 is supported by the Guide.",
+      "Incorrect. Statement 2 is true according to the Guide."
+    ],
+    "ref": "Ch 1 §8.2, p. 122"
+  },
+  {
+    "id": "D-035",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT listed in the PPP Guide as a project management or governance factor that may compromise a PPP project's outcome?",
+    "options": [
+      "Lack or absence of a project champion",
+      "Political rush and unrealistic time scales",
+      "Frequent changes in the project team",
+      "Use of a standardised gateway process"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Lack of a champion is listed as a factor that may compromise the outcome.",
+      "Incorrect. Political rush and unrealistic time scales are listed as a factor.",
+      "Incorrect. Lack of continuity in the project team is listed as a factor.",
+      "Correct. A standardised gateway process reduces failure risk; the Guide lists its absence as a risk factor."
+    ],
+    "ref": "Ch 1 §8.2 (Box 1.30), p. 123"
+  },
+  {
+    "id": "D-036",
+    "section": "8.2",
+    "topic": "process-management-threats",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "In the absence of an appropriate PPP framework, what risk does the PPP Guide identify with a ministry that believes it can shift costs to other parts of government?",
+    "options": [
+      "It may refuse to use PPPs even when they offer better value for money",
+      "It may transfer too much risk to the private sector in every contract",
+      "It may pursue PPP transactions beyond what is affordable or gives value for money",
+      "It may centralise all PPP decisions in the Ministry of Finance"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide's concern is the opposite: excessive use of PPPs, not refusal to use them.",
+      "Incorrect. The Guide warns that a ministry not bearing risks may be less diligent about private risk transfer, not that it transfers too much.",
+      "Correct. The Guide says such a ministry may pursue PPP transactions in excess of what is affordable or represents VfM.",
+      "Incorrect. Centralising decisions is not the risk described; the problem is weak cost discipline."
+    ],
+    "ref": "Ch 1 §8.2, p. 124"
+  },
+  {
+    "id": "D-037",
+    "section": "8.3.1",
+    "topic": "cancellation-examples",
+    "level": 2,
+    "style": "applied",
+    "stem": "A procuring authority launches a PPP tender with no advance notice to the market, and the RFP response period is very short and runs over a known holiday. No qualifying bids are received. How does the PPP Guide classify this?",
+    "options": [
+      "A pre-signature failure caused by poor management of the tender process",
+      "A relative project failure during the life of the contract",
+      "An unavoidable force majeure event outside the authority's control",
+      "An absolute contract failure caused by private partner default"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide lists no advance notice and a too-short RFP period over a holiday as examples of poor process management leading to no bids.",
+      "Incorrect. No contract was signed, so this cannot be a failure during the life of the contract.",
+      "Incorrect. The causes were decisions of the authority, not unavoidable events.",
+      "Incorrect. There is no private partner yet, so there can be no private partner default."
+    ],
+    "ref": "Ch 1 §8.3.1, p. 126"
+  },
+  {
+    "id": "D-038",
+    "section": "8.3.2",
+    "topic": "cancellation-examples",
+    "level": 2,
+    "style": "applied",
+    "stem": "A PPP contractor defaults because its winning bid was too aggressive to deliver. According to the PPP Guide, which process weakness is most directly linked to this failure?",
+    "options": [
+      "The O&M subcontract did not pass on performance deductions",
+      "The tender was not structured to avoid or detect overly aggressive offers",
+      "The government paid availability payments that were too generous",
+      "The lenders did not sign a direct agreement with the authority"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. O&M subcontract terms are not the cause the Guide links to aggressive bids.",
+      "Correct. The Guide links default from an overly aggressive bid to a tender that was not properly structured to avoid or detect such offers.",
+      "Incorrect. Generous payments would not cause default from an aggressive, underpriced bid.",
+      "Incorrect. The absence of a direct agreement is not given as the cause of this type of default."
+    ],
+    "ref": "Ch 1 §8.3.2, p. 127"
+  },
+  {
+    "id": "D-039",
+    "section": "8.4",
+    "topic": "private-sector-concerns",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is the reason a private bidder has a natural interest in a PPP project being affordable for the government?",
+    "options": [
+      "An affordable project will always generate higher equity returns",
+      "Affordability removes the need for the project to be bankable",
+      "Affordability reduces the risk of a breach of contract by the government",
+      "An affordable project does not need a payment mechanism"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide does not link affordability to higher equity returns.",
+      "Incorrect. Bankability remains a separate, necessary condition for a PPP.",
+      "Correct. The Guide says affordability for the government avoids the risk of a breach of contract by the government.",
+      "Incorrect. Affordability does not remove the need for a payment mechanism in a government-pays PPP."
+    ],
+    "ref": "Ch 1 §8.4, p. 128"
+  },
+  {
+    "id": "D-040",
+    "section": "8.4",
+    "topic": "private-sector-concerns",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Among the conditions for a project to be acceptable to the private sector, which describes a 'bankable' project?",
+    "options": [
+      "The upper limit of payments covers all costs, contingencies and an adequate return",
+      "The contract structure clearly meets the requirements of the legal framework",
+      "The project is the most suitable solution for the public need",
+      "Lenders and investors are willing to provide the finance the project requires"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. This describes a commercially feasible project, not a bankable one.",
+      "Incorrect. This describes a legally feasible project.",
+      "Incorrect. This describes an economically feasible or sound project.",
+      "Correct. The Guide says a project is bankable when the lender (and investor) community is willing to provide the required finance."
+    ],
+    "ref": "Ch 1 §8.4 (Table 1.7), p. 129"
+  }
+]

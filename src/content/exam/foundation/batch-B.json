@@ -1,0 +1,882 @@
+[
+  {
+    "id": "B-001",
+    "section": "2",
+    "topic": "ppp-scope",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, how does Private Participation in Infrastructure (PPI) relate to PPPs?",
+    "options": [
+      "PPI is another name for a PPP, used by development banks.",
+      "PPI is a wider concept that includes PPPs and other forms of private involvement.",
+      "PPI covers only privatized utilities and never includes contracts.",
+      "PPI covers only government-pays PPPs financed by the private sector."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide states clearly that PPI is not a synonym for a PPP.",
+      "Correct. PPI includes PPPs but also other forms of private involvement in delivering or managing public infrastructure.",
+      "Incorrect. PPI includes PPP contracts as well as other forms such as privatizations.",
+      "Incorrect. PPI is not limited to one PPP type; it covers any form of private investment or management of infrastructure."
+    ],
+    "ref": "Ch 1 §2, p. 15"
+  },
+  {
+    "id": "B-002",
+    "section": "2",
+    "topic": "ppp-scope",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about identifying a PPP: 1. The provision of finance by the private sector is, on its own, enough to describe an arrangement as a PPP. 2. Whether revenues come from users or from the public budget is not a decisive factor in deciding whether an arrangement is a PPP.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says private finance alone is not a sufficient reason to call an arrangement a PPP.",
+      "Correct. Statement 1 is false, and statement 2 is true because revenue can come from users or the budget in both PPP and non-PPP arrangements.",
+      "Incorrect. Statement 1 is false, so both cannot be true.",
+      "Incorrect. Statement 2 is true: the Guide says the nature of revenues is not a decisive factor."
+    ],
+    "ref": "Ch 1 §2, p. 16"
+  },
+  {
+    "id": "B-003",
+    "section": "2",
+    "topic": "ppp-scope",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: Only a ______ can be a PPP, and only when all the features of a PPP are met.",
+    "options": [
+      "procurement contract",
+      "regulatory authorization",
+      "privatization transaction",
+      "public corporation"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide states that only a procurement contract can be a PPP, and only when all PPP features are present.",
+      "Incorrect. Regulatory authorizations are not contracts, so the Guide does not treat them as PPPs.",
+      "Incorrect. The Guide states that privatizations are not PPPs.",
+      "Incorrect. A public corporation is an entity, not a contract; wholly public structures are not regarded as PPPs."
+    ],
+    "ref": "Ch 1 §2, p. 16"
+  },
+  {
+    "id": "B-004",
+    "section": "2.1",
+    "topic": "traditional-procurement",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a Design-Build (DB) contract?",
+    "options": [
+      "A contract to build an asset whose design was completed earlier by a different entity.",
+      "A contract in which the contractor pre-finances the works against deferred payments.",
+      "A single contract tendered for both the design and the construction of the asset.",
+      "A contract in which the contractor designs, builds and maintains the asset for many years."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. This describes a Build-only (B) contract.",
+      "Incorrect. Pre-financing against deferred payments describes a DBF contract.",
+      "Correct. In a DB contract one contract is tendered for both design and construction.",
+      "Incorrect. Adding long-term maintenance describes a DBM or DBOM contract, not a DB."
+    ],
+    "ref": "Ch 1 §2.1, p. 18"
+  },
+  {
+    "id": "B-005",
+    "section": "2.1",
+    "topic": "traditional-procurement",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: In some countries, B or DB contracts may also be called ______ contracts, especially when the asset to be built is mainly a plant.",
+    "options": [
+      "DBOM",
+      "affermage",
+      "PFI",
+      "EPC"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A DBOM adds operation and maintenance, so it is a wider scope than B or DB.",
+      "Incorrect. Affermage refers to a lease-type arrangement for operating an asset, not a construction contract.",
+      "Incorrect. PFI is a term used in some countries for government-pays PPPs.",
+      "Correct. B or DB contracts may be called Engineering, Procurement and Construction (EPC) contracts, especially for plants."
+    ],
+    "ref": "Ch 1 §2.1, p. 18"
+  },
+  {
+    "id": "B-006",
+    "section": "2.1",
+    "topic": "traditional-procurement",
+    "level": 1,
+    "style": "not",
+    "stem": "According to the PPP Guide, B or DB contracts may be appropriate when the public sector meets certain conditions. Which is NOT one of these conditions?",
+    "options": [
+      "The public sector has the necessary skills.",
+      "The public sector knows clearly what technical solution it wants.",
+      "The public sector wants to transfer long-term maintenance risk to the contractor.",
+      "The public sector has budget funds available to pay for the works."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Having the skills is one of the listed conditions.",
+      "Incorrect. Knowing clearly what it wants as a technical solution is one of the listed conditions.",
+      "Correct. The condition is the opposite: the public sector prefers to retain maintenance responsibility over the asset life.",
+      "Incorrect. Having budget funds available to pay for the works is one of the listed conditions."
+    ],
+    "ref": "Ch 1 §2.1, p. 19"
+  },
+  {
+    "id": "B-007",
+    "section": "2.1",
+    "topic": "traditional-procurement",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is a reason why B or DB contracts give the contractor little incentive to care about the long-term quality of the asset?",
+    "options": [
+      "The contractor is paid only while the asset is available to users.",
+      "The contractor does not manage the asset after construction, so it may cut costs to raise profit.",
+      "The contractor's lenders check only construction risk, not operating risk.",
+      "The contractor is paid in fixed installments over many years after completion."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Payment linked to availability is a feature of government-pays PPPs, which creates quality incentives.",
+      "Correct. The authority takes over the asset at completion, so the contractor can profit by reducing costs and quality.",
+      "Incorrect. Lenders checking only construction risk is a feature of DBF, not of B or DB contracts funded by the budget.",
+      "Incorrect. Deferred installments after completion describe a DBF; in B or DB, payment is made as work progresses."
+    ],
+    "ref": "Ch 1 §2.1, p. 19"
+  },
+  {
+    "id": "B-008",
+    "section": "2.1",
+    "topic": "traditional-procurement",
+    "level": 1,
+    "style": "two-statement",
+    "stem": "Consider the following statements about traditional procurement: 1. Under a DB contract, the procuring authority takes full responsibility for the asset once construction is completed. 2. Under the single-till principle, public borrowing is normally tied to specific projects.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 is true, and statement 2 is false because single-till borrowing is for the general purposes of government.",
+      "Incorrect. Statement 2 is false: under the single-till principle, borrowings are not tied to specific projects.",
+      "Incorrect. Statement 2 is false, so both cannot be true.",
+      "Incorrect. Statement 1 is true: in traditional procurement the authority assumes the entire responsibility for the asset after construction."
+    ],
+    "ref": "Ch 1 §2.1, p. 18"
+  },
+  {
+    "id": "B-009",
+    "section": "2.1",
+    "topic": "dbf",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a Design, Build and Finance (DBF) contract?",
+    "options": [
+      "The contractor finances the works and takes on the life-cycle cost risk of the asset.",
+      "The contractor finances the works and recovers its investment through user tolls.",
+      "The government pays as work progresses and the contractor then maintains the asset.",
+      "The contractor funds construction and the government pays in installments after completion."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. In a DBF the government retains the long-term risks of the asset; life-cycle risk transfer is a DBFOM feature.",
+      "Incorrect. Recovering investment through user charges describes a user-pays PPP (concession).",
+      "Incorrect. Payment as work progresses plus maintenance describes a DBOM.",
+      "Correct. In a DBF the government defers payment until completion, making the contractor a de facto lender."
+    ],
+    "ref": "Ch 1 §2.1, p. 20"
+  },
+  {
+    "id": "B-010",
+    "section": "2.1",
+    "topic": "dbf",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government contracts a firm to design and build a road. The firm pre-finances the works through a bank and receives fixed government installments for 8 years after completion. The government keeps all maintenance. Under the PPP Guide, is this a PPP?",
+    "options": [
+      "Yes, because the private sector provides the finance for the works.",
+      "Yes, because it is a long-term contract with deferred public payments.",
+      "No, because the finance is exposed to construction risk only, not long-term performance risk.",
+      "No, because the firm is paid from the public budget rather than by users."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says private finance alone is not enough to make an arrangement a PPP.",
+      "Incorrect. Deferred payment only changes the timing of payment; a DBF is a variation of traditional procurement.",
+      "Correct. This is a DBF: its finance is not materially subject to performance risk, so the Guide does not regard it as a PPP.",
+      "Incorrect. The source of revenue is not decisive; government-pays PPPs are also paid from the budget."
+    ],
+    "ref": "Ch 1 §2.1, p. 20-21"
+  },
+  {
+    "id": "B-011",
+    "section": "2.1",
+    "topic": "dbf",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about DBF contracts: 1. In a DBF, payments are normally made to the contractor as the construction work progresses. 2. Because credit risk is limited, DBF finance is usually cheaper than direct public debt.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false: DBF payments are not made until construction is completed.",
+      "Incorrect. Statement 2 is false: the Guide says there will be an interest rate premium over direct public debt.",
+      "Incorrect. Both statements are false.",
+      "Correct. Payment is deferred until completion, and DBF finance costs more than direct public borrowing."
+    ],
+    "ref": "Ch 1 §2.1, p. 20-21"
+  },
+  {
+    "id": "B-012",
+    "section": "2.2",
+    "topic": "dbom",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a Design, Build, Operate and Maintain (DBOM) contract?",
+    "options": [
+      "The contractor raises private finance for construction and is repaid through availability payments.",
+      "The government sells an existing asset to the contractor, who then operates it without time limit.",
+      "The contractor finances construction and is repaid in fixed installments, while the government maintains the asset.",
+      "The government pays for construction as it progresses, and pays the contractor separately for O&M."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Private finance repaid through availability payments describes a government-pays DBFOM.",
+      "Incorrect. A permanent sale with unlimited operation describes privatization.",
+      "Incorrect. Contractor finance with fixed installments and public maintenance describes a DBF.",
+      "Correct. A DBOM is publicly financed, with construction paid as work progresses and O&M paid in a separate stream."
+    ],
+    "ref": "Ch 1 §2.2, p. 21-22"
+  },
+  {
+    "id": "B-013",
+    "section": "2.2",
+    "topic": "dbom",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: If the contractor in a DBOM contract is not responsible for operating the infrastructure, the contract is usually referred to as a ______.",
+    "options": [
+      "DBF",
+      "DBM",
+      "DBFM",
+      "O&M contract"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A DBF has no maintenance obligation and includes contractor finance.",
+      "Correct. Without operations, a DBOM is usually called a DBM (Design, Build and Maintain).",
+      "Incorrect. A DBFM includes private finance, which a DBOM does not.",
+      "Incorrect. An O&M contract does not include design and construction."
+    ],
+    "ref": "Ch 1 §2.2, p. 21"
+  },
+  {
+    "id": "B-014",
+    "section": "2.2",
+    "topic": "dbom",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Under a DBOM contract, how is the risk of unexpected maintenance costs usually transferred to the contractor?",
+    "options": [
+      "In a limited way, usually by means of liquidated damages.",
+      "Fully, through the contractor's equity that is at risk.",
+      "Fully, through lenders who fund the works and bear performance risk.",
+      "Through revenue sharing when user revenues exceed forecasts."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says this risk can be transferred only in a limited manner, usually through liquidated damages.",
+      "Incorrect. A DBOM has no private capital at risk, so equity cannot absorb this risk.",
+      "Incorrect. A DBOM is financed by the public sector, so there are no private lenders at risk.",
+      "Incorrect. Revenue sharing is a feature of some user-pays PPPs, not a way of transferring maintenance risk in a DBOM."
+    ],
+    "ref": "Ch 1 §2.2, p. 22"
+  },
+  {
+    "id": "B-015",
+    "section": "2.2",
+    "topic": "dbom",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is a reason why a government may choose to deliver a project as a DBOM?",
+    "options": [
+      "It wants to transfer construction financing risk to private lenders.",
+      "It lacks budget funds to pay for the construction works.",
+      "It expects user revenues to repay the construction financing.",
+      "It expects the benefit of integrated management to outweigh losing a separate O&M tender."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A DBOM is publicly financed, so there is no private financing risk to transfer.",
+      "Incorrect. A DBOM is paid from the budget as work progresses, so budget funds are needed.",
+      "Incorrect. Using user revenues to repay construction finance describes a user-pays DBFOM.",
+      "Correct. The Guide says a DBOM is chosen when the benefit of integrated management exceeds the efficiency lost by not running a separate O&M competition."
+    ],
+    "ref": "Ch 1 §2.2, p. 22"
+  },
+  {
+    "id": "B-016",
+    "section": "2.2",
+    "topic": "dbfom",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a DBFOM contract?",
+    "options": [
+      "The contractor builds the asset with public funds and maintains it for a fixed fee.",
+      "The contractor builds with its own and lenders' funds at its risk and manages the whole life cycle.",
+      "The contractor pre-finances construction only, and the government keeps the life-cycle risk.",
+      "The contractor buys the existing asset outright and operates it without a time limit."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Public funding with maintenance describes a DBOM or DBM.",
+      "Correct. In a DBFOM the contractor provides most of the finance at its risk and manages life-cycle costs, maintenance and operations, usually through an SPV.",
+      "Incorrect. Pre-financing construction only, with public life-cycle risk, describes a DBF.",
+      "Incorrect. Outright ownership without a time limit describes privatization."
+    ],
+    "ref": "Ch 1 §2.2, p. 23"
+  },
+  {
+    "id": "B-017",
+    "section": "2.2",
+    "topic": "dbfom",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about DBFOM contracts: 1. Terms such as BOT and BOOT are treated by the Guide as equivalent to DBFOM-type contracts. 2. If investors take on no material risk, a DBFOM will give a value for money outcome similar to a DBOM.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true.",
+      "Incorrect. Statement 1 is also true.",
+      "Correct. BOT, BOOT and BTO are equivalent terms, and without material risk transfer a DBFOM behaves like a DBOM with private finance.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §2.2, p. 23"
+  },
+  {
+    "id": "B-018",
+    "section": "2.4",
+    "topic": "dbfom",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the comparison of procurement methods in the PPP Guide, which PPP feature does a DBOM usually lack when compared with a DBFOM?",
+    "options": [
+      "Finance provided by the private sector.",
+      "A formal contract between the public and private parties.",
+      "Bundling of design-build with operation and maintenance.",
+      "A long-term contract period."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. A DBOM is financed by the public sector, while a DBFOM includes private finance.",
+      "Incorrect. A DBOM is a formal contract, like all the procurement methods compared.",
+      "Incorrect. A DBOM does bundle design-build with O&M.",
+      "Incorrect. A DBOM normally has a long-term nature."
+    ],
+    "ref": "Ch 1 §2.4, p. 40"
+  },
+  {
+    "id": "B-019",
+    "section": "2.2",
+    "topic": "user-pays-ppp",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a user-pays PPP according to the PPP Guide?",
+    "options": [
+      "A contractual assignment to a private party of future revenues from public use of infrastructure, to fund its procurement.",
+      "A general authorization allowing a private company to run a business in a regulated market for an unlimited time.",
+      "A sale of shares in a public operator on the stock market, while the SOE keeps its management.",
+      "A contract where the private partner is paid by the government according to the availability of the asset."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide defines a user-pays PPP as a contractual assignment of future revenues from public use to fund the infrastructure and related services.",
+      "Incorrect. A general authorization in a regulated market describes a regulated investor-owned utility, which is not a PPP.",
+      "Incorrect. A share sale by IPO describes a partial privatization, which is not a PPP.",
+      "Incorrect. Payments by the government based on availability describe a government-pays PPP."
+    ],
+    "ref": "Ch 1 §2.2, p. 23"
+  },
+  {
+    "id": "B-020",
+    "section": "2.2",
+    "topic": "user-pays-ppp",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about user-pays PPPs: 1. The private partner is the economic owner of the asset during the contract and must maintain and renew it at its own risk. 2. Where expected revenues exceed what is needed for a minimum return, the contract may include revenue sharing with the procuring authority.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true.",
+      "Incorrect. Statement 1 is also true.",
+      "Correct. The private partner is the economic owner during the concession, and revenue sharing may apply when revenues are high.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §2.2, p. 24"
+  },
+  {
+    "id": "B-021",
+    "section": "2.2",
+    "topic": "user-pays-ppp",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: When user revenues are not enough to cover the private partner's financial obligations and give a return on its equity, the situation is called a financial or commercial ______.",
+    "options": [
+      "refinancing gain",
+      "contingent liability",
+      "viability gap",
+      "revenue sharing"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A refinancing gain relates to improved financing terms, not a revenue shortfall.",
+      "Incorrect. A contingent liability is a possible future government obligation, not a revenue shortfall.",
+      "Correct. The Guide calls this shortfall a financial or commercial viability gap.",
+      "Incorrect. Revenue sharing applies when revenues are higher than needed, not lower."
+    ],
+    "ref": "Ch 1 §2.2, Box 1.7, p. 26"
+  },
+  {
+    "id": "B-022",
+    "section": "2.2",
+    "topic": "user-pays-ppp",
+    "level": 2,
+    "style": "applied",
+    "stem": "A toll bridge will earn enough in tolls to cover O&M costs but only part of the construction cost. The government pays grants to the private partner during construction, and the partner finances the rest and collects tolls. How does the PPP Guide describe this?",
+    "options": [
+      "A DBF contract, because the government pays for part of the works.",
+      "A public-public partnership, because public money is used.",
+      "A privatization, because the private partner collects tolls from users.",
+      "A user-pays PPP with co-financing to fill the viability gap."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. In a DBF the contractor does not operate the asset or collect tolls, and payments are deferred rather than grants.",
+      "Incorrect. A public-public partnership involves a wholly publicly owned company, not a private partner.",
+      "Incorrect. The asset is not permanently transferred, and the right to charge users is granted by contract.",
+      "Correct. Grants that fill the viability gap in a concession are a co-financing variation of the user-pays PPP."
+    ],
+    "ref": "Ch 1 §2.2, Box 1.7, p. 26"
+  },
+  {
+    "id": "B-023",
+    "section": "2.2",
+    "topic": "joint-ventures",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the PPP Guide, what does the term 'joint venture' (or mixed equity company, or institutionalized PPP) refer to?",
+    "options": [
+      "A structure where the government holds only a small minority stake with standard minority rights.",
+      "A structure where the government holds material equity, sits on the SPV board and takes part in management.",
+      "A company wholly owned by the government that carries out a DBFOM for its owner.",
+      "A consortium of two or more private companies bidding together for a PPP."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A simple minority stake with standard rights is usually not called a joint venture; it is a conventional PPP with government equity.",
+      "Correct. The Guide uses these terms for structures where the government has material equity, board voting rights and an active management role.",
+      "Incorrect. A wholly public company structure is a public-public partnership, not a joint venture.",
+      "Incorrect. The Guide's joint venture concept refers to public and private co-ownership, not a private-only consortium."
+    ],
+    "ref": "Ch 1 §2.2, Box 1.7, p. 27"
+  },
+  {
+    "id": "B-024",
+    "section": "2.2",
+    "topic": "joint-ventures",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, when may an institutional PPP (controlled by the government) be regarded as a true private finance PPP?",
+    "options": [
+      "When the private sector holds significant equity and bears project risks, and the debt financing is at risk of performance.",
+      "When the government holds more than half of the equity and appoints the management.",
+      "When the project company raises its debt under project finance, even if it is fully public.",
+      "When the private partner only acts as a subcontractor with no equity stake."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide requires significant private equity, private assumption of project risks, a management role and debt at risk of performance.",
+      "Incorrect. Government control alone does not make it a private finance PPP; significant private involvement is required.",
+      "Incorrect. Fully public structures are not PPPs, even if they use project finance techniques.",
+      "Incorrect. Without a significant equity stake, the private sector does not provide the private finance a private finance PPP needs."
+    ],
+    "ref": "Ch 1 §2.2, p. 31"
+  },
+  {
+    "id": "B-025",
+    "section": "2.2",
+    "topic": "joint-ventures",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about public-public partnerships: 1. The Guide regards a wholly government-owned company that develops an asset under a DBFOM as a PPP if it uses project finance. 2. Many arrangements between governments and SOEs involve a general public authorization rather than a contract in the strict sense.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide does not regard public-public partnerships as PPPs.",
+      "Correct. Statement 1 is false, and statement 2 is true because SOE arrangements often rest on a general authorization and assignment of rights.",
+      "Incorrect. Statement 1 is false, so both cannot be true.",
+      "Incorrect. Statement 2 is true according to the Guide."
+    ],
+    "ref": "Ch 1 §2.2, p. 30-31"
+  },
+  {
+    "id": "B-026",
+    "section": "2.2",
+    "topic": "government-pays-ppp",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In a government-pays PPP, what is the main source of revenue for the private partner?",
+    "options": [
+      "Tolls and tariffs collected directly from the end users.",
+      "Construction payments made as the work progresses.",
+      "Payments from the grantor linked to the availability and quality of the asset.",
+      "A share of profits from selling the asset at the end of the contract."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Revenue mainly from users describes a user-pays PPP.",
+      "Incorrect. Payments as work progresses describe traditional procurement or a DBOM.",
+      "Correct. The partner is paid for construction and O&M only as long as the asset is available to the required standards.",
+      "Incorrect. The asset is normally handed back to the government; it is not sold for profit."
+    ],
+    "ref": "Ch 1 §2.2, p. 28"
+  },
+  {
+    "id": "B-027",
+    "section": "2.2",
+    "topic": "government-pays-ppp",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about government-pays PPPs: 1. A government-pays PPP may include some user or commercial revenues, as long as they are not the majority of revenue. 2. In a government-pays PPP, users can never be charged a toll for the infrastructure.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 is true, and statement 2 is false because tolls can be charged while the revenue is kept out of the partner's income.",
+      "Incorrect. Statement 2 is false: the Guide describes government-pays PPPs where users pay tolls.",
+      "Incorrect. Statement 2 is false, so both cannot be true.",
+      "Incorrect. Statement 1 is true: non-predominant commercial revenues do not change the classification."
+    ],
+    "ref": "Ch 1 §2.2, p. 28-29"
+  },
+  {
+    "id": "B-028",
+    "section": "2.3",
+    "topic": "service-ppps",
+    "level": 2,
+    "style": "not",
+    "stem": "A contract that only operates or maintains infrastructure or a service may be regarded as a PPP under the broad definition. Which is NOT a condition for this?",
+    "options": [
+      "The contract transfers significant risks to the private party.",
+      "The contract is oriented to performance.",
+      "The contract has a relatively long term.",
+      "The contract includes building a new asset with private finance."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Transferring significant risk is one of the conditions.",
+      "Incorrect. Being performance-oriented is one of the conditions.",
+      "Incorrect. A relatively long term is one of the conditions.",
+      "Correct. Service PPPs are not DBFOM contracts; they do not need a new asset built with private finance."
+    ],
+    "ref": "Ch 1 §2.3, p. 33"
+  },
+  {
+    "id": "B-029",
+    "section": "2.3",
+    "topic": "service-ppps",
+    "level": 2,
+    "style": "applied",
+    "stem": "A city signs a 3-year street cleaning contract. The contractor is paid its actual costs plus a margin. Under the PPP Guide, is this a PPP?",
+    "options": [
+      "Yes, because a private firm delivers a public service to citizens.",
+      "Yes, because the private firm manages the service for the city.",
+      "No, because the term is short and cost-plus payment transfers little risk.",
+      "No, because no new infrastructure asset is built under the contract."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Private involvement alone does not make an arrangement a PPP.",
+      "Incorrect. Managing a service is not enough; significant risk transfer, performance orientation and a long term are needed.",
+      "Correct. Short terms and cost-plus payment transfer little risk, so this is a conventional service contract.",
+      "Incorrect. Service PPPs do not require a new asset; the reason is the short term and cost-plus basis."
+    ],
+    "ref": "Ch 1 §2.3, p. 33-35"
+  },
+  {
+    "id": "B-030",
+    "section": "2.3",
+    "topic": "management-contracts",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a management contract according to the PPP Guide?",
+    "options": [
+      "The public sector keeps ownership of the assets and pays the contractor a fee to manage and operate services.",
+      "The contractor finances and upgrades the asset and recovers its investment through user charges.",
+      "The government sells the operator to private investors and regulates its prices.",
+      "The contractor takes on full commercial risk over a 30-year term."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. In a management contract the public sector retains the assets and the contractor is paid a fee, often on a performance basis.",
+      "Incorrect. Private finance recovered through user charges describes a user-pays PPP.",
+      "Incorrect. Selling the operator describes privatization.",
+      "Incorrect. Management contracts are usually short and the contractor does not assume commercial risk."
+    ],
+    "ref": "Ch 1 §2.3, p. 34"
+  },
+  {
+    "id": "B-031",
+    "section": "2.3",
+    "topic": "management-contracts",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT a characteristic of management contracts according to the PPP Guide?",
+    "options": [
+      "They are typically short, usually two to five years.",
+      "They can be politically and socially more acceptable for some projects.",
+      "They are useful when the private sector is not willing to invest.",
+      "They involve significant private capital investment at risk."
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says management contracts are typically two to five years long.",
+      "Incorrect. The Guide says they can be more acceptable, for example for water and other strategic projects.",
+      "Incorrect. The Guide says they are useful when there is no private willingness to invest.",
+      "Correct. Management contracts do not involve significant private capital, which is why their efficiency gains are limited."
+    ],
+    "ref": "Ch 1 §2.3, p. 34"
+  },
+  {
+    "id": "B-032",
+    "section": "2.3",
+    "topic": "management-contracts",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes financial lease contracts according to the PPP Guide?",
+    "options": [
+      "Long-term contracts that transfer most risks and management responsibility to the private party.",
+      "Purely financial arrangements, typically used for tax benefits or lower financing costs.",
+      "Performance-based contracts expected to produce major efficiency savings.",
+      "Concessions in which the private party collects tariffs from users."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Financial leases transfer much less risk than PPPs, and little management responsibility.",
+      "Correct. The Guide calls them purely financial arrangements used to obtain tax benefits and/or reduce financing costs.",
+      "Incorrect. They are not expected to produce significant service improvements or efficiency savings.",
+      "Incorrect. Collecting tariffs from users describes a concession or user-pays arrangement, not a financial lease."
+    ],
+    "ref": "Ch 1 §2.3, p. 35"
+  },
+  {
+    "id": "B-033",
+    "section": "2.3",
+    "topic": "asset-monetization",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government grants a 40-year concession to operate and maintain an existing, profitable toll road. The private partner pays a large upfront fee and collects the tolls. How does the PPP Guide classify this?",
+    "options": [
+      "A private finance PPP, as a management or service PPP with significant private finance.",
+      "A privatization, because the private partner takes over the toll revenue.",
+      "A financial lease, because the asset is transferred against payments.",
+      "A conventional management contract, because no new asset is built."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide regards long-term leases or concessions of existing user-pays assets against an upfront fee as private finance PPPs.",
+      "Incorrect. The asset is not permanently transferred; the contract is time-limited, so it is not a privatization.",
+      "Incorrect. Financial leases transfer little risk and management responsibility, unlike this concession.",
+      "Incorrect. Management contracts are short and involve no significant private capital, unlike this 40-year deal."
+    ],
+    "ref": "Ch 1 §2.3, Box 1.10, p. 36-37"
+  },
+  {
+    "id": "B-034",
+    "section": "2.3",
+    "topic": "asset-monetization",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about asset recycling: 1. Asset recycling always uses PPP structures. 2. Proceeds from asset monetization may be placed in a dedicated fund for infrastructure development.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: asset recycling can also use securitization of revenues or outright sale of assets.",
+      "Correct. Statement 1 is false, and statement 2 is true because proceeds may feed a dedicated infrastructure fund.",
+      "Incorrect. Statement 1 is false, so both cannot be true.",
+      "Incorrect. Statement 2 is true according to the Guide."
+    ],
+    "ref": "Ch 1 §2.3, Box 1.10, p. 36-37"
+  },
+  {
+    "id": "B-035",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: In its strictest sense, privatization involves the ______ transfer to the private sector of a previously publicly owned asset and the responsibility for delivering the service.",
+    "options": [
+      "temporary",
+      "contractual",
+      "partial",
+      "permanent"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A temporary, time-limited transfer is a feature of a PPP, not of privatization.",
+      "Incorrect. Privatization does not rely on a contract in the strict sense; conditions are set by regulation.",
+      "Incorrect. The strict definition is about a permanent transfer of the asset and service responsibility; partial privatization (for example an IPO of shares) is treated by the Guide as a separate situation.",
+      "Correct. Privatization involves a permanent transfer, while a PPP keeps a continuing public role."
+    ],
+    "ref": "Ch 1 §2.4, p. 38"
+  },
+  {
+    "id": "B-036",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is a feature of a PPP rather than of a privatization?",
+    "options": [
+      "The private sector owns the full property of the asset.",
+      "There is no contract in strict terms, only regulation of the sector.",
+      "The time to operate the asset is limited by the contract.",
+      "The private provider sets the quality and quantity of the service."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Full private ownership is a feature of privatization; in a PPP the government is normally the legal owner.",
+      "Incorrect. The absence of a strict contract is a feature of privatization; a PPP has a detailed contract.",
+      "Correct. In a PPP the operating period is limited by the contract, while in privatization it is unlimited.",
+      "Incorrect. In a PPP the government specifies the quantity and quality of the service it requires."
+    ],
+    "ref": "Ch 1 §2.4, p. 38-39"
+  },
+  {
+    "id": "B-037",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements: 1. Regulated investor-owned utilities are a procurement method because they give the investor the right to charge users. 2. In a PPP, the private partner is free to set the price it charges users.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false: regulated investor-owned utilities are not procurement methods.",
+      "Incorrect. Statement 2 is false: PPP prices or charges are defined by government or the contract with very limited flexibility.",
+      "Incorrect. Both statements are false.",
+      "Correct. Regulated utilities are authorizations, not procurement, and PPP pricing is fixed by government or contract."
+    ],
+    "ref": "Ch 1 §2.4, p. 38-39"
+  },
+  {
+    "id": "B-038",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 2,
+    "style": "applied",
+    "stem": "A developer is granted the use of port land for 99 years to build and run port facilities at its own risk under port regulations. The land reverts to the government at the end. Under the PPP Guide, is this a PPP?",
+    "options": [
+      "Yes, because the term is long and the asset reverts to the government.",
+      "No, because there is no contract and the government acts as a fairly passive regulator.",
+      "Yes, because the developer finances and operates the infrastructure at its own risk.",
+      "No, because port facilities are economic infrastructure and not a public service."
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A long term and reversion do not make a PPP when there is no procurement contract.",
+      "Correct. Public domain concessions are not PPPs because there is no contract and the government does not actively manage one.",
+      "Incorrect. Private finance and risk alone are not enough; a PPP needs a procurement contract actively managed by government.",
+      "Incorrect. Economic infrastructure such as ports can be a PPP; the reason here is the lack of a contract."
+    ],
+    "ref": "Ch 1 §2.4, p. 40"
+  },
+  {
+    "id": "B-039",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which of the following situations in the power sector does the PPP Guide regard as a PPP?",
+    "options": [
+      "A public buyer tenders a DBFOM power plant against committed payments under a long-term Power Purchase Agreement.",
+      "A developer buys land and is authorized to sell wind power under a subsidized regulated price.",
+      "Shares in a public power company are sold on the stock market through an IPO.",
+      "A privatized electricity distributor competes for customers in a liberalized market."
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. When a public counterparty tenders a DBFOM plant against a committed PPA payment, the Guide regards it as a PPP.",
+      "Incorrect. A regulatory authorization with no contract or direct government requirement is not a PPP.",
+      "Incorrect. A partial privatization by IPO has no contract in the strict sense, so it is not a PPP.",
+      "Incorrect. Operators in a liberalized and regulated market are not PPPs unless there is a specific procurement contract."
+    ],
+    "ref": "Ch 1 §2.4, p. 39"
+  },
+  {
+    "id": "B-040",
+    "section": "2.4",
+    "topic": "privatization-and-regulation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Why does the PPP Guide not regard the partial privatization of a public operator through an IPO as a PPP?",
+    "options": [
+      "Because the shares are sold at a discount to their market value.",
+      "Because the government loses all control over the operator's management.",
+      "Because there is no strict contract and private investors do not control the service.",
+      "Because the operator's revenue comes from users rather than the budget."
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says nothing about the share price; the reason is the lack of a contract and control.",
+      "Incorrect. The Guide says the management and oversight of the SOE do not change.",
+      "Correct. There is no contract in the strict sense, and private shareholders have no control over services and operations.",
+      "Incorrect. The source of revenue is not a decisive factor in deciding whether an arrangement is a PPP."
+    ],
+    "ref": "Ch 1 §2.4, p. 40"
+  }
+]

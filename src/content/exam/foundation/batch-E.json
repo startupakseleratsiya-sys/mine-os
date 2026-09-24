@@ -1,0 +1,882 @@
+[
+  {
+    "id": "E-001",
+    "section": "7.1",
+    "topic": "project-finance-basics",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which best describes the project finance technique normally used to raise debt for a private finance PPP?",
+    "options": [
+      "Lenders are repaid only from the SPV's revenues, without recourse to the equity investors",
+      "Lenders are repaid from the sponsors' corporate balance sheets, with full recourse to them",
+      "The government guarantees all debt service, so lenders carry no project risk at all",
+      "The construction contractor repays the loan from its building profits before operations"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide defines project finance as a non-recourse technique where lenders are paid only from the SPV's revenues, with debt secured on project cash flows.",
+      "Incorrect. Relying on the borrower's balance sheet with full recourse describes corporate lending, not project finance.",
+      "Incorrect. In project finance lenders take project risk and rely on the project's cash flows, which is why they carry out their own due diligence.",
+      "Incorrect. Debt is repaid from the project's operating cash flows over the long term, not from the contractor's construction profits."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-002",
+    "section": "7.1",
+    "topic": "project-finance-basics",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about project finance in PPPs: 1. Under the project finance technique, lenders rely mainly on the strength of the sponsors' corporate balance sheets. 2. Because debt service is paid first, lenders require a higher return than equity investors.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false: in project finance lenders look at the project's cash flows, and the SPV's obligations are ring-fenced from the investors.",
+      "Incorrect. Statement 2 is false: equity bears losses ahead of debt, so equity requires a higher return than debt, not the other way round.",
+      "Incorrect. Neither statement matches the Guide.",
+      "Correct. Lenders rely on project cash flows (not sponsor balance sheets), and because equity is subordinated to debt, equity requires the higher return."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-003",
+    "section": "7.1",
+    "topic": "project-finance-basics",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: Because pure non-recourse debt is often not achieved in PPPs, especially where lenders take recourse against the equity holders during construction, some practitioners describe project finance as ______ financing.",
+    "options": [
+      "corporate",
+      "limited-recourse",
+      "full-recourse",
+      "sovereign-backed"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Corporate financing relies on the borrower's balance sheet and is the contrast to project finance.",
+      "Correct. The Guide notes that because some recourse to equity holders often exists, the tool is also called limited-recourse financing.",
+      "Incorrect. Full recourse is the opposite of the project finance idea; recourse is only partial or temporary.",
+      "Incorrect. The term does not refer to government backing; it describes how far lenders can claim against shareholders."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-004",
+    "section": "7.1",
+    "topic": "project-finance-basics",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is a benefit of project finance for the procuring authority, according to the PPP Guide?",
+    "options": [
+      "The sponsors become directly liable to the lenders for all of the project debt",
+      "The cost of project debt is always lower than the cost of corporate borrowing",
+      "Lenders add an extra layer of due diligence and oversight of project performance",
+      "The authority no longer needs to consider bankability when appraising the project"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Project finance allows sponsors to raise funds without being directly liable to the lenders.",
+      "Incorrect. The Guide says project finance is usually more expensive than corporate debt, not cheaper.",
+      "Correct. Because cash flows are the sole basis to recover the loan, lenders add due diligence and oversight that benefits the authority.",
+      "Incorrect. Under project finance the authority must pay special attention to bankability as part of commercial feasibility."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-005",
+    "section": "7.1",
+    "topic": "bankability",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which defines the bankability of a PPP project?",
+    "options": [
+      "The ability of the government to make availability payments on time",
+      "The ratio of debt to equity that the contract allows the SPV to use",
+      "The credit rating given to the parent company of the lead sponsor",
+      "The willingness of prospective lenders to finance it, in what amount and on what terms"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Public sector creditworthiness is one lender concern, but it is not the definition of bankability.",
+      "Incorrect. The debt-to-equity ratio is a result of bankability, not its definition.",
+      "Incorrect. Project finance looks at the project's cash flows, not mainly at the sponsor's corporate rating.",
+      "Correct. The Guide defines bankability as the level of willingness of prospective lenders to finance the project, in what amount and under what conditions."
+    ],
+    "ref": "Ch 1 §7.1, p. 93"
+  },
+  {
+    "id": "E-006",
+    "section": "7.1",
+    "topic": "bankability",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT one of the major concerns of project lenders listed in the PPP Guide?",
+    "options": [
+      "The size of the sponsor's corporate balance sheet as the main source of repayment",
+      "The creditworthiness of the public sector in meeting its contract obligations",
+      "The acceptability of the termination regime in protecting the debt",
+      "The right to step in if the project fails and the availability of other contractors"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Project lenders look to the project's cash flows for repayment, not to the sponsor's balance sheet, so this is not a listed concern.",
+      "Incorrect. Creditworthiness of the public sector is listed as a major lender concern.",
+      "Incorrect. Acceptability of the termination regime is listed as a major lender concern.",
+      "Incorrect. The right to step in and the availability of alternative contractors are listed as lender concerns."
+    ],
+    "ref": "Ch 1 §7.1, Box 1.23, p. 93"
+  },
+  {
+    "id": "E-007",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why do government-pays PPPs based on availability payments usually reach higher leverage than PPPs with significant demand risk?",
+    "options": [
+      "Governments legally require availability PPPs to use at least 90 percent debt",
+      "Their cash flows are more stable, so lenders accept lower DSCR requirements",
+      "Lenders have full recourse to the government in availability payment PPPs",
+      "Equity investors in availability PPPs are not allowed to receive distributions"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide describes leverage as depending on risk and cash flow stability, not on a legal minimum debt level.",
+      "Correct. More predictable cash flows and lower risk allow lower DSCR covenants, which support more debt.",
+      "Incorrect. Availability PPPs are still financed on a project finance basis; lenders do not gain full recourse to the government.",
+      "Incorrect. Nothing in the Guide prevents distributions to equity in availability PPPs."
+    ],
+    "ref": "Ch 1 §7.1, p. 94-95"
+  },
+  {
+    "id": "E-008",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 2,
+    "style": "applied",
+    "stem": "Lenders require a PPP project company to keep a Debt Service Cover Ratio (DSCR) of 1.2 in a given year. What does this mean?",
+    "options": [
+      "The project's debt must equal 1.2 times the equity invested",
+      "The NPV of all future cash flows must be 1.2 times the original loan",
+      "Cash flow available for debt service must be 1.2 times that year's debt service",
+      "The loan must be fully repaid 1.2 years before the contract ends"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. That describes a debt-to-equity relationship, not the DSCR.",
+      "Incorrect. Comparing discounted future cash flows with debt describes a life cover ratio such as the LLCR, not the yearly DSCR.",
+      "Correct. The DSCR divides the year's cash flow before debt service by that year's debt service; 1.2 gives a 20 percent cushion.",
+      "Incorrect. The DSCR is a cash flow ratio, not a measure of time before contract expiry."
+    ],
+    "ref": "Ch 1 §7.1, p. 92 (footnote 80)"
+  },
+  {
+    "id": "E-009",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the Loan Life Cover Ratio (LLCR)?",
+    "options": [
+      "It compares one year's cash flow with the debt service due in that same year",
+      "It compares the cash flow of the whole project life with the amount of debt",
+      "It compares the equity invested with the total capital expenditure of the project",
+      "It compares discounted cash flow over the remaining loan life with the outstanding debt"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A year-by-year comparison with debt service describes the DSCR.",
+      "Incorrect. Comparing cash flow over the entire project life with debt describes the Project Life Cover Ratio (PLCR).",
+      "Incorrect. This is not a cover ratio; it relates to the equity share of the investment.",
+      "Correct. The LLCR compares the NPV of projected cash flow before debt service over the remaining life of the loan with the outstanding debt."
+    ],
+    "ref": "Ch 1 §7.1, p. 92 (footnote 79); App A §A3, p. 177"
+  },
+  {
+    "id": "E-010",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: The typical financial structure of a PPP project company has a debt-to-equity ratio of between ______.",
+    "options": [
+      "60:40 and 80:20",
+      "20:80 and 40:60",
+      "40:60 and 50:50",
+      "95:5 and 100:0"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide states that the typical structure has a debt-to-equity ratio of between 60:40 and 80:20.",
+      "Incorrect. PPP project companies are highly leveraged; equity is the smaller part of the funding.",
+      "Incorrect. These ratios would give far lower leverage than the typical PPP structure.",
+      "Incorrect. Such extreme leverage is not typical; lenders require a material equity investment."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-011",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Why does the PPP Guide regard leverage as positive from the government's perspective?",
+    "options": [
+      "It transfers demand risk from the private partner to the lenders",
+      "It removes the need for any equity investors in the SPV",
+      "It turns the project debt into a direct liability of the government",
+      "It lowers the WACC, so the payments needed from government are lower"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Leverage changes the mix of financing costs; it does not move demand risk to lenders.",
+      "Incorrect. Lenders require a material equity investment; leverage does not remove equity.",
+      "Incorrect. Project debt is raised by the SPV; leverage does not make it a government liability.",
+      "Correct. Debt is cheaper than equity, so leverage reduces the WACC and the payments the government must make (or makes user-pays projects more self-sustaining)."
+    ],
+    "ref": "Ch 1 §7.1, p. 92"
+  },
+  {
+    "id": "E-012",
+    "section": "7.1",
+    "topic": "leverage-and-cover-ratios",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about leverage in PPPs: 1. Excessive leverage may increase the probability that the SPV becomes insolvent. 2. For this reason, PPP contracts usually require a minimum level of equity or set a maximum degree of leverage.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: contracts commonly set minimum equity or maximum leverage.",
+      "Incorrect. Statement 1 is also true: too much debt can endanger the project's financial sustainability.",
+      "Correct. The Guide warns that excessive leverage raises insolvency risk, which is why contracts limit leverage or require minimum equity.",
+      "Incorrect. Both statements reflect the Guide."
+    ],
+    "ref": "Ch 1 §7.1, p. 94; §7.5.2, p. 114"
+  },
+  {
+    "id": "E-013",
+    "section": "7.2.1",
+    "topic": "sources-of-funds",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes where quasi-equity products, such as subordinated or mezzanine debt, rank in a PPP financial structure?",
+    "options": [
+      "Senior to the senior debt but junior to the capital shares",
+      "Senior to the capital shares but subordinated to the senior debt",
+      "Equal in rank to the senior debt in every situation",
+      "Junior to the capital shares if the SPV is liquidated"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Senior debt has priority over all other forms of finance, including quasi-equity.",
+      "Correct. The Guide says quasi-equity products are senior to the equity shares but subordinated to the senior (main) debt.",
+      "Incorrect. Quasi-equity is subordinated to senior debt, so it does not rank equally.",
+      "Incorrect. Mezzanine debt ranks above equity, including in liquidation."
+    ],
+    "ref": "Ch 1 §7.2.1, p. 96; App A §A4, p. 179"
+  },
+  {
+    "id": "E-014",
+    "section": "7.2.1",
+    "topic": "sources-of-funds",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, who is typically the provider of capital shares (equity) in a PPP project company?",
+    "options": [
+      "A commercial bank acting as the lead arranger of the loan",
+      "An export credit agency from the host country",
+      "A contractor or industrial developer interested in construction and/or O&M",
+      "The procurement department of the procuring authority"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Commercial banks are the most usual providers of senior debt, not typical equity providers.",
+      "Incorrect. ECAs mainly support projects of their own country's companies abroad, usually through guarantees or debt.",
+      "Correct. The Guide says equity is typically provided by a contractor or industrial developer, sometimes with financial investors as co-investors.",
+      "Incorrect. Government equity is occasional, and the Guide advises it be managed by a separate body rather than the procurement agency."
+    ],
+    "ref": "Ch 1 §7.2.1, Table 1.6, p. 96"
+  },
+  {
+    "id": "E-015",
+    "section": "7.2.1",
+    "topic": "sources-of-funds",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: A short-term loan intended to be refinanced is called a ______ when it is structured on a project finance basis, and a ______ when it is fully guaranteed by the sponsor.",
+    "options": [
+      "bridge loan / mini-perm",
+      "club deal / project bond",
+      "mezzanine loan / senior loan",
+      "mini-perm / bridge loan"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. This reverses the two terms: a sponsor-guaranteed loan is the bridge loan.",
+      "Incorrect. A club deal is a way banks group together, and a project bond is a capital markets instrument; neither fits.",
+      "Incorrect. These terms describe the ranking of debt, not short-term loans intended for refinancing.",
+      "Correct. The Guide calls such loans mini-perms when based on project creditworthiness, and bridge loans when fully guaranteed by the sponsor."
+    ],
+    "ref": "Ch 1 §7.2.1, Table 1.6, p. 97"
+  },
+  {
+    "id": "E-016",
+    "section": "7.2.2",
+    "topic": "sources-of-funds",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about project bonds: 1. Bonds are more flexible than loans because their funds are always drawn down progressively during construction. 2. Project bonds are more commonly used as a refinancing solution than as finance for construction.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: bonds are a less flexible solution because funds often cannot be drawn down progressively.",
+      "Correct. The Guide says project bonds are more commonly a refinancing solution (for example via 'bridge to bonds' loans) and are less flexible than loans.",
+      "Incorrect. Statement 1 contradicts the Guide.",
+      "Incorrect. Statement 2 is true."
+    ],
+    "ref": "Ch 1 §7.2.2, p. 101 (footnote 94)"
+  },
+  {
+    "id": "E-017",
+    "section": "7.2.1",
+    "topic": "sources-of-funds",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why are financial investors such as infrastructure funds generally more interested in PPP projects that are already operational?",
+    "options": [
+      "To avoid construction risk and gain more immediate access to the project's yield",
+      "Because they are legally barred from investing in greenfield PPP projects",
+      "Because lenders have no step-in rights once a project is operational",
+      "So that they can take over the operation and maintenance work themselves"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says financial investors prefer operational projects to avoid construction risk and enjoy more immediate distributions.",
+      "Incorrect. They are not barred; the Guide says governments should promote their participation in greenfield projects.",
+      "Incorrect. Lenders' rights continue during operations; this is not the reason given.",
+      "Incorrect. Pure financial investors have no interest in the project other than the equity investment."
+    ],
+    "ref": "Ch 1 §7.2.1, Box 1.25, p. 99"
+  },
+  {
+    "id": "E-018",
+    "section": "7.2.2",
+    "topic": "financial-structuring-strategy",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes financial structuring, from the sponsor's point of view, as used in the PPP Guide?",
+    "options": [
+      "Deciding how and when to approach lenders during the tender process",
+      "Designing the mix of funds, especially debt amount and repayment profile, to maximize equity IRR",
+      "Choosing the payment mechanism that the government will use to pay the SPV",
+      "Allocating the project risks between the public and private parties in the contract"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Deciding how and when to approach funders is what the Guide calls financial strategy.",
+      "Correct. Financial structuring is the art of designing the mix of funds, mainly how much debt and with what repayment profile, to maximize equity IRR or bid more competitively.",
+      "Incorrect. The payment mechanism is designed by the government, not structured by the sponsor.",
+      "Incorrect. Risk allocation is a contract structuring matter, not the sponsor's financial structuring."
+    ],
+    "ref": "Ch 1 §7.2.2, p. 99-100"
+  },
+  {
+    "id": "E-019",
+    "section": "7.2.2",
+    "topic": "financial-structuring-strategy",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about commitment of funds at bid stage: 1. In open tender models, the common approach worldwide is to require fully committed debt at bid submission. 2. Equity funds are always committed before bid submission.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: in open tenders the common approach is to ask for sufficient evidence of the availability of finance.",
+      "Correct. Submitting a bid requires a firm commitment to invest the equity, while committed debt is required only when the tender process demands it, which is common in dialogue and other interactive processes and in some shortlisted processes.",
+      "Incorrect. Statement 1 does not match the Guide.",
+      "Incorrect. Statement 2 is true."
+    ],
+    "ref": "Ch 1 §7.2.2, p. 100"
+  },
+  {
+    "id": "E-020",
+    "section": "7.2.2",
+    "topic": "financial-structuring-strategy",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is an advantage of a short-term loan (mini-perm) strategy compared with a long-term project finance loan from the outset?",
+    "options": [
+      "It removes the refinancing risk for the private partner",
+      "It gives higher certainty and less risk for the sponsor",
+      "It can capture the upside of de-risking after construction and falls in interest rates",
+      "It avoids the need for lenders to carry out due diligence"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The short-term strategy means the private partner assumes the risk of refinancing.",
+      "Incorrect. Higher certainty and less risk are the advantages of a long-term loan from the outset.",
+      "Correct. The Guide says short-term loans give access to the upside of de-risking after construction, more ability to switch to capital markets, and to capture interest rate falls.",
+      "Incorrect. Mini-perms are still arranged on a project finance basis, so lenders still carry out due diligence."
+    ],
+    "ref": "Ch 1 §7.2.2, p. 100-101"
+  },
+  {
+    "id": "E-021",
+    "section": "7.2.2",
+    "topic": "financial-structuring-strategy",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Financial structuring and strategy are the responsibility of the private investor. Which restriction on private financing may the government still properly set?",
+    "options": [
+      "A maximum level of leverage for the project company",
+      "A requirement to borrow only from local banks",
+      "A requirement to use bonds rather than bank loans",
+      "A choice of which lenders the bidder must appoint"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says government should not restrict financing choices other than setting maximum leverage or insisting on a lending competition when appropriate.",
+      "Incorrect. The Guide gives insisting on local banks as an example of a restriction the government should not create.",
+      "Incorrect. The choice of instruments is for the private investor, not the government.",
+      "Incorrect. Where finance is raised from is the private investor's decision."
+    ],
+    "ref": "Ch 1 §7.2.2, p. 101"
+  },
+  {
+    "id": "E-022",
+    "section": "7.2.3",
+    "topic": "mdb-and-hybrid-models",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes an A/B loan structure involving a Multilateral Development Bank (MDB)?",
+    "options": [
+      "The MDB provides the A loan, and the B loan is syndicated to commercial lenders who benefit from the MDB's preferred creditor status",
+      "The A loan is senior debt from commercial banks, and the B loan is equity provided by the MDB to the SPV",
+      "The A loan is provided by the government, and the B loan is provided by an export credit agency",
+      "The A loan is a short-term construction loan, and the B loan is the long-term loan that refinances it"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The A loan comes from the MDB and the B loan is a commercial loan syndicated to banks, protected indirectly through the MDB's preferred creditor status and a cross-default clause.",
+      "Incorrect. Both A and B loans are debt; the A loan is the MDB's own loan.",
+      "Incorrect. The structure links an MDB loan with commercial bank loans, not government and ECA loans.",
+      "Incorrect. This describes a mini-perm and refinancing, not an A/B loan structure."
+    ],
+    "ref": "Ch 1 §7.2.3, p. 102"
+  },
+  {
+    "id": "E-023",
+    "section": "7.2.3",
+    "topic": "mdb-and-hybrid-models",
+    "level": 2,
+    "style": "applied",
+    "stem": "In a bus rapid transit project, the government finances and builds the civil works, then awards a separate contract to a private partner to provide the rolling stock and O&M. Which MDB hybrid PPP model is this?",
+    "options": [
+      "Hybrid Model 1: CAPEX VGF",
+      "Hybrid Model 2: OPEX VGF",
+      "Hybrid Model 3: Build-Concession",
+      "A pure user-pays concession"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Under CAPEX VGF the private partner delivers the whole project in an integrated way, with public funds buying down part of the capital cost.",
+      "Incorrect. Under OPEX VGF the private partner finances all capital costs and receives public support during operations.",
+      "Correct. Build-Concession splits the project: government finances and builds the main works, and a separate contract covers equipment and O&M.",
+      "Incorrect. Here the government finances the civil works, so it is not a pure user-pays concession."
+    ],
+    "ref": "Ch 1 §7.2.3, p. 104-105"
+  },
+  {
+    "id": "E-024",
+    "section": "7.2.4",
+    "topic": "islamic-finance",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: Under Sharia law, ______ are not permitted, but a bank may earn a legitimate profit by sharing the profit and loss of the enterprise it lends to.",
+    "options": [
+      "equity dividends",
+      "lease payments",
+      "milestone payments",
+      "interest payments"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Profit sharing, which is permitted, is close to the idea of equity returns.",
+      "Incorrect. Lease payments (ijara) are a permitted way for Islamic funders to earn income.",
+      "Incorrect. Milestone payments are used in Islamic structures such as the istina'a.",
+      "Correct. The Guide states that interest payments are not permitted under Sharia, while profit based on sharing profit and loss can be legitimate."
+    ],
+    "ref": "Ch 1 §7.2.4, p. 105"
+  },
+  {
+    "id": "E-025",
+    "section": "7.3",
+    "topic": "co-financing",
+    "level": 1,
+    "style": "not",
+    "stem": "Regardless of the revenue regime, which is NOT a reason given in the PPP Guide for a government to provide financial support to a PPP project?",
+    "options": [
+      "To free the private partner from all construction risk",
+      "A structural or temporary lack of available private lending",
+      "The project is too large or risky, threatening bankability",
+      "To decrease the WACC and make the scheme more affordable"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Removing construction risk from the private partner is not a listed reason; too much public support can in fact spoil risk transfer and VfM.",
+      "Incorrect. A lack of available private lending is a listed reason.",
+      "Incorrect. A project being too large or too risky for bankability is a listed reason.",
+      "Incorrect. Decreasing the WACC to improve affordability is a listed reason."
+    ],
+    "ref": "Ch 1 §7.3, p. 105"
+  },
+  {
+    "id": "E-026",
+    "section": "7.3",
+    "topic": "co-financing",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes pure co-financing of a PPP project?",
+    "options": [
+      "A public loan to the SPV that is repaid at market interest rates",
+      "Grant payments during construction that partly compensate for the cost of works",
+      "Availability payments during operations that are reduced for poor performance",
+      "A government equity stake that gives it seats on the SPV board"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Public loans are an alternative to grants and must be repaid; they are not pure co-financing.",
+      "Correct. The Guide says pure co-financing is grant financing: payments during construction that partially compensate for the work costs.",
+      "Incorrect. Availability payments are the normal government-pays revenue, not co-financing of the initial investment.",
+      "Incorrect. Government equity is a separate form of public participation, not grant co-financing."
+    ],
+    "ref": "Ch 1 §7.3, p. 106"
+  },
+  {
+    "id": "E-027",
+    "section": "7.3",
+    "topic": "co-financing",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government wants to co-finance a PPP but lacks liquidity. It commits to grant amounts that accrue as construction milestones are met but are paid during operations, unconditionally and irrevocably, with no deductions for performance. How does the Guide describe this?",
+    "options": [
+      "An availability payment linked to service performance",
+      "A public subordinated loan on soft terms",
+      "Deferred grant financing, which may also be seen as de-risking",
+      "A minimum revenue guarantee for a user-pays project"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Availability payments can be reduced for poor performance, while these payments cannot.",
+      "Incorrect. A loan must be repaid to the government; these are grant payments to the SPV.",
+      "Correct. The Guide describes deferred, unconditional and irrevocable grant payments (such as CRPAO or PDIF) as co-financing that can also be regarded as de-risking.",
+      "Incorrect. A minimum revenue guarantee protects against low demand; it does not pay for a fixed portion of the works."
+    ],
+    "ref": "Ch 1 §7.3, p. 106"
+  },
+  {
+    "id": "E-028",
+    "section": "7.3.1",
+    "topic": "co-financing",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why can too much public co-financing spoil the value for money of a PPP?",
+    "options": [
+      "It always raises the WACC of the project company",
+      "It prevents lenders from exercising their step-in rights",
+      "It turns a government-pays PPP into a user-pays PPP",
+      "It reduces the private partner's risks and incentives to perform"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Public support is often used to decrease the WACC, not raise it.",
+      "Incorrect. Co-financing does not remove lenders' step-in rights.",
+      "Incorrect. Co-financing does not change the revenue regime of the PPP.",
+      "Correct. Too much public financing weakens the alignment created by deferred performance-linked payments, so the project may behave like traditional procurement."
+    ],
+    "ref": "Ch 1 §7.3.1, p. 107"
+  },
+  {
+    "id": "E-029",
+    "section": "7.4.1",
+    "topic": "public-support-and-de-risking",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the government as an equity investor in a PPP: 1. When the government invests only as a financial investor, the Guide treats this as a financial variation of a conventional PPP, not as an institutional PPP. 2. Investing as equity means the government takes back less risk than investing the same amount as debt.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 matches the Guide; statement 2 is false because equity carries more risk than an equivalent amount of debt.",
+      "Incorrect. Statement 2 is false: the Guide says investing equity means taking back more risk than investing the same amount as debt.",
+      "Incorrect. Only statement 1 is true.",
+      "Incorrect. Statement 1 is true."
+    ],
+    "ref": "Ch 1 §7.4.1, p. 108-109"
+  },
+  {
+    "id": "E-030",
+    "section": "7.4.2",
+    "topic": "public-support-and-de-risking",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes credit enhancement, as defined in the PPP Guide?",
+    "options": [
+      "Grant payments made during construction to reduce the private partner's capital needs",
+      "Instruments structured mainly to give lenders more protection, raising the debt's credit rating",
+      "Techniques built into the payment mechanism to reduce the private partner's revenue risk",
+      "Public equity investment made through a strategic infrastructure fund"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Grant payments during construction are co-financing, not credit enhancement.",
+      "Correct. The Guide defines credit enhancement as instruments mainly structured to provide higher protection to lenders, increasing the credit rating of the debt.",
+      "Incorrect. Techniques embedded in the contract and payment mechanism are what the Guide calls de-risking.",
+      "Incorrect. Public equity through strategic funds is a form of public financial participation, not credit enhancement."
+    ],
+    "ref": "Ch 1 §7.4, p. 107 (footnote 103); §7.4.2, p. 111"
+  },
+  {
+    "id": "E-031",
+    "section": "7.4.2",
+    "topic": "public-support-and-de-risking",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT an example of a de-risking approach listed in the PPP Guide?",
+    "options": [
+      "Minimum traffic guarantees in user-pays road projects",
+      "Escrow accounts and trustee structures backing payments",
+      "Requiring the preferred bidder to run a debt funding competition",
+      "Guarantee funds that secure government payment obligations"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Contingent guarantees such as minimum traffic guarantees are listed de-risking approaches.",
+      "Incorrect. Escrow accounts and trustee structures are listed de-risking approaches.",
+      "Correct. A debt funding competition is a way to secure better financing terms at financial close, not a de-risking approach.",
+      "Incorrect. Guarantee funds for government payment obligations are listed de-risking approaches."
+    ],
+    "ref": "Ch 1 §7.4.2, p. 110"
+  },
+  {
+    "id": "E-032",
+    "section": "7.5.1",
+    "topic": "contract-financial-provisions",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes lenders' step-in rights in a PPP contract?",
+    "options": [
+      "The right of lenders to terminate the contract and take ownership of the asset",
+      "The right of lenders to set user tariffs if revenues fall below forecast",
+      "The right of lenders to replace the procuring authority as contract manager",
+      "The right of lenders to take control of the contract before the government terminates"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Termination is the government's right; step-in is meant to act before termination.",
+      "Incorrect. Step-in rights do not allow lenders to set tariffs.",
+      "Incorrect. Lenders step into the private partner's position, not the authority's.",
+      "Correct. Step-in lets lenders take control of the project contract when the sponsor is seriously underperforming, before the government needs to terminate."
+    ],
+    "ref": "Ch 1 §7.5.1, p. 113"
+  },
+  {
+    "id": "E-033",
+    "section": "7.5.3",
+    "topic": "contract-financial-provisions",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes common practice regarding the transfer of shares in a PPP project company?",
+    "options": [
+      "Transfers that cause a change of control need the authority's prior authorization",
+      "Shareholders may sell any shares at any time without informing the authority",
+      "All share transfers are prohibited for the full term of the contract",
+      "Authorization is needed only for transfers that do not change control"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. It is common to prohibit transfers without prior authorization when they cause a change of control; other transfers are often allowed with notification.",
+      "Incorrect. Governments regulate transfers to avoid opportunistic behavior and protect fairness of the procurement.",
+      "Incorrect. The Guide asks authorities to allow flexibility so original investors can gain liquidity.",
+      "Incorrect. This reverses the rule: it is the change of control that needs authorization."
+    ],
+    "ref": "Ch 1 §7.5.3, p. 114-115"
+  },
+  {
+    "id": "E-034",
+    "section": "7.5.5",
+    "topic": "contract-financial-provisions",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government runs an open tender without a shortlist in a market where bank lending capacity may not support more than about three bidders. What does the Guide consider good practice?",
+    "options": [
+      "Require every bidder to submit a fully committed financial package with its bid",
+      "Not require financial arrangements at bid submission, but ask for reasonable evidence such as bank support letters",
+      "Require no evidence of funding at all until after financial close",
+      "Require the government to provide all project debt through a national bank"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Requiring committed finance from every bidder could reduce competition when lending capacity is scarce.",
+      "Correct. Good practice is not to require financial arrangements at bid submission, while requiring reasonable evidence of funding availability, such as indicative letters of support.",
+      "Incorrect. The RFP should still require reasonable evidence of funding availability.",
+      "Incorrect. Financial structuring is the private investor's responsibility; public lending is used only in limited circumstances."
+    ],
+    "ref": "Ch 1 §7.5.5, p. 116"
+  },
+  {
+    "id": "E-035",
+    "section": "7.5.6",
+    "topic": "contract-financial-provisions",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a preferred bidder debt funding competition?",
+    "options": [
+      "A competition among bidders on the lowest equity IRR offered",
+      "An auction in which the government sells its equity stake in the SPV",
+      "A competition among lenders, run by the preferred bidder at the authority's request, to get the best financing terms",
+      "A process in which lenders compete for the right to step in to a failing project"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The competition is among potential lenders, not among bidders on equity returns.",
+      "Incorrect. It is not about selling government equity.",
+      "Correct. The authority requires the preferred bidder to hold a competition among potential lenders, and the authority keeps most or all of the benefits and related risks.",
+      "Incorrect. Step-in rights are a separate lenders' right, not a funding competition."
+    ],
+    "ref": "Ch 1 §7.5.6, p. 117"
+  },
+  {
+    "id": "E-036",
+    "section": "App A",
+    "topic": "project-finance-basics",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why do project finance lenders look mainly at the SPV's projected cash flows as collateral, rather than at the project assets?",
+    "options": [
+      "Because the law forbids lenders from taking security over infrastructure",
+      "Because the government owns all project cash flows during the contract",
+      "Because the sponsors guarantee the full value of the project assets",
+      "Because the SPV has no operating history and its assets have little value in distress"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide does not give a legal ban as the reason; lenders do take security, such as pledges over economic rights.",
+      "Incorrect. The SPV receives the project revenues, which are used to service the debt.",
+      "Incorrect. In project finance the sponsors' exposure is normally limited to their equity.",
+      "Correct. The SPV is new with no operating history, and the project assets would not have much value in financial distress, so lenders rely on cash flows."
+    ],
+    "ref": "Ch 1 App A §A3, p. 177"
+  },
+  {
+    "id": "E-037",
+    "section": "App A",
+    "topic": "cash-waterfall",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the project finance cash flow waterfall, which payment is made only after operating costs, taxes, debt service and reserve accounts have been covered?",
+    "options": [
+      "Distributions to equity",
+      "Operating costs",
+      "Senior debt interest",
+      "Taxes"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Distributions to equity come after debt service and reserve accounts, which is why equity is subordinated to debt.",
+      "Incorrect. Operating costs are paid near the top of the waterfall, before debt service.",
+      "Incorrect. Debt interest is paid before reserve accounts and distributions to equity.",
+      "Incorrect. Taxes are paid before debt service in the waterfall."
+    ],
+    "ref": "Ch 1 App A §A3, Figure A1, p. 178"
+  },
+  {
+    "id": "E-038",
+    "section": "App A",
+    "topic": "sources-of-funds",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about mezzanine debt in a PPP: 1. Mezzanine debt usually commands lower returns than senior debt because it is secured on the project's cash flows. 2. Mezzanine debt ranks above equity both in the cash waterfall and if the PPP company is liquidated.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: mezzanine debt is subordinated to senior debt, so it commands higher returns.",
+      "Correct. Mezzanine debt ranks above equity but below senior debt, and because it is more exposed to poor performance it earns higher returns than senior debt.",
+      "Incorrect. Statement 1 contradicts the Guide.",
+      "Incorrect. Statement 2 is true."
+    ],
+    "ref": "Ch 1 App A §A4, p. 179"
+  },
+  {
+    "id": "E-039",
+    "section": "App A",
+    "topic": "project-finance-basics",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is a limitation of project finance identified in the PPP Guide?",
+    "options": [
+      "It prevents sponsors from sharing project risks with other parties",
+      "It forces sponsors to give a corporate repayment guarantee",
+      "It is complex and costly to assemble, with higher transaction costs",
+      "It gives corporate management full control over free cash flow"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Risk sharing with other stakeholders is one of the benefits of project finance.",
+      "Incorrect. Project finance is useful precisely for sponsors who wish to avoid a corporate repayment guarantee.",
+      "Correct. The Guide says project finance is complex and costly, with higher capital and transaction costs than conventional routes.",
+      "Incorrect. In project finance the providers of funds, not corporate management, decide how free cash flow is used."
+    ],
+    "ref": "Ch 1 App A §A5, p. 180"
+  },
+  {
+    "id": "E-040",
+    "section": "App A",
+    "topic": "sources-of-funds",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: Debt for a PPP project is normally priced on the basis of the lender's underlying cost of funds plus a ______ expressed in basis points to cover default risk and the lender's other costs.",
+    "options": [
+      "success fee",
+      "equity premium",
+      "refinancing gain",
+      "margin"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A success fee is not how the Guide describes the pricing of project debt.",
+      "Incorrect. An equity premium relates to the return required by shareholders, not debt pricing.",
+      "Incorrect. A refinancing gain arises when debt terms improve later; it is not part of debt pricing.",
+      "Correct. The Guide says debt is priced as the cost of funds plus a fixed component, or margin, expressed in basis points."
+    ],
+    "ref": "Ch 1 App A §A4, p. 179"
+  }
+]

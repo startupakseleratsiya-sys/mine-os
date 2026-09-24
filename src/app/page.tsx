@@ -8,6 +8,7 @@ import { COURSES as COURSE_CONTENT, TOTAL_CHAPTERS, courseMinutes, formatMinutes
 /* ── Constants ── */
 const NAV_LINKS = [
     { label: "Kurslar", href: "/courses" },
+    { label: "CP3P exam prep", href: "/exam" },
     { label: "AI Tutor", href: "/tutor" },
     { label: "Kalkulyator", href: "/calculators" },
     { label: "Narxlar", href: "#pricing" },

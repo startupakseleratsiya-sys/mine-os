@@ -1,0 +1,882 @@
+[
+  {
+    "id": "F-001",
+    "section": "9",
+    "topic": "ppp-framework-definition",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the PPP framework, as defined in the PPP Guide?",
+    "options": [
+      "The single PPP law that every country must pass before it can launch any PPP project, whatever its legal tradition",
+      "The standard PPP contract that the government uses without changes for all projects within one sector",
+      "The policy, procedures, institutions and rules that together define how PPPs are identified, assessed, procured, monitored and accounted for",
+      "The list of pathfinder projects that the government announces to the market when it starts a PPP program"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide notes some countries use PPP laws, others policies, and some need no specific PPP law at all.",
+      "Incorrect. A standard contract may be one document within a framework, but the framework is much wider than a contract.",
+      "Correct. The Guide adopts the World Bank definition: the policy, procedures, institutions and rules that define how PPPs are identified, assessed, selected, budgeted for, procured, monitored and accounted for.",
+      "Incorrect. Pathfinder projects should accompany a new framework, but they are not the framework itself."
+    ],
+    "ref": "Ch 1 §9, p. 131"
+  },
+  {
+    "id": "F-002",
+    "section": "9",
+    "topic": "ppp-framework-definition",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: The PPP Guide advocates a ______ PPP approach in order to extract and protect overall value for money from the use of PPPs to procure infrastructure.",
+    "options": [
+      "programmatic",
+      "project-by-project",
+      "privatization-led",
+      "user-pays"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide advocates a programmatic PPP approach, supported by a sound PPP framework, to extract and protect overall VfM.",
+      "Incorrect. The Guide argues that the full benefit of PPPs comes from a programmatic approach, not isolated projects.",
+      "Incorrect. The Guide treats PPP as a procurement option, not as privatization of public assets.",
+      "Incorrect. The Guide's approach covers both user-pays and government-pays PPPs; the key word is programmatic."
+    ],
+    "ref": "Ch 1 §9, p. 130"
+  },
+  {
+    "id": "F-003",
+    "section": "9",
+    "topic": "framework-elements",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT one of the elements that, according to the PPP Guide, a PPP framework necessarily includes?",
+    "options": [
+      "Rules and procedures to control the government's aggregated exposure to PPPs",
+      "An architecture within the government that affects the governance of PPPs",
+      "Rules and procedures to guide risk allocation between the public and private sectors",
+      "A requirement that all PPP projects must be paid for through user charges"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Control of aggregated exposure (the fiscal management framework) is one of the necessary elements.",
+      "Incorrect. The institutional framework, the architecture within government, is one of the necessary elements.",
+      "Incorrect. Rules and procedures to guide public-private risk allocation are one of the necessary elements.",
+      "Correct. The Guide lists no such requirement; frameworks cover both user-pays and government-pays PPPs."
+    ],
+    "ref": "Ch 1 §9, pp. 132-133"
+  },
+  {
+    "id": "F-004",
+    "section": "9",
+    "topic": "framework-elements",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "The rules and procedures used to identify, prepare and appraise projects, develop the contract and RFP structure, and manage the tender and the contract are commonly referred to as the:",
+    "options": [
+      "fiscal management framework",
+      "operational or process management framework",
+      "institutional framework",
+      "PPP legal framework"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The fiscal management framework controls aggregated exposure to PPPs.",
+      "Correct. The Guide says these rules and procedures are commonly called the operational framework or process management framework.",
+      "Incorrect. The institutional framework is the architecture within government that affects PPP governance.",
+      "Incorrect. The PPP legal framework is the body of laws that influence the use and control of the PPP option."
+    ],
+    "ref": "Ch 1 §9, pp. 132-133"
+  },
+  {
+    "id": "F-005",
+    "section": "9",
+    "topic": "framework-elements",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: A set of rules and procedures to control the aggregated exposure to PPPs is commonly referred to as the ______ framework.",
+    "options": [
+      "institutional",
+      "operational",
+      "procurement",
+      "fiscal management"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The institutional framework refers to the architecture within government, not to control of fiscal exposure.",
+      "Incorrect. The operational framework covers project identification, preparation, tendering and contract management procedures.",
+      "Incorrect. Procurement rules govern tender processes, not the aggregated fiscal exposure to PPPs.",
+      "Correct. The Guide calls rules controlling aggregated exposure to PPPs the fiscal management framework."
+    ],
+    "ref": "Ch 1 §9, p. 133"
+  },
+  {
+    "id": "F-006",
+    "section": "9",
+    "topic": "legal-traditions",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about how PPP frameworks are documented: 1. Jurisdictions based on the common law tradition tend to rely more on policy statements or policy documents. 2. Jurisdictions based on civil codes tend to rely significantly on laws.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: civil code jurisdictions rely significantly on laws.",
+      "Incorrect. Statement 1 is also true: common law jurisdictions rely more on policy documents.",
+      "Correct. The Guide states that common law jurisdictions rely more on policy statements, while civil code jurisdictions rely significantly on laws.",
+      "Incorrect. Both statements match the Guide's description of the two main legal systems."
+    ],
+    "ref": "Ch 1 §9, p. 134"
+  },
+  {
+    "id": "F-007",
+    "section": "9",
+    "topic": "legal-traditions",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is a characteristic of PPP frameworks based on laws, according to the PPP Guide?",
+    "options": [
+      "They are seen as flexible, but they also reduce stability",
+      "They are mainly found in countries with common law systems",
+      "They are seen as stable, but they also introduce rigidity",
+      "They remove any need for regulations or guidelines below the law"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide describes the opposite: stability is the advantage and rigidity the drawback.",
+      "Incorrect. Reliance on laws is typical of civil code countries; common law countries rely more on policy documents.",
+      "Correct. The Guide says law-based frameworks are advantageous for stability, but the converse is rigidity.",
+      "Incorrect. Laws are often supplemented by secondary legislation such as regulations, policies and guidelines."
+    ],
+    "ref": "Ch 1 §9, p. 134"
+  },
+  {
+    "id": "F-008",
+    "section": "9",
+    "topic": "legal-traditions",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, what is the paramount factor that explains relevant differences in PPP frameworks between countries?",
+    "options": [
+      "The size of the national economy",
+      "The legal tradition of the country",
+      "The sectors in which PPPs are used",
+      "The credit rating of the government"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide does not name economic size as the main factor behind framework differences.",
+      "Correct. The Guide states that the paramount factor influencing differences in PPP frameworks is the country's legal tradition.",
+      "Incorrect. Frameworks may include sector-specific requirements, but the paramount factor is legal tradition.",
+      "Incorrect. Credit ratings matter to investors, but they are not the factor the Guide gives for framework differences."
+    ],
+    "ref": "Ch 1 §9, pp. 133-134"
+  },
+  {
+    "id": "F-009",
+    "section": "9",
+    "topic": "framework-elements",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government plans to start using PPPs as part of a strategic program. Under the PPP Guide, does this require new agents or positions within the administration?",
+    "options": [
+      "No; the main roles are the same as in any procurement, although specialized PPP teams are useful good practice",
+      "Yes; a PPP program can only operate if a new ministry dedicated to PPPs is created by law",
+      "Yes; the treasury cannot take part in PPP approvals unless a new PPP agency is created first",
+      "No; specialized PPP teams are discouraged because they duplicate the existing roles in government"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Table 1.8 says PPPs do NOT require new agents, but creating specialized bodies or teams is common and regarded as good practice.",
+      "Incorrect. The Guide states that PPPs do not require new agents or positions within the administration.",
+      "Incorrect. The treasury or budget role is one of the existing roles that is the same as in any procurement.",
+      "Incorrect. The Guide describes specialized PPP bodies or teams as very useful good practice, not something to avoid."
+    ],
+    "ref": "Ch 1 §9, p. 137"
+  },
+  {
+    "id": "F-010",
+    "section": "9",
+    "topic": "framework-adaptation",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Why does the PPP Guide say that PPPs need specific guidelines for project selection and appraisal, beyond those used for ordinary public procurement?",
+    "options": [
+      "Because PPP contracts must always be awarded to the bidder offering the lowest price",
+      "Because PPP projects do not need to be tested for affordability by the government",
+      "Because in a PPP the lowest-cost bidder may not provide the best overall value for money",
+      "Because PPP projects are exempt from the general rules on public procurement"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide warns against rules that mandate the lowest-cost bidder for PPPs.",
+      "Incorrect. Specific PPP guidelines are needed precisely to protect affordability, commercial feasibility and VfM.",
+      "Correct. Table 1.8 notes that cost is not the only part of a PPP bid to assess, so the lowest-cost bidder may not give the best VfM.",
+      "Incorrect. PPP procurement relates to public procurement and may be limited by procurement rules."
+    ],
+    "ref": "Ch 1 §9, p. 136"
+  },
+  {
+    "id": "F-011",
+    "section": "9",
+    "topic": "framework-adaptation",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about fiscal management in a PPP framework: 1. Relying only on public debt limits may be misleading, because government-pays PPPs commit budget resources in the long term whether or not they are recognized as public debt. 2. Controlling aggregate exposure matters mainly for user-pays PPPs rather than government-pays PPPs.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 reflects Table 1.8; statement 2 is false because aggregate exposure pertains especially to government-pays PPPs.",
+      "Incorrect. Statement 2 is false: the Guide says fiscal management of aggregate exposure pertains especially to government-pays PPPs.",
+      "Incorrect. Only statement 1 is true; statement 2 reverses the Guide's focus on government-pays PPPs.",
+      "Incorrect. Statement 1 is true: the Guide warns that relying only on debt limits may ignore long-term budget commitments."
+    ],
+    "ref": "Ch 1 §9, p. 136"
+  },
+  {
+    "id": "F-012",
+    "section": "9",
+    "topic": "ppp-framework-definition",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes 'pathfinder' projects in the context of developing a PPP framework?",
+    "options": [
+      "Initial projects launched promptly to demonstrate how the new framework is applied",
+      "Projects that were screened out as unsuitable for PPP during the Identification Phase",
+      "Projects procured traditionally so that their costs can be compared with PPPs",
+      "Unsolicited proposals submitted by private developers outside the PPP program"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says a new framework should be followed promptly by one or more pathfinder or pilot projects that demonstrate its application.",
+      "Incorrect. Pathfinders are projects that go ahead as PPPs, not projects rejected at screening.",
+      "Incorrect. Pathfinders are pilot PPP projects, not traditionally procured comparison projects.",
+      "Incorrect. Pathfinders are selected and launched by the government to show the framework in use."
+    ],
+    "ref": "Ch 1 §9, pp. 135 and 137"
+  },
+  {
+    "id": "F-013",
+    "section": "9",
+    "topic": "ppp-framework-definition",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about PPP frameworks: 1. The existence of a PPP framework will, in itself, ensure the success of the PPP tool. 2. The foundations of a PPP framework are originally the same as for any public procurement, but they need significant adaptation.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says a framework will not, in itself, ensure success.",
+      "Correct. Success can only be measured through implemented projects, and the Guide says the foundations are shared with public procurement but need significant adaptation.",
+      "Incorrect. Only statement 2 is true; a framework alone does not guarantee success.",
+      "Incorrect. Statement 2 is true: it is one of the key ideas in Box 1.32."
+    ],
+    "ref": "Ch 1 §9, pp. 135 and 137"
+  },
+  {
+    "id": "F-014",
+    "section": "9",
+    "topic": "private-sector-programs",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: The private sector (the PPP industry) is interested in ______ rather than in single projects.",
+    "options": [
+      "one-off landmark projects",
+      "short-term construction contracts",
+      "grants and public subsidies",
+      "markets with a viable project pipeline"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide stresses that the industry looks for markets and pipelines, not isolated projects.",
+      "Incorrect. PPPs are long-term contracts; the Guide's point concerns markets and pipelines, not short contracts.",
+      "Incorrect. The Guide does not describe grants or subsidies as the main interest of the PPP industry.",
+      "Correct. The Guide says private developers are interested in markets that offer a viable pipeline and economies of scale in bidding."
+    ],
+    "ref": "Ch 1 §9, p. 138"
+  },
+  {
+    "id": "F-015",
+    "section": "9",
+    "topic": "private-sector-programs",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, why do PPP programs in most countries make slower progress than they should?",
+    "options": [
+      "There is a general shortage of private finance for projects",
+      "There are not enough suitable, well-prepared PPP projects",
+      "Most projects fail to meet commercial feasibility criteria",
+      "Governments have created too many specialized PPP units"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide explicitly says slow progress is not due to a lack of finance.",
+      "Correct. The Guide says slow progress is usually due to an insufficient quantity of suitable, well-prepared PPP projects.",
+      "Incorrect. The Guide explicitly says slow progress is not due to failure to meet commercial feasibility criteria.",
+      "Incorrect. The Guide regards specialized PPP units as good practice, not as a cause of slow progress."
+    ],
+    "ref": "Ch 1 §9, p. 138"
+  },
+  {
+    "id": "F-016",
+    "section": "9",
+    "topic": "private-sector-programs",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is a reason the private sector values a robust PPP framework?",
+    "options": [
+      "It guarantees each bidder a minimum return on equity for every project it wins",
+      "It removes the need for competitive tendering of projects within a program",
+      "It allows each ministry to design its own contract approach independently",
+      "It helps different projects be structured and managed consistently, which lowers bidding costs"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A framework improves reliability; it does not guarantee investor returns.",
+      "Incorrect. PPPs must still be competitively and transparently tendered under the framework.",
+      "Incorrect. The Guide warns that without a framework ministries may act inconsistently and bidders may be lost.",
+      "Correct. The Guide says consistency lowers costs for the private sector and builds confidence in the market."
+    ],
+    "ref": "Ch 1 §9, p. 138"
+  },
+  {
+    "id": "F-017",
+    "section": "9",
+    "topic": "private-sector-programs",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "The PPP Guide says a programmatic approach may create a 'virtuous circle'. What is the essential factor in this circle?",
+    "options": [
+      "Government guarantees that cover all of the private partner's risks",
+      "High user tariffs that assure strong revenues for every project",
+      "A successful track record that increases industry interest and feedback",
+      "Direct award of contracts to a small group of trusted developers"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The virtuous circle rests on track record, not on the government taking all risks.",
+      "Incorrect. Tariff levels are not the factor the Guide identifies for the virtuous circle.",
+      "Correct. A successful track record raises industry interest, and more interest gives feedback to improve the framework.",
+      "Incorrect. Direct award conflicts with competitive procurement and is not part of the virtuous circle."
+    ],
+    "ref": "Ch 1 §9, p. 139"
+  },
+  {
+    "id": "F-018",
+    "section": "9",
+    "topic": "private-sector-programs",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the PPP Guide's list of features demanded by world-class private players, which describes a 'political champion'?",
+    "options": [
+      "The winning bidder of the first pathfinder PPP project",
+      "A senior minister who strongly advocates the PPP program",
+      "An independent auditor who reviews PPP accounts",
+      "A lender that finances most of the PPP pipeline"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A political champion is on the government side, not a private bidder.",
+      "Correct. Table 1.9 describes a political champion as a senior minister who strongly advocates the PPP program.",
+      "Incorrect. Audits support transparency, but the political champion is a senior political advocate.",
+      "Incorrect. A political champion shows political commitment; it is not a financier."
+    ],
+    "ref": "Ch 1 §9, p. 141"
+  },
+  {
+    "id": "F-019",
+    "section": "10",
+    "topic": "contract-management",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which is an example of NON-routine contract management, as described in the PPP Guide?",
+    "options": [
+      "Managing a request to renegotiate the PPP contract",
+      "Administering availability payments to the project company",
+      "Monitoring the performance of the project company",
+      "Managing a refinancing of the project company"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Managing requests for renegotiation is listed as non-routine contract management, together with disputes and early termination.",
+      "Incorrect. Administering performance payments under government-pays PPPs is routine contract management.",
+      "Incorrect. Monitoring the SPV's performance is routine contract management.",
+      "Incorrect. The Guide lists managing refinancings as a routine contract management task."
+    ],
+    "ref": "Ch 1 §10, p. 171"
+  },
+  {
+    "id": "F-020",
+    "section": "10",
+    "topic": "process-phases",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which sequence shows the phases of the PPP process cycle in the order used by the PPP Guide?",
+    "options": [
+      "Identification and screening; structuring and drafting; appraisal and preparation; tender; contract management",
+      "Appraisal and preparation; identification and screening; tender; structuring and drafting; contract management",
+      "Identification and screening; appraisal and preparation; structuring and drafting; tender; contract management",
+      "Identification and screening; appraisal and preparation; tender; structuring and drafting; contract management"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Appraisal and preparation come before structuring and drafting.",
+      "Incorrect. Identification and screening is the first phase, before appraisal.",
+      "Correct. The Guide's cycle runs from identification and PPP screening to appraisal and preparation, structuring and drafting, tender and award, then contract management.",
+      "Incorrect. The tender and contract must be structured and drafted before the tender is launched."
+    ],
+    "ref": "Ch 1 §10, pp. 145 and 150"
+  },
+  {
+    "id": "F-021",
+    "section": "10",
+    "topic": "process-phases",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "In the standard process of the PPP Guide, why is a project screened for PPP potential early, during the Identification Phase?",
+    "options": [
+      "To avoid spending money on full appraisal of a project that is not suitable as a PPP",
+      "Because the investment decision is always taken after financial close is reached",
+      "Because PPP screening removes the need for any cost-benefit analysis of the project",
+      "Because the tender route must be chosen before the public need is identified"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Box 1.33 says early screening lets the government avoid wasting money on appraisal of projects unsuitable as PPPs.",
+      "Incorrect. Investment and procurement decisions are taken before tender, long before financial close.",
+      "Incorrect. Screening is a preliminary test; economic assessment such as CBA still takes place.",
+      "Incorrect. The need and the technical solution are identified first; the procurement route is defined during appraisal."
+    ],
+    "ref": "Ch 1 §10, p. 143"
+  },
+  {
+    "id": "F-022",
+    "section": "10",
+    "topic": "process-phases",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government with a strong fiscal position first decides whether a project should proceed, and only then decides whether PPP delivery offers better value for money than traditional delivery. Which describes this approach?",
+    "options": [
+      "Combining the investment and procurement decisions in one phase",
+      "Skipping the investment decision for projects delivered as PPPs",
+      "Taking the procurement decision before the public need is identified",
+      "Separating the investment decision from the procurement decision"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Combining the two decisions is the Guide's standard approach, suited to EMDEs where PPP is an alternative to public finance.",
+      "Incorrect. The investment decision is still taken, and it is taken first.",
+      "Incorrect. In this approach the need and project are defined first; procurement is decided last.",
+      "Correct. Box 1.37 explains that governments able to deliver a project either way can take the investment decision first and the procurement decision afterwards."
+    ],
+    "ref": "Ch 1 §10, pp. 155-156"
+  },
+  {
+    "id": "F-023",
+    "section": "10",
+    "topic": "identification-screening",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is an objective of the Project Identification and PPP Screening Phase?",
+    "options": [
+      "To select the preferred bidder through a competitive tender process",
+      "To avoid sinking resources into the full assessment of unworthy projects",
+      "To finalize the draft contract and the request for proposals",
+      "To reach financial close and start construction of the asset"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Selecting the preferred bidder happens in the Tender Phase.",
+      "Correct. Phase 1 aims to select the right project option and pre-assess PPP suitability so resources are not wasted on unworthy projects.",
+      "Incorrect. Finalizing the contract and RFP happens in the Structuring and Drafting Phase.",
+      "Incorrect. Financial close ends the Tender Phase and precedes the Implementation Phase."
+    ],
+    "ref": "Ch 1 §10, p. 150"
+  },
+  {
+    "id": "F-024",
+    "section": "10",
+    "topic": "identification-screening",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: When identifying a project, a number of options should be considered and compared, including a '______' option as a baseline.",
+    "options": [
+      "PPP only",
+      "lowest tariff",
+      "maximum scope",
+      "do nothing"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Identification looks for the best technical solution before considering how it is procured.",
+      "Incorrect. The baseline option in the Guide is 'do nothing', not a tariff option.",
+      "Incorrect. The baseline is doing nothing, not the largest possible scope.",
+      "Correct. The Guide says options should be compared including a 'do nothing' option as a baseline."
+    ],
+    "ref": "Ch 1 §10, p. 152"
+  },
+  {
+    "id": "F-025",
+    "section": "10",
+    "topic": "identification-screening",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "At the end of the Identification and Screening Phase, the decision on whether to proceed to full appraisal is made on the basis of which document?",
+    "options": [
+      "The signed PPP contract",
+      "The final request for proposals",
+      "A PPP screening report",
+      "The bid evaluation report"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The contract is signed at the end of the Tender Phase.",
+      "Incorrect. The RFP is finalized in the Structuring and Drafting Phase.",
+      "Correct. The Guide says the decision to proceed with full appraisal is based on a PPP screening report, which also covers the project plan.",
+      "Incorrect. Bids are evaluated in the Tender Phase, long after screening."
+    ],
+    "ref": "Ch 1 §10, p. 154"
+  },
+  {
+    "id": "F-026",
+    "section": "10",
+    "topic": "appraisal-preparation",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT a task of the Appraisal and Preparation Phase?",
+    "options": [
+      "Assessing commercial feasibility, including bankability",
+      "Evaluating proposals and awarding the contract",
+      "Defining the procurement strategy and procurement plan",
+      "Assessing risks and conducting due diligence tasks"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Assessing PPP commercial feasibility, including bankability, is an appraisal task.",
+      "Correct. Evaluating proposals and awarding the contract are tasks of the Tender Phase.",
+      "Incorrect. The procurement strategy and plan are defined during the Appraisal Phase.",
+      "Incorrect. Risk assessment and due diligence are preparation tasks in this phase."
+    ],
+    "ref": "Ch 1 §10, p. 154"
+  },
+  {
+    "id": "F-027",
+    "section": "10",
+    "topic": "appraisal-preparation",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes 'preparation', as distinct from appraisal, in the PPP Guide?",
+    "options": [
+      "Government activities to reduce project risks before tender, such as securing site availability",
+      "The assessment of whether the project gives sufficient net economic benefit to society",
+      "The work done by bidders to prepare and submit their technical and financial proposals",
+      "The comparison of PPP delivery with conventional procurement using a Public Sector Comparator"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Preparation covers government activities to mitigate risks before tender, for example geotechnical tests, site availability or environmental clearances.",
+      "Incorrect. Confirming net economic benefit is the central purpose of appraisal (economic feasibility).",
+      "Incorrect. Preparation is done by the government, not by bidders.",
+      "Incorrect. The PSC is part of appraising the PPP option, not preparation."
+    ],
+    "ref": "Ch 1 §10, p. 159"
+  },
+  {
+    "id": "F-028",
+    "section": "10",
+    "topic": "appraisal-preparation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the countries that use it, what is a Public Sector Comparator (PSC) used for?",
+    "options": [
+      "To compare the proposals of shortlisted bidders during the evaluation stage",
+      "To measure the government's aggregated fiscal exposure across all its PPPs",
+      "To compare the PPP option with other procurement methods, usually conventional procurement",
+      "To compare different technical solutions for the same public need"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Bid evaluation uses the RFP evaluation criteria, not the PSC.",
+      "Incorrect. Aggregated exposure is controlled through the affordability test and fiscal management framework.",
+      "Correct. The PSC compares the PPP option with other methods, usually conventional procurement, to test whether PPP adds net benefit.",
+      "Incorrect. Technical solutions are compared at identification, using CBA or simpler methods."
+    ],
+    "ref": "Ch 1 §10, p. 157"
+  },
+  {
+    "id": "F-029",
+    "section": "10",
+    "topic": "appraisal-preparation",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which feasibility element relates to the project as a PPP, rather than to the project itself?",
+    "options": [
+      "The affordability test",
+      "Technical feasibility",
+      "Environmental feasibility",
+      "Legal feasibility"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide lists the PSC, financial and commercial feasibility, and the affordability test as elements relating to the project as a PPP.",
+      "Incorrect. Technical feasibility relates to the project itself (its 'doability').",
+      "Incorrect. Environmental feasibility relates to the project itself.",
+      "Incorrect. The Guide lists legal feasibility among the elements relating to the project itself."
+    ],
+    "ref": "Ch 1 §10, p. 160"
+  },
+  {
+    "id": "F-030",
+    "section": "10",
+    "topic": "appraisal-preparation",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about appraisal: 1. Preparing, appraising and structuring a sound PPP project usually takes about the same time as a conventional public works project. 2. Much of the appraisal work is common to any type of procurement, because PPP is a branch of the broader public investment management process.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says a PPP is much more demanding in time than a conventional project.",
+      "Correct. The Guide says PPP preparation takes much longer than for public works, and that much appraisal work is common to any procurement.",
+      "Incorrect. Only statement 2 is true; the Guide warns against assuming PPPs can be prepared as quickly as public works.",
+      "Incorrect. Statement 2 is true: the Guide describes PPP as a branch of public investment management."
+    ],
+    "ref": "Ch 1 §10, p. 156"
+  },
+  {
+    "id": "F-031",
+    "section": "10",
+    "topic": "tender-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is one of the basic features of the procurement strategy that is defined before moving to the Structuring Phase?",
+    "options": [
+      "The amount of each performance deduction in the payment mechanism",
+      "The members of the future contract management committee",
+      "The formula for sharing gains from a future refinancing",
+      "Whether to shortlist bidders or only apply pass/fail qualification criteria"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The detailed payment mechanism is defined during structuring, not as part of the procurement strategy.",
+      "Incorrect. The contract management team is set up for the Contract Management Phase.",
+      "Incorrect. Refinancing is handled during contract management, not in the procurement strategy.",
+      "Correct. The approach to qualifications, including shortlisting versus pass/fail criteria, is a basic feature of the procurement strategy."
+    ],
+    "ref": "Ch 1 §10, pp. 160-161"
+  },
+  {
+    "id": "F-032",
+    "section": "10",
+    "topic": "tender-types",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes an open tender with pass/fail pre-qualification (a two-stage open tender)?",
+    "options": [
+      "Qualifying bidders are ranked and only a limited number of the highest-ranking are invited to bid",
+      "Bidders pre-qualify before the RFP is issued, with no shortlisting and usually one round of bids",
+      "Qualifications and proposals are submitted together in one single stage and one document package",
+      "Shortlisted bidders submit iterative bids while negotiating the contract with the authority"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Ranking and shortlisting describe the restricted procedure.",
+      "Correct. Box 1.39 says this variant separates the RFQ from the RFP, has no shortlisting, and usually has one bid round without negotiations.",
+      "Incorrect. Submitting qualifications and proposals together describes the one-stage open tender.",
+      "Incorrect. Iterative bids with negotiations describe the negotiated process."
+    ],
+    "ref": "Ch 1 §10, p. 162"
+  },
+  {
+    "id": "F-033",
+    "section": "10",
+    "topic": "tender-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which tender process involves ranking the qualified bidders, shortlisting a limited number of them, and inviting each shortlisted bidder to submit one bid?",
+    "options": [
+      "One-stage open tender",
+      "Open tender with pass/fail pre-qualification",
+      "Negotiated process",
+      "Restricted procedure"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A one-stage open tender has no separate qualification stage and no shortlist.",
+      "Incorrect. Open tender with pre-qualification uses pass/fail criteria with no shortlisting.",
+      "Incorrect. A negotiated process adds negotiations and possibly iterative bids after shortlisting.",
+      "Correct. The restricted procedure ranks qualified bidders, shortlists the highest-ranking, and invites them to bid."
+    ],
+    "ref": "Ch 1 §10, p. 162"
+  },
+  {
+    "id": "F-034",
+    "section": "10",
+    "topic": "structuring-drafting",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is a main task of the Structuring and Drafting Phase?",
+    "options": [
+      "Identifying the public need and comparing possible technical solutions",
+      "Monitoring construction and commissioning the completed asset",
+      "Defining the final risk allocation and payment mechanism of the contract",
+      "Qualifying bidders and issuing clarifications during the tender"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Identifying the need and comparing solutions belong to the Identification Phase.",
+      "Incorrect. Monitoring construction and commissioning belong to contract management.",
+      "Correct. Phase 3 defines the final contract structure, including financial structure, risk allocation and payment mechanism.",
+      "Incorrect. Qualifying bidders and issuing clarifications belong to the Tender Phase."
+    ],
+    "ref": "Ch 1 §10, p. 163"
+  },
+  {
+    "id": "F-035",
+    "section": "10",
+    "topic": "structuring-drafting",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about drafting the tender documents: 1. In an open tender, the qualification conditions are included in the same document as the RFP. 2. In two-stage processes, the RFP must always be finalized at the same time as the RFQ.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. In an open tender the tender is one package; in two-stage processes the RFP need not be finalized with the RFQ.",
+      "Incorrect. Statement 2 is false: the time between launching qualification and receiving submissions can be used to finalize the RFP.",
+      "Incorrect. Only statement 1 is true; the Guide says the RFP need not be finalized together with the RFQ.",
+      "Incorrect. Statement 1 is true: in an open tender, qualification conditions form part of the RFP."
+    ],
+    "ref": "Ch 1 §10, p. 164"
+  },
+  {
+    "id": "F-036",
+    "section": "10",
+    "topic": "commercial-financial-close",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes financial close, as used in the PPP Guide?",
+    "options": [
+      "The point at which the award decision is published to all bidders",
+      "The point at which the awardee has finance available for the project",
+      "The signing of the contract after award, also called commercial close",
+      "The point at which the asset is handed back to the procuring authority"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Publishing the award decision comes before contract signature and financial close.",
+      "Correct. The Guide defines financial close as the point at which the awardee has finance available for the project.",
+      "Incorrect. Contract signature is commercial close; financial close may come at the same time or later.",
+      "Incorrect. Handback happens at the end of the contract, not at financial close."
+    ],
+    "ref": "Ch 1 §10, p. 168"
+  },
+  {
+    "id": "F-037",
+    "section": "10",
+    "topic": "commercial-financial-close",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: The stage from the decision to award to the effective date of the contract is called contract signature or '______'.",
+    "options": [
+      "commercial close",
+      "financial close",
+      "commissioning",
+      "handback"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide calls the stage from award to the contract's effective date contract signature or commercial close.",
+      "Incorrect. Financial close is when finance becomes available; it may occur at the end of this stage or later.",
+      "Incorrect. Commissioning is the acceptance of the built asset and start of operations.",
+      "Incorrect. Handback is the return of the asset at the end of the contract."
+    ],
+    "ref": "Ch 1 §10, p. 167"
+  },
+  {
+    "id": "F-038",
+    "section": "10",
+    "topic": "commercial-financial-close",
+    "level": 2,
+    "style": "applied",
+    "stem": "In a country where the awardee needs a long time after contract signature to reach financial close, when does construction normally start?",
+    "options": [
+      "Immediately after the award decision",
+      "As soon as the RFQ has been issued",
+      "Only after financial close has occurred",
+      "Before contract signature, to save time"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The award is followed by contract signature and financial close before construction.",
+      "Incorrect. The RFQ is issued at the start of the tender, long before any construction.",
+      "Correct. The Guide says that where more time is needed to reach financial close, construction does not start until financial close has occurred.",
+      "Incorrect. Construction follows award and contract signature; where financial close takes longer, the Guide says construction waits until financial close."
+    ],
+    "ref": "Ch 1 §10, p. 168"
+  },
+  {
+    "id": "F-039",
+    "section": "10",
+    "topic": "contract-management",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT listed in the PPP Guide as a tool used by the procuring authority's contract management team?",
+    "options": [
+      "The financial model agreed at financial close",
+      "The risk register developed during preparation",
+      "A contract manual with management procedures",
+      "The unsuccessful bidders' proposals"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The financial model agreed by the parties at financial close is a listed tool.",
+      "Incorrect. The risk register from project preparation is a listed tool for proactive risk management.",
+      "Incorrect. A contract manual setting out procedures is a listed tool.",
+      "Correct. Unsuccessful proposals are not among the contract management tools listed in the Guide."
+    ],
+    "ref": "Ch 1 §10, p. 170"
+  },
+  {
+    "id": "F-040",
+    "section": "10",
+    "topic": "contract-management",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which statement about the contract management manual is consistent with the PPP Guide?",
+    "options": [
+      "It replaces the PPP contract as the legal reference document once construction has started",
+      "It is prepared only near the end of the contract, when handback of the asset is being planned",
+      "It is written by the bidders and submitted as part of their proposals during the tender",
+      "It sets out procedures in plain language but does not replace the contract as the reference document"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide states the manual should not be a substitute for the contract.",
+      "Incorrect. Developing the manual is the very first task of the Contract Management Phase, and preparation for it should start before contract signature.",
+      "Incorrect. The manual is developed for the procuring authority's contract management team, not by bidders.",
+      "Correct. The Guide says the manual is a user-friendly tool in common language and should not substitute for the contract as the reference document."
+    ],
+    "ref": "Ch 1 §10, pp. 170 and 172"
+  }
+]

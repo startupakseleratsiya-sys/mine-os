@@ -1,0 +1,882 @@
+[
+  {
+    "id": "A-001",
+    "section": "1.1",
+    "topic": "ppp-definition",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the broad definition of a PPP used in the PPP Guide?",
+    "options": [
+      "Any form of cooperation between the public and private sectors that aims at a shared goal, whatever the length of the contract, the risk allocation or the payment terms",
+      "A long-term contract for a public asset or service, where the private party bears significant risk and management responsibility and pay is linked to performance",
+      "A contract under which a public asset and the duty to serve end users are transferred permanently to a private company that is paid by users",
+      "A contract for public works in which a private firm designs and builds the asset and is paid in stages by the government during construction"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide notes the term is sometimes used this loosely, but its own definition requires a long-term contract, risk transfer and performance-linked pay.",
+      "Correct. The Guide adopts the World Bank definition: a long-term contract for a public asset or service with significant private risk and management responsibility and performance-linked remuneration.",
+      "Incorrect. A permanent transfer of the asset and service responsibility describes privatization, which the Guide says is not a PPP.",
+      "Incorrect. A design-and-build contract paid during construction lacks long-term management and performance-linked pay, so it is conventional procurement."
+    ],
+    "ref": "Ch 1 §1.1, p. 6"
+  },
+  {
+    "id": "A-002",
+    "section": "1.1",
+    "topic": "private-finance-ppp",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT part of the PPP Guide's definition of a private finance PPP contract?",
+    "options": [
+      "The private party provides a significant portion of the finance for the asset at its own risk",
+      "The private party bears significant risk and management responsibility over the contract life",
+      "Remuneration is significantly linked to performance and/or the demand or use of the asset",
+      "The private party becomes the permanent legal owner of the asset after construction"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Providing a significant portion of the finance at its own risk is a defining element of a private finance PPP.",
+      "Incorrect. Significant risk and management responsibility throughout the life of the contract is part of the definition.",
+      "Incorrect. Remuneration linked to performance and/or demand, to align both parties' interests, is part of the definition.",
+      "Correct. The definition says nothing about permanent private ownership; a permanent transfer of the asset would point to privatization, not a PPP."
+    ],
+    "ref": "Ch 1 §1.1, p. 7"
+  },
+  {
+    "id": "A-003",
+    "section": "1.1",
+    "topic": "private-finance-ppp",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: The PPP Guide refers to PPPs that procure new or upgraded infrastructure on the basis of private capital resources as ______.",
+    "options": [
+      "service PPPs",
+      "institutional PPPs",
+      "private finance PPPs",
+      "hybrid PPPs"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Service PPPs are contracts to manage existing infrastructure or provide public services, not to develop new assets with private capital.",
+      "Incorrect. Institutional PPPs are PPPs in which the government controls the PPP company; the term is about ownership, not private capital.",
+      "Correct. The Guide's narrower definition covers PPPs that rely on private capital, and it calls them private finance PPPs or simply PPPs.",
+      "Incorrect. Hybrid PPPs combine concessional or public finance with private investment; the term does not name the Guide's main focus."
+    ],
+    "ref": "Ch 1 §1.1, p. 7"
+  },
+  {
+    "id": "A-004",
+    "section": "1.1",
+    "topic": "ppp-definition",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the broad definition of a PPP in the PPP Guide:\n1. It requires the private party to finance part or all of the works.\n2. It assumes that construction and management of the asset are bundled together.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the broad definition does not necessarily imply private finance of the works.",
+      "Correct. The broad definition assumes bundling of construction and management, but does not require private finance.",
+      "Incorrect. Statement 1 is false because private finance is only assumed in the narrower private finance PPP definition.",
+      "Incorrect. Statement 2 is true: bundling construction/development and management is an assumption of the broad definition."
+    ],
+    "ref": "Ch 1 §1.1, p. 7"
+  },
+  {
+    "id": "A-005",
+    "section": "1.1",
+    "topic": "ppp-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Based on the source of the private partner's revenues, which are the two main types of PPP considered by the PPP Guide?",
+    "options": [
+      "User-pays PPPs and government-pays PPPs",
+      "Greenfield PPPs and brownfield PPPs",
+      "Institutional PPPs and conventional PPPs",
+      "Infrastructure PPPs and service PPPs"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide's main classification is by source of revenues: user-pays PPPs and government-pays PPPs.",
+      "Incorrect. Greenfield and brownfield describe the past use of the site, not the source of revenues.",
+      "Incorrect. Institutional and conventional PPPs differ by ownership of the PPP company, not by source of revenues.",
+      "Incorrect. Infrastructure and service PPPs differ by the scope of the contract, not by who pays the private partner."
+    ],
+    "ref": "Ch 1 §1.1, p. 8"
+  },
+  {
+    "id": "A-006",
+    "section": "1.1",
+    "topic": "ppp-types",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: PPPs whose revenues are based on public or budgetary payments are known as government-pays PPPs or ______ PPPs.",
+    "options": [
+      "user-pays concession",
+      "service contract",
+      "availability payment",
+      "management contract"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. In many countries 'concession' refers to user-pays PPPs, not to PPPs paid from the public budget.",
+      "Incorrect. A service contract usually transfers the operation of a public service and is not the Guide's alternative name for government-pays PPPs.",
+      "Correct. The Guide says government-pays PPPs are also known as availability payment PPPs.",
+      "Incorrect. A management contract is a name for some O&M contracts, not for PPPs funded by budgetary payments."
+    ],
+    "ref": "Ch 1 §1.1, p. 8"
+  },
+  {
+    "id": "A-007",
+    "section": "1.1",
+    "topic": "ppp-vs-privatization",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the difference between a PPP and privatization in its true sense, according to the PPP Guide?",
+    "options": [
+      "Privatization permanently transfers the asset and service duty to the private sector; a PPP keeps a public partner role",
+      "Privatization always relies on user fees, while a PPP is always paid from the public budget through availability payments",
+      "Privatization is a way to procure new infrastructure, while a PPP is used only to manage existing public assets",
+      "Privatization requires a Special Purpose Vehicle, while a PPP can be signed directly with a construction firm"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. True privatization is a permanent transfer of the asset and service responsibility, while a PPP involves a continuing public 'partner' role.",
+      "Incorrect. The difference is not the payment source; PPPs can be user-pays or government-pays.",
+      "Incorrect. It is largely the reverse: privatization implies the asset already exists, while PPPs can be used to procure new infrastructure as well as to manage existing assets.",
+      "Incorrect. The distinction is about permanent transfer versus a continuing partnership, not about the use of an SPV."
+    ],
+    "ref": "Ch 1 §1.1, pp. 8-9"
+  },
+  {
+    "id": "A-008",
+    "section": "1.1",
+    "topic": "ppp-vs-privatization",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government contracts out the management of an existing water network to a private company for 20 years. The network stays in public ownership. Under the PPP Guide, is this privatization?",
+    "options": [
+      "Yes, because a private company takes over the long-term management of a public asset",
+      "Yes, because the private company collects revenues directly from the network's users",
+      "No, because privatization applies only to assets that have not yet been constructed",
+      "No, because the asset is not transferred permanently and the public sector stays a partner"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Private management alone is privatization only in the broad, loose sense, which the Guide does not use.",
+      "Incorrect. Collecting user revenues does not make it privatization; many user-pays PPPs do this.",
+      "Incorrect. It is the reverse: privatization implies the infrastructure has already been constructed.",
+      "Correct. The Guide says contracting out management of existing infrastructure is not privatization, because the asset is not permanently transferred and the public sector stays a partner."
+    ],
+    "ref": "Ch 1 §1.1, p. 9"
+  },
+  {
+    "id": "A-009",
+    "section": "1.1",
+    "topic": "ppp-vs-privatization",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about privatization in the PPP Guide:\n1. Privatization in its true sense is not an option for governments to procure new infrastructure.\n2. When 'privatization' is used broadly to mean any form of private management, it can include PPPs.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: in the broad sense the term can cover a wide range of arrangements, including PPPs.",
+      "Incorrect. Statement 1 is also true: true privatization implies the infrastructure has already been built.",
+      "Correct. Both statements reflect the Guide: true privatization cannot procure new assets, and the loose use of the word can include PPPs.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §1.1, p. 9"
+  },
+  {
+    "id": "A-010",
+    "section": "1.1",
+    "topic": "ppp-definition",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In some jurisdictions PPP is a legally defined term. How is the legal term often reserved in these jurisdictions?",
+    "options": [
+      "For contracts whose revenues come entirely from tariffs charged directly to the users",
+      "For contracts paid by public payments, or where public payments are most of the revenue",
+      "For contracts in which the procuring authority owns the majority of the project company",
+      "For contracts in which the private partner provides no finance of its own at all"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. In these jurisdictions user-paid contracts are usually called 'concessions' rather than PPPs.",
+      "Correct. The Guide says the legal term is often reserved for PPPs paid by public payments, or where these are the majority of revenues.",
+      "Incorrect. Public control of the PPP company describes an institutional PPP, not the legal use of the term PPP.",
+      "Incorrect. The legal reservation is based on the source of revenues, not on the absence of private finance."
+    ],
+    "ref": "Ch 1 §1.1, p. 8"
+  },
+  {
+    "id": "A-011",
+    "section": "1.2",
+    "topic": "ppp-contract-features",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is a reason why the long-term nature of the contract is an essential feature of any PPP?",
+    "options": [
+      "It allows the government to delay all its payments until the end of the contract term",
+      "It allows the private partner to become the legal owner of the asset at signing",
+      "It allows the procuring authority to award the contract without a competitive tender",
+      "It allows effective transfer of risks and responsibilities over much of the asset's life"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Payments usually start once the asset is in service, not at the end of the contract.",
+      "Incorrect. Legal ownership is not what the long-term feature is about, and in many countries the asset remains public.",
+      "Incorrect. The Guide says the contract must usually be granted through a public competitive process.",
+      "Correct. The Guide links the long-term nature to effective risk and responsibility transfer over much of the asset's life."
+    ],
+    "ref": "Ch 1 §1.2, p. 9"
+  },
+  {
+    "id": "A-012",
+    "section": "1.2",
+    "topic": "ppp-parties",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: If a consortium is awarded a PPP contract, it usually creates a new company to sign the contract, called the project company or ______.",
+    "options": [
+      "procuring authority",
+      "State-Owned Enterprise (SOE)",
+      "Special Purpose Vehicle (SPV)",
+      "Multilateral Development Bank (MDB)"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The procuring authority is the public party to the contract, not the company the consortium creates.",
+      "Incorrect. An SOE is a government-owned company, not the new company a private consortium creates.",
+      "Correct. The new company created to sign the contract and act as private partner is the project company or SPV.",
+      "Incorrect. An MDB is a development lender such as the EBRD, not the private partner."
+    ],
+    "ref": "Ch 1 §1.2, p. 10"
+  },
+  {
+    "id": "A-013",
+    "section": "1.2",
+    "topic": "ppp-parties",
+    "level": 2,
+    "style": "applied",
+    "stem": "A ministry signs a 25-year contract to design, build, finance and maintain a road with a company wholly owned by the same government. Under the PPP Guide, is this normally a PPP?",
+    "options": [
+      "No, because there are reasonable doubts that risk is transferred to the private sector",
+      "Yes, because the company is subject to civil rather than administrative regulations in law",
+      "Yes, because the contract bundles construction with long-term maintenance",
+      "No, because the private partner must always be owned by a foreign government"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. A contract with an SOE owned by the procuring government is not normally a PPP because risk transfer to the private sector is doubtful.",
+      "Incorrect. Being treated as a 'private entity' under civil law does not make the contract a PPP when the same government owns the company.",
+      "Incorrect. Bundling is necessary but not sufficient; there must also be real risk transfer out of the government.",
+      "Incorrect. The Guide sets no such rule; it only notes that an SOE of a different government can carry risk like a private operator."
+    ],
+    "ref": "Ch 1 §1.2, p. 10"
+  },
+  {
+    "id": "A-014",
+    "section": "1.2",
+    "topic": "ppp-parties",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the parties to a PPP:\n1. A Special Purpose Vehicle (SPV) is a necessary condition for a contract to be regarded as a PPP.\n2. Procuring authorities may be national or sub-sovereign, such as regional governments or municipalities.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide states that an SPV is not a necessary condition for a PPP.",
+      "Correct. Only statement 2 is true: procuring authorities can be national or sub-sovereign, while an SPV is common but not required.",
+      "Incorrect. Statement 1 is false; the private party is usually, not always, an SPV.",
+      "Incorrect. Statement 2 is true: the public party may be national or sub-sovereign."
+    ],
+    "ref": "Ch 1 §1.2, p. 10"
+  },
+  {
+    "id": "A-015",
+    "section": "1.2",
+    "topic": "ppp-contract-features",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is the reason given in the PPP Guide for bundling construction and long-term maintenance under one PPP contract?",
+    "options": [
+      "To allow the government to pay for the construction works entirely from user fees",
+      "To seek efficiency by involving the private party in construction and long-term upkeep",
+      "To make the private party the permanent legal owner of the finished public asset",
+      "To shorten the procurement process by removing the need for a competitive tender"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Bundling is about efficiency, and PPPs may be paid by users or by the government.",
+      "Correct. The Guide says a key feature of the PPP model is the search for efficiency through private involvement in both construction and maintenance.",
+      "Incorrect. Bundling is not about ownership, and permanent private ownership would suggest privatization.",
+      "Incorrect. PPP contracts are usually granted through a public competitive process."
+    ],
+    "ref": "Ch 1 §1.2, p. 10"
+  },
+  {
+    "id": "A-016",
+    "section": "1.2",
+    "topic": "risk-transfer",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes the PPP Guide's view on how much risk should be transferred to the private partner?",
+    "options": [
+      "All risks and their consequences should be transferred, so that the government carries no project risk at all",
+      "The bulk of the risk should be transferred, but not all, since retaining or sharing some can be more efficient",
+      "Only construction risk should be transferred, while all risks after completion stay with the government",
+      "Risks should be transferred for all events, including those the private partner cannot influence"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide warns that transferring certain risks can create significant inefficiencies.",
+      "Correct. The Guide says the bulk of risk must be transferred but there is no need to transfer all risks, as retaining or sharing some can reduce inefficiency.",
+      "Incorrect. Significant risk must be transferred over a significant part of the life cycle, in addition to construction risk.",
+      "Incorrect. Risk should not be transferred for events over which the private partner has no control or influence."
+    ],
+    "ref": "Ch 1 §1.2, p. 11"
+  },
+  {
+    "id": "A-017",
+    "section": "1.2",
+    "topic": "risk-transfer",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about risk transfer in a PPP:\n1. Risks of long-term management should only be transferred if responsibility for long-term maintenance and renewals is given to the private partner.\n2. Once construction risk is transferred, the public sector no longer needs to monitor the project.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Risks follow responsibilities, and the Guide stresses that the public sector must keep monitoring the project.",
+      "Incorrect. Statement 2 is false: the public sector must continue to monitor projects even after risks are transferred.",
+      "Incorrect. Statement 2 is false, so both cannot be true.",
+      "Incorrect. Statement 1 is true: risks should be transferred only with the related responsibilities."
+    ],
+    "ref": "Ch 1 §1.2, p. 11"
+  },
+  {
+    "id": "A-018",
+    "section": "1.2",
+    "topic": "risk-transfer",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: According to the PPP Guide, risk transfer is the main driver for PPP ______.",
+    "options": [
+      "affordability",
+      "privatization",
+      "legality",
+      "efficiency"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Affordability is a separate question; the Guide links risk transfer to efficiency.",
+      "Incorrect. PPPs are not privatization, and risk transfer does not drive a permanent transfer of assets.",
+      "Incorrect. The legal status of a PPP depends on each jurisdiction, not on the amount of risk transferred.",
+      "Correct. The Guide states that risk transfer is the main driver for PPP efficiency."
+    ],
+    "ref": "Ch 1 §1.2, p. 11"
+  },
+  {
+    "id": "A-019",
+    "section": "1.2",
+    "topic": "private-finance-ppp",
+    "level": 2,
+    "style": "advantage",
+    "stem": "Which is a reason why private finance can be an essential factor for efficiency in a PPP?",
+    "options": [
+      "Private finance is always cheaper than government borrowing, so the total project cost is always lower",
+      "Private finance removes the need for the public sector to monitor the performance of the project",
+      "When finance is at risk and pay depends on performance, the private partner is driven to meet public goals",
+      "Private finance allows the government to start paying the private partner as soon as works begin"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide does not base the efficiency argument on cheaper finance; the efficiency comes from incentives created by finance at risk, not lower interest costs.",
+      "Incorrect. The Guide stresses that the public sector must continue to monitor the project.",
+      "Correct. Finance at risk combined with performance-based pay aligns the private partner with the public objective of an available, well-maintained asset.",
+      "Incorrect. In a PPP, payments usually start only once the asset is in service."
+    ],
+    "ref": "Ch 1 §1.2, p. 12"
+  },
+  {
+    "id": "A-020",
+    "section": "1.1",
+    "topic": "private-finance-ppp",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about private finance in PPPs:\n1. Private finance is not a necessary condition for a contract to be regarded as a PPP.\n2. Risk transfer is more effective when the private agent provides capital at risk than when it faces only performance penalties.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: the Guide says risk transfer is more effective with private capital at risk.",
+      "Incorrect. Statement 1 is also true: private finance is not needed to enjoy the benefits of a PPP approach.",
+      "Correct. Both statements reflect the Guide: private finance is not required for a PPP, but it makes risk transfer more effective.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §1.1, pp. 7-8"
+  },
+  {
+    "id": "A-021",
+    "section": "1.2",
+    "topic": "private-finance-ppp",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes how the PPP Guide itself understands 'private finance'?",
+    "options": [
+      "Any private sector finance that is at risk, depending on the performance of the project",
+      "Any finance that is not recorded as public debt in the government's national accounts and statistics",
+      "Any loan from a commercial bank, whatever guarantees the government provides for it",
+      "Finance raised by the government and then passed on to the project company"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide treats private finance as private sector finance that is at risk, dependent on the performance of the project contract.",
+      "Incorrect. This is the national accounting view the Guide mentions, not the view it adopts.",
+      "Incorrect. Finance fully guaranteed by the government would not be at risk, which is the Guide's test.",
+      "Incorrect. Finance raised by the government is public finance, not private finance."
+    ],
+    "ref": "Ch 1 §1.2, p. 11"
+  },
+  {
+    "id": "A-022",
+    "section": "1.2",
+    "topic": "remuneration-performance",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In an infrastructure PPP, when does the procuring authority usually begin to make payments to the private partner?",
+    "options": [
+      "As soon as the PPP contract is signed",
+      "When the private partner reaches financial close",
+      "Once the asset is completed and in service",
+      "In equal instalments throughout construction"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Nothing is delivered at signing, so there is no performance or use to pay for.",
+      "Incorrect. Financial close concerns the private partner's funding, not the start of performance-based payments.",
+      "Correct. Because pay is linked to performance or use, the procuring authority usually begins paying only once the asset is in service.",
+      "Incorrect. Payments during construction are an exception (e.g. co-financing), not the usual rule."
+    ],
+    "ref": "Ch 1 §1.2, p. 12"
+  },
+  {
+    "id": "A-023",
+    "section": "1.2",
+    "topic": "remuneration-performance",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "PPP remuneration may be based on the performance of the asset (service quality) or on its level of use. Which pairing does the PPP Guide describe as generally the case?",
+    "options": [
+      "Use-based pay in user-pays PPPs; performance-based pay in government-pays PPPs",
+      "Performance-based pay in user-pays PPPs; use-based pay in government-pays PPPs",
+      "Performance-based pay in service PPPs; use-based pay in institutional PPPs",
+      "Use-based pay in hybrid PPPs; performance-based pay in DBOM contracts"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says pay based on level of use is generally the case in user-pays PPPs, and pay based on performance in government-pays PPPs.",
+      "Incorrect. This reverses the pairing described in the Guide.",
+      "Incorrect. The Guide links the two bases of pay to user-pays and government-pays PPPs, not to service or institutional PPPs.",
+      "Incorrect. The Guide does not pair these bases of pay with hybrid PPPs or DBOM contracts."
+    ],
+    "ref": "Ch 1 §1.2, p. 12"
+  },
+  {
+    "id": "A-024",
+    "section": "1.2",
+    "topic": "ppp-contract-features",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is a common feature of a private finance PPP relating to technical and service requirements?",
+    "options": [
+      "They focus on detailed input specifications that are set by the government",
+      "They are set by the lenders rather than by the procuring authority",
+      "They are defined only after the construction of the asset is complete",
+      "They focus on results, or output specifications, which encourages innovation"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide contrasts PPPs with input specifications and warns against being too prescriptive about means and methods.",
+      "Incorrect. Requirements are set in the PPP contract by the procuring authority, not by lenders.",
+      "Incorrect. Output requirements are part of the contract from the start, as pay is linked to meeting them.",
+      "Correct. Consistent with performance-based pay, requirements focus on outputs rather than inputs, which encourages innovation."
+    ],
+    "ref": "Ch 1 §1.2, p. 13"
+  },
+  {
+    "id": "A-025",
+    "section": "1.2",
+    "topic": "ppp-nomenclature",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is described in the PPP Guide as the typical contract form of a private finance PPP?",
+    "options": [
+      "DBOM (Design, Build, Operate and Maintain)",
+      "DBFOM (Design, Build, Finance, Operate and Maintain)",
+      "O&M (Operations and Maintenance)",
+      "Affermage"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. DBOM is an infrastructure PPP with no private finance, so it is not a private finance PPP.",
+      "Correct. The Guide names DBFOM as the typical form of a private finance PPP.",
+      "Incorrect. An O&M contract has no capital investment and is rarely even regarded as a PPP.",
+      "Incorrect. Affermage covers the operation of existing infrastructure, not new privately financed assets."
+    ],
+    "ref": "Ch 1 §1.2, p. 12"
+  },
+  {
+    "id": "A-026",
+    "section": "1.2",
+    "topic": "ppp-types",
+    "level": 2,
+    "style": "applied",
+    "stem": "A city signs a 20-year contract in which a company designs, builds, operates and maintains a water plant, but the company provides none of the finance. How does the PPP Guide classify this contract?",
+    "options": [
+      "As a private finance PPP, because operation and maintenance are included",
+      "As a privatization, because a private company runs the water plant",
+      "As an institutional PPP, because the city pays for the construction",
+      "As an infrastructure PPP (DBOM), but not a private finance PPP"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A private finance PPP requires significant private finance at risk, which is missing here.",
+      "Incorrect. There is no permanent transfer of the asset, so it is not privatization.",
+      "Incorrect. Institutional PPPs are defined by government control of the PPP company, not by who funds the construction.",
+      "Correct. The Guide says DBOM is a type of infrastructure PPP but, with no private finance involved, it is not a private finance PPP."
+    ],
+    "ref": "Ch 1 §1.2, p. 13; Ch 1 §3.2, p. 44"
+  },
+  {
+    "id": "A-027",
+    "section": "1.2",
+    "topic": "ppp-contract-features",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT one of the essential features of a private finance PPP, but only a common feature?",
+    "options": [
+      "There is a long-term contract between public and private parties",
+      "Significant risk is transferred over a significant part of the asset life cycle",
+      "The private party is usually constituted as an SPV",
+      "Construction and long-term management are bundled under one contract"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A long-term contract between public and private parties is an essential feature.",
+      "Incorrect. Significant risk transfer over much of the life cycle is an essential feature.",
+      "Correct. The Guide lists the SPV among 'other common features', not among the essential features.",
+      "Incorrect. Bundling construction and long-term management is an essential feature."
+    ],
+    "ref": "Ch 1 §1.2, p. 13"
+  },
+  {
+    "id": "A-028",
+    "section": "3.1",
+    "topic": "ppp-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "When PPPs are classified by ownership of the PPP company, which describes an institutional PPP?",
+    "options": [
+      "A PPP in which the public party owns or controls the PPP company",
+      "A PPP in which the PPP company is 100 percent privately owned",
+      "A PPP in which the public party holds a small stake with no influence",
+      "A PPP funded mainly by grants from a development bank"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Institutional PPPs are publicly owned, or under a JV/empresa mixta scheme where the public party controls the PPP company.",
+      "Incorrect. 100 percent private ownership describes a conventional PPP.",
+      "Incorrect. The Guide says a mere minority public stake with no strategic influence is not even regarded as a JV.",
+      "Incorrect. Material public finance through grants describes a co-financed or hybrid PPP."
+    ],
+    "ref": "Ch 1 §3.1, p. 42"
+  },
+  {
+    "id": "A-029",
+    "section": "3.1",
+    "topic": "ppp-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "When PPPs are classified by scope, which describes an integrated PPP?",
+    "options": [
+      "A PPP with no capital investment by the private partner, covering only the operations and maintenance",
+      "A PPP where, besides the infrastructure, the private party has the right and duty to operate a service",
+      "A PPP in which the public and private parties jointly own and manage the project company",
+      "A PPP in which a material portion of the finance is public, usually in the form of grants"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. No capital investment and only O&M describes O&M or service PPPs.",
+      "Correct. An integrated PPP adds the right and obligation to operate a service to the infrastructure scope.",
+      "Incorrect. Joint public and private ownership describes a JV or empresa mixta, an ownership category.",
+      "Incorrect. Material public finance describes co-financed or hybrid PPPs."
+    ],
+    "ref": "Ch 1 §3.1, p. 42"
+  },
+  {
+    "id": "A-030",
+    "section": "3.1",
+    "topic": "ppp-types",
+    "level": 2,
+    "style": "applied",
+    "stem": "Investors fund a new toll road under a DBFOM contract that was recently awarded and is now under construction. Which investor-industry term best describes this project?",
+    "options": [
+      "Brownfield project",
+      "Greenfield project",
+      "Yellowfield or secondary stage",
+      "Hybrid PPP"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Brownfield projects are assets that already existed or are in operation when the investment is made.",
+      "Correct. Greenfield projects are investments in new infrastructure under a DBFOM recently awarded or under construction.",
+      "Incorrect. Yellowfield relates to significant renewals, refurbishment or expansion of existing infrastructure.",
+      "Incorrect. A hybrid PPP is defined by concessional or public finance, not by the stage of the site."
+    ],
+    "ref": "Ch 1 §3.1, pp. 42-43"
+  },
+  {
+    "id": "A-031",
+    "section": "3.1",
+    "topic": "ppp-types",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: PPP schemes with a material portion of public finance, usually in the form of grants, are called co-financed or ______ PPPs.",
+    "options": [
+      "institutional",
+      "integrated",
+      "conventional",
+      "hybrid"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Institutional PPPs are defined by public control of the PPP company, not by public grants.",
+      "Incorrect. Integrated PPPs are defined by scope: infrastructure plus operation of a service.",
+      "Incorrect. Conventional PPPs are the opposite case, without material public finance.",
+      "Correct. The Guide calls PPPs with a material portion of public finance co-financed or hybrid PPPs."
+    ],
+    "ref": "Ch 1 §3.1, p. 42"
+  },
+  {
+    "id": "A-032",
+    "section": "3.2",
+    "topic": "ppp-nomenclature",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why does the PPP Guide say that terms such as BOT and BOOT may be unhelpful in some countries?",
+    "options": [
+      "They apply only to government-pays PPPs and cannot be used to describe user-pays PPPs",
+      "They describe contracts with no private finance involved at all, unlike the DBFOM group of contracts",
+      "They hinge on ownership, which may confuse and is often not possible in civil code countries",
+      "They are used only for O&M contracts that involve no capital investment at all"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says these terms may equally refer to government-pays and user-pays PPPs.",
+      "Incorrect. The Guide treats BOT, BOOT and similar terms as synonyms of the DBFOM group, which involves private finance.",
+      "Correct. These acronyms focus on legal ownership, which is often not possible for the private partner in civil code countries and may cause confusion.",
+      "Incorrect. These terms describe contracts with building or rehabilitation, not O&M-only contracts."
+    ],
+    "ref": "Ch 1 §3.2, p. 44"
+  },
+  {
+    "id": "A-033",
+    "section": "3.2",
+    "topic": "ppp-nomenclature",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about O&M contracts:\n1. An O&M contract should be regarded as a PPP only if it is clearly long-term and transfers life-cycle cost management to some extent.\n2. Most O&M contracts deserve to be regarded as PPPs.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 matches the Guide's test, while the Guide says only a few O&M contracts deserve to be regarded as PPPs.",
+      "Incorrect. Statement 2 is false: only a few O&M contracts qualify as PPPs.",
+      "Incorrect. Statement 2 is false, so both cannot be true.",
+      "Incorrect. Statement 1 is true: long-term duration and some transfer of life-cycle cost management are required."
+    ],
+    "ref": "Ch 1 §3.2, p. 45"
+  },
+  {
+    "id": "A-034",
+    "section": "3.2",
+    "topic": "ppp-nomenclature",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the term PFI (Private Finance Initiative)?",
+    "options": [
+      "A name introduced in the United Kingdom mainly for DBFOM PPPs of the government-pays type",
+      "A French term for operating existing infrastructure and keeping an operator fee from receipts",
+      "A civil code legal title that transfers economic rights of use in a public asset to a private partner",
+      "An EBRD structure that combines a public service contract with a project support agreement"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. PFI is a UK term mainly for government-pays DBFOM PPPs.",
+      "Incorrect. This describes affermage, which is never linked to government-pays contracts.",
+      "Incorrect. This describes a concession in civil code jurisdictions.",
+      "Incorrect. This describes the EBRD public service contract plus project support agreement structure."
+    ],
+    "ref": "Ch 1 §3.2, p. 45"
+  },
+  {
+    "id": "A-035",
+    "section": "3.2",
+    "topic": "ppp-nomenclature",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes an affermage contract?",
+    "options": [
+      "A government-pays contract in which the private operator receives availability payments for a new public facility",
+      "A joint venture in which public and private shareholders own the operating company together",
+      "Operating existing infrastructure for a fee kept from receipts, with the rest paid to the procuring authority",
+      "A contract under which the government leases disposable public land for a new office building"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says affermage is never linked to government-pays contracts.",
+      "Incorrect. Joint public-private ownership describes a JV or empresa mixta.",
+      "Correct. Affermage is a French term for operating existing infrastructure, with the operator retaining its fee from receipts and paying the rest to the procuring authority.",
+      "Incorrect. This describes arrendamiento (leasing of public works), a different legal option."
+    ],
+    "ref": "Ch 1 §3.2, p. 47"
+  },
+  {
+    "id": "A-036",
+    "section": "4",
+    "topic": "infrastructure-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is an example of social infrastructure according to the PPP Guide?",
+    "options": [
+      "A prison facility",
+      "A desalination plant",
+      "An electricity transmission line",
+      "A bus rapid transit system"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Social infrastructure is mostly buildings that accommodate social services, such as prisons, hospitals and schools.",
+      "Incorrect. A desalination plant is water infrastructure, which is economic infrastructure.",
+      "Incorrect. A transmission line is energy infrastructure, which is economic infrastructure.",
+      "Incorrect. Bus rapid transit is transport infrastructure, which is economic infrastructure."
+    ],
+    "ref": "Ch 1 §4, p. 50"
+  },
+  {
+    "id": "A-037",
+    "section": "4",
+    "topic": "infrastructure-types",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about types of infrastructure:\n1. Social infrastructure usually generates significant user payments.\n2. Economic infrastructure always generates revenues from users.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false: social infrastructure usually generates no user payments, or only marginal ones.",
+      "Incorrect. Statement 2 is false: economic infrastructure may or may not generate user revenues.",
+      "Incorrect. Both statements are false.",
+      "Correct. Neither is true: user payments in social infrastructure are usually absent or marginal, and economic infrastructure may or may not generate user revenues."
+    ],
+    "ref": "Ch 1 §4, p. 51"
+  },
+  {
+    "id": "A-038",
+    "section": "4",
+    "topic": "infrastructure-types",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: When a facility hosts administrative functions or housing for public servants, and no public service is provided from it, it is usually called ______ infrastructure.",
+    "options": [
+      "economic",
+      "commercial",
+      "environmental",
+      "accommodation"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Economic infrastructure makes business activity possible, such as transport and utilities.",
+      "Incorrect. Commercial infrastructure is a subset of economic infrastructure where the market is open to competition.",
+      "Incorrect. Environmental infrastructure is a term some use for water, waste and renewable energy systems.",
+      "Correct. The Guide calls such facilities accommodation infrastructure (sometimes also government infrastructure)."
+    ],
+    "ref": "Ch 1 §4, p. 51"
+  },
+  {
+    "id": "A-039",
+    "section": "4",
+    "topic": "infrastructure-types",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT one of the features of public infrastructure that the PPP Guide says influence PPPs as a procurement method?",
+    "options": [
+      "It is a fixed asset with a long life that can generate cash flow over the long term",
+      "It is usually a short-lived asset that is sold to the private partner at the end",
+      "It is usually procured under public procurement rules such as transparency and non-discrimination",
+      "The government is usually the ultimate legal owner of the asset or of its land or site"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Being a long-lived fixed asset is one of the listed features.",
+      "Correct. The Guide describes infrastructure as long-lived and usually owned by the government, not as a short-lived asset sold to the private partner.",
+      "Incorrect. Procurement under public rules of equality, non-discrimination, efficiency and transparency is a listed feature.",
+      "Incorrect. Government ownership of the asset or site is a listed feature."
+    ],
+    "ref": "Ch 1 §4, p. 50"
+  },
+  {
+    "id": "A-040",
+    "section": "4",
+    "topic": "ppp-sectors",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is the reason the PPP Guide gives for some countries leaving sectors such as health out of the scope of their PPP policies and legislation?",
+    "options": [
+      "Because health assets cannot be financed under a project finance structure",
+      "Because social infrastructure cannot be tendered under public procurement rules",
+      "Because health infrastructure is normally privatized instead of procured as a PPP",
+      "As a compromise solution to gain political consensus on the use of PPPs"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide lists hospitals among common PPP assets, so financing them is not the obstacle.",
+      "Incorrect. Social infrastructure is procured under public procurement rules like other infrastructure.",
+      "Incorrect. The Guide gives political opposition, not privatization, as the reason.",
+      "Correct. The Guide says leaving some sectors out may be a compromise to gain political consensus on PPPs, given possible public and political opposition."
+    ],
+    "ref": "Ch 1 §4, pp. 51-52"
+  }
+]

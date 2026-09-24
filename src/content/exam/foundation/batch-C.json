@@ -1,0 +1,882 @@
+[
+  {
+    "id": "C-001",
+    "section": "5",
+    "topic": "financial-motivation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "The PPP Guide classifies the common reasons for using PPPs into three main groups. Which set matches these groups?",
+    "options": [
+      "PPPs as a financial mechanism; project efficiency and effectiveness; overall efficiency for governments",
+      "PPPs as a privatization tool; political visibility; lower user charges for the general public",
+      "Lower cost of capital; shorter preparation time; reduced need for performance monitoring",
+      "Direct negotiation with investors; off-budget user charges; transfer of all risks to lenders"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide groups the reasons as financial (access to finance), project efficiency and effectiveness, and overall efficiency for governments such as transparency.",
+      "Incorrect. Privatization and political visibility are not motivations; the Guide lists public belief in privatization and political exposure as pitfalls.",
+      "Incorrect. The Guide says PPP finance is more expensive, preparation takes longer and monitoring costs are higher, so these are not reasons.",
+      "Incorrect. Direct negotiation is discouraged by the Guide and transferring all risks is not a listed motivation."
+    ],
+    "ref": "Ch 1 §5, p. 54"
+  },
+  {
+    "id": "C-002",
+    "section": "5.1.1",
+    "topic": "financial-motivation",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: \"PPPs are a ______ mechanism and not a ______ mechanism, although they can help to mobilize private sector finance.\"",
+    "options": [
+      "financing / procurement",
+      "procurement / financing",
+      "privatization / procurement",
+      "budgeting / accounting"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. This reverses the Guide's statement; a PPP is a way to procure, not in itself a source of finance.",
+      "Correct. The Guide states that PPPs are a procurement mechanism and not a financing mechanism, even though they can mobilize private finance.",
+      "Incorrect. The Guide calls PPPs a procurement mechanism; it treats the belief that PPP implies privatization as a public misperception.",
+      "Incorrect. The Guide does not describe PPPs as a budgeting or accounting mechanism."
+    ],
+    "ref": "Ch 1 §5.1.1, p. 54"
+  },
+  {
+    "id": "C-003",
+    "section": "5.1.1",
+    "topic": "financial-motivation",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about private finance in PPPs: 1. Private finance is generally cheaper than government borrowing because the risk is shared with investors. 2. A government-pays PPP that is not recorded as public debt still creates a long-term commitment of public payments.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false: the Guide says PPPs are generally a more expensive source of finance than the government's borrowing rate.",
+      "Correct. Statement 1 is false, and statement 2 is true because Box 1.15 says a PPP outside public debt still creates long-term payment commitments.",
+      "Incorrect. Statement 1 is false, since investors charge a blended cost of debt and equity higher than the government's borrowing rate.",
+      "Incorrect. Statement 2 is true: even without an increase in public debt, the PPP affects the government's long-term fiscal position."
+    ],
+    "ref": "Ch 1 §5.1.1, pp. 54-55"
+  },
+  {
+    "id": "C-004",
+    "section": "5.1.1",
+    "topic": "financial-motivation",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Some jurisdictions set a legal limit on PPP procurement, for example as a percentage of capital expenditure or of GDP. Which describes the reason for such limits?",
+    "options": [
+      "PPPs always increase reported public debt, so they must be capped like ordinary loans",
+      "Private lenders will only lend to a PPP when a national limit has been published",
+      "PPPs create long-term public payment commitments that affect the fiscal position, even outside public debt",
+      "PPPs may only be used for user-pays projects, so the limit protects taxpayer-funded projects"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says many PPPs may not affect public debt, depending on the national accounting standards used.",
+      "Incorrect. The Guide does not link the legal limits to lender requirements.",
+      "Correct. Box 1.15 explains that PPP commitments, explicit or contingent, affect long-term fiscal position, so some jurisdictions cap PPP procurement.",
+      "Incorrect. PPPs can be government-pays or user-pays; the limit relates to fiscal commitments, not to the payment source."
+    ],
+    "ref": "Ch 1 §5.1.1 (Box 1.15), p. 55"
+  },
+  {
+    "id": "C-005",
+    "section": "5.1.1",
+    "topic": "financial-motivation",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT a caution the PPP Guide gives about using PPPs to access private finance?",
+    "options": [
+      "Using PPPs to get around debt restrictions may unduly burden taxpayers or users",
+      "Investors charge a blended cost of debt and equity above the government's borrowing rate",
+      "A PPP without evidence of value for money may reduce the project's cost-benefit outcome",
+      "Private finance removes all fiscal liabilities from the government for the contract term"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide warns that abusing PPPs to circumvent debt restrictions can burden society through user charges or future government payments.",
+      "Incorrect. The Guide notes that PPPs are generally a more expensive source of finance for this reason.",
+      "Incorrect. The Guide says that without VfM evidence, a PPP may significantly reduce the cost-benefit outcome.",
+      "Correct. This is not a caution but a false claim; the government may still provide direct and indirect support that creates fiscal liabilities."
+    ],
+    "ref": "Ch 1 §5.1.1, pp. 54-55"
+  },
+  {
+    "id": "C-006",
+    "section": "5.1.2",
+    "topic": "financial-motivation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the \"cash motivation\" for using PPPs?",
+    "options": [
+      "Keeping the project outside the government's balance sheet in national accounts",
+      "Obtaining finance at a lower cost than the government's own borrowing rate",
+      "Accessing additional funds to meet a funding shortage, whether or not it counts as public debt",
+      "Transferring demand risk to users by allowing tariffs to rise with inflation"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide separates the off balance sheet motivation from the pure cash motivation.",
+      "Incorrect. The Guide says private finance is generally more expensive than government borrowing.",
+      "Correct. The cash motivation is access to external resources to tackle a funding shortage, regardless of the debt accounting treatment.",
+      "Incorrect. Tariff indexation relates to managing currency risk in user-pays projects, not to the cash motivation."
+    ],
+    "ref": "Ch 1 §5.1.2, p. 56"
+  },
+  {
+    "id": "C-007",
+    "section": "5.1.2",
+    "topic": "financial-motivation",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is an advantage of a PPP from the cash (access to funds) perspective, according to the PPP Guide?",
+    "options": [
+      "The government avoids any long-term payment obligation for the asset",
+      "The project can always be financed at the government's borrowing rate",
+      "The project is never reported as public debt under any accounting system",
+      "No resources need to be set aside in the short-term budget for the construction years"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide stresses that PPPs commit significant public resources under a long-term contract.",
+      "Incorrect. Private finance is generally more expensive than the government's borrowing rate.",
+      "Incorrect. Whether a PPP counts as public debt depends on national accounting standards; it may well be reported as debt.",
+      "Correct. The Guide says that with a PPP there is no need to allocate resources in the short-term budget for the construction years."
+    ],
+    "ref": "Ch 1 §5.1.2, p. 56"
+  },
+  {
+    "id": "C-008",
+    "section": "5.1.2",
+    "topic": "financial-motivation",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word(s) in the following sentence: \"The cash motivation is usually the main driver for PPPs in the case of many ______.\"",
+    "options": [
+      "EMDEs",
+      "advanced economies",
+      "mature PPP markets",
+      "European Union countries"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide states that the cash motivation is usually the main driver in many emerging market and developing economies (EMDEs).",
+      "Incorrect. The Guide links the cash motivation to EMDEs, not to advanced economies.",
+      "Incorrect. Mature PPP markets are discussed in relation to framework and capacity, not as the main case of the cash motivation.",
+      "Incorrect. The EU is mentioned only for its accounting standards (ESA) and their effect on risk transfer, not as the main case of the cash motivation."
+    ],
+    "ref": "Ch 1 §5.1.2, p. 56"
+  },
+  {
+    "id": "C-009",
+    "section": "5.1.2",
+    "topic": "financial-motivation",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about the cash motivation for PPPs: 1. Even when a PPP is reported as public debt, it offers transparency and accountability as a financial facility dedicated to a specific need. 2. Some lenders willing to finance a PPP project may not be willing to lend directly to the government.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: the Guide says PPPs mobilize additional funders who may not lend directly to government.",
+      "Incorrect. Statement 1 is also true: the Guide notes the transparency and accountability of a dedicated facility even when it counts as debt.",
+      "Correct. The Guide supports both statements when explaining how PPPs give financial flexibility regardless of debt treatment.",
+      "Incorrect. Both statements are taken from the Guide's explanation of the cash motivation."
+    ],
+    "ref": "Ch 1 §5.1.2, p. 56"
+  },
+  {
+    "id": "C-010",
+    "section": "5.2",
+    "topic": "efficiency-drivers",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, which describes the correct sequence for testing a potential PPP project?",
+    "options": [
+      "Test value for money as a PPP first, then run a cost-benefit analysis only if VfM is positive",
+      "Test the project through cost-benefit analysis first, then test PPP delivery through the VfM exercise",
+      "Test commercial feasibility with bidders first, since cost-benefit analysis is optional for PPPs",
+      "Test only the PPP option through VfM, because the private partner carries out the cost-benefit analysis"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide requires the project itself to be justified by cost-benefit analysis before it is tested as a PPP.",
+      "Correct. Irrespective of procurement route, the project must pass cost-benefit analysis; then it is tested as a PPP through the VfM exercise.",
+      "Incorrect. The Guide says every technical solution must be tested through cost-benefit analysis, so it is not optional.",
+      "Incorrect. The project must be tested through cost-benefit analysis by the government before VfM testing; this is not left to the private partner."
+    ],
+    "ref": "Ch 1 §5.2, p. 56"
+  },
+  {
+    "id": "C-011",
+    "section": "5.2",
+    "topic": "efficiency-drivers",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the PPP Guide, the majority of efficiency gains through a PPP primarily relate to which factors?",
+    "options": [
+      "Lower financing costs, tax advantages and off balance sheet treatment",
+      "Exemption from procurement rules, direct negotiation and faster tendering",
+      "Allocative efficiency, political support and transfer of asset ownership",
+      "Risk management, cost management (including life-cycle) and innovation"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Financing is more expensive in a PPP, and off balance sheet treatment is described as a dangerous bias, not an efficiency gain.",
+      "Incorrect. The Guide favours competitive tendering and notes that PPP preparation takes longer.",
+      "Incorrect. The Guide says only some factors relate to allocative efficiency; the main gains come from other factors.",
+      "Correct. The Guide states that most PPP efficiency gains relate to risk management, cost management including life-cycle management, and innovation."
+    ],
+    "ref": "Ch 1 §5.2, p. 57"
+  },
+  {
+    "id": "C-012",
+    "section": "5.2",
+    "topic": "efficiency-drivers",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which type of efficiency relates mainly to the government's original decision on whether a project or service should be delivered at all?",
+    "options": [
+      "Allocative efficiency",
+      "Technical efficiency",
+      "X-efficiency",
+      "Life-cycle efficiency"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide links allocative (allocational) efficiency to the original decision on whether the project or service should be delivered.",
+      "Incorrect. Technical efficiency (minimum inputs, maximum outputs) relates mainly to the choice of delivery mode.",
+      "Incorrect. X-efficiency (avoiding wasteful use of inputs) relates to the delivery mode, not the decision to deliver.",
+      "Incorrect. Life-cycle cost management is an efficiency driver of PPPs, not one of the three types of efficiency the Guide names."
+    ],
+    "ref": "Ch 1 §5.2, p. 56"
+  },
+  {
+    "id": "C-013",
+    "section": "5.2.1",
+    "topic": "efficiency-drivers",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the source of the private sector's cost management advantage in a PPP, according to the PPP Guide?",
+    "options": [
+      "Access to lower interest rates than the government can obtain",
+      "Exemption from performance monitoring by the contracting authority",
+      "Flexible negotiations with subcontractors and a more flexible labor framework",
+      "A guaranteed profit margin on costs as they are incurred"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide says private finance is generally more expensive than government borrowing.",
+      "Incorrect. PPPs involve more, not less, performance monitoring by the government.",
+      "Correct. The Guide explains that the private sector is not bound by public procurement rules for subcontracts and has a more flexible labor framework.",
+      "Incorrect. A cost-plus guaranteed profit is given by the Guide as an example of no risk transfer and no incentives."
+    ],
+    "ref": "Ch 1 §5.2.1, p. 57"
+  },
+  {
+    "id": "C-014",
+    "section": "5.2.2",
+    "topic": "life-cycle-cost",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why does the private partner in a private finance PPP have a natural incentive to design and build the asset in a resilient way?",
+    "options": [
+      "It receives full payment for the capital cost as soon as construction is completed",
+      "It is paid over the operational period and bears maintenance risk to meet performance standards",
+      "The government bears all maintenance risk, so construction quality is the partner's only concern",
+      "Its payments are fixed for the whole contract and are not affected by asset performance"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. In a private finance PPP the partner is not paid during construction but over the operational period.",
+      "Correct. Because capex is repaid over operations, subject to deductions, and the partner carries maintenance and hand-back risk, it gains from a resilient design.",
+      "Incorrect. The Guide says the private partner assumes ordinary and extraordinary maintenance risks.",
+      "Incorrect. Government payments are subject to deductions for poor performance or quality."
+    ],
+    "ref": "Ch 1 §5.2.2, p. 58"
+  },
+  {
+    "id": "C-015",
+    "section": "5.2.2",
+    "topic": "life-cycle-cost",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why may a DBOM contractor have a weaker incentive than a private finance PPP partner to minimize whole life-cycle cost?",
+    "options": [
+      "The DBOM contractor is not responsible for maintenance of the asset",
+      "The DBOM contractor provides all of the finance and so avoids operating risk",
+      "The DBOM contractor is paid only when the asset is handed back at the end",
+      "The DBOM contractor is paid separately for construction as works progress"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says a DBOM contractor is responsible for both construction and maintenance.",
+      "Incorrect. A DBOM has no private finance; it is a PPP form without private finance.",
+      "Incorrect. The Guide says the DBOM contractor is usually paid for construction as work progresses, not at hand-back.",
+      "Correct. Being paid for construction separately creates a perverse incentive to cut construction costs to raise margin."
+    ],
+    "ref": "Ch 1 §5.2.2, p. 58"
+  },
+  {
+    "id": "C-016",
+    "section": "5.2.3",
+    "topic": "risk-transfer",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: \"Risk transfer will never be fully effective if there is no ______.\"",
+    "options": [
+      "capital at risk",
+      "government guarantee",
+      "output specification",
+      "public sector comparator"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide says a contractor without capital at risk can walk away with minimal loss when a transferred risk materializes.",
+      "Incorrect. Government guarantees reduce the risk borne by the private side; they do not make risk transfer effective.",
+      "Incorrect. Output specifications encourage innovation, but the Guide ties effective risk transfer to capital at risk.",
+      "Incorrect. A public sector comparator is a VfM tool, not the condition the Guide names for effective risk transfer."
+    ],
+    "ref": "Ch 1 §5.2.3, p. 58"
+  },
+  {
+    "id": "C-017",
+    "section": "5.2.3",
+    "topic": "risk-transfer",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about risk transfer in PPPs: 1. Risk transfer is usually the most important driver of value for money. 2. Transferring as much risk as possible to the private partner will always maximize value for money.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide calls risk transfer the heart of incremental efficiency but warns that transferring too much risk may spoil VfM.",
+      "Incorrect. Statement 2 is false because too much risk transfer can spoil VfM, and statement 1 is true.",
+      "Incorrect. Statement 2 is false; the Guide calls for optimal allocation, which may mean retaining or sharing some risks.",
+      "Incorrect. Statement 1 is true: risk transfer is usually the most important driver of VfM."
+    ],
+    "ref": "Ch 1 §5.2.3, p. 59"
+  },
+  {
+    "id": "C-018",
+    "section": "5.2.3",
+    "topic": "risk-transfer",
+    "level": 2,
+    "style": "applied",
+    "stem": "A proposed contract guarantees the private partner a fixed profit on its costs as they are incurred, with no deductions for poor performance. Under the PPP Guide, how should this be viewed?",
+    "options": [
+      "As an ideal PPP, because the private partner is fully protected and can focus on quality",
+      "As an efficient PPP, because the government no longer pays any risk premium",
+      "As lacking risk transfer and incentives, so the project should be procured conventionally",
+      "As an innovative PPP, because the partner is free to choose its own inputs"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Protecting the partner from performance risk removes the incentives that create PPP efficiency.",
+      "Incorrect. With no risk transfer, the private sector cannot reduce the risk premium through better risk management.",
+      "Correct. The Guide says a cost-plus mechanism with no deductions shows a lack of risk transfer, and low-risk-transfer projects should be procured conventionally.",
+      "Incorrect. Innovation depends on performance-based contracts; a cost-plus approach gives no incentive to be cost-effective."
+    ],
+    "ref": "Ch 1 §5.2.3, p. 59"
+  },
+  {
+    "id": "C-019",
+    "section": "5.2.3",
+    "topic": "risk-transfer",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "How is time risk (having the infrastructure ready for service on schedule) usually transferred to the private partner in a PPP?",
+    "options": [
+      "Through penalty rules set out in general public procurement law",
+      "Through government payments made against every construction milestone",
+      "Through insurance policies that users must buy before using the asset",
+      "Through the payment mechanism, as most payments start only after commissioning"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide explains time risk transfer through the contract's payment mechanism, not general procurement law.",
+      "Incorrect. Paying against construction milestones is the exception (for example VGF payments), not the main way time risk is transferred.",
+      "Incorrect. The Guide does not mention user insurance as a way to transfer time risk.",
+      "Correct. Most, if not all, payments are granted only once the asset is constructed and commissioned."
+    ],
+    "ref": "Ch 1 §5.2.3, p. 58"
+  },
+  {
+    "id": "C-020",
+    "section": "5.2.4",
+    "topic": "innovation",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which contract feature does the PPP Guide identify as encouraging private sector innovation?",
+    "options": [
+      "Detailed input specifications that set the materials and methods to be used",
+      "Output or performance specifications that leave the means and methods to the contractor",
+      "Direct negotiation with a single preferred company to save preparation time",
+      "A cost-plus payment regime that covers all costs as they are incurred"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Prescribing inputs leaves little room for the contractor to innovate.",
+      "Correct. The Guide says performance-based contracts with output specifications give room and incentives to apply innovative methods.",
+      "Incorrect. The Guide says competition, not direct negotiation, brings innovation into the equation.",
+      "Incorrect. A cost-plus regime removes incentives to find savings."
+    ],
+    "ref": "Ch 1 §5.2.4, p. 59"
+  },
+  {
+    "id": "C-021",
+    "section": "5.2.5",
+    "topic": "efficiency-drivers",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Which is a reason the PPP Guide gives for PPPs maintaining service quality more reliably than public delivery?",
+    "options": [
+      "PPP staff are employed under public sector employment conditions",
+      "PPP assets are built to lower standards, so they are easier to maintain",
+      "The government remains responsible for maintenance of the PPP asset",
+      "Payments are linked to performance levels, giving an incentive to keep quality"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says the private sector has a more flexible labor framework than the public sector.",
+      "Incorrect. The Guide does not suggest lower standards; it stresses meeting performance and quality standards.",
+      "Incorrect. In a PPP the private partner assumes maintenance risk.",
+      "Correct. The Guide says linking payment to performance levels provides an additional incentive to maintain service quality."
+    ],
+    "ref": "Ch 1 §5.2.5, p. 61"
+  },
+  {
+    "id": "C-022",
+    "section": "5.2.5",
+    "topic": "efficiency-drivers",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about reliability and effectiveness in PPPs: 1. PPPs can provide benefits in effectiveness as well as efficiency, through greater reliability of time and cost. 2. A PPP can improve the cost-benefit outcome by encouraging faster construction so that the asset enters service sooner.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: the Guide says faster construction and time reliability can improve the cost-benefit outcome.",
+      "Incorrect. Statement 1 is also true: the Guide says PPPs provide benefits in effectiveness, not only efficiency.",
+      "Correct. Both statements reflect the Guide's explanation of reliability and effectiveness.",
+      "Incorrect. Both statements are supported by the Guide."
+    ],
+    "ref": "Ch 1 §5.2.5, pp. 60-61"
+  },
+  {
+    "id": "C-023",
+    "section": "5.2.6",
+    "topic": "efficiency-drivers",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which is a characteristic of PPP projects that rely significantly on user payments, according to the PPP Guide?",
+    "options": [
+      "The private partner has little interest in how much the asset is used",
+      "The private partner has an incentive to increase use and commercial value of the asset",
+      "All commercial revenues from the site pass automatically to the government",
+      "Commercial uses of the site, such as restaurants or hotels, are not allowed"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. In user-pays PPPs revenue depends on use, so the partner is interested in increasing it.",
+      "Correct. The Guide says the private sector has an incentive to increase public use and economic utilization, including commercial use of spaces.",
+      "Incorrect. The Guide says surplus revenue may be captured by charging a fee, not that all revenue passes automatically to government.",
+      "Incorrect. The Guide gives hotels, restaurants and leisure facilities as examples of commercial utilization."
+    ],
+    "ref": "Ch 1 §5.2.6, p. 61"
+  },
+  {
+    "id": "C-024",
+    "section": "5.3",
+    "topic": "other-benefits",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the \"demonstration effect\" of PPPs?",
+    "options": [
+      "Private sector innovations are later adopted in other projects or in government-run services",
+      "The government publicly presents the project to investors at a roadshow before tender",
+      "The private partner demonstrates the finished asset to users before charging tolls",
+      "Lenders demonstrate their funding commitment by signing a letter of support"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide gives the example of prison PPPs in Australia and New Zealand, whose innovations were adopted in government-run prisons.",
+      "Incorrect. Market engagement events are not what the Guide means by demonstration effects.",
+      "Incorrect. The Guide does not use the term for showing the asset to users.",
+      "Incorrect. Lender commitment letters are unrelated to demonstration effects."
+    ],
+    "ref": "Ch 1 §5.3, p. 63"
+  },
+  {
+    "id": "C-025",
+    "section": "5.3",
+    "topic": "other-benefits",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "PPPs ensure an up-front commitment of resources to maintenance and technical reliability. Which pitfall does the PPP Guide say qualifies this advantage?",
+    "options": [
+      "Higher levels of corruption in the maintenance phase",
+      "Lower quality of maintenance over the contract term",
+      "Loss of transparency because fewer parties are involved",
+      "Decreased flexibility in the government's budget management"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide says PPPs can help decrease corruption by increasing transparency.",
+      "Incorrect. The advantage itself is improved reliability and quality, not lower maintenance quality.",
+      "Incorrect. The Guide says PPPs involve many parties, which increases transparency.",
+      "Correct. The Guide says the long-term commitment of resources comes with the pitfall of reduced flexibility in budget management."
+    ],
+    "ref": "Ch 1 §5.3, p. 63"
+  },
+  {
+    "id": "C-026",
+    "section": "5.3",
+    "topic": "other-benefits",
+    "level": 1,
+    "style": "advantage",
+    "stem": "Why can PPPs bring more transparency and assurance, according to the PPP Guide?",
+    "options": [
+      "PPP contracts are exempt from review by national audit offices",
+      "A single public agency controls every stage of the transaction",
+      "Many parties are involved, such as the authority, advisors, investors and lenders",
+      "PPP contracts are usually awarded through confidential direct negotiation"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The Guide does not say PPPs are exempt from audit; audit offices review PPP value for money.",
+      "Incorrect. Transparency comes from the involvement of many parties, not from a single controller.",
+      "Correct. The Guide links PPP transparency to the many parties involved in the transaction.",
+      "Incorrect. Direct negotiation is discouraged because it harms transparency and value for money."
+    ],
+    "ref": "Ch 1 §5.3, p. 63"
+  },
+  {
+    "id": "C-027",
+    "section": "5.4",
+    "topic": "ppp-disadvantages",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT a disadvantage or pitfall of PPPs listed in the PPP Guide?",
+    "options": [
+      "Significantly higher transaction costs for both public and private sectors",
+      "A lower need for performance monitoring than in traditional procurement",
+      "Longer project preparation time than for public works projects",
+      "Rigidity in budget management due to long-term commitments"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Higher transaction costs are listed as a PPP disadvantage.",
+      "Correct. The Guide says the opposite: PPPs bring a higher surveillance and performance monitoring cost for governments.",
+      "Incorrect. Longer preparation time is listed as a consequence of PPP complexity.",
+      "Incorrect. Budget management rigidity is listed as a PPP pitfall."
+    ],
+    "ref": "Ch 1 §5.4, pp. 64-66"
+  },
+  {
+    "id": "C-028",
+    "section": "5.4",
+    "topic": "ppp-disadvantages",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about PPP disadvantages: 1. The government's cost of borrowing understates the true cost of financing because it does not reward the government for bearing project risk. 2. After contract signature, the private operator often has a negotiating advantage in renegotiations because it is a monopolistic supplier.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true: the Guide describes the lack of competition after award.",
+      "Incorrect. Statement 1 is also true: the Guide says the government's borrowing cost does not remunerate it for bearing risk.",
+      "Correct. The Guide supports both statements in its list of PPP disadvantages.",
+      "Incorrect. Both statements are made in the Guide's section on disadvantages and pitfalls."
+    ],
+    "ref": "Ch 1 §5.4, pp. 65-66"
+  },
+  {
+    "id": "C-029",
+    "section": "5.4",
+    "topic": "ppp-disadvantages",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes how the PPP Guide suggests mitigating the risks arising from lack of competition after contract award?",
+    "options": [
+      "Forbid any change to the contract during its whole term",
+      "Re-tender the contract every year to restore competition",
+      "Allow unlimited renegotiation so both parties can adapt freely",
+      "Build flexibility for change into the contract, with clear boundaries"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Changes are frequent in long contracts; the Guide asks for flexibility, not a ban on change.",
+      "Incorrect. Yearly re-tendering is not proposed and would defeat a long-term PPP contract.",
+      "Incorrect. Unlimited renegotiation would increase the operator's monopolistic advantage.",
+      "Correct. The Guide says the only way to mitigate these risks is to build flexibility for change into the contract together with clear boundaries."
+    ],
+    "ref": "Ch 1 §5.4, p. 66"
+  },
+  {
+    "id": "C-030",
+    "section": "5.5",
+    "topic": "conditions-for-success",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: \"There must be a demonstrated need for a project, because a PPP will not make a good project out of a ______ project.\"",
+    "options": [
+      "small",
+      "public",
+      "bad",
+      "user-pays"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Size relates to transaction costs, but the Guide's point here is about the underlying quality of the project.",
+      "Incorrect. PPPs deliver public infrastructure, so being public is not the problem.",
+      "Correct. The Guide states that a PPP will not make a good project out of a bad project.",
+      "Incorrect. User-pays PPPs are a normal PPP type and not the issue the Guide raises here."
+    ],
+    "ref": "Ch 1 §5.5, p. 67"
+  },
+  {
+    "id": "C-031",
+    "section": "5.5",
+    "topic": "conditions-for-success",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT one of the conditions the PPP Guide lists for achieving the efficiency benefits of a PPP?",
+    "options": [
+      "The project must be properly tendered through a transparent, competitive process",
+      "The project must be properly prepared, appraised and tested as a PPP",
+      "The project must be proactively managed through the life of the contract",
+      "The project must be recorded off the government's balance sheet"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Proper tendering is a listed condition; efficiencies are lost without reliable competition.",
+      "Incorrect. Proper preparation and appraisal, including testing as a PPP, is a listed condition.",
+      "Incorrect. Proactive contract management through the contract life is a listed condition.",
+      "Correct. Off balance sheet treatment is not a condition; the Guide warns against using PPPs just because they are not counted as public debt."
+    ],
+    "ref": "Ch 1 §5.5, p. 67"
+  },
+  {
+    "id": "C-032",
+    "section": "5.5",
+    "topic": "competition-procurement",
+    "level": 2,
+    "style": "applied",
+    "stem": "A government directly negotiates a PPP contract with one company, although several firms could deliver the project and there is no emergency. Under the PPP Guide, what is the likely consequence?",
+    "options": [
+      "The government is likely to pay more than a fair price and may harm industry interest in its PPP program",
+      "The government will obtain better value for money because negotiation is faster than a tender",
+      "This is the Guide's standard default approach, so no extra justification is needed",
+      "This is required by the Guide whenever a private company has shown interest in a project"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Box 1.18 says that under direct negotiation the government will most likely pay more, and that transparency is essential to keep bidder interest.",
+      "Incorrect. The Guide says competition is a main driver of VfM and direct negotiation harms it.",
+      "Incorrect. The Guide assumes a competitive tender as the standard approach; direct negotiation is an exception.",
+      "Incorrect. Direct negotiation may be appropriate only in very few cases, such as when only one company is prepared to deliver or in emergencies."
+    ],
+    "ref": "Ch 1 §5.5 (Box 1.18), p. 68"
+  },
+  {
+    "id": "C-033",
+    "section": "5.5",
+    "topic": "competition-procurement",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the better practice for procuring an unsolicited proposal (USP), according to the PPP Guide?",
+    "options": [
+      "Negotiate exclusively with the original proposer to reward its initiative",
+      "Submit the project to competition while giving some advantage to the original proposer",
+      "Reject all unsolicited proposals so that only government-identified projects proceed",
+      "Award the contract to the proposer if its price is below the government's estimate"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Handling a USP like a direct award is described as the weaker approach.",
+      "Correct. The Guide says better practice introduces competitive tension while granting some advantages to the original proposer.",
+      "Incorrect. The Guide treats USPs as a possible valid exception under specific rules, not something to reject in all cases.",
+      "Incorrect. This is still a direct award without competitive tension, which the Guide does not recommend."
+    ],
+    "ref": "Ch 1 §5.5 (Box 1.18), p. 69"
+  },
+  {
+    "id": "C-034",
+    "section": "5.5",
+    "topic": "project-governance",
+    "level": 1,
+    "style": "not",
+    "stem": "Which is NOT an element of proper project governance for a PPP, according to the PPP Guide?",
+    "options": [
+      "A full-time dedicated project manager and adequate use of advisors",
+      "Clear identification of a Project Owner and a Project Champion",
+      "The largest possible project team, so that no advisors are needed",
+      "Proper stakeholder management and clear communication to the public"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A full-time project manager and adequate incorporation of advisors are listed elements.",
+      "Incorrect. Identifying a Project Owner and a Project Champion is a listed element.",
+      "Correct. The Guide calls for sufficient resources, a team neither too large nor too small, with advisors incorporated.",
+      "Incorrect. Stakeholder management and clear communication, including to the general public, are listed elements."
+    ],
+    "ref": "Ch 1 §5.5, pp. 70-71"
+  },
+  {
+    "id": "C-035",
+    "section": "5.6",
+    "topic": "emde-challenges",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Why does the PPP Guide say that PPP debt should ideally be in the same currency as the project company's revenues?",
+    "options": [
+      "Because lenders in hard currency are not allowed to finance infrastructure projects",
+      "Because local currency debt is always cheaper than debt in foreign currency",
+      "Because national accounting rules forbid PPPs from borrowing in foreign currency",
+      "Because a devaluation would raise the local value of foreign debt repaid from devalued revenues"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The Guide describes cross-border hard currency financing as possible under certain conditions.",
+      "Incorrect. The Guide's reason is currency mismatch, not the relative price of local debt.",
+      "Incorrect. The Guide does not say accounting rules forbid foreign currency borrowing.",
+      "Correct. The Guide explains that foreign exchange risk is severe because devaluation increases the debt in local terms while revenues fall in value."
+    ],
+    "ref": "Ch 1 §5.6, p. 73"
+  },
+  {
+    "id": "C-036",
+    "section": "5.6",
+    "topic": "emde-challenges",
+    "level": 1,
+    "style": "not",
+    "stem": "A country without a developed domestic financial system must rely on cross-border hard currency finance. Which is NOT one of the options the PPP Guide lists to make this workable?",
+    "options": [
+      "Leaving all currency risk with the lenders, with no hedging or government support",
+      "Foreign exchange hedging mechanisms such as cross currency swaps",
+      "Government insurance or guarantees against devaluation risk",
+      "Reducing the private finance package, with the government funding part of the capex"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide does not list this; it says cross-border finance is only possible if hedging, guarantees or reduced private finance are available.",
+      "Incorrect. Hedging mechanisms such as cross currency swaps are a listed option, where MDBs may help.",
+      "Incorrect. Government insurance or guarantees against devaluation are a listed option.",
+      "Incorrect. Significantly decreasing the private finance package is a listed option, as in the Lesotho hospital example."
+    ],
+    "ref": "Ch 1 §5.6, pp. 73-74"
+  },
+  {
+    "id": "C-037",
+    "section": "5.6",
+    "topic": "emde-challenges",
+    "level": 2,
+    "style": "applied",
+    "stem": "A country has no long-term local currency lending, no hedging or government guarantees are available, and the government cannot fund a large share of project capex itself. Its projects earn only local currency revenues. Which strategy fits the PPP Guide's advice?",
+    "options": [
+      "Launch a large DBFOM program financed in hard currency and rely on tariff indexation",
+      "Focus on PPPs without private finance, for example DBOM instead of DBFOM",
+      "Use DBFOM for all social infrastructure to maximize private finance",
+      "Accept foreign currency debt, since devaluation does not affect PPP debt"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide calls tariff indexation a less effective technique that fails in material devaluations.",
+      "Correct. A subsidiary strategy is to restrict PPPs to those without private finance, such as DBOM, to build knowledge and maturity.",
+      "Incorrect. DBFOM depends on long-term finance, which is exactly what is missing here.",
+      "Incorrect. The Guide says devaluation increases foreign currency debt in local terms, which is a severe risk."
+    ],
+    "ref": "Ch 1 §5.6, p. 74"
+  },
+  {
+    "id": "C-038",
+    "section": "5.6",
+    "topic": "emde-challenges",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Within country risk, which describes \"transfer risk\"?",
+    "options": [
+      "The risk that an investor cannot send payments out of the country",
+      "The risk that the contract is transferred to a new operator on default",
+      "The risk that the asset is in poor condition when transferred at hand-back",
+      "The risk that a subcontractor transfers construction risk back to the SPV"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide defines transfer risk as the risk of an investor not being able to send payments offshore.",
+      "Incorrect. Step-in or replacement of an operator is not what the Guide calls transfer risk.",
+      "Incorrect. Hand-back condition is a maintenance issue, not a component of country risk.",
+      "Incorrect. Risk passing between subcontractor and SPV is a project risk, not country transfer risk."
+    ],
+    "ref": "Ch 1 §5.6, p. 76"
+  },
+  {
+    "id": "C-039",
+    "section": "5.6",
+    "topic": "emde-challenges",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about PPPs in challenging country contexts: 1. In countries with high country risk and poor creditworthiness, PPPs may still be useful for non-capital-intensive and service-only projects. 2. Small local governments generally find it easier than central governments to access private finance on reasonable terms.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 matches the Guide; statement 2 is false because Box 1.19 says sub-sovereign governments find it harder to access private finance.",
+      "Incorrect. Statement 2 is false, and statement 1 is supported by the Guide's discussion of country risk.",
+      "Incorrect. Statement 2 is false: small sub-sovereign governments find access to private finance harder, especially in developing countries.",
+      "Incorrect. Statement 1 is true: service-only and non-capital-intensive projects should be the focus in high-risk countries."
+    ],
+    "ref": "Ch 1 §5.6, pp. 75-76"
+  },
+  {
+    "id": "C-040",
+    "section": "5.7",
+    "topic": "dos-and-donts",
+    "level": 1,
+    "style": "applied",
+    "stem": "A municipality plans to procure five small wastewater treatment plants as five separate PPPs. Which does the PPP Guide recommend?",
+    "options": [
+      "Procure each plant separately, since small PPPs have lower transaction costs",
+      "Bundle the plants into one procurement rather than five separate processes",
+      "Use direct negotiation for each plant to reduce preparation time",
+      "Proceed with PPPs because they will not be counted as public debt"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. The Guide says not to use PPP for small projects as a general rule, because transaction costs are high.",
+      "Correct. Box 1.20 advises bundling small projects, such as a group of wastewater treatment plants, instead of separate processes.",
+      "Incorrect. Direct negotiation is an exception that harms value for money and is not the recommended fix.",
+      "Incorrect. Box 1.20 says not to use PPP simply because it is not accounted for as public debt."
+    ],
+    "ref": "Ch 1 §5.7 (Box 1.20), p. 77"
+  }
+]

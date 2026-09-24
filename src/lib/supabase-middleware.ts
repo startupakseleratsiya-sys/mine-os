@@ -7,6 +7,7 @@ export const PROTECTED_PATHS = [
   "/progress",
   "/tutor",
   "/calculators",
+  "/exam",
   "/profile",
   "/onboarding",
   "/admin",

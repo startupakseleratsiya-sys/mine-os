@@ -32,6 +32,8 @@ jobs:
         run: npm test
       - name: Course content integrity
         run: npm run check:content
+      - name: Exam question bank integrity
+        run: npm run check:exam
 
       - name: Deploy (production)
         env:

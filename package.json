@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
-    "check:content": "node scripts/check-course-content.mjs"
+    "check:content": "node scripts/check-course-content.mjs",
+    "check:exam": "node scripts/check-exam-bank.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.46",

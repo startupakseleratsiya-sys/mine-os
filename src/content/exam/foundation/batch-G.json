@@ -1,0 +1,992 @@
+[
+  {
+    "id": "G-001",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes an affermage?",
+    "options": [
+      "A private partner operates and maintains existing infrastructure without financing the investment, keeps part of the user charges and passes a share to the authority",
+      "A private partner designs, builds and finances new infrastructure and is paid by the government through availability payments over the contract life",
+      "A previously publicly owned asset is permanently transferred to a private company, which then sets and keeps all of the user charges",
+      "A private partner operates existing infrastructure and receives a fixed management fee from the government, while the authority keeps all user charges"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines affermage as operating and maintaining existing infrastructure without financing it, with the partner retaining part of user charges and paying a portion to the authority as owner.",
+      "Incorrect. Designing, building and financing new assets for availability payments describes a government-pays DBFOM-type PPP, not affermage, where the partner does not finance the investment.",
+      "Incorrect. A permanent transfer of a public asset is privatization; in affermage the authority remains the owner of the assets.",
+      "Incorrect. The Glossary states that under affermage the private partner does not receive a fixed fee; it retains part of the user charges."
+    ],
+    "ref": "Glossary: Affermage, p. 2"
+  },
+  {
+    "id": "G-002",
+    "section": "Glossary",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes availability payments?",
+    "options": [
+      "Tolls or fees collected by the private partner directly from the users of the infrastructure",
+      "Grants paid by the government during construction to finance a portion of the capital expenditure",
+      "Payments made over the contract life in return for the private party making the infrastructure available",
+      "Payments made by the government in place of users, calculated on the volume of use of the asset"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Tolls paid by users are user charges, the revenue source in user-pays PPPs.",
+      "Incorrect. Grants paid during construction to finance part of CapEx are grant financing or co-financing.",
+      "Correct. The Glossary defines availability payments as payments over the lifetime of the contract for making the infrastructure available, common in government-pays PPPs.",
+      "Incorrect. Payments by government in lieu of users based on volume are shadow tolls or shadow fares."
+    ],
+    "ref": "Glossary: Availability payments, p. 3"
+  },
+  {
+    "id": "G-003",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which defines bankability?",
+    "options": [
+      "The ability of a project to be realistically accommodated within the government's budget constraints over time",
+      "The ability of a project to be accepted by lenders and raise long-term project finance loans, thanks to reliable future cash flows",
+      "The ability of a project to create net value for society, as tested by a cost-benefit analysis of economic flows",
+      "The ability of the project company to generate revenues other than those received from users or the public authority"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Fitting within the government's inter-temporal budget constraints is the definition of affordability.",
+      "Correct. The Glossary defines bankability as the ability of a project to be accepted by lenders under project finance, based on the sufficiency and reliability of its future cash flows.",
+      "Incorrect. Creating net value for society, tested by cost-benefit analysis, is the broad concept of value for money or socio-economic feasibility.",
+      "Incorrect. Revenues other than those from users or the authority are third-party revenues."
+    ],
+    "ref": "Glossary: Bankability, p. 3"
+  },
+  {
+    "id": "G-004",
+    "section": "Glossary",
+    "topic": "project-classification",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about project types: 1. From an investor perspective, a greenfield project is an investment in an infrastructure asset that already existed before the time of procurement. 2. Yellowfield projects are PPPs in which the investment relates only to sites that have never been used or built on before.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 describes a brownfield investment; greenfield investments relate to a recently awarded PPP or one under construction with significant new structures.",
+      "Incorrect. Statement 2 is false because yellowfield projects relate to renewals, refurbishment or expansion of existing infrastructure.",
+      "Incorrect. Neither statement matches the Glossary definitions of greenfield and yellowfield projects.",
+      "Correct. Statement 1 confuses greenfield with brownfield, and statement 2 is wrong because yellowfield projects involve existing infrastructure."
+    ],
+    "ref": "Glossary: Brownfield projects, p. 5; Greenfield projects, p. 18; Yellowfield projects, p. 41"
+  },
+  {
+    "id": "G-005",
+    "section": "Glossary",
+    "topic": "contract-milestones",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes commercial close?",
+    "options": [
+      "The point at which all project documents are signed, all financing conditions are met and the project funding becomes available",
+      "The decision by the authority to procure the project, usually made at the end of the Appraisal Phase",
+      "The point at which all significant commercial issues between the authority and the consortium are agreed and the PPP contract is normally signed",
+      "The point at which the independent certifier confirms that the Construction Phase has been completed as the contract requires"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Signing all documents, meeting financing pre-conditions and making funding available is financial close.",
+      "Incorrect. The decision to procure the project at the end of appraisal is the green light decision.",
+      "Correct. The Glossary defines commercial close as the point at which all significant commercial issues are agreed, with the PPP contract normally signed then.",
+      "Incorrect. Certification that construction is complete is the role of the independent certifier at completion, not commercial close."
+    ],
+    "ref": "Glossary: Commercial close, p. 7"
+  },
+  {
+    "id": "G-006",
+    "section": "Glossary",
+    "topic": "contract-milestones",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which defines financial close?",
+    "options": [
+      "The point at which all project documentation is signed, all pre-conditions of the financing are met and the project funding becomes available",
+      "The point at which the preferred bidder is identified at the end of the tender evaluation and called to contract signature",
+      "The point at which the commercial issues are agreed and the contract is signed, even if lenders have not yet committed funds",
+      "The point at which the construction loan is replaced by longer-term debt after the first years of operation"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines financial close as the point at which all project documentation is signed, the financing pre-conditions are met and funding becomes available.",
+      "Incorrect. Identifying the bidder at the end of evaluation is the selection of the preferred bidder, which comes before financial close.",
+      "Incorrect. Agreeing commercial issues and signing the contract describes commercial close; many provisions only become effective at financial close.",
+      "Incorrect. Replacing a construction loan with longer-term debt describes refinancing of a mini-perm, not financial close."
+    ],
+    "ref": "Glossary: Financial close, p. 16"
+  },
+  {
+    "id": "G-007",
+    "section": "Glossary",
+    "topic": "contract-milestones",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which term describes the conditions that must be fulfilled by the project company before it can draw on the debt, or before the project contracts become effective?",
+    "options": [
+      "Cure period",
+      "Long stop date",
+      "Standstill period",
+      "Conditions precedent"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A cure period is the time allowed for a party to remedy a default under a project contract.",
+      "Incorrect. The long stop date is the date set by the authority by which services must commence; non-commencement by that date would lead to termination of the contract.",
+      "Incorrect. A standstill period is a period in which a process is put on hold, for example between award and signature.",
+      "Correct. The Glossary defines conditions precedent as conditions the project company must fulfil before drawing on the debt or before the contracts become effective."
+    ],
+    "ref": "Glossary: Conditions precedent, p. 8"
+  },
+  {
+    "id": "G-008",
+    "section": "Glossary",
+    "topic": "fiscal-support",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes contingent liabilities, as distinct from direct liabilities?",
+    "options": [
+      "Payment commitments that the government will incur whatever happens in the future",
+      "Obligations that are triggered only if a discrete but uncertain future event occurs",
+      "The value of the risks that the government expects to allocate to the private party",
+      "An unallocated reserve in the CapEx budget for unexpected but required spending"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Commitments incurred regardless of any uncertain future event are direct liabilities.",
+      "Correct. The Glossary defines contingent liabilities as obligations triggered by a discrete but uncertain future event.",
+      "Incorrect. The value of risks allocated to the private party is the transferred risk.",
+      "Incorrect. An unallocated reserve in the CapEx budget is a contingency, not a contingent liability."
+    ],
+    "ref": "Glossary: Contingent liabilities, p. 9; Direct liabilities, p. 13"
+  },
+  {
+    "id": "G-009",
+    "section": "Glossary",
+    "topic": "fiscal-support",
+    "level": 2,
+    "style": "applied",
+    "stem": "In a toll road PPP, the government agrees to pay the private partner if traffic falls below a minimum forecast level. How is this commitment best classified?",
+    "options": [
+      "As a direct liability, because the payment amount is written into the contract",
+      "As a contingent liability, because it depends on an uncertain future event",
+      "As viability gap funding, because it is a grant paid during construction",
+      "As a soft loan, because it is provided on better than market conditions"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Direct liabilities are incurred regardless of an uncertain event, but this payment only arises if traffic is low.",
+      "Correct. A minimum traffic guarantee is given as an example of a contingent guarantee, and it creates a liability triggered by an uncertain future event.",
+      "Incorrect. Viability gap funding is a grant up to a set percentage of project cost, not a payment triggered by low demand.",
+      "Incorrect. A soft loan is a loan from the authority on soft terms, whereas this is a guarantee payment with no repayment."
+    ],
+    "ref": "Glossary: Contingent guarantees, p. 9; Contingent liabilities, p. 9"
+  },
+  {
+    "id": "G-010",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "According to the Glossary, which best describes a Design-Build-Finance-Operate-Maintain (DBFOM) contract?",
+    "options": [
+      "The contractor designs and builds against public construction payments, and is then paid a pre-agreed price to operate and maintain",
+      "The contractor designs, builds and finances the works and is paid after commissioning, while the government operates the asset",
+      "The contractor provides all or most of the finance and is responsible for life-cycle, maintenance and operation of the infrastructure",
+      "The contractor designs and builds against a price funded by the public budget and is paid as the construction progresses"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Construction paid by public payments followed by paid operation and maintenance is a DBOM contract.",
+      "Incorrect. Financing the works and being paid after commissioning, with operation left to government, is a DBF contract.",
+      "Correct. The Glossary states that in a DBFOM the contractor provides all or the majority of the financing and manages the life cycle, maintenance and operations.",
+      "Incorrect. Design and construction paid from the budget as work progresses is a conventional Design-Build (DB) contract."
+    ],
+    "ref": "Glossary: DBFOM, p. 12"
+  },
+  {
+    "id": "G-011",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "According to the Glossary, which of the following contract types, in terms of scope, fulfils all of the conditions required to be a PPP?",
+    "options": [
+      "DBFM (Design-Build-Finance-Maintain)",
+      "DBOM (Design-Build-Operate-Maintain)",
+      "DBF (Design-Build-Finance)",
+      "DB (Design-Build)"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary states that DBFOM and DBFM contracts are the only types, in terms of scope, that fulfil all of the conditions required to be a PPP.",
+      "Incorrect. A DBOM is paid by public construction payments, so the contractor provides no private finance.",
+      "Incorrect. A DBF has no operation or maintenance by the contractor, which is provided by government or a separate agency.",
+      "Incorrect. A DB is a conventional procurement type in which government keeps full responsibility for the asset after construction."
+    ],
+    "ref": "Glossary: DBFOM, p. 12"
+  },
+  {
+    "id": "G-012",
+    "section": "Glossary",
+    "topic": "lender-protections",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a direct agreement?",
+    "options": [
+      "An agreement among consortium members setting out how responsibilities, risks and rewards are shared between them",
+      "An agreement regulating relations between key sub-contractors and the recovery of certain sums from one another",
+      "The contractual agreement between the procuring authority and the private partner, also called the upstream contract",
+      "An agreement, normally between the SPV, the government party and the lenders, that gives the lenders step-in rights"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Sharing responsibilities, risks and rewards among members is the purpose of the consortium agreement.",
+      "Incorrect. Regulating relations between key sub-contractors is the purpose of an interface agreement.",
+      "Incorrect. The contract between the procuring authority and the private partner is the PPP contract or upstream contract.",
+      "Correct. The Glossary defines a direct agreement as one normally made between the SPV, the government party and the lenders, giving lenders step-in rights."
+    ],
+    "ref": "Glossary: Direct agreement, p. 13"
+  },
+  {
+    "id": "G-013",
+    "section": "Glossary",
+    "topic": "lender-protections",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes step-in?",
+    "options": [
+      "The government's right to end the contract early in the public interest, when there is no default by the private partner",
+      "A period of time allowed for a party to remedy a default under a project contract before further action is taken",
+      "Risk events for which the contract relieves the private partner from obligations, so that no breach is counted",
+      "The option of the government or a lender to take over the contractual responsibilities of a party that is failing its obligations"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Ending the contract early in the public interest without default is termination for convenience.",
+      "Incorrect. A period to remedy a default is a cure period.",
+      "Incorrect. Events that relieve the private partner from obligations are relief events.",
+      "Correct. The Glossary defines step-in as the government's or lender's option to assume the contractual responsibilities of a project party that is not meeting its obligations."
+    ],
+    "ref": "Glossary: Step-in, p. 37"
+  },
+  {
+    "id": "G-014",
+    "section": "Glossary",
+    "topic": "lender-protections",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about step-in and direct agreements: 1. Step-in rights can only ever be exercised by the government, never by the lenders. 2. A direct agreement may be made between the SPV, the lender and the primary sub-contractors.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false because step-in is defined as an option of the government or the lender.",
+      "Correct. Statement 1 is false, while statement 2 is true: the Glossary says a direct agreement can alternatively be made between the SPV, the lender and the primary sub-contractors.",
+      "Incorrect. Statement 1 is false, so both cannot be true.",
+      "Incorrect. Statement 2 is true according to the Glossary definition of direct agreement."
+    ],
+    "ref": "Glossary: Step-in, p. 37; Direct agreement, p. 13"
+  },
+  {
+    "id": "G-015",
+    "section": "Glossary",
+    "topic": "contract-milestones",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing word in the following sentence: '______ is the transfer of the project assets, and responsibility for those assets, to the government upon the termination or expiry of the PPP contract.'",
+    "options": [
+      "Hand-back",
+      "Privatization",
+      "Commissioning",
+      "Refinancing"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines hand-back (also called handover) as the transfer of the project assets and responsibility for them to the government at termination or expiry.",
+      "Incorrect. Privatization is the permanent transfer of a publicly owned asset to the private sector, the opposite direction.",
+      "Incorrect. Commissioning is the testing at the end of construction before operations start.",
+      "Incorrect. Refinancing is a change in the financial structure or conditions of the project's funding."
+    ],
+    "ref": "Glossary: Hand-back, p. 18"
+  },
+  {
+    "id": "G-016",
+    "section": "Glossary",
+    "topic": "ppp-definition",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which statement best explains the difference between privatization and a PPP?",
+    "options": [
+      "Privatization applies only to new assets, while a PPP can only be used for existing assets",
+      "Privatization always relies on user charges, while a PPP is always paid by the government",
+      "Privatization is a permanent transfer of a public asset, while PPP assets are handed back at contract end",
+      "Privatization requires an SPV, while a PPP is signed directly with the sponsor's parent company"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Privatization concerns previously publicly owned assets, and PPPs are used for both new and existing assets.",
+      "Incorrect. PPPs can be user-pays or government-pays, and the Glossary does not tie privatization to user charges.",
+      "Correct. The Glossary defines privatization as a permanent transfer, whereas in a PPP the assets are handed back to government on termination or expiry.",
+      "Incorrect. It is the PPP private partner that is usually an SPV; the Glossary does not link privatization to SPVs."
+    ],
+    "ref": "Glossary: Privatization, p. 30; Hand-back, p. 18"
+  },
+  {
+    "id": "G-017",
+    "section": "Glossary",
+    "topic": "value-for-money",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes life-cycle costs?",
+    "options": [
+      "The costs of operating the infrastructure asset after construction has been delivered",
+      "The initial construction costs plus any other spending on the assets that is not operating expense",
+      "The whole costs of an asset over its useful or contract life, including initial investment and the maintenance to keep it in good condition",
+      "A cost that has already been incurred by the project and that cannot be recovered in the future"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. The costs of operating the asset after construction are Opex.",
+      "Incorrect. Initial construction costs plus non-operating spending on the assets is CapEx.",
+      "Correct. The Glossary defines life-cycle costs as the whole costs over the useful life or contract life, including initial investment and maintenance to keep the asset in an acceptable, constant condition.",
+      "Incorrect. A cost already incurred that cannot be recovered is a sunk cost."
+    ],
+    "ref": "Glossary: Life-cycle costs, p. 22"
+  },
+  {
+    "id": "G-018",
+    "section": "Glossary",
+    "topic": "value-for-money",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "In the PPP context, which describes Value for Money (VfM)?",
+    "options": [
+      "The net value of any public investment to society, tested only by cost-benefit analysis and not by procurement route",
+      "The lowest construction price offered by any bidder during the tender for the PPP contract",
+      "The ratio of the present value of cash flows available for debt service to the outstanding debt",
+      "The benefits relative to the costs of procuring a project as a PPP, compared with other procurement options"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. This is the broad meaning of VfM; the Glossary says that in the PPP context VfM is used in a more specific sense.",
+      "Incorrect. VfM considers benefits relative to whole costs and risk, not simply the lowest construction price.",
+      "Incorrect. The ratio of discounted cash flows available for debt service to outstanding debt is a coverage ratio such as the LLCR.",
+      "Correct. The Glossary defines VfM in the PPP context as the benefits relative to the costs of procuring a project as a PPP compared to other procurement options."
+    ],
+    "ref": "Glossary: Value for Money (in the PPP context), p. 41"
+  },
+  {
+    "id": "G-019",
+    "section": "Glossary",
+    "topic": "value-for-money",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about Value for Money in the PPP context: 1. A VfM test can only be carried out once, during the evaluation of bids. 2. Risk transfer and whole life cost are among the factors that combine to produce a positive VfM result.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Statement 1 is false because VfM can be tested both during appraisal and structuring and during bid evaluation.",
+      "Correct. Statement 1 is false, and statement 2 is true: a positive VfM result comes from private sector efficiency and innovation, risk transfer, whole life cost and service.",
+      "Incorrect. Statement 1 is false, so both cannot be true.",
+      "Incorrect. Statement 2 is true according to the Glossary."
+    ],
+    "ref": "Glossary: Value for Money (in the PPP context), p. 41"
+  },
+  {
+    "id": "G-020",
+    "section": "Glossary",
+    "topic": "value-for-money",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes the Public Sector Comparator (PSC)?",
+    "options": [
+      "The risk-adjusted cost of delivering the project by conventional procurement, used as a benchmark to test whether the PPP offers VfM",
+      "The lowest bid received in the tender, used as a benchmark against which the other bids are then compared",
+      "The analysis of whether the PPP asset should be recorded as public debt in the national accounts",
+      "The comparison of the cost of soft services in the PPP against the current market price of those services"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines the PSC as the risk-adjusted cost estimate of delivering the project by conventional procurement, used as a benchmark to decide whether the PPP offers VfM.",
+      "Incorrect. The PSC is based on conventional public delivery, not on the bids received.",
+      "Incorrect. Deciding whether the asset is recorded as public debt is public debt impact analysis.",
+      "Incorrect. Comparing soft service costs with market prices is benchmarking, a form of value testing."
+    ],
+    "ref": "Glossary: Public Sector Comparator (PSC), p. 32"
+  },
+  {
+    "id": "G-021",
+    "section": "Glossary",
+    "topic": "value-for-money",
+    "level": 2,
+    "style": "applied",
+    "stem": "During bid evaluation, the best PPP bid would cost the authority more, after adjusting for risk, than the Public Sector Comparator. What does this suggest?",
+    "options": [
+      "The bid does not appear to offer Value for Money against conventional procurement",
+      "The bid is bankable and should therefore be accepted by the procuring authority",
+      "The project should receive viability gap funding to close the difference in cost",
+      "The bid should be rejected as temerity because it is far below the average bid"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The PSC is the benchmark for testing whether bids offer VfM against conventional procurement, and a PPP that costs more than it does not show VfM.",
+      "Incorrect. Bankability concerns acceptance by lenders, not whether the PPP costs less than public delivery.",
+      "Incorrect. Viability gap funding supports projects with low financial viability; it does not fix a failed VfM comparison.",
+      "Incorrect. Temerity describes a reckless offer far below the average bid, which is the opposite of an expensive bid."
+    ],
+    "ref": "Glossary: Public Sector Comparator (PSC), p. 32; Value for Money (in the PPP context), p. 41"
+  },
+  {
+    "id": "G-022",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes refinancing?",
+    "options": [
+      "The lenders taking over the private partner's contractual responsibilities after it fails to meet its obligations",
+      "A change in financial structure or conditions by renegotiating debt or raising new funds, with gains sometimes shared with the public partner",
+      "A payment made by the government under the PPP contract after the project agreement has been terminated",
+      "The process by which the banks that first agree to a loan place part of that loan with other banks"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Lenders taking over a failing party's responsibilities is step-in.",
+      "Correct. The Glossary defines refinancing as a change in the financial structure or conditions by renegotiating debt or raising new funds, noting that some contracts share refinancing gains with the public partner.",
+      "Incorrect. A payment by government after termination is a termination payment.",
+      "Incorrect. Placing part of a loan with other banks is syndication."
+    ],
+    "ref": "Glossary: Refinancing, p. 33"
+  },
+  {
+    "id": "G-023",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 1,
+    "style": "missing-words",
+    "stem": "Identify the missing words in the following sentence: '______ are politically-sensitive profits made by investors in PPPs from high returns on investment, debt refinancing, or sale of their investment.'",
+    "options": [
+      "Risk premiums",
+      "Equity free cash flows",
+      "Upfront payments",
+      "Windfall gains"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A risk premium is the extra return required to compensate investors for risk.",
+      "Incorrect. Equity free cash flow measures the cash available to shareholders after expenses, reinvestment and debt repayment.",
+      "Incorrect. Upfront payments are paid by the private partner to the authority when revenue potential exceeds feasibility needs.",
+      "Correct. The Glossary defines windfall gains as politically-sensitive profits from high returns, debt refinancing or sale of the investment."
+    ],
+    "ref": "Glossary: Windfall gains, p. 41"
+  },
+  {
+    "id": "G-024",
+    "section": "Glossary",
+    "topic": "termination-default",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a termination payment?",
+    "options": [
+      "A payment by the private partner to the authority at the start when the project's revenue exceeds what is needed",
+      "The cost of ending a swap, bond or other fixed-rate or inflation-indexed loan before its term",
+      "A payment made by the government under the PPP contract following termination of the project agreement",
+      "The agreed level of loss that the private party must pay when it commits a breach of contract"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A payment from the private partner when revenue exceeds feasibility needs is an upfront payment or concession fee.",
+      "Incorrect. The cost of early termination of a swap, bond or fixed-rate loan is breakage cost.",
+      "Correct. The Glossary defines a termination payment, also called termination compensation, as a payment by the government following termination of the project agreement.",
+      "Incorrect. The agreed level of loss for a breach is liquidated damages."
+    ],
+    "ref": "Glossary: Termination payment, p. 39"
+  },
+  {
+    "id": "G-025",
+    "section": "Glossary",
+    "topic": "termination-default",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes termination for convenience?",
+    "options": [
+      "Termination by the authority because the private partner has committed a persistent breach of the contract",
+      "Termination by the government without any default or other trigger, based on the public interest",
+      "Termination because services have not started by the date set by the authority in the contract",
+      "Termination by the private partner after a long force majeure event stops the project"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Termination following persistent breach is termination for default, not for convenience.",
+      "Correct. The Glossary defines termination for convenience, or unilateral termination, as termination by the government in the absence of default or other triggers, on the basis of public interest.",
+      "Incorrect. Failure to start services by the long stop date is a specific trigger for termination, not convenience.",
+      "Incorrect. Termination for convenience is exercised by the government, not by the private partner."
+    ],
+    "ref": "Glossary: Termination for convenience, p. 39"
+  },
+  {
+    "id": "G-026",
+    "section": "Glossary",
+    "topic": "termination-default",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about breaches and defaults: 1. Any breach of contract, however minor, automatically counts as an event of default that entitles the authority to terminate. 2. A cure period is the time the authority has to pay compensation to the private partner after a relief event.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. Statement 1 is false because a default relates to an essential obligation and the breach must usually be material.",
+      "Incorrect. Statement 2 is false because a cure period is the time allowed for a party to remedy a default.",
+      "Incorrect. Neither statement matches the Glossary definitions.",
+      "Correct. A contract default requires a breach of an essential obligation, usually material, and a cure period is time to remedy a default, so both statements are false."
+    ],
+    "ref": "Glossary: Contract default, p. 9; Cure period, p. 11"
+  },
+  {
+    "id": "G-027",
+    "section": "Glossary",
+    "topic": "unsolicited-proposals",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which defines an unsolicited proposal?",
+    "options": [
+      "A proposal submitted by a short-listed bidder in response to a Request for Proposal from the government",
+      "A list of projects that the government is considering for implementation as PPPs over a set period",
+      "A proposal by a private party to undertake a PPP project, made on its own initiative rather than at the government's request",
+      "A request by the procuring authority inviting the market to express interest in a planned PPP project"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A proposal in response to an RFP is an RFP response, which is by definition solicited.",
+      "Incorrect. A list of projects under consideration is the PPP pipeline.",
+      "Correct. The Glossary defines an unsolicited proposal as one submitted at the initiative of the private firm rather than in response to a government request.",
+      "Incorrect. A request from the authority to the market is the opposite of an unsolicited proposal."
+    ],
+    "ref": "Glossary: Unsolicited proposal, p. 40"
+  },
+  {
+    "id": "G-028",
+    "section": "Glossary",
+    "topic": "unsolicited-proposals",
+    "level": 2,
+    "style": "applied",
+    "stem": "After an unsolicited approach, the government runs an open bidding process. The original proponent does not win, but it has the option to match the winning bid and take the contract. Which mechanism is this?",
+    "options": [
+      "Swiss challenge",
+      "Bid bonus",
+      "Developer's fee",
+      "Best and Final Offer"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines the Swiss challenge as an open bidding process in which the proponent may match the winning bid and win the contract.",
+      "Incorrect. A bid bonus gives the proponent an extra percentage on its evaluation score, not a right to match.",
+      "Incorrect. A developer's fee reimburses the proponent for development costs; it does not let it match the winning bid.",
+      "Incorrect. A Best and Final Offer is a further short-listing step in the RFP phase, not an unsolicited proposal mechanism."
+    ],
+    "ref": "Glossary: Swiss challenge, p. 38"
+  },
+  {
+    "id": "G-029",
+    "section": "Glossary",
+    "topic": "unsolicited-proposals",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT one of the mechanisms that the Glossary links to an unsolicited approach by a private proponent?",
+    "options": [
+      "Bid bonus",
+      "Developer's fee",
+      "Swiss challenge",
+      "Viability gap funding"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A bid bonus is defined as a scoring advantage for the proponent following an unsolicited approach.",
+      "Incorrect. A developer's fee is defined as a fee paid to the original proponent following an unsolicited approach.",
+      "Incorrect. A Swiss challenge is defined as an open bidding process following an unsolicited approach.",
+      "Correct. Viability gap funding supports projects with low financial viability and is not linked to rewarding an unsolicited proponent."
+    ],
+    "ref": "Glossary: Bid bonus, p. 4; Developer's fee, p. 13; Swiss challenge, p. 38; Viability Gap Funding, p. 41"
+  },
+  {
+    "id": "G-030",
+    "section": "Glossary",
+    "topic": "fiscal-support",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes Viability Gap Funding (VGF)?",
+    "options": [
+      "A scheme giving grants or other government support, up to a set percentage of project cost, to make projects with low financial viability workable as PPPs",
+      "A loan provided by the procuring authority on better than market terms, usually subordinated but senior to equity",
+      "A payment by the private partner to the authority when the project's revenue exceeds what is needed for feasibility",
+      "A guarantee under which the guarantor pays the beneficiary if actual demand falls below the forecast demand"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines VGF as grants or other government support up to a stipulated percentage of project cost, making low-viability projects financially viable as PPPs.",
+      "Incorrect. A below-market loan from the authority is a soft loan.",
+      "Incorrect. A payment from the private partner when revenue is in excess is an upfront payment or concession fee.",
+      "Incorrect. A guarantee paid when demand falls short of forecast is a demand risk guarantee."
+    ],
+    "ref": "Glossary: Viability Gap Funding (VGF), p. 41"
+  },
+  {
+    "id": "G-031",
+    "section": "Glossary",
+    "topic": "fiscal-support",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about public financial support: 1. Under a viability gap funding scheme, the bidder asking for the least financial support from the government is generally awarded the project. 2. Co-financing is commonly used in unfeasible user-pays projects to fill the viability gap, but it can also be used in government-pays PPPs.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true, as the Glossary says co-financing can also be applied to government-pays PPPs.",
+      "Incorrect. Statement 1 is also true, as the Glossary says the bidder requesting the least support is generally awarded the project.",
+      "Correct. Both statements match the Glossary definitions of viability gap funding and co-financing.",
+      "Incorrect. Both statements are supported by the Glossary."
+    ],
+    "ref": "Glossary: Viability Gap Funding (VGF), p. 41; Co-financing, p. 6"
+  },
+  {
+    "id": "G-032",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a concession?",
+    "options": [
+      "The permanent transfer of a previously publicly owned asset to the private sector",
+      "A grant of economic rights over a public asset to a private party, generally used where most revenue comes from users",
+      "An arrangement in which a private partner runs existing assets without financing and shares its user receipts",
+      "A contract in which the long-term maintenance of the infrastructure is the only core objective transferred"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A permanent transfer of a public asset is privatization.",
+      "Correct. The Glossary defines a concession as a grant of economic rights of a public asset to a private party, a term generally reserved for contracts where most revenue comes from users.",
+      "Incorrect. Operating existing assets without financing and sharing user receipts is affermage.",
+      "Incorrect. A contract transferring only long-term maintenance is a management contract."
+    ],
+    "ref": "Glossary: Concession, p. 8"
+  },
+  {
+    "id": "G-033",
+    "section": "Glossary",
+    "topic": "project-classification",
+    "level": 2,
+    "style": "applied",
+    "stem": "A road PPP earns 70% of its revenue from tolls paid by drivers and 30% from payments by the government. How does the PPP Guide classify this project?",
+    "options": [
+      "As a user-pays PPP",
+      "As a government-pays PPP",
+      "As an institutional PPP",
+      "As an affermage"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Guide considers any PPP where the majority of revenues come from users to be user-pays, even if the revenue is hybrid.",
+      "Incorrect. Government-pays PPPs receive their revenue in the form of budgetary payments, which here are the minority.",
+      "Incorrect. An institutional PPP is defined by government control of the PPP company, not by the source of revenue.",
+      "Incorrect. Affermage involves operating existing infrastructure without financing it; nothing in the case indicates that."
+    ],
+    "ref": "Glossary: User-pays PPP, p. 40"
+  },
+  {
+    "id": "G-034",
+    "section": "Glossary",
+    "topic": "project-classification",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which term was introduced in the United Kingdom as an alternative name for government-pays PPPs?",
+    "options": [
+      "Concession",
+      "Franchise",
+      "Affermage",
+      "Private Finance Initiative (PFI)"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A concession is generally reserved for contracts where most revenue comes from users.",
+      "Incorrect. A franchise is similar to affermage or a concession of services and is mostly used in transportation.",
+      "Incorrect. Affermage is a French term for a user-charge based operating arrangement without private financing.",
+      "Correct. The Glossary defines PFI as an alternative name introduced by the UK to refer to government-pays PPPs."
+    ],
+    "ref": "Glossary: Private Finance Initiative (PFI), p. 29"
+  },
+  {
+    "id": "G-035",
+    "section": "Glossary",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which describes shadow tolls (which the Glossary says must not be confused with shadow prices)?",
+    "options": [
+      "Toll levels that change in real time in response to congestion on a road with a toll-free alternative",
+      "Fares or tariffs paid by the government in place of the user, a form of payment based on volume",
+      "Prices adjusted in economic analysis to reflect market imperfections such as labor or energy costs",
+      "Tolls charged to users, of which a percentage is passed to the authority as owner of the assets"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Tolls that vary in real time to respond to congestion are dynamic tolling.",
+      "Correct. The Glossary defines shadow tolls as fares or tariffs paid by the government in lieu of the user, and shadow payments per volume as one of the two main payment mechanism types.",
+      "Incorrect. Prices adjusted for market imperfections are shadow prices, which the Glossary warns must not be confused with shadow tolls.",
+      "Incorrect. User tolls with a share paid to the authority describe affermage, where users pay directly."
+    ],
+    "ref": "Glossary: Shadow tolls (shadow fares), p. 36; Shadow prices, p. 36"
+  },
+  {
+    "id": "G-036",
+    "section": "Glossary",
+    "topic": "payment-mechanisms",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes payment deductions in a government-pays PPP?",
+    "options": [
+      "Extra payments added to the service fee when the private partner exceeds its performance targets",
+      "Payments borne by the private party for a breach of contract, also called direct or explicit penalties",
+      "Reductions in the payments to the private partner, which are the immediate route for financially penalizing under-performance",
+      "Funds deposited by the private partner in an account to meet the expected costs of infrastructure renewals"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Payment deductions reduce payments; they are not bonus payments for exceeding targets.",
+      "Incorrect. Payments borne for breach are penalties, which the Glossary distinguishes from payment deductions.",
+      "Correct. The Glossary defines payment deductions (or abatements) as deductions from payments in a government-pays PPP and the immediate route for penalizing under-performance.",
+      "Incorrect. Funds deposited for future renewals form a renewal fund."
+    ],
+    "ref": "Glossary: Payment deductions, p. 25"
+  },
+  {
+    "id": "G-037",
+    "section": "Glossary",
+    "topic": "payment-mechanisms",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about under-performance: 1. A ratchet factor increases the value of payment deductions in order to penalize repeated or persistent under-performance. 2. Persistent breach, as precisely defined in the contract, may result in early termination of the contract.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. Statement 2 is also true according to the Glossary definition of persistent breach.",
+      "Incorrect. Statement 1 is also true according to the Glossary definition of ratchet factor.",
+      "Correct. Both statements match the Glossary: a ratchet factor raises deductions for repeated under-performance, and persistent breach may lead to early termination.",
+      "Incorrect. Both statements are supported by the Glossary."
+    ],
+    "ref": "Glossary: Ratchet Factor, p. 32; Persistent breach, p. 27"
+  },
+  {
+    "id": "G-038",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes project finance?",
+    "options": [
+      "A technique for long-term debt financing where the loan is based on the cash flow generated by the project alone",
+      "Money raised by the government through budget surpluses or public borrowing to pay for construction",
+      "Loans secured on the whole balance sheet and credit standing of the sponsor companies",
+      "A tradable debt investment in which investors lend to the private partner for a defined period"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines project finance as long-term debt financing where the basis of the loan is the cash flow generated by the project alone.",
+      "Incorrect. Government surpluses or borrowing are the sources of financing in traditional infrastructure procurement.",
+      "Incorrect. Lending based on the sponsors' balance sheets is corporate finance, the opposite of relying on project cash flow alone.",
+      "Incorrect. A tradable debt investment lent to the private partner is a project bond."
+    ],
+    "ref": "Glossary: Project finance, p. 31"
+  },
+  {
+    "id": "G-039",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes a Special Purpose Vehicle (SPV)?",
+    "options": [
+      "The unit or department within government that tenders and contracts the PPP project",
+      "A group of companies that have joined together to bid for a PPP project",
+      "A government organization that supports contracting authorities in implementing PPPs",
+      "An entity created for a single project, with no other activity, that limits its shareholders' liability"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. The government unit that tenders and contracts the project is the procuring authority.",
+      "Incorrect. A group of companies bidding together is a consortium; the SPV is the legal entity the consortium creates.",
+      "Incorrect. A government body supporting authorities with PPPs is a PPP unit.",
+      "Correct. The Glossary defines an SPV as an entity created to undertake a single project, protecting shareholders with limited liability, with no activity beyond the project."
+    ],
+    "ref": "Glossary: Special Purpose Vehicle (SPV), p. 37"
+  },
+  {
+    "id": "G-040",
+    "section": "Glossary",
+    "topic": "lender-protections",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "What does it mean when a PPP project company is 'ring-fenced'?",
+    "options": [
+      "The government keeps all demand risk so that the project company is protected from falls in traffic",
+      "Its obligations are kept separate from those of the equity investors, and its debt is secured on the project's cash flows",
+      "Its senior lenders have first priority for repayment and decision-making ahead of the junior lenders",
+      "Money is set aside in advance in a fund to pay any contingent liabilities that later become due"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. Ring-fencing concerns separating the project company from its investors, not allocating demand risk to government.",
+      "Correct. The Glossary explains that the project company's obligations are ring-fenced from those of the equity investors and debt is secured on the project cash flows.",
+      "Incorrect. Priority of senior lenders over junior lenders describes senior debt.",
+      "Incorrect. Money set aside for contingent liabilities is a contingent liability fund or guarantee fund."
+    ],
+    "ref": "Glossary: Ring Fence, p. 35"
+  },
+  {
+    "id": "G-041",
+    "section": "Glossary",
+    "topic": "project-finance",
+    "level": 2,
+    "style": "two-statement",
+    "stem": "Consider the following statements about PPP debt: 1. Senior debt generally has first priority for repayment over more junior debt. 2. Subordinated (mezzanine) debt gives its lenders priority over the senior lenders if the borrower defaults.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both are true",
+      "Neither is true"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. Statement 1 matches the Glossary definition of senior debt, while statement 2 is false because subordinated debt ranks behind senior debt.",
+      "Incorrect. Statement 2 is false: senior lenders have priority over subordinated lenders, including on default.",
+      "Incorrect. Statement 2 is false, so both cannot be true.",
+      "Incorrect. Statement 1 is true according to the Glossary definition of senior debt."
+    ],
+    "ref": "Glossary: Senior Debt, p. 35; Subordinated debt, p. 38"
+  },
+  {
+    "id": "G-042",
+    "section": "Glossary",
+    "topic": "ppp-definition",
+    "level": 2,
+    "style": "not",
+    "stem": "Which is NOT a feature of a private finance PPP as defined in the Glossary?",
+    "options": [
+      "It is a long-term contract between a public party and a private party",
+      "The private party bears significant risk and management responsibility",
+      "The private party provides a significant portion of the finance at its own risk",
+      "Ownership of the public asset is permanently transferred to the private party"
+    ],
+    "answer": 3,
+    "rationale": [
+      "Incorrect. A long-term contract between a public and a private party is part of the definition.",
+      "Incorrect. Significant risk and management responsibility through the contract life is part of the definition.",
+      "Incorrect. Providing a significant portion of the finance at its own risk is part of the definition.",
+      "Correct. Permanent transfer of ownership is privatization; in a private finance PPP the assets are handed back at the end of the contract."
+    ],
+    "ref": "Glossary: Private finance PPP, p. 29; Privatization, p. 30"
+  },
+  {
+    "id": "G-043",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 2,
+    "style": "applied",
+    "stem": "A city hires a private company to operate its publicly owned water plant for a fixed term. The company invests no private finance, the city keeps ownership, and the company is paid a pre-agreed fee by the city. Which Glossary term best fits this arrangement?",
+    "options": [
+      "A DBFOM contract",
+      "A privatization",
+      "An O&M contract",
+      "An institutional PPP"
+    ],
+    "answer": 2,
+    "rationale": [
+      "Incorrect. A DBFOM requires the contractor to design, build and provide all or most of the financing.",
+      "Incorrect. Privatization is a permanent transfer of the asset, but here the city keeps ownership.",
+      "Correct. The Glossary defines an O&M contract as one in which a private operator operates a publicly owned asset for a specified term while ownership stays with the public entity.",
+      "Incorrect. An institutional PPP is a company controlled by the government in a joint venture, which is not described here."
+    ],
+    "ref": "Glossary: O&M (Operations and Maintenance) contract, p. 24"
+  },
+  {
+    "id": "G-044",
+    "section": "Glossary",
+    "topic": "contract-types",
+    "level": 1,
+    "style": "which-describes",
+    "stem": "Which describes an institutional PPP?",
+    "options": [
+      "A PPP originated and developed by a private company through an unsolicited or market initiated proposal",
+      "A form of joint venture PPP in which the government controls the PPP company and usually owns most of the shares",
+      "A PPP in which the private partner is a company created and owned by the government of another country",
+      "A PPP that is procured through a dialogue phase with short-listed candidates before final bids"
+    ],
+    "answer": 1,
+    "rationale": [
+      "Incorrect. A PPP originated by a private company's own proposal is a privately-initiated project.",
+      "Correct. The Glossary defines an institutional PPP as a sub-form of joint venture or mixed equity company in which the government controls the PPP company and usually owns the majority of shares.",
+      "Incorrect. The Glossary does not define institutional PPPs by foreign state ownership of the private partner.",
+      "Incorrect. Procurement through a dialogue phase describes the competitive dialogue process, not an institutional PPP."
+    ],
+    "ref": "Glossary: Institutional PPP, p. 20; Mixed equity companies, p. 23"
+  },
+  {
+    "id": "G-045",
+    "section": "Glossary",
+    "topic": "risk-allocation",
+    "level": 2,
+    "style": "which-describes",
+    "stem": "Which term describes risk events for which the contract relieves the private partner from its obligations, so that a failure caused by the event is not treated as a breach?",
+    "options": [
+      "Relief events",
+      "Compensation events",
+      "Contingent guarantees",
+      "Latent defects"
+    ],
+    "answer": 0,
+    "rationale": [
+      "Correct. The Glossary defines relief events as risk events for which the contract provides relief from obligations, so the potential breach is not regarded as a breach.",
+      "Incorrect. Compensation events entitle the private partner to financial compensation, not simply relief from obligations.",
+      "Incorrect. Contingent guarantees protect project revenue against uncertain events such as low traffic; they do not excuse breaches.",
+      "Incorrect. Latent defects are defects in the facility that could not reasonably be found and appear only later."
+    ],
+    "ref": "Glossary: Relief events, p. 33; Compensation events, p. 7"
+  }
+]
