@@ -397,11 +397,14 @@ export const LEGACY_PPP_SLUG = "davlat-xususiy-sheriklik";
 /** 24.09.2026 da bir necha soat «Implementation» nomi bilan turgan. */
 export const LEGACY_EXECUTION_SLUG = "cp3p-implementation";
 
-type Stage = Pick<Course, "slug" | "title" | "shortTitle" | "description" | "level" | "emoji" | "outcomes"> & { moduleIds: string[] };
+type Stage = Pick<Course, "slug" | "title" | "shortTitle" | "description" | "level" | "emoji" | "outcomes"> & { moduleIds: string[]; moduleNotes?: Record<string, string> };
 
-/** APMG CP3P: Foundation (1–2-bob), Preparation (3–5), Execution (6–8) — har birining alohida imtihoni bor. */
-function stage({ moduleIds, ...meta }: Stage): Course {
-  const modules = PPP_FULL.modules!.filter((m) => moduleIds.includes(m.id));
+/** APMG CP3P (2016 Guide, ppp-certification.com/faqs): Foundation = Glossary + 1-bob; Preparation = 2, 3, 4-bob + 5-bob 1–5.8 va 9.9;
+ * Execution = 5-bob to'liq, 6, 7, 8. 5-bob ikkala kursda — progressi umumiy (lib/progress). Eski izoh: Foundation (1–2-bob), Preparation (3–5), Execution (6–8) — har birining alohida imtihoni bor. */
+function stage({ moduleIds, moduleNotes = {}, ...meta }: Stage): Course {
+  const modules = PPP_FULL.modules!
+    .filter((m) => moduleIds.includes(m.id))
+    .map((m) => (moduleNotes[m.id] ? { ...m, description: moduleNotes[m.id] } : m));
   const ids = new Set(modules.flatMap((m) => m.chapterIds));
   return { ...PPP_FULL, ...meta, tag: "new", modules, chapters: PPP_FULL.chapters.filter((ch) => ids.has(ch.id)) };
 }
@@ -410,51 +413,54 @@ export const PPP_FOUNDATION: Course = stage({
   slug: "cp3p-foundation",
   title: "CP3P Foundation: PPP introduction and frameworks",
   shortTitle: "CP3P Foundation",
-  description: "Stage 1 of the CP3P certification (PPP Guide chapters 1–2): what a PPP is, how it works and how governments build a PPP framework. Includes the glossary, acronyms and the official Foundation sample questions.",
+  description: "Stage 1 of the CP3P certification (PPP Guide chapter 1 + Glossary): what a PPP is, how it works, its benefits and limits, and the language of PPPs. Exam: 50 multiple-choice questions, 40 minutes, closed book, pass mark 25/50.",
   level: "Boshlang'ich",
   emoji: "🧭",
   outcomes: [
     "Distinguish a PPP from traditional public procurement and privatisation",
     "Explain the PPP life cycle and its key decision points",
-    "Describe the legal and institutional PPP framework and the roles of government",
+    "Explain the main PPP models, funding sources and payment mechanisms",
     "Read common PPP terms and acronyms with confidence",
     "Check your knowledge with Foundation-style practice questions",
   ],
-  moduleIds: ["ppp-overview", "ppp-framework", "ppp-reference"],
+  moduleIds: ["ppp-overview", "ppp-reference"],
 });
 
 export const PPP_PREPARATION: Course = stage({
   slug: "cp3p-preparation",
   title: "CP3P Preparation: identifying, appraising and structuring PPPs",
   shortTitle: "CP3P Preparation",
-  description: "Stage 2 of the CP3P certification (PPP Guide chapters 3–5): project identification and PPP screening, appraisal (value for money, affordability, bankability) and structuring the tender and contract.",
+  description: "Stage 2 of the CP3P certification (PPP Guide chapters 2–4 and chapter 5 sections 1–5.8 and 9.9): the PPP framework, project identification and screening, appraisal (value for money, affordability, bankability) and early structuring. Exam: scenario-based, 80 marks, 150 minutes, open book (PPP Guide), pass mark 40/80.",
   level: "O'rta",
   emoji: "📐",
   outcomes: [
+    "Describe the legal and institutional PPP framework and the roles of government",
     "Identify and screen projects for PPP suitability",
     "Separate economic value, affordability and financing in an appraisal",
     "Read a financial model and a DSCR calculation",
     "Allocate risks and design the payment mechanism",
     "Structure the tender documents and draft contract",
   ],
-  moduleIds: ["ppp-screening", "ppp-appraisal", "ppp-structuring"],
+  moduleIds: ["ppp-framework", "ppp-screening", "ppp-appraisal", "ppp-structuring"],
+  moduleNotes: { "ppp-structuring": "Preparation examines chapter 5 sections 1–5.8 and 9.9 only; the full chapter is examined at Execution." },
 });
 
 export const PPP_EXECUTION: Course = stage({
   slug: "cp3p-execution",
   title: "CP3P Execution: tendering, delivery and contract management",
   shortTitle: "CP3P Execution",
-  description: "Stage 3 of the CP3P certification (PPP Guide chapters 6–8): running the tender to commercial and financial close, managing construction and commissioning, operations and hand-back.",
+  description: "Stage 3 of the CP3P certification (PPP Guide chapters 5–8): structuring and drafting the tender and contract, running the tender to commercial and financial close, construction and commissioning, operations and hand-back. Exam: scenario-based, 80 marks, 150 minutes, open book (PPP Guide), pass mark 40/80.",
   level: "Yuqori",
   emoji: "🏗️",
   outcomes: [
+    "Structure the tender and draft the PPP contract",
     "Run a fair tender and evaluate bids against published criteria",
     "Reach commercial and financial close",
     "Manage construction, testing and commissioning",
     "Monitor service performance and apply the payment mechanism",
     "Prepare the asset for hand-back at the end of the contract",
   ],
-  moduleIds: ["ppp-tender", "ppp-construction", "ppp-operations"],
+  moduleIds: ["ppp-structuring", "ppp-tender", "ppp-construction", "ppp-operations"],
 });
 
 export const PPP_COURSES: Course[] = [PPP_FOUNDATION, PPP_PREPARATION, PPP_EXECUTION];

@@ -28,7 +28,7 @@ function loadContent(name) {
 
 const { COURSES, TOTAL_CHAPTERS, getCourse, getChapter } = loadContent("courses");
 assert.equal(new Set(COURSES.map((course) => course.slug)).size, COURSES.length);
-assert.equal(TOTAL_CHAPTERS, COURSES.reduce((total, course) => total + course.chapters.length, 0));
+assert.equal(TOTAL_CHAPTERS, new Set(COURSES.flatMap((course) => course.chapters.map((chapter) => `${course.slug.startsWith("cp3p-") ? "cp3p" : course.slug}:${chapter.id}`))).size);
 for (const course of COURSES) {
   assert.equal(getCourse(course.slug), course);
   assert.equal(new Set(course.chapters.map((chapter) => chapter.id)).size, course.chapters.length);
@@ -60,14 +60,15 @@ for (const course of COURSES) {
     assert.deepEqual([...ids], Array.from(course.chapters, (chapter) => chapter.id));
   }
 }
-// PPP: CP3P'ning 3 bosqichi — Foundation (1–2-bob + lug'at/mashq), Preparation (3–5), Execution (6–8).
+// PPP: CP3P'ning 3 bosqichi (rasmiy): Foundation = 1-bob + lug'at/mashq; Preparation = 2–4 + 5-bob (qisman); Execution = 5–8.
 const stages = ["cp3p-foundation", "cp3p-preparation", "cp3p-execution"].map((slug) => getCourse(slug));
 assert.ok(stages.every(Boolean));
 assert.equal(getCourse("davlat-xususiy-sheriklik"), undefined);
-assert.deepEqual(stages.map((course) => course.modules.length), [3, 3, 3]);
-const ppp = { slug: stages[0].slug, chapters: stages.flatMap((course) => course.chapters) };
+// vm kontekstidagi massivlar boshqa «realm»da — JSON orqali solishtiramiz.
+assert.equal(JSON.stringify(stages.map((course) => course.modules.map((module) => module.id))), JSON.stringify([["ppp-overview", "ppp-reference"], ["ppp-framework", "ppp-screening", "ppp-appraisal", "ppp-structuring"], ["ppp-structuring", "ppp-tender", "ppp-construction", "ppp-operations"]]));
+const ppp = { slug: stages[0].slug, chapters: [...new Map(stages.flatMap((course) => course.chapters).map((chapter) => [chapter.id, chapter])).values()] };
 assert.equal(ppp.chapters.length, 27);
-assert.equal(new Set(ppp.chapters.map((chapter) => chapter.id)).size, 27);
+
 assert.ok(stages.flatMap((course) => course.modules).filter((module) => module.id !== "ppp-reference").every((module) => module.chapterIds.length === 3));
 assert.equal(ppp.chapters.filter((chapter) => chapter.exercise).length, 16);
 assert.equal(new Set(ppp.chapters.map((chapter) => chapter.source.file)).size, 11);

@@ -497,4 +497,7 @@ export function formatMinutes(total: number) {
   return `${h} h ${m} min`;
 }
 
-export const TOTAL_CHAPTERS = COURSES.reduce((sum, c) => sum + c.chapters.length, 0);
+/** Noyob darslar soni: CP3P kurslari 5-bobni bo'lishadi, u bir marta sanaladi. */
+export const TOTAL_CHAPTERS = new Set(
+  COURSES.flatMap((c) => c.chapters.map((ch) => `${c.slug.startsWith("cp3p-") ? "cp3p" : c.slug}:${ch.id}`))
+).size;

@@ -23,9 +23,14 @@ export async function getLessonProgress(userId: string): Promise<LessonProgressR
   return (data ?? []) as LessonProgressRow[];
 }
 
+/** CP3P kurslari umumiy boblarni (5-bob) bo'lishadi — progress ular orasida umumiy. */
+function sameProgressScope(rowSlug: string, courseSlug: string) {
+  return rowSlug === courseSlug || (rowSlug.startsWith("cp3p-") && courseSlug.startsWith("cp3p-"));
+}
+
 export function courseProgress(rows: LessonProgressRow[], course: Course) {
   const completedIds = new Set(
-    rows.filter((r) => r.course_slug === course.slug).map((r) => r.chapter_id)
+    rows.filter((r) => sameProgressScope(r.course_slug, course.slug)).map((r) => r.chapter_id)
   );
   const completed = course.chapters.filter((ch) => completedIds.has(ch.id)).length;
   const total = course.chapters.length;
