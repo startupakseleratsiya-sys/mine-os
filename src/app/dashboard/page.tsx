@@ -7,7 +7,7 @@ import { getCurrentUser, getProfile, getChatSessionCount } from "@/services/user
 import { signOut } from "@/app/actions/auth";
 import { COURSES, TOTAL_CHAPTERS } from "@/content/courses";
 import { activeCourse, computeStreak, courseProgress, getLessonProgress } from "@/lib/progress";
-export const metadata = { title: "Kabinet" };
+export const metadata = { title: "Dashboard" };
 const NAV = [
     { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
     { href: "/courses", icon: BookOpen, label: "Kurslar" },
@@ -104,7 +104,7 @@ export default async function DashboardPage() {
           {[
             { label: "Tugatilgan boblar", value: `${rows.length}/${TOTAL_CHAPTERS}`, icon: BookOpen, color: "text-emerald-600" },
             { label: "Boshlangan kurslar", value: `${startedCourses}/${COURSES.length}`, icon: GraduationCap, color: "text-sky-600" },
-            { label: "O'rganish streigi", value: `${streak} kun`, icon: Flame, color: "text-amber-600" },
+            { label: "O'rganish streigi", value: `${streak} ${streak === 1 ? "day" : "days"}`, icon: Flame, color: "text-amber-600" },
             { label: "AI suhbatlar", value: `${chatCount}`, icon: MessageSquareText, color: "text-violet-600" },
         ].map(({ label, value, icon: Icon, color }) => (<div key={label} className="bg-white rounded-2xl p-5 border border-[#E2E4DF]">
               <Icon className={`size-5 ${color} mb-3`}/>
@@ -127,7 +127,7 @@ export default async function DashboardPage() {
                   <h2 className="text-2xl font-extrabold text-[#0f2017] tracking-tight mb-1">{t(active.course.title)}</h2>
                   <p className="text-[#6B7A74] text-sm mb-6">
                     {active.nextChapter
-            ? t("Keyingi: {0}", { "0": active.nextChapter.title }) : t("Barcha boblar tugatilgan \uD83C\uDF89")}
+            ? t("Keyingi: {0}", { "0": t(active.nextChapter.title) }) : t("Barcha boblar tugatilgan \uD83C\uDF89")}
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="flex-1 h-2 bg-[#F5F4EE] rounded-full overflow-hidden">

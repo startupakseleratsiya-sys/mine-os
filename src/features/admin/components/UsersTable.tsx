@@ -1,6 +1,6 @@
 import { getI18n } from "@/i18n/server";
 import { createClient } from "@/lib/supabase-server";
-import { formatDateUz } from "@/lib/utils";
+import { formatDate } from "@/lib/utils";
 type UserRow = {
     id: string;
     full_name: string | null;
@@ -44,7 +44,7 @@ export async function UsersTable({ limit }: {
                   {user.role === "admin" ? t("Admin") : t("Foydalanuvchi")}
                 </span>
               </td>
-              <td className="px-6 py-4 text-[#65736d]">{formatDateUz(user.created_at)}</td>
+              <td className="px-6 py-4 text-[#65736d]">{formatDate(user.created_at)}</td>
             </tr>))}
           {users.length === 0 && (<tr>
               <td colSpan={3} className="px-6 py-8 text-center text-[#65736d]"><>{t("Foydalanuvchilar topilmadi.")}</></td>

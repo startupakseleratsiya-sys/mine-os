@@ -492,9 +492,9 @@ export function courseMinutes(course: Course) {
 export function formatMinutes(total: number) {
   const h = Math.floor(total / 60);
   const m = total % 60;
-  if (h === 0) return `${m} daqiqa`;
-  if (m === 0) return `${h} soat`;
-  return `${h} soat ${m} daqiqa`;
+  if (h === 0) return `${m} min`;
+  if (m === 0) return `${h} h`;
+  return `${h} h ${m} min`;
 }
 
 export const TOTAL_CHAPTERS = COURSES.reduce((sum, c) => sum + c.chapters.length, 0);

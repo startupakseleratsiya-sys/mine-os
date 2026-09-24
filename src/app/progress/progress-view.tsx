@@ -42,10 +42,10 @@ export function ProgressView(p: ProgressViewProps) {
     return (<>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
         {[
-            { icon: BookOpenCheck, value: `${p.totalCompleted}`, label: `Tugallangan bob (${p.totalChapters} dan)`, color: "text-emerald-600" },
+            { icon: BookOpenCheck, value: `${p.totalCompleted}`, label: `Lessons completed (of ${p.totalChapters})`, color: "text-emerald-600" },
             { icon: Clock3, value: `${hours}h`, label: "O'rganish vaqti", color: "text-sky-600" },
             { icon: Award, value: `${overall}%`, label: "Umumiy natija", color: "text-violet-600" },
-            { icon: Flame, value: `${p.streak} kun`, label: "Streak", color: "text-amber-500" },
+            { icon: Flame, value: `${p.streak} ${p.streak === 1 ? "day" : "days"}`, label: "Streak", color: "text-amber-500" },
         ].map(({ icon: Icon, value, label, color }) => (<div key={label} className="rounded-3xl border border-[#13251f]/10 bg-white p-5">
             <Icon className={`size-5 ${color} mb-4`}/>
             <p className="text-2xl font-extrabold text-[#0f2017] tracking-tight">{value}</p>

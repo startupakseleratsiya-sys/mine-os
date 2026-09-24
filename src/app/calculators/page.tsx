@@ -21,9 +21,9 @@ function CreditCalc() {
       <Slider label={t("Yillik nominal foiz stavkasi")} value={rate} min={0} max={60} step={0.5} display={`${rate}%`} onChange={setRate}/>
       <Slider label={t("Muddat (oy)")} value={months} min={3} max={120} step={3} display={t("{0} oy", { "0": months })} onChange={setMonths}/>
       <div className="mt-4 grid grid-cols-3 gap-3">
-        <Result label={t("Oylik to'lov")} value={`${fmt(monthly)} so'm`} highlight/>
-        <Result label={t("Umumiy to'lov")} value={`${fmt(total)} so'm`}/>
-        <Result label={t("Foiz ulushi")} value={`${fmt(totalInterest)} so'm`}/>
+        <Result label={t("Oylik to'lov")} value={`${fmt(monthly)} UZS`} highlight/>
+        <Result label={t("Umumiy to'lov")} value={`${fmt(total)} UZS`}/>
+        <Result label={t("Foiz ulushi")} value={`${fmt(totalInterest)} UZS`}/>
       </div>
       <p className="text-xs leading-relaxed text-[#65736d]"><>{t("Stavka o\u2018zgarmaydi; oylik stavka \u2014 yillik nominal stavkaning 1/12 qismi. Teng to\u2018lovlar oy oxirida qilinadi. Komissiya va sug\u2018urta hisobga olinmagan.")}</></p>
     </div>);
@@ -45,9 +45,9 @@ function CompoundCalc() {
       <Slider label={t("Yillik nominal daromad")} value={rate} min={0} max={50} step={0.5} display={`${rate}%`} onChange={setRate}/>
       <Slider label={t("Muddat (yil)")} value={years} min={1} max={30} step={1} display={t("{0} yil", { "0": years })} onChange={setYears}/>
       <div className="mt-4 grid grid-cols-3 gap-3">
-        <Result label={t("Yakuniy summa")} value={`${fmt(finalAmount)} so'm`} highlight/>
-        <Result label={t("Kiritilgan")} value={`${fmt(totalContrib)} so'm`}/>
-        <Result label={t("Qozonilgan")} value={`${fmt(earned)} so'm`}/>
+        <Result label={t("Yakuniy summa")} value={`${fmt(finalAmount)} UZS`} highlight/>
+        <Result label={t("Kiritilgan")} value={`${fmt(totalContrib)} UZS`}/>
+        <Result label={t("Qozonilgan")} value={`${fmt(earned)} UZS`}/>
       </div>
       <SavingsAssumptions />
     </div>);
@@ -104,8 +104,8 @@ function GoalCalc() {
       <Slider label={t("Muddat (oy)")} value={months} min={3} max={120} step={3} display={t("{0} oy", { "0": months })} onChange={setMonths}/>
       <Slider label={t("Yillik nominal daromad")} value={rate} min={0} max={40} step={0.5} display={`${rate}%`} onChange={setRate}/>
       <div className="mt-4 grid grid-cols-2 gap-3">
-        <Result label={t("Oylik kerak")} value={`${fmt(Math.ceil(needed))} so'm`} highlight/>
-        <Result label={t("Qolgan summa")} value={`${fmt(remaining)} so'm`}/>
+        <Result label={t("Oylik kerak")} value={`${fmt(Math.ceil(needed))} UZS`} highlight/>
+        <Result label={t("Qolgan summa")} value={`${fmt(remaining)} UZS`}/>
       </div>
       <SavingsAssumptions />
       <p className="text-xs leading-relaxed text-[#65736d]"><>{t("Mavjud jamg\u2018arma ham shu stavkada o\u2018sadi. Oylik badal maqsadga yetishi uchun yuqoriga, butun so\u2018mgacha yaxlitlanadi.")}</></p>

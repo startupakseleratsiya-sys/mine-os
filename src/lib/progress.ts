@@ -1,6 +1,6 @@
 import { createClient } from "@/lib/supabase-server";
 import { COURSES, TOTAL_CHAPTERS, getCourse, type Course } from "@/content/courses";
-import { formatDateUz } from "@/lib/utils";
+import { formatDate } from "@/lib/utils";
 
 export type LessonProgressRow = {
   course_slug: string;
@@ -59,7 +59,7 @@ export function computeStreak(rows: LessonProgressRow[]) {
   return streak;
 }
 
-const DAY_LABELS = ["Ya", "Du", "Se", "Ch", "Pa", "Ju", "Sh"];
+const DAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 /** Oxirgi 7 kun: har kuni tugatilgan boblar soni va daqiqalari. */
 export function weeklyActivity(rows: LessonProgressRow[]) {
@@ -113,10 +113,10 @@ export function recentLessons(rows: LessonProgressRow[], limit = 5) {
 
 export function relativeDay(iso: string) {
   const diffDays = Math.floor((Date.now() - new Date(iso).getTime()) / 86_400_000);
-  if (diffDays <= 0) return "Bugun";
-  if (diffDays === 1) return "Kecha";
-  if (diffDays < 7) return `${diffDays} kun oldin`;
-  return formatDateUz(iso, false);
+  if (diffDays <= 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
+  if (diffDays < 7) return `${diffDays} days ago`;
+  return formatDate(iso, false);
 }
 
 export type Achievement = { icon: string; label: string; earned: boolean };

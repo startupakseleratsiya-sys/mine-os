@@ -17,7 +17,8 @@ type Params = {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
     const { slug } = await params;
     const course = getCourse(slug);
-    return { title: course ? course.shortTitle : "Kurs topilmadi" };
+    const { t } = await getI18n();
+    return { title: course ? t(course.shortTitle) : "Course not found" };
 }
 // Next 15+: `params` Promise — sinxron o'qilsa slug undefined bo'lib har kurs 404 qaytaradi.
 export default async function CourseDetailsPage({ params }: Params) {

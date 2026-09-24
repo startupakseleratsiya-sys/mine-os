@@ -4,7 +4,7 @@ import { COURSES, courseMinutes, formatMinutes } from "@/content/courses";
 import { getCurrentUser } from "@/services/user-service";
 import { courseProgress, getLessonProgress, type LessonProgressRow } from "@/lib/progress";
 import { CoursesGrid, type CourseCard } from "./courses-grid";
-export const metadata = { title: "Kurslar" };
+export const metadata = { title: "Courses" };
 /** Kurslar ro'yxati ochiq; progress faqat kirgan foydalanuvchi uchun yuklanadi. */
 export default async function CoursesPage() {
     const { t } = await getI18n();

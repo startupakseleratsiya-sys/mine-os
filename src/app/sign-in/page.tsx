@@ -1,7 +1,7 @@
 import { getI18n } from "@/i18n/server";
 import { AuthForm } from "@/features/auth/components/auth-form";
 import { AuthShell } from "@/features/auth/components/auth-shell";
-export const metadata = { title: "Kirish" };
+export const metadata = { title: "Sign in" };
 const NOTICES: Record<string, string> = {
     link: "Havola eskirgan yoki noto'g'ri. Qayta urinib ko'ring.",
     confirmed: "Email tasdiqlandi. Endi kirishingiz mumkin.",

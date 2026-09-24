@@ -81,7 +81,7 @@ export function StudyView(props: StudyViewProps) {
     const currentModule = props.modules?.find((module) => module.chapterIds.includes(chapter.id));
     const sourceHref = chapter.source ? `/materials/ppp/${encodeURIComponent(chapter.source.file)}#page=${chapter.source.startPage ?? 1}` : "";
     const signInHref = `/sign-in?next=${encodeURIComponent(`/study/${courseSlug}/${chapter.id}`)}`;
-    const tutorContext = `Foydalanuvchi hozir "${courseTitle}" kursining "${chapter.title}" darsini o‘qimoqda. Savollar shu mavzu kontekstida bo‘lishi mumkin.`;
+    const tutorContext = `The learner is currently studying the lesson "${t(chapter.title)}" in the course "${t(courseTitle)}". Questions may relate to this topic.`;
     useEffect(() => {
         const dialog = dialogRef.current;
         if (!dialog)
@@ -122,7 +122,7 @@ export function StudyView(props: StudyViewProps) {
       <header className="sticky top-0 z-20 border-b border-[#dce5e0] bg-white">
         <div className="mx-auto flex min-h-18 max-w-[1440px] flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-8">
           <Link href={`/courses/${courseSlug}`} className="inline-flex min-h-11 min-w-0 items-center gap-3 text-sm font-semibold">
-            <ArrowLeft className="size-4 shrink-0"/><BookOpen className="hidden size-5 sm:block"/><span className="max-w-48 truncate sm:max-w-xs">{courseTitle}</span>
+            <ArrowLeft className="size-4 shrink-0"/><BookOpen className="hidden size-5 sm:block"/><span className="max-w-48 truncate sm:max-w-xs">{t(courseTitle)}</span>
           </Link>
           <div className="flex items-center gap-2">
             {chapter.source && <button type="button" onClick={() => setPanel("source")} aria-haspopup="dialog" className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-[#cfddd6] px-3 text-sm font-semibold"><FileText className="size-4"/><>{t("Asl PDF")}</></button>}
@@ -143,7 +143,7 @@ export function StudyView(props: StudyViewProps) {
           </details>
           <main id="lesson-content" tabIndex={-1} className="mx-auto max-w-[880px] scroll-mt-28 bg-white px-5 py-8 sm:px-10 sm:py-12 lg:min-h-[calc(100dvh-5rem)] lg:border-x lg:border-[#dce5e0] lg:px-12">
             <div className="mb-8 border-b border-[#dce5e0] pb-5 text-sm text-[#52665e]">
-              <p className="font-medium">{currentModule?.title ?? courseTitle}</p>
+              <p className="font-medium">{t(currentModule?.title ?? courseTitle)}</p>
               <p className="mt-2"><>{t("Dars")}{" "}</>{index + 1} / {total}<>{" "}{t("\u00B7 Taxminiy o\u2018qish:")}{" "}</>{chapter.minutes}<>{" "}{t("daqiqa")}</></p>
             </div>
             {chapter.objectives && <section aria-label={t("O\u2018quv maqsadlari")} className="mb-8 border-l-2 border-[#245b47] pl-5"><h2 className="font-semibold"><>{t("Darsdan so\u2018ng siz")}</></h2><ul className="mt-3 list-disc space-y-2 pl-4 text-sm leading-6 text-[#52665e]">{chapter.objectives.map((objective) => <li key={objective}>{t(objective)}</li>)}</ul></section>}

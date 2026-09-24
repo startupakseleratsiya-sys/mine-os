@@ -8,7 +8,7 @@ import { useUser } from "@/hooks/use-user";
 import { useProfile } from "@/hooks/use-profile";
 import { updateUserProfile, signOut } from "@/app/actions/auth";
 import { sendPasswordReset } from "@/app/auth/actions";
-import { formatDateUz } from "@/lib/utils";
+import { formatDate } from "@/lib/utils";
 export default function ProfilePage() {
     const { t } = useI18n();
     const { user, loading: userLoading } = useUser();
@@ -167,7 +167,7 @@ export default function ProfilePage() {
               <div className="py-3 border-b border-[#f5f4ee]">
                 <p className="text-xs text-[#65736d] font-medium mb-0.5"><>{t("Ro'yxatdan o'tgan sana")}</></p>
                 <p className="text-sm font-semibold text-[#0f2017]">
-                  {joined ? formatDateUz(joined) : "—"}
+                  {joined ? formatDate(joined) : "—"}
                 </p>
               </div>
 

@@ -1,3 +1,4 @@
+import { getI18n } from "@/i18n/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getChapter } from "@/content/courses";
@@ -10,7 +11,8 @@ type Params = { params: Promise<{ course: string; chapter: string }> };
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { course, chapter } = await params;
   const found = getChapter(course, chapter);
-  return { title: found ? found.chapter.title : "Bob topilmadi" };
+  const { t } = await getI18n();
+  return { title: found ? t(found.chapter.title) : "Lesson not found" };
 }
 
 // Next 15+: `params` Promise. Kontent kodda, progress bazadan.

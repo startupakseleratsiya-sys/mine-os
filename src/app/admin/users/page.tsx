@@ -1,7 +1,7 @@
 import { getI18n } from "@/i18n/server";
 import { Suspense } from "react";
 import { UsersTable } from "@/features/admin/components/UsersTable";
-export const metadata = { title: "Foydalanuvchilar" };
+export const metadata = { title: "Users" };
 export default async function AdminUsersPage() {
     const { t } = await getI18n();
     return (<div className="p-6 sm:p-8">

@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Clock3 } from "lucide-react";
 import { COURSES, courseMinutes, formatMinutes } from "@/content/courses";
-export const metadata = { title: "Boshlash" };
+export const metadata = { title: "Get started" };
 export default async function OnboardingPage() {
     const { t } = await getI18n();
     return (<div className="min-h-screen bg-[#F5F4EE] flex flex-col items-center justify-center p-6 py-16 text-[#13251F] font-sans">

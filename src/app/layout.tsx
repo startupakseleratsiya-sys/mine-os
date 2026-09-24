@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import React from "react";
 import { getI18n } from "@/i18n/server";
 import { I18nProvider } from "@/i18n/provider";
-import { LanguageSwitcher } from "@/i18n/language-switcher";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,32 +18,31 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const baseMetadata: Metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-finance-tutor.vercel.app"),
   title: {
-    default: "Finora — O'zbek tilida AI Moliya Ustozi",
+    default: "Finora — Finance and PPP learning",
     template: "%s | Finora",
   },
   description:
-    "Shaxsiy budjet, jamg'arma va investitsiya asoslarini o'zbek tilida o'rganing. AI moliya ustozi, amaliy kurslar va kalkulyatorlar bilan moliyaviy savodxonligingizni oshiring.",
+    "Learn finance and public-private partnerships in English. Practice with lessons, original questions and an AI tutor.",
   keywords: [
-    "moliya", "finance", "AI tutor", "moliyaviy savodxonlik",
-    "o'zbek", "investitsiya", "budjet", "jamg'arma", "kredit kalkulyatori",
+    "finance", "PPP", "public-private partnership", "CP3P", "AI tutor",
+    "financial literacy", "investment", "budgeting", "savings", "loan calculator",
   ],
   authors: [{ name: "Finora" }],
   creator: "Finora",
   openGraph: {
     type: "website",
-    locale: "uz_UZ",
-    title: "Finora — O'zbek tilida AI Moliya Ustozi",
-    description:
-      "Shaxsiy budjet, jamg'arma va investitsiya asoslari. O'zbek tilidagi AI moliyaviy o'qituvchi.",
+    locale: "en_GB",
+    title: "Finora — Finance and PPP learning",
+    description: "Learn finance and public-private partnerships in English with lessons, practice questions and an AI tutor.",
     siteName: "Finora",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Finora — O'zbek tilida AI Moliya Ustozi",
-    description: "Moliyaviy erkinlikka AI bilan yo'l.",
+    title: "Finora — Finance and PPP learning",
+    description: "Financial freedom starts with learning.",
   },
   robots: {
     index: true,
@@ -58,16 +56,6 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
 };
-
-export async function generateMetadata(): Promise<Metadata> {
-  const { locale } = await getI18n();
-  const copy = {
-    en: { title: "Finora — Finance and PPP learning", description: "Learn finance and public-private partnerships in English, Russian or Uzbek. Practice with lessons, original questions and an AI tutor.", og: "en_GB" },
-    ru: { title: "Finora — Финансы и государственно-частное партнёрство", description: "Изучайте финансы и ГЧП на английском, русском или узбекском. Уроки, практические задания и ИИ-наставник.", og: "ru_RU" },
-    uz: { title: "Finora — Moliya va davlat-xususiy sheriklik", description: "Moliya va DXShni ingliz, rus yoki o‘zbek tilida o‘rganing. Darslar, amaliy mashqlar va AI ustoz.", og: "uz_UZ" },
-  }[locale];
-  return { ...baseMetadata, title: { default: copy.title, template: "%s | Finora" }, description: copy.description, openGraph: { ...baseMetadata.openGraph, locale: copy.og, title: copy.title, description: copy.description }, twitter: { ...baseMetadata.twitter, title: copy.title, description: copy.description } };
-}
 
 export default async function RootLayout({
   children,
@@ -90,7 +78,6 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <I18nProvider locale={locale} messages={messages}>
-            <LanguageSwitcher />
             {children}
           </I18nProvider>
         </ThemeProvider>

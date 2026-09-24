@@ -79,7 +79,7 @@ export function CoursesGrid({ courses }: {
           {LEVELS.map((l) => (<button key={l} type="button" aria-pressed={activeLevel === l} aria-controls="course-results" onClick={() => setActiveLevel(l)} className={`min-h-11 shrink-0 px-3 py-2 rounded-lg text-xs font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#163e32] ${activeLevel === l
                 ? "bg-[#163e32] text-white"
                 : "bg-white border border-[#13251f]/12 text-[#65736d] hover:bg-[#f5f4ee]"}`}>
-              {l}
+              {t(l)}
             </button>))}
         </div>
       </div>
@@ -130,7 +130,7 @@ export function CoursesGrid({ courses }: {
                   </span>
                   <span className="font-semibold">{c.percent}%</span>
                 </div>
-                <div role="progressbar" aria-label={t("{0}: tugallangan darslar", { "0": c.title })} aria-valuemin={0} aria-valuemax={100} aria-valuenow={c.percent} className="h-1.5 rounded-full bg-[#e9ebe7] overflow-hidden">
+                <div role="progressbar" aria-label={t("{0}: tugallangan darslar", { "0": t(c.title) })} aria-valuemin={0} aria-valuemax={100} aria-valuenow={c.percent} className="h-1.5 rounded-full bg-[#e9ebe7] overflow-hidden">
                   <div style={{ width: `${c.percent}%` }} className="h-full rounded-full bg-[#28634f]"/>
                 </div>
               </div>

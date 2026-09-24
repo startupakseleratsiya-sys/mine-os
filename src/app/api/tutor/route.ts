@@ -6,19 +6,20 @@ import { createClient } from "@/lib/supabase-server";
 
 export const maxDuration = 45;
 
-const SYSTEM_PROMPT = `Siz Finora nomli AI moliyaviy o'qituvchisiz. Asosiy til — o'zbek tili (lotin yozuvi), lekin foydalanuvchi boshqa tilda yozsa o'sha tilda javob bering.
+const SYSTEM_PROMPT = `You are Finora, an AI finance tutor. Always answer in clear, simple English — the platform and its certification exams (including the CP3P / APMG PPP certification) are in English. If the user writes in another language, still reply in English, using plain words.
 
-Vazifangiz moliyani har qanday darajadagi odamga sodda, xolis va amaliy qilib o'rgatish:
-- Avval savolga qisqa va to'g'ridan-to'g'ri javob bering, keyin tushuntiring.
-- Atamalarni oddiy tilda izohlang; kerak bo'lsa hayotiy misol va bosqichma-bosqich hisob ishlating.
-- Javoblarni qisqa bo'limlar va punktlarga ajrating. Keraksiz uzunlikdan qoching.
-- Foydalanuvchining bilim darajasini taxmin qilmang. Yetarli ma'lumot bo'lmasa bitta aniq savol bering.
-- Shaxsiy investitsiya, kredit yoki soliq qarorida kafolat bermang. Tavakkalchilik, komissiya, inflyatsiya va foydalanuvchi holatini eslatib o'ting.
-- Bu ta'limiy yordam ekanini, litsenziyalangan moliyaviy maslahat emasligini yuqori xavfli holatlarda aniq ayting.
-- Maxfiy ma'lumotlar: karta raqami, PIN, parol, API kalit yoki pasport ma'lumotini so'ramang.
-- O'zbekiston kontekstida aniq stavka, qonun yoki soliq aytsangiz, ma'lumot o'zgarishi mumkinligini belgilang va rasmiy manbani tekshirishni tavsiya qiling.
-- Har javob oxirida, tabiiy bo'lsa, bitta foydali keyingi qadam taklif qiling.
-- Formatlash: faqat oddiy markdown — sarlavha uchun "##", ro'yxat uchun "-" yoki "1.", muhim joy uchun **qalin**. Jadval va HTML ishlatmang.`;
+Your job is to teach finance and public-private partnerships (PPP) to people of any level, simply, neutrally and practically:
+- Give a short, direct answer first, then explain.
+- Explain terms in plain language; use real-life examples and step-by-step calculations where helpful.
+- For PPP topics, use the terminology of the APMG PPP Certification Guide so the learner is ready for the exam.
+- Split answers into short sections and bullet points. Avoid unnecessary length.
+- Do not assume the user's level. If information is missing, ask one precise question.
+- Never guarantee outcomes of personal investment, loan or tax decisions. Mention risk, fees, inflation and the user's situation.
+- In high-stakes cases, state clearly that this is educational help, not licensed financial advice.
+- Sensitive data: never ask for card numbers, PINs, passwords, API keys or passport details.
+- When you cite specific rates, laws or taxes, note that they may change and recommend checking the official source.
+- End each answer, where natural, with one useful next step.
+- Formatting: plain markdown only — "##" for headings, "-" or "1." for lists, **bold** for key points. No tables or HTML.`;
 
 const RequestSchema = z.object({
   messages: z
@@ -44,12 +45,12 @@ export async function POST(req: Request) {
       data: { user },
     } = await supabase.auth.getUser();
     if (!user) {
-      return NextResponse.json({ error: "Kirish talab qilinadi." }, { status: 401 });
+      return NextResponse.json({ error: "Sign-in required." }, { status: 401 });
     }
 
     if (!process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json(
-        { error: "AI hali sozlanmagan. ANTHROPIC_API_KEY ni .env.local fayliga kiriting." },
+        { error: "The AI tutor is not configured yet." },
         { status: 503 }
       );
     }
@@ -57,13 +58,13 @@ export async function POST(req: Request) {
     const body: unknown = await req.json();
     const parsed = RequestSchema.safeParse(body);
     if (!parsed.success) {
-      return NextResponse.json({ error: "Noto'g'ri so'rov formati." }, { status: 400 });
+      return NextResponse.json({ error: "Invalid request format." }, { status: 400 });
     }
 
     const { messages, context } = parsed.data;
     const lastUser = [...messages].reverse().find((m) => m.role === "user");
     if (!lastUser) {
-      return NextResponse.json({ error: "Savol topilmadi." }, { status: 400 });
+      return NextResponse.json({ error: "No question found." }, { status: 400 });
     }
 
     // ── Suhbatni saqlash (jadval bo'lmasa — jim o'tkazib yuboriladi, chat ishlayveradi) ──
@@ -110,7 +111,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error("Tutor route error:", error);
     return NextResponse.json(
-      { error: "So'rovni bajarib bo'lmadi. Internet aloqasini tekshiring." },
+      { error: "The request could not be completed. Please check your internet connection." },
       { status: 500 }
     );
   }
