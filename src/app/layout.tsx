@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import React from "react";
+import { getI18n } from "@/i18n/server";
+import { I18nProvider } from "@/i18n/provider";
+import { LanguageSwitcher } from "@/i18n/language-switcher";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +19,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-finance-tutor.vercel.app"),
   title: {
     default: "Finora — O'zbek tilida AI Moliya Ustozi",
@@ -56,14 +59,26 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default function RootLayout({
+export async function generateMetadata(): Promise<Metadata> {
+  const { locale } = await getI18n();
+  const copy = {
+    en: { title: "Finora — Finance and PPP learning", description: "Learn finance and public-private partnerships in English, Russian or Uzbek. Practice with lessons, original questions and an AI tutor.", og: "en_GB" },
+    ru: { title: "Finora — Финансы и государственно-частное партнёрство", description: "Изучайте финансы и ГЧП на английском, русском или узбекском. Уроки, практические задания и ИИ-наставник.", og: "ru_RU" },
+    uz: { title: "Finora — Moliya va davlat-xususiy sheriklik", description: "Moliya va DXShni ingliz, rus yoki o‘zbek tilida o‘rganing. Darslar, amaliy mashqlar va AI ustoz.", og: "uz_UZ" },
+  }[locale];
+  return { ...baseMetadata, title: { default: copy.title, template: "%s | Finora" }, description: copy.description, openGraph: { ...baseMetadata.openGraph, locale: copy.og, title: copy.title, description: copy.description }, twitter: { ...baseMetadata.twitter, title: copy.title, description: copy.description } };
+}
+
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const { locale, messages } = await getI18n();
   return (
     <html
-      lang="uz"
+      lang={locale}
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
@@ -74,7 +89,10 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          {children}
+          <I18nProvider locale={locale} messages={messages}>
+            <LanguageSwitcher />
+            {children}
+          </I18nProvider>
         </ThemeProvider>
       </body>
     </html>

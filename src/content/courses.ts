@@ -1,3 +1,5 @@
+import { PPP_COURSE } from "./ppp-course";
+
 /**
  * Kurslar va boblar — yagona manba.
  * Bazada faqat progress (kim qaysi bobni tugatdi) saqlanadi, kontent shu yerda.
@@ -9,6 +11,26 @@ export type Chapter = {
   minutes: number;
   /** Markdown-lite: #, ##, ###, >, -, 1., **bold**, --- */
   body: string;
+  source?: { title: string; file: string; pages: number; reading: string; startPage?: number };
+  quiz?: QuizQuestion[];
+  objectives?: string[];
+  terms?: { term: string; meaning: string }[];
+  flow?: { title: string; description: string }[];
+  exercise?: {
+    title: string;
+    situation: string;
+    question: string;
+    hint: string;
+    choices: { label: string; feedback: string }[];
+    answer: number;
+  };
+};
+
+export type QuizQuestion = {
+  question: string;
+  options: string[];
+  answer: number;
+  explanation: string;
 };
 
 export type CourseIcon = "wallet" | "piggy" | "trending";
@@ -25,6 +47,8 @@ export type Course = {
   emoji: string;
   outcomes: string[];
   chapters: Chapter[];
+  sourceNote?: string;
+  modules?: { id: string; title: string; description: string; chapterIds: string[] }[];
 };
 
 export const COURSES: Course[] = [
@@ -440,6 +464,7 @@ O'z holatingiz uchun (yosh, maqsad muddati, xavfga chidamlilik) taxminiy portfel
       },
     ],
   },
+  PPP_COURSE,
 ];
 
 export function getCourse(slug: string): Course | undefined {

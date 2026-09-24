@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-11T06:36:43.139Z",
+  "scope": "Anonymous local HTTP checks only",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentValid": true,
+      "result": "PASS"
+    },
+    {
+      "path": "/courses",
+      "status": 200,
+      "contentValid": true,
+      "result": "PASS"
+    },
+    {
+      "path": "/courses/davlat-xususiy-sheriklik",
+      "status": 200,
+      "contentValid": true,
+      "result": "PASS"
+    },
+    {
+      "path": "/materials/ppp/chapter-4-appraising-ppp-projects.pdf",
+      "status": 200,
+      "contentValid": true,
+      "result": "PASS"
+    },
+    {
+      "path": "/api/tutor (anonymous)",
+      "status": 401,
+      "result": "PASS"
+    }
+  ]
+}

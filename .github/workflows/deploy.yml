@@ -28,6 +28,10 @@ jobs:
         run: npx tsc --noEmit
       - name: Lint (0 error shart)
         run: npx eslint src
+      - name: Calculator regression tests
+        run: npm test
+      - name: Course content integrity
+        run: npm run check:content
 
       - name: Deploy (production)
         env:

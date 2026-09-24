@@ -1,0 +1,34 @@
+{
+  "scope": "Local formula and date-boundary audit; no database writes or paid AI requests.",
+  "generatedAt": "2026-09-14T13:58:06.429Z",
+  "results": [
+    {
+      "id": "CALC-01",
+      "status": "PASS",
+      "actual": 28250808.28597606,
+      "expected": 28250808.28597602,
+      "assumptions": "Nominal annual rate, monthly compounding, contributions at month end, no fees/tax."
+    },
+    {
+      "id": "CALC-02",
+      "status": "PASS",
+      "actual": 19999999.999999985,
+      "expected": 20000000,
+      "assumptions": "Existing savings grow at the same rate; month-end contributions should reach the target without systematic overfunding."
+    },
+    {
+      "id": "CALC-03",
+      "status": "PASS",
+      "actual": -1.6880221664905548e-9,
+      "expected": 0,
+      "assumptions": "Fixed nominal annual loan rate divided by 12, equal month-end payments, no fees."
+    },
+    {
+      "id": "TIME-01",
+      "status": "FAIL",
+      "actual": 2,
+      "expected": 1,
+      "assumptions": "Both completions occur on September 11 in Asia/Tashkent (UTC+5): only one active local day."
+    }
+  ]
+}

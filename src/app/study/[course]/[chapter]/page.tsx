@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getChapter } from "@/content/courses";
 import { getCurrentUser } from "@/services/user-service";
@@ -20,23 +20,25 @@ export default async function StudyPage({ params }: Params) {
   if (!found) notFound();
 
   const user = await getCurrentUser();
-  if (!user) redirect(`/sign-in?next=${encodeURIComponent(`/study/${courseSlug}/${chapterId}`)}`);
-
-  const rows = await getLessonProgress(user.id);
+  const rows = user ? await getLessonProgress(user.id) : [];
   const cp = courseProgress(rows, found.course);
 
   return (
     <StudyView
+      key={`${courseSlug}/${chapterId}`}
       courseSlug={found.course.slug}
       courseTitle={found.course.shortTitle}
       chapter={found.chapter}
+      sourceNote={found.course.sourceNote}
+      signedIn={Boolean(user)}
+      modules={found.course.modules}
       index={found.index}
       total={found.course.chapters.length}
       prev={found.prev ? { id: found.prev.id, title: found.prev.title } : null}
       next={found.next ? { id: found.next.id, title: found.next.title } : null}
       initialCompleted={cp.completedIds.has(found.chapter.id)}
       completedIds={[...cp.completedIds]}
-      chapters={found.course.chapters.map((ch) => ({ id: ch.id, title: ch.title }))}
+      chapters={found.course.chapters.map((ch) => ({ id: ch.id, title: ch.title, minutes: ch.minutes }))}
     />
   );
 }

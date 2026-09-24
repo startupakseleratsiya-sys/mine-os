@@ -8,7 +8,6 @@ export const PROTECTED_PATHS = [
   "/tutor",
   "/calculators",
   "/profile",
-  "/study",
   "/onboarding",
   "/admin",
 ];

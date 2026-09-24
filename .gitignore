@@ -12,6 +12,9 @@
 
 # testing
 /coverage
+/tmp/pdfs/
+/tmp/skill-review/
+/.tmp/
 
 # next.js
 /.next/

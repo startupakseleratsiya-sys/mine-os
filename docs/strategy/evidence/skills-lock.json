@@ -1,0 +1,85 @@
+{
+  "verifiedOn": "2026-09-11",
+  "skills": [
+    {
+      "name": "security-best-practices",
+      "repository": "openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/security-best-practices",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\security-best-practices",
+      "skillSha256": "7a889544c0ae67982a918a4b28569cc93f7426ae39306a0cb786603445714162",
+      "fileCount": 13,
+      "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices"
+    },
+    {
+      "name": "security-threat-model",
+      "repository": "openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/security-threat-model",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\security-threat-model",
+      "skillSha256": "7718bb4d7d9855cdf2e90e920e0cbc489cb24ea55e2f9734fd041c53f1e04f68",
+      "fileCount": 5,
+      "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-threat-model"
+    },
+    {
+      "name": "react-best-practices",
+      "repository": "vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "sourcePath": "skills/react-best-practices",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\react-best-practices",
+      "skillSha256": "3286ace648b4d740317b9c1cb7fbd38600eaacc62a8b57ea5e06fd2992b5582e",
+      "fileCount": 76,
+      "url": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices"
+    },
+    {
+      "name": "web-design-guidelines",
+      "repository": "vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "sourcePath": "skills/web-design-guidelines",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\web-design-guidelines",
+      "skillSha256": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29",
+      "fileCount": 1,
+      "url": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines"
+    },
+    {
+      "name": "frontend-design",
+      "repository": "anthropics/skills",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "sourcePath": "skills/frontend-design",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\frontend-design",
+      "skillSha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8",
+      "fileCount": 2,
+      "url": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/frontend-design"
+    },
+    {
+      "name": "cro",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/cro",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\cro",
+      "skillSha256": "fb4f8601c3c723b3167a21bd2a7ce7d4b6530f39fc28cc9f1e09d56530c9c5ce",
+      "fileCount": 4,
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/cro"
+    },
+    {
+      "name": "pricing",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/pricing",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\pricing",
+      "skillSha256": "6346a8351a97ed0375a30412f58907c1fabc599b79c197518a389c5dfa12d2dc",
+      "fileCount": 6,
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/pricing"
+    },
+    {
+      "name": "product-marketing",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/product-marketing",
+      "installedPath": "C:\\Users\\user\\.codex\\skills\\product-marketing",
+      "skillSha256": "75bbf1e4a8803417ffd51c33c718e6831d2b6e35732c6861cd18c74a8512c4da",
+      "fileCount": 2,
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/product-marketing"
+    }
+  ]
+}
