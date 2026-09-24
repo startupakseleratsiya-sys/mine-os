@@ -5,7 +5,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft, ArrowRight, Award, BookOpen, CheckCircle2, Clock3, ListChecks } from "lucide-react";
 import { courseMinutes, formatMinutes, getCourse } from "@/content/courses";
-import { LEGACY_PPP_SLUG, PPP_FOUNDATION } from "@/content/ppp-course";
+import { LEGACY_EXECUTION_SLUG, LEGACY_PPP_SLUG, PPP_EXECUTION, PPP_FOUNDATION } from "@/content/ppp-course";
 import { getCurrentUser } from "@/services/user-service";
 import { courseProgress, getLessonProgress, type LessonProgressRow } from "@/lib/progress";
 import { LessonSource } from "@/components/lesson-source";
@@ -26,6 +26,7 @@ export default async function CourseDetailsPage({ params }: Params) {
     const { t } = await getI18n();
     const { slug } = await params;
     if (slug === LEGACY_PPP_SLUG) permanentRedirect(`/courses/${PPP_FOUNDATION.slug}`);
+    if (slug === LEGACY_EXECUTION_SLUG) permanentRedirect(`/courses/${PPP_EXECUTION.slug}`);
     const course = getCourse(slug);
     if (!course)
         notFound();

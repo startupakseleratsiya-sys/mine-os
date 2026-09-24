@@ -392,12 +392,14 @@ const PPP_FULL: Course = {
   ],
 };
 
-/** Eski yagona kursning manzili — eski havolalar yangi kursga yo'naltiriladi. */
+/** Eski manzillar — eski havolalar yangi kursga yo'naltiriladi. */
 export const LEGACY_PPP_SLUG = "davlat-xususiy-sheriklik";
+/** 24.09.2026 da bir necha soat «Implementation» nomi bilan turgan. */
+export const LEGACY_EXECUTION_SLUG = "cp3p-implementation";
 
 type Stage = Pick<Course, "slug" | "title" | "shortTitle" | "description" | "level" | "emoji" | "outcomes"> & { moduleIds: string[] };
 
-/** APMG CP3P: Foundation (1–2-bob), Preparation (3–5), Implementation (6–8) — har birining alohida imtihoni bor. */
+/** APMG CP3P: Foundation (1–2-bob), Preparation (3–5), Execution (6–8) — har birining alohida imtihoni bor. */
 function stage({ moduleIds, ...meta }: Stage): Course {
   const modules = PPP_FULL.modules!.filter((m) => moduleIds.includes(m.id));
   const ids = new Set(modules.flatMap((m) => m.chapterIds));
@@ -438,10 +440,10 @@ export const PPP_PREPARATION: Course = stage({
   moduleIds: ["ppp-screening", "ppp-appraisal", "ppp-structuring"],
 });
 
-export const PPP_IMPLEMENTATION: Course = stage({
-  slug: "cp3p-implementation",
-  title: "CP3P Implementation: tendering, delivery and contract management",
-  shortTitle: "CP3P Implementation",
+export const PPP_EXECUTION: Course = stage({
+  slug: "cp3p-execution",
+  title: "CP3P Execution: tendering, delivery and contract management",
+  shortTitle: "CP3P Execution",
   description: "Stage 3 of the CP3P certification (PPP Guide chapters 6–8): running the tender to commercial and financial close, managing construction and commissioning, operations and hand-back.",
   level: "Yuqori",
   emoji: "🏗️",
@@ -455,7 +457,7 @@ export const PPP_IMPLEMENTATION: Course = stage({
   moduleIds: ["ppp-tender", "ppp-construction", "ppp-operations"],
 });
 
-export const PPP_COURSES: Course[] = [PPP_FOUNDATION, PPP_PREPARATION, PPP_IMPLEMENTATION];
+export const PPP_COURSES: Course[] = [PPP_FOUNDATION, PPP_PREPARATION, PPP_EXECUTION];
 
 /** Eski /davlat-xususiy-sheriklik havolasi uchun: bob qaysi yangi kursda ekanini topadi. */
 export function pppCourseForChapter(chapterId: string): Course {

@@ -60,8 +60,8 @@ for (const course of COURSES) {
     assert.deepEqual([...ids], Array.from(course.chapters, (chapter) => chapter.id));
   }
 }
-// PPP: CP3P'ning 3 bosqichi — Foundation (1–2-bob + lug'at/mashq), Preparation (3–5), Implementation (6–8).
-const stages = ["cp3p-foundation", "cp3p-preparation", "cp3p-implementation"].map((slug) => getCourse(slug));
+// PPP: CP3P'ning 3 bosqichi — Foundation (1–2-bob + lug'at/mashq), Preparation (3–5), Execution (6–8).
+const stages = ["cp3p-foundation", "cp3p-preparation", "cp3p-execution"].map((slug) => getCourse(slug));
 assert.ok(stages.every(Boolean));
 assert.equal(getCourse("davlat-xususiy-sheriklik"), undefined);
 assert.deepEqual(stages.map((course) => course.modules.length), [3, 3, 3]);
