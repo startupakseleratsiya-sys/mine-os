@@ -19,7 +19,10 @@ function formatClock(ms: number) {
  * Rasmiy formatdagi mock: vaqt tugasa avtomatik topshiriladi. Holat localStorage'da —
  * sahifa yangilansa ham davom etadi (faqat shu brauzerda, qulaylik uchun).
  */
-export function MockExam({ spec, questions, seed, areaTitles }: { spec: ExamSpec; questions: ExamQuestion[]; seed: number; areaTitles: Record<string, string> }) {
+export function MockExam({ spec, questions: initialQuestions, seed, areaTitles }: { spec: ExamSpec; questions: ExamQuestion[]; seed: number; areaTitles: Record<string, string> }) {
+  // Savollar birinchi render'da qotiriladi: natija saqlangach server sahifani qayta chizadi va
+  // «ko'rilmagan savollar» ro'yxati o'zgargani uchun boshqa to'plam yuborishi mumkin — javoblar bilan aralashmasin.
+  const [questions] = useState(initialQuestions);
   const storageKey = `finora-mock-${spec.slug}-${seed}`;
   // Faqat brauzerda render qilinadi (mock-exam-client) — saqlangan holatni boshlang'ich qiymatga o'qiymiz.
   const [restored] = useState<Saved | null>(() => {

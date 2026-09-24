@@ -9,7 +9,9 @@ import type { ExamQuestion, ExamSpec } from "@/lib/exam";
 const LETTERS = ["A", "B", "C", "D", "E"];
 
 /** Mashq: bittadan savol, darhol javob va har bir variant izohi (retrieval practice + zudlik bilan feedback). */
-export function Practice({ spec, questions, title }: { spec: ExamSpec; questions: ExamQuestion[]; title: string }) {
+export function Practice({ spec, questions: initialQuestions, title }: { spec: ExamSpec; questions: ExamQuestion[]; title: string }) {
+  // To'plam qotiriladi: saqlangandan keyin server sahifani qayta chizib, boshqa savollar yuborsa ham natija buzilmaydi.
+  const [questions] = useState(initialQuestions);
   const [index, setIndex] = useState(0);
   const [chosen, setChosen] = useState<(number | null)[]>(() => questions.map(() => null));
   const [done, setDone] = useState(false);
