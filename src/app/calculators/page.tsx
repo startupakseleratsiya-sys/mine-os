@@ -2,7 +2,6 @@
 import { useI18n } from "@/i18n/provider";
 
 import React, { useId, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Calculator, ChevronDown, ChevronUp, Landmark, Percent, PiggyBank, WalletCards, } from "lucide-react";
 import Link from "next/link";
 import { SectionShell } from "@/components/layouts/section-shell";
@@ -85,7 +84,7 @@ function BudgetBar({ label, amount, total, color, fmt }: {
         <span suppressHydrationWarning className="text-sm font-bold text-[#0f2017]">{fmt(amount)}<>{" "}{t("so'm")}</></span>
       </div>
       <div className="h-2.5 bg-[#e9ebe7] rounded-full overflow-hidden">
-        <motion.div initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.6 }} className={`h-full rounded-full ${color}`}/>
+        <div style={{ width: `${pct}%` }} className={`h-full rounded-full ${color}`}/>
       </div>
     </div>);
 }
@@ -179,13 +178,13 @@ export default function CalculatorsPage() {
                 {isOpen ? (<ChevronUp className="size-5 text-[#65736d] shrink-0"/>) : (<ChevronDown className="size-5 text-[#65736d] shrink-0"/>)}
               </button>
 
-              <AnimatePresence>
-                {isOpen && (<motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.25 }} className="overflow-hidden">
+              <>
+                {isOpen && (<div className="overflow-hidden">
                     <div className="border-t border-[#13251f]/8 px-6 pb-6 pt-5">
                       <Comp />
                     </div>
-                  </motion.div>)}
-              </AnimatePresence>
+                  </div>)}
+              </>
             </div>);
         })}
       </div>

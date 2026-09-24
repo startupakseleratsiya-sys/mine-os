@@ -13,7 +13,7 @@ export function SectionShell({ eyebrow, title, description, children, }: {
     const { t } = useI18n();
     return (<div className="min-h-screen bg-[#f3f1eb] text-[#13251f]">
       <a href="#section-content" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-xl focus:bg-white focus:p-4 focus:text-[#163e32]"><>{t("Asosiy mazmunga o\u2018tish")}</></a>
-      <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]/90 backdrop-blur-xl">
+      <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]">
         <div className="mx-auto flex h-16 sm:h-18 max-w-[1120px] items-center justify-between px-4 sm:px-8">
           <Link href="/dashboard" aria-label={t("Finora \u2014 shaxsiy kabinet")} className="flex items-center gap-2.5 shrink-0">
             <span className="grid size-8 place-items-center rounded-full bg-[#163e32] text-white">

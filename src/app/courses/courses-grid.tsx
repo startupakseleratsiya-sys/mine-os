@@ -3,7 +3,6 @@ import { useI18n } from "@/i18n/provider";
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, BookOpen, CheckCircle2, Clock3, Filter, PiggyBank, Search, TrendingUp, WalletCards, } from "lucide-react";
 import type { CourseIcon } from "@/content/courses";
 export type CourseCard = {
@@ -39,7 +38,6 @@ export function CoursesGrid({ courses }: {
     const { t } = useI18n();
     const [search, setSearch] = useState("");
     const [activeLevel, setActiveLevel] = useState("Barchasi");
-    const reducedMotion = useReducedMotion();
     const continuing = courses.find((course) => course.completed > 0 && course.percent < 100);
     const firstCourse = courses.find((course) => course.level === "Boshlang'ich" && course.percent < 100);
     const suggested = continuing ?? firstCourse;
@@ -91,10 +89,10 @@ export function CoursesGrid({ courses }: {
         {hasFilters && <button type="button" onClick={resetFilters} className="min-h-11 rounded-lg px-3 font-semibold text-[#163e32] underline underline-offset-4"><>{t("Filtrlarni tozalash")}</></button>}
       </div>
       <div id="course-results" className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-        {filtered.map((c, i) => {
+        {filtered.map((c) => {
             const Icon = ICONS[c.icon];
             const href = c.percent === 100 ? `/courses/${c.slug}` : `/study/${c.slug}/${c.nextChapterId}`;
-            return (<motion.article key={c.slug} initial={reducedMotion ? false : { opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.07, duration: 0.4 }} whileHover={reducedMotion ? undefined : { y: -4, boxShadow: "0 20px 50px rgba(19,37,31,0.09)" }} className="group flex flex-col rounded-3xl border border-[#13251f]/10 bg-white p-6 transition-shadow">
+            return (<article key={c.slug} className="group flex flex-col rounded-3xl border border-[#13251f]/10 bg-white p-6 transition-shadow">
               <div className="flex items-start justify-between mb-6">
                 <span className="grid size-11 place-items-center rounded-2xl bg-[#dce7dd] text-[#285744]">
                   <Icon className="size-5"/>
@@ -133,7 +131,7 @@ export function CoursesGrid({ courses }: {
                   <span className="font-semibold">{c.percent}%</span>
                 </div>
                 <div role="progressbar" aria-label={t("{0}: tugallangan darslar", { "0": c.title })} aria-valuemin={0} aria-valuemax={100} aria-valuenow={c.percent} className="h-1.5 rounded-full bg-[#e9ebe7] overflow-hidden">
-                  <motion.div initial={reducedMotion ? false : { width: 0 }} animate={{ width: `${c.percent}%` }} transition={{ duration: reducedMotion ? 0 : 0.8, ease: "easeOut" }} className="h-full rounded-full bg-[#28634f]"/>
+                  <div style={{ width: `${c.percent}%` }} className="h-full rounded-full bg-[#28634f]"/>
                 </div>
               </div>
 
@@ -143,7 +141,7 @@ export function CoursesGrid({ courses }: {
                     ? t("Davom ettirish") : t("Kursni boshlash")}
                 <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform"/>
               </Link>
-            </motion.article>);
+            </article>);
         })}
       </div>
 

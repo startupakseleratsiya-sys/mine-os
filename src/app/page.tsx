@@ -3,11 +3,8 @@ import { useI18n } from "@/i18n/provider";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { ArrowRight, BookOpen, Brain, Calculator, ChevronDown, CircleDollarSign, GraduationCap, Menu, Shield, Sparkles, TrendingUp, Users, X, Zap, } from "lucide-react";
-import dynamic from "next/dynamic";
 import { COURSES as COURSE_CONTENT, TOTAL_CHAPTERS, courseMinutes, formatMinutes } from "@/content/courses";
-const FinanceScene = dynamic(() => import("@/components/3d/finance-scene").then((m) => m.FinanceScene), { ssr: false, loading: () => <div className="w-full h-full"/> });
 /* ── Constants ── */
 const NAV_LINKS = [
     { label: "Kurslar", href: "/courses" },
@@ -86,8 +83,8 @@ function Navbar({ mobileOpen, setMobileOpen }: {
         window.addEventListener("scroll", onScroll, { passive: true });
         return () => window.removeEventListener("scroll", onScroll);
     }, []);
-    return (<motion.nav initial={{ y: -60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }} className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled
-            ? "bg-[#f5f4ee]/95 backdrop-blur-xl border-b border-[#E2E4DF] shadow-sm"
+    return (<nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled
+            ? "bg-[#f5f4ee] border-b border-[#E2E4DF] shadow-sm"
             : "bg-transparent"}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between">
@@ -120,8 +117,8 @@ function Navbar({ mobileOpen, setMobileOpen }: {
       </div>
 
       {/* Mobile menu */}
-      <AnimatePresence>
-        {mobileOpen && (<motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.25 }} className="md:hidden overflow-hidden bg-[#f5f4ee] border-b border-[#E2E4DF]">
+      <>
+        {mobileOpen && (<div style={{ height: "auto", opacity: 1 }} className="md:hidden overflow-hidden bg-[#f5f4ee] border-b border-[#E2E4DF]">
             <div className="px-4 py-4 space-y-1">
               {NAV_LINKS.map((link) => (<Link key={link.href} href={link.href} onClick={() => setMobileOpen(false)} className="block px-3 py-3 rounded-lg text-sm font-medium text-[#354841] hover:bg-white hover:text-[#0f2017] transition-colors">
                   {t(link.label)}
@@ -131,16 +128,27 @@ function Navbar({ mobileOpen, setMobileOpen }: {
                 <Link href="/sign-up" onClick={() => setMobileOpen(false)} className="block text-center py-2.5 text-sm font-bold text-white bg-[#163e32] rounded-xl"><>{t("Bepul boshlash")}</></Link>
               </div>
             </div>
-          </motion.div>)}
-      </AnimatePresence>
-    </motion.nav>);
+          </div>)}
+      </>
+    </nav>);
+}
+/** Murakkab foiz o'sishi — statik SVG (3D sahna o'rniga, qotmasligi uchun). */
+function GrowthChart() {
+    const bars = [1, 1.15, 1.32, 1.52, 1.75, 2.01, 2.31, 2.66, 3.06, 3.52, 4.05];
+    const max = bars[bars.length - 1];
+    return (<svg viewBox="0 0 400 400" className="h-full w-full" aria-hidden="true">
+      <rect x="0" y="0" width="400" height="400" rx="24" fill="#F7F8F4"/>
+      {[100, 170, 240, 310].map((y) => (<line key={y} x1="40" x2="360" y1={y} y2={y} stroke="#E2E4DF" strokeWidth="1"/>))}
+      {bars.map((v, i) => {
+            const h = (v / max) * 250;
+            return (<rect key={i} x={48 + i * 29} y={330 - h} width="18" height={h} rx="5" fill={i === bars.length - 1 ? "#4a9e72" : "#163e32"} opacity={0.35 + (i / bars.length) * 0.65}/>);
+        })}
+      <polyline fill="none" stroke="#4a9e72" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" points={bars.map((v, i) => `${57 + i * 29},${330 - (v / max) * 250 - 10}`).join(" ")}/>
+    </svg>);
 }
 function HeroSection() {
     const { t } = useI18n();
     const containerRef = useRef<HTMLDivElement>(null);
-    const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end start"] });
-    const y = useTransform(scrollYProgress, [0, 1], [0, -60]);
-    const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
     return (<section ref={containerRef} className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Mesh gradient background */}
       <div className="absolute inset-0 -z-10">
@@ -157,36 +165,35 @@ function HeroSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16 sm:py-20">
           {/* Left */}
-          <motion.div style={{ y, opacity }} className="text-center lg:text-left">
+          <div className="text-center lg:text-left">
             {/* Badge */}
-            <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.1, duration: 0.5 }} className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white border border-[#E2E4DF] text-sm font-semibold text-[#354841] shadow-sm mb-8">
+            <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white border border-[#E2E4DF] text-sm font-semibold text-[#354841] shadow-sm mb-8">
               <span className="relative flex size-2.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#4a9e72] opacity-75"/>
                 <span className="relative inline-flex rounded-full size-2.5 bg-[#163e32]"/>
               </span>
-              {COURSE_CONTENT.length}<>{" "}{t("ta kurs,")}{" "}</>{TOTAL_CHAPTERS}<>{t("bob \u2014 hammasi o'zbek tilida, bepul")}</></motion.div>
+              {COURSE_CONTENT.length}<>{" "}{t("ta kurs,")}{" "}</>{TOTAL_CHAPTERS}<>{t("bob \u2014 hammasi o'zbek tilida, bepul")}</></div>
 
             {/* Headline */}
-            <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] text-[#0f2017] mb-6"><>{t("Moliyaviy")}</>{" "}
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] text-[#0f2017] mb-6"><>{t("Moliyaviy")}</>{" "}
               <span className="relative inline-block">
                 <span className="relative z-10 text-[#163e32]"><>{t("erkinlikka")}</></span>
-                <motion.span initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 0.8, duration: 0.6 }} className="absolute -bottom-1 left-0 right-0 h-3 bg-[#dce7dd] -z-10 origin-left rounded"/>
+                <span className="absolute -bottom-1 left-0 right-0 h-3 bg-[#dce7dd] -z-10 origin-left rounded"/>
               </span>{" "}
-              <br /><>{t("AI bilan yo'l.")}</></motion.h1>
+              <br /><>{t("AI bilan yo'l.")}</></h1>
 
             {/* Subtext */}
-            <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4, duration: 0.6 }} className="text-lg sm:text-xl text-[#6B7A74] mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium"><>{t("Shaxsiy budjet, jamg'arma va investitsiya asoslarini o'zbek tilidagi AI moliya ustozi bilan tushunib o'rganing.")}</></motion.p>
+            <p className="text-lg sm:text-xl text-[#6B7A74] mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium"><>{t("Shaxsiy budjet, jamg'arma va investitsiya asoslarini o'zbek tilidagi AI moliya ustozi bilan tushunib o'rganing.")}</></p>
 
             {/* CTAs */}
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.55, duration: 0.6 }} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <Link href="/sign-up" className="group flex items-center justify-center gap-2.5 h-14 px-8 text-base font-bold bg-[#163e32] text-white rounded-2xl shadow-xl shadow-[#163e32]/20 hover:bg-[#0e3026] transition-all hover:-translate-y-0.5"><>{t("Bepul boshlash")}</><ArrowRight className="size-5 group-hover:translate-x-1 transition-transform"/>
               </Link>
               <Link href="/tutor" className="flex items-center justify-center gap-2 h-14 px-8 text-base font-bold text-[#163e32] bg-white border border-[#E2E4DF] rounded-2xl hover:border-[#a7c4b1] hover:bg-[#f5f4ee] transition-all hover:-translate-y-0.5 shadow-sm">
                 <Sparkles className="size-5 text-[#4a9e72]"/><>{t("AI Tutorni sinab ko'ring")}</></Link>
-            </motion.div>
+            </div>
 
             {/* Social proof */}
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.7, duration: 0.6 }} className="flex items-center gap-3 justify-center lg:justify-start">
+            <div className="flex items-center gap-3 justify-center lg:justify-start">
               <div className="flex -space-x-2">
                 {["A", "B", "C", "D"].map((l, i) => (<div key={l} className="size-8 rounded-full border-2 border-white flex items-center justify-center text-[11px] font-bold text-white" style={{ background: ["#163e32", "#2a5e47", "#4a9e72", "#0e3026"][i] }}>
                     {l}
@@ -194,34 +201,32 @@ function HeroSection() {
               </div>
               <p className="text-sm text-[#6B7A74] font-medium">
                 <span className="font-bold text-[#0f2017]"><>{t("Bepul")}</></span><>{t("\u2014 karta kerak emas")}</></p>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
-          {/* Right — 3D Scene */}
-          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.3, duration: 0.9, ease: [0.16, 1, 0.3, 1] }} className="relative w-full aspect-square max-w-lg mx-auto lg:max-w-full">
-            {/* Glow behind scene */}
-            <div className="absolute inset-8 rounded-full bg-[#4a9e72]/10 blur-3xl animate-glow-pulse"/>
-            <div className="absolute inset-0 rounded-3xl overflow-hidden">
-              <FinanceScene className="w-full h-full"/>
+          {/* Right — statik o'sish grafigi (WebGL yo'q, yengil) */}
+          <div className="relative w-full aspect-square max-w-lg mx-auto lg:max-w-full">
+            <div className="absolute inset-0 rounded-3xl border border-[#E2E4DF] bg-white shadow-sm">
+              <GrowthChart />
             </div>
 
             {/* Floating stat cards */}
-            <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1, duration: 0.6 }} className="absolute -left-4 sm:-left-8 top-1/4 glass-card rounded-2xl px-4 py-3 shadow-xl">
+            <div className="absolute -left-4 sm:-left-8 top-1/4 bg-white border border-[#E2E4DF] rounded-2xl px-4 py-3 shadow-xl">
               <p className="text-xs text-[#6B7A74] font-medium"><>{t("Murakkab foiz")}</></p>
               <p className="text-2xl font-bold text-[#0f2017]">×16</p>
               <div className="mt-1 flex items-center gap-1">
                 <TrendingUp className="size-3.5 text-emerald-500"/>
                 <span className="text-[10px] text-emerald-600 font-semibold"><>{t("20 yilda, 15% da")}</></span>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1.1, duration: 0.6 }} className="absolute -right-4 sm:-right-8 bottom-1/4 glass-card rounded-2xl px-4 py-3 shadow-xl">
+            <div className="absolute -right-4 sm:-right-8 bottom-1/4 bg-white border border-[#E2E4DF] rounded-2xl px-4 py-3 shadow-xl">
               <p className="text-xs text-[#6B7A74] font-medium"><>{t("AI suhbat")}</></p>
               <p className="text-2xl font-bold text-[#0f2017]">24/7</p>
               <p className="text-[10px] text-[#6B7A74] mt-0.5"><>{t("o'zbek tilida javob")}</></p>
-            </motion.div>
+            </div>
 
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.2, duration: 0.6 }} className="absolute bottom-4 left-1/2 -translate-x-1/2 glass-card rounded-2xl px-5 py-3 shadow-xl flex items-center gap-3">
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white border border-[#E2E4DF] rounded-2xl px-5 py-3 shadow-xl flex items-center gap-3">
               <div className="size-8 rounded-full bg-[#163e32]/10 grid place-items-center">
                 <Users className="size-4 text-[#163e32]"/>
               </div>
@@ -229,18 +234,18 @@ function HeroSection() {
                 <p className="text-xs font-semibold text-[#0f2017]"><>{t("50/30/20 qoidasi")}</></p>
                 <p className="text-[10px] text-[#6B7A74]"><>{t("2-bobda amaliy misol bilan")}</></p>
               </div>
-              <div className="size-2.5 rounded-full bg-emerald-400 animate-ping-slow ml-1"/>
-            </motion.div>
-          </motion.div>
+              <div className="size-2.5 rounded-full bg-emerald-400 ml-1"/>
+            </div>
+          </div>
         </div>
 
         {/* Scroll indicator */}
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className="hidden lg:flex justify-center pb-8">
-          <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 1.5, repeat: Infinity }} className="flex flex-col items-center gap-2 text-[#9aa39f] cursor-pointer">
+        <div className="hidden lg:flex justify-center pb-8">
+          <div className="flex flex-col items-center gap-2 text-[#9aa39f] cursor-pointer">
             <span className="text-xs font-medium"><>{t("Pastga aylantiring")}</></span>
             <ChevronDown className="size-4"/>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>);
 }
@@ -249,12 +254,12 @@ function StatsBar() {
     return (<section className="bg-[#0f2017] py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {STATS.map((stat, i) => (<motion.div key={stat.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1, duration: 0.5 }} className="text-center">
+          {STATS.map((stat) => (<div key={stat.label} className="text-center">
               <p className="text-3xl sm:text-4xl font-extrabold text-white mb-1">
                 {stat.value}
               </p>
               <p className="text-sm text-[#8ea89d] font-medium">{t(stat.label)}</p>
-            </motion.div>))}
+            </div>))}
         </div>
       </div>
     </section>);
@@ -263,20 +268,20 @@ function FeaturesSection() {
     const { t } = useI18n();
     return (<section className="py-20 sm:py-28 bg-[#F5F4EE]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
+        <div className="text-center mb-16">
           <p className="text-xs font-bold tracking-[0.2em] uppercase text-[#4a9e72] mb-4"><>{t("Nima uchun Finora?")}</></p>
           <h2 className="text-4xl sm:text-5xl font-extrabold text-[#0f2017] tracking-tight max-w-2xl mx-auto"><>{t("O'rganish bu qiyin emas.")}</></h2>
           <p className="mt-5 text-lg text-[#6B7A74] max-w-xl mx-auto"><>{t("Finora moliyaviy ta'limni sodda, qulay va qiziqarli qiladi.")}</></p>
-        </motion.div>
+        </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {FEATURES.map((f, i) => (<motion.div key={f.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08, duration: 0.5 }} whileHover={{ y: -4, boxShadow: "0 20px 50px rgba(19,37,31,0.10)" }} className="bg-white rounded-3xl p-7 border border-[#E2E4DF] cursor-pointer transition-shadow">
+          {FEATURES.map((f) => (<div key={f.title} className="bg-white rounded-3xl p-7 border border-[#E2E4DF] cursor-pointer transition-shadow">
               <span className={`inline-grid size-12 place-items-center rounded-2xl ${f.color} mb-5`}>
                 <f.icon className="size-5"/>
               </span>
               <h3 className="text-lg font-bold text-[#0f2017] mb-2">{t(f.title)}</h3>
               <p className="text-sm leading-6 text-[#6B7A74]">{t(f.desc)}</p>
-            </motion.div>))}
+            </div>))}
         </div>
       </div>
     </section>);
@@ -286,16 +291,16 @@ function CoursesPreview() {
     return (<section className="py-20 sm:py-28 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
-          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+          <div>
             <p className="text-xs font-bold tracking-[0.2em] uppercase text-[#4a9e72] mb-3"><>{t("Kurslar")}</></p>
             <h2 className="text-4xl sm:text-5xl font-extrabold text-[#0f2017] tracking-tight"><>{t("O\u2018zingizga mos kursni tanlang.")}</></h2>
-          </motion.div>
+          </div>
           <Link href="/courses" className="inline-flex items-center gap-2 text-sm font-semibold text-[#163e32] hover:underline shrink-0"><>{t("Barcha kurslar")}</><ArrowRight className="size-4"/>
           </Link>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-6">
-          {COURSES.map((course, i) => (<motion.div key={course.slug} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} whileHover={{ y: -6 }} className="group rounded-3xl border-2 border-[#E2E4DF] p-7 hover:border-[#a7c4b1] hover:shadow-xl transition-all">
+          {COURSES.map((course) => (<div key={course.slug} className="group rounded-3xl border-2 border-[#E2E4DF] p-7 hover:border-[#a7c4b1] hover:shadow-xl transition-all">
               <div className="flex items-start justify-between mb-6">
                 <span className="text-4xl">{course.emoji}</span>
                 <span className={`text-[10px] font-bold px-3 py-1.5 rounded-full tracking-wider uppercase ${course.tagColor}`}>
@@ -317,7 +322,7 @@ function CoursesPreview() {
                 <span className="text-sm font-bold text-[#163e32] group-hover:text-[#0e3026]"><>{t("Kursni ko'rish")}</></span>
                 <ArrowRight className="size-4 text-[#163e32] group-hover:translate-x-1 transition-transform"/>
               </Link>
-            </motion.div>))}
+            </div>))}
         </div>
       </div>
     </section>);
@@ -326,7 +331,7 @@ function CTASection() {
     const { t } = useI18n();
     return (<section className="py-20 sm:py-28 bg-[#F5F4EE]">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative rounded-3xl bg-[#0f2017] p-12 sm:p-16 overflow-hidden">
+        <div className="relative rounded-3xl bg-[#0f2017] p-12 sm:p-16 overflow-hidden">
           {/* Background rings */}
           <div className="absolute -top-20 -right-20 size-64 rounded-full border border-white/5"/>
           <div className="absolute -bottom-20 -left-20 size-80 rounded-full border border-white/5"/>
@@ -339,7 +344,7 @@ function CTASection() {
             <Link href="/sign-up" className="inline-flex items-center gap-2.5 px-8 py-4 bg-white text-[#0f2017] rounded-2xl font-bold text-base hover:bg-[#f5f4ee] transition-all hover:-translate-y-0.5 shadow-xl"><>{t("Hozir ro'yxatdan o'tish")}</><ArrowRight className="size-5"/>
             </Link>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>);
 }

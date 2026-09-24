@@ -5,7 +5,6 @@ import React, { useRef, useEffect, useState, FormEvent, useCallback } from "reac
 import Link from "next/link";
 import { ArrowLeft, ArrowUp, CircleDollarSign, GraduationCap, MessageSquareText, Plus, ShieldCheck, UserRound, Mic, MicOff, Square, } from "lucide-react";
 import { Markdown } from "@/lib/markdown";
-import { AvatarViewer } from "./avatar";
 type Message = {
     id: string;
     role: "user" | "assistant";
@@ -246,7 +245,7 @@ export function TutorChat({ embedded = false, context, }: {
         setTimeout(() => inputRef.current?.focus(), 50);
     }
     return (<div className={`flex flex-col bg-[#f3f1eb] text-[#13251f] ${embedded ? "h-full" : "h-dvh"}`}>
-      {!embedded && (<header className="shrink-0 border-b border-[#13251f]/10 bg-[#f8f7f2]/90 backdrop-blur-xl">
+      {!embedded && (<header className="shrink-0 border-b border-[#13251f]/10 bg-[#f8f7f2]">
           <div className="mx-auto flex h-16 max-w-[900px] items-center justify-between px-4 sm:px-6">
             <div className="flex items-center gap-3">
               <Link href="/dashboard" aria-label={t("Dashboardga qaytish")} className="grid size-9 place-items-center rounded-full border border-[#13251f]/10 bg-white hover:bg-[#f5f4ee] transition-colors">
@@ -266,9 +265,6 @@ export function TutorChat({ embedded = false, context, }: {
 
       <main className="flex-1 min-h-0 overflow-y-auto">
         <div className={`mx-auto max-w-[900px] px-4 sm:px-6 ${embedded ? "py-4" : "py-6"}`}>
-          {!embedded && (<div className="mb-6 w-full max-w-[360px] mx-auto h-[220px] sm:h-[260px] shadow-lg rounded-3xl overflow-hidden">
-              <AvatarViewer isSpeaking={isLoading || isListening}/>
-            </div>)}
 
           {messages.length === 0 ? (<div className={`flex flex-col items-center justify-center text-center ${embedded ? "py-8" : "py-10"}`}>
               <div className="mx-auto grid size-14 place-items-center rounded-full border border-[#285744]/20 bg-[#e7ece6] text-[#285744]">

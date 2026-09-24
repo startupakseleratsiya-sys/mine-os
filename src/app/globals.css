@@ -163,10 +163,8 @@
 
   /* Glass card */
   .glass-card {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #ffffff;
+    border: 1px solid #E2E4DF;
     box-shadow: 0 8px 32px rgba(19, 37, 31, 0.08);
   }
 
@@ -203,78 +201,21 @@
   }
 }
 
-/* ── Keyframe Animations ── */
+/* ── Animatsiyalar ──
+   Tezlik uchun cheksiz bezak animatsiyalari olib tashlangan (float, glow, spin-slow va h.k.).
+   Faqat skeleton shimmer qoldi. */
 
 @keyframes shimmer {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  33% { transform: translateY(-12px) rotate(1deg); }
-  66% { transform: translateY(-6px) rotate(-0.5deg); }
+/* Tizimda «kamroq harakat» yoqilgan bo'lsa — barcha animatsiya va o'tishlar o'chadi. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-
-@keyframes float-slow {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-}
-
-@keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 20px var(--finora-glow); }
-  50% { box-shadow: 0 0 60px var(--finora-glow), 0 0 100px rgba(74, 158, 114, 0.2); }
-}
-
-@keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes spin-slow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes spin-reverse {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
-}
-
-@keyframes ping-slow {
-  0%, 100% { transform: scale(1); opacity: 0.75; }
-  50% { transform: scale(1.5); opacity: 0; }
-}
-
-@keyframes slide-up {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slide-in-right {
-  from { opacity: 0; transform: translateX(24px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes draw-circle {
-  from { stroke-dashoffset: 339.3; }
-  to { stroke-dashoffset: 0; }
-}
-
-/* Utility animation classes */
-.animate-float { animation: float 6s ease-in-out infinite; }
-.animate-float-slow { animation: float-slow 8s ease-in-out infinite; }
-.animate-glow-pulse { animation: glow-pulse 3s ease-in-out infinite; }
-.animate-gradient-shift { animation: gradient-shift 4s ease infinite; }
-.animate-spin-slow { animation: spin-slow 12s linear infinite; }
-.animate-spin-reverse { animation: spin-reverse 8s linear infinite; }
-.animate-ping-slow { animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
-.animate-slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-.animate-slide-in-right { animation: slide-in-right 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-.animate-fade-in { animation: fade-in 0.5s ease forwards; }

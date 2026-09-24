@@ -87,7 +87,7 @@ export default function ProfilePage() {
     const emailConfirmed = Boolean(user.email_confirmed_at);
     const joined = profile?.created_at ?? user.created_at;
     return (<div className="min-h-screen bg-[#f3f1eb] text-[#13251f]">
-      <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]/90 backdrop-blur-xl">
+      <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]">
         <div className="mx-auto flex h-16 max-w-[800px] items-center justify-between px-4 sm:px-6">
           <Link href="/dashboard" className="flex items-center gap-2.5">
             <span className="grid size-8 place-items-center rounded-full bg-[#163e32] text-white">

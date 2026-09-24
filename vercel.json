@@ -1,3 +1,6 @@
 {
-  "name": "ai-finance-tutor"
+  "name": "ai-finance-tutor",
+  "regions": [
+    "bom1"
+  ]
 }
