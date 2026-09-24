@@ -46,3 +46,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# PPP Guide 2026 (v2) manba PDF'lari — litsenziya tasdiqlanguncha repo/saytga chiqmaydi
+/sources/
