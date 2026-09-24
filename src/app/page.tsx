@@ -312,7 +312,7 @@ function CoursesPreview() {
               <div className="flex items-center gap-4 text-xs text-[#8e9b97] mb-6">
                 <span className="flex items-center gap-1.5">
                   <BookOpen className="size-3.5"/>
-                  {course.lessons}<>{t("dars")}</></span>
+                  {course.lessons}<>{" "}{t("dars")}</></span>
                 <span>{t(course.hours)}</span>
                 <span className="px-2 py-1 bg-[#f5f4ee] rounded-lg font-medium text-[#6B7A74]">
                   {t(course.level)}

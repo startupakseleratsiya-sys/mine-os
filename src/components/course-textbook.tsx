@@ -13,7 +13,10 @@ export function CourseTextbook({ course, startHref, completedIds }: {
 }) {
     const { t } = useI18n();
     const sources = [...new Map(course.chapters.flatMap((chapter) => chapter.source ? [[chapter.source.file, chapter.source] as const] : [])).values()];
-    const mainModules = course.modules!.slice(0, 8);
+    /** Modullarning PPP Guide'dagi asl bob raqamlari (Preparation: 3, 4, 5). */
+    const guideNumber = (id: string) => Number(course.chapters.find((ch) => ch.id === id)?.source?.file.match(/^chapter-(\d+)-/)?.[1] ?? 0);
+    const mainModules = course.modules!.filter((module) => guideNumber(module.id) > 0);
+    const guideChapters = mainModules.map((module) => guideNumber(module.id));
     const questions = course.chapters.reduce((sum, chapter) => sum + (chapter.quiz?.length ?? 0), 0);
     const cases = course.chapters.filter((chapter) => chapter.exercise).length;
     const modules = course.modules!.map((module) => ({ ...module, lessons: module.chapterIds.map((id) => {
@@ -36,7 +39,7 @@ export function CourseTextbook({ course, startHref, completedIds }: {
             <div>
               <Link href="/courses" className="mb-8 inline-flex items-center gap-2 text-sm text-[#52665e]"><ArrowLeft className="size-4"/><>{" "}{t("Kurslar kutubxonasi")}</></Link>
               <p className="mb-4 text-sm font-medium text-[#52665e]"><>{t("PPP Guide \u00B7 2016 nashri \u00B7 O\u2018zbekcha o\u2018quv yo\u2018li")}</></p>
-              <h1 className="max-w-xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl"><>{t("Davlat-xususiy sheriklik: g\u2018oyadan xizmatgacha")}</></h1>
+              <h1 className="max-w-xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">{t(course.title)}</h1>
               <p className="mt-6 max-w-lg text-base leading-7 text-[#52665e]"><>{t("Bir loyiha butun hayot davri bo\u2018ylab. Darsni o\u2018qing, qarorni o\u2018zingiz qabul qiling va uni asl qo\u2018llanma bilan solishtiring.")}</></p>
               <div className="mt-7 flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium">
                 <span>{course.chapters.length}<>{" "}{t("dars")}</></span><span>{cases}<>{" "}{t("amaliy keys")}</></span><span>{questions}<>{" "}{t("test savoli")}</></span>
@@ -48,11 +51,11 @@ export function CourseTextbook({ course, startHref, completedIds }: {
               <p className="mt-4 text-xs text-[#52665e]"><>{t("O\u2018qish va mashqlar ochiq. Natijalarni hisobingizda saqlashingiz mumkin.")}</></p>
             </div>
             <div className="self-center rounded-3xl bg-[#e5eee9] p-6 sm:p-8">
-              <div className="mb-6 flex items-center justify-between gap-4"><h2 className="text-lg font-semibold"><>{t("Loyihaning hayot davri")}</></h2><span className="text-xs text-[#52665e]"><>{t("8 bob")}</></span></div>
+              <div className="mb-6 flex items-center justify-between gap-4"><h2 className="text-lg font-semibold"><>{t("Loyihaning hayot davri")}</></h2><span className="text-xs text-[#52665e]">{guideChapters.length > 1 ? `PPP Guide chapters ${guideChapters[0]}–${guideChapters[guideChapters.length - 1]}` : `PPP Guide chapter ${guideChapters[0]}`}</span></div>
               <ol className="grid grid-cols-2 gap-x-5">
                 {mainModules.map((module, index) => (<li key={module.id} className="relative border-t border-[#bdcfc4] py-4">
                     <Link href={`#module-${module.id}`} className="group flex items-start gap-3 leading-5">
-                      <span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-xs font-semibold">{index + 1}</span>
+                      <span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-xs font-semibold">{guideChapters[index] ?? index + 1}</span>
                       <span className="text-sm font-medium group-hover:underline">{t(module.title)}</span>
                     </Link>
                   </li>))}

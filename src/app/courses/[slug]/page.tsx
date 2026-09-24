@@ -1,10 +1,11 @@
 import { getI18n } from "@/i18n/server";
 import React from "react";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft, ArrowRight, Award, BookOpen, CheckCircle2, Clock3, ListChecks } from "lucide-react";
 import { courseMinutes, formatMinutes, getCourse } from "@/content/courses";
+import { LEGACY_PPP_SLUG, PPP_FOUNDATION } from "@/content/ppp-course";
 import { getCurrentUser } from "@/services/user-service";
 import { courseProgress, getLessonProgress, type LessonProgressRow } from "@/lib/progress";
 import { LessonSource } from "@/components/lesson-source";
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function CourseDetailsPage({ params }: Params) {
     const { t } = await getI18n();
     const { slug } = await params;
+    if (slug === LEGACY_PPP_SLUG) permanentRedirect(`/courses/${PPP_FOUNDATION.slug}`);
     const course = getCourse(slug);
     if (!course)
         notFound();
@@ -50,7 +52,7 @@ export default async function CourseDetailsPage({ params }: Params) {
               {t(course.level)}
             </span>
             <span className="flex items-center gap-1.5 text-sm text-[#6B7A74] font-medium">
-              <BookOpen className="size-4"/> {course.chapters.length}<>{t("bob")}</></span>
+              <BookOpen className="size-4"/> {course.chapters.length}<>{" "}{t("bob")}</></span>
             <span className="flex items-center gap-1.5 text-sm text-[#6B7A74] font-medium">
               <Clock3 className="size-4"/> {t(formatMinutes(courseMinutes(course)))}
             </span>

@@ -31,7 +31,7 @@ export default async function OnboardingPage() {
               <p className="text-[#6B7A74] text-sm mt-3 leading-relaxed">{t(course.description)}</p>
               <div className="mt-5 flex items-center gap-4 text-xs text-[#8e9b97]">
                 <span className="flex items-center gap-1.5">
-                  <BookOpen className="size-3.5"/> {course.chapters.length}<>{t("bob")}</></span>
+                  <BookOpen className="size-3.5"/> {course.chapters.length}<>{" "}{t("bob")}</></span>
                 <span className="flex items-center gap-1.5">
                   <Clock3 className="size-3.5"/> {t(formatMinutes(courseMinutes(course)))}
                 </span>

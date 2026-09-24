@@ -60,11 +60,15 @@ for (const course of COURSES) {
     assert.deepEqual([...ids], Array.from(course.chapters, (chapter) => chapter.id));
   }
 }
-const ppp = getCourse("davlat-xususiy-sheriklik");
-assert.ok(ppp);
+// PPP: CP3P'ning 3 bosqichi — Foundation (1–2-bob + lug'at/mashq), Preparation (3–5), Implementation (6–8).
+const stages = ["cp3p-foundation", "cp3p-preparation", "cp3p-implementation"].map((slug) => getCourse(slug));
+assert.ok(stages.every(Boolean));
+assert.equal(getCourse("davlat-xususiy-sheriklik"), undefined);
+assert.deepEqual(stages.map((course) => course.modules.length), [3, 3, 3]);
+const ppp = { slug: stages[0].slug, chapters: stages.flatMap((course) => course.chapters) };
 assert.equal(ppp.chapters.length, 27);
-assert.equal(ppp.modules.length, 9);
-assert.ok(ppp.modules.slice(0, 8).every((module) => module.chapterIds.length === 3));
+assert.equal(new Set(ppp.chapters.map((chapter) => chapter.id)).size, 27);
+assert.ok(stages.flatMap((course) => course.modules).filter((module) => module.id !== "ppp-reference").every((module) => module.chapterIds.length === 3));
 assert.equal(ppp.chapters.filter((chapter) => chapter.exercise).length, 16);
 assert.equal(new Set(ppp.chapters.map((chapter) => chapter.source.file)).size, 11);
 for (const chapter of ppp.chapters) {

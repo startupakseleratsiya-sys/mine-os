@@ -1,4 +1,4 @@
-import { PPP_COURSE } from "./ppp-course";
+import { PPP_COURSES } from "./ppp-course";
 
 /**
  * Kurslar va boblar — yagona manba.
@@ -464,7 +464,7 @@ O'z holatingiz uchun (yosh, maqsad muddati, xavfga chidamlilik) taxminiy portfel
       },
     ],
   },
-  PPP_COURSE,
+  ...PPP_COURSES,
 ];
 
 export function getCourse(slug: string): Course | undefined {

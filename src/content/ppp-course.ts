@@ -371,7 +371,8 @@ const moduleDescriptions = [
   ["Xizmat va qaytarish", "Natijani kuzating va aktivni topshirishni rejalashtiring."],
 ];
 
-export const PPP_COURSE: Course = {
+/** Barcha PPP boblari bitta ro'yxatda — pastda CP3P'ning 3 bosqichiga bo'linadi. */
+const PPP_FULL: Course = {
   ...PPP_BASE,
   chapters: PPP_BASE.chapters.flatMap((chapter) => [
     { ...chapter, title: chapter.title.replace(/^\d+\.\s*/, ""), source: chapter.source && { ...chapter.source, startPage: Number(chapter.source.reading.match(/^\d+/)?.[0] ?? 1) } },
@@ -390,3 +391,73 @@ export const PPP_COURSE: Course = {
     { id: "ppp-reference", title: "Lug‘at va yakuniy mashq", description: "Atamalar, qisqartmalar va mustaqil bilim tekshiruvi.", chapterIds: ["ppp-glossary", "ppp-acronyms", "ppp-practice"] },
   ],
 };
+
+/** Eski yagona kursning manzili — eski havolalar yangi kursga yo'naltiriladi. */
+export const LEGACY_PPP_SLUG = "davlat-xususiy-sheriklik";
+
+type Stage = Pick<Course, "slug" | "title" | "shortTitle" | "description" | "level" | "emoji" | "outcomes"> & { moduleIds: string[] };
+
+/** APMG CP3P: Foundation (1–2-bob), Preparation (3–5), Implementation (6–8) — har birining alohida imtihoni bor. */
+function stage({ moduleIds, ...meta }: Stage): Course {
+  const modules = PPP_FULL.modules!.filter((m) => moduleIds.includes(m.id));
+  const ids = new Set(modules.flatMap((m) => m.chapterIds));
+  return { ...PPP_FULL, ...meta, tag: "new", modules, chapters: PPP_FULL.chapters.filter((ch) => ids.has(ch.id)) };
+}
+
+export const PPP_FOUNDATION: Course = stage({
+  slug: "cp3p-foundation",
+  title: "CP3P Foundation: PPP introduction and frameworks",
+  shortTitle: "CP3P Foundation",
+  description: "Stage 1 of the CP3P certification (PPP Guide chapters 1–2): what a PPP is, how it works and how governments build a PPP framework. Includes the glossary, acronyms and the official Foundation sample questions.",
+  level: "Boshlang'ich",
+  emoji: "🧭",
+  outcomes: [
+    "Distinguish a PPP from traditional public procurement and privatisation",
+    "Explain the PPP life cycle and its key decision points",
+    "Describe the legal and institutional PPP framework and the roles of government",
+    "Read common PPP terms and acronyms with confidence",
+    "Check your knowledge with Foundation-style practice questions",
+  ],
+  moduleIds: ["ppp-overview", "ppp-framework", "ppp-reference"],
+});
+
+export const PPP_PREPARATION: Course = stage({
+  slug: "cp3p-preparation",
+  title: "CP3P Preparation: identifying, appraising and structuring PPPs",
+  shortTitle: "CP3P Preparation",
+  description: "Stage 2 of the CP3P certification (PPP Guide chapters 3–5): project identification and PPP screening, appraisal (value for money, affordability, bankability) and structuring the tender and contract.",
+  level: "O'rta",
+  emoji: "📐",
+  outcomes: [
+    "Identify and screen projects for PPP suitability",
+    "Separate economic value, affordability and financing in an appraisal",
+    "Read a financial model and a DSCR calculation",
+    "Allocate risks and design the payment mechanism",
+    "Structure the tender documents and draft contract",
+  ],
+  moduleIds: ["ppp-screening", "ppp-appraisal", "ppp-structuring"],
+});
+
+export const PPP_IMPLEMENTATION: Course = stage({
+  slug: "cp3p-implementation",
+  title: "CP3P Implementation: tendering, delivery and contract management",
+  shortTitle: "CP3P Implementation",
+  description: "Stage 3 of the CP3P certification (PPP Guide chapters 6–8): running the tender to commercial and financial close, managing construction and commissioning, operations and hand-back.",
+  level: "Yuqori",
+  emoji: "🏗️",
+  outcomes: [
+    "Run a fair tender and evaluate bids against published criteria",
+    "Reach commercial and financial close",
+    "Manage construction, testing and commissioning",
+    "Monitor service performance and apply the payment mechanism",
+    "Prepare the asset for hand-back at the end of the contract",
+  ],
+  moduleIds: ["ppp-tender", "ppp-construction", "ppp-operations"],
+});
+
+export const PPP_COURSES: Course[] = [PPP_FOUNDATION, PPP_PREPARATION, PPP_IMPLEMENTATION];
+
+/** Eski /davlat-xususiy-sheriklik havolasi uchun: bob qaysi yangi kursda ekanini topadi. */
+export function pppCourseForChapter(chapterId: string): Course {
+  return PPP_COURSES.find((c) => c.chapters.some((ch) => ch.id === chapterId)) ?? PPP_FOUNDATION;
+}

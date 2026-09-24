@@ -114,7 +114,7 @@ export function CoursesGrid({ courses }: {
               <div className="flex gap-4 text-xs text-[#78837f] mb-6">
                 <span className="flex items-center gap-1.5">
                   <BookOpen className="size-3.5"/>
-                  {c.lessons}<>{t("dars")}</></span>
+                  {c.lessons}<>{" "}{t("dars")}</></span>
                 <span className="flex items-center gap-1.5">
                   <Clock3 className="size-3.5"/>
                   {t(c.time)}
