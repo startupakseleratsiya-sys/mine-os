@@ -20,18 +20,12 @@ export async function getLessonProgress(userId: string): Promise<LessonProgressR
     console.error("lesson_progress o'qishda xato:", error.message);
     return [];
   }
-  return (data ?? []) as LessonProgressRow[];
-}
-
-/** CP3P kurslari umumiy boblarni (5-bob) bo'lishadi — progress ular orasida umumiy. */
-function sameProgressScope(rowSlug: string, courseSlug: string) {
-  return rowSlug === courseSlug || (rowSlug.startsWith("cp3p-") && courseSlug.startsWith("cp3p-"));
+  // Eski (o'chirilgan) kurslar/darslar yozuvlari hisobga olinmaydi.
+  return ((data ?? []) as LessonProgressRow[]).filter((r) => getCourse(r.course_slug)?.chapters.some((ch) => ch.id === r.chapter_id));
 }
 
 export function courseProgress(rows: LessonProgressRow[], course: Course) {
-  const completedIds = new Set(
-    rows.filter((r) => sameProgressScope(r.course_slug, course.slug)).map((r) => r.chapter_id)
-  );
+  const completedIds = new Set(rows.filter((r) => r.course_slug === course.slug).map((r) => r.chapter_id));
   const completed = course.chapters.filter((ch) => completedIds.has(ch.id)).length;
   const total = course.chapters.length;
   return {
@@ -41,6 +35,25 @@ export function courseProgress(rows: LessonProgressRow[], course: Course) {
     completedIds,
     nextChapter: course.chapters.find((ch) => !completedIds.has(ch.id)) ?? null,
   };
+}
+
+/**
+ * Kurs ochiqmi: talab qilingan kurs (Foundation) to'liq tugatilgan bo'lishi kerak.
+ * Bu kursda allaqachon dars topshirgan bo'lsa — ochiq qoladi (keyin Foundation'ga dars qo'shilsa ham qayta yopilmaydi).
+ */
+export function courseUnlocked(rows: LessonProgressRow[], course: Course) {
+  if (!course.requires) return true;
+  if (rows.some((r) => r.course_slug === course.slug)) return true;
+  const req = getCourse(course.requires);
+  return !req || courseProgress(rows, req).percent === 100;
+}
+
+/** Dars ochiqmi: topshirilgan dars doim ochiq; aks holda kurs ochiq va oldingi dars topshirilgan bo'lishi kerak. */
+export function lessonUnlocked(rows: LessonProgressRow[], course: Course, index: number) {
+  const passed = (i: number) => rows.some((r) => r.course_slug === course.slug && r.chapter_id === course.chapters[i]?.id);
+  if (passed(index)) return true;
+  if (!courseUnlocked(rows, course)) return false;
+  return index <= 0 || passed(index - 1);
 }
 
 function dayKey(date: Date) {

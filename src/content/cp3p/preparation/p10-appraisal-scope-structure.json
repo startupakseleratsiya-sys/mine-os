@@ -1,0 +1,241 @@
+{
+  "id": "p10-appraisal-scope-structure",
+  "level": "preparation",
+  "order": 10,
+  "title": "Appraisal: contract scope, technical requirements, risk-adjusted costs and preliminary structure",
+  "minutes": 18,
+  "guideRef": "Ch 4 §1–§5",
+  "objectives": [
+    "Explain the purpose of the Appraisal Phase and the green light decision that ends it.",
+    "Describe how the contract scope and the technical requirements (design and performance) are developed.",
+    "Calculate a simple risk-adjusted cost and explain when to use probabilistic analysis.",
+    "Describe the preliminary PPP structure: revenue regime, payment mechanism and preliminary risk allocation."
+  ],
+  "sections": [
+    {
+      "heading": "1. What the Appraisal Phase is for",
+      "body": "The **Appraisal Phase** starts after a project has been identified, screened as a PPP and given a preliminary contract scope. It should end with a formal **green light decision**: to procure the project as a PPP, or to reject it as a PPP. This is one of the most important government decisions in the PPP process, because it commits large internal and external resources to structuring and drafting the contract. It also signals to stakeholders that the government intends to reach financial close.\n\nAppraisal answers a set of basic questions: Is the project economically sensible? Is it commercially viable? Is it practical as a PPP, how much will it cost, and is it affordable? Is there market interest and capability? What are the main obstacles, and can they be overcome cost-effectively?\n\nTwo decisions must be kept apart:\n- The **investment decision**: the project is worth doing, whatever the procurement method. It depends mainly on the cost-benefit analysis (CBA) and may already have been made in the Identification Phase.\n- The **procurement decision**: the project should be delivered as a PPP. It depends mainly on the **Value for Money (VfM)** assessment.\n\nThe Guide warns against pushing appraisal too far into structuring. A decision taken **too early** is made without understanding the issues that may cause failure, so obstacles are not anticipated; this often causes delays and political risk of termination. A decision taken **too late** may waste public money on unfeasible projects and creates a bias: after so much effort, officials rarely want to call a project unviable. Good practice is a formal green light at the end of appraisal, based on relevant information.\n\nTo take the procurement decision, the project team must have: confirmed the investment decision; good indications that the PPP delivers VfM; a reliable feasibility assessment (often called the **business case**); no blocking obstacles (or a plan to overcome major threats); and the basics of the contract structure. Note that a project can be feasible economically and technically but still not suit a PPP, for example when a PPP gives no real VfM. In some countries the VfM, affordability and debt-impact conclusions must be formally documented for the green light to meet legal standards.\n\n**Climate.** Best practice is to include climate in all feasibility analyses. Planners can use a **base plan** (all adaptation and resilience CAPEX is spent upfront) or an **adaptive plan** (adaptation spending is spread over the project life, triggered by climate-related indicators). The adaptive plan is cost-efficient, but it needs modular designs and a flexible contract and financial structure."
+    },
+    {
+      "heading": "2. The key deliverables and the contract scope",
+      "body": "Appraisal is multidisciplinary. Three elements are progressively detailed and describe the project. They are then tested in the feasibility assessments (technical, commercial, economic, fiscal, environmental, social, legal and VfM), and **each** assessment should reach a positive conclusion before the project is recommended:\n- the **technical requirements**;\n- the **preliminary contract structure** (risk allocation, revenue regime and payment mechanism);\n- the **financial model**.\n\nA **procurement strategy** is also produced. Together these are the first real body of contract and business conditions. The analysis must be detailed and have a clear audit trail, so the decision can be defended to the public and to courts of auditors.\n\n**Contract scope.** Screening gave a basic scope. In appraisal, it is refined. This is not always simple, because the same project can be delivered under very different scopes. A hospital PPP may cover only the building, or also include soft services (such as catering and cleaning) as well as hard services (such as maintenance), or even clinical services. In rail, contracts that include train operations have a very different risk structure and revenue regime from infrastructure-only contracts.\n\nScope is therefore a fundamental decision. It draws the **boundaries and interfaces** between the public and private sectors, frames the technical and performance requirements, and sets the context for choosing the revenue regime."
+    },
+    {
+      "heading": "3. Designing the technical requirements",
+      "body": "The **technical requirements** lie at the heart of the contract. They must give enough detail to define the infrastructure and service precisely, but without being too prescriptive. They produce the cost estimates used in the commercial feasibility analysis, and they feed the environmental, economic, VfM and affordability analyses. Clear requirements also help bidders price risk, which makes the tender more competitive.\n\nGood practice is to start with **benchmark projects** (PPP or traditional) that are comparable in complexity, risk and scope, ideally in the same country or region. The requirements must also comply with sector standards and legal limits. For example, some countries do not allow the private partner to deliver correctional services in a prison PPP.\n\n**Design and construction requirements** can be prepared in three ways:\n1. a **functional design**;\n2. a **reference design**;\n3. **full design and construction prescriptions**.\n\nThe first two are most common, because PPPs focus on outputs and leave room for innovation and life-cycle efficiency. A full design reduces innovation and weakens risk transfer, because design problems may lead to compensation claims against the government. A full design should be used only when the project is technically simple **and** the authority is certain of the optimal means of meeting the need. In every case, enough detail is needed to set the key design and time requirements and a reasonably precise cost estimate.\n\n**Performance requirements** (operations and maintenance specifications) should include: the scope and minimum content of the service as **output specifications**, not input specifications; the benefits for users; responsibilities kept by the public sector; a performance evaluation system; minimum maintenance requirements; and hand-back requirements.\n\n**Preparatory activities** include field and geo-technical surveys, land expropriation mapping and costs, resettlement, linked infrastructure such as utilities and access roads, archaeological surveys, route definition and utility relocation for linear projects, and the environmental assessment. Even if some of these stay with the government, their costs and uncertainty must be assessed for the VfM and affordability analyses."
+    },
+    {
+      "heading": "4. Risk in appraisal and risk-adjusted costs",
+      "body": "During appraisal, **risk identification must be exhaustive**; a missed risk can lead to a flawed appraisal and project failure. Good practice is a comprehensive **risk register**. Risk assessment is both **quantitative** (to build risk-adjusted costs) and **qualitative** (for the preliminary risk allocation).\n\nThe cost estimates normally include capital costs over time and operation and maintenance costs over the project life. They should reflect the **private sector's** expected costs, which may be lower than public costs thanks to foreseeable technical innovation or different regulatory requirements. Such efficiency gains should be used only when strongly justified, and **optimism bias** must be avoided.\n\nBecause estimates are uncertain, a **risk allowance** is added. The result is the **expected value** of costs, which is different from the most likely or best-case cost. The simple method multiplies the probability of an extra cost by its financial impact:\n\n| Event | Probability | Impact | Adjustment |\n|---|---|---|---|\n| Water pipe found under site | 25% | +$1,000,000 | +$250,000 |\n| Better ground conditions | 20% | −$500,000 | −$100,000 |\n\nA more sophisticated method is **probabilistic analysis**, usually **Monte Carlo simulation**, with tens of thousands of iterations. It is good practice only when reliable probability data exist; otherwise the simple method is better because it is easier to interpret and communicate.\n\nOnly **project-specific risks** go into the cost figures. **Systemic risks**, such as general economic conditions, cannot be diversified and are reflected in a higher required rate of return. These costs describe the private sector's view; a separate adjustment for traditional procurement comes later in the VfM exercise.\n\nThe outputs of this work are the design and performance requirements for the contract, base-case technical details, a technical risk assessment and **risk-adjusted costs**. Over-specification should be avoided, because it raises costs and harms affordability."
+    },
+    {
+      "heading": "5. Preliminary structure: revenue regime and payment mechanism",
+      "body": "The preliminary contract structure covers the **financial structure from the government's perspective** and the **risk allocation**. The Guide defines financial structure as the means of public compensation or payments to the private partner and their conditions (tenor, timing, indexation, deductions), plus any public financing support such as guarantees, equity or debt, and the resulting profile of government payments.\n\nThe **revenue regime** is the source of the project company's revenues:\n- **User-pays**: funded only by user charges, such as road tolls. Attractive for its nearly neutral budget impact, and users pay the marginal cost of what they use. A project may even be 'over-feasible', able to pay a concession fee to the authority, though such fees should be carefully considered.\n- **Government-pays**: funded only by government service payments. Typical for social infrastructure such as schools, hospitals and prisons, but also possible for roads without tolls. It can also be used to keep **demand risk** with the government, for example when the government collects tolls itself and pays the private partner.\n- **Mixed**: user charges plus government support, when user revenue is insufficient or the government wants lower prices for policy reasons. Support may be construction grants (co-financing) or complementary service payments in operation (a hybrid payment mechanism).\n\nWhen government payments exist, the **payment mechanism** sets their triggers, timing and calculation. Triggers may be availability, demand or output. Payments begin only once the service is operational and are usually regular, but they can follow other profiles to meet bankability needs. The choice of revenue regime should consider policy directives and the results of the legal due diligence, commercial feasibility and affordability work. During appraisal, at least the general triggers and timing must be assumed, because they are needed for commercial feasibility, affordability, debt impact and VfM."
+    },
+    {
+      "heading": "6. Preliminary risk allocation",
+      "body": "Risk allocation underlies most of the advantages of a PPP. To allocate a risk means to decide **which party bears the financial consequences** if a value differs from its base line. The principle is that each risk goes to the **party best able to manage it**. This creates incentives for monitoring and mitigation and lowers the cost of the risk.\n\nThe Guide gives two examples. In a tunnel, ground conditions are best managed by the contractor, so the contractor should bear them. In a prison, demand depends on sentencing policy, courts and parole boards, so transferring demand risk to the contractor is inefficient; payment should instead be based on performance, availability and occupancy.\n\nContracts allocate risk through the revenue regime and payment mechanism, express provisions such as guarantees and compensation, and financial re-equilibrium provisions. **At appraisal, a detailed contract is not needed.** A **risk allocation matrix** listing identified risks, mitigations and a proposed allocation is enough. It supports the risk adjustment of costs, the required return on equity and the adjustment of the **Public Sector Comparator** (the cost of the project under traditional procurement) in the VfM analysis.\n\nClimate risks are often transferred to the private party, but poor allocation or lack of insurance can create large contingent liabilities for the government. Climate risk allocation must be clearly defined, and may require a new definition of force majeure thresholds. Where insurance is hard to obtain, hybrid tools such as index-based products (for example weather derivatives), Catastrophic Drawdown Options (Cat DDOs) and state guarantees may help, although they are still new and not available everywhere."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Greenvale school bundle",
+    "body": "Imagine a region preparing a PPP for 12 schools. At appraisal the team decides the scope: build and maintain the schools and provide cleaning and security, but teaching stays public. Because the design is simple but the authority wants innovation in energy use, it prepares a **reference design**, not a full design.\n\nThe base construction cost is $40 million. Surveys show a 30% chance of poor soil on two sites, costing an extra $2 million. The risk adjustment is 0.30 × $2 million = **$600,000**, so the risk-adjusted CAPEX is $40.6 million. General economic risk is not added here; it belongs in the investors' required return.\n\nSchools charge no fees, so the team chooses a **government-pays** regime with availability payments that start when schools open. Its risk matrix gives construction and maintenance risk to the private partner, and demand (pupil numbers) to the government, because the region's policies drive enrolment."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing the investment decision with the procurement decision.",
+      "fix": "Investment decision = the project is worth doing (mainly CBA). Procurement decision = do it as a PPP (mainly VfM), taken at the green light."
+    },
+    {
+      "trap": "Thinking a full design is the standard PPP approach.",
+      "fix": "Functional or reference designs are most common. A full design only fits a technically simple project where the authority is certain of the optimal means."
+    },
+    {
+      "trap": "Confusing expected value with the most likely cost.",
+      "fix": "Expected value adds probability × impact of risks to the base line; the most likely or best-case cost does not include this risk value."
+    },
+    {
+      "trap": "Adding systemic risk to the cost estimates.",
+      "fix": "Only project-specific risks adjust costs. Systemic risks, like general economic conditions, are reflected in a higher required return."
+    },
+    {
+      "trap": "Believing government-pays PPPs never involve tolls.",
+      "fix": "A tolled road can be government-pays when the government collects tolls and pays the partner, keeping demand risk public."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Green light decision", "meaning": "The formal decision at the end of appraisal to procure the project as a PPP or not." },
+    { "term": "Technical requirements", "meaning": "The design and construction requirements plus the performance requirements that define the asset and service." },
+    { "term": "Reference design", "meaning": "An indicative design used to estimate costs and requirements, leaving room for bidders to innovate." },
+    { "term": "Output specification", "meaning": "A description of the results the service must achieve, rather than the inputs or methods used." },
+    { "term": "Risk-adjusted cost", "meaning": "A cost estimate that adds the expected value of risks (probability × impact) to the base line." },
+    { "term": "Optimism bias", "meaning": "The tendency to use overly optimistic assumptions that underestimate project costs." },
+    { "term": "Revenue regime", "meaning": "The source of the project company's revenue: user-pays, government-pays or mixed." },
+    { "term": "Payment mechanism", "meaning": "The rules that set the triggers, timing and calculation of government payments to the private partner." },
+    { "term": "Risk allocation matrix", "meaning": "A table of identified risks, mitigations and the proposed party to bear each risk." },
+    { "term": "Public Sector Comparator", "meaning": "An estimate of the risk-adjusted cost of delivering the project through traditional procurement." }
+  ],
+  "summary": [
+    "Appraisal ends with a formal green light decision; deciding too early or too late causes problems.",
+    "Three deliverables describe the project: technical requirements, preliminary contract structure and financial model.",
+    "Contract scope sets the public-private boundaries and frames requirements and revenue regime.",
+    "PPPs usually use functional or reference designs and output-based performance requirements.",
+    "Risk-adjusted cost = base cost plus probability × impact of project-specific risks; systemic risk goes into returns.",
+    "Revenue regimes are user-pays, government-pays or mixed; the payment mechanism sets triggers and timing.",
+    "At appraisal, a risk allocation matrix is enough; each risk goes to the party best able to manage it."
+  ],
+  "slides": [
+    {
+      "title": "The Appraisal Phase",
+      "points": ["Starts after successful screening", "Ends with the green light decision", "Too early or too late both hurt"],
+      "narration": "Welcome to the Appraisal Phase. The project has passed screening, and now we test it in depth. The phase ends with a formal green light decision: do we procure this as a PPP or not? That decision commits serious resources, so it must be well informed. The Guide warns about timing. Decide too early and you miss problems that can sink the project. Decide too late and you waste money, and officials may be biased toward saying yes after so much effort."
+    },
+    {
+      "title": "Two different decisions",
+      "points": ["Investment decision: worth doing? Mainly CBA", "Procurement decision: as a PPP? Mainly VfM", "Audit trail makes decisions defensible"],
+      "narration": "Keep two decisions apart. The investment decision says the project is worth doing, whatever the delivery method. It rests mainly on the cost-benefit analysis. The procurement decision says the project should be a PPP, and it rests mainly on the Value for Money assessment. Appraisal must be detailed, with a clear audit trail, so the decision can be defended to the public and to auditors. Exam questions often test whether you can tell these two decisions apart."
+    },
+    {
+      "title": "Scope of the contract",
+      "points": ["Same project, many possible scopes", "Hospital: building only or soft services?", "Scope sets public-private boundaries"],
+      "narration": "Now the contract scope. One project can be delivered in very different ways. A hospital PPP might cover only the building, or add soft services like cleaning and catering, or even clinical services. A rail PPP with train operations looks very different from one that only provides the track. So scope is a fundamental decision. It draws the boundaries and interfaces between public and private sectors, and it shapes the technical requirements and the revenue regime that follow."
+    },
+    {
+      "title": "Technical requirements",
+      "points": ["Start from comparable benchmark projects", "Functional or reference design is usual", "Performance requirements as output specifications"],
+      "narration": "Technical requirements sit at the heart of the contract. Start by studying benchmark projects with similar complexity and scope. For design, PPPs usually use a functional or a reference design. A full design blocks innovation and weakens risk transfer, because design faults may come back to the government. Use it only for simple projects where the authority is sure of the best method. For services, write output specifications, meaning the results required, not the inputs. And avoid over-specifying, because it raises costs."
+    },
+    {
+      "title": "Risk-adjusted costs",
+      "points": ["Expected value = base plus probability times impact", "Monte Carlo only with reliable data", "Systemic risk goes into required return"],
+      "narration": "Next, costs. Identify risks exhaustively and keep a risk register. Then adjust the costs for risk. The simple method multiplies probability by impact. A twenty-five percent chance of a one million dollar overrun adds two hundred and fifty thousand dollars. This gives the expected value, not the most likely cost. Monte Carlo simulation is more sophisticated, but use it only with reliable probability data. And remember, only project-specific risks go into costs. Systemic risks are reflected in investors' required return."
+    },
+    {
+      "title": "Revenue regimes",
+      "points": ["User-pays: charges like tolls", "Government-pays: service payments from the state", "Mixed: user charges plus public support"],
+      "narration": "The preliminary structure starts with the revenue regime. In user-pays PPPs, users fund the project, for example through tolls. This has an almost neutral budget impact. In government-pays PPPs, the government makes service payments, typical for schools, hospitals and prisons. A government-pays road can even have tolls, as long as the government collects them. Then the government carries the demand risk. Mixed regimes combine user charges with public support, such as construction grants or extra service payments during operation."
+    },
+    {
+      "title": "Payment mechanism",
+      "points": ["Triggers: availability, demand or output", "Payments usually start when service operates", "Assume triggers and timing at appraisal"],
+      "narration": "When the government pays, we need a payment mechanism. It sets what triggers payment, such as availability, demand or output, and when and how much is paid. Payments normally begin only once the service is operating. The full mechanism is designed later, in the Structuring Phase. But at appraisal, you must at least assume the general triggers and timing. Without them, you cannot test commercial feasibility, affordability, the impact on public debt, or Value for Money."
+    },
+    {
+      "title": "Preliminary risk allocation",
+      "points": ["Best-placed party bears the risk", "Tunnel ground risk: contractor; prison demand: government", "A risk matrix is enough now"],
+      "narration": "Finally, risk allocation. Each risk goes to the party best able to manage it. Ground conditions in a tunnel belong with the contractor. Prison demand depends on courts and sentencing policy, so it should not go to the private partner. At appraisal you do not need detailed contract clauses. A risk allocation matrix is enough, listing each risk, its mitigation and the proposed owner. Pay special attention to climate risk, where poor allocation can leave the government with large contingent liabilities."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A ministry wants to delay its formal PPP decision until the RFP is nearly finished, so it can see the full contract first. What risk does the Guide highlight with this approach?",
+      "options": [
+        "Market sounding becomes impossible during structuring",
+        "The authority loses the right to hire advisors",
+        "Public money may be wasted and officials may be biased toward approving the project",
+        "The investment decision must then be taken again from the start"
+      ],
+      "answer": 2,
+      "explanation": "A late decision may waste public money on unfeasible projects and creates incentives for biased conclusions, because officials rarely want to call a project unviable after so much effort. That is why a green light at the end of appraisal is good practice."
+    },
+    {
+      "question": "Which analysis mainly supports the procurement decision to deliver a project as a PPP?",
+      "options": [
+        "The cost-benefit analysis",
+        "The Value for Money assessment",
+        "The environmental impact assessment",
+        "The stakeholder communications plan"
+      ],
+      "answer": 1,
+      "explanation": "The procurement decision depends mainly on the VfM assessment. The CBA mainly supports the investment decision, which says the project is worth doing whatever the delivery method."
+    },
+    {
+      "question": "A health authority is preparing a hospital PPP and debates whether to include catering and cleaning in the contract, while keeping clinical services public. What is it deciding?",
+      "options": [
+        "The contract scope, which sets the boundaries between public and private sectors",
+        "The payment mechanism, which sets triggers for government payments",
+        "The discount rate used in the VfM analysis",
+        "The debt structure of the project company"
+      ],
+      "answer": 0,
+      "explanation": "Deciding which soft services to include is a contract scope decision. Scope delineates public and private boundaries and interfaces, and then frames the requirements and revenue regime."
+    },
+    {
+      "question": "An authority preparing a complex bridge PPP wants maximum innovation and strong risk transfer. Which design approach should it normally choose at appraisal?",
+      "options": [
+        "Full design and construction prescriptions for every element",
+        "No design work, leaving all estimates to bidders",
+        "A detailed input specification of construction methods",
+        "A functional or reference design with output-based requirements"
+      ],
+      "answer": 3,
+      "explanation": "PPPs usually use functional or reference designs to allow innovation. A full design weakens risk transfer because design problems may lead to compensation from the government, and it suits only simple projects."
+    },
+    {
+      "question": "Base CAPEX for a year is $10 million. There is a 40% chance that contaminated soil adds $2 million. Using the Guide's simple method, what is the risk-adjusted CAPEX?",
+      "options": [
+        "$10.0 million",
+        "$10.8 million",
+        "$12.0 million",
+        "$10.4 million"
+      ],
+      "answer": 1,
+      "explanation": "The adjustment is probability × impact: 0.40 × $2 million = $0.8 million, giving $10.8 million. Adding the full $2 million would give a worst case, not the expected value."
+    },
+    {
+      "question": "A project team has almost no reliable data on the probability of key risks. It is considering a Monte Carlo simulation. What should it do?",
+      "options": [
+        "Use the simpler probability-times-impact approach instead",
+        "Run Monte Carlo anyway, because more iterations fix poor data",
+        "Ignore risks until the Structuring Phase",
+        "Add all possible risks at full impact to be safe"
+      ],
+      "answer": 0,
+      "explanation": "Probabilistic analysis is good practice only when reliable probability information exists. Otherwise the simpler approach is better because it is more intuitive and easier to communicate."
+    },
+    {
+      "question": "An advisor proposes adding an allowance for a general economic recession to the project's construction cost estimate. How should the team respond?",
+      "options": [
+        "Accept it, because all risks must be added to the cost base",
+        "Accept it, but only for government-pays projects",
+        "Reject it, because systemic risks are reflected in a higher required return, not in costs",
+        "Reject it, because recessions are always allocated to lenders"
+      ],
+      "answer": 2,
+      "explanation": "Only project-specific risks should be addressed in the cost structure. Systemic risks cannot be diversified and are paid for by a higher rate of return required by the investor."
+    },
+    {
+      "question": "A government wants a tolled motorway PPP but does not want the private partner to bear traffic risk. Which revenue regime achieves this?",
+      "options": [
+        "A pure user-pays regime with tolls kept by the partner",
+        "A concession fee paid by the partner to the government",
+        "A mixed regime with construction grants only",
+        "A government-pays regime where the government collects tolls and pays the partner"
+      ],
+      "answer": 3,
+      "explanation": "In a government-pays regime the government collects the tolls and pays the partner, so the partner's revenue does not change with demand. Under pure user-pays, the partner keeps demand risk."
+    },
+    {
+      "question": "Consider these two statements. 1: At appraisal, a detailed description of the contractual instruments that allocate risk is required. 2: Risks should be allocated to the party best able to manage them.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "At appraisal, a risk allocation matrix with a proposed allocation is sufficient; detailed instruments come in structuring. The best-placed party principle is the Guide's general risk allocation rule."
+    },
+    {
+      "question": "A corrections ministry is appraising a prison PPP. Demand depends on sentencing policy and parole decisions. How should the preliminary structure treat demand?",
+      "options": [
+        "Base payments on performance, availability and occupancy rather than transferring demand risk",
+        "Transfer full demand risk to the contractor to maximize risk transfer",
+        "Let the contractor set the number of prisoners it accepts",
+        "Fund the project entirely by user charges"
+      ],
+      "answer": 0,
+      "explanation": "Prison demand is driven by government and court policy, so transferring it to the contractor is inefficient. The Guide suggests payments based on service performance, availability and occupancy."
+    }
+  ]
+}

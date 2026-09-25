@@ -1,0 +1,201 @@
+{
+  "id": "e04-commercial-terms-1",
+  "level": "execution",
+  "order": 4,
+  "title": "Commercial terms and contract provisions (part 1)",
+  "minutes": 16,
+  "guideRef": "Ch 5 §9 (§9.1–§9.5)",
+  "objectives": [
+    "Explain why a PPP contract needs certainty with bounded flexibility, and when to use standard contracts",
+    "Group the main contract provisions into rights, obligations, and risks/changes/disputes",
+    "Design performance requirements that are output-based, measurable and linked to payment",
+    "Distinguish a contract breach, a penalty system, performance points and an event of default",
+    "Describe how compensation events are rebalanced and what performance guarantees, reserve funds and insurance require"
+  ],
+  "sections": [
+    {
+      "heading": "1. Certainty with bounded flexibility",
+      "body": "In the previous lesson we built the RFP. Its main annex is the **contract**, and this lesson looks at its key commercial terms.\n\nThe risk allocation and financial structure designed earlier must be written into the contract. The essential driver is **clarity**, especially in defining **risk events** and the **right to claim compensation**. Ambiguity leads to conflict.\n\nBut PPP contracts are long, risky and complex, so they are **necessarily incomplete**: they cannot foresee every future situation. The World Bank reference guide (quoted in the Guide) sums up the aim: **'certainty where possible and bounded flexibility where needed'**. This is done by creating a **clear process and boundaries for change**, so that changing circumstances are handled inside the contract rather than through renegotiation or termination.\n\n**Standard contracts and models.** Standardising some features and clauses is a good framework approach. But:\n- Standard contracts and models should be used **with caution**, unless mandatory, because they are generic and not tailored to a market or project.\n- **Certain specific clauses** can be standardised when they reflect the government's strategy regardless of the project (for example, **termination** language).\n- A formal, **mandatory** standard contract should only be developed after **a lot of experience** from precedents.\n- Examples from other countries are useful but must be adapted.\n\nIn some **civil law** countries, the law regulates some provisions (such as termination) in detail. The Guide still considers it good practice to **develop these provisions in the contract**, as far as the law allows, for clarity, especially for international investors. Legal frameworks should give **general principles** and leave space for the contract to fine-tune risks."
+    },
+    {
+      "heading": "2. The main contents of a PPP contract",
+      "body": "Contract structures vary by country, sector and authority. It helps to group the main provisions into **three categories** (Figure 5.12 of the Guide):\n\n| Category | Typical provisions |\n|---|---|\n| **Rights of the private partner** (obligations of the public partner) | Payment/revenue mechanism; other payments; compensation for termination; compensation for compensation events; relief in relief events and force majeure; right to terminate; right to refinance and transfer shares (with conditions); right to pledge revenues and shares; lenders' rights |\n| **Obligations of the private partner** (rights of the public partner) | Technical and performance requirements; environmental, social, labour and safety duties; performance guarantee; insurance; time requirements; reporting; monitoring; remedies for breach and default, step-in; financial structure rules; revenue sharing or fees in some user-pays PPPs; hand-back |\n| **Risks, changes and disputes** | Definitions of force majeure, compensation and relief events; other changes; dispute resolution; confidentiality and disclosure; termination |\n\nThe logic of a contract:\n1. It starts with a clear **scope** and the private partner's responsibilities over the full cycle (design, build, finance, commission, operate and maintain, hand back), followed by its **economic rights** (the right to be paid). The public party's main obligation, to pay when due, is most complex in **government-pays** mechanisms.\n2. A PPP delegates a public service, so the public party needs **oversight and control rights**: breach definitions, penalties or liquidated damages (LDs), deductions, **step-in**, inspection and reporting.\n3. The contract must govern **changes and risks**. Together with performance remedies, this is the main framework for **contract management**.\n\nThe groundwork is laid in the **RFP documents** and should **not be radically changed during contract negotiation**."
+    },
+    {
+      "heading": "3. Performance requirements and monitoring",
+      "body": "**Performance requirements** (also called **output specifications**) describe the quality and/or quantity of service the private partner must deliver. The government is not paying for the asset; it is paying for the **ability to use the asset** under the conditions set in these requirements. Performance outcomes must be **closely tied to the project's desired outcomes**.\n\nThey are usually expressed as a **target level of service** measured by **Key Performance Indicators (KPIs)**. Good requirements are:\n- **Output-based, not input-based.** If the contract prescribes how to operate or which means to use, it is not really a 'performance' requirement. Outputs allow innovation and transfer the risk of inputs.\n- **Challenging but achievable** for a good operator. Unrealistic targets threaten financial sustainability and even bidder interest. But the government should still be ambitious.\n- **Measurable**, to avoid disputes during monitoring.\n- Often summarised as **SMART**: Specific, Measurable, Achievable, Relevant and Time constrained.\n\n**Monitoring.** The contract must set out clearly **how performance will be monitored**. Many guides favour using **information provided by the private partner**, because it is cost-effective and the operator is closest to the data. The private partner must run a **Quality Management System (QMS)**, and this should be a contractual obligation. The authority then:\n- **reviews** the QMS records rather than measuring everything itself;\n- carries out **spot checks and audits** to confirm the records are correct (the contract must give it these rights);\n- may use **independent sources**, such as users, teachers or doctors in social infrastructure.\n\n**Environmental and social requirements** are increasingly included, with obligations to implement, monitor and report, backed by penalties or rewards. Examples are local content and community benefit clauses, such as targets for women's participation in employment and training."
+    },
+    {
+      "heading": "4. Linking performance to payment and remedies",
+      "body": "In **availability** and quality-based mechanisms, performance and payment are intrinsically linked. Under-performance leads to **deductions**. A helpful way to think: payment is **earned** by availability. A partner that achieves 99 percent availability earns 99 percent of the payment, rather than 'being paid 100 percent minus a 1 percent penalty'.\n\nIn **volume-based** mechanisms (such as shadow tolls), performance is more often incentivised through explicit **penalties or LDs**.\n\nIn **user-pays** contracts, poor quality often reduces demand and therefore revenue, so linking outputs to payment is less central. But be careful: if a toll road is the **only viable route**, traffic will use it regardless of quality. Then the government needs **more specific quality requirements linked to direct penalties**.\n\n**Remedial tools** available to the authority (Box 5.31):\n1. **Deductions and penalties**: the first tool.\n2. **Increased penalties** under a **ratchet** mechanism.\n3. **External audits** at the private partner's expense.\n4. **Step-in**: the authority takes on some or all of the private partner's obligations. This may mean taking direct control of the project and possibly hiring a different operator.\n5. **Termination for default**: the ultimate remedy."
+    },
+    {
+      "heading": "5. Breaches, penalty systems and events of default",
+      "body": "A **breach of contract** is any failure to observe a provision of the contract: technical, time (for example, a long stop date or milestone), reporting, legal (such as labour law) or financial (such as minimum equity).\n\nBreaches usually lead to a **penalty**, unless the payment mechanism already handles them. The penalty should match the **importance** and **duration** of the breach. The scheme that classifies breaches and sets penalty levels is the **penalty system**. (In many common law countries 'penalty' has a special legal meaning, so the term **liquidated damages** is used instead.)\n\nGood practice:\n- **List, define and classify** breaches, with at least two categories: **major** and **minor**.\n- A minor breach **repeated** (for example, more than three times in 12 months) may be deemed major.\n- Except for very serious breaches, the authority should **notify** the partner and give a **grace period to rectify**.\n- Recognise **materiality** in defining major breaches.\n- Define **persistent breach** (for example, 10 minor or 5 major breaches within 24 months, a purely illustrative number). It leads to escalating consequences: higher penalties, more audits, step-in and ultimately default.\n- **No double punishment**: a failure already causing a deduction should not also earn a penalty.\n\nA penalty (or LD) is claimed from the private partner, **deducted from government payments**, or **taken from the performance guarantee**. In user-pays projects there is no government payment to reduce, so service failures are handled mainly through **penalties**.\n\n**Performance points** are a two-stage system. Each breach earns points; a penalty applies only when points reach a threshold. This avoids treating every minor slip formally, protects the **partnership** relationship and makes the trend towards persistent breach visible early. Persistent breaches should be **investigated**: they may show an incompetent partner, but also wrong requirements or over-strict monitoring.\n\nAn **event of default** is a breach of an obligation defined as **essential** in the contract (including persistent breach) that **entitles the authority to terminate**. So **not every breach is a default**. Good practice requires the breach to be **material** and gives a **cure period** before termination. On termination for default, the partner typically **loses the performance guarantee** and may suffer further financial loss."
+    },
+    {
+      "heading": "6. Compensation events and rebalancing",
+      "body": "When a **compensation event** occurs, the private partner has the **right to claim compensation** for the loss (or part of it, for shared risks). The loss can include **forgone revenue**, for example from a construction delay caused by a compensation event. In civil code countries this is called **rebalancing**: restoring the project's financial equation **as if the event had not happened**.\n\nThe contract should set out the process to **claim, determine and implement** compensation, and the method used to calculate it.\n\n**How is compensation paid?**\n- Events affecting **CapEx**: usually a **direct payment**.\n- Events affecting **future revenues or costs**: supplementary payments, or an increase in the **service price or tariff**.\n- Sometimes the government asks the **private partner to finance** the loss. This obligation should be **conditional on funds being available** from shareholders and lenders, with a duty to use **best endeavours** to raise them.\n\nIf the partner finances the loss, its **equity IRR** and **DSCR** (debt service cover ratio) fall. Good practice is for the contract to require the government to **restore the equity IRR and respect the minimum DSCR**, through tariff or price increases, direct payments, a **term extension**, or a mix.\n- Using the **NPV of project revenues and costs** as the indicator is **not** good practice: it may under-compensate equity.\n- A **term extension** works only if it does not break debt covenants and gives enough extra cash flow to restore the equity IRR.\n\n**Using the financial model (Box 5.35):**\n1. Estimate the loss (independent experts via dispute procedures if the parties disagree).\n2. Put the loss and its funding (usually a mix of equity and debt) into the original financial model, keeping all other inputs unchanged, and observe the lower equity IRR and DSCR.\n3. Increase revenue inputs (for example, service payments) until the original equity IRR is restored and the minimum DSCR is respected.\n\nUsed properly, the model **avoids over-compensation**."
+    },
+    {
+      "heading": "7. Other financial provisions",
+      "body": "The contract should also cover financial-structure matters introduced earlier in the course: **minimum equity** (limits on leverage), limits on **changes of control** and share transfers, **sharing of refinancing gains**, and **lenders' rights**. Three more topics matter here.\n\n**Performance guarantee.** The equity invested is the authority's first protection, as it is the first capital at risk. In addition, the partner must provide and maintain a **performance guarantee**: irrevocable and payable on demand (a bond or letter of credit). It funds penalties and the cost of rectifying breaches. If it is called, the partner must **top it back up**.\n- Usually **2–4 percent of total CapEx** estimated at the start.\n- **Higher in construction** than in operations (for example, 4 percent, then 2 percent).\n- Commonly **indexed** yearly to CPI or another general index.\n- During operations it is sometimes set as a multiple of annual O&M costs, but the Guide says it should stay in proportion to the **initial investment**.\n\n**Reserve funds.** Life-cycle risk is transferred, so the partner plans renewals and major maintenance and builds a **renewal investment reserve fund** in advance. How the reserves are funded is part of the financial plan at bid, and may be adjusted at financial close. Using these funds for anything other than renewal or major maintenance should need the **authority's specific authorisation**.\n\n**Insurance.** The partner is first in line to absorb physical losses, but some force majeure risks (war, riots, natural catastrophes) are retained or shared. The contract prescribes a **minimum insurance package**, because the government should not rely on the partner self-insuring. It should include:\n- **All risks** (physical damage);\n- **Third party liability**;\n- **Delay in start-up / business interruption**.\n\nInsurance proceeds are **deducted from any compensation** the government pays for the same event, which indirectly protects the government."
+    }
+  ],
+  "example": {
+    "title": "A persistent-breach path in an illustrative school PPP",
+    "body": "Imagine a fictional school PPP in 'Lorvania' with an availability payment and a performance points system.\n\n- **Month 2**: a classroom is unavailable for a day. The payment mechanism makes a **deduction**. No separate penalty is imposed (no double punishment).\n- **Month 3**: the SPV submits its monthly report late. This is a **minor breach**. The authority notifies the SPV, which fixes it within the grace period. It earns 2 performance points.\n- **Months 4–10**: late reports and missed cleaning audits continue. Points reach the first threshold, so a **penalty** is applied and **extra audits** are ordered at the SPV's cost.\n- **Month 12**: points reach the persistent-breach level. The authority investigates: the requirements are fine, but the facilities subcontractor is failing. The contract lets the SPV **replace the subcontractor**, and it does so.\n\nIf the SPV had not cured the problem, persistent breach of an essential obligation would become an **event of default**. After a cure period, the authority could terminate and call the **performance guarantee** (here 2 percent of initial CapEx during operations)."
+  },
+  "examTraps": [
+    {
+      "trap": "Treating every breach as an event of default",
+      "fix": "A breach is any failure to observe a provision. An event of default is a material breach of an essential obligation (or persistent breach) that entitles the authority to terminate."
+    },
+    {
+      "trap": "Adding a penalty on top of an availability deduction for the same failure",
+      "fix": "A breach should not be punished twice. Failures handled by deductions should not also earn an explicit penalty."
+    },
+    {
+      "trap": "Writing input specifications and calling them performance requirements",
+      "fix": "Performance requirements describe outputs and service levels (KPIs), not the means or number of staff."
+    },
+    {
+      "trap": "Restoring the project NPV instead of the equity IRR after a compensation event",
+      "fix": "Good practice restores the equity IRR and respects the minimum DSCR; NPV of project cash flows may not fully compensate equity."
+    },
+    {
+      "trap": "Confusing the performance guarantee (2–4% of CapEx) with the bid bond (1–2%)",
+      "fix": "The bid bond secures signature; the performance guarantee secures performance for the contract life and is higher in construction."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Bounded flexibility", "meaning": "Building clear processes and limits for change into the contract so it can adapt without renegotiation." },
+    { "term": "Output specification", "meaning": "A performance requirement describing the service result to be delivered, measured by KPIs, rather than inputs." },
+    { "term": "Quality Management System (QMS)", "meaning": "The private partner's system for recording and managing quality, which the authority reviews and audits." },
+    { "term": "Penalty system", "meaning": "The contractual scheme that defines and classifies breaches and sets the penalty for each." },
+    { "term": "Performance points", "meaning": "A two-stage system where breaches earn points and penalties or remedies apply when thresholds are reached." },
+    { "term": "Persistent breach", "meaning": "An accumulation of breaches within a defined rolling period that triggers escalating consequences, up to default." },
+    { "term": "Event of default", "meaning": "A material breach of an essential obligation, including persistent breach, that entitles the authority to terminate." },
+    { "term": "Step-in", "meaning": "The authority's right to take over some or all of the private partner's obligations, possibly with a new operator." },
+    { "term": "Rebalancing", "meaning": "Restoring the project's financial equation after a compensation event, as if the event had not occurred." },
+    { "term": "Performance guarantee", "meaning": "An on-demand bond or letter of credit, typically 2–4% of CapEx, used to fund penalties and rectification." }
+  ],
+  "summary": [
+    "Aim for certainty where possible and bounded flexibility where needed; use standard contracts with caution.",
+    "Contract provisions fall into rights of the private partner, its obligations, and risks/changes/disputes.",
+    "Performance requirements are output-based, SMART and monitored mainly through the partner's QMS plus audits.",
+    "Deductions come first; then ratchets, external audits, step-in and, finally, termination for default.",
+    "Not every breach is a default: default is a material breach of an essential obligation, after a cure period.",
+    "Rebalancing restores the equity IRR and minimum DSCR using the financial model, not the project NPV.",
+    "Performance guarantee 2–4% of CapEx, reserve fund use needs approval, and a minimum insurance package is standard practice."
+  ],
+  "slides": [
+    {
+      "title": "Certainty with bounded flexibility",
+      "points": ["PPP contracts are necessarily incomplete", "Clear processes and limits for change", "Standard contracts: use with caution", "Standardise key clauses like termination"],
+      "narration": "Welcome to the contract itself. A PPP contract lasts decades, so it can never predict everything. The goal is certainty where possible and bounded flexibility where needed. In other words, the contract should include clear rules and limits for change, so problems are solved inside the contract, not by renegotiation. Standard contracts help, but use them carefully because they are generic. Standardise specific clauses, like termination language, and only make a full contract mandatory once your country has real experience from past deals."
+    },
+    {
+      "title": "Three groups of provisions",
+      "points": ["Rights of the private partner", "Obligations of the private partner", "Risks, changes and disputes", "Groundwork fixed in the RFP"],
+      "narration": "A simple way to remember the contract is three boxes. First, the private partner's rights: mainly the right to be paid, plus compensation, relief, termination rights and lenders' rights. Second, its obligations: technical and performance requirements, insurance, guarantees, reporting, and the remedies if it fails. Third, risks, changes and disputes: how risk events are defined, how changes happen, and how disagreements are solved. Remember that the core of all this is set in the RFP, and it should not be radically changed during negotiation."
+    },
+    {
+      "title": "Performance requirements",
+      "points": ["Outputs, not inputs", "Challenging but achievable", "Measurable and SMART", "Tied to desired project outcomes"],
+      "narration": "The government is not buying a building. It is buying the ability to use it, at a defined level of service. So performance requirements should describe outputs, measured by key performance indicators, not how many staff or machines to use. Targets should be challenging but achievable for a good operator. If they are unrealistic, the project may become unviable or unattractive. And they must be measurable, or every monthly report becomes an argument. A handy test is SMART: specific, measurable, achievable, relevant and time constrained."
+    },
+    {
+      "title": "Monitoring through the QMS",
+      "points": ["Partner runs a Quality Management System", "Authority reviews records", "Spot checks and audits verify data", "Users give independent evidence"],
+      "narration": "How do we check performance without hiring an army of inspectors? Most guides recommend using the private partner's own information. The partner must run a quality management system, and this is a contractual duty. The authority reviews those records, and then carries out spot checks and audits to make sure they are true. The contract must give it those rights. The authority can also listen to independent sources, such as users, teachers or doctors. This is cost-effective, and the operator is the one closest to the data."
+    },
+    {
+      "title": "From deductions to termination",
+      "points": ["Deductions and penalties come first", "Ratchet: rising penalties", "External audits at partner's cost", "Step-in, then termination for default"],
+      "narration": "When performance slips, the authority has a ladder of tools. The first step is deductions from payment, or penalties where there is no payment to deduct from, as in user-pays projects. If problems continue, penalties can ratchet up, and external audits can be imposed at the partner's cost. Next comes step-in, where the authority takes over some duties, maybe with a new operator. The last step is termination for default. Each step is stronger than the one before, so the partner has a clear reason to fix problems early."
+    },
+    {
+      "title": "Breach versus default",
+      "points": ["Breach: any failure to meet a provision", "Default: material breach of essential obligation", "Grace and cure periods first", "No double punishment"],
+      "narration": "This is a favourite exam topic. A breach is any failure to follow the contract, big or small. An event of default is much narrower: a material breach of an essential obligation, or persistent breaches, which gives the authority the right to terminate. So every default is a breach, but not every breach is a default. Good contracts classify breaches as major or minor, give the partner notice and a grace period to fix things, and never punish the same failure twice, once by deduction and again by penalty."
+    },
+    {
+      "title": "Performance points",
+      "points": ["Breaches earn points, not instant penalties", "Thresholds trigger escalating remedies", "Protects the partnership relationship", "Investigate the cause of persistence"],
+      "narration": "Performance points are a clever middle step. Instead of fining every small slip immediately, each breach earns points. When points pass a threshold, penalties or other remedies apply, and higher thresholds bring stronger remedies. This keeps the relationship healthy and shows the trend early. When breaches become persistent, do not just punish. Investigate. Maybe the partner is weak, but maybe the requirement itself is wrong, or the monitoring is too strict. Good contract managers look for the cause."
+    },
+    {
+      "title": "Rebalancing after a compensation event",
+      "points": ["Right to compensation for the loss", "CapEx: direct payment usually", "Restore equity IRR, respect minimum DSCR", "Use the financial model, not project NPV"],
+      "narration": "When a compensation event hits, the private partner can claim for its loss, including lost revenue. In civil law countries this is called rebalancing: putting the project back where it would have been. Capital costs are usually paid directly; future losses are usually covered through higher payments or tariffs. If the partner finances the loss, the contract should restore its equity return and keep its debt cover ratio above the minimum. The financial model does this job: add the loss, keep everything else the same, then adjust revenues until the original return is back."
+    },
+    {
+      "title": "Guarantees, reserves and insurance",
+      "points": ["Performance guarantee: 2 to 4 percent of CapEx", "Higher in construction than operations", "Reserve fund use needs authority approval", "All risks, liability and business interruption cover"],
+      "narration": "Finally, three financial protections. The performance guarantee is usually two to four percent of the initial capital cost, higher during construction, and indexed each year. It pays for penalties and fixing breaches, and must be topped up if used. The renewal reserve fund saves money for future major maintenance, and it cannot be used for anything else without the authority's approval. And the partner must hold a minimum insurance package: all risks, third party liability, and business interruption. Insurance money reduces what the government must pay."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A ministry wants to copy a foreign country's full standard PPP contract and make it mandatory for its very first PPP. What should its advisers recommend?",
+      "options": ["Adopt it as mandatory, because standardisation always reduces risk", "Use it as a resource, adapt it to the project, and standardise only specific clauses", "Avoid any standard clauses, including termination language", "Leave all provisions to the general law instead of the contract"],
+      "answer": 1,
+      "explanation": "Standard contracts should be used with caution and adapted; a mandatory standard should only follow substantial experience. Specific clauses such as termination language can be standardised."
+    },
+    {
+      "question": "Draft output specifications for a hospital PPP require the operator to employ 40 cleaners per shift. What should the procuring authority do?",
+      "options": ["Keep it, because staffing levels are easy to monitor", "Keep it and add a penalty for each missing cleaner", "Replace it with measurable cleanliness service levels (KPIs)", "Remove all cleaning requirements to encourage innovation"],
+      "answer": 2,
+      "explanation": "Performance requirements should describe outputs, not inputs. Prescribing staff numbers limits innovation and does not transfer the risk of inputs to the partner; measurable service levels are needed instead."
+    },
+    {
+      "question": "An authority wants cost-effective monitoring of a PPP's service performance. Which approach reflects the Guide's recommended practice?",
+      "options": ["Review the partner's QMS records and verify them with spot checks and audits", "Rely only on the partner's monthly self-assessment without any checks", "Employ a large team to measure every KPI directly", "Monitor performance only at hand-back"],
+      "answer": 0,
+      "explanation": "Many guides favour using the partner's information through its QMS, with the authority reviewing records and conducting spot checks and audits. Relying on unchecked self-reporting is not enough."
+    },
+    {
+      "question": "A toll road PPP is the only viable road between two cities. The authority assumes low quality will reduce traffic and therefore revenue. What should it do?",
+      "options": ["Rely on demand to punish poor quality", "Convert the project to availability payments", "Remove all output requirements from the contract", "Include specific quality requirements linked to direct penalties"],
+      "answer": 3,
+      "explanation": "Where users have no alternative route, traffic will not fall with poor quality, so the demand incentive does not work. The Guide suggests specific quality requirements backed by direct penalties or LDs."
+    },
+    {
+      "question": "In an availability-payment PPP, a ward is unavailable for two days and the payment is reduced under the payment mechanism. The authority also wants to impose a separate penalty for the same event. What should it do?",
+      "options": ["Impose the penalty, as deductions and penalties always apply together", "Double the deduction instead of a penalty", "Not impose a separate penalty, because a breach should not be punished twice", "Treat the event as an event of default"],
+      "answer": 2,
+      "explanation": "Breaches that already result in deductions in government-pays projects should not also earn an explicit penalty. A single two-day unavailability is not an event of default."
+    },
+    {
+      "question": "Statement 1: Every breach of a PPP contract is an event of default. Statement 2: Persistent breaches can constitute an event of default.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 1,
+      "explanation": "Not every breach is a default: default is a material breach of an essential obligation. Accumulated breaches reaching persistent breach can constitute an event of default."
+    },
+    {
+      "question": "An SPV commits a minor reporting breach for the first time. What should the procuring authority normally do?",
+      "options": ["Notify the SPV and give it a grace period to rectify", "Terminate the contract immediately for default", "Step in and take over operations", "Call the full performance guarantee"],
+      "answer": 0,
+      "explanation": "Except for very significant breaches, good practice is to notify the private party and provide a grace period to rectify. Step-in, guarantee calls and termination are escalated remedies."
+    },
+    {
+      "question": "A change in law (a compensation event) requires extra CapEx. The authority asks the SPV to finance it, which lowers the SPV's equity IRR. How should the contract compensate the SPV?",
+      "options": ["Restore the NPV of total project revenues and costs", "Pay nothing, because the SPV financed the cost itself", "Extend the term regardless of debt covenants", "Increase revenues to restore the equity IRR and respect the minimum DSCR"],
+      "answer": 3,
+      "explanation": "Good practice is to restore the equity IRR and respect the minimum DSCR. Using project NPV is not good practice, and an extension is only suitable if it respects debt covenants and restores the IRR."
+    },
+    {
+      "question": "The parties use the financial model to calculate rebalancing after a compensation event. What is the correct approach?",
+      "options": ["Update all inputs to current forecasts, then compare", "Add the loss and its funding, keep other inputs unchanged, then adjust revenue until the IRR is restored", "Ignore the model and negotiate a lump sum", "Reduce the minimum DSCR so the loss disappears"],
+      "answer": 1,
+      "explanation": "Box 5.35: introduce the loss and its funding with other inputs unaltered, observe the lower IRR and DSCR, then increase revenue inputs to restore the IRR and respect the minimum DSCR. This avoids over-compensation."
+    },
+    {
+      "question": "An SPV wants to use money in its renewal reserve fund to pay an early dividend. Its contract follows good practice. What must happen?",
+      "options": ["Nothing; the SPV controls its reserve funds freely", "The lenders alone decide", "The SPV needs the procuring authority's specific authorisation", "The fund must be transferred to the authority first"],
+      "answer": 2,
+      "explanation": "Good practice sets limits on reserve funds: any use other than renewal or major maintenance requires specific authorisation from the procuring authority."
+    }
+  ]
+}

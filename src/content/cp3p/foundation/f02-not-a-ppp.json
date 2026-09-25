@@ -1,0 +1,298 @@
+{
+  "id": "f02-not-a-ppp",
+  "level": "foundation",
+  "order": 2,
+  "title": "What is not a PPP: traditional procurement and other options",
+  "minutes": 13,
+  "guideRef": "Ch 1 §2 intro, §2.1",
+  "objectives": [
+    "Explain why private participation in infrastructure (PPI) is not the same as a PPP.",
+    "Describe Build-only (B) and Design-Build (DB) contracts and who carries which risks under them.",
+    "State the four conditions under which B or DB contracts may be the right choice.",
+    "Explain how a Design, Build and Finance (DBF) contract works and why the PPP Guide does not regard it as a PPP.",
+    "Compare DB and DBF against the essential PPP features."
+  ],
+  "sections": [
+    {
+      "heading": "1. The spectrum of private participation",
+      "body": "The private sector can take part in public infrastructure in many ways. The PPP Guide shows these on a **spectrum** (Figure 1.1). At one end, the public sector keeps **control and most of the risk**. At the other end, the private sector takes **more risk and control**, and the public side mainly acts as a **regulator**.\n\nAlong the spectrum the Guide places, among others:\n\n- **Non-PPPs**: short-term service or O&M contracts (for example, a two-year road maintenance contract), **DB or B** contracts, and **DBF** contracts.\n- **Service PPPs**: long-term, “at-risk” management or service contracts.\n- **Infrastructure PPPs**: **DBOM** contracts.\n- **Private finance infrastructure PPPs**: government-pays or user-pays **DBFOM** contracts. Long-term leases that **monetise** an existing asset also sit near here, as a special kind of service PPP with significant private finance.\n- **Outside procurement altogether**: public domain concessions and authorisations for regulated assets, and privatised companies in liberalised, regulated markets.\n\nIn the Guide, “**infrastructure**” has a **broad meaning**. It includes complete systems with major civil works, but also **equipment** (such as rolling stock for a railway) and **plants** (such as independent power producers or wastewater treatment plants). It covers **social infrastructure** (hospitals, schools) and **economic infrastructure** (water, energy, transport, telecommunications). The Guide uses “infrastructure”, “public asset” and “asset” to mean the same thing.\n\n**Private Participation in Infrastructure (PPI)** is **not a synonym for PPP**. PPI is a wider term used by institutions such as the World Bank Group for **any** private investment in, or private management of, infrastructure. The World Bank's PPI database includes PPP projects, but also many projects that are **not** PPPs."
+    },
+    {
+      "heading": "2. What turns private involvement into a PPP",
+      "body": "A PPP, even in the broad sense, is an option to **procure and/or manage** infrastructure and related services. So the term implies two things: there is a **contract**, and the government has a **specific intention to contract out** the development and/or management of the infrastructure or service.\n\nThe Guide sets a clear rule:\n\n> **Only a procurement contract can be a PPP, and only when all the features of a PPP are met** (except significant private finance, which is only needed for a *private finance* PPP).\n\nFrom this rule, the Guide lists some things that are **not enough on their own** to make something a PPP:\n\n- **Private sector involvement alone** is not enough.\n- A **complete scope bundled in one contract** is not enough.\n- **Private finance** alone is not enough.\n- The **source of revenue** (users or budget) is **not a decisive factor**. Many contractual and non-contractual arrangements take revenue from users or from the budget without being PPPs. For example, a state-owned company may borrow against future toll revenue and then hire a contractor under a normal DB contract. That is still conventional procurement.\n\nThis is an important exam idea. A question may describe a project with private money, or with user charges, and ask whether it is a PPP. You must check **all** the features: a long-term contract, bundling of construction with long-term management, significant risk transfer over the life cycle, and pay linked to performance or use. For a private finance PPP, you must also check for significant private finance at risk.\n\nThe Guide then groups the options into four families:\n\n1. Infrastructure procurement options that are **not** PPPs (this lesson).\n2. Options that **may** be PPPs (DBOM, DBFOM and variations).\n3. Contracts for managing services or existing infrastructure.\n4. Other private involvement, such as privatisation."
+    },
+    {
+      "heading": "3. Traditional procurement: public finance and public management",
+      "body": "Traditionally, public works are **financed by the government** from the **public budget**. The public sector *can* raise debt for a specific project, but this is not common. In most jurisdictions, public debt follows the **“single-till principle”**: borrowing is for the **general purposes of government**, not tied to specific projects.\n\nIn the past, many governments built works with their own equipment and staff. Today, almost all public works are built by **separate corporations**, usually **contracted through a public tender**. Even where public construction corporations exist, most of the work is done by private firms as **subcontractors**.\n\nTraditional procurement usually takes one of two forms:\n\n- **Build-only (B)**: another entity has already completed the design. A contract is tendered only to **build** the asset.\n- **Design-Build (DB)**: a **single contract** is tendered for **both design and construction**.\n\nOther names for the same scope:\n\n- **EPC (Engineering, Procurement and Construction)**: used in some countries, especially when the asset is mainly a **plant**.\n- **Turnkey contract**: a contract where the **price and the construction term are fixed**.\n\n**How money and risk flow in B and DB (Figure 1.2):**\n\n- The authority **pays for the works from its budget**, usually **as work progresses**, at the agreed price (or subject to revisions).\n- The contractor **delivers the asset at construction completion**. From then on, the authority takes **entire responsibility** for the asset.\n- The contractor may have to **fix defects** at its own cost for a **short period**, sometimes backed by **security** such as a bank guarantee. It may stay liable for **hidden defects** for longer, but with **no security**.\n- **Ordinary maintenance** is usually given to a private firm through a **separate contract**.\n- **Long-term, life-cycle management** and its risks **stay with the government** (or a public agency). **Renewals and major maintenance** are contracted and funded by the government when needed."
+    },
+    {
+      "heading": "4. The weakness of B and DB, and when they still make sense",
+      "body": "B and DB contracts **do not incentivise** the contractor to care about the **long-term quality and resilience** of the asset. After handover, the asset is no longer the contractor's problem.\n\nWorse, the contractor has a clear motivation to **increase profit** in two ways:\n\n- **Reducing costs**, which can **compromise quality**; or\n- **Claiming extra payments**, for example when the government changes the scope (a **variation**).\n\nThe public sector can control these risks only through **intensive quality assurance** and by being **highly prescriptive** in the technical requirements. In other words, the authority must write detailed **input specifications** and check the work closely.\n\nThis does **not** mean B or DB is bad. The Guide says B or DB can be **appropriate in many instances**, provided that the public sector:\n\n1. **Has the skills**;\n2. **Knows clearly what it wants** as a technical solution;\n3. **Prefers to retain the maintenance responsibility** over the life of the asset; and\n4. **Has funds available** in the budget to pay for the works.\n\nThe Guide also stresses that there is **no universally preferred or best procurement option** for any infrastructure. **Each project** needs its own optimum procurement route. A good CP3P practitioner does not assume a PPP is always better. They ask which route gives the best result for *this* project."
+    },
+    {
+      "heading": "5. Design, Build and Finance (DBF): how it works",
+      "body": "A **DBF contract** looks like a DB contract in two ways. The government **receives the asset when construction is completed**, and it **keeps the long-term responsibilities and risks** for the state of the asset.\n\nThe difference is **timing of payment**:\n\n- The government **does not pay for the works as they progress**. It **defers** payment.\n- The contractor funds the construction costs. This makes the contractor a **“de facto” lender** to the public sector.\n- The lending is often **indirect**. A **bank** provides the funds, secured by a **pledge on the right to receive the government's payments**. Sometimes the bank even **buys those future payments at a discount without recourse**. This is called **forfaiting**.\n- Payments start only at the **end of construction**, at the **commissioning** stage. They are usually made in **fixed instalments** over several years. The amount is offered by the winning bidder and includes **both construction and financing costs**.\n\nSo a DBF can be seen as a **variation of traditional procurement**. The only change is when the government pays.\n\n**Why is DBF not a PPP under the Guide?**\n\n- The private finance is **not materially subject to project performance risk**. It is exposed **only to construction risk**. Once the asset is built, the government must pay the fixed instalments whatever happens to the asset. So the Guide does **not** regard this as **private finance**.\n- DBF is usually treated as **public finance** under many national accounting rules. Countries that follow international government accounting standards should record both the **asset and the liability** in government accounts, because the authority fully controls the asset and takes all its risks after construction.\n- There is **no bundling** of long-term maintenance and **no link between pay and performance** of the asset."
+    },
+    {
+      "heading": "6. DBF: benefits, costs and the “innovative financing” label",
+      "body": "Why would a government choose DBF? The usual aim is to **bridge a short-term restriction of funds**. The government gets the asset now and pays later.\n\nThe Guide notes some possible benefits:\n\n- The debt is **dedicated to the asset**, so the lender adds an **extra layer of due diligence**. This due diligence covers **only construction risks**.\n- There may be a **greater transfer of construction risk** than in B or DB, mainly the risk of **delay**, because cash comes only once the work is complete.\n- This can improve efficiency, especially the **reliability of the construction schedule**, provided that payments really depend on **completion and commissioning**.\n\nBut there are costs and limits:\n\n- The government **should consider** whether these benefits **offset the higher cost of financing**. Credit risk is very limited, but there will still be an **interest rate premium** over the cost of the government borrowing directly.\n- As in DB, there is **no natural incentive for quality construction**. There may even be a **perverse incentive** for the contractor to maximise its margin during construction, because pay is not linked to the performance of the works or future service. The **life-cycle cost** stays with the public sector.\n\nSome countries call DBF a type of PPP, sometimes as **“innovative financing”**, because of the private financing and the greater construction risk transfer. **For the PPP Guide, a DBF is not a PPP.**\n\nFinally, the Guide adds balance: a PPP may not be the best option for a project, and in that case a DBF **may offer advantages** compared with a purely conventional B or DB contract.\n\n| PPP feature (Table 1.2) | DB | DBF |\n|---|---|---|\n| Formal contract | Yes | Yes |\n| Long-term | No | Sometimes |\n| Design-build and O&M bundled | No | No |\n| Significant life-cycle risk transfer | No | No (construction risk only) |\n| Private finance | No | Yes |\n| Revenue linked to performance or use | No | No |"
+    }
+  ],
+  "example": {
+    "title": "Two ways to build the Northgate Bridge",
+    "body": "Imagine the fictional Province of Northgate needs a new river bridge. Its engineers have strong skills, the design is simple, and the province already maintains many similar bridges.\n\n**Route 1: Design-Build.** The province tenders one contract for design and construction and pays monthly as work progresses. It then maintains the bridge itself. This fits well. The province has the **skills**, knows **what it wants**, prefers to **keep maintenance**, and has **budget** available. It must still supervise quality closely, because the contractor has no long-term interest in the bridge.\n\n**Route 2: DBF.** Suppose the budget is tight this year. The province asks the contractor to finance construction and repay it in ten fixed annual instalments that start at commissioning. A bank lends to the contractor against the right to those instalments. The province gets the bridge sooner and transfers more **delay risk**. But it pays an **interest premium**, and after commissioning it must pay the instalments even if the bridge deteriorates. The lender's money is exposed **only to construction risk**. Under the Guide this is **not a PPP**, and it is likely to be recorded as **public debt**.\n\n**Lesson:** private money in a project does not make it a PPP. The province should compare the benefit of faster delivery with the extra financing cost before choosing Route 2."
+  },
+  "examTraps": [
+    {
+      "trap": "Treating any project with private finance as a PPP.",
+      "fix": "A DBF has private finance, but it is exposed only to construction risk and pay is not linked to performance. The Guide does not regard DBF as a PPP."
+    },
+    {
+      "trap": "Using PPI and PPP as synonyms.",
+      "fix": "PPI (Private Participation in Infrastructure) covers any private investment or management in infrastructure. PPPs are only one part of it."
+    },
+    {
+      "trap": "Thinking the revenue source decides whether a contract is a PPP.",
+      "fix": "The Guide says the nature of revenues (users or budget) is not decisive. Check all the PPP features instead."
+    },
+    {
+      "trap": "Assuming traditional procurement is always the worse choice.",
+      "fix": "B or DB may be right when the public sector has the skills, knows what it wants, prefers to keep maintenance and has the budget. No procurement route is universally best."
+    },
+    {
+      "trap": "Believing DBF transfers life-cycle risk because payments are deferred.",
+      "fix": "In a DBF the government takes over the asset at completion and keeps the long-term risks. Deferral changes only the timing of payment and adds some delay risk transfer."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Private Participation in Infrastructure (PPI)",
+      "meaning": "Any form of private investment in, or private management of, infrastructure; wider than PPP."
+    },
+    {
+      "term": "Traditional procurement",
+      "meaning": "Conventional public procurement, such as B or DB, where the government pays for the works from its budget and keeps long-term management; the Guide uses the term for any contract that does not meet the PPP definition."
+    },
+    {
+      "term": "Single-till principle",
+      "meaning": "The rule that public borrowing is for the general purposes of government, not tied to specific projects."
+    },
+    {
+      "term": "Build-only (B) contract",
+      "meaning": "A contract only to construct an asset whose design was completed by another entity."
+    },
+    {
+      "term": "Design-Build (DB) contract",
+      "meaning": "A single contract for both the design and construction of an asset, paid as work progresses."
+    },
+    {
+      "term": "EPC contract",
+      "meaning": "Engineering, Procurement and Construction; another name for a B or DB scope, used especially for plants."
+    },
+    {
+      "term": "Turnkey contract",
+      "meaning": "A construction contract in which the price and the construction term are fixed."
+    },
+    {
+      "term": "Design, Build and Finance (DBF)",
+      "meaning": "A DB-type contract in which the contractor funds construction and the government pays later in fixed instalments from commissioning."
+    },
+    {
+      "term": "Forfaiting",
+      "meaning": "Financing a DBF by selling the right to receive the government payments to a lender, usually without recourse."
+    }
+  ],
+  "summary": [
+    "Private participation in infrastructure (PPI) is wider than PPP; many PPI projects are not PPPs.",
+    "Only a procurement contract that meets all the PPP features can be a PPP; private involvement, bundling, private finance or the revenue source alone are not enough.",
+    "In B and DB contracts the government pays from its budget as work progresses and keeps long-term, life-cycle responsibility after completion.",
+    "B and DB give no incentive for long-term quality, but may be right when the public sector has skills, clear needs, prefers to keep maintenance and has funds.",
+    "There is no universally best procurement route; each project needs its own optimum.",
+    "In a DBF the contractor funds construction and is repaid in fixed instalments from commissioning, making it a de facto lender.",
+    "DBF finance is exposed only to construction risk, is usually public debt in national accounts, and is not a PPP under the Guide."
+  ],
+  "slides": [
+    {
+      "title": "A spectrum, not a switch",
+      "points": [
+        "Public control at one end, private risk at the other",
+        "Non-PPPs: short O&M, B, DB and DBF",
+        "PPPs: service, DBOM and DBFOM contracts",
+        "Privatisation and regulated markets: outside procurement"
+      ],
+      "narration": "In this lesson we look at what is not a PPP. Picture a line. At one end, the government controls everything and carries most of the risk. At the other end, private companies carry the risk and the government mostly regulates. Short maintenance contracts, build-only, design-build and design-build-finance contracts sit near the public end. They are not PPPs. Further along we find service PPPs, DBOM and DBFOM contracts. And at the far end, outside procurement altogether, we find privatised companies and regulated markets. Keeping this picture in mind makes classification questions much easier."
+    },
+    {
+      "title": "PPI is not the same as PPP",
+      "points": [
+        "PPI: any private investment or management",
+        "PPP is only one part of PPI",
+        "Infrastructure includes equipment and plants",
+        "Social and economic infrastructure both count"
+      ],
+      "narration": "You may see the term PPI, which stands for Private Participation in Infrastructure. Institutions like the World Bank use it for any private investment in, or private management of, infrastructure. PPPs are included, but so are many other arrangements. So PPI and PPP are not synonyms. Also note how broadly the Guide uses the word infrastructure. It includes big civil works, but also equipment like trains, and plants like power stations. It covers social infrastructure, such as schools and hospitals, and economic infrastructure, such as water, energy, transport and telecoms."
+    },
+    {
+      "title": "The test for a PPP",
+      "points": [
+        "Only a procurement contract can be a PPP",
+        "All the PPP features must be present",
+        "Private money alone is not enough",
+        "Revenue source is not decisive"
+      ],
+      "narration": "Here is the key rule. Only a procurement contract can be a PPP, and only if all the PPP features are there. Private finance is required only for a private finance PPP. What does this rule exclude? Private involvement on its own is not enough. A bundled scope on its own is not enough. Private money on its own is not enough. And whether revenue comes from users or from the budget does not decide the question either. So when an exam question describes a project, check every feature one by one, rather than jumping on a single clue."
+    },
+    {
+      "title": "Build-only and Design-Build",
+      "points": [
+        "Paid from the budget as work progresses",
+        "Asset handed over at completion",
+        "Short defects period, then government responsibility",
+        "Maintenance through a separate contract"
+      ],
+      "narration": "Now traditional procurement. In a build-only contract, someone else has already designed the asset and the contractor just builds it. In a design-build contract, one contractor does both. You may also hear the terms EPC, especially for plants, or turnkey, when price and time are fixed. The government pays from its budget as the work progresses. At completion, the asset is handed over and the government takes full responsibility. The contractor fixes defects for a short time, and ordinary maintenance goes to a separate contract. Renewals and major maintenance stay with the government."
+    },
+    {
+      "title": "When B or DB is the right choice",
+      "points": [
+        "No incentive for long-term quality",
+        "Risk of cost-cutting and extra claims",
+        "Fine if skills, clarity, maintenance preference, budget",
+        "No universally best procurement route"
+      ],
+      "narration": "The weakness of design-build is simple. Once the asset is handed over, the contractor has no reason to care how long it lasts. It may even cut costs or chase extra payments for changes. The government can only control this with close supervision and very detailed specifications. But design-build is still a good option in many cases. It works when the public sector has the skills, knows exactly what it wants, prefers to keep maintenance, and has the money. Remember the Guide's message: there is no single best procurement route for every project."
+    },
+    {
+      "title": "How a DBF works",
+      "points": [
+        "Contractor funds construction, often via a bank",
+        "Payments start at commissioning",
+        "Fixed instalments cover construction and finance costs",
+        "Contractor becomes a de facto lender"
+      ],
+      "narration": "A design-build-finance contract, or DBF, starts like a design-build contract. The difference is the timing of payment. The government does not pay as the work progresses. Instead, the contractor funds the construction, usually with a bank loan secured on the future government payments. Sometimes the bank simply buys the right to those payments. This is called forfaiting. Payments begin only at commissioning, in fixed instalments over several years, covering both the building cost and the financing cost. In effect, the contractor becomes a lender to the government."
+    },
+    {
+      "title": "Why DBF is not a PPP",
+      "points": [
+        "Finance exposed only to construction risk",
+        "Government keeps long-term asset risks",
+        "Usually counted as public finance",
+        "Some countries call it innovative financing"
+      ],
+      "narration": "So why is DBF not a PPP under the Guide? Because the private money is exposed only to construction risk. Once the asset is commissioned, the government must pay the instalments whatever happens to the asset. There is no bundled long-term maintenance and no link between pay and performance. National accounting rules usually treat it as public finance, so the debt stays on the government's books. DBF can still help. It can bridge a short-term lack of funds and improve schedule reliability. But the government should weigh this against the interest premium it pays."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which statement best describes the relationship between Private Participation in Infrastructure (PPI) and PPPs?",
+      "options": [
+        "PPI and PPP are two names for exactly the same concept",
+        "PPI is a wider term that includes PPPs and other forms of private involvement",
+        "PPI refers only to privatisations, while PPP refers to all contracts",
+        "PPI is a type of PPP used only for user-pays projects"
+      ],
+      "answer": 1,
+      "explanation": "PPI covers any private investment or management of infrastructure, and the World Bank's PPI database includes PPPs as well as non-PPP projects. So PPI is not a synonym for PPP."
+    },
+    {
+      "question": "According to the PPP Guide, which of the following is on its own sufficient to make an arrangement a PPP?",
+      "options": [
+        "The private sector provides finance for the works",
+        "The revenue comes from charges to users",
+        "The full scope of work is bundled in a single contract",
+        "A procurement contract that meets all the PPP features"
+      ],
+      "answer": 3,
+      "explanation": "Only a procurement contract meeting all the PPP features can be a PPP. The Guide says private finance, bundling or the revenue source alone are not sufficient."
+    },
+    {
+      "question": "What is the “single-till principle” in public finance?",
+      "options": [
+        "Public borrowing is for the general purposes of government, not tied to specific projects",
+        "Each public project must have its own dedicated loan and bank account",
+        "All user charges must be paid into a single account held by the PPP company",
+        "A government may borrow only once per year for all its infrastructure"
+      ],
+      "answer": 0,
+      "explanation": "Under the single-till principle, borrowings serve the general purposes of government. This is why project-specific public debt is not the most common approach."
+    },
+    {
+      "question": "In a Design-Build (DB) contract, who normally carries the long-term life-cycle responsibility for the asset after construction is completed?",
+      "options": [
+        "The DB contractor, for the whole life of the asset",
+        "The lenders who financed the construction",
+        "The government or a public agency",
+        "The maintenance subcontractor chosen by the DB contractor"
+      ],
+      "answer": 2,
+      "explanation": "In B and DB contracts the authority takes entire responsibility at completion, and life-cycle management remains with the government. The contractor only fixes defects for a limited period."
+    },
+    {
+      "question": "Which of the following is NOT one of the conditions under which the Guide says B or DB contracts may be appropriate?",
+      "options": [
+        "The public sector has the necessary skills",
+        "The public sector wants to transfer long-term maintenance risk",
+        "The public sector knows clearly what technical solution it wants",
+        "The public sector has budget funds available to pay for the works"
+      ],
+      "answer": 1,
+      "explanation": "B or DB suits a public sector that prefers to retain maintenance responsibility, not one that wants to transfer it. The other three options are listed conditions."
+    },
+    {
+      "question": "Consider these two statements about DBF contracts. 1: The contractor acts as a de facto lender to the public sector. 2: Payments usually start as soon as construction begins.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "In a DBF the contractor funds construction, so it is a de facto lender. Payments are deferred until the end of construction (commissioning), so statement 2 is false."
+    },
+    {
+      "question": "Why does the PPP Guide not regard the finance in a DBF contract as private finance?",
+      "options": [
+        "Because the finance is always provided by a public development bank",
+        "Because the contractor is not allowed to borrow from commercial banks",
+        "Because the finance is not materially subject to project performance risk, only construction risk",
+        "Because DBF payments are made by users rather than by the government"
+      ],
+      "answer": 2,
+      "explanation": "For the Guide, private finance must be at risk of the project's performance. DBF finance is exposed only to construction risk, and after commissioning the government pays fixed instalments."
+    },
+    {
+      "question": "Complete the sentence: A government usually chooses a DBF contract mainly in order to ____.",
+      "options": [
+        "transfer long-term maintenance risk to the private sector",
+        "link payments to the quality of service over the asset's life",
+        "remove the asset from the government's balance sheet",
+        "bridge a short-term restriction of funds"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the usual aim of DBF is to bridge a short-term restriction of funds. It does not transfer maintenance risk or link pay to service, and it is usually counted as public finance."
+    },
+    {
+      "question": "Consider these two statements. 1: A DBF may transfer more construction delay risk than a DB contract. 2: A DBF usually costs the government an interest rate premium over direct public borrowing.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. Because cash comes only when the work is complete, a DBF can transfer more delay risk, but the government still pays an interest premium over its own borrowing cost."
+    },
+    {
+      "question": "Some countries describe DBF contracts as “innovative financing” PPPs. What is the PPP Guide's position?",
+      "options": [
+        "DBF is a private finance PPP if the contract is longer than ten years",
+        "DBF is not regarded as a PPP, though it may offer advantages over a pure B or DB contract",
+        "DBF is a service PPP because the contractor provides a financing service",
+        "DBF is a user-pays PPP because the lender is repaid over time"
+      ],
+      "answer": 1,
+      "explanation": "The Guide states that a DBF is not a PPP. It adds that when a PPP is not the right option, a DBF may still offer some benefits compared with a conventional B or DB contract."
+    }
+  ]
+}

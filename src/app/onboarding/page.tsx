@@ -22,7 +22,7 @@ export default async function OnboardingPage() {
         <p className="text-[#6B7A74] mb-12 text-[17px] font-medium max-w-2xl mx-auto"><>{t("Bitta kursni tanlang \u2014 progress avtomatik saqlanadi, AI Tutor esa har bir bobda yoningizda bo'ladi.")}</></p>
 
         <div className="grid md:grid-cols-3 gap-5 text-left">
-          {COURSES.map((course, i) => (<Link key={course.slug} href={`/study/${course.slug}/${course.chapters[0].id}`} className={`group p-7 bg-white rounded-[24px] hover:shadow-xl transition-all block border-2 ${i === 0 ? "border-[#13251F]" : "border-[#E2E4DF] hover:border-[#a7c4b1]"}`}>
+          {COURSES.map((course, i) => (<Link key={course.slug} href={`/courses/${course.slug}`} className={`group p-7 bg-white rounded-[24px] hover:shadow-xl transition-all block border-2 ${i === 0 ? "border-[#13251F]" : "border-[#E2E4DF] hover:border-[#a7c4b1]"}`}>
               <div className="w-14 h-14 bg-[#F5F4EE] border border-[#E2E4DF] rounded-xl flex items-center justify-center text-2xl mb-6">
                 {course.emoji}
               </div>

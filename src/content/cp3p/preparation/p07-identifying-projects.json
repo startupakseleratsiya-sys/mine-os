@@ -1,0 +1,302 @@
+{
+  "id": "p07-identifying-projects",
+  "level": "preparation",
+  "order": 7,
+  "title": "Identifying needs, prioritizing and option analysis",
+  "minutes": 16,
+  "guideRef": "Ch 3 §1–§7",
+  "objectives": [
+    "Explain the purpose of the Project Identification and Screening Phase and the two-step approach of screening before full appraisal.",
+    "Describe the two entry routes to the project pipeline and how unsolicited proposals should be handled.",
+    "Explain why and how governments prioritize projects, including climate screening criteria.",
+    "Compare cost-benefit analysis, cost-effectiveness analysis and multi-criteria analysis as option selection techniques.",
+    "Describe the technical outline and the information needed before a project can be screened, including key constraints and demand forecast risks."
+  ],
+  "sections": [
+    {
+      "heading": "Where we are: the screening phase",
+      "body": "Chapter 3 of the Guide describes the PPP process in five phases: **identifying and screening** the project, **appraising** it, **structuring** the procurement and contract, **tender and award**, and **managing the contract**. This lesson starts the first phase.\n\nPreparing a PPP takes a lot of time, due diligence and money. To spend those resources well, the Guide recommends a **two-step approach**:\n1. a **preliminary analysis** in the Screening Phase (Chapter 3), and\n2. a **full appraisal** in the Appraisal Phase (Chapter 4).\n\nThis avoids wasting appraisal resources on projects that will never be feasible. The chapter's learning goals are to make sure a project has **sufficient economic merit**, to avoid sinking resources into a **non-feasible PPP**, and to get ready for Appraisal.\n\nTwo principles run through the whole phase:\n- **A PPP cannot rescue a weak project.** The PPP option is only a way to procure a project. It does not turn a project with poor economic and social value into a good one; it protects and maximizes the value for money of a project that is already worth doing.\n- **If the project is not a viable PPP**, the government should consider traditional procurement instead.\n\nThe Guide also warns about time pressure. Governments often have **unrealistic expectations** of how fast the process can go. They take a long time to decide to do a PPP, then push to implement it as fast as possible. That leads to poor outcomes. Work done well in this phase pays back later, because changes made further along the cycle **cost more money and more time**."
+    },
+    {
+      "heading": "Overview of the Screening Phase",
+      "body": "The phase starts where any public procurement starts: with **identifying the need**. The main tasks then follow a logical order (Figure 3.1):\n\n1. **Needs and option analysis**: select the project and its best technical solution.\n2. **Scoping the project and collecting information**.\n3. **Preliminary economic feasibility**: normally a cost-benefit analysis (CBA).\n4. **Testing PPP suitability and affordability**, including a preliminary financial analysis and possibly a value for money view.\n5. **Readiness of the project**: a project management plan, staffing and any advisors needed.\n6. **Screening report and the decision** whether to move forward to Appraisal.\n\nNote the difference between two tests. **CBA** tests the **economic feasibility** of the project whatever the procurement route. **PPP suitability and value for money** test whether it makes sense to deliver it **as a PPP** rather than another way. The Guide stresses that CBA is not designed to decide the procurement mode.\n\nThree more points from the overview:\n- **Every project in the pipeline is a potential PPP candidate**, whether or not a public finance alternative exists.\n- The **PPP project scope** may differ a lot from the technical scope, because some tasks can be kept out of the PPP contract.\n- The team must identify **information gaps and uncertainties**. Some gaps can be handled in appraisal, but they must be clearly described and assessed before the decision to move forward. If information is not enough, further studies are needed.\n\n**Government guidance.** Governments ought to provide guidance on screening and prioritizing PPPs: requirements and templates for the information to provide, and criteria for accepting or ranking projects. Standard tools can help, such as the World Bank's **PPP Project Screening and Analytics Tool (PSAT)**, an Excel tool that rates a project on six parameters: strategic suitability, preliminary feasibility, risk assessment, PPP suitability, fiscal affordability and institutional capacity.\n\nThe Guide also recommends aligning, or even embedding, PPP screening in the government's **Public Investment Management (PIM) framework**: the laws, rules and methods that govern all public investment decisions from strategy and planning, through appraisal and execution, to ex-post evaluation."
+    },
+    {
+      "heading": "Identifying needs: entry routes to the pipeline",
+      "body": "Projects are **not an end in themselves**. They help the government meet its service delivery obligations. So the government must first understand the **problem** it is trying to solve, such as poor transport links or low-quality health services, and only then identify what is needed to solve it. Public needs are increasingly linked to the **Sustainable Development Goals**.\n\nThere are **two entry routes** to the pipeline:\n\n| Entry route | How it works |\n|---|---|\n| **Route 1: ad hoc projects** | A department identifies an individual need and proposes an individual project. |\n| **Route 2: a plan or program** | The government defines strategic objectives and prepares a comprehensive plan, for one sector or many, one region or the whole country, that identifies a range of projects. |\n\nThe list of identified projects is the **project pipeline**. Good pipeline management considers the **connectedness** of projects (one project may be far more effective if another is also built) and **avoids duplication** between agencies.\n\n**Why a pipeline attracts investors.** Investors prefer a market with a recognisable pipeline to a few isolated projects. A pipeline shows a structured approach and a genuine intention to invest, lets investors spread across several similar projects and reuse lessons, and encourages them to mobilise resources, which brings stronger competition. The pipeline should include **all major projects, regardless of procurement method**.\n\nProjects that come from a plan have usually already been selected on economic feasibility. They move directly to assessment, starting with a CBA to confirm economic sense. If a CBA was done when the plan was drawn up, it may need to be reassessed.\n\n**Unsolicited proposals (USPs).** A private company may propose a project. A USP must fit strategic objectives or respond to a need already identified, and must be included in the project list or plan. It should **not duplicate a project already in the pipeline**, and it must **not bypass the system**: if the government accepts USPs, it should make them part of the system, with careful review and competitive tendering to choose the investor."
+    },
+    {
+      "heading": "Project prioritization",
+      "body": "A government may have more good projects than it can pay for. Even when every project meets real needs and creates strong net benefits, the **budget** (current or future) may not stretch to all of them or to all government-pays PPPs. There is also a limit to **users' ability and appetite to pay**: one toll road may be viable on its own, but many new projects with user charges may push up the cost of living or doing business to an unacceptable level.\n\n**Prioritization** lets the government choose among many economically and technically feasible projects so that public funds produce the **highest benefit for society**. It may mean abandoning a project for now or moving it later in the program. Many jurisdictions rank projects by **economic net present value (eNPV)** or **economic internal rate of return (eIRR)**.\n\nTo evaluate projects rigorously, the Guide says governments should invest in three areas:\n1. **People and systems**, for example a specialist unit, using outside experts at first while training staff.\n2. **Benchmark databases** of capital and life-cycle operating costs of public and PPP projects.\n3. **Standardized methodologies** and common key assumptions, such as financing costs under public and private approaches.\n\n**Climate screening.** Alignment with national and international climate commitments is highly recommended. PPP projects should be screened to check that they, among other things:\n- produce zero, very low or negative emissions, or support the transition to a decarbonized economy;\n- increase **adaptation and resilience** and build resilience against natural hazards;\n- promote sustainable use of ecosystems and, where possible, adopt **nature-based solutions**;\n- tackle poverty, gender discrimination and inequality through inclusive infrastructure.\n\nClimate actions often bring **co-benefits** that are hard to put in money terms, so these should still be included in the analysis."
+    },
+    {
+      "heading": "Option analysis and selection techniques",
+      "body": "Most needs can be met in several ways. The Guide's river crossing example: a boat, a bridge or a tunnel, used by cars, buses, rail or pedestrians, with or without a charge. Each has different costs, quality and impacts, such as time saved, land values, traffic and environment. The government has a **maximum affordable cost** and a **minimum acceptable quality**. It should avoid options that are far better than needed from day one (for example a bridge with much more capacity than traffic requires), and it cannot accept options below users' quality needs. The right choice is the one that **best suits the identified needs of society**.\n\n**Beware a single solution too early.** Focusing on how an asset will be built (**input-based specifications**) instead of the performance it must deliver (**output-based specifications**) limits private sector innovation. The tender becomes 'build this specific structure and operate it for 20 years' rather than 'deliver a solution to this problem for 20 years'. The government must define enough to cost and appraise the project, without locking itself into one solution.\n\n**Techniques.** The government should have a **policy of using one standard technique**, so that projects are compared consistently; mixing techniques case by case gives invalid comparisons.\n- **Cost-benefit analysis (CBA)**: chooses the solution with the highest economic NPV or IRR. It is both a selection technique and the most appropriate technique for assessing economic feasibility.\n- **Cost-effectiveness analysis (CEA)**: relates the total cost of an option to units of effectiveness, for example cost per unit of travel time saved. It is useful where valuing benefits in money is almost impossible, but because the result is a non-valued ratio, it **leaves a subjective judgement to the policymaker**.\n- **Multi-criteria analysis (MCA)**: ranks options against an explicit set of objectives with measurable criteria, which need not be monetary and can combine quantitative and qualitative factors. MCA must **not be seen as a shortcut** or an easy technique for inexperienced people.\n\nCEA and MCA are less resource-intensive and less complex than CBA. But if another technique is used for selection, **a CBA must still be performed** on the selected solution to confirm economic soundness."
+    },
+    {
+      "heading": "Technical outline and information requirements",
+      "body": "Once a solution is chosen, the team prepares a **technical outline**: sector, technical features, physical conditions (such as kilometres of road or floor area), site, geographical area and affected or benefited population. It must be clear enough to answer the PPP screening questions. More time may be needed where requirements are unclear, the activity is **novel**, or the project is **complex** with many interdependent factors.\n\n**Constraints and dependencies.** These apply to any project, PPP or not, and can affect timing and readiness, so they must be listed for the screening decision:\n- land availability;\n- construction risks such as geotechnical conditions;\n- new or untested technology;\n- significant site risks, for example unknown utilities or hazardous materials;\n- important environmental concerns;\n- permits from other governments;\n- gaps in information for appraisal.\n\nThe screening report should also list **legal and regulatory issues** to test during appraisal, and **political risk** should be assessed.\n\n**Information checklist.** The Guide lists the data needed for CBA and PPP screening. Minimum items from the promoting department include the proponent's name, a **preliminary project description**, a **preliminary CAPEX estimate**, the affected population, desired procurement dates, the **public justification** against strategic plans, the **need being met** with its main benefits, and site or land availability. Other items include the construction period and how realistic the timelines are, O&M and life-cycle costs, whether **user fees** can be charged and whether support such as viability gap funding is needed, revenue and demand estimates, other technical options considered, **investor interest**, successful and unsuccessful **precedents**, environmental, social and gender issues, **climate screening**, studies already done, and stakeholder support. Some governments avoid publishing the early CAPEX estimate, to avoid unrealistic expectations.\n\n**Demand forecasts.** A 2005 Standard & Poor's study of 104 toll roads found that forecasts exceeded actual first-year traffic by **20 to 30 percent** on average. Over-estimation can cause revenue shortfalls, let unworthy projects proceed and create fiscal risks where the government supports the project. Lenders expect solid forecasts with sensitivity analysis. Cost estimates should also be compared with market data, ideally from a **database of comparator projects**."
+    }
+  ],
+  "example": {
+    "title": "Choosing a crossing for Northbank",
+    "body": "Imagine the fictional city of Northbank. Commuters lose an hour a day crossing a river by an old ferry. The transport department starts with the **need** (faster, reliable crossing), not with a favourite structure.\n\nThe project is not in the national transport plan, so it enters the pipeline by **Route 1 (ad hoc)**. At the same time, a private firm submits an **unsolicited proposal** for a toll tunnel. The city includes the need in its project list and treats the proposal within its normal system, with competitive tendering later, rather than negotiating directly.\n\nThe city's policy is to compare options with **CBA**. It tests a new ferry fleet, a four-lane bridge, a two-lane bridge with a bus lane, and a tunnel. The four-lane bridge offers far more capacity than forecast traffic needs, and the tunnel exceeds the affordable cost. The two-lane bridge with a bus lane gives the highest eNPV.\n\nThe team writes a technical outline, but it states outputs such as capacity, travel time and design life, not a fixed design. The data checklist flags **unclear land ownership** on one bank, uncertain **geotechnical conditions** and a traffic forecast that seems optimistic, so the team requests sensitivity tests. These are recorded for the screening report."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking a PPP can make a weak project worthwhile.",
+      "fix": "The PPP is only a procurement option. It protects and maximizes value for money of a project that is already economically sound; it cannot turn a poor project into a good one."
+    },
+    {
+      "trap": "Using CBA to decide whether a project should be a PPP.",
+      "fix": "CBA tests the economic feasibility of the project whatever the procurement route. PPP suitability and value for money analysis decide whether PPP is the right delivery method."
+    },
+    {
+      "trap": "Treating an unsolicited proposal as a fast track that skips normal screening.",
+      "fix": "A USP must fit strategic objectives or an identified need, be added to the project list or plan, not duplicate pipeline projects, and follow the system, usually with competitive tendering."
+    },
+    {
+      "trap": "Mixing up cost-effectiveness analysis and multi-criteria analysis.",
+      "fix": "CEA gives a ratio of total cost to units of one effectiveness measure, leaving subjective judgement to the policymaker. MCA scores options against several explicit objectives with measurable, often non-monetary, criteria."
+    },
+    {
+      "trap": "Believing input-based specifications are better because they make bids comparable.",
+      "fix": "They do help comparability, but they block private innovation. The Guide favours output-based specifications that describe the performance needed, while still defining enough to cost and appraise the project."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Screening Phase",
+      "meaning": "The first PPP phase, where the project is identified, pre-assessed and screened as a potential PPP before full appraisal."
+    },
+    {
+      "term": "Project pipeline",
+      "meaning": "The list of identified projects, from individual needs or a strategic plan, that may go forward for procurement."
+    },
+    {
+      "term": "Entry routes",
+      "meaning": "The two ways into the pipeline: ad hoc individual projects, or projects identified in a plan or program."
+    },
+    {
+      "term": "Unsolicited proposal (USP)",
+      "meaning": "A project proposed by a private company rather than initiated by the government."
+    },
+    {
+      "term": "Prioritization",
+      "meaning": "Ranking feasible projects, often by eNPV or eIRR, when budgets or users' ability to pay cannot cover them all."
+    },
+    {
+      "term": "Cost-effectiveness analysis (CEA)",
+      "meaning": "A technique that compares options by total cost per unit of effectiveness when benefits are hard to value in money."
+    },
+    {
+      "term": "Multi-criteria analysis (MCA)",
+      "meaning": "A technique that ranks options against explicit objectives using measurable criteria that need not be monetary."
+    },
+    {
+      "term": "Output-based specification",
+      "meaning": "A requirement that defines the performance and capacity the asset must deliver, not how it must be built."
+    },
+    {
+      "term": "Public Investment Management (PIM) framework",
+      "meaning": "The laws, rules and methods that govern public investment decisions from planning to ex-post evaluation."
+    },
+    {
+      "term": "Technical outline",
+      "meaning": "A description of the selected solution's sector, features, site, physical conditions and affected population."
+    }
+  ],
+  "summary": [
+    "Screening comes before full appraisal so that resources are not wasted on non-feasible PPPs.",
+    "A PPP cannot rescue a weak project; if a project is not a viable PPP, traditional procurement should be considered.",
+    "Projects enter the pipeline ad hoc or from a plan; unsolicited proposals must fit the system, not bypass it.",
+    "A strong, visible pipeline attracts investors and competition.",
+    "Prioritization, often by eNPV or eIRR, is needed when budgets or users' ability to pay are limited; climate screening is highly recommended.",
+    "Options are compared with one standard technique: CBA, CEA or MCA; a CBA must still confirm the selected solution.",
+    "The technical outline and data checklist identify constraints such as land, site risks, permits and optimistic demand forecasts."
+  ],
+  "slides": [
+    {
+      "title": "Screen first, appraise later",
+      "points": [
+        "Two steps: preliminary screening, then full appraisal",
+        "Avoid spending resources on non-feasible PPPs",
+        "A PPP cannot rescue a weak project",
+        "Rushing now creates costly changes later"
+      ],
+      "narration": "Welcome to the first phase of the PPP process: identifying and screening the project. Preparing a PPP is expensive, so the Guide recommends two steps. First a lighter, preliminary screening. Only then a full appraisal. That way, we don't spend big money studying a project that could never work. Keep one principle in mind for the exam: a PPP is just a way to procure. It cannot turn a weak project into a good one. And don't rush. Mistakes found later in the cycle cost far more money and time to fix."
+    },
+    {
+      "title": "The screening journey",
+      "points": [
+        "Need and option analysis, then scoping",
+        "Preliminary economic feasibility with CBA",
+        "PPP suitability and affordability tests",
+        "Management plan, screening report, decision"
+      ],
+      "narration": "Here is the road map. We begin with the need and choose the best technical solution. Next we scope the project and gather information. Then we check economic feasibility, usually with a cost-benefit analysis. After that we test whether the project suits a PPP and whether it looks affordable. Finally we plan the next phase, with staff and advisors, and write a screening report so decision-makers can say go or no-go. Tools like the World Bank's screening tool, PSAT, can help, and screening should fit inside the country's public investment management framework."
+    },
+    {
+      "title": "Two roads into the pipeline",
+      "points": [
+        "Route one: ad hoc projects for individual needs",
+        "Route two: projects from a strategic plan",
+        "Pipelines include all major projects, any procurement method",
+        "Unsolicited proposals must join the system"
+      ],
+      "narration": "Projects exist to solve problems, so we always start with the need. From there, a project enters the pipeline in one of two ways. It can be ad hoc, when a department spots a specific need. Or it can come from a strategic plan that lists many connected projects. Investors love a clear pipeline, because it shows real commitment and future opportunities. What about unsolicited proposals from private firms? They are allowed, but they must answer a real public need, join the project list, and follow the normal system, not jump the queue."
+    },
+    {
+      "title": "When money is limited: prioritize",
+      "points": [
+        "Budgets and users' ability to pay are limited",
+        "Rank projects, often by eNPV or eIRR",
+        "Invest in people, cost databases, standard methods",
+        "Screen projects for climate and inclusion goals"
+      ],
+      "narration": "Often a government has more good projects than money. And users can only pay so many new tolls and fees before the cost of living becomes a problem. So we prioritize, choosing the projects that give society the most benefit, often by ranking economic net present value or economic rate of return. Some projects may wait for later. To do this well, governments need skilled people, databases of real project costs, and standard methods. The Guide also recommends climate screening: low emissions, resilience, nature-based solutions, and inclusion."
+    },
+    {
+      "title": "Many ways to meet one need",
+      "points": [
+        "Compare options against cost limits and quality needs",
+        "Avoid over-specified or under-performing solutions",
+        "Prefer output-based over input-based specifications",
+        "Don't lock into one solution too early"
+      ],
+      "narration": "Think about a river crossing. You could use a ferry, a bridge or a tunnel, for cars, buses, trains or people. Each option has different costs and impacts. The government has a ceiling on cost and a floor on quality, and the best option is the one that fits society's needs, not the biggest or the cheapest. A common mistake is to describe exactly how to build the asset. That blocks private innovation. Instead, describe the outputs you need, and leave room for bidders to find smarter solutions."
+    },
+    {
+      "title": "CBA, CEA and MCA",
+      "points": [
+        "Use one standard technique for fair comparison",
+        "CBA: highest economic NPV or IRR",
+        "CEA: total cost per unit of effectiveness",
+        "MCA: explicit objectives and measurable criteria"
+      ],
+      "narration": "How do we choose between options? First, a government should use one standard technique, otherwise comparisons between projects are meaningless. Cost-benefit analysis values everything in money and picks the option with the highest economic value. Cost-effectiveness analysis is simpler: it divides total cost by units of one result, like cost per minute saved, but the final judgement stays subjective. Multi-criteria analysis scores options against several clear objectives, which don't have to be in money. It is not a shortcut. And whichever you use, a CBA must still confirm the chosen solution."
+    },
+    {
+      "title": "Know your project before screening",
+      "points": [
+        "Technical outline: sector, site, features, population",
+        "Flag land, site, technology and permit constraints",
+        "Collect costs, fees, demand, investor interest, precedents",
+        "Traffic forecasts are often 20 to 30 percent too high"
+      ],
+      "narration": "Before screening, we need to describe the project clearly: its sector, main features, site and who it affects. We also list constraints that could delay or derail it, like land availability, ground conditions, untested technology, environmental issues or permits from other governments. Then we gather data: cost estimates, whether users can pay fees, demand, investor interest, and similar projects, both successes and failures. Be careful with demand. A study of over a hundred toll roads found first-year traffic forecasts were twenty to thirty percent too high on average."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A minister wants to skip screening and go straight to a full feasibility study for a new airport PPP, to save time. What is the main reason the Guide gives for screening first?",
+      "options": [
+        "Screening is legally required before any public investment",
+        "It avoids spending appraisal resources on a project that is not feasible",
+        "Screening replaces the need for a full appraisal",
+        "It allows the preferred bidder to be selected earlier"
+      ],
+      "answer": 1,
+      "explanation": "The two-step approach uses a preliminary analysis in screening so that the heavy resources of full appraisal are not wasted on non-feasible projects. Screening does not replace appraisal, and bidder selection comes much later."
+    },
+    {
+      "question": "A health ministry has a project with weak economic and social benefits. An advisor suggests that delivering it as a PPP will make it worthwhile. How should the ministry respond?",
+      "options": [
+        "Agree, because private finance increases the project's benefits",
+        "Agree, if the private partner accepts demand risk",
+        "Reject the idea, because a PPP cannot turn a weak project into a good one",
+        "Reject the idea, because PPPs cannot be used in the health sector"
+      ],
+      "answer": 2,
+      "explanation": "The Guide states that the PPP option is only a way to procure a project; it protects and maximizes value for money but does not convert a weak project into a valuable one. PPPs can be used in health."
+    },
+    {
+      "question": "A private company submits an unsolicited proposal for a port that is not in any plan and does not respond to a need identified by government. What should the government do?",
+      "options": [
+        "Negotiate directly, because the company carried the development cost",
+        "Add it to the pipeline in place of an existing port project",
+        "Fast-track it to appraisal without screening",
+        "Consider it only if it fits strategic objectives or a clear identified need"
+      ],
+      "answer": 3,
+      "explanation": "An unsolicited proposal must fit strategic objectives or respond to a clear need, be included in the project list or plan, and not bypass the system. It should also not duplicate projects already in the pipeline."
+    },
+    {
+      "question": "Consider two statements. 1: A government's project pipeline should contain all its major projects, regardless of procurement method. 2: Investors prefer a few isolated projects to a recognisable pipeline, because competition is lower.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the pipeline should include all major projects regardless of procurement method. Statement 2 is false: investors prefer a recognisable pipeline, which signals commitment and attracts robust competition."
+    },
+    {
+      "question": "A region has ten economically feasible road projects, but many would charge tolls and the budget cannot fund all of them. What should the government do?",
+      "options": [
+        "Procure all ten as user-pays PPPs so the budget is not affected",
+        "Prioritize the projects, for example by eNPV or eIRR, and defer some",
+        "Select the projects with the lowest construction cost",
+        "Choose the projects that private investors propose first"
+      ],
+      "answer": 1,
+      "explanation": "Prioritization is needed when the budget or users' ability and appetite to pay are limited; many tolled projects together can raise the cost of living unacceptably. Many jurisdictions rank by eNPV or eIRR, and some projects may be deferred."
+    },
+    {
+      "question": "A water agency must choose between options whose main benefit is 'households connected', which is very hard to value in money. It wants a simple ratio of cost per result. Which technique fits best?",
+      "options": [
+        "Cost-effectiveness analysis",
+        "Multi-criteria analysis",
+        "Value for money analysis",
+        "Financial NPV analysis"
+      ],
+      "answer": 0,
+      "explanation": "CEA relates total cost to units of effectiveness, such as cost per household connected, and is used where monetary valuation is almost impossible. MCA scores options against several objectives rather than giving one cost ratio."
+    },
+    {
+      "question": "Each department in a ministry selects projects with a different technique: some use CBA, others MCA with their own criteria. What problem does the Guide identify?",
+      "options": [
+        "MCA is not allowed for public projects",
+        "Departments must always use CEA instead",
+        "Comparisons between projects become invalid",
+        "CBA can then no longer be used for economic feasibility"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the government should have a policy of using one technique so all projects are compared in a standard way; case-by-case techniques lead to invalid comparisons. MCA is a legitimate technique."
+    },
+    {
+      "question": "A procuring authority drafts the requirement for a hospital as 'build a six-storey concrete building to this exact design and operate it for 25 years'. What is the main risk?",
+      "options": [
+        "The project will be excluded from the pipeline",
+        "The CBA will be impossible to calculate",
+        "Bidders will not be able to price the project",
+        "It limits the private sector's ability to propose innovative, cost-effective solutions"
+      ],
+      "answer": 3,
+      "explanation": "Input-based specifications lock the government into a single solution and block innovation, one of the objectives of a PPP. The Guide prefers output-based specifications, while still defining enough to cost and appraise the project."
+    },
+    {
+      "question": "During scoping of a rail PPP, the team finds that part of the land is not yet acquired and the ground conditions are unknown. What should it do at this stage?",
+      "options": [
+        "List these constraints for the screening decision and further study in appraisal",
+        "Ignore them, because the private partner will take all site risks",
+        "Stop the project immediately",
+        "Leave them out of the screening report to avoid alarming investors"
+      ],
+      "answer": 0,
+      "explanation": "Constraints such as land availability and geotechnical conditions must be identified and listed because they affect timing and readiness and must be considered in the full appraisal. They are not a reason to stop automatically or to hide them."
+    },
+    {
+      "question": "A toll road forecast looks very optimistic. What does the Guide's evidence on traffic forecasts suggest the team should do?",
+      "options": [
+        "Accept the forecast, because lenders will correct it later",
+        "Replace the forecast with the maximum capacity of the road",
+        "Test the forecast with sensitivity analysis, as over-estimation is common",
+        "Remove demand from the analysis and use cost-effectiveness only"
+      ],
+      "answer": 2,
+      "explanation": "A study of 104 toll roads found forecasts exceeded actual first-year traffic by 20 to 30 percent on average. Financing needs solid forecasts with sensitivity analyses, and over-estimation creates fiscal risk where the government supports the project."
+    }
+  ]
+}

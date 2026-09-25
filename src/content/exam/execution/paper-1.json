@@ -1,0 +1,1173 @@
+{
+  "id": "exec-1",
+  "level": "execution",
+  "title": "Meridia Green Line Light Rail",
+  "sector": "Urban transport (light rail)",
+  "scenario": "## Republic of Tessaly: the Meridia Green Line light rail PPP\n\nThe Republic of Tessaly is a middle-income country with 14 million people. Its capital, Meridia (2.3 million people), is growing fast. Traffic congestion is severe: average bus speeds in the city centre have fallen to 11 km/h, and air pollution regularly exceeds national limits. The Meridia Urban Mobility Plan 2025–2040 names an east–west light rail line, the **Green Line**, as the city's highest-priority transport investment.\n\n### Institutions\n- The **Meridia Metropolitan Transport Authority (MMTA)** is the procuring authority. It is a statutory body owned by the city. It plans public transport, sets fares and will collect all fare revenue on the Green Line. MMTA has procured bus contracts and road works, but it has never managed a PPP.\n- The **PPP Directorate** in the Ministry of Finance (MoF) was created by the PPP Law 2019. It reviews every PPP at key milestones. The MoF approves and monitors all fiscal commitments.\n- The **Attorney General's Office** must approve the tender documents and the draft contract before a tender is launched.\n- The **Rail Safety Inspectorate** (Ministry of Transport) licenses rail vehicles and rail operations.\n- Tessaly's procurement rules allow one-stage open tenders and two-stage tenders with pre-qualification and short listing. Technical proposals must be scored, and the scores sealed, before the financial envelopes are opened in public. After evaluation, negotiation with the preferred bidder is allowed only to clarify and finalize the contract, not to change its risk allocation. The award decision needs Cabinet endorsement, and a 10-day standstill period follows it.\n\n### The project\n- An 18 km line with 21 stops, from Eastgate in the east to Riverside Park in the west.\n- A 2.4 km cut-and-cover tunnel under the Old Town. The Old Town is a heritage zone with known archaeological remains, variable ground conditions and more than 60 utility crossings.\n- A 420 m bridge over the River Aren.\n- A depot and operations control centre at Eastgate.\n- 32 low-floor light rail vehicles. Overhead wires are not allowed in the Old Town, so the vehicles must run on batteries (catenary-free) for 3 km. Only three manufacturers in the world have supplied such vehicles in passenger service.\n\n### Contract model and payment\nThe government has approved a design-build-finance-operate-maintain (DBFOM) contract for 30 years: about 4 years of construction and 26 years of operations, followed by handback to MMTA. The project company will design, build, finance, operate and maintain the line and the vehicles. MMTA keeps the demand (ridership) risk and all fare revenue.\n\nMMTA will pay the project company a monthly **availability payment**, starting only at service commencement. Deductions will apply for unavailability (for example, cancelled services or closed stops) and for performance failures (for example, punctuality, cleanliness and help-desk response times). MMTA will also pay a **capital contribution** of TSC 240 million (Tessalian crowns) during construction, at milestones certified by an independent certifier. MMTA will acquire all land and deliver the sites on dates set in the contract.\n\n### Key figures (2026 prices)\n| Item | Value |\n|---|---|\n| Estimated capital cost (CapEx) | TSC 1,200 million |\n| MMTA capital contribution | TSC 240 million |\n| Private finance needed | TSC 960 million (about 20% equity and 80% senior debt) |\n| Affordability ceiling for the annual availability payment (approved by MoF) | TSC 105 million |\n| Value for money at appraisal (against the Public Sector Comparator) | PPP 7% cheaper in risk-adjusted NPV terms |\n\n### Market and stakeholders\nDuring appraisal, MMTA held a market sounding. Eleven companies took part: international investors and operators, three rolling stock manufacturers and four large Tessalian contractors. The local contractors have built major roads, but they have never invested in a PPP. The government wants the Green Line to help develop a national PPP industry. The industry's main concerns were ground conditions in the Old Town, the limited supply of catenary-free vehicles and the timing of land delivery.\n\nThe Minister of Transport has promised publicly that the Green Line will open before Meridia hosts the Continental Games in July 2034. The Old Town Traders' Association opposes the construction works, and a residents' group has raised concerns about noise and heritage.\n\n### Planned timeline\n| Milestone | Date |\n|---|---|\n| Structuring and drafting of tender documents | 2027 |\n| Request for Qualifications (RFQ) issued | January 2028 |\n| Request for Proposals (RFP) issued | June 2028 |\n| Preferred bidder selected | early 2029 |\n| Commercial close and financial close | second half of 2029 |\n| Scheduled service commencement date | 1 November 2033 |\n| Long stop date | 1 November 2034 |\n\nMMTA's Green Line project team (12 staff, supported by transaction advisers) is running the structuring and the tender.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "SC",
+      "title": "Structuring and drafting the tender and contract",
+      "additionalInfo": "**Transaction adviser's draft structuring memorandum (October 2027)**\n\n1. **Market testing.** A second industry meeting when structuring is well advanced, with an updated Project Information Memorandum (including the risk matrix) on the project web page. The feedback questionnaire is emailed only to the 11 companies from the first sounding.\n2. **Tender process.** RFQ short-listing three consortia, then an RFP with individual interactive workshops during the bid stage.\n3. **Legal qualification.** Each consortium must incorporate its SPV before submitting qualifications.\n4. **Financial qualification.** Net worth of at least TSC 190 million (about the estimated equity), which consortia may meet by adding all members' net worth without limit.\n5. **Technical qualification.** Each consortium must include a manufacturer that has supplied catenary-free vehicles in passenger service. No company may join more than one consortium, including as a supplier.\n6. **Contractor experience.** A contractor's experience counts only if it holds at least 40 percent of the SPV's equity.\n7. **Evaluation.** Technical 60 percent, price 40 percent. Price is a single first-year availability payment, with the same payment profile and CPI indexation for all bidders. Minimum technical score 7/10 overall and 7.5 for the tunnel sub-criterion. Extra technical points for the shortest construction period, past experience (10 percent) and number of maintenance staff committed.\n8. **Proposal requirements.** Proposals valid, with no time limit, until financial close. A bid bond of 1.5 percent of CapEx (TSC 18 million) as a first-demand bank guarantee. Insurance policies in force at bid submission. Articles of association of the future SPV. A financial model using MMTA's template and inflation assumptions. Technical and financial proposals in one envelope.\n9. **Draft contract.** Performance guarantee of 4 percent of CapEx during construction and 2 percent during operations, indexed to CPI. The renewal reserve fund may be used for any purpose without MMTA's authorization. A failure causing an availability deduction also attracts a separate penalty. Performance points with thresholds triggering more monitoring, step-in, then termination. A grace period for minor breaches. When the project company finances a compensation event, compensation restores the NPV of project revenues and costs.\n10. **Pre-launch checklist.** No geotechnical study of the tunnel route; all ground risk transferred. No map of potential archaeological sites for bidders. MMTA retains utility relocation risk, as full utility records are unavailable. The updated financial model confirms feasibility within the TSC 105 million ceiling. The Attorney General's Office has approved the tender documents and draft contract.",
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about the principles MMTA must understand when it prepares the Green Line tender documents. Select one answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "What is the main purpose of the qualification criteria in an RFQ?",
+              "options": [
+                "To rank the prospective bidders on the price they are likely to offer.",
+                "To set a minimum bar of capability that reduces the risk of project failure, without limiting competition too much.",
+                "To attract the largest possible number of bidders, because more competition always gives better results.",
+                "To replace the evaluation of technical proposals at the RFP stage."
+              ],
+              "answer": 1,
+              "explanation": "Qualification sets a minimum bar of capability for the bidder or consortium, which reduces the risk of project failure caused by weak capacity; if the bar is too high it limits competition too much. The option about the largest number of bidders is tempting, but the Guide says more competition is not necessarily better competition. Qualification is a pass/fail (or short-listing) exercise and does not rank bids on price or replace proposal evaluation.",
+              "ref": "Ch 5 §7, p. 105"
+            },
+            {
+              "id": "1a-2",
+              "stem": "How does marketing a PPP project differ from communicating with the public about it?",
+              "options": [
+                "They are the same activity and should use the same industry meetings.",
+                "Marketing is only needed when the project was not tested during appraisal.",
+                "Communication with the public replaces the need for a Project Information Memorandum.",
+                "Marketing targets industry players to create strong competition, while public communication uses different tactics to gain public acceptance."
+              ],
+              "answer": 3,
+              "explanation": "Marketing means communicating with the industry to generate strong competition; it should not be confused with communication with the public and other stakeholders, which needs a different set of tactics to secure public acceptance. The option saying marketing is only needed when there was no testing is wrong: even when no further testing is done, the project should still be marketed. For the Green Line this matters because the Old Town traders and residents need a separate communication plan.",
+              "ref": "Ch 5 §6, p. 101"
+            },
+            {
+              "id": "1a-3",
+              "stem": "In a PPP contract, how does an event of default differ from an ordinary breach of contract?",
+              "options": [
+                "Every breach of contract is an event of default that allows the authority to terminate.",
+                "An event of default only arises from events outside the private partner's control.",
+                "An event of default is a breach of an obligation defined as essential in the contract, including persistent breaches, and it entitles the authority to terminate.",
+                "A breach can only occur in user-pays contracts, because in availability contracts every failure is a deduction."
+              ],
+              "answer": 2,
+              "explanation": "A breach is any failure to observe a contract provision and may lead to penalties; an event of default is a breach of an obligation defined as essential (including accumulated, persistent breaches), and it entitles the procuring authority to terminate. The tempting option that every breach is an event of default is wrong, because the Guide stresses that not every breach will or should constitute an event of default. Breaches also occur in government-pays contracts, for example of reporting or financial obligations.",
+              "ref": "Ch 5 §9.3, Box 5.32, p. 146"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Column 1 lists requirements that MMTA's transaction team is considering for the Green Line tender. For each requirement in Column 1, select from Column 2 the category in which it belongs according to the Guide. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "Legal qualification (always pass/fail)",
+            "Financial-economic capacity criterion",
+            "Technical capacity or experience criterion",
+            "Proposal requirement in the RFP, not a qualification criterion"
+          ],
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "Evidence that each consortium member is up to date with its tax obligations in Tessaly.",
+              "answer": 0,
+              "explanation": "Tax and labour compliance are checked for each bidder as part of legal qualification, which concerns the formal regularity and good standing of the bidder. It is tempting to see tax status as a financial matter, but the Guide places it with the legal conditions, which are always pass/fail.",
+              "ref": "Ch 5 §7.1, p. 109"
+            },
+            {
+              "id": "1b-2",
+              "stem": "The lead member must have a net worth of at least TSC 190 million.",
+              "answer": 1,
+              "explanation": "Net worth is the most common financial-economic capacity criterion, because it shows the capacity to invest the required equity; for the Green Line about 20 percent of TSC 960 million, roughly TSC 190 million. It is not a technical criterion, because it measures financial strength rather than experience.",
+              "ref": "Ch 5 §7.2, p. 110"
+            },
+            {
+              "id": "1b-3",
+              "stem": "Evidence that the consortium has reached financial close on at least two transport PPPs worth more than TSC 500 million each.",
+              "answer": 2,
+              "explanation": "Experience of reaching financial close and developing PPPs is part of technical capacity or experience. The Guide warns that this experience is easily confused with financial capacity, but the capability to raise project finance is better handled under the experience criteria, while financial criteria measure the capacity to fund equity and raise debt.",
+              "ref": "Ch 5 §7.2 and §7.3, pp. 110–111"
+            },
+            {
+              "id": "1b-4",
+              "stem": "A first-demand bank guarantee of TSC 18 million that MMTA can call if the winning bidder does not sign the contract.",
+              "answer": 3,
+              "explanation": "This is a bid bond, which the RFP requests with the proposal package to protect the authority against the successful bidder failing to sign; it is typically 1–2 percent of CapEx (1.5 percent of TSC 1,200 million here). It is not a financial capacity criterion, because it secures commitment to the bid rather than proving the bidder's solvency.",
+              "ref": "Ch 5 §8.1, pp. 123–124"
+            },
+            {
+              "id": "1b-5",
+              "stem": "Evidence of the power of each member's representatives to act on its behalf.",
+              "answer": 0,
+              "explanation": "Evidence of the representatives' powers is part of the documentation for legal qualification, together with evidence of existence, good standing and the consortium agreement. It is not a proposal requirement, because it concerns the formal regularity of the bidder, which is checked on a pass/fail basis before proposals are evaluated.",
+              "ref": "Ch 5 §7.1, p. 109"
+            },
+            {
+              "id": "1b-6",
+              "stem": "The lead member's debt-to-equity ratio must not exceed 2.5, based on its accounts for the last three years.",
+              "answer": 1,
+              "explanation": "Financial ratios such as debt to equity, calculated from recent balance sheets (normally no more than three years), are typical financial-economic capacity indicators. It could be mistaken for a legal requirement, but legal qualification covers the bidder's legal status and good standing, not its financial strength.",
+              "ref": "Ch 5 §7.2, p. 110"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "assertion-reason",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 1, select the ONE option in each line in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "Item 2 of the memorandum: the choice of qualification approach for the Green Line.",
+              "options": [
+                "MMTA should use a one-stage open tender BECAUSE an open tender carries a lower risk of protest by losing bidders than pre-qualification.",
+                "MMTA should pre-qualify bidders without a short list BECAUSE short listing always lowers the bidding costs of both parties.",
+                "MMTA should pre-qualify bidders and select a short list BECAUSE the project is highly complex and will use interactive workshops, which need a small number of bidders."
+              ],
+              "answer": 2,
+              "explanation": "Short listing is appropriate for highly complex projects that need structured, formal interaction with a small number of bidders, and it is always used where dialogue or structured interaction is planned; the Green Line has a tunnel, a river bridge, catenary-free vehicles and interactive workshops. The open-tender option has a false reason: an open tender has a higher risk of protest. The second option is false because short listing brings higher costs in interactive processes.",
+              "ref": "Ch 5 §7, Table 5.5, pp. 106–107; Box 5.22, p. 118"
+            },
+            {
+              "id": "1c-2",
+              "stem": "Item 1 of the memorandum: how MMTA collects industry feedback.",
+              "options": [
+                "The questionnaire should be published on the open project web page BECAUSE this lets any interested bidder or qualified person comment and keeps a level playing field.",
+                "The questionnaire should go only to the 11 companies that attended BECAUSE their feedback shows real interest and can be accepted without critical review.",
+                "No further market testing is needed during structuring BECAUSE the Green Line was already sounded during appraisal."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says it may be preferable to place a poll or questionnaire on an open web page so that any interested bidder or qualified person can give input, which ensures a level playing field and avoids later objections. The second option has a false reason: feedback must be critically evaluated because bidders tend to overstate their interest and concerns. The third assertion is false: further testing during structuring is good practice, and even without it the project must still be marketed.",
+              "ref": "Ch 5 §6, p. 101"
+            },
+            {
+              "id": "1c-3",
+              "stem": "Item 9 of the memorandum: the rule for compensation when the project company finances the cost of a compensation event.",
+              "options": [
+                "Compensation should restore the net present value of project revenues and costs BECAUSE the Guide treats this as the most accurate rebalancing method.",
+                "Compensation should restore the equity IRR and respect the minimum DSCR BECAUSE restoring only the NPV of project revenues and costs may not fully compensate the private party or its equity investors.",
+                "Compensation should always take the form of an extension of the contract term BECAUSE a term extension never affects the lenders' debt covenants."
+              ],
+              "answer": 1,
+              "explanation": "When the private partner finances the loss, good practice is for the contract to restore the equity IRR and respect the minimum DSCR; using the NPV of project revenues and costs is not considered good practice because it may not fully compensate the private party or its equity investors. The first option therefore has a false reason. The third is false because a term extension may only be used when it does not affect debt covenants and gives enough extra cash flow.",
+              "ref": "Ch 5 §9.4, p. 150"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 1, answer the following questions about the qualification proposals in the memorandum. Select the most appropriate assessment for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "How should MMTA assess item 3, which requires each consortium to incorporate its SPV before it submits its qualifications?",
+              "options": [
+                "It is appropriate, because incorporating the SPV early proves the consortium's commitment to the project.",
+                "It is inappropriate, because it is costly and slow for bidders; evidence of the consortium agreement and the members' commitment is enough at this stage.",
+                "It is appropriate, because the SPV is the entity that must pass the legal qualification.",
+                "It is inappropriate, because an SPV should never be required from the successful bidder, even before contract signature."
+              ],
+              "answer": 1,
+              "explanation": "Requiring bidders to constitute an SPV at the qualification stage is generally regarded as bad practice, as it is an unnecessarily expensive and time-consuming condition; legal qualification asks for evidence of the consortium agreement instead. The option saying an SPV is never required is wrong, because establishing the SPV is a typical prior condition for contract signature after award.",
+              "ref": "Ch 5 §7.1, p. 109; Ch 6 §12.1, p. 30"
+            },
+            {
+              "id": "1d-2",
+              "stem": "How should MMTA assess item 4, which lets consortia meet the TSC 190 million net worth requirement by adding together the net worth of all members without limit?",
+              "options": [
+                "Keep it, because adding members' net worth lets more local contractors qualify and increases competition.",
+                "Change it, because net worth is a legal criterion that the Attorney General must assess.",
+                "Change it, so that adding net worth is not allowed or is limited, and one lead member alone can invest about TSC 190 million of equity.",
+                "Keep it, because bank letters of comfort will confirm each member's solvency."
+              ],
+              "answer": 2,
+              "explanation": "Aggregating net worth across sponsors should either not be allowed or be limited, so that the government is sure one member (the lead member, with the largest stake) can invest the required equity on its own; for the Green Line that is about TSC 190 million. Letters of comfort are good practice but have limited value as proof of solvency and should not replace active analysis. Net worth is a financial, not a legal, criterion.",
+              "ref": "Ch 5 §7.2, pp. 110–111"
+            },
+            {
+              "id": "1d-3",
+              "stem": "How should MMTA assess item 5, given that only three manufacturers in the world have supplied catenary-free vehicles?",
+              "options": [
+                "Keep it, because it is general practice that no company may take part in more than one consortium.",
+                "Remove all rolling stock experience requirements, so that more consortia can qualify.",
+                "Require each manufacturer to hold at least 30 percent of the SPV's equity to show commitment.",
+                "Allow the manufacturers to join several consortia as nominated suppliers, or select the vehicle supplier in a separate process."
+              ],
+              "answer": 3,
+              "explanation": "With only three possible manufacturers, item 5 is a tailor-made requirement that caps the field at three consortia. Where one technology is supplied by very few companies, the Guide suggests short listing, allowing and even encouraging the technology company to join several consortia as a nominee contractor, or selecting the specialist supplier separately. The tempting first option applies a general rule for bidders, but the Guide makes an exception for technology suppliers to keep competition effective.",
+              "ref": "Ch 5 §7.1, p. 109; §7.3, p. 114"
+            },
+            {
+              "id": "1d-4",
+              "stem": "How should MMTA assess item 6, which counts a contractor's experience only if it holds at least 40 percent of the SPV's equity?",
+              "options": [
+                "Reduce the minimum stake to a prudent level, so that local contractors without investment appetite can team up with experienced PPP investors.",
+                "Keep 40 percent, because a large stake gives contractors 'skin in the game', which outweighs any effect on competition.",
+                "Raise it to 51 percent, so that the contractor controls the SPV during construction.",
+                "Remove it, and also stop counting contractors' experience at qualification."
+              ],
+              "answer": 0,
+              "explanation": "If contractor equity is required, the level should be prudently assessed (15–30 percent is common) and leave room for contractors to team up with experienced PPP developers. In markets where local contractors lack PPP experience, as in Tessaly, limiting contractor equity helps joint ventures with specialist investors and develops the national PPP industry. 'Skin in the game' is a real benefit, but a 40 percent minimum may discourage contractors and developers from forming consortia.",
+              "ref": "Ch 5 §7.3, Table 5.6, pp. 112–113, 115"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 1, answer the following questions about the RFP, the draft contract and the pre-launch checklist. Select TWO options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "Which 2 elements of item 7 (evaluation) should MMTA keep?",
+              "options": [
+                "Bidders quote a single first-year availability payment, using the same payment profile and indexation.",
+                "Extra technical points for the shortest construction period.",
+                "10 percent of the technical score for the bidders' past experience.",
+                "A minimum technical score of 7 overall and 7.5 for the tunnel sub-criterion.",
+                "Points for the number of maintenance staff committed."
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "When all bidders use the same payment profile and indexation, a single price is more appropriate than NPV calculations, and minimum scores above a mere pass (with higher minimums for key sub-criteria such as the tunnel) protect quality. Scoring a shorter construction period is redundant because the availability payment only starts at service commencement. Experience was already used to qualify bidders, and evaluation should not be based on inputs such as staff numbers.",
+              "ref": "Ch 5 §8.2, pp. 126, 129–130"
+            },
+            {
+              "id": "1e-2",
+              "stem": "Which 2 proposal requirements in item 8 are consistent with good practice?",
+              "options": [
+                "Proposals stay valid, with no time limit, until financial close.",
+                "Insurance policies bought and in force at bid submission.",
+                "Articles of association of the future SPV.",
+                "A financial model prepared with MMTA's template and inflation assumptions.",
+                "Technical and financial proposals in a single envelope."
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "The Guide accepts requesting the future SPV's articles of association (while not requiring the SPV itself before award), and it clearly advocates a financial model as a bid requirement, with a template and common assumptions such as inflation. Proposal validity should be limited (for example 180 days) to protect bidders from delays. Only evidence that insurance is available is needed at bid stage. A single envelope conflicts with the Tessaly rule that technical scores are sealed before financial envelopes are opened.",
+              "ref": "Ch 5 §8.1, pp. 122–124; §8.2, p. 134"
+            },
+            {
+              "id": "1e-3",
+              "stem": "Which 2 items in the pre-launch checklist (item 10) are NOT consistent with good practice before launching the tender?",
+              "options": [
+                "MMTA retains utility relocation risk, because full utility records are not available.",
+                "No geotechnical study of the tunnel route, with all ground risk transferred to the project company.",
+                "The updated financial model confirms feasibility within the TSC 105 million ceiling.",
+                "No map of potential archaeological sites is given to bidders, although the Old Town has known remains.",
+                "The Attorney General's Office has approved the draft contract and RFP."
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "Where significant structures are planned, a geotechnical study should be done and/or a risk-sharing scheme based on baseline conditions put in the contract; and where archaeological risk is significant, bidders should get a map of potential sites and mitigation provisions. Retaining utility risk when documentation cannot be given is exactly what the checklist expects. The updated financial model and the Attorney General's approval are positive checklist items that Tessaly's rules and the Guide expect before launch.",
+              "ref": "Ch 5 §10, Box 5.38, pp. 164–165"
+            },
+            {
+              "id": "1e-4",
+              "stem": "Which 2 draft contract provisions in item 9 should MMTA revise?",
+              "options": [
+                "Performance guarantee of 4 percent of CapEx during construction and 2 percent during operations, indexed to CPI.",
+                "A performance points system whose thresholds trigger more monitoring, then step-in, then termination.",
+                "The project company may use the renewal reserve fund for any purpose without MMTA's authorization.",
+                "A grace period to remedy minor breaches.",
+                "A failure that causes an availability deduction also attracts a separate penalty."
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "Use of the renewal reserve fund for anything other than renewals or major maintenance should need the authority's specific authorization, and a breach should not be punished twice, so failures that already cause deductions should not also earn an explicit penalty. The 4/2 percent guarantee indexed to CPI matches typical practice. Performance points with escalating remedies and grace periods for minor breaches are both described as good practice.",
+              "ref": "Ch 5 §9.3, Box 5.34, p. 149; §9.5, p. 152"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "TA",
+      "title": "Tendering and awarding the contract",
+      "additionalInfo": "**Tender events, 2028–2029**\n\n- **Short list.** Five of six consortia passed qualification; the three highest-ranked were short-listed: Aurelia Rail Partners, Tessaline Consortium and MetroLink Meridia. The RFQ allows changes to non-lead members with MMTA's consent. In May 2028 Tessaline's operator (a minority member) withdrew; Tessaline proposes a replacement operator with equal urban rail experience.\n- **Bid stage.** The RFP was issued on 1 June 2028 with a 150-day bid period. The final contract includes a ground-conditions baseline for the tunnel. Final weights: technical 45 percent, price 55 percent; minimum technical score 7.0 overall and 7.5 for the tunnel. MMTA holds individual interactive workshops with each bidder.\n  - Aurelia asked how the ground-conditions baseline works; the Director General proposes to answer only Aurelia.\n  - A bidder found an arithmetic error in the worked example of the deduction formula.\n  - In week 14 MMTA decided to enlarge the depot for 36 vehicles instead of 32, which changes bid prices.\n  - In week 18 MMTA found new geotechnical data; it plans to add it to the data room three weeks before the deadline.\n  - In week 19 Aurelia and Tessaline asked for a 60-day extension, citing lender due diligence and a national holiday week. MetroLink is ready to submit.\n- **Evaluation.** Five evaluators (three MMTA engineers, two external advisers) score technical proposals. The Director General proposes using only the lead adviser's scores to save time. The advisers offer to recommend the award to the MMTA Board themselves.\n\n| Bidder | Technical score (tunnel) | First-year availability payment, TSC m | Total score |\n|---|---|---|---|\n| Aurelia Rail Partners | 8.3 (8.0) | 101.4 | 8.88 |\n| Tessaline Consortium | 6.6 (6.0) | envelope not opened | – |\n| MetroLink Meridia | 7.6 (7.8) | 94.8 | 8.92 |\n\nThe committee chair suggests opening Tessaline's financial envelope anyway, 'in case it is cheapest'.\n- **Preferred bidder: MetroLink.** MetroLink asks (1) to adjust the equity clauses to cover subordinated shareholder loans, which the RFP allowed but the draft contract did not mention; and (2) to cap non-availability deductions at 20 percent of the monthly payment.\n- **Award and close.** An election delayed Cabinet endorsement by five months. During the standstill period Aurelia challenged the award, claiming evaluators scored bidder experience, which was not a criterion in the final RFP. MMTA plans to debrief Aurelia by comparing its scores in detail with MetroLink's. Before financial close, MetroLink's lenders ask MMTA to sign a direct agreement recognizing their step-in rights.",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about key terms of the tender and award process. Select one answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "In a PPP tender, what is a clarification of the RFP or draft contract?",
+              "options": [
+                "A material change to the RFP that the authority agrees with one bidder.",
+                "A response that removes ambiguity about the meaning of the documents without materially changing them.",
+                "A change to the evaluation weights made after the bids are received.",
+                "A private answer that always prevails over the original RFP text."
+              ],
+              "answer": 1,
+              "explanation": "A clarification in the true sense does not amount to a material change; it removes ambiguity or uncertainty about the meaning of the RFP or draft contract. The last option is tempting, but responses do not prevail over the original RFP text unless that text is specifically amended, and they should normally be shared with all bidders.",
+              "ref": "Ch 6 §6.3, p. 16"
+            },
+            {
+              "id": "2a-2",
+              "stem": "What is the main purpose of a standstill period after the award decision?",
+              "options": [
+                "To give the preferred bidder time to set up its SPV.",
+                "To give the authority time to renegotiate the risk allocation.",
+                "To let rejected bidders review the decision and challenge it promptly, before the contract is concluded.",
+                "To let lenders complete their due diligence before financial close."
+              ],
+              "answer": 2,
+              "explanation": "A standstill period sits between the award decision and conclusion of the contract, so rejected bidders can review the award and decide whether to challenge; prohibiting challenges after it expires means challenges are made promptly rather than strategically deferred. SPV set-up and lender due diligence happen in the signature and financial close stages, not because of the standstill rule.",
+              "ref": "Ch 6 §11, p. 27; Box 6.5, p. 28"
+            },
+            {
+              "id": "2a-3",
+              "stem": "What does financial close mean?",
+              "options": [
+                "The financing documents are signed and the prior conditions for the availability of financing are fulfilled.",
+                "The PPP contract is signed by the procuring authority and the SPV.",
+                "Lenders have sent letters of support with the bid.",
+                "The first payment of the government's capital contribution is made."
+              ],
+              "answer": 0,
+              "explanation": "Financial close means not only that the financing documents have been signed, but also that the prior conditions for the availability of the financing have been fulfilled. The second option describes commercial close (contract signature), which may happen before or at the same time as financial close.",
+              "ref": "Ch 6 §13, p. 32"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 2, Column 1 lists events during the Green Line tender. For each event in Column 1, select from Column 2 the most appropriate response by MMTA. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Issue a clarification or correction to all bidders; no further action is needed",
+            "Consider extending the bid submission deadline",
+            "Refuse it, because it is a material change",
+            "Allow it, provided the consortium still meets the pre-qualification requirements"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Tessaline proposes a replacement operator with equal experience after its operator withdrew; the lead member is unchanged.",
+              "answer": 3,
+              "explanation": "Some flexibility in consortium membership is desirable, and the RFQ here allows changes to non-lead members with consent; but a consortium should not continue if, after the change, it could no longer meet the pre-qualification requirements. Refusing outright is too strict, since the lead member stays and the replacement has equal experience.",
+              "ref": "Ch 6 §7, p. 18; Ch 5 §7.4, p. 117"
+            },
+            {
+              "id": "2b-2",
+              "stem": "A bidder finds an arithmetic error in the worked example of the deduction formula.",
+              "answer": 0,
+              "explanation": "Removing an error or ambiguity helps bidders interpret the government's requirements correctly, and responses should be made available to all bidders for transparency; because a response does not prevail over the original RFP text unless the text is amended, MMTA should formally correct the example. A small arithmetic correction does not change what bidders must price, so an extension or refusal is not needed.",
+              "ref": "Ch 6 §6.3, p. 16"
+            },
+            {
+              "id": "2b-3",
+              "stem": "MMTA decides in week 14 to enlarge the depot for 36 vehicles instead of 32, which will change bid prices.",
+              "answer": 1,
+              "explanation": "A material change to the requirements made during the bid period will usually require an extension of the bidding period unless it happens early, and an extension is good practice; if the change is substantial in legal terms, the process may even have to be reissued. The 'refuse' option does not apply, because the change comes from MMTA itself, not from a bidder's request.",
+              "ref": "Ch 6 §6.4, pp. 16–17"
+            },
+            {
+              "id": "2b-4",
+              "stem": "As preferred bidder, MetroLink asks for a cap on deductions for non-availability at 20 percent of the monthly payment.",
+              "answer": 2,
+              "explanation": "A cap on deductions changes the risk allocation, and any material change that could have led other bidders to bid differently should be refused; Tessaly's rules also limit negotiation to clarifying and finalizing, not changing risk allocation. It is not a clarification to share with all bidders, because it seeks a better position for MetroLink only.",
+              "ref": "Ch 6 §10, p. 25; §12.2, p. 30"
+            },
+            {
+              "id": "2b-5",
+              "stem": "MMTA plans to put new geotechnical survey data in the data room three weeks before the deadline.",
+              "answer": 1,
+              "explanation": "The authority must manage the risks of releasing extra data late; an extension of the bidding period may be appropriate so that all bidders can fully consider it and adjust their bids. Ground conditions in the tunnel are a major pricing issue, so simply sharing the data without more time may not give bidders a fair chance to use it.",
+              "ref": "Ch 6 §6.4, p. 17"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "multiple-response",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions about managing the Green Line tender. Select TWO options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "Which 2 measures should MMTA apply to the individual interactive workshops with each bidder?",
+              "options": [
+                "Circulate the rules for conduct of the workshops to all bidders in advance.",
+                "Give each bidder extra project information during its own workshop when it asks.",
+                "Let a single MMTA official run each workshop, to build trust with the bidder.",
+                "Keep attendance records and minutes of every workshop.",
+                "Keep no written record, to protect bidders' confidential ideas."
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "Individual meetings create a risk that one bidder receives information others do not; good-practice measures include circulating the rules in advance, having at least two government representatives present and documenting the process with attendance records and minutes. Giving extra information in a single bidder's meeting, having only one official present or keeping no records all increase the risk of unfairness or allegations of impropriety.",
+              "ref": "Ch 6 §8.1, p. 20"
+            },
+            {
+              "id": "2c-2",
+              "stem": "Which 2 considerations should guide MMTA's response to the request by Aurelia and Tessaline for a 60-day extension?",
+              "options": [
+                "Extensions should be granted automatically whenever a bidder asks.",
+                "An extension may unfairly disadvantage MetroLink, which is ready to submit.",
+                "An extension shows the market that the government is fully committed.",
+                "Starting with a short bid period and extending it later is good practice.",
+                "Refusing may leave too little competition, so MMTA should balance this, taking account of external factors such as the holiday week."
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "When some bidders ask for an extension and others are ready, an extension may unfairly disadvantage the prepared bidder (MetroLink), but refusing may leave too little competition; the authority should find a balanced response, considering external factors such as public holidays. Extensions are often seen as a sign of volatility, not commitment, and relying on a short period and extending it later is described as a common mistake.",
+              "ref": "Ch 6 §6.7, p. 17; §5, p. 12"
+            },
+            {
+              "id": "2c-3",
+              "stem": "Which 2 arrangements should MMTA use to evaluate the technical proposals?",
+              "options": [
+                "Use only the lead external adviser's scores, to save time.",
+                "Base each technical score on the average of the individual evaluators' scores.",
+                "Let the external advisers make the award recommendation to the MMTA Board.",
+                "Have MMTA officials make the recommendation to award, on the advice of the external advisers.",
+                "Give the technical evaluators access to bid prices so that they can judge value."
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The evaluation score should be the average of the individual evaluators' scores so that no single member biases the result, and where external advisers evaluate, the recommendation to the awarding authority should be a decision of government employees on their advice. Using one adviser's scores defeats the averaging rule, and technical evaluators should be separated from financial information.",
+              "ref": "Ch 6 §9, p. 21; §9.2, p. 22; §9.3, p. 23"
+            },
+            {
+              "id": "2c-4",
+              "stem": "Which 2 prior conditions will MetroLink typically have to meet before it signs the contract?",
+              "options": [
+                "Obtain the Rail Safety Inspectorate's operating licence for its vehicles.",
+                "Complete the Eastgate depot.",
+                "Establish the SPV that will sign the contract as the private partner.",
+                "Receive a debriefing from MMTA on its proposal.",
+                "Take out the required insurance (or prove that it is available) and provide the performance guarantee."
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "Typical prior conditions for signature are setting up the SPV, contracting insurance (or proving it is available) and providing the performance guarantee, and in some jurisdictions financial close. Operating licences and completing the depot come much later, during construction and commissioning, and debriefing takes place after the contract has been executed.",
+              "ref": "Ch 6 §12.1, p. 30"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, select the ONE option in each line in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "The committee chair's suggestion about Tessaline's financial envelope.",
+              "options": [
+                "MMTA should open Tessaline's financial envelope BECAUSE price carries 55 percent of the weight and could outweigh a low technical score.",
+                "MMTA should reject Tessaline's proposal without opening its financial envelope BECAUSE a proposal below the RFP's minimum technical score is not qualified, and its price offer is rejected with it.",
+                "MMTA should let Tessaline improve its tunnel score BECAUSE bidders may always correct errors in their proposals after submission."
+              ],
+              "answer": 1,
+              "explanation": "Tessaline scored 6.6 overall and 6.0 for the tunnel, below the RFP minimums of 7.0 and 7.5; under a technical floor such an offer is rejected together with its price offer, and Tessaly's rules require technical scores to be sealed before envelopes are opened. The first option ignores the floor that the RFP set. Only immaterial, remediable errors may be corrected, never basic elements of a proposal.",
+              "ref": "Ch 6 §9.3, footnote 10, p. 23; §9.1, p. 22; Ch 5 §8.2, p. 129"
+            },
+            {
+              "id": "2d-2",
+              "stem": "MetroLink's request to adjust the equity wording to cover subordinated shareholder loans.",
+              "options": [
+                "MMTA should refuse any discussion of contract wording BECAUSE the Guide prohibits all negotiation once a preferred bidder is chosen.",
+                "MMTA should accept the request BECAUSE any change asked for by a preferred bidder is a clarification.",
+                "MMTA may negotiate this wording BECAUSE MetroLink chose a solution that the RFP allowed but the draft contract did not anticipate."
+              ],
+              "answer": 2,
+              "explanation": "The Guide gives this exact reason for post-bid negotiation: the RFP allowed equity as share capital or subordinated debt, but the contract assumed share capital only, so clauses must be adjusted; this does not change the risk allocation, and Tessaly allows negotiation to clarify and finalize. The Guide does not prohibit all negotiation, and not every change requested by a preferred bidder is a clarification, as the deduction cap request shows.",
+              "ref": "Ch 6 §10, p. 25"
+            },
+            {
+              "id": "2d-3",
+              "stem": "The end of the negotiations with MetroLink.",
+              "options": [
+                "MMTA should require MetroLink to resubmit its proposal as amended BECAUSE MMTA must check that the updated proposal still gives value for money and does not disadvantage Aurelia.",
+                "MMTA should award the contract without further checks BECAUSE evaluation scores cannot change after negotiation.",
+                "MMTA should retender the whole project BECAUSE any negotiation makes the evaluation invalid."
+              ],
+              "answer": 0,
+              "explanation": "Good practice is to require the preferred bidder to resubmit its proposal amended to reflect the negotiations, and to assess whether it still offers value for money and whether award remains appropriate, without disadvantaging the unselected bidder, who might challenge. Negotiation does not automatically invalidate the evaluation, and awarding without checks ignores the risk that negotiation changed the offer.",
+              "ref": "Ch 6 §10, p. 26"
+            },
+            {
+              "id": "2d-4",
+              "stem": "Aurelia's challenge during the standstill period.",
+              "options": [
+                "MMTA should sign the contract during the standstill period BECAUSE signature ends any right to challenge.",
+                "MMTA should re-score Aurelia's proposal upward BECAUSE avoiding a legal challenge matters more than following the RFP.",
+                "MMTA should engage legal and subject-matter experts to defend the award BECAUSE challenges after award are usually based on alleged deviations from the evaluation rules in the RFP."
+              ],
+              "answer": 2,
+              "explanation": "When an award is challenged, the authority must engage legal resources and relevant experts to respond and defend the decision; post-award challenges usually allege deviations from the RFP's evaluation and selection rules, here the scoring of experience. Signing during the standstill defeats its purpose, and re-scoring outside the RFP rules would itself be a deviation inviting a challenge from MetroLink.",
+              "ref": "Ch 6 §11.1, p. 28"
+            },
+            {
+              "id": "2d-5",
+              "stem": "The request by MetroLink's lenders before financial close.",
+              "options": [
+                "MMTA need not look at the financing agreements BECAUSE financing is entirely the project company's risk.",
+                "MMTA should validate the financing agreements before financial close BECAUSE they must not contravene the contract or create risks or responsibilities for MMTA that the contract does not provide for.",
+                "MMTA should guarantee the senior debt in the direct agreement BECAUSE direct agreements are always direct guarantees to lenders."
+              ],
+              "answer": 1,
+              "explanation": "In all cases the authority has to validate the financial agreements to check that they do not contravene the contract or create any direct risk or responsibility not considered in it, and it may confirm the lenders' step-in rights through a direct agreement. Direct agreements give lenders comfort but are not necessarily guarantees, so the third reason is false; the first ignores the implications of financial close for the authority.",
+              "ref": "Ch 6 §13, p. 32"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions about decisions taken by MMTA. Select the most appropriate assessment for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "How should MMTA assess the Director General's proposal to answer Aurelia's question on the ground-conditions baseline only to Aurelia?",
+              "options": [
+                "Appropriate, because Aurelia asked the question and its questions are confidential.",
+                "Appropriate, because clarifications never form part of the RFP package.",
+                "Inappropriate, because MMTA must answer every question that bidders ask.",
+                "Inappropriate, because the answer concerns a risk allocation that all bidders must price, so it should be shared with all of them."
+              ],
+              "answer": 3,
+              "explanation": "Responses should be shared with all bidders wherever this helps them bid better, for transparency; answering only the asking bidder is reserved for questions specific to that bidder's own proposal, and even then great care is needed. The baseline applies to every bidder's tunnel price. The third option is wrong because the authority keeps discretion about whether to respond at all.",
+              "ref": "Ch 6 §6.3, p. 16"
+            },
+            {
+              "id": "2e-2",
+              "stem": "Cabinet endorsement of the award was delayed by five months. What should MMTA do?",
+              "options": [
+                "Check whether MetroLink can still meet the milestones and bid commitments, and agree revised dates only if the changes are not substantial.",
+                "Keep all dates unchanged, because the scheduled service commencement date is fixed in the RFP.",
+                "Cancel the award and retender, because any delay in award makes the evaluation invalid.",
+                "Move service commencement to after the Games, because political deadlines are not relevant."
+              ],
+              "answer": 0,
+              "explanation": "If award is delayed beyond the RFP timeline, the authority should consider whether the winner can still meet the milestones and bid commitments; revised dates may be needed, but substantial changes could give other bidders grounds to challenge. With the Games in July 2034 and a fixed long stop date, simply keeping the dates may be unrealistic, while retendering is out of proportion.",
+              "ref": "Ch 6 §11, p. 27"
+            },
+            {
+              "id": "2e-3",
+              "stem": "How should MMTA assess its plan to debrief Aurelia by showing a detailed comparison of its scores with MetroLink's?",
+              "options": [
+                "Appropriate, because a detailed comparison of scores is the most transparent approach.",
+                "Inappropriate; after the contract is signed, MMTA should give general guidance on how Aurelia can better meet its expectations, not compare the bids' relative merits.",
+                "Inappropriate, because unsuccessful bidders should not be debriefed at all.",
+                "Appropriate, but only if it is done before the contract is signed."
+              ],
+              "answer": 1,
+              "explanation": "It is good practice to debrief both successful and unsuccessful bidders after the contract has been executed; the debriefing should not focus on the relative merits of the bids but on general information on how each bidder can better meet the government's expectations. The first option is tempting for transparency, but comparing bids may disclose MetroLink's commercial information.",
+              "ref": "Ch 6 §12.4, p. 31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "CC",
+      "title": "Contract management during the construction stage",
+      "additionalInfo": "**Construction progress report, month 26 (February 2032)**\n\nFinancial close was reached in December 2029, and construction started in January 2030. The scheduled service commencement date is still 1 November 2033.\n\n- **Contract management.** MMTA appointed its Contract Manager only at financial close, when most of the tender team left. MMTA has not yet produced a Contract Management Manual. The independent certifier was appointed jointly by MMTA and MetroLink and is paid by MetroLink. MetroLink reports monthly to MMTA on progress against the baseline schedule.\n- **Costs.** MMTA has paid TSC 150 million of its capital contribution against certified milestones. MetroLink's construction contractor says tunnelling costs are TSC 35 million over budget and asks MMTA to help settle its dispute with MetroLink.\n- **Design.** MMTA's engineers want the right to approve the final design of the Old Town stations.\n- **Schedule.** The tunnel is four months behind. MetroLink proposes to change the baseline schedule by re-sequencing critical tunnel activities.\n- **Events notified by MetroLink**\n  1. MMTA delivered the Riverside Park site five months late.\n  2. An exceptional flood of the River Aren stopped bridge works for seven weeks. The contract lists exceptionally adverse weather as a relief event.\n  3. Excavation found Roman remains in the Old Town beyond the contract's archaeological baseline, which the contract treats as a compensation event. MetroLink has sent a notice claiming time and TSC 22 million.\n  4. The national VAT rate rose from 15 to 17 percent for all businesses.\n  5. A new law imposes a special levy only on companies that hold rail PPP contracts.\n  6. The tunnelling subcontractor's low productivity has caused further delay.\n- **Changes.** MMTA wants to add a stop at the University campus (estimated cost TSC 28 million). MetroLink proposes value engineering on the River Aren bridge: reducing derailment containment below the level in the output specifications and sharing the savings with MMTA.\n- **Ownership.** MetroLink's construction contractor, which holds 25 percent of the shares, wants to sell its stake to a financial investor six months before completion. The contract bans share disposals until two years after completion unless MMTA consents.\n- **Forecast.** Even after any extensions of time it may be granted, MetroLink forecasts that service commencement will be about four months late, because of the subcontractor's low productivity. The contract sets liquidated damages for late service commencement, after a notice and a remedy period.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about contract management during the construction stage. Select one answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "What is the main focus of the procuring authority's performance monitoring during the construction stage?",
+              "options": [
+                "Measuring service punctuality and cleanliness against target levels of service.",
+                "Approving the methods the project company uses to build the works.",
+                "Leaving all monitoring to the project company's own quality system.",
+                "Ensuring that the facilities reflect the contract, that works progress through commissioning on schedule and that other obligations are met."
+              ],
+              "answer": 3,
+              "explanation": "During construction, monitoring mainly ensures that the facilities reflect the PPP contract, that work progresses properly through commissioning according to the schedule and that other obligations are met; service standards are the focus in operations. Monitoring does not mean approving the project company's methods, nor leaving performance management entirely to it.",
+              "ref": "Ch 7 §6.1 and §6.1.1, pp. 46–47"
+            },
+            {
+              "id": "3a-2",
+              "stem": "What is the primary role of the independent certifier in a PPP such as the Green Line?",
+              "options": [
+                "To inspect and monitor the works, attend commissioning tests and, when satisfied, issue the certificate that allows operations to start.",
+                "To take over the design and construction risk once it has certified the works.",
+                "To act only for the procuring authority, which must always pay its fees.",
+                "To make final and binding decisions on all claims, including legal matters."
+              ],
+              "answer": 0,
+              "explanation": "The independent certifier inspects and monitors the work, attends performance testing during commissioning, advises on items needing rectification and issues the certificate permitting operation. It accepts no design or construction risk, owes a duty to both parties and is often paid by the project company, and it cannot give final binding decisions on legal matters beyond its technical expertise.",
+              "ref": "Ch 7 §6.1.3, p. 50; §8.4, p. 74"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "sequencing",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, MMTA's contract management team has received MetroLink's notice claiming time and TSC 22 million for the Roman remains (event 3). Column 1 lists the steps it should take to evaluate the claim. For each step in Column 1, select from Column 2 its position in the sequence. Each position can be used only once.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "First step",
+            "Second step",
+            "Third step",
+            "Fourth step",
+            "Fifth step"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "Estimate the best-case and worst-case size of the claim from each party's point of view.",
+              "answer": 3,
+              "explanation": "Evaluating the magnitude is the fourth step of the claim evaluation process: once the claim is known to have a basis and some chance of success, the team estimates its best-case and worst-case size for each party. Doing it earlier would waste effort on claims that have no contractual basis.",
+              "ref": "Ch 7 §8.1, Table 7.9, p. 69"
+            },
+            {
+              "id": "3b-2",
+              "stem": "Decide the approach, from a negotiated settlement to the dispute resolution procedure.",
+              "answer": 4,
+              "explanation": "Strategy development is the last step, based on the findings on source, basis, merit and magnitude; it may range from a settlement agreement to the dispute resolution procedure, which the Guide notes is the default in practice because officials are seldom empowered to settle.",
+              "ref": "Ch 7 §8.1, Table 7.9, pp. 69–70"
+            },
+            {
+              "id": "3b-3",
+              "stem": "Identify the source of the claim: remains found beyond the contract's archaeological baseline.",
+              "answer": 0,
+              "explanation": "The process starts with identification, determining the source of the potential claim, such as hidden or differing site conditions; here, remains beyond the archaeological baseline. The later steps depend on knowing what event is being claimed.",
+              "ref": "Ch 7 §8.1, Table 7.9, p. 69"
+            },
+            {
+              "id": "3b-4",
+              "stem": "Judge how likely the claim is to succeed, based on the contract documents and legal precedent.",
+              "answer": 2,
+              "explanation": "Evaluating merit is the third step, after the legal compliance check has shown that the claim has a basis in the contract or in law; merit is judged on legal precedent and the contract documentation. It comes before sizing the claim.",
+              "ref": "Ch 7 §8.1, Table 7.9, p. 69"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Check, with legal advice, whether the claim has a basis in the PPP contract or in law.",
+              "answer": 1,
+              "explanation": "The legal compliance check follows identification: the team decides whether the claim has any basis in the PPP contract or in law, consulting legal resources. Claims without a legitimate basis should be rejected before any assessment of merit or magnitude.",
+              "ref": "Ch 7 §8.1, Table 7.9, p. 69"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, Column 1 lists events notified by MetroLink. For each event in Column 1, select from Column 2 how it should normally be treated under a well-structured PPP contract. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Relief event: extension of time only",
+            "Compensation event: time and/or money from MMTA",
+            "Project company risk: no relief and no compensation",
+            "Force majeure event"
+          ],
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "Event 1: MMTA delivered the Riverside Park site five months late.",
+              "answer": 1,
+              "explanation": "Failure by the procuring authority to provide land or a right of way is the Guide's example of a compensation event, entitling the project company to money and possibly time; MMTA is responsible for land delivery under the Green Line contract. It is not a mere relief event, because the cause lies with MMTA.",
+              "ref": "Ch 7 §8.2.2, p. 73"
+            },
+            {
+              "id": "3c-2",
+              "stem": "Event 2: an exceptional flood stopped bridge works for seven weeks.",
+              "answer": 0,
+              "explanation": "Unforeseeable adverse weather is the Guide's best example of a relief event, and the contract lists it as one: MetroLink gets an extension of the completion date, bears the financial cost and avoids liquidated damages and termination. It is not force majeure here, because the contract classifies it as a relief event.",
+              "ref": "Ch 7 §8.2.1, p. 72"
+            },
+            {
+              "id": "3c-3",
+              "stem": "Event 4: the national VAT rate rose from 15 to 17 percent for all businesses.",
+              "answer": 2,
+              "explanation": "A general change in law affects all businesses in the country, and its risk and cost stay with the project company; tax changes are the Guide's own example. It would be a compensation event only if it discriminated against the project company or PPP companies.",
+              "ref": "Ch 7 §7.7.2, p. 67"
+            },
+            {
+              "id": "3c-4",
+              "stem": "Event 5: a new law imposes a special levy only on companies that hold rail PPP contracts.",
+              "answer": 1,
+              "explanation": "A change in law that discriminates against PPP businesses is project-specific, so the procuring authority bears its cost, handled through the authority variation process, while the project company must use reasonable endeavours to mitigate. Treating it as general change in law would ignore its discriminatory effect.",
+              "ref": "Ch 7 §7.7.3, p. 67; Ch 5 §9.7, p. 154"
+            },
+            {
+              "id": "3c-5",
+              "stem": "Event 6: the tunnelling subcontractor's low productivity has caused further delay.",
+              "answer": 2,
+              "explanation": "The general risk of implementing the contract, including subcontractor performance, lies with the project company, which passes it down to its contractors; relief is limited to specific events listed in the contract. Low productivity is within the private side's control, so it gives no right to time or money.",
+              "ref": "Ch 7 §7.4, p. 63; §6.2.2, p. 51"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions about MMTA's contract management. Select TWO options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "Which 2 facts show weaknesses in how MMTA set up its contract management function?",
+              "options": [
+                "The Contract Manager was appointed only at financial close.",
+                "The independent certifier was appointed jointly and is paid by MetroLink.",
+                "There is still no Contract Management Manual after financial close.",
+                "MMTA pays its capital contribution against certified milestones.",
+                "MetroLink reports monthly on progress against the baseline schedule."
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Contract Manager should be appointed during the Structuring Phase, and the Contract Management Manual should be completed by the end of the Tender Phase, so knowledge passes on before the tender team leaves, as happened here. A jointly appointed certifier paid by the project company is common, milestone payments against certification are normal cost oversight, and regular progress reporting is what the Guide recommends.",
+              "ref": "Ch 7 §3.1, p. 10; §6.2, p. 51; §6.4, p. 53"
+            },
+            {
+              "id": "3d-2",
+              "stem": "Which 2 actions should MMTA take for the University stop (estimated cost TSC 28 million)?",
+              "options": [
+                "Ask MetroLink to pay for the stop, because scope changes are its risk.",
+                "Issue a formal variation notice giving detailed information on the change and its impact.",
+                "Agree the stop informally with MetroLink's site team, without a variation notice, to save time.",
+                "Fund the change, for example by a capital payment on implementation and higher availability payments for the extra operating costs.",
+                "Let MetroLink build the stop first and inform MMTA afterwards."
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "An authority-initiated change needs a formal variation notice with detailed information on its impact, and the costs of the variation must be funded by the authority, for example by a lump-sum capital payment plus increased payments for ongoing operating and maintenance costs. Authority-initiated scope changes are not the project company's risk, and all variations must be notified and agreed before they are implemented.",
+              "ref": "Ch 7 §7.3 and §7.3.1, pp. 61–62"
+            },
+            {
+              "id": "3d-3",
+              "stem": "Which 2 statements about MetroLink's value engineering proposal for the bridge are correct?",
+              "options": [
+                "MMTA should accept it, because it reduces cost and the savings will be shared.",
+                "As a change initiated by MetroLink, it should be paid for by MMTA.",
+                "MMTA should examine the safety risk that comes with the saving before agreeing to share it.",
+                "MMTA need not review it, because the means of meeting the output specifications are MetroLink's choice.",
+                "If a derailment happened where containment was reduced, MMTA's share in the saving could expose it to shared liability."
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "The authority must be sensitive to value engineering and examine the risk that comes with it; the Guide's own example is reduced derailment containment, where sharing in the saving could lead to shared civil or even criminal liability after a derailment. The authority has a strong interest in reviewing project company changes, especially one below the output specifications, and such changes are normally at the project company's cost.",
+              "ref": "Ch 7 §7.3.2, p. 63"
+            },
+            {
+              "id": "3d-4",
+              "stem": "Which 2 points are relevant to the construction contractor's plan to sell its 25 percent stake before completion?",
+              "options": [
+                "MMTA's consent is needed, because the sale falls inside the contract's lock-up period.",
+                "MMTA should approve it automatically, because a contractor's exit is always acceptable.",
+                "MMTA should prohibit any change of ownership for the whole contract term.",
+                "MMTA should consider whether a financial investor can replace the comfort it took from the contractor's stake, given the contractor's active construction role.",
+                "MMTA should use its consent right to override the lenders' requirements on shareholder commitments."
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "The contract bans disposals until two years after completion without consent, so MMTA's approval is required; the Guide notes that the risk to manage is a sale to an unsuitable shareholder where the authority relied on the commitment of a shareholder with an active role, such as the construction contractor. A contractor exit after completion is a normal example, but this sale is before completion. Changes should not be prohibited for the whole term, and the authority should not interfere with lenders' legitimate interests.",
+              "ref": "Ch 7 §7.2, p. 60"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions about issues in the progress report. Select the most appropriate response by MMTA for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "How should MMTA respond to the construction contractor's request for help with its TSC 35 million overrun dispute with MetroLink?",
+              "options": [
+                "Pay part of the overrun from its capital contribution, to protect the Games deadline.",
+                "Act as mediator, because it holds cost data for each milestone.",
+                "Stay out of the dispute; cost overrun risk lies with MetroLink and its contractor, and MMTA's cost monitoring is for information only.",
+                "Stop its milestone payments until MetroLink settles with the contractor."
+              ],
+              "answer": 2,
+              "explanation": "Cost overrun risk is passed to the project company and, through it, to the construction contractor; the authority should avoid being drawn into their disputes, and its cost monitoring is for information only. It should likewise refuse to join claims between the project company and its subcontractors. Paying the overrun would reverse the risk transfer, and withholding certified payments would breach MMTA's own obligations.",
+              "ref": "Ch 7 §6.2.2, p. 51; §8.1, p. 70"
+            },
+            {
+              "id": "3e-2",
+              "stem": "How should MMTA respond to its engineers' wish to approve the final design of the Old Town stations?",
+              "options": [
+                "Take the approval right, because MMTA will own the stations after handback.",
+                "Review the designs against the output specifications but not approve them, so that design risk stays with MetroLink.",
+                "Neither review nor ask to see the designs, because design is MetroLink's risk.",
+                "Take approval rights for the Old Town stations only, because they are in a heritage zone."
+              ],
+              "answer": 1,
+              "explanation": "The project company should be solely responsible for the design; the authority should have a right to review designs, including all revised designs, but no rights of approval, so design changes needed to meet the output specifications stay at the project company's risk. Not reviewing at all is also wrong, because MMTA must be assured the works can deliver the services. Heritage consents are third-party approvals that MetroLink must obtain with MMTA's reasonable help.",
+              "ref": "Ch 7 §6.3 and §6.3.1, p. 52; §6.3.2, p. 53"
+            },
+            {
+              "id": "3e-3",
+              "stem": "How should MMTA respond to MetroLink's proposal to re-sequence critical tunnel activities in the baseline schedule?",
+              "options": [
+                "Update the baseline schedule itself, because the Games deadline is MMTA's political risk.",
+                "Let MetroLink re-sequence without involving MMTA, because schedule management is MetroLink's responsibility.",
+                "Reject any change to the baseline schedule until the four-month tunnel delay is recovered.",
+                "Require its approval of the change, check its effect on the critical path and keep informed of any risk to the service commencement date."
+              ],
+              "answer": 3,
+              "explanation": "Changes to the baseline schedule other than approved change orders and time extensions need the procuring authority's approval, and the authority must be informed of any change that might affect milestones or the critical path. Schedule management remains MetroLink's responsibility, so MMTA does not update the schedule itself, but it cannot ignore a change on critical tunnel activities when the Games deadline creates political and reputational risk.",
+              "ref": "Ch 7 §6.4, Table 7.7, p. 55; §6.4.3, p. 56"
+            },
+            {
+              "id": "3e-4",
+              "stem": "MetroLink forecasts that service commencement will be about four months late because of its subcontractor's low productivity. What should MMTA do?",
+              "options": [
+                "Follow the contract's liquidated damages procedure strictly, with notice and remedy period, and keep monitoring; termination would only be considered if services have not started by the long stop date.",
+                "Start the termination process now, because the delay is not caused by any relief or compensation event.",
+                "Waive the liquidated damages, to protect the relationship before the Games.",
+                "Grant an extension of time, because the Games deadline is outside MetroLink's control."
+              ],
+              "answer": 0,
+              "explanation": "Liquidated damages are the preferred remedy for late service commencement, and their procedures, including notification and a remedy period, must be followed closely or procedural irregularities may undermine the claim. Termination is only started if services have not commenced by the long stop date (1 November 2034), so starting now is premature. Waiving material non-performance is inappropriate, and the cause (subcontractor productivity) is MetroLink's own risk, not a ground for an extension.",
+              "ref": "Ch 7 §9.2 and §9.2.2.1, pp. 76–77; §9.2.2.4, p. 78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "OM",
+      "title": "Contract management during the operations stage",
+      "additionalInfo": "**First operating year report (April 2034 – March 2035)**\n\nService commencement was certified on 1 April 2034, five months after the original scheduled date, and the line carried Games visitors in July 2034. The monthly availability payment at full performance is TSC 8.1 million.\n\n- **Transition.** A new operations team took over from the construction team. The help desk opened two weeks after service commencement. The payment mechanism and performance monitoring system had not been trial-run, so in months 1–3 MMTA paid the full availability payment without checking performance or applying deductions.\n- **Availability and performance**\n  - Month 5: a signalling failure caused by poor maintenance closed the Old Town section for three days.\n  - Month 8: MMTA's own utility contractor cut a power cable, closing four stops for one day.\n  - Month 9: help-desk response times missed the target on 40 calls.\n  - Month 10: stops closed for one day because the Rail Safety Inspectorate ordered a network-wide inspection after an accident on another city's tram system. The contract lists such orders as a relief event.\n  - Punctuality: 91 percent against a contract target of 95 percent, measured automatically.\n  - Stop cleaning failed 14 times in six months; the contract ratchet applies above six failures in six months.\n  - A passenger survey rated staff helpfulness as poor. The contract obliges MetroLink to improve user satisfaction but does not use survey results for deductions.\n- **Monitoring.** MetroLink self-reports through its quality management system (QMS). MMTA spot checks found that MetroLink reported better help-desk response times than its own call records show.\n- **MetroLink proposals.** (1) Cap deductions for non-availability at 10 percent of the monthly payment. (2) Index the whole unitary payment, including the part that covers debt service, to CPI. (3) Share the savings from new timetable software that improves punctuality and cuts energy use.\n- **MMTA proposals.** The finance officer proposes to pay each month's availability payment at the start of the month and to use MMTA's own shadow bid model, rather than MetroLink's base case model, to calculate compensation payments. The Director General wants to terminate the contract because MetroLink has reached the first performance-points threshold; to reopen stop-cleaning prices now, although the contract provides for market testing of cleaning and security services every five years; and, from year 2, to apply the same fixed deduction to every performance failure to keep things simple.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about contract management during the operations stage. Select one answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "What are the three key elements of the performance management model in a PPP contract?",
+              "options": [
+                "Output specifications, input specifications and staffing levels.",
+                "Tariff levels, demand forecasts and revenue sharing.",
+                "The required level of performance, the means of monitoring it and the consequences of failing to meet it.",
+                "The construction schedule, the independent certifier and liquidated damages."
+              ],
+              "answer": 2,
+              "explanation": "The performance management model has three elements: the level of performance required to meet the output specifications, the means the authority will use to monitor performance, and the consequences for the project company of failing to meet the required level. Input specifications should be avoided in PPPs, and the construction schedule, certifier and liquidated damages belong to the construction stage.",
+              "ref": "Ch 7 §15.1, p. 95"
+            },
+            {
+              "id": "4a-2",
+              "stem": "What does the Guide identify as one of the greatest risks in the transition from construction to operations?",
+              "options": [
+                "The annual indexation of the availability payment.",
+                "The change of personnel, as those who designed and built the asset leave and a new team starts to operate it.",
+                "The refinancing of the senior debt.",
+                "The reduction of the performance guarantee after construction."
+              ],
+              "answer": 1,
+              "explanation": "Between construction and operation most of the professionals who designed, installed and verified the asset leave, and a new team begins to operate it; this change in personnel is one of the greatest risks to bridging the gap to efficient operations. The other options are real contract matters, but the Guide does not describe them as the key transition risk.",
+              "ref": "Ch 7 §12.1, p. 85"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, Column 1 lists performance events in the first operating year. For each event in Column 1, select from Column 2 how MMTA should treat it under the payment mechanism. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Apply the normal payment deduction",
+            "Apply a ratcheted (increased) deduction",
+            "Give relief: no deduction"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "Month 5: a signalling failure caused by poor maintenance closed the Old Town section for three days.",
+              "answer": 0,
+              "explanation": "Unavailability caused by the project company's own failure leads to a payment deduction scaled to the severity of the failure; closing a whole section is serious, and MMTA should not pay for a service that is not available. Relief applies only when the cause lies outside MetroLink's control.",
+              "ref": "Ch 7 §16.1.1, p. 103"
+            },
+            {
+              "id": "4b-2",
+              "stem": "Month 8: MMTA's own utility contractor cut a power cable, closing four stops for one day.",
+              "answer": 2,
+              "explanation": "Where the project company is prevented from reaching the required performance by events outside its control, or by the procuring authority itself, the payment mechanism should give adequate relief. Deducting here would penalize MetroLink for MMTA's own contractor's act.",
+              "ref": "Ch 7 §15.1, p. 96"
+            },
+            {
+              "id": "4b-3",
+              "stem": "Punctuality was 91 percent against a contract target of 95 percent.",
+              "answer": 0,
+              "explanation": "Punctuality is an objective, automatically measured performance indicator in the Green Line payment mechanism, so the shortfall leads to the deduction the mechanism sets. No ratchet threshold is described for punctuality, and nothing outside MetroLink's control caused the shortfall.",
+              "ref": "Ch 7 §16.1.1, p. 102; §15.3, p. 99"
+            },
+            {
+              "id": "4b-4",
+              "stem": "Stop cleaning failed 14 times in six months; the ratchet applies above six failures in six months.",
+              "answer": 1,
+              "explanation": "A ratchet mechanism increases the deduction for a failure that recurs too often within a specified period (for example x+3 above the maximum number of repetitions), because the normal deduction has not been enough to make the project company rectify it. Here eight failures exceed the contract threshold of six.",
+              "ref": "Ch 7 §15.3, p. 99"
+            },
+            {
+              "id": "4b-5",
+              "stem": "Month 10: stops closed because the Rail Safety Inspectorate ordered a network-wide inspection; the contract lists this as a relief event.",
+              "answer": 2,
+              "explanation": "The inspection order is a contractually defined relief event outside MetroLink's control, so the payment mechanism should give relief rather than deductions. The closure is real unavailability, but the Guide requires relief where the failure is caused by such listed events.",
+              "ref": "Ch 7 §15.1, p. 96; §8.2.1, p. 72"
+            },
+            {
+              "id": "4b-6",
+              "stem": "Month 9: help-desk response times missed the target on 40 calls.",
+              "answer": 0,
+              "explanation": "Help-desk response time is one of the performance indicators in the Green Line mechanism, so a failure attracts the normal deduction, proportionate to its seriousness. No ratchet threshold is reported for help-desk failures, and the cause was within MetroLink's control.",
+              "ref": "Ch 7 §15.3, pp. 98–99"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "assertion-reason",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, select the ONE option in each line in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "MetroLink's proposal to cap deductions for non-availability at 10 percent of the monthly payment.",
+              "options": [
+                "MMTA should accept the cap BECAUSE the project company's debt service is a fixed cost that must always be protected.",
+                "MMTA should accept the cap BECAUSE limits on deductions are always required in emerging markets.",
+                "MMTA should reject the cap BECAUSE there should generally be no limit on deductions for non-availability, as MMTA should not pay for services that are not available."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says there should generally be no limit to deductions for non-availability, notwithstanding the project company's fixed debt service, because the authority should not pay for unavailable services. Limits may exist in some immature EMDE programmes to ensure bankability, but they are an exception, not always required, and this cap is a change proposed after the contract was signed.",
+              "ref": "Ch 7 §16.1.1, p. 103"
+            },
+            {
+              "id": "4c-2",
+              "stem": "The finance officer's proposal to pay each month's availability payment at the start of the month.",
+              "options": [
+                "MMTA should keep paying monthly in arrears BECAUSE no payment should be made in advance of the service being delivered.",
+                "MMTA should pay at the start of the month BECAUSE early payment lowers MetroLink's financing costs and so improves value for money.",
+                "MMTA should pay at the start of the month BECAUSE any later deductions can be recovered from the performance guarantee."
+              ],
+              "answer": 0,
+              "explanation": "An essential element of an authority-pays payment mechanism is that no payment is made until service commencement and none in advance of a service being delivered. Paying in advance means MMTA pays before knowing whether the service was available, and recovering deductions from the guarantee is a remedy, not a reason to pay in advance.",
+              "ref": "Ch 7 §16.1.1, p. 102"
+            },
+            {
+              "id": "4c-3",
+              "stem": "MetroLink's proposal to index the whole unitary payment, including the part covering debt service, to CPI.",
+              "options": [
+                "MMTA should index the whole unitary payment to CPI BECAUSE CPI indexation is the default for every cost input, including debt service.",
+                "MMTA should not index the part of the unitary payment that covers debt service BECAUSE payments to lenders are generally not affected by CPI.",
+                "MMTA should split the unitary payment into separate debt and maintenance payments BECAUSE this makes indexation simpler."
+              ],
+              "answer": 1,
+              "explanation": "Indexation should be appropriate to the project company's underlying costs; CPI is the default, but payments to lenders are generally unaffected by CPI, so the debt-service proportion should generally not be indexed. The unitary payment should be single and indivisible, not split into amounts for debt and maintenance.",
+              "ref": "Ch 7 §16.1.1, pp. 102–103"
+            },
+            {
+              "id": "4c-4",
+              "stem": "MMTA's spot checks showing that MetroLink over-reported its help-desk performance.",
+              "options": [
+                "MMTA should stop using MetroLink's self-reported data BECAUSE self-monitoring is not acceptable in availability PPPs.",
+                "MMTA should ignore the difference BECAUSE the QMS is a contractual obligation, so its data are presumed correct.",
+                "MMTA should continue to use the QMS data but increase its spot checks and audits BECAUSE its role is to assure that the self-reported information is correct."
+              ],
+              "answer": 2,
+              "explanation": "Monitoring normally relies on the project company's self-monitoring through its QMS, with the authority reviewing it and carrying out spot checks and audits to ensure the recorded information is correct; external audits at the private partner's expense are also a recognized remedy. Self-monitoring is acceptable and cost-effective, but the discrepancy cannot be ignored because deductions are calculated from these reports.",
+              "ref": "Ch 7 §15.1, p. 95; §15.2, p. 97; Ch 5 §9.2, p. 143"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions about issues in the first operating year. Select the most appropriate assessment or action for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "The help desk opened late and the payment mechanism was never trial-run. What should MMTA have done?",
+              "options": [
+                "Prepared and regularly updated a Transition Plan covering the help desk and the trial running of the payment and monitoring systems.",
+                "Left all transition planning to MetroLink, because operating the line is MetroLink's risk.",
+                "Delayed service commencement until after the Games, to allow more testing.",
+                "Kept the construction team in charge of operations for the first year."
+              ],
+              "answer": 0,
+              "explanation": "The authority should include a Transition Plan in its project plan, with dependencies, timescales and resources, updated regularly; it covers setting up the help desk and the timing of the trial running of the payment mechanism and performance monitoring system. Transition is not only MetroLink's matter, because MMTA must have its own staff and systems ready to meet its obligations.",
+              "ref": "Ch 7 §12.1, Box 7.8, p. 86"
+            },
+            {
+              "id": "4d-2",
+              "stem": "In months 1–3 MMTA paid the full availability payment without checking performance or applying deductions. How should this be assessed?",
+              "options": [
+                "It was acceptable, because deductions are optional during the first year of operations.",
+                "It shows that MetroLink breached the contract, so MMTA should now terminate.",
+                "It was acceptable, because the independent certifier keeps verifying performance during operations.",
+                "It is a contract management failure that risks MMTA paying for services not received; MMTA should make its monitoring and payment systems work so deductions are applied."
+              ],
+              "answer": 3,
+              "explanation": "A lack of monitoring can lead to the authority paying for services that are not being received or performed satisfactorily, one of the typical reasons for unsuccessful PPPs in operations. The certifier option is tempting, but the independent certifier's involvement ends at the start of operations, leaving the parties to deal directly. MMTA's own failure is not a MetroLink breach justifying termination.",
+              "ref": "Ch 7 §13.2.1, p. 88; §14.1, p. 91"
+            },
+            {
+              "id": "4d-3",
+              "stem": "How should MMTA assess the Director General's wish to terminate because MetroLink has reached the first performance-points threshold?",
+              "options": [
+                "Appropriate, because reaching any performance-points threshold entitles MMTA to terminate at once.",
+                "Not appropriate; termination is a last resort, so MMTA should apply the escalating remedy set for this threshold and allow a remedy period before any termination.",
+                "Not appropriate, because an authority can never terminate for poor performance in an availability PPP.",
+                "Appropriate, because termination is the first remedy for a persistent breach."
+              ],
+              "answer": 1,
+              "explanation": "Different thresholds of performance points trigger escalating remedies (higher penalties, more monitoring, step-in) and ultimately termination; termination is the last resort, thresholds for it are set high, and a remedy period commonly precedes it. The third option is wrong because persistent breach can lead to termination for default, just not at the first threshold.",
+              "ref": "Ch 7 §15, p. 95; §15.3, p. 98; Ch 5 Box 5.34, p. 149"
+            },
+            {
+              "id": "4d-4",
+              "stem": "How should MMTA deal with the Director General's wish to reopen stop-cleaning prices now?",
+              "options": [
+                "Reopen the prices now, because the authority may change the unitary payment whenever costs change.",
+                "Never reprice soft services, because the unitary payment is fixed for the whole contract.",
+                "Use the five-yearly market testing in the contract and reflect any change in cost in the unitary charge.",
+                "Ask MetroLink to reduce cleaning quality instead of changing the price."
+              ],
+              "answer": 2,
+              "explanation": "For soft services such as cleaning, a value-testing procedure at regular intervals (for example every five years), through market testing or benchmarking, lets the price be revised, with any change reflected in the unitary charge; the Green Line contract provides exactly this. Reopening prices outside that procedure is not a contractual right, and never repricing ignores the mechanism the contract already contains.",
+              "ref": "Ch 7 §16.1.1, p. 103"
+            },
+            {
+              "id": "4d-5",
+              "stem": "How should MMTA respond to MetroLink's offer to share the savings from new timetable software that improves punctuality and cuts energy use?",
+              "options": [
+                "Take all the savings, because the asset belongs to MMTA.",
+                "Refuse, because performance improvements are outside the scope of the contract.",
+                "Accept, and let MetroLink change the specification without any formal procedure.",
+                "Consider it through the variation procedure, with an affordable incentive so that MetroLink shares in the benefit."
+              ],
+              "answer": 3,
+              "explanation": "Improvements should be introduced through the variation procedures, and the authority should not take all the benefit of performance improvements, as this would deter the project company from identifying them; incentives should also be affordable. The contract should encourage, not exclude, improvement over the life of the project.",
+              "ref": "Ch 7 §15.3, pp. 99–100"
+            },
+            {
+              "id": "4d-6",
+              "stem": "How should MMTA assess the Director General's plan to apply the same fixed deduction to every performance failure from year 2?",
+              "options": [
+                "Not appropriate; deductions should reflect the seriousness of each failure, so closing the tunnel section should cost far more than a cleaning failure.",
+                "Appropriate, because a simple mechanism is always better for both parties.",
+                "Appropriate, because each deduction should equal the cost of providing the service concerned.",
+                "Not appropriate, because deductions should apply only to availability, never to performance."
+              ],
+              "answer": 0,
+              "explanation": "There should be a clear link between the seriousness of a failure, the value of the deduction and its financial impact, with a scale of deductions that reflects severity; too harsh or too lenient deductions both cause problems. The value of penalizations should be based on commercial considerations, not on the cost of providing the service, and the Green Line mechanism covers performance as well as availability.",
+              "ref": "Ch 7 §15.3, p. 99; §16.1.1, p. 103"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions. Select TWO options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "Which 2 are appropriate responses by MMTA to the poor passenger survey result on staff helpfulness?",
+              "options": [
+                "Apply a deduction for the poor survey score.",
+                "Recognize that surveys reflect perceptions, so they are hard to use for financial penalties but useful for tracking performance over time.",
+                "Replace MetroLink's QMS reporting with passenger surveys.",
+                "Take no action, because the contract excludes survey-based deductions.",
+                "Require MetroLink to prepare and agree a rectification plan for staff helpfulness."
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "End-user surveys are based on perceptions, so it is difficult to base financial compensation on them, but they are useful over time; where the contract obliges the project company to improve satisfaction and a survey shows an aspect below the agreed level, a rectification plan should be required and agreed. A deduction contradicts the contract, and doing nothing ignores MetroLink's obligation to improve satisfaction.",
+              "ref": "Ch 7 §15.2, Table 7.12, p. 98"
+            },
+            {
+              "id": "4e-2",
+              "stem": "Which 2 statements about the financial model are correct for the Green Line?",
+              "options": [
+                "MetroLink's base case financial model is the model to use for compensation calculations.",
+                "MMTA's shadow bid model should be used, because it was prepared independently.",
+                "All changes to the financial model must be recorded accurately and agreed between the parties.",
+                "MetroLink may update the model alone, because it owns it.",
+                "The model is no longer needed once construction is complete."
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The preferred bidder's model becomes the base case and part of the contract, because it reflects the actual solution; the authority's model only described a hypothetical bid. It is used throughout construction and operations for variations, compensation and refinancing gains, and every change must be recorded accurately and agreed by both parties.",
+              "ref": "Ch 7 §16.2, p. 104"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

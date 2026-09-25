@@ -1,0 +1,241 @@
+{
+  "id": "e10-construction-monitoring",
+  "level": "execution",
+  "order": 10,
+  "title": "Construction stage: delivering, commissioning and monitoring",
+  "minutes": 16,
+  "guideRef": "Ch 7 §4–§6",
+  "objectives": [
+    "Explain the procuring authority's role during construction and the common reasons PPP projects struggle at this stage.",
+    "Describe the four main activities of the construction stage: site set-up and permits, design, construction, and commissioning.",
+    "Apply the rule that the authority reviews but does not approve the design and works, and explain why.",
+    "Describe the independent certifier's role, completion certificates, provisional acceptance and the punch list.",
+    "Explain how the authority monitors performance, risks, costs, schedule and quality during construction."
+  ],
+  "sections": [
+    {
+      "heading": "1. The authority's role during construction",
+      "body": "The **Construction Stage** is the first stage of the Implementation Phase. Project finance is drawn down, and the Project Company's construction contractor and subcontractors build, test and **commission** (bring into service) the asset. It ends when the project reaches the **Operations Stage**.\n\nThe **major responsibility lies with the private partner**. However, the procuring authority must have its **contract management process in place from the outset** to ensure timely completion and satisfactory operation. It does not control construction, but it must understand the relationship between **time, quality and cost**, and the technical side of the asset being built.\n\nThe authority should also separate its **“wants” from its “needs”**. Wants may exceed needs and may not be essential for VfM. Whatever it wants, the private partner's obligations are those in the contract. If the authority decides it wants something different, **change management** applies.\n\nKey actions for the authority during construction:\n- resolve differences in interpreting the **output specifications**;\n- **monitor progress** and the quality of work;\n- **oversee tests**, evaluate results and take decisions;\n- consider **variations** to the output specifications;\n- **inspect equipment** to be installed;\n- **certify and give approvals** where the contract requires them.\n\n**Complexity.** Large projects face four types of complexity: overall project, **task**, **social** and **cultural** complexity. Literature usually looks only at task complexity; ignoring the others sets a mega-project up for failure. Effective contract management reduces complexity through **decision making, coordinating, communicating and learning**."
+    },
+    {
+      "heading": "2. Why PPPs struggle during construction",
+      "body": "The Guide gives examples of PPPs cancelled or troubled during construction because contract management was missing or weak, for example an unclear risk-sharing mechanism, no contingency plans and a lack of expert staff.\n\nA study of road PPPs by Robert Bain found that **nearly 25 percent** of responses pointed to the **procuring authority**, directly or indirectly, as the cause of construction-stage problems, and not only in countries new to PPPs. The Guide groups the ways governments aggravated construction:\n\n| Issue | What went wrong |\n|---|---|\n| **Capability** | No experience, skills or resources for a long-term partnership. |\n| **Traditional thinking** | Managing the PPP like a conventional design-and-build contract, in a “them-versus-us” way. |\n| **Preparation** | No clear output specification; enabling works, land or permits not done. |\n| **Expectations** | Different understanding of who is responsible for what, and by when. |\n| **Process** | Slow, bureaucratic sign-off; no streamlined daily liaison. |\n| **Oversight** | Existing weaknesses in supervision were not fixed by moving to PPP. |\n| **Change** | Pushing scope or specification changes with little regard for cost or time, or without clear contract rules. |\n\nSuccess during construction has **three attributes**: completion **within budget**, **on schedule** and **to the required specifications**.\n\nCommon causes of cost overruns are **over-aggressive bidding**, **excessive variations**, very high specifications demanded by the government, and **scope disputes**. When the main construction contractor is also a **major shareholder**, it has good incentives, but in distress it may be reluctant to claim against guarantees it provides itself; independent adjudication can help. PPPs have been particularly successful at **shifting construction cost overrun risk** to the private sector, thanks to risk allocation and fixed-price contracts. Delays of months or even years usually come from **miscommunication about the parties' roles and responsibilities**. Unclear specifications and sophisticated technologies (for example water or waste treatment) cause many problems; road projects have performed relatively well, probably because they use simpler technology."
+    },
+    {
+      "heading": "3. Site, design and construction works",
+      "body": "The Construction Stage has four key activities: **site set-up and permits**, **final design**, **construction works**, and **commissioning and handover** to the Project Company's operations team.\n\n**Site and land.** In most PPPs the authority makes the land available. Good practice is that, **during preparation**, the authority investigates the land and its legal status, acquires it and manages relocation, and may provide access roads and utilities. **During procurement**, it should require **bidders** to investigate site conditions (climatic, hydrological, geotechnical, environmental, archaeological and so on). For a **single site**, the authority should hand the site over **immediately after signature**, to avoid handover disputes. **Linear projects** (roads, rail, pipelines, transmission lines) are harder, because land comes from many properties. The **contract must detail land handover** and both parties' duties to mitigate late handover. In one transport PPP, a single missing stretch of land stopped all construction and led to claims.\n\n**Design.** Design moves from conceptual to final. **The Project Company is solely responsible for the design** and for obtaining design and construction consents. Otherwise these risks transfer back to the authority. Before signature, the authority should have satisfied itself that the winner's design can achieve the output specifications. Afterwards, the authority should:\n- have a **right to review** the design and point out non-compliance (the contract may say construction cannot start until the authority, after its review, allows it to proceed);\n- **not approve** the design in a way that would mean accepting its errors. If the authority approves the design, the Project Company could argue that the authority has **accepted the design risk**;\n- make sure the design stays within the land provided (extra land is the Project Company's cost and risk), that the winning design is recorded in the contract, that the contract is flexible enough for planning or environmental changes, and that all revised designs are submitted for review.\n\n**Construction works.** The contractor often splits work into packages for subcontractors, but **the main contractor stays responsible** for all quality and coordination. Points to check: quality requirements and duty of care, remedying defects, a **defects liability period**, whether the schedule is realistic, and the dispute procedure. The busiest period is the **middle of construction**, when sequencing, material lead times and legal compliance need close attention."
+    },
+    {
+      "heading": "4. Commissioning, completion and service commencement",
+      "body": "Before handover to operations, the **independent certifier** (or engineer) tests the asset and issues the **completion certificate**.\n\n**Performance tests.** Before operations start, the Project Company must **demonstrate that the asset meets the output specifications**, through inspections, demonstrations, commissioning trials or other tests. It must give **adequate notice** and access to observe the tests, and provide evidence of results. The **independent certifier assesses success or failure**. If tests fail, the Project Company must **remedy the defects** to get the certificate.\n\n**Completion certificate.** It is **contractual evidence that the Construction Stage is complete**. It is issued by the independent certifier or, in some countries, by the authority on the evidence of its Construction, Engineering and Inspection (CEI) Engineer. It is then followed by an authorization for service to begin, often called the **service commencement date** or operating commencement date. This usually also starts the Project Company's right to collect revenue from users or the authority.\n\n**Two-step approach.** Some projects issue a **provisional acceptance** (provisional completion certificate) that allows operations to start if:\n- the project is **substantially complete**;\n- operations can start under appropriate **safety** standards;\n- only minor defects remain, listed in the **“punch list”**, which do not prevent service.\n\nPunch list items must be fixed within a set time, after which the full completion certificate is issued.\n\n**Protecting risk transfer.** As a general rule, the authority **should not impose pre-service-commencement milestones** or accept the works in stages, as this may **reverse the risk allocation**. Exceptions:\n- If the authority makes **capital contributions** during construction, milestone payments may be needed. They must be carefully designed and show overall VfM, because they involve the authority in the construction method.\n- If service starts before construction is complete, the **payment mechanism** must keep the Project Company **incentivized to finish**. With **phased service commencement**, the authority may require either **full service commencement only when all elements meet the output specifications**, or **partial commencement** as each element reaches that level."
+    },
+    {
+      "heading": "5. Monitoring performance and risks",
+      "body": "**Performance monitoring** is an **assurance role**. The authority checks that the Project Company has adequate systems, resources and procedures to meet the output specifications, has a working **quality assurance system for self-monitoring**, and has achieved the required outputs. It does **not** mean managing the task for the Project Company or approving its methods. **Neither** does it mean leaving everything to the Project Company.\n\nBe aware of a **misalignment of incentives**: if the contract is shorter than the asset's life, the Project Company may cut construction costs and accept higher later maintenance costs. The authority would usually prefer higher capital investment and a **lower life-cycle cost**.\n\nRegular monitoring tasks during construction:\n- against the **schedule**;\n- against the **scope** and agreed variations;\n- **compliance** with laws and regulations;\n- **quality** and materials;\n- **daily relationship** monitoring;\n- **stakeholder** reporting.\n\n**Risk monitoring** is one of the team's most important functions. It covers risks allocated in the contract, risks the authority keeps, risks not allocated, and risks from contract changes. The team keeps the **risk register** up to date and assesses claims for **relief** or **compensation events**.\n\n**Construction versus operations.** In construction, monitoring checks that the facility matches the contract and that work progresses on schedule through commissioning. Several **independent parties** report, such as the **independent certifier** and the **lenders' agent**. In operations, monitoring focuses on **service levels**, relies mainly on the Project Company's **self-reporting**, and is linked to the **penalty regime**.\n\n**Team resources in construction** may include the Contract Manager (full time), a quantity surveyor or commercial manager for cost and interfaces, an architect for progress and quality, facilities management specialists (more intensive near the end), ICT resources, a sector specialist, legal support when needed, and administrative support.\n\n**Independent certifier.** Often appointed in common law countries, the certifier certifies completion and issues the certificate that starts operations and revenue. It **must be beyond the influence of either party** and owes a **duty of care to both**. It is often agreed by both and **paid by the Project Company**, but the contract should state that this does not reduce its duty to act impartially. The certifier **does not accept any design or construction risk**. In some (mainly common law) jurisdictions it has quasi-judicial powers that bind the parties; elsewhere it is purely advisory outside certification. So the contract should **explicitly limit its powers to certification** in construction and commissioning. In many civil law countries, a **Construction, Engineering and Inspection (CEI) Engineer** hired by and reporting to the authority does this job instead."
+    },
+    {
+      "heading": "6. Cost, approvals, schedule and quality",
+      "body": "**Cost oversight.** Payments to the construction contractor are made against **pre-agreed milestones**, with evidence that work and quality are adequate. The **lenders' technical agent** certifies milestones to allow further debt drawdown; the independent certifier does so if the authority pays milestones. The risk of **cost overruns** normally sits with the Project Company (and its contractor), so the authority **should avoid being drawn into their disputes**, and cost monitoring is **for information only**. Cost monitoring at each milestone also matters for the contractor's security and for calculating **termination payments** if the contract ends early. (After COVID-19, some authorities began sharing some construction cost overrun risk.)\n\nFunding is normally applied in this order: **equity, then quasi-equity or mezzanine debt, then senior debt**. Senior debt drawdown needs milestones to be met, so the risk of poor construction sits first with equity. If the authority gives a **capital grant**, it is normally paid **after equity has been drawn and at the same rate as debt**, so its interests are aligned with the lenders'. Grant timing must not disturb the risk allocation.\n\n**Approvals.** The authority may **monitor** the works but **should not have approval rights** over the design or works. Design changes to meet the output specifications are at the Project Company's risk. The Project Company also obtains **third-party consents**, with the authority's reasonable assistance.\n\n**Schedule management** is the Project Company's responsibility, but it matters greatly to the authority: a late office building may leave the government without a home, and late infrastructure for a national event creates political and reputational risk. The Project Company should report progress, anticipated delays and delay plans regularly. Key tools:\n- the **baseline schedule**, prepared by the Project Company, reviewed by the authority, showing the **critical path**. Changes other than approved change orders and time extensions need the authority's approval;\n- a **Schedule Management Plan**: baseline development, analysis, changes and delay mitigation;\n- milestones that are easy to observe and verify. The authority does not update the schedule, but must be told of changes affecting milestones or the critical path.\n\nThe **independent certifier usually approves milestones**, issuing works, practical and final completion certificates. The Guide notes an Indian Railways audit where monthly progress reports were prepared but there was no record that the review boards actually monitored progress.\n\n**Quality management.** The Project Company should run a **Quality Management System (QMS)** covering planning, development, implementation, reporting and monitoring, to control non-conformance. Management quality is a **“soft” indicator**, but an experienced Contract Manager watches the Project Company's staff for early signs of trouble."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Lakeside Courthouse PPP",
+    "body": "Imagine a justice ministry that has signed a PPP for a new courthouse. It hands over the single site the day after signature. Three months later, the Project Company submits its detailed design and asks the ministry to sign an approval stamp on every drawing. The Contract Manager refuses to approve. Instead, the ministry reviews the design against the output specifications and sends written comments on two non-compliant areas, making clear that design risk stays with the Project Company.\n\nMid-construction, the contractor's costs rise by 12 percent. The contractor and the Project Company argue over who pays. The ministry notes the figures for information but stays out of the dispute, since cost overrun risk was transferred.\n\nAt the end, the independent certifier observes the performance tests. Everything passes except some faulty door handles and missing signs. The certifier issues a provisional acceptance with a punch list, and services start. The Project Company fixes the punch list within the agreed 60 days and receives the full completion certificate."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking the authority should approve the design to protect itself.",
+      "fix": "The authority reviews the design and flags non-compliance, but should not approve it in a way that accepts its errors. Approval lets the Project Company argue that design risk moved to the authority."
+    },
+    {
+      "trap": "Confusing performance monitoring with managing the work.",
+      "fix": "Monitoring is an assurance role: checking systems, self-monitoring and outputs. It does not mean managing the task or approving methods, and it does not mean leaving everything to the Project Company either."
+    },
+    {
+      "trap": "Assuming the independent certifier is biased toward the Project Company because the Project Company pays it.",
+      "fix": "The certifier owes a duty of care to both parties and must be beyond either party's influence; the contract should state that payment by the Project Company does not reduce its duty to act impartially."
+    },
+    {
+      "trap": "Mixing up the completion certificate and service commencement.",
+      "fix": "The completion certificate is contractual evidence that construction is complete. Service commencement is the later authorization for operations and usually payments to begin. A provisional acceptance with a punch list can allow service while minor defects are fixed."
+    },
+    {
+      "trap": "Believing the authority should manage construction cost overruns.",
+      "fix": "Cost overrun risk normally sits with the Project Company and its contractor. The authority monitors cost for information only and avoids their disputes. If it makes a capital contribution, it has a strong interest in costs at each milestone and in the grant being paid in the agreed sequence, but the overrun risk still stays with the private side."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Commissioning", "meaning": "Testing and bringing the completed asset into service before handover to the operations team." },
+    { "term": "Independent certifier", "meaning": "An impartial expert, sometimes called the Independent Engineer, who inspects the works and certifies completion for both parties." },
+    { "term": "CEI Engineer", "meaning": "In many civil law countries, the Construction, Engineering and Inspection Engineer hired by and reporting to the authority for oversight." },
+    { "term": "Completion certificate", "meaning": "Contractual evidence that the Construction Stage is complete, issued once performance tests are passed." },
+    { "term": "Service commencement date", "meaning": "The date operations formally start, usually also starting the Project Company's right to revenue." },
+    { "term": "Punch list", "meaning": "A list of minor defects that do not prevent service commencement and must be fixed within a set time." },
+    { "term": "Baseline schedule", "meaning": "The Project Company's approved construction programme, showing the critical path, used to monitor progress." },
+    { "term": "Critical path", "meaning": "The chain of activities that, if delayed, would delay overall project completion." },
+    { "term": "Quality Management System (QMS)", "meaning": "The Project Company's policies and procedures to plan, control, report and improve quality and reduce non-conformance." }
+  ],
+  "summary": [
+    "The private partner builds; the authority must have contract management in place from the start and understand time, quality and cost.",
+    "In the Bain study, nearly 25 percent of responses blamed the authority for construction problems; poor preparation, traditional thinking and unmanaged changes are common causes.",
+    "Hand over a single site immediately after signature; the contract must detail land handover and mitigation duties.",
+    "The Project Company owns the design; the authority reviews but should not approve, or it may take back design risk.",
+    "The independent certifier is impartial, owes duties to both parties, and issues the completion certificate; a punch list can allow provisional acceptance.",
+    "Avoid pre-service milestones unless capital contributions justify them; keep the Project Company incentivized to finish.",
+    "Cost overruns are the Project Company's risk; the authority monitors schedule, risks and quality without taking over execution."
+  ],
+  "slides": [
+    {
+      "title": "Who does what in construction",
+      "points": ["Private partner builds, tests, commissions", "Authority's contract management in place from day one", "Separate wants from needs"],
+      "narration": "Welcome to the construction stage. This is when the loan money is drawn and the asset gets built. The private partner carries the main responsibility: building, testing and commissioning. But the authority cannot just wait for the ribbon cutting. Its contract management must be in place from the very start. It needs to understand time, quality and cost. And it should separate its wants from its needs. If it wants something beyond the contract, that is a change, with its own process."
+    },
+    {
+      "title": "Why construction goes wrong",
+      "points": ["Authority caused about a quarter of problems", "Traditional them-versus-us thinking", "Unmanaged changes and poor preparation"],
+      "narration": "Why do PPPs struggle during construction? In a study of road PPPs by Robert Bain, nearly a quarter of the answers pointed to the procuring authority itself as the cause of problems. Governments lacked skills, treated the PPP like an old design and build contract, failed to prepare land and permits, had slow sign-off processes, or pushed changes without thinking about cost and time. Success means three things: on budget, on schedule, and to specification. PPPs have been good at moving cost overrun risk to the private side."
+    },
+    {
+      "title": "Land and site handover",
+      "points": ["Prepare land during project preparation", "Single site: hand over right after signature", "Linear projects: detail handover in contract"],
+      "narration": "Land is a classic source of trouble. The authority should investigate and acquire the land during preparation, and bidders should investigate site conditions during procurement. For a single site, hand it over immediately after signing, which avoids handover disputes. For linear projects like roads or pipelines, land comes from many owners, so it's harder. The contract must describe the handover process and each side's duty to reduce the effects of late handover. One missing stretch of land can stop an entire project."
+    },
+    {
+      "title": "Review, don't approve",
+      "points": ["Project Company solely responsible for design", "Authority reviews and flags non-compliance", "Approval risks taking back design risk"],
+      "narration": "Here is a key exam rule. The Project Company is solely responsible for the design. The authority has a right to review it and point out where it doesn't meet the contract. But it should not approve the design in a way that accepts its mistakes. Why? Because if the authority approves, the Project Company could later argue that the authority accepted the risk that the design won't work. The same logic applies to the works: monitor them, but don't take approval rights."
+    },
+    {
+      "title": "Tests and completion",
+      "points": ["Project Company demonstrates outputs through tests", "Independent certifier judges and certifies", "Completion certificate, then service commencement"],
+      "narration": "Before operations start, the Project Company must prove the asset meets the output specifications, usually through performance tests. It gives notice, gives access, and provides evidence. The independent certifier decides whether the tests pass. If not, defects must be fixed. When everything passes, the certifier issues the completion certificate, which is contractual proof that construction is finished. Then comes the service commencement date, when operations, and usually payments, begin. Remember those two steps and their order."
+    },
+    {
+      "title": "Provisional acceptance and milestones",
+      "points": ["Substantially complete, safe, only minor defects", "Punch list fixed within set time", "Avoid pre-service milestones that reverse risk"],
+      "narration": "Some projects use a two-step approach. A provisional acceptance allows service to start if the project is substantially complete, safe to operate, and only has minor defects, the punch list. Those items must be fixed within a set time to earn the full certificate. As a general rule, the authority should not impose milestones before service commencement, because this can reverse the risk allocation. The exception is when the authority pays capital contributions, where milestones may be needed and must show value for money."
+    },
+    {
+      "title": "The independent certifier",
+      "points": ["Impartial, duty of care to both parties", "Often paid by the Project Company", "Accepts no design or construction risk"],
+      "narration": "The independent certifier is central in construction. It inspects the work, attends tests, flags what needs fixing, and issues the certificate that starts operations and revenue. It must be beyond the influence of either party and owes a duty of care to both. It's often paid by the Project Company, so the contract should state clearly that this does not weaken its impartiality. And it accepts no design or construction risk. In many civil law countries, a CEI engineer working for the authority plays this role."
+    },
+    {
+      "title": "Monitoring cost, schedule and quality",
+      "points": ["Cost overruns: monitor for information only", "Baseline schedule and critical path", "QMS run by the Project Company"],
+      "narration": "Finally, the monitoring toolkit. Cost overruns are the Project Company's risk, so the authority watches costs for information and stays out of disputes between the company and its contractor. If it pays a capital grant, it also watches costs at each milestone, because the grant is normally paid after equity and in step with the debt. For time, the Project Company prepares a baseline schedule showing the critical path, and must report delays. The independent certifier usually approves milestones. For quality, the Project Company runs a quality management system, while an experienced contract manager watches for early warning signs."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Midway through construction of a PPP office building, a ministry decides it would like larger meeting rooms than the output specification requires. What should the procuring authority do?",
+      "options": [
+        "Instruct the Project Company to build them at no extra cost",
+        "Withhold the completion certificate until the rooms are enlarged",
+        "Wait and demand the change as a defect at handover",
+        "Treat it as a change and follow the contract's change management process"
+      ],
+      "answer": 3,
+      "explanation": "The private partner's obligations are those in the contract. If the authority's wants or needs differ from the contract, change management applies. The authority cannot impose new requirements as defects or free instructions."
+    },
+    {
+      "question": "A procuring authority's PPP is for a new courthouse on a single plot of land. When should it hand over the site?",
+      "options": [
+        "Once the detailed design has been reviewed",
+        "Immediately after the PPP contract is signed",
+        "After financial close and the first loan drawdown",
+        "When the Project Company has obtained building consents"
+      ],
+      "answer": 1,
+      "explanation": "For single-site projects, the Guide recommends ensuring the site is available and handed over immediately after signature, which avoids land handover disputes. Delaying handover exposes the authority to claims."
+    },
+    {
+      "question": "The Project Company submits its detailed design and asks the procuring authority to formally approve every drawing. What is the best response?",
+      "options": [
+        "Review it and flag non-compliance, but do not approve it",
+        "Approve all drawings so that construction can start quickly",
+        "Refuse to look at the design, since design risk is private",
+        "Redesign the non-compliant parts using the authority's own engineers"
+      ],
+      "answer": 0,
+      "explanation": "The authority should have a right to review the design and advise of non-compliance, but not approval rights that would amount to accepting errors. Otherwise, the Project Company could argue that the authority accepted design risk. Redesigning would also take on that risk."
+    },
+    {
+      "question": "Which statement best describes performance monitoring by the procuring authority during construction?",
+      "options": [
+        "Managing the construction tasks directly to guarantee quality",
+        "Approving the construction methods chosen by the contractor",
+        "An assurance role checking systems, self-monitoring and outputs",
+        "Leaving all performance management to the Project Company"
+      ],
+      "answer": 2,
+      "explanation": "The Guide defines performance monitoring as an assurance role checking that the Project Company has adequate systems, a working quality assurance system and achieved outputs. It is neither managing the work nor approving methods, and it is not leaving everything to the Project Company either."
+    },
+    {
+      "question": "Midway through construction, the contractor's costs rise sharply. The contractor and the Project Company begin arguing about who should pay. The authority makes no capital contribution. What should the authority do?",
+      "options": [
+        "Mediate the dispute to protect the construction schedule",
+        "Monitor the costs for information and avoid being drawn into the dispute",
+        "Pay half the overrun to keep the project moving",
+        "Take over the construction contract to control costs"
+      ],
+      "answer": 1,
+      "explanation": "Cost overrun risk is typically passed to the Project Company and its contractor, who must fund overruns. The Guide says the authority should avoid being drawn into their disputes, and cost monitoring is for information only."
+    },
+    {
+      "question": "An independent certifier is jointly agreed by both parties and paid by the Project Company. The authority fears it will favour the Project Company. What protects the authority?",
+      "options": [
+        "The certifier must also accept part of the construction risk",
+        "The authority may overrule any certificate it disagrees with",
+        "The certifier reports only to the lenders' agent",
+        "A contract clause saying who pays it does not affect its impartiality"
+      ],
+      "answer": 3,
+      "explanation": "The certifier owes a duty of care to both parties and must be beyond either's influence; the contract should state that being paid by the Project Company does not derogate from its duty to act impartially. The certifier accepts no design or construction risk."
+    },
+    {
+      "question": "At the end of construction, a hospital passes its safety tests and is substantially complete, but some minor finishing items remain that do not stop services. The contract allows a two-step approach. What should happen?",
+      "options": [
+        "The full completion certificate is issued and the minor items are ignored",
+        "Service commencement is delayed until every item is complete",
+        "A provisional acceptance is issued with a punch list to be fixed within a set time",
+        "The authority completes the minor items and deducts the cost"
+      ],
+      "answer": 2,
+      "explanation": "Under a two-step approach, provisional acceptance allows operations when the project is substantially complete, safe, and has only minor defects listed on a punch list. Fixing those items within a set time entitles the Project Company to the full completion certificate."
+    },
+    {
+      "question": "A procuring authority wants to add several construction milestones, before service commencement, that the Project Company must meet. It makes no capital contribution. What does the Guide say?",
+      "options": [
+        "As a general rule it should not, because this may reverse the risk allocation",
+        "It should, because milestones are the best way to control the schedule",
+        "It should, provided the lenders agree to the milestones",
+        "It may only if the independent certifier sets the milestones"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the authority should not, as a general rule, impose pre-service-commencement milestones or accept works in stages, as this may reverse the risk allocation. Milestones may be needed only in cases such as capital contributions, and must then show VfM."
+    },
+    {
+      "question": "A government provides a capital grant to a PPP during construction. According to the Guide, how is such a contribution normally made?",
+      "options": [
+        "Before any equity is drawn, to reduce the private partner's risk",
+        "After equity has been drawn down, at the same rate as debt drawdowns",
+        "Only as a single payment on the last day of the contract",
+        "Directly to the construction subcontractors on request"
+      ],
+      "answer": 1,
+      "explanation": "Government capital contributions during construction are normally made after equity has been drawn and at the same rate as debt, aligning the authority's interests with the lenders'. Paying before equity would weaken the risk borne by equity."
+    },
+    {
+      "question": "A Project Company wants to change the sequence of several critical path activities in its approved baseline schedule. These changes are not linked to any approved change order or time extension. What must happen?",
+      "options": [
+        "Nothing, since schedule management is solely the Project Company's business",
+        "The authority must redraw and update the schedule itself",
+        "The independent certifier issues a new completion certificate",
+        "The Project Company must obtain the procuring authority's approval"
+      ],
+      "answer": 3,
+      "explanation": "The baseline schedule is adjusted for approved change orders and time extensions; any other change proposed by the Project Company needs the authority's approval. The authority does not update the schedule itself, but must be informed of changes affecting milestones or the critical path."
+    }
+  ]
+}

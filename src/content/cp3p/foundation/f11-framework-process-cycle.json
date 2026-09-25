@@ -1,0 +1,306 @@
+{
+  "id": "f11-framework-process-cycle",
+  "level": "foundation",
+  "order": 11,
+  "title": "The PPP framework and the PPP process cycle",
+  "minutes": 17,
+  "guideRef": "Ch 1 §9–§10",
+  "objectives": [
+    "Define a PPP framework and name its six main elements.",
+    "Explain how legal traditions (common law and civil code) shape the way a framework is documented.",
+    "Describe why the private sector cares about frameworks, programs and pipelines.",
+    "Put the five phases of the PPP process cycle in order and state the main objective and outputs of each.",
+    "Distinguish key decision points: investment decision, procurement decision, green light, commercial close and financial close."
+  ],
+  "sections": [
+    {
+      "heading": "What a PPP framework is and why it matters",
+      "body": "In the last lesson you saw that many PPP failures come from weak governance. The answer is a **PPP framework**.\n\nThe Guide uses the definition of the World Bank's PPP Reference Guide 3.0: the PPP framework is **the policy, procedures, institutions and rules that together define how PPPs will be implemented**, that is, how they are identified, assessed, selected, budgeted for, procured, monitored and accounted for.\n\nWhy is it needed?\n\n- PPPs involve complex management on political, fiscal, financial and social fronts. To use PPPs again and again, a government needs a **programmatic approach**, and any long-term program needs a framework.\n- A clear framework **publicly communicates the government's commitment** to PPPs and supports good governance: efficiency, accountability, transparency, fairness, private interest and public acceptance.\n- **Standard processes and documents** save time and effort on tasks that are very demanding for PPPs.\n- PPPs commit budget resources for the long term, often beyond one legislature, so they need specific governance.\n- A stable, durable framework helps to **attract and keep private sector interest**.\n\nThe framework must be written in **official documents that bind** the people who work under it, through legal force or through robust, consistently applied government processes.\n\nThe Guide's short summary (Box 1.32): **the framework is about governance**. It reduces the risk of bad decisions and poor project management, makes processes smoother and cheaper, and helps attract investors for the long term."
+    },
+    {
+      "heading": "The six elements of a PPP framework",
+      "body": "Defining the parts of a framework is somewhat arbitrary, and the parts overlap. But the Guide proposes that a PPP framework **necessarily** includes these elements:\n\n1. **Strategic and foundational outlines**: the objectives for using PPPs, the **scope** (which sectors and types of project), and the implementing principles, including tender rules. Some countries use a specific **PPP law**, others a **PPP policy** document, and some need neither. All the laws that affect PPPs together form the **PPP legal framework**.\n2. **Rules and procedures** to identify, prepare and appraise projects, structure the contract and RFP, and manage the tender and the contract. This is the **operational** or **process management framework**, usually in guidelines.\n3. **Rules on risk allocation** between public and private sectors, including general risk management parameters.\n4. Rules to control the **aggregate exposure** to PPPs and influence approvals: the **fiscal management framework**.\n5. The **institutional framework**: the architecture inside government (including the legislature) that affects PPP management and governance.\n6. **Other governance rules**: quality assurance, transparency and communication.\n\nSome of these elements may also be called the government's **PPP program**. A framework should be **harmonised** with other laws, such as national procurement and public financial management (PFM) laws, to be legally defensible. PPP units with mandatory roles should have their mission clearly set out, for example in a PPP law."
+    },
+    {
+      "heading": "Documenting and adapting the framework",
+      "body": "The biggest factor in how a framework is documented is the country's **legal tradition**:\n\n| Tradition | Typical way to document the framework |\n|---|---|\n| **Common law** | Relies more on **policy statements** and policy documents, supplemented by guidelines that officials must follow unless a departure is approved |\n| **Civil code** | Relies heavily on **laws**, often with secondary legislation such as regulations and guidelines |\n\nFrameworks based on laws are seen as **stable**, but the downside is **rigidity**. Some guides mention a third option: definitive guidelines, such as manuals or handbooks, which can be changed but bind officials while in force.\n\nThe second factor is **PPP experience**, for example whether the country has a tradition of concessions.\n\n**The framework is already there.** Most countries already have procurement rules, environmental authorities and fiscal authorities. At one extreme, some countries write a comprehensive PPP law or policy covering what projects may be PPPs, how they are procured, how they are prepared and who decides. At the other extreme, PPPs are simply accommodated in general procurement laws. Either way, the framework usually needs **adapting** (Guide Table 1.8):\n\n- **Legal and procurement:** allow a contract covering design, build, finance, operate and maintain (DBFOM) paid by the government; include dialogue-based tender models for complex projects. This is **necessary**, and more of an issue for civil code countries.\n- **Selection and appraisal:** PPP-specific guidelines to protect affordability, commercial feasibility and VfM. Note that the **lowest cost bid may not give the best VfM**.\n- **Fiscal management:** control of aggregate exposure, especially for government-pays PPPs, which commit long-term budget resources **even if the liabilities are not recorded as public debt**.\n- **Institutional:** a PPP does **not** require new agents; the main roles are the same as in any procurement. But creating **specialised units or teams** is useful and common good practice.\n\nA framework alone does not ensure success; success is measured by implemented projects. So developing a framework should be **promptly followed by launching projects**, often called **pathfinder** or pilot projects."
+    },
+    {
+      "heading": "Why the private sector cares: markets, not projects",
+      "body": "Investors care about a single project's risk and return, but they also care about the whole PPP process and framework. The Guide stresses that **the PPP industry is interested in markets rather than projects**:\n\n- developers want a **viable pipeline** of several opportunities, which gives economies of scale in bidding;\n- they want **consistency**: similar structures and management across projects, which lowers bid costs and builds confidence;\n- they judge the government's ability to **manage a pipeline** over the long term;\n- they worry about fiscal sustainability, political commitment, social acceptance, talent retention in authorities, and a minimum legal basis for PPPs.\n\nIn most countries, PPP programs move slowly **not because of lack of finance**, but because there are **not enough suitable, well-prepared projects**. Without them, world-class players go elsewhere, and the government may end up with unwanted participants, corruption and failed projects.\n\nThe Guide's Table 1.9 lists what world-class private players look for:\n\n- a relevant and **identifiable pipeline**, communicated proactively;\n- a **track record** of successful projects and fair handling of disputes and crises;\n- a **strong process framework** with consistent standards and reliable timing and decisions;\n- **legal clarity**: transparency, enforceable rights, dispute resolution, and low appropriation risk;\n- **strong political commitment**, including a **political champion**, a senior minister who strongly advocates the program;\n- **public acceptability**, supported by transparency, audits and disclosure;\n- **fiscal sustainability**: a relaxed attitude to total PPP exposure signals rushed, poorly selected projects, and rating agencies count PPP liabilities.\n\nA programmatic approach can create a **virtuous circle**: a good track record raises market interest, and more interest gives feedback that improves the framework."
+    },
+    {
+      "heading": "The PPP process cycle: overview and decisions",
+      "body": "The Guide describes the life of a PPP project as a phased **process cycle**. Chapters 3 to 7 of the Guide each cover one phase:\n\n| Phase | Guide chapter | Decision at the end |\n|---|---|---|\n| 1. Identification and PPP screening | Ch 3 | Green light to full appraisal |\n| 2. Appraisal and preparation | Ch 4 | Green light to structure (to invest and procure, in some countries) |\n| 3. Structuring and drafting | Ch 5 | Green light to launch the tender |\n| 4. Tender (to award and sign) | Ch 6 | Award decision and contract signature |\n| 5. Contract management | Ch 7 | Approving changes during construction and operations |\n\nThe names and limits of phases are **somewhat arbitrary**, and many tasks are **progressive and iterative**, continuing into later phases. Ex-post evaluation is treated as a framework matter, not a phase.\n\nTwo decisions matter here:\n\n- the **investment decision**: is this a good project the government is willing and able to fund, however it is procured?\n- the **procurement decision**: does PPP give better VfM than the best public delivery option?\n\nIn the Guide's **standard cycle**, suited to EMDEs, the two decisions are **inter-related** and handled together: if a project is not suitable as a PPP, fiscal limits may mean it cannot be delivered by traditional procurement either. Screening for PPP potential early avoids wasting money on a full appraisal of a project that cannot be a PPP. In contrast, some governments with **strong fiscal positions**, such as the State of Victoria in Australia, make the **investment decision first** and then the procurement decision. First, a **strategic business case** compares strategic responses (for example a bus way or a light rail) using multi-criteria analysis; no full CBA is needed and no procurement decision is taken. Then a **full business case** contains the appraisal, with a full CBA of scope options and a procurement strategy. The government takes the investment decision in its budget process, and only then the procurement decision.\n\nWhatever the names, every PPP needs: a sound project (identification), appraisal and preparation, clear risk allocation, a well-structured contract and tender, a competitive transparent tender, and contract management."
+    },
+    {
+      "heading": "Phases 1 and 2: identify, screen, appraise and prepare",
+      "body": "**Phase 1: Identification and PPP screening.** Objective: select the **right project** (the best technical solution for the need) and **pre-assess** whether it could be a PPP, so resources are not wasted on unworthy projects. Tasks include identifying the need, comparing options (including a **do-nothing** baseline) with CBA or simpler methods such as multi-criteria or cost-effectiveness analysis, scoping the project, assessing its economics, screening it as a PPP, and setting up project governance and a project management plan. The phase ends with a **PPP screening report** that supports the decision to proceed to full appraisal. As the Guide says, PPPs cannot perform miracles: they only succeed with an economically sound project.\n\n**Phase 2: Appraisal and preparation.** Objective: assess whether the project and the PPP contract are **feasible**, to reduce the risk of failure, and advance preparation. Tasks:\n\n- refine scope and pre-design, test technical feasibility, and assess environmental and social impact;\n- refine or complete the **CBA** (socioeconomic feasibility);\n- assess **commercial feasibility** (including bankability) and test the market;\n- other financial tests: **VfM with a Public Sector Comparator (PSC)** in some countries, **affordability**, and national accounting impact in some countries;\n- **preparation and due diligence**, and pre-structuring;\n- define the **procurement strategy** and plan: the approach to qualification (timing of the RFQ; shortlist or pass/fail) and to the RFP (dialogue or not; negotiations or not).\n\nNote the subtle difference: **appraisal** means feasibility analyses that inform the decision; **preparation** means actions the government takes to reduce risks before tender, such as geotechnical tests, securing the site, or early environmental clearances. PPP preparation takes **much longer** than a normal public works project.\n\nThe main tender types (Box 1.39) are:\n\n- **open or one-stage tender**: qualifications and proposals are submitted together;\n- **open tender with pass/fail pre-qualification** (two-stage open tender): an RFQ comes first, but there is no shortlist; usually one round of bids and no negotiation;\n- **restricted procedure**: qualified bidders are ranked, and only a shortlist is invited to bid once;\n- **negotiated process**: a shortlist, then negotiations and possibly several rounds of bids;\n- **dialogue or interactive process**: a shortlist, then dialogue on the RFP and contract before the final bids."
+    },
+    {
+      "heading": "Phases 3 to 5: structure, tender and manage the contract",
+      "body": "**Phase 3: Structuring and drafting.** Objective: design the contract and tender process that best protect and optimise VfM. The two main tasks are **structuring and drafting the contract** (financial structure, **risk allocation**, **payment mechanism**, other business terms, contract management tools) and **structuring and drafting the RFQ and RFP** (qualification and evaluation criteria, bid bonds, timing, dialogue rules). Due diligence is finalised, earlier analyses (PSC, affordability, market testing) are confirmed, and output specifications are finalised. Drafting should start only after the main features are approved. The work is highly iterative and ends with internal approvals: the **green light to launch** the tender.\n\n**Phase 4: Tender.** Objective: select the best value proposal in a competitive, regulated process and sign with the most suitable bidder. Most tenders have four stages: **pre-qualification or shortlisting**; the **bid period**; **evaluation and award** to the **preferred bidder**; and **contract signature**, called **commercial close**. Before signing, **conditions precedent** must be met, such as forming the SPV. **Financial close**, when the finance is actually available, may happen at signature or later. In some countries construction does not start until financial close. With financial close, the procurement process ends.\n\n**Phase 5: Contract management.** Objective: oversee the private partner's delivery of the specified services, keeping affordability, VfM and appropriate risk transfer, while handling changes in the environment. It covers **routine** tasks (monitoring performance, applying deductions, administering payments, managing claims, ownership changes and refinancings) and **non-routine** events (disputes, renegotiation requests, early termination). The contract management team should be **fully funded, staffed and trained before financial close**, and ideally some pre-close team members move into it. Its tools include the contract, a **contract management manual** in plain language, the financial model agreed at financial close, the **risk register** and user satisfaction surveys. The very first tasks are to write the manual, set up the team and agree how decisions will flow; preparation for this should start before contract signature. Preparation for **hand-back** should start well in advance, **up to three to four years** before expiry.\n\nThroughout all phases, the Guide stresses two cross-cutting issues: **climate change** (mitigation and adaptation, climate risk screening from the start) and **gender** (projects are not gender-neutral, so impacts should be assessed at every stage)."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: Lindavia builds its PPP market",
+    "body": "Imagine the fictional country of Lindavia, a civil code country, wants to use PPPs for schools and roads.\n\n- It passes a **PPP law** setting objectives, scope and tender rules, and issues **guidelines** for appraisal and a **gateway process**. The ministry of finance sets a **ceiling on total PPP payment commitments** (fiscal management framework) and creates a small **PPP unit**.\n- Within six months it launches two **pathfinder projects** and publishes a five-year **pipeline**, so investors see a market, not a single deal.\n- For the first school project, Phase 1 compares options including do-nothing and ends with a **PPP screening report**. Phase 2 confirms the CBA, affordability and bankability, and the government secures the sites (**preparation**). Phase 3 designs the payment mechanism and drafts the RFQ, RFP and contract. In Phase 4 the preferred bidder signs at **commercial close**, and finance becomes available at **financial close** six weeks later. The contract management team, trained before financial close, then takes over for Phase 5.\n\nBecause the law brings stability but also some rigidity, Lindavia keeps detailed procedures in guidelines, which are easier to update."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking a PPP framework requires creating new government agencies.",
+      "fix": "The Guide says a PPP does not require new agents; the main roles are the same as in any procurement. Specialised PPP units are useful good practice, not a legal necessity."
+    },
+    {
+      "trap": "Confusing common law and civil code approaches.",
+      "fix": "Common law countries rely more on policy documents and guidelines; civil code countries rely more on laws. Laws bring stability but also rigidity."
+    },
+    {
+      "trap": "Mixing up commercial close and financial close.",
+      "fix": "Commercial close is contract signature, when commercial terms are agreed. Financial close is when financing conditions are met and funds become available; it can happen at the same time or later."
+    },
+    {
+      "trap": "Confusing appraisal with preparation.",
+      "fix": "Appraisal is analysis (feasibility tests that inform decisions). Preparation is action by the government to reduce risks before tender, such as securing the site or permits."
+    },
+    {
+      "trap": "Confusing the investment decision with the procurement decision.",
+      "fix": "Investment decision: should the project go ahead at all? Procurement decision: is PPP the best way to deliver it? The Guide's standard cycle links them; fiscally strong governments may take them separately."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "PPP framework",
+      "meaning": "The policy, procedures, institutions and rules that define how PPPs are identified, assessed, selected, budgeted, procured, monitored and accounted for."
+    },
+    {
+      "term": "Fiscal management framework",
+      "meaning": "Rules to control the government's total exposure to PPP commitments and influence approvals."
+    },
+    {
+      "term": "PPP program",
+      "meaning": "How the government plans to use PPPs to improve infrastructure, including priority sectors and future projects."
+    },
+    {
+      "term": "PPP pipeline",
+      "meaning": "A list of projects the government is considering as PPPs over a set time frame."
+    },
+    {
+      "term": "Pathfinder project",
+      "meaning": "An early project launched to demonstrate how a new framework works in practice."
+    },
+    {
+      "term": "PPP screening report",
+      "meaning": "The output of Phase 1 that supports the decision to move to full appraisal."
+    },
+    {
+      "term": "Investment decision",
+      "meaning": "The decision whether the project is worth doing and fundable, however it is procured."
+    },
+    {
+      "term": "Procurement decision",
+      "meaning": "The decision whether PPP offers better VfM than the best public delivery option."
+    },
+    {
+      "term": "Commercial close",
+      "meaning": "The point when commercial terms are agreed and the PPP contract is normally signed."
+    },
+    {
+      "term": "Financial close",
+      "meaning": "The point when all financing documents are signed, conditions are met and funds become available."
+    }
+  ],
+  "summary": [
+    "A PPP framework is the policy, procedures, institutions and rules that define how PPPs are implemented; it is about governance.",
+    "Its six elements: strategic outlines and legal framework, operational process, risk allocation rules, fiscal management, institutional framework, other governance rules.",
+    "Common law countries lean on policies and guidelines; civil code countries on laws, which are stable but rigid.",
+    "Existing frameworks usually need adapting; specialised PPP units are good practice but not required; launch pathfinder projects promptly.",
+    "The private sector looks for markets: a pipeline, consistency, track record, political commitment and fiscal sustainability.",
+    "Five phases: identification and screening, appraisal and preparation, structuring and drafting, tender, contract management.",
+    "Commercial close is signature; financial close is when funds are available; contract management teams should be ready before financial close."
+  ],
+  "slides": [
+    {
+      "title": "Why a framework?",
+      "points": [
+        "PPPs need a long-term, programmatic approach",
+        "A framework shows government commitment",
+        "Standard processes save time and money",
+        "The framework is about governance"
+      ],
+      "narration": "Imagine trying to run many complex PPP projects, one after another, with no shared rules. Every ministry would do things differently, and investors would never know what to expect. That's why the Guide says a PPP framework is essential. It is the set of policy, procedures, institutions and rules that define how PPPs are chosen, prepared, procured, monitored and accounted for. In one sentence, the framework is about governance. It shows the government is committed, and it makes each new project easier and safer."
+    },
+    {
+      "title": "Six building blocks",
+      "points": [
+        "Strategy, scope and legal framework",
+        "Operational process rules",
+        "Risk allocation and fiscal management",
+        "Institutions and other governance rules"
+      ],
+      "narration": "The Guide names six elements that a framework necessarily includes. First, the strategy: why the country uses PPPs, in which sectors, and the tender rules, often in a PPP law or policy. Second, the operational process for preparing and managing projects. Third, rules for risk allocation. Fourth, fiscal management, which controls the total amount the country commits to PPPs. Fifth, the institutional framework, meaning who does what inside government. And sixth, other governance rules, such as quality assurance, transparency and communication. These parts overlap, and that's normal."
+    },
+    {
+      "title": "Laws or policies?",
+      "points": [
+        "Common law: policies and guidelines",
+        "Civil code: laws and regulations",
+        "Laws are stable but rigid",
+        "Adapt what already exists"
+      ],
+      "narration": "How is a framework written down? It depends mainly on the legal tradition. Common law countries tend to use policy statements, supported by guidelines that officials must follow. Civil code countries tend to use laws. Laws give stability, but they are rigid and hard to change. In practice, most countries already have procurement rules and fiscal authorities, so the task is to adapt them for PPPs. And remember, a PPP does not need new agencies, although a specialised PPP unit is common good practice."
+    },
+    {
+      "title": "Investors want markets",
+      "points": [
+        "A visible pipeline of projects",
+        "Consistency and a track record",
+        "Political champion and public support",
+        "Fiscal sustainability"
+      ],
+      "narration": "Here's a key idea: the private sector is interested in markets, not single projects. A serious developer wants to see a pipeline of opportunities, so the cost of bidding pays off. They want projects structured in a consistent way, a good track record, and a senior political champion. They also watch fiscal discipline, because a government that over-commits may later renegotiate. Interestingly, the Guide says programs usually move slowly not because of lack of money, but because there are too few well-prepared projects."
+    },
+    {
+      "title": "The five-phase cycle",
+      "points": [
+        "Identify and screen",
+        "Appraise and prepare",
+        "Structure and draft",
+        "Tender, then manage the contract"
+      ],
+      "narration": "Now let's walk through the life of a single project. The Guide uses five phases. One, identify the project and screen it as a possible PPP. Two, appraise and prepare it. Three, structure and draft the contract and tender documents. Four, run the tender to award and signature. Five, manage the contract through construction, operations and hand-back. At the end of each phase there is a decision, a green light to move on. The phase names are a bit arbitrary, and many tasks are repeated and refined as you go."
+    },
+    {
+      "title": "Early phases: right project, ready project",
+      "points": [
+        "Compare options, including do nothing",
+        "PPP screening report ends Phase 1",
+        "Appraisal analyses; preparation acts",
+        "Choose the procurement strategy"
+      ],
+      "narration": "In phase one, you find the best solution to a real need, comparing options, including doing nothing. Then you screen it: could this work as a PPP? The phase ends with a PPP screening report. Phase two goes deeper. You confirm the cost-benefit analysis, affordability and bankability, and test the market. Notice the difference between appraisal and preparation. Appraisal is analysis. Preparation is action, like securing land or permits before the tender. You also choose the tender type in this phase."
+    },
+    {
+      "title": "Later phases: contract, tender, management",
+      "points": [
+        "Design risk allocation and payment mechanism",
+        "Commercial close is contract signature",
+        "Financial close makes funds available",
+        "Contract team ready before financial close"
+      ],
+      "narration": "In phase three, you design the contract, with its risk allocation and payment mechanism, and draft the RFQ and RFP. Then you get the green light to launch. Phase four is the tender. The preferred bidder signs the contract at commercial close. Financial close comes when the money is actually available, sometimes on the same day, sometimes later. Finally, phase five is contract management. The team should be funded, staffed and trained before financial close, and hand-back planning starts well ahead, up to three to four years before the end."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which of the following best describes a PPP framework as defined in the Guide?",
+      "options": [
+        "The standard PPP contract that every procuring authority must use",
+        "The policy, procedures, institutions and rules that define how PPPs are implemented",
+        "The list of projects that the government plans to tender as PPPs",
+        "The financial model agreed between the parties at financial close"
+      ],
+      "answer": 1,
+      "explanation": "The Guide adopts the World Bank definition: the policy, procedures, institutions and rules that together define how PPPs are implemented. A list of planned projects is a PPP pipeline, not the framework."
+    },
+    {
+      "question": "Which of the following is NOT one of the elements that the Guide says a PPP framework necessarily includes?",
+      "options": [
+        "A fiscal management framework to control aggregate exposure to PPPs",
+        "An institutional framework within government",
+        "Rules and procedures to identify, prepare and appraise projects",
+        "A list of pre-approved private companies allowed to bid"
+      ],
+      "answer": 3,
+      "explanation": "The framework elements include strategy and legal framework, operational process, risk allocation rules, fiscal management, the institutional framework and other governance rules. A list of pre-approved bidders is not one of them."
+    },
+    {
+      "question": "Consider two statements. 1. Common law jurisdictions tend to document PPP frameworks through policy statements, while civil code jurisdictions rely more on laws. 2. Frameworks based on laws are seen as stable, but they also introduce rigidity.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says common law countries rely more on policy documents and civil code countries on laws. It also notes that law-based frameworks offer stability but bring rigidity, so both statements are true."
+    },
+    {
+      "question": "Which statement about the institutional framework is consistent with the Guide?",
+      "options": [
+        "PPPs do not require new agents, but specialised PPP units or teams are useful good practice",
+        "PPPs cannot be procured unless a new PPP agency is created by law",
+        "The procuring authority must be replaced by a central PPP unit for all projects",
+        "The institutional framework is only relevant to user-pays PPPs"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.8 states that a PPP does not require new agents because the main roles are the same as in any procurement. Creating specialised bodies or teams is regarded as good practice, depending on the size of the pipeline."
+    },
+    {
+      "question": "According to the Guide, what is the private sector (the PPP industry) mainly interested in?",
+      "options": [
+        "Single large projects with the highest possible tariffs",
+        "Projects that are exempt from the procurement law",
+        "Markets that offer a viable pipeline of projects",
+        "Countries that have no fiscal limits on PPP commitments"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the industry is interested in markets rather than projects: a viable pipeline creates economies of scale in bidding. A relaxed attitude to fiscal exposure actually worries investors."
+    },
+    {
+      "question": "What does the Guide recommend should promptly follow the development of a PPP framework?",
+      "options": [
+        "A moratorium on new projects until the framework has been tested for five years",
+        "The launch of one or more pathfinder projects",
+        "The creation of new ministries for each infrastructure sector",
+        "The privatisation of existing infrastructure assets"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.32 says framework development should be accompanied by the prompt launch of pathfinder projects to show the framework in action. Success is measured by implemented projects, not by the framework alone."
+    },
+    {
+      "question": "Which sequence correctly shows the phases of the PPP process cycle in the Guide?",
+      "options": [
+        "Appraisal and preparation; identification and screening; tender; structuring and drafting; contract management",
+        "Identification and screening; structuring and drafting; appraisal and preparation; tender; contract management",
+        "Identification and screening; appraisal and preparation; tender; structuring and drafting; contract management",
+        "Identification and screening; appraisal and preparation; structuring and drafting; tender; contract management"
+      ],
+      "answer": 3,
+      "explanation": "The Guide's cycle runs from identification and screening, to appraisal and preparation, to structuring and drafting, to tender, and finally to contract management. The contract and RFP must be structured before the tender is launched."
+    },
+    {
+      "question": "Complete the sentence: 'At the end of Phase 1, the decision whether to proceed with full appraisal is made on the basis of a ____.'",
+      "options": [
+        "PPP screening report",
+        "final RFP and contract",
+        "base case financial model",
+        "contract management manual"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the Identification and Screening Phase ends with a PPP screening report that supports the decision to move to full appraisal. The RFP and contract are finalised much later, in structuring and tender."
+    },
+    {
+      "question": "Consider two statements. 1. In the Guide's standard process cycle, the investment decision and the procurement decision are inter-related. 2. Preparation means the feasibility analyses that confirm the economic value of the project.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The standard cycle, suited to EMDEs, links the investment and procurement decisions. Statement 2 describes appraisal; preparation means government actions to reduce risks before tender, such as securing the site."
+    },
+    {
+      "question": "Which statement about the Tender Phase and contract management is correct according to the Guide?",
+      "options": [
+        "Financial close always happens before contract signature",
+        "The contract management team should be funded, staffed and trained before financial close",
+        "Commercial close is the point when project funding becomes available",
+        "Preparation for hand-back should start only in the final year of the contract"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the contract management team should be ready well before the Implementation Phase starts at financial close. Commercial close is signature, financial close can come later, and hand-back preparation starts well in advance, up to three to four years ahead."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "e09-contract-management-framework",
+  "level": "execution",
+  "order": 9,
+  "title": "The contract management framework",
+  "minutes": 16,
+  "guideRef": "Ch 7 §1–§3",
+  "objectives": [
+    "Define PPP contract management, when it applies, and why it is critical to VfM.",
+    "Name the four components of the contract management framework.",
+    "Explain how and when the contract management team should be set up, and the characteristics and skills it needs.",
+    "Distinguish the roles of the private partner, the government, the Contract Manager and the Contract Administrator, including what the government must not do.",
+    "Describe the Contract Management Manual, information systems (MIS), relationship and stakeholder management, and grievance mechanisms."
+  ],
+  "sections": [
+    {
+      "heading": "1. What PPP contract management is and why it matters",
+      "body": "**PPP contract management** is the procuring authority overseeing the Project Company's delivery of the services defined in the **output specifications**, while ensuring ongoing **affordability**, **Value for Money (VfM)** and proper management of **risk transfer**, and managing the effects of changes in the external environment. It has two dimensions: carrying out the contract, and **proactive management** that anticipates future needs and reacts well to unforeseen events. In the Guide, contract management applies **from contract signature until the end of the contract**.\n\nIt also includes activities outside the contract text, especially **stakeholder** work: addressing stakeholders' needs and expectations, keeping communications active and inclusive, and building their buy-in. For the private partner, good practice means balancing competing constraints: **scope, quality, schedule, budget, resources and risks**. If one changes, at least one other is usually affected. For example, a shorter schedule often needs a bigger budget, or else reduced scope or quality.\n\n**Why it matters.** Contract management is often the **“forgotten child”** of PPP programs: attention goes to preparation and procurement, with celebrations at financial close. But the service is actually built and delivered during implementation. Failure to manage the contract **will erode VfM** and may undermine the project's objectives.\n\nThe **risk allocation** is at the heart of the relationship and must be managed over the whole life of the project, to:\n- enforce, clarify or modify it when unforeseen risks arise;\n- make sure the private partner bears and mitigates its risks;\n- monitor and manage the risks the government keeps.\n\nGood monitoring shows the private partner that the government is an **informed and vigilant counterparty**, and it lets savings be found and shared (where the contract allows). It matters to the private partner too, because many private partners become **complacent** over time. Contract management also feeds lessons into future PPPs, and it includes monitoring **evolving climate risks**, for example through the maintenance history."
+    },
+    {
+      "heading": "2. The four components of the framework",
+      "body": "The Guide divides contract management into **four main components**:\n\n| Component | What it does |\n|---|---|\n| **Establishing governance and the contract management team** | Sets up the team, its structure, roles and responsibilities, resources, skills, training and continuity. |\n| **Contract administration** | Monitors, reports and ensures that contract obligations are met; manages underperformance, risks, payment of the unitary charge, variations, disputes, benchmarking and market testing; uses a contract administration manual and checklists. |\n| **Relationship management** | Keeps continuous engagement between the public and private partners through communication protocols, partnership behaviours and practical problem solving, so that trust and respect last over the project's life. |\n| **Performance management** | Assesses whether services meet the required standards, whether remedies work, and whether there are trends; links monthly monitoring to payment. |\n\nAll four sit under **continuous monitoring and performance**. The rest of this lesson follows the first three components; performance monitoring in construction and operations is covered in later lessons."
+    },
+    {
+      "heading": "3. Setting up the contract management team",
+      "body": "Whatever the project's size or structure, the procuring authority **must establish a dedicated team** with the skills to manage long-term risks and maintain VfM. A common mistake is to assume the PPP contract is **self-regulating and self-reporting**, because it places most obligations on the private partner. This leads to weak contract management and lower benefits. In the Chapman's Peak toll road case, the government was responsible for an environmental approval and had to pay a minimum revenue guarantee while it was outstanding. The payments far exceeded what a specialist contract management unit would have cost.\n\n**Three characteristics of the team:**\n- **Mandate**: a clear mandate to act for the government, through internal delegation or even legislation.\n- **Contractual standing**: the PPP contract itself empowers the team to act as the government's representative and exercise specific rights.\n- **Resources**: enough human and financial resources to do this well.\n\nThe design depends on the **scale** of the project (for example asset value), its **administrative complexity** (cross-border or cross-agency), and the **extent of risk retained** by the government. These factors must be considered **before contract award and signing**, because the team should be involved in the stages that follow. A single-project team suits very large, complex or unique projects; one team for several projects suits smaller, less complex projects in the same or similar sectors.\n\n**Skills needed** (a multidisciplinary team): technical, administrative, legal, financial (for example refinancing), communication and insurance skills, plus expertise on climate indicators and climate KPIs.\n\n**Timing through the PPP cycle:**\n- **Identification**: define contract management requirements and discuss the budget.\n- **Appraisal**: describe the function at least preliminarily, outline staff needs and secure an indicative budget for the whole contract term.\n- **Structuring**: **appoint the Contract Manager**, identify other members and produce a detailed **Contract Management Manual**.\n- **Tender**: future team members take part in negotiations on operational requirements and outputs.\n- **End of Tender**: the team is **fully in place**, the final manual (with method statements, monitoring arrangements and quality plans) is complete, communication channels and protocols with the private partner are agreed, and training is done. Note: the manual stays in **draft until commercial close** (contract signature), so that it matches the signed contract. It is finalised after signature and updated as the deal moves to financial close.\n\nEarly set-up matters because most of the **tender team leaves** after award or financial close. Early involvement transfers their knowledge, builds a stronger negotiating position, and avoids pitfalls such as not understanding the private partner's solution or a payment mechanism the team never helped design."
+    },
+    {
+      "heading": "4. Governance and who does what",
+      "body": "**Governance.** Several public bodies support contract management: the **Ministry of Finance** oversees fiscal commitments and exposure; the **PPP Unit** gives oversight and guidance; **sector regulators** monitor compliance with sector standards. Good practice creates **layers of interaction** at different levels, so that strategic disagreements do not disrupt daily work. An example structure: a **steering committee** for strategic issues (quarterly to annual), a **management committee** for ordinary issues (monthly to quarterly) and an **operational management team** for day-to-day issues. The public team should be continuous, constructive and cooperative, but **vigilant against opportunistic behaviour**.\n\n**The private partner** must report in the format the government requires, as set out in the contract. It should set up a **Quality Management System (QMS)**, with a **Management Information System (MIS)** as a large part of it.\n\n**What the government must not do.** The government **must not get involved in the private partner's actual decision making and execution**, because this would undermine the **risk transfer**. It also should not prescribe how the private partner structures itself, because lenders and shareholders already impose governance discipline. But it **should be prescriptive** on: **changes in shareholding**; having suitably **qualified personnel**; changes in the **financial structure** (distributions, refinancing); and **reporting requirements**.\n\n**The government's role**: monitor that obligations are met by the right party; monitor performance and apply the remedies for non-performance; define team roles; manage changes both permitted and not provided for in the contract; and provide for dispute resolution.\n\n**Team roles:**\n- **Primary roles** relate to the contract: represent the government and enforce its rights, monitor performance and apply payment and penalty mechanisms, maintain securities and insurances, manage disputes and changes, oversee assets, adjust user charges, and report on financial performance and **contingent fiscal obligations**.\n- **Secondary roles** relate to wider public policy: coordinate across government, watch the policy and legislative environment, integrate the project with other public services, and communicate with end users and communities.\n- The **Contract Manager** leads daily, with delegated authority and enough seniority; is **accountable for all decisions**; decides day-to-day matters within the delegation and **escalates** extraordinary decisions with cost or risk impacts; makes sure major decisions (such as dispute resolution or amending the contract) follow proper consultation and legal requirements; and develops the manual and annual oversight plans. The role is likely **full time**.\n- On **larger and more complex projects**, the Contract Manager may be supported by a **Contract Administrator** and a **Knowledge and Training Specialist**. Other specialist skills can be brought in when needed.\n- The **Contract Administrator** needs good organisation and an eye for detail. It handles files and documents, financial management, records of risks, the manual's procedures for claims, and meetings.\n- The **Knowledge and Training Specialist** identifies initial and ongoing training. There are two types of training: a general introduction to PPPs and the project cycle, and specific training (contract and project management, payment mechanisms, risk analysis, change management, dispute resolution).\n\n**Continuity.** PPPs often last 20 years or more, so the team that starts the project will rarely finish it. **Succession planning** and written policies, procedures and manuals keep the knowledge inside government. If the government does not appoint skilled, empowered staff, the result is **under-resourcing**, especially in the busy early stages, and poor contract management.\n\n**Disclosure.** The team's roles include disclosing information of two types: information about the contract at closure (for example contract summaries and full contracts at financial close), and **ongoing performance information** until expiry or termination (for example independent engineer and auditor reports, performance and financial data). **Full contract disclosure should be the default**, with exceptions only for specifically exempt information. Any renegotiation should be disclosed transparently, showing changes in risk allocation, costs, tariffs and government exposure."
+    },
+    {
+      "heading": "5. The Contract Management Manual and information management",
+      "body": "The **Contract Management Manual** is a collection of policies and procedures for managing the PPP contract. It is written in **plain language**, explains the authority's duties and how to monitor the private partner, and sets internal procedures between departments (for example between the operational team and the accounts department for payments).\n\nKey rules:\n- It must be **read together with the signed contract** and aligned with it. It **never replaces the contract**.\n- It gives a **strategic context**, including a summary of “the deal” that explains the **intent** behind the contract, not just its clauses.\n- It **highlights actions** on a rolling basis in an **obligations register**, **aligns resources** to the most critical risks, **supports governance** and reporting, and **collects contract management tools**.\n- It is a **dynamic document**, reviewed and updated regularly.\n- It is a **knowledge management** tool for succession and for transitions between stages. New team members should be trained in its use.\n\n**Information.** Most information comes from the Project Company; the government's job is mainly to **receive it and verify that it is accurate and consistent**. The contract should be clear and prescriptive on the **detail, format and deadlines** of reports, avoiding **too much** information (costly to produce and analyse) and **too little** (the government cannot do its job). Where there are social commitments such as gender targets, reporting should require disaggregated data.\n\n**Management Information System (MIS).** To make the MIS work, the government should: state in the tender documents that it expects transparent access for the whole contract; discuss bidders' planned MIS during procurement; ask the private partner to build suitable interfaces such as web portals; and **test-run the MIS before operations start**. The private partner should upgrade it regularly and avoid expensive bespoke systems. But if a consortium member already has a suitable low-cost system, insisting on a different one may not be VfM."
+    },
+    {
+      "heading": "6. Relationship, stakeholder and grievance management",
+      "body": "PPPs last a long time and involve many parties. **Relationship risk** is hard to quantify: damage usually follows poor communication and a loss of trust. The principles apply in both construction and operations.\n\n**Good relationships:**\n- Start with a **collaborative, not adversarial**, attitude. If one party is adversarial, the other tends to copy it.\n- Put in place procedures to **resolve issues quickly and informally** from the start. **Formal dispute procedures come only if consensus fails.**\n- Communication is the main attribute. Misunderstandings are common, for example an authority blaming slow response times on cost cutting when the specified times were wrong.\n- Record the **partnering principles** in the Contract Management Manual.\n\n**Stakeholder management.** Project success depends on stakeholders' perceptions. The team should assess stakeholders' **influence and expectations** and engage them accordingly: senior politicians (the project needs a **political champion**), the general public, end users (including their willingness to pay in user-pays projects), **project-affected persons**, senior civil servants, and NGOs, unions and the press. Communities are **not homogeneous**: women, men, young, elderly and disabled people may need different approaches.\n\nEven where the private partner carries a stakeholder risk, the team can **support** it. For example, if the Project Company needs a permit from another department, the team can help that department understand the project, **provided it gives no assurance that the permit will be granted**.\n\nInvolve end users early, since poor consultation can cause delays and risks such as objections to fees, land and permit problems, community opposition or staff opposition. Keep a **contacts database**, consider a project website, and use an experienced communications specialist.\n\n**Grievance mechanisms** give community members, users and workers a **formal, transparent** way to raise concerns, ideally from the start of environmental and social assessment until the end of the project. To be inclusive, they should be free, simple, publicised, available through several channels, anonymous and safe to access."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Eastfield Schools PPP",
+    "body": "Imagine a province procuring ten schools as one PPP. The PPP unit suggests appointing a Contract Manager only after financial close, to save money. The province's advisers disagree. They recommend appointing her during structuring, so that she helps design the payment mechanism and writes the draft Contract Management Manual.\n\nAfter signature, most of the tender team moves to other projects, but the Contract Manager already knows the deal. Early in construction, head teachers complain that the Project Company chose cheaper classroom furniture. Some officials want to instruct the company which supplier to use. The Contract Manager explains that this would interfere with the Project Company's execution and weaken risk transfer. Instead, she checks the output specification. The furniture meets it, so she records the teachers' concerns and discusses them at the monthly management committee.\n\nLater, the Project Company plans to refinance its debt. Because the contract requires government approval of changes to the financial structure, the Contract Manager escalates the decision to the steering committee with the Ministry of Finance."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking the PPP contract is self-regulating, so a small or late contract management team is enough.",
+      "fix": "The Guide calls this a common mistake that leads to weak contract management and lost VfM. A dedicated, skilled team must be in place by the end of the Tender phase."
+    },
+    {
+      "trap": "Believing the government should control how the private partner does its work.",
+      "fix": "The government monitors outputs and obligations but must not get involved in the private partner's decision making or execution, as this weakens risk transfer. It is prescriptive only on shareholding, personnel, financial structure and reporting."
+    },
+    {
+      "trap": "Treating the Contract Management Manual as a substitute for the contract.",
+      "fix": "The manual is read together with the contract, must be aligned with it, and never replaces it. It explains intent, actions, resources and procedures."
+    },
+    {
+      "trap": "Confusing the Contract Manager with the Contract Administrator.",
+      "fix": "The Contract Manager leads, holds delegated authority, is accountable for decisions and escalates major ones. The Contract Administrator supports with files, records, finance administration and meetings."
+    },
+    {
+      "trap": "Mixing up primary and secondary roles of the contract management team.",
+      "fix": "Primary roles concern the contract itself (enforce rights, monitor performance, manage changes and disputes). Secondary roles concern wider public policy and stakeholders to whom the private partner is not accountable."
+    }
+  ],
+  "keyTerms": [
+    { "term": "PPP contract management", "meaning": "The authority's oversight of the Project Company's delivery of the output specifications, protecting affordability, VfM and risk transfer, from signature to contract end." },
+    { "term": "Contract management team", "meaning": "The dedicated public team, with mandate, contractual standing and resources, that manages the PPP contract for the government." },
+    { "term": "Contract Manager", "meaning": "The senior person with delegated authority who leads the team daily, is accountable for decisions and escalates extraordinary ones." },
+    { "term": "Contract Administrator", "meaning": "The team member who supports the Contract Manager with documents, records, financial administration and meetings." },
+    { "term": "Contract Management Manual", "meaning": "A plain-language set of policies and procedures, aligned with but never replacing the contract, used to manage it and transfer knowledge." },
+    { "term": "Obligations register", "meaning": "A rolling list, kept in the manual, of the most immediate and critical actions the authority must take." },
+    { "term": "Management Information System (MIS)", "meaning": "The IT system, usually run by the private partner, that records activities and gives reliable performance data to the government." },
+    { "term": "Relationship risk", "meaning": "The hard-to-quantify risk that poor communication and lost trust damage the partnership and reduce VfM." },
+    { "term": "Grievance mechanism", "meaning": "A formal, transparent process for communities, users and workers to raise concerns or complaints about the project." }
+  ],
+  "summary": [
+    "Contract management runs from signature to contract end and protects affordability, VfM and risk transfer.",
+    "It is often the forgotten child of PPP programs; neglect erodes VfM.",
+    "Four components: team and governance, contract administration, relationship management, performance management.",
+    "The team needs mandate, contractual standing and resources; the Contract Manager is appointed in structuring and the team is fully in place by the end of the tender.",
+    "The government must not interfere in the private partner's execution, but is prescriptive on shareholding, personnel, financial structure and reporting.",
+    "The Contract Management Manual is aligned with the contract, never replaces it, and is updated regularly.",
+    "Relationships should be collaborative, with informal issue resolution first and formal disputes only when consensus fails."
+  ],
+  "slides": [
+    {
+      "title": "What contract management is",
+      "points": ["Oversee delivery of the output specifications", "Protect affordability, VfM and risk transfer", "From signature to contract end"],
+      "narration": "Welcome to contract management. The tender is over and the contract is signed. Now the real work begins. Contract management means the authority oversees how the Project Company delivers the services in the output specifications, while protecting affordability, value for money and the agreed risk transfer. It runs from signature until the end of the contract, often twenty years or more. It is not only reactive. Good contract managers also look ahead, anticipate future needs, and respond well when the unexpected happens."
+    },
+    {
+      "title": "The forgotten child",
+      "points": ["Attention usually stops at financial close", "Neglect erodes value for money", "Risk allocation must be managed for life"],
+      "narration": "The Guide calls contract management the forgotten child of many PPP programs. Governments celebrate at financial close, but the service is actually built and delivered afterwards. If the contract is not managed, value for money erodes. The risk allocation needs attention for the whole project life: enforcing it, clarifying it when new risks appear, and watching the risks the government keeps. And good monitoring shows the private partner that the government is informed and vigilant, which keeps everyone performing."
+    },
+    {
+      "title": "Four components",
+      "points": ["Team and governance", "Contract administration", "Relationship and performance management"],
+      "narration": "The framework has four main components. First, establishing the governance and the contract management team. Second, contract administration: making sure obligations are met, managing payments, variations, risks and disputes. Third, relationship management: keeping communication and trust alive between the public and private partners. And fourth, performance management: checking that services meet the required standards and that remedies actually work. Keep these four in mind; exam questions often ask which component an activity belongs to."
+    },
+    {
+      "title": "Building the team early",
+      "points": ["Mandate, contractual standing and resources", "Contract Manager appointed during structuring", "Team fully in place by tender end"],
+      "narration": "A common mistake is to think the contract will manage itself. It won't. The authority needs a dedicated team with a clear mandate, standing under the contract, and enough resources. Timing matters. The Contract Manager should be appointed during structuring, and the whole team should be in place by the end of the tender. Why so early? Because most of the tender team leaves after award or financial close. If the contract managers were there from the start, the knowledge stays in government."
+    },
+    {
+      "title": "Hands off the execution",
+      "points": ["Monitor outputs, not methods", "Interfering weakens risk transfer", "Prescriptive on shareholding, finance, personnel, reporting"],
+      "narration": "Here is a key principle. The government monitors, but it must not get involved in the private partner's actual decisions and execution. If it starts telling the company how to do the work, it weakens the risk transfer, and the company may later blame the government. There are some exceptions where the government should be prescriptive: changes in shareholding, having qualified staff, changes in the financial structure such as refinancing, and the timing and content of reports."
+    },
+    {
+      "title": "Who does what",
+      "points": ["Contract Manager: leads, decides, escalates", "Contract Administrator: files, records, meetings", "Primary roles versus secondary roles"],
+      "narration": "Inside the team, the Contract Manager is the leader. They hold delegated authority, make day-to-day decisions, and escalate big decisions with cost or risk impacts to the right level of government. They are accountable for every decision. The Contract Administrator supports them with files, records and meetings. The team's primary roles are about the contract itself, like enforcing rights and managing changes. Its secondary roles are about wider public policy, like coordinating with other departments and talking to communities."
+    },
+    {
+      "title": "The Contract Management Manual",
+      "points": ["Plain language, aligned with the contract", "Never a substitute for the contract", "Living document for knowledge transfer"],
+      "narration": "The Contract Management Manual is the team's everyday guide. It's written in plain language, explains the intent behind the deal, lists the critical actions in an obligations register, and sets the procedures to follow. But remember: it is always read together with the contract, and it never replaces it. It must be updated regularly. And because staff will change over twenty years, the manual is also a knowledge tool. New team members should be trained to use it."
+    },
+    {
+      "title": "Information and relationships",
+      "points": ["Clear reporting: not too much, not too little", "Test the MIS before operations", "Collaborate first; formal disputes last"],
+      "narration": "Most information comes from the Project Company, so the government's job is to check it is accurate. The contract should set the detail, format and deadlines: not so much that it becomes costly, not so little that the government cannot do its job. Test the information system before operations begin. Finally, relationships. Start collaborative, not adversarial. Solve problems quickly and informally, and use formal dispute procedures only when agreement fails. And don't forget stakeholders and a fair grievance mechanism."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A finance ministry argues that, because the PPP contract puts most obligations on the private partner, the procuring authority only needs one part-time officer to manage it. What does the Guide say about this view?",
+      "options": [
+        "It is correct, as the lenders will monitor the private partner",
+        "It is a common mistake that leads to weak contract management and lost benefits",
+        "It is acceptable if the contract includes a strong penalty regime",
+        "It is correct for availability-based projects but not user-pays ones"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says assuming the contract is self-regulating and self-reporting is a mistake that results in weak contract management and reduced benefits. A dedicated team with mandate, standing and resources is needed regardless of project size or structure."
+    },
+    {
+      "question": "Which activity belongs to the contract administration component of the contract management framework?",
+      "options": [
+        "Defining job profiles and training needs for the team",
+        "Developing partnership protocols and behaviours",
+        "Identifying stakeholders' influence and expectations",
+        "Managing payment of the unitary charge and contract variations"
+      ],
+      "answer": 3,
+      "explanation": "Contract administration monitors that obligations are met and manages underperformance, risks, payment of the unitary charge and variations. Job profiles and training belong to establishing the team; partnership protocols belong to relationship management."
+    },
+    {
+      "question": "A procuring authority is structuring a hospital PPP. When should it appoint the future Contract Manager?",
+      "options": [
+        "During the Structuring Phase, so the manager helps develop the manual and payment mechanism",
+        "After financial close, when the private partner starts construction",
+        "At service commencement, when performance monitoring begins",
+        "Only if problems arise during the first year of operations"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the Contract Manager should be appointed in the Structuring Phase and the team should be fully in place by the end of the Tender phase. Late appointment causes pitfalls such as poor understanding of the contract and payment mechanism."
+    },
+    {
+      "question": "Which set lists the three characteristics of a contract management team described in the Guide?",
+      "options": [
+        "Independence, neutrality and technical expertise",
+        "Budget, schedule and quality",
+        "Mandate, contractual standing and resources",
+        "Monitoring, reporting and enforcement"
+      ],
+      "answer": 2,
+      "explanation": "Table 7.1 lists mandate (authority to act for government), contractual standing (empowered under the PPP contract) and resources (human and financial). The other sets mix unrelated concepts."
+    },
+    {
+      "question": "During construction, a procuring authority's engineers dislike the Project Company's choice of construction method and want to instruct it to use a different one. The chosen method is expected to meet the output specifications. What should the contract management team do?",
+      "options": [
+        "Instruct the new method, since the government is paying for the asset",
+        "Approve the method formally so the government shares responsibility",
+        "Continue monitoring outputs and avoid directing the Project Company's execution",
+        "Suspend payments until the Project Company agrees to change"
+      ],
+      "answer": 2,
+      "explanation": "The government must not get involved in the private partner's decision making and execution, because this adversely affects the risk transfer. It should monitor against the output specifications instead."
+    },
+    {
+      "question": "A Project Company's shareholders plan to sell a majority stake to a new investor. How should the procuring authority's contract be designed to handle this?",
+      "options": [
+        "With explicit obligations or approval requirements for changes in shareholding",
+        "With no rules, since the private partner's structure is its own business",
+        "With a ban on all share transfers for the whole contract term",
+        "With a requirement that the government buys any shares for sale"
+      ],
+      "answer": 0,
+      "explanation": "Although the government should generally not prescribe how the private partner structures itself, the Guide lists changes in shareholding as an area where it should be prescriptive, through explicit obligations or formal approvals. A total ban is not what the Guide recommends."
+    },
+    {
+      "question": "A new Contract Manager reads the Contract Management Manual and finds that one procedure conflicts with the signed PPP contract. What should happen?",
+      "options": [
+        "Follow the manual, as it reflects the authority's internal policy",
+        "Ask the Project Company to amend the contract to match the manual",
+        "Apply whichever document was written most recently",
+        "Correct the manual so it is aligned with the contract"
+      ],
+      "answer": 3,
+      "explanation": "The manual must always be read together with the contract, be aligned with it and never substitute for it. It is a dynamic document that should be reviewed and updated regularly."
+    },
+    {
+      "question": "Which task is a secondary role of the contract management team rather than a primary role?",
+      "options": [
+        "Enforcing the payment and penalty mechanism",
+        "Monitoring the policy and legislative environment of the project",
+        "Ensuring securities and insurances are properly maintained",
+        "Managing variations and amendments to the contract"
+      ],
+      "answer": 1,
+      "explanation": "Secondary roles relate to broader public policy, such as monitoring the policy and legislative environment and coordinating across government. Enforcing payments, maintaining securities and managing changes relate to the contract itself, so they are primary roles."
+    },
+    {
+      "question": "The Project Company must obtain a permit from the environment ministry, a risk it bears under the contract. How can the contract management team help appropriately?",
+      "options": [
+        "Guarantee to the Project Company that the permit will be granted",
+        "Take over the permit application to speed it up",
+        "Take no action, since the risk sits with the Project Company",
+        "Help the ministry understand the project, without promising the permit will be granted"
+      ],
+      "answer": 3,
+      "explanation": "Even when the private partner bears a stakeholder risk, the team can play a supportive role by informing the other department about the project, provided it gives no assurance that the permit will be granted. Taking over or guaranteeing would shift the risk back to government."
+    },
+    {
+      "question": "The Contract Manager and the Project Company's manager disagree about slow response times. There is no clear breach yet. What should they do first?",
+      "options": [
+        "Use the informal issue-resolution procedures agreed at the start of the project",
+        "Start the formal dispute resolution procedure immediately",
+        "Refer the matter straight to the courts",
+        "Apply the maximum penalty to encourage faster responses"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says procedures for quickly and informally rectifying issues should be in place from the outset, and formal dispute management should come into play only if mutual consensus cannot be reached. Misunderstandings, such as wrongly specified response times, are common."
+    }
+  ]
+}

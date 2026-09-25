@@ -1,0 +1,1176 @@
+{
+  "id": "prep-2",
+  "level": "preparation",
+  "title": "Estravia Northern Region Hospital PPP",
+  "sector": "Health (social infrastructure)",
+  "scenario": "## Kingdom of Estravia: Northern Region Hospital\n\n### Background\nThe Kingdom of Estravia is a middle-income country of 11 million people. Its economy has grown by about 4% a year for ten years, but public investment in health has not kept pace. The Fiscal Responsibility Act limits total public debt to 55% of GDP; debt currently stands at 52% of GDP. The currency is the Estravian ducat (ED).\n\nThe Northern Region (1.4 million people) is served by Old Mirel Hospital in the regional capital, Talvora. Built in 1961, it has 380 beds, frequent power and water failures, and waiting times twice the national average. The Ministry of Health (MoH) National Health Strategy 2025–2035 names new hospital capacity in the Northern Region as its first priority.\n\n### The PPP framework\nEstravia's PPP Law was passed by the National Assembly in 2023. Its main features are:\n\n- The ministry or agency responsible for a public service acts as the procuring authority. It prepares, tenders, signs and manages its own PPP contracts.\n- The Ministry of Finance (MoF), through its Budget Department and a small Fiscal Risk Unit, must confirm at two gateways (before tender launch and before contract signature) that a project is affordable and that the fiscal risks retained by the government are acceptable.\n- A central PPP Unit was created in 2024 inside the Estravia Investment Promotion Agency (EIPA), whose mission is to attract private investment. The PPP Unit promotes PPPs to investors, advises procuring authorities, prepares standard guidance, shares lessons learned, and approves the screening report of every project before appraisal starts. It charges procuring authorities fees for its advisory services; these fees fund about 70% of its budget.\n- The Attorney General's Office must approve the final draft of every PPP contract.\n- Any PPP whose payment commitments have a present value above ED 500 million must be approved by the National Assembly before the contract is signed. The government must also table a summary of each signed PPP contract in the Assembly.\n- The National Audit Chamber (NAC) is the supreme audit institution. Its mandate covers ministries, agencies and companies that are majority-owned by the state.\n- The Law states that PPP contract information \"shall be made available on request\". Estravia has no freedom-of-information act and no policy on proactive disclosure.\n\n### Identifying the project\nIn 2025 MoH compared three options to meet the need: (1) refurbish and extend Old Mirel to 500 beds on its crowded city-centre site while keeping it open; (2) build a new 600-bed hospital on a 22-hectare site at Talvora East, mostly undeveloped land, which MoH already owns; (3) build two 300-bed hospitals, one in Talvora and one in the second city, Brask. MoH used multi-criteria analysis to compare the options and selected option 2. It then prepared a technical outline of the new hospital, collected data on the site and costs, and carried out a cost-benefit analysis, which gave a positive economic net present value.\n\nThe Northern Region Hospital (NRH) will be a 600-bed general hospital with an emergency department, 14 operating theatres, a 40-bed intensive care unit (ICU), patient wards, outpatient clinics, a pharmacy, laboratories, staff offices and a teaching centre. The preliminary capital cost estimate is ED 420 million, and construction is expected to take three years.\n\n### Proposed PPP structure\nMoH proposes a design-build-finance-maintain (DBFM) contract with a term of 28 years (3 years of construction and 25 years of operation). The project company would design, build and finance the hospital, maintain the building and its engineering systems, replace building components over the contract life (lifecycle works), and provide cleaning, catering, laundry and waste management. It could also earn income from a small retail area and advertising. All clinical services, medical staff and hospital management remain with MoH, and MoH will buy the medical equipment separately.\n\nMoH will pay the project company an availability payment from the date the hospital is available for use, with deductions for unavailability and poor performance. MoH's preliminary estimate is an annual payment of about ED 58 million (2026 prices), with a present value of about ED 610 million.\n\n### Stakeholders\n- The Talvora East site lies next to the floodplain of the River Lessa. About 60 informal traders run a weekly market on part of the site.\n- The Northern Region Patients' Association has asked to be involved in the design of the new hospital.\n- The Regional Development Bank (RDB), a multilateral lender, has said it is interested in lending to the project company. Bidders are expected to rely on RDB loans. The RDB requires projects it finances to meet its own environmental and social standards, which are stricter than Estravian law.\n\n### Team and timetable\nMoH set up an NRH project team of six staff in 2025; none of them has worked on a PPP before. MoH plans to appoint transaction advisers after the screening report is approved. The target dates are tender launch in 2027, financial close in 2028 and start of services in 2031.\n\n### Project objectives\n1. Replace Old Mirel with modern, reliable hospital capacity by 2031.\n2. Keep the hospital buildings in good condition over the whole contract life.\n3. Keep payments within MoH's long-term budget.\n4. Deliver value for money compared with traditional public procurement.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "EF",
+      "title": "Establishing the PPP Framework",
+      "additionalInfo": null,
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about institutional responsibilities and oversight of PPP programmes.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "The Guide encourages segregation of duties between the body that promotes a PPP programme and the body that confirms fiscal affordability. What is the main reason?",
+              "options": [
+                "Promotion bodies usually lack the legal power to sign PPP contracts for the government.",
+                "The two roles involve conflicting interests, so combining them weakens the check on fiscal exposure.",
+                "International accounting standards require affordability to be checked by the supreme audit institution.",
+                "Investors will only bid if the promoting body is located outside the ministry of finance."
+              ],
+              "answer": 1,
+              "explanation": "The Guide encourages segregation of duties between promoting the PPP programme and ensuring fiscal affordability because the two roles have conflicting interests: a promoter wants projects to go ahead. The option about accounting standards is tempting, but the Guide gives no such rule; affordability is a finance ministry control function, not an audit requirement.",
+              "ref": "Ch 2 §1.8, p. 69"
+            },
+            {
+              "id": "1a-2",
+              "stem": "Which of the following is an example of a performance (value for money) audit, rather than a regularity audit, of a PPP?",
+              "options": [
+                "Checking that a procuring authority's financial statements correctly record its PPP commitments.",
+                "Checking that the approval steps required by the PPP law were followed before signature.",
+                "Reviewing whether a PPP programme is delivering its services effectively and efficiently.",
+                "Checking that payments to the project company were properly authorised and recorded."
+              ],
+              "answer": 2,
+              "explanation": "Performance or value for money audits review the government's effectiveness and efficiency, at project or programme level. Checking that approval steps were followed is tempting, but compliance and probity of decision-making belong to regularity audits, together with audits of financial statements.",
+              "ref": "Ch 2 §1.9.2, p. 96"
+            },
+            {
+              "id": "1a-3",
+              "stem": "Under the World Bank disclosure framework described in the Guide, what is 'reactive' disclosure?",
+              "options": [
+                "Information published by the government under a policy or legal mandate, without anyone asking for it.",
+                "Information disclosed only after the PPP contract has been signed.",
+                "Information that bidders must disclose to the procuring authority during the tender.",
+                "Information released in response to a specific request, usually under a freedom-of-information law."
+              ],
+              "answer": 3,
+              "explanation": "Reactive (responsive) disclosure happens in response to a request for information, usually under a freedom-of-information or right-to-information act. Publishing under a mandate without a request is proactive disclosure, and disclosure after signature is post-procurement disclosure, which is a different dimension of the framework.",
+              "ref": "Ch 2 Box 2.36, p. 100"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Column 1 lists tasks in the Estravia PPP programme. For each task in Column 1, select from Column 2 the institution that, according to the Guide and the facts in the scenario, should carry it out. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "Ministry of Health",
+            "Ministry of Finance",
+            "PPP Unit",
+            "National Audit Chamber",
+            "National Assembly"
+          ],
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "Run the tender for the Northern Region Hospital and manage the contract after it is signed.",
+              "answer": 0,
+              "explanation": "The procuring authority is the public party to the contract and conducts the deal and manages the contract; this role falls to the entity responsible for the service. Estravia's PPP Law makes the responsible ministry the procuring authority, so this is MoH. The PPP Unit may support, but it does not run the deal here.",
+              "ref": "Ch 2 §1.8.2, p. 55"
+            },
+            {
+              "id": "1b-2",
+              "stem": "Confirm, before the tender is launched, that the availability payments fit within the budget and that the fiscal risks retained by the government are acceptable.",
+              "answer": 1,
+              "explanation": "The finance ministry is central to the control function, helping to ensure value for money and that fiscal risks are managed, often through gateway checks. Estravia's PPP Law gives this gateway to MoF. The PPP Unit is tempting, but it sits in a promotion agency and has no fiscal control role in the scenario.",
+              "ref": "Ch 2 §1.8.3, p. 58"
+            },
+            {
+              "id": "1b-3",
+              "stem": "Review, soon after procurement, whether the hospital contract is likely to give value for money, and report the findings to the legislature and the public.",
+              "answer": 3,
+              "explanation": "Audit entities carry out performance or value for money audits and give independent reviews to parliament and the public; INTOSAI recommends such audits soon after procurement. The NAC is Estravia's supreme audit institution. The National Assembly receives such reports but does not carry out the audit.",
+              "ref": "Ch 2 §1.9.2, p. 96–97"
+            },
+            {
+              "id": "1b-4",
+              "stem": "Scrutinise the summary of the hospital contract that the government must table after signature, and hold the decision-makers to account.",
+              "answer": 4,
+              "explanation": "Programme oversight by the legislature includes receiving project or contract summaries tabled after financial close, so that parliament can scrutinise commitments and hold decision-makers responsible. The scenario says summaries are tabled in the Assembly. The NAC is tempting, but its role is auditing, not receiving tabled summaries.",
+              "ref": "Ch 2 §1.9.1, p. 95"
+            },
+            {
+              "id": "1b-5",
+              "stem": "Collect lessons from the hospital and other PPPs and share them across procuring authorities and with the public.",
+              "answer": 2,
+              "explanation": "Acting as a knowledge centre, collating and sharing knowledge across procuring authorities and with the public, is a typical PPP unit role. The scenario gives Estravia's PPP Unit the task of sharing lessons learned. MoH is tempting as the owner of the hospital lessons, but it cannot share across all procuring authorities.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            },
+            {
+              "id": "1b-6",
+              "stem": "Help MoH with contract management after financial close and pass information on changes in the project's risk status to the central agencies.",
+              "answer": 2,
+              "explanation": "Monitoring and support after financial close is a PPP unit role: assisting the procuring authority and making sure central agencies learn of changes in risk status so they can monitor contingent liabilities. MoF receives this information; it is not the body that supports MoH's contract management.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Answer the following questions about oversight of the Northern Region Hospital PPP, using the facts in the scenario.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "The present value of the hospital's payment commitments is about ED 610 million. What consequence of Estravia's PPP Law should MoH plan for?",
+              "options": [
+                "MoF can no longer take part in approving the project, because the Assembly now decides.",
+                "The Assembly must approve the project before the screening report is prepared.",
+                "A preferred bidder could be selected and the Assembly could then refuse approval, which may reduce investor appetite.",
+                "The project must be procured as a traditional public works contract because it exceeds the threshold."
+              ],
+              "answer": 2,
+              "explanation": "ED 610 million is above the ED 500 million threshold, so Assembly approval is needed before signature. The Guide warns that such requirements create a risk that a preferred bidder is selected but parliament does not approve, which may reduce investor appetite. Nothing in the law removes MoF's gateways or moves Assembly approval to the screening stage.",
+              "ref": "Ch 2 §1.9.1, p. 95"
+            },
+            {
+              "id": "1c-2",
+              "stem": "The NAC plans to examine the costs of the Northern Region Hospital project company. What should MoH include when it drafts the contract?",
+              "options": [
+                "A duty for the project company to provide audited accounts and other relevant data the government may require.",
+                "A requirement that the project company be majority state-owned, so that the NAC's mandate covers it.",
+                "A clause excluding the NAC from any review until the contract has expired.",
+                "A seat for the NAC on the project company's board of directors."
+              ],
+              "answer": 0,
+              "explanation": "Supreme audit entities usually cannot audit PPP companies, and the NAC's mandate covers only state bodies and majority state-owned companies. The Guide's solution is for the contract to require the project company to provide audited accounts and relevant data. Making the company state-owned would defeat the purpose of the PPP.",
+              "ref": "Ch 2 §1.9.2, p. 96–97"
+            },
+            {
+              "id": "1c-3",
+              "stem": "The NAC asks when it should carry out a performance audit of the hospital PPP. Following the INTOSAI guidance described in the Guide, what should it plan?",
+              "options": [
+                "A single audit after the contract expires, when all costs are known.",
+                "An audit only if the Assembly receives a complaint from the public.",
+                "An audit before the screening report is approved, and none afterwards.",
+                "An audit soon after procurement, followed by further reviews over the life of the project."
+              ],
+              "answer": 3,
+              "explanation": "INTOSAI recommends that performance audits of PPP projects are conducted soon after procurement, with further reviews over the project lifetime covering identification, the transaction, the tender, contract finalisation and ongoing management. A single audit at expiry would come too late to improve contract management or future projects.",
+              "ref": "Ch 2 §1.9.2, p. 97"
+            },
+            {
+              "id": "1c-4",
+              "stem": "Estravia's PPP Law only says that contract information 'shall be made available on request'. Which approach to the hospital contract is most consistent with the Guide?",
+              "options": [
+                "Keep the whole contract confidential, because publishing any contract terms would breach commercial confidentiality.",
+                "Publish the contract with commercially sensitive parts removed, plus a project summary, soon after financial close.",
+                "Publish every bidder's full financial model during evaluation so the public can compare the offers.",
+                "Rely on requests from the public, because the Guide recommends reactive disclosure above other methods."
+              ],
+              "answer": 1,
+              "explanation": "The Guide describes publishing contracts (with commercially sensitive elements excluded) and project summaries soon after financial close, and says complete transparency increases public trust. Keeping everything confidential is tempting under the current law, but it ignores the Guide's case for disclosure; the Guide also notes reactive disclosure is more common, not preferred.",
+              "ref": "Ch 2 §1.9.3, p. 99–100"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Answer the following questions about the design of Estravia's PPP institutions and public involvement. Select exactly 2 options for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "Which 2 features of the PPP Unit's design create a risk of conflict of interest in its role of approving screening reports?",
+              "options": [
+                "It publishes an annual report on the progress of the PPP programme.",
+                "It sits inside an agency whose mission is to attract investment and promote PPPs.",
+                "It collects and shares lessons learned from PPP projects.",
+                "About 70% of its budget comes from fees paid by the procuring authorities it advises.",
+                "It gives investors information about the PPP pipeline."
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says units that control the PPP process should generally sit in finance ministries or planning agencies, and that a unit funded by fees from procuring authorities may have a conflict of interest in its control and oversight functions. Publishing a programme report, sharing lessons and giving investors information are normal PPP unit roles that do not in themselves compromise approval.",
+              "ref": "Ch 2 §1.8.6, p. 64–65"
+            },
+            {
+              "id": "1d-2",
+              "stem": "Which 2 measures would best address the conflict of interest in the PPP Unit's approval role?",
+              "options": [
+                "Move the screening-approval function to a unit linked to MoF, or require MoF to take part in the approval.",
+                "Raise the PPP Unit's fees so that it becomes fully self-financing.",
+                "Create internal firewalls between staff who advise procuring authorities and staff who approve screening reports.",
+                "Remove the MoF gateways so that the PPP Unit becomes the single approving body.",
+                "Transfer the approval function to EIPA's investment promotion board."
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "Where a unit guides, advises and approves, the Guide calls for internal firewalls, involving other entities in approvals, or extra scrutiny; control functions are best located in finance or planning bodies. Higher fees would deepen the funding conflict, and giving approval to the promotion board or removing MoF would weaken, not strengthen, independent control.",
+              "ref": "Ch 2 §1.8.6, p. 64"
+            },
+            {
+              "id": "1d-3",
+              "stem": "Which 2 actions are appropriate ways to involve the public in the Northern Region Hospital PPP?",
+              "options": [
+                "Give the Patients' Association the power to approve the final contract.",
+                "Delay all public engagement until after financial close to avoid slowing the tender.",
+                "Consult the Patients' Association while the project and its output specifications are being developed.",
+                "Allow the Patients' Association to score the bids.",
+                "Build channels for patient feedback and complaint handling into contract monitoring."
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "The Guide describes public participation at programme development, project development (stakeholder consultation so concerns shape structuring) and contract monitoring (user feedback and grievance mechanisms). The Patients' Association's request fits project development consultation. Approval or bid scoring by an interest group is not a public participation mechanism the Guide describes, and delaying engagement loses its benefits.",
+              "ref": "Ch 2 §1.9.3, p. 99"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "For each line, select the option in which the assertion is true AND the reason is true and correctly explains the assertion, given the scenario.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "The PPP Unit suggests that the MoF gateways are no longer needed.",
+              "options": [
+                "The MoF gateways should be removed BECAUSE the PPP Unit already approves every screening report.",
+                "The MoF gateways should be kept BECAUSE finance ministry involvement helps keep the programme focused on value for money and on managing fiscal risks.",
+                "The MoF gateways should be kept BECAUSE MoF is the procuring authority for the hospital."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says finance ministry involvement helps ensure the programme focuses on value for money and that fiscal risks are managed, often through gateways. The PPP Unit's approval is a screening check inside a promotion agency, not a substitute. MoF is not the procuring authority; MoH is, under the PPP Law.",
+              "ref": "Ch 2 §1.8.3, p. 58"
+            },
+            {
+              "id": "1e-2",
+              "stem": "MoF gives its first gateway approval before tender launch. MoH asks whether the second approval before signature is useful.",
+              "options": [
+                "A second MoF approval before signature is useful BECAUSE the final cost of a PPP is not known until procurement is concluded.",
+                "A second MoF approval before signature is unnecessary BECAUSE the Assembly will also approve the project.",
+                "A second MoF approval before signature is useful BECAUSE the Attorney General cannot review a contract without it."
+              ],
+              "answer": 0,
+              "explanation": "The Guide explains that because the final cost is not known until procurement ends, final approval may be needed before the contract is signed. Assembly approval is a separate legislative check and does not replace MoF's fiscal gateway. The Attorney General's legal review does not depend on MoF approval.",
+              "ref": "Ch 2 §1.8.5, p. 60"
+            },
+            {
+              "id": "1e-3",
+              "stem": "A member of the Assembly asks the NAC to audit the books of the hospital project company.",
+              "options": [
+                "The NAC can audit the project company whenever it wishes BECAUSE the company is paid from the state budget.",
+                "The NAC cannot review the hospital PPP at all BECAUSE supreme audit institutions only audit financial statements.",
+                "The NAC is unlikely to have an automatic right to audit the project company BECAUSE supreme audit remits usually cover only government bodies and majority state-owned entities."
+              ],
+              "answer": 2,
+              "explanation": "Supreme audit remits typically extend only to government agencies and majority government-owned entities, which matches the NAC's mandate, so it has no automatic right to audit the private project company. It can still audit MoH and perform value for money audits of the PPP, so the second option's reason is false.",
+              "ref": "Ch 2 §1.9.2, p. 96"
+            },
+            {
+              "id": "1e-4",
+              "stem": "Estravia currently discloses PPP information only on request.",
+              "options": [
+                "Estravia's approach is sufficient BECAUSE proactive disclosure is already the most common practice in existing frameworks.",
+                "Estravia should consider a proactive disclosure framework for PPPs BECAUSE good disclosure can raise investor appetite and public confidence and helps to tackle corruption.",
+                "Estravia should consider proactive disclosure BECAUSE the Guide requires every commercially sensitive term to be published."
+              ],
+              "answer": 1,
+              "explanation": "Box 2.36 lists the benefits of disclosure: more investor appetite, more public confidence and help in tackling corruption, and it notes that developing proactive practice is the main challenge. Reactive disclosure, not proactive, is the more common practice. The Guide accepts that commercially sensitive elements are usually excluded.",
+              "ref": "Ch 2 Box 2.36, p. 100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "IP",
+      "title": "Project Identification and PPP Screening",
+      "additionalInfo": "**PPP Unit screening note, March 2026.** A cost-benefit analysis has confirmed that all five MoH projects below are economically sound.\n\n| Project | Key screening findings |\n|---|---|\n| A. Northern Region Hospital (ED 420m) | Outputs can be clearly specified; MoH owns the site; four international and two local groups have expressed interest; similar hospital PPPs have closed in neighbouring countries; long-term, predictable need; payments fit MoH's long-term budget projections. |\n| B. Health-records IT platform (ED 9m) | Small contract; software expected to need replacing every three to four years; funds available in MoH's capital budget. |\n| C. Regional laboratories network (ED 140m) | Sites for 3 of 8 laboratories not identified; no data on future test volumes; legal review under way on whether private operators may run public laboratories. |\n| D. Brask maternity wing extension (ED 6m) | One small building on an existing hospital campus; funds already allocated in the budget; no firms showed interest when approached. |\n| E. Southern rehabilitation centre (ED 75m) | MoH has not yet decided whether the centre will also provide long-term care, so the output requirements cannot yet be confirmed; two candidate sites are still being compared. |\n\n**MoF advice.** The debt rule means MoH cannot borrow to fund an ED 420 million capital programme in 2027–2030. MoH's long-term budget projections can, however, accommodate annual payments of about ED 58 million from 2031.\n\n**Extracts from MoH's draft screening report for the Northern Region Hospital**\n\n- S1: The positive economic net present value shows that a PPP is the best way to procure the hospital.\n- S2: The PPP scope will exclude clinical services and medical equipment, which stay with MoH.\n- S3: The preliminary capital cost of ED 420 million will be announced at a press conference to show the government's commitment.\n- S4: MoH's own architects will fix the room layouts, structural system and construction methods, and bidders must follow this design.\n- S5: Once the report is approved, MoH will appoint transaction advisers based on the project management plan and its budget.\n- S6: The report records the six groups that have expressed interest and the similar hospital PPPs in the region.",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about project identification and option analysis.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "Which statement correctly describes the difference between a cost-benefit analysis (CBA) and a value for money (VfM) analysis?",
+              "options": [
+                "CBA compares PPP delivery with traditional delivery; VfM tests whether the project has net benefits for society.",
+                "CBA and VfM answer the same question, so only one of them needs to be carried out.",
+                "CBA tests the economic feasibility of the project whatever the procurement mode; VfM compares procurement options for delivering it.",
+                "CBA is carried out only for PPPs; VfM is carried out only for traditionally procured projects."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says CBA establishes economic feasibility irrespective of procurement mode and is not designed to choose the procurement route, while VfM is a relative concept used to compare procurement options. The first option reverses the two concepts, which is the classic confusion the Guide warns about when it notes the terms are often used interchangeably.",
+              "ref": "Ch 3 §8.1, p. 20"
+            },
+            {
+              "id": "2a-2",
+              "stem": "MoH used multi-criteria analysis (MCA) to compare its three options. Which statement about MCA is consistent with the Guide?",
+              "options": [
+                "MCA must express every cost and benefit in money terms before the options can be ranked.",
+                "MCA is a short cut that inexperienced staff can use instead of a proper analysis.",
+                "Once MCA has selected an option, no cost-benefit analysis of that option is needed.",
+                "MCA compares options against explicit objectives and measurable criteria, which can be quantitative and qualitative."
+              ],
+              "answer": 3,
+              "explanation": "MCA sets preferences between options by reference to explicit objectives and measurable criteria, and it uses both quantitative and qualitative criteria. The Guide says MCA must not be seen as a short cut, and that if a technique other than CBA selects the option, a CBA must still be performed on the selected solution, as MoH did.",
+              "ref": "Ch 3 §5, p. 13–14"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "sequencing",
+          "level": 3,
+          "instruction": "Column 1 lists activities that MoH carries out, or should carry out, during identification and screening of the Northern Region Hospital. Using Column 2, place them in the order the Guide sets out for this phase. Each position in Column 2 is used exactly once.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "First activity",
+            "Second activity",
+            "Third activity",
+            "Fourth activity",
+            "Fifth activity"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Test whether the hospital makes sense as a PPP and whether the long-term payments are affordable.",
+              "answer": 3,
+              "explanation": "Testing PPP suitability and affordability comes after the project has been shown to be economically sound, because the Guide screens for PPP suitability only once the CBA is satisfactory. It comes before the project management plan, which is prepared once the suitability test is satisfactory.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-2",
+              "stem": "Compare refurbishment, one new 600-bed hospital and two 300-bed hospitals, and select the preferred option.",
+              "answer": 0,
+              "explanation": "The phase starts with the identified need and the needs and option analysis, which selects the preferred technical solution. MoH's comparison of the three options using MCA is this first activity; all later steps work on the selected option 2.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-3",
+              "stem": "Prepare a project management plan with a staffing plan, adviser needs and budget, and an overall timetable.",
+              "answer": 4,
+              "explanation": "Once the project is defined, economically sound and satisfactory in the suitability test, a project management plan is developed, including staffing, adviser needs and budget. It is the last of these five activities and feeds the screening report and the decision to move to appraisal.",
+              "ref": "Ch 3 §11, p. 39–40"
+            },
+            {
+              "id": "2b-4",
+              "stem": "Carry out a cost-benefit analysis of the preferred option to confirm its economic soundness.",
+              "answer": 2,
+              "explanation": "After the technical outline is clarified, the Guide says the economic sense of the project must be tested, using CBA on the selected solution. This preliminary economic feasibility comes before PPP suitability, because suitability is tested only on an economically sound project.",
+              "ref": "Ch 3 §2, p. 4"
+            },
+            {
+              "id": "2b-5",
+              "stem": "Prepare a technical outline of the new hospital and collect information on the site, costs and constraints.",
+              "answer": 1,
+              "explanation": "The next step after defining the technical solution is to clarify the technical scope (technical outline) and collect the information needed. This must come before the CBA, which relies on the cost and project data gathered in this step.",
+              "ref": "Ch 3 §6, p. 15"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 2, Column 1 lists the five projects screened by the PPP Unit. For each project, select from Column 2 the screening outcome that the Guide supports. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Move forward to the Appraisal Phase as a PPP",
+            "Not suitable as a PPP: appraise it for delivery with public funds",
+            "Recommend further studies before deciding whether to move to appraisal"
+          ],
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "Project A: Northern Region Hospital",
+              "answer": 0,
+              "explanation": "Project A answers the suitability questions positively: clear outputs, site available, investor appetite and precedents, and affordable payments. With a satisfactory result on an economically sound project, the Guide's screening outcome is to go to appraisal. No information gap is serious enough to require more studies first.",
+              "ref": "Ch 3 §10, p. 37–38"
+            },
+            {
+              "id": "2c-2",
+              "stem": "Project B: Health-records IT platform",
+              "answer": 1,
+              "explanation": "The suitability test asks whether the project is big enough to justify transaction costs, and the Guide notes that sectors with a risk of obsolescence, such as ICT, are unsuitable for PPP. With a public budget available, the Guide recommends appraising it for traditional procurement. More studies would not change these basic features.",
+              "ref": "Ch 3 §10, p. 37–38; Ch 4 Box 4.21, p. 100"
+            },
+            {
+              "id": "2c-3",
+              "stem": "Project C: Regional laboratories network",
+              "answer": 2,
+              "explanation": "Project C is missing key information: land for three sites, demand data and whether the legal framework allows the PPP. The Guide says that when information is missing or uncertainties must be clarified, the appraiser should state the weaknesses and recommend further analysis before moving on. It is too early to say it is unsuitable.",
+              "ref": "Ch 3 §10, p. 38"
+            },
+            {
+              "id": "2c-4",
+              "stem": "Project D: Brask maternity wing extension",
+              "answer": 1,
+              "explanation": "Project D is very small, so it cannot justify PPP transaction costs, and there is no investor appetite; its budget is already allocated. The Guide's outcome is to dismiss it as a PPP and appraise it with public funds. It is not an information gap, so further studies are not the right answer.",
+              "ref": "Ch 3 §10, p. 37–38"
+            },
+            {
+              "id": "2c-5",
+              "stem": "Project E: Southern rehabilitation centre",
+              "answer": 2,
+              "explanation": "The suitability test asks whether output requirements are clearly identifiable; for Project E they cannot yet be confirmed because the scope of care is undecided, and the site is still being chosen. These are uncertainties to clarify, so the Guide recommends further studies before the next stage. Declaring it unsuitable would be premature, as the project's features are not yet known.",
+              "ref": "Ch 3 §10, p. 37–38"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2 and the scenario, answer the following questions. Select exactly 2 options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "Which 2 statements in MoH's draft screening report are inconsistent with the Guide?",
+              "options": [
+                "S2: excluding clinical services and medical equipment from the PPP scope",
+                "S1: using the positive economic NPV to conclude that a PPP is the best procurement route",
+                "S5: appointing advisers based on the project management plan once the report is approved",
+                "S6: recording investor interest and precedent hospital PPPs in the region",
+                "S3: announcing the ED 420 million preliminary capital cost at a press conference"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "A CBA confirms economic feasibility irrespective of procurement mode and is not designed to decide the procurement route, so S1 is wrong. The Guide notes that the preliminary capex is subject to change and some governments guard against releasing it to avoid unrealistic expectations, so S3 is wrong. S2, S5 and S6 follow the Guide on PPP scope, planning and information requirements.",
+              "ref": "Ch 3 §8.1, p. 20; §7, p. 17"
+            },
+            {
+              "id": "2d-2",
+              "stem": "Which 2 facts best support a qualitative value for money case that the Northern Region Hospital is suitable for delivery as a PPP?",
+              "options": [
+                "The need for hospital accommodation in the region is long-term and predictable.",
+                "The PPP would keep the ED 420 million capital cost out of the public debt figures.",
+                "Availability payments would start only in 2031, easing the budget in 2027–2030.",
+                "Six groups, including four international ones, have shown interest, and similar hospital PPPs exist nearby.",
+                "The MoH project team of six has no previous PPP experience."
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "Qualitative VfM criteria described in the Guide include a long-term, predictable need for the service and a competitive bidding market. Keeping capex off the debt figures or deferring payments are fiscal or accounting effects, not value for money arguments. An inexperienced authority is an unsuitability factor, not a support.",
+              "ref": "Ch 4 Box 4.21, p. 100"
+            },
+            {
+              "id": "2d-3",
+              "stem": "Which 2 facts from the scenario should the screening report record as constraints or uncertainties to investigate further during appraisal?",
+              "options": [
+                "Part of the Talvora East site lies next to the River Lessa floodplain.",
+                "MoH already owns the 22-hectare Talvora East site.",
+                "About 60 informal traders run a weekly market on part of the site.",
+                "The National Health Strategy names Northern Region hospital capacity as its first priority.",
+                "MCA was used to choose between the three options."
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide asks the screening to list constraints and dependencies such as significant site risks and important environmental concerns, and to describe environmental and social difficulties. The floodplain and the traders' market are such issues. Site ownership reduces a constraint, and the strategic priority and the MCA are justifications, not uncertainties.",
+              "ref": "Ch 3 §7, p. 16–18"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "How should the PPP Unit assess statement S4 of the draft screening report?",
+              "options": [
+                "Appropriate: fixing the full design early is the only way to compare the bids fairly.",
+                "Inappropriate: design must be left entirely to bidders, with no technical requirements set by MoH.",
+                "Inappropriate: fixing the design limits innovation; MoH should specify outputs, with enough definition to cost the project.",
+                "Appropriate: availability-based hospitals need an input-based specification to measure availability."
+              ],
+              "answer": 2,
+              "explanation": "Box 3.3 warns that input-based specifications limit the private sector's ability to innovate and that the government should avoid being locked into a single solution, while still defining enough to cost and appraise the project. The second option is tempting but goes too far: the Guide requires a balance, not the absence of technical requirements.",
+              "ref": "Ch 3 Box 3.3, p. 4"
+            },
+            {
+              "id": "2e-2",
+              "stem": "Using the MoF advice, how should the affordability part of the screening be concluded?",
+              "options": [
+                "The project is unaffordable and should be removed from the pipeline.",
+                "It is affordable in the long term but faces a short-term financing constraint; screening should ask whether a PPP can overcome it.",
+                "The project can proceed only if new commercial revenues are found to replace the budget payments.",
+                "Affordability does not need to be considered until the Appraisal Phase."
+              ],
+              "answer": 1,
+              "explanation": "The Guide's third affordability question covers a project that is affordable in the long term but cannot be financed in the short term because of borrowing limits; the issue is then whether a PPP can be structured to overcome that. Seeking innovative revenues applies only when the project is not affordable in the long term, which is not the case here.",
+              "ref": "Ch 3 §10, p. 37–38"
+            }
+          ]
+        },
+        {
+          "id": "2f",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "For each line, select the option in which the assertion is true AND the reason is true and correctly explains the assertion, given the scenario and the additional information provided for Question 2.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2f-1",
+              "stem": "Statement S2 removes clinical services and medical equipment from the PPP.",
+              "options": [
+                "Clinical services must be included in the PPP scope BECAUSE the PPP scope must always match the technical scope of the project.",
+                "Clinical services should be excluded from the PPP scope BECAUSE availability payments cannot be used in social infrastructure.",
+                "Clinical services can be excluded from the PPP scope BECAUSE the PPP scope may differ from the technical scope by removing some responsibilities from the contract."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the PPP project scope may differ significantly from the technical scope, removing some responsibilities from the PPP contract, as in a bus rapid transit PPP that excludes vehicles. Availability payments are in fact the most common regime in social infrastructure, so the second reason is false.",
+              "ref": "Ch 3 §9, p. 34"
+            },
+            {
+              "id": "2f-2",
+              "stem": "MoH is preparing a qualitative value for money assessment for the 28-year hospital contract.",
+              "options": [
+                "The assessment should record the loss of policy flexibility over 28 years BECAUSE problems of involving a private partner should be highlighted with a strategy to mitigate them.",
+                "The assessment should ignore policy flexibility BECAUSE qualitative analysis considers only the benefits of PPPs.",
+                "The assessment should record the loss of policy flexibility BECAUSE qualitative analysis is free of subjectivity."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the qualitative assessment should highlight the problems of involving a private partner, starting with lack of policy flexibility from a long-term contract, together with a mitigation strategy. The third option has a true assertion but a false reason: the Guide says qualitative analysis is inevitably subjective.",
+              "ref": "Ch 4 §16.2.2, p. 99"
+            },
+            {
+              "id": "2f-3",
+              "stem": "MoH is deciding whether to include the hospital in its published project pipeline before the procurement route is final.",
+              "options": [
+                "The hospital should be left out until the PPP route is final BECAUSE pipelines should list only confirmed PPPs.",
+                "The hospital should appear in the pipeline now BECAUSE a pipeline should contain all major projects whatever the procurement method, which attracts investors.",
+                "The hospital should appear in the pipeline now BECAUSE publishing a pipeline replaces the need for market sounding."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says a government's pipeline should contain all its major projects regardless of procurement method, and that a recognisable pipeline attracts investors and competition. Nothing in the Guide says a pipeline replaces market sounding, so the third reason is false even though its assertion is true.",
+              "ref": "Ch 3 §3, p. 8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "AP",
+      "title": "Appraising PPP Projects",
+      "additionalInfo": "**Draft appraisal results, Northern Region Hospital (2027)**, prepared by MoH's advisers.\n\n**Draft value for money calculation** (present values, ED million, same discount rate for both options; these updated 2027 figures replace MoH's 2025 preliminary estimates)\n\n| Item | ED m |\n|---|---|\n| Base cost of construction, maintenance and lifecycle works if MoH built and maintained the hospital itself | 505 |\n| Risk adjustment: construction cost and time overruns and lifecycle cost overruns (transferred to the project company under the PPP) | 88 |\n| Risk adjustment: cost of clinical demand growing beyond 600 beds (borne by MoH under both options) | 30 |\n| Competitive neutrality: taxes the project company would pay | 18 |\n| Less: retail and advertising income that MoH could not generate itself | (15) |\n| **Adjusted PSC** | **626** |\n| PPP: availability payments | 590 |\n| PPP: MoH contract-management team and independent certifier (needed only under the PPP) | 16 |\n| **PPP cost** | **606** |\n| **Draft VfM** | **20** |\n\n**Fiscal Risk Unit draft note**\n\n- The annual payment of ED 58 million from 2031 equals 4.6% of MoH's projected budget (projected by applying expected GDP growth to the last year of the medium-term budget framework).\n- Rates available: 10-year government bond yield 7.2%; social discount rate used in the CBA 5%; bidders' expected equity IRR 13%; RDB lending rate 6%.\n- Total PPP direct commitments would be 1.9% of projected government revenue, below the 3% cap set in the PPP regulations issued under the PPP Law. \"Because the cap is met, no further affordability testing is required.\"\n- Contingent liabilities: for each year the note adds the expected cost of compensation for discriminatory change in law to the maximum termination compensation on MoH default, on project company default and on force majeure, then discounts and sums all years into one figure of ED 1,150 million.\n\n**Environmental and social findings**\n\n- Part of the site lies in the 1-in-100-year floodplain. Raising the building platform by 1.5 m and moving the energy centre would avoid most flood exposure.\n- The Ministry of Environment can issue a provisional permit on the outline design. The full permit needs the detailed design, which the winning bidder will prepare.\n- About 60 informal traders use part of the site for a weekly market that is their main source of income.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about value for money and fiscal affordability.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "In a quantitative value for money analysis, what does the raw Public Sector Comparator (PSC) represent?",
+              "options": [
+                "The bidders' expected price for the project, adjusted for the risks they will bear.",
+                "The economic net present value of the project, including externalities, used to decide whether to invest.",
+                "The present value of the availability payments plus the procuring authority's contract management costs.",
+                "The whole-life cost of traditional delivery from the government's perspective, net of revenues the government would receive."
+              ],
+              "answer": 3,
+              "explanation": "The raw PSC estimates the whole-life baseline costs of the project from the government's perspective if delivered through traditional procurement, taking account of revenues the government would receive. The availability payments plus contract management costs describe the PPP side of the comparison, not the PSC.",
+              "ref": "Ch 4 §16.2.1, p. 91"
+            },
+            {
+              "id": "3a-2",
+              "stem": "At the Appraisal Phase, why does the fiscal affordability analysis focus mainly on direct liabilities?",
+              "options": [
+                "Because contingent liabilities never create fiscal costs in government-pays PPPs.",
+                "Because contingent liabilities are reported only by the supreme audit institution.",
+                "Because contingent liabilities depend largely on the risk allocation, which is finalised during structuring.",
+                "Because accounting standards forbid quantifying contingent liabilities before financial close."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the feasibility study focuses on direct liabilities because contingent liabilities are driven largely by risk allocation, which is finalised in structuring. It still advises highlighting the main contingencies with a tentative quantification, so contingent liabilities are not ignored or forbidden.",
+              "ref": "Ch 4 §11.1, p. 58"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, Column 1 lists items considered in the draft value for money calculation. For each item, select from Column 2 how the Guide says it should be treated. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Include in the raw PSC",
+            "Add to the PSC as a risk adjustment",
+            "Add to the PSC as a competitive neutrality adjustment",
+            "Add to the cost of the PPP alternative",
+            "Leave out of the PSC"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "MoH's base cost of construction, maintenance and lifecycle works if it built and maintained the hospital itself (ED 505m).",
+              "answer": 0,
+              "explanation": "The raw PSC is the whole-life baseline cost of traditional delivery from the government's perspective, covering construction, O&M and renewal costs. MoH's own base cost estimate is exactly this. It is not a risk adjustment, because it reflects the expected costs before any overruns.",
+              "ref": "Ch 4 §16.2.1, p. 91"
+            },
+            {
+              "id": "3b-2",
+              "stem": "Construction, time and lifecycle cost overruns that would be transferred to the project company under the PPP (ED 88m).",
+              "answer": 1,
+              "explanation": "The adjusted PSC adds the risks the government retains under traditional procurement but would transfer under the PPP, so that both options have the same risk profile. Construction and lifecycle overruns transferred to the project company are the Guide's standard example.",
+              "ref": "Ch 4 §16.2.1, p. 92–93"
+            },
+            {
+              "id": "3b-3",
+              "stem": "Cost of clinical demand growing beyond 600 beds, which MoH bears under both options (ED 30m).",
+              "answer": 4,
+              "explanation": "Only risks transferred to the private party in the PPP should be used in the PSC risk adjustment; risks the government keeps under both options can be disregarded in both. Clinical services and demand stay with MoH, so the ED 30 million should not be added to the PSC.",
+              "ref": "Ch 4 §16.2.1, p. 93"
+            },
+            {
+              "id": "3b-4",
+              "stem": "Taxes the project company would pay, added so that the PSC reflects the same tax regime as the private partner (ED 18m).",
+              "answer": 2,
+              "explanation": "A competitive neutrality adjustment removes apparent cost advantages of public delivery that are not true efficiencies; the most common is adding a tax effect so the PSC mirrors the private partner's tax regime. It is not a risk adjustment because it has nothing to do with risk transfer.",
+              "ref": "Ch 4 §16.2.1, p. 94"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Retail and advertising income that MoH could not generate itself (ED 15m).",
+              "answer": 4,
+              "explanation": "Where the private sector can earn extra revenues, such as property development or advertising, that governments cannot easily obtain, the PSC should not include those costs or revenues. The draft wrongly deducts ED 15 million from the PSC. Including them would understate the PSC.",
+              "ref": "Ch 4 §16.2.1, p. 92"
+            },
+            {
+              "id": "3b-6",
+              "stem": "MoH's contract-management team and independent certifier, needed only under the PPP (ED 16m).",
+              "answer": 3,
+              "explanation": "The PPP cost should be adjusted for the government's project management and transaction costs, such as extra staff or independent certifiers, when they relate only to the PPP alternative. Adding them to the PSC would be wrong because traditional delivery would not incur them.",
+              "ref": "Ch 4 §16.2.1, p. 95"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "The Fiscal Risk Unit must calculate the present value of MoH's direct liabilities for the hospital. Which rate does the Guide suggest it should use?",
+              "options": [
+                "The 5% social discount rate used in the CBA.",
+                "The bidders' expected equity IRR of 13%.",
+                "The RDB's lending rate of 6%.",
+                "The 10-year government bond yield of 7.2%."
+              ],
+              "answer": 3,
+              "explanation": "The Guide suggests discounting direct liabilities at the yield on 10-year government securities as a proxy for the government's opportunity cost of capital. The CBA social discount rate is tempting, but it serves a different purpose, and the equity IRR and RDB rate reflect private financing costs.",
+              "ref": "Ch 4 §11.1, p. 59"
+            },
+            {
+              "id": "3c-2",
+              "stem": "Which response to the flood finding is most consistent with the Guide's approach to mitigating environmental effects?",
+              "options": [
+                "Feed the finding back into the technical requirements, for example raising the platform and moving the energy centre.",
+                "Accept the flood exposure and plan to compensate the project company after each flood.",
+                "Leave the issue entirely to bidders, since environmental risk is a design risk borne by the private partner.",
+                "Stop the appraisal, because a site with significant environmental impacts cannot obtain approval."
+              ],
+              "answer": 0,
+              "explanation": "The third step of environmental feasibility defines a mitigation strategy, which can feed back into the technical requirements to change the design where this significantly reduces environmental costs, as the platform and energy centre changes would. Leaving it all to bidders ignores the Guide's point that the authority should anticipate environmental impacts as far as possible.",
+              "ref": "Ch 4 §13.1, p. 72"
+            },
+            {
+              "id": "3c-3",
+              "stem": "The first review of social impacts finds that about 60 informal traders depend on the weekly market on the site. What should MoH do?",
+              "options": [
+                "Conduct a full social impact analysis and have it well advanced before the green light decision.",
+                "Record the issue and leave it to the project company after contract signature.",
+                "Stop the review, because a full social impact analysis is only needed for linear projects such as roads.",
+                "Carry out the social impact analysis only after construction starts, when impacts can be observed."
+              ],
+              "answer": 0,
+              "explanation": "All projects need at least a review to identify material social impacts; if they exist, a full social impact analysis should be conducted and significantly advanced before the green light decision. Loss of the traders' main income is a material impact. Leaving it to the project company would push an unmanaged risk into the contract.",
+              "ref": "Ch 4 §14, p. 74; §14.2, p. 76"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions. Select exactly 2 options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "Which 2 elements of the Fiscal Risk Unit's draft note are inconsistent with the Guide?",
+              "options": [
+                "Projecting MoH's budget beyond the medium-term framework by applying expected GDP growth",
+                "Comparing total PPP commitments with projected government revenue",
+                "Stating that no further affordability testing is needed because the 3% cap is met",
+                "Discounting and summing termination compensation with other contingent liabilities into one figure",
+                "Presenting the annual payment as a percentage of MoH's projected budget"
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "The Guide says regulatory caps cannot replace a comprehensive affordability analysis, and that early termination compensation should not be discounted, aggregated or added to specific-risk guarantees; the maximum exposure per year should be shown instead. Projecting the agency budget with GDP growth and comparing with revenue and agency budgets are the Guide's own tests.",
+              "ref": "Ch 4 §11.1, p. 59–63"
+            },
+            {
+              "id": "3d-2",
+              "stem": "Which 2 conclusions should the appraisal team draw about how to use the value for money result?",
+              "options": [
+                "Test the result with sensitivity analysis on key assumptions such as cost overruns and the discount rate.",
+                "Treat the positive result as proof that the PPP route must be chosen.",
+                "Drop the PPP option because the value for money margin is below 5%.",
+                "Treat the result as final, since value for money is not revisited after appraisal.",
+                "Follow the numerical result with a qualitative value for money assessment before recommending the PPP."
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "Quantitative VfM relies on unproven assumptions, so the Guide says results are for reference, must be accompanied by sensitivity analysis, and should always be followed by qualitative analysis. A positive VfM does not by itself mean the PPP must be used, the Guide sets no 5% threshold, and VfM may be revisited in structuring and after award.",
+              "ref": "Ch 4 §16.2.1, p. 97–98"
+            },
+            {
+              "id": "3d-3",
+              "stem": "Which 2 actions on environmental approvals are appropriate for the hospital?",
+              "options": [
+                "Treat the lack of a full environmental permit at appraisal as a reason to cancel the PPP.",
+                "Seek a provisional permit on the outline design before the tender is launched.",
+                "Produce a precise roadmap for obtaining the full environmental approval.",
+                "Delay the tender until MoH has obtained the full permit for the detailed design.",
+                "Leave all permits to the project company after financial close, with no MoH involvement."
+              ],
+              "answer": [
+                1,
+                2
+              ],
+              "explanation": "For large projects the full permit is rarely possible at appraisal; the Guide says to obtain permits at least in provisional form before launch and, where full approval is not yet possible, to produce a precise roadmap for obtaining it. Waiting for the full permit is impossible here because the detailed design comes from the winning bidder, and the public sector should help, not step away.",
+              "ref": "Ch 4 §13.1–13.2, p. 73"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "What is the value for money of the PPP option once the draft calculation has been corrected in line with the Guide?",
+              "options": [
+                "ED 5 million",
+                "ED 20 million",
+                "ED 35 million",
+                "ED -10 million"
+              ],
+              "answer": 0,
+              "explanation": "The ED 30 million for clinical demand must be removed because MoH keeps that risk under both options, and the ED 15 million deduction must be removed because the PSC should not include revenues MoH could not generate. The corrected PSC is 505 + 88 + 18 = 611, and 611 − 606 = ED 5 million. ED 35 million or −10 million result from correcting only one of the two errors.",
+              "ref": "Ch 4 §16.2.1, p. 92–97"
+            },
+            {
+              "id": "3e-2",
+              "stem": "The Fiscal Risk Unit asks whether annual payments equal to 4.6% of MoH's projected budget are acceptable. Which response is consistent with the Guide?",
+              "options": [
+                "No internationally recognised threshold exists; judge the figure with MoH's other infrastructure commitments and budget pressures.",
+                "The figure is acceptable because the Guide sets 5% of an agency's budget as the international maximum.",
+                "The figure is not needed, because only the comparison with total government revenue matters.",
+                "The figure is unacceptable because any payment above 3% of an agency's budget breaches good practice."
+              ],
+              "answer": 0,
+              "explanation": "The Guide states there is no internationally recognised threshold for payments as a share of the agency budget, and that total infrastructure commitments should be considered when recommending approval. The 3% figure in the additional information is Estravia's regulatory cap measured against government revenue, not a Guide standard for agency budgets, and the agency-budget test is one of the three typical tests.",
+              "ref": "Ch 4 §11.1, p. 63"
+            },
+            {
+              "id": "3e-3",
+              "stem": "A senior MoH official suggests skipping the value for money analysis now and doing it only after award, 'when real prices are known'. Which response is consistent with the Guide?",
+              "options": [
+                "Agree, because value for money can only be assessed with real bid prices.",
+                "Disagree: a confident evaluation should be made at appraisal, may be revisited in structuring, and reviewed after award.",
+                "Agree, because value for money is only needed when the contract is amended.",
+                "Disagree: value for money must be completed once, at screening, and never revisited."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says it is good practice to produce a confident VfM evaluation during appraisal, because it may show the PPP cannot deliver VfM before resources are spent on structuring; it can be revisited in structuring and reviewed after award with real data. The official's view is tempting but would remove the early warning.",
+              "ref": "Ch 4 §16.1, p. 89–90"
+            }
+          ]
+        },
+        {
+          "id": "3f",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "For each line, select the option in which the assertion is true AND the reason is true and correctly explains the assertion, given the scenario and the additional information provided for Question 3.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3f-1",
+              "stem": "The advisers are reviewing the risk adjustments in the draft PSC.",
+              "options": [
+                "The PSC should include an adjustment for construction and lifecycle overruns BECAUSE these risks would be transferred to the project company under the PPP.",
+                "The PSC should include an adjustment for clinical demand growth BECAUSE every project risk must be priced into the PSC.",
+                "The PSC should include an adjustment for construction overruns BECAUSE the PSC must include the private sector's efficiency gains."
+              ],
+              "answer": 0,
+              "explanation": "The risk adjustment makes the two options comparable by adding to the PSC the risks transferred under the PPP, such as construction overruns. Only transferred risks are used, so clinical demand risk is excluded, and the Guide says private efficiency gains must be excluded from the PSC, so the third reason is false.",
+              "ref": "Ch 4 §16.2.1, p. 91–93"
+            },
+            {
+              "id": "3f-2",
+              "stem": "The Fiscal Risk Unit is correcting its summary of contingent liabilities.",
+              "options": [
+                "Termination compensation should be summed across all contract years BECAUSE the government may have to pay it every year.",
+                "Termination compensation should be added to the specific-risk guarantees each year BECAUSE the government usually faces both in the same year.",
+                "The maximum termination compensation should be shown year by year, not summed across years, BECAUSE termination can happen only once."
+              ],
+              "answer": 2,
+              "explanation": "Early termination compensation can be paid only once, so the Guide says it should not be discounted or aggregated; the exposure is the maximum, which falls over time. It is also unlikely to coincide with a specific-risk payment in the same year, so the Guide takes the maximum of the two rather than their sum.",
+              "ref": "Ch 4 §11.1, p. 59–60"
+            },
+            {
+              "id": "3f-3",
+              "stem": "The RDB's environmental and social standards are stricter than Estravian law.",
+              "options": [
+                "MoH should ignore the RDB standards BECAUSE only Estravian law applies to environmental approvals.",
+                "MoH should reflect the RDB standards in the appraisal BECAUSE bidders expect to rely on RDB loans, so the project must be eligible for that finance.",
+                "MoH should reflect the RDB standards in the appraisal BECAUSE they replace the national environmental approval process."
+              ],
+              "answer": 1,
+              "explanation": "If bidders are expected to rely on finance from a particular institution, the Guide says it is good practice to include that institution's environmental requirements in the appraisal so the project is eligible. The RDB standards add to, and do not replace, the national approval process, so the third reason is false.",
+              "ref": "Ch 4 §13, p. 70"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "SC",
+      "title": "Structuring: Payment Mechanism and Risk Allocation",
+      "additionalInfo": "**Draft payment mechanism (MoH advisers, 2027)**\n\n- The unitary charge is paid monthly in arrears from the date the hospital is certified available. It covers capital, financing, maintenance and lifecycle costs.\n- Functional areas: Category 1 (operating theatres, ICU, emergency department, patient wards) has the highest weighting; Category 2 (pharmacy, laboratories, waiting areas); Category 3 (offices, teaching centre). Deductions for a Category 1 area can reach 150–200% of that area's share of the payment.\n- Rectification periods: 4 hours for failure of the electrical supply in operating theatres and the ICU (back-up generators are required); 24 hours for heating failure in wards; 5 days for damaged ceiling tiles in offices.\n- Cleaning and catering are paid through a separate service payment stream; deductions for these services are made only from that stream.\n- If the annual patient satisfaction score falls below 70%, 25% of the annual unitary charge is deducted.\n- Closures for planned maintenance under the agreed annual maintenance plan are not unavailability.\n- Deductions are multiplied by 1.5 when the same area fails again within 30 days.\n\n**Draft risk allocation matrix (extract)**\n\n| Risk | Proposed allocation |\n|---|---|\n| Design errors | Project company |\n| Demand for clinical services higher than forecast | Project company |\n| Vandalism in the car park during operations | Project company |\n| Contamination from a fuel depot that operated on part of the site before MoH acquired it | Project company |\n| Availability of debt finance at financial close | Project company |\n\n**Risk workshop.** The advisers' risk register lists 94 risks, which were used to build the PSC. For allocation, the advisers propose a 3×3 (high/medium/low) matrix of likelihood and impact.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about availability payments and contractual risk categories.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "In a PPP contract, what is a relief event?",
+              "options": [
+                "An event for which the project company receives full compensation to restore its expected equity return.",
+                "An event that allows either party to terminate the contract immediately.",
+                "An event whose cost is shared equally between the parties under a fixed formula.",
+                "An event for which the project company is excused from late or poor performance, without financial compensation."
+              ],
+              "answer": 3,
+              "explanation": "A relief event excuses the private partner for under-performance or breach resulting from the event, but no financial compensation is granted; the Guide's example is time delay from unforeseen archaeological findings. Full compensation to restore the financial equation describes a compensation event.",
+              "ref": "Ch 5 §5.7, p. 91"
+            },
+            {
+              "id": "4a-2",
+              "stem": "In an availability-based hospital PPP, what does the unitary payment normally cover?",
+              "options": [
+                "All the project company's costs, including capital repayment, financing, taxes, operations and maintenance.",
+                "Only maintenance and lifecycle costs; capital costs are paid as a lump sum at completion.",
+                "Only the cost of services actually used by patients in the period.",
+                "Only financing costs; operating costs are paid separately on an open-book basis."
+              ],
+              "answer": 0,
+              "explanation": "The Guide states that a unitary payment covers all the private partner's costs, including amortisation of capital, financing, taxes, operations and maintenance. Paying for services actually used describes a volume-based mechanism, which the Guide says is not rational for a hospital where usage is not the public objective.",
+              "ref": "Ch 5 §4.10.2, p. 58"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Column 1 lists events that could affect the Northern Region Hospital contract. For each event, select from Column 2 the contractual risk category the Guide suggests. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "Compensation event",
+            "Relief event",
+            "Force majeure event",
+            "Project company risk, with no relief or compensation"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "MoH instructs the project company to add a 40-bed isolation wing to meet a new public health policy.",
+              "answer": 0,
+              "explanation": "Changes in service requirements or scope ordered by the authority are risks that should never be transferred; the contract should provide fair compensation under clear rules. Treating it as a relief event would give time but no money, which would be unfair for new works that MoH requested.",
+              "ref": "Ch 5 §5.8, p. 98"
+            },
+            {
+              "id": "4b-2",
+              "stem": "Archaeological remains not shown in the archaeological survey provided by MoH are found, delaying excavation by six weeks; the main effect is on the construction programme.",
+              "answer": 1,
+              "explanation": "The Guide's own example of a relief event is a time delay caused by unforeseen archaeological findings, and findings not foreseen by the authority's survey are the exception to the general transfer of archaeological risk. Treating the event as a full compensation event is tempting, but the Guide warns against taking back the whole financial impact of such site risks, because the project company should stay incentivised to manage them.",
+              "ref": "Ch 5 §5.7, p. 91; §5.5, p. 85"
+            },
+            {
+              "id": "4b-3",
+              "stem": "A terrorist attack in Talvora damages the hospital and stops services for two months.",
+              "answer": 2,
+              "explanation": "Terrorism appears in force majeure definitions, and the Guide treats political force majeure events such as wars and terrorism as typically borne by government. Force majeure has its own contractual status because it may also lead to early termination. It is not an ordinary risk for the project company.",
+              "ref": "Ch 5 §5.7, p. 91–93; §5.8, p. 98"
+            },
+            {
+              "id": "4b-4",
+              "stem": "A new law imposes a levy only on the Northern Region Hospital project company.",
+              "answer": 0,
+              "explanation": "A discriminatory change in law is a government action that specifically affects the project; the Guide says such risks should be retained by the authority and not shared. The project company should be compensated. Force majeure is tempting as political risk, but the Guide separates these direct government acts from wars or general strikes.",
+              "ref": "Ch 5 §5.6, p. 86–88"
+            },
+            {
+              "id": "4b-5",
+              "stem": "The construction subcontractor's productivity is lower than planned, and construction costs rise by 8%.",
+              "answer": 3,
+              "explanation": "Construction cost and time overruns are generally borne by the private partner, which passes them to its construction contractor. Low productivity is within the private side's control, so there is no ground for relief or compensation.",
+              "ref": "Ch 5 §5.8, p. 95"
+            },
+            {
+              "id": "4b-6",
+              "stem": "Corporate income tax rises from 20% to 23% for all companies in Estravia.",
+              "answer": 3,
+              "explanation": "The Guide says a change in law that generally affects any business should be borne by the private partner; only discriminatory or sector-specific changes justify sharing or compensation. A general tax rise applies to every company, so it is the project company's risk.",
+              "ref": "Ch 5 §5.8, p. 97"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Answer the following questions about the design of the hospital payment mechanism. Where needed, use the additional information provided for Question 4.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "The catering service fails to deliver lunch to Ward 7 on one day. How should the payment mechanism treat this failure?",
+              "options": [
+                "No deduction, provided a meal is served within a 24-hour rectification period.",
+                "A deduction with no rectification period, because a missed meal cannot be put right later.",
+                "No deduction, because catering failures are dealt with only through the patient survey.",
+                "Ward 7 is treated as fully unavailable for the whole month."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says not every breach should have a rectification period, and its example is a failure to serve the specified meals, which should lead to a deduction without a rectification period. Under the draft, catering deductions come from the separate service payment stream, not the whole ward's unitary payment.",
+              "ref": "Ch 5 §4.10.5, p. 60"
+            },
+            {
+              "id": "4c-2",
+              "stem": "A nurse reports damaged ceiling tiles in an office at 09:00 on Monday. The rectification period is five days, and the project company finishes the repair on day seven. From when is the office treated as unavailable for payment purposes?",
+              "options": [
+                "From the end of the five-day rectification period.",
+                "From the day the repair is completed.",
+                "From the time the project company's own inspection records the defect.",
+                "From 09:00 on Monday, when the defect was reported."
+              ],
+              "answer": 3,
+              "explanation": "If a fault is not remedied within the rectification period, unavailability is considered to have started when it was detected or reported, not when the rectification period ended. Reports may come from interested parties such as staff. The first option is the common misreading.",
+              "ref": "Ch 5 §4.10.5, p. 60–61"
+            },
+            {
+              "id": "4c-3",
+              "stem": "A burst water main floods the emergency department, the operating theatres, the ICU and two ward blocks for the whole month, while the rest of the hospital stays in use. Because of the Category 1 weightings, the calculated deductions for the month equal 130% of the monthly unitary charge. What should happen?",
+              "options": [
+                "The project company pays MoH the 30% excess.",
+                "The deduction is limited to 100% of the payment for the month.",
+                "The deduction is reduced to the flooded areas' share of the monthly payment only.",
+                "No deduction applies, because a burst pipe is outside the project company's control."
+              ],
+              "answer": 1,
+              "explanation": "Weightings can make deductions exceed the payment for the area, so payment may reach zero before the whole facility is unavailable, but it is not customary to require the private partner to pay the authority; the actual deduction is limited to 100%. Maintaining pipes is the project company's responsibility, so no exemption applies.",
+              "ref": "Ch 5 §4.10.3, p. 60"
+            },
+            {
+              "id": "4c-4",
+              "stem": "MoF suggests paying 15% of the unitary charge during construction as each floor of the hospital is completed, to reduce financing costs. What does the Guide advise?",
+              "options": [
+                "Accept, because payments during construction always improve value for money.",
+                "Accept, provided an independent certifier confirms that each floor meets the specification.",
+                "Reject: payment should start when the asset is available; exceptions are only for parts that can be used on their own.",
+                "Reject, because the project company must be paid only by users during construction."
+              ],
+              "answer": 2,
+              "explanation": "Availability is about paying for the ability to use the asset, so payments during construction should generally be avoided however advanced the works are. Exceptions cover parts that can be used on their own and are intended to be used, such as separate schools; a floor of an unfinished hospital does not qualify. Certification of quality does not change this.",
+              "ref": "Ch 5 §4.10.9, p. 62"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions. Select exactly 2 options for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "Which 2 features of the draft payment mechanism should be revised to follow the Guide?",
+              "options": [
+                "A 4-hour rectification period for electrical supply failures in operating theatres and the ICU",
+                "A separate payment stream for cleaning and catering, with deductions only from that stream",
+                "A deduction of 25% of the annual unitary charge if the patient satisfaction score falls below 70%",
+                "Planned maintenance under the agreed annual plan not counted as unavailability",
+                "Deductions multiplied by 1.5 when the same area fails again within 30 days"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide says critical criteria such as hospital power should have no rectification period: back-up generators should take over at once, so a failure should lead directly to a deduction. User satisfaction surveys should have only a small financial impact and affect equity returns modestly, not 25% of the charge. The other features match the Guide.",
+              "ref": "Ch 5 §4.10.5, p. 60–61; §4.10.10, p. 64–65"
+            },
+            {
+              "id": "4d-2",
+              "stem": "Which 2 proposed allocations in the draft risk matrix are inconsistent with the Guide?",
+              "options": [
+                "Design errors: project company",
+                "Vandalism in the car park during operations: project company",
+                "Availability of debt finance at financial close: project company",
+                "Higher-than-forecast demand for clinical services: project company",
+                "Contamination from the fuel depot that operated on the site before MoH acquired it: project company"
+              ],
+              "answer": [
+                3,
+                4
+              ],
+              "explanation": "The Guide's example is that demand for a hospital stays with the authority when clinical services are outside the PPP scope, as they are here. Pre-existing contamination is usually accepted by the government. Design, vandalism and availability of finance are natural private partner risks.",
+              "ref": "Ch 5 §5.6, p. 86; §5.8, p. 95"
+            },
+            {
+              "id": "4d-3",
+              "stem": "Which 2 approaches to assessing risks for the allocation decision are consistent with the Guide?",
+              "options": [
+                "Quantify each of the 94 risks with Monte Carlo simulation before any allocation decision",
+                "Use a qualitative high/medium/low assessment of likelihood and impact to support the allocation",
+                "Write a separate allocation clause into the contract for each of the 94 risks",
+                "Choose the allocation mainly so that the project is classified off the government's balance sheet",
+                "Focus allocation work on red and yellow risks, transferring green risks by default unless the project company cannot manage them"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The risk assessment for allocation is usually qualitative, with a 3×3 high/medium/low matrix as a minimum, and effort concentrates on the red and yellow risks, with green risks transferred by default. The detailed register serves the appraisal. Allocating significant risks implicitly allocates minor ones, and the Guide rejects accounting treatment as a driver of allocation.",
+              "ref": "Ch 5 §5.4.2, p. 82–84"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "For each line, select the option in which the assertion is true AND the reason is true and correctly explains the assertion, given the scenario and the additional information provided for Question 4.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "The parties are discussing damage to the hospital from a terrorist attack.",
+              "options": [
+                "The damage should be borne entirely by the project company BECAUSE it must insure against every risk to the building.",
+                "The damage should be treated as a relief event only BECAUSE political events are within the project company's control.",
+                "The risk should not be fully transferred to the project company BECAUSE it can neither control its occurrence nor absorb an unlimited impact."
+              ],
+              "answer": 2,
+              "explanation": "Force majeure is among the risks that should never be fully transferred, because the private partner has neither the capability to control it nor the unlimited capacity to mitigate its impact. Political events are outside the private partner's control, and the Guide provides relief where risks become uninsurable, so the first reason is false.",
+              "ref": "Ch 5 §5.6, p. 87"
+            },
+            {
+              "id": "4e-2",
+              "stem": "A bidder says it could complete the hospital in 2030, one year before the target date for availability.",
+              "options": [
+                "The contract should state whether MoH will accept the hospital before the target date, with no obligation to pay early, BECAUSE MoH's budget may not be ready to make payments before the planned date.",
+                "MoH must start availability payments as soon as the hospital is complete BECAUSE availability payments are always due once the asset can be used.",
+                "The contract should prohibit completion before the target date BECAUSE early completion never benefits the procuring authority."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the procuring authority should not have an obligation to pay if availability starts before the target date, but the contract should state clearly whether it will accept the asset early, because the government will most likely not be ready to make payments early; the scenario plans services, and therefore payments, from 2031. The second option is tempting, but paying from completion regardless of the target date is exactly what the Guide advises against, and the Guide says early availability is usually in the authority's interest, so the third reason is false.",
+              "ref": "Ch 5 §4.10.9, p. 63"
+            },
+            {
+              "id": "4e-3",
+              "stem": "The draft pays for cleaning and catering through a separate payment stream.",
+              "options": [
+                "Cleaning and catering should be paid only through the unitary charge BECAUSE the Guide does not allow separate payment streams in hospital PPPs.",
+                "A separate payment stream is appropriate BECAUSE it keeps flexibility to change the scope of soft services during the contract.",
+                "A separate payment stream is appropriate BECAUSE failures in soft services should never lead to deductions."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says paying for soft services separately from the unitary payment is common in hospitals, and the rationale is to keep flexibility to accommodate specific risks and change the scope of soft services. Deductions still apply, but only to that stream, so the third reason is false.",
+              "ref": "Ch 5 §4.10, p. 56"
+            },
+            {
+              "id": "4e-4",
+              "stem": "The advisers are deciding how to index the unitary charge.",
+              "options": [
+                "The whole unitary charge should be indexed to CPI BECAUSE all the project company's costs rise with inflation.",
+                "The unitary charge should be back-ended, with lower payments in early years, BECAUSE this reduces the total cost to MoH.",
+                "Only part of the unitary charge should be indexed to CPI BECAUSE debt service is usually fixed, so only part of the costs follow inflation."
+              ],
+              "answer": 2,
+              "explanation": "Debt service is usually fixed through interest rate hedging, and inflation-linked costs are typically a minority of the project company's outflows, so many availability-based projects index only a proportion of the charge. The Guide says back-ending the payment curve should be avoided.",
+              "ref": "Ch 5 §4.10.8, p. 62"
+            },
+            {
+              "id": "4e-5",
+              "stem": "MoH gave bidders a geotechnical survey of the Talvora East site. The parties are discussing ground conditions that turn out worse than the survey showed.",
+              "options": [
+                "The contract should not take back the whole financial impact of such conditions BECAUSE the project company should stay incentivised to mitigate and manage the event.",
+                "The contract should take back the whole financial impact of such conditions BECAUSE site risks are never within the private partner's control.",
+                "The contract should give no relief for such conditions BECAUSE MoH has no role in providing site information."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says it is not good practice to give full relief for unanticipated ground conditions, because the private partner should remain incentivised to manage the risk for a price. A survey can set the baseline for any entitlement, and the authority is best placed to provide such studies, so the third reason is false.",
+              "ref": "Ch 5 §5.8, p. 95; §5.5, p. 85"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

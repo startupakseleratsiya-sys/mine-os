@@ -1,0 +1,306 @@
+{
+  "id": "p03-defining-ppp-process",
+  "level": "preparation",
+  "order": 3,
+  "title": "Defining the PPP process and its approvals",
+  "minutes": 18,
+  "guideRef": "Ch 2 §1.7",
+  "objectives": [
+    "Explain why PPP frameworks use progressively more rigorous screening and approval stages",
+    "Apply the decision criteria for each of the five stages of the PPP process",
+    "Distinguish a viable project from one that is also suitable as a PPP",
+    "Explain what the framework should say about commercial close, financial close and renegotiation",
+    "Choose suitable ways to bring competition to unsolicited proposals"
+  ],
+  "sections": [
+    {
+      "heading": "Why a staged process with approvals?",
+      "body": "In the first two lessons we set the framework's objectives, scope and legal form. Now we define the **process** it must guide: every stage from identifying candidate projects to managing the contract over its whole life.\n\nGovernments want to develop only **viable** PPPs: projects that are cost-benefit justified, give better **Value for Money** than traditional procurement, are **financially viable and fiscally responsible**, and will attract **market interest**. But there is a **paradox**. You cannot fully know whether a project meets these tests until it is designed and appraised, and design and appraisal are expensive.\n\nThe answer is **progressively more rigorous screening at successive stages**. Simple indicators first; if the project passes, more work and more tests; only then a request to decision-makers for approval to tender. For each stage the framework sets three things (from lesson 1): **decision criteria**, **procedures** and **institutional responsibilities**, including who approves moving to the next stage.\n\nThe five stages are:\n1. Identify projects and screen them\n2. Appraise the project\n3. Structure the procurement process and the contract\n4. Tender and award\n5. Manage the contract (construction, service delivery, hand-back)\n\nThe Guide stresses that these are **guidelines**: what works in one administrative culture may not work in another, so understand the local context before copying practices."
+    },
+    {
+      "heading": "Stage 1: Identification and screening",
+      "body": "Projects are usually **originated** the same way as other public investment projects, then screened for PPP potential. Screening here is **indicative**, using information available at low cost; many countries use standard **screening tools**.\n\n**Decision criteria.** Only projects that meet these should proceed:\n- **Fits a broader sector plan.** Projects aligned with the sector plan are most likely to show Value for Money.\n- **Meets the PPP program objectives**, which should say what types of project to consider, so unsuitable ones are screened out easily.\n- **Economically and commercially viable and fiscally responsible.** Either project revenues cover costs, or government can afford to pay or subsidise, and it can absorb any **direct or contingent liabilities**.\n- **Aligned with the country's climate goals** (its NDC and adaptation plan).\n\n**Procedures and responsibilities** the framework must answer:\n- **Who proposes** PPPs? Only government entities, or also private firms through **unsolicited proposals**?\n- **Who approves** further development? Success usually needs support from the **line agency** (the department initiating the project), the **finance ministry**, a PPP unit and other **central agencies** (bodies with whole-of-government roles).\n- **What documentation** is needed for approval?\n\n**Climate at screening.** Climate effects will affect the project long after financial close, so assess climate risks early. Procuring authorities should do early environmental and social impact assessments with **climate sensitivity**, using a high-level indicator approach when detail is scarce. Assets face two main threats: isolated short-term **extreme weather events** and **long-term climate shifts**. Private developers should also assess climate risks and include the rising probability of extreme events in their **internal rate of return (IRR)** calculations, because climate hazards will likely raise service costs."
+    },
+    {
+      "heading": "Stage 2: Appraisal — viable and suitable",
+      "body": "Projects that survive screening are developed and appraised, again in several steps. The appraisal report, often called the **Business Case**, is usually the basis for approval to proceed with the transaction.\n\n**Investment decision vs procurement decision.** Ideally these are separate:\n- **Investment decision**: is it a good project, and will government fund it?\n- **Procurement decision**: what is the best way to buy it; does a PPP give better Value for Money than the best public delivery option?\n\nSeparating them means all projects compete for the same limited funds, the procurement choice is not biased by budget impact (PPPs are **not an alternative to borrowing**), and if a PPP tender fails to give Value for Money the **investment can still go ahead** another way. In reality, many governments do not plan every sector or appraise every project. The Guide gives two options. The ideal is to require **systematic appraisal of all projects**, but this needs wide support or a mandate and takes time. The practical option is for the PPP framework to require appraisal of **PPP projects**. The downside is stricter scrutiny for PPPs than for other projects. The upside is that only worthwhile projects become PPPs, without the delay of reforming all appraisal, and the methods can later spread to non-PPP projects.\n\n**A viable project** is:\n- **Feasible**: economically, commercially, technically, environmentally (including climate scenarios), socially and legally. This applies to all public projects, not just PPPs. If the skills are not available in-house, advisors should be appointed.\n- **Affordable**, for **government** (direct and contingent liabilities within budget) and for **users** (false expectations of willingness to pay lead to under-used assets).\n\n**A project suitable as a PPP** also shows:\n- **Commercial viability and bankability**: returns for investors and the ability to raise debt.\n- **Value for Money** as a PPP. A PPP gives Value for Money if it is expected to deliver **higher net economic benefits**. The traditional UK approach, also used in many Australian jurisdictions, tests for a **lower risk-adjusted cost** than conventional procurement, assuming the private company can be incentivised to manage risks better; another approach asks which option maximises benefits for a given budget, and New Zealand tests which option gives **greater net economic benefits**. VfM is usually **qualitative** at screening, then **quantified** at full appraisal. Quantitative results rest on assumptions, so Canada treats them as **estimates only**.\n- **Can be ring-fenced**: separated enough from other government systems to limit **interface risks**.\n- **Definable outputs**: clear, measurable outputs that can be monitored and that let the private party innovate.\n- **Enough information** for bidders to assess costs and risks.\n\nAn appropriate **procurement strategy** is also prepared here, engaging potential bidders early. The framework specifies the **content** of the appraisal and **who approves** it: often the cabinet, or a delegated agency with central agency or PPP unit assent."
+    },
+    {
+      "heading": "Stage 3: Structuring the procurement and the contract",
+      "body": "Before tendering, the government prepares tender documents (with **qualification and evaluation criteria** and proposal requirements) and a draft contract that defines outputs, responsibilities and **risk allocation** in legal language.\n\n**Decision criteria.** The framework should ensure that:\n- All significant risks, including **climate risks**, are identified and allocated to the most appropriate party, which is held accountable. Poor allocation makes the project cost more than necessary.\n- **Risk management plans** exist for risks the public sector keeps, reducing both likelihood and impact.\n- The contract is one the government can **manage**, is attractive to bidders, and is in the public interest.\n\n**Procedures.** Some governments standardise risk allocation; others decide case by case. Drafting needs experienced PPP lawyers, hired from outside if needed. British Columbia brought in advisors from Australia and the UK, who also built local capacity. **Procurement guidelines** tell the market what the standard process is and reduce disputes over awards.\n\n**Model vs precedent contracts:**\n\n| Model contract | Precedent contract |\n|---|---|\n| Embodies good practice; agencies **may** use it | Agencies are **required** to use it, or document and justify deviations. It may be a set of recommended provisions rather than a full contract |\n\nBoth reduce drafting errors, save bidders time and money, and shorten negotiations. But precedent contracts are risky when deals differ widely: forcing one template can **lower contract quality**. Similar projects suit a single precedent; several categories suit one per category; very varied deals suit one or two model contracts plus drafting guidance (preferred risk allocations, sample clauses on force majeure, termination, dispute resolution).\n\n**Climate risk (Box 2.12).** In simple form, climate risk combines the **hazard** (for example flood or heat) and its likelihood, the asset's **exposure** to it, and its **vulnerability** (sensitivity) to damage. In the Guide's toll road example, the project company takes flood risk by designing and building adaptation works, a third party monitors sea level and the works, and insurance is sought.\n\nFinally, the framework sets the **approval needed to go to tender**."
+    },
+    {
+      "heading": "Stage 4: Tender and award",
+      "body": "A well-run procurement is central to Value for Money. It covers marketing the PPP, qualifying bidders, inviting and evaluating proposals, selecting the preferred bidder and concluding the contract.\n\n**Avoid late cancellation.** Once bids are in, the government knows the real cost and may check the project once more against its criteria. But cancelling at the end of procurement **damages market reputation**, because bidding is costly. The framework should set out in advance **the circumstances under which a project will not proceed**. British Columbia, for example, reveals **affordability ceilings** so bidders know the maximum the public sector will pay.\n\n**Decision criteria:**\n- **Competitive?** Did most qualified firms hear about it and have enough time? Short timelines or onerous processes drive bidders away.\n- **Transparent and fair?** Clear, published award criteria and equal treatment of all bidders.\n\n**Procedures:** market sounding, qualification and short-listing, evaluation to find the **best Value for Money** proposal. The framework should guide rather than over-prescribe, and state **who evaluates, who selects and who approves** the contract. It should also cover:\n- **Commercial close**: how much negotiation is allowed. In British Columbia, final bids are made on the final project agreement, and **no changes to key commercial terms** are allowed afterwards.\n- **Financial close**: lenders often ask to change conditions agreed at commercial close. The framework should limit delays and changes and say **who on the government side is responsible** and **what approvals** any change needs.\n- **Climate-smart** qualification and evaluation criteria, because climate investments work best when built into the initial design; retrofitting is costly and may need unplanned downtime.\n\n**Stakeholder engagement** matters at every stage. If lenders find the contract unacceptable, they may not take part; protests, union action or boycotts can delay a project or cut its profits; and without continued public support a new government may cancel it. In 2015 a Melbourne toll road was cancelled by a newly elected state government, costing about $250 million in fees. A framework can therefore include a **stakeholder engagement policy**: identification and analysis, information disclosure, consultation, negotiation, grievance management, stakeholder involvement in monitoring, reporting back, and making engagement a systematic management function."
+    },
+    {
+      "heading": "Stage 5: Managing the contract",
+      "body": "The final and **longest** stage runs through construction, service delivery and hand-back. The challenge is to keep Value for Money **for the whole contract**, not just during construction. A **project management plan** should support it.\n\n**Decision criteria.** Issues should be communicated by the concessionaire to the implementing agency, and escalated to **central agencies** when needed. Strong operations teams and governance (contract management frameworks, monitoring and risk processes) help government make hard decisions like **renegotiation or termination**.\n\nA robust framework designs contracts to withstand unexpected events **without renegotiation**. But sometimes renegotiation is better than termination or abandonment, to keep some of the PPP's benefits. It should be carefully managed, with proper resources and governance, and should aim for an outcome that serves public objectives **better than sticking to the original terms**. When the original risk allocation proves inappropriate, renegotiation should be considered if adjusting it still gives a **net benefit compared with cancellation**. Advisors may need to be re-engaged. The Guide's case: Victoria, Australia, let five tram and rail franchises in 1999. These were user-pays operation and maintenance contracts with an infrastructure lease and subsidy payments. The bids relied on strong growth in passengers and cost cuts, which did not fully happen, so operators lost money. The problems showed in regular reports, but the government **took no action** until operators threatened to walk away. Their equity was low compared with the losses, so walking away was attractive to them, and the government did not want to take operations back. It renegotiated; the cost rose, but the net public benefit stayed positive.\n\n**Responsibilities.** Contracts are usually managed by the **line agency**, which must keep central agencies informed. The framework sets how they communicate, who is accountable, and how contracts are **completed or terminated**."
+    },
+    {
+      "heading": "Unsolicited proposals",
+      "body": "Some governments accept **unsolicited proposals (USPs)**: projects initiated by private firms. They bring private **knowledge and innovation**, which matters most where government capacity is limited, and show where market interest lies. The dilemma: if the idea is always put to open tender, firms see little point in sharing good ideas and fear for their **intellectual property (IP)**; if it is never tendered, the firm may overcharge and the government faces claims of favouritism. The Guide's example: in Virginia, a firm proposed high-occupancy toll lanes that cut displaced homes and businesses from over 300 to six and cost about $2 billion instead of $3 billion.\n\nBut USPs carry risks: government resources spent on projects outside its plans, **poor Value for Money** without competition, and chances for **corruption** and complaints. In Tanzania, a directly negotiated power deal led to arbitration that cut recoverable costs by about 18%. Some countries therefore **prohibit** USPs. The framework must balance incentives for good ideas, deterrence of poor proposals, **competitive tension** and **transparency**.\n\nWays to add competition:\n- **Swiss challenge**: open bidding; if the proponent loses, it may **match the winning bid** and win.\n- **Best and final offer (BAFO) inclusion**: the proponent goes automatically into the final round.\n- **Developer's fee**: the proponent is paid for its development work by government or the winning bidder.\n- **Bid bonus**: the proponent gets extra evaluation points (in Chile, 3–9% of the financial score).\n\nResults differ: in Chile only five of 12 USP concessions went to the proponent, while under the Philippines' Swiss challenge all 11 did, suggesting undue advantage.\n\n**Intellectual property** must be protected: tender on **outputs**, not the proponent's technology; negotiate directly only if the IP is crucial, with cost benchmarking. **Clear processes** help: screen, request studies, assess against standard PPP criteria, agree any fee or bonus, then tender. Considering a USP is **never a commitment** by government. Deadlines for each step reassure proponents that proposals will not languish. But very short windows for competitors deter competition: the Philippines allows only three weeks of advertising and 60 days for competing proposals, which is unlikely to be enough for proper due diligence."
+    }
+  ],
+  "example": {
+    "title": "Imagine: the Riverton light rail through the five stages",
+    "body": "Imagine the fictional city of Riverton plans a light rail line.\n\n1. **Screening**: the line is in the city transport plan and fits PPP objectives. A quick climate screen flags river flooding. The finance department confirms it could afford availability payments. Approval to develop.\n2. **Appraisal**: the business case shows economic, technical and legal feasibility and affordability. The line can be ring-fenced from the bus network, outputs (trains per hour, availability) are measurable, and a qualitative then quantitative VfM test favours a PPP. Cabinet approves.\n3. **Structuring**: flood risk for design and maintenance goes to the private party; the city keeps land risk with a management plan. The city uses the national model contract, adapted. Approval to tender.\n4. **Tender**: the city publishes an affordability ceiling. After commercial close, lenders ask to relax a penalty; the framework names the finance director as the approver of any change before financial close.\n5. **Management**: the line agency tracks KPIs and escalates rising ridership shortfalls to the treasury early, rather than waiting for a crisis."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing a viable project with one suitable as a PPP",
+      "fix": "Viable = feasible and affordable, a test for all public projects. Suitable as a PPP adds bankability, Value for Money as a PPP, ring-fencing, definable outputs and enough risk information."
+    },
+    {
+      "trap": "Confusing the investment decision with the procurement decision",
+      "fix": "Investment: is it a good project we will fund? Procurement: is a PPP the best way to buy it? If a PPP fails the VfM test, the investment can still proceed another way."
+    },
+    {
+      "trap": "Mixing up model and precedent contracts",
+      "fix": "A model contract may be used; a precedent contract must be used or deviations justified. Precedent contracts can reduce quality when deals vary widely."
+    },
+    {
+      "trap": "Confusing commercial close with financial close",
+      "fix": "Commercial close: contract terms agreed with the bidder. Financial close: lenders commit the funding, often after asking for changes that the framework should control."
+    },
+    {
+      "trap": "Mixing up Swiss challenge and bid bonus",
+      "fix": "Swiss challenge: the losing proponent may match the winning bid. Bid bonus: the proponent gets extra evaluation points in an open tender."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Screening",
+      "meaning": "An early, low-cost check using simple indicators to see whether a project could be a good PPP."
+    },
+    {
+      "term": "Business Case",
+      "meaning": "The appraisal report that is usually the basis for approval to proceed with the PPP transaction."
+    },
+    {
+      "term": "Line agency",
+      "meaning": "A department responsible for policy, planning and delivering specific services, usually the one initiating the project."
+    },
+    {
+      "term": "Central agencies",
+      "meaning": "Bodies with whole-of-government responsibilities, such as the finance ministry or planning agency."
+    },
+    {
+      "term": "Ring-fencing",
+      "meaning": "Separating the project enough from other government systems to keep accountability clear and interface risks low."
+    },
+    {
+      "term": "Affordability ceiling",
+      "meaning": "A disclosed maximum the public sector will pay, used to avoid cancelling projects at the end of procurement."
+    },
+    {
+      "term": "Model contract",
+      "meaning": "A good-practice contract that agencies may use."
+    },
+    {
+      "term": "Precedent contract",
+      "meaning": "A standard contract agencies must use, or justify any deviation from."
+    },
+    {
+      "term": "Unsolicited proposal (USP)",
+      "meaning": "A PPP project idea initiated and proposed by a private company rather than the government."
+    },
+    {
+      "term": "Swiss challenge",
+      "meaning": "An open tender where the original proponent may match the winning bid to win the contract."
+    }
+  ],
+  "summary": [
+    "Frameworks solve the appraisal paradox with progressively more rigorous screening and approval at each stage.",
+    "Five stages: screen, appraise, structure, tender and award, manage the contract.",
+    "Screening tests: fits sector plan, meets program objectives, viable and fiscally responsible, climate-aligned.",
+    "Viable = feasible and affordable; PPP-suitable adds bankability, VfM, ring-fencing, definable outputs, enough information.",
+    "Set out in advance when a project will not proceed; control changes between commercial and financial close.",
+    "Contract management is the longest stage; renegotiate only if it beats the alternatives for the public.",
+    "USPs need competition (Swiss challenge, BAFO, developer's fee, bid bonus), IP protection and clear processes."
+  ],
+  "slides": [
+    {
+      "title": "The appraisal paradox",
+      "points": [
+        "Viability unknown until the project is designed",
+        "Design and appraisal are expensive",
+        "Solution: stricter screening at each stage",
+        "Approval gates between stages"
+      ],
+      "narration": "Here is the puzzle at the heart of the PPP process. A government only wants to develop projects that are good value, affordable and attractive to investors. But it cannot really know that until it has designed and appraised the project, which costs a lot of money. So successful programs use a funnel. Cheap, simple tests come first. Projects that pass get more work and tougher tests. Between stages there are approval points, so weak projects are stopped early. For each stage the framework sets decision criteria, procedures and who is responsible."
+    },
+    {
+      "title": "Stage one: screening",
+      "points": [
+        "Fits a broader sector plan",
+        "Meets PPP program objectives",
+        "Viable, fiscally responsible, climate-aligned",
+        "Who proposes, who approves, what documents"
+      ],
+      "narration": "Stage one is identification and screening. Four questions. Does the project fit the sector plan? Projects outside the plan rarely show value for money. Does it meet the program's objectives? Is it economically and commercially viable and fiscally responsible, meaning revenues or government can pay, and government can absorb any contingent liabilities? And is it aligned with climate goals? The framework must also say who can propose projects, including whether private firms may, who approves further work, typically the line agency with the finance ministry and PPP unit, and what documents they need."
+    },
+    {
+      "title": "Stage two: viable and suitable",
+      "points": [
+        "Viable: feasible and affordable",
+        "Suitable: bankable and Value for Money",
+        "Ring-fenced, definable outputs, enough information",
+        "Separate investment and procurement decisions"
+      ],
+      "narration": "At appraisal, the business case must show two things. First, the project is viable: economically, technically, environmentally, socially and legally feasible, and affordable both to government and to users. That test applies to any public project. Second, it is suitable as a PPP: bankable, better value for money as a PPP, able to be ring-fenced, with measurable outputs and enough information for bidders to price risk. Ideally, the government first decides whether to invest, then separately how to procure. That way, if the PPP route fails, the project can still go ahead."
+    },
+    {
+      "title": "Stage three: structuring",
+      "points": [
+        "Allocate each risk to the best party",
+        "Management plans for retained risks",
+        "Model contract: may use it",
+        "Precedent contract: must use or justify"
+      ],
+      "narration": "Stage three turns the business case into tender documents and a draft contract. The key test is risk: every significant risk, including climate risk, should go to the party best able to manage it, and the government needs plans for the risks it keeps. Standard contracts help. A model contract shows good practice that agencies may use. A precedent contract must be used, or any deviation justified. Standardising saves time, but if deals vary a lot, a rigid precedent contract can actually lower quality. Then the framework says what approval is needed to go to tender."
+    },
+    {
+      "title": "Stage four: tender and award",
+      "points": [
+        "Competitive, transparent and fair process",
+        "Say in advance when projects will stop",
+        "No key changes after commercial close",
+        "Control lender changes before financial close"
+      ],
+      "narration": "Stage four is the tender. The tests are simple to state: was it competitive, and was it transparent and fair? Watch one trap: cancelling a project after bids arrive damages a government's reputation, because bidding is expensive. So the framework should state in advance when a project will not proceed, for example by publishing an affordability ceiling. It should also limit negotiation after commercial close, and control the changes lenders often request before financial close, naming who in government decides and what approvals are needed."
+    },
+    {
+      "title": "Stage five: managing the contract",
+      "points": [
+        "Longest stage: keep value for money",
+        "Escalate issues to central agencies",
+        "Renegotiate only if better than alternatives",
+        "Act early on warning signs"
+      ],
+      "narration": "Stage five is the longest: construction, years of service, and finally hand-back. Value for money must last the whole contract, not just construction. The line agency manages the contract, but it must escalate problems to central agencies. Good contracts are built to survive surprises without renegotiation. Still, sometimes renegotiation beats termination. In Victoria, Australia, rail operators were losing money and the government ignored the warning reports until the operators threatened to leave. It renegotiated, and the public still gained overall. The lesson: manage renegotiation carefully, and act on early warnings."
+    },
+    {
+      "title": "Unsolicited proposals",
+      "points": [
+        "Benefit: private innovation and market insight",
+        "Risk: no competition, poor value, corruption",
+        "Swiss challenge, BAFO, developer's fee, bid bonus",
+        "Protect IP; tender on outputs"
+      ],
+      "narration": "Sometimes a private company brings the project idea itself. These unsolicited proposals can be brilliant, like Virginia's toll lanes, which cost about two billion dollars instead of the three billion in the government's own plan. But without competition they risk poor value and even corruption. So frameworks add competitive tension. In a Swiss challenge, the proponent may match the winning bid. In the best and final offer approach, it goes straight to the final round. Or it gets a developer's fee, or a bid bonus of extra points. Protect the proponent's intellectual property by tendering on outputs. And remember: considering a proposal is never a commitment."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A ministry of finance does not want agencies to spend heavily on detailed design for every PPP idea, yet it cannot judge viability without that work. What approach should its PPP framework take?",
+      "options": [
+        "Require full feasibility studies for every idea before any screening",
+        "Approve all ideas and test viability only at the tender stage",
+        "Let bidders carry out all appraisal work at their own cost",
+        "Apply progressively more rigorous screening and approval at successive stages"
+      ],
+      "answer": 3,
+      "explanation": "The Guide resolves the appraisal paradox through progressively more rigorous screening at successive stages. Full studies for every idea waste money, while testing only at tender risks costly late cancellation."
+    },
+    {
+      "question": "A city proposes a PPP toll bridge that does not appear in the transport sector plan. At the identification and screening stage, what should the framework require?",
+      "options": [
+        "Approve it, because sector plans are not relevant to PPPs",
+        "Stop it unless it can be shown to fit a broader sector plan",
+        "Send it straight to tender to test market interest",
+        "Convert it into an unsolicited proposal"
+      ],
+      "answer": 1,
+      "explanation": "A screening criterion is that the project fits a broader sector plan, since aligned projects are most likely to show Value for Money. Going straight to tender skips the required screening."
+    },
+    {
+      "question": "A government separates its investment decision from its procurement decision for a new prison. The PPP tender then fails to show Value for Money. What should happen?",
+      "options": [
+        "The investment can still go ahead using another procurement method",
+        "The prison must be cancelled because the PPP failed",
+        "The government should accept the PPP anyway to avoid wasted bid costs",
+        "The procurement decision should be reversed into an investment decision"
+      ],
+      "answer": 0,
+      "explanation": "One benefit of the two-stage approach is that if a PPP does not give Value for Money, the investment can proceed under a different method. Cancelling a good project because one delivery route failed confuses the two decisions."
+    },
+    {
+      "question": "Which of the following tests whether a project is suitable as a PPP, rather than whether it is a viable public project?",
+      "options": [
+        "It is technically feasible",
+        "It is affordable to users",
+        "It can be ring-fenced and has clear, measurable outputs",
+        "It is legally feasible"
+      ],
+      "answer": 2,
+      "explanation": "Ring-fencing and definable outputs are among the Guide's PPP-suitability tests. Technical, legal feasibility and affordability are viability tests that apply to any public project."
+    },
+    {
+      "question": "A PPP unit expects a wide range of very different deals over the next decade, across many sectors. What approach to contract standardisation does the Guide suggest?",
+      "options": [
+        "A single precedent contract for all projects",
+        "No standard documents at all",
+        "A precedent contract for each individual project",
+        "One or two model contracts plus precedent guidance for contract drafting"
+      ],
+      "answer": 3,
+      "explanation": "For heterogeneous deals, the Guide suggests one or two model contracts plus drafting precedent such as preferred risk allocations and sample clauses. A single precedent contract would likely lower quality across very different deals."
+    },
+    {
+      "question": "Consider two statements. 1: A model contract is one that agencies are required to use, or must justify any deviation from. 2: Requiring precedent contracts can lower contract quality when deals vary widely.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 describes a precedent contract, not a model contract, which agencies may choose to use. Statement 2 is true: one template for very different deals can reduce quality."
+    },
+    {
+      "question": "Bidders in a new PPP market worry that the government may cancel projects after they have spent heavily on bids. What should the PPP framework do?",
+      "options": [
+        "Promise in law that no project will ever be cancelled",
+        "Refund every bidder's full bid costs in all cases",
+        "State in advance when a project will not proceed, e.g. by revealing an affordability ceiling",
+        "Keep the maximum affordable price secret to boost competition"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the framework should set out when a project will not proceed; British Columbia reveals affordability ceilings. A blanket no-cancellation promise is unrealistic because the project may still fail the PPP criteria."
+    },
+    {
+      "question": "After commercial close on a hospital PPP, the lenders ask to change several conditions before they commit funds. What should the PPP framework already provide?",
+      "options": [
+        "Processes to limit changes, with named government responsibility and approvals",
+        "Automatic acceptance of lender changes to secure financial close",
+        "A rule that the procuring authority must refuse every change",
+        "A requirement to re-tender the whole project from the start"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the framework should address the risk of changes between commercial and financial close, with clear government responsibility and approvals. Automatic acceptance or automatic refusal both remove the controlled judgement the Guide calls for."
+    },
+    {
+      "question": "Operators of a user-pays transit PPP report losses for two years and now threaten to walk away. Taking operations back is unattractive, and adjusting the risk allocation would still give a net public benefit. What should the government do?",
+      "options": [
+        "Consider a carefully managed renegotiation aimed at a better public outcome than the original terms",
+        "Terminate immediately, as renegotiation is never acceptable",
+        "Continue ignoring the reports until the contract expires",
+        "Transfer the contract to the finance ministry to manage"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says renegotiation should be considered when it achieves a net benefit compared with cancellation, and must be managed with proper resources and governance. Ignoring warning reports is exactly the mistake in the Victoria case."
+    },
+    {
+      "question": "A firm submits an unsolicited proposal. The government runs an open tender; the firm does not submit the best bid, but it is allowed to match the winning bid and take the contract. Which mechanism is this?",
+      "options": [
+        "Bid bonus",
+        "Swiss challenge",
+        "Developer's fee",
+        "Best and final offer inclusion"
+      ],
+      "answer": 1,
+      "explanation": "The right to match the winning bid defines the Swiss challenge. A bid bonus instead adds a scoring advantage to the proponent's evaluation."
+    }
+  ]
+}

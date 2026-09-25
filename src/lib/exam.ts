@@ -114,7 +114,13 @@ export type AnswerRecord = { question_id: string; correct: boolean; answered_at:
  * Tayyorlik: har bo'lim bo'yicha oxirgi `window` ta javob aniqligi, mock'dagi ulushiga qarab tortilgan.
  * Kamida `minPerArea` ta javob bo'lmagan bo'lim «ma'lumot yetarli emas» deb belgilanadi.
  */
-export function readiness(spec: ExamSpec, bank: ExamQuestion[], answers: AnswerRecord[], window = 30, minPerArea = 8) {
+export function readiness(
+  spec: Pick<ExamSpec, "areas" | "questions" | "passMark">,
+  bank: Pick<ExamQuestion, "id" | "area">[],
+  answers: AnswerRecord[],
+  window = 30,
+  minPerArea = 8,
+) {
   const areaOf = new Map(bank.map((q) => [q.id, q.area]));
   const sorted = [...answers].sort((a, b) => b.answered_at.localeCompare(a.answered_at));
   const perArea = spec.areas.map((area) => {

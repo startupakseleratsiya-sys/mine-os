@@ -1,0 +1,245 @@
+{
+  "id": "e01-structuring-tasks-marketing",
+  "level": "execution",
+  "order": 1,
+  "title": "Structuring phase tasks and testing and marketing the project",
+  "minutes": 18,
+  "guideRef": "Ch 5 §1–§3, §6",
+  "objectives": [
+    "Explain the objectives of the Structuring Phase and how it builds on the appraisal pre-structure",
+    "Distinguish the three types of structuring and explain why the Guide includes the tender process",
+    "Sequence the main structuring and drafting tasks, including the ceiling of payments, data room and control check",
+    "Plan market testing and marketing with an industry meeting and a Project Information Memorandum",
+    "Separate marketing to industry from communication with the public and stakeholders"
+  ],
+  "sections": [
+    {
+      "heading": "1. Where we are and what the phase must achieve",
+      "body": "The Structuring Phase comes after **appraisal** and before **tender and award**. Its aim is to launch a procurement that will succeed: an **affordable and feasible** project that delivers the desired service and **Value for Money (VfM)**, with the lowest possible risk of failure, through a **transparent** and competitive process.\n\nThe Guide lists four objectives:\n- **Qualification criteria** that set a minimum level of capacity to deliver and operate the project, balanced to the project's features.\n- An **RFP** (Request for Proposals) that gives clear instructions and clear evaluation criteria, so bidders trust the process is transparent and equal.\n- A **contract structure** that protects and maximises VfM: the right financial and risk structure, the right payment mechanism, risks with the party best placed to manage them, and a balance between risk and reward.\n- A **well-drafted contract** that is clear and enforceable, works as a tool for contract management (especially for future changes), and gives safeguards to both sides so the investor's interests align with the government's objectives.\n\n**What appraisal left us.** During appraisal the project was tested (cost-benefit analysis, commercial feasibility, affordability, VfM in some countries), and a **pre-structure** was defined: scope and outputs, preliminary risk allocation, contract term, revenue regime and payment mechanism, public support, and a procurement strategy. Some market testing may also have happened.\n\nIn structuring, this pre-structure is **challenged and refined**, especially the financial structure, payment mechanism and risk allocation, because risk analysis now goes into much more detail. If the scope or costs change a lot, earlier analysis (even the cost-benefit analysis) may need to be reopened.\n\nThe new work falls into two groups:\n1. **Structuring and drafting the RFQ and RFP**: qualification requirements, proposal requirements and evaluation criteria.\n2. **Finalising and drafting the contract**: technical requirements, detailed risk allocation, payment mechanism and other terms.\n\nFor simplicity, the Guide assumes the whole tender package is prepared before launch, as in a one-stage process. The phase ends when the tender package is **approved and authorised**. Then the tender is launched."
+    },
+    {
+      "heading": "2. What structuring means",
+      "body": "The World Bank's PPP Reference Guide says structuring a PPP means **allocating responsibilities, rights and risks** to each party. Writing that structure into the contract is called **drafting**.\n\nThe CP3P Guide uses a **wider** meaning. Structuring covers not only the contract but also the **procurement process**. Qualification conditions, marketing and interaction approach, bid requirements and selection drivers are all policy decisions that affect the PPP's success. Together they must form a coordinated **Bid Pack** that sends a **consistent message** to bidders.\n\nThere are three types of structuring, closely linked:\n\n| Type | What it covers |\n|---|---|\n| **Financial and budgetary (fiscal)** | Public support instruments (grants, deferred or complementary payments, participative loans, equity, guarantees), the contract term, and the payment mechanism |\n| **Risk** | Allocating risks to each party |\n| **Tender or procurement** | Especially qualification criteria and evaluation criteria |\n\nThe payment mechanism sits in financial structuring but is tied to risk structuring, because the payment mechanism **underpins the risk allocation**.\n\nMany tasks run **in parallel** and depend on each other. For example, a poor VfM result may force the team to revisit the risk structure."
+    },
+    {
+      "heading": "3. A realistic timescale",
+      "body": "Structuring and drafting is **a project in itself**. It needs good project management: a work plan, a stakeholder plan and a clear schedule. Success means launching the tender on the date announced to the market, with all conditions checked and approvals received.\n\nHow long does it take? It depends on how much was done in appraisal and how complex the project is. The Guide gives a range:\n- around **6 months** for simple projects under sophisticated guidelines;\n- **12 to 18 months** for more complex projects.\n\nThis assumes appraisal produced a well-prepared project with a developed pre-structure. There must also be time for the authority to carry out **early risk mitigation**.\n\n**Insufficient time lies at the heart of many PPP failures.** Two outcomes are possible when work is rushed:\n- If quality checks exist, approving bodies may send the package back. The announced launch date slips and the authority's **reputation** suffers.\n- If quality checks do not exist, there is a **high risk of failure** of the tender or of the contract signed."
+    },
+    {
+      "heading": "4. The main tasks (1): team, scope, preparation and structure",
+      "body": "The Guide numbers the tasks from 0 to 14. Here are the first group.\n\n**Task 0: Project team, advisers and plan.** At the start, the team should be fully defined and advisers hired as needed. Skills needed:\n- **procurement** (often provided by one of the other experts);\n- **financial**: risk and financial structuring, VfM, financial analysis, affordability;\n- **economic**: may not be needed if the solution is already approved and unchanged;\n- **technical**: design and specifications, especially **performance requirements**;\n- **legal**: mainly procurement advice and **contract drafting** (most due diligence was done in appraisal);\n- **environmental and social**: where issues remain open.\n\nThe authority chooses between an **integrated** advisory team (one contract, more cohesive) and **separate** selections (best expert per field, but more government time). A **project management plan**, a stakeholder plan, and a **project leader** should be in place, using methods such as PMBOK or PRINCE2.\n\n**Task 1: Confirm contract model and scope** (if needed), after final legal due diligence and before shaping the structure. Non-legal team members should also be consulted, so the legal effects of project decisions are understood.\n\n**Task 2: Finalise due diligence and preparation**, for example geotechnical studies, archaeological maps, utility information and environmental plans. Taking **short cuts** by passing this work and cost to bidders is bad practice and causes many failures: no bidders, construction delays or renegotiation.\n\n**Task 3: Develop technical requirements** and refine cost estimates. Performance requirements are refined because they link to the payment mechanism. Avoid too much inflexibility: PPPs pay for outputs and leave room for innovation.\n\n**Task 4: Revisit the economic analysis** (if needed), when deeper cost or demand work changes the numbers.\n\n**Task 5: Finalise the financial structure and payment mechanism.** Appraisal may have decided that the government funds 30 percent of CAPEX, but structuring decides whether this is paid by works progress or by milestones. It fixes the **exact contract term**, the **service levels and deductions**, and decisions on force majeure, termination compensation and variations.\n\n**Task 6: Refine risk allocation.** Detail what the government retains and how shared risks are limited, for example with **benchmarks and impact ceilings** on claims. **Contract drafting should start once the risk allocation is defined**, unless new information suggests the project is not feasible.\n\n**Task 7: Update the financial model and set the ceiling of payments.** The updated model sets the **maximum payment** (or, in user-pays, the **minimum concession fee**) that a qualifying bid can offer in the RFP. If the payments needed stay within the limits approved for affordability, earlier decisions need not be reconsidered."
+    },
+    {
+      "heading": "5. The main tasks (2): market, documents and approvals",
+      "body": "**Task 8: Test, market and communicate the project** (see the next sections).\n\n**Task 9: Other commercial terms.** For example performance management and reporting, breaches and penalties, compensation and rebalancing, minimum equity, refinancing, ownership changes, insurance, guarantees, lenders' rights, confidentiality, contract changes, dispute resolution, equity lock-in, gearing caps, early termination, hand-back.\n\n**Task 10: Qualification criteria and the RFQ.** Set a minimum bar of capability without unduly limiting competition. The RFQ may be combined with the RFP or issued first as **pre-qualification**, sometimes with a **short list**.\n\n**Task 11: Proposal requirements and evaluation criteria (RFP).** What bidders submit and how, and the criteria for selecting the winner, applied consistently to all bidders. The RFP also covers government protections (such as the right to cancel), questions, the deadline and the **bid validity period**.\n\n**Task 12: Draft the contract and package the tender documents.** The structure should be largely defined before drafting. **Accuracy and clarity** are paramount: a risk allocation decision is useless if the contract does not make clear when an event has happened and how compensation works. Technical specifications usually go in schedules. In an open tender with no pre-qualification, the contract must be finished **by launch**; in dialogue or two-stage processes it can be finalised later.\n\n**Task 13: Pre-tender interaction and data rooms.** Some jurisdictions publish draft documents for written questions and hold meetings before launch. Reference information is shared through a **data room**, usually electronic, with clear access rules and **non-disclosure agreements**. Set it up early, because it takes time. Sharing information before launch gives bidders more time for due diligence. **Avoid individual discussions with bidders**; if they happen, record them and share them with all bidders. In other jurisdictions, this interaction only happens after the official launch. Where the process includes a structured dialogue, it happens naturally during the dialogue phase.\n\n**Task 14: Control check and approvals.** Confirm that all documents are in place, legally compliant and approved, and all tests done. Then the launch is authorised and the team is organised for the tender process."
+    },
+    {
+      "heading": "6. Testing and marketing the project",
+      "body": "The project should already have been **sounded out** with the market during appraisal. It is good practice to test it **again during structuring**, to collect reactions, suggestions and concerns from investors, contractors and lenders, and to check market readiness and interest. Testing should cover the **key features of the contract before the structure is finalised**. Where there will be no dialogue phase, a formal interaction before publishing the final documents is useful.\n\nManage testing with care:\n- Give enough **time** to really use the feedback.\n- **Critically evaluate** answers: potential bidders will likely **overstate** their interest and their concerns.\n- Keep it **transparent**. A questionnaire on an **open web page** lets any interested party give input, keeps a level playing field and avoids future objections.\n\n**Testing is also marketing.** If the government decides no further testing is needed, it should still **market** the project. This builds industry interest and lets bidders prepare: screen the project and find partners to form a consortium.\n\nMarketing should include **at least**:\n- an **industry meeting**: an open meeting for contractors, investors, lenders and advisers;\n- a detailed **Project Information Memorandum (PIM)**, usually on a project web page, with a summary of the contract structure, the procurement strategy and tender process, and the target timeline, plus key appraisal documents as attachments.\n\nThe Guide's good-practice example (Box 5.21) shows a sequence:\n1. The project is in a public PPP pipeline, and the launch date is announced in the press.\n2. Appraisal results (financial feasibility, VfM, ESIA) and a PIM are published on a dedicated project web page.\n3. A **first industry meeting** presents the project and its preliminary financial and risk structure, followed by questions and a **questionnaire** on open issues.\n4. The government considers feedback that is sensible and does not contradict the project's objectives, impose undesirable scope or design changes, or break affordability limits.\n5. A more developed PIM with a **risk allocation matrix** is published and a **second meeting** explains the changes made in response to industry concerns.\n6. The tender is launched **on the announced date**, consistent with what was presented.\n\nIn some jurisdictions, for one-stage tenders, the government also publishes the **draft contract** and accepts written questions on the contract and RFP wording before the tender package is closed and approved.\n\nThis keeps **market tension** and interest high. Market sounding also tests whether the market can technically meet the project requirements."
+    },
+    {
+      "heading": "7. Marketing is not public communication",
+      "body": "**Marketing** means communicating with the **industry** to generate strong competition. It should not be confused with **communication with the public and other stakeholders**, which needs a different set of tactics to win public acceptance.\n\nPublic and political opposition has stopped or cancelled many projects. This includes opposition from other political parties or other levels of government, for example a municipality where a state project will be built. The Guide's examples: tolls where users are not used to paying, waste-to-energy plants opposed by environmental activists, and water concessions that raise fears of tariff increases. Where tariffs must rise for fiscal sustainability, the benefits (better quality and coverage) should be communicated carefully and proactively.\n\nIn the **Ravenhall Prison Project** in Victoria, Australia, a **Community Advisory Group** was set up during structuring, with local residents, local government, police and the procuring authority. Fact sheets, brochures and community information sessions were used.\n\nIn short: industry meetings are for industry players. A separate **communication plan**, and public hearings if needed, handle public and political concerns. A project web page can serve both, by also promoting transparency for the public."
+    }
+  ],
+  "example": {
+    "title": "Northvale Water: from pre-structure to launch",
+    "body": "Imagine the fictional state of Northvale has approved a water treatment PPP in appraisal. The pre-structure says: availability payments, a 25 to 30 year term, and 20 percent of CAPEX paid by the state.\n\n1. The authority appoints a project leader and an integrated advisory team, and plans for 12 months, not the 4 months the minister first wanted.\n2. A geotechnical study missing from appraisal is completed and loaded into an electronic data room with non-disclosure agreements.\n3. The team fixes a 27-year term, decides the state's 20 percent is paid on construction milestones, and sets service levels and deductions.\n4. After refining risk allocation, the financial model is updated. The **ceiling of payments** comes out below the affordability limit, so earlier approvals stand.\n5. The state publishes a PIM, holds an industry meeting and posts an open questionnaire. Bidders ask for a cap on ground risk. The team accepts a cap because it is sensible and affordable, and presents a PIM with a risk matrix at a second meeting.\n6. Local residents fear higher water bills, so a separate communication plan and public sessions explain the service benefits.\n7. After the control check and approvals, the tender launches on the announced date."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing marketing to industry with communication with the public",
+      "fix": "Marketing (industry meetings, PIM) builds competition among bidders. Public communication (communication plan, hearings, community groups) builds public acceptance. They use different tactics."
+    },
+    {
+      "trap": "Thinking the ceiling of payments comes from bidders' offers or from the appraisal model without updating it",
+      "fix": "It comes from the authority's updated financial model after risk allocation is refined. It sets the maximum payment, or minimum concession fee in user-pays, for a qualifying bid."
+    },
+    {
+      "trap": "Taking all bidder feedback at face value",
+      "fix": "Bidders tend to overstate interest and concerns. Accept feedback only if it is sensible and does not undermine objectives, scope, design or affordability."
+    },
+    {
+      "trap": "Believing a shorter structuring phase is always better",
+      "fix": "Insufficient time lies at the heart of many failures. Expect around 6 months for simple and 12 to 18 months for complex projects."
+    },
+    {
+      "trap": "Meeting bidders one to one to help them prepare",
+      "fix": "Avoid individual discussions. If they happen, record them and share the content with all bidders to protect competition."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Structuring", "meaning": "Defining the risk structure, financial structure, key commercial terms and main features of the tender process." },
+    { "term": "Drafting", "meaning": "Documenting the structure in the RFQ, RFP and contract in clear, enforceable language." },
+    { "term": "Pre-structure", "meaning": "The preliminary contract structure defined in appraisal, which structuring challenges and refines." },
+    { "term": "Bid Pack", "meaning": "The coordinated tender documents that must send bidders a consistent message." },
+    { "term": "Ceiling of payments", "meaning": "The maximum government payment (or minimum concession fee) acceptable for a qualifying bid, set from the updated financial model." },
+    { "term": "Project Information Memorandum (PIM)", "meaning": "A detailed document for the market summarising contract structure, procurement strategy and timeline." },
+    { "term": "Industry meeting", "meaning": "An open meeting for contractors, investors, lenders and advisers to present the project and gather feedback." },
+    { "term": "Data room", "meaning": "A physical or, more often, electronic space where bidders access reference information under agreed protocols and NDAs." },
+    { "term": "Market testing", "meaning": "Collecting industry reactions to the project's key features before the structure is finalised." }
+  ],
+  "summary": [
+    "Structuring refines the appraisal pre-structure into an approved tender package: RFQ, RFP and contract.",
+    "The Guide's structuring covers financial, risk and tender structuring, forming one consistent Bid Pack.",
+    "Allow a realistic time: around 6 months for simple projects, 12 to 18 months for complex ones.",
+    "Start contract drafting once risk allocation is defined; the updated model sets the ceiling of payments.",
+    "Use data rooms with NDAs, avoid one-to-one bidder talks, and end with a control check and approvals.",
+    "Test and market the project with at least an industry meeting and a PIM, and evaluate feedback critically.",
+    "Keep marketing to industry separate from communication with the public and stakeholders."
+  ],
+  "slides": [
+    {
+      "title": "Welcome to the Structuring Phase",
+      "points": ["After appraisal, before tender", "Refine the pre-structure", "Finish with an approved tender package"],
+      "narration": "Welcome to the Execution level. We start where appraisal ended. By now the project has passed its feasibility tests, and there is a pre-structure: the scope, a first risk allocation, the payment idea, the term and a procurement strategy. In the Structuring Phase, we challenge and refine all of that, and we turn it into real documents: the RFQ, the RFP and the contract. The phase ends when the whole tender package is approved and the launch is authorised. Then the tender begins."
+    },
+    {
+      "title": "Three types of structuring",
+      "points": ["Financial and budgetary", "Risk", "Tender or procurement"],
+      "narration": "What does structuring mean? The World Bank defines it as allocating responsibilities, rights and risks. The CP3P Guide goes further and includes the tender process too. So we have three linked types. Financial structuring covers public support, the contract term and the payment mechanism. Risk structuring allocates risks. And tender structuring sets the qualification and evaluation criteria. Together they form one Bid Pack, and that pack must send bidders a consistent message."
+    },
+    {
+      "title": "Give it enough time",
+      "points": ["About 6 months for simple projects", "12 to 18 months for complex ones", "Rushing is a major cause of failure"],
+      "narration": "One lesson from experience is simple: do not rush. The Guide says insufficient time lies at the heart of many PPP failures. A simple project may need around six months of structuring. A complex one may need twelve to eighteen months. If you rush but have good quality checks, the approvers will send the package back, your launch date will slip, and your reputation suffers. If you rush without checks, the tender or the contract itself may fail. Plan it like a real project."
+    },
+    {
+      "title": "Team, preparation and structure",
+      "points": ["Team, advisers and project leader", "Finish due diligence, no short cuts", "Fix term, payments and service levels"],
+      "narration": "The first tasks are practical. Build the team and hire advisers: financial, technical, legal and others as needed, with a project leader and a clear plan. Finish any studies left from appraisal. Passing that work to bidders is a short cut that often leads to no bids or delays. Then finalise the structure. Appraisal might say the government pays thirty percent of construction cost. Structuring decides how: by milestones or by progress. It also fixes the exact term, the service levels and the deductions."
+    },
+    {
+      "title": "Risk, model and ceiling",
+      "points": ["Refine risk allocation, then draft", "Update the financial model", "Set the ceiling of payments"],
+      "narration": "Next, risk allocation is refined in detail, for example with benchmarks and caps on claims. Once the allocation is defined, contract drafting should start. The financial model is updated to reflect these decisions. That model sets the ceiling of payments, meaning the highest payment a qualifying bid may ask for, or in a user-pays project, the lowest concession fee. If this stays within the affordability limit approved in appraisal, the earlier decisions still stand."
+    },
+    {
+      "title": "Documents, data room, approvals",
+      "points": ["RFQ, RFP and contract drafted clearly", "Data room with NDAs", "Control check before launch"],
+      "narration": "Then comes the paperwork, and clarity is everything. The RFQ sets qualification rules, the RFP sets proposal requirements and evaluation criteria, and the contract turns the structure into enforceable terms. Much reference information goes into a data room, usually online, with non-disclosure agreements. Set it up early. Avoid private talks with individual bidders. If they happen, record them and share them with everyone. Finally, a control check confirms all documents are complete, compliant and approved."
+    },
+    {
+      "title": "Test and market the project",
+      "points": ["Test key features before finalising", "Industry meeting plus a PIM", "Evaluate feedback critically"],
+      "narration": "While structuring, go back to the market. Test the key features of the contract before they are final. Hold at least one industry meeting and publish a Project Information Memorandum on a project web page. Use an open questionnaire so everyone has the same chance to respond. But be careful: bidders tend to overstate both their interest and their worries. Accept ideas that are sensible and affordable, then show the market what you changed. And launch on the date you announced."
+    },
+    {
+      "title": "Industry versus the public",
+      "points": ["Marketing builds competition", "Public communication builds acceptance", "Use a separate communication plan"],
+      "narration": "Finally, do not confuse two audiences. Marketing talks to industry, to create strong competition. Communication with the public aims for acceptance, and it needs different tools. Many projects have been stopped by public or political opposition, for example new tolls, waste plants or fears of higher water bills. In the Ravenhall Prison Project in Australia, a Community Advisory Group brought local voices into planning. So run industry meetings for industry, and a separate communication plan for the public."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A minister wants a complex hospital PPP tender launched three months after appraisal ends. The project team warns this is unrealistic. According to the Guide, what timescale is typical for structuring a complex project?",
+      "options": [
+        "About 1 to 2 months",
+        "About 3 months",
+        "About 12 to 18 months",
+        "About 36 months"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives around 6 months for simple projects and 12 to 18 months for more complex ones, assuming appraisal was thorough. Rushing is a key cause of PPP failure."
+    },
+    {
+      "question": "An authority has refined its risk allocation and updated its financial model for an availability-payment road. What should it use the updated model to set in the RFP?",
+      "options": [
+        "The ceiling of payments acceptable for a qualifying bid",
+        "The bidders' target equity IRR",
+        "The lenders' debt service cover ratio",
+        "The construction contractor's price"
+      ],
+      "answer": 0,
+      "explanation": "The definitive financial model determines the ceiling of payments, or the floor for concession fees in user-pays, reflected in the RFP. The authority does not prescribe the bidders' financial strategy or ratios."
+    },
+    {
+      "question": "To save time, a procuring authority plans to skip a geotechnical study and ask bidders to do their own investigations. How does the Guide view this?",
+      "options": [
+        "Good practice, because bidders are better at studies",
+        "Acceptable if the ceiling of payments is increased",
+        "Required in all one-stage tenders",
+        "Bad practice that can lead to no bids, delays or renegotiation"
+      ],
+      "answer": 3,
+      "explanation": "The Guide calls taking short cuts in preparation, by passing data collection and cost to bidders, bad practice that causes many projects to fail. The authority should finalise due diligence during structuring."
+    },
+    {
+      "question": "During market testing, several potential bidders say they will not bid unless the authority takes back all demand risk and doubles the contract term. What should the authority do first?",
+      "options": [
+        "Accept all requests to keep bidders interested",
+        "Critically evaluate the feedback, since bidders tend to overstate concerns",
+        "Stop market testing and launch immediately",
+        "Hold private meetings with each bidder to negotiate"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says feedback must be critically evaluated because bidders will likely overstate interest and concerns, and changes should be sensible and affordable. Private meetings would harm transparency and the level playing field."
+    },
+    {
+      "question": "One bidder asks for a private meeting with the procuring authority before launch to discuss the draft contract. What does the Guide recommend?",
+      "options": [
+        "Hold it, and keep the discussion confidential to protect the bidder",
+        "Refuse all contact with bidders until contract award",
+        "Avoid individual discussions; if one happens, record it and share it with all bidders",
+        "Hold it only if the bidder signs a data room NDA"
+      ],
+      "answer": 2,
+      "explanation": "Individual discussions with bidders should be avoided; if they occur, they should be recorded and shared with all bidders to keep competition fair. Refusing all contact goes too far, since open meetings and written questions are good practice."
+    },
+    {
+      "question": "An authority has decided no further market testing is needed because appraisal testing was thorough. What should it still do before launch?",
+      "options": [
+        "Nothing, because testing and marketing are the same task",
+        "Only publish the final contract on launch day",
+        "Wait for bidders to contact it",
+        "Market the project, with at least an industry meeting and a Project Information Memorandum"
+      ],
+      "answer": 3,
+      "explanation": "Even without further testing, the project should still be marketed to build industry interest and let bidders form consortia. The minimum is an industry meeting and a detailed PIM."
+    },
+    {
+      "question": "Local activists oppose a planned waste-to-energy PPP. The procuring authority asks whether its industry meetings will solve this. What is the best answer?",
+      "options": [
+        "No; it needs a separate communication plan, and public hearings if necessary",
+        "Yes; industry meetings are the main tool for public acceptance",
+        "Yes, if activists are invited to ask questions at the industry meeting",
+        "No; public opposition cannot be addressed before financial close"
+      ],
+      "answer": 0,
+      "explanation": "Marketing to industry must not be confused with communication with the public, which needs different tactics such as a communication plan and public hearings. Industry meetings target contractors, investors and lenders."
+    },
+    {
+      "question": "Which of the following is NOT one of the three types of structuring the Guide describes?",
+      "options": [
+        "Financial and budgetary structuring",
+        "Risk structuring",
+        "Tender or procurement structuring",
+        "Bidder corporate structuring"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists financial and budgetary (fiscal), risk, and tender or procurement structuring. The bidder's own corporate or financial strategy is not prescribed by the government."
+    },
+    {
+      "question": "An authority is running an open one-stage tender with no pre-qualification. By when must the contract drafting be complete?",
+      "options": [
+        "Before the RFP is released in a second stage",
+        "By the time the project is launched",
+        "After the preferred bidder is selected",
+        "At financial close"
+      ],
+      "answer": 1,
+      "explanation": "For an open tender with no pre-qualification, the contract must be finished in time for launch. It may be finalised later only in dialogue processes or before the final RFP in two-stage processes."
+    },
+    {
+      "question": "Consider two statements. 1: In the Guide, structuring includes the procurement process as well as the contract. 2: Contract drafting should normally start before the risk allocation is defined.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide uses a wider meaning of structuring that includes the tender process. It says drafting should start once the risk allocation is defined, so statement 2 is false."
+    }
+  ]
+}

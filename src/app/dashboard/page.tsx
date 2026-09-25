@@ -2,17 +2,16 @@ import { getI18n } from "@/i18n/server";
 import React from "react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { ArrowRight, BookOpen, Calculator, CircleDollarSign, Flame, GraduationCap, LogOut, MessageSquareText, Target, TrendingUp, User, } from "lucide-react";
+import { ArrowRight, BookOpen, CircleDollarSign, Flame, GraduationCap, LogOut, MessageSquareText, Target, TrendingUp, User, } from "lucide-react";
 import { getCurrentUser, getProfile, getChatSessionCount } from "@/services/user-service";
 import { signOut } from "@/app/actions/auth";
 import { COURSES, TOTAL_CHAPTERS } from "@/content/courses";
-import { activeCourse, computeStreak, courseProgress, getLessonProgress } from "@/lib/progress";
+import { activeCourse, computeStreak, courseProgress, courseUnlocked, getLessonProgress } from "@/lib/progress";
 export const metadata = { title: "Dashboard" };
 const NAV = [
     { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
     { href: "/courses", icon: BookOpen, label: "Kurslar" },
     { href: "/tutor", icon: MessageSquareText, label: "AI Tutor" },
-    { href: "/calculators", icon: Calculator, label: "Kalkulyator" },
     { href: "/progress", icon: Target, label: "Progress" },
 ];
 export default async function DashboardPage() {
@@ -93,7 +92,7 @@ export default async function DashboardPage() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-14">
         <div className="mb-8 sm:mb-10">
           <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-2"><>{t("Xush kelibsiz \uD83D\uDC4B")}</></p>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f2017] tracking-tight"><>{t("Salom,")}</>{displayName.split(" ")[0]}!
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f2017] tracking-tight"><>{t("Salom,")}{" "}</>{displayName.split(" ")[0]}!
           </h1>
           <p className="mt-2 text-[#6B7A74]">
             {rows.length === 0 ? t("Birinchi darsni boshlaymizmi?") : t("O'rganishni davom ettiramizmi?")}
@@ -149,7 +148,7 @@ export default async function DashboardPage() {
             <div className="grid sm:grid-cols-3 gap-4">
               {COURSES.map((course) => {
             const cp = courseProgress(rows, course);
-            const href = cp.nextChapter ? `/study/${course.slug}/${cp.nextChapter.id}` : `/courses/${course.slug}`;
+            const href = cp.nextChapter && courseUnlocked(rows, course) ? `/study/${course.slug}/${cp.nextChapter.id}` : `/courses/${course.slug}`;
             return (<Link key={course.slug} href={href} className="group bg-white rounded-2xl border border-[#E2E4DF] p-5 hover:border-[#a7c4b1] hover:shadow-md transition-all">
                     <div className="flex items-center justify-between mb-3">
                       <span className="text-2xl">{course.emoji}</span>
@@ -168,7 +167,7 @@ export default async function DashboardPage() {
             <div className="grid sm:grid-cols-3 gap-4">
               {[
             { href: "/tutor", icon: MessageSquareText, label: "AI Tutor", desc: "Savol bering", color: "bg-violet-50 text-violet-600" },
-            { href: "/calculators", icon: Calculator, label: "Kalkulyator", desc: "Hisoblang", color: "bg-amber-50 text-amber-600" },
+            { href: "/exam/flashcards", icon: BookOpen, label: "Flashcards", desc: "Glossary terms, 10 minutes a day", color: "bg-amber-50 text-amber-600" },
             { href: "/progress", icon: TrendingUp, label: "Progress", desc: "Natijalar", color: "bg-sky-50 text-sky-600" },
         ].map(({ href, icon: Icon, label, desc, color }) => (<Link key={href} href={href} className="group bg-white rounded-2xl border border-[#E2E4DF] p-5 flex items-center gap-4 hover:border-[#a7c4b1] hover:shadow-md transition-all">
                   <span className={`grid size-10 place-items-center rounded-xl ${color}`}>

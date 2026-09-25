@@ -1,0 +1,312 @@
+{
+  "id": "f04-management-contracts-terminology",
+  "level": "foundation",
+  "order": 4,
+  "title": "Management, O&M, leases and affermage; PPP types and names",
+  "minutes": 17,
+  "guideRef": "Ch 1 §2.3–§2.4, §3",
+  "objectives": [
+    "Explain when a contract to manage existing infrastructure or a service can be a service PPP, and when it cannot.",
+    "Distinguish management contracts, conventional O&M contracts and financial leases from PPPs.",
+    "Explain why privatisation, regulated utilities, public domain concessions and partial divestiture are not PPPs.",
+    "Classify PPPs by source of revenue, ownership, scope and financing, and use the terms greenfield, brownfield and yellowfield.",
+    "Recognise the main names used for PPPs, including BOT, PFI, concession, lease and affermage."
+  ],
+  "sections": [
+    {
+      "heading": "1. Service PPPs: “at-risk” long-term management contracts",
+      "body": "Not every PPP builds something new. Contracts to **manage existing infrastructure** or to **provide a service** fall into two groups:\n\n- **“At-risk” long-term management or service contracts**. These **can be PPPs** under the broad definition. They are **service PPPs**, not DBFOM contracts.\n- **Conventional O&M or service contracts**. These are **not PPPs**.\n\nA management or service contract can be a PPP **as long as it**:\n\n1. **transfers significant risks**;\n2. is **performance oriented**; and\n3. has a **relatively long term**.\n\n**How long is long?** There is no universal consensus. Contracts **below 5 years** are generally **short term**. For service management or maintenance, **2–4 years** is **not long enough** to transfer the risk linked to costs and results. **Ten years** is commonly seen as long term. **Seven years and above** may be enough for these contracts to be PPPs, but this is a **question of judgement**.\n\nThe Guide gives examples of service PPPs:\n\n- a **7-year** contract to manage **tariff collection** for a city water service, with penalties and bonuses based on billing ratios;\n- a **15-year bus concession**, where the partner finances or renews the fleet and runs the service, paid by fares plus subsidies or per kilometre;\n- a **12-year** contract to refurbish and manage a public building (cleaning, catering, maintenance), paid by availability payments with quality adjustments;\n- a **10-year** street cleaning contract paid a fixed annual fee, with deductions against **KPI (Key Performance Indicator)** targets;\n- a **10-year** concession for the **clinical services** of a public hospital;\n- a **10-year** O&M contract for an **existing toll road**, paid a share of tolls or a fixed fee with deductions;\n- a **40-year** concession to operate and maintain a highly profitable **existing toll road** (see asset monetisation below).\n\n**Service PPP or DBFOM?** Some service PPPs include an initial investment, such as new buses. They count as management or service contracts because the **initial investment is relatively small**, and the main cost is an **annual** one. If the initial investment is **significant**, the contract could easily be a **private finance PPP**.\n\n**The cost-plus rule.** None of these contracts is a PPP if the partner is paid on a **cost-plus basis**, meaning its **actual costs** plus a margin rather than **pre-agreed amounts**. Cost-plus pay **transfers little, if any, risk**."
+    },
+    {
+      "heading": "2. Management contracts, O&M contracts and financial leases",
+      "body": "**Management contracts** are **not long-term** like PPPs and are **less complex**. They use private expertise for service design and delivery, operations control, staffing and equipment procurement.\n\n- The private contractor takes some responsibilities but **does not assume commercial risk**.\n- The **public sector keeps ownership** of the assets, which are usually existing assets.\n- The contractor is **paid a fee**, typically on a **performance basis** with payment and penalty schemes. Its profit may be at some risk, but little or no capital is at stake.\n- There is **no significant private capital investment**. So efficiency gains are **more limited**, and there are **no disciplinary mechanisms** such as **lenders' due diligence** or capital exposed to performance risk.\n- They usually last **two to five years**, sometimes longer for complex facilities such as **ports or airports**.\n- They can be **politically and socially more acceptable** (for example in water). They are useful when the **private sector will not invest**, or when the government does **not want a long-term commitment**.\n\nThe UN ESCAP models include **supply or service contracts**, **maintenance management** and **operational management**.\n\n**Conventional O&M contracts** are usually based on **cost-plus** and/or pay for **inputs rather than results**, under **highly prescriptive** documents. They are **not PPPs**, but they are **suitable in many contexts** and offer **flexibility**.\n\n**Financial lease contracts** are long-term contracts in which assets are provided in return for **periodic lease payments**. Compared with PPPs, they transfer **much less risk**, and **no significant management or performance responsibility**. They are **purely financial** arrangements, typically used for **tax benefits** or **lower financing costs**. They are **not expected** to improve service performance.\n\n**Monetising existing assets (Box 1.10).** A government may own a profitable user-pays asset, such as a toll road, airport or port. It may **lease or concession** it for a long term, transferring **O&M, life-cycle cost management and the revenue rights**, usually for an **upfront fee**. This is **asset monetisation**, and the Guide treats these contracts as **private finance PPPs**. Their value depends on a **fair price** and above all **how the proceeds are used**. A clear, well-communicated plan helps win public consent. An example is the **Chicago Skyway** lease ($1.83 billion). **Asset recycling** means reinvesting such proceeds in new or existing infrastructure. It may use PPPs, but also other structures such as securitisation or an outright sale."
+    },
+    {
+      "heading": "3. Privatisation and regulated markets are not PPPs",
+      "body": "Section 2.4 of the Guide covers private involvement that happens **outside procurement**.\n\n**Privatisation.** In its strict sense, privatisation is the **permanent transfer** of a public asset and service responsibility. The Guide is clear: **privatisations are not PPPs**. Table 1.1 shows the differences:\n\n| Privatisation | PPP |\n|---|---|\n| The private sector owns the **full property** of the asset | The **government** is normally the legal owner, and the asset is **handed back** at the end |\n| **No contract** in strict terms; conditions are set by **sector regulation** | A **detailed contract** sets each party's rights and obligations |\n| Time to operate is **unlimited** | Time is **limited by contract** |\n| **No strict alignment of objectives**; the provider sets quantity, quality and price, although KPIs may be imposed by regulation | The **government specifies** the quantity and quality of service |\n| **More freedom to set prices**, subject to market and regulatory rules | The partner receives the **agreed price** or user charges, with little or no flexibility |\n\nPrivatisation is typical in **telecoms and energy** when a government **liberalises** a sector: it sells its monopoly company to private investors, sometimes after splitting it to boost competition.\n\n**Regulated investor-owned utilities.** In many countries, utilities such as electricity and telecoms can be **owned outright** by private firms. Like a user-pays PPP, they charge users. But they are **not procurement methods**. The government is not contracting for a specific asset. It **grants a right to run a business** under regulated conditions for an **unlimited time**. In such liberalised markets, **no contracts are needed** for new infrastructure, because each operator has a **natural incentive** to invest at its own risk.\n\n**Public authorisations and public domain concessions.** A private promoter may be **authorised** to build and run an asset under **regulated conditions**. An example is a renewable energy producer that buys land and sells power under a **subsidised** regime. There is **no contract** and no direct government requirement, so this is **not a PPP**. But if a **public counterparty commits to pay** for the power and **tenders a DBFOM** for the plant under a **Power Purchase Agreement (PPA)**, it **is a PPP**. A **public domain concession** grants the use of land for a long time, possibly up to **99 years**, for example to develop port facilities, and the land **reverts** to the government at the end. It is **not a PPP**, because there is no contract and the government is a **passive regulator**, not an active contract manager.\n\n**Partial divestiture.** Selling **shares** of a public operator, often through an **Initial Public Offering (IPO)** on the stock market, is a “**partial privatisation**”. Management does not change, and there is **no contract** and no private control of the service. It is **not a PPP**. An example is Spain's airport operator **AENA** in 2014.\n\n**Putting it together (Table 1.2).**\n\n| PPP feature | DB | DBF | DBOM | User-pays DBFOM | Gov-pays DBFOM/PFI |\n|---|---|---|---|---|---|\n| Formal contract | Yes | Yes | Yes | Yes | Yes |\n| Long-term | No | Sometimes | Normally | Yes | Yes |\n| DB and O&M bundled | No | No | Yes | Yes | Yes |\n| Life-cycle risk transfer | No | No | Sometimes | Usually | Usually |\n| Private finance | No | Yes | No | Yes | Yes |\n| Pay linked to performance/use | No | No | Sometimes | Yes (use) | Yes (performance) |"
+    },
+    {
+      "heading": "4. Types and variations of PPPs",
+      "body": "Section 3.1 organises PPP types by **four factors**:\n\n1. **Source of funds for the partner's revenue**: **user-pays** (mainly charges to users) versus **government-pays** (mainly government payments). This is the **most relevant classification**.\n2. **Ownership of the SPV**:\n   - **conventional PPPs**: 100% private;\n   - **institutional PPPs**: publicly owned (100% public), or a JV or *empresa mixta* where the **public party controls** the company;\n   - **other JVs or *empresas mixtas***.\n3. **Scope or object of the contract**:\n   - **infrastructure PPPs**: significant capital investment to develop and manage infrastructure;\n   - **integrated PPPs**: infrastructure **plus the right and obligation to operate a service**;\n   - **O&M PPPs or service PPPs**: **no capital investment** and no new infrastructure by the partner.\n4. **Relevance of private financing**: **co-financed or hybrid PPPs**, with a material portion of **public finance**, usually grants, versus **conventional PPPs**.\n\nPPPs can also be described by the **past use of the site**, using terms common among investors:\n\n| Term | Meaning |\n|---|---|\n| **Greenfield** | Investment in **new** infrastructure, a DBFOM recently awarded or under construction |\n| **Brownfield** | Investment in assets that **existed before procurement**, or earlier greenfields that are now **in operation** |\n| **Yellowfield** (secondary stage) | Investment in **significant renewals, refurbishment or substantial expansion** of existing infrastructure |\n\nThe Guide notes that other uses of “greenfield” and “brownfield” exist (see the Glossary). In the exam, use the Guide's meanings."
+    },
+    {
+      "heading": "5. The many names for private finance PPPs",
+      "body": "The **same type of PPP** can have **different names** in different countries or sectors. This is due to legal tradition, legislation or common language. **Any** contract under these names is a private finance PPP **as long as the PPP features are present** (Table 1.3).\n\n- **DBFOM, DBFM, DCMF, DBFO.** These names **describe the functions** transferred. For the Guide they are all **synonyms for a private finance PPP**, and can be user-pays or government-pays. Sometimes “maintain” is **implicit** in “operate” (DBFO), or “O” is dropped when there is no user interface. Remember that **DBOM has no private finance**, so it is **not** a private finance PPP.\n- **BOT, BOOT, BTO, ROT.** These names focus on **legal ownership and control** of the asset. In many **civil code** countries, the private partner cannot fully own the asset in legal terms. It is only the **economic owner**, and the asset stays in the **public domain**. So these acronyms can be **confusing**. **BTO** means legal ownership is private **only during construction**. **ROT** (Rehabilitate-Operate-Transfer) replaces “build” with **rehabilitate**. The Guide treats them all as **synonyms of the DBFOM group**.\n- **BOO / ROO.** The private sector **builds, owns and operates** a facility and **sells the product or service** to users. ROO is the same, but for the **rehabilitation** of existing assets.\n- **PFI (Private Finance Initiative).** The **UK** name, used mainly for **government-pays DBFOM**. It is essentially a BOT paid by **availability payments**, or by **capacity charges** in the case of IPPs.\n- **Concession (of public works).** A traditional **civil code** legal term. It is the legal title that lets the government transfer **economic rights of use** in a public asset. It was originally for **user-pays DBFOM**. Some countries (for example **Chile and Spain**) also use it for **government-pays** contracts, while others keep it for user-pays only.\n- **Arrendamiento (leasing of public works).** A civil code option for buildings when the land is **disposable real estate**, not land reserved for public use. It is a **private contract under civil law**, although the tender stays under public law.\n- **PPP / APP as a legal term.** Some civil code countries use PPP in law for **government-pays** DBFOMs, usually where **most revenue comes from the budget** (also the ESA 2010 approach). **Brazil** uses it for DBFOMs with **any** public payment.\n- **Hybrid PPPs.** These combine **concessional financing** with private investment to cover a project's **government support** needs and improve **affordability**.\n- **Joint ventures / empresas mixtas**, **institutional PPPs**, and the EBRD's **public service contract plus project support agreement** are also listed. Mixed equity companies are **rarely seen** in government-pays schemes."
+    },
+    {
+      "heading": "6. Names for service PPPs: leases, affermage and others",
+      "body": "Table 1.4 lists names used for PPPs that relate **only or mainly to managing existing infrastructure or operating public services**.\n\n| Name | What it means in the Guide |\n|---|---|\n| **Concession (of services)** | An O&M-type contract with **no material investment**, generally used where **most revenue comes from users**, often for public utilities. It is also used to contract out an existing road or airport for an **upfront fee** (“**monetisation**”). |\n| **Lease** | Like a concession, a legal institution granting **economic rights** or **economic ownership** of an asset. It is most common for O&M of **existing** infrastructure and **user-pays** PPPs. In some countries a lease means the **government keeps capital expenditure**, and the partner only does ordinary maintenance and operation. |\n| **Affermage** | A **French** term for contracting out the right to operate existing infrastructure. The **operator keeps its fee from the receipts** and **pays the rest to the authority**. It may include some CAPEX. It is **never linked to government-pays** contracts. |\n| **Service contract** | In **civil code** law, a transfer of the **operation of a public service** in the strict sense (such as water or passenger transport). In **common law** countries it has no specific legal meaning and covers many, usually **short**, outsourcing contracts. **Only a few** are PPPs. |\n| **Management contract** | Often an O&M contract focused on the **long-term maintenance** of assets, or a “service only” contract (especially in water). It is a PPP **only if** it is long-term, carries risk and is performance oriented. |\n\nFor **O&M contracts**, the Guide says only a **few** “deserve” to be called PPPs. They need to be **clearly long-term**, with some **life-cycle cost management** transferred, **cost-related risk** transferred and a clear **performance orientation**. An O&M contract may take on PPP attributes when it requires **substantial CAPEX**.\n\n**Key points (Box 1.12):**\n\n- DBFOM-type names describe **functions**. BOT-type names describe **ownership**. Ownership is **not at the heart** of a PPP, as long as the asset is public or is transferred back at the end.\n- Names such as **lease, affermage and concession** describe the **legal title** to use and operate the asset.\n- O&M, management and service contracts are PPPs **only with long-term risk transfer** and pay linked to **performance or demand**.\n- The **main classification** is **user-pays versus government-pays**. Some countries link the first with **concessions** and the second with **PFI**."
+    }
+  ],
+  "example": {
+    "title": "Sorting the Eastvale water and energy contracts",
+    "body": "Imagine the fictional city of Eastvale reviews five arrangements.\n\n1. **A 3-year contract** for a private firm to operate the water treatment plant. The firm is paid its actual costs plus 8%. This is **not a PPP**. It is short term and **cost-plus**, so almost no risk is transferred. It is a conventional O&M contract.\n2. **A 12-year contract** to manage the water network, paid a fixed annual fee with deductions if leakage and billing KPIs are missed. The firm also takes over major maintenance. This can be a **service PPP**: it is long-term, performance-oriented and transfers risk.\n3. **A 30-year affermage** of the existing water system. The operator collects tariffs, keeps its operator fee and pays the rest to the city. It can be a **user-pays service PPP** under a French-style legal title, as long as the operator carries real risk and has clear performance duties.\n4. **A wind farm developer** buys private land and sells power under the national renewable subsidy regime. There is no contract with the city. It is **not a PPP**, but a regulated authorisation.\n5. **The city tenders** a 25-year contract to design, build, finance and operate a solar plant, and a public utility commits to buy the power under a **PPA**. This **is a PPP**, similar in scope to a DBFOM.\n\nNotice that the label (lease, affermage, O&M) never decides the answer by itself. The features do."
+  },
+  "examTraps": [
+    {
+      "trap": "Assuming any management or O&M contract is a service PPP.",
+      "fix": "It must be long-term (usually 7+ years; below 5 is short), transfer significant risk and be performance-oriented. Cost-plus or input-based contracts are not PPPs."
+    },
+    {
+      "trap": "Confusing privatisation or regulated utilities with user-pays PPPs.",
+      "fix": "Both may charge users, but privatisation and regulated utilities have no procurement contract, unlimited time and full private ownership. A PPP is a time-limited contract with hand-back."
+    },
+    {
+      "trap": "Treating every renewable power project as a PPP.",
+      "fix": "A regulated authorisation with subsidised prices and no contract is not a PPP. A tendered DBFOM with a public offtaker under a PPA is a PPP."
+    },
+    {
+      "trap": "Thinking affermage or leases can be government-pays.",
+      "fix": "Affermage is never linked to government-pays contracts. The operator keeps its fee from user receipts and pays the rest to the authority. Leases are also mostly user-pays."
+    },
+    {
+      "trap": "Mixing up greenfield, brownfield and yellowfield.",
+      "fix": "Greenfield means new assets. Brownfield means assets already existing or in operation. Yellowfield (secondary stage) means significant renewal, refurbishment or expansion of existing assets."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Service PPP",
+      "meaning": "A long-term, at-risk, performance-oriented contract to manage existing infrastructure or provide a public service."
+    },
+    {
+      "term": "Cost-plus basis",
+      "meaning": "Payment of actual costs plus a margin rather than a pre-agreed amount; it transfers little or no risk."
+    },
+    {
+      "term": "Management contract",
+      "meaning": "A usually short (2–5 year) contract paying a fee to manage services or assets, with no commercial risk and no significant private investment."
+    },
+    {
+      "term": "Financial lease",
+      "meaning": "A long-term arrangement providing assets for periodic lease payments, used for tax or financing benefits, with little risk or management transfer."
+    },
+    {
+      "term": "Asset monetisation",
+      "meaning": "Leasing or concessioning an existing revenue-earning asset to a private partner, usually for an upfront fee."
+    },
+    {
+      "term": "Regulated investor-owned utility",
+      "meaning": "A privately owned utility running a business under regulation for an unlimited period; not a procurement method."
+    },
+    {
+      "term": "Public domain concession",
+      "meaning": "A long-term grant of public land for a regulated use, such as a port, without a PPP contract; not a PPP."
+    },
+    {
+      "term": "Affermage",
+      "meaning": "A French term for contracting out the operation of existing infrastructure, where the operator keeps its fee from receipts and pays the rest to the authority."
+    },
+    {
+      "term": "PFI",
+      "meaning": "Private Finance Initiative; the UK name mainly for government-pays DBFOM PPPs."
+    },
+    {
+      "term": "Greenfield / Brownfield / Yellowfield",
+      "meaning": "New infrastructure / existing or operating infrastructure / significant renewal or expansion of existing infrastructure."
+    }
+  ],
+  "summary": [
+    "Management or service contracts can be service PPPs only if they are long-term, transfer significant risk and are performance-oriented; cost-plus pay rules this out.",
+    "Management contracts, conventional O&M contracts and financial leases are not PPPs, but they can still be useful tools.",
+    "Long-term leases or concessions of profitable existing assets (asset monetisation) are private finance PPPs.",
+    "Privatisation, regulated utilities, public authorisations, public domain concessions and partial divestiture are not PPPs, because there is no procurement contract.",
+    "PPPs are classified by revenue source (the main classification), SPV ownership, scope and the relevance of private finance.",
+    "DBFOM-type names describe functions, BOT-type names describe ownership, and concession, lease and affermage describe legal title; all are PPPs only if the features are present.",
+    "Affermage is never government-pays; PFI is mainly government-pays; concession is mainly, but not always, user-pays."
+  ],
+  "slides": [
+    {
+      "title": "When a service contract is a PPP",
+      "points": [
+        "Transfers significant risk",
+        "Performance oriented",
+        "Relatively long term: seven years or more may do",
+        "Cost-plus pay means not a PPP"
+      ],
+      "narration": "Welcome to the last lesson on PPP scope. Not every PPP builds something new. A contract to manage existing infrastructure, or to run a service, can be a service PPP. But it needs three things. It must transfer significant risk, it must be focused on performance, and it must be fairly long. The Guide says contracts under five years are short term. Ten years is commonly seen as long term, and seven years or more may be enough, but that is a judgement. One quick disqualifier: if the partner is simply paid its actual costs plus a margin, very little risk moves, so it is not a PPP."
+    },
+    {
+      "title": "Management contracts and O&M",
+      "points": [
+        "Management contracts: usually two to five years",
+        "Fee-based, no commercial risk, no private capital",
+        "Conventional O&M: inputs, cost-plus, prescriptive",
+        "Useful and flexible, but not PPPs"
+      ],
+      "narration": "Management contracts bring private expertise into running a service, but they are not PPPs. They usually last two to five years. The contractor earns a fee, often with bonuses and penalties, but takes no commercial risk and invests no significant capital. That means no lenders checking the project, and fewer efficiency gains. Conventional O&M contracts are similar. They often pay for inputs, or on a cost-plus basis, with very detailed specifications. Don't dismiss them, though. O&M contracts are flexible, and management contracts can be more politically acceptable, for example in the water sector."
+    },
+    {
+      "title": "Leases and asset monetisation",
+      "points": [
+        "Financial leases: purely financial, little risk transfer",
+        "Monetisation: lease a profitable asset for upfront fee",
+        "Monetisation contracts are private finance PPPs",
+        "Value depends on price and use of proceeds"
+      ],
+      "narration": "Two kinds of lease can confuse you. A financial lease is a purely financial arrangement, used for tax benefits or cheaper finance. It moves little risk and no real management responsibility, so it is not a PPP. Asset monetisation is different. A government leases a profitable existing asset, such as a toll road, to a private partner for a long period, usually for a large upfront fee. The partner takes over operations, life-cycle costs and revenue. The Guide treats these as private finance PPPs. Whether they give value depends on a fair price and on what the government does with the money."
+    },
+    {
+      "title": "Privatisation is not a PPP",
+      "points": [
+        "Full private ownership versus hand-back",
+        "Regulation versus a detailed contract",
+        "Unlimited time versus contract term",
+        "Provider sets price versus agreed price"
+      ],
+      "narration": "Let's compare privatisation and PPP side by side. In a privatisation, the private company owns the asset outright. In a PPP, the government normally stays the legal owner, and the asset is handed back at the end. A privatised firm follows sector regulation, while a PPP partner follows a detailed contract. Privatisation has no time limit. A PPP ends when the contract ends. And a privatised firm has more freedom to set prices and service levels, while in a PPP the government specifies the service and the price is agreed in the contract."
+    },
+    {
+      "title": "Other arrangements outside procurement",
+      "points": [
+        "Regulated investor-owned utilities",
+        "Renewable authorisations with subsidised prices",
+        "Public domain concessions, up to 99 years",
+        "Partial divestiture through share sales"
+      ],
+      "narration": "Some other arrangements look like PPPs but are not. Regulated investor-owned utilities, such as private electricity or telecom companies, run a business under regulation with no time limit. A wind developer selling power under a subsidy regime has an authorisation, not a contract. But if a public body tenders a plant and commits to buy the power under a power purchase agreement, that is a PPP. Public domain concessions of land, for example for a port, leave the government as a passive regulator. And selling shares in a public company is a partial privatisation."
+    },
+    {
+      "title": "Four ways to classify PPPs",
+      "points": [
+        "Revenue source: user-pays or government-pays",
+        "Ownership: conventional, institutional, joint venture",
+        "Scope: infrastructure, integrated, O&M or service",
+        "Finance: co-financed or hybrid versus conventional"
+      ],
+      "narration": "The Guide classifies PPPs using four factors. First and most important, where the revenue comes from: users, or the government. Second, who owns the project company: fully private in a conventional PPP, publicly controlled in an institutional PPP, or shared in a joint venture. Third, the scope: an infrastructure PPP, an integrated PPP that also runs a service, or an O&M or service PPP with no capital investment. Fourth, how much public money is involved: co-financed or hybrid PPPs, versus conventional ones. Investors also talk about greenfield, brownfield and yellowfield projects."
+    },
+    {
+      "title": "Same PPP, many names",
+      "points": [
+        "DBFOM family describes functions",
+        "BOT family describes ownership",
+        "PFI: UK name for government-pays",
+        "Concession: civil code legal title"
+      ],
+      "narration": "Around the world, the same PPP can have many names. DBFOM, DBFM and DBFO describe what the partner does. BOT, BOOT and similar names describe who owns the asset and when it is transferred. But in many civil code countries the partner can't legally own public assets, so those names can confuse. PFI is the United Kingdom's name, mainly for government-pays contracts. Concession is a civil code legal title, traditionally for user-pays, though Chile and Spain also use it for government-pays. The key idea: a name never makes a PPP. The features do."
+    },
+    {
+      "title": "Leases, affermage and service contracts",
+      "points": [
+        "Lease: economic rights, mostly existing user-pays assets",
+        "Affermage: operator keeps fee, pays rest",
+        "Affermage is never government-pays",
+        "Only a few O&M contracts deserve PPP status"
+      ],
+      "narration": "Finally, the names for service PPPs. A lease gives the partner economic rights over an existing asset, and is mostly used for user-pays arrangements. Affermage is a French term. The operator collects the receipts, keeps its operator fee, and pays the rest to the authority. Remember that affermage is never used for government-pays contracts. A service contract has a precise meaning in civil code law, but in common law countries it just means outsourcing. And for O&M contracts, the Guide says only a few deserve to be called PPPs. Well done. You've completed the scope of PPPs."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which set of conditions makes a contract to manage existing infrastructure a service PPP under the Guide's broad definition?",
+      "options": [
+        "It includes private finance and is paid by users",
+        "It transfers significant risk, is performance-oriented and has a relatively long term",
+        "It is awarded without competition to an experienced operator",
+        "It is paid on a cost-plus basis over at least ten years"
+      ],
+      "answer": 1,
+      "explanation": "Service PPPs need significant risk transfer, performance orientation and a relatively long term. A cost-plus contract transfers little risk, so it is never a PPP, however long it lasts."
+    },
+    {
+      "question": "Consider these two statements. 1: Contracts below 5 years are generally regarded as short term. 2: A 10-year contract is commonly regarded as long term.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says contracts below 5 years are generally short term and 10 years is commonly long term. Seven years and above may be enough for service PPPs, as a matter of judgement."
+    },
+    {
+      "question": "Which statement about management contracts is correct according to the Guide?",
+      "options": [
+        "The private contractor usually assumes full commercial risk",
+        "The contractor is paid a fee and does not assume commercial risk",
+        "They normally require significant private capital investment",
+        "They always last longer than 15 years"
+      ],
+      "answer": 1,
+      "explanation": "In management contracts, the contractor earns a fee, often performance-based, and takes no commercial risk. There is no significant private capital, and they are usually two to five years long."
+    },
+    {
+      "question": "Why is a financial lease contract not regarded as a PPP?",
+      "options": [
+        "Because it transfers little risk and no significant management or performance responsibility",
+        "Because it is always shorter than five years",
+        "Because the lessor is always a state-owned bank",
+        "Because it is paid by users rather than the government"
+      ],
+      "answer": 0,
+      "explanation": "Financial leases are purely financial arrangements used for tax or financing benefits, and they do not transfer significant risk or management responsibility. They are in fact long-term contracts."
+    },
+    {
+      "question": "Which of the following arrangements IS regarded as a PPP by the Guide?",
+      "options": [
+        "A renewable developer selling power under a general subsidy regime with no contract",
+        "A 99-year public domain concession of port land under regulation",
+        "An IPO selling shares of the state airport operator",
+        "A tendered DBFOM of a power plant with a public offtaker under a Power Purchase Agreement"
+      ],
+      "answer": 3,
+      "explanation": "A tendered DBFOM with a committed public buyer under a PPA is a PPP. The other three have no procurement contract: they are a regulated authorisation, a public domain concession and a partial privatisation."
+    },
+    {
+      "question": "Which of the following is a feature of privatisation rather than of a PPP?",
+      "options": [
+        "The asset is handed back to the government when the contract expires",
+        "A detailed contract sets out the rights and obligations of each party",
+        "The time to operate the asset is unlimited",
+        "The government specifies the quantity and quality of service"
+      ],
+      "answer": 2,
+      "explanation": "In a privatisation, the time to operate is unlimited and the private sector owns the asset. Hand-back, a detailed contract and government-specified service are PPP features."
+    },
+    {
+      "question": "Complete the sentence: A PPP investment in the significant refurbishment or substantial expansion of existing infrastructure is described as ____.",
+      "options": [
+        "yellowfield or secondary stage",
+        "greenfield",
+        "brownfield",
+        "asset recycling"
+      ],
+      "answer": 0,
+      "explanation": "Yellowfield (secondary stage) refers to significant renewals, refurbishment or expansion. Greenfield means new assets, and brownfield means assets already existing or in operation."
+    },
+    {
+      "question": "Which of the following is NOT one of the factors the Guide uses to classify types of PPP?",
+      "options": [
+        "Source of funds for the partner's revenue",
+        "Ownership of the SPV",
+        "The legal tradition of the country, civil code or common law",
+        "Scope or object of the contract"
+      ],
+      "answer": 2,
+      "explanation": "The Guide classifies PPPs by revenue source, SPV ownership, contract scope and the relevance of private financing. Legal tradition affects the names used for PPPs, not the classification of PPP types."
+    },
+    {
+      "question": "Which statement about affermage is correct?",
+      "options": [
+        "It is a UK term for government-pays DBFOM contracts",
+        "It is always used for new infrastructure with large capital investment",
+        "The authority pays the operator a fixed availability fee from its budget",
+        "The operator keeps its fee from user receipts and pays the remainder to the authority"
+      ],
+      "answer": 3,
+      "explanation": "Affermage is a French term for operating existing infrastructure, where the operator keeps its fee and passes on the rest. It is never linked to government-pays contracts; the UK government-pays term is PFI."
+    },
+    {
+      "question": "Consider these two statements about PPP names. 1: BOT-type names focus on legal ownership and control of the asset. 2: DBFOM-type names include the word ownership in their definition.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "BOT, BOOT and similar names capture legal ownership, while DBFOM-type names describe functions and do not refer to ownership. Ownership is not at the heart of the PPP concept."
+    }
+  ]
+}

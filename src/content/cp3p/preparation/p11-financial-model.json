@@ -1,0 +1,245 @@
+{
+  "id": "p11-financial-model",
+  "level": "preparation",
+  "order": 11,
+  "title": "The financial model and technical feasibility",
+  "minutes": 18,
+  "guideRef": "Ch 4 §6–§7",
+  "objectives": [
+    "Explain what the appraisal financial model is, whose perspective it represents and which assessments use it.",
+    "Identify the main inputs: macroeconomic assumptions, CAPEX, OpEx, financial structure, revenues and contract term.",
+    "Distinguish project free cash flow from equity cash flow, and a base case from sensitivities and scenarios.",
+    "Apply the technical feasibility questions and choose the right response to high technical risk."
+  ],
+  "sections": [
+    {
+      "heading": "1. What the financial model is and who uses it",
+      "body": "Several appraisal exercises need the project described in financial terms. Each looks at a different set of cash flows:\n\n| Assessment | What is assessed |\n|---|---|\n| Economic feasibility | All costs and benefits to society (often a CBA) |\n| Commercial feasibility | Private sector cash flows under PPP delivery |\n| Fiscal feasibility (affordability) | Public sector cash flows under PPP delivery |\n| Impact on debt and deficit | Effects under public sector accounting rules |\n| Value for Money | Public (or user) cash flows under PPP versus traditional delivery |\n\nThe tool for commercial feasibility is the **financial model**: a spreadsheet covering the whole contract period, with all expected private investments, revenues, costs and taxes, plus parameters such as the cost of loans, cost of equity and inflation.\n\nAlthough the **project team** builds it, the model reflects the **private partner's** expected financial situation, that is, the life of the **Special Purpose Vehicle (SPV)**. This is why, in some countries, it is called a **shadow bid**: an estimate of the calculations a bidder would make before the tender. It can also serve as a reference upon bid evaluation. When mature, it produces the **financial base case**. It is later adjusted for other uses, such as fiscal consequences and the Public Sector Comparator.\n\nBuilding the model starts with existing data: the CBA, the costs from the technical requirements, benchmark projects, current data if the asset already exists, and earlier demand studies (for example traffic and revenue studies)."
+    },
+    {
+      "heading": "2. Macroeconomic assumptions",
+      "body": "Key long-term assumptions are **general and relative inflation, base interest rates, the risk-free rate and exchange rates**.\n\n**Nominal or real?** A model in **real terms** leaves out general inflation and expresses everything in today's money. This seems simpler, but it is only correct if revenues and all costs follow exactly the same inflation. In practice, costs change relative to each other over the long term, and some items, such as traditional debt repayments, are not affected by inflation. So good practice is to build the model in **nominal terms** (including projected inflation) whenever costs may vary relative to each other or revenue indexation may differ from cost changes.\n\nThe **risk-free rate** is the rate at which the government borrows for the relevant term. With a risk premium, it helps estimate the minimum return equity investors require. Some countries also use it as a discount rate in VfM and fiscal impact work.\n\n**Exchange rates** matter when borrowing is in foreign currency or when costs, such as imported equipment, are linked to a foreign currency.\n\nMarket data, such as hedge contracts or inflation-linked bonds, is the preferred source. Variables that strongly affect the results should be included in the sensitivity analysis."
+    },
+    {
+      "heading": "3. Capital and operating costs",
+      "body": "**CAPEX** covers expenses from the consortium's bid preparation until the asset is commissioned, usually before any revenue arrives. The main items are:\n- **Construction costs**: civil works, equipment and supervision, often through an **Engineering, Procurement and Construction (EPC)** contract. They are the largest item, so estimate them with prudence and even conservatism, and allocate them to the periods when they occur.\n- **Design costs**, **bidding costs** (which act like early equity) and **project company costs**.\n- **Environmental compensation costs**, which can be very large and depend on the environmental feasibility work.\n- **Insurance and guarantees**, including construction damage, **Advance Loss of Profit (ALOP)** for revenue lost through late completion, third-party liability and performance guarantees.\n- **Licences and permits**; **utility relocation and archaeological work**; **land acquisition**, if borne by the private partner.\n- **Financing costs**, such as **Interest During Construction**, arrangement and availability fees and lenders' advisers.\n- **Taxes**: VAT is usually embedded in construction costs; corporate tax must be modelled because of tax shields in construction.\n\n**OpEx and reinvestments** run through the whole contract, as yearly sums: direct company costs, ordinary maintenance, **major maintenance and life-cycle renewals** (often pre-funded through reserve accounts required by lenders or the contract), operation costs (often subcontracted), insurance and guarantees, communication costs and taxes."
+    },
+    {
+      "heading": "4. The financial structure of the project company",
+      "body": "The model must answer a basic project finance question: **where will the money for the initial investment come from?** Government support, such as viability gap funding, may cover part of it, but PPPs almost always involve a large amount of private finance. The usual structure is **equity** from shareholders plus **debt**, mainly bank loans taken by the project company.\n\nKey parameters:\n- **Leverage**: the share of capital funded by debt. Usually most funds are debt, because the project normally returns more than the interest rate. Higher leverage raises the return on equity (the positive leverage effect), but also makes the equity return more volatile. Leverage is capped by lenders and sometimes the contract, and debt costs rise as leverage grows, so there is an optimum level.\n- **Debt term**: a longer term means more total interest, but smaller repayments each period. This frees cash and helps the lenders' cover ratios.\n- **Repayment profile**: for example, flat repayments or constant amortization; it can be designed to meet lenders' covenants.\n- **Cost of debt**: base rate plus margin, plus fees and hedging costs.\n\nLenders' requirements, especially the **Debt Service Cover Ratio (DSCR)**, largely drive these parameters. Alternatives to commercial banks include government or state-owned enterprise loans, project bonds, institutional investors such as pension funds, multilateral development banks and export credit agencies. Assumptions should be realistic; be cautious about unusual structures that promise a lower cost of capital. Any planned public soft loans or public equity should also be modelled."
+    },
+    {
+      "heading": "5. Revenues, accounting and contract term",
+      "body": "**Revenues.** When the revenue regime includes government payments, these are an **output** of the commercial feasibility exercise, not an input, and they are linked to the affordability assessment. **User-charge revenue** must be estimated. This needs a demand forecast over the contract, a formula for **price elasticity of demand** (how demand reacts to price) and a reference price. Prices are usually regulated, with a price cap. Forecasting demand is hard, especially for new assets or sectors dependent on one commodity, and elasticity is even harder, often needing field research on willingness to pay. Detailed **traffic and revenue (demand) studies** are therefore often needed during appraisal. At this stage the reference price is a flexible modelling parameter, because the real price will depend on the contract and may come out of the tender. It can be set using policy directives, financial sustainability or legal requirements; in many projects the aim is the price that maximizes revenue. The revenue at that price then sets the floor for any upfront payment to the government, or the ceiling for co-financing or other public payments. Some countries later use it as the maximum bid price. Third-party revenues, such as service centres along a toll road, must also be estimated.\n\n**Accounting.** The bottom line, **Equity Free Cash Flow**, is a financial concept. But the model must also produce projected income statements and balance sheets, because: taxes are calculated on accounting profit, not cash flow; the statements support debt-impact analysis and banks' bankability checks; dividend limits are usually stated in accounting terms; and some countries use regulatory accounting for contract management.\n\n**Contract term.** The term is preliminarily set in the model and confirmed in structuring. Factors include life-cycle management and risk transfer, financial structure, affordability, commercial feasibility (especially in user-pays), political pressure, budget management, rigidity, flexibility and links to other contracts."
+    },
+    {
+      "heading": "6. Cash flows, base case, sensitivities and scenarios",
+      "body": "Two key outputs are the **free cash flow of the project** and the **free cash flow of the equity investor**.\n- **Project free cash flow** = all revenues minus all expenses, including CAPEX and OpEx. It is usually negative during construction, which is why capital must be raised. In operation, the free cash services debt and, if no obstacle exists, pays dividends.\n- **Equity cash flow** shows only the shareholders' view: the CAPEX they fund (not the part funded by loans) and the money returned to them as dividends or other repayments. It is a central input to commercial feasibility.\n\nThe model must be flexible. Typical **sensitivity drivers** include construction cost changes, renewal timing and cost, completion delays, operating cost peaks, demand changes, performance deductions, debt conditions, contract duration, specific risks and exchange rates.\n\nThe **base case** is the model's expected case, using the assumptions the team considers most likely. Its results should be better than conservative cases but worse than upside cases.\n\n- A **sensitivity** changes the value of one or more variables to see their impact on the model's key indicators.\n- A **scenario** is a complete, different case, with new values backed by a specific analysis, such as an 'optimistic demand scenario'.\n\nA good model does not produce one precise number. It identifies the main drivers and shows ranges in which its conclusions still hold. Modelling is **circular**: conclusions lead to new assumptions and new conclusions. The model may also be used in bid evaluation; for contract management, the Guide prefers the private partner's own model."
+    },
+    {
+      "heading": "7. Assessing technical feasibility",
+      "body": "Technical requirements are designed to be feasible, but explicit **technical feasibility criteria** improve transparency and highlight risks for the green light decision. The criteria should ask at least:\n- Does the design meet the need identified earlier?\n- Are the engineering and architectural requirements achievable, at a price comparable with similar infrastructure?\n- Is any proposed technology proven, or can its risks be managed or allocated? (Specifying a technology may constrain innovation.)\n- Does the design avoid significant geo-technical and other unbearable risks, and is there a complete geo-technical assessment?\n- Is the service scope viable from a regulatory perspective?\n- Can the service be specified as outputs and measured by performance indicators?\n- Can the main technological changes be estimated?\n\nIf all answers are a confident yes, the project is technically feasible. If some are a confident no, the requirements should be changed until the project is feasible; if that is impossible, **cancellation** should be considered.\n\nHigh technical risk arises with novel technology, difficult engineering (tunnels, bridges), uncertain geo-technical conditions, extreme natural risks, or unknown or very old utilities. Then the team should include industry experts, study comparable precedents and include the risks in market sounding. **Further tests should be done and shared with all bidders**, because leaving bidders to assess risks alone can push good bidders away or create an uneven playing field. If a risk cannot be described or quantified, it may be allocated to the government, but with **extreme caution**, as this weakens performance incentives. If the concern cannot be solved in the contract structure, the PPP case may be unsustainable, and cancellation of the project as a PPP may be recommended.\n\nClimate work also belongs here: a carbon reduction assessment, and adaptation measures of three types: **prevention** (reduce the likelihood of consequences), **preparation** (reduce severity) and **recovery** (support efficient recovery)."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Northport light rail model",
+    "body": "Imagine a team building the appraisal model for a light rail PPP. Construction costs are in local currency, but trains are imported and priced in euros, and fares will be indexed to consumer prices while wages rise faster. The team therefore builds the model in **nominal terms** and includes an exchange rate assumption.\n\nCAPEX includes construction, design, bidding costs, ALOP insurance, Interest During Construction and utility relocation. OpEx includes operations, routine maintenance and a reserve for mid-life train renewals.\n\nThe team assumes 75% debt and 25% equity, after checking recent deals. The base case uses the most likely ridership forecast. It then runs sensitivities (construction costs +10%, a one-year delay) and a full 'low ridership scenario' based on a separate demand study.\n\nTechnical feasibility flags old, unmapped utilities along the route. The team commissions surveys and shares the results with all bidders."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking the appraisal financial model reflects the government's cash flows.",
+      "fix": "The project team builds it, but it models the private partner's (SPV's) financial life, like a shadow bid. It is adjusted later for fiscal and PSC work."
+    },
+    {
+      "trap": "Assuming a real-terms model is always acceptable because it is simpler.",
+      "fix": "Real terms only work if revenues and costs follow exactly the same inflation. If costs vary relative to each other or indexation differs, model in nominal terms."
+    },
+    {
+      "trap": "Confusing project free cash flow with equity cash flow.",
+      "fix": "Project cash flow = all revenues minus all expenses. Equity cash flow counts only shareholder-funded CAPEX and money returned to shareholders."
+    },
+    {
+      "trap": "Mixing up a sensitivity and a scenario.",
+      "fix": "A sensitivity switches the value of one or more variables to see their impact. A scenario is a complete new case backed by specific analysis."
+    },
+    {
+      "trap": "Leaving bidders to investigate major technical risks themselves.",
+      "fix": "Good practice is further tests and sharing a consistent risk assessment with all bidders, to keep the tender competitive and fair."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Financial model", "meaning": "A spreadsheet of all expected private investments, revenues, costs, taxes and financing parameters over the contract life." },
+    { "term": "Shadow bid", "meaning": "The model's estimate of the calculations a private bidder would make before tendering." },
+    { "term": "Nominal terms", "meaning": "Values that include projected inflation, as opposed to real terms in today's money." },
+    { "term": "Leverage", "meaning": "The percentage of the total capital required that is funded by debt." },
+    { "term": "Interest During Construction", "meaning": "Interest the project company pays on loans before revenue starts, included in the financing needs." },
+    { "term": "Price elasticity of demand", "meaning": "How much demand changes when the price changes." },
+    { "term": "Equity cash flow", "meaning": "The cash flows from the shareholders' point of view: equity invested and dividends or other repayments received." },
+    { "term": "Base case", "meaning": "The model's expected case, using the assumptions the team thinks most likely." },
+    { "term": "Scenario", "meaning": "A complete alternative case with new values for key variables, backed by specific analysis." },
+    { "term": "Technical feasibility", "meaning": "A test that the design meets the need, is achievable at a fair price, and avoids unbearable technical risks." }
+  ],
+  "summary": [
+    "The appraisal financial model represents the private partner's (SPV's) finances; it is the tool for commercial feasibility.",
+    "Build it in nominal terms when costs and revenues may move differently with inflation.",
+    "Inputs: macroeconomic assumptions, CAPEX, OpEx and renewals, financial structure, revenues, accounting and contract term.",
+    "Leverage raises equity returns but also volatility; lenders' ratios like the DSCR cap it.",
+    "Key outputs are project free cash flow and equity cash flow.",
+    "The base case is the most likely case; sensitivities change variables, scenarios are full alternative cases.",
+    "Technical feasibility asks if the design meets the need at a fair price without unbearable risks; share risk studies with all bidders."
+  ],
+  "slides": [
+    {
+      "title": "Why we need a financial model",
+      "points": ["Many assessments need financial numbers", "The model shows the private partner's view", "Sometimes called a shadow bid"],
+      "narration": "In this lesson we build the financial model and test technical feasibility. Many appraisal exercises need numbers: commercial feasibility, affordability, debt impact and Value for Money. The financial model is a spreadsheet of all the private partner's expected investments, revenues, costs and taxes over the contract. Here is the key point: although the government's team builds it, it shows the private company's finances. That is why some countries call it a shadow bid. It predicts what a bidder would calculate."
+    },
+    {
+      "title": "Macroeconomic assumptions",
+      "points": ["Inflation, interest rates, exchange rates", "Prefer nominal terms", "Use market data where possible"],
+      "narration": "Every long-term model needs macroeconomic assumptions: inflation, interest rates, the risk-free rate and exchange rates. Should you model in real or nominal terms? Real terms look simpler, but they only work if all costs and revenues move with exactly the same inflation. In reality, wages, materials and debt repayments behave differently. So the Guide's good practice is to model in nominal terms. Exchange rates matter when you borrow abroad or import equipment. Use market data where you can."
+    },
+    {
+      "title": "Costs: CAPEX and OpEx",
+      "points": ["Construction is the biggest cost", "Include insurance, fees, interest during construction", "OpEx includes life-cycle renewals"],
+      "narration": "Now costs. CAPEX covers everything until the asset is commissioned. Construction is usually the largest part, so estimate it carefully and spread it over the right periods. Don't forget design, bidding costs, environmental compensation, insurances like advance loss of profit, permits, utility relocation, land if the partner buys it, and financing costs such as interest during construction. OpEx runs for the whole contract: operations, routine maintenance, major renewals, insurance, communication and taxes."
+    },
+    {
+      "title": "Financing the project company",
+      "points": ["Mix of equity and debt", "Leverage boosts returns and volatility", "Lenders' ratios cap the debt"],
+      "narration": "Where does the money come from? Usually a mix of shareholder equity and bank debt. Most of the funding is normally debt, because the project earns more than the interest rate. More debt raises the return on equity, but it also makes that return more volatile. Lenders limit how much debt they will lend, and debt gets more expensive as leverage rises, so there is an optimum. The debt term, repayment profile and cost of debt all matter too."
+    },
+    {
+      "title": "Revenues and the contract term",
+      "points": ["Government payments: an output of feasibility", "User revenue: demand, elasticity, reference price", "Term balances many factors"],
+      "narration": "For revenues, there is an important twist. If the government pays, those payments are an output of the commercial feasibility exercise, not an input. If users pay, you must forecast demand, estimate how demand reacts to price, and choose a reference price. In many projects, that is the price that maximizes revenue. This usually needs detailed demand studies. The model also needs accounting statements, because taxes and dividend limits depend on them. Finally, set a preliminary contract term, balancing affordability, risk transfer and flexibility."
+    },
+    {
+      "title": "Two cash flows",
+      "points": ["Project cash flow: all revenues minus expenses", "Equity cash flow: shareholders' money in and out", "Construction years are usually negative"],
+      "narration": "The model produces two key cash flows. The project free cash flow is all revenues minus all expenses. During construction it is usually negative, which is why the company must raise money. The equity cash flow looks only through the shareholders' eyes: the part of CAPEX they paid themselves, and the dividends they get back. Loans are left out. This equity view is a central input for judging whether investors will find the project attractive, which we study next lesson."
+    },
+    {
+      "title": "Base case and uncertainty",
+      "points": ["Base case: the most likely assumptions", "Sensitivity: change one or more variables", "Scenario: a full alternative case"],
+      "narration": "Forecasts are uncertain, so the model must be flexible. The base case uses the assumptions you think are most likely. Its results sit between the conservative and upside cases. A sensitivity changes one or more variables, like construction cost plus ten percent, to see the effect. A scenario is a complete alternative case, backed by its own analysis, like a low demand scenario. A good model does not give one perfect number. It shows the ranges where its conclusions still hold."
+    },
+    {
+      "title": "Technical feasibility",
+      "points": ["Does the design meet the need?", "Achievable at a comparable price?", "Share risk studies with all bidders"],
+      "narration": "Last, technical feasibility. Ask: does the design meet the need? Is it achievable at a price similar to comparable projects? Is the technology proven? Have geo-technical risks been assessed? Can the service be measured by outputs? If answers are no, change the requirements, or consider cancelling. For high-risk projects, add industry experts and do further tests, then share the results with all bidders. Giving risks to the government is possible, but only with extreme caution, because it weakens incentives."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A PPP unit's team builds the appraisal financial model for a hospital PPP. Whose financial situation should the model primarily represent?",
+      "options": [
+        "The ministry of finance's annual budget",
+        "The users of the hospital",
+        "The future private partner's project company (SPV)",
+        "The lenders' own balance sheets"
+      ],
+      "answer": 2,
+      "explanation": "Although the project team builds it, the model reflects the best available information about the private partner's future financial situation, that is, the SPV. Public cash flows are assessed in affordability and VfM work."
+    },
+    {
+      "question": "In a road PPP, tolls are indexed to consumer prices, but construction materials and wages are expected to rise faster than inflation. How should the model be built?",
+      "options": [
+        "In nominal terms, including projected inflation",
+        "In real terms, because this is always simpler and accurate",
+        "Without any inflation assumptions at all",
+        "In real terms for revenues and nominal terms for debt only"
+      ],
+      "answer": 0,
+      "explanation": "When costs vary relative to each other or revenue indexation differs from cost changes, the Guide recommends nominal terms. A real-terms model would distort the conclusions here."
+    },
+    {
+      "question": "A water PPP will import most of its pumps and borrow part of its debt in US dollars, while tariffs are in local currency. Which assumption becomes particularly important in the model?",
+      "options": [
+        "The contract hand-back conditions",
+        "The number of shareholders in the SPV",
+        "The design approach for the treatment plant",
+        "Exchange rates over the contract period"
+      ],
+      "answer": 3,
+      "explanation": "Exchange rates are especially relevant when borrowing is in foreign currency or part of the spending is indexed to foreign currency, such as imported equipment. The other items do not create currency exposure."
+    },
+    {
+      "question": "Which of the following is NOT normally included in the initial CAPEX of the financial model?",
+      "options": [
+        "Bidding costs of preparing the proposal",
+        "Interest During Construction",
+        "Routine cleaning of the asset during operations",
+        "Advance Loss of Profit insurance"
+      ],
+      "answer": 2,
+      "explanation": "Routine cleaning is ordinary maintenance, part of OpEx during operations. Bidding costs, Interest During Construction and ALOP insurance are listed by the Guide as capital-phase expenditures."
+    },
+    {
+      "question": "Shareholders of a project company want to raise leverage from 70% to 90% debt. What is the most likely effect, all else being equal?",
+      "options": [
+        "Lower equity returns and lower volatility",
+        "A higher return on equity but more volatile equity returns, possibly with costlier debt",
+        "No change, because leverage does not affect returns",
+        "Lenders will always accept any leverage level"
+      ],
+      "answer": 1,
+      "explanation": "Higher leverage raises the relative return on equity (the positive leverage effect) but increases the exposure of equity IRR to volatility. Lenders cap leverage and debt costs may rise as it increases."
+    },
+    {
+      "question": "An availability-payment school PPP is being modelled. How should the team treat the government's service payments in the model?",
+      "options": [
+        "As an output of the commercial feasibility exercise, linked to the affordability assessment",
+        "As a fixed input set before any feasibility work",
+        "As user-charge revenue requiring an elasticity study",
+        "As a concession fee paid to the authority"
+      ],
+      "answer": 0,
+      "explanation": "Government payments, where included in the revenue regime, are an output of the commercial feasibility exercise, determined in connection with affordability. Elasticity studies are needed for user-charge revenue."
+    },
+    {
+      "question": "A modeller changes only the construction cost by +15% to see how the equity IRR moves. The team then builds a separate 'low tourism' case based on a new demand study. How are these two exercises best described?",
+      "options": [
+        "Both are base cases",
+        "The first is a scenario and the second is a sensitivity",
+        "Both are sensitivities",
+        "The first is a sensitivity and the second is a scenario"
+      ],
+      "answer": 3,
+      "explanation": "A sensitivity switches the value of one or more variables to see the impact. A scenario is a complete new case backed by specific analysis, such as the low tourism case."
+    },
+    {
+      "question": "Consider these two statements. 1: Project free cash flow is usually negative during construction. 2: Equity cash flow includes the part of CAPEX funded by bank loans.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Project cash flow is usually negative while the asset is built, which is why capital must be raised. Equity cash flow considers only CAPEX financed by shareholders, not the part financed by loans."
+    },
+    {
+      "question": "Technical feasibility work on a tunnel PPP finds major uncertainty about ground conditions. What should the procuring authority do?",
+      "options": [
+        "Leave each bidder to investigate the ground on its own",
+        "Carry out further tests and share a consistent risk assessment with all bidders",
+        "Hide the uncertainty to keep bidder interest high",
+        "Automatically allocate all ground risk to the government"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says further tests should be made and all bidders given a consistent risk assessment; leaving bidders alone can reduce competition. Allocating risk to government is possible only with extreme caution."
+    },
+    {
+      "question": "After technical feasibility review, a team finds the design cannot meet the need, and no change to the technical requirements can fix this. What should the team consider?",
+      "options": [
+        "Proceeding anyway and fixing it during construction",
+        "Transferring the problem to bidders through a full design",
+        "Hiding the issue from the green light decision",
+        "Recommending cancellation of the project"
+      ],
+      "answer": 3,
+      "explanation": "If confident 'no' answers cannot be solved by changing the technical requirements, the Guide says a recommendation for cancellation should be considered. Proceeding regardless would be poor practice."
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "e14-termination-handback",
+  "level": "execution",
+  "order": 14,
+  "title": "Expiry, default, early termination, exit and handback",
+  "minutes": 14,
+  "guideRef": "Ch 7 §18, §20–§21",
+  "objectives": [
+    "Explain why early termination is a last resort and how contract management helps avoid it",
+    "Plan for expiry of a PPP contract, including asset condition, transition, intellectual property and staff",
+    "Distinguish termination for Procuring Authority default, Project Company default, force majeure and unilateral termination, and the compensation for each",
+    "List the authority's priorities when a contract is terminated",
+    "Describe the content of an exit strategy and the handback process for assets"
+  ],
+  "sections": [
+    {
+      "heading": "1. Early termination is a last resort",
+      "body": "Every PPP contract ends. It ends either at **expiry**, the planned end date, or through **early termination**. Early termination is truly a **last resort**. It follows a whole range of processes that start with an act of **default** by one of the parties or a **continuing force majeure** event. High-level principles for default, force majeure, early termination and compensation may be set in the PPP legal and regulatory framework and then applied in each contract.\n\nFrom a contract management view, the aim is to **avoid termination**. The team does this by:\n- managing performance well;\n- identifying and mitigating risks that could lead to default;\n- dealing with defaults **in good time** and in line with the contract;\n- managing disputes through the **Dispute Resolution Process (DRP)**.\n\nThis lesson builds on the earlier lessons about monitoring, performance points, step-in and fiscal risk. Those tools are what keep a troubled project away from termination."
+    },
+    {
+      "heading": "2. Preparing for expiry",
+      "body": "Expiry is **certain**, yet many authorities are unprepared, which leads to **difficult and costly transitions** at the end of the contract. The Guide says that **at least three years before expiry**, the authority should start examining its options:\n- Should it retender the PPP? On what terms?\n- What services will be needed, and what capital investment will they require?\n\nThese questions should be answered as rationally as the **original feasibility study**.\n\nAt the same time, the contract management team should:\n- **Assess the asset's condition** against the residual life required in the contract. If it falls short, start a **remedial plan**, which may include calling **asset condition security**.\n- **Assess the operational standards** of the Project Company so that a new operator can step in at the expiry date, and design a **Transition Program** to keep services running.\n- **Watch performance closely.** Near the end, the Project Company is no longer focused on long-term sustainability. Termination is not a useful remedy this late, and **lender oversight has disappeared** once the debt is repaid.\n- **Transfer intellectual property rights** that belong to the authority, especially in high-technology projects.\n- **Plan employee transfers** to a new operator or to the authority, following labour laws. This takes time and needs consultation with staff before expiry."
+    },
+    {
+      "heading": "3. The four routes to early termination",
+      "body": "**Procuring Authority default.** This shows a **severe failure of contract management**. It triggers large payments from the public purse and leaves the authority with an asset but perhaps no operator. The events are so severe that they completely frustrate the Project Company's ability to perform: **non-payment** of money owed, **expropriation** of the right to use the assets, and actions that prevent the Project Company from performing. It starts with a **breach notice** from the Project Company, usually followed by a remedy period. Such a notice must raise the alarm at the highest level of the authority and lead to immediate action to avoid termination.\n\n**Project Company default.** There are many possible defaults, from performance failures to **insolvency** and **cross-defaults** under the loan agreements. The authority will not be surprised if it monitors the Project Company's performance and financial indicators. Default leads to termination if the authority finds the remedy steps **inadequate**, so the authority should be explicit about what a remedial plan must contain and monitor it closely. **Lenders should get every opportunity to step in**, and even to sell the Project Company's rights to a new Project Company. The authority should keep assessing the likelihood of termination, talk to lenders and all relevant ministries, and decide only after full consideration of the **financial and non-financial consequences**.\n\n**Force majeure.** This comes from events beyond either party's control. Both parties must mitigate losses and try to keep the contract going. If the event continues for the period set in the contract, **typically 6 or 12 months**, **either party** may terminate. Insurance claims must be lodged carefully to get the maximum proceeds.\n\n**Unilateral termination (termination for convenience).** The authority decides to end the contract early. It has the **same effect and financial consequences as authority default**, because the authority causes it. The difference is the process: it is a **conscious decision** to end the contract, pay significant compensation and take over responsibility for the services. It must be planned like an expiry, covering assets, operations, intellectual property and service continuity, and the compensation must be **budgeted**."
+    },
+    {
+      "heading": "4. Effects of termination and the authority's priorities",
+      "body": "When a contract is terminated, the contractual relationship ends, and so does the provision of services under the contract. Assets are divided between the parties, outstanding obligations are settled, and **compensation on termination** is calculated.\n\nThe authority's priorities are:\n1. **Continuity of service**, where appropriate by securing the continued obligations of the Project Company and its operating subcontractors, and continuing to pay those contractors.\n2. **Securing all assets** that belong to the authority against loss.\n3. **Continued supply of spares and consumables** to keep operations running.\n4. **Securing the intellectual property** needed to operate the assets.\n5. **Transferring the employees** needed for continued operations to a suitable entity.\n6. **Calculating all liabilities** for settling claims, and **preparing claims** for amounts owed to the authority.\n7. **Appointing qualified people** to calculate compensation.\n8. **Continuous communication** with all stakeholders.\n\nThe Guide lists **continuity of service** first. This makes sense: the public still needs the hospital, the road or the water, so keeping the service going comes before settling the money."
+    },
+    {
+      "heading": "5. Compensation on termination",
+      "body": "The compensation payable depends on the **type of termination** and the contract. Broadly:\n\n| Reason for termination | Typical compensation |\n|---|---|\n| **Expiry** | **Nil** |\n| **Procuring Authority default** | Debt plus equity (including shareholder loans), plus return on equity, plus hedge breakage costs |\n| **Unilateral termination** | Same as authority default: debt plus equity, plus return on equity, plus hedge breakage costs |\n| **Project Company default** | Depends on the regime; typically the **market value** of the remaining contract period, or a **percentage of outstanding debt** |\n| **Force majeure** | Debt and all breakage costs, plus shareholder loans (less interest already paid on them) plus equity, less dividends and distributions already paid. In short: no return on equity |\n\nA simple way to remember: the more the authority is responsible, the more it pays. Where the authority caused the end, the investors are made whole **including their expected return**. Where nobody is at fault, debt and invested capital are covered but **not profit**. Where the Project Company is at fault, it receives only the **value that remains** or a share of debt.\n\nThe **most complex** case for contract managers is **Project Company default**. A percentage of outstanding debt is easy to calculate. The **market value** is hard. The true value is found by **retendering the remaining contract period** in an open, competitive market. This is often difficult in small PPP markets with few buyers. An acceptable alternative, though with a high risk of dispute, is to appoint an **expert** to calculate market value based on financial results and asset condition."
+    },
+    {
+      "heading": "6. The exit strategy",
+      "body": "The **exit strategy** is based on the contract's provisions on termination and expiry. It shows that the authority can bring the project to an efficient end and keep services running, either **in-house** or by **outsourcing** again. It should include:\n- an **analysis of options** for continuing the service after termination or expiry, with a recommended option;\n- plans for a **post-implementation review** of key deliverables, VfM, quality and innovation, carried out **within six months** of expiry or termination;\n- steps to build the **lessons learned** into the authority's daily work;\n- an **implementation plan** based on the contract's handback procedures;\n- plans for any **employee transfers** from the Project Company to the authority or a successor;\n- an estimate of the **resources and staff** the authority will need to manage the exit;\n- a **closure event** to celebrate the project's achievements and prepare contract management staff for their new roles.\n\nSome contracts give the authority an **option to extend**. This should be treated as just **one of the options** in the analysis. The authority should not extend by default without checking whether it offers better value than the alternatives.\n\nThe exit strategy should be reviewed at suitable points during the contract and revised so that **robust plans are in place three years before expiry**."
+    },
+    {
+      "heading": "7. Handback of the assets",
+      "body": "The 2021 EPEC guide stresses early preparation for handback. Mature market experience suggests planning should begin **five to seven years before expiry**. Key actions include enforcing maintenance obligations, ensuring final payments are made, reviewing the project scope against current strategy, planning a smooth transfer of asset management with little service disruption, and gathering information for a final evaluation.\n\n**Agreeing the handback condition.** The expected condition of the assets at expiry must be agreed and written into the contract. At **signature**, the parties must agree which assets the authority will need at the end. Where the authority needs them, the contract should provide for transfer of possession and **unencumbered title** at expiry.\n\n**The incentive problem.** In the last years, the Project Company has an incentive to **cut maintenance**, because money saved boosts returns. To prevent this, the contract must set a **procedure before expiry** to check asset condition and compliance. It usually involves a **survey** to:\n1. examine the assets;\n2. list every item needing remediation;\n3. develop a remediation programme;\n4. estimate the costs;\n5. inspect that remediation is properly completed.\n\n**Security.** It is common to require the Project Company to give the authority **acceptable security** for handback, as set in the contract. One approach is to retain a **percentage of yearly revenues or payments** in a reserve used for any investment needed to meet the handback condition.\n\n**Residual life.** The assets must have **some remaining useful life**. The aim is not that the authority can use them forever, but that it does not have to **replace all assets at the same time** on expiry. For example, toll road projects have required the road to be usable for **at least three years** after expiry, and a hospital project might require equipment to have at least **one-third of its original useful life** remaining on average."
+    }
+  ],
+  "example": {
+    "title": "Imagine: the end of the Lakeside Water PPP",
+    "body": "Imagine a 25-year water treatment PPP. In year 19, the utility authority starts handback planning, and in year 22 its exit strategy is fully updated.\n\nThe options analysis compares three choices: running the plant in-house, retendering a new PPP, or using the contract's **five-year extension option**. The team does not assume the extension is best; it tests each option for value. Retendering wins.\n\nThe **handback survey** finds that some pumps have far less residual life than the contract requires. The Project Company, with the debt repaid, has been cutting maintenance. The authority requires a remediation programme with costs and inspections, and prepares to draw on the **handback reserve** built from a percentage of yearly payments if the work is not done.\n\nThe team also plans the transfer of plant operators to the new operator under labour law, secures the software licences for the control system, and schedules a **post-implementation review** within six months of expiry.\n\nNow change one fact: in year 12, a flood keeps the plant out of action for longer than the 12 months set in the contract. Either party may terminate for **force majeure**, and compensation would cover debt and invested capital, less distributions already paid, but **no return on equity**."
+  },
+  "examTraps": [
+    {
+      "trap": "Assuming the authority pays compensation at expiry",
+      "fix": "Compensation at expiry is nil. The asset simply returns in the agreed condition; any security or reserve covers shortfalls in that condition."
+    },
+    {
+      "trap": "Treating unilateral termination as cheaper than authority default",
+      "fix": "Termination for convenience has the same financial consequences as authority default: debt, equity, return on equity and hedge breakage costs. Only the process differs."
+    },
+    {
+      "trap": "Giving force majeure compensation the same as authority default",
+      "fix": "Force majeure covers debt, breakage costs, shareholder loans and equity, less amounts already paid out, but no return on equity. Authority default adds the return on equity."
+    },
+    {
+      "trap": "Mixing up the timing numbers",
+      "fix": "Examine expiry options at least 3 years before expiry; robust exit plans in place 3 years before; handback planning 5 to 7 years before in mature markets; post-implementation review within 6 months after; force majeure termination typically after 6 or 12 months."
+    },
+    {
+      "trap": "Exercising a contract extension option by default",
+      "fix": "An extension right is only one option in the exit strategy analysis and must be tested for value against the other options."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Expiry",
+      "meaning": "The planned end of the PPP contract term; no termination compensation is payable."
+    },
+    {
+      "term": "Procuring Authority default",
+      "meaning": "Severe authority failure, such as non-payment or expropriation, that frustrates the Project Company's ability to perform."
+    },
+    {
+      "term": "Project Company default",
+      "meaning": "A failure by the Project Company, from poor performance to insolvency or loan cross-default, that may lead to termination if not remedied."
+    },
+    {
+      "term": "Unilateral termination",
+      "meaning": "The authority's conscious decision to end the contract early, also called termination for convenience, compensated like authority default."
+    },
+    {
+      "term": "Market value compensation",
+      "meaning": "Compensation on Project Company default based on the value of the remaining contract period, ideally found by retendering."
+    },
+    {
+      "term": "Exit strategy",
+      "meaning": "The authority's plan for ending the PPP efficiently and continuing services, with robust plans three years before expiry."
+    },
+    {
+      "term": "Handback",
+      "meaning": "The transfer of project assets to the authority at the end of the contract in the agreed condition."
+    },
+    {
+      "term": "Residual life",
+      "meaning": "The remaining useful life assets must have at handback, so the authority does not have to replace everything at once."
+    },
+    {
+      "term": "Post-implementation review",
+      "meaning": "An assessment of deliverables, VfM, quality and innovation carried out within six months of expiry or termination."
+    }
+  ],
+  "summary": [
+    "Early termination is a last resort; good monitoring, early action on defaults and the DRP help avoid it.",
+    "Start examining expiry options at least three years ahead: asset condition, transition, intellectual property and staff transfers.",
+    "Authority default and unilateral termination both pay debt, equity, return on equity and hedge breakage costs.",
+    "Project Company default pays market value (ideally by retendering) or a percentage of debt; force majeure pays capital but no return; expiry pays nil.",
+    "On termination, the first priority is continuity of service, then securing assets, spares, intellectual property and staff.",
+    "The exit strategy compares options, including any extension, plans a post-implementation review within six months, and is robust three years before expiry.",
+    "Handback needs agreed conditions, a pre-expiry survey, security such as a revenue-based reserve, and assets with residual life."
+  ],
+  "slides": [
+    {
+      "title": "Every PPP ends",
+      "points": [
+        "Expiry is planned and certain",
+        "Early termination is a last resort",
+        "Good contract management avoids termination"
+      ],
+      "narration": "Every PPP contract comes to an end. Usually that is expiry, the planned finish date. Sometimes it ends early, through default or a long force majeure event. The Guide is very clear that early termination is a last resort. The best protection is everything we have covered in earlier lessons: good monitoring, dealing with defaults early, giving lenders a chance to step in, and using the dispute resolution process properly. In this lesson we look at how contracts end, what it costs, and how the assets come home."
+    },
+    {
+      "title": "Getting ready for expiry",
+      "points": [
+        "Start at least three years before",
+        "Check asset condition against residual life",
+        "Plan staff, intellectual property and transition"
+      ],
+      "narration": "Expiry is certain, but many authorities still arrive unprepared, and the result is a costly, messy transition. So at least three years before the end, start asking questions. Do we retender? What services and investment will we need? Treat it like a new feasibility study. Check the asset condition, and call on security if it falls short. Plan for staff transfers and intellectual property. And watch performance closely, because near the end the company is no longer focused on the long term, and once the debt is repaid the lenders are no longer watching."
+    },
+    {
+      "title": "Who caused the end?",
+      "points": [
+        "Authority default: non-payment, expropriation",
+        "Project Company default: performance, insolvency",
+        "Force majeure: no fault, typically 6 or 12 months",
+        "Unilateral: authority's conscious choice"
+      ],
+      "narration": "There are four routes to early termination. Authority default means the government has failed badly, for example by not paying or by expropriating the asset. A breach notice from the company should set off alarm bells at the top. Project Company default ranges from poor performance to insolvency, and lenders should get every chance to fix it first. Force majeure is nobody's fault, and usually either party can end the contract after six or twelve months. Unilateral termination is the authority's own deliberate choice."
+    },
+    {
+      "title": "Who pays what?",
+      "points": [
+        "Expiry: nil",
+        "Authority default or unilateral: debt, equity and return",
+        "Force majeure: debt and capital, no return",
+        "Project Company default: market value or share of debt"
+      ],
+      "narration": "Here is a simple rule for compensation. The more the authority is to blame, the more it pays. At expiry, nothing is paid. If the authority defaults, or terminates for convenience, it pays the debt, the equity, the expected return on equity and hedge breakage costs. For force majeure, nobody is at fault, so investors get their debt and capital back, but no profit. If the Project Company defaults, it gets only the market value of the remaining contract, or a percentage of the debt."
+    },
+    {
+      "title": "Measuring market value",
+      "points": [
+        "Best method: retender the remaining period",
+        "Hard in small, illiquid markets",
+        "Alternative: expert valuation, higher dispute risk"
+      ],
+      "narration": "Project Company default is the hardest case to calculate. A percentage of outstanding debt is easy. But market value is tricky. The truest way to find it is to retender the remaining years of the contract in an open competition and see what bidders will pay. In small PPP markets, there may be few or no bidders. The alternative is to appoint an expert to value the contract based on financial results and asset condition. That works, but it carries a high risk of dispute."
+    },
+    {
+      "title": "When termination happens",
+      "points": [
+        "First priority: continuity of service",
+        "Secure assets, spares and intellectual property",
+        "Transfer key staff, calculate claims, communicate"
+      ],
+      "narration": "Suppose the worst happens and the contract is terminated. What comes first? Keeping the service running. People still need their hospital or their water. So the authority secures the continued work of the operators and keeps paying them if appropriate. Then it protects its assets, makes sure spares and consumables keep coming, secures the intellectual property needed to run the systems, and transfers the key staff. Only alongside all of this does it calculate claims and compensation, and it keeps talking to every stakeholder."
+    },
+    {
+      "title": "The exit strategy",
+      "points": [
+        "Compare options, including any extension",
+        "Review within six months after the end",
+        "Robust plans three years before expiry"
+      ],
+      "narration": "The exit strategy is the authority's plan for the finish line. It compares options for continuing the service, in-house or outsourced again. If the contract has an extension option, that is just one choice to test, not the automatic answer. The strategy plans a post-implementation review within six months of the end, staff transfers, resources and even a closure event to celebrate. It should be reviewed during the contract, so that robust plans are ready three years before expiry."
+    },
+    {
+      "title": "Handing back the assets",
+      "points": [
+        "Plan five to seven years ahead",
+        "Survey, remediate, inspect",
+        "Security and residual life protect the authority"
+      ],
+      "narration": "In the final years, the Project Company is tempted to cut maintenance, because savings go straight to profit. The contract fights this. Handback planning in mature markets starts five to seven years before expiry. A survey examines the assets, lists what needs fixing, sets a programme, costs it, and inspects the results. Security, such as a reserve built from a share of yearly revenue, backs this up. And the assets must keep some residual life, so the authority is not forced to replace everything at once."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A PPP contract for a toll road expires in four years. The Procuring Authority has not yet considered what happens next. What should it do now?",
+      "options": [
+        "Start examining its options, such as retendering, and assess asset condition",
+        "Wait until the final year, when asset condition is clearest",
+        "Extend the contract automatically to avoid a service gap",
+        "Terminate the contract early to gain more time for planning"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says that at least three years before expiry the authority should examine its options as rationally as a feasibility study, and assess asset condition. Mature-market experience even suggests starting handback planning five to seven years ahead. Extending by default is wrong, because an extension is only one option to test for value."
+    },
+    {
+      "question": "Near the end of a PPP contract, the Project Company's performance starts to slip. Why does the Guide warn that close attention is needed at this stage?",
+      "options": [
+        "Because deductions can no longer be applied after year 20",
+        "Because termination is not a useful remedy late on and lender oversight has disappeared",
+        "Because the independent certifier returns to supervise the operator",
+        "Because the Project Company can then claim compensation on expiry"
+      ],
+      "answer": 1,
+      "explanation": "At this late stage, termination is not a useful remedy and lender oversight disappears once the debt is repaid, while the Project Company is not focused on long-term sustainability. So the performance regime needs close attention."
+    },
+    {
+      "question": "A Procuring Authority receives a breach notice from its Project Company claiming that the authority has not paid for four months. What should the authority do?",
+      "options": [
+        "Wait for the Project Company to start the dispute resolution process",
+        "Ask the lenders to step in and pay the Project Company",
+        "Escalate to the highest level and act immediately to avoid termination",
+        "Terminate for convenience to control the compensation amount"
+      ],
+      "answer": 2,
+      "explanation": "Non-payment is a Procuring Authority default event. A breach notice must trigger alarm at the highest levels and immediate action to avert termination, which would bring large compensation payments."
+    },
+    {
+      "question": "A government wants to end a PPP early for policy reasons, although the Project Company is performing well. Which statement about this unilateral termination is correct?",
+      "options": [
+        "Compensation is the market value of the remaining contract period",
+        "Compensation is limited to the outstanding debt only",
+        "No compensation is due, because there is no default",
+        "It has the same financial consequences as Procuring Authority default"
+      ],
+      "answer": 3,
+      "explanation": "Termination for convenience has the same effect and financial consequences as authority default: debt plus equity, return on equity and hedge breakage costs. Market value applies to Project Company default."
+    },
+    {
+      "question": "Statement 1: If a force majeure event continues for the period set in the contract, only the Procuring Authority may terminate. Statement 2: Compensation on force majeure termination normally includes a return on equity.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "Either party may terminate after the contractual period, typically 6 or 12 months. Force majeure compensation covers debt, breakage costs, shareholder loans and equity, less distributions already paid, but not a return on equity."
+    },
+    {
+      "question": "A PPP is terminated for Project Company default. The contract bases compensation on market value, but the country has a small PPP market with few potential buyers. What approach does the Guide describe?",
+      "options": [
+        "Appoint an expert to calculate market value, accepting a higher risk of dispute",
+        "Pay debt plus equity plus return on equity instead",
+        "Pay nothing, because the Project Company caused the termination",
+        "Ask the defaulting Project Company to set the value itself"
+      ],
+      "answer": 0,
+      "explanation": "The best way to find market value is to retender the remaining period, but this is hard in illiquid markets. An acceptable alternative is an expert valuation based on financial results and asset condition, although it carries a high risk of dispute."
+    },
+    {
+      "question": "A hospital PPP has just been terminated. Which should be the Procuring Authority's first priority?",
+      "options": [
+        "Calculating the final compensation amount",
+        "Starting legal proceedings against the sponsors",
+        "Securing continuity of service, including the operating subcontractors",
+        "Holding a closure event for contract management staff"
+      ],
+      "answer": 2,
+      "explanation": "Continuity of service comes first, for example by securing the continued obligations of operating subcontractors and paying them. Compensation calculations and claims are also needed, but they do not keep patients treated."
+    },
+    {
+      "question": "A PPP contract gives the authority an option to extend the term by five years. How should the exit strategy treat this option?",
+      "options": [
+        "As the default choice, because it avoids a transition",
+        "As one option to be tested for value against the alternatives",
+        "As unavailable, since extensions are a form of renegotiation",
+        "As a decision for the Project Company's lenders"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the extension right should be one of the options in the exit strategy analysis, and the authority should not exercise it by default without checking whether it gives better value."
+    },
+    {
+      "question": "Which of the following is NOT an element of the exit strategy described in the Guide?",
+      "options": [
+        "Plans for a post-implementation review within six months of expiry or termination",
+        "An implementation plan based on the contract's handback procedures",
+        "An estimate of the resources and staff needed to manage the exit",
+        "A new refinancing plan to reduce the Project Company's final debt"
+      ],
+      "answer": 3,
+      "explanation": "The exit strategy includes options analysis, a post-implementation review, lessons learned, a handback implementation plan, employee transfer plans, resource estimates and a closure event. Refinancing is not part of it."
+    },
+    {
+      "question": "Five years before expiry of a school PPP, the authority worries that the Project Company will cut maintenance in the final years. What protection should the contract provide?",
+      "options": [
+        "A pre-expiry survey and remediation procedure, backed by security such as a revenue-based reserve",
+        "A requirement that all assets be brand new at handback",
+        "Automatic termination for convenience in the final year",
+        "Payment of a bonus if the Project Company keeps maintenance costs low"
+      ],
+      "answer": 0,
+      "explanation": "The contract should set a pre-expiry procedure, including a survey, remediation programme, costs and inspections, backed by acceptable security, such as retaining a percentage of yearly revenues. Assets need some residual life, not to be brand new."
+    }
+  ]
+}

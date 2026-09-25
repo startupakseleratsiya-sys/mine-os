@@ -1,0 +1,244 @@
+{
+  "id": "p18-risk-events-contract",
+  "level": "preparation",
+  "order": 18,
+  "title": "Compensation, relief and force majeure events; main risks in the contract",
+  "minutes": 16,
+  "guideRef": "Ch 5 §5.7–§5.9",
+  "objectives": [
+    "Distinguish compensation events, relief events and force majeure, and say what each gives the private partner",
+    "Explain how force majeure is defined differently in civil code and common law jurisdictions",
+    "State the typical allocation of the main construction, operating, financial and cross-phase risks",
+    "List what the contract must include to put the risk allocation into effect"
+  ],
+  "sections": [
+    {
+      "heading": "1. From allocation to contract: three categories of risk events",
+      "body": "In the previous lesson we decided **who** bears each risk. The default is that the private partner bears the risks of its scope: it must build in the time and form agreed and provide the service to the performance requirements, and this entitles it to its revenue. Everything else in the contract is an **exception** to that default.\n\nRisks that the public partner fully or partly retains enter the contract in three categories:\n\n| Category | What the private partner gets | Example |\n|---|---|---|\n| **Compensation event** | Financial compensation, to the extent it is financially impacted | A government-ordered change in service |\n| **Relief event** | Excused from under-performance or breach caused by the event, but **no money** | Time extension for unforeseen archaeological finds |\n| **Force majeure** | Its own status in the contract (and often in law); may lead to early termination | War, terrorism, natural disaster |\n\n**Compensation events** can aim to restore the **financial equation** of the contract (the expected equity IRR and bankability) or compensate only part of the loss. So they may be:\n- **full** compensation events;\n- **partial** compensation events;\n- **shared risk** events.\n\n**Relief events** give time relief. The private partner will not be penalised for the delay or failure caused by the event, but it absorbs the cost itself.\n\n**Force majeure** could in theory be seen as a compensation or relief event. It gets its own category because it is widely recognised internationally, is often defined in law, and can drive the contract to **early termination**.\n\nKey drafting rules:\n- **Compensation and relief events** should always be defined **clearly, precisely and exhaustively**, because they are exceptions to the general rule. (Force majeure is different: in civil code countries a full list may not be possible, as section 2 explains.)\n- For all three categories, the contract should describe the **procedures** to assess whether the event happened, the **conditions** for access to relief or compensation, and the **information and communication** duties.\n- Relief or compensation is only available **to the extent the impact could not have been prevented by due care and diligence** of the private partner."
+    },
+    {
+      "heading": "2. Force majeure: definitions and legal systems",
+      "body": "All force majeure events share some features. Their impact is **impossible to estimate** and their likelihood very difficult to estimate. They are always **exogenous**: unrelated to the private partner's performance and caused by external agents such as wars, riots or natural disasters.\n\nHow force majeure goes into the contract depends on the legal system:\n- **Common law** jurisdictions give the parties freedom to agree terms. The contract usually includes an **exhaustive list** of events that count as force majeure.\n- **Civil code** countries often define force majeure in law, leaving little room to adjust it. The recommended practice is a **non-exhaustive list plus a catch-all definition** that captures every event within the legal concept.\n\nIf the legal definition in a civil code country is too narrow, this should not stop the authority, where the procurement framework allows, from defining a wider term or adding specific risks similar to force majeure for a particular project. Some civil code countries also have a legal concept of **unforeseen circumstances**; if used, the contract must define precisely what counts as unforeseen.\n\nDefinitions differ between countries. The Guide's examples:\n- **Australia** includes acts of God (storms, earthquakes, floods, and so on) as well as riots, terrorism and war.\n- The **UK** standard lists war, armed conflict, terrorism and certain contamination, and treats **acts of God as a relief event**, not force majeure.\n- **South Africa** counts war, terrorism and contamination as force majeure only **to the extent they are uninsurable**.\n\nA related idea from section 5.6: direct acts of government against the project, sometimes called **political force majeure**, should be borne by the public partner and **not shared**, because they are under government control. Some practitioners call these events **Material Adverse Government Action**."
+    },
+    {
+      "heading": "3. Main risks in design and construction",
+      "body": "The Guide gives a typical allocation for each main risk. The right treatment always depends on the project.\n\n- **Land availability and acquisition.** If the site is not available at contract signature, delays and extra costs follow, and uncertainty may cause **no bids**. In social infrastructure the site should be available **at tender launch**. In linear infrastructure (roads, rail) land may still be under acquisition. Many countries treat land acquisition as a public task; in some others it is common to delegate it to the private partner. Good practice: the public party **retains the risk of acquisition costs being higher than expected**. Where the risk is shared, set a **cap** on private exposure, or at least treat extraordinary cost deviations as a compensation event.\n- **Environmental risk.** An adverse environmental assessment may force design changes, extra CAPEX and delay. This is essentially a **design risk** and is generally **private**. Exception: **pre-existing contamination** (for example on an old power plant or waste dump site) is usually taken by the government. The authority also remains responsible for adverse assessments linked to the specifications it set in the contract. Although this risk is usually listed under construction, it can also hit operating costs, for example a breach of environmental law found during operations, or a change in environmental law.\n- **Other permits.** The private partner should anticipate needed permits; key project permits are preferably secured in advance.\n- **Design risk.** The private partner usually develops the design, so it bears design risk.\n- **Construction risk.** The risk that actual costs or time exceed projections. Generally **private**, passed to construction contractors, with relief or compensation for defined events such as force majeure.\n- **Completion and commissioning.** Failing to finish as prescribed, or the asset failing to deliver the expected service. A construction or design risk, borne by the private partner.\n\n**Site-specific risks**: unexpected ground conditions, archaeological finds, utility relocation, latent defects in existing assets, and squatters. These should be detected during appraisal. Depending on likelihood, impact and available information, they may become **relief events** and some **compensation events**. But the Guide says **full relief is not good practice**: the private partner should keep an incentive, paid for through the risk premium, to reduce and manage these events."
+    },
+    {
+      "heading": "4. Main risks during operations",
+      "body": "- **Revenue risk in user-pays (volume risk).** The risk that demand or usage is below forecast. It is at the heart of user-pays and generally **private**. However, sharing or limiting it (for example a **minimum traffic or minimum revenue guarantee**) may give VfM when the likelihood is very significant. It should be tested with the market and with stress tests and breakeven analysis. The same thinking applies to volume risk in usage-based government-pays PPPs.\n- **Inflation and indexation.** The contract must set clear indexation rules. The risk that cost inflation is not covered by indexation is generally **private**. But if the authority keeps the power to set tariffs in a user-pays PPP and does not approve the expected level, the contract should include measures to **neutralise the impact**.\n- **Availability and quality (performance risk).** Failing performance requirements reduces revenue directly through **abatements** or indirectly through **penalties or liquidated damages**. This is always **private**: it is the essence of the PPP.\n- **Other revenue risks**: credit or counterparty risk, third-party and ancillary revenues, foreign exchange for cross-border investors, and **fraud or non-payment by users** (a crucial risk in many emerging markets). Generally private, with possible qualifications, especially for non-payment.\n- **Maintenance and operating costs.** A natural private risk, closely linked to design quality and life-cycle costs. Common exceptions in some projects: utility costs (especially energy), soft services, insurance premium costs, and the **inverse risk of usage** (demand higher than expected when revenue is not linked to usage).\n- **Technology obsolescence.** Generally private, unless it comes from mandatory technology upgrades, which fall under change in law.\n- **Residual value and hand-back.** Private: the asset must meet the contract's hand-back requirements."
+    },
+    {
+      "heading": "5. Financial risks",
+      "body": "- **Availability of finance.** The risk that debt is not available at commercial close or before construction, or only on prohibitive terms. Raising finance is an essential PPP obligation, so the risk is generally **private**. But the government must **mitigate it** through proper preparation and appraisal, and in some emerging-market projects may share it with public institutional finance.\n- **Financial costs and interest rates.** Another essential private risk. The exception: the **base interest rate risk between bid submission and financial close** is taken back or shared by the authority in a number of countries.\n- **Refinancing.** Some jurisdictions require the private partner to **share refinancing gains** with government. In some projects the government also shares the downside.\n- **Foreign exchange (forex).** A major issue with hard-currency cross-border debt. Where fluctuations are small and the country has strong purchasing power parity, an **inflation adjustor** may be enough, because inflation changes capture forex movements."
+    },
+    {
+      "heading": "6. Risks across both phases",
+      "body": "- **Change in law.** A general change in law that affects **any business** is borne by the **private** partner. Good practice is to include sharing and limiting mechanisms for **discriminatory** changes (aimed at the specific project) and **specific** changes (affecting only the project's sector).\n- **Changes in services and scope.** The authority should be able to order changes within legal limits, but the contract must give **fair compensation** under clear rules.\n- **Force majeure.**\n  - *Acts of God* (hurricanes, earthquakes, storms): controllable by neither party, so **shared**, and defined in the contract if possible.\n  - *Political risks* (war, terrorism, nuclear contamination): low likelihood, unmeasurable effects, typically **borne by the government**, which is better placed to mitigate them. Some contracts also include malicious damage, and more rarely riots.\n- **Uninsurable risks.** A risk the contract requires to be insured may become uninsurable during the contract. The contract should then give **relief from the obligation to insure**.\n- **Early termination.** For the private partner, the risk that the termination compensation is too low to meet its obligations. The authority cares because an unfair, unbalanced or unclear compensation method may cost it competitive bids or cause **no bids**."
+    },
+    {
+      "heading": "7. Writing risk allocation into the contract",
+      "body": "Risk allocation is **implicit in the revenue regime and the scope of obligations**. Meeting construction obligations and service performance targets is generally at the private partner's risk and reward. The exceptions (relief, compensation and force majeure events) give time relief or time and money, fully or partly.\n\nIn drafting terms:\n- many relief and compensation events appear as **qualifications on obligations** in the design and construction, operation and maintenance, performance and payment mechanism provisions;\n- some risks get **stand-alone provisions**;\n- some, such as force majeure, also affect the **termination clauses**.\n\nWith respect to risk allocation, the contract **must** include:\n1. A clear definition of the events that entitle the private partner to relief and compensation, or only relief, with precise **materiality or significance thresholds**.\n2. A clear definition of **force majeure**, or a reference to the legal definition.\n3. Clear **procedures** to assess whether an event occurred and the conditions to access relief or compensation, which is only available where due care and diligence could not have prevented the impact.\n4. An **all risk clause**: any risk not specifically described otherwise belongs to the private party.\n5. **Force majeure rules**: what happens to service and payment during the event (whether to pay, and how much), and when either party may **terminate** for force majeure.\n\nFinally, the Guide stresses **climate change**. Inadequate protection from climate risks can threaten project viability for everyone. Climate risk allocation should be discussed openly among all parties to find each party's real ability to manage each climate risk."
+    }
+  ],
+  "example": {
+    "title": "Lakeshore Light Rail: classifying the events",
+    "body": "Imagine the fictional region of Lakeshore signs an availability-based light rail PPP. In year three, four things happen.\n\n1. **Archaeological remains** are found that were not shown in the authority's archaeological study. The contract lists this as a **relief event**: the private partner gets extra time and no deduction for the delay, but it pays the extra costs. It could not have prevented the find with due care.\n2. The region **orders two extra stations**. This is a change in service ordered by the authority: a **compensation event**, with fair compensation under the contract's change rules.\n3. A **national law** raises the minimum wage for all employers. This is a general change in law affecting any business, so it stays with the **private partner**. No compensation.\n4. A **major earthquake** damages a viaduct. The contract, drafted in a common law jurisdiction, lists earthquakes as **force majeure**. Its force majeure rules say how much availability payment continues during the outage, and when either party may terminate if the service cannot resume.\n\nIf the region had instead passed a law that raised taxes **only on this light rail company**, that discriminatory change in law would be the region's risk."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing a compensation event with a relief event",
+      "fix": "A compensation event gives money, fully or partly. A relief event only excuses the private partner from the consequences of non-performance, such as time relief, with no financial compensation."
+    },
+    {
+      "trap": "Thinking force majeure is always defined the same way",
+      "fix": "In common law, the contract usually lists events exhaustively. In civil code countries, force majeure is often defined by law, so use a non-exhaustive list plus a catch-all. The UK even treats acts of God as relief events."
+    },
+    {
+      "trap": "Treating every change in law as a government risk",
+      "fix": "General changes in law that affect any business are private risk. Only discriminatory or sector-specific changes should have sharing or limiting mechanisms."
+    },
+    {
+      "trap": "Believing site risks such as ground conditions should get full relief",
+      "fix": "The Guide says full relief is not good practice. Site-specific risks may be relief events or partial compensation events, so the private partner keeps an incentive to manage them."
+    },
+    {
+      "trap": "Forgetting the all risk clause",
+      "fix": "Any risk not specifically described otherwise in the contract is allocated to the private partner. Exceptions are listed; the default is private risk."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Compensation event", "meaning": "A risk event after which the private partner receives full or partial financial compensation for its financial impact." },
+    { "term": "Relief event", "meaning": "A risk event that excuses the private partner from under-performance or breach caused by it, without financial compensation." },
+    { "term": "Force majeure", "meaning": "Exogenous events, such as war or natural disasters, whose impact cannot be estimated; they have special contract status and may lead to termination." },
+    { "term": "Financial equation", "meaning": "The expected equity IRR and bankability of the contract, which full compensation aims to restore." },
+    { "term": "Catch-all definition", "meaning": "Wording that makes the force majeure clause cover every event inside the legal concept, used with a non-exhaustive list in civil code countries." },
+    { "term": "All risk clause", "meaning": "A contract clause saying that any risk not described otherwise is allocated to the private party." },
+    { "term": "Discriminatory change in law", "meaning": "A change in law aimed at the specific project, which should not be left fully with the private partner." },
+    { "term": "Inverse risk of usage", "meaning": "The risk of demand being higher than expected when revenue is not linked to usage, raising costs without extra income." },
+    { "term": "Material Adverse Government Action", "meaning": "A term some practitioners use for direct government acts against the project, borne by the public partner." }
+  ],
+  "summary": [
+    "Retained risks enter the contract as compensation events (money), relief events (time, no money) or force majeure (own status, may end the contract).",
+    "Relief or compensation applies only where due care and diligence could not prevent the impact.",
+    "Common law: exhaustive force majeure list; civil code: non-exhaustive list plus catch-all.",
+    "Design, construction, commissioning, performance, operating costs and finance risks are generally private.",
+    "Land acquisition cost overruns, pre-existing contamination, discriminatory law changes and political force majeure are generally public.",
+    "Acts of God are shared; site risks may get relief or partial compensation but not full relief.",
+    "The contract needs clear event definitions and thresholds, a force majeure definition, procedures, an all risk clause and force majeure rules."
+  ],
+  "slides": [
+    {
+      "title": "Three kinds of exceptions",
+      "points": ["Compensation event: money", "Relief event: time, no money", "Force majeure: its own category"],
+      "narration": "In this lesson we turn risk decisions into contract language. The starting point is that the private partner carries the risks of its scope. The exceptions come in three types. A compensation event gives the private partner money, either fully or partly. A relief event only excuses it, for example with more time, but no money. And force majeure gets its own category, because it is recognised in law in many countries and can even end the contract. Learn these three categories well, because the exam often asks you to tell them apart."
+    },
+    {
+      "title": "Two conditions for every exception",
+      "points": ["Defined clearly and exhaustively", "Only if due care could not prevent it", "Clear procedures and notices"],
+      "narration": "Because these are exceptions, the contract must define them very precisely. Vague wording invites disputes. There is also an important condition. The private partner only gets relief or compensation to the extent that the impact could not have been prevented with due care and diligence. So if the operator was careless and made things worse, it cannot claim for that part. The contract must also set the procedure: how to prove the event happened, what notices to give, and what information to share."
+    },
+    {
+      "title": "Force majeure in different legal systems",
+      "points": ["Common law: exhaustive list", "Civil code: non-exhaustive list plus catch-all", "Definitions vary by country"],
+      "narration": "Force majeure events are external, like war or natural disasters, and their impact cannot really be estimated. How we write them depends on the legal system. In common law countries, the parties are free to agree, so the contract usually has an exhaustive list. In civil code countries, the law often defines force majeure, so we use a non-exhaustive list plus a catch-all definition. Countries also differ. For example, the UK standard treats acts of God as relief events, not force majeure."
+    },
+    {
+      "title": "Design and construction risks",
+      "points": ["Design, construction, commissioning: private", "Land cost overruns: public, or capped", "Pre-existing contamination: usually public"],
+      "narration": "Now the main risks. Design, construction and commissioning risks go to the private partner, who usually passes construction risk to its contractors. Land is different. The site should be available at tender launch in social infrastructure, and the public side should keep the risk of land acquisition costing more than expected, or at least cap the private share. Environmental risk is mostly a design risk and is private, except contamination that was already there before the project. Site surprises, like archaeology, may get relief, but not full relief."
+    },
+    {
+      "title": "Operating risks",
+      "points": ["Demand risk: private in user-pays", "Performance risk: always private", "Minimum revenue guarantees may add VfM"],
+      "narration": "During operations, demand risk is at the heart of a user-pays project, so it is generally private. But when the risk is very significant, sharing it with a minimum traffic or revenue guarantee can give better Value for Money. Performance risk, meaning availability and quality, always stays with the private partner. That is the whole point of a PPP. Maintenance and operating costs are also private, with some exceptions such as energy costs. And if the authority keeps control of tariffs, the contract must protect the private partner from its tariff decisions."
+    },
+    {
+      "title": "Financial risks",
+      "points": ["Finance availability and interest: private", "Base rate before financial close may be shared", "Refinancing gains often shared"],
+      "narration": "Financial risks are mostly private too. Raising finance is an essential obligation of the private partner, though the government should reduce this risk with good preparation. Interest rate risk is private, with one common exception. Between bid submission and financial close, the base interest rate can move, and many countries share or take back that risk. Some jurisdictions also require the private partner to share refinancing gains. For foreign exchange, an inflation adjustor may be enough when currency movements are small."
+    },
+    {
+      "title": "Change in law and force majeure",
+      "points": ["General change in law: private", "Discriminatory or specific: shared or limited", "Acts of God shared; political risks public"],
+      "narration": "Some risks can hit in any phase. A change in law that affects every business is private risk, like any company would face. But if a law targets this project, or only its sector, the contract should share or limit the impact. Changes in service ordered by the authority must be fairly compensated. For force majeure, natural disasters are shared, because nobody controls them. Political events like war or terrorism are typically borne by the government. And if a required insurance becomes unavailable, the private partner is relieved from the duty to insure."
+    },
+    {
+      "title": "What the contract must contain",
+      "points": ["Event definitions and thresholds", "Force majeure definition and rules", "Procedures and an all risk clause"],
+      "narration": "To finish, what must the contract include? First, clear definitions of relief and compensation events, with materiality thresholds. Second, a definition of force majeure, or a reference to the law. Third, procedures to assess events and claim relief. Fourth, an all risk clause, which says that any risk not described elsewhere belongs to the private partner. And fifth, force majeure rules, including payment during the event and when either side can terminate. Remember: a good allocation is useless if the contract does not say clearly when and how it applies."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "During construction, a private partner finds archaeological remains not shown in the authority's study. The contract gives it a time extension and protects it from delay penalties, but pays nothing. How is this event classified?",
+      "options": [
+        "A full compensation event",
+        "A relief event",
+        "A force majeure event",
+        "A shared risk event"
+      ],
+      "answer": 1,
+      "explanation": "A relief event excuses under-performance, such as delay, but grants no financial compensation. A compensation event, full or shared, would give money."
+    },
+    {
+      "question": "A procuring authority in a common law country is drafting the force majeure clause. What approach does the Guide describe as common in this case?",
+      "options": [
+        "Refer only to the civil code definition with no list",
+        "Leave force majeure undefined so courts can decide",
+        "Treat all risks outside the private scope as force majeure",
+        "Include an exhaustive list of events that will be construed as force majeure"
+      ],
+      "answer": 3,
+      "explanation": "In common law jurisdictions the parties are free to agree terms, so an exhaustive list is common. The non-exhaustive list plus catch-all is the recommended practice for civil code countries where the law defines force majeure."
+    },
+    {
+      "question": "Which statement about compensation events is correct?",
+      "options": [
+        "They may be full, partial or shared, and can aim to restore the financial equation",
+        "They only excuse late performance and never involve payments",
+        "They apply even when due care would have prevented the impact",
+        "They must always restore the private partner's full equity IRR"
+      ],
+      "answer": 0,
+      "explanation": "Compensation events may be full, partial or shared, and full compensation aims to restore the expected equity IRR and bankability. Relief is only available where due care could not prevent the impact, and not all compensation is full."
+    },
+    {
+      "question": "A government passes a new tax that applies only to the company running one toll road PPP. How should a well-drafted contract treat this risk?",
+      "options": [
+        "As a private risk, like any general change in law",
+        "As an act of God to be shared equally",
+        "As a discriminatory change in law, with the impact taken back by the authority",
+        "As a relief event giving only extra time"
+      ],
+      "answer": 2,
+      "explanation": "A change aimed at the specific project is discriminatory. The Guide lists discriminatory changes in law among risks that should never be transferred, and recommends contract mechanisms so the public side takes back the impact. Only general changes affecting any business stay with the private partner."
+    },
+    {
+      "question": "An authority is structuring a road PPP where some land is still being acquired and final prices will be set by courts. What does the Guide consider good practice for the risk of acquisition costs exceeding estimates?",
+      "options": [
+        "Transfer it fully to the private partner with no cap",
+        "Retain it with the public party, or cap the private partner's exposure if shared",
+        "Treat it as force majeure allowing termination",
+        "Ignore it, as land costs are not part of the contract"
+      ],
+      "answer": 1,
+      "explanation": "The Guide considers it good practice for the public party to retain land acquisition cost overrun risk; if it is shared, a cap should limit the private partner's exposure, or extraordinary cost deviations should at least be a compensation event. Force majeure does not fit, because land cost overruns are not an external event like war or a natural disaster."
+    },
+    {
+      "question": "A waste plant PPP will be built on the site of an old dump that is already contaminated. Who usually bears the risk of this pre-existing contamination?",
+      "options": [
+        "The private partner, because environmental risk is a design risk",
+        "The construction contractor, through a turnkey contract",
+        "The lenders, through their security package",
+        "The government, which usually accepts responsibility for pre-existing problems"
+      ],
+      "answer": 3,
+      "explanation": "Environmental risk is generally a private design risk, but the exception is pre-existing contamination, which the government usually accepts. The tempting first option ignores this exception."
+    },
+    {
+      "question": "In a user-pays toll road, demand forecasts are very uncertain and bidders say the volume risk is too high. What might give better VfM, according to the Guide?",
+      "options": [
+        "Sharing or limiting the risk, for example with a minimum traffic or revenue guarantee",
+        "Transferring performance risk to the government instead",
+        "Removing indexation from the tariff",
+        "Treating low demand as a force majeure event"
+      ],
+      "answer": 0,
+      "explanation": "Volume risk is generally private in user-pays, but sharing or limiting it through minimum traffic or revenue guarantees may give VfM when the likelihood is very significant. Low demand is not force majeure, and performance risk always stays private."
+    },
+    {
+      "question": "During operations, a type of insurance the contract requires becomes unavailable in the market. What should the contract provide?",
+      "options": [
+        "Termination for private partner default",
+        "Full compensation for all lost profit",
+        "Relief from the obligation to be insured",
+        "An automatic tariff increase"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says that when a required risk becomes uninsurable during the contract, the contract should relieve the private partner from the obligation to insure. Treating it as default would punish the private partner for a market event."
+    },
+    {
+      "question": "Which of the following is NOT something the Guide says the contract must include regarding risk allocation?",
+      "options": [
+        "A clear definition, or legal reference, of force majeure",
+        "An all risk clause giving unlisted risks to the private party",
+        "Procedures to assess whether a relief or compensation event occurred",
+        "A clause giving all unlisted risks to the procuring authority"
+      ],
+      "answer": 3,
+      "explanation": "The all risk clause does the opposite: any risk not described otherwise belongs to the private party. The other three items are on the Guide's list of contract must-haves."
+    },
+    {
+      "question": "Consider two statements. 1: The UK standardisation of PFI contracts treats acts of God as a relief event. 2: Political force majeure events such as war are typically borne by the private partner.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide notes the UK treats acts of God as relief events. Political risks such as war and terrorism are typically borne by the government, which is better placed to mitigate them, so statement 2 is false."
+    }
+  ]
+}

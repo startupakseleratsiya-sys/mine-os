@@ -1,0 +1,311 @@
+{
+  "id": "p13-economic-fiscal-feasibility",
+  "level": "preparation",
+  "order": 13,
+  "title": "Economic, fiscal, environmental, social and legal feasibility",
+  "minutes": 19,
+  "guideRef": "Ch 4 §10–§15",
+  "objectives": [
+    "Explain which new Appraisal Phase data must be fed back into the cost-benefit analysis.",
+    "Estimate direct and contingent liabilities and apply the three typical affordability tests.",
+    "Describe how IPSAS 32 and ESA 2010 decide whether a PPP adds to government debt.",
+    "Outline the steps of environmental and social impact assessment and the mitigation sequence.",
+    "State the three tasks and the main output of legal due diligence."
+  ],
+  "sections": [
+    {
+      "heading": "1. Economic feasibility: refining the cost-benefit analysis",
+      "body": "The **cost-benefit analysis (CBA)** tests whether the project makes economic sense for society. It should already exist from the Identification Phase, but it was built on **preliminary data**. During appraisal the project becomes much more detailed, and the Guide says this new information **must** be put into the CBA and its results revisited. At a minimum:\n- the **detailed project scope** (infrastructure design and services), which helps identify users and other stakeholders whose costs and benefits count;\n- **willingness-to-pay** evaluations from the demand study, which sharpen the estimate of economic benefits;\n- the **technical specifications**, which give a much more precise estimate of **whole-life costs**;\n- the **risk assessments**, which adjust the economic data.\n\nThe refreshed CBA is an essential part of the final appraisal report and an important driver of the **green light decision** (the formal decision to proceed to structuring and tender). Some countries only complete a full CBA at this stage; they simply run the Chapter 3 method with the better appraisal data.\n\n**Climate change.** Early assessment of climate risks is critical because they can change economic feasibility. Expected economic losses from climate impacts **must** be quantified over the life cycle, using different climate scenarios, so the project stays feasible even if it suffers climate impacts. These climate parameters can then be used in the CBA or the value for money analysis."
+    },
+    {
+      "heading": "2. Fiscal feasibility: direct and contingent liabilities",
+      "body": "**Affordability** (from the government's point of view) means the project fits within the government's **current and future budget constraints**. Do not confuse it with **user affordability**, which asks whether tariffs are acceptable to users in a user-pays project.\n\nTwo types of commitment must be identified:\n\n**Direct liabilities** are the payments the Contracting Authority expects to make under the contract: land acquisition, other government support, co-financing, and availability or volume payments. They depend on forecasts (demand, exchange rates, inflation), so they are **forecasts, not fixed amounts**, and should be updated every year. They are estimated year by year in **nominal terms**, aligned with the financial model, and then discounted. The Guide suggests the **yield on 10-year government securities** (or longer) as the discount rate, as a proxy for the government's opportunity cost of capital.\n\n**Contingent liabilities** arise when risks are allocated to the government, either explicitly in the contract, in the debt agreements, or by the legal framework (for example, a guarantee). At appraisal the focus is on direct liabilities, because contingent ones depend on the final risk allocation made in structuring. But they should not be ignored: highlight the main contingencies with a tentative size. The suggested method is **probabilistic**: probability that a guarantee is called multiplied by its impact, giving an expected value for each year.\n\nThree important rules:\n- Guarantees on **specific risk variables** (for example demand, exchange rate, construction, a materially adverse government action) can be expressed as a present value and added into an aggregate exposure.\n- The guarantee for compensation on **early contract termination (ECT)** can only happen **once**, so it is **not discounted or aggregated** across years. It is shown as a **maximum exposure** that falls over time as the asset value declines. Compare a **minimum revenue guarantee**: it could be called every year, so its yearly exposure can be aggregated.\n- Do not add ECT exposure to the specific-risk guarantees. For each year, take the **maximum** of the two to show maximum fiscal exposure.\n\nAn alternative tool is the IMF and World Bank **PFRAM**, which produces a project fiscal risk matrix (a heat map of likelihood, impact and whether a mitigation strategy exists). It is powerful but complex and needs trained users."
+    },
+    {
+      "heading": "3. The affordability tests",
+      "body": "The Guide describes three perspectives (Box 4.13):\n\n1. **Total budget test**: compare the yearly liabilities cash flow (direct plus most likely contingent) with the government's **total projected budget revenues**. A common simplification is to grow revenues at the **GDP growth rate**. The output is a yearly percentage.\n2. **Agency budget test**: compare the liabilities with the projected budget of the **contracting or paying agency**. Most medium-term budgets cover only three or four years, while PPP payments are long-term and often start only after construction. So the team must **project the agency budget over the contract life**, commonly by applying projected GDP growth to the last medium-term budget figure. There is **no internationally recognised threshold** for this percentage. (In the rarer **commitment-based** budget systems, the total direct liabilities plus the most likely contingent liabilities must fit within the approved budget; most countries use cash-based or accrual-based yearly budgets.)\n3. **Regulatory limits**: check compliance with any legal caps on PPP commitments. Examples in the Guide: the UK set liability limits by contracting agency; several Central American countries cap commitments as a percentage of projected GDP; Brazil says sub-national PPP commitments must not exceed **5 percent of yearly tax revenue** over the next ten years. Caps are useful but **cannot replace** a full analysis, because they are one-sided. Brazil's cap, for example, counts **direct liabilities only** and sets no limit for contingent ones.\n\n**Outputs.** The analysis estimates the fiscal effect of the project (direct and contingent exposure) and gives due diligence on regulatory limits. It can also change other feasibility work: in a government-pays PPP, affordability may **limit the payments** assumed in the commercial feasibility, forcing the team to revisit the contract structure, the financial model or the technical requirements until the project is both feasible and affordable."
+    },
+    {
+      "heading": "4. Impact on government deficit and debt",
+      "body": "Whether a PPP adds to public debt depends on the **accounting rules** of the country. Government-pays PPPs create payment streams very like debt service, and PPP assets are strongly controlled by government, so there is often a strong case to record them as public investment with a matching liability.\n\nThis matters for the investment decision. If a country is close to its **debt ceiling**, a project recorded on balance sheet may have to be stopped **regardless of VfM**. On the other hand, **not** recording PPPs creates a **bias** in favour of PPPs as a way to escape debt limits, even when traditional procurement would be more efficient.\n\n| Standard | Test | Typical result |\n|---|---|---|\n| **IPSAS 32** | **Control**: the government controls or regulates the services, users and price, and controls any significant residual interest at the end | Usually all government-pays PPPs and some user-pays PPPs are consolidated, so most PPPs affect public debt |\n| **ESA 2010 (Eurostat)** | **Risks and rewards** | User-pays concessions (more than 50% of revenue from users) are generally off balance sheet; a government-pays PPP is off balance sheet only if the private party bears **construction risk** and **either availability or demand risk** |\n\nUnder IPSAS 32, the construction cost and the asset are recorded during construction (gross debt rises, net effect nil). In operation, debt falls by the capital part of each government payment (in user-pays PPPs, by the tariff revenue used to repay principal), and the asset depreciates. At hand-back no debt should remain.\n\nUnder ESA 2010, some public retention of extraordinary risks (such as force majeure) is compatible with private classification. The asset usually goes **on** the government balance sheet when: more than 50% of financing is public (including irrevocable deferred grants); in a volume-based or availability-based government-pays project, changes in demand or poor performance have **no material financial impact** on the project company, or a payment floor covers a substantial part of the financing; or the project company is public and not independent.\n\nSome countries have their own rules; if no rule addresses PPPs, this analysis is unnecessary. The output is the project's marginal effect on spending and debt, checked against any **deficit or debt ceiling**."
+    },
+    {
+      "heading": "5. Environmental feasibility",
+      "body": "Environmental impacts, and the approval process, are a **common source of delays**, and mitigation measures can be a major cost. The key question is: **is there anything that makes environmental approval impossible or prohibitively expensive?** The Guide sets four steps:\n\n1. **Map the legal and regulatory requirements**: stages of approval, level of detail, content, sector rules and likely duration. Good practice is an **environmental requirements log**.\n2. **Environmental Impact Assessment (EIA)**: describe the area before the project (physical and biological), the direct and secondary impacts, the main inputs (materials, water, energy) and the state of the area after construction and operation.\n3. **Mitigation strategy**: focus on the most significant effects. Feed changes back into the design where this cuts environmental cost (for example, a small change in road alignment to avoid a headwater region) and plan compensation for unavoidable effects (such as replanting trees).\n4. **Obtain permits where possible.** For large projects final approval is often impossible at appraisal. Where the studies and filings are exceptionally costly, the permit process should not start before the green light. But it is good practice to obtain permits, at least **provisionally**, before launching the tender: more certainty means less procurement risk. The public sector should take a prominent role in facilitating permitting.\n\nThe aim of mitigation is not to neutralise every impact, but to deal with unintended consequences in line with the rules for final approval.\n\nThe team must be able to state the total licensing cost, the cost of compensation measures and the time to full licensing. The output is a sound recommendation on whether the project can obtain its approvals **at a reasonable cost**. Small, simple projects may get full approval at this stage; for large ones, produce a **precise roadmap** to approval. The results also feed the financial model and the technical requirements.\n\nLenders may apply their own standards. The **Equator Principles** can be stricter than national law, and many lenders and **all multilateral development banks (MDBs)** require compliance with them. If bidders are likely to need those lenders, include their requirements in the appraisal."
+    },
+    {
+      "heading": "6. Social feasibility",
+      "body": "**Social impact analysis** looks at effects on people who live and work in the project's area of influence. It reduces risk by lowering resistance and building support. Because it can be expensive, a full analysis is not justified for every project, but **all projects need at least a review of project data** to see whether **material social impacts** exist. If they do, a full analysis follows.\n\nThe minimum questions include: population movement, changes to the local economy and land values, access to water and energy, community governance, demand for public services, groups affected differently (indigenous groups, women, minorities), the local labour market, cultural differences with project staff, and the effects of an influx of newcomers.\n\nThe social impact assessment (SIA) follows six principles set out in the Guide (Box 4.14), such as sound science, quality information for decisions, attention to disadvantaged groups, and monitoring. The usual four steps:\n1. Identify affected people and communities and list the issues.\n2. Build a **social baseline** using secondary data, public consultation, participatory techniques and qualitative and quantitative surveys, with **gender-disaggregated data**.\n3. Estimate impacts by projecting the baseline **with and without** the project, and rank them by significance. Land expropriation, forced relocation and effects on indigenous heritage need extreme care.\n4. Define mitigation in a **social action plan**, with costs and timing.\n\nThe IFC mitigation sequence is: **avoid** first (change the site or design), then **minimise** (for example, soundproofing homes near an airport), and only then **compensate** those affected, including livelihood restoration. A **Gender Action Plan** may also be needed where impacts differ for women and men.\n\nConsultation during the assessment also builds the project's **legitimacy** in the community. The output classifies impacts, recommends actions (costs of private-sector actions go into the financial model) and shows the residual impacts that cannot be mitigated for the green light decision."
+    },
+    {
+      "heading": "7. Legal feasibility and due diligence",
+      "body": "Legal feasibility aims to make sure the project is **legally doable**, to guide contract drafting (support, force majeure, termination and compensation), to support risk management and to avoid major problems later.\n\nLegal due diligence has three tasks:\n1. **Analyse the applicable legal framework**: PPP law (for example minimum capital value or maximum contract term), procurement law, foreign investment, property and labour law, land use and environmental law, sector law (for example whether a prison may be privately operated), dispute resolution, and the legal treatment of revenues. Identify any **change in law** needed, and the time and resources to achieve it.\n2. **Check the legal readiness of the procuring authority**: does it actually have the power to launch and approve the project, and which bodies must be involved?\n3. **Analyse key project issues**: public support and guarantees, bankability issues (step-in rights for lenders, security over assets and income), land and existing assets, competing ownership claims, rights of other users, employment and tax.\n\nA key check is the **legal classification of land and assets**. Even land held by the authority may need reclassification (for example from public use to disposable use) or legal authorisation before control passes to the private partner.\n\nThe output is a recommendation based on whether **legal obstacles** exist and, if so, the **strategy, time and resources** needed to overcome them."
+    }
+  ],
+  "example": {
+    "title": "Riverton light rail: five feasibility checks before the green light",
+    "body": "Imagine the fictional city of Riverton appraising a government-pays light rail PPP. The refined CBA now uses the detailed design and better whole-life costs, and it stays positive. For fiscal feasibility, the team forecasts availability payments in nominal terms and discounts them at the 10-year government bond yield. The contract will include a minimum revenue guarantee on a small retail component and compensation on early termination. The team shows, for each year, the higher of the two exposures, not their sum.\n\nThe agency budget framework only covers three years, while payments start in year four. The team grows the last budget figure at projected GDP growth and finds payments would take a large share of the transport budget in the peak years. The payment ceiling is lowered, and the scope is trimmed.\n\nUnder the country's ESA-style rules, the private partner bears construction and availability risk, so the asset can be classified off balance sheet; the team checks there is no payment floor covering most of the financing. The EIA finds a wetland crossing: the alignment is shifted (avoid), noise barriers are added (minimise), and affected shop owners receive compensation. Legal due diligence finds the depot land must be reclassified before transfer, so the team estimates six months and adds it to the roadmap."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing fiscal affordability with user affordability",
+      "fix": "Fiscal affordability asks whether the government budget can carry the liabilities. User affordability asks whether users can pay the tariffs in a user-pays project."
+    },
+    {
+      "trap": "Adding the early termination guarantee to other guarantees every year",
+      "fix": "ECT compensation can happen only once. Do not discount or aggregate it; show, for each year, the maximum of the ECT exposure and the specific-risk guarantees."
+    },
+    {
+      "trap": "Mixing up IPSAS 32 and ESA 2010",
+      "fix": "IPSAS 32 is a control test, so most PPPs go on balance sheet. ESA 2010 is a risk test: construction risk plus availability or demand risk must be transferred."
+    },
+    {
+      "trap": "Thinking a legal cap on PPP commitments is enough to prove affordability",
+      "fix": "Caps are one-sided (often direct liabilities only). They are one of three tests and cannot replace the full affordability analysis."
+    },
+    {
+      "trap": "Jumping straight to compensation in social mitigation",
+      "fix": "The IFC sequence is avoid, then minimise, then compensate. Compensation is only for impacts that cannot be avoided or reduced."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Affordability (fiscal)",
+      "meaning": "The ability of the project's liabilities to fit within the government's current and future budget constraints."
+    },
+    {
+      "term": "Direct liabilities",
+      "meaning": "Payments the government expects to make under the contract, such as co-financing and availability or volume payments."
+    },
+    {
+      "term": "Contingent liabilities",
+      "meaning": "Possible payments that arise only if a risk allocated to the government occurs, such as a guarantee being called."
+    },
+    {
+      "term": "PFRAM",
+      "meaning": "An IMF and World Bank tool that assesses the fiscal costs and risks of PPP projects and produces a risk heat map."
+    },
+    {
+      "term": "IPSAS 32",
+      "meaning": "The public sector accounting standard for service concessions; it records the asset when government controls the service and the residual interest."
+    },
+    {
+      "term": "ESA 2010",
+      "meaning": "The European statistical accounting system that classifies PPP assets as public or private according to which party bears construction, availability and demand risk."
+    },
+    {
+      "term": "Environmental Impact Assessment (EIA)",
+      "meaning": "A formal report that identifies, describes and, where possible, quantifies the project's environmental impacts."
+    },
+    {
+      "term": "Social baseline",
+      "meaning": "A description of the affected communities before the project, used to measure future impacts."
+    },
+    {
+      "term": "Legal due diligence",
+      "meaning": "A review of laws, the authority's legal powers and key project issues to confirm the project is legally doable."
+    }
+  ],
+  "summary": [
+    "The CBA must be updated with appraisal data: scope, willingness to pay, technical specifications and risk assessments.",
+    "Direct liabilities are forecast in nominal terms and discounted at the 10-year government bond yield.",
+    "Contingent liabilities are estimated probabilistically; ECT exposure is never summed across years or added to other guarantees.",
+    "Three affordability tests: total budget revenues, agency budget, and regulatory limits.",
+    "IPSAS 32 uses control; ESA 2010 uses construction plus availability or demand risk transfer.",
+    "Environmental and social assessments follow structured steps and mitigate by avoiding, minimising, then compensating.",
+    "Legal due diligence checks the legal framework, the authority's powers and key project issues, and reports obstacles with a plan to remove them."
+  ],
+  "slides": [
+    {
+      "title": "Five more feasibility tests",
+      "points": [
+        "Economic: refreshed cost-benefit analysis",
+        "Fiscal: affordability and debt impact",
+        "Environmental, social and legal checks",
+        "All feed the green light decision"
+      ],
+      "narration": "In the last lesson we tested commercial feasibility, meaning whether lenders and investors would back the project. Now we finish the appraisal toolbox. Economic feasibility asks whether society gains. Fiscal feasibility asks whether the government can carry the payments and what happens to public debt. Then we check the environment, the people affected, and the law. Think of these as five gates. The project needs to pass all of them before the government gives the green light to move into structuring and tender."
+    },
+    {
+      "title": "Refreshing the cost-benefit analysis",
+      "points": [
+        "Built earlier on preliminary data",
+        "Add scope, willingness to pay, specifications, risks",
+        "Quantify climate losses under several scenarios"
+      ],
+      "narration": "The cost-benefit analysis was first done at identification, using rough numbers. Appraisal gives us much better information. The detailed scope tells us who is affected. Willingness-to-pay studies sharpen the benefits. Technical specifications give real whole-life costs, and the risk assessment adjusts the figures. The Guide says this new data must be fed back in. It also asks us to quantify likely economic losses from climate impacts across different scenarios, so the project still makes sense if the climate hits it."
+    },
+    {
+      "title": "Direct and contingent liabilities",
+      "points": [
+        "Direct: expected payments, forecast in nominal terms",
+        "Discount at 10-year government bond yield",
+        "Contingent: probability times impact",
+        "Early termination: maximum exposure, never summed"
+      ],
+      "narration": "Fiscal feasibility starts with liabilities. Direct liabilities are the payments we expect to make, like availability payments or co-financing. They are forecasts, so update them yearly, and discount them using the ten-year government bond yield. Contingent liabilities only appear if a risk happens, so we multiply probability by impact. Here is the exam favourite. Compensation on early termination can only happen once. So we never add it up across years, and we never add it to other guarantees. We take the higher of the two each year."
+    },
+    {
+      "title": "Three affordability tests",
+      "points": [
+        "Compare with total budget revenues",
+        "Compare with the agency's projected budget",
+        "Check legal caps on PPP commitments",
+        "Caps alone are never enough"
+      ],
+      "narration": "Affordability is tested from three angles. First, compare yearly liabilities with total government revenues, often grown at the rate of GDP. Second, compare them with the paying agency's own budget. Because most budgets only look three or four years ahead, you must project the agency budget over the whole contract. Third, check any legal caps. Caps are useful, but they are one-sided, often ignoring contingent liabilities. So they support the analysis; they never replace it. And if payments are too high, go back and reshape the project."
+    },
+    {
+      "title": "Will the PPP count as public debt?",
+      "points": [
+        "IPSAS 32: who controls service and residual value",
+        "ESA 2010: who bears the key risks",
+        "Off balance sheet needs construction plus availability or demand risk",
+        "Check against deficit and debt ceilings"
+      ],
+      "narration": "Next, does the PPP add to government debt? It depends on the accounting rules. Under IPSAS 32 the question is control. If government controls the service, the users, the price and the asset at the end, the asset goes on the books, so most PPPs count. Under ESA 2010 the question is risk. A government-pays PPP stays off the books only if the private partner bears construction risk and either availability or demand risk. The result is then checked against any debt ceiling, which could stop the project."
+    },
+    {
+      "title": "Environmental feasibility in four steps",
+      "points": [
+        "Map the approval rules",
+        "Carry out the impact assessment",
+        "Design mitigation into the project",
+        "Seek permits, at least provisional ones"
+      ],
+      "narration": "Environmental approvals are a classic source of delay, so we ask one blunt question: is anything making approval impossible or too expensive? Step one maps the rules and timing. Step two is the environmental impact assessment, describing the area before and after. Step three designs mitigation, sometimes by changing the design itself, like moving a road away from a sensitive water source. Step four seeks permits. For big projects full approval may come later, but aim for provisional permits before tender, plus a clear roadmap."
+    },
+    {
+      "title": "Social impacts: avoid, minimise, compensate",
+      "points": [
+        "Every project gets a screening review",
+        "Full assessment if impacts are material",
+        "Baseline with gender-disaggregated data",
+        "Social action plan with costs"
+      ],
+      "narration": "Social feasibility is about people who live and work near the project. Every project needs at least a quick review to see if material social impacts exist. If they do, we do a full assessment: identify communities, build a baseline with data split by gender, project the future with and without the project, and rank the impacts. Then comes the mitigation order. First try to avoid the impact. If you cannot, reduce it. Only for what remains do you compensate people fairly, including restoring their livelihoods."
+    },
+    {
+      "title": "Legal due diligence",
+      "points": [
+        "Review the laws that apply",
+        "Confirm the authority's legal powers",
+        "Analyse land, assets, security, tax, employment",
+        "Report obstacles with a plan and timeline"
+      ],
+      "narration": "Finally, the law. Legal due diligence has three tasks. Review every law that touches the project, from the PPP law to land and sector rules. Confirm that the procuring authority really has the power to launch and approve it. Then dig into key issues like land classification, lenders' step-in rights, security over assets, employment and tax. A common surprise is land that must be reclassified before it can be handed over. The output is clear: list any obstacles, and say how, how long and at what cost to remove them."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A procuring authority is estimating the present value of future availability payments for its affordability analysis. Which discount rate does the Guide suggest?",
+      "options": [
+        "The social time preference rate used in the CBA",
+        "The yield on 10-year (or longer) government securities",
+        "The equity IRR expected by the private investors",
+        "The weighted average cost of capital of the bidders"
+      ],
+      "answer": 1,
+      "explanation": "The Guide suggests the yield on 10-year government securities as a proxy for the government's opportunity cost of capital. The bidders' WACC or equity IRR reflects private, not public, cost of funds."
+    },
+    {
+      "question": "A draft contract contains guarantees on exchange rate risk and compensation on early contract termination (ECT). How should the team show the maximum fiscal exposure from contingent liabilities?",
+      "options": [
+        "For each year, show the higher of the specific-risk guarantees and the ECT guarantee",
+        "Add the ECT guarantee to the other guarantees and sum all years",
+        "Discount the ECT guarantee every year and add it to the total",
+        "Leave the ECT guarantee out because termination is unlikely"
+      ],
+      "answer": 0,
+      "explanation": "ECT can happen only once and is unlikely to coincide with other compensation, so the Guide takes the maximum of the two for each year. Summing or discounting ECT across years would overstate exposure."
+    },
+    {
+      "question": "An agency's medium-term budget framework covers only three years, but PPP payments start in year five. How should the team carry out the agency budget affordability test?",
+      "options": [
+        "Skip the test, because payments fall outside the budget horizon",
+        "Compare the payments only with the current three-year budget",
+        "Project the agency budget over the contract, for example by applying GDP growth to the last budget figure",
+        "Apply the internationally recognised maximum percentage of the agency budget"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the budget must be projected over the contract life, commonly using projected GDP growth on the last available figure. There is no internationally recognised threshold, and skipping the test would leave affordability unproven."
+    },
+    {
+      "question": "A European government-pays road PPP transfers construction risk and availability risk to the private partner. The government keeps force majeure risk. Under ESA 2010, how is the asset likely to be classified?",
+      "options": [
+        "On the government balance sheet, because the government pays for the asset",
+        "On the government balance sheet, because the government retains force majeure",
+        "Off balance sheet only if users pay more than half of the revenues",
+        "Off the government balance sheet, as the key risks are transferred"
+      ],
+      "answer": 3,
+      "explanation": "ESA 2010 treats a government-pays PPP as private if construction risk and either availability or demand risk are transferred. Retaining an extraordinary risk such as force majeure is compatible with this. The 50 percent user revenue rule applies to concessions, not this case."
+    },
+    {
+      "question": "Under IPSAS 32, which factor mainly decides whether a PPP asset and its liability are recorded in the government's accounts?",
+      "options": [
+        "Whether most of the project risks are transferred to the private partner",
+        "Whether the government controls the services, users and prices, and the significant residual interest",
+        "Whether more than 50 percent of the revenues come from users",
+        "Whether the private partner is the legal owner of the land"
+      ],
+      "answer": 1,
+      "explanation": "IPSAS 32 is a control test. Usually all government-pays PPPs and some user-pays PPPs are consolidated, so most PPPs affect public debt. Risk transfer and the 50 percent user revenue rule belong to the ESA 2010 approach."
+    },
+    {
+      "question": "Appraisal of a large, complex port project shows that full environmental approval needs design detail not yet available and very costly studies. What should the procuring authority do?",
+      "options": [
+        "Produce a clear roadmap to approval and aim for at least provisional permits before tender launch",
+        "Stop the appraisal until full environmental approval is granted",
+        "Start the costly permit studies now, before the green light decision",
+        "Leave all environmental approvals to the winning bidder without analysis"
+      ],
+      "answer": 0,
+      "explanation": "For large projects the Guide accepts that full approval may come later, but asks for a precise roadmap and, as good practice, provisional permits before launch. Costly permit studies should not start before the green light, and shifting everything to bidders raises procurement risk."
+    },
+    {
+      "question": "An airport expansion will create noise for nearby homes. No alternative site or design change can avoid the noise. Following the IFC sequence, what should the social action plan do next?",
+      "options": [
+        "Compensate all affected households straight away",
+        "Record the impact and take no further action",
+        "Reduce the impact, for example by soundproofing homes in the noise footprint",
+        "Relocate every household within the airport area"
+      ],
+      "answer": 2,
+      "explanation": "The IFC sequence is avoid, then minimise, then compensate. Since avoidance is not possible, the next step is to reduce the impact; compensation is for impacts that remain after minimisation."
+    },
+    {
+      "question": "Legal due diligence finds that the site held by the procuring authority is classified for public use and must be reclassified before control can pass to a private partner. What should the legal feasibility output include?",
+      "options": [
+        "A recommendation to abandon the PPP route",
+        "A note that the preferred bidder will handle it after award",
+        "Nothing, because the authority already holds the land",
+        "The obstacle, the strategy to overcome it, and the time and resources needed"
+      ],
+      "answer": 3,
+      "explanation": "The output of legal feasibility is a recommendation based on any legal obstacles and, where one exists, the strategy, time and resources to overcome it. Holding the land does not mean it can be transferred, and the issue should not be left to bidders."
+    },
+    {
+      "question": "Which statement reflects the Guide's minimum requirement for social impact analysis at the Appraisal Phase?",
+      "options": [
+        "Every project must complete a full social impact assessment",
+        "Every project needs at least a review of project data to see if material social impacts exist",
+        "Every project must hold a formal public consultation before appraisal ends",
+        "Every project must prepare a Gender Action Plan"
+      ],
+      "answer": 1,
+      "explanation": "Because full analysis is costly, the Guide requires at least a review of project data for all projects, followed by a full analysis if material impacts exist. A Gender Action Plan is needed only where assessments confirm differentiated impacts."
+    },
+    {
+      "question": "During appraisal, the technical team produces detailed specifications that give much better whole-life cost estimates than those used at identification. What should happen to the cost-benefit analysis?",
+      "options": [
+        "Feed the new data into the CBA and revisit its results before the green light",
+        "Keep the identification CBA, as economic analysis is already complete",
+        "Replace the CBA with the value for money assessment",
+        "Update the CBA only if its original result was negative"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says appraisal data such as technical specifications must be entered into the CBA and its results revisited; the conclusions drive the green light decision. VfM is a different test and cannot replace the CBA."
+    }
+  ]
+}

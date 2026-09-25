@@ -1,0 +1,308 @@
+{
+  "id": "p17-risk-allocation",
+  "level": "preparation",
+  "order": 17,
+  "title": "Risk management cycle: identify, assess, mitigate and allocate",
+  "minutes": 18,
+  "guideRef": "Ch 5 §5.1–§5.6",
+  "objectives": [
+    "Explain risk transfer, retained risk, risk premium and why risk transfer has a limit",
+    "Describe the steps of the risk management cycle and which steps happen in appraisal and in structuring",
+    "Use a risk matrix and a qualitative (3x3 or 5x5) assessment to prioritise risks for allocation",
+    "Give examples of early mitigation that the procuring authority should do before launch",
+    "Apply the default rules and exceptions to decide whether a risk is transferred, retained or shared"
+  ],
+  "sections": [
+    {
+      "heading": "1. Risk allocation: what it is and why it matters",
+      "body": "**Risk allocation** is the exercise of deciding which party will assume each risk. It describes the risks, says which ones the private partner is responsible for and to what extent, and which ones the public partner will be responsible for.\n\n- Allocating a risk to the private partner is called **risk transfer**.\n- Keeping a risk with the public partner is called **retained risk**.\n- Some risks are neither fully transferred nor fully retained: they are **shared**.\n\nWhy transfer risk at all? Because efficiency is the key reason for doing a project as a PPP. When the private partner carries the financial consequences of a risk, it has an incentive to deliver the asset and the service on time and in the required condition. The party with the most control over a risk has the best chance to reduce its likelihood and control its consequences.\n\nBut risk transfer has a **limit**. The private partner puts the cost of bearing a risk into its bid price. This cost is the **risk premium**. For some risks the premium becomes too expensive, and some risks cannot be accepted at all by investors and lenders. The government should not push bidders too aggressively to accept risks they cannot really manage, because this can cause serious project failure. The rule is simple: if a transferred risk will only be accepted at a cost **higher than the expected loss** if the government kept and managed it, the risk should be retained (or taken back).\n\nThe government also always keeps some exposure. It remains the ultimate owner of the asset and is ultimately responsible for the service, so it always carries **reputational** risk.\n\n**The optimum allocation.** The driver is **Value for Money (VfM)**. In theory, the optimum is the point where moving one more risk (in either direction) would reduce VfM. Too much transfer can mean no bids; too little loses the PPP's efficiency. Because many risks are hard to quantify, the analyst also relies on precedents and judgment, asking: *Is the private partner better placed to manage this risk more efficiently than the public partner?* The general rule is to allocate each risk **to the party best able to manage it**. The OECD adds that this means the party that can carry the risk **at the least cost**.\n\nIn emerging or less mature PPP markets, especially when finance is scarce, the Guide accepts that it may be reasonable to sacrifice some VfM through **de-risking** to secure bankability and commercial feasibility, until the market matures.\n\n**Accounting is not the driver.** The Guide does not treat accounting (on or off balance sheet) as a good reason to allocate risk. A risk structure chosen only to keep a project off the government's balance sheet may give lower VfM than the optimum.\n\n**Allocation vs structuring.** These are two steps. **Allocation** decides who bears each risk. **Structuring** then writes that decision into the contract. It defines exactly when a risk event has occurred, how far and in what form each party bears the risk, and how the party that does not bear it will be compensated if it happens. Some contract provisions deal only with risk. In other cases, risk is built into other clauses as a qualification, for example an exception to unavailability events or to the duty to finish construction on time."
+    },
+    {
+      "heading": "2. Defining risk: likelihood times impact",
+      "body": "There is no single definition of risk. The Guide prefers the UK Orange Book definition: risk is the *uncertainty of outcome, whether positive opportunity or negative threat, of actions and events*. This covers both probability and consequences.\n\nRisk has two dimensions:\n1. **Likelihood**: the probability that the risk event happens during the project period.\n2. **Impact**: the financial value of the event's effect.\n\nThis gives the risk formula:\n\n**Risk (expected loss) = likelihood x impact**\n\nFor example, imagine an event with a 10 percent chance that would cost 5 million. Its expected loss is 0.5 million. (These numbers are only an illustration.) Risk management should focus on risks with a high expected loss.\n\nTwo useful distinctions:\n- **Risk vs uncertainty.** Uncertainty is the part of risk that cannot be measured with probabilities. The Guide uses the two words interchangeably, because a real assessment includes both measurable and immeasurable risks.\n- **Inherent vs residual risk.** Inherent risk is the risk before treatment. Residual risk is what remains after mitigation and management.\n\nWhen structuring the tender and contract, the public partner must focus on the risks that affect the roles, responsibilities and **financial position of the private partner** under the contract, from signature through the contract life.\n\nThe Guide also warns about the endogenous vs exogenous split. Endogenous risks are those the private partner can influence; exogenous risks are those it cannot control. This label can mislead: a private partner may not be able to assess or prevent a risk, yet still manage its consequences. A hospital operator cannot stop power cuts, but a back-up generator limits the impact. A light rail operator cannot fully assess vandalism, but security measures reduce it. A private partner can also reduce climate risk with climate-resilient design or nature-based solutions."
+    },
+    {
+      "heading": "3. The risk management cycle",
+      "body": "Risks should be handled in an organised way, called the **risk strategy**. The Guide describes a **risk management cycle** from the public partner's point of view:\n\n| Step | What happens | Main timing |\n|---|---|---|\n| Identification | List and describe the risk events | Appraisal |\n| Assessment | Estimate likelihood and impact | Appraisal (quantitative), structuring (qualitative) |\n| Early mitigation | Authority reduces risks before launch | Appraisal and structuring |\n| Allocation | Decide who bears each risk | Preliminary in appraisal, refined in structuring |\n| Structuring | Write the allocation into contract provisions | Structuring |\n| Treatment | Manage retained risks (budget, insurance, hedging) | Contract life |\n| Monitoring and ex-post management | Watch all risks, react when they occur | Contract management |\n\n**Appraisal vs structuring.** Identification and assessment are usually done in appraisal, to support the commercial feasibility, affordability and VfM analysis. That work needs detailed, mostly **quantitative** analysis. Risk allocation needs less detail and is mostly **qualitative or semi-quantitative**. In the Structuring Phase the preliminary allocation is reviewed, refined and written into the contract. If the risk structure was already shown to the market, material changes should be avoided or carefully explained. Relevant changes also affect the financial base case, so VfM, commercial feasibility and affordability may need to be updated. At this stage, **climate-change risks** should be assessed with advanced modelling based on the expected intensity of each hazard, and then allocated to the party best able to manage them.\n\n**Treatment of retained risks.** For risks it keeps, the public partner may:\n- self-insure and build contingency funds in the budget;\n- buy insurance for some risks;\n- use hedging for some financial risks (for example, inflation);\n- rely only on reactive management when the risk occurs.\n\n**Monitoring all risks.** The public partner monitors both retained **and transferred** risks, because it has ultimate responsibility to the taxpayer for the asset and the service.\n\n**The private partner's own tools.** The private partner can:\n- **absorb and price** the risk in its bid (a risk premium in the equity IRR, or contingencies);\n- **pass it on** to contractors through downstream contracts. The risk then becomes a **counterparty risk**: the private partner still answers to the authority if the contractor fails;\n- **buy insurance or hedging**, for example against physical damage or interest rate changes.\n\nThe authority must consider these options, including lenders' tolerance, when it decides the allocation. Some risks cannot be carried by anyone in the market (uninsurable risks); these must be retained by the authority."
+    },
+    {
+      "heading": "4. Risk identification and the risk matrix",
+      "body": "The process starts with **identification**: building a complete list of risk events, grouped in consistent categories, and describing how each would affect the project. How exhaustive should it be? It depends on the purpose:\n- For VfM and commercial feasibility (appraisal), identification is **more exhaustive**.\n- For risk allocation, it is **less exhaustive and prioritised**. Deciding the allocation of the significant risks in the contract implicitly allocates many minor ones. Teams should not be overwhelmed with actions on insignificant risks.\n\nCategories overlap. Lower demand may be a market risk or a political risk if a policy decision caused it. Time overruns usually cause cost overruns. To avoid **blind spots** and **double counting**, teams build a **risk register** and hold brainstorming sessions with all members who can give technical insight.\n\nThe Guide works with these broad categories: site risks; design; construction; commissioning; revenue (demand, tariff, availability and quality, third-party revenue); maintenance; other operating risks; financial risks; changes in law; force majeure; early termination. This is a project view, so it does not cover **country risk**, although some political risks appear under change in law or force majeure.\n\n**The risk matrix.** Good practice is to develop a specific risk matrix for every project. A basic one may exist from appraisal, but a detailed one should now be completed. For each risk it should contain at least:\n- risk name and category;\n- risk description;\n- effects and consequences;\n- mitigation measures, where available;\n- allocation: who bears it, and the extent if shared;\n- risk response accountability.\n\nThe matrix organises the analysis and **records the allocation decision** so it can later be written into the contract."
+    },
+    {
+      "heading": "5. Risk assessment: quantitative and qualitative",
+      "body": "**Quantitative assessment** estimates values of possible outcomes. It is mainly used in appraisal for financial analysis, VfM and cost-benefit analysis (this is also called adjusting values to risk). Results can be shown as an **expected value** or as the **full range of outcomes with probabilities**. Probabilistic analysis should only be used when **reliable information about likelihood** exists; otherwise the simpler approach is better.\n\nDuring allocation, quantitative analysis is used only for significant risks where the qualitative view is unclear. Then the team compares the cost of transferring the risk with the alternatives: taking it back, sharing it, or **capping** it, to see which gives the best VfM.\n\n**Qualitative assessment** is the usual method for allocation. Each risk gets a score for likelihood and for impact, using nominal (1, 2, 3) or descriptive (high, medium, low) scales. This is sometimes called **semi-quantitative** assessment.\n- The minimum is a **3x3 matrix** (high, medium, low for each dimension).\n- A **5x5 matrix** is often used: impact from insignificant to catastrophic; likelihood from rare to almost certain.\n- Traffic-light colours show significance. The result can be drawn as a **tolerability matrix** with a tolerability line.\n\nThe main use is **prioritisation**: separating significant risks from insignificant ones so that effort is not wasted. The allocation work concentrates on the **red and yellow** risks. The default position is that **green** risks are transferred to the private partner, unless for some reason it cannot manage them.\n\nMitigation analysis runs at the same time as assessment, because the ability to mitigate changes the likelihood or impact."
+    },
+    {
+      "heading": "6. Early mitigation by the procuring authority",
+      "body": "Many risks can be reduced by the authority during screening, appraisal and structuring, before the contract is signed. The Guide names three routes:\n\n1. **Optimising scope and planning.** Avoid innovation and complexity when the benefit does not outweigh the cost; choose a realistic delivery date; plan key building works in the summer to reduce weather delays.\n2. **Robust investigations.** Whether a risk will be transferred or retained, the public partner is best placed to study it in advance and share the results with bidders. Examples: archaeological maps, geotechnical studies, traffic and revenue studies, utility location information, and an initial environmental and social impact assessment (ESIA).\n3. **The selection process.** A good qualification and evaluation process reduces the risk that the winner cannot deliver or that its bid is unreliable.\n\nInvestigations can even be written into the contract as a **baseline**. For example, archaeological finds may be the private partner's risk, **except** finds not foreseen by the archaeological study. A geotechnical study may define normal ground conditions; only conditions materially different from that baseline give a right to compensation.\n\nRemember: early mitigation is the authority's job. Passing the burden of missing studies to bidders is bad practice."
+    },
+    {
+      "heading": "7. Deciding the allocation: default rules and exceptions",
+      "body": "**Default position.** The contract scope and the PPP contract structure define the risk transfer. Two linked factors set the default:\n- the **scope of obligations and service requirements** (what the private partner builds, operates and maintains, and what performance entitles it to payment);\n- the **financial structure and economic rights** (how and when it is paid, including the payment mechanism).\n\nSo the basic rule is: **design, construction, commissioning, operation, maintenance, revenue and financial risks are generally borne by the private partner**, including normal exogenous business events such as price volatility or a shift in demand from economic growth.\n\n**Three general rules:**\n1. Risks inherent to the contract scope and ordinary business are **transferred**.\n2. Risks **not naturally part of the scope** are **retained**. Examples: demand for a hospital when clinical services are outside the PPP; direct government acts such as service changes or a **discriminatory change in law**.\n3. Risks that **neither party can manage** are generally **shared** to a significant extent. Force majeure covers most of these. Even here, it can make sense for the private partner to bear some part if the cost is not excessive, so it has an incentive to mitigate.\n\n**Exceptions**, driven by VfM:\n- take back (fully or partly) a risk in the private scope if the private partner **cannot add value** managing it;\n- ask the private partner to carry part of a risk outside its scope when that is efficient (for example, some vandalism risk on nearby public assets it can protect).\n\n**Risks that should never be fully transferred:** force majeure (can be partly transferred only); changes in service requirements or scope needed for new circumstances; discriminatory changes in law or policy and other harmful government actions (missing approvals, payment delays, limits on currency convertibility).\n\n**Is the private partner adding value?** Transfer keeps VfM when the private partner has one or more of these abilities:\n- a greater ability to **assess** the risk;\n- a greater ability to **pass it through** to third parties at an efficient price;\n- a higher capacity to **reduce the probability** (better design, better control);\n- a higher capacity to **mitigate consequences** and repair damage;\n- previous project knowledge that reveals risks the public side did not anticipate.\n\nIf **none** of these is present and the risk has a **significant** potential impact, it should be retained or taken back. Exceptions are identified from real precedents, adviser and government experience, public sector experience, and market tests. The natural allocation should not be adjusted for risks with meaningless impact.\n\nThe Guide's examples: rising oil prices raising construction costs - transferred (the private partner buys in bulk and hedges); a government scope change for local interests - retained; decision-makers unavailable during an election - retained; delay in a toll authorisation procedure - often shared (the private partner cannot control the procedure, but can limit its costs); a truck accident on the construction site, vandalism during operation, a leak while digging a tunnel, and cost uncertainty from a preliminary design - all transferred; climate-appropriate design - transferred, while catastrophic climate events are shared when this is in the interest of the project's survival.\n\n**Direct government acts** (sometimes called political force majeure or **Material Adverse Government Action**) should be borne by the public partner and **not shared**, because they are under government control."
+    }
+  ],
+  "example": {
+    "title": "Riverton Hospital: building the risk allocation",
+    "body": "Imagine the fictional city of Riverton preparing an availability-based hospital PPP. Clinical services stay with the city's health department.\n\n1. **Identification.** The team holds workshops and builds a risk register: ground conditions, design errors, construction delay, power cuts, vandalism, patient demand, change in health law, earthquakes.\n2. **Assessment.** Using a 5x5 matrix, power cuts are *likely* but *minor*; earthquakes are *rare* but *catastrophic*; ground conditions are *possible* and *major*.\n3. **Early mitigation.** The city commissions a geotechnical study and shares it with bidders. The contract uses it as a baseline: only conditions materially different from the study give a right to compensation.\n4. **Allocation.** Power cuts go to the private partner: it cannot stop them, but a back-up generator controls the consequences. Patient demand is **retained**, because clinical services are outside the scope. A discriminatory change in health law that targets this project is retained by the city. Earthquakes are treated as force majeure and **shared**.\n5. **Recording.** Each decision goes into the risk matrix with the accountable party, ready for drafting.\n\nNotice the logic: the question is never *can the private partner prevent it?* but *can it manage the risk, or its consequences, more efficiently than the city?*"
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking that transferring more risk always increases VfM",
+      "fix": "VfM rises only up to an optimum. Beyond it, risk premiums exceed the government's expected loss, or bidders stop bidding. Retain a risk when the transfer cost is higher than the expected loss of keeping it."
+    },
+    {
+      "trap": "Assuming the private partner should only get risks it can prevent (endogenous risks)",
+      "fix": "The test is ability to manage, including mitigating consequences. A hospital operator cannot prevent power cuts but can manage them with a generator, so the risk can be transferred."
+    },
+    {
+      "trap": "Mixing up quantitative and qualitative assessment purposes",
+      "fix": "Quantitative (expected values, probabilities) mainly supports appraisal: VfM, commercial feasibility, affordability. Qualitative scales (3x3, 5x5) mainly support allocation and prioritisation."
+    },
+    {
+      "trap": "Believing the authority stops caring about risks once they are transferred",
+      "fix": "The public partner monitors retained and transferred risks, because it remains ultimately responsible for the asset and service and always keeps reputational risk."
+    },
+    {
+      "trap": "Treating a discriminatory change in law like a general change in law",
+      "fix": "A change in law affecting all businesses is generally private risk. A discriminatory change targeting the project is a direct government act and should be retained by the authority."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Risk transfer",
+      "meaning": "Allocating a risk, and its financial consequences, to the private partner."
+    },
+    {
+      "term": "Retained risk",
+      "meaning": "A risk that stays with the public partner, fully or in part."
+    },
+    {
+      "term": "Risk premium",
+      "meaning": "The cost of bearing and managing a risk that the private partner includes in its bid price."
+    },
+    {
+      "term": "Expected loss",
+      "meaning": "The value of a risk: likelihood multiplied by financial impact."
+    },
+    {
+      "term": "Risk management cycle",
+      "meaning": "Identification, assessment, early mitigation, allocation, structuring, treatment, monitoring and ex-post management of risks."
+    },
+    {
+      "term": "Risk register",
+      "meaning": "A detailed list of identified risks used to avoid blind spots and double counting and to support quantitative assessment."
+    },
+    {
+      "term": "Risk matrix",
+      "meaning": "A table recording each risk's name, description, effects, mitigation, allocation and accountable party."
+    },
+    {
+      "term": "Tolerability matrix",
+      "meaning": "A likelihood-by-impact grid, often 3x3 or 5x5 with traffic-light colours, used to prioritise risks."
+    },
+    {
+      "term": "Counterparty risk",
+      "meaning": "The risk that a party to whom a risk has been passed, such as a contractor, cannot manage or pay for it."
+    },
+    {
+      "term": "Residual risk",
+      "meaning": "The risk that remains after mitigation and management measures are applied."
+    }
+  ],
+  "summary": [
+    "Allocate each risk to the party best able to manage it; the OECD adds: the party able to carry it at the least cost. VfM is the driver.",
+    "Risk transfer has a limit: retain a risk when its premium would exceed the government's expected loss.",
+    "Risk = likelihood x impact; focus management on risks with high expected loss.",
+    "Cycle: identify, assess, mitigate early, allocate, structure, treat, monitor and manage ex-post.",
+    "Quantitative assessment serves appraisal; qualitative 3x3 or 5x5 matrices serve allocation, with effort on red and yellow risks.",
+    "The authority should mitigate early through scope, planning and investigations shared with bidders, sometimes used as contract baselines.",
+    "Default: scope risks transferred, non-scope and government-act risks retained, uncontrollable risks like force majeure shared."
+  ],
+  "slides": [
+    {
+      "title": "What risk allocation means",
+      "points": [
+        "Decide who bears each risk",
+        "Transfer, retain or share",
+        "Driver: Value for Money"
+      ],
+      "narration": "Welcome. In this lesson we look at one of the most tested ideas in PPP: risk allocation. Simply put, for every risk we ask one question: who will carry it? If the private partner carries it, we call it risk transfer. If the government keeps it, it is a retained risk. And some risks are shared. Why does this matter so much? Because the efficiency of a PPP comes from giving the private partner real incentives. But every risk you transfer has a price, so the goal is not maximum transfer. The goal is the best Value for Money."
+    },
+    {
+      "title": "The limit of risk transfer",
+      "points": [
+        "Bidders price risk as a risk premium",
+        "Retain if premium exceeds expected loss",
+        "Too much transfer can mean no bids"
+      ],
+      "narration": "Here is the key trade-off. The private partner puts the cost of each risk into its bid. We call that the risk premium. For some risks, that premium is reasonable. For others, it becomes very expensive, or investors and lenders simply refuse. So the Guide gives a clear rule. If transferring a risk costs more than the loss the government would expect if it kept the risk, then keep it. Pushing bidders to accept risks they cannot manage does not save money. It can lead to project failure, or to no bids at all."
+    },
+    {
+      "title": "Risk equals likelihood times impact",
+      "points": [
+        "Likelihood: chance during project life",
+        "Impact: financial value of the effect",
+        "Focus on high expected loss"
+      ],
+      "narration": "How do we measure a risk? The Guide uses a simple formula. Risk, or expected loss, equals likelihood times impact. Imagine an event with a ten percent chance that would cost five million. Its expected loss is half a million. This helps us prioritise, because management should focus on the risks with the highest expected loss. Remember also that uncertainty is simply risk we cannot measure with probabilities. In practice, the Guide uses the two words to mean the same thing."
+    },
+    {
+      "title": "The risk management cycle",
+      "points": [
+        "Identify, assess, mitigate early",
+        "Allocate and structure into the contract",
+        "Treat, monitor, manage ex-post"
+      ],
+      "narration": "Risk work follows a cycle. First we identify risks, then we assess them. The authority mitigates what it can early. Then we allocate risks and structure them into the contract. After signing, retained risks are treated, for example with contingency funds, insurance or hedging, and all risks are monitored. Notice two things. Identification and detailed assessment usually happen in appraisal. Allocation is refined in structuring. And the government monitors even the risks it transferred, because it stays responsible for the service."
+    },
+    {
+      "title": "Registers and matrices",
+      "points": [
+        "Risk register avoids blind spots",
+        "Risk matrix records the allocation",
+        "Name, effects, mitigation, owner, accountability"
+      ],
+      "narration": "Two tools help here. The risk register is the long, detailed list. Teams build it through brainstorming, so they do not miss risks or count the same risk twice. The risk matrix is where the allocation decision is recorded. For each risk, it shows the name and category, a description, the effects, any mitigation, who bears it and how much if shared, and who is accountable for the response. Later, the lawyers use the matrix to write the risk allocation into the contract."
+    },
+    {
+      "title": "Quantitative versus qualitative",
+      "points": [
+        "Quantitative mainly for appraisal and VfM",
+        "Qualitative 3x3 or 5x5 for allocation",
+        "Focus on red and yellow risks"
+      ],
+      "narration": "There are two ways to assess risk. Quantitative assessment puts numbers on outcomes, using expected values or probabilities. It supports appraisal, meaning the VfM test and the financial model. But only use probabilities when the data is reliable. Qualitative assessment scores likelihood and impact as high, medium or low, in a three by three grid, or on a five by five scale. It is the normal tool for allocation. We spend our effort on the red and yellow risks. Green risks are transferred to the private partner by default, unless it cannot manage them."
+    },
+    {
+      "title": "Early mitigation by the authority",
+      "points": [
+        "Realistic scope, dates and planning",
+        "Studies shared with bidders",
+        "Studies can become contract baselines"
+      ],
+      "narration": "Before any contract is signed, the authority can reduce risks itself. It can keep the scope simple, choose realistic dates, and plan works for good weather. Most importantly, it should do studies, such as geotechnical surveys, archaeological maps and traffic studies, and share them with bidders. Sometimes a study becomes a baseline in the contract. For example, only ground conditions that are materially different from the study give the private partner a right to compensation. Skipping these studies and leaving them to bidders is bad practice."
+    },
+    {
+      "title": "Default rules and exceptions",
+      "points": [
+        "Scope risks transferred to private",
+        "Government acts and non-scope risks retained",
+        "Uncontrollable risks like force majeure shared"
+      ],
+      "narration": "Let's finish with the decision rules. By default, risks that come with the contract scope, such as design, construction, operations, maintenance, revenue and finance, go to the private partner. Risks outside the scope, and direct government actions like a discriminatory change in law, stay with the government. Risks neither party can control, like force majeure, are shared. Then we look for exceptions. If the private partner cannot add value in managing a significant risk, take it back. That is how you reach the best Value for Money."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A procuring authority learns from market sounding that bidders would add a very large premium to accept the risk of land acquisition cost overruns. The authority's own estimate of the expected loss from this risk is much lower. What should it do?",
+      "options": [
+        "Transfer the risk anyway, because risk transfer always improves VfM",
+        "Retain or share the risk, because transfer costs more than the expected loss",
+        "Remove land acquisition from the project and cancel the tender",
+        "Ask bidders to insure the risk and keep it fully transferred"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says that when a transferred risk would cost more than the expected loss of retaining it, the risk should be retained or taken back. Transferring anyway is tempting but ignores that risk transfer only adds VfM up to an optimum."
+    },
+    {
+      "question": "An operator of a new hospital cannot prevent interruptions to the public electricity supply. How should the authority treat this risk?",
+      "options": [
+        "Retain it, because the risk is exogenous and outside the operator's control",
+        "Treat it as force majeure and share it equally",
+        "Exclude it from the risk matrix as insignificant",
+        "Transfer it, because the operator can manage the consequences with back-up generation"
+      ],
+      "answer": 3,
+      "explanation": "The Guide warns that the endogenous or exogenous label can mislead. The private partner cannot prevent power cuts but can control their consequences with a back-up generator, so it is best placed to manage the risk."
+    },
+    {
+      "question": "Which formula does the Guide use to value a risk?",
+      "options": [
+        "Expected loss equals likelihood multiplied by impact",
+        "Expected loss equals impact minus the risk premium",
+        "Expected loss equals likelihood divided by the contract term",
+        "Expected loss equals impact multiplied by the discount rate"
+      ],
+      "answer": 0,
+      "explanation": "Risk, or expected loss, is the probability of the event occurring multiplied by the financial value of its effects. The other options mix in unrelated terms such as the risk premium or discount rate."
+    },
+    {
+      "question": "A PPP team is refining the risk allocation during the Structuring Phase. It has no reliable data on the probability of most events. Which approach should it mainly use?",
+      "options": [
+        "A full probabilistic simulation of every risk in the register",
+        "No assessment, because allocation was already fixed in appraisal",
+        "A qualitative likelihood and impact assessment, such as a 3x3 or 5x5 matrix",
+        "Copying the allocation from a contract in another sector without review"
+      ],
+      "answer": 2,
+      "explanation": "Allocation is mostly based on qualitative or semi-quantitative assessment, and probabilistic analysis should only be used when reliable information on likelihood exists. Allocation from appraisal is preliminary and must be refined, not simply kept."
+    },
+    {
+      "question": "In a qualitative risk assessment for allocation, where should the team concentrate its effort?",
+      "options": [
+        "On green risks, because they are the most numerous",
+        "On red and yellow risks, with green risks transferred by default",
+        "Equally on all risks, to avoid any bias",
+        "Only on risks that the private partner cannot insure"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says allocation work concentrates on the red and yellow parts of the matrix, and green risks are transferred to the private partner unless it cannot manage them. Treating all risks equally wastes effort on insignificant risks."
+    },
+    {
+      "question": "An authority preparing a metro PPP wants to reduce ground risk before launch. Which action best reflects the Guide's view of early mitigation?",
+      "options": [
+        "Leave geotechnical studies to bidders so the authority saves time and money",
+        "Transfer all ground risk with no information, since bidders will price it",
+        "Delay the geotechnical study until after financial close",
+        "Commission a geotechnical study, share it with bidders and use it as a contract baseline"
+      ],
+      "answer": 3,
+      "explanation": "The public partner is best placed to do risk studies in advance and share them; a study can even set a baseline for compensation. Passing the study burden to bidders is bad practice that causes projects to fail."
+    },
+    {
+      "question": "Which of the following is NOT one of the Guide's risk treatment strategies for risks retained by the public partner?",
+      "options": [
+        "Self-insuring with contingency funds in the budget",
+        "Buying insurance policies for some risks",
+        "Passing the risk to the private partner's lenders through the direct agreement",
+        "Using hedging for some financial risks such as inflation"
+      ],
+      "answer": 2,
+      "explanation": "For retained risks the Guide lists self-insurance and contingency funds, insurance, hedging and reactive management. Passing a retained risk to lenders is not a treatment strategy for retained risk."
+    },
+    {
+      "question": "A private partner passes construction risk to its contractor through a back-to-back contract. From the private partner's view, what does the risk become?",
+      "options": [
+        "A retained risk of the procuring authority",
+        "A counterparty risk, as it still answers to the authority if the contractor fails",
+        "A force majeure risk shared with the authority",
+        "A fully eliminated risk with no further exposure"
+      ],
+      "answer": 1,
+      "explanation": "When the private partner passes a risk through, it becomes a counterparty risk: the private partner stays responsible to the authority and depends on the contractor's ability to manage or pay. It is not eliminated or moved back to the authority."
+    },
+    {
+      "question": "During construction of a road PPP, the government decides to change the project's scope to meet local interests. Who should bear the cost and time impact of this change?",
+      "options": [
+        "The government, because the private partner cannot manage this risk at all",
+        "The private partner, because construction cost risk is always private",
+        "The contractor, through its turnkey contract",
+        "Both parties equally, as a force majeure event"
+      ],
+      "answer": 0,
+      "explanation": "The Guide's example says a government scope change for local interests cannot be managed by the private partner and would be expensively priced, so the government retains it. Construction cost risk is generally private, but not when caused by government decisions."
+    },
+    {
+      "question": "Consider two statements. 1: The public partner monitors transferred risks as well as retained risks. 2: Once a risk is transferred, the government has no reputational exposure to it.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The public partner monitors both retained and transferred risks because it has ultimate responsibility for the asset and service. For the same reason it always remains exposed to reputational risk, so statement 2 is false."
+    }
+  ]
+}

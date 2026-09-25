@@ -1,0 +1,277 @@
+{
+  "id": "f07-project-structure",
+  "level": "foundation",
+  "order": 7,
+  "title": "The basic PPP project structure and payment mechanisms",
+  "minutes": 17,
+  "guideRef": "Ch 1 §6",
+  "objectives": [
+    "Describe the upstream PPP contract and the downstream contracts of a typical DBFOM project.",
+    "Explain what an SPV is, why it is created and who its shareholders usually are.",
+    "Follow the sequence of a PPP project from contract signature and financial close to hand-back, including the cash flow waterfall.",
+    "Tell availability payments apart from volume payments and explain when each is suitable.",
+    "Give examples of how the scope of a PPP can vary within the rail, water and health sectors."
+  ],
+  "sections": [
+    {
+      "heading": "The project structure: upstream and downstream",
+      "body": "In earlier lessons you learned why governments use PPPs and what can go wrong. Now we look inside a typical private finance PPP, using the **DBFOM** form (Design, Build, Finance, Operate, Maintain). The same basic structure works for both **user-pays** and **government-pays** PPPs. (Figure 1.10 leaves out 'payments to the government', which can happen in some over-feasible user-pays projects.)\n\nThe **project structure** is the architecture of contract relationships and cash flows that govern the project's development and life. Its core is the **PPP contract** (also called the **PPP agreement** or **upstream contract**) between the **authority** and the **private partner**. The authority develops this contract. It sets the private partner's rights and obligations, so the Guide uses 'project structure' and 'project contract' almost as the same thing.\n\nThe project structure reflects three things:\n\n- the **scope** of the contract (what the private partner is responsible for);\n- the **financial structure** (how the private partner is paid);\n- the **risk structure** (how responsibilities are qualified in terms of risk).\n\nThe **payment mechanism** sits at the heart of the financial and risk structure.\n\nThe private partner is usually a **Special Purpose Vehicle (SPV)**, a project company created only for this project. The SPV **passes through** most of its rights, obligations and risks to a **downstream** set of contracts:\n\n- **shareholders agreements** (especially with financial investors);\n- **financing or debt agreements** with lenders;\n- **construction or EPC contracts** (Engineering, Procurement and Construction);\n- **O&M contracts** (operation and maintenance);\n- **insurance contracts and guarantees**.\n\nDownstream contracts are often called **back-to-back contracts**, because they are meant to mirror the obligations and risks in the PPP contract. The EPC and O&M contractors are often also shareholders of the SPV, but being a shareholder is not generally required to act as a contractor (although some governments require it in some projects). Some shareholders are pure **financial investors** whose only role is to provide equity."
+    },
+    {
+      "heading": "The SPV: why it exists",
+      "body": "Box 1.21 explains the SPV. The winning bidder, usually a **consortium**, forms the SPV **after award but before signing** the contract. Members take the share percentages they committed in their bid, and it is the **SPV that signs** the PPP contract.\n\nIn some countries an SPV is not compulsory, but the Guide considers it **good practice**. It brings benefits to both sides:\n\n- **For lenders and investors:** lenders usually require an SPV to lend on a **project finance** basis, because it lets them control credit risk better. Project finance lets equity investors **limit their exposure**, gives **high leverage** without (generally) corporate guarantees, and the finance is commonly regarded as **off balance sheet** for the investors.\n- **For the public party:** its partner is **dedicated only to this contract**. The RFP, the contract and the lenders often **prohibit the SPV from doing other projects**.\n\nThe Guide accepts exceptions: small projects that do not need project finance (to avoid extra transaction costs), or when the signing company is an existing government-owned company turned into a joint venture (an **empresa mixta**)."
+    },
+    {
+      "heading": "Step by step: from signature to construction",
+      "body": "Figure 1.10 shows the main relationships in order.\n\n**1. The consortium forms the SPV, which signs the contract.** Contract signature is also called **commercial close**. The consortium members sign the **shareholders agreement**. By signing, the private partner takes on the obligations to finalise the design and build the asset (including permits if required), to **finance** the works (in full, or a relevant portion if there is co-financing with government grants), and to **operate and maintain** the asset after commissioning.\n\n**2. The SPV signs financial agreements and downstream contracts.** After signature, the SPV enters into the guarantee for the **performance bond**, the insurance policies, the **loan agreements** (this is **financial close**), and the EPC and O&M contracts. Financial close may happen on the same day as signature or be deferred, which also delays construction. Loans are the most common debt instrument, but in some markets **project bonds** are used. O&M contracts must be signed **at least at financial close**, even though O&M starts later, because lenders and investors want certainty on costs and risk transfer. In some projects, the authority signs a **direct agreement** with the lenders.\n\nIn complex projects, such as light rail, the SPV may sign one contract with a group of companies, or separate contracts for civil works, track, systems and rolling stock. With one contract, the **integration risk** passes to the contractor group; with separate contracts, the SPV **keeps** it.\n\n**3. Construction and funding.** Construction starts when the authority gives the **construction order**, after the final design is approved and preset conditions are met. These **conditions precedent (CPs)** may be the authority's duty (for example providing the land or right of way) or the lenders' requirements (for example permits). Depending on the country, shareholders may have to put in their **equity first**, before loan drawdowns, or equity and debt are drawn **in parallel** in fixed percentages (pari passu). The contractor is usually paid by **monthly progress payments**, reviewed by the lenders' technical advisors, and provides security such as bank or parent company guarantees.\n\nIn a typical fully private-financed PPP, the private partner receives **no payment from government or users until the works are finished and commissioned**. Exceptions: partial payments as each facility of a multi-facility project opens, or co-financing schemes with public payments during or at the end of construction."
+    },
+    {
+      "heading": "Step by step: operations, debt repayment and hand-back",
+      "body": "**4. Operations begin and revenues flow.** Operations usually start only once works are complete and commissioned. In a **user-pays** contract the SPV starts charging users (for some upgrades of existing transport assets, charging may start during construction). In a **government-pays** contract the SPV invoices the authority at the agreed frequency, up to the offered payment **minus deductions or abatements** for poor performance.\n\nThe SPV uses its revenues in a set order, called the **cash flow waterfall**:\n\n1. **O&M costs** (mainly payments to O&M contractors);\n2. **taxes** and the **reserves** required by law and the contract;\n3. **interest and debt repayment**;\n4. **distributions to equity holders**.\n\nO&M fees may be fixed or variable (for example a percentage of revenue), and are usually subject to the **same deductions** that hit the SPV, passing performance risk down to the O&M contractor. During operations there are also **renewals** or **major maintenance** (life-cycle costs) to keep the asset in good condition. These are usually done by the O&M contractors, but may be placed in a separate renewals contract.\n\n**5. Paying back the loan and equity distributions.** The debt repayment profile is set in advance and **sculpted** to meet the **Debt Service Cover Ratio (DSCR)**. Dividends can only be paid after O&M, taxes and debt service are paid and reserves are funded, and lenders often add further restrictions. So most shareholder returns come **late in the contract**, unless there is a refinancing or an equity sale.\n\n**6. Hand-back.** Unless there is **early termination** (serious default by either party, force majeure, or a unilateral decision by the authority), the contract expires at the end of its term. The asset returns to the government, which may re-tender it, use shorter O&M contracts, or manage it directly. Good practice is to require hand-back **in a specified condition**. The private partner usually invests in the last one to three years to meet it, and the public partner must carry out a **condition assessment**."
+    },
+    {
+      "heading": "The payment mechanism",
+      "body": "The **upstream contract structure** is defined by the public authority. In government-pays PPPs, most revenues should be **linked to performance**, and the tool for this is the **payment mechanism**. It is the main source of revenue for design and construction, life-cycle work, operations and maintenance, debt service and dividends. Other revenue may come from construction grants, operating subsidies, user fees or commercial side-businesses such as hotels or petrol stations.\n\nSome people call the right to charge users a payment mechanism. The Guide prefers to use the term **only for government-pays PPPs, or user-pays PPPs with a clear public payment component**.\n\nThree principles make the payment mechanism essential:\n\n- **Payments start only when the asset is in service.** This transfers construction and **time** risk, because the asset creates value only once it operates.\n- **PPPs are about service.** Payments are made only to the extent the asset is available and meets the **performance requirements**. They cover O&M, renewals **and the original capital investment together**, so the investment itself is at risk if performance falls.\n- **Payments are for results (outcomes), not means (inputs).** The partner is not paid as it spends money, but when it meets the **output specifications**. This also leaves room for innovation."
+    },
+    {
+      "heading": "Availability payments versus volume payments",
+      "body": "There are two main types of payment mechanism, with many variations and combinations.\n\n| | Availability payments | Volume payments |\n|---|---|---|\n| Paid for | The asset being available to the required standard | The number of users or another measured volume |\n| Deductions | For unavailability (and often quality failures) | Revenue falls with lower use |\n| Examples | A hospital building kept functional, clean and safe | A **shadow toll** on a toll-free road; cubic metres of wastewater treated |\n| Best when | Government wants a reliable facility, not more demand | Government wants to **maximise use** of the asset, for example public transport |\n\n'Available' can mean two things. **Availability to use** is the real ability of users to use the asset (the road can be used safely). **Deemed availability** means meeting the level of service set in the contract (for example no more than one lane in three closed in a section). **Quality** can be treated as part of availability (a quality failure counts as unavailability) or measured separately with its own deductions. It is good practice to check whether quality elements belong in every availability mechanism.\n\nChoose the mechanism that **aligns interests**. In a hospital PPP, the government does not want more patient demand for clinical services; it wants the facility to be available and functional to standards of comfort, space, safety and cleanliness, so availability-based payments fit. Some projects combine availability or quality payments with limited volume payments.\n\nIn **user-pays** PPPs, revenue from users is a strong incentive to keep the asset available, but a **weak incentive for quality** that does not affect demand. A toll road operator may not care about litter or drainage flooding nearby properties. So some user-pays PPPs add **minimum service requirements** with penalties or liquidated damages, for example discounts on user fees. Force majeure for catastrophic events is also becoming more important."
+    },
+    {
+      "heading": "Different scopes in the same sector",
+      "body": "Section 6.3 shows that scope, and so structure, can vary a lot **within one sector**.\n\n- **Rail:** only the infrastructure, with operations kept by a state company (high-speed rail PPPs in France) or given to another private partner; the infrastructure plus rolling stock and operations together (metro and light metro PPPs in Spain); or only rolling stock supply and maintenance, only operations, or only certain systems such as electrification or signalling.\n- **Water:** only a plant or group of plants under an **off-take agreement** with a water utility; upgrading and O&M of a whole system including plants, networks and supply to homes; or only management services such as tariff collection.\n- **Health:** integrated delivery of the building, facility management and clinical services; only the building and its maintenance, with clinical services kept public (the main model in Canada, South Africa, Spain and the UK); only clinical services; or only medical equipment. An all-inclusive example in a least developed country is the hospital PPP in Lesotho.\n\nThe key point: you cannot guess a PPP's structure from its sector. You must read its **scope**."
+    }
+  ],
+  "example": {
+    "title": "Imagine the Harbourview Hospital PPP",
+    "body": "Imagine the fictional city of Harbourview procuring a new hospital as a government-pays DBFOM, keeping clinical services public.\n\n- **Award and SPV.** Consortium 'MedBuild' (a builder, a facilities firm and an infrastructure fund) wins. It forms **HealthCo SPV**, which signs the PPP contract (**commercial close**).\n- **Downstream.** HealthCo signs loan agreements (**financial close**), an EPC contract with the builder, and a facilities management O&M contract, all **back-to-back** with the PPP contract.\n- **Construction.** Once the city provides the site (a **condition precedent**), the city gives the construction order. Equity and debt fund monthly payments to the builder. The city pays **nothing** yet.\n- **Operations.** After commissioning, HealthCo invoices monthly under an **availability payment**. If an operating theatre is out of use or cleaning fails the standard, **deductions** apply, and HealthCo passes them to the O&M contractor.\n- **Waterfall.** HealthCo pays O&M first, then taxes and reserves, then lenders, and only then dividends.\n- **Hand-back.** After 25 years, the hospital returns to the city in the specified condition after a condition assessment.\n\nWhy availability, not volume? The city does not want more patients to mean more payment; it wants a reliable, safe building."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing commercial close with financial close",
+      "fix": "Commercial close is the signature of the PPP contract between the authority and the SPV. Financial close is the signature of the financing (loan) agreements, which may happen the same day or later."
+    },
+    {
+      "trap": "Mixing up the upstream and downstream contracts",
+      "fix": "Upstream is the one PPP contract between the authority and the SPV, designed by the authority. Downstream are the SPV's own contracts with lenders, EPC and O&M contractors, investors and insurers."
+    },
+    {
+      "trap": "Thinking a user-pays PPP automatically secures all quality outcomes",
+      "fix": "User revenue encourages availability, but not quality that does not affect demand (litter, drainage). Minimum service requirements with penalties are needed."
+    },
+    {
+      "trap": "Choosing volume payments where the government does not want more demand",
+      "fix": "Volume payments suit assets whose use government wants to maximise, like public transport. For a hospital building, availability and quality payments align interests better."
+    },
+    {
+      "trap": "Getting the cash flow waterfall order wrong",
+      "fix": "O&M costs first, then taxes and reserves, then interest and debt repayment, and only then distributions to equity holders."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Upstream contract", "meaning": "The PPP contract between the authority and the private partner that sets the partner's rights and obligations." },
+    { "term": "Special Purpose Vehicle (SPV)", "meaning": "A project company formed by the winning consortium only to sign and deliver the specific PPP contract." },
+    { "term": "Back-to-back contracts", "meaning": "Downstream contracts that mirror the obligations and risks of the PPP contract, passing them from the SPV to contractors." },
+    { "term": "Commercial close", "meaning": "The signature of the PPP contract, when it becomes valid and enforceable." },
+    { "term": "Financial close", "meaning": "The signature of the financing agreements, mainly the loan agreements, by the SPV." },
+    { "term": "Conditions precedent (CPs)", "meaning": "Preset conditions, from the authority or lenders, that must be met before the authority gives the construction order." },
+    { "term": "Cash flow waterfall", "meaning": "The fixed order in which the SPV uses its revenues: O&M, taxes and reserves, debt service, then equity." },
+    { "term": "Availability payment", "meaning": "A payment made while the asset is available to the contract standard, reduced by deductions for unavailability or poor quality." },
+    { "term": "Volume payment", "meaning": "A payment linked to the number of users or another measured volume, such as a shadow toll." },
+    { "term": "Hand-back", "meaning": "The return of the asset to the government at the end of the contract, usually in a specified condition." }
+  ],
+  "summary": [
+    "The PPP (upstream) contract between authority and SPV is the core of the project structure.",
+    "The SPV passes risks down through back-to-back contracts: finance, EPC, O&M, insurance and shareholders agreements.",
+    "Commercial close is contract signature; financial close is signature of the loan agreements.",
+    "In a full private finance PPP, no payments are made until the asset is built and commissioned.",
+    "Cash flow waterfall: O&M, then taxes and reserves, then debt service, then dividends, so equity returns come late.",
+    "Availability payments pay for an available, good-quality asset; volume payments pay for use and suit assets whose use government wants to maximise.",
+    "The scope of a PPP can vary widely within the same sector, as in rail, water and health."
+  ],
+  "slides": [
+    {
+      "title": "Inside a PPP project",
+      "points": [
+        "Core: the PPP contract, also called upstream",
+        "Structure = scope, finance and risk",
+        "Payment mechanism sits at the heart"
+      ],
+      "narration": "Let's open up a typical PPP and look inside. At the centre sits one contract: the PPP agreement between the public authority and the private partner. The Guide calls it the upstream contract, and the authority writes it. This contract sets three things: the scope, meaning what the partner must do; the financial structure, meaning how the partner is paid; and the risk structure, meaning who carries which risks. And right at the heart of the financial and risk structure is the payment mechanism, which we will look at shortly."
+    },
+    {
+      "title": "The SPV and downstream contracts",
+      "points": [
+        "Winning consortium forms an SPV to sign",
+        "SPV passes risks down, back-to-back",
+        "Lenders, EPC, O&M, insurers, shareholders"
+      ],
+      "narration": "The private partner is usually a special purpose vehicle, a company created only for this project. The winning consortium forms it after award and before signing. Why bother? Lenders want it, so they can lend against the project's own cash flows, and the government likes a partner dedicated to one contract only. The SPV then passes its obligations and risks down to other parties: the lenders, the construction contractor, the operation and maintenance contractor, the insurers and the shareholders. We call these back-to-back contracts, because they mirror the main contract."
+    },
+    {
+      "title": "Two closes, not one",
+      "points": [
+        "Commercial close: PPP contract signed",
+        "Financial close: loan agreements signed",
+        "O&M contracts signed by financial close"
+      ],
+      "narration": "These two words are easy to mix up, so let's be precise. Commercial close is the moment the SPV signs the PPP contract with the authority. Financial close is when the SPV signs its loan agreements with the lenders. Sometimes both happen on the same day. Sometimes financial close comes months later, and then construction starts later too. One detail: the operation and maintenance contracts must be signed by financial close at the latest, even though operations start years later, because lenders want certainty about costs and risks."
+    },
+    {
+      "title": "Construction phase",
+      "points": [
+        "Construction order after conditions precedent are met",
+        "Equity and debt fund the builder",
+        "Government pays nothing until commissioning"
+      ],
+      "narration": "Construction begins when the authority gives the construction order. Before that, certain conditions precedent must be met, such as the authority handing over the land, or the lenders receiving key permits. The builder is usually paid monthly for work done, with the money coming from the shareholders' equity and the bank loans. Depending on the country, equity may go in first, or alongside the debt. Now the key point: in a typical private finance PPP, neither the government nor users pay anything until the asset is finished and commissioned."
+    },
+    {
+      "title": "The cash flow waterfall",
+      "points": [
+        "First: operation and maintenance costs",
+        "Then taxes and reserves, then lenders",
+        "Shareholders last, so returns come late"
+      ],
+      "narration": "Once the asset opens, money starts to flow in, from users or from the government. The SPV must spend it in a fixed order, which we call the cash flow waterfall. First, it pays operation and maintenance costs. Second, taxes and the required reserves. Third, interest and loan repayments. Only then can anything go to shareholders. The loan schedule is shaped to keep a safe debt service cover ratio. So the shareholders are last in line, and most of their return arrives in the later years of the contract."
+    },
+    {
+      "title": "Hand-back",
+      "points": [
+        "Asset returns to government at expiry",
+        "Specified hand-back condition required",
+        "Public side must assess the condition"
+      ],
+      "narration": "Unless the contract ends early, for example because of a serious default or force majeure, it simply expires at the end of its term. The asset then goes back to the government. The government can tender it again, sign shorter maintenance contracts, or run it itself. Good practice is to set a clear hand-back condition in the contract. The private partner usually spends money in the last one to three years to reach it, and the public side must carry out a proper condition assessment before accepting the asset."
+    },
+    {
+      "title": "Paying for results",
+      "points": [
+        "Pay only when the asset is in service",
+        "Pay for outcomes, not inputs",
+        "Capital cost is at risk of performance"
+      ],
+      "narration": "Now the payment mechanism. In government-pays PPPs, most of the partner's income should depend on performance. Three ideas drive this. First, payment starts only when the asset is in service, which transfers construction and time risk. Second, PPPs are about service, so payment continues only while the asset meets its performance requirements. Because one payment covers operations, renewals and the original investment together, even the capital cost is at risk if performance drops. Third, the partner is paid for outcomes, meeting output specifications, not for the money it spends."
+    },
+    {
+      "title": "Availability or volume?",
+      "points": [
+        "Availability: paid for a usable, good-quality asset",
+        "Volume: paid per user, like shadow tolls",
+        "Choose the one that aligns interests"
+      ],
+      "narration": "There are two main kinds of payment mechanism. Availability payments reward the partner for keeping the asset available and up to standard, with deductions when it is not. Volume payments depend on use, for example a shadow toll paid by government for each car on a toll-free road. Which should you choose? The one that aligns interests. A hospital should be paid on availability, because government does not want more demand to mean more money. Public transport may suit volume payments, because government wants more people to use it."
+    },
+    {
+      "title": "Same sector, different scope",
+      "points": [
+        "Rail: infrastructure only, or trains and operations too",
+        "Water: one plant, or the whole system",
+        "Health: building only, or clinical services too"
+      ],
+      "narration": "Finally, don't assume that all PPPs in one sector look the same. A rail PPP may cover only the track, or the track plus trains and operations, or just the rolling stock. A water PPP may be a single treatment plant selling to a utility, a whole water system, or just billing services. A health PPP may include clinical services, or, as in Canada, South Africa, Spain and the UK, only the building and its maintenance. The lesson is simple: always read the scope before you judge the structure."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which best describes the 'upstream contract' in a PPP project structure?",
+      "options": [
+        "The loan agreement between the SPV and its lenders",
+        "The EPC contract between the SPV and the builder",
+        "The shareholders agreement among consortium members",
+        "The PPP contract between the authority and the private partner"
+      ],
+      "answer": 3,
+      "explanation": "The upstream contract is the PPP agreement between the authority and the private partner, developed by the authority. Loan, EPC and shareholders agreements are downstream contracts entered into by the SPV."
+    },
+    {
+      "question": "Consider these two statements. 1. Commercial close refers to the signature of the PPP contract. 2. Financial close refers to the signature of the financing agreements, mainly the loan agreements.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 2,
+      "explanation": "Both are correct. Contract signature is also called commercial close, and entering into the loan agreements is commonly referred to as financial close; the two may happen on the same day or at different times."
+    },
+    {
+      "question": "Why are downstream project contracts often called 'back-to-back' contracts?",
+      "options": [
+        "They mirror the obligations and risks in the PPP contract",
+        "They are signed on the same day as the PPP contract",
+        "They are signed by the authority on behalf of the SPV",
+        "They replace the PPP contract if it is terminated"
+      ],
+      "answer": 0,
+      "explanation": "Downstream contracts are intended to mirror the obligations and risks of the PPP contract, passing them from the SPV to contractors. They are signed by the SPV, not the authority, and do not have to be signed on the same day."
+    },
+    {
+      "question": "During operations, which item does the SPV normally pay first from the funds it collects?",
+      "options": [
+        "Interest and debt repayment",
+        "Dividends to shareholders",
+        "Operation and maintenance costs",
+        "Payments into reserves required by the contract"
+      ],
+      "answer": 2,
+      "explanation": "In the cash flow waterfall, O&M costs come first, then taxes and reserves, then debt service, and only then distributions to equity holders. Dividends are always last."
+    },
+    {
+      "question": "In a typical PPP fully financed by the private sector, when does the private partner first receive payment from government or users?",
+      "options": [
+        "At contract signature",
+        "Monthly during construction",
+        "At financial close",
+        "Once the works are finished and commissioned"
+      ],
+      "answer": 3,
+      "explanation": "In a typical private finance PPP, no payment is received until the works are finalised and commissioned, which transfers time risk. Monthly construction payments are made by the SPV to its builder, not by the government to the SPV."
+    },
+    {
+      "question": "Which best describes 'deemed availability' in an availability payment mechanism?",
+      "options": [
+        "The actual physical ability of a user to use the asset",
+        "Meeting the level of service established in the contract",
+        "The number of users counted on the asset each month",
+        "The date on which the asset is handed back to government"
+      ],
+      "answer": 1,
+      "explanation": "Deemed availability means the accomplishment of the level of service set in the contract, for example no more than one lane in three closed. The actual ability of users to use the asset is 'availability to use'."
+    },
+    {
+      "question": "A government pays a private partner a fee for each vehicle using a toll-free highway. What type of payment is this?",
+      "options": [
+        "An availability payment",
+        "A volume payment known as a shadow toll",
+        "A user charge collected by the private partner",
+        "A capital grant during construction"
+      ],
+      "answer": 1,
+      "explanation": "A shadow toll is a volume payment made by government according to the number of users on a road that is free for drivers. A user charge would be paid by the drivers themselves."
+    },
+    {
+      "question": "A government is procuring a hospital PPP where clinical services stay public. Which payment basis best aligns the interests of the parties?",
+      "options": [
+        "Payments linked to availability and quality of the facility",
+        "Payments linked to the number of patients treated",
+        "Payments made as the private partner incurs costs",
+        "Payments linked to the volume of medicines used"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a government is not interested in higher demand for clinical services but in an available, functional, safe and clean facility, so availability and quality payments fit. Paying for costs incurred pays for inputs, not results."
+    },
+    {
+      "question": "Which of the following is NOT a benefit of creating an SPV described in the Guide?",
+      "options": [
+        "It helps lenders control credit risk under project finance",
+        "The public party's partner is dedicated only to the specific contract",
+        "It lets equity investors limit their exposure to risk",
+        "It allows the SPV to develop many other unrelated projects at once"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the RFP, contract and lenders often prohibit the SPV from developing other projects, so its only object is the PPP. Credit risk control, dedication to the contract and limited investor exposure are all listed benefits."
+    },
+    {
+      "question": "Consider these two statements. 1. The Guide prefers to use the term 'payment mechanism' only for government-pays PPPs or user-pays PPPs with a clear public payment component. 2. In a user-pays PPP, revenue from users gives the private party a strong incentive to meet all quality outcomes, such as keeping the road free of litter.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 0,
+      "explanation": "Statement 1 matches the Guide's preferred use of the term. Statement 2 is false: user revenue encourages availability, but there is less incentive for quality outcomes that do not affect demand, so minimum service requirements with penalties may be needed."
+    }
+  ]
+}

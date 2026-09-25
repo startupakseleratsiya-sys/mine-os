@@ -1,0 +1,308 @@
+{
+  "id": "p16-revenue-payment-mechanisms",
+  "level": "preparation",
+  "order": 16,
+  "title": "Revenue regimes and payment mechanisms",
+  "minutes": 17,
+  "guideRef": "Ch 5 §4.7–§4.10",
+  "objectives": [
+    "Explain why a PPP may be funded by users, by government payments, or by both.",
+    "Structure the key parameters of a user-pays PPP: tariffs, indexation, excess revenue and volume risk.",
+    "Decide when volume-linked payments are appropriate and how to limit their risk with bands and caps.",
+    "Design an availability payment: unitary charge, weightings, deductions, rectification periods and exceptions.",
+    "Apply the Guide's rules on indexation, first payment, early completion and other adjustments."
+  ],
+  "sections": [
+    {
+      "heading": "1. Revenue regimes: who pays the private partner?",
+      "body": "In the last lesson we looked at public financial support. Now we look at the **revenue regime**, meaning where the private partner's operating revenue comes from.\n\n- **User-pays**: revenue comes wholly or mainly from users (tolls, fares, tariffs). Most common in economic infrastructure.\n- **Government-pays**: revenue comes wholly or mainly from public payments. Most common in social infrastructure, but also in many economic projects.\n\nGovernment payments appear in economic infrastructure for four reasons:\n1. The PPP is **one component of a wider network** run by another operator that collects the user charge (for example, high speed rail track, or a treatment plant whose water is taken by a public utility).\n2. Government **chooses not to charge** users (a toll-free road funded by fuel tax or general taxes). This is a public finance decision.\n3. User charges exist but are **not enough**, so government adds payments to fill the viability gap.\n4. Users pay, but **government keeps the user revenue** and pays the private partner entirely itself, retaining the risk and reward of collection.\n\nThe choice between these options depends on risk and VfM and is made in **appraisal**. Wherever there are government payments, the contract needs a **payment mechanism**, based on **volume or usage**, or on **availability and quality**."
+    },
+    {
+      "heading": "2. Structuring user-pays projects",
+      "body": "When revenue comes from users, the Guide lists five structuring matters, outlined in appraisal and refined in structuring:\n\n**Tariff levels.** In toll roads government typically sets **maximum tolls** per vehicle type, sometimes a maximum average tariff that gives the partner some flexibility, and more flexibility with dynamic tolling. In integrated water projects the tariff is **always regulated** (water is a basic public good), and this is also common in public transport.\n\n**Indexation.** Capped tariffs are usually reviewed yearly and indexed, most commonly to the **Consumer Price Index (CPI)**. Some countries add an efficiency factor (for example 0.85 times CPI). Some road schemes link to GDP or to the higher of GDP and inflation. Regulated sectors may have periodic reviews or fuel cost pass-through.\n\n**Payments to the procuring authority.** If revenue exceeds what feasibility needs, government may lower tariffs, or capture the surplus through an **upfront concession fee** or **sharing during operations** (a fixed yearly fee or a percentage of revenue). Cautions:\n- Sharing surplus by **shortening the term** may harm VfM and financial optimisation.\n- An upfront fee needs clear evidence of excess value, adds capital cost for the company, and must not lead to **overcharging users**. Estimate it **prudently** (realistic, close to pessimistic traffic) and capture further upside through a variable fee.\n- Excess revenue arises mostly in **existing** assets (roads, airports, some ports) with known demand, and less often in greenfield roads.\n\n**Unfeasible projects.** Refine the gap-filling tool chosen at appraisal: the timing of grant payments or the terms of participative loans, usually with an upside-sharing mechanism.\n\n**Volume risk.** Where demand risk is high (for example, a greenfield road with no traffic history), it may be limited or shared through **minimum traffic or revenue guarantees**. One motorway example in the Guide used a revenue shortfall mechanism in the early years, structured as a **subordinated loan** repaid from future revenues before dividends."
+    },
+    {
+      "heading": "3. Volume-linked payments (shadow tolls)",
+      "body": "In a **volume-linked** mechanism, government pays per unit of use: **shadow tolls** per vehicle, shadow fares per passenger, or payment per cubic metre treated. This brings **demand risk** into the contract, which is hard for either party to control and makes lenders wary.\n\nUse volume payments only when **both** conditions hold:\n- the public party genuinely **wants higher volume** (for example, urban public transport); and\n- the volume risk is **reasonably assessable and manageable** by the private partner.\n\n| Improper volume risk transfer | Proper volume risk transfer |\n|---|---|\n| Water treatment plant paid per volume with no take-or-pay, so it loses money when inflows fall despite good performance | Existing toll road with a long traffic record, where government maximises its revenue |\n| Hospital (no clinical services) paid per occupant, although health authorities decide where patients go | Light rail that runs the trains, paid by shadow fare in bands plus availability payments |\n| Toll-free road paid per user: windfall profits or undeserved losses | |\n| Track paid per train when trains are run by others | |\n\n**Payment profile.** Traffic grows over time, so volume payments are **back-loaded**. This looks attractive but finance is repaid later and lenders and investors want higher cover ratios and returns, so the **total cost in NPV terms is usually higher** than with availability payments.\n\n**Bands.** A common design uses **demand bands**: the shadow fare **rises** at low traffic and **falls** at high traffic, sharing risk and reward. But bands must not **fully protect** the private partner, or VfM is lost. There should always be a **maximum traffic level** above which government pays nothing, to avoid open-ended fiscal risk. Above it, the partner should get some compensation for extra O&M costs, for example a small shadow tariff or a right to negotiate.\n\n**Indexation.** Usually CPI or a sector index. A **fixed indexation factor** (for example 2 percent regardless of CPI) is of **doubtful** value, because government ends up paying for the inflation risk transferred. Complex formulas with many indices should be avoided: **simplicity** is recommended.\n\n**Performance.** Volume payments are not inherently linked to performance, so the contract adds penalties, liquidated damages or a quality component with performance points.\n\nShadow payments also work well as **complementary** payments in an unfeasible user-pays PPP when the gap has not been filled with capital grants; these often include availability or quality elements, which reduce volume risk.\n\nSeveral countries that started with shadow tolls later moved road projects to **availability payments**."
+    },
+    {
+      "heading": "4. Availability payments: the core concept",
+      "body": "Where usage itself is **not** a public objective, but the asset **must be available** (for example, a hospital building for health workers), payment should be based on **availability**. This is the most common regime in **social infrastructure** and is growing in toll-free roads, rail and water transport. Power purchase agreements work in a similar way.\n\nGovernment pays **only when** the asset is available, so **never before construction is complete**, and **only to the extent** it is available (allowing agreed exemptions such as planned maintenance).\n\nAvailability has two sets of criteria:\n- **Physical availability**: can the asset actually be used?\n- **Condition criteria**: service levels that must be met; if breached, the asset may be **deemed unavailable** for payment even while in use (for example, road roughness, working lights, hospital temperature).\n\nThe mechanism should be **unitary**: no service, no payment. The payment for a section or area is **zero** while it is unavailable. Availability risk is an **operational** risk, largely within the partner's control, so a well-structured unitary payment is **bankable**.\n\n**Immature markets.** Some emerging markets break the unitary concept to reassure lenders: splitting payment into debt, equity and O&M parts (with the debt part protected), or **capping deductions**. This may be sensible when the availability concept is new, but otherwise should be avoided because it weakens incentives and VfM.\n\nService levels must be **objective, measurable and realistic**. High standards can be balanced with generous rectification periods or modest deductions. The final values are set by **calibration**: modelling performance scenarios (\"dry runs\") so that acceptable performance never causes insolvency, and full payment is **challenging but achievable** for a good operator. Avoid unnecessary complexity, which raises monitoring costs. A **performance monitoring regime** must be in place to detect unavailability.\n\n**Separate payment streams.** Non-critical services (for example, cleaning or catering, the soft services) can be paid through their own payment stream, with deductions taken only from that stream, not from the unitary charge. This keeps flexibility to change soft services during the contract."
+    },
+    {
+      "heading": "5. Designing deductions",
+      "body": "**Segments and weightings.** The payment is split into **functional units**: road sections that each serve a destination, or hospital areas. Each unit has a **weighting** reflecting how critical it is; in roads, sections with higher demand weigh more. Critical hospital areas (emergency, operating theatres, intensive care) weigh more than offices.\n\n**Deduction factors.** Deductions depend on the criterion breached and its severity, the area's weighting, the duration, possibly the time of day, repetition, and whether the area is still used (for example, how many lanes are blocked). In roads, an **unavailability factor** between 0 and 1 is applied per time unit.\n\n**Deductions can exceed the value** of the area's payment (guides mention 150 to 200 percent), so payment may reach **zero** before the whole facility is unavailable. But total deductions are **capped at 100 percent**: the private partner does not pay the authority.\n\n**Time weighting factors** make deductions larger at peak hours and on business days, common in transport.\n\n**Rectification periods.** No deduction applies if a fault is fixed within the agreed time. If it is **not** fixed in time, unavailability counts **from when it was detected**, not from the end of the period. Also:\n- Not every breach gets a rectification period (for example, failing to serve three meals).\n- **Critical** criteria should have none or very short ones, so maintenance stays proactive. If a hospital's back-up generators fail to cover a power cut, a deduction should apply at once.\n- **Temporary fixes** may be required quickly (boarding a broken school window within 24 hours, with 5 days to replace the glass). Failing to do so is itself a breach.\n\n**Ratchets** increase deductions for repeated or persistent failure.\n\n**Exceptions.** Work under the agreed maintenance plan is not unavailability; night periods with zero time weighting or a 'bag' of maintenance hours can help. Police orders and other excused events may also be exempt. Excusing accidents is **generally not advisable**; a sufficient rectification period is better."
+    },
+    {
+      "heading": "6. Indexation, first payment and other adjustments",
+      "body": "**Indexation.** Avoid back-loading availability payments; the real price of the service should stay constant. Full CPI indexation also fits badly, because **debt service is usually fixed** (interest is hedged) and inflation-linked costs are usually **under 50 percent** of outflows. Many projects therefore index **only a proportion** of the unitary charge, matching the share of inflation-linked costs. This gives higher nominal payments early and allows faster debt repayment.\n\n**First payment.** Do not pay during construction, however advanced. Exceptions: sections that can really be used early (a road stretch, one school in a multi-site contract), or existing assets kept in service during upgrades (pay O&M only, not the upgrade).\n\n**Early completion.** The authority is **not obliged** to pay before the target date, but the contract must say whether it will accept early use. Options include an early completion floor with bidders proposing the date, or, if the company finishes before the date in its own bid, a reduced (\"cut\") payment covering O&M plus some bonus for the equity holders.\n\n**Other adjustments:**\n- **Inverse volume risk in transport**: maintenance costs rise with use, so add a small shadow payment for marginal O&M (often for heavy vehicles), or revisit the charge if traffic stays above a threshold for, say, three years.\n- **Soft services**: pay separately or adjust above occupancy thresholds; use **market testing and benchmarking** for costs that CPI does not track.\n- **User satisfaction surveys**: allowed, but with a **small** financial effect, touching mainly the **equity return**; any bonus should also be modest.\n\n**Payment frequency.** Monthly payment in arrears is the most accurate and fair. Quarterly payment forces the partner to finance working capital, which may not be VfM. A middle path is monthly advance payments (for example 90 percent) with a quarterly true-up. Late government payments should carry interest."
+    }
+  ],
+  "example": {
+    "title": "Southgate ring road: building the payment mechanism",
+    "body": "Imagine the fictional region of Southgate structuring a toll-free ring road. Government does not control traffic and does not want to pay per car, so it chooses an availability payment. The road is split into four sections; the busiest, around the airport, gets the highest weighting.\n\nCondition criteria include pavement roughness and working lighting. A blocked lane must be cleared within 2 hours; if clearance takes 3 hours, the deduction counts from the moment the blockage was detected. Deductions are higher at peak hours through time weighting factors. Planned resurfacing at night carries a zero time weighting, so it does not count as unavailability.\n\nBecause debt service will be hedged and fixed, only 40 percent of the charge is indexed to CPI. As heavy lorries wear the road faster, a small shadow payment per heavy vehicle covers marginal maintenance. The team runs dry runs of the mechanism: a good operator loses about 1 percent a year, while a poor one faces deductions and ratchets that threaten equity returns without bankrupting the company. Payments are made monthly, at 90 percent in advance, with a quarterly true-up."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing availability payments with volume (shadow toll) payments",
+      "fix": "Availability pays for the asset being usable to the required standard, whatever the traffic. Volume pays per unit of use and brings demand risk."
+    },
+    {
+      "trap": "Thinking unavailability starts when the rectification period ends",
+      "fix": "If the fault is not fixed within the rectification period, unavailability counts from when it was detected or reported."
+    },
+    {
+      "trap": "Assuming deductions can make the private partner pay the authority",
+      "fix": "Deductions can exceed an area's value, so payment may reach zero early, but total deductions are capped at 100 percent of the payment."
+    },
+    {
+      "trap": "Believing back-loaded shadow toll payments are cheaper overall",
+      "fix": "They look easier early, but later repayment and higher required returns usually make the total cost higher in NPV terms."
+    },
+    {
+      "trap": "Indexing the whole unitary charge to CPI",
+      "fix": "Debt service is usually fixed, so index only the proportion of the charge that matches inflation-linked costs."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Revenue regime",
+      "meaning": "The source of the private partner's revenue: users, government payments, or a mix."
+    },
+    {
+      "term": "Shadow toll",
+      "meaning": "A volume payment made by government per user or vehicle, instead of a charge paid by the user."
+    },
+    {
+      "term": "Demand bands",
+      "meaning": "Ranges of traffic in which the shadow fare changes, rising at low demand and falling at high demand."
+    },
+    {
+      "term": "Unitary payment",
+      "meaning": "A single availability payment covering all the partner's costs, reduced to zero for any unavailable part."
+    },
+    {
+      "term": "Condition criteria",
+      "meaning": "Service levels that, if breached, make the asset deemed unavailable for payment even while it is used."
+    },
+    {
+      "term": "Rectification period",
+      "meaning": "The time allowed to fix a fault before a deduction applies."
+    },
+    {
+      "term": "Ratchet",
+      "meaning": "A factor that increases deductions for repeated or persistent under-performance."
+    },
+    {
+      "term": "Calibration",
+      "meaning": "Setting the final values of the payment mechanism by modelling performance scenarios."
+    },
+    {
+      "term": "Time weighting factor",
+      "meaning": "A multiplier that makes deductions higher at peak times and lower off-peak."
+    }
+  ],
+  "summary": [
+    "Revenue can come from users, government payments, or both; the choice is made in appraisal on risk and VfM grounds.",
+    "User-pays structuring covers tariff caps, indexation, excess revenue sharing, gap funding and volume guarantees.",
+    "Use volume payments only when government wants more use and the risk is manageable; use bands but always cap payments.",
+    "Availability payments are unitary: paid only after completion and only to the extent the asset is available.",
+    "Deductions reflect weighting, duration, severity and timing; they are capped at 100 percent.",
+    "Unfixed faults count from detection; critical criteria need short or no rectification periods.",
+    "Index only the inflation-linked share, avoid payments during construction, and keep user-survey effects small."
+  ],
+  "slides": [
+    {
+      "title": "Who pays the private partner?",
+      "points": [
+        "User-pays: tolls, fares, tariffs",
+        "Government-pays: common in social infrastructure",
+        "Mixed: user revenue plus public payments",
+        "Chosen in appraisal on risk and VfM"
+      ],
+      "narration": "In the last lesson we looked at public support. Now we ask who actually pays the private partner year after year. In user-pays projects, users pay tolls, fares or tariffs. In government-pays projects, public payments are the revenue, which is typical for hospitals and schools but also common in economic infrastructure. For example, the road may be toll-free, or the government may collect tolls itself and pay the partner. The choice is made in appraisal, based on risk and value for money."
+    },
+    {
+      "title": "Structuring user-pays projects",
+      "points": [
+        "Maximum tariffs, usually indexed to CPI",
+        "Excess revenue: upfront or shared fees",
+        "Estimate upfront fees prudently",
+        "Guarantees can limit volume risk"
+      ],
+      "narration": "When users pay, several choices matter. Government usually caps tariffs and indexes them, often to the consumer price index. If the project earns more than it needs, government can lower tariffs or take a share, either as an upfront concession fee or as a share during operations. Estimate an upfront fee prudently, using near-pessimistic traffic, and never overcharge users. Be careful with shortening the term to share gains. And where demand is very uncertain, minimum traffic or revenue guarantees can share the risk."
+    },
+    {
+      "title": "When do volume payments make sense?",
+      "points": [
+        "Government must want more use",
+        "Partner must be able to manage demand",
+        "Not when third parties control volume",
+        "Usually costlier in NPV terms"
+      ],
+      "narration": "Shadow tolls and other volume payments bring demand risk into the contract. Use them only when two things are true: the government genuinely wants more use, as in urban public transport, and the private partner can reasonably manage that risk. Paying a track builder per train, when someone else runs the trains, is irrational. So is paying a hospital per patient. Remember too that volume payments are back-loaded, and that usually makes the total cost higher in present value terms than availability payments."
+    },
+    {
+      "title": "Bands and caps for shadow tolls",
+      "points": [
+        "Fare rises at low demand",
+        "Fare falls at high demand",
+        "Always set a maximum traffic level",
+        "Keep indexation simple"
+      ],
+      "narration": "To soften demand risk, many shadow toll contracts use bands. At low traffic, the payment per vehicle goes up; at high traffic, it goes down. That shares both risk and reward. But do not protect the partner completely, or value for money disappears. And always set a maximum traffic level above which government pays nothing, so fiscal risk is not open-ended. Above that cap, a small payment can cover extra maintenance. For indexation, keep it simple; a fixed two percent factor is of doubtful value."
+    },
+    {
+      "title": "Availability: no service, no payment",
+      "points": [
+        "Pay only after construction is complete",
+        "Physical availability plus condition criteria",
+        "Unitary: unavailable area earns zero",
+        "Calibrate with dry runs"
+      ],
+      "narration": "Availability payments pay for an asset that is ready to use at the required standard. No payment before construction is finished, and only to the extent the asset is available. Two tests apply: can it physically be used, and does it meet the condition criteria, like lighting or temperature? A unitary payment means an unavailable area earns nothing. Standards should be objective, measurable and realistic. Before finalising, run dry runs of the formula so that full payment is challenging but achievable for a good operator."
+    },
+    {
+      "title": "How deductions are calculated",
+      "points": [
+        "Weighting by area or section",
+        "Duration and time of day",
+        "Can exceed an area's value",
+        "Total capped at one hundred percent"
+      ],
+      "narration": "Deductions depend on several factors. Critical areas, like operating theatres or busy road sections, carry higher weightings. Longer outages cost more, and peak-hour outages may cost more still through time weighting. Repeated failures can trigger ratchets. In some projects, the deduction for an area can be worth one and a half to two times its payment, so payment can hit zero before the whole facility is unavailable. But the total is capped at one hundred percent. The partner never pays the authority through deductions."
+    },
+    {
+      "title": "Rectification periods and exceptions",
+      "points": [
+        "No deduction if fixed in time",
+        "Late fix counts from detection",
+        "Critical criteria: short or no period",
+        "Planned maintenance is not unavailability"
+      ],
+      "narration": "Rectification periods give the partner time to fix a fault before any deduction. Here is the exam point: if the fix is late, unavailability counts from the moment the fault was detected, not from the end of the period. Critical items, like hospital power, should have no period at all, which keeps maintenance proactive. Temporary fixes, such as boarding a broken window, may be required quickly. Work under the agreed maintenance plan is not unavailability, and neither are police orders or other excused events."
+    },
+    {
+      "title": "Indexation and other adjustments",
+      "points": [
+        "Index only the inflation-linked share",
+        "Early completion: no duty to pay early",
+        "Small effect for user surveys",
+        "Monthly payment is the fairest"
+      ],
+      "narration": "A few last design rules. Debt service is usually fixed, so indexing the whole payment to inflation overpays later; index only the share linked to inflation. The authority does not have to pay if the asset is ready early, but the contract must say whether it accepts early use. Heavy traffic or high occupancy may justify extra payments for marginal costs. User satisfaction surveys can count, but only a little, mainly hitting equity returns. And paying monthly in arrears is the most accurate and fair approach."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A health ministry is structuring a DBFM hospital PPP in which clinical services stay with the public health service. On what basis should the private partner be paid?",
+      "options": [
+        "A payment per patient treated in the hospital",
+        "A shadow fee per bed occupied each night",
+        "Availability of the facility, such as beds and areas meeting the specified standards",
+        "User charges collected directly from patients"
+      ],
+      "answer": 2,
+      "explanation": "Government does not want more sick people; it wants the facility available. The Guide says accommodation-type hospitals should be paid on availability, and paying per occupant is an improper volume risk transfer because health authorities decide where patients go."
+    },
+    {
+      "question": "A PPP covers design, build, finance and maintenance of a rail line, while trains are run by the national incumbent operator. The authority proposes paying the private partner per train using the line. What should an adviser recommend?",
+      "options": [
+        "Pay on availability, because traffic volume is controlled by a third party",
+        "Keep the per-train payment, because it aligns interests",
+        "Pay per passenger carried on the trains instead",
+        "Add a traffic guarantee but keep volume payments"
+      ],
+      "answer": 0,
+      "explanation": "The Guide calls it irrational to pay on traffic when volume is controlled by a third party. Availability payments put on the partner only the risks it can manage."
+    },
+    {
+      "question": "A shadow toll road PPP uses demand bands. The finance ministry worries that very high traffic could create unlimited payments. What should the contract include?",
+      "options": [
+        "No bands at all, only a fixed shadow toll per vehicle",
+        "A maximum traffic level above which no shadow payments are made, with limited compensation for extra O&M costs",
+        "A guarantee that payments grow with traffic without limit",
+        "A minimum traffic guarantee only"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says there should always be a maximum traffic level above which government pays nothing, to avoid open-ended fiscal risk. The partner should still be compensated for higher O&M costs above it, for example through a small shadow tariff."
+    },
+    {
+      "question": "An existing toll road with a long traffic record is expected to generate revenue well above what is needed for feasibility. The government wants an upfront concession fee. What approach does the Guide recommend?",
+      "options": [
+        "Set the fee using the most optimistic traffic forecast",
+        "Shorten the contract term instead of charging any fee",
+        "Raise tolls so that the fee can be maximised",
+        "Set a prudent fee on realistic, close to pessimistic traffic, and capture further upside with a variable fee"
+      ],
+      "answer": 3,
+      "explanation": "The Guide advises a prudent upfront fee, with the rest of the excess captured through a variable fee. Shortening the term may harm VfM, and fees should never lead to overcharging users."
+    },
+    {
+      "question": "In an availability-based school PPP, the project company will hedge its interest rate, so debt service will be fixed. About 35 percent of its outflows are inflation-linked. How should the unitary charge be indexed?",
+      "options": [
+        "Index only a proportion of the charge, matching the inflation-linked share of costs",
+        "Index the whole charge to CPI every year",
+        "Apply a fixed 2 percent increase regardless of inflation",
+        "Do not index the charge at all"
+      ],
+      "answer": 0,
+      "explanation": "Because debt service is usually fixed and inflation-linked costs are the minority, many projects index only the matching proportion. This gives higher nominal payments early and faster debt repayment."
+    },
+    {
+      "question": "In a hospital PPP, the external power supply fails and the private partner's back-up generators do not start. How should the payment mechanism treat this?",
+      "options": [
+        "Allow a standard 24-hour rectification period before any deduction",
+        "Treat it as an excused event outside the partner's control",
+        "Apply a deduction immediately, as a critical criterion should have no rectification period",
+        "Ignore it, because hospital power is a public responsibility"
+      ],
+      "answer": 2,
+      "explanation": "The Guide uses this exact type of case: critical criteria should have no rectification period, and failure of back-up generators to take over should lead automatically to a deduction. This keeps maintenance proactive."
+    },
+    {
+      "question": "A road contract gives 4 hours to clear a blocked lane. The private partner clears it 7 hours after it was reported. For payment purposes, from when is the lane unavailable?",
+      "options": [
+        "From the end of the 4-hour rectification period",
+        "From the moment the blockage was reported",
+        "Only for the 3 hours beyond the rectification period",
+        "It is not unavailable, because it was cleared on the same day"
+      ],
+      "answer": 1,
+      "explanation": "If a fault is not remedied within the rectification period, unavailability is considered to start when it was detected or reported, not when the period ended. So all 7 hours count."
+    },
+    {
+      "question": "Which statement about deductions in availability payment mechanisms is correct according to the Guide?",
+      "options": [
+        "Deductions can never exceed the value of the affected area's payment",
+        "Total deductions can exceed the full payment, so the partner pays the authority",
+        "Deductions depend only on the length of the outage",
+        "Payment can reach zero before full unavailability, but total deductions are capped at 100 percent"
+      ],
+      "answer": 3,
+      "explanation": "Area deductions may be worth 150 to 200 percent of the related payment, so payment can reach zero early. But it is not customary for the partner to pay the authority, so deductions are limited to 100 percent. Weighting, severity and timing also matter."
+    },
+    {
+      "question": "A private partner finishes a courthouse PPP six months before the target availability date and asks to start receiving payments. What does the Guide say?",
+      "options": [
+        "The authority has no duty to pay before the target date; the contract should state whether it will accept early use",
+        "The authority must start full payments as soon as the building is available",
+        "The authority must pay a bonus equal to six months of payments",
+        "Payments during construction should have started anyway"
+      ],
+      "answer": 0,
+      "explanation": "The authority is generally not obliged to pay before the target date, but the contract should say whether early use will be accepted. Options include an early completion floor or a reduced payment covering O&M with some bonus. Payments during construction should be avoided."
+    },
+    {
+      "question": "How should user satisfaction surveys be used within an availability payment mechanism?",
+      "options": [
+        "As the main basis for calculating the unitary payment",
+        "Not at all, because the Guide forbids subjective measures",
+        "With only a small financial effect, touching mainly the equity return",
+        "As a trigger for immediate contract termination"
+      ],
+      "answer": 2,
+      "explanation": "Because surveys are variable and subjective, the Guide allows them but says their financial effect should be small and affect mainly equity returns; any related bonus should also be modest. Objective criteria remain the basis of the system."
+    }
+  ]
+}

@@ -1,48 +1,64 @@
-import { getI18n } from "@/i18n/server";
-import { notFound, permanentRedirect } from "next/navigation";
+import Link from "next/link";
+import { permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import { getChapter } from "@/content/courses";
-import { LEGACY_EXECUTION_SLUG, LEGACY_PPP_SLUG, pppCourseForChapter } from "@/content/ppp-course";
+import { Lock } from "lucide-react";
+import { LEGACY_COURSE_REDIRECTS, getChapter, lessonTest, passMarkFor } from "@/content/courses";
 import { getCurrentUser } from "@/services/user-service";
-import { courseProgress, getLessonProgress } from "@/lib/progress";
-import { StudyView } from "./study-view";
+import { courseProgress, courseUnlocked, getLessonProgress, lessonUnlocked } from "@/lib/progress";
+import { LessonView } from "@/features/lesson/lesson-view";
+import audio from "@/content/cp3p/audio.json";
 
 type Params = { params: Promise<{ course: string; chapter: string }> };
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { course, chapter } = await params;
   const found = getChapter(course, chapter);
-  const { t } = await getI18n();
-  return { title: found ? t(found.chapter.title) : "Lesson not found" };
+  return { title: found ? found.chapter.title : "Lesson not found" };
 }
 
-// Next 15+: `params` Promise. Kontent kodda, progress bazadan.
 export default async function StudyPage({ params }: Params) {
   const { course: courseSlug, chapter: chapterId } = await params;
-  if (courseSlug === LEGACY_PPP_SLUG || courseSlug === LEGACY_EXECUTION_SLUG) permanentRedirect(`/study/${pppCourseForChapter(chapterId).slug}/${chapterId}`);
+  if (LEGACY_COURSE_REDIRECTS[courseSlug]) permanentRedirect(`/courses/${LEGACY_COURSE_REDIRECTS[courseSlug]}`);
   const found = getChapter(courseSlug, chapterId);
-  if (!found) notFound();
+  if (!found) permanentRedirect(`/courses/${courseSlug}`);
+  const { course, chapter, index, next } = found;
 
   const user = await getCurrentUser();
   const rows = user ? await getLessonProgress(user.id) : [];
-  const cp = courseProgress(rows, found.course);
+  const cp = courseProgress(rows, course);
 
+  // Ketma-ket yo'l: oldingi dars testi topshirilmagan bo'lsa, bu dars yopiq.
+  if (!lessonUnlocked(rows, course, index)) {
+    const target = courseUnlocked(rows, course) ? cp.nextChapter : null;
+    return (
+      <div className="mx-auto w-full max-w-xl px-4 py-20 text-center">
+        <Lock className="mx-auto size-10 text-[#65736d]" />
+        <h1 className="mt-4 text-2xl font-semibold">This lesson is locked</h1>
+        <p className="mt-2 text-[#65736d]">{courseUnlocked(rows, course) ? "Pass the test of the previous lesson (80%) to open it." : "Finish CP3P Foundation first — it is required for this level, just like the real exam."}</p>
+        <Link href={target ? `/study/${course.slug}/${target.id}` : `/courses/${course.requires ?? course.slug}`} className="mt-6 inline-flex min-h-12 items-center rounded-xl bg-[#163e32] px-6 font-semibold text-white">
+          {target ? `Continue: ${target.title}` : "Go to CP3P Foundation"}
+        </Link>
+        {!user && <p className="mt-4 text-sm"><Link href={`/sign-in?next=/study/${course.slug}/${chapter.id}`} className="font-semibold underline">Sign in</Link> to keep your progress.</p>}
+      </div>
+    );
+  }
+
+  const items = lessonTest(course, chapter.id);
   return (
-    <StudyView
-      key={`${courseSlug}/${chapterId}`}
-      courseSlug={found.course.slug}
-      courseTitle={found.course.shortTitle}
-      chapter={found.chapter}
-      sourceNote={found.course.sourceNote}
+    <LessonView
+      key={chapter.id}
+      courseSlug={course.slug}
+      courseTitle={course.shortTitle}
+      lesson={chapter}
+      index={index}
+      total={course.chapters.length}
+      completed={cp.completedIds.has(chapter.id)}
+      items={items}
+      passMark={passMarkFor(items.length)}
+      nextHref={next ? `/study/${course.slug}/${next.id}` : null}
+      finalHref={`/courses/${course.slug}#final`}
       signedIn={Boolean(user)}
-      modules={found.course.modules}
-      index={found.index}
-      total={found.course.chapters.length}
-      prev={found.prev ? { id: found.prev.id, title: found.prev.title } : null}
-      next={found.next ? { id: found.next.id, title: found.next.title } : null}
-      initialCompleted={cp.completedIds.has(found.chapter.id)}
-      completedIds={[...cp.completedIds]}
-      chapters={found.course.chapters.map((ch) => ({ id: ch.id, title: ch.title, minutes: ch.minutes }))}
+      recorded={(audio as Record<string, number>)[chapter.id] === chapter.slides.length}
     />
   );
 }

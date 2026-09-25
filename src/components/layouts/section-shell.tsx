@@ -34,7 +34,7 @@ export function SectionShell({ eyebrow, title, description, children, }: {
         <SectionNavigation mobile/>
       </header>
 
-      <main id="section-content" tabIndex={-1} className="mx-auto max-w-[1120px] px-4 py-10 sm:px-8 sm:py-20">
+      <main id="section-content" tabIndex={-1} className="mx-auto w-full max-w-[1120px] px-4 py-10 sm:px-8 sm:py-20">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#527264]">{t(eyebrow)}</p>
         <h1 className="mt-4 max-w-3xl text-3xl font-semibold tracking-[-0.04em] sm:text-5xl">{t(title)}</h1>
         <p className="mt-5 max-w-2xl text-base leading-7 text-[#66736e]">{t(description)}</p>

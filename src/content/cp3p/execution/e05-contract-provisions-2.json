@@ -1,0 +1,196 @@
+{
+  "id": "e05-contract-provisions-2",
+  "level": "execution",
+  "order": 5,
+  "title": "Contract provisions (part 2) and control check before launch",
+  "minutes": 17,
+  "guideRef": "Ch 5 §9 (§9.6–§9.10), §10–§11",
+  "objectives": [
+    "Balance information disclosure with legitimate confidentiality in the contract",
+    "Identify the types of contract change and how the contract should bound them",
+    "Choose dispute resolution provisions that bidders will trust and that are enforceable",
+    "Explain the four early termination scenarios and how compensation is calculated in each",
+    "Describe hand-back provisions and the control check, approvals and outcomes before launching the tender"
+  ],
+  "sections": [
+    {
+      "heading": "1. Confidentiality and information disclosure",
+      "body": "In the last lesson we covered performance, breaches, compensation events and financial provisions. We now finish the contract and prepare to launch the tender.\n\nA sound framework should encourage **proactive disclosure** of both the **contract** and the project's **performance**. This promotes transparency, builds public acceptance of PPPs, and allows performance auditing of the PPP programme.\n\nBut disclosure has limits. It must protect:\n- the private partner's **legitimate commercial confidentiality**; and\n- the **public partner's position** in future negotiations.\n\nThe contract should clearly state the **disclosure requirements and the exceptions**. Some countries' guidelines include templates for what to publish and standard contract provisions.\n\nIn practice:\n- Publishing the **full contract** is **not universal**, and it is usually done **with redactions**.\n- Publishing a **project or contract summary** is **quite common and good practice**.\n- Another recommended approach is to require the private partner to run a **project website**, especially during construction."
+    },
+    {
+      "heading": "2. Contract changes",
+      "body": "The contract must have **flexibility built in**, so it should permit certain changes (sometimes with limits set in the contract or the law) and set processes to implement them.\n\n**Types of change in a PPP:**\n1. **Changes requested by the authority**: scope of service, performance requirements (for example, if targets prove unrealistic), design change orders, or mandatory technology upgrades.\n2. **Changes proposed by the private partner** and accepted or negotiated with the authority.\n3. Changes in **ownership and financing structure**.\n4. Changes caused by **compensation events** (including change in law) or **force majeure**, which usually only change payment amounts to restore the financial balance.\n\nChanges to the project and service requirements should be **provided for in the contract wherever possible**, permitted **cautiously**, and **clearly bounded**. Otherwise competitive bidding is distorted and competitive pressure is lost.\n\n**Illustration from the Guide.** In some urban bus PPPs (for example, in Spain) the service plan must change over time. The contract lets the authority increase service (in vehicle-kilometres) up to a set level, such as **5 percent in a year**, at a **price per km offered by the winning bidder**. No negotiation is needed below that threshold.\n\nCompensation events usually affect only the **financial equation**. But sometimes they are handled by changing **technical or service requirements** instead: for example, agreeing **more relaxed performance standards** rather than increasing the service price.\n\nSignificant changes to the contract itself, outside the contractual processes, are **renegotiations**. They must be managed carefully to avoid bad outcomes for the government."
+    },
+    {
+      "heading": "3. Dispute resolution",
+      "body": "Long contracts cannot foresee everything, so disputes will happen: about interpretation, costs and valuations. Typical examples (Box 5.36) include the calculation of compensation, payment adjustments, whether an event qualifies for compensation or relief, whether a penalised breach really happened, the index used for indexation, and the cost of additional investment after a change.\n\nGovernments often **reserve the right to interpret** the contract, leaving the private partner only the right to go to court (administrative courts in civil code countries). This is **costly** and can endanger service continuity. So it has become common to regulate **dispute resolution procedures** in the contract, or to create a **dispute resolution board**.\n\n**Main mechanisms** (not all are available everywhere):\n- **Sector regulator** (the private partner may doubt its independence);\n- **Judicial system**;\n- **Mediation**;\n- **Dispute Resolution Board**: an independent expert, or better, a **panel of experts**;\n- **Arbitration**, domestic or international (for example, ICC or ICSID).\n\nIn some civil code countries, the result of a process outside the courts is **not binding**, so the parties must negotiate an agreement based on it. Some civil code countries now allow **binding** expert boards or arbitration panels.\n\nThe Guide considers **specific dispute provisions in the contract** good practice. When drafting them:\n- Check they are **appropriate and enforceable** in the jurisdiction with legal experts, and **consistent with treaties** (such as investor-state dispute processes).\n- Include a **waiver of government immunity** from claims, unless the PPP law already provides it. Without it, bidders will not bid.\n- Be realistic about the **location** of dispute resolution: investors may fear an unfair hearing locally, while governments may see foreign venues as a loss of sovereignty. Bidders will not bid if they doubt the process is fair.\n\nSome sophisticated markets also let **users (the public)** trigger dispute resolution with the government, or with the private partner through the government or an **ombudsman**."
+    },
+    {
+      "heading": "4. The four early termination scenarios",
+      "body": "A contract can end early for four main reasons:\n\n| Scenario | Trigger | Compensation principle |\n|---|---|---|\n| **Termination for convenience** (unilateral) | The government ends the contract in the **public interest**; it always keeps this right | **Full** compensation |\n| **Public partner default** | The authority **materially breaches** its obligations (for example, unusual, material payment delays); the **private partner** may then terminate and claim its costs | Often calculated **like convenience** |\n| **Force majeure** | A significant event lasting a defined period (typically **6 or 12 months**); **either party** may terminate unless they agree otherwise | **Shared**: recover investments, equity IRR about zero |\n| **Private partner default** | Serious breach of essential obligations, including persistent breach, after an **opportunity to remedy** | Still some compensation; method varies |\n\nOn **private partner default**, good practice includes:\n- a **cure period** before termination;\n- allowing the partner to **replace a failing or insolvent subcontractor**;\n- where the SPV is **insolvent**, considering letting lenders and the company **restructure the debt** or letting the **lenders step in** to rectify the default, instead of terminating.\n\nIt is **essential** that the contract gives the private partner **significant (if not full) protection** for convenience, public default and force majeure terminations. Even for private default, there should be a **right to compensation**. Otherwise the public partner gains more than its real losses, which creates a **perverse incentive to terminate**. Clarity here is paramount for **bankability**."
+    },
+    {
+      "heading": "5. Calculating termination compensation",
+      "body": "**1. Termination for convenience: full compensation.** The partner should recover **outstanding equity** (invested equity minus distributions received), **outstanding debt**, debt **breakage costs**, other contract and subcontract breakage costs, **demobilisation costs**, plus a sum for the **opportunity cost of equity**. Two ways to calculate the equity return:\n- Return giving the **equity IRR in the original base case**. This protects the partner from being penalised for past poor performance, but does not reward over-performance.\n- Return based on an **updated base case** or the **market value of equity**. This rewards over-performance, but creates downside risk for past under-performance.\n\nPublic partner default is often calculated **on the same basis**.\n\n**2. Force majeure: shared risk.** Good practice gives the partner **all investments back**: outstanding debt, breakage costs, and outstanding equity so that the **equity IRR equals zero**. Some contracts allow a small positive IRR (for example, **2 percent**, close to zero in real terms). Most important: the method must be **clear from the outset**.\n\n**3. Private partner default: most controversial.** The partner, or at least the lenders, should still receive compensation, because the government gets the asset back. Methods:\n- **Book value**: common in civil code countries. The economic value of the asset (construction plus renewal and major maintenance investment) **minus depreciation**, minus the government's **damages and losses** (rectification, re-tendering, third-party claims). The government may also call the performance guarantee.\n- **Debt-based**: pays outstanding senior debt, which may be needed for **bankability in emerging markets**. It weakens lenders' incentive to supervise, which a **'haircut'** (recovering only a percentage of debt) can correct. It can also be unfair to the partner: losing all its equity may exceed the government's real losses, which again gives a windfall and a perverse incentive to terminate. For emerging markets, a **combination** of book value and debt-based compensation with a haircut is another option.\n- **Market value / re-tender**: common in common law countries. The authority re-tenders the remaining contract; the price paid by the best bidder, after amounts owed to the government, pays lenders and any surplus goes to equity. The Guide calls this **good practice**: it can avoid cancelling the contract, it links compensation to the project's real value, and the authority does not have to pay from its own cash. But the contract needs a **fallback** termination payment in case no one bids, and simpler methods may suit immature markets. Alternatively, the authority may agree with the lenders on who replaces the defaulting partner (prohibited in some jurisdictions).\n\nThe contract must state clearly: what counts as default (with **materiality**), how and when compensation is calculated, with precise definitions (such as 'distribution', 'IRR', 'Losses', 'Senior Debt'), when payment is due and interest on late payment, set-off rights, lender seniority, and treatment of cash balances, insurance proceeds and claims against subcontractors."
+    },
+    {
+      "heading": "6. Hand-back",
+      "body": "At expiry the assets are **handed back** to the authority. Good practice:\n- Set **minimum condition criteria** for the assets, and require a **reasonable remaining useful life** at expiry. Otherwise the partner has a **perverse incentive** to skip maintenance near the end, since it will not bear the consequences.\n- Remember that **demanding requirements are priced** into the bid, raising user charges or government payments.\n- Define hand-back requirements **clearly from the outset (at tender launch)**, so bidders build the necessary funds into their financial models.\n\nCommon provisions:\n1. **Third-party inspections** well before expiry (for example, **3 years**), then **yearly** follow-up inspections.\n2. A **retention** of a percentage of revenues or payments (for example, **2 percent** of service payments) into a hand-back reserve, **reduced** if inspections show it is oversized.\n3. At the end, if the requirements are met, any **remaining balance is released** to the private partner."
+    },
+    {
+      "heading": "7. Control check, approvals and outcomes of the phase",
+      "body": "The last tasks of the Structuring and Pre-launching Phase are:\n- **Formally raising approvals**, packaging all tender documents and running a **control check**;\n- **Planning the tender phase**: work programme, resources (advisers, IT) and the team's roles from launch to signature.\n\nBefore launching, the authority should be satisfied that **all analyses have reached a satisfactory conclusion**. It is good practice to use a **checklist** matched to the framework and project. The Guide's example (Box 5.38) verifies:\n- **Technical feasibility and legal due diligence**: public consultation done if required; design tested and third-party reviewed; risks clarified or allocated (utilities, archaeology, geotechnical baseline, tax, site and right of way).\n- **Positive cost-benefit result**: economic analysis updated if scope changed significantly.\n- **Commercial feasibility**: updated financial model shows the project is still bankable and gives a reasonable equity IRR; a **definitive price limit** is proposed for affordability approval.\n- **Affordability**: commitments are affordable under a conservative scenario (for example, zero real growth); contingent liabilities from retained risks are considered; reviewed by treasury and the general controller.\n- **VfM**: still acceptable, or reassessed if the structure changed.\n- **Legal feasibility**: contract and tender documents complete and consistent with law; payment mechanism and output specifications ready.\n\nFinally, the final versions of the documents and reports are **packaged** and sent to the government bodies that assess the project before final approval.\n\nDocuments may need approval from several bodies (attorney general, finance, comptroller). To avoid **last-minute rejections**, the team should give decision-makers **progress reports, even informal ones, throughout structuring**. In two-stage processes, approvals may not happen in one milestone (the RFQ may go first, and dialogue may refine the RFP and contract).\n\n**Outcomes of the phase:**\n1. The **full tender package** is complete and ready to publish (though it may be refined during the tender, especially in competitive dialogue).\n2. **Authorisation** has been given to launch the tender and to sign a contract if a bidder meets the criteria."
+    }
+  ],
+  "example": {
+    "title": "Choosing termination terms for an illustrative water PPP",
+    "body": "Imagine the fictional city of 'Marsa Nova' preparing a 25-year water treatment PPP in an emerging market. Its advisers draft the termination schedule:\n\n- **Convenience and public default**: outstanding debt, breakage and demobilisation costs, plus outstanding equity with a return equal to the **original base case equity IRR**.\n- **Force majeure lasting more than 12 months**: either party may terminate. The SPV recovers debt, breakage costs and equity at an **equity IRR of zero**.\n- **Private partner default**: only after a cure period. If the SPV becomes insolvent, the lenders may be allowed to step in first. Compensation combines **book value minus damages and losses** with **debt-based compensation with a haircut**, so the project stays bankable and lenders stay engaged.\n\nThe finance ministry initially wanted 'no compensation on private default'. The advisers explain that this would give the city a windfall, create a perverse incentive to terminate, and make the project unbankable. The checklist then confirms affordability under zero real growth, and the attorney general, who has had progress reports throughout, approves the package without delay."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking good practice is always to publish the full, unredacted contract",
+      "fix": "Full publication is not universal and is usually redacted; publishing a project or contract summary is common good practice."
+    },
+    {
+      "trap": "Giving no compensation on termination for private partner default",
+      "fix": "The partner or at least its lenders should still be compensated, to avoid a government windfall and a perverse incentive to terminate."
+    },
+    {
+      "trap": "Mixing up force majeure and convenience compensation",
+      "fix": "Convenience: full compensation including a return on equity. Force majeure: shared risk, investments recovered with an equity IRR of about zero."
+    },
+    {
+      "trap": "Setting hand-back requirements only near contract expiry",
+      "fix": "They must be defined at tender launch so bidders can price and fund them; inspections start well before expiry (for example, 3 years)."
+    },
+    {
+      "trap": "Assuming a dispute board or arbitration decision is always binding",
+      "fix": "In some civil code countries results outside the courts are not binding, so the parties must negotiate an agreement based on them."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Proactive disclosure", "meaning": "Publishing contract and performance information by default, with exceptions for legitimate confidentiality." },
+    { "term": "Renegotiation", "meaning": "A significant change to the contract itself made outside the contractual change processes." },
+    { "term": "Dispute Resolution Board", "meaning": "An independent expert or, preferably, a panel of experts set up under the contract to resolve disputes." },
+    { "term": "Waiver of immunity", "meaning": "A government's waiver of immunity from claims under the contract, needed for bidders to trust enforcement." },
+    { "term": "Termination for convenience", "meaning": "Unilateral early termination by the government in the public interest, with full compensation to the partner." },
+    { "term": "Outstanding equity", "meaning": "Equity invested minus all distributions received up to the termination date." },
+    { "term": "Haircut", "meaning": "Recovering only a percentage of the outstanding debt in debt-based default compensation, to keep lenders vigilant." },
+    { "term": "Open-market sale (re-tender)", "meaning": "Re-tendering the remaining contract after private default, with the price paid funding lenders and any surplus to equity." },
+    { "term": "Hand-back", "meaning": "The return of the assets to the authority at expiry in the condition defined in the contract." },
+    { "term": "Control check", "meaning": "A checklist review before launch confirming technical, economic, commercial, affordability, VfM and legal readiness." }
+  ],
+  "summary": [
+    "Disclose proactively but protect legitimate confidentiality; summaries are good practice, full contracts are usually redacted.",
+    "Provide for changes in the contract and bound them clearly, so competition is not distorted.",
+    "Specific, enforceable dispute provisions plus a waiver of immunity give bidders confidence.",
+    "Convenience and public default: full compensation; force majeure: investments back at about zero equity IRR.",
+    "Private default still earns compensation: book value, debt with haircut, or market value re-tender with a fallback.",
+    "Hand-back criteria, remaining useful life and a retention reserve are defined from tender launch.",
+    "Before launch: checklist control check, timely approvals via ongoing progress reports, and a complete authorised package."
+  ],
+  "slides": [
+    {
+      "title": "Transparency with limits",
+      "points": ["Disclose contract and performance proactively", "Protect commercial confidentiality", "Publish a summary; redact the full contract", "Project website during construction"],
+      "narration": "Let's finish the contract. First, transparency. Publishing the contract and performance information builds public trust in PPPs, and it allows the PPP programme to be audited. But some information is commercially sensitive, and the government must also protect its negotiating position. So the contract should say clearly what is published and what is exempt. Publishing a project summary is common good practice. Full contracts are published less often, and usually with some parts blacked out. A project website is another good idea."
+    },
+    {
+      "title": "Contract changes",
+      "points": ["Authority-requested and partner-proposed changes", "Ownership and financing changes", "Compensation events and force majeure", "Bounded changes protect competition"],
+      "narration": "Over twenty or thirty years, things will change. The authority may need more service, or new technology. The partner may propose improvements. Owners and lenders may change. And risk events may require the price to be adjusted. The best approach is to plan for change inside the contract, with clear limits. For example, a bus contract might let the authority add up to five percent more service each year at a price already offered in the bid. That way, change does not destroy the competition you ran."
+    },
+    {
+      "title": "Dispute resolution",
+      "points": ["Courts alone are slow and costly", "Options: regulator, mediation, board, arbitration", "Check enforceability and treaties", "Waive immunity; be realistic on location"],
+      "narration": "Disputes are normal in long contracts. If the only option is the courts, the process is slow and expensive, and the service may suffer. So good contracts include dispute procedures, such as mediation, an expert dispute board, or arbitration. Make sure these rules are enforceable in your country and consistent with any investment treaties. Two more points matter to investors. The government should waive its immunity from claims, or nobody will bid. And the location of dispute resolution must feel fair to both sides."
+    },
+    {
+      "title": "Four ways a contract ends early",
+      "points": ["Convenience: public interest decision", "Public partner default", "Force majeure lasting 6 or 12 months", "Private partner default after cure period"],
+      "narration": "There are four early termination scenarios. The government can always terminate for convenience, in the public interest. The private partner may terminate if the authority seriously defaults, for example by not paying. Either party may terminate if force majeure lasts a long time, typically six or twelve months. And the authority may terminate if the partner defaults, but usually only after the partner has had a chance to fix the problem. If the company is insolvent, the lenders may be allowed to step in and try to rescue the project."
+    },
+    {
+      "title": "Compensation: convenience and force majeure",
+      "points": ["Convenience: debt, breakage, equity plus return", "Public default: usually same basis", "Force majeure: investments back", "Equity IRR around zero"],
+      "narration": "How much does the government pay? If it terminates for convenience, the partner should be made whole: debt, breakage costs, demobilisation, the equity still invested, and a return on that equity. Public partner default is usually calculated the same way. Force majeure is different, because it is nobody's fault. The risk is shared. The partner gets its investments back, debt and equity, but with an equity return of about zero. Whatever method is used, it must be written clearly in the contract from day one."
+    },
+    {
+      "title": "Compensation on private partner default",
+      "points": ["Still some compensation: no windfall", "Book value minus damages and losses", "Debt-based, often with a haircut", "Market value re-tender, with fallback"],
+      "narration": "The hardest case is private partner default. You might think the partner deserves nothing. But the government gets the asset back, so paying nothing gives it a windfall and a reason to terminate. Civil law countries often use book value minus the government's losses. Emerging markets may pay the senior debt to keep projects bankable, often with a haircut so lenders stay alert. Common law countries often re-tender the remaining contract and use the sale price. The Guide likes this, but a fallback is needed if nobody bids."
+    },
+    {
+      "title": "Hand-back",
+      "points": ["Minimum condition and remaining useful life", "Defined at tender launch", "Inspections from about 3 years before", "Retention reserve, released if criteria met"],
+      "narration": "At the end of the contract, the asset comes back to the public. Without rules, a partner might stop maintaining it in the final years. So the contract sets minimum conditions and a reasonable remaining useful life. These rules must be clear from the tender, so bidders can price them. Independent inspections start about three years before expiry, then every year. A small retention from payments, say two percent, builds a reserve. If the asset meets the criteria at hand-back, the remaining money goes back to the partner."
+    },
+    {
+      "title": "Control check before launch",
+      "points": ["Checklist: technical, economic, commercial, affordability", "VfM and legal readiness confirmed", "Progress reports avoid last-minute rejection", "Outcome: approved package, authority to launch"],
+      "narration": "Before the tender is launched, the authority should stop and check everything. A checklist confirms that the design is sound, the risks are clarified, the economics still work, the project is bankable, affordable under a cautious scenario, still value for money, and legally ready. Several bodies may need to approve. A smart team keeps them informed with progress reports all along, so there are no surprises at the end. The outcome is a complete tender package and formal permission to launch and, later, to sign."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A procuring authority wants to follow good practice on disclosure for a new PPP. Which approach best reflects the Guide?",
+      "options": ["Keep the contract fully confidential to protect the private partner", "Publish a project or contract summary and state disclosure rules and exceptions in the contract", "Publish every page of the contract and financial model without redaction", "Let the private partner decide what to publish"],
+      "answer": 1,
+      "explanation": "Contracts should set disclosure requirements and exceptions; publishing a summary is common good practice. Full publication is not universal and is usually redacted to protect legitimate confidentiality."
+    },
+    {
+      "question": "A city expects it will need to increase bus services by small amounts each year. How should the PPP contract deal with this?",
+      "options": ["Renegotiate the contract each time more service is needed", "Launch a new tender for each increase", "Allow increases up to a set threshold at a unit price offered in the bid", "Forbid any change to protect the original competition"],
+      "answer": 2,
+      "explanation": "Changes should be provided for and bounded in the contract. The Guide's bus example allows increases up to a threshold (e.g. 5 percent a year) at the bidder's offered price, avoiding negotiation."
+    },
+    {
+      "question": "International bidders say they will not bid unless they can trust dispute resolution. The PPP law is silent on government immunity. What should the contract include?",
+      "options": ["A waiver by the government of immunity from claims under the contract", "A clause giving the government the sole right to interpret the contract", "A ban on arbitration of any kind", "A requirement that all disputes go to the sector regulator"],
+      "answer": 0,
+      "explanation": "Unless the PPP law already provides it, the contract should include a waiver of immunity; otherwise bidders cannot be confident the government will meet its obligations."
+    },
+    {
+      "question": "A severe force majeure event has stopped a PPP for 14 months. The contract sets a 12-month threshold. What is the position?",
+      "options": ["Only the government may terminate", "Only the private partner may terminate", "Neither may terminate until 24 months", "Either party may terminate unless they reach a specific agreement"],
+      "answer": 3,
+      "explanation": "When a force majeure event is significant and lasts the defined period (typically 6 or 12 months), either party may terminate unless a specific agreement is reached."
+    },
+    {
+      "question": "A government terminates a PPP for convenience to build a different scheme. Which compensation best reflects good practice?",
+      "options": ["Outstanding debt only", "Book value of the asset minus depreciation", "Debt, breakage and demobilisation costs, outstanding equity plus a return on equity", "Debt and equity with an equity IRR of zero"],
+      "answer": 2,
+      "explanation": "Termination for convenience should compensate in full, including outstanding equity and its opportunity cost. An equity IRR of zero is the typical force majeure approach, not convenience."
+    },
+    {
+      "question": "Statement 1: On termination for force majeure, good practice is to let the partner recover its investments with an equity IRR of about zero. Statement 2: On termination for private partner default, the partner should receive no compensation at all.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 0,
+      "explanation": "Statement 1 is correct. Statement 2 is wrong: the partner or at least its lenders should still receive compensation to avoid a government windfall and a perverse incentive to terminate."
+    },
+    {
+      "question": "An emerging-market authority wants private-default compensation that keeps the project bankable but still gives lenders a reason to monitor performance. What should it choose?",
+      "options": ["Full debt repayment with no conditions", "Debt-based compensation with a haircut, possibly combined with book value", "No compensation, so lenders monitor more closely", "Full convenience compensation including equity return"],
+      "answer": 1,
+      "explanation": "Debt-based compensation supports bankability but weakens lenders' incentive to oversee; a haircut corrects this. A combination with book value is also suggested for EMDEs."
+    },
+    {
+      "question": "An authority prefers the market value (re-tender) method for private partner default. What must the contract also include?",
+      "options": ["A fallback process if no bidders come forward for the re-tendered project", "A rule that the defaulting partner may bid again first", "A fixed price for the re-tender set at signature", "A ban on paying any surplus to equity"],
+      "answer": 0,
+      "explanation": "The Guide considers re-tendering good practice but warns there may be no bidders, so the contract must include an alternative process with a termination payment."
+    },
+    {
+      "question": "Four years before expiry, an authority fears the SPV will stop maintaining a road. Its contract follows good hand-back practice. What protects it?",
+      "options": ["Nothing can be done until the asset is returned", "Terminating immediately for convenience", "Inspections from about 3 years before expiry and a retention reserve released only if criteria are met", "Doubling the service payment in the final years"],
+      "answer": 2,
+      "explanation": "Good practice includes third-party inspections well before expiry, yearly follow-up and a retention (e.g. 2 percent of payments) whose balance is released only when hand-back requirements are met."
+    },
+    {
+      "question": "A PPP team has finished structuring. The attorney general's office has not seen any documents yet. What should the team have done to avoid a late rejection?",
+      "options": ["Launch the tender first and seek approval during bidding", "Skip the checklist to save time", "Wait until the preferred bidder is selected", "Provide progress reports, even informal ones, to decision-makers throughout structuring"],
+      "answer": 3,
+      "explanation": "The Guide recommends keeping approving bodies informed with progress reports throughout structuring so documents and affordability tests are not rejected at the last minute."
+    }
+  ]
+}

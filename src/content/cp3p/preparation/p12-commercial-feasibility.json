@@ -1,0 +1,242 @@
+{
+  "id": "p12-commercial-feasibility",
+  "level": "preparation",
+  "order": 12,
+  "title": "Commercial feasibility (bankability) and market sounding",
+  "minutes": 19,
+  "guideRef": "Ch 4 §8–§9",
+  "objectives": [
+    "Explain commercial feasibility and how its purpose changes with the revenue regime.",
+    "Interpret lenders' ratios (DSCR, LLCR, PLCR) and explain debt sculpting.",
+    "Use equity NPV and IRR to judge investor attractiveness, and name the drivers of the required return.",
+    "Choose the right response when a user-pays project is feasible, over-feasible or not feasible.",
+    "Plan a transparent market sounding: when, who, how and what to test."
+  ],
+  "sections": [
+    {
+      "heading": "1. What commercial feasibility means",
+      "body": "From a financial perspective, a project is **commercially feasible** when expected revenues under a reasonable scenario cover all expected costs: operation and maintenance, interest, taxes, debt repayment, and the payback of equity with a reasonable return.\n\nThe purpose of the exercise depends on the **revenue regime**:\n- **User-pays**: test whether the project generates a surplus after current costs, whether that free cash flow can service debt and equity to fund CAPEX, and (if the government wants) whether the SPV can pay a concession fee.\n- **Not self-sustaining**: estimate the public resources needed to make it feasible, including direct government payments.\n- **No user charges**: estimate the government contributions directly.\n\nClimate measures matter here too. They add cost to the SPV, which usually means higher availability payments or user fees. But transferring climate risks to the SPV also reduces the public partner's contingent liabilities.\n\nCommercial feasibility is measured from **two points of view**: the **lenders** (debt providers) and the **investors** (equity providers). A project must satisfy both."
+    },
+    {
+      "heading": "2. The lenders' view: bankability",
+      "body": "The lenders' key concern is simple: can the project company **repay its debt on schedule**? They look at the stability of revenues, the shareholders' ability to give security (especially in construction) and, in particular, **cover ratios**. A cover ratio compares the cash the project generates with the money needed to service the debt:\n\n| Ratio | What it measures |\n|---|---|\n| **Debt Service Cover Ratio (DSCR)** | For each period, how far operating cash covers that period's debt service |\n| **Loan Life Cover Ratio (LLCR)** | NPV of Cash Flow Available for Debt Service (CFADS) up to debt maturity, divided by outstanding debt |\n| **Project Life Cover Ratio (PLCR)** | NPV of CFADS over the project's remaining life, divided by outstanding debt |\n\nA higher DSCR means less risk for lenders, and lenders expect higher ratios in riskier sectors. Loan agreements set two thresholds:\n- **Lock-up**: if the DSCR falls below it, **distributions to shareholders are blocked** until the ratio recovers.\n- **Default**: if it falls below this, the lender can demand repayment or even **take control** of the project.\n\nThese ratios effectively **cap the amount of debt** a project can carry.\n\n**Debt sculpting** shapes the repayment schedule to match the project's cash flow, so the SPV can borrow more without breaking the DSCR. In the Guide's example, a bank requires a minimum DSCR of 1.4. With constant amortization, only $270 of debt respects the covenant, but sculpting allows the target $360. The downside is that more back-ended repayments lengthen the loan's average life and may **raise the cost of debt**. Actual thresholds depend on each country and sector, so they are estimated with the financial advisor or from recent similar projects.\n\nBeing bankable is **not enough**: the project must also reward equity investors."
+    },
+    {
+      "heading": "3. The investors' view: NPV and IRR",
+      "body": "For an equity investor, a project must be bankable **and** give an acceptable return for its risk. The two usual tools use the **equity cash flow** from the financial model:\n- **Equity NPV**: the investor's future cash flows discounted to today at the investor's required return. If NPV is **above zero**, the project earns more than the required return. If it equals zero, it earns exactly that rate. If negative, it earns less.\n- **Equity IRR**: the discount rate that makes NPV equal zero. If it is **higher than the required return** (the **hurdle rate**), the project is commercially attractive.\n\nThe Guide notes that IRR assumes cash is reinvested at the IRR itself; the **Modified IRR (MIRR)** lets you set a separate reinvestment rate.\n\n**What drives the required return (cost of equity)?** It rises with higher project-specific risk, higher systemic sector risk, higher country risk and higher returns on similar investments. It **falls** when government guarantees reduce cash flow volatility or limit political risk. The investor's required return is generally **higher** than the government's cost of capital.\n\nHow to estimate it, in order of preference: returns in similar previous projects (often via advisers), a small market test with potential investors, and, if neither is possible, the **Capital Asset Pricing Model (CAPM)**. CAPM estimates the cost of equity as the risk-free return plus a market risk premium adjusted by **beta**, the investment's volatility compared with the market.\n\nInvestors also look at the **project IRR** (whole-project cash flow), the **payback period** (longer means more perceived risk) and the **absolute size of the investment**, which may rule out some equity providers even when the IRR is attractive."
+    },
+    {
+      "heading": "4. User-pays and government-pays results",
+      "body": "**User-pays PPPs** test whether the project generates enough cash and whether users are willing to pay, at one or several prices. There are three possible outcomes:\n1. **Feasible**: revenue meets the lenders' and investors' criteria.\n2. **Over-feasible**: revenue is much higher than needed. The government may **lower the reference price** or require **payments from the private party** to the authority. Other options include a shorter contract term.\n3. **Not feasible**: demand is too low even at the revenue-maximizing tariff, or prices are capped by policy or regulation. Beyond a certain point, raising the price lowers total revenue, because demand elasticity is higher than one. The options are to **cancel**, **revise the scope**, **adjust the technical requirements** (for example, less private responsibility or a smaller asset), or **provide government support**, usually direct payments such as viability gap funding.\n\n**Government-pays PPPs** use the exercise to **define the amount of public support** needed to satisfy investors and lenders. This gives the revenue forecast for the model and the basic fiscal commitment that is tested for affordability. The team may adjust payment features, such as indexation, to improve cover ratios, but with caution so as not to harm VfM.\n\n**Outputs.** For user-pays: the ability to attract investors and lenders, the government payments needed if not feasible, potential payments to the authority if over-feasible, structuring information (for example up-front or deferred payments) and users' willingness and ability to pay. For government-pays: the level of support needed and whether payments should be availability- or volume-based.\n\nAll these conclusions are limited by the modellers' perspective and assumptions. That is why they must be tested against sensitivities **and** against the market."
+    },
+    {
+      "heading": "5. Market sounding: purpose and timing",
+      "body": "The base case is useless if the team misunderstands the private sector's **value drivers** and constraints. So many governments run **market soundings** (soft market tests) during appraisal. Their purpose is to test viability, meaning the project will attract bidders and reach a satisfactory close. They also tell the market about the project so firms can prepare, and they give feedback for the financial model, technical requirements and preliminary contract structure.\n\n**When?** There is an optimum moment:\n- **Too early**: the project is too vague; the government seems imprecise and cannot ask the right questions.\n- **Too late**: the project is too detailed; there is little room for feedback and firms lose confidence that they can influence it.\n\nThe rule: the technical requirements, financial model and preliminary structure should be advanced but still flexible. The **middle of the Appraisal Phase** is a good estimate. Sounding can be repeated in structuring, for example when the structure changes or a refined contract needs testing. Depending on the project, it can also be used at other moments, such as gauging market appetite while the scope is being set.\n\n**Who?** Experienced providers of the infrastructure and services; international providers if the project is a first in the country; **new entrants**, to remove barriers to competition; **lenders**, especially commercial banks; and international financing agencies and multilateral development banks. Keep an updated list of potential providers and banks."
+    },
+    {
+      "heading": "6. Market sounding: method, content and transparency",
+      "body": "**How?** Start with a formal **project information memorandum** (also called a project note). It describes what is defined so far, points clearly to the uncertain aspects and states obstacles openly; hiding weak spots only creates bigger problems later. Then use one or more methods: posting the memorandum online and asking for written comments; a project open-day or **industry meetings** (called **road shows** when held abroad) with a data room; **one-to-one meetings**, which are often effective and must be documented; polls or questionnaires; and pipeline notices on websites. Encourage formal, structured contributions.\n\n**What to test?** All significantly uncertain aspects, such as scope and output specification, main technical risks, expected CAPEX and OpEx, payment mechanism, risk allocation, financial assumptions (debt, tax, accounting), the timetable and the proposed contract structure.\n\nThe Guide's top tips include: follow procurement rules; prepare thoroughly; do not waste time on sales pitches or shape the project to one proposal; keep the scope broad; and **do not use procurement language** such as 'bidders'.\n\n**Three strategic issues:**\n1. **No confusion of roles.** Firms are not bidding or expressing formal interest. Participation must give **no advantage** in the later tender and no information that breaks the level playing field.\n2. **Filter for bias.** Feedback reflects each firm's interests (especially with unsolicited proposals). The aim is broad competition, not a project shaped for one bidder. Pushing too much risk onto the government can harm affordability and VfM.\n3. **A credible team** with expertise, often supported by experienced external advisers.\n\n**Transparency and governance.** Closeness to bidders can raise suspicion of corruption. Safeguards include strict engagement protocols, documenting all meetings, **sharing all discussions with other bidders**, public access to documents, a clear audit trail, inviting audit institutions, and video-recording one-to-one meetings for auditors. Where corruption is a serious issue, it may be better to **avoid one-to-one meetings** entirely.\n\n**Output.** The main output is **alignment** between government and market during appraisal. It reveals issues that would reduce interest before the formal tender, cuts the risk of non-competitive procurement, and improves the technical requirements, the financial model and the terms of reference for procurement documents."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Lakeside toll bridge",
+    "body": "Imagine a region appraising a toll bridge PPP. The model shows a minimum DSCR of 1.2 in the early years, but local banks require 1.35. With debt sculpting, repayments are moved later to follow the growing traffic, and the ratio now holds. However, the equity IRR is 9% while similar projects needed about 12%, so investors would not be attracted.\n\nThe team tests higher tolls, but traffic falls so much that revenue drops: demand is highly elastic. Its options are to reduce the scope, resize the bridge, or provide support. It proposes a construction grant and checks this in the affordability analysis.\n\nIn the middle of appraisal, it publishes a project information memorandum, holds an industry day and documented one-to-one meetings with contractors, new entrants and banks, and shares all answers with every participant. One contractor asks the region to take all traffic risk; the team treats this as biased feedback and tests it against affordability and VfM."
+  },
+  "examTraps": [
+    {
+      "trap": "Assuming a bankable project is automatically commercially feasible.",
+      "fix": "Bankability is the lenders' view. The project must also give equity investors an acceptable return (NPV at least zero, IRR at least the hurdle rate)."
+    },
+    {
+      "trap": "Confusing the DSCR lock-up and default thresholds.",
+      "fix": "Below lock-up, dividends to shareholders are blocked until the ratio recovers. Below default, lenders can demand repayment or take control of the project."
+    },
+    {
+      "trap": "Confusing LLCR and PLCR.",
+      "fix": "LLCR measures CFADS only up to the loan's maturity; PLCR measures CFADS over the project's remaining life."
+    },
+    {
+      "trap": "Thinking a higher price always solves a revenue shortfall in user-pays PPPs.",
+      "fix": "When demand elasticity is above one, raising prices reduces total revenue. Options are cancel, revise scope, adjust requirements or give government support."
+    },
+    {
+      "trap": "Treating market sounding as an early procurement stage.",
+      "fix": "It only gathers information. Avoid words like 'bidders', give no participant an advantage, and share all discussions with others."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Commercial feasibility", "meaning": "Expected revenues cover all costs, debt service and a reasonable return on equity under a reasonable scenario." },
+    { "term": "Bankability", "meaning": "The lenders' judgement that the project can repay its debt on schedule." },
+    { "term": "DSCR", "meaning": "Debt Service Cover Ratio: the cash available in a period divided by that period's debt service." },
+    { "term": "LLCR", "meaning": "Loan Life Cover Ratio: NPV of cash flow available for debt service to loan maturity, divided by outstanding debt." },
+    { "term": "Lock-up", "meaning": "A DSCR level below which distributions to shareholders are blocked." },
+    { "term": "Debt sculpting", "meaning": "Shaping the debt repayment schedule to the project's cash flows to raise more debt within the covenants." },
+    { "term": "Equity IRR", "meaning": "The discount rate that makes the NPV of the equity cash flow equal zero." },
+    { "term": "Hurdle rate", "meaning": "The minimum return equity investors require; a project is attractive if its equity IRR is higher." },
+    { "term": "Over-feasible project", "meaning": "A user-pays project whose revenue is much more than it needs to be commercially feasible." },
+    { "term": "Market sounding", "meaning": "A structured, non-procurement dialogue with the market during appraisal to test the project's assumptions and appeal." }
+  ],
+  "summary": [
+    "Commercial feasibility must satisfy both lenders (bankability) and equity investors (return).",
+    "DSCR, LLCR and PLCR cap debt; below lock-up, dividends stop; below default, lenders can take over.",
+    "Debt sculpting raises borrowing capacity but may raise the cost of debt.",
+    "Equity NPV ≥ 0 or equity IRR ≥ hurdle rate means the project is attractive to investors.",
+    "User-pays outcomes: feasible, over-feasible (cut price or require payments), or not feasible (cancel, rescope, adjust or support).",
+    "In government-pays PPPs, the exercise sizes the public support that is then tested for affordability.",
+    "Market sounding works best mid-appraisal, uses an information memorandum, must be transparent and gives no advantage."
+  ],
+  "slides": [
+    {
+      "title": "Is the project commercially feasible?",
+      "points": ["Revenues cover costs, debt and equity return", "Purpose depends on the revenue regime", "Two views: lenders and investors"],
+      "narration": "In this lesson we ask: will the private sector actually finance this project? A project is commercially feasible when, under a reasonable scenario, its revenues cover all costs, repay the debt, and give equity investors a reasonable return. What we test depends on the revenue regime. In user-pays projects, we check if users' money is enough. Where it is not, or where there are no user charges, we estimate the government support needed. And we always look through two pairs of eyes: lenders and investors."
+    },
+    {
+      "title": "Lenders' ratios",
+      "points": ["DSCR: cash cover for each period's debt service", "LLCR: over the loan life", "PLCR: over the project life"],
+      "narration": "Lenders ask one question: will we be repaid on time? Their main tools are cover ratios. The debt service cover ratio compares each period's available cash with that period's debt payments. The loan life cover ratio compares the present value of cash available for debt service up to loan maturity with the outstanding debt. The project life cover ratio does the same over the whole remaining project life. Higher ratios mean less risk, so riskier sectors need higher ratios."
+    },
+    {
+      "title": "Lock-up, default and sculpting",
+      "points": ["Below lock-up: no dividends", "Below default: lenders can take control", "Sculpting fits repayments to cash flow"],
+      "narration": "Loan agreements set two trigger levels for the DSCR. If it falls below the lock-up level, the company cannot pay dividends until the ratio recovers. If it falls below the default level, lenders can demand repayment or even take control of the project. Because of these limits, cover ratios cap how much debt a project can carry. Debt sculpting shapes repayments to follow the cash flow, so more debt fits within the covenant. The cost is that the debt may become more expensive."
+    },
+    {
+      "title": "Investors: NPV and IRR",
+      "points": ["Positive equity NPV: return above requirement", "Equity IRR above hurdle rate: attractive", "Bankable is not enough"],
+      "narration": "Being bankable is not enough. Equity investors must also be rewarded. We discount the equity cash flow at the investor's required return. If the net present value is above zero, the project earns more than they need. The internal rate of return is the rate that makes that value zero. If the equity IRR is higher than the hurdle rate, the project is attractive. Investors also look at payback period, project IRR, and the total amount of equity they must put in. A very large amount can rule out some investors."
+    },
+    {
+      "title": "What drives the required return",
+      "points": ["Higher project, sector or country risk: higher", "Government guarantees: lower", "Estimate from precedents, market test or CAPM"],
+      "narration": "How much return will investors want? More project risk, more sector risk, more country risk, or better returns elsewhere all push it up. Government guarantees that make cash flows steadier or limit political risk push it down. To estimate it, first look at returns in similar past projects, often through advisers. If that data is missing, run a small market test. As a last option, use the capital asset pricing model: the risk-free rate plus a market premium adjusted by beta."
+    },
+    {
+      "title": "User-pays: three outcomes",
+      "points": ["Feasible: proceed", "Over-feasible: lower price or payments to authority", "Not feasible: cancel, rescope, adjust or support"],
+      "narration": "In a user-pays PPP there are three outcomes. If revenues meet the criteria, the project is feasible. If revenues are far higher than needed, it is over-feasible, and the government may lower the price or ask the partner to pay the authority. If revenues are too low, raising the price may not help, because when demand is very elastic, higher prices lose more users than they gain. Then the options are cancel, revise the scope, adjust the requirements, or provide government support."
+    },
+    {
+      "title": "Market sounding: when and who",
+      "points": ["Not too early, not too late", "Middle of appraisal is a good estimate", "Providers, new entrants, lenders, development banks"],
+      "narration": "Our model is only as good as our understanding of the market, so we sound it out. Timing matters. Too early, and the government looks vague. Too late, and firms feel they cannot influence anything. The middle of the Appraisal Phase usually works well, and you can repeat the exercise during structuring. Talk to experienced providers, international firms if the project is new to your country, new entrants, commercial banks, and multilateral development banks."
+    },
+    {
+      "title": "Market sounding done right",
+      "points": ["Start with a project information memorandum", "Not a procurement: no advantage to anyone", "Document everything, share it, filter bias"],
+      "narration": "Start with a project information memorandum that is honest about uncertainties and obstacles. Then use written comments, industry days, one-to-one meetings, or questionnaires. Remember, this is not procurement. Don't call firms bidders, and make sure taking part gives no advantage. Document every meeting and share discussions with everyone. Filter feedback for self-interest, especially requests to push risk onto the government. Where corruption is a concern, avoid one-to-one meetings. The result is alignment and a more competitive tender."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A toll road's financial model shows it can comfortably meet all lenders' cover ratios, but the equity IRR is well below investors' hurdle rate. What is the best conclusion?",
+      "options": [
+        "The project is commercially feasible because it is bankable",
+        "The project is bankable but not yet commercially feasible for investors",
+        "The project should be launched and bidders will accept lower returns",
+        "The lenders' ratios should be lowered to fix the IRR"
+      ],
+      "answer": 1,
+      "explanation": "Commercial feasibility needs both bankability and an acceptable equity return. A project that meets lenders' ratios but gives an IRR below the hurdle rate will not attract equity investors."
+    },
+    {
+      "question": "A project company's DSCR falls below the lock-up level set in its loan agreement, but stays above the default level. What will happen?",
+      "options": [
+        "The lenders take control of the project immediately",
+        "The contract is terminated by the procuring authority",
+        "The loan must be repaid in full at once",
+        "Distributions to shareholders are blocked until the DSCR recovers"
+      ],
+      "answer": 3,
+      "explanation": "Below lock-up, distributions to shareholders are prevented until the DSCR returns above the threshold. Repayment demands or taking control apply only when the default value is reached."
+    },
+    {
+      "question": "An SPV needs $360 of debt, but under constant amortization only $270 respects the bank's minimum DSCR of 1.4. Which technique could help, and what is its main drawback?",
+      "options": [
+        "Debt sculpting; it may increase the cost of debt",
+        "Real-terms modelling; it hides inflation risk",
+        "Monte Carlo simulation; it needs many iterations",
+        "A shorter debt term; it lowers every repayment"
+      ],
+      "answer": 0,
+      "explanation": "Debt sculpting shapes repayments to cash flow so more debt fits the covenant. Back-ended repayments lengthen the loan's average life and may raise the interest rate. A shorter term would raise, not lower, each repayment."
+    },
+    {
+      "question": "An equity cash flow is discounted at investors' required return of 10% and gives an NPV of exactly zero. What does this mean?",
+      "options": [
+        "The project returns less than 10% and is not viable",
+        "The project's debt cannot be repaid",
+        "The equity return is exactly 10%, equal to the required return",
+        "The project IRR is exactly 0%"
+      ],
+      "answer": 2,
+      "explanation": "If NPV equals zero, the average return on equity is exactly the discount rate used. A negative NPV would mean less than 10%; it says nothing about debt repayment."
+    },
+    {
+      "question": "Which change would normally LOWER the return on equity required by investors in a PPP?",
+      "options": [
+        "Higher perceived country risk",
+        "Higher returns available on similar-risk investments",
+        "Higher systemic risk in the sector",
+        "Government guarantees that reduce cash flow volatility"
+      ],
+      "answer": 3,
+      "explanation": "Guarantees that reduce volatility or limit political risk lower the required return. Higher country risk, sector risk or returns elsewhere all raise it."
+    },
+    {
+      "question": "Demand studies for a user-pays tunnel show that revenues would be far higher than needed to satisfy lenders and investors. What might the government do?",
+      "options": [
+        "Reduce the reference price or require payments from the private party to the authority",
+        "Provide viability gap funding to the private partner",
+        "Cancel the project because it is over-feasible",
+        "Transfer all demand risk to the government"
+      ],
+      "answer": 0,
+      "explanation": "For an over-feasible project, the Guide suggests lowering the reference price or requiring payments from the private party (or other options like a shorter term). Viability gap funding is for projects that are not feasible."
+    },
+    {
+      "question": "Studies for a user-pays ferry PPP show that even the revenue-maximizing fare would not make it commercially feasible. In addition, a policy cap limits fares. Which option is NOT among those the Guide lists?",
+      "options": [
+        "Revise the scope or reduce the size of the infrastructure",
+        "Provide direct government payments to the project company",
+        "Raise the fare above the cap until revenue is sufficient",
+        "Cancel the project"
+      ],
+      "answer": 2,
+      "explanation": "Fares are capped, and even the revenue-maximizing fare is not enough, so raising fares is neither allowed nor useful. The Guide's options are to cancel, revise scope, adjust technical requirements, or provide government support."
+    },
+    {
+      "question": "A PPP team wants to run a market sounding for a hospital PPP. The technical requirements, financial model and preliminary structure are advanced but still flexible. When is this sounding best timed?",
+      "options": [
+        "At the very start of screening, before any scope is defined",
+        "Around the middle of the Appraisal Phase",
+        "After the RFP and final contract are published",
+        "Only after the contract is signed"
+      ],
+      "answer": 1,
+      "explanation": "Soundings should come when key elements are advanced but still flexible; the Guide suggests the middle of appraisal. Too early the government seems imprecise; too late there is little room for feedback."
+    },
+    {
+      "question": "During market sounding, a large construction firm asks for a private meeting and later receives cost data that other firms did not get. What principle has been broken?",
+      "options": [
+        "Market sounding must only include lenders",
+        "Industry meetings must always be held abroad",
+        "Firms must submit binding bids during market sounding",
+        "Participation must give no advantage, and discussions should be shared with all firms"
+      ],
+      "answer": 3,
+      "explanation": "Market sounding must not give participants an advantage or information that breaks the level playing field. Good practice is to document meetings and share all discussions with other potential bidders."
+    },
+    {
+      "question": "Consider these two statements. 1: In government-pays PPPs, the commercial feasibility exercise helps define the amount of public support needed. 2: In market sounding documents, the authority should use procurement language such as 'bidders'.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "In government-pays PPPs the exercise defines the support required to meet investors' and lenders' needs. The Guide's tips say not to use procurement language like 'bidders' in market sounding."
+    }
+  ]
+}

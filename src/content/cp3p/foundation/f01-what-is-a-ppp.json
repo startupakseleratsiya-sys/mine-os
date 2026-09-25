@@ -1,0 +1,316 @@
+{
+  "id": "f01-what-is-a-ppp",
+  "level": "foundation",
+  "order": 1,
+  "title": "What a PPP is",
+  "minutes": 15,
+  "guideRef": "Ch 1 §1.1–§1.2",
+  "objectives": [
+    "State the broad PPP definition used by the PPP Guide and explain the difference between infrastructure PPPs and service PPPs.",
+    "State the narrower definition of a private finance PPP and name the feature that makes it different from the broad definition.",
+    "List the five essential features of a private finance PPP and the four other common features.",
+    "Explain why a PPP is not a privatization.",
+    "Recognise user-pays PPPs and government-pays PPPs and the other names used for them."
+  ],
+  "sections": [
+    {
+      "heading": "1. A PPP is a way to procure assets and services",
+      "body": "The PPP Guide treats a **Public-Private Partnership (PPP)** as a **method for procuring and delivering public assets and public services**. To *procure* means to buy or obtain something through a formal process. A **public asset** is a fixed asset for long-term use, such as a road, a hospital or a water plant, that is used by the public or needed to provide a public service. The Guide often calls public assets **public infrastructure**.\n\nPPP contracts can cover different kinds of work:\n\n- **Infrastructure PPPs**: contracts to develop and manage **new infrastructure**, or to make **significant upgrades** to existing infrastructure.\n- **Service PPPs**: contracts where a private partner **manages existing infrastructure** or only **provides or operates a public service**.\n\nThere is **no universally accepted definition** of a PPP. The meaning can differ between countries because each country has its own legal framework. In everyday speech, “PPP” is sometimes used for *any* cooperation between the public and private sectors. Even in the narrower field of infrastructure, organisations define it differently. The Guide gives examples:\n\n- The **OECD** stresses aligning the government's service objectives with the private partner's profit objectives, which depends on **sufficient risk transfer**.\n- The **IMF** stresses **service provision** and **private investment**, with significant risk transferred to the private sector.\n- The **European Commission** has no formal definition at community level.\n- **Standard & Poor's** speaks of a medium- to long-term relationship that **shares risks and rewards**.\n- The **European Investment Bank** uses PPP as a generic term covering loose partnerships, DBFO-type contracts and joint venture companies.\n\nThe common thread is clear: a long-term relationship, a real transfer of risk, and a focus on delivering a service."
+    },
+    {
+      "heading": "2. The broad definition and “traditional procurement”",
+      "body": "The Guide's **broad definition** follows the World Bank *PPP Reference Guide 3.0* (2017):\n\n> “A **long-term contract** between a private party and a government entity, for providing a public asset or service, in which the private party bears **significant risk and management responsibility**, and **remuneration is linked to performance**.”\n\nThe Guide uses this definition when it talks about the PPP concept in general, as an **alternative to conventional procurement**. For convenience, the Guide calls **any public contract for goods, works or services that does not meet this definition** “**traditional**” or “**conventional**” procurement. What counts as “conventional” varies by country. A country may even introduce a new type of contract that is not traditional there but is still not a PPP under the Guide.\n\nThree points about the broad definition are often tested:\n\n1. It **does not require private finance**. The private party does not have to pay for the works.\n2. It **does assume bundling**: construction (development) and management (maintenance and operations) are bundled together in one long-term relationship.\n3. It **assumes a contract** that sets out the rights and obligations of both parties.\n\nThe broad definition covers new infrastructure (**greenfield**), upgraded infrastructure (**brownfield**), management services for assets that were already financed and built, and public services in the narrow sense, such as utilities, passenger transport or water supply to homes. These last ones may be called **service PPPs**."
+    },
+    {
+      "heading": "3. The narrow definition: the private finance PPP",
+      "body": "The PPP Guide focuses on PPPs as a way to procure **capital-intensive infrastructure that relies on private finance**. So it adds a **narrower definition** (Box 1.4). The Guide calls these **private finance PPPs**, or simply **PPPs**:\n\n> “A long-term contract between a public party and a private party for the **development (or significant upgrade or renovation) and management** of a public asset (including potentially the management of a related public service), in which the private party bears **significant risk and management responsibility** throughout the life of the contract, **provides a significant portion of the finance at its own risk**, and **remuneration is significantly linked to performance and/or the demand or use** of the asset or service so as to align the interests of both parties.”\n\nThe key difference from the broad definition is **private finance at risk**.\n\nIs private finance *necessary* to get the benefits of a PPP? **No.** The Guide says private finance is not a necessary condition. But **risk transfer is more effective** (though **not necessarily more efficient**) when the private partner has its **own capital at risk**, rather than only facing performance penalties. The Guide also notes that attracting private finance is a real challenge for EMDE countries (emerging markets and developing economies) with infrastructure gaps.\n\nThe narrow definition captures the **two main types of PPP**:\n\n| Type | Where the revenue comes from | Other common names |\n|---|---|---|\n| **User-pays PPP** | Charges paid by users, e.g. tolls or tariffs | “Concession” |\n| **Government-pays PPP** | Public or budget payments | “Availability payment PPP”; “PFI” in the United Kingdom |"
+    },
+    {
+      "heading": "4. PPP as a legal term, and why a PPP is not privatization",
+      "body": "**PPP can be a legal term.** In some countries, the law defines “PPP” as a specific type of contract. In others, PPP is only a *concept*: a way of procuring that can use several contract types. In some countries the legal position is unclear. (In Islamic countries, Sharia law may define PPPs differently, so Sharia advisors should be consulted.)\n\nWhere the law does define PPPs, the term is often **reserved for contracts paid by public payments**, or where public payments are most of the revenue (for example, the European System of Accounts). In some places it is used for any level of government payment. In these countries, a user-pays contract may meet the Guide's definition of a PPP but not the local legal one, so it is usually called a **concession**.\n\n**A PPP is not privatization.** People often confuse the two. In its **true sense, privatization** means the **permanent transfer** to the private sector of a previously public asset *and* of the responsibility for delivering the service to the end user. A PPP, by contrast, always keeps a **continuing role for the public sector as a “partner”** in an ongoing relationship.\n\nTwo further points:\n\n- Privatization is **not a way to procure new infrastructure**, because it implies the asset **already exists**.\n- Contracting out the **management of existing infrastructure** is not privatization either, because there is **no permanent transfer** and the public sector stays a partner.\n\nSome people use “privatization” loosely to mean any private management. The Guide does not. The distinction also matters for **communication**: some countries use other names to separate PPPs from earlier privatization programmes. For example, Mexico calls them projects for the provision of services (**PPS**), and Peru uses **co-financed concessions**."
+    },
+    {
+      "heading": "5. Features 1 and 2: the contract and its scope",
+      "body": "Section 1.2 of the Guide explains, phrase by phrase, the features a contract needs to be a private finance PPP. **All of them except private finance** are also needed under the broad definition.\n\n**Feature 1: “A long-term contract between a public party and a private party.”**\n\n- **Long-term**: risk and responsibility must pass to the private party over a **significant part of the asset's life**. The long term also links to the financial structure.\n- **Contract**: a written document with rights and obligations that either party can enforce. Usually it is one binding document with attachments. Sometimes there are several documents with different public bodies. For example, a power plant PPP may combine a **licence** from a ministry with a **Power Purchase Agreement** with a state-owned transmission company. The contract must usually be awarded through a **public competitive process**.\n- **Public party**: the government or an agency or entity acting for it, at national or sub-national level. The Guide calls it the **procuring authority**.\n- **Private party**: the private company or companies delivering the project. The **private partner** is the one that actually signs the contract with the public party. Often a **consortium** bids. If it wins, it creates a new company to sign the contract: the **project company**, or **Special Purpose Vehicle (SPV)**. An SPV is common but **not a necessary condition** for a PPP.\n- A contract with a **State-Owned Enterprise (SOE) owned by the same government** that procures the project is **not normally a PPP**, even if local law treats the SOE as a “private entity”. There are reasonable doubts that any risk is really transferred. An SOE owned by a **different** government, competing in the market, is different: risk does leave the procuring government.\n\n**Feature 2: “For the development (or significant upgrade or renovation) and management of a public asset.”**\n\n- The private party's efficiency must apply to both **design and construction** and **long-term maintenance**, so these are **bundled obligations**. Management may also include operations.\n- PPPs are for **capital-intensive** projects, including heavy new investment in an existing asset.\n- The PPP may include operating a **related public service**. For example, a major transport system PPP may include running the transport service."
+    },
+    {
+      "heading": "6. Features 3, 4 and 5: risk, finance and payment",
+      "body": "**Feature 3: “The private party bears significant management responsibility and risks through the life of the contract.”**\n\n- The private party should be **materially and integrally in charge** of managing the asset, especially **life-cycle cost management**, not just small or specific tasks.\n- **Risks follow responsibilities.** A risk should not be transferred if the private partner **cannot control or influence** it. Long-term management risks should be transferred only if long-term maintenance and renewals are delegated.\n- Even when risk is transferred, the **public sector must keep monitoring** the project.\n- **Significant** means the **bulk** of the risk, **not all** risks. Transferring some risks can be inefficient, so the public partner may **retain or share** them. Ask which party is **best able to manage** each risk.\n\n**Feature 4: “And provides a significant portion of the finance.”**\n\n- Private finance is not needed for the broad definition, but it is the focus of the Guide.\n- For the Guide, **private finance** means finance from the private sector that is **at risk**, meaning its repayment depends on the performance of the project and contract. (National accounting rules may use a different test: finance that is not counted as public debt.)\n- Private finance, usually as **project finance**, is a powerful way to **align objectives**. If the partner's money is repaid only when the asset performs, it will work to keep the asset available and well maintained. It also encourages efficient **whole-of-life cost** management.\n\n**Feature 5: “Remuneration is significantly linked to performance and/or the demand for or use of the asset.”**\n\n- Payment depends on **performance** (quality of service), on **level of use**, or both. Use is typical of **user-pays** PPPs, and performance of **government-pays** PPPs.\n- As a result, the partner usually receives payment **only once the asset is in service**. Exceptions exist, such as co-financing.\n- Interests should be aligned **without being too prescriptive** about inputs, leaving room for **innovation**.\n\nThe typical private finance PPP contract is **DBFOM** (Design, Build, Finance, Operate and Maintain). It counts as a true private finance PPP only if significant private finance is at risk and most of the payment is linked to performance or use. **DBOM** contracts can be infrastructure PPPs **without private finance**."
+    },
+    {
+      "heading": "7. Essential features versus other common features",
+      "body": "Box 1.5 of the Guide separates what a private finance PPP **must** have from what it **usually** has. The exam likes to test this line.\n\n| Essential features | Other common features |\n|---|---|\n| A **long-term contract** between public and private parties | The private party is usually an **SPV** |\n| Construction and long-term management **bundled** in one contract | Finance is usually **project finance** |\n| **Significant risk transfer** over a significant part of the asset's life | Revenue comes only (or mainly) **once the asset is complete** and ready to use |\n| **Significant private finance at risk** | Requirements are **output specifications** (results), not input specifications, which encourages **innovation** |\n| Remuneration **linked to, and at risk of, performance and/or demand** | |\n\nAn **output specification** describes the *result* the authority wants, for example “the road must be open with a smooth surface 99% of the time”. An **input specification** describes *how* to do the work, for example “use this type of asphalt, 10 cm thick”.\n\nThe Guide's key points (Box 1.6) summarise the chapter:\n\n- A PPP is an option to procure infrastructure and services with the private sector. It can bring benefits beyond access to private finance and can support economic development.\n- The Guide focuses on **private finance PPPs** for new infrastructure or upgrades.\n- There is **no universal definition**, but there is consensus on the key features: long-term contract, significant transfer of risks and responsibilities, and remuneration linked to performance and/or demand.\n- PPPs are either **user-pays** (funded by user charges) or **government-pays** (funded by the public budget). They are often called **concessions** and **availability payment** PPPs.\n- **PPPs are not privatization.**"
+    }
+  ],
+  "example": {
+    "title": "Is the Riverside Hospital contract a private finance PPP?",
+    "body": "Imagine the fictional Ministry of Health of Valdoria wants a new 400-bed hospital. It considers three options.\n\n**Option A.** A company designs and builds the hospital. The ministry pays monthly as work progresses and then maintains the building itself. This is **traditional procurement**. There is no bundling of construction with long-term maintenance, and no link between payment and performance.\n\n**Option B.** A state-owned construction company, owned by the Valdorian government, signs a 25-year contract to build and maintain the hospital. The contract is long and bundled, but it is signed with an **SOE of the same government**. The Guide does not normally regard this as a PPP, because there are reasonable doubts that risk really leaves the government.\n\n**Option C.** After a competitive tender, a private consortium creates an SPV. The SPV signs a 25-year contract to design, build, finance and maintain the building. Banks and investors provide most of the money. The ministry pays nothing until the hospital opens. After that it makes monthly **availability payments**, with **deductions** if wards are unavailable or cleaning standards are missed. This contract has all five essential features: a long-term contract, bundling, significant risk transfer, private finance at risk, and remuneration linked to performance. It is a **government-pays private finance PPP**.\n\nNote that the hospital building remains a public asset, and the ministry stays an active partner that monitors performance. This is why Option C is **not a privatization**."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking every PPP must include private finance.",
+      "fix": "Under the broad definition, private finance is not required. It is only an essential feature of a private finance PPP, which is the Guide's narrower definition and main focus."
+    },
+    {
+      "trap": "Confusing a PPP with privatization.",
+      "fix": "Privatization is a permanent transfer of an existing asset and service responsibility. A PPP is a time-limited contract in which the public sector stays an active partner. Privatization cannot be used to procure new infrastructure."
+    },
+    {
+      "trap": "Believing “significant risk transfer” means transferring all risks.",
+      "fix": "Significant means the bulk of the risk. Some risks are better retained or shared by the public partner. Never transfer a risk the private party cannot control or influence."
+    },
+    {
+      "trap": "Mixing up essential features and common features.",
+      "fix": "SPV, project finance, payment only after completion and output specifications are common features, not essential ones. The essential features are: long-term contract, bundling, significant risk transfer, private finance at risk and performance-linked pay."
+    },
+    {
+      "trap": "Assuming a contract with any state-owned company can be a PPP.",
+      "fix": "A contract with an SOE owned by the same government that procures the project is not normally a PPP. An SOE of a different government that competes in the market can take on transferred risk."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Public-Private Partnership (broad definition)",
+      "meaning": "A long-term contract between a private party and a government entity to provide a public asset or service, where the private party bears significant risk and management responsibility and pay is linked to performance."
+    },
+    {
+      "term": "Private finance PPP",
+      "meaning": "A PPP in which the private party also provides a significant portion of the finance at its own risk; the Guide's main focus."
+    },
+    {
+      "term": "Infrastructure PPP",
+      "meaning": "A PPP to develop new infrastructure or significantly upgrade existing infrastructure, and then manage it."
+    },
+    {
+      "term": "Service PPP",
+      "meaning": "A PPP in which the private partner manages existing infrastructure or provides or operates a public service."
+    },
+    {
+      "term": "Traditional (conventional) procurement",
+      "meaning": "Any public contract for goods, works or services that does not meet the PPP definition."
+    },
+    {
+      "term": "Procuring authority",
+      "meaning": "The public party (government, agency or entity acting for it) that tenders and signs the PPP contract."
+    },
+    {
+      "term": "Special Purpose Vehicle (SPV)",
+      "meaning": "A project company created by the winning bidders to sign the contract and manage the project; common but not required for a PPP."
+    },
+    {
+      "term": "User-pays PPP",
+      "meaning": "A PPP whose revenue comes mainly from charges to users; often called a concession."
+    },
+    {
+      "term": "Government-pays PPP",
+      "meaning": "A PPP whose revenue comes mainly from public budget payments; also called an availability payment PPP, or PFI in the United Kingdom."
+    },
+    {
+      "term": "Privatization (true sense)",
+      "meaning": "The permanent transfer to the private sector of a previously public asset and the responsibility for delivering the service."
+    }
+  ],
+  "summary": [
+    "A PPP is a contractual method to procure and deliver public assets and services; there is no universal definition.",
+    "Broad definition: long-term contract, significant risk and management responsibility for the private party, and remuneration linked to performance.",
+    "A private finance PPP adds a significant portion of private finance at the private party's own risk.",
+    "The five essential features are a long-term contract, bundled construction and management, significant risk transfer, private finance at risk and pay linked to performance or use.",
+    "SPV, project finance, payment after completion and output specifications are common but not essential features.",
+    "PPPs are user-pays (concessions) or government-pays (availability payments, PFI).",
+    "A PPP is not privatization: the public sector remains a partner and the transfer is not permanent."
+  ],
+  "slides": [
+    {
+      "title": "What is a PPP?",
+      "points": [
+        "A method to procure public assets and services",
+        "Infrastructure PPPs: new or significantly upgraded assets",
+        "Service PPPs: manage existing assets or run services",
+        "No universally accepted definition"
+      ],
+      "narration": "Welcome to your first lesson. Let's start with a simple idea. A PPP is not a building or a company. It is a way of buying, or procuring, public assets and public services. Some PPPs create new infrastructure, or seriously upgrade old infrastructure. We call these infrastructure PPPs. Others only manage existing assets or run a public service, like a bus network. We call these service PPPs. One thing surprises many learners: there is no single definition that everyone in the world agrees on. Countries and institutions define PPPs differently. That is why the Guide gives us its own definitions."
+    },
+    {
+      "title": "The broad definition",
+      "points": [
+        "Long-term contract, public and private parties",
+        "Significant risk and management responsibility",
+        "Remuneration linked to performance",
+        "Private finance is NOT required here"
+      ],
+      "narration": "The broad definition comes from the World Bank's PPP Reference Guide. It has three main parts. First, a long-term contract between a private party and a government entity. Second, the private party carries significant risk and management responsibility. Third, its pay is linked to performance. Notice what is missing: money. Under the broad definition, the private party does not have to finance anything. Anything that does not fit this definition, the Guide simply calls traditional or conventional procurement. Keep this in mind, because the exam likes to ask whether private finance is always needed."
+    },
+    {
+      "title": "The private finance PPP",
+      "points": [
+        "The Guide's narrower, main definition",
+        "Adds significant private finance at own risk",
+        "Capital at risk makes risk transfer more effective",
+        "More effective does not always mean more efficient"
+      ],
+      "narration": "Now the narrower definition, which the Guide uses most of the time. A private finance PPP has everything in the broad definition, plus one more thing. The private party provides a significant portion of the finance, and that money is at its own risk. Why does this matter? When investors and lenders only get their money back if the asset performs, they care a lot about performance. So risk transfer becomes more effective. But be careful with the wording. The Guide says more effective, not necessarily more efficient. And private finance is still not strictly necessary to enjoy PPP benefits."
+    },
+    {
+      "title": "Two main types of PPP",
+      "points": [
+        "User-pays: revenue from tolls or tariffs",
+        "Government-pays: revenue from the public budget",
+        "User-pays often called concessions",
+        "Government-pays: availability payments, or PFI"
+      ],
+      "narration": "Private finance PPPs come in two main types, depending on who pays the private partner. In a user-pays PPP, the money comes from users, for example drivers paying a toll. Many countries call these concessions. In a government-pays PPP, the money comes from the public budget, usually as availability payments. The United Kingdom called these PFI. A quick warning: in some countries, the word PPP is a legal term reserved only for government-pays contracts. There, a user-pays contract is simply called a concession, even though the Guide would still call it a PPP."
+    },
+    {
+      "title": "A PPP is not privatization",
+      "points": [
+        "Privatization: permanent transfer of asset and service",
+        "PPP: public sector remains an active partner",
+        "Privatization cannot procure new infrastructure",
+        "Contracting out management is not privatization"
+      ],
+      "narration": "People often mix up PPPs and privatization, so let's make the difference crystal clear. In its true sense, privatization means the government permanently hands over an existing public asset, together with the job of serving the end user. A PPP is different. It is a contract for a limited time, and the public sector stays involved as a partner, watching performance. Also, privatization cannot give you new infrastructure, because the asset must already exist before you can sell it. Even contracting out the management of an existing asset is not privatization, because nothing is permanently transferred."
+    },
+    {
+      "title": "Features 1 and 2",
+      "points": [
+        "Long-term, written, competitively awarded contract",
+        "Public party is the procuring authority",
+        "Private partner is often an SPV",
+        "Construction and maintenance are bundled"
+      ],
+      "narration": "Let's walk through the features of a private finance PPP. Feature one is a long-term contract between a public party and a private party. Long-term, because risk must pass over a big part of the asset's life. The public party is called the procuring authority. The private side is often a consortium that creates a new company, the special purpose vehicle, or SPV. But remember, an SPV is common, not compulsory. And a contract with a company owned by the same government is not normally a PPP. Feature two is bundling: the same partner designs, builds and then maintains the asset."
+    },
+    {
+      "title": "Features 3, 4 and 5",
+      "points": [
+        "Bulk of risk transferred, not all risks",
+        "Risks follow responsibilities the partner controls",
+        "Significant private finance at risk",
+        "Pay linked to performance and/or use"
+      ],
+      "narration": "Feature three is significant management responsibility and risk. Significant means the bulk of the risk, not every risk. A good rule: only give a risk to the party that can control or influence it. Feature four is private finance at risk, usually through project finance. Feature five links pay to performance, or to use, or to both. Use is typical of user-pays PPPs, performance of government-pays PPPs. Because of this link, the partner is usually paid only once the asset is open and working. That is a strong reason to finish on time and keep quality high."
+    },
+    {
+      "title": "Essential versus common features",
+      "points": [
+        "Essential: contract, bundling, risk, finance, performance pay",
+        "Common: SPV and project finance",
+        "Common: revenue only after completion",
+        "Common: output specifications encourage innovation"
+      ],
+      "narration": "To finish, let's separate what a PPP must have from what it usually has. The five essential features are the ones we just covered: a long-term contract, bundling, significant risk transfer, private finance at risk, and pay linked to performance or demand. The common features are an SPV, project finance, revenue that starts once the asset is complete, and output specifications. An output specification describes the result you want, not how to do the work. That leaves room for the private partner to innovate. In your test, watch for questions that try to swap these two lists."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which description matches the PPP Guide's broad definition of a PPP?",
+      "options": [
+        "Any form of cooperation between the public and private sectors for a common goal",
+        "A long-term contract where the private party bears significant risk and management responsibility and pay is linked to performance",
+        "A contract where the private party must finance the whole construction cost of a new asset",
+        "The permanent sale of a public asset and its service responsibility to a private company"
+      ],
+      "answer": 1,
+      "explanation": "The broad definition, based on the World Bank PPP Reference Guide, needs a long-term contract, significant risk and management responsibility, and performance-linked pay. Private finance is not required under the broad definition, and a permanent sale is privatization."
+    },
+    {
+      "question": "Which feature is added by the narrower definition of a private finance PPP but is NOT required by the broad definition?",
+      "options": [
+        "The private party provides a significant portion of the finance at its own risk",
+        "There is a contract between a public party and a private party",
+        "The private party bears significant management responsibility",
+        "Remuneration is linked to performance"
+      ],
+      "answer": 0,
+      "explanation": "Private finance at risk is the distinctive feature of a private finance PPP. The other three options are needed under both definitions."
+    },
+    {
+      "question": "Consider these two statements. 1: Under the PPP Guide, private finance is a necessary condition to enjoy the benefits of a PPP approach. 2: Risk transfer is more effective when the private partner has its own capital at risk.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says private finance is not a necessary condition for PPP benefits, so statement 1 is false. It does say risk transfer is more effective (though not necessarily more efficient) when the partner's own capital is at risk."
+    },
+    {
+      "question": "Which of the following is NOT one of the essential features of a private finance PPP?",
+      "options": [
+        "Construction and long-term management are bundled in one contract",
+        "Significant risk is transferred over a significant part of the asset's life",
+        "Remuneration is linked to performance and/or demand",
+        "The private party is constituted as a Special Purpose Vehicle"
+      ],
+      "answer": 3,
+      "explanation": "An SPV is a common feature, not an essential one; the Guide says an SPV is not a necessary condition for a PPP. The other three options are essential features in Box 1.5."
+    },
+    {
+      "question": "What is the main difference between a PPP and privatization in its true sense?",
+      "options": [
+        "Privatization always uses user charges, while PPPs always use government payments",
+        "In a PPP the public sector keeps a continuing role as a partner, while privatization is a permanent transfer",
+        "In a PPP the private partner owns the asset forever, while privatization is time-limited",
+        "Privatization is used to build new assets, while PPPs only manage existing assets"
+      ],
+      "answer": 1,
+      "explanation": "Privatization permanently transfers an existing asset and service responsibility; a PPP keeps the public sector in an ongoing partnership. Privatization cannot procure new infrastructure, because the asset must already exist."
+    },
+    {
+      "question": "A city signs a 25-year build-and-maintain contract with a construction company that it owns 100%. How does the PPP Guide normally treat this contract?",
+      "options": [
+        "As a government-pays PPP, because the city pays from its budget",
+        "As a user-pays PPP, because the company is a separate legal entity",
+        "Not as a PPP, because there are reasonable doubts that risk is transferred",
+        "As a private finance PPP, if the contract lasts more than ten years"
+      ],
+      "answer": 2,
+      "explanation": "A contract with an SOE owned by the same government that procures the project is not normally a PPP, because risk may not really leave the government. The length of the contract does not change this."
+    },
+    {
+      "question": "Complete the sentence: In a user-pays PPP, the private partner's revenue comes mainly from ____.",
+      "options": [
+        "charges paid by the users of the asset, such as tolls or tariffs",
+        "availability payments from the procuring authority",
+        "grants from multilateral development banks",
+        "fixed instalments paid during the construction period"
+      ],
+      "answer": 0,
+      "explanation": "User-pays PPPs, often called concessions, are funded mainly by charges to users. Availability payments from the budget describe government-pays PPPs."
+    },
+    {
+      "question": "Which statement about “significant risk transfer” in a PPP is correct?",
+      "options": [
+        "All risks and their consequences must be transferred to the private partner",
+        "Only construction risk needs to be transferred",
+        "Risks should be transferred even when the private partner cannot influence them",
+        "The bulk of the risk is transferred, but some risks may be better retained or shared"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the bulk of the risk must be transferred, but there is no need to transfer all risks, and some transfers are inefficient. Risk should also be transferred over the asset's life cycle, not only during construction."
+    },
+    {
+      "question": "Consider these two statements. 1: In some countries, the legal term PPP is reserved for contracts paid mainly by public payments. 2: In those countries, user-pays contracts are usually called concessions.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both statements are true. Where the law reserves PPP for government payments, user-pays contracts that meet the Guide's definition are usually called concessions."
+    },
+    {
+      "question": "Why does a PPP usually use output specifications rather than input specifications?",
+      "options": [
+        "Output specifications make the contract shorter and cheaper to write",
+        "They allow the authority to control every construction method in detail",
+        "They focus on the results needed and leave room for private sector innovation",
+        "They remove the need for the public sector to monitor performance"
+      ],
+      "answer": 2,
+      "explanation": "Consistent with performance-based pay, output specifications describe results and encourage innovation. Controlling every method is what input specifications do, and the public sector must still monitor performance."
+    }
+  ]
+}

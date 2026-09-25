@@ -1,0 +1,195 @@
+{
+  "id": "e03-rfp-evaluation-criteria",
+  "level": "execution",
+  "order": 3,
+  "title": "The RFP: proposal requirements and evaluation criteria",
+  "minutes": 16,
+  "guideRef": "Ch 5 §8 (§8.1–§8.3)",
+  "objectives": [
+    "Describe what a Request for Proposals (RFP) governs and what it usually contains",
+    "Set sensible proposal requirements: bid time, validity, envelopes, bid bond and financial model",
+    "Choose between price-only and price-and-quality evaluation, and design weightings and minimum scores",
+    "Explain how evaluation is organised, including sequential opening of the technical and financial envelopes",
+    "Explain how dialogue, interactive and BAFO processes change the RFP, and when stipends or dialogue bonds fit"
+  ],
+  "sections": [
+    {
+      "heading": "1. What the RFP does",
+      "body": "The **Request for Proposals (RFP)** is the document that tells bidders exactly how to bid and how they will be judged. The Guide says it governs three things:\n- **Bid requirements**: what documents must be presented, and how.\n- **Evaluation**: the rules and methods used to evaluate proposals and select the winner.\n- **Other matters**, such as protections for the government (for example, the right to cancel or to negotiate).\n\nThe RFP also sets out the tender process in detail: how questions are asked, how one-on-one meetings work in interactive processes, the deadline to submit, how long a proposal stays valid, and the conditions for contract signature (and for financial close when it comes soon after commercial close).\n\nMuch of the RFP is delivered as **annexes**. The principal annex is the **contract** itself. Other annexes typically include the design brief or service specifications, the payment mechanism and penalty regime, and the evaluation criteria and proposal forms.\n\nWhen a pre-qualification or short listing has already taken place (for example after an Expression of Interest), the RFP is a **separate document** issued only to the qualified or short-listed bidders. In a two-stage process with dialogue, it may have a different name (for example, a **descriptive document**), and the final selection criteria may be refined when the dialogue ends.\n\n**Transparency and objectivity** are essential when setting evaluation rules. The legal framework usually sets the outer boundaries, and the criteria have a big impact on whether the market wants to bid at all."
+    },
+    {
+      "heading": "2. Proposal requirements: time, validity and envelopes",
+      "body": "**Time to submit.** PPP bids need proper due diligence and time to prepare a sound offer. Good practice frameworks set a floor of at least **30 or 60 days**. In practice, **at least 90 days** is usually granted for open tenders, and complex projects may need **up to 120 days**. Dialogue and interactive processes need even longer.\n\n**Validity.** It is good practice to make a proposal **binding for a limited time** (for example, 180 days). This protects bidders from undue delays in evaluation and award. After that period the proposal is no longer binding. If the authority is still running the tender, bidders are asked to confirm their offers, or they may retire from the process **without losing the bid bond**.\n\n**Envelopes.** Proposals are typically presented in separate envelopes:\n1. **Legal/administrative** documents (similar to qualification documents, plus extras).\n2. The **technical** proposal.\n3. The **financial** proposal.\n\nExtra legal documents often include the bid bond, **evidence** that insurance is available (the insurance itself need not be taken out until contract signature), and the draft articles of association of the future SPV. It is **not** good practice to require the SPV to be set up before award.\n\nSome processes separate documents scored by pure formula from documents that need judgment (usually the technical proposal). Pricing information must stay in the price envelope only.\n\nThe documents requested **must be consistent with the evaluation criteria**, and the rules for presenting them must be clear. A material lack of information or serious inconsistencies may lead to disqualification. It is good practice to supply **standard forms** with the RFP, for example for equity commitment statements and guarantees."
+    },
+    {
+      "heading": "3. The bid bond and the financial model",
+      "body": "**Bid bond (proposal guarantee).** The RFP customarily asks each bidder to submit a guarantee with its bid. It protects the authority against the risk that the **successful bidder fails to sign the contract**. If the winner walks away, the bond is called. It is called a 'bid bond' even when the instrument is not a bond.\n- Typical forms: **bank guarantees** (sometimes a letter of credit) or **insurance bonds**.\n- They must be **unconditional, irrevocable and payable on first demand**.\n- The RFP should say which instruments are acceptable, and it is good practice to provide a template.\n- The typical amount is **1–2 percent of the 'value of the project'**, usually based on the authority's official CapEx estimate.\n\n**Financial model.** Whether bidders must submit a financial model is controversial, especially in emerging markets. The Guide clearly advocates that the **financial model and plan should be a bid requirement**. The government should care about the financial sustainability of the PPP company, and the model is a key tool of contract governance. It is used later for contract changes, compensation negotiations and disputes about risk events.\n\nGood practice is to annex a **template or 'instructions to prepare the financial model'** so all bidders' models are comparable. These should fix certain assumptions, especially macroeconomic ones such as inflation.\n\n**Financial package.** All projects should ask for information on the bidder's financing: structure and amounts of debt (instruments and tranches), terms agreed or under negotiation, and lender letters of commitment. Some processes accept non-binding financing offers; others require a **fully arranged** package at bid."
+    },
+    {
+      "heading": "4. Price-only evaluation",
+      "body": "There are two broad types of evaluation.\n\n**Price only** (also called **least cost selection**). The technical proposal is judged **pass/fail**. Only technically compliant bids are compared, and among them **price is the only factor**. 'Price' may be the lowest availability payment, the lowest grant needed in a user-pays PPP that is not viable alone, or the **highest concession fee** offered. The Guide says the word **'auction'** is best kept for asset monetisation PPPs and user-pays projects likely to generate surplus revenue, where the winner offers the highest value to the authority.\n\nPrice-only is best for **simpler projects** with no special technical challenges. Its danger is **overly aggressive bids** that compromise quality or reliability. One way to limit that danger is to set not just an overall technical pass mark (say 6 out of 10) but **higher minimum scores for key sub-criteria** (say 7 or 8).\n\nSome points to remember:\n- Evaluating the **quantity offered for a fixed budget** (for example, kilometres of road) is **not advisable** for most PPPs. The scope should reflect the need identified by the government.\n- The RFP may add other **numerical criteria**, such as a revenue-sharing percentage. Each needs a clear **weighting and scoring formula** in the RFP.\n- Scoring bidders on a **shorter construction period** is generally undesirable, especially when the payment mechanism already rewards early completion. Also avoid **redundant** factors: a lower availability payment already pushes bidders towards a shorter construction term.\n- In government-pays PPPs, if all bidders must use the **same payment profile and indexation**, asking for a **single price** is usually more appropriate. If bidders may propose different profiles or indexation, an **NPV** comparison is needed.\n- An advanced variant (used for toll roads in Chile) bids the **NPV of revenues**, which also shares risk because the concession term varies until that NPV is reached."
+    },
+    {
+      "heading": "5. Price and quality evaluation (MEAT)",
+      "body": "The second type combines price with **qualitative factors**, mainly the quality of the technical offer (design, construction approach, O&M). It is called **Quality and Cost Based Selection (QCBS)** or, more often, **Most Economically Advantageous Tender (MEAT)**. It is probably more common than price-only, and it is the most typical approach in the EU.\n\n**Weighting.** The split between price and quality should depend on the project. Very innovative projects justify more weight on the proposed approach. In many countries, objective/numerical criteria carry **at least 50 percent**. Where price is **below 50 percent**, it is customary to use an **expert evaluation panel with robust checks and balances** (as in Australia and New Zealand). Australia relies heavily on qualitative criteria: its RFPs give the criteria but little detail on scoring. The Guide says this only works where investors have **strong confidence in the fairness** of the evaluation. Even when quality has a big weight, the authority should still consider the **impact on project cost**.\n\n**Criteria design good practice:**\n- Give **each criterion a specific weighting** (or maximum points), so bidders see the government's priorities. If sub-criteria have no weights, at least publish a **list of factors** that will be considered.\n- Define each criterion clearly. But do not split scoring into **too many factors**: it creates rigidity and distracts bidders from the main objectives.\n- State how non-responsive proposals will be rejected, and set a **minimum quality score** above a mere pass (for example, an average of 7 out of 10).\n- Typical criteria cover construction, operations, maintenance (including hand-back plans), environment, health and safety, and benefits for disadvantaged groups. **Environmental and social sustainability** can be pass/fail minimums and/or extra points.\n\n**Controversial points:**\n- **Experience** as an evaluation factor is **prohibited in some jurisdictions** because it tends to favour incumbents. If experience was already used to qualify or short-list bidders, it should not be scored again.\n- The **financial package** may be scored for reliability, but instructions must stop bidders **revealing the price** in it.\n- Because PPPs are **output-based**, technical evaluation should not score **inputs** (such as the number of workers). It should check that the proposed means meet the minimum requirements and judge how well they will deliver quality outputs, measured through **KPIs**."
+    },
+    {
+      "heading": "6. Evaluation procedures in the RFP",
+      "body": "Usually the RFP does **not** describe the internal evaluation process in detail (team composition, individual versus group scoring, and so on) beyond the criteria, weightings and scoring formula. Chapter 6 treats evaluation as a management matter.\n\nHowever, the RFP **should state**:\n- **How long** the authority will take to evaluate and publish the award decision.\n- Whether bid envelopes will be **opened in public** (compulsory in some frameworks).\n\nSome jurisdictions evaluate **sequentially**: the financial envelope is opened **only after** the technical evaluation is finished and scores are assigned. The EU universally adopts this approach. This helps keep the price from influencing the judgment-based scores.\n\nIt is preferable that each score is the **average of individual evaluators' scores**, so no single evaluator dominates the result."
+    },
+    {
+      "heading": "7. Dialogue, interactive and BAFO processes",
+      "body": "Dialogue and interactive processes are optional in some places (the EU generally) and standard in others (Australia, New Zealand, the UK). They help when a project needs real interaction before the contract is final. In the EU model, dialogue makes sure the government asks for **something the market can deliver**; in the Australia/New Zealand model, it makes sure bidders **fully understand the government's requirements**. Interaction can secure commercial feasibility and even **improve VfM**, but they cost more time and money for everyone and create risks to **transparency and fairness**. They work best in **mature PPP markets**. Bidders are normally pre-qualified and **short-listed** first.\n\n**Two models:**\n| | EU competitive dialogue | Australia / New Zealand interactive |\n|---|---|---|\n| When is the RFP final? | After the dialogue | Before interaction starts |\n| Dialogue focuses on | The RFP and contract terms, which change | Bidders' own proposals and their reading of the RFP |\n| Documents | Descriptive document, ITPD, then Invitation to Submit Final Tender | Full RFP plus rules for workshops |\n\nIn the EU model, the dialogue starts from a **descriptive document** with basic evaluation rules, basic contract terms and rules for the dialogue. At the end, definitive requirements and criteria are approved and an **invitation to propose (ITP)** is issued. Under EU rules, the descriptive document need not give the criteria weightings, but it should list the criteria **in decreasing order of importance**. EU competitive dialogue may only be used for **complex projects**.\n\n**Negotiated procedure with BAFO.** Short-listed candidates submit binding technical and price proposals. **Two** candidates are selected (usually technical pass/fail and lowest price). After parallel negotiations they submit a **Best and Final Offer (BAFO)**. The preferred bidder is normally chosen on **price** only, and the other stays in reserve. A final negotiation with the preferred bidder then settles the final risk sharing and gives it time to arrange financial close.\n\n**Drafting matters** for these processes: rules for one-on-one and open meetings, confidentiality, submission of **'business solutions'** (EU term for bidders' proposed changes), the question-and-answer process, and consortium changes (generally **not allowed**, except in some force majeure situations).\n\n**Stipends and dialogue bonds.** Bidding in dialogue is expensive, so the initial documents must be **substantially developed** for bidders to judge whether the project is feasible. Even so, there is a risk of getting only one or two bids. Many processes pay **stipends** to responsive bidders: a share of justified bid costs, always **capped**. A **dialogue bond**, submitted at the start of the dialogue to guarantee that a candidate stays until the end, should be used only case by case, where there are few bidders (for example, **no more than three**), the effort is large and the abandonment risk is high. Otherwise it is **unnecessary and inappropriate**."
+    }
+  ],
+  "example": {
+    "title": "Designing the RFP for an illustrative hospital PPP",
+    "body": "Imagine the fictional Ministry of Health of 'Veldoria' is preparing an RFP for a new availability-payment hospital. Its advisers propose:\n\n1. **Bid period** of 60 days. The project is complex (design, equipment, 25 years of facility services), so the team extends it to **120 days**.\n2. **Validity** of 180 days. If award is delayed, bidders can confirm or withdraw without losing the bid bond.\n3. **Bid bond** of 1.5 percent of the official CapEx estimate, as an unconditional first-demand bank guarantee, using the template annexed to the RFP.\n4. **Financial model** required, built on the RFP template with a fixed inflation assumption.\n5. **Evaluation**: price 50 percent, technical 50 percent. Technical criteria are weighted (design 20, operations 12, maintenance and hand-back 11, environment and safety 7). Minimum average technical score 7 out of 10.\n6. The adviser also suggests scoring 'years of hospital experience'. The team rejects it: experience was already tested at pre-qualification.\n7. The price envelope is opened only after technical scores are final, and each score is the average of individual evaluators.\n\nThe result is a clear, output-based RFP that rewards quality without letting any single factor or evaluator dominate."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing the bid bond with the performance guarantee",
+      "fix": "The bid bond (about 1–2% of project value) protects against the winner refusing to sign. The performance guarantee is given at contract signature and protects performance during the contract."
+    },
+    {
+      "trap": "Thinking bidders must set up the SPV or buy insurance before bidding",
+      "fix": "At bid stage they give draft SPV articles and evidence insurance is available. The SPV is formed and insurance taken out after award / at signature."
+    },
+    {
+      "trap": "Using NPV comparison when all bidders use the same payment profile",
+      "fix": "Same profile and indexation for everyone: a single price is usually more appropriate. Different profiles or indexation: NPV is needed to compare."
+    },
+    {
+      "trap": "Mixing up the EU and Australian dialogue models",
+      "fix": "EU: dialogue changes the RFP and contract before final tenders. Australia/NZ: RFP is issued first and workshops shape the bids, not the RFP."
+    },
+    {
+      "trap": "Assuming dialogue bonds are always good practice",
+      "fix": "Only case by case, with few bidders (about three or fewer) and a high risk of abandonment. Otherwise they are unnecessary and inappropriate; stipends are the more common tool."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Request for Proposals (RFP)", "meaning": "The tender document that sets the proposal requirements, the evaluation rules and the process, with the contract as its main annex." },
+    { "term": "Proposal validity", "meaning": "The limited period during which a submitted proposal is binding on the bidder." },
+    { "term": "Bid bond", "meaning": "A first-demand guarantee, usually 1–2% of project value, called if the awarded bidder refuses to sign the contract." },
+    { "term": "Least cost selection", "meaning": "Price-only evaluation where technical proposals are pass/fail and the best price among compliant bids wins." },
+    { "term": "MEAT / QCBS", "meaning": "Most Economically Advantageous Tender / Quality and Cost Based Selection: evaluation combining price and weighted quality criteria." },
+    { "term": "Minimum quality score", "meaning": "A technical score threshold above a mere pass (for example 7 out of 10) that a proposal must reach." },
+    { "term": "Sequential evaluation", "meaning": "Opening and scoring the financial envelope only after technical scores are finalised." },
+    { "term": "BAFO", "meaning": "Best and Final Offer submitted by (usually two) candidates after parallel negotiations in a negotiated procedure." },
+    { "term": "Stipend", "meaning": "Capped compensation for part of the justified bid costs paid to responsive bidders in dialogue processes." }
+  ],
+  "summary": [
+    "The RFP governs bid requirements, evaluation and process rules; the contract is its main annex.",
+    "Bid time: a framework floor of 30–60 days, usually 90+ in open tenders, up to 120 for complex projects, longer for dialogue.",
+    "Proposals stay valid for a limited time (e.g. 180 days); afterwards bidders may withdraw without losing the bid bond.",
+    "Bid bond: 1–2% of project value, unconditional and on first demand; the financial model should be a bid requirement.",
+    "Price-only suits simple projects; price-and-quality (MEAT) needs clear weightings, defined criteria and minimum scores.",
+    "Score outputs, not inputs; avoid re-scoring experience and never let the price leak into other envelopes.",
+    "EU dialogue changes the RFP; Australian interaction shapes the bids; BAFO chooses between two candidates on price."
+  ],
+  "slides": [
+    {
+      "title": "What the RFP governs",
+      "points": ["Bid requirements: what to submit and how", "Evaluation rules and selection method", "Process rules, deadlines and government protections", "The contract is the principal annex"],
+      "narration": "Welcome back. In this lesson we look at the Request for Proposals, or RFP. Think of it as the rule book for the whole bidding process. It tells bidders what they must submit, how their proposals will be judged, and how the process will run: the deadline, how to ask questions, and what must happen before signature. And the most important annex is the contract itself. Clear and fair rules matter, because the evaluation criteria strongly affect whether good companies want to bid at all."
+    },
+    {
+      "title": "Time and validity",
+      "points": ["Legal floor often 30 to 60 days", "Open tenders usually 90 days or more", "Complex projects up to 120 days", "Validity limited, for example 180 days"],
+      "narration": "Preparing a PPP bid takes a long time. Bidders must study the project, the contract, the risks and the financing. Many frameworks set a minimum of thirty or sixty days, but in practice open tenders usually get at least ninety days, and complex projects up to one hundred and twenty. Dialogue processes need even more. The proposal should also be valid only for a limited time, for example one hundred and eighty days. After that, if the authority is still evaluating, bidders can confirm their offer or leave without losing their bid bond."
+    },
+    {
+      "title": "Envelopes and documents",
+      "points": ["Separate legal, technical and financial envelopes", "Evidence of insurance, not policies yet", "Draft SPV articles, SPV formed after award", "Documents must match the evaluation criteria"],
+      "narration": "Proposals usually come in three envelopes: legal and administrative, technical, and financial. At this stage the bidder shows that insurance is available, but it does not need to buy the policies until signature. It gives draft articles for the future project company, but it should not be forced to create that company before award. And here is a key idea: the documents you ask for must be consistent with your evaluation criteria, and the rules for presenting them must be clear. If important information is missing, or the documents seriously contradict each other, the bid may be disqualified."
+    },
+    {
+      "title": "Bid bond and financial model",
+      "points": ["Bid bond: 1 to 2 percent of project value", "Unconditional, irrevocable, payable on first demand", "Financial model should be a bid requirement", "Provide a template with fixed assumptions"],
+      "narration": "The bid bond protects the authority if the winner refuses to sign. It is usually one to two percent of the project value, based on the official capital cost estimate, and it must be payable on first demand. The Guide is also very clear that bidders should submit a financial model. Why? Because the model becomes a management tool for the whole contract: for changes, for compensation and for disputes. Give bidders a template and fix key assumptions, like inflation, so the models can be compared fairly."
+    },
+    {
+      "title": "Price-only evaluation",
+      "points": ["Technical proposal judged pass or fail", "Best price among compliant bids wins", "Suits simpler projects", "Risk: aggressive bids that hurt quality"],
+      "narration": "Now, how do we choose the winner? The first option is price only, also called least cost selection. The technical offer is simply pass or fail, and among the bids that pass, the best price wins. This is clean and objective, and it suits simpler projects. But it can push bidders to be too aggressive, cutting quality. A useful safeguard is to set higher minimum scores for key technical elements. Also remember: if everyone uses the same payment profile, ask for a single price; if profiles differ, compare net present values."
+    },
+    {
+      "title": "Price and quality: MEAT",
+      "points": ["Weight each criterion clearly", "Price often at least 50 percent", "Below 50 percent: expert panel, strong checks", "Set a minimum quality score"],
+      "narration": "The second option combines price and quality. You may hear it called MEAT, the most economically advantageous tender. Here, the weighting should fit the project: innovative projects deserve more weight on quality. Many countries keep price and other objective factors at fifty percent or more. If price is lower than that, use an expert panel with strong checks and balances. Give each criterion its own weight, explain it clearly, and set a minimum quality score. But do not create dozens of tiny sub-criteria. That makes the evaluation rigid and confusing."
+    },
+    {
+      "title": "Fair evaluation habits",
+      "points": ["Score outputs, not inputs", "Do not score experience twice", "Keep price out of other envelopes", "Open price only after technical scores"],
+      "narration": "A few habits make evaluation fair. PPPs buy outputs, so do not give points for the number of workers or machines; judge whether the solution will deliver the required service. If you already used experience to qualify bidders, do not score it again. Some countries even forbid it. Make sure no price information appears in the technical or financing documents. And in many systems, including the European Union, the price envelope is opened only after technical scores are final. Average the individual evaluators' scores so nobody dominates."
+    },
+    {
+      "title": "Dialogue, interaction and BAFO",
+      "points": ["EU: dialogue changes the RFP and contract", "Australia: workshops shape the bids", "BAFO: two candidates, then price decides", "Stipends common; dialogue bonds rarely"],
+      "narration": "Finally, interactive processes. In the European competitive dialogue, the authority talks with short-listed bidders and then changes the RFP and contract before calling for final tenders. In Australia and New Zealand, the RFP comes first, and workshops help bidders improve their own proposals. In a negotiated procedure with BAFO, two candidates negotiate in parallel and then submit best and final offers, usually judged on price. Because these processes are expensive, stipends are common. A bond to stop bidders leaving is only for rare, high-risk cases."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A procuring authority is drafting the RFP for a complex hospital PPP to be tendered through an open procedure. The law sets a minimum of 30 days for bids. What bid period should it set?",
+      "options": ["30 days, because the legal minimum is always sufficient", "A longer period, likely 90 to 120 days, given the complexity", "15 days, with an extension if bidders complain", "365 days, so every bidder can arrange full finance"],
+      "answer": 1,
+      "explanation": "The Guide says open tenders usually get at least 90 days and complex projects up to 120 days; the legal floor may be clearly insufficient. Planning a short period and relying on extensions is poor practice."
+    },
+    {
+      "question": "An RFP states that proposals are valid for 180 days. Evaluation is delayed and the authority is still running the tender on day 200. What will happen?",
+      "options": ["Bidders are bound for a further 180 days automatically", "Bidders who withdraw lose their bid bond", "Bidders are asked to confirm their offers and may withdraw without losing the bid bond", "The tender must be cancelled and reissued"],
+      "answer": 2,
+      "explanation": "After the validity period the proposal is no longer binding. Bidders are asked to confirm, and they may retire at their discretion without losing the bid bond."
+    },
+    {
+      "question": "A bidder asks whether it must incorporate its SPV and buy construction insurance before submitting its proposal. What should the procuring authority answer?",
+      "options": ["Both must be completed before bid submission", "Only the SPV must be incorporated before submission", "Only insurance must be bought before submission", "Neither: provide draft SPV articles and evidence insurance is available"],
+      "answer": 3,
+      "explanation": "Good practice is to request draft articles of association and evidence that insurance is available. Setting up the SPV before award and taking out insurance before signature are not required."
+    },
+    {
+      "question": "What is the main purpose of a bid bond in a PPP tender?",
+      "options": ["To protect the authority if the awarded bidder does not sign the contract", "To fund penalties for poor performance during operations", "To pay stipends to unsuccessful bidders", "To guarantee the lenders' senior debt"],
+      "answer": 0,
+      "explanation": "The bid bond secures the bidder's commitment: it is called if the awarded bidder refuses to proceed to signature. Performance penalties are covered by the separate performance guarantee."
+    },
+    {
+      "question": "An authority debates whether to require bidders to submit a financial model. Some officials say it is unnecessary for a fixed-price bid. What does the Guide recommend?",
+      "options": ["Not required; only the price matters", "Required only for user-pays projects", "Required, ideally built on a template with fixed assumptions such as inflation", "Required only from the preferred bidder after award"],
+      "answer": 2,
+      "explanation": "The Guide clearly advocates the financial model as a bid requirement, with a template or instructions so models are standardised. It is later used for changes, compensation and disputes."
+    },
+    {
+      "question": "In an availability-payment PPP, all bidders must use the same payment profile and the same indexation. How should the price be requested?",
+      "options": ["As an NPV of payments calculated by each bidder", "As a single price for the payment requested", "As the number of kilometres offered for a fixed budget", "As the shortest construction period offered"],
+      "answer": 1,
+      "explanation": "When profiles and indexation are identical, a single price is more appropriate. NPV comparison is needed only when bidders can propose different profiles or indexation."
+    },
+    {
+      "question": "A procuring authority plans a price-and-quality evaluation where price will carry only 35 percent. What should it also do, according to practice in countries such as Australia and New Zealand?",
+      "options": ["Use an expert evaluation panel with robust checks and balances", "Hide the weightings from bidders to avoid gaming", "Score each bidder's past experience heavily", "Let a single senior evaluator decide the technical scores"],
+      "answer": 0,
+      "explanation": "Where price is under 50 percent, it is customary to set up an expert panel with robust checks and balances. Weightings should be disclosed, and averaging several evaluators prevents one person dominating."
+    },
+    {
+      "question": "Bidders were pre-qualified on the basis of their experience. An adviser now proposes scoring experience again at the proposal stage. What should the authority do?",
+      "options": ["Accept it, because experience is the best predictor of success", "Accept it, but only for the financial envelope", "Replace price with experience as the main criterion", "Reject it, since experience was already used and can entrench incumbents"],
+      "answer": 3,
+      "explanation": "If experience has already been used to qualify or short-list bidders, it should not also be an evaluation criterion. Some jurisdictions even prohibit it because it perpetuates the status quo."
+    },
+    {
+      "question": "Statement 1: In the EU competitive dialogue, the dialogue mainly influences the bidders' proposals rather than the RFP. Statement 2: In the Australian interactive model, the RFP and contract are issued before the interactive workshops.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 1,
+      "explanation": "Statement 1 describes the Australian model, not the EU one: EU dialogue changes the RFP and contract. Statement 2 is correct: in Australia the RFP comes first and workshops shape the bids."
+    },
+    {
+      "question": "A short-listed dialogue process has five bidders, a moderate effort to participate and a low risk of abandonment. The authority wants each candidate to post a bond guaranteeing it stays until the end. What should it do?",
+      "options": ["Require the bond, as it is standard good practice", "Require the bond only from the two weakest bidders", "Generally not require it, since it is only for few bidders and high abandonment risk", "Require it and also refuse stipends"],
+      "answer": 2,
+      "explanation": "Dialogue bonds should be considered case by case where there are few bidders (about three or fewer), large effort and high abandonment risk. Otherwise they are unnecessary and inappropriate."
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "id": "e11-construction-change-claims",
+  "level": "execution",
+  "order": 11,
+  "title": "Change, claims, underperformance and disputes during construction",
+  "minutes": 18,
+  "guideRef": "Ch 7 §7–§11",
+  "objectives": [
+    "Tell a contractual variation apart from a renegotiation, and describe how Procuring Authority-initiated and Project Company-initiated changes are handled",
+    "Apply the rules on general versus project-specific change in law, and on changes in ownership",
+    "Distinguish relief events, compensation events and force majeure, and follow the strict process for evaluating claims",
+    "Choose the right remedy for late or poor construction: liquidated damages, construction bonds, sponsor support and the long stop date",
+    "Explain issue management, dispute resolution options, step-in rights and succession planning"
+  ],
+  "sections": [
+    {
+      "heading": "1. Why PPP contracts change, and adjustment versus renegotiation",
+      "body": "A PPP contract runs for 20 years or more. Nobody can predict and allocate every risk precisely over that time. So the long-term value of a PPP depends on how well the contract can **survive change in a structured way** while protecting the public benefit, or **Value for Money (VfM)**.\n\nThe Guide separates two things:\n- An **adjustment** (for example a minor scope change) is already **contemplated in the PPP contract**. It is handled through the contract's own tools: scope change or variation provisions, rebalancing provisions and claims procedures. Correcting errors or clarifying drafting also fits here.\n- A **renegotiation** changes the **original terms and conditions** of the contract. Large changes with major cost implications, or changes that could alter the agreed risk profile, often require renegotiation.\n\nRenegotiation is common, especially in user-pays PPPs. But it carries dangers. Many renegotiations are **opportunistic** and can undermine VfM:\n- bidding is distorted, because the winner may be the company most skilled in renegotiation, not the most efficient;\n- bilateral talks lose the positive effect of competitive pressure;\n- the economic benefits of the PPP may be reduced;\n- lender rights may be affected.\n\nKey lessons from the Guide: flexibility matters, but so does **public sector oversight** of change. Risk allocation should stay consistent with the original contract. Government should apply the **same diligence** to a significant change as it did to the original decision to proceed. If an authority needs a very high degree of flexibility, the project was probably **not suitable as a PPP** in the first place.\n\nThe Guide also warns against rescuing shareholders, which creates **moral hazard**. Letting lenders step in and resell the concession ('let the market work') is better. In an undeveloped market, however, there may be no buyers, and the authority may need to step in to prevent complete failure. Any intervention must be based on **public benefit**.\n\nThe EU 2014 Concessions Directive shows how changes can be allowed: for example, where the concession value does not rise by more than 50 percent, where clear review clauses already provide for the change, or where the modification is not substantial. Chile's 2010 Concessions Law (Box 7.6) uses thresholds: up to **15 percent** of approved capital value to raise service levels; up to **20 percent** of additional investment, approved by the Ministry of Finance; **open tender** by the Project Company for any increase above **5 percent**; and, above **25 percent** during construction, approval by both ministries, checked by an independent **technical panel**. Compensation is set so the **NPV (net present value)** of the extra works is zero."
+    },
+    {
+      "heading": "2. Changes in ownership and changes in scope",
+      "body": "**Changes in ownership.** Project Company shareholders often want to change. This should not be prohibited if it does **not increase risk** to the authority or reduce public benefit. Typical acceptable cases: the construction contractor exits after completion to recycle its capital, or a purely financial investor is replaced by an equivalent investor. The risk to manage is a sale to an **unsuitable shareholder**, especially one with an active role, such as the builder or an equipment supplier. The authority may reserve a right to approve a **change in control**, defined in the contract, and may set a lock-in period (for example, no sale until two years after construction). It should not use this right to block the lenders' legitimate protections.\n\n**Changes in scope.** Scope changes are most likely during construction, as the best way to meet the output specifications becomes clear. Every change must follow a **formal process**, usually a **variation notice** setting out costs, risks and the change to the specification. The authority must be **notified of all variations before they are implemented**. Approval depends on size:\n- changes with no cost: often handled by joint committees;\n- minor cost: the authority's contract management team;\n- larger: executives of both parties;\n- significant (for example, a set percentage of capital cost, or a material change in risk or scope): the approval authority under project governance, such as a central PPP unit.\n\nLenders and shareholders have their own approval processes on the Project Company side.\n\n**Procuring Authority-initiated change.** The authority issues a formal variation notice. The Project Company responds with a **variation proposal** showing costs and risks, compared with the original base case capital costs. If the cost is above a specified amount, the Project Company should **tender the work on the open market**; minor work is done with its existing subcontractors, because that is quicker and cheaper. The contract should separate base costs from mark-ups. The Project Company must implement the variation **unless** it would breach law or good industry practice, exceed its legal capacity, make insurance ineffective, be technically unfeasible on reasonable terms, or breach its loan agreements. The **authority pays**. The easiest way is a lump-sum capital grant on completion. Extra operating and maintenance costs also need a mechanism: in government-pays PPPs the authority's payments rise; in user-pays PPPs user fees could rise, although this is not common.\n\n**Project Company-initiated change.** Most concern the *means* of meeting output specifications, at the Project Company's **own cost and risk**. The authority still reviews them and issues a **no objection**, because it usually owns the asset long after the contract. Watch **value engineering**: cost savings may be shared, but the authority must examine the risk. Sharing in a saving that reduces safety, such as derailment containment, could create shared liability."
+    },
+    {
+      "heading": "3. External events, change in law and financial restructuring",
+      "body": "The general risk of delivering the project lies with the Project Company. Exceptions are limited to specific relief: **relief events, compensation events and force majeure**. The contract must say how such events are notified and how far they change the contract. The resulting variation is formalised without needing either party's approval. If a party disagrees, the **dispute resolution procedure** decides.\n\n**Change in law.** The cost of laws that exist or are foreseen at signing is priced into the bid. Unforeseen changes raise the question of who pays.\n\n| Type | What it is | Who bears the cost |\n|---|---|---|\n| General change in law | Affects all businesses in the country, or the whole sector (for example tax or environmental law) | **Project Company** |\n| Project-specific change in law | Discriminates against the Project Company, or against businesses in PPP contracts | **Procuring Authority**, but the Project Company must use all reasonable endeavours to mitigate costs |\n\nA general change needs no variation, unless the output specification must change (then a Project Company variation is used). If the authority itself plans a significant policy change, it may use either the variation process or the change-in-law process, and should compare their effect on VfM and the long-term relationship. Whether a change is general or specific is often disputed, so the parties should talk early; sometimes they can jointly lobby to avoid a project-specific change. Project-specific changes follow the same procedure as authority variations.\n\n**Financial restructuring.** For a project in financial difficulty, the **preferred method** is to auction the PPP contract so a new bidder pays what the project is actually worth and continues the service. This respects the risk allocation. In less mature markets there may be no buyers. Other tools, such as amending finance documents (longer maturities, new interest rates, changed covenants) or converting debt to equity, are managed inside the Project Company. The authority's role is limited to approvals, especially where change of control provisions apply."
+    },
+    {
+      "heading": "4. Claims management: relief, compensation and force majeure",
+      "body": "In a well-structured PPP, a failure by one party usually triggers a **compensation event** or a **breach of contract**, not a general claim for damages. Claims become more likely the more government is involved: approving designs, providing land or ancillary infrastructure, obtaining consents, or paying grants. So the contract management team must make sure government meets its own obligations and **documents everything**, especially land and approvals.\n\nWhen a claim or notice arrives, the team evaluates it in five steps: **identification** of the source; **legal compliance check** (is there a basis in the contract or law?); **evaluate merit**; **evaluate magnitude** (best and worst case); **strategy development** (from settlement to the dispute resolution process). Claims without a legitimate basis should be rejected. Because officials are seldom empowered to settle, the **Dispute Resolution Process (DRP)** is the default, and its deadlines must be met: the worst outcome is losing by default. The authority should **refuse to join** disputes between the Project Company and its subcontractors and simply insist on delivery under the PPP contract.\n\n**Extensions of time** are allowed only for a limited list of events outside the Project Company's control. An extension can move the **completion date** or the **expiry date** of the contract (giving more time to earn revenue). Extending time keeps the Project Company incentivised to finish, which is better VfM than starting a default process. Because time is money for the Project Company, the **same process** applies to relief and compensation events.\n\n| Event | Entitlement | Example |\n|---|---|---|\n| **Relief event** | **Time only**. Project Company bears the financial risk, but no liquidated damages or termination | Unforeseeable adverse weather |\n| **Compensation event** | **Time and/or money** | Authority fails to provide land or right of way; delay by another government agency |\n| **Force majeure** | No-fault, more severe and longer; may lead to termination | Natural disasters (risk usually shared); political events like war (usually authority) |\n\nA relief notice must name the event and why it qualifies, its impact, and the extra time needed, and it must be given within a set period (for example, three months). A compensation claim must also show extra costs and lost revenue, split into a **capital cost** to be compensated and **operating costs** covered by higher revenue and/or a longer term. The authority must **audit these costs closely**, as they may be overstated, and check the Project Company's mitigation.\n\nThe approval process is strict: claims must be notified **within a limited time**; incomplete notices should be **rejected**; the authority keeps requesting information until satisfied; and every claim is measured against the **base case financial model and original schedule**. An independent certifier may help agree the facts, but the fallback is the DRP, because the certifier cannot give a final binding decision on legal matters."
+    },
+    {
+      "heading": "5. Underperformance and late delivery during construction",
+      "body": "In construction, underperformance is not about service standards. It is about **how long the asset takes** and **its quality at completion**. Noncompliance reduces VfM, harms public perception of PPPs, increases the contract team's workload, and may trigger defaults under the financing and lender step-in.\n\n**Waivers.** The authority should not condone **material** non-performance. Missing a penalty once does not usually waive the right for the future, but **repeated acceptance** may, depending on the legal system, remove the right to insist on compliance later. For a **non-material, technical** noncompliance, a waiver may be sensible. Before granting it, the team should get **legal advice** (and document the waiver narrowly), **technical advice** confirming it is not material, and **approval through project governance**.\n\n**Remedies for late delivery**, all of which need contractual triggers and correct procedure:\n1. **Liquidated damages**: the preferred remedy for late service commencement. They are a *genuine pre-estimate* of the loss, such as renting alternative space. In some countries a 'penalty' is unenforceable because it bears no link to the harm. Lenders' liquidated damages are often much larger than the authority's, giving a strong incentive to finish on time. A notice and remedy period usually apply, so a lax team can lose the claim.\n2. **Construction bonds**: usually on-demand bank guarantees, called when, for example, the service commencement date is missed. Default risk is highest early in construction.\n3. **Sponsor support**: undertakings from sponsors, because the Project Company is a Special Purpose Vehicle with no resources of its own.\n4. **Long stop date**: the date by which services must start whatever happens. If missed, the authority should start the **termination** process.\n\nLate completion hurts both sides. The Project Company loses revenue it never recovers (especially in authority-pays PPPs) while debt service continues, so shareholder returns fall. The public loses services: patients or pupils may suffer."
+    },
+    {
+      "heading": "6. Issue management, disputes and step-in",
+      "body": "**Issue management** deals with problems early, before they become formal disputes. Tools include documented discussions and notes of agreement, using the contractual change mechanism, agreed changes to requirements and method statements, and regular meetings with key stakeholders. The mindset is collaborative: a systematic approach, **win-win** solutions instead of blame, open discussion, and agreement that adversarial attitudes waste time and money. \n\n**Dispute resolution.** Some issues will still become disputes, so the contract needs a resolution mechanism. Project Companies often prefer **arbitration** as faster; authorities may prefer **courts**, which build precedent and transparency. The choice is country-specific, and court action should be a **last resort**. Before choosing, ask which mechanism gives the best VfM without interrupting services, its full cost, whether decisions are binding and enforceable, and the effect on **contingent liabilities**.\n- **Dispute Avoidance Boards (DABs)** meet the parties regularly to resolve emerging issues by consensus, and can also give written determinations.\n- **Fast-track resolution by an Independent Expert** suits factual questions, such as calculating a refinancing gain or applying an indexation formula. It is often final and binding in common law countries, but not in civil law countries.\n\n**Step-in** means another party temporarily takes over some or all of the Project Company's obligations.\n- **Procuring Authority step-in**: short-term action to avert a serious threat to health, safety, security or the environment, or to meet a statutory duty. It usually happens where the authority itself provides core services, such as hospitals and schools. If there is **no Project Company breach**, the Project Company is relieved of those obligations and deductions, and the authority keeps paying. If there **is** a breach, the Project Company remedies it at its own cost and pays the authority's step-in costs. If the breach continues after the authority steps out, the lenders have the right to step in.\n- **Lender step-in**: usually when termination becomes likely, often under a **Direct Agreement** between authority, lenders and Project Company. Lenders step in voluntarily, must pay outstanding liabilities to the authority first, and the authority must not suffer: the contract continues, including penalty deductions."
+    },
+    {
+      "heading": "7. Knowledge management and succession planning",
+      "body": "A PPP outlives the careers of the people who signed it. **Knowledge management** keeps project knowledge continuous and helps the team meet legal and contractual requirements. The **Contract Management Manual** should say who collects and stores information, who can access it, who controls versions (for example of drawings) and what information each activity needs. Success is measured by whether documents are **easy to retrieve**, recent and accurate, and shared at the right time.\n\n**Succession planning** must be written into the Contract Management Manual from the start. Leaving staff should hand over a documented project history and a trail of current issues; new staff need training on the manual; and a **lessons-learned log** should be kept up to date. These approaches, like most in this lesson, apply equally in the operations stage."
+    }
+  ],
+  "example": {
+    "title": "Imagine: the Riverside Hospital PPP during construction",
+    "body": "Imagine a regional health department that signed an availability-payment PPP for a new hospital. Halfway through construction, three things happen.\n\n1. **Heavy, unforeseeable storms** stop work for six weeks. The Project Company sends a notice within the contract period naming the event, its impact and the extra time needed. This is a **relief event**: the team grants an extension of time, but no money. No liquidated damages apply for those six weeks.\n2. **The department fails to hand over an access road site** on the agreed date. This is a **compensation event**. The Project Company claims time and money. The team measures the claim against the **base case financial model and schedule**, audits the costs, and finds the overhead mark-up overstated. It cannot agree the amount, so it follows the **DRP** and meets every deadline.\n3. **The department asks for an extra dialysis wing.** It issues a **variation notice**. The Project Company's variation proposal exceeds the contract threshold, so the works are **tendered on the open market**. The department pays through a capital grant plus higher availability payments for extra operating costs.\n\nMeanwhile, the builder's subcontractor sues the builder. The department **refuses to join** that dispute and simply insists on delivery under the PPP contract."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing a relief event with a compensation event",
+      "fix": "Relief event = time only; the Project Company bears the cost (example: unforeseeable bad weather). Compensation event = time and/or money, usually caused by the authority or government (example: land not provided)."
+    },
+    {
+      "trap": "Treating every change in law as the authority's risk",
+      "fix": "A general change in law (tax, environment, affecting all businesses or the sector) stays with the Project Company. Only a project-specific, discriminatory change is borne by the authority, and the Project Company must still mitigate."
+    },
+    {
+      "trap": "Calling a contractual variation a renegotiation",
+      "fix": "A variation or adjustment is already provided for in the contract. A renegotiation changes the original terms and needs the same diligence as the original PPP decision."
+    },
+    {
+      "trap": "Thinking a missed penalty automatically waives the right forever",
+      "fix": "One isolated failure to apply a remedy is usually not a waiver, but repeated acceptance may lose the right. Waive only non-material issues, with legal and technical advice and governance approval."
+    },
+    {
+      "trap": "Letting the independent certifier give the final word on a claim",
+      "fix": "The certifier can help agree schedule and cost facts, but cannot give a final binding decision on legal matters. The fallback is always the DRP."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Variation notice",
+      "meaning": "The formal document one party issues to request a change to the specification, setting out costs, risks and the change itself."
+    },
+    {
+      "term": "Renegotiation",
+      "meaning": "A change to the original terms and conditions of the PPP contract, as opposed to an adjustment the contract already allows."
+    },
+    {
+      "term": "Value engineering",
+      "meaning": "Cutting costs through an innovative method; savings may be shared, but the authority must check the extra risk."
+    },
+    {
+      "term": "Project-specific change in law",
+      "meaning": "A new law that discriminates against the Project Company or PPP businesses; its cost is borne by the Procuring Authority."
+    },
+    {
+      "term": "Relief event",
+      "meaning": "A listed event outside the Project Company's control that gives an extension of time but no compensation."
+    },
+    {
+      "term": "Compensation event",
+      "meaning": "A listed event, often caused by government, that gives the Project Company money and possibly more time."
+    },
+    {
+      "term": "Liquidated damages",
+      "meaning": "A contractually fixed payment that is a genuine pre-estimate of loss, the preferred remedy for late service commencement."
+    },
+    {
+      "term": "Long stop date",
+      "meaning": "The final date by which services must start; if missed, the authority should begin termination."
+    },
+    {
+      "term": "Step-in",
+      "meaning": "Temporary takeover of some or all Project Company obligations by the authority or the lenders."
+    },
+    {
+      "term": "Dispute Avoidance Board",
+      "meaning": "A panel that meets the parties regularly to resolve emerging issues by consensus and can also give written determinations."
+    }
+  ],
+  "summary": [
+    "Adjustments are allowed by the contract; renegotiation changes its terms and needs full public diligence.",
+    "Authority-initiated variations are paid by the authority; Project Company-initiated changes are at its own cost and risk, subject to a no objection.",
+    "General change in law stays with the Project Company; project-specific change in law is borne by the authority.",
+    "Relief event = time only; compensation event = time and money; force majeure = no-fault, severe, may end the contract.",
+    "Claims must be timely, complete, and measured against the base case model and schedule; the DRP is the default.",
+    "Late delivery remedies: liquidated damages, construction bonds, sponsor support, then the long stop date and termination.",
+    "Solve issues early and collaboratively; use step-in carefully; plan knowledge transfer and succession from day one."
+  ],
+  "slides": [
+    {
+      "title": "Why PPP contracts change",
+      "points": [
+        "No contract can foresee 20 years of risk",
+        "Adjustments are already allowed by the contract",
+        "Renegotiation changes the original terms"
+      ],
+      "narration": "Let's start with a simple truth. No one can predict every risk over twenty or thirty years. So PPP contracts will change. The question is how. Small changes, like a minor scope change, are adjustments. The contract already has tools for them. A renegotiation is different. It changes the original deal itself. The Guide warns that opportunistic renegotiation can destroy the value of competition. So government must apply the same care to a big change as it did to the original decision to do the PPP."
+    },
+    {
+      "title": "Who asks for the change?",
+      "points": [
+        "Authority variation: authority pays",
+        "Project Company change: own cost and risk",
+        "Size of change decides who approves"
+      ],
+      "narration": "When the authority wants a change, it issues a formal variation notice. The Project Company replies with a proposal showing costs and risks. Big variations should be tendered on the open market. And the authority pays, perhaps with a lump sum grant or higher payments. When the Project Company wants a change, it usually concerns how it meets the outputs, so it pays for it itself. The authority still reviews it and gives a no objection, and it watches value engineering carefully, because a cheaper design can hide new risks."
+    },
+    {
+      "title": "Change in law",
+      "points": [
+        "General change: Project Company bears it",
+        "Project-specific change: authority bears it",
+        "Project Company must still mitigate costs"
+      ],
+      "narration": "Now change in law. Laws known when the bid was made are already in the price. But what about new ones? If the new law affects every business in the country, or the whole sector, like a tax change, that is a general change. The Project Company carries it, just like any other business. If the law targets this Project Company, or PPP companies in particular, it is project-specific. Then the authority pays, although the Project Company must still do all it reasonably can to reduce the cost."
+    },
+    {
+      "title": "Relief, compensation, force majeure",
+      "points": [
+        "Relief event: time only",
+        "Compensation event: time and money",
+        "Force majeure: no fault, severe, may terminate"
+      ],
+      "narration": "This slide is an exam favourite. A relief event, like unforeseeable storms, gives the Project Company more time, but no money. It carries the cost, but it avoids liquidated damages. A compensation event, like the authority failing to hand over land, gives money and possibly time. Force majeure is bigger. It is nobody's fault, it is rare and severe, and if it lasts long enough it can end the contract. Natural disasters are usually shared risks, while political events like war usually sit with the authority."
+    },
+    {
+      "title": "Handling a claim properly",
+      "points": [
+        "Notify within a limited time",
+        "Reject incomplete notices",
+        "Measure against base case model and schedule",
+        "Dispute resolution process is the default"
+      ],
+      "narration": "Claims need discipline. The Project Company must notify quickly, because a late claim is almost impossible to evaluate. If the notice is incomplete, the authority should reject it and ask for more. Every claim is tested against the base case financial model and the original schedule. And the team must audit costs, because they are often overstated. Officials rarely have power to settle, so the dispute resolution process is the default. Missing its deadlines is the worst outcome, because you can lose without the merits being heard."
+    },
+    {
+      "title": "When construction runs late",
+      "points": [
+        "Liquidated damages are the preferred remedy",
+        "Construction bonds and sponsor support",
+        "Missed long stop date leads to termination"
+      ],
+      "narration": "What if the builder is late? The preferred remedy is liquidated damages. That is an amount fixed in the contract as a genuine pre-estimate of the loss. The authority may also call a construction bond, usually an on-demand bank guarantee, and rely on sponsor support. But each remedy only works if the team follows the procedure exactly, including notices and remedy periods. Finally there is the long stop date. If services still have not started by then, the authority should begin the termination process."
+    },
+    {
+      "title": "Waivers and step-in",
+      "points": [
+        "Never accept material non-performance",
+        "Waive only non-material issues, with advice",
+        "Authority and lender step-in rights differ"
+      ],
+      "narration": "Sometimes the authority is tempted to look the other way. For material failures, it should not. Repeatedly accepting poor work can cost it the right to insist later. A small technical issue can be waived, but only with legal advice, technical advice and proper approval. Step-in is another tool. The authority steps in briefly to stop a serious threat to health or safety. Lenders step in when termination looks likely, often under a direct agreement, and they must first pay what is owed to the authority."
+    },
+    {
+      "title": "Avoid disputes, keep knowledge",
+      "points": [
+        "Solve issues early, seek win-win",
+        "Courts, arbitration, boards or experts",
+        "Plan succession in the manual"
+      ],
+      "narration": "The best dispute is the one that never happens. Good issue management means regular meetings, written agreements and a win-win attitude instead of blame. When a dispute does arise, the parties may use courts, arbitration, a dispute avoidance board, or an independent expert for factual questions like indexation. Court action is the last resort. Finally, remember people move on. The contract management manual should plan knowledge storage and succession from the start, so new staff can pick up the full history of the project."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Two years into construction, a Procuring Authority wants to add a new wing to a PPP school. The PPP contract has a variation clause covering this type of change. What should the authority do first?",
+      "options": [
+        "Open a renegotiation of the original contract terms with the Project Company",
+        "Issue a formal variation notice with details of the proposed change",
+        "Ask the independent certifier to decide the price of the new wing",
+        "Tender the new wing separately to a different private partner"
+      ],
+      "answer": 1,
+      "explanation": "An authority-initiated change covered by the contract starts with a formal variation notice, and the Project Company then replies with a variation proposal. Renegotiation is only needed when the original terms themselves must change."
+    },
+    {
+      "question": "A Project Company receives a variation notice from the Procuring Authority. In which case may it properly refuse to implement the variation?",
+      "options": [
+        "The variation would reduce its expected return on equity slightly",
+        "The variation was requested during the construction stage",
+        "The variation would place it in breach of its loan agreements",
+        "The variation would require using its existing subcontractors"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists breach of loan agreements as a valid ground to refuse, together with breach of law, lack of legal capacity, loss of insurance and technical infeasibility. A lower return is not a ground, because the authority pays for its variations."
+    },
+    {
+      "question": "A new national law raises the environmental standards for every construction company in the country. A PPP road Project Company's costs rise as a result. Who should normally bear this cost?",
+      "options": [
+        "The Project Company, because this is a general change in law",
+        "The Procuring Authority, because law is under government control",
+        "The lenders, through an amendment of the finance documents",
+        "The users, through an automatic increase in tolls"
+      ],
+      "answer": 0,
+      "explanation": "A change that affects all businesses in the country or the whole sector is a general change in law, and its cost stays with the Project Company. Only a project-specific change that discriminates against the Project Company or PPP businesses is borne by the authority."
+    },
+    {
+      "question": "Statement 1: A relief event entitles the Project Company to an extension of time, and it bears the financial risk of the event. Statement 2: A compensation event can entitle the Project Company to money as well as time.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Relief events give time only, and the Project Company carries the cost but avoids liquidated damages. Compensation events, such as failure to provide land, give money and possibly extra time, so both statements are correct."
+    },
+    {
+      "question": "A Project Company submits a compensation claim eight months after the event. The notice gives no details of the additional time needed. What should the contract management team do?",
+      "options": [
+        "Accept it, since compensation events are the authority's risk anyway",
+        "Pass the claim straight to the courts for a binding decision",
+        "Settle quickly to protect the working relationship",
+        "Reject the incomplete notice and require complete information"
+      ],
+      "answer": 3,
+      "explanation": "Claims must be notified within a limited time and must contain complete information, otherwise the notice should be rejected. Settling quickly is tempting, but officials are seldom empowered to settle and the claim may be overstated."
+    },
+    {
+      "question": "The Project Company's construction contractor is in a dispute with one of its own subcontractors. The contractor asks the Procuring Authority to join the proceedings. What should the authority do?",
+      "options": [
+        "Refuse to join and insist on delivery under the PPP contract",
+        "Join the dispute to protect the project schedule",
+        "Pay the subcontractor directly to end the dispute",
+        "Suspend availability payments until the dispute is resolved"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the authority should refuse to join disputes between the Project Company and its subcontractors and focus on ensuring delivery under the PPP contract. Joining would draw the authority into risks it transferred."
+    },
+    {
+      "question": "A hospital PPP misses its scheduled service commencement date because of the builder's poor planning. What is the preferred remedy for the Procuring Authority under the Guide?",
+      "options": [
+        "Immediate termination of the PPP contract",
+        "A claim for general damages in court",
+        "Liquidated damages, following the contractual procedure",
+        "Stepping in to finish the construction itself"
+      ],
+      "answer": 2,
+      "explanation": "Liquidated damages, a genuine pre-estimate of loss set out in the contract, are the preferred remedy for late service commencement. Termination is reserved for missing the long stop date after other remedies fail."
+    },
+    {
+      "question": "An authority's team notices a minor, technical noncompliance that will not affect project outcomes or VfM. It is considering a waiver. What must it do before granting one?",
+      "options": [
+        "Nothing, because missed penalties are never treated as waivers",
+        "Obtain legal and technical advice and approval through project governance",
+        "Obtain the lenders' written consent and a new bond",
+        "Refer the matter to a Dispute Avoidance Board for a ruling"
+      ],
+      "answer": 1,
+      "explanation": "Before waiving a non-material issue, the team should get legal advice on documenting it narrowly, technical advice that it is not material, and approval through project governance. Repeated acceptance of noncompliance can remove the right to insist on compliance later."
+    },
+    {
+      "question": "A serious safety threat arises at a PPP prison, and the Procuring Authority steps in for two weeks. The threat was not caused by any Project Company breach. What follows?",
+      "options": [
+        "The Project Company must pay all the authority's step-in costs",
+        "The lenders gain an automatic right to replace the Project Company",
+        "The authority may stop all payments while it is in control",
+        "The Project Company is relieved of those obligations and related deductions"
+      ],
+      "answer": 3,
+      "explanation": "Where there is no Project Company breach, it is relieved of the obligations the authority took over, and of related deductions, and the authority must keep paying. The Project Company pays step-in costs only when its own breach caused the step-in."
+    },
+    {
+      "question": "A PPP contract lets the parties refer a dispute about the application of the inflation-indexation formula to a quick process. Which mechanism does the Guide suggest for this kind of factual question?",
+      "options": [
+        "Full court litigation to build legal precedent",
+        "A lender step-in under the Direct Agreement",
+        "Fast-track resolution by an Independent Expert",
+        "A renegotiation approved by the Ministry of Finance"
+      ],
+      "answer": 2,
+      "explanation": "Fast-track resolution by an Independent Expert suits factual questions such as indexation or refinancing gain calculations. Courts suit disputes where precedent matters, and are a last resort."
+    }
+  ]
+}

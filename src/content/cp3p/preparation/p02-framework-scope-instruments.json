@@ -1,0 +1,302 @@
+{
+  "id": "p02-framework-scope-instruments",
+  "level": "preparation",
+  "order": 2,
+  "title": "Scope of the framework and legal instruments",
+  "minutes": 17,
+  "guideRef": "Ch 2 §1.5–§1.6",
+  "objectives": [
+    "Define the scope of a PPP framework by jurisdiction, sector, size and contract type",
+    "Weigh a unified framework against targeted, parallel or umbrella frameworks",
+    "Explain how common law and civil law traditions shape the choice between PPP policy and PPP law",
+    "Identify the existing laws a PPP framework must build on and check for conflicts",
+    "Explain how higher levels of government can influence subnational PPPs"
+  ],
+  "sections": [
+    {
+      "heading": "Scope: which projects does the framework cover?",
+      "body": "In the previous lesson we saw that a framework needs **objectives** and a **scope**. The **scope** says which types of projects the framework applies to. The Guide says scopes are generally defined along **four dimensions**, and good practice is to consider each one and be **explicit** about it:\n\n1. **Jurisdiction**\n2. **Sector**\n3. **Size**\n4. **Contract type**\n\n**Jurisdiction.** A framework can only reach as far as the power of the government that issues it. In **federal systems**, a federal framework only covers PPPs within the federal government's **competence** (its legal powers) under the **constitution**, which is often limited. Federal regulations typically apply only to federally sponsored projects. In the USA, PPP frameworks are developed by the **states**. In Canada, frameworks are mainly **provincial**, though the national government also has a program. In India, states can build their own frameworks while the Union Government's PPP cell leads national framework development. Even **non-federal** systems may have regional governments with their own competences: in Spain, the central government keeps \"national interest\" infrastructure, while the regions procure linear transport infrastructure lying wholly in their territory and have exclusive competence for social infrastructure (courts, schools, hospitals).\n\nNational control over **local government** PPPs is even more varied. In South Africa, the National Treasury reviews municipal PPPs **four times**. Technically these reviews are advisory, but in practice they act as **de facto approvals**. In Canada, federal funding for provincial and municipal PPPs comes with **conditions** on structuring and management, which helps places with only one or two projects that will not build their own framework."
+    },
+    {
+      "heading": "Scope by sector, size and contract type",
+      "body": "**Sector.** A government that plans PPPs in only a few sectors may design, and limit, its framework for those sectors. South Africa created a framework just for highways; the Philippines created a special regime for private power plants. Singapore's 2004 policy limited PPPs to sectors where similar countries had **proven success**, such as water treatment, hospitals and expressways.\n\n**Size.** Many governments set a **minimum project value**, because the high **transaction costs** of a PPP make small projects unviable. Singapore initially required over $50 million; Brazil's law sets 20 million reals. Two ways to handle small projects:\n- **Bundling** many small assets into one contract. The Pennsylvania Bridges Project bundles 558 bridges into one PPP.\n- A small **pilot** that can be scaled up if it succeeds.\n\nThresholds can **change with experience**. British Columbia raised its screening threshold from $20 million to $50 million and then toward $100 million, partly because experience showed PPPs under $100 million were typically not viable, and partly because of pressure from the local construction industry. The Guide also notes work on standards for high-impact **small-scale** local PPPs, which impact investors often value.\n\n**Contract type.** The scope may limit which PPP contracts are allowed. India's draft policy excludes contracts with private ownership of assets and does not cover EPC (engineering-procurement-construction) contracts or divestiture (sale) of assets. Brazil sets a **minimum** duration of five years; Chile a **maximum** of 50 years. But **excessive codification** of allowed contract types can block new, innovative contracts. The two main categories are:\n- **Government-pays**: the government pays the private party based on **availability** and sometimes performance, as in the UK's PFI schools and hospitals.\n- **User-pays** (concessions): the private party earns income by charging users for the service.\n\nWhere laws treat the two differently, the government must define which is which. Since many user-pays PPPs include some public money, a common rule treats a PPP as government-pays if **more than half of the funding** comes from government."
+    },
+    {
+      "heading": "One framework or several?",
+      "body": "In mature PPP markets, one **unified framework** often covers all sectors and sometimes several levels of government. Australia's National PPP policy applies to significant infrastructure procured by federal, state and territory governments.\n\n**Advantages of a unified framework:**\n- Simpler for agencies and for investors, who often see government as one body and expect consistent practice.\n- Uniform rules create efficiency for bidders and so **greater bidder interest**.\n- Many PPP issues are the same in every sector.\n\n**Disadvantages:**\n- **Difficult to develop and inflexible to change.** The wider the scope, the more stakeholders with conflicting interests must endorse it. A targeted framework is easier to set up and adapt. The Philippines' first BOT law proved too slow during a power crisis with 8–16 hour brownouts, so a special crisis law was passed in 1993; by 1994 there were no brownouts. A separate law for water followed in 1995.\n- **Unable to address unique challenges.** Rules that work in one sector may fail in another. South Africa kept its proven highway framework separate when it later created a general framework.\n\nWhatever the scope, the Guide says framework development is an **ongoing process**, open to updates based on experience.\n\nTwo patterns to know:\n- **Parallel frameworks** can work if carefully designed, but **overlap or conflict** makes them unclear. Romania's general PPP law was never used because it overlapped with its existing concession framework.\n- An **umbrella policy** with sector-specific versions, as in the UK, where HM Treasury policy is applied by PPP units in departments such as defence and health."
+    },
+    {
+      "heading": "Legal traditions: common law and civil law",
+      "body": "A framework must be **documented** and must have **enforcement**. Governments must decide how the framework binds officials, how it is communicated to stakeholders, and what gives legal force to PPP agreements.\n\nThe answer depends heavily on legal tradition:\n- **Common law** countries (such as the UK and Australia) tend to rely on **policy documents and administrative guidance**.\n- **Civil law** countries (such as France and Spain) are more likely to put the framework in **statute law** with detailed regulations.\n\nHistory explains part of this. Civil law countries have used **concessions** (user-pays contracts delegating a public service) for over 200 years; a Paris water concession dates from 1782. Common law countries instead relied on **investor-owned utilities** operating under licences and regulation, which were seen as fully private, not PPPs. In the early 1990s the UK developed the **government-pays** model, the Private Finance Initiative (**PFI**), for schools and hospitals, later copied in Australia and Canada. Civil law countries then created frameworks for government-pays PPPs in different ways: a separate law (France's 2004 partnership contract), extending procurement law (Spain), extending an existing concession law (Chile), or new PPP statutes covering both types (Colombia, Mexico, Peru)."
+    },
+    {
+      "heading": "Choosing the instrument: policy or law?",
+      "body": "**Common law, policy route.** Australia and the UK, two of the most experienced PPP markets, have **no PPP law**. Jamaica also works under a cabinet-adopted policy and manual. Why does this work?\n- In common law systems the government has the powers of a **natural person or corporation**, so it needs no law to sign contracts.\n- In **Westminster** systems the executive is close to the legislature and answers to voters through elections. By constitutional convention or civil service law, **civil servants must follow government policy**, so the policy itself binds officials.\n- The PPP contract is an ordinary **private law contract**, enforced by the courts or by arbitration if the contract provides for it.\n\n**Why some common law jurisdictions still pass PPP laws:**\n- To **override existing laws** that block or delay PPPs. Many US states have prescriptive procurement laws that effectively outlaw PPPs, so states such as Virginia passed PPP laws.\n- Stronger **separation of powers**: in the US, legislature and executive can be controlled by opposing parties, so explicit legislative authority stabilises the program.\n- Many developing common law countries, such as India's states and Kenya, have PPP laws.\n\nThe Guide weighs a specific PPP law:\n\n| Advantages | Disadvantages |\n|---|---|\n| More accountability and transparency | Takes longer to pass |\n| Greater policy stability (laws change slowly) | Less flexibility to update with lessons learned |\n| Stronger signal of commitment to investors and funders | Harder legislature–executive coordination, possible bottlenecks |\n\n**Civil law, law route.** Civil law countries usually embody frameworks in law, because agencies may **only do what they are explicitly authorised to do** and discretion is limited by tight rules. The law used varies: procurement law (Spain), concession law (Chile), a prescriptive BOT law (the Philippines). In France and Spain, concession contracts fall under **special administrative law**; in the Philippines, power purchase agreements and the Manila water concessions are ordinary private law contracts. France is a special case: agencies were taken to have an **inherent power** to delegate public services by contract, and a special administrative court (the Conseil d'Etat) built the concession rules case by case over 200 years, which is similar to common law in important ways.\n\n**Reducing court action.** Court cases can take years, cost a lot, and rely on judges unfamiliar with PPPs. The framework should be explicit about **alternative dispute resolution** such as mediation and arbitration, and enforcement tools such as **escrow accounts and performance bonds**."
+    },
+    {
+      "heading": "Building on existing frameworks",
+      "body": "A PPP framework is **never built in isolation**. It builds on, incorporates and modifies existing government frameworks. Use as much of them as possible and make sure PPP-specific rules **dovetail** with existing fiscal, legal, environmental and social policies. Typical pre-existing systems:\n- **Administrative law**, which in many civil law countries controls agency decisions.\n- **Procurement law**: PPP tenders must usually comply unless PPPs are exempt.\n- **Public financial management law**: approvals, fiscal limits, budgeting and reporting.\n- **Sector laws and regulation**, such as tariffs and regulators in electricity or water. The regulator may even be the government party to the contract, so roles must be clearly split.\n- **Other rules for private firms**: environment, land acquisition, licensing, tax, employment, accounting and social standards.\n\nGood practice is to **review this context for conflicts** with the framework's objectives. The Guide's example is **distortionary tax** (Box 2.6) on operations and maintenance (**O&M**). In India, O&M that the project company subcontracts attracts services tax, while the same O&M done by the concessionaire itself does not. In Brazil, turnover tax means a separate O&M contractor would raise the Curitiba Metro's operating cost by an estimated 6% a year. Such rules push firms away from using specialists. Discrimination against foreign investors, such as limits on currency convertibility or confiscatory taxes on sending equity returns home, should also be reviewed. Sector regulation can also constrain PPPs: utility concessions may fall under public utility regulation, and essential infrastructure may face open access rules under competition law. National environmental, social and gender goals must be reflected too."
+    },
+    {
+      "heading": "Frameworks for subnational PPPs",
+      "body": "Sometimes one level of government wants to **empower, influence or control** a lower level. In federal systems, the constitution divides competences, and federal governments are limited in how far they can intrude on state matters. By contrast, state or national governments can usually **legislate** for local governments within their territory. In Australia and Canada, the national PPP policy does not apply to local government, where PPPs are rare because projects are small. Large cities, however, may start large PPPs that need some national scrutiny. In France and Spain, local PPPs follow national law.\n\nWhen a higher level cannot or will not control by law, it can use **incentives through fiscal transfers**:\n- The USA's **TIFIA** program offers states concessional finance (loans, guarantees, standby credit) for transport PPPs.\n- Canada's federal PPP funding comes with requirements on structuring and management.\n\nIncentives are not always efficient. The UK's **PFI credits** helped standardise local contracts, but were criticised for giving central departments extra spending power to push PFI, and were **abolished in 2010** to make funding neutral between PFI and non-PFI delivery.\n\nInvestors often see local governments as **less reliable** counterparts because of weaker credit or resources. This creates a role for national support, and with support often comes a wish for control.\n\nBox 2.7 contrasts four federal countries:\n- **Australia**: New South Wales and Victoria led with state frameworks, which shaped a national policy endorsed by all governments.\n- **Canada**: frameworks are provincial, without federal oversight, but federal funding gives influence.\n- **India**: the Union Government's PPP cell leads, and states may also pass their own PPP laws.\n- **USA**: there is **no federal PPP framework**; states create them."
+    }
+  ],
+  "example": {
+    "title": "Imagine: Federal Republic of Norland designs its scope",
+    "body": "Imagine Norland, a fictional federal country with a Westminster-style common law system. Hospitals and schools are state responsibilities under its constitution; national highways are federal.\n\nThe federal treasury's draft framework has these features:\n- **Jurisdiction**: it covers federal highways only. For state hospitals it cannot impose rules, so it offers co-funding with conditions on risk allocation and contract management.\n- **Size**: a minimum of 60 million, because bid costs make small PPPs unviable. A proposal for 40 rural health clinics is **bundled** into one contract.\n- **Contract type**: both government-pays and user-pays; a project counts as government-pays if more than half its funding is public.\n- **Instrument**: a cabinet-approved **policy and manual**, binding on civil servants, rather than a law, so it can be updated after the first projects.\n- **Existing laws**: the review finds that the tax code penalises O&M subcontracting. The treasury asks for this to be fixed before the first tender."
+  },
+  "examTraps": [
+    {
+      "trap": "Assuming a national framework automatically covers states and municipalities",
+      "fix": "A framework reaches only as far as the issuing government's competence. In federal systems, states set their own; higher levels influence them through funding conditions or reviews."
+    },
+    {
+      "trap": "Believing every country needs a PPP law",
+      "fix": "Common law countries such as the UK and Australia run PPPs under policy. Civil law countries usually need laws because agencies may only do what they are authorised to do."
+    },
+    {
+      "trap": "Thinking a PPP law in a common law country turns the contract into administrative law",
+      "fix": "In common law jurisdictions, even with a PPP law, the PPP contract remains a private law contract enforced by courts or arbitration."
+    },
+    {
+      "trap": "Treating a unified framework as always best",
+      "fix": "Unified frameworks bring consistency and bidder interest but are hard to develop and change. Targeted or umbrella frameworks can suit unique sector needs."
+    },
+    {
+      "trap": "Defining allowed contract types as tightly as possible",
+      "fix": "Excessive codification can block innovative contracts. Be explicit about scope, but leave room to evolve."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Scope of the framework",
+      "meaning": "The types of projects covered, usually defined by jurisdiction, sector, size and contract type."
+    },
+    {
+      "term": "Government-pays PPP",
+      "meaning": "A PPP where the government pays the private party, based on availability and sometimes performance."
+    },
+    {
+      "term": "User-pays PPP (concession)",
+      "meaning": "A PPP where the private party earns its income by charging users for the service."
+    },
+    {
+      "term": "Bundling",
+      "meaning": "Combining several small projects into one PPP contract to spread transaction costs."
+    },
+    {
+      "term": "Umbrella policy",
+      "meaning": "A general PPP policy that has sector-specific versions or detail applied by different units."
+    },
+    {
+      "term": "Common law",
+      "meaning": "A largely uncodified legal system based on precedent, where government has the contracting powers of a person."
+    },
+    {
+      "term": "Civil law",
+      "meaning": "A codified legal system where agencies may only do what the law explicitly authorises."
+    },
+    {
+      "term": "Private Finance Initiative (PFI)",
+      "meaning": "The UK's government-pays PPP model introduced in 1992 for publicly funded facilities."
+    },
+    {
+      "term": "Alternative dispute resolution",
+      "meaning": "Ways to settle disputes outside the courts, such as mediation and arbitration."
+    }
+  ],
+  "summary": [
+    "Scope is defined by jurisdiction, sector, size and contract type; be explicit about each.",
+    "Minimum size thresholds reflect high transaction costs; bundling and pilots help small projects.",
+    "Unified frameworks give consistency but are hard to develop and change; parallel ones must not overlap.",
+    "Common law countries often use policy; civil law countries usually use law.",
+    "A PPP law gives stability and a signal to investors but is slower and less flexible.",
+    "Frameworks build on procurement, PFM, sector, tax and other existing laws; review them for conflicts.",
+    "Higher governments influence subnational PPPs through law where they can, or fiscal incentives."
+  ],
+  "slides": [
+    {
+      "title": "Four dimensions of scope",
+      "points": [
+        "Jurisdiction: limited by constitutional competence",
+        "Sector: focus where PPPs have proven success",
+        "Size: minimum value because of transaction costs",
+        "Contract type: government-pays or user-pays"
+      ],
+      "narration": "Last lesson we set the framework's objectives. Now we decide its scope, meaning which projects it covers. The Guide gives four dimensions. Jurisdiction: a government's rules only reach as far as its constitutional power, so in federal countries states often write their own. Sector: some countries limit PPPs to sectors with a proven track record. Size: because PPP transaction costs are high, many set a minimum project value. And contract type: which PPP forms are allowed, for example government-pays or user-pays. Good practice is to be explicit about all four."
+    },
+    {
+      "title": "Handling small projects",
+      "points": [
+        "Minimum thresholds, like Singapore's fifty million",
+        "Bundle many small assets into one contract",
+        "Pilot small, then scale up",
+        "Thresholds change as experience grows"
+      ],
+      "narration": "What about projects that are too small to justify PPP costs? The Guide offers two ideas. First, bundling: Pennsylvania put five hundred and fifty-eight bridges into one PPP, so the fixed costs were shared. Second, a small pilot that can be scaled up if it works. Thresholds are not fixed forever. British Columbia raised its screening threshold from twenty million to fifty million, and then toward one hundred million dollars, because experience showed smaller PPPs were not viable. So in a scenario, look for the logic: size limits follow transaction costs and experience."
+    },
+    {
+      "title": "Unified versus targeted frameworks",
+      "points": [
+        "Unified: consistent, efficient, more bidder interest",
+        "But hard to develop and slow to change",
+        "Targeted laws can solve urgent crises",
+        "Avoid overlapping parallel frameworks"
+      ],
+      "narration": "Should one framework cover everything? A unified framework is simpler for agencies and investors, and consistency attracts more bidders. But the wider the scope, the more stakeholders must agree, so it is harder to build and slower to change. The Philippines shows the other side: during a power crisis with long daily brownouts, a targeted law let the country procure power plants fast, and the brownouts ended. The risk with separate, parallel frameworks is overlap. In Romania, a general PPP law was never used because it clashed with the existing concession rules."
+    },
+    {
+      "title": "Two legal traditions",
+      "points": [
+        "Common law: policy documents and guidance",
+        "Civil law: statutes and detailed regulations",
+        "Civil law: two centuries of concessions",
+        "Common law: investor-owned utilities, then PFI"
+      ],
+      "narration": "How a framework is written depends a lot on legal tradition. Common law countries, like the United Kingdom and Australia, tend to use policy documents and guidance. Civil law countries, like France and Spain, usually write the framework into law. History matters here. Civil law countries have used concessions for more than two hundred years. Common law countries used private, regulated utilities instead, and in the nineteen nineties the United Kingdom invented the government-pays model called the Private Finance Initiative. Civil law countries later added their own rules for government-pays PPPs."
+    },
+    {
+      "title": "Policy or PPP law?",
+      "points": [
+        "Common law government can contract without a law",
+        "Civil servants must follow government policy",
+        "Laws override blocking rules and add stability",
+        "Laws are slower and less flexible"
+      ],
+      "narration": "In a common law, Westminster-style system, the government already has the power to sign contracts, and civil servants must follow government policy, so a policy can do the job. Yet some common law places still pass PPP laws, for example American states whose procurement laws would otherwise block PPPs. A PPP law brings accountability, stability and a strong signal to investors. The costs are time, less flexibility to learn and update, and possible friction between legislature and executive. In civil law countries, agencies can only do what the law authorises, so a law is usually needed."
+    },
+    {
+      "title": "Build on what already exists",
+      "points": [
+        "Procurement, finance, administrative and sector laws",
+        "Tax, land, environment, employment, accounting rules",
+        "Review for conflicts, like distortionary taxes",
+        "Use arbitration, escrow and bonds to limit court action"
+      ],
+      "narration": "No PPP framework starts from zero. It sits on top of procurement law, public finance law, administrative law and sector regulation, plus tax, land, environmental and employment rules. The smart move is to use as much as possible and check for conflicts. For example, in India a service tax falls on subcontracted operations and maintenance, but not when the concessionaire does it itself, which pushes firms away from specialists. The framework should also plan for disputes: mediation, arbitration, escrow accounts and performance bonds can avoid long, costly court cases."
+    },
+    {
+      "title": "Guiding subnational PPPs",
+      "points": [
+        "Constitutions limit federal reach into states",
+        "States can usually legislate for local governments",
+        "Incentives: concessional finance, conditional funding",
+        "Investors see local governments as riskier"
+      ],
+      "narration": "Finally, what if a national government wants to shape PPPs done by states or cities? In federal systems the constitution limits how far it can reach into state matters, though states can usually legislate for their local governments. Where law cannot be used, money can. The United States offers concessional loans for state transport PPPs, and Canada attaches conditions to its funding. But incentives can distort choices: the United Kingdom abolished its PFI credits in twenty ten for exactly that reason. And because investors see local governments as riskier, national support often comes with some national control."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Under a federal constitution, hospitals are a state responsibility. The federal treasury wants state hospital PPPs to follow its new PPP framework. What is the most appropriate approach?",
+      "options": [
+        "Declare that the federal framework automatically binds all state hospital PPPs",
+        "Leave states entirely alone, since federal governments cannot influence state PPPs",
+        "Influence states through funding that comes with requirements on structuring and management",
+        "Ask each state hospital to sign its PPP contract with the federal treasury"
+      ],
+      "answer": 2,
+      "explanation": "A federal framework only covers PPPs within federal competence, but federal governments can influence state and local PPPs through funding with conditions, as Canada does. Declaring automatic coverage ignores the constitutional limit."
+    },
+    {
+      "question": "A ministry finds that bid and advisory costs make its many small school repair projects unviable as individual PPPs. What should the framework's scope allow it to do?",
+      "options": [
+        "Bundle the small projects into one larger PPP contract",
+        "Procure each school as a separate PPP to maximise competition",
+        "Remove all minimum size rules for PPPs",
+        "Treat the projects as user-pays concessions"
+      ],
+      "answer": 0,
+      "explanation": "The Guide describes bundling small projects to economise on transaction costs, as in the Pennsylvania Bridges Project. Separate small PPPs would multiply the transaction costs that make them unviable."
+    },
+    {
+      "question": "A government proposes one PPP framework covering all sectors and the national, state and local levels at once. Stakeholders are many and their interests conflict. What is the main disadvantage the Guide warns about?",
+      "options": [
+        "Investors will lose interest because rules are consistent",
+        "It will prevent the use of government-pays contracts",
+        "It removes the need for procurement law",
+        "It will be difficult to develop and inflexible to change"
+      ],
+      "answer": 3,
+      "explanation": "The wider the scope, the more stakeholders must endorse it, so the framework is hard to develop and change. Consistency actually increases bidder interest, so the first option reverses the Guide's point."
+    },
+    {
+      "question": "A common law country with a Westminster system wants to launch PPPs quickly and adjust its rules after the first projects. Which instrument best fits?",
+      "options": [
+        "A detailed PPP statute that must be passed before any project",
+        "A cabinet-adopted PPP policy and manual that civil servants must follow",
+        "A constitutional amendment defining PPPs",
+        "A special administrative court for PPP contracts"
+      ],
+      "answer": 1,
+      "explanation": "In Westminster systems government policy binds civil servants and government can contract without a law, so a policy and manual is fast and flexible. A statute takes longer to pass and is harder to update."
+    },
+    {
+      "question": "A US-style state has a prescriptive public procurement law that effectively prevents PPP contracts. The governor wants a PPP program. What should the state do?",
+      "options": [
+        "Proceed under policy alone, since the executive can sign any contract",
+        "Use administrative court decisions to create PPP rules over time",
+        "Pass a PPP law that creates exceptions to the restrictive laws",
+        "Transfer the projects to the federal government"
+      ],
+      "answer": 2,
+      "explanation": "A key reason US states pass PPP laws is to create exceptions to existing laws, especially prescriptive procurement laws, that would otherwise prevent PPPs. Policy alone cannot override a binding statute."
+    },
+    {
+      "question": "Consider two statements. 1: Civil law countries tend to embody PPP frameworks in law because agencies may only do what they are explicitly authorised to do. 2: When a common law jurisdiction passes a PPP law, its PPP contracts become administrative law contracts decided by special courts.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 matches the Guide. Statement 2 is false: in common law jurisdictions with PPP laws, the contract is still a private law contract enforced by courts or arbitration."
+    },
+    {
+      "question": "While preparing its framework, a PPP unit finds that tax rules charge services tax when a project company subcontracts O&M, but not when it does O&M itself. What should the unit do?",
+      "options": [
+        "Ignore it, because tax law is outside the PPP framework",
+        "Review the tax rule as a conflict with framework objectives and seek to address it",
+        "Require all concessionaires to perform O&M themselves",
+        "Exempt PPPs from all taxation"
+      ],
+      "answer": 1,
+      "explanation": "Good practice is to review the legal context for rules incompatible with the framework's objectives; the Guide cites this exact distortion in India and Brazil. Forcing in-house O&M would lock in the inefficiency."
+    },
+    {
+      "question": "A country already regulates concessions under an existing ordinance. It now passes a general PPP law that covers much of the same ground without clarifying which applies. What risk does the Guide highlight?",
+      "options": [
+        "Investors will prefer the newer law automatically",
+        "Government-pays PPPs will become impossible",
+        "The concession ordinance will be repealed by the courts",
+        "The overlapping frameworks may be unclear, and the new law may go unused"
+      ],
+      "answer": 3,
+      "explanation": "Parallel frameworks that overlap or conflict become unclear; Romania's general PPP law was never used for this reason. Nothing in the Guide suggests investors automatically prefer the newer law."
+    },
+    {
+      "question": "Which is an advantage of having a specific PPP law rather than only a policy statement?",
+      "options": [
+        "It can be updated faster after lessons are learned",
+        "It gives greater policy stability and a stronger signal of commitment to investors",
+        "It removes the need to coordinate with the legislature",
+        "It makes procurement law unnecessary"
+      ],
+      "answer": 1,
+      "explanation": "Laws change more slowly, giving stability, and investors may see a law as a stronger commitment. Faster updating is a feature of policies; loss of flexibility is a disadvantage of laws."
+    },
+    {
+      "question": "Framework designers fear that PPP disputes will take years in the courts, with judges unfamiliar with complex PPP contracts. What should the framework provide for?",
+      "options": [
+        "A rule sending all disputes directly to the supreme court",
+        "Removal of the private party's right to challenge the government",
+        "Mediation, arbitration and tools such as escrow accounts and performance bonds",
+        "Automatic contract termination whenever a dispute arises"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says frameworks should be explicit about mechanisms that reduce the need for court action, including mediation, arbitration, escrow accounts and performance bonds. Automatic termination would destroy value rather than resolve disputes."
+    }
+  ]
+}

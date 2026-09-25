@@ -1,0 +1,1182 @@
+{
+  "id": "prep-3",
+  "level": "preparation",
+  "title": "Velmora Water and Wastewater Concession",
+  "sector": "Water and sanitation",
+  "scenario": "## Velmora Water and Wastewater Concession\n\n**Country and state.** The Federal Republic of Valdoria is a middle-income federation of nine states. Under the Valdorian Constitution, water supply and sanitation are state competences. The states may legislate for their municipalities, which own and run the local water utilities. The federal PPP Act (2019) applies only to projects within federal competence, mainly national highways and ports. It does not apply to state or municipal projects. The currency is the valdor (VLD).\n\nThe Federal State of Marovia (population 6.2 million) has no PPP law and no PPP unit. Its Department of Infrastructure has identified eleven municipal PPP candidates for the next ten years in water, solid waste and urban transport, with capital values from VLD 6 million to VLD 540 million. The Marovia State Treasury is preparing a Marovia PPP Bill for the State Assembly in 2027 and plans to create a PPP Unit inside the Treasury.\n\n**The city and the need.** Velmora, Marovia's second city, has 420,000 inhabitants and grows by 3% a year. Water and sewerage services are provided by the Velmora Water and Sewerage Board (VWSB), a municipal utility with 1,100 staff. Performance is poor:\n\n- piped water is available on average 14 hours a day, and non-revenue water is 48%;\n- only 22% of wastewater is treated; the rest flows untreated into the Seren River, which 3,000 farming households downstream use for irrigation;\n- about 95,000 people in the southern informal settlements have no piped connection and buy water from private tanker operators at about five times the piped tariff. Local surveys show that women and girls in these areas spend on average two hours a day collecting water;\n- the average tariff (VLD 0.95 per m3) covers only about 60% of VWSB's operating costs, and the City pays the difference from its budget each year.\n\n**Climate exposure.** Velmora is exposed to both drought and flood. In the 2021 drought the Orsk reservoir fell to 12% of capacity, and supply was rationed to six hours a day for four months. In 2023 the Seren River flooded the Kellin raw-water pumping station, which lies inside the 100-year floodplain, and the city had no piped water for nine days. National climate projections show more frequent droughts and more intense floods over the next 30 years. Upstream wetlands that once stored floodwater have been partly drained for farming.\n\n**Policy objectives.** The Governor's 'Water for All 2035' plan commits Marovia to universal access to safe water and sanitation, climate-resilient infrastructure, gender equality and social inclusion, and financially sustainable utilities. The plan is aligned with Valdoria's national development plan and its Nationally Determined Contribution (NDC).\n\n**The proposed project.** After comparing a new dam, groundwater wellfields and a demand-management option, the City selected a combined solution. The Velmora Water and Wastewater Concession would be a 25-year user-pays concession. A private project company would:\n\n1. rehabilitate the distribution network and reduce non-revenue water to 25% within seven years;\n2. build a new 60,000 m3/day water treatment plant and relocate the Kellin pumping station outside the floodplain;\n3. build a new wastewater treatment plant (WWTP) on a City-owned site at Dorn, south of the city;\n4. make 45,000 new household connections, mainly in the informal settlements;\n5. restore part of the drained upstream wetlands as natural flood storage;\n6. operate and maintain the whole system, and bill and collect tariffs from users.\n\nVWSB assets would be made available to the project company and returned at the end of the term. The City of Velmora would be the procuring authority. Tariffs would continue to be set by the independent Marovia Water Regulatory Commission (MWRC), which applies a legal cap on annual tariff increases.\n\nEstimated capital expenditure is VLD 540 million, including VLD 70 million of climate resilience measures. A preliminary cost-benefit analysis shows a positive economic net present value, driven by health benefits, time saved in collecting water and avoided flood and drought losses.\n\n**Financing context.** Valdorian commercial banks rarely lend for more than ten years. The state-owned National Development Bank of Valdoria (NDBV) offers long-term infrastructure loans. A federal Climate Resilience Fund gives grants for adaptation works carried out by states and municipalities. A multilateral development bank (MDB) has shown interest in the project but has made no commitment. Velmora has no credit rating. The State of Marovia is close to the borrowing ceiling set by the federal Fiscal Responsibility Act, so it cannot borrow to fund capital expenditure for the next five years.\n\n**Stakeholders.** Key stakeholders include VWSB staff and their union; the women's water committees in the informal settlements; the tanker operators' association; large industrial users (a brewery and two textile mills); downstream farmers; the MWRC; the Marovia State Treasury and Department of Infrastructure; the federal Ministry of Finance; and potential investors and lenders.\n\n**Timetable.** Screening is to be completed in 2026 and appraisal in 2027. The tender is planned for 2028, after the Marovia PPP Bill has been enacted.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "EF",
+      "title": "Establishing a PPP Framework",
+      "additionalInfo": "**Extract from the Marovia State Treasury's policy paper on the Marovia PPP Bill (2026)**\n\n*Draft scope provisions*\n- S1: The Bill applies to PPP contracts awarded by the State of Marovia, its agencies and the municipalities of Marovia.\n- S2: The Bill applies to water supply, sanitation, solid waste and urban transport projects.\n- S3: Projects with an estimated capital value below VLD 40 million may use the Bill only if they are bundled with similar projects into one contract.\n- S4: Contracts under the Bill must have a term of at least 10 years and no more than 35 years.\n- S5: Engineering-procurement-construction (EPC) contracts and the sale of state assets are excluded from the Bill.\n\n*Draft policy objectives*\n- O1: Enable more investment in water and urban infrastructure by widening financing options.\n- O2: Achieve value for money in the provision of public services.\n- O3: Keep the Velmora project off the State balance sheet so that reported State borrowing falls, whatever its long-term fiscal cost.\n- O4: Ensure that PPPs support climate-resilient and inclusive development, including gender equity.\n- O5: Transfer all water-sector risks to private operators.\n\n*Draft stakeholder engagement plan*\n- E1: The draft Bill will be published for 60 days of public comment, with public hearings in each municipality.\n- E2: Consultation on each project will be one-way: the Treasury will present the project at a public meeting, but no comments will be collected.\n- E3: Public participation in each project will start only after contract signature, through a customer complaints hotline.\n- E4: Each PPP contract must include a user feedback and grievance mechanism.\n- E5: After financial close, the Treasury will publish a project summary and the contract, with commercially sensitive elements removed.\n- E6: After each consultation, the Treasury will report which suggestions were accepted and how concerns will be addressed.",
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about the design of a PPP framework. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "According to the Guide, what does the scope of a PPP framework indicate?",
+              "options": [
+                "The institutions that must approve each PPP project before tender",
+                "The types of projects to which the framework will apply",
+                "The list of priority projects that make up the PPP pipeline",
+                "The default risk allocation for each sector covered"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says the scope of a PPP framework indicates the types of projects for which the framework will apply, usually defined by jurisdiction, sector, size and contract type. Approval institutions belong to institutional responsibilities, and the pipeline is a list of projects, not the framework's scope.",
+              "ref": "Ch 2 §1.5, p. 11"
+            },
+            {
+              "id": "1a-2",
+              "stem": "Why does the Guide recommend that governments define PPP program objectives as a first step in developing a PPP framework?",
+              "options": [
+                "Because the objectives decide how PPP commitments are recorded in the national accounts",
+                "Because clear objectives remove the need for a separate project pipeline",
+                "Because the objectives give designers direction on processes, decision criteria and institutional responsibilities",
+                "Because international law requires every PPP law to open with a statement of objectives"
+              ],
+              "answer": 2,
+              "explanation": "The Guide states that program objectives give the designers of the framework the direction needed to formulate appropriate processes, decision criteria and institutional responsibilities. Objectives do not set the accounting treatment of PPP commitments, which follows accounting standards, and they do not replace the project pipeline.",
+              "ref": "Ch 2 §1.4, p. 7"
+            },
+            {
+              "id": "1a-3",
+              "stem": "In a federal system, how far can a PPP framework issued by the federal government extend, according to the Guide?",
+              "options": [
+                "Only to PPPs that fall within the federal government's competence under the constitution",
+                "To all PPPs in the country, because federal law overrides state and local rules",
+                "Only to PPPs co-financed by federal grants, whatever the sector",
+                "To all PPPs above a minimum size set by the federal legislature"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says that in federal systems a framework promulgated by the federal government can only extend to PPPs within the federal government's constitutional competence, which is often quite limited. The idea that federal law covers all PPPs is the common confusion: states develop frameworks for matters within their own competence.",
+              "ref": "Ch 2 §1.5.1, p. 11"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "matching",
+          "level": 3,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 1, Column 1 lists five draft scope provisions of the Marovia PPP Bill. For each provision in Column 1, select from Column 2 the dimension of framework scope that it defines. Each selection from Column 2 can be used once, more than once or not at all.",
+          "columnOptions": [
+            "Jurisdiction",
+            "Sector",
+            "Size",
+            "Contract type"
+          ],
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "S1: The Bill applies to PPP contracts awarded by the State of Marovia, its agencies and the municipalities of Marovia.",
+              "answer": 0,
+              "explanation": "S1 defines which levels of government the Bill covers (the State, its agencies and its municipalities), which is the jurisdiction dimension of scope. It says nothing about which sectors or contract forms are covered, so 'Sector' would be wrong.",
+              "ref": "Ch 2 §1.5.1, p. 11"
+            },
+            {
+              "id": "1b-2",
+              "stem": "S3: Projects with an estimated capital value below VLD 40 million may use the Bill only if they are bundled with similar projects into one contract.",
+              "answer": 2,
+              "explanation": "S3 sets a minimum capital value, and the Guide explains that many governments define a minimum size because of the high transaction costs of PPPs, with bundling of small projects as a way to economise on those costs. It does not define the type of contract, so 'Contract type' is wrong.",
+              "ref": "Ch 2 §1.5.3, p. 12"
+            },
+            {
+              "id": "1b-3",
+              "stem": "S4: Contracts under the Bill must have a term of at least 10 years and no more than 35 years.",
+              "answer": 3,
+              "explanation": "The Guide places limits on contract duration under the contract type dimension, citing a minimum term in Brazil and a maximum term in Chile. A duration limit is not a size threshold, even though longer contracts are often larger, so 'Size' is the tempting but wrong choice.",
+              "ref": "Ch 2 §1.5.4, p. 13"
+            },
+            {
+              "id": "1b-4",
+              "stem": "S2: The Bill applies to water supply, sanitation, solid waste and urban transport projects.",
+              "answer": 1,
+              "explanation": "S2 limits the Bill to named sectors, which the Guide treats as the sector dimension of scope (as in Singapore or Mauritius). It does not concern which governments may use the Bill, so 'Jurisdiction' is wrong.",
+              "ref": "Ch 2 §1.5.2, p. 12"
+            },
+            {
+              "id": "1b-5",
+              "stem": "S5: Engineering-procurement-construction (EPC) contracts and the sale of state assets are excluded from the Bill.",
+              "answer": 3,
+              "explanation": "Excluding EPC contracts and asset divestiture defines which forms of contract fall inside the framework; the Guide gives India's draft policy, which excludes exactly these forms, as a contract type example. EPC contracts exist in every sector, so this is not a sector limit.",
+              "ref": "Ch 2 §1.5.4, p. 13"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "classic",
+          "level": 3,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about the framework for the Velmora concession, using the scenario. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "The Marovia State Treasury asks whether a Marovia PPP law can govern the Velmora concession, which the City of Velmora will procure. Which is the correct advice?",
+              "options": [
+                "No, because the federal PPP Act already governs the concession, so a state law would conflict with it",
+                "No, because only the City of Velmora can adopt rules for a municipal water PPP",
+                "Yes, but only if the federal legislature first approves the Marovia law",
+                "Yes, because water is a state competence and states can generally legislate how their municipalities enter into PPPs"
+              ],
+              "answer": 3,
+              "explanation": "In the scenario, water supply and sanitation are state competences and the federal PPP Act covers only federal projects. The Guide says state frameworks apply to PPPs within state competences and that state or national governments can generally legislate the behaviour of local governments in their jurisdiction. The federal Act option is wrong because the Act does not apply to state or municipal projects.",
+              "ref": "Ch 2 §1.6.4, pp. 27–28"
+            },
+            {
+              "id": "1c-2",
+              "stem": "The federal Ministry of Finance wants municipal water PPPs in all Valdorian states, including Velmora, to use consistent contract structures, but it has no power to legislate on state water matters. Which approach does the Guide suggest?",
+              "options": [
+                "Offer federal financial support, such as concessional loans or grants, with conditions on how projects are structured and managed",
+                "Amend the federal PPP Act so that it applies directly to all municipal water projects",
+                "Apply the federal PPP Act's approval process to each state project despite the constitution",
+                "Take no role, because higher levels of government cannot influence subnational PPPs"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says that when a government cannot or does not want to control a lower level of government by law, it can incentivise the desired behaviour through inter-governmental fiscal transfers, as TIFIA does in the US and federal PPP funding does in Canada. Amending the federal Act is not possible here because water is a state competence under the constitution.",
+              "ref": "Ch 2 §1.6.4, p. 28"
+            },
+            {
+              "id": "1c-3",
+              "stem": "The Governor says that the practical objectives for Velmora (universal access and flood and drought resilience) differ from the federal PPP program's focus on building national highways quickly. How should this be viewed?",
+              "options": [
+                "Acceptable only if Marovia adopts the federal objectives word for word",
+                "Acceptable, because practical objectives may differ for local projects, provided they still meet national development goals and directives",
+                "Acceptable, because subnational projects do not need to meet national development goals",
+                "Not acceptable, because a PPP framework may pursue only one objective"
+              ],
+              "answer": 1,
+              "explanation": "The Guide notes that practical objectives may differ for national and local government-initiated projects, but all projects should meet national development goals and directives. 'Water for All 2035' is aligned with Valdoria's national plan and NDC, so it meets this test; the option saying national goals do not apply is the tempting half-truth.",
+              "ref": "Ch 2 §1.4, p. 7"
+            },
+            {
+              "id": "1c-4",
+              "stem": "Market sounding shows that investors see the City of Velmora, which has no credit rating, as a weaker counterparty than the State. What role does the Guide suggest this creates?",
+              "options": [
+                "The City should offer investors a higher tariff cap than the MWRC allows",
+                "Investors should accept the City's risk without any support, as for national projects",
+                "The federal government must become the procuring authority for the concession",
+                "A role for a higher level of government to provide financial or technical support, which may come with some control over the City's PPP"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says investors often see local governments as less reliable counterparts because of lower credit ratings or limited resources, which creates a role for higher levels of government to provide financial or technical support, and that government may then want to control what local governments do. The City cannot override the MWRC's legal tariff cap, and nothing requires a federal procuring authority.",
+              "ref": "Ch 2 §1.6.4, p. 28"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "multiple-response",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 1, answer the following questions about the Treasury's policy paper. Each question requires 2 answers.",
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "Which 2 of the draft policy objectives should the Treasury remove or rewrite because they are inappropriate objectives for a PPP framework?",
+              "options": [
+                "O1: Enable more investment in water and urban infrastructure by widening financing options",
+                "O2: Achieve value for money in the provision of public services",
+                "O3: Keep the Velmora project off the State balance sheet so that reported State borrowing falls, whatever its long-term fiscal cost",
+                "O4: Ensure that PPPs support climate-resilient and inclusive development, including gender equity",
+                "O5: Transfer all water-sector risks to private operators"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "The Guide says a framework must reduce the risk that PPPs are used for the wrong reasons, such as reducing reported borrowing when long-term fiscal costs are similar, so O3 is inappropriate. O5 is also inappropriate: the Guide's example objectives speak of value for money through appropriate risk transfer, and Box 2.5 says risks should be allocated to the entities best placed to manage them, not all transferred to the private party. O1, O2 and O4 all match objectives listed in the Guide.",
+              "ref": "Ch 2 §1.4, pp. 7–9; Box 2.5, p. 11"
+            },
+            {
+              "id": "1d-2",
+              "stem": "Which 2 features of the draft stakeholder engagement plan are inconsistent with the Guide?",
+              "options": [
+                "E1: The draft Bill will be published for 60 days of public comment, with public hearings",
+                "E2: Project consultation will be one-way, with a presentation but no comments collected",
+                "E3: Public participation will start only after contract signature, through a complaints hotline",
+                "E4: Each PPP contract must include a user feedback and grievance mechanism",
+                "E6: The Treasury will report which suggestions were accepted and how concerns will be addressed"
+              ],
+              "answer": [
+                1,
+                2
+              ],
+              "explanation": "The Guide describes stakeholder consultation as a two-way dialogue, so a presentation with no comments collected (E2) is not consultation. It also says participation should be introduced during project development so that public concerns are considered when structuring the PPP, so starting only after signature (E3) is too late. E4 and E6 match the Guide's grievance management and reporting-to-stakeholders principles.",
+              "ref": "Ch 2 §1.9.3, p. 99; Box 2.13, p. 43"
+            },
+            {
+              "id": "1d-3",
+              "stem": "The Guide describes three stages at which public participation can be introduced into the PPP process. Which 2 features of the plan introduce participation at the PPP program development stage and at the PPP contract monitoring stage?",
+              "options": [
+                "E1: The draft Bill will be published for 60 days of public comment, with public hearings",
+                "E2: Project consultation will be one-way, with a presentation but no comments collected",
+                "E4: Each PPP contract must include a user feedback and grievance mechanism",
+                "E5: A project summary and the redacted contract will be published after financial close",
+                "E6: The Treasury will report which suggestions were accepted and how concerns will be addressed"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "Consulting the public on the draft Bill (E1) involves them in developing the PPP policy framework, which is the program development stage. Building user feedback and grievance mechanisms into contracts (E4) is participation in contract monitoring. E5 is a transparency (disclosure) measure rather than participation, which makes it the most tempting wrong choice.",
+              "ref": "Ch 2 §1.9.3, p. 99"
+            },
+            {
+              "id": "1d-4",
+              "stem": "The Treasury is debating whether the Bill should be a single framework for all sectors and all Marovian municipalities or a water-only law. Which 2 statements are valid considerations according to the Guide?",
+              "options": [
+                "A water-only law cannot be widened later, so the Treasury must decide on full coverage now",
+                "A single framework for all sectors can give investors consistent rules and so increase bidder interest",
+                "A single framework removes the need to amend the law as the program develops",
+                "A wider framework will be harder to agree, because more stakeholders with conflicting interests are involved",
+                "Separate parallel frameworks never create overlaps or unclear rules"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says unified rules give greater efficiency for the private sector and hence greater bidder interest, but that a wider scope is harder and slower to develop because more stakeholders with conflicting interests must endorse it. It also says any framework should be treated as an ongoing process open to amendment, so the statements that it cannot be widened or never needs amending are wrong, and it warns that parallel frameworks can overlap.",
+              "ref": "Ch 2 §1.5.6, pp. 15–16"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "assertion-reason",
+          "level": 4,
+          "usesAdditionalInfo": false,
+          "instruction": "For each question, select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "Which option correctly applies the Guide to the decision on whether Marovia needs its own PPP framework?",
+              "options": [
+                "Marovia should develop a state PPP framework BECAUSE a PPP framework is an end in itself that shows commitment whatever the size of the pipeline",
+                "Marovia should develop a state PPP framework BECAUSE it has eleven municipal PPP candidates, and investing in a framework is worthwhile when it will be applied to multiple projects",
+                "Marovia should not develop a state PPP framework BECAUSE the federal PPP Act already covers state and municipal water projects"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says a framework is a means to an end and is worthwhile only when it is expected to be applied to multiple projects; Marovia has eleven candidates. The first option has the right assertion but a false reason, since the Guide says a framework is not an end in itself. The third is false because the federal Act covers only federal projects.",
+              "ref": "Ch 2 §1.4, p. 6"
+            },
+            {
+              "id": "1e-2",
+              "stem": "Which option correctly applies the Guide to climate and social considerations in the Marovia PPP Bill?",
+              "options": [
+                "The Bill should require climate resilience and social issues to be considered at every stage, from origination to contract management BECAUSE green, resilient and inclusive PPPs are more likely to be sustainable over their lifespan",
+                "The Bill should limit climate considerations to the design and construction stage BECAUSE climate risks after construction are always retained by the government",
+                "The Bill should leave climate considerations to the concession contract BECAUSE feasibility studies and evaluation criteria cannot include climate issues"
+              ],
+              "answer": 0,
+              "explanation": "Box 2.5 says PPPs that are green, resilient and inclusive are more likely to be sustainable, so legal frameworks should require climate, resilience and social issues to be considered at every stage. This matters for Velmora, whose floods and droughts affect the whole operating period. The other options are false: climate risks are often transferred, and the Guide expects them to be covered in feasibility studies and evaluation criteria.",
+              "ref": "Ch 2 Box 2.5, p. 11"
+            },
+            {
+              "id": "1e-3",
+              "stem": "Which option correctly applies the Guide to including gender equality and social inclusion in the Marovia PPP Bill?",
+              "options": [
+                "Including gender equality and social inclusion may reduce investor interest BECAUSE private financiers have no environmental or social commitments of their own",
+                "Including gender equality and social inclusion is needed only for federally funded projects BECAUSE social commitments apply only to national governments",
+                "Including gender equality and social inclusion may support interest from international financiers BECAUSE many of them must meet their own environmental and social commitments, such as the Equator Principles"
+              ],
+              "answer": 2,
+              "explanation": "Box 2.4 says international investors and financiers are increasingly mindful of taking part only in PPPs that meet their own environmental and social commitments, such as the Equator Principles, which supports including these aims in Marovia's framework. The first option's reason is false for the same reason. The second is false because Box 2.4 says the PPP legal framework must align with the country's international obligations and national policies on social inclusion and gender equality, which is not limited to federally funded projects.",
+              "ref": "Ch 2 Box 2.4, p. 10"
+            },
+            {
+              "id": "1e-4",
+              "stem": "Which option correctly applies the Guide to the future of the Marovia PPP Bill after it is enacted?",
+              "options": [
+                "The Treasury should plan to review and amend the framework in light of experience BECAUSE the Guide treats PPP framework development as an ongoing process",
+                "The Treasury should keep the Bill unchanged for the whole 25-year concession term BECAUSE investors need a framework that never changes",
+                "The Treasury should plan to review the framework BECAUSE the federal legislature must re-approve every state PPP law every five years"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says governments should think of PPP framework development as an ongoing process and be open to amending it based on experience and the evolving needs of the program. The third option has a true assertion but an invented reason, since nothing in the scenario or the Guide requires federal re-approval. The second option is false.",
+              "ref": "Ch 2 §1.5.6, p. 16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "IP",
+      "title": "Project Identification and PPP Screening",
+      "additionalInfo": "**Marovia Department of Infrastructure: screening notes (June 2026)**\n\n*Results of the PPP suitability test for five candidates (all have a positive economic NPV on current data)*\n- Candidate A, Velmora Water and Wastewater Concession (VLD 540 million): outputs (hours of supply, non-revenue water, effluent quality) can be clearly specified; four experienced water operators expressed interest and similar concessions exist in the region; the pre-analysis shows that tariffs plus possible government support are affordable in the long term; the Dorn site is City-owned; legal review confirms that a concession is allowed under the Water Services Act.\n- Candidate B, Drenn town borehole rehabilitation (VLD 6 million): a single small town with no similar projects to bundle; transaction costs are estimated at 15% of capital cost; State budget funds are available.\n- Candidate C, Aster Valley dam and reservoir (VLD 410 million): only three years of river-flow records exist, so drought yield is uncertain; ownership of 40% of the reservoir land has not yet been established.\n- Candidate D, Kessor sludge-to-energy plant (VLD 95 million): clear outputs; three firms interested; precedent PPPs in neighbouring states; payments affordable within the Department's budget; the municipal site is available and legal review finds no barrier to a PPP.\n- Candidate E, Seren River flood embankments (VLD 120 million): no revenue stream; the Water Services Act reserves flood defence works to the State and no change is planned; outputs are hard to separate from wider river management; the State budget can fund the works over six years.\n\n*Notes on the Velmora screening*\n- N1: The CBA consultant excluded the costs of the 2023 flood outage and the value of restoring the upstream wetlands 'because they are hard to quantify'.\n- N2: State economists argue that, since each user-pays candidate in Velmora (the water concession, a new solid waste collection charge and a bus rapid transit system with fares) is viable on its own, all three should be tendered in 2028.\n- N3: Municipalities rank their own projects with different techniques: Velmora uses CBA, Kessor uses multi-criteria analysis with its own weights, and Drenn uses cost-effectiveness analysis.\n- N4: The Department proposes to prepare the project management plan only after transaction advisors have been hired.",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about the Screening Phase. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "According to the Guide, what is the purpose of the cost-benefit analysis (CBA) carried out on a selected project during screening?",
+              "options": [
+                "To decide whether the project should be procured as a PPP or traditionally",
+                "To set the tariff that the regulator will allow the private partner to charge",
+                "To establish whether the project makes economic sense, whatever the procurement mode",
+                "To compare the bids received against a Public Sector Comparator"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says CBA establishes the economic feasibility of a project irrespective of procurement mode and is not designed to support the decision on the most appropriate procurement mode. Choosing between PPP and traditional delivery may be informed by a VfM analysis, which makes the first option the common confusion.",
+              "ref": "Ch 3 §2, p. 4"
+            },
+            {
+              "id": "2a-2",
+              "stem": "According to the Guide, a climate risk assessment analyses which three components?",
+              "options": [
+                "Prevention, preparation and recovery",
+                "Hazard, exposure and vulnerability",
+                "Mitigation, adaptation and resilience",
+                "Likelihood, impact and allocation"
+              ],
+              "answer": 1,
+              "explanation": "The Guide states that climate risk assessments include the analysis of hazard, exposure and vulnerability. Prevention, preparation and recovery are the three categories of adaptation measures, not the components of a climate risk assessment.",
+              "ref": "Ch 3 §8.5, p. 32"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "sequencing",
+          "level": 3,
+          "usesAdditionalInfo": false,
+          "instruction": "Column 1 lists five activities of the Velmora screening team. Using the Guide's sequence of the main tasks of the Screening Phase, select from Column 2 the position of each activity. Each position is used exactly once.",
+          "columnOptions": [
+            "First activity",
+            "Second activity",
+            "Third activity",
+            "Fourth activity",
+            "Fifth activity"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Test whether the concession makes sense as a PPP and whether the required tariffs and any budget support are affordable",
+              "answer": 3,
+              "explanation": "Testing PPP suitability and affordability comes after the preliminary economic feasibility test, because the Guide screens for PPP suitability only once the project has been confirmed as economically sound. It comes before the project management plan, which depends on a satisfactory suitability test.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-2",
+              "stem": "Compare a new dam, groundwater wellfields and a demand-management option and select the preferred technical solution",
+              "answer": 0,
+              "explanation": "Needs and option analysis to select the project is the first task in Figure 3.1. In the scenario the City compared three options before choosing the combined solution, and all later tasks depend on that choice.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-3",
+              "stem": "Prepare the project management plan, including the staffing plan, advisor needs and a budget to hire them",
+              "answer": 4,
+              "explanation": "The Guide says the project management plan should be developed once the project has been defined, the suitability test is satisfactory and information gaps are known. This readiness task is therefore last of the five, before the screening report and decision.",
+              "ref": "Ch 3 §2, p. 5"
+            },
+            {
+              "id": "2b-4",
+              "stem": "Carry out a CBA to confirm that the selected solution provides sufficient socio-economic benefits",
+              "answer": 2,
+              "explanation": "After the technical outline is clarified, the economic soundness of the project must be tested with CBA. Placing CBA after the suitability test is the common mistake, because suitability testing assumes the project is already economically sound.",
+              "ref": "Ch 3 §2, p. 4"
+            },
+            {
+              "id": "2b-5",
+              "stem": "Prepare the technical outline and collect data on the Dorn site, existing VWSB assets and the informal settlements",
+              "answer": 1,
+              "explanation": "The Guide says the next step after defining the technical solution is to clarify the technical scope and collect the information needed. This scoping comes before the CBA, which needs the technical outline and data as inputs.",
+              "ref": "Ch 3 §2, p. 4"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "multiple-response",
+          "level": 3,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about climate and social screening of the Velmora concession, using the scenario. Each question requires 2 answers.",
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "Which 2 of the following design elements considered for Velmora most directly meet the Guide's climate screening criteria for PPP projects?",
+              "options": [
+                "Relocating the Kellin pumping station outside the 100-year floodplain",
+                "Extending the private tanker contracts in the informal settlements",
+                "Restoring the drained upstream wetlands to store floodwater",
+                "Installing diesel generators as the main power source for the new plants",
+                "Keeping the average tariff at VLD 0.95 per m3 for all users"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide says projects should be screened for building resilience against natural hazards and for sustainable ecosystem management and nature-based solutions. Moving Kellin out of the floodplain after the 2023 flood builds resilience, and restoring wetlands is a nature-based solution. Diesel generation works against low-carbon criteria, and tankers or a frozen tariff do not address climate criteria.",
+              "ref": "Ch 3 §4, pp. 11–12"
+            },
+            {
+              "id": "2c-2",
+              "stem": "Apart from the local survey of water-collection time, no gender analysis has yet been done for Velmora. Which 2 statements describe what the Guide suggests at the screening stage?",
+              "options": [
+                "Gender issues should be left until the contract management stage",
+                "A rapid gender analysis based mainly on pre-existing information and data can give first insights",
+                "A full household survey with sex-disaggregated data must be completed before screening can start",
+                "Initial input from female and male stakeholders can reveal project-specific risks that may affect social acceptability",
+                "Gender analysis is needed only where a project involves resettlement"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says preliminary assessments at this stage may use a rapid gender analysis based mainly on existing information, and a high-level screening with initial input from female and male stakeholders can show risks that affect social acceptability. This fits Velmora, where women and girls spend two hours a day collecting water. A full survey is not a precondition of screening, and gender issues are not limited to resettlement.",
+              "ref": "Ch 3 §8.5, p. 33"
+            },
+            {
+              "id": "2c-3",
+              "stem": "Which 2 actions should the Velmora team take when identifying stakeholders for the concession?",
+              "options": [
+                "Limit stakeholder mapping to groups with political influence, such as the union and industrial users",
+                "Leave out the tanker operators' association because it is likely to oppose the project",
+                "Use data disaggregated by sex, income and other attributes to identify male and female stakeholders",
+                "Use VWSB's register of billed customers as the complete list of affected users",
+                "Include informal and women leaders, such as the women's water committees, in the engagement process"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "Box 3.14 recommends identifying stakeholders using disaggregated data and including formal, informal and women leaders, because vulnerable groups with less influence are often overlooked. The billed-customer register would miss the 95,000 unconnected residents, and stakeholder mapping should cover opponents such as tanker operators as well as supporters.",
+              "ref": "Ch 3 Box 3.14, p. 45"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "matching",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 2, Column 1 lists five candidate projects. For each candidate, select from Column 2 the screening outcome that the Guide supports. Each selection from Column 2 can be used once, more than once or not at all.",
+          "columnOptions": [
+            "Satisfactory: move on to the Appraisal Phase",
+            "Not suitable as a PPP: appraise for delivery with public funds only",
+            "Missing information: recommend additional studies before moving on"
+          ],
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "Candidate A: Velmora Water and Wastewater Concession",
+              "answer": 0,
+              "explanation": "Candidate A passes the Guide's suitability questions: clear outputs, investor appetite and precedents, long-term affordability, land available and a legal basis. With a positive economic NPV, it should move on to appraisal. There is no information gap large enough to justify further studies first.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2d-2",
+              "stem": "Candidate B: Drenn town borehole rehabilitation",
+              "answer": 1,
+              "explanation": "The Guide asks whether a project is big enough to justify PPP transaction costs. At VLD 6 million, with costs of 15% and no bundling option, Drenn fails this test, and public funds are available, so it should be appraised for public delivery. More studies would not change its size.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2d-3",
+              "stem": "Candidate C: Aster Valley dam and reservoir",
+              "answer": 2,
+              "explanation": "Only three years of flow data and unclear ownership of 40% of the land are information gaps and uncertainties, including possible non-availability of land. The Guide says that in this case the weaknesses should be stated and further studies recommended before moving on. Dismissing it as a PPP would be premature because the problem is missing information.",
+              "ref": "Ch 3 §10, p. 38"
+            },
+            {
+              "id": "2d-4",
+              "stem": "Candidate D: Kessor sludge-to-energy plant",
+              "answer": 0,
+              "explanation": "Kessor has clear outputs, several interested firms, precedent PPPs, affordable payments, an available site and no legal barrier, so it answers the suitability questions positively and should move on to appraisal. Its small capital value compared with Velmora does not make it unsuitable, because at VLD 95 million it is large enough to attract market interest.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2d-5",
+              "stem": "Candidate E: Seren River flood embankments",
+              "answer": 1,
+              "explanation": "The Guide asks whether the project can be accommodated within the legal framework as a PPP and whether outputs are clearly identifiable. The Water Services Act reserves flood works to the State with no change planned, and outputs are hard to specify, so it is not suitable as a PPP and should be appraised with the public funds available. Further studies would not remove the legal barrier.",
+              "ref": "Ch 3 §10, p. 37"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "classic",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions about the Velmora screening. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "What is the best evaluation of the State economists' argument in note N2?",
+              "options": [
+                "Agree, because a project that is viable on its own must be included in the program",
+                "Disagree, because user-pays projects cannot be prioritised, only government-pays projects",
+                "Agree, because users' ability to pay is tested only at the tender stage",
+                "Disagree, because several new user charges together may have an unacceptable effect on living costs, so some projects may need to move later in the program"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says that even when each user-pays project is viable on its own, many new user charges together may have an unacceptable impact on the cost of living, so prioritisation may mean moving a project later in the program. Velmora households would face new water, waste and transport charges at once. Prioritisation applies to limits on users' ability to pay as well as to budgets.",
+              "ref": "Ch 3 §4, p. 10"
+            },
+            {
+              "id": "2e-2",
+              "stem": "What should the Department do about the ranking methods described in note N3?",
+              "options": [
+                "Adopt a policy that all projects are compared using one standard technique",
+                "Allow each municipality its own technique, because local needs differ",
+                "Replace all techniques with multi-criteria analysis, because it is a short cut that needs less experience",
+                "Rank projects by capital value, because larger projects attract more investors"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the government should have a policy of using a particular technique, because screening case by case with different techniques leads to invalid comparisons between projects. Letting each municipality choose its own method, as now, is what causes the problem. The Guide also warns that MCA must not be seen as a short cut.",
+              "ref": "Ch 3 §5, p. 13"
+            },
+            {
+              "id": "2e-3",
+              "stem": "The pre-analysis shows that tariffs plus possible government support are affordable in the long term, but the scenario states that Marovia cannot borrow for capital expenditure for five years. How should the screening team treat this?",
+              "options": [
+                "Dismiss the project, because a project the State cannot finance now is unaffordable",
+                "As a short-term financing constraint: having confirmed long-term affordability, consider whether a PPP can be structured to overcome it",
+                "As proof that a PPP gives value for money, so no further VfM analysis is needed",
+                "Ignore it at screening, because financing constraints matter only during the tender"
+              ],
+              "answer": 1,
+              "explanation": "The Guide's final affordability question is whether short-term constraints on government financing, such as borrowing limits, stop the government financing a project that is affordable in the long term; if so, the question is whether a PPP can be structured to overcome this. A borrowing ceiling does not in itself show that a PPP gives value for money.",
+              "ref": "Ch 3 §10, p. 38"
+            },
+            {
+              "id": "2e-4",
+              "stem": "What is the best evaluation of the Department's proposal in note N4?",
+              "options": [
+                "Appropriate, because advisors should write the plan that defines their own tasks",
+                "Appropriate, because the plan is needed only at the start of the Structuring Phase",
+                "Inappropriate, because the plan should be prepared before the decision to move to appraisal and should be the basis for requesting advisors",
+                "Inappropriate, because the plan must be approved by the regulator before screening begins"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says a list of tasks and a schedule should be developed before confirming the move to appraisal, serving as the basis for the request for proposals for external advisors, with a budget for hiring them. Waiting until advisors are hired reverses this order. No regulator approval of the plan is required by the Guide.",
+              "ref": "Ch 3 §11, p. 39"
+            },
+            {
+              "id": "2e-5",
+              "stem": "What is the best evaluation of the CBA consultant's approach in note N1?",
+              "options": [
+                "Appropriate, because climate impacts are uncertain and should be left to the risk matrix",
+                "Appropriate, because the co-benefits of nature-based solutions can be counted only in the VfM analysis",
+                "Inappropriate, because the screening CBA should include high-level climate costs, including the indirect costs of service disruption, and the co-benefits of resilience measures",
+                "Inappropriate, because the CBA should be replaced by a VfM analysis for climate-exposed projects"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the screening CBA should include high-level climate considerations, including the costs of climate hazards and indirect costs of operational disruption, and should quantify co-benefits such as those of nature-based solutions. Velmora's nine-day outage and the wetland restoration are exactly these items. Uncertainty is a reason to assess climate risks early, not to leave them out.",
+              "ref": "Ch 3 §8.5, p. 30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "AP",
+      "title": "Appraising PPP Projects",
+      "additionalInfo": "**Velmora appraisal: interim financial model and feasibility results (2027)**\n\n- Capital expenditure is VLD 540 million, including VLD 70 million of climate resilience measures. Flood and drought risks will largely be transferred to the project company.\n- Ground conditions at the Dorn site: there is a 30% probability of contaminated soil, which would add VLD 20 million to CAPEX. Only three boreholes have been drilled, so no reliable probability data exist for other ground risks. The modellers propose a Monte Carlo analysis with 50,000 iterations for all ground risks.\n- The modellers also propose to add an expected-value allowance to CAPEX for the risk of a general economic downturn in Valdoria.\n- Tariffs: the MWRC cap allows an average tariff of VLD 1.30 per m3 by year 3. The tariff needed for full cost recovery is VLD 1.90 per m3. At VLD 1.30, revenues cover operating costs but only part of debt service and the equity return.\n- Willingness-to-pay survey: households in the informal settlements now pay tanker operators about VLD 4.80 per m3. At VLD 1.90 per m3, water bills for the lowest-income fifth of households would equal 7% of household income.\n- Lenders' indicative terms: DSCR lock-up 1.20, default 1.05. Base case minimum DSCR 1.35. In a drought sensitivity (water sales 15% lower for two years), the minimum DSCR is 1.12.\n- The modellers propose to use the 'drought and low demand' case as the base case 'to be safe'.\n- Climate options: a base plan with all VLD 70 million of resilience CAPEX spent upfront, or an adaptive plan with VLD 35 million upfront and two further flood-protection modules built only if river peak levels exceed agreed indicators.\n- The climate consultant projected flood costs using only the 1990-2020 flood records.\n- Fiscal analysis by the City's finance team: expected viability gap payments were compared only with total Marovia State revenues; they were discounted at 16%, the bidders' expected equity IRR; no estimate of contingent liabilities (for example, flood-related force majeure) was made, because the risk allocation is not yet final.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about appraisal concepts. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "In the Guide, what does affordability from the government perspective (fiscal affordability) mean?",
+              "options": [
+                "Whether the tariffs needed are viable for the target users",
+                "Whether expected revenues cover all costs, including a reasonable return on equity",
+                "Whether the economic benefits of the project exceed its economic costs",
+                "Whether the project can be accommodated within the government's current and future budget constraints"
+              ],
+              "answer": 3,
+              "explanation": "The Guide defines affordability from the government perspective as the project's ability to be accommodated within current and future budget constraints. It warns this is not to be confused with user affordability, which asks whether tariffs are viable for target users. Covering all costs is commercial feasibility.",
+              "ref": "Ch 4 §11, p. 58"
+            },
+            {
+              "id": "3a-2",
+              "stem": "In financial modelling, how does a scenario differ from a sensitivity?",
+              "options": [
+                "A scenario is a complete new case with new values for key variables supported by specific analysis; a sensitivity only switches the value of variables to see their effect on the model's KPIs",
+                "A scenario changes one variable at a time; a sensitivity changes all variables together",
+                "A scenario is used only by lenders; a sensitivity is used only by the procuring authority",
+                "A scenario is the most likely case; a sensitivity is the worst case"
+              ],
+              "answer": 0,
+              "explanation": "The Guide explains that a scenario is a complete new case with new values for one or more key variables backed by specific analysis, while a sensitivity switches the value of variables to observe their impact on the model's KPIs. The most likely case is the base case, not a scenario.",
+              "ref": "Ch 4 §6.9, p. 37"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "matching",
+          "level": 3,
+          "usesAdditionalInfo": false,
+          "instruction": "Column 1 lists climate adaptation measures proposed for the Velmora concession. For each measure, select from Column 2 the category of adaptation measure it belongs to. Each selection from Column 2 can be used once, more than once or not at all.",
+          "columnOptions": [
+            "Prevention measure",
+            "Preparation measure",
+            "Recovery measure"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "Relocating the Kellin pumping station to higher ground outside the 100-year floodplain",
+              "answer": 0,
+              "explanation": "Prevention measures reduce the likelihood of consequences once a hazard occurs. Moving Kellin out of the floodplain, where it flooded in 2023, means a flood is much less likely to stop the station at all. It does not simply reduce the severity of damage, so 'Preparation' is wrong.",
+              "ref": "Ch 4 §7, p. 40"
+            },
+            {
+              "id": "3b-2",
+              "stem": "A river-gauge early-warning system that triggers a controlled shutdown and a switch to stored water before a flood reaches the plant",
+              "answer": 1,
+              "explanation": "Preparation measures reduce the severity of consequences once a hazard occurs. Early warning does not stop the flood reaching the plant but limits damage and service loss. It acts before and during the event, not after it, so 'Recovery' is wrong.",
+              "ref": "Ch 4 §7, p. 40"
+            },
+            {
+              "id": "3b-3",
+              "stem": "A pre-agreed emergency repair contract and a stock of spare pumps to restore supply quickly after flood damage",
+              "answer": 2,
+              "explanation": "Recovery measures enable efficient recovery of the infrastructure and its dependent environment after climate hazards. Repair contracts and spare pumps serve to restore service after damage, like the nine-day outage in 2023. They do not reduce the likelihood of damage.",
+              "ref": "Ch 4 §7, p. 40"
+            },
+            {
+              "id": "3b-4",
+              "stem": "A drought management plan with a pre-set rationing schedule and pre-positioned water tankers to reduce the severity of shortages",
+              "answer": 1,
+              "explanation": "A drought plan does not make drought less likely to affect supply; it reduces how severe the shortage is when the hazard occurs, as in 2021. This is a preparation measure. It is planned before the event, not a measure to rebuild assets, so 'Recovery' is wrong.",
+              "ref": "Ch 4 §7, p. 40"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Building a flood wall around the new water treatment plant",
+              "answer": 0,
+              "explanation": "A flood wall reduces the likelihood that a flood will cause consequences at the plant, which makes it a prevention measure. It is a physical barrier built in advance rather than a response plan that limits severity, so 'Preparation' is wrong.",
+              "ref": "Ch 4 §7, p. 40"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "multiple-response",
+          "level": 3,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions about the Velmora appraisal. Each question requires 2 answers.",
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "At the MWRC-capped tariff of VLD 1.30 per m3, the project is not commercially feasible. Which 2 options does the Guide identify for the City?",
+              "options": [
+                "Revise the scope, for example by reducing the private partner's responsibilities or the capacity to be built",
+                "Ask the modellers to raise the demand forecast until the project becomes feasible",
+                "Treat the project as over-feasible and require the project company to pay a concession fee",
+                "Provide government support, typically direct payments to the project company to fill the viability gap",
+                "Launch the tender unchanged and let bidders solve the gap in their offers"
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "When user revenues are capped for policy or regulatory reasons, the Guide says the options are to cancel the project, revise the scope, adjust the technical requirements, or provide government support such as viability gap funding. Raising the demand forecast would be optimism bias, and a concession fee applies only to over-feasible projects.",
+              "ref": "Ch 4 §8.2, p. 49"
+            },
+            {
+              "id": "3c-2",
+              "stem": "The climate consultant projected flood costs using only the 1990-2020 flood records. Which 2 actions should the appraisal team require?",
+              "options": [
+                "Quantify the estimated economic losses from potential climate impacts under different climate scenarios",
+                "Keep the historic records as the only basis, because future climate scenarios are too uncertain",
+                "Exclude climate costs from the VfM analysis until the preferred bidder is selected",
+                "Leave the climate risk assessment to bidders, who will price it in their offers",
+                "Use forecasting models that go beyond historic data and trends"
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "The Guide says climate assessment may integrate forecasting models that go beyond historic data and trends, and that estimated economic losses from climate impacts must be quantified under different climate scenarios. Velmora faces more frequent droughts and stronger floods, so past records alone understate risk. Leaving the assessment to bidders goes against the Guide's call for early assessment.",
+              "ref": "Ch 4 §10, p. 57"
+            },
+            {
+              "id": "3c-3",
+              "stem": "The concession includes VLD 70 million of climate resilience measures, and flood and drought risks will largely be transferred to the project company. Which 2 effects on affordability should the appraisal report expect?",
+              "options": [
+                "Lower user tariffs, because resilience measures reduce the project company's costs from day one",
+                "Higher user tariffs or support payments, because of the additional cost to the project company",
+                "An increase in the government's contingent liabilities for climate events",
+                "A reduction in the government's contingent liabilities, because the identified climate risks are transferred",
+                "No effect, because climate measures are excluded from affordability analysis"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide names two major implications: the additional cost to the SPV, which typically leads to higher availability payments or user fees, and a reduction in the public partner's contingent liabilities when climate risks are transferred to the SPV. The Guide also says climate considerations must be included in affordability analyses, so 'no effect' is wrong.",
+              "ref": "Ch 4 §8, p. 41"
+            },
+            {
+              "id": "3c-4",
+              "stem": "The survey shows that at VLD 1.90 per m3 the lowest-income fifth of households would spend 7% of their income on water. Which 2 conclusions are consistent with the Guide?",
+              "options": [
+                "User affordability is the same test as fiscal affordability, so no separate analysis is needed",
+                "The commercial feasibility output should report the willingness and ability of users to pay",
+                "Because informal residents already pay tankers VLD 4.80, a tariff of VLD 1.90 is affordable for all households",
+                "The social impact analysis should consider whether groups such as women-headed households in the informal settlements are affected differently",
+                "Willingness to pay matters only in government-pays projects"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "For user-pays PPPs, the Guide lists the willingness and ability of users to pay as an output of the commercial feasibility assessment, and the social feasibility questions include whether some groups are affected differently. The 7% figure shows that paying tankers more today does not prove the tariff is affordable for all. The Guide separates user affordability from fiscal affordability.",
+              "ref": "Ch 4 §8.4, p. 49; §14.1, p. 75"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "assertion-reason",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 3, for each question select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "Which option correctly applies the Guide to the contaminated soil risk at the Dorn site?",
+              "options": [
+                "The risk-adjusted CAPEX should add VLD 20 million BECAUSE appraisal costs must reflect the worst possible outcome of each risk",
+                "The risk-adjusted CAPEX should add nothing BECAUSE only systemic risks are included in the cost estimates",
+                "The risk-adjusted CAPEX should add VLD 6 million BECAUSE the expected value of a risk is its probability multiplied by its monetised impact"
+              ],
+              "answer": 2,
+              "explanation": "The Guide's simple risk adjustment adds probability times impact to the base cost, here 30% of VLD 20 million, which is VLD 6 million. Adding the full VLD 20 million confuses the expected value with the worst case. The second option reverses the Guide: project-specific risks go into the costs, and systemic risks go into the required return.",
+              "ref": "Ch 4 §4.4, pp. 17–18"
+            },
+            {
+              "id": "3d-2",
+              "stem": "Which option correctly applies the Guide to the modellers' proposal on the risk of a general economic downturn?",
+              "options": [
+                "The downturn risk should be added to CAPEX as an expected value BECAUSE every risk must be included in the cost estimates",
+                "The downturn risk should be reflected in the return investors require, not added to CAPEX BECAUSE systemic risks cannot be diversified and are paid for through a higher required return",
+                "The downturn risk should be ignored in appraisal BECAUSE the MWRC will adjust tariffs for all economic changes"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says only project-specific risks should be in the cost structure, while systemic risks such as general economic conditions cannot be diversified and should be reflected in a higher rate of return. The modellers' proposal is the tempting error of treating every risk as a cost allowance. Nothing in the scenario says the MWRC adjusts tariffs for all economic changes.",
+              "ref": "Ch 4 §4.4, p. 18"
+            },
+            {
+              "id": "3d-3",
+              "stem": "Which option correctly applies the Guide to the proposed Monte Carlo analysis of ground risks?",
+              "options": [
+                "The team should use the simpler expected-value approach for these ground risks BECAUSE probabilistic analysis is good practice only when reliable information about the likelihood of events is available",
+                "The team should run the Monte Carlo analysis BECAUSE a large number of iterations makes the results reliable whatever the quality of the input probabilities",
+                "The team should not adjust for ground risks at all BECAUSE risk adjustment is carried out only in the VfM analysis"
+              ],
+              "answer": 0,
+              "explanation": "With only three boreholes, there is no reliable probability data. The Guide says probabilistic analysis should be used only when reliable information about likelihood exists; otherwise the simpler approach is better. The number of iterations cannot make up for unreliable input probabilities, and risk-adjusted costs are an appraisal input, not only a VfM step.",
+              "ref": "Ch 4 §4.4, p. 18"
+            },
+            {
+              "id": "3d-4",
+              "stem": "Which option correctly applies the Guide to the choice between the base plan and the adaptive plan for climate resilience?",
+              "options": [
+                "The City should choose the adaptive plan BECAUSE adaptation solutions can always be designed to be modular and expandable",
+                "The City should choose the base plan BECAUSE the Guide does not allow adaptation CAPEX to be spread over the contract life",
+                "If the adaptive plan is chosen, the contract and financial structure will need the flexibility to fund the later flood modules BECAUSE in an adaptive plan climate-related CAPEX is spread over the project life based on climate-dependent indicators"
+              ],
+              "answer": 2,
+              "explanation": "The Guide defines the adaptive plan as spreading climate-related CAPEX over the project's life based on climate-dependent indicators, which requires a contract and financial structure with the necessary flexibility. The first option's reason is false, because the Guide says modular design cannot always be achieved. The second option is false because the Guide presents the adaptive plan as a valid option.",
+              "ref": "Ch 4 §2, p. 9"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "classic",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions about the financial and fiscal analysis. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "In the drought sensitivity, the minimum DSCR falls to 1.12. Given the lenders' indicative terms, what would the Guide expect to happen if this occurred?",
+              "options": [
+                "Distributions to shareholders would be blocked until the DSCR returns above 1.20",
+                "The lenders could demand repayment and take control of the project",
+                "The City would have to pay compensation to restore the DSCR to 1.35",
+                "Nothing, because the DSCR is still above 1.00"
+              ],
+              "answer": 0,
+              "explanation": "A DSCR of 1.12 is below the lock-up value of 1.20 but above the default value of 1.05. The Guide says that below lock-up, distributions to shareholders are prevented until the DSCR returns above the threshold. Lenders can demand repayment or take control only when the default value is reached.",
+              "ref": "Ch 4 §8.1.1, p. 42"
+            },
+            {
+              "id": "3e-2",
+              "stem": "The modellers propose to use the 'drought and low demand' case as the base case. What is the best evaluation?",
+              "options": [
+                "Appropriate, because a base case should be conservative so the project is never over-feasible",
+                "Inappropriate, because the base case should use the assumptions considered most likely, and the drought case should be tested as a sensitivity or scenario",
+                "Appropriate, because lenders assess only the worst case",
+                "Inappropriate, because the base case should use the most optimistic assumptions to attract bidders"
+              ],
+              "answer": 1,
+              "explanation": "The Guide defines the base case as the expected case using the assumptions the team considers most likely, with results better than conservative scenarios and worse than upside cases. The drought case belongs among the sensitivities, as the lenders' drought test already shows. Using optimistic assumptions would be equally wrong.",
+              "ref": "Ch 4 §6.9, p. 37"
+            },
+            {
+              "id": "3e-3",
+              "stem": "The City's finance team compared the expected viability gap payments only with total Marovia State revenues. Which further test does the Guide suggest?",
+              "options": [
+                "Comparing the payments with the project company's expected equity IRR",
+                "Comparing the tariff with the price paid to tanker operators",
+                "Comparing the yearly liabilities with the projected budget of the responsible agency and checking compliance with regulatory limits",
+                "Comparing the payments with the capital cost of the Public Sector Comparator"
+              ],
+              "answer": 2,
+              "explanation": "Box 4.13 lists typical affordability tests: yearly liabilities against total budget revenues, yearly liabilities against the projected budget of the responsible agency (here the City of Velmora, which will pay), and compliance with regulatory limitations. The team did only the first. Comparing the tariff with tanker prices concerns user affordability, not fiscal affordability.",
+              "ref": "Ch 4 Box 4.13, p. 63"
+            },
+            {
+              "id": "3e-4",
+              "stem": "The finance team discounted the direct liabilities at 16%, the bidders' expected equity IRR. What does the Guide suggest instead?",
+              "options": [
+                "Use the margin on the lenders' senior debt",
+                "Use the return on assets allowed by the MWRC",
+                "Do not discount, because liabilities are shown only in nominal terms",
+                "Use the yield on 10-year government securities as a proxy for the government's opportunity cost of capital"
+              ],
+              "answer": 3,
+              "explanation": "The Guide suggests discounting the yearly direct liabilities using the yield on 10-year (or longer) government securities as a proxy for the government's opportunity cost of capital. The investors' equity IRR reflects private risk and would understate the present value of the City's commitments. Liabilities are estimated in nominal terms and then discounted.",
+              "ref": "Ch 4 §11.1, p. 59"
+            },
+            {
+              "id": "3e-5",
+              "stem": "The finance team made no estimate of contingent liabilities, such as those from flood-related force majeure, because the risk allocation is not yet final. What is the best evaluation?",
+              "options": [
+                "Appropriate, because contingent liabilities are assessed only after financial close",
+                "Inappropriate, because contingent liabilities must be fully quantified before direct liabilities",
+                "Partly appropriate: the focus at this stage is on direct liabilities, but the main contingencies should still be highlighted with a tentative estimate",
+                "Appropriate, because climate-related force majeure never creates fiscal risk"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the feasibility study focuses on direct liabilities because contingent liabilities depend on the risk allocation finalised in structuring, but advises not to ignore them and to highlight the main contingencies with a tentative estimate. Velmora's flood exposure is exactly such a contingency. The Guide notes that climate-related force majeure is an increasingly important consideration.",
+              "ref": "Ch 4 §11.1, p. 58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "SC",
+      "title": "Structuring PPP Projects",
+      "additionalInfo": "**Marovia State Treasury: options paper to close the Velmora viability gap (2028)**\n\nAt the MWRC-capped tariff, public support of about VLD 190 million (in NPV terms) is needed. The City of Velmora lacks the cash to pay its own share during construction. The following options are proposed:\n\n- F1: A federal Climate Resilience Fund grant of VLD 60 million for relocating the Kellin station and for flood works, paid to the project company as a percentage of works completed. The Fund is a federal body; the City is the procuring authority.\n- F2: The City transfers the Dorn WWTP site and the recently built Orsk intake tower to the project company at no cost.\n- F3: NDBV lends up to 25% of the senior debt on the same terms as the commercial banks and under their lead. The Treasury proposes that NDBV offers this loan only to the Marovian-led consortium it knows best.\n- F4: The City provides a subordinated participative loan of VLD 40 million at a below-market interest rate, with a share of revenues above forecast.\n- F5: The Marovia Infrastructure Fund takes a 20% equity stake in the project company with a board seat. Its stated aim is to control daily management and have direct access to the accounts.\n- F6: A State guarantee fund secures the City's payment obligations under the concession contract.\n- F7: An MDB subordinated credit enhancement facility. The MDB has not committed it, but the modellers have included it in the base case.\n- F8: As an alternative to grants, the City would make annual budget payments equal to about 45% of the project's revenues, paid unconditionally.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "usesAdditionalInfo": false,
+          "instruction": "Answer the following questions about financial structuring. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "In the Guide, what does the term financial structure mean when used from the public perspective?",
+              "options": [
+                "The mix of debt and equity used by the project company",
+                "The means and conditions of public payments or compensation to the private partner, plus any other public financial participation",
+                "The ranking of the lenders' claims on the project company",
+                "The dividend policy agreed between the project company's shareholders"
+              ],
+              "answer": 1,
+              "explanation": "The Guide uses financial structure from the public perspective to mean the means of public compensation or payments (grants, service payments and their conditions) and other public participation such as guarantees, equity or debt. The debt and equity mix of the project company is how the private partner would use the term.",
+              "ref": "Ch 5 §4, p. 22"
+            },
+            {
+              "id": "4a-2",
+              "stem": "According to the Guide, what is pure co-financing?",
+              "options": [
+                "A public loan on favourable terms that the private partner repays over the contract term",
+                "A guarantee that the government will pay lenders if the project company defaults",
+                "An equity investment by a public fund on the same terms as private investors",
+                "Non-reimbursable public funds or in-kind support for which the private partner's cost of capital is zero"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says co-financing, properly speaking, refers only to non-reimbursable provision of funds or in-kind support with a zero cost of capital to the private partner, which it calls pure co-financing. Public loans, even concessional ones, are a separate tool, which makes the first option the common confusion.",
+              "ref": "Ch 5 §4, p. 24"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 4, Column 1 lists six options in the Treasury's options paper. For each option, select from Column 2 the category of public financial support it belongs to. Each selection from Column 2 can be used once, more than once or not at all.",
+          "columnOptions": [
+            "Pure co-financing (grant financing)",
+            "Public loan",
+            "Government equity participation",
+            "Other ways to increase feasibility (guarantees and credit enhancement)"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "F2: The City transfers the Dorn WWTP site and the Orsk intake tower to the project company at no cost",
+              "answer": 0,
+              "explanation": "The Guide says grants may be in kind, for example providing land or elements of infrastructure already built and financed. The site and intake tower are given at no cost and are not repaid, so this is pure co-financing. It is not equity, because the City receives no shares.",
+              "ref": "Ch 5 §4.2, p. 32"
+            },
+            {
+              "id": "4b-2",
+              "stem": "F5: The Marovia Infrastructure Fund takes a 20% equity stake in the project company",
+              "answer": 2,
+              "explanation": "The Guide says the government may provide equity directly or through a public infrastructure fund. F5 is a shareholding with a board seat, so it is government equity participation. It is not a loan, because it gives no right to fixed repayment.",
+              "ref": "Ch 5 §4.5, p. 41"
+            },
+            {
+              "id": "4b-3",
+              "stem": "F3: NDBV lends up to 25% of the senior debt on the same terms as the commercial banks",
+              "answer": 1,
+              "explanation": "The Guide describes national development banks acting as co-lenders on the same conditions as commercial banks as the most conventional form of public agency loan. The funds must be repaid, so this is not pure co-financing.",
+              "ref": "Ch 5 §4.3, p. 35"
+            },
+            {
+              "id": "4b-4",
+              "stem": "F6: A State guarantee fund secures the City's payment obligations under the concession contract",
+              "answer": 3,
+              "explanation": "The Guide lists guarantees in respect of government counterparty risk (guarantee funds) among the other ways to increase financial feasibility. They give security for the government's payment obligations but transfer no risk back to the government. No funds are lent or granted, so it is not co-financing.",
+              "ref": "Ch 5 §4.6, p. 43"
+            },
+            {
+              "id": "4b-5",
+              "stem": "F1: A federal Climate Resilience Fund grant paid as a percentage of works completed",
+              "answer": 0,
+              "explanation": "Direct grants paid during construction as a percentage of work in progress are, according to the Guide, the most common form of pure co-financing. The grant is not repaid, so it is not a public loan, even though it comes from a public fund.",
+              "ref": "Ch 5 §4.2, p. 31"
+            },
+            {
+              "id": "4b-6",
+              "stem": "F4: A subordinated participative loan from the City at a below-market interest rate",
+              "answer": 1,
+              "explanation": "The Guide describes subordinated soft loans from the procuring authority, often participative with a share of the upside, as a public loan used to fill a feasibility gap. Unlike a grant, it must be repaid. The share of revenues does not make it equity, because the City holds no shares.",
+              "ref": "Ch 5 §4.3, p. 36"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "multiple-response",
+          "level": 3,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions about co-financing and early risk mitigation for Velmora. Each question requires 2 answers.",
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "The Treasury is considering how large a share of Velmora's CAPEX public grants should cover. Which 2 risks of excessive public co-financing does the Guide highlight?",
+              "options": [
+                "It may reduce the private partner's risks and incentives to operate the project properly",
+                "It always increases the tariff that users must pay",
+                "It may lead to the project being treated as a public investment and consolidated with public debt",
+                "It prevents the project company from raising any commercial debt",
+                "It automatically transfers demand risk back to the City"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide warns that too much public financing reduces the private partner's risks and motivation to operate the project properly, turning the incentives into those of normal procurement, and may lead to the project being consolidated with public debt. A grant tends to reduce, not increase, the tariff needed, so the second option is wrong.",
+              "ref": "Ch 5 §4.2, p. 31"
+            },
+            {
+              "id": "4c-2",
+              "stem": "The Climate Resilience Fund grant (F1) comes from the federal government, while the City is the procuring authority. Which 2 statements reflect good practice?",
+              "options": [
+                "The project company should sign a separate grant agreement with the Fund and bear the risk of federal non-payment",
+                "The City should assume in the concession contract the payment commitments of the Fund",
+                "The Fund should replace the City as procuring authority for the flood works",
+                "The project company should not need to deal directly with an administration that is not its client",
+                "The grant should be left out of the contract and paid only if federal budgets allow"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says good practice, when grant finance comes from another administration, is for the procuring authority to assume those commitments in the contract. This avoids duplicating counterparty risk and avoids the private partner having to deal with an administration that is not its client. A separate agreement with the Fund would create exactly the duplicated risk the Guide warns about.",
+              "ref": "Ch 5 §4.2, p. 32"
+            },
+            {
+              "id": "4c-3",
+              "stem": "Which 2 statements about who sets the amount of co-financing are consistent with the Guide?",
+              "options": [
+                "In Velmora, the grant should be negotiated with the preferred bidder after award",
+                "In all PPPs the grant should equal the full capital cost so that tariffs can fall",
+                "In user-pays PPPs the regulator must set the grant before the tender",
+                "In Velmora's user-pays concession, bidders would usually propose the size of the grant needed to fill the viability gap",
+                "In government-pays PPPs, the co-financing amount is most commonly fixed by the government in the tender documents"
+              ],
+              "answer": [
+                3,
+                4
+              ],
+              "explanation": "The Guide says that in government-pays PPPs the co-financing amount is most commonly set by the government in the tender documents, while in user-pays PPPs, especially when co-financing fills a viability gap, the grant size is usually proposed by bidders. Velmora is a user-pays concession with a viability gap. Negotiating the grant after award would remove it from competition.",
+              "ref": "Ch 5 §4.2, p. 32"
+            },
+            {
+              "id": "4c-4",
+              "stem": "Before the tender, the City wants to mitigate risks at the Dorn WWTP site early. Which 2 actions are consistent with the Guide?",
+              "options": [
+                "Keep the existing flood study confidential so that bidders do not add risk premiums",
+                "Commission geotechnical and contamination studies of the site and give the results to bidders",
+                "Schedule the main river-crossing works during the flood season to finish earlier",
+                "Add an untested treatment technology even though its benefit does not outweigh its cost",
+                "Use the studies as a contractual baseline, so that only conditions materially different from them give a right to compensation"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The Guide says the authority is best placed to carry out risk assessment in advance and give bidders information such as geotechnical studies, which may also form a contractual baseline for allocating risks such as adverse ground conditions. It also advises avoiding complexity whose benefit does not outweigh the cost and planning works to avoid weather delays. Keeping studies confidential goes against this.",
+              "ref": "Ch 5 §5.5, p. 85"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "classic",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions about the options paper. Select one answer for each question.",
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "What is the best evaluation of the proposal that NDBV offers its loan (F3) only to the Marovian-led consortium?",
+              "options": [
+                "Appropriate, because public lenders may choose their borrowers freely",
+                "Appropriate, because NDBV loans do not affect the feasibility of the project",
+                "Inappropriate, because if the NDBV loan is needed for feasibility it should be available to any bidder, with eligibility made clear in advance and consistent with the qualification criteria",
+                "Inappropriate, because NDBV must lend on terms more favourable than the market"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says that if a financial agency's participation is necessary for the feasibility and affordability of the project, it should be available to any bidder, assessed in advance, with clear eligibility requirements consistent with the tender qualification criteria. For a VLD 540 million project in a thin bank market, NDBV may be filling the loan-market gap the Guide describes, so offering it to one consortium would give that bidder an unfair advantage and distort competition. Public lenders do not have to lend on better-than-market terms, so the last option is wrong.",
+              "ref": "Ch 5 §4.3, p. 36"
+            },
+            {
+              "id": "4d-2",
+              "stem": "The Fund's stated aim for its equity stake (F5) is to control daily management and access the accounts. What should the Treasury be advised?",
+              "options": [
+                "Consider holding the stake through a trust fund or using contractual monitoring and reporting rights instead, because a direct stake may deter bidders and create conflicts of interest",
+                "Proceed, because a public shareholder always increases bidder interest",
+                "Increase the stake to 51% so that the public sector controls the project company",
+                "Proceed, because a public director has no duties to the company that conflict with the City's role"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says equity taken to gain day-to-day control should be considered with caution, because it may discourage bidders and create conflicts between being client and shareholder, including the duties of a nominated director. It suggests a trust fund or contractual monitoring and reporting rights instead. A larger stake would make these problems worse.",
+              "ref": "Ch 5 §4.5, p. 41"
+            },
+            {
+              "id": "4d-3",
+              "stem": "Under option F8, annual budget payments of about 45% of the project's revenues would be paid unconditionally. What does the Guide suggest?",
+              "options": [
+                "Unconditional payments are preferable, because they lower financing costs with no loss of incentives",
+                "The payments should be structured as service-type payments conditional on availability or on the volume served",
+                "Budget payments are not allowed in a user-pays concession",
+                "The payments should be capped at 10% of the project's revenues"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says that when complementary revenues are provided through budget payments, they should preferably be service-type payments conditional on availability or volume rather than unconditional, especially when they exceed about 40% of revenues. At 45%, F8 is above that level. Hybrid payment mechanisms are allowed in user-pays projects, so the third option is wrong.",
+              "ref": "Ch 5 §4.4, p. 39"
+            },
+            {
+              "id": "4d-4",
+              "stem": "The MDB credit enhancement facility (F7) has not been committed, but the modellers include it in the base case. What is the best evaluation?",
+              "options": [
+                "Appropriate, because the MDB's interest is enough to rely on the facility",
+                "Appropriate, because support from a body other than the procuring authority does not affect feasibility",
+                "Inappropriate, because credit enhancement can be given only by the procuring authority",
+                "Inappropriate, because support that is not yet granted and committed should not be included in the financial model for feasibility or affordability"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says specific credit enhancement mechanisms must be considered in financial structuring, but unless access is already granted and committed, they should not be included in the financial model for affordability or feasibility. The scenario says the MDB has made no commitment. Credit enhancement often comes from official agencies other than the procuring authority, so the third option is wrong.",
+              "ref": "Ch 5 §4.6, p. 43"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "assertion-reason",
+          "level": 4,
+          "usesAdditionalInfo": true,
+          "instruction": "Using the additional information provided for Question 4, for each question select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "Which option correctly applies the Guide to the City's subordinated loan (F4)?",
+              "options": [
+                "The loan will have the same effect on public debt records as a grant BECAUSE all public financial support is treated as public investment",
+                "The loan could reduce the viability gap while possibly leaving public debt records unaffected BECAUSE unlike a grant, a loan may not be treated as a public investment for fiscal purposes",
+                "The loan should rank ahead of the commercial lenders BECAUSE a public lender must always be senior"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says soft loans reduce the weighted cost of capital and the feasibility gap, and unlike a grant a loan can leave public debt records unaffected if it is not treated as a public investment. A soft loan from the procuring authority is usually subordinated (though senior to equity), so the third option is false, as is the idea that all support counts as public investment.",
+              "ref": "Ch 5 §4.3, p. 36"
+            },
+            {
+              "id": "4e-2",
+              "stem": "Which option correctly applies the Guide to Marovia's future use of NDBV lending across its PPP program?",
+              "options": [
+                "Marovia should use NDBV as the main lender for all its water PPPs BECAUSE public agency lending has no effect on risk transfer",
+                "Marovia should avoid NDBV lending in every PPP BECAUSE public agencies cannot lend to project companies",
+                "Marovia should avoid relying on NDBV systematically for all its water PPPs BECAUSE this may crowd out commercial banks, and the government indirectly keeps part of the risk transferred"
+              ],
+              "answer": 2,
+              "explanation": "The Guide warns that systematic financing by public agencies may crowd out commercial banks and that, through public lending, the government indirectly retains part of the risks transferred to the private partner. The first option's reason is the opposite of the Guide. The second is false, because the Guide describes agencies such as NDBs lending to projects.",
+              "ref": "Ch 5 §4.3, p. 35"
+            },
+            {
+              "id": "4e-3",
+              "stem": "Which option correctly applies the Guide to how the City could pay its share of the co-financing, given its lack of cash during construction?",
+              "options": [
+                "The City could pay its co-financing as fixed deferred annual payments not subject to performance deductions BECAUSE this suits a public party that wants to co-finance but lacks liquidity, and lenders can pre-finance fixed irrevocable payments",
+                "The City should make its deferred grant subject to volume deductions BECAUSE fixed public payments cannot be financed by lenders",
+                "The City could defer its grant at no extra cost BECAUSE the financing cost of deferral is below the cost of public debt"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says grant financing paid on a yearly deferred basis as fixed payments suits a public sector that wants to co-finance but lacks liquidity, and the SPV's loan to pre-finance it is easy to negotiate because the payments are fixed and irrevocable. Deferral is not free: the Guide says its financing cost is usually above the cost of public debt, so the third option's reason is false.",
+              "ref": "Ch 5 §4.2, p. 31"
+            },
+            {
+              "id": "4e-4",
+              "stem": "Which option correctly applies the Guide to the payment conditions for the Climate Resilience Fund grant (F1)?",
+              "options": [
+                "Paying the grant only on completion always gives the best value for money BECAUSE more construction risk for the private partner reduces financing costs",
+                "Whether to make the grant conditional on milestones should be decided as a value for money question BECAUSE more risk increases the incentive to meet milestones but also increases lenders' uncertainty and financing costs",
+                "Milestone conditions on the grant have no effect on value for money BECAUSE grants are non-reimbursable"
+              ],
+              "answer": 1,
+              "explanation": "The Guide treats conditioning grants on milestones or completion as a VfM decision: more risk means more incentive to meet milestones but more uncertainty for lenders and higher financing costs. The first option's reason is false, since more risk raises financing costs. Being non-reimbursable does not remove the VfM effect of conditions.",
+              "ref": "Ch 5 §4.2, p. 32"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,12 +7,15 @@ import { getCurrentUser } from "@/services/user-service";
 import { getExamHistory } from "@/lib/exam-data";
 import { readiness } from "@/lib/exam";
 import { formatDate } from "@/lib/utils";
+import { getScenarioExam } from "@/content/exam/scenario";
+import { ScenarioLevelPage } from "@/features/exam/scenario-level";
 
 type Params = { params: Promise<{ level: string }> };
 
 export async function generateMetadata({ params }: Params) {
-  const exam = getExam((await params).level);
-  return { title: exam ? `${exam.spec.title} prep` : "Exam not found" };
+  const { level } = await params;
+  const spec = getExam(level)?.spec ?? getScenarioExam(level)?.spec;
+  return { title: spec ? `${spec.title} prep` : "Exam not found" };
 }
 
 const STATUS = {
@@ -24,10 +27,13 @@ const STATUS = {
 
 export default async function ExamLevelPage({ params }: Params) {
   const { level } = await params;
+  const scenario = getScenarioExam(level);
   const exam = getExam(level);
-  if (!exam) notFound();
+  if (!exam && !scenario) notFound();
   const user = await getCurrentUser();
   if (!user) redirect(`/sign-in?next=/exam/${level}`);
+  if (scenario) return <ScenarioLevelPage exam={scenario} userId={user.id} courseSlug={`cp3p-${level}`} />;
+  if (!exam) notFound();
   const { spec, bank } = exam;
   const history = await getExamHistory(user.id, `cp3p-${spec.slug}`);
   const ready = readiness(spec, bank, history.answers);
@@ -51,7 +57,10 @@ export default async function ExamLevelPage({ params }: Params) {
             <p className="inline-flex items-center gap-2 text-sm font-semibold"><Timer className="size-4" />Full mock exam</p>
             <p className="mt-2 text-sm leading-6 text-[#65736d]">{spec.questions} new questions balanced across every area, {spec.minutes} minutes (+{spec.extraMinutes} if English is not your first language), scored like the real exam.</p>
           </div>
-          <Link href={`/exam/${spec.slug}/mock`} className="mt-6 inline-flex min-h-12 items-center justify-between rounded-xl bg-[#163e32] px-5 font-semibold text-white hover:bg-[#0e3026]">Start a mock<ArrowRight className="size-4" /></Link>
+          <div className="mt-6 grid gap-2">
+            <Link href={`/exam/${spec.slug}/mock`} className="inline-flex min-h-12 items-center justify-between rounded-xl bg-[#163e32] px-5 font-semibold text-white hover:bg-[#0e3026]">Start a mock<ArrowRight className="size-4" /></Link>
+            <Link href="/exam/flashcards" className="inline-flex min-h-12 items-center justify-between rounded-xl border border-[#13251f]/15 px-5 font-semibold hover:bg-[#f7f6f1]">Glossary flashcards<ArrowRight className="size-4" /></Link>
+          </div>
         </section>
       </div>
 

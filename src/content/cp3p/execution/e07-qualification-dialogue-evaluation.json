@@ -1,0 +1,240 @@
+{
+  "id": "e07-qualification-dialogue-evaluation",
+  "level": "execution",
+  "order": 7,
+  "title": "Qualification, dialogue and evaluation of proposals",
+  "minutes": 15,
+  "guideRef": "Ch 6 §7–§9",
+  "objectives": [
+    "Explain when qualification happens in one-stage, two-stage and interactive tenders, and why it comes before bid evaluation.",
+    "Decide how a procuring authority should handle a change in a pre-qualified consortium.",
+    "Apply the good-practice safeguards for one-on-one meetings with bidders in a dialogue process.",
+    "Describe the evaluation sequence: compliance check, evaluation committees, and the technical and financial evaluation.",
+    "Choose between a staged and a streamed evaluation, and recognise when a financial offer may be rejected for temerity."
+  ],
+  "sections": [
+    {
+      "heading": "1. Qualification comes first",
+      "body": "**Qualification** is the check that a bidder has the legal, financial and technical capacity to deliver the project. **Evaluation** is the later scoring of the actual proposal. The Guide treats them as two separate steps, and the order matters.\n\n**When is qualification done?**\n- In a **one-stage open tender**, bidders submit their qualifications at the same time as their offer. The procuring authority must **first assess the qualifications, and only then evaluate the bids**. Keeping these two steps separate and in sequence is good practice. Some countries write this order into law to protect transparency.\n- In a **two-stage tender** (with **pre-qualification**), and in **interactive or dialogue processes**, qualification is done **before** candidates are invited to prepare a bid or to enter the dialogue. The document used is the **RFQ** (Request for Qualifications). In some two-stage processes the authority also uses the qualification results to select a **short list**.\n\n**Changes in a consortium.** In a two-stage process, the members of a bidding consortium may change between pre-qualification and bid submission. The **RFQ should say** whether this is allowed, in what circumstances, and with what consequences. The Guide takes a balanced view:\n- Some flexibility is desirable. A pre-qualified consortium may want to bring in an extra firm to **strengthen** its bid.\n- But a consortium **should not stay in the process** if the change means it **no longer meets the pre-qualification requirements**.\n- The authority should reduce the chance of such changes by **not leaving an unduly long time** between pre-qualification and bidding.\n\nOtherwise, the management of qualification is the same in one-stage and two-stage tenders."
+    },
+    {
+      "heading": "2. Rules for a sound qualification process",
+      "body": "The Guide lists a few principles for a proper qualification process. The same principles also apply to the evaluation of proposals, so learn them well.\n\n1. **The RFP (or RFQ) is the essence of the assessment.** Everything flows from the published tender documents.\n2. **Assess only against the announced criteria.** Qualifications must be assessed in line with the criteria and method described in the RFP (or the RFQ in a two-stage process). Any deviation from the published criteria is not consistent with transparency and **will likely lead to challenges** to the outcome.\n3. **Use a skilled team.** The people who assess qualifications must have enough skill in each area involved (legal, financial, technical).\n4. **Use a manual.** A manual or a set of established procedures documents the process and the methods. It is especially important for **consistency** when more than one person assesses the same criterion or sub-criterion. However, the manual must **stay consistent with the RFP criteria**. It can explain how to apply the criteria; it cannot add new ones.\n\nThink of the manual as a tool for applying the rules, not a tool for changing them. If an evaluator's manual introduces a requirement that bidders never saw in the RFQ, a losing bidder has good grounds to challenge the result."
+    },
+    {
+      "heading": "3. Managing dialogue and interactive processes",
+      "body": "In a **competitive dialogue** or other **interactive process**, the authority first short-lists candidates, then holds a period of structured discussion with them before final bids. During this dialogue, the technical requirements and commercial drivers of the contract are discussed, and in EU competitive dialogue they may even be **proposed by the bidders**.\n\nThe Guide highlights four common issues:\n- **Time management.** The interaction (meetings, information submitted beforehand, feedback from candidates) must be well managed in terms of time.\n- **Confidentiality versus fairness.** Confidentiality of each bidder's ideas must be protected **at the same time** as the fairness and transparency of the process.\n- **Changes must be improvements.** In competitive dialogue, changes to the basic specifications or basic business terms must be respected, and they must be clearly identifiable as **improvements**.\n- **Bidder withdrawal.** Because the short list is small, a single bidder withdrawing can be critical for the competition.\n\n**A capability test first.** The Guide is clear: a decision to use competitive dialogue or another highly interactive process **should only be made after carefully assessing whether the procuring authority has the capability and capacity** to manage such a complex and intensive process. If the authority lacks experienced staff, a simpler procedure may be the better choice."
+    },
+    {
+      "heading": "4. One-on-one meetings with bidders",
+      "body": "Meetings with **individual bidders** are a key feature of interactive processes. They can give better outcomes than a single meeting with all competitors in the room: without competitors present, discussion can go deeper and bidders are more willing to share concerns.\n\nBut they carry two main risks:\n- A **greater demand on the time and resources** of the government team.\n- The risk, **real or perceived**, that one bidder receives information that others do not, which compromises **fairness**.\n\nGood-practice measures to control these risks:\n- **Rules of conduct** for the meetings are sent to all participants **in advance**.\n- If meetings happen **before the RFP is released**, a **project information memorandum** is sent to all participants in advance, and **no additional information** is given in the meetings.\n- The government uses a **pre-prepared script**, so the same questions get the same answers in every meeting.\n- **At least two government representatives** attend each meeting (more may be wise to reduce the risk of allegations of impropriety).\n- The process is **well documented**: attendance records and minutes.\n- In some projects, questions and answers are **circulated to all bidders in redacted form**, without revealing anything specific to one bidder.\n- In some projects, an **independent party** attends and confirms that no bidder got an unfair advantage.\n\nEven when one-on-one meetings are used, it is often useful to also hold a **forum or presentation for all bidders**. This is an efficient way to give everyone the same key messages about the project."
+    },
+    {
+      "heading": "5. Evaluation principles and the compliance check",
+      "body": "Proposals **must be evaluated in accordance with the criteria set out in the RFP**. A **price-only** evaluation is simple. A **combination of quality and price** is more complex, and it is the focus of the Guide. These rules apply to any process type, including dialogue processes.\n\nEvaluating PPP bids is harder than evaluating conventional contracts, and the risks of non-compliant bids and of challenges are higher. The main corrective factors are:\n- **Clear evaluation rules** and **robust decision-making processes**, run by highly capable, experienced people.\n- A **practical guide or evaluation manual**, so that all evaluators apply the criteria consistently and understand any unclear terms.\n- A **clear audit trail** of all evaluation steps, discussions and decisions.\n- A final score that is the **average of the individual scores of each evaluator**, so that no single committee member can bias the result.\n\n**Step 1: administrative or compliance check.** Before the evaluation in the strict sense, the authority reviews the **formal (administrative) requirements**:\n- Was the bid submitted as the RFP requires?\n- Are the signing powers and the signatures valid?\n- Does the bidder meet general legal requirements, for example no unresolved tax issues and no pending prosecution for corruption or fraud? A bidder with no such issues is said to be in **good standing**.\n\nIn two-stage processes, these checks are part of pre-qualification and are **rechecked at the RFP stage**.\n\nThe first check finds obvious problems (a missing signature, a missing part of the bid). Subtler non-compliance may only appear during evaluation, for example a technical proposal that omits some requirements, or an alternative bid when alternatives were excluded. The RFP and the manual should explain how such issues are handled.\n\n**Remediable errors.** It is customary to let a bidder correct errors that are **immaterial**. This must never extend to **basic elements** of the proposal. If bids are published, the errors and corrections should also be published."
+    },
+    {
+      "heading": "6. Evaluation committees and staged versus streamed evaluation",
+      "body": "**Who evaluates?** Where the assessment has significant **subjective or qualitative** elements, it should be done by **subject matter experts**. They may be government staff or external advisers. With external advisers, **conflicts of interest** must be checked when choosing evaluators. Under EU law, for example, when qualitative criteria make up **more than 50 percent** of the total weight, the authority must form an expert committee that includes **independent experts**. If external advisers carry out the evaluation, good practice is that the **decision to recommend a bidder is made by government employees**, on the advice of the advisers.\n\n**Two good-practice approaches** for price-and-quality evaluation:\n\n| Approach | How it works | When it fits |\n|---|---|---|\n| **Staged (consecutive)** | Technical/qualitative evaluation is completed and **sealed** first; then the financial envelope is opened. In some cases this is a legal requirement (e.g. EU legislation). In many countries the price envelope is opened in public. | The government wants an acceptable technical solution at a good price, and there are **significant concerns about corruption or undue influence**. |\n| **Streamed (parallel)** | Technical and financial streams run **at the same time**, as separate work streams. | Bidders may offer **different or innovative solutions** that change the contract or the government's risk or cost exposure, so price cannot be judged alone. Used mainly in experienced PPP countries. |\n\nThe Guide adds a clear rule: when the evaluation **cannot fully separate** the technical (qualitative) criteria from the financial (numerical) criteria, a **structured streamed process** is essential for transparency.\n\nIn a streamed evaluation, the teams **may talk** about elements of the proposals so that each understands the innovative solutions. But they must keep the **actual scoring separate**: a team should not discuss its evaluation of bids with a team not evaluating the same criteria. The Guide gives an example. A bidder offers a higher level of service than the RFP asks for. The financial team correctly prices the bid on the **base service level** in the RFP, because that is all the government will pay for. So it would be wrong for the technical team to score the bid **as if** the government will accept the higher service. Both teams must work on the same basis.\n\n**Other good practices:**\n- Keep the technical and financial evaluations apart with **physical and informational barriers**, so evaluators are not influenced by irrelevant parts of the bid.\n- Apply criteria consistently. The Guide mentions three techniques: one evaluator scores the **same sub-criterion across all bids**; or each evaluator scores **one bid on all sub-criteria** and then discusses the results with other specialists; or several evaluators score bids **jointly by consensus**. Always **respect the different opinions** of evaluators.\n- A **minimum technical score (floor)** can be set: a bid below it is rejected, and its price offer is rejected too.\n- If **alternative offers** are allowed, the process must say how the base bid and the alternative are treated, for example as separate bids.\n- A **performance model** can aggregate bidders' input data objectively, but it needs up-front investment, validation and transparency. Sometimes it can be built from the project's financial model."
+    },
+    {
+      "heading": "7. Evaluating the financial offer",
+      "body": "The evaluation panel must check the **consistency and responsiveness** of each financial offer. Some processes require certain documents to be in the financial envelope rather than the technical one, for example a financial offer with reasonable terms for the commitment and availability of finance.\n\nKey points:\n- Financial analysis can be complex. It is good practice to get **detailed independent analysis by finance specialists**, and to **allow time** for it.\n- The panel (or awarding authority) may **reject an offer for temerity**. **Temerity** means an offer on terms that may be reckless, made in the hope of winning and then negotiating a better deal later. Some countries set a relative threshold. In Spain, for example, an offer more than 15 percent below the average bid is treated as too aggressive; the bidder may be allowed to explain its offer, and extra security may be required.\n- Some processes also assess the financial offer **qualitatively**, not only numerically.\n- A **standardised format** for financial offers makes them easier to compare.\n\nOnly after these checks, and after defining which offers are responsive, can the authority **announce the awardee** based on the final scoring. The next lesson picks up from here: negotiation, award, signature and financial close."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Riverside Hospital tender",
+    "body": "Imagine a regional health authority procuring a hospital PPP through a two-stage process. Three consortia are pre-qualified. Six months later, Consortium B tells the authority that its facilities management partner has left and it wants to replace it with a smaller firm.\n\nThe authority checks the RFQ. It allows membership changes if the consortium still meets every pre-qualification criterion. The new firm has much less hospital experience, and without the old partner, Consortium B no longer meets the minimum technical experience requirement. Following the RFQ rules, the authority removes Consortium B from the process.\n\nBids from A and C arrive. The compliance check shows that Consortium C's bid is missing one signature page. This is an immaterial, remediable error, so C may correct it. The authority then runs a **staged evaluation**: the technical panel scores and seals its results before the financial envelopes are opened. Consortium A's price is 22 percent below Consortium C's. The finance specialists find that A's operating costs are unrealistically low. Using the temerity rule written in the RFP, the panel asks A to justify its price before deciding whether the offer is responsive."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking qualification and evaluation can be mixed in a one-stage tender because they arrive together.",
+      "fix": "Qualifications may arrive with the offer, but the authority must assess them first and only then evaluate the bids. Keeping the two steps separate and sequential is good practice."
+    },
+    {
+      "trap": "Believing any change in a pre-qualified consortium is forbidden, or that any change is fine.",
+      "fix": "The RFQ should set the rules. Some flexibility to strengthen a bid is desirable, but a consortium should not continue if the change means it no longer meets the pre-qualification requirements."
+    },
+    {
+      "trap": "Letting an evaluation manual add or change criteria.",
+      "fix": "A manual explains how to apply the criteria consistently. It must remain consistent with the RFP/RFQ. Assessing against unpublished criteria invites challenges."
+    },
+    {
+      "trap": "Confusing staged and streamed evaluation.",
+      "fix": "Staged: technical first, sealed, then price; suits concerns about corruption or undue influence. Streamed: parallel streams, needed when innovative solutions change risk or cost, so price cannot be judged alone. In both, the scoring itself stays separate."
+    },
+    {
+      "trap": "Assuming any bidder error can be corrected after submission.",
+      "fix": "Only immaterial (remediable) errors may be corrected, never basic elements of the proposal. If bids are public, errors and corrections are published too."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Pre-qualification", "meaning": "The first stage of a two-stage tender, where candidates' qualifications are assessed against the RFQ before they are invited to bid." },
+    { "term": "RFQ (Request for Qualifications)", "meaning": "The document that sets out the qualification criteria and rules, including rules on consortium changes, in a two-stage process." },
+    { "term": "Competitive dialogue", "meaning": "An interactive procedure in which short-listed candidates discuss, and may propose, technical and commercial aspects of the contract before final bids." },
+    { "term": "Good standing", "meaning": "The status of a bidder with no unresolved tax issues or pending prosecutions for corruption or fraud." },
+    { "term": "Administrative or compliance check", "meaning": "The first evaluation step, confirming the bid meets the formal RFP requirements, valid signatures and general legal requirements." },
+    { "term": "Staged evaluation", "meaning": "Evaluation where the technical assessment is completed and sealed before the financial offer is opened." },
+    { "term": "Streamed evaluation", "meaning": "Evaluation where technical and financial streams run in parallel, used when innovative solutions affect risk or cost." },
+    { "term": "Temerity", "meaning": "A recklessly aggressive offer made to win, hoping to negotiate better terms later; it may be rejected." },
+    { "term": "Technical floor", "meaning": "A minimum technical score below which a bid, including its price offer, is rejected." }
+  ],
+  "summary": [
+    "Qualification is assessed first; in two-stage and dialogue processes it happens before bidding starts.",
+    "The RFQ should set rules on consortium changes; a consortium that no longer meets the requirements should not continue.",
+    "Assess only against the published RFP/RFQ criteria, with skilled teams and a consistent manual.",
+    "Dialogue needs strong capability; one-on-one meetings need rules, scripts, two officials, minutes and equal information.",
+    "Evaluation starts with the compliance check; only immaterial errors may be corrected.",
+    "Staged evaluation suits corruption concerns; streamed evaluation suits innovative bids, but scoring stays separate.",
+    "Financial offers need independent specialist analysis; reckless offers may be rejected for temerity."
+  ],
+  "slides": [
+    {
+      "title": "Qualify first, then evaluate",
+      "points": ["One-stage: qualifications arrive with the bid", "Assess qualifications before evaluating any bid", "Two-stage and dialogue: qualify before bidding"],
+      "narration": "Let's start with the order of things. Qualification asks: can this bidder deliver? Evaluation asks: how good is this proposal? In a one-stage open tender, both arrive in the same package, but the authority must still look at qualifications first and only then score the bids. Some countries even require this by law. In a two-stage tender, or in a dialogue process, qualification happens earlier, before candidates are invited to bid. So whatever the procedure, qualification always comes first."
+    },
+    {
+      "title": "When a consortium changes",
+      "points": ["The RFQ should set the rules", "Adding strength can be allowed", "Losing required capacity means leaving the process"],
+      "narration": "Here is a classic exam scenario. A consortium was pre-qualified, and then one of its members leaves before bids are due. What now? First, look at the RFQ, because it should say whether changes are allowed and with what consequences. The Guide likes some flexibility, for example bringing in a firm that makes the bid stronger. But if the change means the consortium no longer meets the pre-qualification requirements, it should not continue. And a short gap between pre-qualification and bidding reduces the chance of changes."
+    },
+    {
+      "title": "Principles of fair assessment",
+      "points": ["The RFP or RFQ is the rulebook", "No deviation from published criteria", "Skilled team and a consistent manual"],
+      "narration": "Now, the principles for a sound qualification process. They apply to evaluation too. The RFP, or the RFQ, is the rulebook. You assess only against the criteria you published, because any deviation damages transparency and will likely lead to a challenge. The team must have the right skills. And a manual helps different people apply the same criterion in the same way. Just remember: the manual explains the criteria. It never adds new ones."
+    },
+    {
+      "title": "Dialogue and one-on-one meetings",
+      "points": ["Check authority capacity before choosing dialogue", "Rules and script shared in advance", "Two officials, minutes, equal information"],
+      "narration": "Competitive dialogue and other interactive processes can produce better solutions, but they are demanding. The Guide says only choose them after checking that the authority has the capability and capacity to run them. Meetings with individual bidders allow deeper discussion, but they risk unfairness. So we use safeguards: rules sent in advance, a prepared script, at least two government representatives, full minutes, and sometimes an independent observer. A joint forum for all bidders is also useful for sharing key messages."
+    },
+    {
+      "title": "Evaluation starts with compliance",
+      "points": ["Formal requirements, signatures, good standing", "Only immaterial errors can be corrected", "Average scores and a clear audit trail"],
+      "narration": "Evaluation begins with the administrative, or compliance, check. Was the bid submitted as required? Are the signatures and powers valid? Is the bidder in good standing, meaning no tax problems and no pending corruption or fraud cases? Small, immaterial mistakes can usually be corrected. But never the basic elements of a proposal. Throughout evaluation, keep a clear audit trail, and use the average of each evaluator's scores so that no single person can bias the outcome."
+    },
+    {
+      "title": "Staged or streamed?",
+      "points": ["Staged: technical sealed, then price opened", "Streamed: parallel, for innovative solutions", "Scoring always kept separate"],
+      "narration": "There are two good-practice ways to combine price and quality. In a staged evaluation, the technical scores are finished and sealed before the price envelope is opened. It is well tested and fits well when there are concerns about corruption or undue influence. In a streamed evaluation, both streams run in parallel. This suits bids with innovative solutions that change the contract or the government's risk. The teams may talk to understand the solutions, but each team's actual scoring stays separate."
+    },
+    {
+      "title": "Checking the financial offer",
+      "points": ["Independent analysis by finance specialists", "Reckless underbids may be rejected: temerity", "Standard formats make offers comparable"],
+      "narration": "Finally, the financial offer. It can be complex, so good practice is to get detailed, independent analysis from finance specialists, and to leave enough time for it. Watch out for temerity. That is an offer so aggressive that it looks reckless, as if the bidder hopes to win now and renegotiate later. Such offers may be rejected. In Spain, for example, a bid more than fifteen percent below the average is treated as too aggressive. Only after these checks is the winner announced."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In a one-stage open tender, a procuring authority receives each bidder's qualification documents and proposal in the same package. What should it do?",
+      "options": [
+        "Score the proposals first and check qualifications only for the winner",
+        "Assess the qualifications first, then evaluate the proposals",
+        "Combine qualification and proposal scores into one weighted total",
+        "Ask an independent auditor to assess qualifications after award"
+      ],
+      "answer": 1,
+      "explanation": "Even when submitted together, qualifications must be assessed before the bids are evaluated; keeping the steps separate and sequential is good practice. Checking only the winner or merging scores mixes the two steps and harms transparency."
+    },
+    {
+      "question": "Between pre-qualification and bid submission, a consortium's only member with required operating experience leaves. The consortium now fails the RFQ's experience criterion. What should the procuring authority do?",
+      "options": [
+        "Not allow the consortium to continue in the process",
+        "Let it continue, since it was already pre-qualified",
+        "Lower the experience criterion for all bidders",
+        "Allow it to bid and reduce its technical score"
+      ],
+      "answer": 0,
+      "explanation": "A consortium should not continue if its changed composition means it no longer meets the pre-qualification requirements. Pre-qualification is not a permanent pass, and changing the criteria for everyone would breach the published rules."
+    },
+    {
+      "question": "An evaluation team drafts a manual for assessing qualifications. One evaluator proposes adding a new criterion, not in the RFQ, on local employment. What is the correct response?",
+      "options": [
+        "Add it, because manuals may refine the criteria",
+        "Add it only if all bidders are told after scoring",
+        "Reject it; the manual must stay consistent with the RFQ criteria",
+        "Use it only as a tie-breaker between close bidders"
+      ],
+      "answer": 2,
+      "explanation": "The manual supports consistent application of the published criteria and must remain consistent with them. Assessing against criteria not in the RFQ deviates from transparency and would likely lead to challenges, even if used only as a tie-breaker."
+    },
+    {
+      "question": "A small municipality with little PPP experience wants to use competitive dialogue for its first PPP because it has heard dialogue gives better solutions. According to the Guide, what should happen before this decision is made?",
+      "options": [
+        "The municipality should first hold one-on-one meetings to test interest",
+        "The municipality should publish the RFP to see how many bidders respond",
+        "The municipality should ask bidders to propose the procedure",
+        "The municipality should assess whether it has the capability and capacity to manage the process"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a highly interactive process should only be chosen after carefully assessing whether the authority can manage such a complex and intensive process. The other options skip this internal capability check."
+    },
+    {
+      "question": "Which measure is NOT one of the good-practice safeguards for one-on-one meetings with bidders?",
+      "options": [
+        "Circulating rules of conduct to all participants in advance",
+        "Giving the most competitive bidder extra data to improve its bid",
+        "Having at least two government representatives in each meeting",
+        "Keeping attendance records and minutes of each meeting"
+      ],
+      "answer": 1,
+      "explanation": "Giving one bidder information not provided to others is exactly the fairness risk the safeguards aim to prevent. Advance rules, two or more officials and full records are all listed good practices."
+    },
+    {
+      "question": "During the compliance check, an authority finds that a bidder's proposal is missing one page of signatures, but all technical and price content is complete. The RFP allows remediable errors to be fixed. What should the authority do?",
+      "options": [
+        "Reject the bid immediately as non-compliant",
+        "Evaluate the bid and ignore the missing signatures",
+        "Allow the bidder to correct this immaterial error",
+        "Allow the bidder to resubmit a revised price as well"
+      ],
+      "answer": 2,
+      "explanation": "It is customary to allow bidders to correct immaterial, remediable errors. The correction must not extend to basic elements such as price, and ignoring the missing signatures would breach the formal requirements."
+    },
+    {
+      "question": "Qualitative criteria make up 60 percent of the evaluation weight in a PPP tender, and the authority has hired external consultants to evaluate bids. Which approach reflects good practice?",
+      "options": [
+        "Government employees decide which bidder to recommend, on the consultants' advice",
+        "The consultants decide the preferred bidder so the result stays independent",
+        "Each consultant's highest score is used to rank the bidders",
+        "The consultants evaluate both technical and financial envelopes together"
+      ],
+      "answer": 0,
+      "explanation": "When external advisers evaluate, good practice is that government employees make the decision to recommend a bidder, on the advisers' advice, and conflicts of interest are checked. Letting consultants decide (B) removes this public decision, using the highest score (C) invites bias, and mixing the envelopes (D) breaks the separation of technical and financial evaluation."
+    },
+    {
+      "question": "A government has serious concerns about undue influence in its tender process. Bidders must all offer the same standard design. Which evaluation approach best fits?",
+      "options": [
+        "A streamed evaluation where both teams share their scores",
+        "A price-only evaluation after informal negotiations",
+        "A single joint panel scoring price and quality together",
+        "A staged evaluation, sealing the technical results before opening the price"
+      ],
+      "answer": 3,
+      "explanation": "A staged evaluation is well tested and particularly appropriate when the government seeks an acceptable technical solution at a good price and there are concerns about corruption or undue influence. Streamed evaluation is for innovative solutions, and scores are never shared between teams."
+    },
+    {
+      "question": "In a streamed evaluation, one bidder offers a higher service level than the RFP requires. Which statement best reflects good practice?",
+      "options": [
+        "The technical team should score the higher service as if the government will accept it",
+        "The teams may discuss the solution, but each team keeps its actual scoring separate",
+        "The financial team should price the bid on the higher service level",
+        "The two teams should agree a single joint score for the bid"
+      ],
+      "answer": 1,
+      "explanation": "In a streamed process, teams may talk about elements of proposals to understand them, but the actual scoring against the criteria stays strictly separate. The financial team prices only the base service in the RFP, so the technical team should not score the bid as if the higher service will be accepted (A), and a joint score (D) breaks the separation."
+    },
+    {
+      "question": "A bidder's price is far below every other offer. Finance specialists conclude it is unrealistically low, and the bidder may be hoping to renegotiate after award. What may the evaluation panel do?",
+      "options": [
+        "Award the contract, since the lowest price gives the best VfM",
+        "Invite the other bidders to match the price",
+        "Treat the offer as temerity and, under the RFP rules, reject it",
+        "Negotiate a higher price with the bidder before scoring"
+      ],
+      "answer": 2,
+      "explanation": "Temerity is a reckless offer made in the hope of winning and later negotiating a better outcome; the panel or awarding authority may reject it. The lowest price does not automatically mean VfM, and negotiating prices during scoring would breach fairness."
+    }
+  ]
+}

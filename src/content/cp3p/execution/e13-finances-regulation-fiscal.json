@@ -1,0 +1,296 @@
+{
+  "id": "e13-finances-regulation-fiscal",
+  "level": "execution",
+  "order": 13,
+  "title": "Managing finances, regulation and fiscal risks in operations",
+  "minutes": 15,
+  "guideRef": "Ch 7 §16–§17, §19",
+  "objectives": [
+    "Describe the essential features of a payment mechanism in authority-pays and user-pays PPPs",
+    "Explain how the base case financial model, contractual payment procedures, contingency plans and renewal funds are managed in operations",
+    "State the focus of the legal and regulatory framework during the operations stage",
+    "Explain refinancing, how the refinancing gain is calculated and shared, and what the authority should check before approving",
+    "Identify fiscal obligations and contingent liabilities and the principles for managing fiscal risk"
+  ],
+  "sections": [
+    {
+      "heading": "1. Payment mechanisms: where the money comes from",
+      "body": "The **payment mechanism** is how the Project Company earns revenue to cover its costs, service its debt and make a profit. It must be **linked to performance**. The Guide calls this the very heart of risk transfer and VfM. The mechanism should encourage the **right level** of performance, without costly over-performance, and penalise failure.\n\nThere are two main revenue regimes:\n\n| | Authority-pays PPP | User-pays PPP |\n|---|---|---|\n| Main revenue | Regular payments from the Procuring Authority (the **unitary payment**), plus perhaps small commercial income such as advertising | Fees from users, for example of a port, toll road or airport |\n| Who can apply a financial consequence | The authority, by **deductions** from the payment | Users cannot deduct from tolls, so a **penalty** right must sit with an entity representing users: the authority or an **independent regulator** |\n| Effect of underperformance | Lower payment | Lower demand and revenue, plus any contractual penalties |\n\nSectors that commonly have independent regulators include telecommunications, ports, electricity and water. In a user-pays PPP, the authority may still set contractual penalties for failures such as late information or poor road maintenance.\n\nFor authority-pays schemes, the design must consider risk transfer, VfM and affordability, plus three more factors: **performance indicators and initial targets**, **regular measurement** during operations, and the **link between indicators and deductions**. Measures should be simple and objective, with deductions matching the underperformance. They should **not be linked to profitability** or unduly threaten the project's viability."
+    },
+    {
+      "heading": "2. Essential elements of an authority-pays payment mechanism",
+      "body": "The Guide lists the essential elements:\n1. **No payment before service commencement**, and no payment in advance of a service being delivered.\n2. **A single, indivisible unitary payment.** It is not split into amounts for debt, maintenance and so on. It pays for full availability and performance.\n3. **Appropriate indexation**, annually or semi-annually. The default is the **Consumer Price Index (CPI)**, because it matches how the authority's budget is indexed. Other indices may give better VfM where costs such as fuel or labour historically move differently. The part of the payment that covers **debt service should generally not be indexed**, because loan payments are not affected by CPI.\n4. **Deductions for partial or complete failure**, on a scale that reflects severity. Too harsh causes disputes; too lenient leaves failures unfixed. Sector specialists should help set proportionality.\n5. **Generally no limit on deductions for non-availability.** The authority should not pay for services that are not available, even though the Project Company has fixed costs like debt. The exception may be some projects in emerging markets, where limits help bankability.\n6. **A change mechanism** for new service requirements.\n7. **Pass-through costs** where the authority controls usage (or usage depends on demand outside the Project Company's control), such as some consumables.\n8. For **soft services** such as cleaning or catering, periodic **value testing** (for example, every five years) through **market testing** (retendering the service) or **benchmarking** (comparing costs to market prices). The unitary charge is revised up or down.\n\nIn user-pays projects where the authority makes a payment, such as a **minimum revenue guarantee**, many of these features can apply. Penalties can also be paid to the authority, refunded to users, or reinvested in the asset. User-pays contracts may include **sharing of returns** above a benchmark return on equity. This lets the public share gains from factors outside the Project Company's control, such as strong economic growth."
+    },
+    {
+      "heading": "3. The financial model, budgets and contractual payments",
+      "body": "The **financial model** is the key budget tool in operations. The authority's own model, built before procurement, only modelled a hypothetical bid. The **preferred bidder's model** becomes the **base case financial model** and part of the contract, because it reflects the actual solution being delivered.\n\nBoth parties use this model throughout construction and operations to:\n- review long-term prospects and risk exposure;\n- price variations and compensation payments;\n- calculate any **refinancing gain** to be shared;\n- adjust the unitary payment for inflation, deductions and special events such as force majeure.\n\n**All changes to the financial model must be recorded accurately and agreed by both parties.**\n\n**Managing contractual payments.** The contract should include procedures for unitary and additional payments, applying deductions, calculating inflation, handling late payments and receiving reports. It should require the Project Company to produce **financial statements** so the authority can monitor indicators such as **gearing, debt cover ratios and internal rate of return**, and calculate compensation due on early termination. In operations, the authority should compare forecasts with actuals, reset assumptions using actual data, keep historic financial and performance data, and carry out financial control analyses."
+    },
+    {
+      "heading": "4. Contingency planning and renewal funds",
+      "body": "**Contingency planning** is done by both parties, for different reasons.\n- The **Project Company** sets aside **contingency reserves** within its cost baseline for risks it has accepted, the 'known-unknowns'. For example, some rework can be expected but its amount is unknown. Reserves may be a percentage, a fixed sum, or calculated. They are reduced as information improves.\n- The **Procuring Authority** plans for risks it retains, such as land or variations it wants. It rarely keeps explicit reserves, because public budgeting rules discourage them. Instead it adjusts budgets annually or semi-annually.\n\nThe authority should also write a **contingency plan** in the Contract Management Manual for what happens if the Project Company fails to deliver. It covers events leading to failure or default, short- and long-term impacts, contract remedies and timescales, emergency measures, communications, how staff are mobilised, how to return to normal, required consents, and key contacts. It must be **simple and accessible**, because it will be used under pressure.\n\n**Force majeure.** Because the risk is shared, both parties need some contingency, estimated from probability and the likely shortfall in insurance proceeds (or delay in receiving them). The authority's reserve is usually part of a wider government reserve held by the finance ministry, which should be kept informed of rising force majeure risk. The Project Company usually keeps access to **standby equity or debt facilities** rather than costly cash.\n\n**Termination.** Authorities do not normally keep a reserve for termination payments. Termination is unlikely, and its causes are often within the authority's control. Instead, the risk of termination for Project Company breach is **monitored and reported** to the relevant ministry.\n\n**Renewal funds.** The Project Company's revenue includes money for future maintenance and renewals, and that obligation, and its risk, stays with the Project Company. Lenders and the authority require that this money is **not paid out to shareholders**. A **lifecycle renewal fund** is built up over years, drawn down for major renewals and topped up again. Depreciation is the accounting view of declining value; the renewal fund is the practical cash to restore it. Any cash left at the end usually **belongs to the Project Company**, a reward for efficiency. Near the end, the authority should carry out a final survey and either withhold unitary charge payments or require a **performance bond** if the assets are not restored to the required standard (normally a remaining residual life). The Project Company should also prepare a **maintenance and renewals report**: costs incurred, payments into and out of the fund, any deferred work, and an updated renewals plan."
+    },
+    {
+      "heading": "5. The regulatory framework during operations",
+      "body": "Before a PPP is approved, the legal and regulatory framework mainly tests **affordability** and **Value for Money** compared with traditional procurement, with substantial and appropriate risk transfer. In operations, those decisions are made, so the framework's focus shifts to:\n- making sure the project still delivers **net public benefit and VfM**;\n- ensuring **risks are identified and managed**;\n- ensuring **amendments and variations** are made on the same basis as the original project, so they also offer VfM and risk transfer;\n- ensuring **reporting is transparent, timely and accurate**.\n\nThe Guide gives two country examples. In **Chile**, the Ministry of Public Works leads and administers PPPs, while the **Ministry of Finance** approves key steps, such as amendments and dispute settlements; a finance officer inside the works ministry can stop any project. A **technical panel** acts as a quasi-independent regulator, and monthly monitoring reports are published. In **South Africa**, Treasury Regulation 16 requires every PPP to meet **affordability, VfM and substantial risk transfer**, and any material amendment must be approved by the relevant treasury against those same three tests."
+    },
+    {
+      "heading": "6. Refinancing and the refinancing gain",
+      "body": "**Refinancing** is one of the most common major changes in operations. It is the replacement or renegotiation of the project's debt and/or equity on **more favourable terms**. Once a project is operating, lenders face lower risk and accept lower interest, so the Project Company can raise more debt for the same debt service. Refinancing may involve lower debt pricing, longer maturity, higher **gearing** (debt relative to equity), lighter reserve accounts, or release of shareholder guarantees.\n\nThe extra value is the **refinancing gain**. Equity investors usually take their share as an extraordinary dividend or early repayment of shareholder loans. The authority takes its share as a **one-off payment** or, in authority-pays PPPs, a **lower unitary charge** over time; rarely, as a pre-funded variation.\n\n**Benefits:** the Project Company is motivated to perform well; the authority is motivated to cooperate and manage risks it controls; and financing becomes more efficient.\n\nRefinancing gains can be large, but they are often forgotten in developing PPP markets, where the focus is on getting projects started.\n\n**Risks:** more debt may increase the authority's **contingent liability** if the authority has guaranteed part of the debt; higher gearing may reduce equity's incentive to stay through hard times; badly judged gain shares damage public perception; and some countries tightly regulate refinancing.\n\n**Calculation.** The gain is not simply the new money raised. It is the **net present value** of the change in equity distributions with and without refinancing, discounted at the base case **nominal post-tax equity IRR**. Details should be in the contract to avoid disputes.\n\n**Sharing.** There is no single answer. The **risks borne by the Project Company** come first. Where it takes full demand risk, a stronger private share can be argued, although gains often come from factors it does not control, such as central bank rates. The UK moved from about 70 percent to the private partner, to a 50 percent share, and later a 90 percent authority share of gains from lower debt margins. South Africa set 50/50 from 2004.\n\n**Lessons:** plan refinancing at bidding stage; **prescribe the calculation and share in the contract**; and give the authority a right to refuse consent if its risk increases.\n\n**Approvals.** Good practice is separate approval by the authority and the **Ministry of Finance**, early in the process. The authority should ask: what benefit do we get, how much new debt, how do risks and contingent liabilities change, will service standards and financial stability hold? It may refuse a refinancing that is not justified, even if it would receive a gain. The approval right does **not** cover ordinary events such as a sale of equity, refinancing already in the base case, changes only due to tax or accounting, day-to-day loan administration, or lender syndication."
+    },
+    {
+      "heading": "7. Managing fiscal risks",
+      "body": "Fiscal risk management aims to: make decision makers, especially in the **Ministry of Finance**, aware of long-term net fiscal costs; build systems to **monitor obligations** and make sure they can be met; and **disclose** obligations transparently in accounts or budget documents.\n\nIt runs through the whole lifecycle: risk assessment at identification; **quantified fiscal obligations and affordability** at feasibility; procurement documents reflecting that assessment; a **fiscal risk register** at contract award; and **monitoring and reporting against the register** in construction and operations.\n\nA **contingent liability** is a possible obligation that depends on an uncertain future event, or a present obligation where payment is not probable or cannot be measured reliably (International Accounting Standard IAS 37). Under IAS 37 a **provision** is recognised only if there is a present obligation from a past event, payment is probable (more likely than not) and the amount can be estimated reliably. Many PPP obligations fall outside these definitions, so the Guide says PPPs should also count:\n- **fixed and certain payments**, such as capital grants, unitary charges, shadow tolls, availability payments and even works done 'in kind' by government;\n- **obligations dependent on a future event**, where the obligation to pay exists but the amount or timing may not be known.\n\nBox 7.12 gives examples of uncertain fiscal obligations: **minimum revenue guarantees** (whose amount cannot be estimated reliably), **payments on termination for force majeure**, **credit guarantees**, and obligations in a **foreign currency**.\n\nPrinciples the authority should apply:\n- use **cost-benefit analysis** to select projects and **VfM analysis** to choose PPP over public finance;\n- have PPPs approved by cabinet, the finance minister or a body with an interest in future spending;\n- bear only risks the authority **can best manage** (control or influence);\n- adopt **accrual accounting** so PPPs cannot disguise fiscal obligations;\n- **publish** contracts or summaries with their costs and risks;\n- adapt budget systems to capture contingent liabilities;\n- use a **guarantee fund** and **charge fees for guarantees**.\n\nAuthorities must also decide when PPPs create direct or contingent liabilities that count as **public debt**, working closely with the finance ministry's fiscal risk team."
+    }
+  ],
+  "example": {
+    "title": "Imagine: refinancing the Eastbridge Hospital PPP",
+    "body": "Imagine an availability-payment hospital PPP in its fourth year of operations. It performs well, and interest rates have fallen. The Project Company asks the health authority to approve a refinancing that lowers its interest margin and raises extra debt, which it plans to pay out as a large dividend.\n\nThe contract already sets out how to **calculate the gain**: the net present value of the change in equity distributions, discounted at the base case nominal post-tax equity IRR. It also fixes the **share**. The authority and the **Ministry of Finance** each review the request early.\n\nTheir advisors find that the extra debt would increase the amount the authority must pay if the contract were terminated, so its **contingent liability** rises. Gearing would also rise, which may weaken the sponsors' commitment. The authority asks for less additional debt. The final deal only lowers the margin. The authority takes its share as a **reduced unitary payment** over the remaining years, and the fiscal risk register is updated. All changes to the **base case financial model** are recorded and agreed by both parties.\n\nIf the shareholders had simply sold part of their equity, the authority's refinancing approval right would **not** have applied."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking the whole unitary payment should be indexed to CPI",
+      "fix": "CPI is the default index, but the part of the payment that services debt should generally not be indexed, because loan payments do not move with CPI."
+    },
+    {
+      "trap": "Capping deductions for non-availability to protect debt service",
+      "fix": "Generally there should be no limit: the authority should not pay for unavailable services. Limits may exist only in some emerging-market projects for bankability."
+    },
+    {
+      "trap": "Measuring the refinancing gain as the amount of new debt raised",
+      "fix": "The gain is the net present value of the change in equity distributions with and without refinancing, discounted at the base case equity IRR."
+    },
+    {
+      "trap": "Assuming the authority's approval right covers every financing change",
+      "fix": "It does not cover equity sales, refinancing already in the base case, tax or accounting changes, day-to-day loan administration, or lender syndication."
+    },
+    {
+      "trap": "Confusing a contingent liability with a fixed fiscal obligation",
+      "fix": "Availability payments and unitary charges are fixed, certain obligations. A contingent liability depends on an uncertain future event, such as a guarantee being called."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Unitary payment",
+      "meaning": "The single, indivisible regular payment the authority makes for full availability and performance in an authority-pays PPP."
+    },
+    {
+      "term": "Market testing and benchmarking",
+      "meaning": "Periodic checks of soft service prices by retendering or by comparing costs to market prices, with the unitary charge adjusted."
+    },
+    {
+      "term": "Base case financial model",
+      "meaning": "The preferred bidder's model, attached to the contract and used to price changes, compensation and refinancing gains."
+    },
+    {
+      "term": "Contingency reserve",
+      "meaning": "Budget the Project Company sets aside for known-unknowns among the risks it has accepted."
+    },
+    {
+      "term": "Lifecycle renewal fund",
+      "meaning": "Cash built up over time to pay for major asset renewals, drawn down and topped up; any balance at the end usually belongs to the Project Company."
+    },
+    {
+      "term": "Refinancing gain",
+      "meaning": "The increase in value to equity from refinancing on better terms, which the contract may require to be shared with the authority."
+    },
+    {
+      "term": "Gearing",
+      "meaning": "The amount of debt relative to equity in the project's financing."
+    },
+    {
+      "term": "Contingent liability",
+      "meaning": "A possible obligation that depends on an uncertain future event, or one where payment is not probable or cannot be measured reliably."
+    },
+    {
+      "term": "Fiscal risk register",
+      "meaning": "The list of fiscal risks created at contract award and monitored and reported on in construction and operations."
+    }
+  ],
+  "summary": [
+    "Payment must be linked to performance; authority-pays uses deductions, user-pays relies on demand and on penalties set by the authority or a regulator.",
+    "Unitary payment: none before service starts, single and indivisible, CPI-indexed except the debt part, generally no cap on non-availability deductions.",
+    "The base case financial model drives variations, compensation and refinancing gain calculations; all changes must be agreed and recorded.",
+    "The Project Company holds contingency reserves and renewal funds; the authority rarely keeps reserves but needs a simple contingency plan.",
+    "In operations, regulation focuses on VfM, risk management, disciplined amendments and transparent reporting.",
+    "Refinancing gains should be calculated and shared as set in the contract, with approval by the authority and the Ministry of Finance.",
+    "Fiscal risks are tracked in a register; contingent liabilities must be recognised, budgeted and disclosed."
+  ],
+  "slides": [
+    {
+      "title": "Follow the money",
+      "points": [
+        "Payment must be linked to performance",
+        "Authority-pays: deductions from unitary payment",
+        "User-pays: penalties via authority or regulator"
+      ],
+      "narration": "In this lesson we follow the money. The Guide says the payment mechanism is the very heart of risk transfer. If the Project Company performs, it earns its full payment. If not, it earns less. In an authority-pays PPP, the authority simply makes deductions from the unitary payment. In a user-pays PPP, drivers or passengers cannot deduct anything from a toll. So the right to penalise must sit with someone who represents them, either the authority itself or an independent regulator."
+    },
+    {
+      "title": "Rules for the unitary payment",
+      "points": [
+        "Nothing paid before service starts",
+        "One indivisible payment, indexed to CPI",
+        "Debt part generally not indexed",
+        "Generally no cap on non-availability deductions"
+      ],
+      "narration": "Here are the golden rules for a unitary payment. First, pay nothing until the service starts. Second, it is one single payment, not separate pots for debt and maintenance. Third, index it, usually to the consumer price index, but generally leave the debt part unindexed, because loan payments do not rise with inflation. Fourth, deductions should match how serious the failure is. And generally there is no cap on deductions for non-availability. The public should never pay for a service it cannot use."
+    },
+    {
+      "title": "Soft services and value testing",
+      "points": [
+        "Cleaning and catering costs change over time",
+        "Market testing: retender the service",
+        "Benchmarking: compare with market prices"
+      ],
+      "narration": "Some services, like cleaning or catering, are called soft services. Their market prices can change a lot over a long contract. So the contract can include value testing at set intervals, for example every five years. There are two methods. Market testing means the Project Company retenders the service to find the real market price. Benchmarking means it compares its own costs with market prices. Either way, the unitary charge is adjusted up or down, so the authority does not overpay."
+    },
+    {
+      "title": "The model, reserves and renewals",
+      "points": [
+        "Base case model prices every change",
+        "Project Company holds contingency reserves",
+        "Renewal funds not paid out to shareholders"
+      ],
+      "narration": "The base case financial model, which is the preferred bidder's model, is the tool both parties use to price variations, compensation and refinancing gains. Every change to it must be agreed and recorded. The Project Company keeps contingency reserves for known-unknowns, and builds a lifecycle renewal fund for big replacements. Lenders and the authority make sure that money is not paid out as dividends. The authority rarely keeps reserves itself, but it does need a simple, practical contingency plan."
+    },
+    {
+      "title": "What is refinancing?",
+      "points": [
+        "Replacing debt or equity on better terms",
+        "Lower risk after construction means cheaper debt",
+        "Gain shared as the contract prescribes"
+      ],
+      "narration": "Once a project is built and running, it is less risky. Banks will lend more cheaply. So the Project Company may refinance, replacing its debt on better terms, perhaps with a lower margin, a longer maturity or higher gearing. That creates a refinancing gain. The key lesson from the Guide is to plan for this at the bidding stage and write the calculation and the sharing rules into the contract. If you leave it to negotiate later, you invite disputes or excessive private gains."
+    },
+    {
+      "title": "Approving a refinancing",
+      "points": [
+        "Separate approvals: authority and Ministry of Finance",
+        "Check new debt and contingent liabilities",
+        "May refuse if risk increases"
+      ],
+      "narration": "Before approving, the authority and the Ministry of Finance should each review the proposal, and early. They ask practical questions. What do we gain? How much new debt is being taken on? Does our contingent liability rise, for example what we would pay on termination? Will the company still have reasons to keep standards high? If the answers are bad, the authority may refuse, even if it would share in the gain. But remember, ordinary events like an equity sale do not need this approval."
+    },
+    {
+      "title": "Fiscal risks and contingent liabilities",
+      "points": [
+        "Fixed obligations: availability payments, grants",
+        "Contingent: guarantees, termination payments",
+        "Register, monitor, disclose"
+      ],
+      "narration": "Finally, fiscal risk. Some PPP obligations are fixed and certain, like availability payments and capital grants. Others depend on events that may or may not happen, like a minimum revenue guarantee or a force majeure termination payment. These are contingent. The Guide asks governments to record them in a fiscal risk register, monitor them through construction and operations, and disclose them openly. Accrual accounting, published contracts, guarantee funds and fees for guarantees all help stop PPPs from hiding the true cost."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A Procuring Authority is designing the unitary payment for a new PPP school. Which approach is consistent with the Guide's essential elements?",
+      "options": [
+        "Make an advance payment at financial close to reduce borrowing",
+        "Index the whole payment, including the debt portion, to CPI",
+        "Split the payment into a debt amount and a maintenance amount",
+        "Make no payment until service commencement, as one indivisible payment"
+      ],
+      "answer": 3,
+      "explanation": "Payments should not start before service commencement, and the unitary payment should be single and indivisible. The debt portion should generally not be indexed, and splitting the payment by use goes against the indivisible principle."
+    },
+    {
+      "question": "Lenders to an availability-payment hospital PPP ask for a cap on deductions for non-availability so debt can always be serviced. The project is in a mature PPP market. How should the authority respond?",
+      "options": [
+        "Refuse, because generally there should be no limit on non-availability deductions",
+        "Agree, because debt service is a fixed cost of the Project Company",
+        "Agree, provided the cap equals the debt portion of the payment",
+        "Refuse, and instead index the debt portion to CPI"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says generally there should be no limit, because the authority should not pay for unavailable services. Limits may appear only in some emerging-market projects for bankability, which is not the case here."
+    },
+    {
+      "question": "Ten years into a PPP, the authority suspects that the catering price in the unitary charge is now above market level. Which contract feature allows it to address this?",
+      "options": [
+        "A refinancing gain share",
+        "Market testing or benchmarking of soft services",
+        "The long stop date",
+        "A performance reserve account"
+      ],
+      "answer": 1,
+      "explanation": "Market testing (retendering) or benchmarking (comparing costs to market prices) at regular intervals lets soft service prices be revised, with the unitary charge adjusted up or down."
+    },
+    {
+      "question": "Statement 1: The Procuring Authority's own pre-procurement model becomes the base case financial model attached to the contract. Statement 2: Any balance left in the lifecycle renewal fund at contract end usually belongs to the Project Company.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The preferred bidder's model becomes the base case, because the authority's model only reflects a hypothetical bid. Remaining renewal fund cash usually belongs to the Project Company as a reward for efficiency."
+    },
+    {
+      "question": "A finance ministry official proposes that a Procuring Authority keep a large cash reserve for possible termination payments on its PPP. What does the Guide suggest instead?",
+      "options": [
+        "Buy insurance against all forms of termination",
+        "Ask the Project Company to fund the reserve",
+        "Monitor and report the risk of termination to the relevant ministry",
+        "Include the full termination sum in every annual budget"
+      ],
+      "answer": 2,
+      "explanation": "Authorities do not normally keep reserves for termination, because it is unlikely and often within their control. The risk of termination following Project Company breach should be regularly monitored and reported instead."
+    },
+    {
+      "question": "An operating toll road Project Company wants to refinance. Its adviser says the refinancing gain equals the extra debt raised. How should the authority's team calculate the gain?",
+      "options": [
+        "As the net present value of the change in equity distributions, discounted at the base case equity IRR",
+        "As the total amount of new debt raised minus fees",
+        "As the reduction in annual interest multiplied by the remaining years",
+        "As the increase in the unitary payment needed after refinancing"
+      ],
+      "answer": 0,
+      "explanation": "The gain is not simply the extra finance raised. It is the net present value of distributions with refinancing compared with without, discounted at the nominal post-tax equity IRR in the base case model."
+    },
+    {
+      "question": "A Project Company asks for approval of a refinancing that adds a lot of debt. The authority would receive a gain share, but its termination liability would rise and gearing would increase sharply. What should the authority do?",
+      "options": [
+        "Approve, because refusing would mean losing the gain share",
+        "Approve, but only if the lenders agree to extend maturity",
+        "Refer the request to an independent expert for a binding decision",
+        "Assess the risks objectively and refuse if the refinancing is not justified"
+      ],
+      "answer": 3,
+      "explanation": "After quantified expert answers, the authority may for good reasons refuse a refinancing despite the chance to share gains. Increased contingent liability and higher gearing are exactly the risks it must weigh."
+    },
+    {
+      "question": "Which of these events is NOT normally covered by the authority's right to approve a refinancing?",
+      "options": [
+        "Increasing the debt to pay a special dividend",
+        "Extending debt maturity to raise extra finance",
+        "A sale of part of the shareholders' equity",
+        "Reducing reserve account requirements to release cash"
+      ],
+      "answer": 2,
+      "explanation": "The Guide excludes a sale or cession of equity or shareholder loans from the refinancing approval right, together with base-case refinancings, tax or accounting changes, routine loan administration and syndication."
+    },
+    {
+      "question": "A government is reviewing the obligations from its PPP programme. Which of these is an example of a contingent liability rather than a fixed and certain obligation?",
+      "options": [
+        "Monthly availability payments to a hospital PPP",
+        "A capital grant paid at completion of construction",
+        "Unitary charge payments for a school PPP",
+        "A minimum revenue guarantee on a toll road"
+      ],
+      "answer": 3,
+      "explanation": "A minimum revenue guarantee depends on uncertain future traffic, so its amount cannot be estimated reliably. Availability payments, capital grants and unitary charges are fixed and certain obligations under the contract."
+    },
+    {
+      "question": "During the operations stage, the regulatory framework requires the authority to handle a large proposed amendment to a PPP contract. What standard should the amendment meet?",
+      "options": [
+        "The same VfM and risk transfer basis as the original project",
+        "Only the agreement of the Project Company's lenders",
+        "A lower standard, because the PPP decision was already made",
+        "Approval by the independent certifier from construction"
+      ],
+      "answer": 0,
+      "explanation": "In operations, the framework must ensure that amendments and variations are made on the same basis as the original project, offering VfM and risk transfer. In South Africa, for example, material amendments need treasury approval on VfM, affordability and risk transfer."
+    }
+  ]
+}

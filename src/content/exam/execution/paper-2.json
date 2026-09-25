@@ -1,0 +1,1148 @@
+{
+  "id": "exec-2",
+  "level": "execution",
+  "title": "Veloria Container Terminal 3 Concession",
+  "sector": "Ports (container terminal)",
+  "scenario": "## The Union of Caledra and the Port of Veloria\n\nThe Union of Caledra is a middle-income coastal country with 34 million people. About 80 percent of its foreign trade by value passes through the Port of Veloria. The port's two container terminals are operated by the state-owned Caledra National Ports Authority (CNPA). In 2025 they handled 1.15 million TEU (twenty-foot equivalent units), against a design capacity of 1.2 million TEU. Ships now wait three days on average for a berth. Two global shipping lines have warned that they may move their transshipment business to a port in a neighbouring country.\n\n## The project\n\nIn January 2026 the Council of Ministers approved the appraisal of **Veloria Container Terminal 3 (VCT3)** as a public-private partnership (PPP). VCT3 will add a 1,400-metre quay wall on reclaimed land, a 62-hectare container yard and a capacity of 1.5 million TEU a year. CNPA's official estimate of capital expenditure (CapEx) is **CLD 900 million** (Caledran dinars, 2026 prices). Construction is expected to take 36 months.\n\nVCT3 will be procured as a **30-year design-build-finance-operate-maintain concession**. It is a **user-pays** project. The project company will collect terminal handling charges from shipping lines, up to the maximum tariffs set by the port regulator. It will pay CNPA a fixed annual concession fee of CLD 12 million plus a **variable concession fee**, expressed as a percentage of gross revenue. The variable fee is the price criterion in the evaluation (60 percent weighting); the technical proposal carries 40 percent. The project company will take design, construction, operating and demand risk. At expiry, the terminal will be handed back to CNPA.\n\nThe government will keep some responsibilities. CNPA will dredge the approach channel. The Ministry of Transport will build a new 6-kilometre access road, due for handover in month 10 of construction. To make the project bankable in a market with no track record of port PPPs, the **Ministry of Finance (MoF) will provide a partial credit guarantee covering 40 percent of the project company's senior debt**.\n\n## Institutions and legal framework\n\n- **CNPA** is the procuring authority. Its board is chaired by the Minister of Transport. In 2026 it set up a Contract Management Unit. The future contract manager joined the project team during structuring.\n- **The PPP Unit of the MoF** reviews every stage of the project, approves affordability and fiscal commitments, and keeps the government's fiscal risk register for PPPs.\n- **The Attorney General's Office** must review the tender documents and the draft contract before any tender is launched.\n- **The Caledra Ports Regulatory Commission (CPRC)** is an independent regulator. It sets maximum terminal handling tariffs through a periodic review every five years. Between reviews, the concession contract indexes the tariff caps each year to the Consumer Price Index (CPI). The contract also gives CPRC and CNPA powers to apply penalties for poor service quality.\n\nThe **PPP Law of 2021**:\n- allows competitive dialogue for complex projects;\n- requires a staged evaluation, in which the technical evaluation is completed and sealed before financial envelopes are opened;\n- requires signed PPP contracts to be published;\n- sets a standstill period of 10 working days between the award decision and contract signature, and gives the Commercial Court jurisdiction over tender challenges;\n- requires the MoF to appoint an independent probity adviser for projects above CLD 500 million.\n\n## Stakeholders\n\nThe dockworkers' union fears job losses from automation. Veloria City Council is concerned about truck traffic through the city centre. Environmental groups want the mangroves north of the port protected. Shipping lines want lower waiting times but resist higher tariffs. Potential lenders include the Caledra Development Bank, a regional development bank and several international commercial banks.\n\n## Objectives\n\nThe government's objectives for VCT3 are to:\n1. increase container capacity by 1.5 million TEU a year;\n2. reduce the average waiting time of ships to under 12 hours;\n3. keep terminal charges affordable and regulated;\n4. avoid any net cost to the budget, other than the partial credit guarantee;\n5. achieve value for money by transferring design, construction, operating and demand risk to the private partner;\n6. meet national and international environmental and social standards.\n\n## Planned timeline\n\n| Milestone | Date |\n|---|---|\n| Appraisal approved | January 2026 |\n| Structuring and preparation of the tender package | February to November 2026 |\n| RFQ launched | January 2027 |\n| Short list of three consortia | April 2027 |\n| Competitive dialogue | June to October 2027 |\n| Final tenders due | January 2028 |\n| Award decision | March 2028 |\n| Commercial and financial close | June 2028 |\n| Construction | July 2028 to June 2031 |\n| Operations | July 2031 to June 2058 |\n\nCNPA has hired a consortium of transaction advisers (legal, financial and technical). The advisers prepared the first draft of the tender package in October 2026.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "SC",
+      "title": "Structuring and Drafting the Tender and Contract",
+      "additionalInfo": "**Extracts from the advisers' draft tender package for VCT3 (October 2026)**\n\n1. **Form of bid bond.** Bidders may provide either an unconditional, irrevocable bank guarantee payable on first demand, or a letter from the parent company's board promising to pay if an arbitration tribunal later decides that the bond is due.\n2. **Insurance.** Each bidder must take out, and pay the premium for, the construction all-risks insurance policy before it submits its final tender.\n3. **Validity of tenders.** Final tenders are binding for 180 days. After that, a bidder may withdraw without losing its bid bond.\n4. **Special purpose vehicle (SPV).** Each consortium must incorporate its SPV in Caledra, with paid-up capital of CLD 5 million, before it submits its final tender.\n5. **Termination for convenience.** If CNPA terminates the concession in the public interest, it will pay the net book value of the terminal assets and nothing else.\n6. **Performance guarantee.** The project company must provide an on-demand guarantee of 4 percent of CapEx during construction and 2 percent during operations, indexed to CPI. It must restore the full amount whenever CNPA calls the guarantee.\n7. **Termination for project company default.** CNPA will take over the terminal, call the performance guarantee and pay no compensation of any kind to the project company or its lenders.\n8. **Renewal reserve fund.** The project company may use the renewal reserve fund for any purpose, including distributions to shareholders, without CNPA's authorisation.",
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about the tender and contract provisions that CNPA is drafting. Select ONE answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "What is the main purpose of the bid bond that the VCT3 RFP will require?",
+              "options": [
+                "To fund any penalties that the project company accrues during construction",
+                "To protect CNPA against the risk that the successful bidder does not sign the contract",
+                "To guarantee that a short-listed consortium stays in the dialogue until final tenders",
+                "To reimburse CNPA for the cost of preparing the tender documents"
+              ],
+              "answer": 1,
+              "explanation": "The bid bond protects the procuring authority against the risk that the successful bidder fails to sign the contract; it is called if the awarded bidder does not proceed. Funding penalties is the role of the performance guarantee, not the bid bond. A bond to keep candidates in a dialogue is a separate dialogue bond.",
+              "ref": "Ch 5 §8.1, p. 123"
+            },
+            {
+              "id": "1a-2",
+              "stem": "Lenders to VCT3 will ask for step-in rights set out in a direct agreement. Who are normally the parties to that direct agreement?",
+              "options": [
+                "CNPA and the lenders only",
+                "The project company and its construction subcontractor",
+                "The lenders and the shareholders of the project company",
+                "CNPA, the project company and the lenders"
+              ],
+              "answer": 3,
+              "explanation": "The procuring authority signs a direct agreement with the lenders and the project company. This creates the mechanism for lenders to step in and remedy defaults. A two-party agreement between CNPA and the lenders leaves out the project company, whose rights and obligations the lenders assume.",
+              "ref": "Ch 7 §10.2.2.2, p. 82"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Answer the following questions about how CNPA should apply the Guide to the VCT3 tender. Select ONE answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "CNPA's official CapEx estimate for VCT3 is CLD 900 million. Which bid bond amount is in line with typical practice?",
+              "options": [
+                "CLD 2 million",
+                "CLD 45 million",
+                "CLD 90 million",
+                "CLD 13.5 million"
+              ],
+              "answer": 3,
+              "explanation": "The most typical bid bond is 1 to 2 percent of the value of the project, normally taken from the authority's official CapEx estimate. For CLD 900 million this is CLD 9 to 18 million, so CLD 13.5 million (1.5 percent) fits. CLD 45 million (5 percent) is above even the 2 to 4 percent range used for performance guarantees and would discourage bidders.",
+              "ref": "Ch 5 §8.1, p. 124"
+            },
+            {
+              "id": "1b-2",
+              "stem": "The advisers sounded out investors, contractors and lenders during the Appraisal Phase. They now propose to launch the RFQ in January 2027 without any further contact with the market. What should CNPA do?",
+              "options": [
+                "Accept the proposal, because a project sounded out at appraisal needs no further market contact",
+                "Still market the project, with at least one industry meeting and a Project Information Memorandum on a project web page",
+                "Hold private meetings with the two global operators most likely to bid, to confirm their interest",
+                "Replace the industry meeting with public hearings for the dockworkers' union and the City Council"
+              ],
+              "answer": 1,
+              "explanation": "Even when no further testing is needed, the project should still be marketed, with at least an industry meeting and a detailed Project Information Memorandum. This lets bidders prepare and form consortia. Private meetings with only two operators would break the level playing field. Public hearings are communication with the public, not marketing to industry.",
+              "ref": "Ch 5 §6, p. 101"
+            },
+            {
+              "id": "1b-3",
+              "stem": "CNPA will short-list only three consortia for a five-month competitive dialogue that needs costly design work. If one consortium leaves, competition will be weak. Should CNPA require a dialogue (participation) bond?",
+              "options": [
+                "Yes, submitted at the start of the dialogue, because bidders are few, participation is costly and abandonment would seriously harm CNPA",
+                "No, because such bonds are never appropriate in a competitive dialogue",
+                "No, because the bid bond submitted with the final tender already covers withdrawal during the dialogue",
+                "Yes, but only from the consortium that was ranked first at the RFQ stage"
+              ],
+              "answer": 0,
+              "explanation": "A bond to guarantee participation should be considered case by case, only where there are few bidders (for example no more than three), the effort is large and abandonment would have significant consequences. VCT3 meets all three conditions, and the bond is submitted at the start of the dialogue. The final-tender bid bond does not help, because it only exists once final tenders are submitted.",
+              "ref": "Ch 5 §8.3, p. 137"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 1, Column 1 lists provisions from the advisers' draft tender package. For each provision in Column 1, select from Column 2 the action CNPA should take. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Keep as drafted: it is consistent with good practice",
+            "Revise: it imposes an unnecessary cost or commitment on bidders before award",
+            "Revise: it gives the private partner or its lenders less protection than good practice requires",
+            "Revise: it weakens CNPA's protection against the failure of a bidder or of the project company"
+          ],
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "Item 1: a parent-company letter, payable only after an arbitration decision, is accepted as a bid bond",
+              "answer": 3,
+              "explanation": "Bid bonds should be unconditional, irrevocable and executable on first demand, and the RFP should state which instruments are acceptable. A letter payable only after arbitration cannot be called quickly if the winner refuses to sign, so it weakens CNPA's protection. It does not burden bidders; it does the opposite.",
+              "ref": "Ch 5 §8.1, p. 124"
+            },
+            {
+              "id": "1c-2",
+              "stem": "Item 2: bidders must take out and pay for construction all-risks insurance before submitting final tenders",
+              "answer": 1,
+              "explanation": "Good practice is to ask for evidence that the required insurance is available; it is not necessary to take out insurance until contract signature. Requiring all three consortia to pay premiums before award is an unnecessary cost. It does not reduce CNPA's protection, because insurance will be in place before signature.",
+              "ref": "Ch 5 §8.1, p. 122"
+            },
+            {
+              "id": "1c-3",
+              "stem": "Item 3: final tenders are binding for 180 days, after which bidders may withdraw without losing the bid bond",
+              "answer": 0,
+              "explanation": "It is good practice to limit the validity of proposals (for example to 180 days) so bidders are protected from undue delays. After that period bidders confirm their offers or may withdraw without losing the bid bond. The draft follows this exactly, so no change is needed.",
+              "ref": "Ch 5 §8.1, p. 122"
+            },
+            {
+              "id": "1c-4",
+              "stem": "Item 4: each consortium must incorporate its SPV, with CLD 5 million paid-up capital, before submitting its final tender",
+              "answer": 1,
+              "explanation": "Bidders may be asked for the articles of association of the future SPV, but requesting its establishment before award is not standard or good practice. Establishing the SPV is a prior condition for contract signature. Requiring it from every bidder with paid-up capital is an unnecessary cost before award.",
+              "ref": "Ch 5 §8.1, p. 122"
+            },
+            {
+              "id": "1c-5",
+              "stem": "Item 5: on termination for convenience, CNPA pays only the net book value of the terminal assets",
+              "answer": 2,
+              "explanation": "On termination for convenience the private partner should be compensated in full: outstanding debt and breakage costs, outstanding equity and a sum for the opportunity cost of equity. Net book value is a method used for private partner default, not for the government's own decision to terminate. The draft gives the private partner and lenders too little protection and harms bankability.",
+              "ref": "Ch 5 §9.9, p. 158"
+            },
+            {
+              "id": "1c-6",
+              "stem": "Item 6: an on-demand performance guarantee of 4 percent of CapEx in construction and 2 percent in operations, CPI-indexed and restored after each call",
+              "answer": 0,
+              "explanation": "A performance guarantee is usually irrevocable and on demand, typically 2 to 4 percent of CapEx, higher in construction than in operations and often indexed to CPI. The private partner must renew it when it is called. The draft matches this practice.",
+              "ref": "Ch 5 §9.5, p. 152"
+            },
+            {
+              "id": "1c-7",
+              "stem": "Item 7: on termination for project company default, CNPA takes the terminal and pays no compensation to the project company or its lenders",
+              "answer": 2,
+              "explanation": "Even for private partner default, the contract should give the private partner, or at least the lenders, a right to compensation, because the government receives the asset. No compensation would be a windfall for CNPA and a perverse incentive to terminate. Calling the performance guarantee is acceptable, but it does not replace the compensation sum.",
+              "ref": "Ch 5 §9.9, p. 159"
+            },
+            {
+              "id": "1c-8",
+              "stem": "Item 8: the project company may use the renewal reserve fund for any purpose, including shareholder distributions, without CNPA authorisation",
+              "answer": 3,
+              "explanation": "It is good practice to limit when reserve funds can be used; any use other than renewal or major maintenance should need the procuring authority's specific authorisation. Letting shareholders take the reserve weakens CNPA's protection against the project company failing to fund renewals, which leads to a run-down terminal and poor handback. It does not affect bidders' costs before award.",
+              "ref": "Ch 5 §9.5, p. 152"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Answer the following questions about CNPA's final structuring decisions before launch. Each question needs TWO answers.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "In November 2026 the project team reports the status below as part of the control check. Which 2 issues should CNPA resolve before it launches the tender?",
+              "options": [
+                "The updated financial model shows equity returns and lender ratios still within the ranges estimated at appraisal",
+                "No geotechnical survey of the quay-wall area has been done, yet the draft contract transfers all ground-condition risk to the project company",
+                "Two industry meetings have been held and a Project Information Memorandum has been published",
+                "The scope has not changed since appraisal, so the value for money assessment has not been repeated",
+                "The Attorney General's Office has not yet reviewed the draft contract and RFP, although the PPP Law requires this before launch"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "Before launch, the procuring authority should confirm that all conditions are met. For a significant structure such as a quay wall, a geotechnical study should be done and/or ground risk shared on baseline conditions. Legally required approvals, here by the Attorney General, must also be in place. The updated model and an unchanged scope are satisfactory results that need no action.",
+              "ref": "Ch 5 Box 5.38, p. 164"
+            },
+            {
+              "id": "1d-2",
+              "stem": "During market testing, lenders said they would only lend to VCT3 if their position is protected when the project company fails. They asked for step-in rights and for penalty deductions to be suspended during any step-in. Which 2 approaches should CNPA adopt?",
+              "options": [
+                "Suspend penalty deductions during a lender step-in so that the lenders can restore performance",
+                "Leave lender step-in rights out of the contract and negotiate them only if a default occurs",
+                "Provide in a direct agreement that lenders may step in, and bring in a new operator, to cure a default before CNPA terminates",
+                "At financial close, check that the finance documents create no risks or obligations for CNPA beyond those in the concession contract",
+                "Require the lenders to step in whenever a single penalty is imposed on the project company"
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "Rather than terminating, the government may let lenders step in and bring in a different contractor to restore performance; this is set out in advance in a direct agreement, not negotiated after a default. At financial close the authority validates the finance documents to check they create no risk or responsibility beyond the contract, and validates the lenders' rights. The request to suspend penalties should be refused, because the procuring authority must not suffer from a step-in and penalty deductions continue.",
+              "ref": "Ch 5 §9.9, p. 158; Ch 6 §13, p. 32"
+            },
+            {
+              "id": "1d-3",
+              "stem": "The draft contract says that CNPA has the final right to interpret the contract, and that the project company may only appeal to the administrative courts. The PPP Law says nothing about government immunity. Which 2 changes should CNPA make?",
+              "options": [
+                "Add a contractual dispute resolution procedure, for example a dispute resolution board of independent experts",
+                "Keep the right of interpretation, and give CPRC exclusive power over all contract disputes",
+                "Require every dispute to be heard outside Caledra, whatever the government's sovereignty concerns",
+                "Delete all dispute provisions so that the courts can decide each case as it arises",
+                "Include a waiver by the government of any immunity from claims under the contract"
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "A reserved right of interpretation with only a court appeal is costly and puts service continuity at risk. It is good practice to include specific dispute resolution provisions, such as a dispute resolution board. Unless the PPP Law already provides one, the contract should include a waiver of government immunity, otherwise bidders will not bid. Moving every dispute abroad ignores the realistic balance the Guide asks for on location.",
+              "ref": "Ch 5 §9.8, p. 157"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Each question describes a proposal by the advisers. For each question, select the ONE option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "The advisers propose that bidders should not submit a financial model, because VCT3 is a user-pays concession.",
+              "options": [
+                "CNPA should accept the proposal BECAUSE in a user-pays concession the financial sustainability of the project company is a matter for its lenders only",
+                "CNPA should require a financial model prepared to an RFP template with common macroeconomic assumptions BECAUSE the model will be needed to calculate compensation and contract changes during the concession",
+                "CNPA should require a financial model but let each bidder choose its own inflation assumption BECAUSE inflation risk is always transferred to the private partner"
+              ],
+              "answer": 1,
+              "explanation": "The Guide advocates that a financial model be a bid requirement, with a template that defines assumptions such as inflation. The government is concerned with the project company's financial sustainability, and the model governs later calculations of changes and compensation. The first option is wrong because financial sustainability also matters to the government in a user-pays concession.",
+              "ref": "Ch 5 §8.1, p. 124"
+            },
+            {
+              "id": "1e-2",
+              "stem": "The advisers propose that 10 percent of the price score should reward bidders that offer a shorter construction period.",
+              "options": [
+                "CNPA should keep the criterion BECAUSE in a user-pays concession revenue only starts when the terminal begins operating",
+                "CNPA should remove the criterion BECAUSE numerical criteria other than price can never be used in a PPP evaluation",
+                "CNPA should remove the criterion BECAUSE the user-pays revenue regime already gives bidders an incentive to complete construction early"
+              ],
+              "answer": 2,
+              "explanation": "Evaluating bidders on a shorter construction period is undesirable, especially where the revenue regime already creates an incentive to accelerate construction. In VCT3, terminal handling charges are collected only once the terminal operates. The first option states a true fact, but that fact supports removing the criterion, not keeping it. The second reason is false, because other numerical criteria can be used.",
+              "ref": "Ch 5 §8.2, p. 126"
+            },
+            {
+              "id": "1e-3",
+              "stem": "The draft contract says that after a compensation event the project company will be restored by keeping the net present value of project revenues and costs unchanged.",
+              "options": [
+                "The contract should restore the base-case equity IRR while respecting the minimum DSCR BECAUSE using the NPV of project revenues and costs may not fully compensate the private partner",
+                "The contract should keep the NPV method BECAUSE it is the approach that best protects the equity investors",
+                "The contract should compensate only by extending the concession term BECAUSE an extension never affects the project company's debt covenants"
+              ],
+              "answer": 0,
+              "explanation": "Good practice is for the contract to restore the equity IRR and respect the minimum DSCR. Using the NPV of project revenues and costs is not good practice because it may not fully compensate the private party. An extension may be used only when it does not affect debt covenants, so the third reason is false.",
+              "ref": "Ch 5 §9.4, p. 150"
+            },
+            {
+              "id": "1e-4",
+              "stem": "The draft RFP fixes the number of cranes and yard staff, and the technical score rewards bidders that commit more workers.",
+              "options": [
+                "CNPA should keep scoring the number of workers BECAUSE inputs are the most objective evidence of future service quality",
+                "CNPA should remove all technical requirements from the RFP BECAUSE the project company bears the operating risk",
+                "CNPA should set output requirements such as crane productivity and ship waiting time, and check that proposed means meet minimum requirements BECAUSE PPP specifications focus on outputs rather than inputs"
+              ],
+              "answer": 2,
+              "explanation": "PPP requirements should not be prescriptive. Service requirements should be set through KPIs, and the technical evaluation should check that the bidder's means meet the minimum requirements, not score inputs committed. Removing all technical requirements goes too far, because minimum requirements and a technical evaluation are still needed.",
+              "ref": "Ch 5 §8.2, p. 130"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "TA",
+      "title": "Tendering and Awarding the Contract",
+      "additionalInfo": "**Tender progress report to the CNPA Board, March 2028**\n\n- **Short list (April 2027):** the Meridian consortium, the Boreal Ports consortium and the Coastline Logistics consortium.\n- **Dialogue (June to October 2027):** twelve one-on-one meetings were held. The probity adviser reports that at three meetings only the project director attended and no minutes were taken. At one of these meetings the director gave Meridian an updated traffic forecast that the other consortia did not receive.\n- **October 2027:** Boreal withdrew after its lead partner was taken over by another company.\n- **Final RFP:** issued 1 November 2027; deadline 15 January 2028. The RFP lists the bid bond as a basic element of the legal/administrative envelope, and reserves CNPA's right to end the tender if only one valid tender is received.\n- **November 2027:** Coastline asked in writing what 'berth availability' means in the penalty schedule. The question reveals nothing about its own solution.\n- **December 2027:** Coastline asked for a six-week extension because its lenders' credit committees meet in February. Meridian said it was ready to submit on time.\n- **2 January 2028:** CNPA found a seabed contamination survey, relevant to dredging costs, that had never been placed in the data room.\n- **Final tenders:** Coastline's tender did not include a bid bond. In Meridian's tender, one page of the health and safety plan was not initialled by its author. The tender as a whole is duly signed by authorised representatives and contains all the required documents.\n- **Result:** Meridian's is the only valid tender. It offers a variable fee of 11 percent of gross revenue. The appraisal's prudent estimate was 9 to 13 percent.\n- **After the award decision (10 March 2028):**\n  - Coastline filed a challenge in the Commercial Court within the standstill period.\n  - Meridian asked to cut its variable fee from 11 to 8 percent because steel prices have risen.\n  - Meridian asked CNPA to keep the whole signed contract confidential.\n  - Boreal and Coastline asked for a debriefing comparing their bids in detail with Meridian's.",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about managing a PPP tender. Select ONE answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "According to the Guide, what is the best way for a procuring authority to deal with the time bidders need to prepare their offers?",
+              "options": [
+                "Set a short deadline to keep up pressure, and extend it later if bidders complain",
+                "Always apply the legal minimum period so that no bidder is advantaged",
+                "Set a realistic deadline from the start, based on a properly prepared project",
+                "Let the bidders agree among themselves on the submission date"
+              ],
+              "answer": 2,
+              "explanation": "The best practice for time issues is a realistic deadline based on a properly prepared project. Relying on short periods and correcting them later with extensions is a common mistake, because changes to the timetable look unreliable. The legal minimum may not be enough for a complex project and must be decided case by case.",
+              "ref": "Ch 6 §6.7, p. 17"
+            },
+            {
+              "id": "2a-2",
+              "stem": "What is the role of an independent probity practitioner (such as the probity adviser required by Caledra's PPP Law) in a PPP tender?",
+              "options": [
+                "To monitor the process independently, receive bidders' concerns during the tender, and confirm that the evaluation met the required standards",
+                "To chair the evaluation committee and cast the deciding vote on the award",
+                "To negotiate the final contract terms with the preferred bidder on behalf of the authority",
+                "To carry out an audit of the tender only after the contract has been signed"
+              ],
+              "answer": 0,
+              "explanation": "A probity practitioner is independent of the project team. They monitor the bidding process, receive complaints during it, attend critical evaluation stages and confirm that the evaluation followed the requirements. They do not take part in evaluation decisions. Ex-post audits are a separate role, often carried out by auditors-general.",
+              "ref": "Ch 6 §14, p. 34"
+            },
+            {
+              "id": "2a-3",
+              "stem": "What is a 'standstill period'?",
+              "options": [
+                "The period during which final tenders must remain valid and binding",
+                "The period between contract signature and financial close",
+                "A pause in dialogue meetings while the authority evaluates proposals",
+                "A period between the award decision and contract signature, during which rejected bidders may challenge the award"
+              ],
+              "answer": 3,
+              "explanation": "A standstill period is a minimum period between the award decision and conclusion of the contract, during which rejected bidders can review the decision and challenge it. Challenges are then prohibited after it expires. Tender validity is a different concept, set in the RFP to protect bidders from delays.",
+              "ref": "Ch 6 §11, p. 27"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "sequencing",
+          "level": 3,
+          "instruction": "Caledra's PPP Law requires a staged evaluation. Column 1 lists activities that CNPA will carry out from the receipt of final tenders to the end of the Tender Phase. For each activity, select from Column 2 its position in the sequence. Each position in Column 2 is used exactly once.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "First activity",
+            "Second activity",
+            "Third activity",
+            "Fourth activity",
+            "Fifth activity",
+            "Sixth activity"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Open the financial envelopes and score the variable concession fee offers",
+              "answer": 2,
+              "explanation": "Under a staged evaluation, which Caledra's law requires, the financial envelope is opened only once the technical evaluation is finished and sealed. It is therefore third, after the compliance check and the technical scoring.",
+              "ref": "Ch 6 §9.3, p. 23"
+            },
+            {
+              "id": "2b-2",
+              "stem": "Debrief the successful and unsuccessful bidders",
+              "answer": 5,
+              "explanation": "The Guide recommends debriefing both successful and unsuccessful bidders after the contract has been executed. It is therefore the last of these activities.",
+              "ref": "Ch 6 §12.4, p. 31"
+            },
+            {
+              "id": "2b-3",
+              "stem": "Check each final tender for administrative compliance, including signatures, powers of attorney and the bid bond",
+              "answer": 0,
+              "explanation": "The first step in evaluation is the review of formal or administrative requirements, such as valid powers and signatures. These checks must be done before the evaluation of the proposal in the strict sense.",
+              "ref": "Ch 6 §9.1, p. 21"
+            },
+            {
+              "id": "2b-4",
+              "stem": "Sign the concession contract with the successful bidder's SPV",
+              "answer": 4,
+              "explanation": "After the award becomes definitive (with any standstill period passed), the successful bidder meets the prior conditions and signs the contract through its SPV. This comes after the award decision and before the debriefing.",
+              "ref": "Ch 6 §12.1, p. 30"
+            },
+            {
+              "id": "2b-5",
+              "stem": "Score the technical proposals against the RFP criteria and seal the technical evaluation",
+              "answer": 1,
+              "explanation": "In a staged process the technical or qualitative evaluation is completed and sealed before the financial offer is opened. It follows the compliance check, so it is second.",
+              "ref": "Ch 6 §9.3, p. 23"
+            },
+            {
+              "id": "2b-6",
+              "stem": "Make the award decision on the recommendation of the evaluation committee",
+              "answer": 3,
+              "explanation": "Once the tenders have been evaluated against the RFP criteria, the relevant authority makes the award decision, usually on the evaluation team's recommendation. Contract signature can only follow this decision.",
+              "ref": "Ch 6 §11, p. 27"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 2, Column 1 lists situations that arose during the VCT3 tender. For each situation in Column 1, select from Column 2 the most appropriate response by CNPA. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Answer the request and share the response with all bidders",
+            "Release the information to all bidders and extend the submission deadline",
+            "Refuse the request, because it would be a material change",
+            "Allow the bidder to correct the error",
+            "Reject the tender as non-compliant"
+          ],
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "Coastline's written question on the meaning of 'berth availability' in the penalty schedule",
+              "answer": 0,
+              "explanation": "This is a true clarification: it removes ambiguity without changing the RFP. Responses should be shared with all bidders for transparency and to help them submit better bids. The question does not reveal Coastline's own solution, so there is no reason to answer only Coastline.",
+              "ref": "Ch 6 §6.3, p. 16"
+            },
+            {
+              "id": "2c-2",
+              "stem": "The seabed contamination survey, relevant to dredging costs, that was never placed in the data room",
+              "answer": 1,
+              "explanation": "When additional data that should have been in the data room is found, the authority must manage the late release. The data must reach all bidders, and an extension may be appropriate so they can adjust their bids. With only 13 days left and a cost-relevant survey, releasing it and extending is the right response.",
+              "ref": "Ch 6 §6.4, p. 17"
+            },
+            {
+              "id": "2c-3",
+              "stem": "One page of Meridian's health and safety plan was not initialled by its author, but the tender is duly signed and complete",
+              "answer": 3,
+              "explanation": "Where errors are remediable, bidders are customarily given the chance to correct them, but only for immaterial errors and not basic elements of the proposal. A missing initial on one page, in a duly signed and complete tender, is immaterial.",
+              "ref": "Ch 6 §9.1, p. 22"
+            },
+            {
+              "id": "2c-4",
+              "stem": "Meridian's request, after the award decision, to cut the variable concession fee from 11 to 8 percent",
+              "answer": 2,
+              "explanation": "Any material change that could have made another bidder bid differently is forbidden in most jurisdictions. The variable fee is the price criterion itself, so the request should be refused, even at the risk of the contract not being signed. Minor clarifications to fix mistakes are allowed, but this is not a clarification.",
+              "ref": "Ch 6 §12.2, p. 30"
+            },
+            {
+              "id": "2c-5",
+              "stem": "Coastline's final tender submitted without a bid bond",
+              "answer": 4,
+              "explanation": "The RFP lists the bid bond as a basic element of the legal/administrative envelope, and the compliance check identifies missing parts of the bid. Correction is allowed only for immaterial errors, not basic elements of the proposal, and a material lack of information may result in disqualification. Letting Coastline add a bond after submission would favour it over Meridian, unlike the missing initial in 2c-3.",
+              "ref": "Ch 6 §9.1, p. 22; Ch 5 §8.1, p. 123"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions. Each question needs TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "Looking at the problems in the dialogue meetings, which 2 measures should CNPA have applied (and should apply in future dialogues)?",
+              "options": [
+                "Replace one-on-one meetings with informal phone calls to save staff time",
+                "Ensure that at least two CNPA representatives attend each meeting, and keep attendance records and minutes",
+                "Allow each consortium to choose which CNPA officials attend its meetings",
+                "Share each consortium's proposed technical solutions with the other consortia to keep treatment equal",
+                "Use a pre-prepared script so that the same questions are answered in the same way in every meeting"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The report shows single-person meetings without minutes and information given to Meridian only. The Guide's measures include at least two government representatives, records and minutes, and a pre-prepared script so questions are answered the same way. Sharing one consortium's solutions with others would breach confidentiality, which must be managed alongside fairness.",
+              "ref": "Ch 6 §8.1, p. 20"
+            },
+            {
+              "id": "2d-2",
+              "stem": "Meridian's is the only valid tender. Which 2 statements describe how CNPA should approach this situation?",
+              "options": [
+                "Assess whether Meridian's tender offers value for money and, if it does not, use the RFP right to end the tender and retender",
+                "Allow Coastline to submit its bid bond now so that there are two valid tenders",
+                "Invite Meridian to propose changes to the risk allocation to improve its offer",
+                "Recognise that CNPA's bargaining position would be weak in any direct negotiation with Meridian",
+                "Award the contract automatically, because a single valid tender proves that the market supports the project"
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "With a sole valid bid, the authority is in a weak bargaining position because it has no alternative bidder. A single valid bid may still offer poor value for money, so it is good practice to reserve the right to end the tender and retender. CNPA reserved this right in the RFP. Meridian's 11 percent fee lies within the prudent 9 to 13 percent range, which helps that assessment. Readmitting Coastline or reopening the risk allocation would undermine the process.",
+              "ref": "Ch 6 §11.2, p. 29"
+            },
+            {
+              "id": "2d-3",
+              "stem": "Coastline has challenged the award in the Commercial Court during the standstill period. Which 2 statements are correct?",
+              "options": [
+                "CNPA should sign the contract with Meridian at once, so that the challenge has no effect",
+                "A challenge made after award can only concern the price offered by the winner",
+                "The court may temporarily suspend the award process while it examines the challenge",
+                "Any challenge automatically requires CNPA to retender the project",
+                "CNPA must engage legal resources and subject matter experts to defend the award decision"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "If an award is challenged, the authority must engage legal resources and subject matter experts to defend it. A judge may reject the challenge, temporarily suspend the award process, or declare the award invalid. Signing during the standstill period would defeat its purpose. Retendering is only a worst-case outcome, not automatic.",
+              "ref": "Ch 6 §11.1, p. 28"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, for each question select the ONE option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "Coastline's request in December 2027 for a six-week extension of the deadline.",
+              "options": [
+                "CNPA should assess the request and find a balanced response BECAUSE an extension may disadvantage bidders ready to submit, while refusing it may reduce competition",
+                "CNPA should refuse any extension BECAUSE an extension always gives the requesting bidder an unfair advantage",
+                "CNPA should grant the full extension automatically BECAUSE the market sees extensions as evidence of the government's commitment"
+              ],
+              "answer": 0,
+              "explanation": "When one bidder asks for an extension and another is ready, an extension may be unfair to the ready bidder. Refusing it may leave too little competition, so the authority should find a balanced response. With Boreal gone, the risk to competition is real. The third reason is false, because the market sees extensions as a sign of volatility.",
+              "ref": "Ch 6 §6.7, p. 17"
+            },
+            {
+              "id": "2e-2",
+              "stem": "Boreal and Coastline have asked for a debriefing that compares their bids in detail with Meridian's.",
+              "options": [
+                "CNPA should give each of them a detailed comparison with Meridian's bid BECAUSE transparency requires the relative merits of bids to be disclosed",
+                "CNPA should debrief the successful and unsuccessful bidders after the contract is executed BECAUSE debriefing aims to help each bidder better meet the government's expectations in future, not to compare bids",
+                "CNPA should debrief only Coastline BECAUSE only bidders that challenge the award are entitled to a debriefing"
+              ],
+              "answer": 1,
+              "explanation": "It is good practice to debrief both successful and unsuccessful bidders after contract execution. The debriefing should not focus on the relative merits of the bids; it gives general information on meeting the government's expectations in future projects. So the detailed comparison requested should not be given.",
+              "ref": "Ch 6 §12.4, p. 31"
+            },
+            {
+              "id": "2e-3",
+              "stem": "Meridian has asked CNPA to keep the whole signed contract confidential. Caledra's PPP Law requires signed PPP contracts to be published.",
+              "options": [
+                "CNPA should keep the whole contract confidential BECAUSE publication of PPP contracts is never compulsory",
+                "CNPA should publish the full contract, including Meridian's proprietary cost data, BECAUSE disclosure must never be limited",
+                "CNPA should publish the contract with genuinely commercially sensitive information redacted BECAUSE failing to redact such information may deter companies from bidding"
+              ],
+              "answer": 2,
+              "explanation": "In some jurisdictions, including Caledra, publishing the signed contract is compulsory. It is good practice to redact genuinely proprietary or commercially sensitive information, because disclosing it may deter companies from bidding. The first reason is false for Caledra. The second ignores the legitimate need for redaction.",
+              "ref": "Ch 6 §12.3, p. 31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "CC",
+      "title": "Contract Management: Construction Stage",
+      "additionalInfo": "**VCT3 construction progress report, month 18 (December 2029)**\n\nThe project company, VCT3 Terminal Company (VTC), is owned by:\n- Meridian Terminals (operator), 45 percent;\n- Kestrel Construction (the design-build contractor), 25 percent;\n- Pelican Capital (a financial investor with no operating role), 30 percent.\n\nThe contract forbids any disposal of shares until two years after construction completion. After that, a change of control needs CNPA's approval, which may not be refused if the change adds no risk for CNPA.\n\n**Events so far**\n1. In month 6, four weeks of unusually severe, unforeseeable storms stopped piling works. VTC notified the event in month 13; the contract requires notice within three months.\n2. The Ministry of Transport handed over the access road five months late, so the cranes could not be delivered. VTC claims CLD 38 million; CNPA's estimate is CLD 21 million. The independent certifier has offered to help.\n3. Cyclone Arno, of exceptional severity, destroyed two cranes and damaged the yard. The contract lists natural catastrophes as force majeure.\n4. Parliament raised corporate income tax for all companies from 20 to 23 percent.\n5. A new law imposes a 2 percent revenue levy only on companies that hold PPP concessions.\n6. The National Customs Agency delayed the permit for the terminal's customs inspection building by three months.\n\n**Other matters**\n- Kestrel wants to sell its 25 percent stake to Harbour Infrastructure Fund in month 20.\n- A CNPA site engineer instructed VTC to change its piling sequence and to hire a different piling subcontractor.\n- Since the claims began, CNPA has stopped the monthly progress meetings and communicates only by formal letter. VTC complains that approvals are slow; CNPA believes VTC is cutting costs.\n- VTC's temporary works next to the public ferry terminal, operated by CNPA, became unstable because VTC breached its approved method statement.\n- After the cyclone, VTC is close to default under its loan agreements.\n- The contract provides for a Dispute Avoidance Board (DAB) that meets every quarter.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about contract management during the construction stage. Select ONE answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "Which of the following is a primary role of CNPA's contract management team?",
+              "options": [
+                "Deciding which subcontractors the project company should hire",
+                "Managing the project company's relationship with its lenders",
+                "Monitoring the private partner's performance and enforcing the payment or penalty mechanism",
+                "Designing the project company's internal organisation chart"
+              ],
+              "answer": 2,
+              "explanation": "Primary roles include monitoring the private partner's performance and enforcing the payment or penalty mechanism, managing disputes and changes, and making sure securities and insurances are maintained. Choosing subcontractors or prescribing the company's structure would interfere with the private partner's decisions and weaken risk transfer.",
+              "ref": "Ch 7 §3.2.2.1, p. 17"
+            },
+            {
+              "id": "3a-2",
+              "stem": "In the Guide's approach to relationship management, when should formal dispute management come into play?",
+              "options": [
+                "Only when the parties cannot reach mutual consensus through quick, informal procedures for rectifying issues",
+                "As soon as any issue arises, so that each party's position is recorded",
+                "Only after the independent certifier has issued a binding decision",
+                "Whenever the project company submits a claim for extra time or money"
+              ],
+              "answer": 0,
+              "explanation": "Procedures for quickly and informally rectifying issues should be in place from the start, with relationship management as a priority. Formal dispute management should come into play only if mutual consensus cannot be reached. Starting formal procedures for every issue creates the adversarial attitude the Guide warns against.",
+              "ref": "Ch 7 §3.4.1, p. 26"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, Column 1 lists events numbered 1 to 6. The VCT3 contract follows the Guide's typical allocation. For each event in Column 1, select from Column 2 how the contract should treat it. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Relief event (time only)",
+            "Compensation event (time and money)",
+            "Force majeure event",
+            "General change in law (cost stays with VTC)",
+            "Project-specific change in law (cost borne by CNPA)"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "Event 1: four weeks of unusually severe, unforeseeable storms",
+              "answer": 0,
+              "explanation": "Relief events are events whose consequences the project company is best placed to manage, even though they are outside its control. Unforeseeable adverse weather is the Guide's best example. VTC gets extra time but bears the financial risk, so this is not a compensation event.",
+              "ref": "Ch 7 §8.2.1, p. 72"
+            },
+            {
+              "id": "3b-2",
+              "stem": "Event 2: late handover of the access road by the Ministry of Transport",
+              "answer": 1,
+              "explanation": "A failure by the procuring authority to provide land or a right of way is a typical compensation event. The access road is a government responsibility. VTC is entitled to money and possibly time, not just time as in a relief event.",
+              "ref": "Ch 7 §8.2.2, p. 73"
+            },
+            {
+              "id": "3b-3",
+              "stem": "Event 3: Cyclone Arno, of exceptional severity",
+              "answer": 2,
+              "explanation": "Force majeure events arise through no fault of either party. Natural disasters are the typical example, usually with the risk shared, and the VCT3 contract lists natural catastrophes as force majeure. The event is far more severe than ordinary adverse weather, so it is not a relief event.",
+              "ref": "Ch 7 §8.3, p. 73"
+            },
+            {
+              "id": "3b-4",
+              "stem": "Event 4: corporate income tax raised for all companies",
+              "answer": 3,
+              "explanation": "A general change in law affects all businesses or a whole sector, for example tax legislation, and its cost remains with the project company. The tax rise applies to every company in Caledra, so it does not discriminate against VTC.",
+              "ref": "Ch 7 §7.7.2, p. 67"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Event 5: a revenue levy applying only to companies that hold PPP concessions",
+              "answer": 4,
+              "explanation": "A project-specific change in law discriminates against the project company or against businesses holding PPP contracts. In that case the procuring authority bears the cost, while the project company must use reasonable endeavours to mitigate it. The levy targets only PPP concessionaires, so it is not a general change.",
+              "ref": "Ch 7 §7.7.3, p. 67"
+            },
+            {
+              "id": "3b-6",
+              "stem": "Event 6: the National Customs Agency's three-month delay in issuing a permit",
+              "answer": 1,
+              "explanation": "A delay caused by another government agency is one of the Guide's examples of a compensation event. The Customs Agency is a public body, so the risk is not VTC's. VTC may claim money and possibly time, not time only.",
+              "ref": "Ch 7 §8.2.2, p. 73"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions. Select ONE answer for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "How should CNPA respond to Kestrel's plan to sell its 25 percent stake to Harbour Infrastructure Fund in month 20?",
+              "options": [
+                "Approve it, because changes in ownership should never be restricted by a PPP contract",
+                "Refer it to CPRC, which regulates port tariffs",
+                "Approve it if Harbour Infrastructure Fund pays CNPA a transfer fee",
+                "Refuse it for now, because the contract's lock-up runs until two years after completion and Kestrel has an active construction role"
+              ],
+              "answer": 3,
+              "explanation": "A contract may specify that no disposal is permitted until a period after completion. The authority takes comfort from shareholders with an active role, such as the construction contractor, keeping their stake. In month 20 construction is not finished, so the lock-up applies. Changes in ownership are not always prohibited, but here the contract condition is not met.",
+              "ref": "Ch 7 §7.2, p. 60"
+            },
+            {
+              "id": "3c-2",
+              "stem": "After the lock-up ends, Pelican Capital (a financial investor with no operating role) wants to sell its 30 percent stake to an equivalent investor. The lenders agree. How should CNPA respond?",
+              "options": [
+                "Refuse, because any change of shareholder increases CNPA's risk",
+                "Approve, provided the change adds no risk for CNPA and does not reduce the public benefit",
+                "Refuse, unless the new investor also takes over Kestrel's construction obligations",
+                "Approve only if VTC first refinances its senior debt"
+              ],
+              "answer": 1,
+              "explanation": "A change in ownership that does not increase the authority's risk or reduce the public benefit should not be prohibited. The Guide's example is a financial investor without special skills exiting in favour of an equivalent investor. The VCT3 contract also says approval may not be refused in that case. Refusing on principle would be unjustified.",
+              "ref": "Ch 7 §7.2, p. 60"
+            },
+            {
+              "id": "3c-3",
+              "stem": "What is the main concern with the CNPA site engineer's instructions on the piling sequence and the piling subcontractor?",
+              "options": [
+                "CNPA is getting involved in the project company's decisions and execution, which may weaken the transfer of construction risk",
+                "The engineer should have sent the instructions to the lenders first",
+                "The instructions should have been approved by CPRC",
+                "Only the independent certifier may choose subcontractors for VTC"
+              ],
+              "answer": 0,
+              "explanation": "The government must not get involved in the actual decision making and execution of the project, as this would harm the risk-transfer provisions. By directing the sequence and the subcontractor, CNPA gives VTC grounds to claim that CNPA caused any resulting delay or cost.",
+              "ref": "Ch 7 §3.2.1, p. 15"
+            },
+            {
+              "id": "3c-4",
+              "stem": "How should CNPA handle VTC's notice of the storm event (Event 1)?",
+              "options": [
+                "Accept it, because unforeseeable weather always entitles the project company to more time",
+                "Accept it, provided the independent certifier confirms the storms happened",
+                "Reject it, because it does not comply with the contract's notice procedure (notice within three months)",
+                "Treat it as a compensation event, because the notice was late"
+              ],
+              "answer": 2,
+              "explanation": "The contract management team must check that a claim for extension meets the contract criteria in fact and in compliance with the procedure, and relief events must be notified within a defined period (for example three months). VTC notified in month 13 an event from month 6, so the notice fails the contract procedure; claims made long after the event cannot be properly evaluated. Confirmation of the storms by the certifier does not cure the late notice, and late notice never turns a relief event into a compensation event.",
+              "ref": "Ch 7 §8.2.1, p. 72; §8.4, p. 74"
+            },
+            {
+              "id": "3c-5",
+              "stem": "VTC claims CLD 38 million for the late access road; CNPA's own estimate is CLD 21 million. What should CNPA's contract management team do first?",
+              "options": [
+                "Pay the full claim to protect the relationship with VTC",
+                "Interrogate and audit the claimed costs and VTC's mitigation, assessed against the base case financial model and original schedule",
+                "Offer an extension of the concession term instead of any payment",
+                "Reject the claim, because the Ministry of Transport, not CNPA, caused the delay"
+              ],
+              "answer": 1,
+              "explanation": "The team must interrogate and audit compensation claims closely, since they may be overstated, and examine whether mitigation was effective. Claims should be grounded on the base case financial model and the original schedule. Rejecting the claim is wrong, because a delay by another government agency is a compensation event.",
+              "ref": "Ch 7 §8.2.2, p. 73"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions. Each question needs TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "The relationship between CNPA and VTC has deteriorated. Which 2 actions should CNPA take?",
+              "options": [
+                "Restore regular scheduled meetings attended by key people from both parties",
+                "Refer every disagreement straight to the dispute resolution procedure so that positions are recorded",
+                "Apply a penalty for every minor breach to show VTC that CNPA is firm",
+                "Explain CNPA's sign-off procedures to VTC and check whether the reaction times it specified are realistic",
+                "Stop informal contact until the claims are settled, to protect CNPA's legal position"
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "Regular scheduled meetings with key stakeholders from both parties help resolve issues without formal disputes. Poor communication often causes each side to misread the other: the authority may see slow reactions as cost-cutting, and the private partner may misunderstand sign-off procedures. That is exactly what the report shows. Treating every minor breach formally reduces the partnership and invites an adversarial response.",
+              "ref": "Ch 7 §10.1, p. 79; §3.4.1, p. 26"
+            },
+            {
+              "id": "3d-2",
+              "stem": "Which 2 actions are appropriate for CNPA after Cyclone Arno (Event 3)?",
+              "options": [
+                "Treat the cyclone as a relief event that gives VTC time but no other relief",
+                "Work with VTC to mitigate the effects and secure the eventual continuation of the project",
+                "Terminate the contract now, since force majeure events may lead to termination",
+                "Tell VTC that natural disasters are always a private-partner risk in a PPP",
+                "Make sure VTC's insurance claims are pursued, and that the proceeds are taken into account in any compensation"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "Force majeure events should be treated as exceptions, with the focus on mitigating their effects and ensuring the project eventually continues. Insurance proceeds are deducted from any compensation the government pays for such an event, so the claims must be pursued. Termination is only possible if the event continues for the period set in the contract (typically 6 or 12 months), and natural disasters are usually a shared risk, not a private-partner risk.",
+              "ref": "Ch 7 §8.3, p. 73; Ch 5 §9.5, p. 153"
+            },
+            {
+              "id": "3d-3",
+              "stem": "CNPA and VTC disagree on the amount due for the late access road (CLD 38 million against CLD 21 million). Which 2 statements are correct?",
+              "options": [
+                "The independent certifier can help the parties agree on the schedule and cost effects of the event",
+                "The independent certifier's view is final and binding, including on legal questions",
+                "If the parties cannot agree, the dispute resolution procedure in the contract is the fallback",
+                "CNPA should start court proceedings immediately, before trying other routes",
+                "CNPA may fix the amount alone, because it is the public party to the contract"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The parties should try to agree on the schedule and cost effects, and the independent certifier can assist. The certifier cannot give a final and binding decision on matters that may include legal questions, so the fallback is the contract's dispute resolution procedure. Court action should be a last resort.",
+              "ref": "Ch 7 §8.4, p. 74"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, for each question select the ONE option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "VTC's unstable temporary works next to the public ferry terminal.",
+              "options": [
+                "CNPA may step in temporarily to avert the threat, and VTC should meet CNPA's costs BECAUSE the step-in results from VTC's breach of its obligations",
+                "CNPA must relieve VTC of all penalties during the step-in BECAUSE a step-in by the procuring authority always relieves the project company of its obligations",
+                "CNPA may not step in BECAUSE only the lenders have step-in rights under a PPP contract"
+              ],
+              "answer": 0,
+              "explanation": "The procuring authority may want the right to take urgent action to avert a serious threat to public safety. Where the step-in is due to the project company's breach, the company should remedy the breach at its own expense and meet the authority's costs. The relief from penalties in the second option applies only when there is no project company breach.",
+              "ref": "Ch 7 §10.2.2.1, p. 82"
+            },
+            {
+              "id": "3e-2",
+              "stem": "After the cyclone VTC is close to default, and its lenders are considering stepping in under the direct agreement.",
+              "options": [
+                "The lenders may step in without settling VTC's liabilities to CNPA BECAUSE step-in exists to protect lenders rather than the procuring authority",
+                "CNPA should require the lenders to step in BECAUSE step-in by lenders is compulsory once default is likely",
+                "The contract should continue as originally set up, including penalty deductions, and the lenders must settle VTC's liabilities to CNPA before stepping in BECAUSE CNPA must not suffer as a result of the step-in"
+              ],
+              "answer": 2,
+              "explanation": "Under a lender step-in, the procuring authority must not suffer. The contract continues as originally set up, including penalty deductions, and lenders may exercise step-in rights only after paying such liabilities to the authority. Lenders step in voluntarily, so the second option is wrong.",
+              "ref": "Ch 7 §10.2.2.2, p. 82"
+            },
+            {
+              "id": "3e-3",
+              "stem": "CNPA and VTC disagree on whether the cyclone insurance proceeds should be used to reinstate the destroyed cranes, which depends on an economic test in the contract.",
+              "options": [
+                "The question must go to court BECAUSE only courts can decide how insurance proceeds are used",
+                "The question suits fast-track determination by an independent expert agreed by both parties BECAUSE applying an economic test is a matter within the capability of a suitably qualified expert",
+                "The DAB must decide it without hearing the parties BECAUSE DAB determinations are always final and binding in civil law countries"
+              ],
+              "answer": 1,
+              "explanation": "Fast-track dispute resolution uses an independent expert, appointed by agreement, to decide matters within the capability of a qualified person. The Guide's examples include applying the economic test on whether insurance proceeds should reinstate the project. Such determinations are often final in common law countries but not in civil law countries, so the third option is false.",
+              "ref": "Ch 7 §10.2.1, p. 81"
+            },
+            {
+              "id": "3e-4",
+              "stem": "The VCT3 contract provides for a Dispute Avoidance Board that meets every quarter.",
+              "options": [
+                "CNPA should use the DAB only after court proceedings have started BECAUSE a DAB has no decision-making function",
+                "CNPA should stop the quarterly DAB meetings while claims are pending BECAUSE a DAB can only hear disputes after construction is complete",
+                "CNPA should raise emerging issues, such as the claims, at the regular DAB meetings BECAUSE a DAB's main function is to help the parties resolve issues by consensus before they become disputes"
+              ],
+              "answer": 2,
+              "explanation": "The function of a DAB is dispute avoidance. It meets the parties regularly during delivery to discuss emerging issues and help resolve them by consensus, at minimal cost. DABs also have a decision-making function, since either party can refer a dispute for a written determination, so the first reason is false.",
+              "ref": "Ch 7 §10.2.1, p. 81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "OM",
+      "title": "Contract Management: Operations Stage",
+      "additionalInfo": "**VCT3 operations report, 2036 (fifth year of operation)**\n\n- **Traffic and returns.** Throughput is 1.3 million TEU, against 1.1 million in the base case, and VTC's equity returns are above the base case.\n- **Tariffs.** CPRC's first five-yearly tariff review takes place this year.\n- **Service quality.** Shipping lines complain that crane productivity is below the contract KPI, and they want to deduct amounts from the terminal charges they pay.\n- **Refinancing proposal.** VTC proposes a package with five elements:\n  - (a) increase gearing from 70 to 82 percent and pay out the extra debt as an extraordinary dividend;\n  - (b) the lead bank sells 30 percent of its loan participation to another bank;\n  - (c) the ten-year mini-perm loan is replaced in 2038, as assumed in the approved base case;\n  - (d) the repayment profile changes solely because of a new national rule on the tax deductibility of interest;\n  - (e) the loan margin is cut from 3.2 to 2.1 percent now that the terminal is performing well.\n- **Government guarantee.** The MoF's partial credit guarantee covers 40 percent of senior debt.\n- **Refinancing gain.** The contract prescribes a 50:50 refinancing gain share and its calculation method. VTC asks for an 80:20 split in its favour, arguing that it bears full demand risk.\n- **Fiscal risk register.** The MoF's register for VCT3 was prepared at contract award and has not been updated since.\n- **CNPA proposals.** CNPA proposes to set aside CLD 300 million in cash for possible termination payments. It is also considering its own cash reserve for force majeure costs.\n- **Automated gate system.** VTC proposes a new automated gate system that would cut truck processing times and VTC's costs. CNPA wants all the savings passed to users through lower tariff caps.\n- **Quay extension.** CNPA plans to extend the quay by 300 metres through the contract's variation clause.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about managing a PPP contract in the operations stage. Select ONE answer for each question.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "Which statement best describes a refinancing of a PPP project company?",
+              "options": [
+                "An extension of the concession term agreed to restore the financial balance",
+                "The payment of the compensation sum by the procuring authority at termination",
+                "The sale of the project company's assets to a new operator",
+                "The replacement or renegotiation of the project company's debt and/or equity on more favourable terms"
+              ],
+              "answer": 3,
+              "explanation": "Refinancing is the replacement or renegotiation of the original capital structure, debt and/or equity, on more favourable terms. It is attractive when interest rates fall or the project's risk profile improves. Extending the term is a rebalancing tool, not a refinancing.",
+              "ref": "Ch 7 §17.2, p. 111"
+            },
+            {
+              "id": "4a-2",
+              "stem": "How is a refinancing gain normally calculated?",
+              "options": [
+                "As the total amount of additional debt raised",
+                "As the net present value of the change in projected distributions to equity, discounted at the base-case equity IRR",
+                "As the fall in the interest rate multiplied by the outstanding debt",
+                "As the increase in the project IRR compared with the appraisal"
+              ],
+              "answer": 1,
+              "explanation": "The gain compares distributions with and without the refinancing, from the equity provider's perspective. It is normally calculated as an NPV of projected equity cash flows, using a discount rate equal to the base-case nominal post-tax equity IRR. It is not simply the amount of additional finance raised.",
+              "ref": "Ch 7 §17.2.3, p. 114"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, Column 1 lists elements (a) to (e) of VTC's refinancing proposal. For each element in Column 1, select from Column 2 how it should be treated under the refinancing approval right. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "A refinancing that needs CNPA and MoF approval",
+            "Outside the approval right: fully taken into account in the approved base case financial model",
+            "Outside the approval right: a syndication or sell-down of the lenders' participation",
+            "Outside the approval right: arises solely from a change in taxation or accounting treatment"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "(a) Increase gearing from 70 to 82 percent and pay out the extra debt as an extraordinary dividend",
+              "answer": 0,
+              "explanation": "Increasing gearing is a typical form of refinancing that produces a gain for equity, here paid out as an extraordinary dividend. It is not one of the listed exclusions. It therefore needs the recommended separate approvals of CNPA and the MoF before it occurs.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4b-2",
+              "stem": "(b) The lead bank sells 30 percent of its loan participation to another bank",
+              "answer": 2,
+              "explanation": "The right to approve a refinancing does not extend to a syndication, sell-down or transfer of the lenders' participations or security. This is a change on the lenders' side and does not alter VTC's financing terms.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4b-3",
+              "stem": "(c) Replacement of the ten-year mini-perm loan in 2038, as assumed in the approved base case",
+              "answer": 1,
+              "explanation": "A refinancing that was fully taken into account in the base case financial model, and approved as such, is excluded from the approval right. Its effects were already priced into the winning bid.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4b-4",
+              "stem": "(d) A change in the repayment profile arising solely from a new national rule on the tax deductibility of interest",
+              "answer": 3,
+              "explanation": "A change that arises solely from a change in taxation or accounting treatment is excluded from the refinancing approval right. It is not a decision by VTC to obtain better financing terms.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4b-5",
+              "stem": "(e) The loan margin is cut from 3.2 to 2.1 percent now that the terminal is performing well",
+              "answer": 0,
+              "explanation": "A reduction in debt pricing after the project's risk profile improves is a classic refinancing, and it creates a gain for equity. It is not among the exclusions, so it needs approval. It also falls under the contract's gain sharing.",
+              "ref": "Ch 7 §17.2, p. 111"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions. Select ONE answer for each question.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "In 2034, between CPRC's five-yearly reviews, how should the maximum terminal handling charges change?",
+              "options": [
+                "They should stay frozen until the next five-yearly review",
+                "They should be indexed each year, to CPI as the contract sets out",
+                "VTC may set them freely, because it bears demand risk",
+                "They should follow VTC's actual operating costs each year"
+              ],
+              "answer": 1,
+              "explanation": "Capped tariffs are usually reviewed each year and indexed, most commonly to CPI. In regulated sectors there may also be wider periodic reviews. The VCT3 contract indexes the caps to CPI between CPRC's five-yearly reviews. Letting VTC set tariffs freely would ignore the caps, and following actual costs would remove the incentive to be efficient.",
+              "ref": "Ch 5 §4.8, p. 46"
+            },
+            {
+              "id": "4c-2",
+              "stem": "How should the shipping lines' complaint about crane productivity below the contract KPI be dealt with?",
+              "options": [
+                "CNPA, or CPRC where the contract gives it the power, should apply the contract's penalty, because users have no contractual right to make deductions",
+                "The shipping lines may deduct the amount they consider fair from the charges they pay",
+                "No penalty is possible, because in a user-pays PPP lower demand is the only sanction",
+                "The MoF should reduce the partial credit guarantee as a sanction"
+              ],
+              "answer": 0,
+              "explanation": "In user-pays PPPs, users have no contractual right to deduct from the tolls or tariffs they pay. The right to impose a penalty must lie with an entity representing users' interests, such as the procuring authority or an independent regulator. Lower demand is not the only sanction, because the contract may define specific penalties.",
+              "ref": "Ch 7 §16.1, p. 101"
+            },
+            {
+              "id": "4c-3",
+              "stem": "The MoF's fiscal risk register for VCT3 has not been updated since contract award. What should happen now?",
+              "options": [
+                "Nothing, because the register is only needed at contract award",
+                "The register should be handed to VTC to maintain",
+                "The register should be reviewed only when the contract expires",
+                "CNPA and the MoF should monitor and report against the register during operations"
+              ],
+              "answer": 3,
+              "explanation": "The fiscal risk management process creates a risk register at contract award and then monitors and reports against it during both construction and operations. A register left unchanged since 2028 does not reflect new risks such as the proposed extra debt under the guarantee.",
+              "ref": "Ch 7 §19.1, p. 120"
+            },
+            {
+              "id": "4c-4",
+              "stem": "How should the MoF treat its partial credit guarantee on 40 percent of VTC's senior debt?",
+              "options": [
+                "As an explicit, fixed payment obligation, like an availability payment",
+                "As a liability of VTC only, because no payment has been made so far",
+                "As a fiscal obligation that depends on a future event, to be monitored, disclosed and captured in budget systems",
+                "As a cost that disappears once the terminal starts operating"
+              ],
+              "answer": 2,
+              "explanation": "Credit guarantees are fiscal obligations whose payment depends on an uncertain future event, such as VTC defaulting. They must be monitored, disclosed and captured in budgetary systems. They are not fixed payments like availability payments, and the absence of payments so far does not remove the exposure.",
+              "ref": "Ch 7 Box 7.12, p. 122"
+            },
+            {
+              "id": "4c-5",
+              "stem": "How should CNPA's proposal to set aside CLD 300 million in cash for possible termination payments be viewed?",
+              "options": [
+                "It is not the norm; CNPA should instead regularly monitor the risk of termination for VTC breach and report it to the relevant ministry",
+                "It is required good practice, and the reserve should equal the full debt outstanding",
+                "VTC should be asked to fund the reserve through a tariff surcharge",
+                "The reserve should be held by CPRC as the independent regulator"
+              ],
+              "answer": 0,
+              "explanation": "It is not the norm for the procuring authority to keep a contingency reserve for termination payments. The probability of termination is low, and the causes are often under its own control. Instead, the risk of termination following a breach by the project company should be regularly monitored and reported to the relevant ministry.",
+              "ref": "Ch 7 §16.3.2, p. 107"
+            },
+            {
+              "id": "4c-6",
+              "stem": "Which financial model should the parties use to calculate the refinancing gain and to price the quay extension?",
+              "options": [
+                "CNPA's own appraisal model of a hypothetical bid",
+                "A new model prepared by VTC's lenders for the refinancing",
+                "CPRC's tariff review model",
+                "The base case financial model from the preferred bidder's proposal, which forms part of the contract and is updated only by agreement"
+              ],
+              "answer": 3,
+              "explanation": "The preferred bidder's financial model becomes the base case model and part of the contract. It reflects the actual project, while the authority's model described a hypothetical bid. It is used to calculate refinancing gains and the amounts payable for variations, and all changes to it must be agreed.",
+              "ref": "Ch 7 §16.2, p. 104"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions. Each question needs TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "Which 2 questions should CNPA ask when assessing element (a), the increase in gearing?",
+              "options": [
+                "What is the net increase in the government's contingent liability and in the risk of termination?",
+                "Which of the lending banks charges the lowest arrangement fee?",
+                "Could CNPA use its approval to reopen the tariff caps set by CPRC?",
+                "What incentive will VTC have to maintain service standards after the refinancing?",
+                "How will the extraordinary dividend affect the shareholders' other investments?"
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "The Guide's approval questions include the change in risk, the risk of termination and the net increase in contingent liability. They also cover the project company's incentives to maintain service standards after the refinancing. These matter here because the government guarantees 40 percent of the debt. Bank fees and the shareholders' other investments are commercial matters for VTC.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4d-2",
+              "stem": "CNPA and the MoF are reviewing how they manage the fiscal risks of VCT3. Which 2 actions are consistent with the Guide?",
+              "options": [
+                "Keep the guarantee out of budget documents until it is called",
+                "Publish the contract, or a summary, with information on the costs and risks of the government's obligations",
+                "Charge a fee for the guarantee, or support it with a guarantee fund",
+                "Take over demand risk from VTC so that tariffs can be lowered",
+                "Use cash-based accounting so that contingent liabilities do not appear in the accounts"
+              ],
+              "answer": [
+                1,
+                2
+              ],
+              "explanation": "The Guide's principles include publishing contracts or summaries with information on the costs and risks of obligations. They also include charging fees for guarantees and using a guarantee fund to recognise their cost. Keeping guarantees out of budgets or using cash accounting would disguise fiscal obligations, which modern accrual standards aim to prevent.",
+              "ref": "Ch 7 §19.2, p. 122"
+            },
+            {
+              "id": "4d-3",
+              "stem": "CNPA plans the 300-metre quay extension through the contract's variation clause. Which 2 steps should it take?",
+              "options": [
+                "Use the variation clause to avoid the normal public investment approvals",
+                "Agree the price directly with VTC without any cost check, to save time",
+                "Check that the variation offers value for money, using the contract's variation process",
+                "Ask VTC to design the extension freely, with no limit on scope or cost",
+                "Make sure the variation keeps appropriate risk transfer to VTC, on the same basis as the original project"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "In the operations stage the regulatory focus includes making sure amendments and variations are implemented on the same basis as the original project, offering VfM and risk transfer. The variation process should include ways to check that variation costs represent VfM. The change process must not be used to circumvent the authority's ordinary processes, and agreeing a price with no cost check ignores the VfM test.",
+              "ref": "Ch 7 §17.1, p. 109; §14.1.2, p. 93"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, for each question select the ONE option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "VTC proposes to sign the new loan agreements for elements (a) and (e) first and to ask CNPA for approval afterwards, to save time.",
+              "options": [
+                "CNPA should accept, and approve after signature BECAUSE the refinancing gain can only be calculated once the new loans are in place",
+                "CNPA and the MoF should give separate approvals before the refinancing occurs BECAUSE early approval lets them assess the risks, and the authority's support is a strong positive for refinancers",
+                "Only the MoF needs to approve the refinancing BECAUSE the MoF guarantees 40 percent of the senior debt"
+              ],
+              "answer": 1,
+              "explanation": "It is recommended practice for the procuring authority and the Ministry of Finance to give separate approvals before the refinancing occurs. Early approval helps the project company too, because the market sees the authority's support as a strong positive. The first option is wrong because approval after signature removes CNPA's right to refuse a refinancing that increases its risk. The third is wrong because both approvals are needed, not only the guarantor's.",
+              "ref": "Ch 7 §17.2.4, p. 115"
+            },
+            {
+              "id": "4e-2",
+              "stem": "VTC asks for an 80:20 refinancing gain split, while the contract prescribes 50:50 and the calculation method.",
+              "options": [
+                "CNPA should apply the 50:50 share and method set in the contract BECAUSE negotiating the gain share after implementation is likely to cause disputes or excessive gains for the private partner",
+                "CNPA should accept 80:20 BECAUSE bearing full demand risk always entitles the project company to most of any gain",
+                "CNPA should demand 100 percent of the gain BECAUSE the factors behind lower debt margins are never under the project company's control"
+              ],
+              "answer": 0,
+              "explanation": "The refinancing gain share and its calculation must be prescribed in the contract, because negotiating them after implementation is likely to cause disputes or excessive gains. Full demand risk is an argument for weighting the share towards the private partner when the contract is designed at bidding. It does not justify reopening a prescribed 50:50 split now.",
+              "ref": "Ch 7 Box 7.11, p. 114"
+            },
+            {
+              "id": "4e-3",
+              "stem": "CNPA wants all savings from VTC's proposed automated gate system passed to users through lower tariff caps.",
+              "options": [
+                "CNPA should take all the savings BECAUSE performance improvements belong to the public sector under a PPP",
+                "CNPA should reject the proposal BECAUSE changes to the terminal can only be made by CPRC",
+                "CNPA should not take all the benefit of the improvement BECAUSE doing so would deter VTC from identifying such improvements"
+              ],
+              "answer": 2,
+              "explanation": "The procuring authority should not take all the benefit of performance improvements, as this deters the project company from identifying them. The contract or regulatory regime should provide incentives for such improvements, introduced through the variation procedures. New technologies that make service cheaper and more effective are a Guide example of added value.",
+              "ref": "Ch 7 §15.3, p. 100"
+            },
+            {
+              "id": "4e-4",
+              "stem": "CNPA is considering a separate cash reserve of its own for force majeure costs at VCT3.",
+              "options": [
+                "CNPA should hold a large cash reserve BECAUSE the procuring authority bears the whole force majeure risk",
+                "CNPA should keep the MoF informed of any increased force majeure risk rather than rely on its own reserve BECAUSE the authority's force majeure contingency would usually be part of a wider reserve managed by the finance ministry",
+                "CNPA needs no force majeure planning at all BECAUSE force majeure events are highly unlikely"
+              ],
+              "answer": 1,
+              "explanation": "The procuring authority's contingency for force majeure is likely to be part of a wider government reserve managed by the finance ministry, so it should keep that ministry informed of increased risks. Force majeure risk is shared, not borne entirely by the authority. Some contingency planning is still needed because the impact is significant, even though such events are unlikely.",
+              "ref": "Ch 7 §16.3.1, p. 107"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

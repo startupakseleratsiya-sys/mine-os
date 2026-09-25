@@ -1,0 +1,309 @@
+{
+  "id": "f09-co-financing-public-support",
+  "level": "foundation",
+  "order": 9,
+  "title": "Co-financing and public support in the financial scheme",
+  "minutes": 16,
+  "guideRef": "Ch 1 §7.3–§7.5; Ch 1 Appendix A (A4)",
+  "objectives": [
+    "Explain why a government may give financial support to a PPP, in both user-pays and government-pays projects.",
+    "Describe co-financing (grant financing), including deferred grant payments, and its Value for Money risks.",
+    "Tell apart public loans, public equity, de-risking techniques and credit enhancement.",
+    "Recognise the financial-structure issues that governments put into the RFP and contract: lenders' rights, minimum equity, change in control, refinancing gains and the timing of financial close."
+  ],
+  "sections": [
+    {
+      "heading": "Why a government may put money into a PPP",
+      "body": "In the previous lesson you saw that a private finance PPP is normally funded with a mix of **equity** and **debt**, raised through **project finance** (lenders are repaid only from the project's own cash flow). Appendix A of the Guide adds a third basic source: **government support**. This lesson is about that third source.\n\nThe first reason for support is the **viability gap**. A user-pays project may be economically viable (good for society), but the tolls or fares will not cover all costs and give a fair return. The government can also want to keep user prices at a socially or politically acceptable level. Filling this gap is called **Viability Gap Funding (VGF)**.\n\nHowever, the Guide says that a government may support a PPP **whatever the revenue regime** (user-pays or government-pays). The reasons are:\n\n- there is a **structural or temporary lack of private lending** in the market;\n- the project is **too large or too risky**, so commercial feasibility and bankability are threatened;\n- the government wants to **decrease the WACC** (the weighted average cost of capital) and make the scheme more affordable.\n\nTwo warnings come with this. First, if private finance is doubtful **even with** support, the government should think carefully about whether the PPP route is wise at all, not least because few bidders may compete. Second, any direct or indirect support must be assessed with care so that it does not **spoil the Value for Money (VfM)** benefits of the PPP method."
+    },
+    {
+      "heading": "Co-financing: grants during construction",
+      "body": "**Co-financing** means that the public sector pays for part of the capital expenditure (CapEx), and private finance pays for the rest. The result is a hybrid scheme, a **co-financed PPP**. It is very common in mega-projects.\n\nWhy is it needed? Long-term finance can be **scarce** in the local market. The scarcity may be structural (the local market lacks capacity) or temporary (short-term market conditions). It matters most for large projects and for ambitious PPP programs that bring many projects to market in a short time, so the government should plan for it in advance.\n\nIdeally the scheme keeps all the normal PPP features. The only difference is that some compensation is paid during construction to cover a fixed portion of the cost of works.\n\n**Pure co-financing** is **grant financing**: the government pays grants during construction, for example monthly or quarterly as work progresses, or when specific milestones are reached, or at the end of construction. The glossary calls them **capital grants** (or grant financing) and says they are also considered co-financing.\n\nThere is also a **deferred** variation:\n\n1. The grant **accrues** (is earned) as construction milestones are met.\n2. The government **pays it later**, during the Operations Phase.\n3. The payments are **not reduced** because of operational performance. They are usually **unconditional and irrevocable**.\n\nThe Guide gives real examples: the CRPAO certificates in Peru and the deferred payments (PDIFs) used for high-speed rail PPPs in Spain. This solution helps when the public sector wants to co-finance but lacks cash today. The SPV (the project company) raises a loan to pre-finance the future grant payments. This loan is much easier to negotiate, because the public commitment is firm. Because it is so secure for lenders, the Guide says it can also be seen as a **de-risking** technique.\n\nIn every case, grant amounts are normally **fixed when the PPP contract is signed**. They accrue as a percentage of work completed, or as milestones are met, whether they are paid during construction or later."
+    },
+    {
+      "heading": "Co-financing and Value for Money",
+      "body": "A PPP creates value because the private partner is paid over time and its pay is linked to performance. This aligns its interests with the government's. Co-financing can weaken this alignment.\n\n- **Too much public money** reduces the private partner's risks and motivation to run the project well. In the extreme, the PPP turns into **normal (traditional) procurement** in terms of risk allocation and incentives.\n- Co-financing may change the **accounting treatment**. It may even lead to the private finance being reported as **public debt**.\n- The decision to co-finance, and how much, is a **financial structuring** matter, handled in detail later in the Guide (Chapter 5).\n- Co-financing **should not reduce the autonomy of the SPV**. The government pays part of the cost, but the private partner still manages the project.\n\nKeep a simple rule in mind: public support is a tool to make a good project work. It is not a way to hide a bad project, and it must not destroy the risk transfer that gives the PPP its value."
+    },
+    {
+      "heading": "Other public finance: loans, subordinated debt and equity",
+      "body": "The Guide separates two groups of tools. **Public financial support**, such as public loans (co-lending), helps to fill a gap in the **availability** of finance. **De-risking and credit enhancement** techniques improve access to **market** finance. Both groups are used in developed and developing countries. They are essential in EMDEs (emerging markets and developing economies), where long-term finance is often scarce.\n\nGrants are not the only way to help. The government can also act **like a market lender or investor**. Unlike grants, this money **must be repaid**. So it may not be regarded as conventional public financing that uses the public investment budget: the government is acting like a lender or investor in the market.\n\nIt can be given in two ways:\n\n| Terms | Usual purpose |\n|---|---|\n| **Market conditions** (market price) | To solve a lack of **fund availability** or market appetite, for example in a financial crisis |\n| **Soft or concessional conditions** (better than market) | To solve **affordability** problems |\n\nThe main instruments are:\n\n- **Public long-term loans**, soft or not, from a public or national financial agency, often lending alongside private banks. When public agencies lend part of the loan on similar terms to banks, they are **co-lenders**.\n- **Public subordinated debt**, usually on soft terms. It is repaid after senior debt.\n- **Equity** through public infrastructure funds or strategic funds, usually at market conditions and run by an independent manager.\n- **Ad-hoc public equity** in the specific project, which can be proposed in the RFP.\n\nWhen the aim is to improve **affordability**, the same warning as for grants applies: the public money can weaken the risk transfer and spoil VfM.\n\n**Government as an equity partner.** When the public partner holds a majority or a significant share and takes part in management, or keeps control rights over strategic decisions, the structure is a joint venture or **institutional PPP**. But when the government holds shares only as a **financial investor**, to help feasibility or to share in equity cash flows, the Guide treats it as a mere **financial variation of a normal PPP**.\n\nImportant points for the exam:\n\n- Being a shareholder should **not** give the government the right to interfere in running the SPV. Using equity to gain control can scare investors who fear political interference.\n- A seat on the SPV board is a potential **source of conflict**, so the investment is best managed by a **specific body or unit**, not by the procuring authority itself.\n- Equity is **riskier** for the government than lending the same amount as debt."
+    },
+    {
+      "heading": "De-risking and credit enhancement",
+      "body": "The government must pay attention to commercial feasibility and bankability **from the very start** of the project. The Guide is clear: **an unfeasible project will not become feasible just by injecting public finance.** The risk allocation must be acceptable to investors and lenders.\n\nStill, some projects face risks the private sector cannot absorb, or are tendered in a bank crisis, or the government wants to develop a new market. Then it may design a **de-risked** scheme to help raise debt. Examples in the Guide:\n\n- **direct guarantees to lenders** (unconditional and irrevocable), from a national development bank or the treasury;\n- a **guaranteed portion of service payments**, for example limiting deductions to 20 percent;\n- **fixed deferred payments**, unconditional and irrevocable (the deferred grants you met above);\n- **guarantee funds** that secure the government's payment obligations;\n- **escrow accounts and trustee structures**, for example part of a user tariff held in a special account to back payments;\n- **contingent or contractual guarantees**, such as a minimum traffic guarantee, or a promise to pay all or part of outstanding debt on early termination (sometimes called debt underpinning);\n- **partial risk guarantees** or **political risk insurance** from multilateral development banks.\n\nFor **foreign exchange (Forex) risk**, the contract can allow tariff revision with exchange rates, treat a large devaluation as a **compensation event**, give direct guarantees to lenders, or pay in a hard currency.\n\n**Credit enhancement** is defined by the Guide as instruments structured mainly to give **higher protection to lenders**, which raises the **credit rating** of the debt. Examples are TIFIA loans in the United States and the EU's Project Bonds Credit Enhancement (PBCE), managed by the EIB. Under PBCE, the EIB gives a subordinated loan or a guarantee that covers the **first loss** of a project (typically up to 20 percent of the capital cost). This raises the project's rating, so its bonds can reach capital markets on better terms, or at all.\n\n**How to tell them apart:** de-risking is usually **built into the contract**, in the payment mechanism or risk structure. Credit enhancement is usually an **explicit instrument outside the contract**, often a commitment to the lenders rather than to the private partner. The Guide admits the line is subtle."
+    },
+    {
+      "heading": "Financial issues the contract must address",
+      "body": "Beyond bankability, the government has other concerns about the private financial package. These shape the **RFP** and the **contract**.\n\n1. **Lenders' rights.** The lenders' main security is the economic value of the contract (its economic rights). After construction, it is their **only** security. So the law and contract should let the private partner **pledge** its revenues, shares and compensation to lenders. It is good practice to let lenders **step in** (take control) when the sponsor is seriously underperforming, **before** the government terminates. In some countries lenders may only propose a remedy plan or a new operator.\n2. **Limiting leverage and minimum equity.** Debt lowers the WACC, but **too much debt** makes the SPV fragile and more likely to become insolvent. So governments often **cap debt** and require **minimum equity**, so the sponsor has real money at risk. In Spain, a minimum of 15 to 20 percent is common, and it can be reduced two or three years after construction is complete. Some jurisdictions also require a minimum equity stake from a **key partner**, such as the investor-contractor whose experience was used to qualify the consortium.\n3. **Transfer of shares and change in control.** Easy share sales make the investment attractive, but the winner might sell the right to build the project straight away. Common practice: **prior authorisation** is needed when a transfer causes a **change in control**, and such changes are often banned during construction. Transfers that are not a change in control are allowed with notice to the government. The contract should define change in control clearly; some contracts use a threshold such as 20 percent of the shares. In some jurisdictions it is enough that the new controlling shareholder meets the pass/fail requirements of the original RFQ.\n4. **Refinancing gains.** If debt is later replaced on better terms, the private partner must often **share** part of the increase in equity IRR with the public partner.\n5. **Timing of financial close.** Requiring a **fully committed financial package at bid submission** protects the authority, but can reduce competition when lenders are scarce, and it needs a longer bid period. So it is more common after a **shortlist**, which limits how many bidders need lenders. Broadly, markets that use competitive dialogue or other negotiated processes usually (not always) ask for finance up front. Markets that use a one-stage open tender often allow financing to be arranged after commercial close (contract signature). **Good practice:** in an open tender with few available lenders, do **not** require full financing at bid, but ask for **reasonable evidence**, such as indicative bank letters of support. Normally, finance terms are the bidder's risk, but it is good practice to give relief for adverse, unexpected market changes and for the authority to keep or share **interest base rate** movements up to financial close.\n6. **Preferred bidder debt funding competitions.** In large projects and strong financial markets, the authority may ask the preferred bidder to run a competition among lenders. The authority keeps most of the benefit and takes the related risk. This is not suitable when liquidity is limited or when financial innovation is expected to matter in the competition. For small projects, the cost of running the competition can easily outweigh the benefit."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Riverton light rail",
+    "body": "Imagine the city of Riverton wants a user-pays light rail line. The cost-benefit analysis is strong, but fares at a socially acceptable price will cover only about 60 percent of what bidders need. Local banks also say they cannot lend for the full 25-year term.\n\nThe city's advisers propose:\n\n- a **capital grant** fixed at contract signing and paid as construction milestones are certified (co-financing to fill the viability gap);\n- a **public long-term loan** from the national development bank, lending alongside private banks at market terms (to solve availability, not affordability);\n- a **minimum equity** requirement of 20 percent, and a ban on change in control during construction.\n\nOne official suggests the city should also take 51 percent of the SPV shares so it can 'run the trains itself'. The advisers warn that this could scare investors worried about political interference, and would make the city carry more risk than lending the same money. They also warn that if the grant becomes too large, the private partner will have little at stake and the scheme will behave like traditional procurement. The final grant is therefore sized to the gap, not more."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking public support is only for user-pays projects with a viability gap.",
+      "fix": "The Guide says support may be given in any revenue regime: for lack of private lending, a very large or risky project, or to lower the WACC and improve affordability."
+    },
+    {
+      "trap": "Believing that more public money always makes a PPP better.",
+      "fix": "Too much co-financing weakens incentives and risk transfer; the PPP can turn into traditional procurement in practice. An unfeasible project does not become feasible just by adding public money."
+    },
+    {
+      "trap": "Mixing up de-risking and credit enhancement.",
+      "fix": "De-risking is usually built into the contract (payment mechanism, risk structure, e.g. minimum traffic guarantee). Credit enhancement is an explicit instrument, usually outside the contract, giving lenders more protection so the debt rating rises."
+    },
+    {
+      "trap": "Assuming any public shareholding makes the project an institutional PPP.",
+      "fix": "If the government holds shares only as a financial investor, the Guide calls it a financial variation of a normal PPP. An institutional PPP (joint venture) is where the public partner holds a majority or significant share and takes part in management or keeps strategic control rights."
+    },
+    {
+      "trap": "Thinking market-rate public loans and soft loans serve the same purpose.",
+      "fix": "Market-condition public lending mainly solves fund availability; soft or concessional terms mainly respond to affordability problems."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Co-financing",
+      "meaning": "Public finance for part of the project's capital expenditure, mixed with private finance in the same PPP."
+    },
+    {
+      "term": "Grant financing (pure co-financing)",
+      "meaning": "Direct budget payments that pay part of the construction cost, usually during or at the end of construction."
+    },
+    {
+      "term": "Viability Gap Funding (VGF)",
+      "meaning": "Grants or other support that make a financially weak but worthwhile project viable as a PPP."
+    },
+    {
+      "term": "Deferred grant payments",
+      "meaning": "Grants earned as construction milestones are met but paid during operations, usually unconditional and irrevocable."
+    },
+    {
+      "term": "Co-lenders",
+      "meaning": "Public financial agencies that provide part of the loan on conditions similar to commercial banks."
+    },
+    {
+      "term": "Soft conditions",
+      "meaning": "Financing terms more favourable than current market terms."
+    },
+    {
+      "term": "De-risking",
+      "meaning": "Techniques, usually built into the contract (such as guarantees, escrow accounts or fixed deferred payments), that reduce risk for the project company or its lenders and make debt easier to raise."
+    },
+    {
+      "term": "Credit enhancement",
+      "meaning": "Instruments that give lenders extra protection, raising the credit rating of the project debt."
+    },
+    {
+      "term": "Change in control",
+      "meaning": "A share transfer after which the project company is no longer controlled by the party selected in the tender."
+    },
+    {
+      "term": "Refinancing gains",
+      "meaning": "Extra equity return from replacing or renegotiating debt on better terms, often shared with the public partner."
+    }
+  ],
+  "summary": [
+    "Government support is the third basic source of PPP finance, beside equity and debt.",
+    "Support can be given in any revenue regime: lack of lending, large or risky projects, or to lower WACC.",
+    "Pure co-financing means construction grants; a deferred version accrues with milestones but is paid in operations, not reduced for performance.",
+    "Too much co-financing can destroy incentives and VfM and may affect public debt accounting.",
+    "Public loans, subordinated debt and equity must be repaid; soft terms address affordability, market terms address availability.",
+    "De-risking is built into the contract; credit enhancement protects lenders and raises the debt rating.",
+    "Contracts should address lenders' rights, minimum equity, change in control, refinancing gains and the timing of financial close."
+  ],
+  "slides": [
+    {
+      "title": "The third source of PPP money",
+      "points": [
+        "Equity and debt come from the private side",
+        "Government support is the third source",
+        "Used for viability gaps and market problems"
+      ],
+      "narration": "So far we have talked about the private money in a PPP: equity from the sponsors and debt from the lenders. Today we add the third source, which is support from the government. Sometimes a project is good for society, but the tolls or fares cannot cover all the costs. Sometimes the banks simply cannot lend enough. In these cases the government may step in with money or with guarantees. Our job in this lesson is to understand the different forms, and the risks each one brings."
+    },
+    {
+      "title": "Why governments help",
+      "points": [
+        "Viability gap in user-pays projects",
+        "Lack of private lending",
+        "Project too large or too risky",
+        "Lower WACC to improve affordability"
+      ],
+      "narration": "Let's look at the reasons. The classic one is the viability gap, in a user-pays project where fares are too low to pay for everything. But the Guide makes an important point: support can be given in any revenue regime, including government-pays projects. The market may lack long-term lending, the project may be very large or very risky, or the government may simply want a cheaper mix of finance, a lower WACC. One warning, though. If private finance looks doubtful even with support, the government should question whether a PPP is the right route at all."
+    },
+    {
+      "title": "Co-financing with grants",
+      "points": [
+        "Grants pay part of construction cost",
+        "Paid by progress or milestones",
+        "Amount fixed at contract signing"
+      ],
+      "narration": "Co-financing means the public budget pays part of the construction cost, and private finance pays the rest. In its pure form, this is grant financing. The government pays grants while the works progress, for example every month or at agreed milestones. The amount of the grant is normally fixed when the contract is signed, and it is earned as a percentage of the work completed. Apart from these payments, the project should keep all the normal features of a PPP, including the private partner's management freedom."
+    },
+    {
+      "title": "Deferred grants",
+      "points": [
+        "Earned during construction",
+        "Paid later, during operations",
+        "Not reduced for performance",
+        "Also seen as de-risking"
+      ],
+      "narration": "There is a clever variation for governments that have little cash today. The grant is earned during construction, milestone by milestone, but it is paid later, during the operations phase. These payments are not cut if performance is poor. They are usually unconditional and irrevocable. Because the promise is so firm, the project company can easily borrow against it. That is why the Guide says this tool can be called co-financing or de-risking. Real examples include schemes in Peru and high-speed rail in Spain."
+    },
+    {
+      "title": "Protecting Value for Money",
+      "points": [
+        "Too much public money weakens incentives",
+        "May look like traditional procurement",
+        "May count as public debt",
+        "Keep the SPV autonomous"
+      ],
+      "narration": "Now the big caution. A PPP creates value because the private partner is paid over time, according to performance. If the government pays too much up front, the private partner has less at stake and less reason to perform. In the extreme, the PPP behaves just like traditional procurement. Co-financing can also change the accounting, and the private debt might even be reported as public debt. So the amount of co-financing is a careful structuring decision, and it should never reduce the autonomy of the project company."
+    },
+    {
+      "title": "Loans, debt and equity from the state",
+      "points": [
+        "Must be repaid, unlike grants",
+        "Market terms solve availability",
+        "Soft terms solve affordability",
+        "Equity carries more risk than debt"
+      ],
+      "narration": "Government can also behave like a bank or an investor. It can offer long-term loans, subordinated debt, or equity through public funds. Unlike grants, this money must be repaid. On market terms, it usually solves a lack of available finance. On soft terms, it usually helps affordability. If the government buys shares only as a financial investor, it is still a normal PPP, not a joint venture. But it should not use its shares to interfere, and it should remember that equity carries more risk than a loan of the same size."
+    },
+    {
+      "title": "De-risking versus credit enhancement",
+      "points": [
+        "De-risking sits inside the contract",
+        "Examples: guarantees, escrow, minimum traffic",
+        "Credit enhancement protects lenders directly",
+        "It raises the debt's credit rating"
+      ],
+      "narration": "First, remember this: public money cannot rescue a project that is not feasible. The risk structure itself must make sense. When some risks are too heavy, the government can use de-risking tools, usually built into the contract. Examples are minimum traffic guarantees, guarantee funds, or escrow accounts managed by a trustee. Credit enhancement is different. It is an explicit instrument, usually outside the contract, that protects lenders directly, for example by covering the first loss. That raises the credit rating of the debt and lowers its cost."
+    },
+    {
+      "title": "Finance rules in the contract",
+      "points": [
+        "Lenders' rights and step-in",
+        "Minimum equity, limited leverage",
+        "Control over share transfers",
+        "Refinancing gains and financial close timing"
+      ],
+      "narration": "Finally, the government writes several finance rules into the tender and the contract. Lenders need the right to take security and to step in before termination. The sponsor should keep enough equity at risk, so debt is often capped. A change in control usually needs approval, especially during construction. Gains from refinancing are often shared. And the authority must decide when financing must be committed. Where lenders are scarce and the tender is open, good practice is to ask only for evidence of support, such as bank letters, at bid stage."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which of the following best describes 'pure co-financing' in a PPP?",
+      "options": [
+        "Loans from a national development bank at market interest rates",
+        "Grant payments from the budget that partly pay for the construction works",
+        "A guarantee to lenders that covers the first loss of the project",
+        "The government buying a majority of shares to control the SPV board"
+      ],
+      "answer": 1,
+      "explanation": "Pure co-financing is grant financing: budget payments that cover part of the capital cost. A development bank loan must be repaid, so it is public lending, not pure co-financing."
+    },
+    {
+      "question": "Which of the following is NOT a reason given by the Guide for a government to support a PPP financially, whatever its revenue regime?",
+      "options": [
+        "A structural or temporary lack of available private lending",
+        "The project is so large or risky that bankability is threatened",
+        "The wish to decrease the WACC and make the scheme more affordable",
+        "The wish to transfer all construction risk back to the public sector"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists lack of lending, size or risk, and lowering the WACC. Taking back all construction risk is not a reason; it would damage the risk transfer that creates VfM."
+    },
+    {
+      "question": "Consider two statements about deferred grant payments. 1. They accrue as construction milestones are met but are paid during the Operations Phase. 2. They are usually reduced when the operational performance of the project is poor.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Deferred grants are earned during construction and paid later. They are usually unconditional and irrevocable, so they are not reduced for performance, which makes statement 2 false."
+    },
+    {
+      "question": "Complete the sentence: 'If there is too much public co-financing, the private partner has fewer risks and motivations, and the PPP may become like ____ in terms of risk allocation and incentives.'",
+      "options": [
+        "an institutional PPP",
+        "a revenue maker project",
+        "normal traditional procurement",
+        "a preferred bidder funding competition"
+      ],
+      "answer": 2,
+      "explanation": "The Guide warns that excessive public financing can convert the scheme into normal procurement in terms of risk and incentives. An institutional PPP is about public control of the company, not the amount of grant."
+    },
+    {
+      "question": "Which of the following best describes credit enhancement?",
+      "options": [
+        "A minimum traffic guarantee written into the payment mechanism",
+        "A grant fixed at contract signing and paid as milestones are met",
+        "A rule that a share of refinancing gains goes to the authority",
+        "Instruments that give lenders higher protection and raise the debt rating"
+      ],
+      "answer": 3,
+      "explanation": "Credit enhancement is defined as instruments that give lenders more protection, increasing the credit rating of the debt. A minimum traffic guarantee is a contractual de-risking technique inside the contract."
+    },
+    {
+      "question": "A government takes a minority equity stake in a PPP company only as a financial investor, and the stake gives it a seat on the SPV board. Which approach does the Guide recommend?",
+      "options": [
+        "Manage the investment through a specific body or unit, not the procuring authority itself",
+        "Use its board seat to direct the daily operations of the SPV",
+        "Treat the equity as less risky than lending the same amount",
+        "Classify the project as an institutional PPP for all purposes"
+      ],
+      "answer": 0,
+      "explanation": "Board representation can create conflicts, so the Guide suggests a separate body or unit manages the stake. Equity is riskier than debt, and a purely financial stake is a variation of a normal PPP, not an institutional PPP."
+    },
+    {
+      "question": "Consider two statements. 1. An unfeasible project will become feasible if enough public finance is injected. 2. Public loans on soft terms are usually a response to affordability difficulties.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide states that an unfeasible project will not become feasible just by injecting public money, so statement 1 is false. Soft or concessional terms are usually used to address affordability, so statement 2 is true."
+    },
+    {
+      "question": "Which of the following is an example of a de-risking approach listed in the Guide?",
+      "options": [
+        "Requiring a minimum equity contribution of 15 to 20 percent",
+        "Asking the preferred bidder to run a debt funding competition",
+        "An escrow account managed by a trustee that reserves part of user tariffs",
+        "Prohibiting a change in control during the construction phase"
+      ],
+      "answer": 2,
+      "explanation": "Escrow accounts and trustee structures are listed as de-risking tools because they secure payments. Minimum equity and change-in-control rules protect the authority, not the lenders' access to debt."
+    },
+    {
+      "question": "In a market where lenders can support only a few bidders, the authority runs an open tender with no shortlist. What does the Guide describe as good practice?",
+      "options": [
+        "Do not require committed finance at bid, but ask for evidence such as bank letters of support",
+        "Require every bidder to submit a fully committed financing package with the bid",
+        "Require all bidders to borrow from the national development bank",
+        "Forbid banks from supporting more than one bidder in the tender"
+      ],
+      "answer": 0,
+      "explanation": "Requiring full financing at bid would reduce competition when lenders are scarce. Good practice is to ask for reasonable evidence of funding availability, such as indicative letters of support."
+    },
+    {
+      "question": "Why do governments often limit leverage and require a minimum equity commitment in PPP contracts?",
+      "options": [
+        "To raise the WACC so that bids become more conservative",
+        "To make it easier for the sponsors to sell their shares",
+        "To keep the sponsor significantly at risk and reduce the chance of SPV insolvency",
+        "To remove the need for lenders' step-in rights"
+      ],
+      "answer": 2,
+      "explanation": "Excessive debt can make the SPV fragile, and the public side benefits when the sponsor has real money at risk. The aim is resilience and commitment, not a higher WACC or easier share sales."
+    }
+  ]
+}

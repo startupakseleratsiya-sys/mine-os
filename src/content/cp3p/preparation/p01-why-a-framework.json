@@ -1,0 +1,302 @@
+{
+  "id": "p01-why-a-framework",
+  "level": "preparation",
+  "order": 1,
+  "title": "Why a PPP framework: contents and objectives",
+  "minutes": 15,
+  "guideRef": "Ch 2 §1.1–§1.4",
+  "objectives": [
+    "Explain what a PPP framework is and why governments build one",
+    "Name the five main benefits of a good PPP framework and apply them to a case",
+    "List the core elements a PPP framework should contain",
+    "Explain why objectives must be set first and how they shape the framework",
+    "Recognise the wrong reasons for using PPPs that a framework must guard against"
+  ],
+  "sections": [
+    {
+      "heading": "What a PPP framework is",
+      "body": "The Guide defines a **PPP framework** as the established **procedures, rules and institutional responsibilities** that determine how the government selects, implements and manages PPP projects.\n\nEach part does a job:\n- **Procedures and rules** build good PPP practice inside government. They limit and manage government risk and make decisions consistent from project to project.\n- **Institutional responsibilities** say which body does what. This makes each institution **accountable** for its role in the PPP process.\n- A published framework also tells the **market** how projects will be developed and how bids will be assessed. When investors understand the rules, procurement becomes more competitive and the public gets better value.\n\nA PPP *can* be done on a one-off basis with no framework at all. But PPPs are technically complex and involve many stakeholders with **conflicting objectives**. A framework aligns the objectives of the public and private sectors, sets rules that avoid impropriety, and protects the public interest in getting quality projects done efficiently.\n\nThis chapter of the Guide covers both situations: how to **create a new framework**, and, where one already exists, what to look for to check that it is **effective**."
+    },
+    {
+      "heading": "Conflicting objectives: the problem a framework solves",
+      "body": "A good framework aims to make sure that the **right projects** are selected as PPPs, that they are developed, delivered and managed in a **structured, transparent and efficient** way, and that they meet procurement law. It also minimises the risk that a PPP will **not deliver Value for Money**.\n\nWhy is this hard? Because the parties want different things:\n- **Private parties** seek to maximise profit while minimising risk.\n- **Government** pursues the public interest.\n- Inside government, **sector agencies** want to maximise service delivery, while the **ministry of finance** wants to manage financial obligations and risks prudently.\n\nThe Guide's answer is to define the objectives of the PPP program and of each project **clearly and up front**, including their **relative priorities**, so that conflicts are found and resolved early.\n\nWithout this discipline, typical things go wrong:\n- If risks are **not allocated appropriately**, the public sector may carry costs it cannot control. Climate change risks are becoming more important here, because their intensity and frequency are rising.\n- If the procurement process **ignores market conditions**, the tender may not be competitive.\n- If **contingent liabilities** (possible future payments that depend on events) are not monitored, the government may face unexpected fiscal obligations."
+    },
+    {
+      "heading": "Five benefits of a good framework",
+      "body": "The Guide lists five ways a framework increases the chance that PPPs succeed. Learn them well; scenario questions often describe one without naming it.\n\n1. **Increasing the capability of government agencies.** Agencies are experts in their own sector (roads, water) but rarely in PPPs, because they procure them infrequently. If each agency learns alone, learning costs and the risk of mistakes are high. **Codifying and standardising** practice cuts both, and lets skills move from one project and sector to another.\n2. **Reconciling disparate objectives in a structured way.** Many agencies and firms with competing risk objectives must cooperate. A framework helps manage expectations, training and skills development. It builds a common objective and improves the **longevity** of the program by creating new mindsets.\n3. **Limiting whole-of-government risk.** A sector agency focuses on what works for its sector. It may miss risks that matter to government as a whole, such as **reputation risk and fiscal risk**. A framework builds in processes and responsibilities to identify and mitigate them.\n4. **Generating market interest.** Competition drives down prices and promotes innovation. A framework signals the quality and consistency of the program and the government's commitment. It can also **reduce investors' perception of risk**, making private finance more likely.\n5. **Facilitating probity and oversight.** Clear processes, criteria and responsibilities make independent oversight effective. Evaluators can tell whether officials **failed to follow** the framework or whether the **framework itself** needs improving, and which part to change."
+    },
+    {
+      "heading": "A warning case: Dabhol",
+      "body": "The Guide uses the **Dabhol power plant** in Maharashtra, India, to show what happens without a framework. Enron led the project through a project company (the Dabhol Power Corporation). It was to sell power to the state electricity board under a **20-year take-or-pay** contract, backed by a state guarantee and a federal counter-guarantee. In 2001, after phase one was built, the electricity board did not meet its payments because the power price in the contract was high. The company tried to call the guarantees, but the federal government refused to pay, citing alleged technical breaches. Settlements were only reached in 2004. The outcome was bad for both sides.\n\nThe Guide compares what happened with better practice:\n\n| Step | Dabhol | Better approach |\n|---|---|---|\n| Identification | Private party's own initiative | From an integrated sector plan showing the most economic investments |\n| Selection of partner | Negotiation with a single proponent | Competitive process scored against defined, rational criteria |\n| Appraisal | World Bank advice that it was unaffordable was ignored | Unaffordable projects do not proceed |\n| Contract | Based on the private party's draft | Government's draft based on optimal risk allocation |\n\nThe lesson: without a framework, officials risk poor decisions, such as not tendering competitively or going to market before a project is properly developed."
+    },
+    {
+      "heading": "When to build the framework",
+      "body": "It seems logical to write the whole framework first and only then start projects. The Guide says this is **generally not the best approach**. Instead:\n\n- First establish **general principles**.\n- Then develop the **detail in parallel** with the development and delivery of the **first projects**.\n\nReasons:\n- A framework written in isolation from real projects can become **over-standardised**, creating delays or locking in unworkable procedures and approvals.\n- Political and bureaucratic priorities favour work linked to **tangible results**, so a framework advanced alongside real projects gets higher priority.\n- Refining the principles through real projects makes the framework fit the **particular needs** of the jurisdiction.\n\nThe Guide's example is **British Columbia**, whose framework is non-specific. This flexibility allowed innovations, especially in financial structuring, and supported the large number of PPPs in Canada."
+    },
+    {
+      "heading": "What goes into a framework",
+      "body": "A framework should guide government and private partners through **each step** of developing a PPP. It does this through procedures and decision rules for institutions, and through sound public financial management and oversight. Its building blocks are:\n\n- **Objectives**: what the government wants the framework to achieve. They also give a basis for **evaluating** the framework later.\n- **Scope**: the types of projects it applies to. For example, low-value PPPs may not need the same rigorous procedures as high-value ones.\n- **Legal and administrative context**: the framework is often embodied in PPP policy documents or legislation.\n\nFrameworks typically define three things (a favourite exam list):\n1. **Procedures**: what must be done, by whom and in what order, so the right decision is made. Example: how an agency gathers information at appraisal to decide whether a PPP is the best option.\n2. **Decision criteria**: how each decision is made. Example at appraisal: will the public interest be better served by a PPP or by a conventional public project?\n3. **Institutional responsibilities**: which entity is responsible for which task. Example: a PPP unit assesses whether a PPP is best, the cabinet decides whether to proceed, and the ministry of finance advises on fiscal commitments.\n\nThe framework should also set out how **fiscal commitments are managed** and how **oversight** of the program works. Frameworks usually take the form of policy and guideline documents **harmonised with relevant laws**."
+    },
+    {
+      "heading": "Setting the objectives",
+      "body": "A **PPP program** is the ways in which the government plans to use PPPs to improve infrastructure services. It is wider than the **pipeline** (the list of identified projects): it also covers plans for projects not yet identified, priority sectors, and how far PPPs will be used instead of other delivery methods. If private parties submit their own proposals, their feasibility must be tested and they must be procured under guidelines that require **transparency and competition**.\n\nKey principles:\n- A framework is **a means to an end, not an end in itself**. It would make no sense to build an elaborate framework for a single PPP. That one project should still follow good practice, but codifying rules for many agencies only pays off when many projects are expected.\n- The design follows the purpose. A government using PPPs for a **rapid build-out** of urgent infrastructure may focus on speed and attracting capital. One using PPPs to improve **efficiency and accountability** in a well-financed sector would design something different.\n- So governments should define **national and sectoral program objectives as the first step**. Local projects may have different practical objectives, but all must meet national development goals.\n\nObjectives the Guide lists include: more infrastructure investment through wider financing options; **Value for Money**; better accountability; harnessing private innovation and efficiency; long-term sustainability of the program as people change; growth and development; sustainable, **climate-resilient and inclusive** development (supporting NDCs and SDGs); and gender equity.\n\n**Sustainability and inclusion (Boxes 2.4–2.5).** The PPP legal framework must align with the country's international obligations and national policies, including on social inclusion and gender equality. World Bank guidance quoted by the Guide says frameworks should require climate, environmental, resilience, social and human rights issues to be considered **at every stage**, from origination and appraisal to contract management, so that these risks go to the party best placed to manage them. One driver: international investors and lenders increasingly want projects that meet their own environmental and social commitments, such as the **Equator Principles**.\n\nFinally, the framework must **reduce the risk that PPPs are used for the wrong reasons**. Some governments have used PPPs to lower *reported* spending and borrowing when the long-term fiscal cost was similar to public finance. PPPs should deliver **substantial benefits, not manipulate accounting results**."
+    }
+  ],
+  "example": {
+    "title": "Imagine: the Republic of Veranda starts a PPP program",
+    "body": "Imagine the fictional Republic of Veranda. Its transport ministry has done one toll road PPP, negotiated directly with a company that proposed it. The health and water ministries now want PPPs too, and the finance minister is worried.\n\nA consultant applies the Guide:\n1. **Objectives first.** The cabinet agrees that the program aims at Value for Money and better maintenance of assets, not at keeping debt off the books. This rules out projects whose only attraction is accounting treatment.\n2. **Principles now, detail with the first projects.** Rather than spending two years on a manual, Veranda adopts short general principles and refines them while preparing three pilot hospitals.\n3. **Core elements.** The principles set procedures (who prepares the business case), decision criteria (is a PPP better value than public delivery?) and responsibilities (the ministry of finance reviews fiscal commitments; cabinet approves).\n4. **Benefits.** Health staff learn from the transport team's experience (capability). The finance ministry now sees the guarantees in the toll road contract (whole-of-government risk). Investors see a clear, competitive process (market interest)."
+  },
+  "examTraps": [
+    {
+      "trap": "Thinking the framework must be fully written before any project starts",
+      "fix": "The Guide prefers general principles first, then detail developed in parallel with the first real projects, to avoid over-standardised, unworkable rules."
+    },
+    {
+      "trap": "Treating the framework as an end in itself",
+      "fix": "It is a means to an end. For a single planned PPP, follow good practice but do not build an elaborate framework; frameworks pay off across multiple projects."
+    },
+    {
+      "trap": "Confusing the PPP program with the PPP pipeline",
+      "fix": "The pipeline is the identified projects. The program is wider: how government plans to use PPPs, including future unidentified projects, priority sectors and the extent of PPP use."
+    },
+    {
+      "trap": "Mixing up 'limiting whole-of-government risk' with 'reconciling disparate objectives'",
+      "fix": "Whole-of-government risk is about fiscal and reputation risks a sector agency may miss. Reconciling objectives is about getting many agencies and firms to work toward a common goal."
+    },
+    {
+      "trap": "Accepting 'keeping debt off the balance sheet' as a valid PPP objective",
+      "fix": "The Guide says a framework must stop PPPs being used to manipulate accounting results; PPPs should deliver substantial real benefits."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "PPP framework",
+      "meaning": "The rules, established procedures and institutional responsibilities that decide how government selects, implements and manages PPPs."
+    },
+    {
+      "term": "PPP program",
+      "meaning": "The ways the government plans to use PPPs to improve infrastructure services, wider than the list of current projects."
+    },
+    {
+      "term": "Procedures",
+      "meaning": "What must be done, by whom and in what order, so the right decisions and actions are taken."
+    },
+    {
+      "term": "Decision criteria",
+      "meaning": "The tests used to make the decision at each step, such as whether a PPP serves the public interest better than public delivery."
+    },
+    {
+      "term": "Institutional responsibilities",
+      "meaning": "Which entity is responsible for which tasks, making each accountable for its role."
+    },
+    {
+      "term": "Scope of the framework",
+      "meaning": "The types of projects and sectors to which the framework applies."
+    },
+    {
+      "term": "Whole-of-government risk",
+      "meaning": "Risks, such as fiscal and reputation risk, that matter to the government as a whole rather than to one sector agency."
+    },
+    {
+      "term": "Contingent liability",
+      "meaning": "A possible future government payment that depends on an uncertain event, such as a guarantee being called."
+    },
+    {
+      "term": "Value for Money",
+      "meaning": "In the PPP context, the benefits relative to the costs of procuring a project as a PPP, compared with other procurement options."
+    }
+  ],
+  "summary": [
+    "A PPP framework = procedures, rules and institutional responsibilities for selecting, implementing and managing PPPs.",
+    "It aligns conflicting objectives, limits government risk, and tells the market how projects and bids will be handled.",
+    "Five benefits: agency capability, reconciling objectives, limiting whole-of-government risk, market interest, probity and oversight.",
+    "Build general principles first, then develop the detail alongside the first real projects.",
+    "Frameworks define procedures, decision criteria and institutional responsibilities, plus fiscal management and oversight.",
+    "Set national and sectoral program objectives first; the framework is a means to an end.",
+    "The framework must stop PPPs being used to manipulate accounting results."
+  ],
+  "slides": [
+    {
+      "title": "What is a PPP framework?",
+      "points": [
+        "Procedures, rules and institutional responsibilities",
+        "Decides how PPPs are selected, implemented, managed",
+        "Makes institutions accountable for their role",
+        "Tells the market how bids will be assessed"
+      ],
+      "narration": "Welcome to the Preparation course. We begin with the foundation of everything else: the PPP framework. Think of it as the rulebook a government writes for itself. It sets out procedures, rules and who is responsible for what when selecting, implementing and managing PPP projects. Why does this matter? Because clear rules make government decisions consistent and limit its risk. And because the rules are public, investors know how projects will be developed and how their bids will be judged. That confidence brings more competition, and more competition brings better value for the public."
+    },
+    {
+      "title": "Why conflicts need managing",
+      "points": [
+        "Private firms: maximise profit, minimise risk",
+        "Government: pursue the public interest",
+        "Sector agency versus finance ministry priorities",
+        "Define objectives and priorities up front"
+      ],
+      "narration": "A PPP brings together people who want different things. The private partner wants profit with as little risk as possible. The government wants the public interest served. Even inside government there is tension: a sector agency wants more and better services, while the finance ministry worries about long-term obligations and risk. The Guide's advice is simple. Write down the objectives of the program and of each project clearly and early, including which ones come first. Then conflicts show up at the start, when they are cheap to resolve, not years later."
+    },
+    {
+      "title": "Five benefits of a framework",
+      "points": [
+        "Builds agency capability through standard practice",
+        "Reconciles objectives across many parties",
+        "Limits whole-of-government fiscal and reputation risk",
+        "Attracts market interest; supports probity and oversight"
+      ],
+      "narration": "The Guide gives five benefits, and exam scenarios often describe one without naming it. First, capability: most agencies do PPPs rarely, so standard practice saves them from learning the hard way. Second, reconciling objectives, getting many parties to share a common goal. Third, limiting whole-of-government risk, such as fiscal and reputation risks a sector agency might overlook. Fourth, market interest: a clear program attracts more bidders and lowers perceived risk. Fifth, probity and oversight: when rules are clear, evaluators can tell whether officials broke the rules or the rules themselves need fixing."
+    },
+    {
+      "title": "Lesson from Dabhol",
+      "points": [
+        "Project proposed by the private party alone",
+        "Single proponent, private party's draft contract",
+        "Affordability warning ignored",
+        "Result: default, refused guarantee, long dispute"
+      ],
+      "narration": "Here is a real warning from the Guide. The Dabhol power plant in India was identified by the private party itself, negotiated with just one company, and built on a contract drafted by that company. The World Bank warned it was unaffordable, and the warning was ignored. When the state electricity board stopped paying, the federal government refused to honour its guarantee, and the dispute ran for years. Under a good framework, the project would have come from a sector plan, been tendered competitively, been stopped if unaffordable, and used a government contract with sensible risk allocation."
+    },
+    {
+      "title": "Principles first, details with projects",
+      "points": [
+        "Do not write everything before any project",
+        "Avoid over-standardised, unworkable procedures",
+        "Real projects give tangible results and priority",
+        "Example: flexible framework in British Columbia"
+      ],
+      "narration": "Should a government finish its framework before starting any project? The Guide says usually not. Start with general principles, and then build the detailed rules in parallel with the first real projects. A framework written in isolation tends to become too rigid, and can lock in procedures that simply do not work. Real projects also attract political attention, because they produce visible results. British Columbia in Canada kept its framework non-specific, and that flexibility let it innovate, especially in financial structuring. Remember this principle: learn by doing, then codify."
+    },
+    {
+      "title": "What a framework contains",
+      "points": [
+        "Objectives, scope, legal and administrative context",
+        "Procedures: what, by whom, in what order",
+        "Decision criteria and institutional responsibilities",
+        "Fiscal commitment management and program oversight"
+      ],
+      "narration": "So what goes inside the framework? It starts with objectives, what the government wants to achieve, and scope, which projects the rules cover. It must fit the country's legal and administrative context. Then come three core elements that the exam loves. Procedures say what must be done, by whom and in what order. Decision criteria say how each decision is made, for example whether a PPP serves the public better than a conventional project. Institutional responsibilities say who does each task. Finally, the framework covers how fiscal commitments are managed and how the program is overseen."
+    },
+    {
+      "title": "Objectives come first",
+      "points": [
+        "Framework is a means, not an end",
+        "One project does not justify an elaborate framework",
+        "Design follows purpose: speed or efficiency",
+        "Never use PPPs to manipulate accounts"
+      ],
+      "narration": "The very first step is to set national and sectoral program objectives. The framework is a means to an end, not an end in itself. If a government plans only one PPP, it should follow good practice, but an elaborate framework would be wasted effort. Purpose shapes design: a country racing to build urgent infrastructure will focus on speed and attracting capital, while one seeking efficiency in a well-funded sector will design something different. And watch this exam favourite: a good framework stops PPPs being used just to hide spending or borrowing from the accounts."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A small island government plans to deliver one waste plant as a PPP and has no other PPPs in view. Officials ask whether they should first develop a full national PPP framework. What should they do?",
+      "options": [
+        "Draft a full PPP law and manual before starting the project",
+        "Follow good practice on this project without building an elaborate framework",
+        "Skip good practice because there is no framework to follow",
+        "Wait until at least five projects are in the pipeline"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says a framework is a means to an end and is worthwhile only when it will apply to multiple projects; the single PPP should still follow good practice. Writing a full law first would cost effort that one project cannot justify."
+    },
+    {
+      "question": "A country with no PPP experience wants to start a PPP program. The advisory team proposes to spend two years writing a detailed framework before any project begins. What approach does the Guide recommend instead?",
+      "options": [
+        "Copy the most detailed framework from an experienced country",
+        "Let each sector agency develop its own rules independently",
+        "Start projects with no principles and write rules only after they close",
+        "Set general principles first, then develop the detail alongside the first projects"
+      ],
+      "answer": 3,
+      "explanation": "The Guide prefers general principles first, with detail developed in parallel with the first projects. Writing everything in isolation risks over-standardised, unworkable procedures and lower political priority."
+    },
+    {
+      "question": "A ministry proposes to procure schools as PPPs mainly because the payments will not appear as government borrowing, although the long-term fiscal cost is about the same as public finance. How should a good PPP framework respond?",
+      "options": [
+        "Ensure PPPs are used for substantial benefits, not to manipulate accounting results",
+        "Approve the PPPs because lower reported debt is a valid program objective",
+        "Approve only if the schools are in a priority sector",
+        "Require the ministry to borrow instead, since PPPs are never Value for Money"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the framework must reduce the risk that PPPs are used for the wrong reasons, such as lowering reported spending and borrowing. It does not say PPPs are never Value for Money, so the last option goes too far."
+    },
+    {
+      "question": "Which set of three elements does the Guide say PPP frameworks typically define?",
+      "options": [
+        "Tariffs, subsidies and guarantees",
+        "Design standards, construction methods and output specifications",
+        "Procedures, decision criteria and institutional responsibilities",
+        "Bid bonds, performance bonds and escrow accounts"
+      ],
+      "answer": 2,
+      "explanation": "Frameworks typically define procedures (what, by whom, in what order), decision criteria (how decisions are made) and institutional responsibilities (who does what). The other options are project or contract details, not framework elements."
+    },
+    {
+      "question": "An audit office reviews a failed PPP. Because the rules and responsibilities were clearly written, it can see that officials skipped a required appraisal step. Which benefit of a PPP framework does this show?",
+      "options": [
+        "Generating market interest",
+        "Facilitating probity and oversight of the program",
+        "Increasing the capability of government agencies",
+        "Reconciling disparate objectives"
+      ],
+      "answer": 1,
+      "explanation": "Clear processes let evaluators tell whether officials failed to follow the framework or whether the framework itself needs changing; this is the probity and oversight benefit. Agency capability is about reducing learning costs, not auditing past decisions."
+    },
+    {
+      "question": "A private developer approaches a state utility with its own power plant proposal and a draft contract it has written. Officials plan to negotiate only with this developer. Based on the Dabhol lessons, what should the government do to select a partner?",
+      "options": [
+        "Run a competitive process scored against defined, rational criteria",
+        "Negotiate with the developer, using its draft as the starting point",
+        "Accept the proposal if a federal counter-guarantee is available",
+        "Ask the developer to find a second firm to join its consortium"
+      ],
+      "answer": 0,
+      "explanation": "The better approach in the Guide's Dabhol comparison is selection through a competitive process scored against defined, rational criteria. A government guarantee does not fix a flawed, single-proponent selection."
+    },
+    {
+      "question": "Consider two statements. 1: A PPP framework is an end in itself, so every jurisdiction should build a detailed one. 2: Governments should define national and sectoral PPP program objectives as a first step in developing the framework.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: the Guide calls the framework a means to an end, not an end in itself. Statement 2 is true: program objectives come first and give the framework its direction."
+    },
+    {
+      "question": "A fast-growing country faces severe shortages of roads and power and has little budget. It wants to use PPPs mainly to build urgently needed infrastructure. How is its framework most likely to be designed?",
+      "options": [
+        "Around efficiency gains in an already well-financed sector",
+        "Around a ban on private finance to protect the budget",
+        "Around a single standard contract for every sector",
+        "Around speed and attracting capital"
+      ],
+      "answer": 3,
+      "explanation": "The Guide notes that a government using PPPs for a rapid build-out of urgent infrastructure may focus the framework on speed and attracting capital. Efficiency in a well-financed sector describes a different government with different objectives."
+    },
+    {
+      "question": "A water agency designs a PPP that works well for its sector but includes a large revenue guarantee that the finance ministry never sees. Which framework benefit is missing here?",
+      "options": [
+        "Increasing the capability of government agencies",
+        "Generating market interest",
+        "Making sure that whole-of-government risk is limited",
+        "Reconciling disparate objectives"
+      ],
+      "answer": 2,
+      "explanation": "Sector agencies may overlook fiscal and reputation risks that matter to government as a whole; the framework builds in processes to catch them. Market interest concerns competition among bidders, not hidden guarantees."
+    },
+    {
+      "question": "Which of the following is NOT listed in the Guide as a possible objective of a PPP program?",
+      "options": [
+        "Reducing reported government borrowing regardless of long-term cost",
+        "Achieving Value for Money in infrastructure and public services",
+        "Harnessing private sector innovation and efficiency",
+        "Supporting sustainable, climate-resilient and inclusive development"
+      ],
+      "answer": 0,
+      "explanation": "Lowering reported borrowing without real benefit is exactly the wrong reason for PPPs that the framework must prevent. Value for Money, private innovation and sustainable, climate-resilient development are all listed objectives."
+    }
+  ]
+}

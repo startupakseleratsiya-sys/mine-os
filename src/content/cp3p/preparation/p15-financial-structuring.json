@@ -1,0 +1,308 @@
+{
+  "id": "p15-financial-structuring",
+  "level": "preparation",
+  "order": 15,
+  "title": "Structuring phase and public financial support: co-financing, loans, VGF, equity",
+  "minutes": 18,
+  "guideRef": "Ch 5 §1–§4.6",
+  "objectives": [
+    "Describe the objectives and main tasks of the Structuring Phase and the three types of structuring.",
+    "Weigh the factors that decide the optimum contract term, including the loan tail.",
+    "Explain pure co-financing (grants), public loans and government equity, with their VfM risks.",
+    "Choose suitable ways to fill the viability gap in a user-pays project.",
+    "Identify other support tools such as guarantees, credit enhancement and irrevocable payment tranches."
+  ],
+  "sections": [
+    {
+      "heading": "1. The Structuring Phase: purpose and tasks",
+      "body": "The appraisal has shown the project is worth doing as a PPP. The **Structuring Phase** now turns the preliminary design into a tender package that is **affordable, feasible, delivers VfM** and keeps the risk of failure to a minimum, through a **transparent** and competitive process.\n\nAt the end of appraisal the project has a **pre-structure**: scope, technical requirements, a basic risk allocation, a contract term range, the revenue regime and payment mechanism, any public support, and a procurement strategy. Structuring **challenges and refines** it, especially the financial structure, payment mechanism and risk allocation. Earlier tests (affordability, CBA, VfM) may need to be reopened if scope, costs or laws change.\n\nThe Guide lists the main tasks: build the team and advisers; confirm the contract model and scope; finish due diligence; refine technical requirements; finalise the **financial structure and payment mechanism**; finalise **risk allocation**; update the financial model and set the **ceiling of payments** (or floor for a concession fee); test and market the project; draft other commercial terms; prepare the RFQ, RFP and contract; share information through data rooms; and obtain final approvals.\n\nSome task-list points the exam likes:\n- The definitive financial model sets the **ceiling of payments** (or floor for a concession fee) written into the RFP. If the payments needed stay **below the affordability limits approved at appraisal**, earlier decisions need not be reconsidered.\n- In an **open tender with no pre-qualification**, the contract must be fully drafted by launch; in dialogue or two-stage processes it can be finalised later.\n- Information for bidders is often shared in a **data room** with clear access rules (such as non-disclosure agreements). Avoid individual discussions with bidders; if they happen, record them and share them with all bidders.\n\nTwo warnings:\n- **Do not cut preparation** by passing data collection to bidders. This is bad practice that causes failed tenders, delays and renegotiations.\n- **Allow realistic time**: about 6 months for simple projects and 12 to 18 months for complex ones, assuming appraisal was done well. Insufficient time lies at the heart of many PPP failures.\n\nThe Guide defines **structuring** broadly, with three linked types:\n1. **Financial and fiscal structuring**: public support, contract term and payment mechanism.\n2. **Risk structuring**: allocating risks.\n3. **Tender structuring**: qualification and evaluation criteria.\n\nHere, **financial structure** is seen from the **public** side: the form, timing and conditions of public payments and support, not the bidder's own financing plan, which government should generally not prescribe."
+    },
+    {
+      "heading": "2. Competing objectives and the contract term",
+      "body": "Financial structuring balances **feasibility** against **affordability**. Higher payments or tariffs, or a longer period, make the project more commercially feasible but place a bigger burden on government or users. Strong competition helps: if the key affordability measure (such as the NPV of payments or the user charge) is the bid variable, bidders will push toward the most affordable feasible solution.\n\n**Contract term.** PPPs are long so that government gains VfM from **life-cycle management** and **risk transfer**. Factors to weigh:\n\n| Favour a longer term | Temper the term |\n|---|---|\n| Covers life-cycle renewals; better risk transfer | Higher risk where technology changes fast |\n| Longer debt, higher leverage, lower cost of capital | Financial market limits on tenor |\n| Lower yearly budget burden | Higher total fiscal commitment |\n| More flexibility to absorb changes and risk events | Less flexibility in fiscal policy and service |\n| More years to collect user payments | Political pressure over unwarranted profits; weaker country creditworthiness |\n\n**Loan tail.** Lenders want a cushion between the loan maturity and the contract end, so they can restructure debt if needed. If local project loans run up to 20 years and the contract is also 20 years, lenders may offer only **17 or 18**. A slightly longer contract allows more debt at the same cover ratio, higher gearing and a lower **weighted average cost of capital (WACC)**, which competition passes on to government. A long enough term also leaves room for a later **refinancing**.\n\nThere is **no formula** for the optimum term. The minimum should capture key life-cycle costs and allow maximum debt tenor. Most DBFOM contracts sit around **15 to 30 years**, often shorter in emerging markets.\n\nCautions: making the **term a bid variable** may give a term that does not support risk and life-cycle management. Defining the term as actual construction time plus fixed years of operation weakens construction risk transfer. In a **programme**, using the **same term** for similar projects can be better than tailoring each one."
+    },
+    {
+      "heading": "3. Pure co-financing (grants)",
+      "body": "**Pure co-financing** means non-reimbursable public funds (or in-kind support) toward capital expenditure (CapEx). The private partner does not repay them, so their **cost of capital to it is zero**. The Guide separates this from public **loans**, which must be repaid.\n\nGovernments co-finance in three situations:\n1. **Viability gap** in user-pays projects that are not self-financing.\n2. **Increasing commercial feasibility** of viable projects, usually in shallow financial markets or **megaprojects** (normally above US$1 billion CapEx).\n3. **Increasing affordability** in government-pays PPPs, avoiding a large deferred budget burden.\n\n**VfM risk.** Too much public money reduces the private partner's risk and incentives, making the PPP behave like normal procurement, and may push the project onto the **public balance sheet**. Co-financing commonly ranges from **30 to 40 percent** of capital costs, though more can be justified.\n\n**Types of grant:**\n- **Direct grants** during construction, paid as a share of work in progress, on milestones or at completion.\n- **Deferred grants**: fixed, irrevocable yearly payments beyond construction, not subject to deductions. Useful when government lacks liquidity; the project company can borrow against them much more easily, because they are fixed and irrevocable, like a government bond.\n- **In-kind grants**, such as land or already-built parts of the infrastructure.\n\n**Contract points.** Making grants conditional on milestones adds incentive but raises financing costs. Deferring payments also adds cost: more than public debt, but less than the private finance that is exposed to deductions. The contract must state clearly **when payments accrue** (when the partner has earned the right to them). Removing construction and acceptance risk from that right is what makes co-financing cut the cost of capital. If another administration provides the grant, good practice is that the **procuring authority also assumes that commitment** in the contract. In **government-pays** PPPs the grant amount is usually **set by government**; in **user-pays** viability gap cases it is usually **proposed by bidders**."
+    },
+    {
+      "heading": "4. Public loans: hard or soft",
+      "body": "National development banks and other public financial agencies may lend where private lenders lack capacity. The usual approach is as **co-lenders** on the same terms as commercial banks. Sometimes the agency provides the **cornerstone** of the financing, for example on longer terms or on **subordinated** terms that raise the project's credit rating for senior lenders.\n\nCautions:\n- Systematic public lending can **crowd out** commercial banks.\n- Through public lending, government **indirectly retains** part of the risks the contract transferred.\n- If the agency's loan is needed for feasibility or affordability, it must be **available to any bidder**, with clear eligibility requirements consistent with the tender's qualification criteria, and prepared **before tender launch**.\n\nStrictly, agency loans are not structuring of the contract payments, because the money does not come from the procuring department. But if their terms beat the market, they indirectly lower payments and improve affordability.\n\nThe **procuring authority itself** may also lend. Such **soft loans** (on favourable terms) are usually **subordinated** to senior debt but **senior to equity**, and are often **participative**: government shares in the upside in exchange for the favourable terms. Like grants, soft loans lower the WACC, reducing payments or the viability gap. Unlike a grant, a loan **can leave public debt records unaffected**, provided it is not treated as public investment. The contract must settle **inter-creditor** issues and the lender's remuneration rights."
+    },
+    {
+      "heading": "5. Filling the viability gap in user-pays projects",
+      "body": "Some user-pays projects cannot pay for themselves: revenue net of O&M costs is not enough to repay the investment. This is common in **passenger rail** and in roads with major bridges or tunnels. Commercial infeasibility does **not** mean the project lacks economic sense; strong social benefits may justify it.\n\nOptions to fill the **viability gap**:\n- **Construction grants** (pure co-financing), paid during construction or deferred.\n- **Soft or participative loans** from the procuring authority.\n- **Complementary revenues**: public payments added to user revenues, creating a **hybrid** payment mechanism.\n- A **combination** of the above.\n\nWhen government adds budget payments, it is preferable to make them **service-type payments**, conditional on **availability** or **volume served** (such as shadow tolls), rather than irrevocable. This matters most when public funding is a large share of revenue, for example **more than 40 percent**.\n\nThe Guide cites a road programme that combined availability payments, with deductions capped at 10 percent, and a minimum traffic income guarantee. Another example is a light rail scheme with a deferred grant plus a **shadow fare** per passenger (bid by the winner), with demand bands. The operator keeps the fare box, and the fare revenue is deducted from the shadow fare it earns each year."
+    },
+    {
+      "heading": "6. Government equity",
+      "body": "Government may invest **equity** in the project company directly or through a public infrastructure fund. Motives include:\n- **Control**: direct access to accounts and daily management. Use with caution; it can **discourage bidders** and create **conflicts of interest** between being client and shareholder. A government-nominated director owes duties to the company, which is difficult in disputes or termination. Government may also share liabilities on early termination. Mitigations: hold the equity through a **trust fund**, or rely on **contractual monitoring and reporting rights** instead.\n- **Sharing the upside**: but **benefit sharing mechanisms** in the contract can achieve this without equity.\n- **Feasibility or affordability**: where investors lack appetite or the equity need is very large, or where favourable public equity terms reduce the overall burden.\n\nThe contract package must define the public partner's rights and duties as shareholder, in the SPV's articles and a **shareholders' agreement** (a draft is part of the tender). Common limits: the public partner accepts a **lower equity IRR**; it is **not obliged** to inject extra equity (accepting dilution); its shares may carry **economic rights only**; and rules for selling shares to third parties are set out."
+    },
+    {
+      "heading": "7. Other ways to improve feasibility and affordability",
+      "body": "Government can also help indirectly:\n- **Contractual guarantees**, such as a **minimum revenue guarantee** in roads, a term extended until revenues reach an agreed NPV, or **take-or-pay** in water and energy plants. They lower the cost of capital, but strictly belong to **risk** structuring.\n- **Foreign exchange guarantees**, where government takes devaluation risk on hard-currency debt in weak local markets.\n- **Explicit financial guarantees** from the treasury on project debt (first call, unconditional, irrevocable), sometimes only during construction.\n- **Guarantee funds** that secure the **government's own payment obligations**, without transferring risk back to government.\n- **Limiting deductions** to a set percentage of service payments (for example 20 percent), common in early-stage markets, while keeping the right to terminate for default.\n- **Credit enhancement**, such as subordinated debt from an official agency that raises the project's rating so it can issue bonds. **Unless access is already granted and committed**, it should **not** be included in the financial model for affordability or feasibility; government should prepare access for all bidders.\n- **Irrevocable payment tranches** (in France, **Cessions Dailly**): after commissioning, the private partner may assign part of its payment rights (typically **70 percent**) to its creditors, with public consent. These rights then survive even if the contract is terminated, so that debt tranche gets the public authority's credit rating and the WACC falls.\n\nProjects with environmental, climate or social benefits may also access **green, social and sustainability bonds**."
+    }
+  ],
+  "example": {
+    "title": "Eastport tram: combining support tools",
+    "body": "Imagine the fictional city of Eastport structuring a tram PPP. Appraisal showed fares cannot cover the investment. The national government offers a grant of 35 percent of CapEx through an agreement with the city. Following good practice, the city itself commits to pay that grant in the contract, so bidders face only one counterparty. Because the city lacks cash, the grant is deferred: fixed, irrevocable yearly payments that accrue monthly as works progress, which the project company can easily finance.\n\nThe remaining gap is filled with a shadow fare per passenger, with demand bands, plus an availability component. Since public payments exceed 40 percent of revenue, these complementary payments are conditional on service, not irrevocable. In this user-pays case, bidders compete on the size of the shadow fare they need.\n\nLocal banks lend for at most 20 years. The team sets a 25-year term so that it covers the major rolling stock refurbishment and leaves room for a loan tail. A development bank will co-lend; its eligibility rules are published and match the qualification criteria. The city considers taking 20 percent equity for control, but chooses contractual monitoring and reporting rights instead, avoiding conflicts of interest."
+  },
+  "examTraps": [
+    {
+      "trap": "Treating a public soft loan as pure co-financing",
+      "fix": "Pure co-financing is a non-reimbursable grant with zero cost of capital to the private partner. A loan must be repaid and can stay off public debt records if not treated as public investment."
+    },
+    {
+      "trap": "Assuming more co-financing is always better",
+      "fix": "Too much public money weakens private incentives and risk transfer, harming VfM, and may put the asset on the public balance sheet."
+    },
+    {
+      "trap": "Confusing who sets the grant amount",
+      "fix": "Government-pays: government usually fixes the grant in the tender. User-pays viability gap: bidders usually propose the grant."
+    },
+    {
+      "trap": "Including uncommitted credit enhancement in the affordability model",
+      "fix": "Only include external support such as credit enhancement once access is granted and committed; prepare it for all bidders."
+    },
+    {
+      "trap": "Confusing guarantee funds with explicit debt guarantees",
+      "fix": "A guarantee fund secures the government's own payment obligations and transfers no risk back. An explicit guarantee protects project debt on first call."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Financial structure (public perspective)",
+      "meaning": "The form, timing and conditions of public payments and support to the private partner, and the resulting fiscal profile."
+    },
+    {
+      "term": "Ceiling of payments",
+      "meaning": "The maximum payment acceptable in a qualifying bid, set from the definitive financial model (or a floor for concession fees)."
+    },
+    {
+      "term": "Loan tail",
+      "meaning": "The cushion lenders require between the end of the loan and the end of the contract."
+    },
+    {
+      "term": "Pure co-financing",
+      "meaning": "Non-reimbursable public funds or in-kind support toward CapEx, also called grant financing."
+    },
+    {
+      "term": "Viability gap",
+      "meaning": "The shortfall when user revenues net of O&M costs cannot repay the investment in a user-pays project."
+    },
+    {
+      "term": "Participative loan",
+      "meaning": "A subordinated public loan on favourable terms that gives government a share of the project's upside."
+    },
+    {
+      "term": "Crowding out",
+      "meaning": "When systematic public lending pushes commercial lenders out of the market."
+    },
+    {
+      "term": "Cessions Dailly",
+      "meaning": "A French technique where part of the payment rights are assigned to lenders after commissioning and survive termination."
+    }
+  ],
+  "summary": [
+    "Structuring refines the pre-structure into a tender package that is affordable, feasible and delivers VfM.",
+    "Structuring is financial, risk and tender structuring; the financial structure is seen from the public side.",
+    "The contract term balances life-cycle, financing, affordability and flexibility; there is no formula, and a loan tail matters.",
+    "Pure co-financing is non-reimbursable, typically 30 to 40 percent of CapEx; too much harms VfM.",
+    "Public loans can be co-lending, cornerstone or subordinated participative loans; beware crowding out and hidden risk retention.",
+    "Viability gaps are filled with grants, soft loans or complementary service-type payments.",
+    "Government equity needs care over conflicts; guarantees, credit enhancement and irrevocable tranches are further tools."
+  ],
+  "slides": [
+    {
+      "title": "From appraisal to structuring",
+      "points": [
+        "Pre-structure is challenged and refined",
+        "Goal: affordable, feasible, value for money",
+        "Financial, risk and tender structuring",
+        "Allow six to eighteen months"
+      ],
+      "narration": "Welcome to the Structuring Phase. Appraisal told us the project is worth doing as a PPP and gave us a rough pre-structure. Now we sharpen it into a tender package. There are three kinds of structuring working together: financial, meaning public payments and support; risk, meaning who carries what; and tender, meaning how we qualify and choose bidders. Please do not rush this. Simple projects need around six months, complex ones twelve to eighteen, and cutting corners is a classic cause of failure."
+    },
+    {
+      "title": "Feasibility versus affordability",
+      "points": [
+        "Higher payments make projects more feasible",
+        "But raise burden on government or users",
+        "Let competition find the balance",
+        "Set the ceiling of payments"
+      ],
+      "narration": "Every financial structuring decision is a balancing act. Pay more, or pay for longer, and the project becomes easier to finance, but the burden on taxpayers or users grows. The good news is that competition can help find the balance. If bidders compete on the key affordability measure, such as the present value of payments or the user tariff, they have a strong reason to offer the most affordable solution they can deliver. The updated model then sets the maximum payment a bid may ask for."
+    },
+    {
+      "title": "Choosing the contract term",
+      "points": [
+        "Long enough for life-cycle renewals",
+        "Leave a loan tail for lenders",
+        "Longer means lower yearly, higher total cost",
+        "No formula; consider programme consistency"
+      ],
+      "narration": "How long should the contract be? Long enough to cover major renewals, so the partner thinks about whole-life cost. Long enough for lenders to offer their maximum tenor with a loan tail, the cushion they like between loan end and contract end. Longer terms lower the yearly budget burden but raise total cost and reduce flexibility, and fast-changing technology argues for shorter terms. There is no formula. Most big contracts fall between fifteen and thirty years, and in a programme, one standard term often works best."
+    },
+    {
+      "title": "Pure co-financing: grants",
+      "points": [
+        "Non-reimbursable, zero cost to private partner",
+        "Direct, deferred or in kind",
+        "Typically 30 to 40 percent of CapEx",
+        "Too much weakens incentives"
+      ],
+      "narration": "Pure co-financing means grants: public money the private partner never repays. Grants can be paid during construction, deferred as fixed irrevocable yearly payments when cash is short, or given in kind, like land. They are used to fill a viability gap, to help very large projects get financed, or to ease the future budget burden. Typical levels are thirty to forty percent of capital cost. But be careful: too much public money removes private risk and incentives, and can put the asset on the public books."
+    },
+    {
+      "title": "Who sets the grant, and when is it earned?",
+      "points": [
+        "Government-pays: government fixes the grant",
+        "User-pays gap: bidders propose it",
+        "Contract defines when payments accrue",
+        "Procuring authority assumes third-party grants"
+      ],
+      "narration": "Two practical questions come up in exams. First, who sets the grant amount? In government-pays projects, the government usually fixes it in the tender, and bidders compete on the service fee. In user-pays projects with a viability gap, bidders usually propose the grant they need. Second, when is it earned? The contract must say exactly when payments accrue, because that decides how cheaply the partner can finance them. And if another level of government pays, the procuring authority should take on that commitment itself."
+    },
+    {
+      "title": "Public loans",
+      "points": [
+        "Co-lender or cornerstone lender",
+        "Soft loans: subordinated, often participative",
+        "Can stay off public debt records",
+        "Must be open to every bidder"
+      ],
+      "narration": "Public loans are the second tool. A development bank may lend alongside commercial banks, or provide the cornerstone piece that makes the financing possible. The procuring authority may also give a soft loan, usually subordinated to senior debt and often participative, meaning government shares the upside. Unlike a grant, a loan can stay off the public debt records if it is not treated as public investment. Two cautions: public lending can crowd out banks, and it quietly keeps some risk with government. Also, every bidder must have equal access."
+    },
+    {
+      "title": "Filling the viability gap",
+      "points": [
+        "Common in passenger rail and big tunnels",
+        "Grants, soft loans, complementary payments",
+        "Prefer service-type payments",
+        "Especially above 40 percent public revenue"
+      ],
+      "narration": "Some user-pays projects, like metros or roads full of tunnels, simply cannot pay for themselves from fares or tolls. That does not mean they are bad projects; the social benefits may be large. To fill the viability gap, government can give grants, soft loans, or extra payments on top of user revenue. When it adds payments, the Guide prefers service-type payments, linked to availability or volume, rather than unconditional ones, especially when public money is a big share of revenue, say more than forty percent."
+    },
+    {
+      "title": "Equity and other support tools",
+      "points": [
+        "Government equity: watch conflicts of interest",
+        "Use trust funds or monitoring rights",
+        "Guarantees, guarantee funds, credit enhancement",
+        "Irrevocable tranches like Cessions Dailly"
+      ],
+      "narration": "Government can also buy equity, but being both client and shareholder creates conflicts and may scare bidders. A trust fund, or simple contractual monitoring rights, can give control without those problems, and benefit sharing can capture upside. Other tools include revenue guarantees, foreign exchange guarantees, treasury guarantees of debt, and guarantee funds that secure government's own payments. Credit enhancement helps too, but only count it once it is committed. Finally, irrevocable tranches, like the French Cessions Dailly, give lenders government-quality credit and cut financing costs."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A ministry is structuring a user-pays toll bridge that needs a construction grant to be commercially feasible. How is the size of the grant usually determined?",
+      "options": [
+        "The ministry fixes it in the tender and it is not open to bids",
+        "The senior lenders set it after financial close",
+        "It is negotiated with the preferred bidder after award",
+        "Bidders propose the grant they need, often as the key bid variable"
+      ],
+      "answer": 3,
+      "explanation": "In user-pays PPPs where co-financing fills a viability gap, the grant size is usually proposed by bidders. In government-pays PPPs the government usually fixes it in the tender documents."
+    },
+    {
+      "question": "In a government-pays PPP, officials propose that public grants cover 75 percent of CapEx to lower annual payments. What is the main concern the Guide raises?",
+      "options": [
+        "Grants cannot legally be paid during construction",
+        "Heavy public funding may weaken private risk and incentives, harming VfM, and may bring the asset onto the public balance sheet",
+        "Grants always increase the private partner's cost of capital",
+        "Lenders will refuse to finance any project with a grant"
+      ],
+      "answer": 1,
+      "explanation": "The Guide warns that excessive public finance turns incentives into those of normal procurement and may cause the project to be consolidated with public debt. Grants actually lower the private partner's cost of capital."
+    },
+    {
+      "question": "A municipality is procuring a light rail PPP, but part of the grant will come from the regional government. What is good practice?",
+      "options": [
+        "The municipality also assumes the regional government's grant commitment in the PPP contract",
+        "The private partner signs a separate grant contract with the region",
+        "The grant is paid to the lenders directly by the region",
+        "The municipality leaves the grant out of the contract to limit its liability"
+      ],
+      "answer": 0,
+      "explanation": "Good practice is for the procuring authority to assume third-party commitments in the contract, so the private partner does not face double counterparty risk or deal with an administration that is not its client."
+    },
+    {
+      "question": "A PPP is feasible only with a long-term loan from the national development bank. What should the procuring authority do before launching the tender?",
+      "options": [
+        "Let the bank select the winning bidder",
+        "Offer the loan only to the bidder with the best technical score",
+        "Make sure the loan is available to any bidder, with clear eligibility rules consistent with the qualification criteria",
+        "Wait until after award to approach the bank"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says necessary agency financing must be available for any bidder, assessed in advance, with requirements clear, accessible and consistent with the qualification criteria. Leaving it until after award risks the project's feasibility."
+    },
+    {
+      "question": "In a country where project loans are available for up to 20 years, the authority proposes a 20-year DBFOM contract. What is the likely financial effect?",
+      "options": [
+        "Lenders will lend for 22 years, giving extra flexibility",
+        "Lenders may offer only 17 or 18 years; a slightly longer term could allow higher gearing and a lower WACC",
+        "The term has no effect on the amount of debt that can be raised",
+        "Equity investors will have to provide the full CapEx"
+      ],
+      "answer": 1,
+      "explanation": "Lenders require a loan tail, so a 20-year contract may support only 17 to 18 years of debt. Extending the term allows more debt at the same cover ratio, higher gearing and a lower WACC."
+    },
+    {
+      "question": "For a government-pays school PPP, the authority suggests letting bidders compete on who needs the shortest contract term. What concern should the adviser raise?",
+      "options": [
+        "Term cannot be combined with an availability payment mechanism",
+        "Term cannot legally be a bid variable in any country",
+        "Lenders cannot finance contracts shorter than 30 years",
+        "The result may be a term that does not support effective risk transfer and life-cycle management"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says using the term as a bid factor should be carefully considered because it may produce a term that does not incentivise effective risk and life-cycle management, especially in government-pays PPPs."
+    },
+    {
+      "question": "Consider these two statements. 1: Pure co-financing is non-reimbursable, so its cost of capital to the private partner is zero. 2: A soft loan from the procuring authority always counts as public debt in the same way as a grant.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 matches the Guide's definition of pure co-financing. Statement 2 is false: unlike a grant, a loan can leave public debt records unaffected if it is not treated as public investment."
+    },
+    {
+      "question": "A government wants a 30 percent equity stake in a PPP company mainly to monitor operations closely. Which approach does the Guide suggest to reduce the problems this creates?",
+      "options": [
+        "Appoint a senior ministry official as the company's chief executive",
+        "Require the private shareholders to accept the same equity IRR as government",
+        "Hold the stake through a trust fund, or use contractual monitoring and reporting rights instead",
+        "Give the public shares extra voting rights over all decisions"
+      ],
+      "answer": 2,
+      "explanation": "Government equity can create conflicts of interest between client and shareholder. The Guide suggests a trust fund, or contractual monitoring and reporting rights, to meet the control objective without those conflicts."
+    },
+    {
+      "question": "An official agency offers a credit enhancement facility that might lift the project's rating, but access has not yet been granted or committed. How should the authority treat it in the financial model for affordability?",
+      "options": [
+        "Include it fully, because it will probably be granted",
+        "Include half of its expected benefit as a prudent estimate",
+        "Include it only in the winning bidder's model",
+        "Leave it out until access is granted and committed, while preparing access for all bidders"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says such support should not be included for affordability or feasibility purposes unless access is already granted and committed; government should prepare access to give all bidders a level playing field."
+    },
+    {
+      "question": "What is the main effect of an irrevocable payment tranche such as the French Cessions Dailly?",
+      "options": [
+        "It lets government cancel payments if performance is poor",
+        "Part of the payment rights assigned to lenders after commissioning survive termination, so that debt carries the authority's credit rating",
+        "It converts user tolls into a guaranteed minimum revenue",
+        "It replaces all availability payments with a single upfront grant"
+      ],
+      "answer": 1,
+      "explanation": "Under Cessions Dailly, typically 70 percent of payment rights are transferred to creditors after commissioning and must be paid even if the contract ends. This raises that tranche to the public authority's credit level and lowers the WACC."
+    }
+  ]
+}

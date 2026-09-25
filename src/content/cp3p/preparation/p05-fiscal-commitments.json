@@ -1,0 +1,305 @@
+{
+  "id": "p05-fiscal-commitments",
+  "level": "preparation",
+  "order": 5,
+  "title": "Managing fiscal commitments to PPPs",
+  "minutes": 17,
+  "guideRef": "Ch 2 §1.8.7–§1.8.12",
+  "objectives": [
+    "Classify a government commitment to a PPP as a direct liability or a contingent liability, and a contingent liability as explicit or implicit.",
+    "Explain how direct and contingent liabilities are quantified, including scenario analysis and probabilistic (Monte Carlo) analysis.",
+    "Describe how affordability is tested: the role of the Ministry of Finance, the annual budget, the Medium-Term Expenditure Framework and fiscal limits.",
+    "Compare the main ways to budget for PPP commitments, such as contingency lines and contingent liability funds.",
+    "Explain when PPP assets and liabilities appear in government accounts under IPSAS 32 and the Eurostat rule, and why disclosure matters."
+  ],
+  "sections": [
+    {
+      "heading": "Why PPPs create fiscal commitments",
+      "body": "A PPP is not 'free money'. Whenever a government supports a PPP, it takes on a **liability**: a financial obligation that the government may have to meet. The Guide calls these obligations **fiscal commitments**.\n\nGovernment support can take several forms:\n- **Public payments** to the private partner, such as capital grants during construction or regular service payments during operation. These must respect the contract conditions on timing, indexation, deductions and adjustments.\n- **Financing support**, such as guarantees and other credit enhancements, equity, or debt contributions.\n- **Risk allocation**: when the government keeps a risk in the contract, it may have to pay if that risk happens.\n\nThe Guide gives several examples of how fiscal problems appear in practice:\n- If an investor in many PPPs goes bankrupt, those contracts may be terminated early for private partner default. Lenders must then be compensated for outstanding debt and investors for paid-in capital, and the authorities may not have the budget.\n- If local governments run many government-pays PPPs and their income falls, they may miss payments, and the central government may have to step in.\n- If the government pays per user and demand is much higher than forecast, payments exceed what was expected.\n- A **minimum revenue guarantee** can be called when revenue falls below projections, creating an unbudgeted payment.\n- A crisis that keeps people at home can cut transport revenues and force the government to support projects to keep services running.\n- In a new PPP market, lenders may ask the government to set aside cash in a separate account to back its obligations.\n\nThe lesson: fiscal commitments must be identified, quantified, approved, budgeted, accounted for and reported. The rest of this lesson follows that chain."
+    },
+    {
+      "heading": "Direct and contingent liabilities",
+      "body": "The Guide divides fiscal commitments into clear categories.\n\n**Direct liabilities** are known payments that must be made if the PPP goes ahead, even if the exact amount is somewhat uncertain. Examples:\n- **Upfront 'viability gap' payments**: a capital subsidy, often paid as construction progresses.\n- **Availability payments**: regular payments over the project life, usually conditional on the asset or service being available at the agreed quality, with possible bonuses or penalties.\n- **Shadow tolls or output-based payments**: a payment per unit or per user, for example per vehicle-kilometre on a PPP highway.\n\n**Contingent liabilities** are payments whose occurrence, timing and size depend on an uncertain future event outside the government's control. Examples:\n- **Guarantees on risk variables**, such as a guarantee that demand stays above a level or that exchange rates stay within a range. The risk is shared between the parties.\n- **Compensation clauses**, for example for specified uninsurable force majeure events.\n- **Termination payments**, an agreed amount payable if the contract expires or ends early through public or private default. The amount may depend on who defaulted.\n- **Debt guarantees and other credit enhancements**, a promise to repay some or all of the project debt if the borrower does not.\n\n**SOEs and sub-sovereign agencies.** When the public party is a state-owned enterprise (SOE), such as a water utility, or a regional or municipal government, there are two levels of liability: the entity's own direct or contingent liability, and a contingent liability for the central government if that entity defaults. The central government's liability is **explicit** if it has given a contractual payment guarantee, and at least **implicit** otherwise, because it may want to bail the entity out.\n\n**Minimum traffic guarantees** (Box 2.24) are a common contingent liability. They can take the form of cash compensation when revenue falls below a minimum, an extension of the concession term, cash compensation combined with a traffic ceiling above which revenue goes to the government, or standby government loans. Such guarantees are often called: in an economic downturn, traffic falls, especially where users are price-sensitive and free alternative routes exist.\n\n**Explicit vs implicit contingent liabilities.**\n- **Explicit** liabilities are legal or contractual commitments, such as the compensation for early termination found in most contracts. This is reasonable for the government, because even after early termination it receives the asset. Lenders also require it, so that most or all of the debt can be recovered.\n- **Implicit** liabilities are political or moral obligations to step in to keep a service running, for example after a crisis or natural disaster, or after poor studies, disputes or incomplete contracts. Governments do not recognise them until the event happens, so they are hard to assess and manage."
+    },
+    {
+      "heading": "A fiscal management framework",
+      "body": "Ideally, fiscal commitments are managed through a **framework approach** that covers analysis, approvals, budgeting and reporting, and that forms part of the wider PPP framework. This is especially valuable when a government runs a **program** of PPPs, because repetition allows standardisation and learning.\n\nThe objectives of this framework (the Guide also calls it the **FCCL framework**, for fiscal commitments and contingent liabilities) should be set out in policy or legislation, depending on the country's legal tradition. Either way, it should contain enforceable procedures to identify, measure, disclose and manage fiscal commitments across the implementing agencies, the PPP unit, the Ministry of Finance (MOF) and high-level approval bodies.\n\nFollowing IMF suggestions, the Guide groups good practice into four stages (Table 2.9):\n\n| Stage | Key rules |\n|---|---|\n| **Analysis** | Methodological guidance to quantify fiscal impact; tools such as the IMF–World Bank PFRAM model |\n| **Control** | Fiscal impact evaluated by the right authority at screening, before tender launch, before commercial close and for any contract variation; value for money must justify the commitment; ceilings cap total exposure |\n| **Budget** | Mechanisms to make sure money is available for both direct and contingent liabilities |\n| **Report** | Proper accounting (for example IPSAS); regular consolidated reporting to the legislature; periodic audits; rules applied to all levels of government |\n\nNote the last rule: fiscal rules for PPPs should apply to **all agencies under direct or indirect government control**, so that sub-sovereign bodies cannot build up hidden exposure."
+    },
+    {
+      "heading": "Quantifying fiscal commitments",
+      "body": "Fiscal risks should be spotted as early as possible, for example in project concept notes. Final values are fixed by the contract, but they can be estimated before and must be monitored after.\n\n**Direct liabilities** are relatively easy to estimate from the project financial model:\n- **Viability gap financing** (typically used in user-pays PPPs) is approximated by the negative NPV of projected user-fee income minus capital and operating costs (or by the NPV of equity contributions and expected dividends).\n- **Availability payments** are found by solving for the payment that gives the private partner an NPV of zero (for example with a goal-seek function). The Guide recommends the **prudency principle**: assume the partner will perform and receive the full payment, not that deductions will reduce it.\n- **Shadow tolls** are approximated as a payment per unit of usage multiplied by expected usage.\n\nThe cost of direct liabilities can be shown in two ways:\n- **Estimated payments in each year**: most useful for the budget and short- to medium-term fiscal planning.\n- **Net present value of payments**: shows the total commitment and is used in financial reporting and debt sustainability analysis. The most appropriate discount rate is the **government's cost of borrowing matching the remaining contract life** (for 10 years remaining, the 10-year government bond yield). Where no long-term bonds exist, a markup is estimated.\n\nA **sensitivity analysis** should show how payments change with demand, inflation or exchange rates.\n\n**Contingent liabilities** are harder, because the need, timing and size of payment are uncertain. Two approaches:\n- **Scenario analysis**: assume an outcome and calculate its cost. The most pragmatic version is the **worst case**, for example the yearly cost of early termination based on outstanding debt, paid-in equity and target return. This exposure falls over time as debt is repaid. It can be refined with a probability (the Guide cites roughly 4% of PPPs being cancelled in the World Bank database).\n- **Probabilistic analysis (Monte Carlo simulation)**: estimate ranges and distributions for each variable, run many simulations and report results such as 'a 90% probability that exposure lies between X and Y'. It is more accurate but depends on good data, so it suits **advanced administrations and mature PPP markets**."
+    },
+    {
+      "heading": "Ensuring commitments are affordable",
+      "body": "Quantified commitments must then be approved. Good rules say **who** approves, **when** in the life cycle, and **how** affordability is judged. The Guide defines affordability as the 'ability to be accommodated within the inter-temporal budget constraint of the government'.\n\n**Who: the Ministry of Finance as gatekeeper.** The MOF (or central budget authority) is responsible for overall fiscal sustainability, so it is best placed to judge whether a PPP is affordable and to balance the spending agencies that act as procuring authorities. The IMF view quoted in the Guide is that the MOF needs a clear legal mandate: approval of project selection, the draft contract (especially deviations from standard clauses), award and renegotiation, plus the power to demand information. Without formal authority, the MOF can only rely on persuasion. The MOF's key tasks also include guidance on the fiscal side of pre-feasibility and feasibility studies, managing direct and contingent liabilities, setting accounting and reporting standards for PPPs, and collecting liability data from subnational governments and SOEs.\n\n**How: three reference points.**\n- **Annual budget constraint**: at a minimum, the commitments of the budget year, including a provision for contingent liabilities, must be appropriated. Some countries go further. The Netherlands appropriates the discounted value of all future PPP commitments, to remove the 'off-budget' incentive for using PPP. Colombia requires agencies to pay the expected value of revenue guarantees into a contingency fund when a PPP is signed, so accepting a contingent liability has an immediate budget impact.\n- **Medium-Term Expenditure Framework (MTEF)**: covers at least three years beyond the current budget, combining spending ceilings with baseline cost estimates. It is more suitable for PPP affordability than a single annual budget.\n- **Fiscal limits (PPP ceilings)**: a cap on PPP exposure. A ceiling combines a **base** (either the **stock** of total commitments or the **flow** of annual commitments, direct and contingent) and a **reference** (GDP, public revenue, public expenditure or capital expenditure). There is no rule of thumb for the level.\n\n**A warning.** Limits that apply only to PPPs can push agencies towards traditional procurement even when a PPP would give better value for money. An alternative is a combined limit on **'debt plus PPP commitments'**. Once an overall limit exists, each PPP must be tested against it during appraisal and approval."
+    },
+    {
+      "heading": "Budgeting for fiscal commitments",
+      "body": "Lenders and investors worry about one thing above all: will the money be there when payments are due? Late or missing payments damage the project company's ability to pay its own debts. In some new markets, governments have even deposited cash equal to the full project value in a separate account.\n\n**Direct commitments.**\n- **Upfront grants** are paid in the first years, so they fit easily into annual budgets and MTEFs. Some governments use a dedicated **Viability Gap Fund** (India's is an example in the Guide). Knowing that funding exists encouraged bidding, and some projects then needed no subsidy.\n- **Long-term payments** such as availability payments are harder. The annual budget cycle does not match multi-year contracts, so the private party faces **appropriation risk**. Many jurisdictions simply assume the legislature will fund legally binding commitments. Where appropriation risk is high, for example with a strong separation of powers, special rules may help: in Brazil, federal PPP subsidy payments are treated like debt service and appropriated automatically.\n\n**Contingent liabilities.** Payments can fall due suddenly, and going back to the legislature for a supplementary appropriation is slow and contentious. Two options:\n1. **More budget flexibility**: a **contingency line** in the budget (for one liability or several), or permission to spend above budget in defined circumstances.\n2. **A contingent liability fund** (guarantee fund): an account, inside or outside government accounts, that receives transfers in advance and pays realised liabilities when due. Examples are Colombia's fund, Indonesia's IIGF and São Paulo's CPP.\n\nA well-designed fund avoids appropriation delays, protects the private partner's liquidity, and **reduces risk for bidders, which lowers costs for the public sector**."
+    },
+    {
+      "heading": "Accounting for and reporting on commitments",
+      "body": "Public sector accounting shows that public money is handled honestly, within budgets and legal limits. This includes PPP direct and contingent liabilities. There are three main types of fiscal reporting:\n- **Government finance statistics**: internationally comparable summaries (for example Eurostat rules or the IMF's GFSM).\n- **Government financial statements**: audited statements, ideally following **IPSAS**, a version of IFRS (the company standard) adapted for the public sector. Few governments fully meet these standards.\n- **Budget documentation and reporting**: no international standard, but guidance from the IMF and OECD promotes transparency.\n\n**Recognising PPP liabilities.** Governments must decide whether and when PPP commitments are recorded as liabilities. This matters because debt and deficit limits can create a **dangerous bias** in favour of PPPs if PPP commitments stay off the books. Two standards address this directly:\n- **IPSAS 32**: the asset and liability go on the government balance sheet if (i) the government controls or regulates what services are provided, to whom and at what price, and (ii) it controls any significant residual interest in the asset at the end of the contract. Government-pays PPPs would therefore appear on the balance sheet; the treatment of user-pays PPPs is less clear.\n- **Eurostat**: European governments must record PPP liabilities in debt statistics unless the majority of risks are transferred, including **construction risk and either demand or availability risk**.\n\n**Contingent liabilities** are usually **not recognised** under most standards. The exception is accrual IPSAS: a contingent liability is recognised as a provision when the event is **likely** and the amount can be **measured reliably**.\n\n**Disclosure.** Even when commitments are not recognised, international standards agree they should be **disclosed in notes** to accounts and reports. Good disclosure shows the size and likelihood of contingent liabilities; Chile, for example, publishes an annual contingent liabilities report. A common obstacle is the lack of practical guidance and templates.\n\nNote also that when a government has an agreement with the IMF or other international donors, the debt limits and reporting rules may be set by those donors rather than by IPSAS or Eurostat."
+    }
+  ],
+  "example": {
+    "title": "Riverton's hospital and toll bridge",
+    "body": "Imagine the fictional Republic of Riverton preparing two PPPs.\n\n**Hospital (government-pays).** The health ministry will make availability payments for 25 years. The financial model shows a payment of 40 million a year. The MOF reports the yearly payment for the budget and MTEF, and the NPV of the whole stream for its debt analysis, discounted at the yield on government bonds with a 25-year maturity. It assumes full payment (the prudency principle), not expected deductions. Because the government controls the services, users, prices and the residual asset, IPSAS 32 puts the hospital on the balance sheet.\n\n**Toll bridge (user-pays).** Bidders ask for a minimum revenue guarantee, and the contract contains termination compensation. Both are **explicit contingent liabilities**. Riverton is a new PPP market with little data, so the MOF uses **scenario analysis**: a worst-case termination cost for each year, falling as debt is repaid, and an estimate of the likely revenue shortfall below the guarantee. It checks the total against its legal ceiling of PPP stock commitments as a share of GDP. To reassure lenders, Riverton pays the expected value of the guarantee into a **contingent liability fund**, and it discloses the guarantee in the notes to its accounts."
+  },
+  "examTraps": [
+    {
+      "trap": "Calling an availability payment a contingent liability because deductions make the amount uncertain.",
+      "fix": "A direct liability is a known payment if the PPP goes ahead, even if its value varies. A contingent liability depends on an uncertain event outside government control, such as a guarantee being triggered or early termination."
+    },
+    {
+      "trap": "Mixing up explicit and implicit contingent liabilities.",
+      "fix": "Explicit means written in law or contract (termination compensation, a revenue guarantee). Implicit means a political or moral pressure to rescue a service, with no contractual promise, and it is not recognised until the event happens."
+    },
+    {
+      "trap": "Choosing Monte Carlo simulation for every country because it is 'more accurate'.",
+      "fix": "Probabilistic analysis depends on reliable data and capacity, so the Guide says it suits advanced administrations and mature PPP markets. A new program should start with pragmatic scenario analysis."
+    },
+    {
+      "trap": "Thinking a PPP-only ceiling always improves fiscal discipline.",
+      "fix": "A limit on PPPs alone can push agencies to traditional procurement even when PPP gives better value for money. A combined 'debt plus PPP commitments' limit avoids that bias."
+    },
+    {
+      "trap": "Assuming contingent liabilities are always recorded as liabilities in the accounts.",
+      "fix": "Most standards only require disclosure in notes. Accrual IPSAS requires recognition as a provision only when the event is likely and the amount can be measured reliably."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fiscal commitment",
+      "meaning": "Any financial obligation the government takes on by supporting a PPP, direct or contingent."
+    },
+    {
+      "term": "Direct liability",
+      "meaning": "A known payment the government must make if the PPP proceeds, such as a viability gap payment, availability payment or shadow toll."
+    },
+    {
+      "term": "Contingent liability",
+      "meaning": "A payment whose occurrence, timing and size depend on an uncertain future event outside government control, such as a guarantee call."
+    },
+    {
+      "term": "Implicit contingent liability",
+      "meaning": "A political or moral obligation to support a project or service, with no legal or contractual commitment."
+    },
+    {
+      "term": "Affordability",
+      "meaning": "The ability of the PPP commitments to be accommodated within the government's inter-temporal budget constraint."
+    },
+    {
+      "term": "Medium-Term Expenditure Framework (MTEF)",
+      "meaning": "A multi-year budget framework, at least three years beyond the current budget, combining spending ceilings and baseline costs."
+    },
+    {
+      "term": "PPP ceiling",
+      "meaning": "A fiscal limit on PPP exposure, built from a base (stock or flow of commitments) and a reference such as GDP or public expenditure."
+    },
+    {
+      "term": "Contingent liability fund",
+      "meaning": "An account funded in advance from which realised contingent liabilities are paid, avoiding delays in budget appropriation."
+    },
+    {
+      "term": "Monte Carlo simulation",
+      "meaning": "A probabilistic method that runs many simulations over ranges of variables to show the likely distribution of fiscal exposure."
+    },
+    {
+      "term": "IPSAS 32",
+      "meaning": "The public sector accounting standard that puts a PPP on the government balance sheet when it controls the services and the significant residual interest."
+    }
+  ],
+  "summary": [
+    "Every form of government support to a PPP creates a liability that must be managed.",
+    "Direct liabilities are known payments; contingent liabilities depend on uncertain events and can be explicit (contractual) or implicit (political or moral).",
+    "Direct liabilities are shown as yearly payments and as an NPV discounted at the government borrowing rate for the remaining term.",
+    "Contingent liabilities are valued by scenario analysis (pragmatic, worst case) or probabilistic Monte Carlo analysis (mature markets).",
+    "The MOF should be the gatekeeper for affordability, using the annual budget, the MTEF and fiscal ceilings.",
+    "Budgeting tools include Viability Gap Funds, automatic appropriation, contingency budget lines and contingent liability funds.",
+    "IPSAS 32 and Eurostat decide when PPPs appear on the balance sheet; contingent liabilities are usually disclosed in notes rather than recognised."
+  ],
+  "slides": [
+    {
+      "title": "PPPs are not free money",
+      "points": [
+        "Government support always creates a liability",
+        "Payments, guarantees, financing and retained risks",
+        "Unmanaged commitments have caused real fiscal problems"
+      ],
+      "narration": "Let's start with a simple idea. A PPP brings private finance, but it is never free money for the government. Every time the government pays a subsidy, makes regular service payments, gives a guarantee or keeps a risk in the contract, it takes on a liability. The Guide shows how things go wrong when these commitments are ignored: guarantees are called, demand-based payments run higher than expected, or a crisis forces the government to rescue a project. So in this lesson we follow one chain: identify, quantify, approve, budget, account and report."
+    },
+    {
+      "title": "Direct versus contingent liabilities",
+      "points": [
+        "Direct: known payments if the PPP proceeds",
+        "Examples: viability gap, availability payments, shadow tolls",
+        "Contingent: depend on an uncertain future event",
+        "Examples: guarantees, termination payments, compensation clauses"
+      ],
+      "narration": "The exam loves this distinction, so let's be precise. A direct liability is a payment the government knows it must make once the PPP goes ahead. The amount might vary a little, but the obligation is certain. Think of a capital grant, an availability payment, or a shadow toll per vehicle. A contingent liability is different. The government only pays if some uncertain event happens, an event it does not control. Think of a minimum revenue guarantee, a debt guarantee, or compensation if the contract is terminated early."
+    },
+    {
+      "title": "Explicit and implicit liabilities",
+      "points": [
+        "Explicit: written in law or in the contract",
+        "Implicit: political or moral pressure to rescue services",
+        "Implicit liabilities are recognised only when events happen",
+        "SOE and municipal PPPs create a second, central-government layer"
+      ],
+      "narration": "Contingent liabilities come in two flavours. Explicit ones are written down, for example termination compensation, which most contracts include and lenders insist on. Implicit ones are not written anywhere. They come from political or moral pressure, when a crisis or a disaster threatens an essential service and people expect the government to step in. Because nothing is signed, implicit liabilities are very hard to measure. Also remember that when a state-owned company or a city signs a PPP, the central government may carry a second layer of risk if that entity defaults."
+    },
+    {
+      "title": "Putting a number on the commitment",
+      "points": [
+        "Direct: yearly payments for budgets, NPV for total exposure",
+        "Discount at government borrowing rate for remaining term",
+        "Contingent: scenario analysis, often a worst-case termination cost",
+        "Monte Carlo simulation suits mature markets with good data"
+      ],
+      "narration": "How do we measure these commitments? For direct liabilities, the financial model does most of the work. We show the expected payment in each year, which helps the budget, and the net present value of the whole stream, which shows the total commitment. The most appropriate discount rate is the government's own borrowing cost for the remaining life of the contract. Contingent liabilities are harder. The pragmatic method is scenario analysis, such as the worst-case cost of early termination each year. The advanced method is Monte Carlo simulation, but it needs good data, so it fits mature markets."
+    },
+    {
+      "title": "The Ministry of Finance as gatekeeper",
+      "points": [
+        "Rules on who approves, when, and how",
+        "MOF balances spending agencies and protects sustainability",
+        "Tests: annual budget, MTEF, and PPP ceilings",
+        "PPP-only ceilings can bias choices against PPP"
+      ],
+      "narration": "Once we have numbers, someone must decide whether they are affordable. The Guide is clear that the Ministry of Finance should be the gatekeeper, because it is responsible for the country's overall fiscal health and can balance the enthusiasm of spending ministries. It checks affordability against the annual budget, against the medium-term expenditure framework, which looks at least three years ahead, and against any PPP ceiling, measured as a stock or a flow compared with GDP or spending. But be careful: a ceiling on PPPs alone can push agencies away from PPPs that offer better value."
+    },
+    {
+      "title": "Making sure the money is there",
+      "points": [
+        "Upfront grants fit easily into annual budgets",
+        "Long-term payments face appropriation risk",
+        "Contingency lines add flexibility for sudden payments",
+        "Contingent liability funds pay quickly and lower bidder risk"
+      ],
+      "narration": "Now think like a lender. The big question is, will the government actually pay on time? Upfront grants are easy, because they fall in the first few years. Long-term availability payments are harder, because budgets are approved one year at a time. Some countries, like Brazil, treat PPP payments like debt service so they are appropriated automatically. For contingent liabilities, governments can add a contingency line to the budget, or create a contingent liability fund that is filled in advance. A good fund pays quickly, reassures bidders, and that lowers the price the public sector pays."
+    },
+    {
+      "title": "On or off the balance sheet?",
+      "points": [
+        "IPSAS 32: control of services plus residual interest",
+        "Eurostat: off debt only if most risks transferred",
+        "Contingent liabilities usually disclosed, not recognised",
+        "Off-book treatment can create a dangerous PPP bias"
+      ],
+      "narration": "Finally, accounting. Why does it matter? Because if PPP commitments stay off the books while normal borrowing is counted, governments may choose PPPs simply to hide debt. Under IPSAS 32, a PPP goes on the government balance sheet if the government controls the services, the users and the prices, and keeps the significant residual interest in the asset. Under the Eurostat rule, it counts as debt unless most risks, including construction risk and demand or availability risk, are transferred. Contingent liabilities are usually disclosed in notes, and recognised only when likely and measurable."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A transport ministry signs a road PPP. It will pay the private partner a fixed amount per vehicle-kilometre driven on the road. How should the Ministry of Finance classify this commitment?",
+      "options": [
+        "As an implicit contingent liability, because traffic is uncertain",
+        "As a direct liability, because payment is certain once the road operates",
+        "As an explicit contingent liability, like a debt guarantee",
+        "As no liability at all, because users drive the payments"
+      ],
+      "answer": 1,
+      "explanation": "Shadow tolls (output-based payments) are listed by the Guide as direct liabilities: known payments if the PPP proceeds, even though the value varies with traffic. A contingent liability depends on an uncertain event such as a guarantee being called."
+    },
+    {
+      "question": "After a major flood, a government feels strong public pressure to rescue a failing private water PPP, although the contract contains no such obligation. What kind of liability is this?",
+      "options": [
+        "An implicit contingent liability",
+        "An explicit contingent liability",
+        "A direct liability",
+        "A viability gap payment"
+      ],
+      "answer": 0,
+      "explanation": "Implicit contingent liabilities are political or moral obligations to intervene, for example after a crisis or natural disaster, with no legal or contractual commitment. An explicit liability would have to be written in law or in the contract."
+    },
+    {
+      "question": "A Ministry of Finance wants to show the total commitment of a 20-year availability payment stream in its debt sustainability analysis. According to the Guide, which discount rate is most appropriate?",
+      "options": [
+        "The private partner's target equity return",
+        "The social discount rate used in cost-benefit analysis",
+        "The yield on government bonds matching the remaining contract life",
+        "The project company's senior debt interest rate"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the most appropriate rate is the government's cost of borrowing for the remaining life of the agreement, such as the 10-year bond yield for 10 years remaining. The social discount rate is mentioned as an option but is not the most appropriate one."
+    },
+    {
+      "question": "A country is launching its first PPP program. Data on past projects is very limited. How should the Ministry of Finance value the termination and guarantee exposure of its first projects?",
+      "options": [
+        "Run a full Monte Carlo simulation for every project",
+        "Wait until contracts are signed before estimating anything",
+        "Record only direct liabilities and ignore contingent ones",
+        "Use scenario analysis, such as a worst-case termination cost each year"
+      ],
+      "answer": 3,
+      "explanation": "Scenario analysis is the pragmatic approach, and the worst-case termination cost is its simplest form. Monte Carlo simulation depends on reliable data, so the Guide says it suits advanced administrations and mature PPP markets."
+    },
+    {
+      "question": "Consider two statements. 1: The Ministry of Finance is best placed to act as gatekeeper for PPP affordability. 2: A Medium-Term Expenditure Framework is less suitable than the annual budget for PPP affordability decisions.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The MOF is responsible for overall fiscal sustainability, so it is best placed as gatekeeper. Statement 2 is false: the Guide says MTEFs, covering at least three years beyond the current budget, are more suitable than the annual budget constraint."
+    },
+    {
+      "question": "A government is designing a PPP ceiling. Its advisor warns that a limit applying only to PPPs may distort decisions. What alternative does the Guide suggest?",
+      "options": [
+        "Remove all fiscal limits and rely on value for money tests",
+        "A combined limit on public debt plus PPP commitments",
+        "A ceiling that counts only user-pays PPPs",
+        "A separate ceiling for each procuring authority's budget"
+      ],
+      "answer": 1,
+      "explanation": "PPP-specific limits can push agencies to traditional procurement even when a PPP gives better value for money. The Guide suggests incorporating PPP commitments into wider fiscal targets, such as a limit on debt plus PPP commitments."
+    },
+    {
+      "question": "Bidders for a toll road PPP fear that a revenue guarantee will be paid late, because any payment would need a supplementary appropriation from parliament. What should the government do to address this concern?",
+      "options": [
+        "Remove the guarantee and increase the toll level",
+        "Promise that parliament will approve any payment quickly",
+        "Set up a contingent liability fund financed in advance",
+        "Convert the guarantee into an implicit liability"
+      ],
+      "answer": 2,
+      "explanation": "A contingent liability fund receives transfers in advance and pays realised liabilities when due, avoiding appropriation delays. The Guide notes this reduces risk for bidders and so lowers costs for the public sector; a mere promise gives no such certainty."
+    },
+    {
+      "question": "Under IPSAS 32, when should a PPP asset and its liability appear on the government balance sheet?",
+      "options": [
+        "When the private partner finances more than half of the capital cost",
+        "Only when the project is a user-pays concession",
+        "When the majority of construction risk stays with the government",
+        "When government controls the services, users and prices, and the residual interest"
+      ],
+      "answer": 3,
+      "explanation": "IPSAS 32 uses a control test: the government controls or regulates what services are provided, to whom and at what price, and controls any significant residual interest at the end. The 'majority of risks' test belongs to Eurostat, not IPSAS 32."
+    },
+    {
+      "question": "A regional government signs PPPs with guarantees that are not reported to the national Ministry of Finance. Which rule of a sound fiscal management framework is being ignored?",
+      "options": [
+        "Fiscal rules for PPPs should apply to all agencies under government control",
+        "Value for money must be assessed before tender launch",
+        "Availability payments should assume full performance",
+        "Contingent liability funds must be held outside government accounts"
+      ],
+      "answer": 0,
+      "explanation": "The Guide's rules say fiscal management procedures should apply to all agencies under direct or indirect government control, to avoid unwarranted sub-sovereign exposure. The other options are either different rules or not rules the Guide sets."
+    },
+    {
+      "question": "A government has signed a PPP with a minimum revenue guarantee. The guarantee is unlikely to be called and its amount cannot be measured reliably. How should it normally be treated in the government's reporting?",
+      "options": [
+        "Recognised in full as debt on the balance sheet at signing",
+        "Disclosed in the notes to the accounts, not recognised as a liability",
+        "Ignored, because it is only a contingent liability",
+        "Recorded as an annual expense equal to the maximum payment"
+      ],
+      "answer": 1,
+      "explanation": "Most standards do not require recognition of contingent liabilities, but they agree these should be disclosed in notes. Accrual IPSAS requires recognition only when the event is likely and the amount measurable, which is not the case here."
+    }
+  ]
+}

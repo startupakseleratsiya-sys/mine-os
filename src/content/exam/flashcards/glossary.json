@@ -1,0 +1,3607 @@
+[
+  {
+    "id": "g-abandonment",
+    "kind": "term",
+    "term": "Abandonment",
+    "definition": "Failure by the private partner to construct or operate the facility for a prolonged period of time.",
+    "ref": "Glossary: Abandonment"
+  },
+  {
+    "id": "g-acceptance",
+    "kind": "term",
+    "term": "Acceptance",
+    "definition": "Confirmation by the public authority or the independent certifier that the conditions for service availability have been met.",
+    "ref": "Glossary: Acceptance"
+  },
+  {
+    "id": "g-accommodation-projects",
+    "kind": "term",
+    "term": "Accommodation projects",
+    "definition": "PPP projects that provide buildings such as schools, hospitals and prisons.",
+    "ref": "Glossary: Accommodation projects"
+  },
+  {
+    "id": "g-affermage",
+    "kind": "term",
+    "term": "Affermage",
+    "definition": "French-origin PPP form where the private partner operates and maintains existing infrastructure but does not finance the investment. It gets no fixed fee: it keeps part of user charges and pays the procuring authority (asset owner) a percentage of receipts or of units of service.",
+    "ref": "Glossary: Affermage"
+  },
+  {
+    "id": "g-affordability",
+    "kind": "term",
+    "term": "Affordability",
+    "definition": "The ability of a project to be realistically accommodated within the government's inter-temporal budget constraints. Also called fiscal feasibility.",
+    "ref": "Glossary: Affordability"
+  },
+  {
+    "id": "g-appraisal",
+    "kind": "term",
+    "term": "Appraisal",
+    "definition": "A series of feasibility exercises that inform the decision to approve, cancel or revisit the project before the contract is structured.",
+    "ref": "Glossary: Appraisal"
+  },
+  {
+    "id": "g-appropriations-risks",
+    "kind": "term",
+    "term": "Appropriations risks",
+    "definition": "The risk that the public agency cannot meet its financial obligations to the project because funds are not obligated into its budget. Affects lump-sum construction payments, availability payments, or other payments during the project life.",
+    "ref": "Glossary: Appropriations risks"
+  },
+  {
+    "id": "g-arbitration",
+    "kind": "term",
+    "term": "Arbitration",
+    "definition": "A private form of adjudication in which parties, under a written agreement, select impartial arbitrators (plus an independent arbitrator) and may design their own rules. The arbitrator's decision is legally binding in most circumstances.",
+    "ref": "Glossary: Arbitration"
+  },
+  {
+    "id": "g-arrendamiento-leasing-of-public-goods",
+    "kind": "term",
+    "term": "Arrendamiento (leasing of public goods)",
+    "definition": "A legal alternative to government-pays DBFOM contracts where the facility is built on land that is not reserved for public use, i.e., real estate the government can dispose of.",
+    "ref": "Glossary: Arrendamiento (leasing of public goods)"
+  },
+  {
+    "id": "g-articles-of-association",
+    "kind": "term",
+    "term": "Articles of Association",
+    "definition": "The document setting out the purpose of the Special Purpose Vehicle (SPV) and the rules governing how its office holders run it.",
+    "ref": "Glossary: Articles of Association"
+  },
+  {
+    "id": "g-availability-failure",
+    "kind": "term",
+    "term": "Availability failure",
+    "definition": "A service failure that affects one or more functional areas or units of a facility.",
+    "ref": "Glossary: Availability failure"
+  },
+  {
+    "id": "g-availability-payments",
+    "kind": "term",
+    "term": "Availability payments",
+    "definition": "Payments made over the contract life in return for the private party making the infrastructure available, as defined in the contract. A common form of payment in government-pays PPPs.",
+    "ref": "Glossary: Availability payments"
+  },
+  {
+    "id": "g-availability-risk",
+    "kind": "term",
+    "term": "Availability risk",
+    "definition": "The risk (especially from the public perspective) that the infrastructure is not available for use and/or does not meet quality requirements or expected performance levels.",
+    "ref": "Glossary: Availability risk"
+  },
+  {
+    "id": "g-bankability",
+    "kind": "term",
+    "term": "Bankability",
+    "definition": "The ability of a project to be accepted by lenders under project finance, i.e., to raise significant long-term loans because its future cash flows are sufficient and reliable (creditworthy).",
+    "ref": "Glossary: Bankability"
+  },
+  {
+    "id": "g-base-case",
+    "kind": "term",
+    "term": "Base case",
+    "definition": "The financial description of the project (costs, revenues, resulting conclusions) combining the sensitivity variables to represent the most likely scenario.",
+    "ref": "Glossary: Base case"
+  },
+  {
+    "id": "g-base-case-financial-model",
+    "kind": "term",
+    "term": "Base case financial model",
+    "definition": "The financial model agreed between the parties at financial close, including all costs, revenues, payments, parameters and assumptions. It may be updated, amended and adjusted from time to time.",
+    "ref": "Glossary: Base case financial model"
+  },
+  {
+    "id": "g-baseline-schedule",
+    "kind": "term",
+    "term": "Baseline schedule",
+    "definition": "A project schedule prepared for coordination and monitoring, used to identify the critical path and near-critical paths that, if delayed, would delay overall completion.",
+    "ref": "Glossary: Baseline schedule"
+  },
+  {
+    "id": "g-benchmarking",
+    "kind": "term",
+    "term": "Benchmarking",
+    "definition": "Comparing the cost of an item or service against its market price. In government-pays PPPs with soft services, it is a value testing method used to adjust service payments to market prices; the other common method is market testing.",
+    "ref": "Glossary: Benchmarking"
+  },
+  {
+    "id": "g-best-and-final-offer-bafo",
+    "kind": "term",
+    "term": "Best And Final Offer (BAFO)",
+    "definition": "A further short-listing step within the Request for Proposal (RFP) phase used to determine the preferred bidder.",
+    "ref": "Glossary: Best And Final Offer (BAFO)"
+  },
+  {
+    "id": "g-bid-bond",
+    "kind": "term",
+    "term": "Bid bond",
+    "definition": "A written guarantee from the bidder to the procuring authority ensuring that, if selected, it will proceed with the contract. Also called a bid submission guarantee; usually returned to the winner on contract effectiveness or financial close.",
+    "ref": "Glossary: Bid bond"
+  },
+  {
+    "id": "g-bid-bonus",
+    "kind": "term",
+    "term": "Bid bonus",
+    "definition": "An unsolicited proposal mechanism: the original proponent receives a scoring advantage (an extra percentage added to its evaluation score) in the open bidding process.",
+    "ref": "Glossary: Bid bonus"
+  },
+  {
+    "id": "g-bid-submission-guarantee",
+    "kind": "term",
+    "term": "Bid submission guarantee",
+    "definition": "Another name for a bid bond: a guarantee ensuring the bidder, if selected, will proceed with the contract.",
+    "ref": "Glossary: Bid submission guarantee"
+  },
+  {
+    "id": "g-bidder-or-proposer",
+    "kind": "term",
+    "term": "Bidder (or proposer)",
+    "definition": "Broadly, the company or consortium that submits a bid in response to an RFP. Strictly, only the companies committed to form the project company (SPV); other consortium members may act as nominated contractors. Government contracts with the SPV or its founders.",
+    "ref": "Glossary: Bidder (or proposer)"
+  },
+  {
+    "id": "g-breach-of-contract",
+    "kind": "term",
+    "term": "Breach of contract",
+    "definition": "Same as contract breach: a failure to observe a provision of the contract, which may lead to penalties and, if material, to contract default.",
+    "ref": "Glossary: Breach of contract"
+  },
+  {
+    "id": "g-breakage-cost",
+    "kind": "term",
+    "term": "Breakage cost",
+    "definition": "The cost of early termination of a swap, bond, or other fixed-rate or inflation-indexed loan.",
+    "ref": "Glossary: Breakage cost"
+  },
+  {
+    "id": "g-brownfield-projects",
+    "kind": "term",
+    "term": "Brownfield projects",
+    "definition": "Technically: projects on sites previously used for industry or significant buildings. For investors: investments in infrastructure assets that existed before procurement, or former greenfields already in operation when the investment is made.",
+    "ref": "Glossary: Brownfield projects"
+  },
+  {
+    "id": "g-business-case",
+    "kind": "term",
+    "term": "Business case",
+    "definition": "The document that articulates the rationale for undertaking an investment.",
+    "ref": "Glossary: Business case"
+  },
+  {
+    "id": "g-calibration",
+    "kind": "term",
+    "term": "Calibration",
+    "definition": "The process of refining and assigning final numbers and values to the various parts of the payment mechanism.",
+    "ref": "Glossary: Calibration"
+  },
+  {
+    "id": "g-capital-expenditure-capex",
+    "kind": "term",
+    "term": "Capital expenditure (CapEx)",
+    "definition": "The initial construction costs of the infrastructure plus any expenditure on the constructed PPP assets that is not an operating expense (OpEx).",
+    "ref": "Glossary: Capital expenditure (CapEx)"
+  },
+  {
+    "id": "g-capital-asset-pricing-model-capm",
+    "kind": "term",
+    "term": "Capital Asset Pricing Model (CAPM)",
+    "definition": "A technique for estimating an investor's discount rate or required return (e.g., equity IRR): a risk-free rate plus a market risk premium adjusted to the sector's risk profile.",
+    "ref": "Glossary: Capital Asset Pricing Model (CAPM)"
+  },
+  {
+    "id": "g-capital-grants-or-grant-financing",
+    "kind": "term",
+    "term": "Capital grants or grant financing",
+    "definition": "Grant payments or capital subsidies paid by the government to directly finance a portion of project costs. Also considered co-financing.",
+    "ref": "Glossary: Capital grants or grant financing"
+  },
+  {
+    "id": "g-capital-markets",
+    "kind": "term",
+    "term": "Capital markets",
+    "definition": "Markets for raising capital by buying and selling debt and equity: shares, bonds and other long-term investments.",
+    "ref": "Glossary: Capital markets"
+  },
+  {
+    "id": "g-catch-22",
+    "kind": "term",
+    "term": "Catch-22",
+    "definition": "A requirement that cannot be met until a prerequisite is met, while the prerequisite cannot be obtained until the original requirement is met.",
+    "ref": "Glossary: Catch-22"
+  },
+  {
+    "id": "g-central-agencies",
+    "kind": "term",
+    "term": "Central agencies",
+    "definition": "Government ministries or departments with whole-of-government policy responsibilities, e.g., the ministry of finance and the ministry of planning.",
+    "ref": "Glossary: Central agencies"
+  },
+  {
+    "id": "g-change-in-law",
+    "kind": "term",
+    "term": "Change in law",
+    "definition": "Occurrences after contract execution such as: enactment of new laws; amendment, repeal or change of any law; and, in some jurisdictions, a court judgment that changes a binding precedent.",
+    "ref": "Glossary: Change in law"
+  },
+  {
+    "id": "g-civil-law",
+    "kind": "term",
+    "term": "Civil law",
+    "definition": "A codified legal system distinguishing substantive, procedural and penal law. The judge establishes the facts and applies the provisions of the applicable code. Much civil law originates from the Code Napoleon.",
+    "ref": "Glossary: Civil law"
+  },
+  {
+    "id": "g-co-financing",
+    "kind": "term",
+    "term": "Co-financing",
+    "definition": "Public sector finance for a portion of CapEx; called pure co-financing when funded from budgetary resources (grants). Commonly used to fill the viability gap in unfeasible user-pays projects, but also in government-pays PPPs to improve commercial feasibility or affordability.",
+    "ref": "Glossary: Co-financing"
+  },
+  {
+    "id": "g-co-lenders",
+    "kind": "term",
+    "term": "Co-lenders",
+    "definition": "Public financial agencies that help fill the loan gap by providing part of the loan on conditions similar to commercial banks.",
+    "ref": "Glossary: Co-lenders"
+  },
+  {
+    "id": "g-collateral-warranties",
+    "kind": "term",
+    "term": "Collateral warranties",
+    "definition": "Undertakings given directly to the lenders by parties contracting with the SPV (e.g., advisers, subcontractors) that their work is fit for purpose, complies with statutory requirements, and is covered by minimum insurance for a set period.",
+    "ref": "Glossary: Collateral warranties"
+  },
+  {
+    "id": "g-commercial-banks",
+    "kind": "term",
+    "term": "Commercial banks",
+    "definition": "Privately-owned banks that lend (supply debt) to the SPV to finance project activities.",
+    "ref": "Glossary: Commercial banks"
+  },
+  {
+    "id": "g-commercial-close",
+    "kind": "term",
+    "term": "Commercial close",
+    "definition": "The point at which all significant commercial issues between the procuring authority and the consortium are agreed; the PPP contract is normally signed then, though most provisions may only become effective at financial close.",
+    "ref": "Glossary: Commercial close"
+  },
+  {
+    "id": "g-commercial-feasibility",
+    "kind": "term",
+    "term": "Commercial feasibility",
+    "definition": "Analysis of whether the project will attract quality bidders, investors and lenders, and the main conditions needed to do so. Also includes financial feasibility.",
+    "ref": "Glossary: Commercial feasibility"
+  },
+  {
+    "id": "g-commissioning",
+    "kind": "term",
+    "term": "Commissioning",
+    "definition": "Testing at the end of construction to confirm the private partner has met all preconditions to start operations and that the infrastructure can deliver services per the output specifications. Sometimes called project or construction completion.",
+    "ref": "Glossary: Commissioning"
+  },
+  {
+    "id": "g-common-law",
+    "kind": "term",
+    "term": "Common law",
+    "definition": "A largely uncodified legal system that relies on statutes but is based mainly on precedent, i.e., judicial decisions already made in similar cases.",
+    "ref": "Glossary: Common law"
+  },
+  {
+    "id": "g-commonwealth",
+    "kind": "term",
+    "term": "Commonwealth",
+    "definition": "A voluntary association of 53 independent, equal sovereign states originating from the British Empire; membership is based on free voluntary cooperation and needs no historical ties.",
+    "ref": "Glossary: Commonwealth"
+  },
+  {
+    "id": "g-communications-infrastructure",
+    "kind": "term",
+    "term": "Communications infrastructure",
+    "definition": "Infrastructure built to transmit telecommunications and broadcasting networks.",
+    "ref": "Glossary: Communications infrastructure"
+  },
+  {
+    "id": "g-compensation-events",
+    "kind": "term",
+    "term": "Compensation events",
+    "definition": "Risk events for which the private partner is entitled to financial compensation to the extent it is financially impacted. If compensation is only partial, the event may be referred to as a shared risk.",
+    "ref": "Glossary: Compensation events"
+  },
+  {
+    "id": "g-competitive-dialogue-process",
+    "kind": "term",
+    "term": "Competitive dialogue process",
+    "definition": "A tender process with a dialogue phase in which the contract and RFP are discussed one-on-one with shortlisted candidates (selected via RFQ), to refine the contract and RFP before binding bids are requested.",
+    "ref": "Glossary: Competitive dialogue process"
+  },
+  {
+    "id": "g-completion",
+    "kind": "term",
+    "term": "Completion",
+    "definition": "When the private party has constructed the facility to government requirements and it is deemed suitable for occupation and use.",
+    "ref": "Glossary: Completion"
+  },
+  {
+    "id": "g-completion-bond",
+    "kind": "term",
+    "term": "Completion bond",
+    "definition": "Security provided by the construction subcontractor for performance under, and completion of, the construction subcontract.",
+    "ref": "Glossary: Completion bond"
+  },
+  {
+    "id": "g-completion-risks",
+    "kind": "term",
+    "term": "Completion risks",
+    "definition": "Risks relating to completing construction of the facility and its initial ability to provide the services required by the PPP contract.",
+    "ref": "Glossary: Completion risks"
+  },
+  {
+    "id": "g-concession",
+    "kind": "term",
+    "term": "Concession",
+    "definition": "A grant by government to a private party of economic rights over a public asset (in administrative law jurisdictions), including legal title to possess the site. Also a PPP contract generally reserved for cases where most revenue comes from users.",
+    "ref": "Glossary: Concession"
+  },
+  {
+    "id": "g-concessionaire",
+    "kind": "term",
+    "term": "Concessionaire",
+    "definition": "Another name for the private partner: the counterparty of the procuring authority in the PPP contract, usually an SPV.",
+    "ref": "Glossary: Concessionaire"
+  },
+  {
+    "id": "g-conditions-precedent",
+    "kind": "term",
+    "term": "Conditions precedent",
+    "definition": "Conditions the project company must fulfil before drawing on the debt, or before the project contracts become effective.",
+    "ref": "Glossary: Conditions precedent"
+  },
+  {
+    "id": "g-consortium",
+    "kind": "term",
+    "term": "Consortium",
+    "definition": "A group of companies joined together to bid for a project, bringing together all required capabilities (e.g., construction, operation, financing).",
+    "ref": "Glossary: Consortium"
+  },
+  {
+    "id": "g-consortium-agreement",
+    "kind": "term",
+    "term": "Consortium agreement",
+    "definition": "The contract between consortium members setting out in detail how responsibilities, risks and rewards are shared or allocated among them.",
+    "ref": "Glossary: Consortium agreement"
+  },
+  {
+    "id": "g-construction-contract",
+    "kind": "term",
+    "term": "Construction contract",
+    "definition": "Agreement between the SPV and the construction contractor for design and construction of the PPP assets. Also called a Design Build (DB), Design and Construction (D&C) or Engineering-Procurement-Construction (EPC) contract.",
+    "ref": "Glossary: Construction contract"
+  },
+  {
+    "id": "g-construction-contractor",
+    "kind": "term",
+    "term": "Construction contractor",
+    "definition": "The party or group (e.g., construction consortium or JV) responsible for designing and constructing the PPP assets and providing all materials, labor, equipment and services. Also called D&C or EPC contractor.",
+    "ref": "Glossary: Construction contractor"
+  },
+  {
+    "id": "g-construction-phase",
+    "kind": "term",
+    "term": "Construction Phase",
+    "definition": "The period from financial close to the completion of commissioning, during which the construction works are completed.",
+    "ref": "Glossary: Construction Phase"
+  },
+  {
+    "id": "g-construction-risk",
+    "kind": "term",
+    "term": "Construction risk",
+    "definition": "The possibility that, during the Design and Construction Phase, actual project costs or construction time exceed projections.",
+    "ref": "Glossary: Construction risk"
+  },
+  {
+    "id": "g-contingency",
+    "kind": "term",
+    "term": "Contingency",
+    "definition": "An unallocated reserve in the CapEx budget covering unexpected but required capital expenditure, covered by contingent or standby funding.",
+    "ref": "Glossary: Contingency"
+  },
+  {
+    "id": "g-contingency-reserve",
+    "kind": "term",
+    "term": "Contingency reserve",
+    "definition": "A reserve, held by the private and/or public partner, to address contingencies or risks that could lead to service failure and/or project default.",
+    "ref": "Glossary: Contingency reserve"
+  },
+  {
+    "id": "g-contingent-guarantees",
+    "kind": "term",
+    "term": "Contingent guarantees",
+    "definition": "Guarantees against a possible but uncertain future event that might affect project revenue, e.g., a minimum traffic guarantee.",
+    "ref": "Glossary: Contingent guarantees"
+  },
+  {
+    "id": "g-contingent-liabilities",
+    "kind": "term",
+    "term": "Contingent liabilities",
+    "definition": "Obligations triggered by a discrete but uncertain future event; in the Guide, especially liabilities affecting the government under the PPP contract.",
+    "ref": "Glossary: Contingent liabilities"
+  },
+  {
+    "id": "g-contingent-liability-fund",
+    "kind": "term",
+    "term": "Contingent liability fund",
+    "definition": "An account, inside or outside government accounts, funded in advance and used to pay realized contingent liabilities when due. Also known as a guarantee fund.",
+    "ref": "Glossary: Contingent liability fund"
+  },
+  {
+    "id": "g-contract-breach",
+    "kind": "term",
+    "term": "Contract breach",
+    "definition": "A failure to observe a contract provision. It may lead to penalties and to events of default (contract default). Also known as breach of contract.",
+    "ref": "Glossary: Contract breach"
+  },
+  {
+    "id": "g-contract-default",
+    "kind": "term",
+    "term": "Contract default",
+    "definition": "A breach of an essential contract obligation (including persistent breaches), usually material, entitling the procuring authority to terminate the contract. Also known as an event of default.",
+    "ref": "Glossary: Contract default"
+  },
+  {
+    "id": "g-contract-execution",
+    "kind": "term",
+    "term": "Contract execution",
+    "definition": "Signing of the contract; see commercial close.",
+    "ref": "Glossary: Contract execution"
+  },
+  {
+    "id": "g-contract-management",
+    "kind": "term",
+    "term": "Contract management",
+    "definition": "Managing and administering the PPP contract from contract signature through to the end of the contract term.",
+    "ref": "Glossary: Contract management"
+  },
+  {
+    "id": "g-contract-management-manual",
+    "kind": "term",
+    "term": "Contract management manual",
+    "definition": "A knowledge management tool for succession planning and knowledge transfer, and a guide highlighting the most immediate and critical actions the contract director must take when administering the contract.",
+    "ref": "Glossary: Contract management manual"
+  },
+  {
+    "id": "g-contract-signature",
+    "kind": "term",
+    "term": "Contract signature",
+    "definition": "The signing of the PPP contract; see commercial close.",
+    "ref": "Glossary: Contract signature"
+  },
+  {
+    "id": "g-contract-value",
+    "kind": "term",
+    "term": "Contract value",
+    "definition": "The volume of CapEx estimated by the procuring authority; sometimes the total payments by the authority if the bid equals the ceiling on payments.",
+    "ref": "Glossary: Contract value"
+  },
+  {
+    "id": "g-construction-engineering-and-inspection-cei-engineer",
+    "kind": "term",
+    "term": "Construction, Engineering and Inspection (CEI) engineer",
+    "definition": "An engineer/inspector contracted by and reporting to the procuring authority who monitors and inspects works during construction up to commissioning, but does not give binding approvals. If binding and independent, the role is an independent engineer/certifier.",
+    "ref": "Glossary: Construction, Engineering and Inspection (CEI) engineer"
+  },
+  {
+    "id": "g-consumer-price-index-cpi",
+    "kind": "term",
+    "term": "Consumer Price Index (CPI)",
+    "definition": "A measure of inflation; the official measure of inflation in a country. Also referred to as the Retail Price Index (RPI).",
+    "ref": "Glossary: Consumer Price Index (CPI)"
+  },
+  {
+    "id": "g-conventional-procurement",
+    "kind": "term",
+    "term": "Conventional procurement",
+    "definition": "Procurement routes other than PPPs that are more commonly used to deliver public assets.",
+    "ref": "Glossary: Conventional procurement"
+  },
+  {
+    "id": "g-cost-benefit-analysis-cba",
+    "kind": "term",
+    "term": "Cost-Benefit Analysis (CBA)",
+    "definition": "Analysis comparing options for a project or decision based on duly adjusted economic flows; primarily used to assess socio-economic feasibility or value of the project, regardless of procurement method.",
+    "ref": "Glossary: Cost-Benefit Analysis (CBA)"
+  },
+  {
+    "id": "g-cost-effectiveness-analysis-cea",
+    "kind": "term",
+    "term": "Cost-Effectiveness Analysis (CEA)",
+    "definition": "Analysis relating an alternative's cost to a measure of project objectives or key outcomes, e.g., dollars per unit of time saved across public transport systems.",
+    "ref": "Glossary: Cost-Effectiveness Analysis (CEA)"
+  },
+  {
+    "id": "g-country-risk",
+    "kind": "term",
+    "term": "Country risk",
+    "definition": "Risks of investing in a foreign country: exchange, economic (GDP, inflation), transfer (blocked repatriation), political, social, regulatory/legal, corruption and sovereign default risk. The business climate may also be considered part of country risk.",
+    "ref": "Glossary: Country risk"
+  },
+  {
+    "id": "g-cover-ratio-requirements",
+    "kind": "term",
+    "term": "Cover-ratio requirements",
+    "definition": "Measures of the private partner's ability to meet its financial obligations; the higher the coverage ratio, the better its ability to service its lenders.",
+    "ref": "Glossary: Cover-ratio requirements"
+  },
+  {
+    "id": "g-credit-enhancement",
+    "kind": "term",
+    "term": "Credit enhancement",
+    "definition": "Instruments that give lenders greater protection, raising the debt's credit rating so lenders charge lower interest. Can be provided by the public sector, MDBs, Export Credit Agencies (ECAs) or private monoline institutions. Also called credit wrap.",
+    "ref": "Glossary: Credit enhancement"
+  },
+  {
+    "id": "g-credit-wrap",
+    "kind": "term",
+    "term": "Credit wrap",
+    "definition": "Another name for credit enhancement: instruments that increase lender protection and the debt's credit rating.",
+    "ref": "Glossary: Credit wrap"
+  },
+  {
+    "id": "g-creditworthiness",
+    "kind": "term",
+    "term": "Creditworthiness",
+    "definition": "An assessment, usually by lenders or rating agencies, of the likelihood that the private partner will default on its obligations. A creditworthy entity has low default risk.",
+    "ref": "Glossary: Creditworthiness"
+  },
+  {
+    "id": "g-cure-period",
+    "kind": "term",
+    "term": "Cure period",
+    "definition": "Time allowed for a party to remedy a default under a project contract, e.g., for the private party under the project contract or for a subcontractor under the construction subcontract.",
+    "ref": "Glossary: Cure period"
+  },
+  {
+    "id": "g-data-room",
+    "kind": "term",
+    "term": "Data room",
+    "definition": "A physical or electronic library of project information made available to bidders.",
+    "ref": "Glossary: Data room"
+  },
+  {
+    "id": "g-db-design-build",
+    "kind": "term",
+    "term": "DB (Design-Build)",
+    "definition": "Conventional procurement where the private sector designs and builds for a price funded by the public budget, paid as construction progresses; the government keeps full responsibility for the asset after completion.",
+    "ref": "Glossary: DB (Design-Build)"
+  },
+  {
+    "id": "g-dbf-design-build-finance",
+    "kind": "term",
+    "term": "DBF (Design-Build-Finance)",
+    "definition": "The private sector designs and builds but is paid through a long-term stream of (usually irrevocable, unconditional) payments after commissioning, so it finances the works. Operation and maintenance stay with government or a separate agency.",
+    "ref": "Glossary: DBF (Design-Build-Finance)"
+  },
+  {
+    "id": "g-dbfm-design-build-finance-maintain",
+    "kind": "term",
+    "term": "DBFM (Design-Build-Finance-Maintain)",
+    "definition": "A variation of DBFOM in which operations are not included in the contract scope.",
+    "ref": "Glossary: DBFM (Design-Build-Finance-Maintain)"
+  },
+  {
+    "id": "g-dbfom-design-build-finance-operate-maintain",
+    "kind": "term",
+    "term": "DBFOM (Design-Build-Finance-Operate-Maintain)",
+    "definition": "The contractor finances (all or most of) the infrastructure, manages life-cycle, maintenance and operations, and is paid by users or government (service or usage payments). DBFOM/DBFM are the only scopes meeting all PPP conditions, subject to effective risk transfer.",
+    "ref": "Glossary: DBFOM (Design-Build-Finance-Operate-Maintain)"
+  },
+  {
+    "id": "g-dbom-design-build-operate-maintain",
+    "kind": "term",
+    "term": "DBOM (Design-Build-Operate-Maintain)",
+    "definition": "The contractor designs and builds against public construction payments (as in DB), then operates and maintains the asset for a pre-agreed price paid by government. No private finance.",
+    "ref": "Glossary: DBOM (Design-Build-Operate-Maintain)"
+  },
+  {
+    "id": "g-debt-agreement",
+    "kind": "term",
+    "term": "Debt agreement",
+    "definition": "Another name for the financial agreement: the documents under which a loan is provided for the PPP facility.",
+    "ref": "Glossary: Debt agreement"
+  },
+  {
+    "id": "g-debt-service-coverage-ratio-dscr",
+    "kind": "term",
+    "term": "Debt Service Coverage Ratio (DSCR)",
+    "definition": "Measures the project company's ability to meet each year's debt service: projected operating cash flow before debt service divided by debt service for that year.",
+    "ref": "Glossary: Debt Service Coverage Ratio (DSCR)"
+  },
+  {
+    "id": "g-defects-liability-period",
+    "kind": "term",
+    "term": "Defects liability period",
+    "definition": "The period in which the contractor must return to repair defects that appear in its works after the project has been commissioned by the public authority.",
+    "ref": "Glossary: Defects liability period"
+  },
+  {
+    "id": "g-demand-risk",
+    "kind": "term",
+    "term": "Demand risk",
+    "definition": "The risk that actual demand (usage or patronage of the infrastructure) does not meet the forecast demand. Also called revenue risk.",
+    "ref": "Glossary: Demand risk"
+  },
+  {
+    "id": "g-demand-risk-guarantee",
+    "kind": "term",
+    "term": "Demand risk guarantee",
+    "definition": "A guarantee that actual demand will meet forecast demand; if demand falls short, the guarantor pays the beneficiary.",
+    "ref": "Glossary: Demand risk guarantee"
+  },
+  {
+    "id": "g-design-and-construction-d-and-c-contract",
+    "kind": "term",
+    "term": "Design and Construction (D&C) contract",
+    "definition": "Another name for the construction contract between the SPV and the construction contractor.",
+    "ref": "Glossary: Design and Construction (D&C) contract"
+  },
+  {
+    "id": "g-design-requirements",
+    "kind": "term",
+    "term": "Design requirements",
+    "definition": "Facility design requirements set out in the output specifications, the private party's bid design documentation included in the project agreement, and other design requirements in the project agreement.",
+    "ref": "Glossary: Design requirements"
+  },
+  {
+    "id": "g-design-risk",
+    "kind": "term",
+    "term": "Design risk",
+    "definition": "Defects in the design that result in the asset being built but failing to meet the prescribed standards.",
+    "ref": "Glossary: Design risk"
+  },
+  {
+    "id": "g-developers-fee",
+    "kind": "term",
+    "term": "Developer's fee",
+    "definition": "An unsolicited proposal mechanism: the original proponent is paid a fee by the government or winning bidder to reimburse some project development costs, the concept and the proposal.",
+    "ref": "Glossary: Developer's fee"
+  },
+  {
+    "id": "g-direct-agreement",
+    "kind": "term",
+    "term": "Direct agreement",
+    "definition": "An agreement usually between the SPV, the government and the lenders (or SPV, lenders and key subcontractors) giving lenders step-in rights to take over the key PPP contracts.",
+    "ref": "Glossary: Direct agreement"
+  },
+  {
+    "id": "g-direct-liabilities",
+    "kind": "term",
+    "term": "Direct liabilities",
+    "definition": "Payment commitments incurred regardless of whether any uncertain future event occurs.",
+    "ref": "Glossary: Direct liabilities"
+  },
+  {
+    "id": "g-discount-rate",
+    "kind": "term",
+    "term": "Discount rate",
+    "definition": "The rate used to calculate the present value of future cash flows, usually based on the cost of capital used to fund the investment.",
+    "ref": "Glossary: Discount rate"
+  },
+  {
+    "id": "g-discounted-cash-flow-analysis",
+    "kind": "term",
+    "term": "Discounted cash flow analysis",
+    "definition": "Analysis that discounts a stream of future cash flows to calculate a Net Present Value (NPV).",
+    "ref": "Glossary: Discounted cash flow analysis"
+  },
+  {
+    "id": "g-downstream-contracts",
+    "kind": "term",
+    "term": "Downstream contracts",
+    "definition": "The contract structure through which responsibilities, risks, rights and obligations are delegated from the SPV to the private actors participating in the PPP.",
+    "ref": "Glossary: Downstream contracts"
+  },
+  {
+    "id": "g-due-diligence",
+    "kind": "term",
+    "term": "Due diligence",
+    "definition": "Review of the project, its contracts and risks by investors and lenders before participating or lending. Also used for the procuring authority's project preparation work before tender launch.",
+    "ref": "Glossary: Due diligence"
+  },
+  {
+    "id": "g-dynamic-tolling",
+    "kind": "term",
+    "term": "Dynamic tolling",
+    "definition": "Toll levels that vary in real time to respond to congestion, on facilities with a toll-free alternative. Also called express lanes.",
+    "ref": "Glossary: Dynamic tolling"
+  },
+  {
+    "id": "g-early-termination",
+    "kind": "term",
+    "term": "Early termination",
+    "definition": "Termination of a contract before its natural term or expiration.",
+    "ref": "Glossary: Early termination"
+  },
+  {
+    "id": "g-economic-infrastructure",
+    "kind": "term",
+    "term": "Economic infrastructure",
+    "definition": "Infrastructure that makes business activity possible, such as communications, transportation and distribution networks (water, waste, energy supply).",
+    "ref": "Glossary: Economic infrastructure"
+  },
+  {
+    "id": "g-economic-irr",
+    "kind": "term",
+    "term": "Economic IRR",
+    "definition": "The project's IRR after accounting for externalities (economic, social and environmental costs and benefits) not included in the financial IRR.",
+    "ref": "Glossary: Economic IRR"
+  },
+  {
+    "id": "g-empresa-mixta",
+    "kind": "term",
+    "term": "Empresa mixta",
+    "definition": "Spanish term for a mixed equity company: a PPP structure in which the public authority holds equity in the company.",
+    "ref": "Glossary: Empresa mixta"
+  },
+  {
+    "id": "g-environmental-impact-assessment-eia",
+    "kind": "term",
+    "term": "Environmental Impact Assessment (EIA)",
+    "definition": "The formal process to predict a project's positive or negative environmental consequences, usually by an agency other than the procuring authority; may require changes to design and construction.",
+    "ref": "Glossary: Environmental Impact Assessment (EIA)"
+  },
+  {
+    "id": "g-environmental-law",
+    "kind": "term",
+    "term": "Environmental Law",
+    "definition": "Laws, statutes, regulations and subordinate instruments relating to the environment, e.g., environment protection and industrial waste policies.",
+    "ref": "Glossary: Environmental Law"
+  },
+  {
+    "id": "g-epc-contract-engineering-procurement-and-construction",
+    "kind": "term",
+    "term": "EPC Contract (Engineering, Procurement and Construction)",
+    "definition": "A fixed-price, date-certain, turnkey contract, usually covering design and engineering, equipment procurement or manufacture, and construction/erection of a plant.",
+    "ref": "Glossary: EPC Contract (Engineering, Procurement and Construction)"
+  },
+  {
+    "id": "g-equity",
+    "kind": "term",
+    "term": "Equity",
+    "definition": "The share capital and other investment subordinated to senior debt provided by the members of the SPV.",
+    "ref": "Glossary: Equity"
+  },
+  {
+    "id": "g-equity-documents",
+    "kind": "term",
+    "term": "Equity documents",
+    "definition": "The documents framing the equity investment and how the different equity investors will contribute to it.",
+    "ref": "Glossary: Equity documents"
+  },
+  {
+    "id": "g-equity-free-cash-flow",
+    "kind": "term",
+    "term": "Equity free cash flow",
+    "definition": "How much cash can be distributed to equity shareholders after all expenses, reinvestment and debt repayment.",
+    "ref": "Glossary: Equity free cash flow"
+  },
+  {
+    "id": "g-equity-investors",
+    "kind": "term",
+    "term": "Equity investors",
+    "definition": "Investors financing a portion of CapEx, typically as share capital or subordinated debt; in the Guide, assumed to be the sole or controlling investors of the PPP company. Also called equity providers or shareholders.",
+    "ref": "Glossary: Equity investors"
+  },
+  {
+    "id": "g-equity-irr",
+    "kind": "term",
+    "term": "Equity IRR",
+    "definition": "The IRR on equity paid in by investors, derived from distributions: dividends, capital amortization, junior debt repayment and interest on junior debt.",
+    "ref": "Glossary: Equity IRR"
+  },
+  {
+    "id": "g-equity-providers",
+    "kind": "term",
+    "term": "Equity providers",
+    "definition": "Another name for equity investors: those financing part of CapEx through share capital or subordinated debt.",
+    "ref": "Glossary: Equity providers"
+  },
+  {
+    "id": "g-equity-return",
+    "kind": "term",
+    "term": "Equity return",
+    "definition": "The Internal Rate of Return an equity investor is projected to receive.",
+    "ref": "Glossary: Equity return"
+  },
+  {
+    "id": "g-equity-shares",
+    "kind": "term",
+    "term": "Equity shares",
+    "definition": "The portion of a company's equity invested in the SPV. Shareholding lets holders influence or control the SPV depending on their percentage, and equity holders usually bear higher risk exposure.",
+    "ref": "Glossary: Equity shares"
+  },
+  {
+    "id": "g-event-of-default",
+    "kind": "term",
+    "term": "Event of default",
+    "definition": "Same as contract default: a material breach of an essential obligation entitling the authority to terminate.",
+    "ref": "Glossary: Event of default"
+  },
+  {
+    "id": "g-expected-risk-parcel",
+    "kind": "term",
+    "term": "Expected risk parcel",
+    "definition": "A risk value added by the private partner to cover costs arising from uncertainty in financial estimation and feasibility exercises.",
+    "ref": "Glossary: Expected risk parcel"
+  },
+  {
+    "id": "g-ex-post-evaluation",
+    "kind": "term",
+    "term": "Ex-post evaluation",
+    "definition": "An evaluation carried out some time after project completion, emphasizing the project's effectiveness and sustainability.",
+    "ref": "Glossary: Ex-post evaluation"
+  },
+  {
+    "id": "g-expressions-of-interest-eoi",
+    "kind": "term",
+    "term": "Expressions of Interest (EOI)",
+    "definition": "Expressions of interest by potential bidders for a project; in some jurisdictions the term is used instead of Request for Qualifications (RFQ).",
+    "ref": "Glossary: Expressions of Interest (EOI)"
+  },
+  {
+    "id": "g-expropriation-costs",
+    "kind": "term",
+    "term": "Expropriation costs",
+    "definition": "The costs of acquiring land from private owners for use by the project (land expropriation costs).",
+    "ref": "Glossary: Expropriation costs"
+  },
+  {
+    "id": "g-fidic-international-federation-of-consulting-engineers",
+    "kind": "term",
+    "term": "FIDIC (International Federation of Consulting Engineers)",
+    "definition": "An international body producing standard form construction contracts; FIDIC conditions of contract are widely used in international projects with minor modifications.",
+    "ref": "Glossary: FIDIC (International Federation of Consulting Engineers)"
+  },
+  {
+    "id": "g-financial-agreement",
+    "kind": "term",
+    "term": "Financial agreement",
+    "definition": "The documents under which a loan is provided to develop the PPP facility. Also called loan documents/agreement, finance agreement or debt agreements.",
+    "ref": "Glossary: Financial agreement"
+  },
+  {
+    "id": "g-financial-close",
+    "kind": "term",
+    "term": "Financial close",
+    "definition": "The point at which all project documentation is signed, all financing preconditions are met, and project funding becomes available.",
+    "ref": "Glossary: Financial close"
+  },
+  {
+    "id": "g-financial-feasibility",
+    "kind": "term",
+    "term": "Financial feasibility",
+    "definition": "Part of commercial feasibility: whether the project can attract investors and lenders and on what conditions.",
+    "ref": "Glossary: Financial feasibility"
+  },
+  {
+    "id": "g-financial-model",
+    "kind": "term",
+    "term": "Financial model",
+    "definition": "A spreadsheet covering the contract duration with all investments, revenues, costs, taxes, inflation and analytical parameters, including free cash flow of both the project company and the equity investor.",
+    "ref": "Glossary: Financial model"
+  },
+  {
+    "id": "g-financial-structure-from-the-public-perspective",
+    "kind": "term",
+    "term": "Financial structure (from the public perspective)",
+    "definition": "The means of compensating the private partner and their conditions (tenor, timing, indexation, deductions): grants, service payments, subsidies, user charges, and public financing support. Also the resulting profile of government payments (NPV and yearly expenditure).",
+    "ref": "Glossary: Financial structure (from the public perspective)"
+  },
+  {
+    "id": "g-financial-structuring",
+    "kind": "term",
+    "term": "Financial structuring",
+    "definition": "On the private side, designing the mix of funds to finance the project, especially how much debt to raise.",
+    "ref": "Glossary: Financial structuring"
+  },
+  {
+    "id": "g-financing",
+    "kind": "term",
+    "term": "Financing",
+    "definition": "The up-front money needed to meet construction costs; sourced by government through surpluses or borrowing (traditional procurement), or by the private sector raising debt and equity (PPPs). Contrast with funding.",
+    "ref": "Glossary: Financing"
+  },
+  {
+    "id": "g-fiscal-feasibility",
+    "kind": "term",
+    "term": "Fiscal feasibility",
+    "definition": "Another name for affordability: whether the project fits within the government's inter-temporal budget constraints.",
+    "ref": "Glossary: Fiscal feasibility"
+  },
+  {
+    "id": "g-fiscal-risk",
+    "kind": "term",
+    "term": "Fiscal risk",
+    "definition": "The risk that the fiscal outcome for government (its financial position) differs from what was expected.",
+    "ref": "Glossary: Fiscal risk"
+  },
+  {
+    "id": "g-fixed-price-contract",
+    "kind": "term",
+    "term": "Fixed price contract",
+    "definition": "A firm-fixed-price contract whose price is not adjusted for the contractor's cost experience, placing maximum risk and full responsibility for costs and profit or loss on the contractor.",
+    "ref": "Glossary: Fixed price contract"
+  },
+  {
+    "id": "g-force-majeure",
+    "kind": "term",
+    "term": "Force majeure",
+    "definition": "External, unpredictable events beyond either party's control, as defined by law, policy or contract; typically Acts of God (natural disasters) and often man-made events such as war and terrorism. Scope varies by jurisdiction.",
+    "ref": "Glossary: Force majeure"
+  },
+  {
+    "id": "g-forex-risk",
+    "kind": "term",
+    "term": "Forex risk",
+    "definition": "Risk from changes in foreign exchange rates, relevant when project loans, costs or charges are wholly or partly in foreign currency. Also called currency risk.",
+    "ref": "Glossary: Forex risk"
+  },
+  {
+    "id": "g-franchise",
+    "kind": "term",
+    "term": "Franchise",
+    "definition": "Similar to affermage, lease or concession of services, mostly used in transportation; rarely requires infrastructure investment, which is usually managed by government or under a separate agreement.",
+    "ref": "Glossary: Franchise"
+  },
+  {
+    "id": "g-full-service-commencement-date",
+    "kind": "term",
+    "term": "Full service commencement date",
+    "definition": "The date on which contracted services and government core services may start to be provided in the facility, usually the date of completion or the day after.",
+    "ref": "Glossary: Full service commencement date"
+  },
+  {
+    "id": "g-functional-design",
+    "kind": "term",
+    "term": "Functional design",
+    "definition": "A design indicating the functional requirements of a project rather than actual input and works specifications.",
+    "ref": "Glossary: Functional design"
+  },
+  {
+    "id": "g-funding",
+    "kind": "term",
+    "term": "Funding",
+    "definition": "The long-term source of money to meet payment obligations, i.e., to pay the private partner for investment and O&M costs: taxes in government-pays PPPs or user charges in user-pays PPPs. Contrast with financing.",
+    "ref": "Glossary: Funding"
+  },
+  {
+    "id": "g-gearing",
+    "kind": "term",
+    "term": "Gearing",
+    "definition": "The ratio of a company's debt to its equity; used interchangeably with leverage in the Guide.",
+    "ref": "Glossary: Gearing"
+  },
+  {
+    "id": "g-government",
+    "kind": "term",
+    "term": "Government",
+    "definition": "Federal, state and/or local/municipal government and their line agencies and/or ministries.",
+    "ref": "Glossary: Government"
+  },
+  {
+    "id": "g-government-pays-ppp",
+    "kind": "term",
+    "term": "Government-pays PPP",
+    "definition": "A PPP in which the private partner's revenue comes from budgetary payments, usually linked to performance or use.",
+    "ref": "Glossary: Government-pays PPP"
+  },
+  {
+    "id": "g-grant-financing",
+    "kind": "term",
+    "term": "Grant financing",
+    "definition": "Direct government payments from the budget financing part of CapEx, usually made during construction (by progress or milestones) or at the end of construction.",
+    "ref": "Glossary: Grant financing"
+  },
+  {
+    "id": "g-grantor",
+    "kind": "term",
+    "term": "Grantor",
+    "definition": "The party granting a concession, license or other right; see procuring authority.",
+    "ref": "Glossary: Grantor"
+  },
+  {
+    "id": "g-greenfield-projects",
+    "kind": "term",
+    "term": "Greenfield projects",
+    "definition": "Technically: projects on sites without previous industrial use or significant buildings. For investors: recently awarded or under-construction PPPs with significant new structures or major upgrades (possibly yellowfield if existing infrastructure is significant).",
+    "ref": "Glossary: Greenfield projects"
+  },
+  {
+    "id": "g-green-light-decision",
+    "kind": "term",
+    "term": "Green light decision",
+    "definition": "The authority's decision to procure the project, usually at the end of the Appraisal Phase, subject to confirmation after structuring and drafting the full tender package.",
+    "ref": "Glossary: Green light decision"
+  },
+  {
+    "id": "g-guarantee-fund",
+    "kind": "term",
+    "term": "Guarantee fund",
+    "definition": "Another name for a contingent liability fund: an account funded in advance to pay realized contingent liabilities.",
+    "ref": "Glossary: Guarantee fund"
+  },
+  {
+    "id": "g-hand-back",
+    "kind": "term",
+    "term": "Hand-back",
+    "definition": "Transfer of the project assets, and responsibility for them, to the government on termination or expiry of the PPP contract. Also called handover.",
+    "ref": "Glossary: Hand-back"
+  },
+  {
+    "id": "g-handover",
+    "kind": "term",
+    "term": "Handover",
+    "definition": "Another name for hand-back: returning project assets to the government at contract end.",
+    "ref": "Glossary: Handover"
+  },
+  {
+    "id": "g-hard-services",
+    "kind": "term",
+    "term": "Hard services",
+    "definition": "Services that keep the building functioning to specification, such as maintenance and repairs.",
+    "ref": "Glossary: Hard services"
+  },
+  {
+    "id": "g-heads-of-terms-hot",
+    "kind": "term",
+    "term": "Heads of Terms (HOT)",
+    "definition": "Sets out the key commercial areas the consortium parties expect to cover in key PPP contracts (project agreement, construction, O&M), agreed early in the bidding process.",
+    "ref": "Glossary: Head of Terms (HOT)"
+  },
+  {
+    "id": "g-hedging",
+    "kind": "term",
+    "term": "Hedging",
+    "definition": "A financial market arrangement protecting the project company against adverse movements in interest rates or inflation.",
+    "ref": "Glossary: Hedging"
+  },
+  {
+    "id": "g-independent-certifier",
+    "kind": "term",
+    "term": "Independent certifier",
+    "definition": "Appointed with both parties' consent to inspect and monitor works, attend commissioning tests, certify construction compliance and issue the completion certificate. May have quasi-judicial dispute powers in some jurisdictions. Also called independent engineer.",
+    "ref": "Glossary: Independent certifier"
+  },
+  {
+    "id": "g-independent-engineer",
+    "kind": "term",
+    "term": "Independent engineer",
+    "definition": "Another name for the independent certifier, who independently certifies that construction complies with the contract.",
+    "ref": "Glossary: Independent engineer"
+  },
+  {
+    "id": "g-inflation-risks",
+    "kind": "term",
+    "term": "Inflation risks",
+    "definition": "Risks to the project company's CapEx or OpEx from changes in the rate of price inflation.",
+    "ref": "Glossary: Inflation risks"
+  },
+  {
+    "id": "g-infrastructure",
+    "kind": "term",
+    "term": "Infrastructure",
+    "definition": "The basic physical and organizational structures and facilities (buildings, roads, power supplies) needed for the operation of a society or enterprise.",
+    "ref": "Glossary: Infrastructure"
+  },
+  {
+    "id": "g-infrastructure-fund",
+    "kind": "term",
+    "term": "Infrastructure fund",
+    "definition": "A fund set up to invest in infrastructure, managed by a fund manager.",
+    "ref": "Glossary: Infrastructure fund"
+  },
+  {
+    "id": "g-institutional-framework",
+    "kind": "term",
+    "term": "Institutional framework",
+    "definition": "The group of government agencies and bodies that influence the management and governance of public action, or of the PPP option within PPP frameworks.",
+    "ref": "Glossary: Institutional framework"
+  },
+  {
+    "id": "g-institutional-ppp",
+    "kind": "term",
+    "term": "Institutional PPP",
+    "definition": "A sub-form of JV/mixed equity company in which the government controls the PPP company, usually holding most shares. The Guide treats it as a true private finance PPP only if private equity is significant and debt is at performance risk.",
+    "ref": "Glossary: Institutional PPP"
+  },
+  {
+    "id": "g-intellectual-property",
+    "kind": "term",
+    "term": "Intellectual property",
+    "definition": "Inventions, designs and applications of original ideas protected by copyright, patents, registered designs, circuit layout rights and trademarks, plus trade secrets and confidential know-how protected by law and contract.",
+    "ref": "Glossary: Intellectual property"
+  },
+  {
+    "id": "g-interactive-tender-process",
+    "kind": "term",
+    "term": "Interactive tender process",
+    "definition": "Like competitive dialogue, with one-to-one interactions with shortlisted bidders, but the RFP is fully or substantially defined at the start; the interaction helps bidders understand the RFP and contract rather than change them.",
+    "ref": "Glossary: Interactive tender process"
+  },
+  {
+    "id": "g-interest-rate-swap",
+    "kind": "term",
+    "term": "Interest rate swap",
+    "definition": "A hedging contract to convert a floating interest rate into a fixed rate.",
+    "ref": "Glossary: Interest rate swap"
+  },
+  {
+    "id": "g-interface-agreement",
+    "kind": "term",
+    "term": "Interface agreement",
+    "definition": "An agreement regulating relationships between key subcontractors regarding their respective responsibilities, certain liabilities and payments, and recovery of sums from one another.",
+    "ref": "Glossary: Interface agreement"
+  },
+  {
+    "id": "g-interface-risk",
+    "kind": "term",
+    "term": "Interface risk",
+    "definition": "Risk arising from the relationship with other government contracts, activities or dependencies that affect successful performance of the PPP contract.",
+    "ref": "Glossary: Interface risk"
+  },
+  {
+    "id": "g-investment-decision",
+    "kind": "term",
+    "term": "Investment decision",
+    "definition": "The decision whether a proposed project is a good project: is government willing and able to fund it (after user fees), regardless of how it is procured?",
+    "ref": "Glossary: Investment decision"
+  },
+  {
+    "id": "g-investors",
+    "kind": "term",
+    "term": "Investors",
+    "definition": "See equity investors: those who finance part of CapEx through share capital or subordinated debt.",
+    "ref": "Glossary: Investors"
+  },
+  {
+    "id": "g-invitation-to-propose-itp",
+    "kind": "term",
+    "term": "Invitation to Propose (ITP)",
+    "definition": "The procuring authority's call for proposals. Implicit in a straightforward RFP; in dialogue or interactive processes it is issued once the dialogue ends and the RFP and contract are definitive.",
+    "ref": "Glossary: Invitation to Propose (ITP)"
+  },
+  {
+    "id": "g-joint-venture-with-a-public-party",
+    "kind": "term",
+    "term": "Joint Venture (with a public party)",
+    "definition": "A term widely used for mixed equity companies (empresas mixtas), in which the public party holds equity alongside private investors.",
+    "ref": "Glossary: Joint Venture (with a public party)"
+  },
+  {
+    "id": "g-irr-or-financial-irr",
+    "kind": "term",
+    "term": "IRR or financial IRR",
+    "definition": "The rate of return of an investment computed from its projected cash flows; the discount rate that equates the present value of future cash flows to the initial investment.",
+    "ref": "Glossary: IRR or financial IRR"
+  },
+  {
+    "id": "g-junior-debt",
+    "kind": "term",
+    "term": "Junior debt",
+    "definition": "Another name for subordinated debt: debt ranking behind senior debt for repayment and security.",
+    "ref": "Glossary: Junior debt"
+  },
+  {
+    "id": "g-key-performance-indicators-kpi",
+    "kind": "term",
+    "term": "Key Performance Indicators (KPI)",
+    "definition": "Financial or non-financial indicators measuring the private party's progress or success during operations on critical factors; often contractual because they can be the basis for certain payments.",
+    "ref": "Glossary: Key Performance Indicators (KPI)"
+  },
+  {
+    "id": "g-latent-defects",
+    "kind": "term",
+    "term": "Latent defects",
+    "definition": "Defects in the facility that no one could reasonably have found and whose effect only appears later.",
+    "ref": "Glossary: Latent defects"
+  },
+  {
+    "id": "g-lease",
+    "kind": "term",
+    "term": "Lease",
+    "definition": "A legal institution (similar to a concession, used in some common law countries) granting economic rights or ownership over infrastructure; in some countries reserved for contracts where the government remains responsible for CapEx.",
+    "ref": "Glossary: Lease"
+  },
+  {
+    "id": "g-legal-framework",
+    "kind": "term",
+    "term": "Legal framework",
+    "definition": "A country's legal system: the constitution, legislative enactments, judicial decisions, treaties and law amendments.",
+    "ref": "Glossary: Legal framework"
+  },
+  {
+    "id": "g-lenders",
+    "kind": "term",
+    "term": "Lenders",
+    "definition": "Institutions providing loans to the project, mainly banks and institutional investors through project bonds.",
+    "ref": "Glossary: Lenders"
+  },
+  {
+    "id": "g-letter-of-intent",
+    "kind": "term",
+    "term": "Letter of intent",
+    "definition": "A document (binding or not) between consortium stakeholders expressing their interest to become equity shareholders and to bid together as a consortium.",
+    "ref": "Glossary: Letter of intent"
+  },
+  {
+    "id": "g-leverage",
+    "kind": "term",
+    "term": "Leverage",
+    "definition": "Same as gearing: the ratio of debt to equity.",
+    "ref": "Glossary: Leverage"
+  },
+  {
+    "id": "g-life-cycle-costs",
+    "kind": "term",
+    "term": "Life-cycle costs",
+    "definition": "The whole cost of an asset over its useful life or the contract life, including initial construction and the maintenance needed to keep it in an acceptable technical condition and meet contractual performance requirements.",
+    "ref": "Glossary: Life-cycle costs"
+  },
+  {
+    "id": "g-limited-recourse",
+    "kind": "term",
+    "term": "Limited recourse",
+    "definition": "Finance with limited guarantees from the sponsors.",
+    "ref": "Glossary: Limited recourse"
+  },
+  {
+    "id": "g-line-agency-or-line-ministry",
+    "kind": "term",
+    "term": "Line agency (or line ministry)",
+    "definition": "Ministries or departments responsible for policy, planning and delivery of specific services, e.g., ministry of transportation or ministry of health.",
+    "ref": "Glossary: Line agency (or line ministry)"
+  },
+  {
+    "id": "g-linear-project",
+    "kind": "term",
+    "term": "Linear project",
+    "definition": "A project building a facility over a long stretch of land, e.g., a road.",
+    "ref": "Glossary: Linear project"
+  },
+  {
+    "id": "g-liquidated-damages-lds",
+    "kind": "term",
+    "term": "Liquidated Damages (LDs)",
+    "definition": "The pre-agreed level of loss payable when the private party commits a contract breach; used in common law countries instead of penalties.",
+    "ref": "Glossary: Liquidated Damages (LDs)"
+  },
+  {
+    "id": "g-loan-documents-agreement",
+    "kind": "term",
+    "term": "Loan documents/agreement",
+    "definition": "Another name for the financial agreement under which loans are provided to the project.",
+    "ref": "Glossary: Loan documents/agreement"
+  },
+  {
+    "id": "g-loan-life-coverage-ratio-llcr",
+    "kind": "term",
+    "term": "Loan Life Coverage Ratio (LLCR)",
+    "definition": "NPV of cash flows available for debt service up to debt maturity divided by outstanding debt; estimates the project's credit quality from the lender's perspective.",
+    "ref": "Glossary: Loan Life Coverage Ratio (LLCR)"
+  },
+  {
+    "id": "g-long-stop-date",
+    "kind": "term",
+    "term": "Long stop date",
+    "definition": "A date set by the procuring authority by which services must start regardless of construction-phase events or claims; failure to commence by then leads to contract termination.",
+    "ref": "Glossary: Long stop date"
+  },
+  {
+    "id": "g-macroeconomic-risks",
+    "kind": "term",
+    "term": "Macroeconomic risks",
+    "definition": "Risks to the project company's CapEx or OpEx from inflation, interest rates or currency exchange rates.",
+    "ref": "Glossary: Macroeconomic risks"
+  },
+  {
+    "id": "g-maintenance-contract",
+    "kind": "term",
+    "term": "Maintenance contract",
+    "definition": "See Operations and Maintenance (O&M) contract.",
+    "ref": "Glossary: Maintenance contract"
+  },
+  {
+    "id": "g-maintenance-risk",
+    "kind": "term",
+    "term": "Maintenance risk",
+    "definition": "The risk that improper maintenance causes a lack of performance; implicit in and covered by availability and performance risk analysis.",
+    "ref": "Glossary: Maintenance risk"
+  },
+  {
+    "id": "g-management-contract",
+    "kind": "term",
+    "term": "Management contract",
+    "definition": "A contract in which long-term maintenance of the infrastructure is the only core objective transferred to the private sector.",
+    "ref": "Glossary: Management contract"
+  },
+  {
+    "id": "g-management-information-system-mis",
+    "kind": "term",
+    "term": "Management Information System (MIS)",
+    "definition": "A tool to record and manage the activities and documentation of a PPP project.",
+    "ref": "Glossary: Management Information System (MIS)"
+  },
+  {
+    "id": "g-market-initiated-proposal",
+    "kind": "term",
+    "term": "Market initiated proposal",
+    "definition": "Same as an unsolicited proposal: a PPP proposal made at a private party's initiative.",
+    "ref": "Glossary: Market initiated proposal"
+  },
+  {
+    "id": "g-market-test-or-market-sounding-of-a-ppp-project",
+    "kind": "term",
+    "term": "Market test (or market sounding) of a PPP project",
+    "definition": "Assessing the market's reaction to a proposed project and its level of interest in it.",
+    "ref": "Glossary: Market test (or market sounding) of a PPP project"
+  },
+  {
+    "id": "g-market-testing-of-services",
+    "kind": "term",
+    "term": "Market testing of services",
+    "definition": "A value testing method in which soft services are re-tendered by the private partner and the government adjusts service payments to actual market value, possibly replacing the soft service provider.",
+    "ref": "Glossary: Market testing of services"
+  },
+  {
+    "id": "g-mezzanine-debt",
+    "kind": "term",
+    "term": "Mezzanine debt",
+    "definition": "See subordinated debt: debt ranking behind senior debt.",
+    "ref": "Glossary: Mezzanine debt"
+  },
+  {
+    "id": "g-mini-perm",
+    "kind": "term",
+    "term": "Mini-perm",
+    "definition": "A project-finance loan covering construction and the first years of operations, to be refinanced later by longer-term debt.",
+    "ref": "Glossary: Mini-perm"
+  },
+  {
+    "id": "g-mixed-equity-companies",
+    "kind": "term",
+    "term": "Mixed equity companies",
+    "definition": "PPP structures where the public authority retains equity as a shareholder (empresa mixta in Spanish-speaking countries); also called JVs. If the public partner controls or holds the majority, it is an institutional PPP.",
+    "ref": "Glossary: Mixed equity companies"
+  },
+  {
+    "id": "g-monte-carlo-simulation",
+    "kind": "term",
+    "term": "Monte Carlo simulation",
+    "definition": "A technique approximating the probability of outcomes by running many trial simulations using random variables.",
+    "ref": "Glossary: Monte Carlo simulation"
+  },
+  {
+    "id": "g-multi-criteria-analysis",
+    "kind": "term",
+    "term": "Multi-criteria analysis",
+    "definition": "A decision-making technique from operations research that explicitly considers multiple criteria, with cost or price as one of the main ones.",
+    "ref": "Glossary: Multi-criteria analysis"
+  },
+  {
+    "id": "g-mystery-shoppers",
+    "kind": "term",
+    "term": "Mystery shoppers",
+    "definition": "Qualified individuals used to survey and test the performance of services provided by the private partner.",
+    "ref": "Glossary: Mystery shoppers"
+  },
+  {
+    "id": "g-negotiation-phase",
+    "kind": "term",
+    "term": "Negotiation phase",
+    "definition": "The period from selection of the preferred bidder/awardee to contract signing, in tender processes that allow negotiation at that stage.",
+    "ref": "Glossary: Negotiation phase"
+  },
+  {
+    "id": "g-net-present-value-npv",
+    "kind": "term",
+    "term": "Net Present Value (NPV)",
+    "definition": "The discounted value of an investment's cash inflows minus the discounted value of its cash outflows; an investment should have an NPV greater than zero to be adequately profitable.",
+    "ref": "Glossary: Net Present Value (NPV)"
+  },
+  {
+    "id": "g-nominee-contractor",
+    "kind": "term",
+    "term": "Nominee contractor",
+    "definition": "A specialist contractor that enhances a consortium's credibility through its skills but does not become an equity investor in the SPV.",
+    "ref": "Glossary: Nominee contractor"
+  },
+  {
+    "id": "g-non-disclosure-agreement-nda",
+    "kind": "term",
+    "term": "Non-Disclosure Agreement (NDA)",
+    "definition": "An agreement to confidentiality obligations as a precondition for access to project information.",
+    "ref": "Glossary: Non-Disclosure Agreement (NDA)"
+  },
+  {
+    "id": "g-non-recourse",
+    "kind": "term",
+    "term": "Non-recourse",
+    "definition": "Finance with no guarantees from the sponsors.",
+    "ref": "Glossary: Non-recourse"
+  },
+  {
+    "id": "g-o-and-m-operations-and-maintenance-contract",
+    "kind": "term",
+    "term": "O&M (Operations and Maintenance) contract",
+    "definition": "A procurement option where a private operator operates a publicly-owned asset for a set term under contract; ownership stays public. Includes maintenance contracts and facilities management contracts.",
+    "ref": "Glossary: O&M (Operations and Maintenance) contract"
+  },
+  {
+    "id": "g-objectives-of-a-ppp-framework",
+    "kind": "term",
+    "term": "Objectives (of a PPP framework)",
+    "definition": "What the government wants the PPP framework to achieve.",
+    "ref": "Glossary: Objectives (of a PPP framework)"
+  },
+  {
+    "id": "g-off-taker",
+    "kind": "term",
+    "term": "Off-taker",
+    "definition": "The entity committed to purchase the output of a project.",
+    "ref": "Glossary: Off-taker"
+  },
+  {
+    "id": "g-one-stage-tender",
+    "kind": "term",
+    "term": "One-stage tender",
+    "definition": "A tender in which the RFQ and RFP are issued together and bidders submit qualifications and bid as a single submission.",
+    "ref": "Glossary: One-stage tender"
+  },
+  {
+    "id": "g-open-tender",
+    "kind": "term",
+    "term": "Open tender",
+    "definition": "A bidding process open to any interested bidder that meets the qualification criteria.",
+    "ref": "Glossary: Open tender"
+  },
+  {
+    "id": "g-operations-or-operating-phase",
+    "kind": "term",
+    "term": "Operations or Operating Phase",
+    "definition": "The period from the end of commissioning to the end of the PPP contract term, during which the private partner maintains and often operates the infrastructure. Called maintenance phase when there are no operations; sometimes Operational Phase.",
+    "ref": "Glossary: Operations or Operating Phase"
+  },
+  {
+    "id": "g-operations",
+    "kind": "term",
+    "term": "Operations",
+    "definition": "Narrow concept: toll/tariff collection or a relevant interface with end users (e.g., running trains). Broad concept: other obligations keeping the infrastructure available, beyond strict maintenance (e.g., accident clearance, snow removal on a road).",
+    "ref": "Glossary: Operations"
+  },
+  {
+    "id": "g-opex",
+    "kind": "term",
+    "term": "Opex",
+    "definition": "Operating expenses: the costs of operating the infrastructure asset after construction delivery.",
+    "ref": "Glossary: Opex"
+  },
+  {
+    "id": "g-opportunity-cost",
+    "kind": "term",
+    "term": "Opportunity cost",
+    "definition": "The benefit that could have been obtained by making an alternative choice.",
+    "ref": "Glossary: Opportunity cost"
+  },
+  {
+    "id": "g-optimism-bias",
+    "kind": "term",
+    "term": "Optimism bias",
+    "definition": "A bias causing a person to believe they are less at risk of a negative event than others, e.g., a government's over-optimistic traffic demand forecast.",
+    "ref": "Glossary: Optimism bias"
+  },
+  {
+    "id": "g-output-specifications",
+    "kind": "term",
+    "term": "Output specifications",
+    "definition": "The service requirements of a PPP defined on the basis of results rather than means.",
+    "ref": "Glossary: Output specifications"
+  },
+  {
+    "id": "g-parent-company-guarantee",
+    "kind": "term",
+    "term": "Parent company guarantee",
+    "definition": "A guarantee from a contractor's parent company for fulfilment of all contractual obligations; the parent assumes the obligations and/or compensates the SPV for the cost of failure.",
+    "ref": "Glossary: Parent company guarantee"
+  },
+  {
+    "id": "g-payback-period",
+    "kind": "term",
+    "term": "Payback period",
+    "definition": "The time needed for accumulated cash inflows from an investment to equal the initial outlay.",
+    "ref": "Glossary: Payback period"
+  },
+  {
+    "id": "g-payment-mechanism",
+    "kind": "term",
+    "term": "Payment mechanism",
+    "definition": "The contract provisions setting out payment arrangements between public and private parties in government-pays PPPs, including payment timing and how payments vary over time (e.g., with inflation).",
+    "ref": "Glossary: Payment mechanism"
+  },
+  {
+    "id": "g-payment-deductions",
+    "kind": "term",
+    "term": "Payment deductions",
+    "definition": "Deductions from payments in a government-pays PPP (payment adjustments or abatements); the immediate route for financially penalizing under-performance.",
+    "ref": "Glossary: Payment deductions"
+  },
+  {
+    "id": "g-penalties",
+    "kind": "term",
+    "term": "Penalties",
+    "definition": "Payments borne by the private party for a breach of contract (direct or explicit penalties), distinct from payment deductions. In many common law countries 'penalty' means disproportionate compensation, so liquidated damages is used instead.",
+    "ref": "Glossary: Penalties"
+  },
+  {
+    "id": "g-penalty-system",
+    "kind": "term",
+    "term": "Penalty system",
+    "definition": "The contract scheme defining categories of breaches and levels of penalties.",
+    "ref": "Glossary: Penalty system"
+  },
+  {
+    "id": "g-performance-bond",
+    "kind": "term",
+    "term": "Performance bond",
+    "definition": "See performance guarantee: a third-party guarantee that contractual obligations will be performed.",
+    "ref": "Glossary: Performance bond"
+  },
+  {
+    "id": "g-performance-guarantee",
+    "kind": "term",
+    "term": "Performance guarantee",
+    "definition": "A written guarantee from a third party (usually a bank or insurer) submitted to the procuring authority and/or SPV, ensuring the private partner and/or contractor will perform all contractual obligations.",
+    "ref": "Glossary: Performance guarantee"
+  },
+  {
+    "id": "g-performance-monitoring-system",
+    "kind": "term",
+    "term": "Performance monitoring system",
+    "definition": "A set of indicators and procedures agreed in the project agreement to determine whether the private party is delivering contracted services according to the service specifications.",
+    "ref": "Glossary: Performance monitoring system"
+  },
+  {
+    "id": "g-performance-points",
+    "kind": "term",
+    "term": "Performance points",
+    "definition": "A system assigning points to each contract breach to track performance, especially to control the risk of the private partner entering persistent breach.",
+    "ref": "Glossary: Performance points"
+  },
+  {
+    "id": "g-performance-requirements",
+    "kind": "term",
+    "term": "Performance requirements",
+    "definition": "Part of technical requirements: what is required of the private partner in quality and/or quantity. May be called output specifications, service requirements, or O&M requirements; construction ones are construction requirements.",
+    "ref": "Glossary: Performance requirements"
+  },
+  {
+    "id": "g-permits",
+    "kind": "term",
+    "term": "Permits",
+    "definition": "Planning or other permissions required to construct and operate the facility.",
+    "ref": "Glossary: Permits"
+  },
+  {
+    "id": "g-persistent-breach",
+    "kind": "term",
+    "term": "Persistent breach",
+    "definition": "Consistent failure by the private partner to observe the contract, defined by number of breaches, accumulated penalties or performance points; may lead to early termination.",
+    "ref": "Glossary: Persistent breach"
+  },
+  {
+    "id": "g-political-risks",
+    "kind": "term",
+    "term": "Political risks",
+    "definition": "Risks related to government action affecting the private partner or its operations.",
+    "ref": "Glossary: Political risks"
+  },
+  {
+    "id": "g-ppp-contract-broad-definition",
+    "kind": "term",
+    "term": "PPP contract (broad definition)",
+    "definition": "A long-term contract between a public and private party to develop and/or manage a public asset or service, where the private party bears significant risk and management responsibility, and remuneration is significantly linked to performance and/or demand or use.",
+    "ref": "Glossary: PPP contract (broad definition)"
+  },
+  {
+    "id": "g-ppp-agreement",
+    "kind": "term",
+    "term": "PPP agreement",
+    "definition": "Same as PPP contract: the contract between the procuring authority and the private partner.",
+    "ref": "Glossary: PPP agreement"
+  },
+  {
+    "id": "g-ppp-contract",
+    "kind": "term",
+    "term": "PPP contract",
+    "definition": "The contract between the procuring authority and the private partner in a PPP project; may also include agreements linking the private partner with other public parties (e.g., off-take agreements).",
+    "ref": "Glossary: PPP contract"
+  },
+  {
+    "id": "g-ppp-contract-structure",
+    "kind": "term",
+    "term": "PPP contract structure",
+    "definition": "The key commercial terms of the PPP contract: the financial structure (how the private partner is paid) and the risk structure (how risks are allocated between the parties).",
+    "ref": "Glossary: PPP contract structure"
+  },
+  {
+    "id": "g-ppp-framework",
+    "kind": "term",
+    "term": "PPP framework",
+    "definition": "The rules, established procedures and institutional responsibilities that determine how government selects, implements and manages PPP projects.",
+    "ref": "Glossary: PPP framework"
+  },
+  {
+    "id": "g-ppp-framework-documents",
+    "kind": "term",
+    "term": "PPP framework documents",
+    "definition": "Documents establishing the PPP framework, such as policy statements, white papers, laws, executive orders, circulars or manuals; they vary by jurisdiction and may need to be read together.",
+    "ref": "Glossary: PPP framework documents"
+  },
+  {
+    "id": "g-ppp-pipeline",
+    "kind": "term",
+    "term": "PPP pipeline",
+    "definition": "A list of projects the government is considering implementing as PPPs over a specific time frame (e.g., yearly, 5 or 10 years).",
+    "ref": "Glossary: PPP pipeline"
+  },
+  {
+    "id": "g-ppp-process-or-ppp-cycle",
+    "kind": "term",
+    "term": "PPP process or PPP cycle",
+    "definition": "The steps a PPP project goes through: identifying the project, appraising the PPP, structuring and designing the contract, managing the tender and award, and managing the contract.",
+    "ref": "Glossary: PPP process or PPP cycle"
+  },
+  {
+    "id": "g-ppp-program",
+    "kind": "term",
+    "term": "PPP program",
+    "definition": "How the government plans to use PPPs to improve infrastructure service provision, beyond the pipeline: plans for further projects, priority sectors, and the extent of PPP use versus other delivery mechanisms.",
+    "ref": "Glossary: PPP program"
+  },
+  {
+    "id": "g-ppp-program-oversight",
+    "kind": "term",
+    "term": "PPP program oversight",
+    "definition": "Supervision of the PPP program by parties at least somewhat independent of those implementing it, ensuring rules are followed and the public interest is served.",
+    "ref": "Glossary: PPP program oversight"
+  },
+  {
+    "id": "g-ppp-project-structure",
+    "kind": "term",
+    "term": "PPP project structure",
+    "definition": "The architecture of contractual relationships and cash flows governing the project, including the PPP contract structure and the downstream private contract structure. 'PPP project structuring' develops the contract structure and tender process.",
+    "ref": "Glossary: PPP project structure"
+  },
+  {
+    "id": "g-ppp-screening",
+    "kind": "term",
+    "term": "PPP screening",
+    "definition": "Assessing whether a project appears sound as a PPP and can proceed to the next stage of appraisal.",
+    "ref": "Glossary: PPP screening"
+  },
+  {
+    "id": "g-ppp-unit",
+    "kind": "term",
+    "term": "PPP unit",
+    "definition": "A government organization that supports contracting authorities in implementing PPP projects, often part of or attached to a central agency such as the ministry of finance.",
+    "ref": "Glossary: PPP unit"
+  },
+  {
+    "id": "g-pre-feasibility-study",
+    "kind": "term",
+    "term": "Pre-feasibility study",
+    "definition": "An assessment of a PPP project's basic parameters to decide whether to proceed with more in-depth and expensive studies, such as feasibility studies and transaction development.",
+    "ref": "Glossary: Pre-feasibility study"
+  },
+  {
+    "id": "g-preferred-bidder",
+    "kind": "term",
+    "term": "Preferred bidder",
+    "definition": "The bidder identified at the end of tender evaluation as the government's preferred partner for (or for final negotiations of) the PPP contract; it is awarded the contract and called to signature.",
+    "ref": "Glossary: Preferred bidder"
+  },
+  {
+    "id": "g-pre-qualification",
+    "kind": "term",
+    "term": "Pre-qualification",
+    "definition": "Testing prospective bidders against pass/fail qualification criteria before issuing the request for proposals.",
+    "ref": "Glossary: Pre-qualification"
+  },
+  {
+    "id": "g-private-finance",
+    "kind": "term",
+    "term": "Private finance",
+    "definition": "In the Guide: any private-sector finance that is at risk, i.e., dependent on the performance of the project-contract. Aligned with economic ownership used to decide balance sheet treatment; in national accounts, finance not treated as public debt.",
+    "ref": "Glossary: Private finance"
+  },
+  {
+    "id": "g-private-finance-initiative-pfi",
+    "kind": "term",
+    "term": "Private Finance Initiative (PFI)",
+    "definition": "An alternative name introduced by the United Kingdom for government-pays PPPs.",
+    "ref": "Glossary: Private Finance Initiative (PFI)"
+  },
+  {
+    "id": "g-private-finance-ppp",
+    "kind": "term",
+    "term": "Private finance PPP",
+    "definition": "A long-term public-private contract to develop (or significantly upgrade) and manage a public asset, where the private party bears significant risk and management responsibility, provides significant at-risk finance, and remuneration is significantly linked to performance and/or demand.",
+    "ref": "Glossary: Private finance PPP"
+  },
+  {
+    "id": "g-private-partner",
+    "kind": "term",
+    "term": "Private partner",
+    "definition": "The procuring authority's counterparty in the PPP contract: a private entity granted the contract to build and operate a government asset, usually an SPV. Its shareholders are more accurately called equity investors.",
+    "ref": "Glossary: Private partner"
+  },
+  {
+    "id": "g-private-party",
+    "kind": "term",
+    "term": "Private party",
+    "definition": "Common alternative name for the private partner; may also refer to all private agents in the project (sponsors, contractors, lenders, investors).",
+    "ref": "Glossary: Private party"
+  },
+  {
+    "id": "g-privately-initiated-projects",
+    "kind": "term",
+    "term": "Privately-initiated projects",
+    "definition": "PPP projects originated and developed by private companies through an unsolicited or market initiated proposal.",
+    "ref": "Glossary: Privately-initiated projects"
+  },
+  {
+    "id": "g-privatization",
+    "kind": "term",
+    "term": "Privatization",
+    "definition": "The permanent transfer of a previously publicly owned asset to the private sector.",
+    "ref": "Glossary: Privatization"
+  },
+  {
+    "id": "g-probity-practitioner",
+    "kind": "term",
+    "term": "Probity practitioner",
+    "definition": "An independent expert who monitors the bidding process at critical stages and reports whether it met the required probity standards.",
+    "ref": "Glossary: Probity practitioner"
+  },
+  {
+    "id": "g-processes-of-evaluation-criteria",
+    "kind": "term",
+    "term": "Processes of evaluation criteria",
+    "definition": "How offers are assessed to select the preferred bidder: price only (technical pass/fail; auction or least cost selection), or price plus quality factors (Quality and Cost Based Selection, QCBS, or Most Economically Advantageous Tender, MEAT).",
+    "ref": "Glossary: Processes of evaluation criteria"
+  },
+  {
+    "id": "g-procurement-decision",
+    "kind": "term",
+    "term": "Procurement decision",
+    "definition": "The decision on the best way to buy the project: does PPP procurement offer better Value for Money than the best practicable public sector delivery model?",
+    "ref": "Glossary: Procurement decision"
+  },
+  {
+    "id": "g-procuring-authority",
+    "kind": "term",
+    "term": "Procuring authority",
+    "definition": "The government unit tendering and contracting the project, the public counterpart in the PPP contract, usually also the public promoter. Also called public party, public partner, public authority or grantor.",
+    "ref": "Glossary: Procuring authority"
+  },
+  {
+    "id": "g-project-bond",
+    "kind": "term",
+    "term": "Project bond",
+    "definition": "Tradable debt in which investors lend to the private partner for a set period at fixed or variable interest. Common where capital markets are deep, usually for refinancing (bridge to bonds); longer tenors but less flexible than loans.",
+    "ref": "Glossary: Project bond"
+  },
+  {
+    "id": "g-project-company",
+    "kind": "term",
+    "term": "Project company",
+    "definition": "The company acting as the government's counterparty in a PPP; also referred to as the Special Purpose Vehicle (SPV).",
+    "ref": "Glossary: Project company"
+  },
+  {
+    "id": "g-project-finance",
+    "kind": "term",
+    "term": "Project finance",
+    "definition": "A technique for arranging long-term debt financing of a project where the loan is based on the cash flow generated by the project alone.",
+    "ref": "Glossary: Project finance"
+  },
+  {
+    "id": "g-project-information-memorandum-pim",
+    "kind": "term",
+    "term": "Project Information Memorandum (PIM)",
+    "definition": "A document describing the project, key contracts and projected revenues, presented by the sponsor to lenders; also the project outline the authority gives to bidders and financiers during market testing before tender launch.",
+    "ref": "Glossary: Project Information Memorandum (PIM)"
+  },
+  {
+    "id": "g-project-life-coverage-ratio-plcr",
+    "kind": "term",
+    "term": "Project Life Coverage Ratio (PLCR)",
+    "definition": "NPV of Cash Flows Available for Debt Service (CFADS) over the project's remaining life divided by outstanding debt. Like LLCR, but LLCR uses CFADS over the scheduled loan life only.",
+    "ref": "Glossary: Project Life Coverage Ratio (PLCR)"
+  },
+  {
+    "id": "g-project-outline",
+    "kind": "term",
+    "term": "Project outline",
+    "definition": "A basic-level definition of the project from a technical perspective.",
+    "ref": "Glossary: Project outline"
+  },
+  {
+    "id": "g-project-preparation",
+    "kind": "term",
+    "term": "Project preparation",
+    "definition": "Government activities to mitigate project risks and advance matters that are its responsibility before the contract is tendered.",
+    "ref": "Glossary: Project preparation"
+  },
+  {
+    "id": "g-project-steering-committee",
+    "kind": "term",
+    "term": "Project steering committee",
+    "definition": "A committee of departmental/agency representatives set up by the procuring authority to direct development of the PPP project and deal with key issues.",
+    "ref": "Glossary: Project steering committee"
+  },
+  {
+    "id": "g-promoter",
+    "kind": "term",
+    "term": "Promoter",
+    "definition": "Usually the procuring authority promoting the project as a PPP; sometimes the private promoter, though 'sponsor' is the more appropriate term for private parties leading the bid.",
+    "ref": "Glossary: Promoter"
+  },
+  {
+    "id": "g-public-asset",
+    "kind": "term",
+    "term": "Public asset",
+    "definition": "Fixed assets for long-term use that are public works, dedicated to public use, or tied to providing a public service; often called public infrastructure, the type of asset normally procured under a PPP.",
+    "ref": "Glossary: Public asset"
+  },
+  {
+    "id": "g-public-debt-impact-analysis",
+    "kind": "term",
+    "term": "Public debt impact analysis",
+    "definition": "Analysis in some countries to decide whether the PPP asset should be treated as publicly owned for accountability and reporting, with the contract's liabilities recorded as public debt in national accounts.",
+    "ref": "Glossary: Public debt impact analysis"
+  },
+  {
+    "id": "g-public-dominium-domain-concession",
+    "kind": "term",
+    "term": "Public dominium/domain concession",
+    "definition": "In some civil code countries, land granted to the private sector for 99 years (e.g., for port facilities) operated under regulations and then reverted to government.",
+    "ref": "Glossary: Public dominium/domain concession"
+  },
+  {
+    "id": "g-public-finance",
+    "kind": "term",
+    "term": "Public finance",
+    "definition": "Either finance provided by the government, or finance recognized on the government balance sheet for accounting purposes regardless of who provides it.",
+    "ref": "Glossary: Public finance"
+  },
+  {
+    "id": "g-public-partner",
+    "kind": "term",
+    "term": "Public partner",
+    "definition": "See procuring authority: the public counterpart in the PPP contract.",
+    "ref": "Glossary: Public partner"
+  },
+  {
+    "id": "g-public-party",
+    "kind": "term",
+    "term": "Public party",
+    "definition": "See procuring authority: the public counterpart in the PPP contract.",
+    "ref": "Glossary: Public party"
+  },
+  {
+    "id": "g-public-procurement",
+    "kind": "term",
+    "term": "Public procurement",
+    "definition": "The process of competitive bidding for a contract with the public sector.",
+    "ref": "Glossary: Public procurement"
+  },
+  {
+    "id": "g-public-sector-comparator-psc",
+    "kind": "term",
+    "term": "Public Sector Comparator (PSC)",
+    "definition": "The risk-adjusted cost estimate, from the public perspective, of delivering the project by conventional procurement; the benchmark against which the PPP option's costs are compared to determine Value for Money.",
+    "ref": "Glossary: Public Sector Comparator (PSC)"
+  },
+  {
+    "id": "g-punch-list",
+    "kind": "term",
+    "term": "Punch list",
+    "definition": "A list of minor defects or non-compliances found at commissioning that do not prevent service commencement but must be fixed within a set period.",
+    "ref": "Glossary: Punch list"
+  },
+  {
+    "id": "g-quality-management-system-qms",
+    "kind": "term",
+    "term": "Quality Management System (QMS)",
+    "definition": "A system integrating processes that let an organization identify, measure, control and improve core business processes, improving performance and mitigating construction risk.",
+    "ref": "Glossary: Quality Management System (QMS)"
+  },
+  {
+    "id": "g-ratchet-factor",
+    "kind": "term",
+    "term": "Ratchet factor",
+    "definition": "In payment mechanisms, a factor that increases deductions to penalize repeated or persistent under-performance, or unresolved unavailability.",
+    "ref": "Glossary: Ratchet factor"
+  },
+  {
+    "id": "g-rectification-period",
+    "kind": "term",
+    "term": "Rectification period",
+    "definition": "The time set in the contract for the private partner to rectify a default that interferes with the asset's availability to users.",
+    "ref": "Glossary: Rectification period"
+  },
+  {
+    "id": "g-reference-design",
+    "kind": "term",
+    "term": "Reference design",
+    "definition": "A technical design blueprint intended for others to copy; third parties may enhance or modify it as required.",
+    "ref": "Glossary: Reference design"
+  },
+  {
+    "id": "g-refinancing",
+    "kind": "term",
+    "term": "Refinancing",
+    "definition": "Changing the financial structure and/or conditions by renegotiating existing debt or raising new funds to replace current providers; some contracts require refinancing gains to be shared with the public partner.",
+    "ref": "Glossary: Refinancing"
+  },
+  {
+    "id": "g-regulated-investor-owned-utilities",
+    "kind": "term",
+    "term": "Regulated investor owned utilities",
+    "definition": "In countries such as Australia, France, the UK and US, utility infrastructure (e.g., electricity, telecoms) owned by private entities rather than subject to concessions.",
+    "ref": "Glossary: Regulated investor owned utilities"
+  },
+  {
+    "id": "g-relief-events",
+    "kind": "term",
+    "term": "Relief events",
+    "definition": "Risk events for which the contract relieves the private partner from obligations: if affected, the potential breach is not treated as a breach, so no penalties or default.",
+    "ref": "Glossary: Relief events"
+  },
+  {
+    "id": "g-renewal-fund",
+    "kind": "term",
+    "term": "Renewal fund",
+    "definition": "An account funded by the private partner to meet anticipated infrastructure renewal costs during the contract life.",
+    "ref": "Glossary: Renewal fund"
+  },
+  {
+    "id": "g-request-for-proposal-rfp",
+    "kind": "term",
+    "term": "Request for Proposal (RFP)",
+    "definition": "Documents issued by the procuring authority setting out proposal submission requirements, evaluation criteria and the PPP contract to be signed. In one-stage tenders it includes the RFQ; in competitive dialogue it may be provisional. Also called Request for Tender (RFT).",
+    "ref": "Glossary: Request for Proposal (RFP)"
+  },
+  {
+    "id": "g-request-for-qualifications-rfq",
+    "kind": "term",
+    "term": "Request for Qualifications (RFQ)",
+    "definition": "The procuring authority's documents that form the basis for qualifying and possibly short-listing candidates, who are then invited to submit proposals or enter dialogue. The response is the Submission of Qualifications (SoQ) or EOI.",
+    "ref": "Glossary: Request for Qualifications (RFQ)"
+  },
+  {
+    "id": "g-retained-risk",
+    "kind": "term",
+    "term": "Retained risk",
+    "definition": "The value of the risks, or parts of risks, that the government bears under a PPP project.",
+    "ref": "Glossary: Retained risk"
+  },
+  {
+    "id": "g-revenue-maker-project",
+    "kind": "term",
+    "term": "Revenue maker project",
+    "definition": "A (user-pays) project generating enough revenue to be financially feasible without public funding; also self-financeable, or over-feasible if there is a material surplus. Revenue may include third-party or ancillary revenues.",
+    "ref": "Glossary: Revenue maker project"
+  },
+  {
+    "id": "g-revenue-risk",
+    "kind": "term",
+    "term": "Revenue risk",
+    "definition": "See demand risk: the risk that actual demand/usage falls short of forecast.",
+    "ref": "Glossary: Revenue risk"
+  },
+  {
+    "id": "g-rfp-bid-phase",
+    "kind": "term",
+    "term": "RFP 'bid' phase",
+    "definition": "The part of the RFP phase in which bidders prepare their RFP responses.",
+    "ref": "Glossary: RFP 'bid' phase"
+  },
+  {
+    "id": "g-rfp-evaluation-phase",
+    "kind": "term",
+    "term": "RFP evaluation phase",
+    "definition": "The part of the RFP phase in which the government evaluates RFP responses.",
+    "ref": "Glossary: RFP evaluation phase"
+  },
+  {
+    "id": "g-rfp-phase",
+    "kind": "term",
+    "term": "RFP phase",
+    "definition": "The phase in which the RFP is released to bidders for detailed, binding responses, followed by evaluation and selection of the preferred bidder.",
+    "ref": "Glossary: RFP phase"
+  },
+  {
+    "id": "g-rfp-response",
+    "kind": "term",
+    "term": "RFP response",
+    "definition": "A bidder's proposal submitted in response to the government's Request for Proposal for a project.",
+    "ref": "Glossary: RFP response"
+  },
+  {
+    "id": "g-right-of-way",
+    "kind": "term",
+    "term": "Right of Way",
+    "definition": "A right to a corridor of land, typically required for linear infrastructure projects such as roads or pipelines.",
+    "ref": "Glossary: Right of Way"
+  },
+  {
+    "id": "g-ring-fence",
+    "kind": "term",
+    "term": "Ring fence",
+    "definition": "The project company's obligations are separated from those of equity investors (a company breach is not an investor breach), and debt is secured on project cash flows.",
+    "ref": "Glossary: Ring fence"
+  },
+  {
+    "id": "g-risk",
+    "kind": "term",
+    "term": "Risk",
+    "definition": "An uncertain event which, if it occurs, may cause actual project outcomes to differ from expected outcomes.",
+    "ref": "Glossary: Risk"
+  },
+  {
+    "id": "g-risk-allocation",
+    "kind": "term",
+    "term": "Risk allocation",
+    "definition": "Assigning the consequences of each risk to one of the contract parties, or agreeing a mechanism to deal with it, which may involve sharing the risk.",
+    "ref": "Glossary: Risk allocation"
+  },
+  {
+    "id": "g-risk-assessment",
+    "kind": "term",
+    "term": "Risk assessment",
+    "definition": "Evaluating the likelihood of identified risks materializing and the magnitude of their consequences if they do.",
+    "ref": "Glossary: Risk assessment"
+  },
+  {
+    "id": "g-risk-premium",
+    "kind": "term",
+    "term": "Risk premium",
+    "definition": "An additional required rate of return paid to investors in risky investments to compensate for the risk.",
+    "ref": "Glossary: Risk premium"
+  },
+  {
+    "id": "g-risk-structuring",
+    "kind": "term",
+    "term": "Risk structuring",
+    "definition": "Defining the optimal risk allocation for the contract: which risks go to the private partner and to what extent, and which are retained or shared by the public authority.",
+    "ref": "Glossary: Risk structuring"
+  },
+  {
+    "id": "g-scope-of-ppp-framework",
+    "kind": "term",
+    "term": "Scope (of PPP framework)",
+    "definition": "The types of projects and sectors to which the PPP framework applies.",
+    "ref": "Glossary: Scope (of PPP framework)"
+  },
+  {
+    "id": "g-secondary-investors",
+    "kind": "term",
+    "term": "Secondary investors",
+    "definition": "Investors who buy shares in the private partner from primary investors after financial close, usually in the early Operations Phase.",
+    "ref": "Glossary: Secondary investors"
+  },
+  {
+    "id": "g-senior-debt",
+    "kind": "term",
+    "term": "Senior debt",
+    "definition": "The main debt raised by the private partner, ranking ahead of junior debt: first priority for repayment and priority decision-making powers for its lenders.",
+    "ref": "Glossary: Senior debt"
+  },
+  {
+    "id": "g-service-contract",
+    "kind": "term",
+    "term": "Service contract",
+    "definition": "In civil law, transfer of operation of a public service in the strict legal sense (e.g., water, passenger transport). In common law it has no specific meaning and covers various, usually short-term, outsourcing contracts.",
+    "ref": "Glossary: Service contract"
+  },
+  {
+    "id": "g-service-failure",
+    "kind": "term",
+    "term": "Service failure",
+    "definition": "A failure by the private party to provide services in accordance with the contract service specifications.",
+    "ref": "Glossary: Service failure"
+  },
+  {
+    "id": "g-shadow-lending",
+    "kind": "term",
+    "term": "Shadow lending",
+    "definition": "Loans provided by non-regulated lenders.",
+    "ref": "Glossary: Shadow lending"
+  },
+  {
+    "id": "g-shadow-prices",
+    "kind": "term",
+    "term": "Shadow prices",
+    "definition": "In economic analysis, prices adjusted for market imperfections such as foreign exchange limits, labor costs and energy consumption. Not to be confused with shadow tolls.",
+    "ref": "Glossary: Shadow prices"
+  },
+  {
+    "id": "g-shadow-tolls-shadow-fares",
+    "kind": "term",
+    "term": "Shadow tolls (shadow fares)",
+    "definition": "Fares or tariffs paid by government instead of users (shadow toll for roads). Shadow payments per volume are one of the two main types of payment mechanisms.",
+    "ref": "Glossary: Shadow tolls (shadow fares)"
+  },
+  {
+    "id": "g-shareholders",
+    "kind": "term",
+    "term": "Shareholders",
+    "definition": "The equity investors holding shares in the SPV; they may also invest in other instruments but commonly hold equity shares.",
+    "ref": "Glossary: Shareholders"
+  },
+  {
+    "id": "g-shareholders-agreement-sha",
+    "kind": "term",
+    "term": "Shareholders agreement (SHA)",
+    "definition": "The document the SPV's equity providers enter into, setting out how they will work together to manage the SPV.",
+    "ref": "Glossary: Shareholders agreement (SHA)"
+  },
+  {
+    "id": "g-short-listed-bidder",
+    "kind": "term",
+    "term": "Short-listed bidder",
+    "definition": "A party invited to submit a proposal in response to an RFP where only a limited number of pre-qualified bidders may proceed to the RFP phase.",
+    "ref": "Glossary: Short-listed bidder"
+  },
+  {
+    "id": "g-single-till-principle",
+    "kind": "term",
+    "term": "Single-till principle",
+    "definition": "The government finances general public needs from its annual budget without committing finance to a specific project.",
+    "ref": "Glossary: Single-till principle"
+  },
+  {
+    "id": "g-social-infrastructure",
+    "kind": "term",
+    "term": "Social infrastructure",
+    "definition": "Infrastructure accommodating social services: hospitals, schools and universities, prisons, housing, courts and so on.",
+    "ref": "Glossary: Social infrastructure"
+  },
+  {
+    "id": "g-soft-conditions",
+    "kind": "term",
+    "term": "Soft conditions",
+    "definition": "Conditions more favorable than current market conditions.",
+    "ref": "Glossary: Soft conditions"
+  },
+  {
+    "id": "g-soft-loans",
+    "kind": "term",
+    "term": "Soft loans",
+    "definition": "A loan from the procuring authority, usually subordinated but senior to equity and shareholder debt, often participative (government shares project upside for below-market terms).",
+    "ref": "Glossary: Soft loans"
+  },
+  {
+    "id": "g-soft-services",
+    "kind": "term",
+    "term": "Soft services",
+    "definition": "Facilities management services (cleaning, catering, pest control) with a high labor component, not intrinsically tied to the capital assets; often subject to market testing and/or benchmarking in PPP contracts.",
+    "ref": "Glossary: Soft services"
+  },
+  {
+    "id": "g-sovereign-funds",
+    "kind": "term",
+    "term": "Sovereign funds",
+    "definition": "Funds usually created or controlled by a government to invest in other countries.",
+    "ref": "Glossary: Sovereign funds"
+  },
+  {
+    "id": "g-special-purpose-vehicle-spv",
+    "kind": "term",
+    "term": "Special Purpose Vehicle (SPV)",
+    "definition": "An entity created for a single project to protect shareholders with limited liability, often for limited or non-recourse financing. It is the legal form of the project consortium contracting with government, with no prior track record. Also called project company or private partner.",
+    "ref": "Glossary: Special Purpose Vehicle (SPV)"
+  },
+  {
+    "id": "g-sponsor",
+    "kind": "term",
+    "term": "Sponsor",
+    "definition": "The private company or companies leading preparation and submission of the bid, and usually involved during the contract life until exiting by selling their equity.",
+    "ref": "Glossary: Sponsor"
+  },
+  {
+    "id": "g-standard-contracts",
+    "kind": "term",
+    "term": "Standard contracts",
+    "definition": "Precise wording for certain contract provisions or clauses that public agencies must use, or must document and justify deviations from.",
+    "ref": "Glossary: Standard contracts"
+  },
+  {
+    "id": "g-standstill-period",
+    "kind": "term",
+    "term": "Standstill period",
+    "definition": "A pause allowing another party to act: typically a mandatory period between contract award and signing to allow challenges to the award, or a contractual period in which a party must refrain from specified actions.",
+    "ref": "Glossary: Standstill period"
+  },
+  {
+    "id": "g-state-aid-regulations",
+    "kind": "term",
+    "term": "State aid regulations",
+    "definition": "Regulations limiting financial support to a project through public loans, loans from public agencies, or guarantees.",
+    "ref": "Glossary: State aid regulations"
+  },
+  {
+    "id": "g-state-owned-enterprise",
+    "kind": "term",
+    "term": "State-owned enterprise",
+    "definition": "A company or enterprise created and owned by the government.",
+    "ref": "Glossary: State-owned enterprise"
+  },
+  {
+    "id": "g-step-in",
+    "kind": "term",
+    "term": "Step-in",
+    "definition": "The government's or lender's option to assume a project party's contractual responsibilities by managing its contract when that party is failing its obligations.",
+    "ref": "Glossary: Step-in"
+  },
+  {
+    "id": "g-strategic-investment-fund",
+    "kind": "term",
+    "term": "Strategic investment fund",
+    "definition": "A structured fund through which a government invests in projects in its own country.",
+    "ref": "Glossary: Strategic investment fund"
+  },
+  {
+    "id": "g-subcontract",
+    "kind": "term",
+    "term": "Subcontract",
+    "definition": "A contract between the private party and a third party to perform part of the private party's obligations under the PPP contract.",
+    "ref": "Glossary: Subcontract"
+  },
+  {
+    "id": "g-submission-of-qualifications-soq",
+    "kind": "term",
+    "term": "Submission of Qualifications (SoQ)",
+    "definition": "The prospective bidder's submission of the documents required to be qualified; the response to an RFQ.",
+    "ref": "Glossary: Submission of Qualifications (SoQ)"
+  },
+  {
+    "id": "g-subordinated-debt",
+    "kind": "term",
+    "term": "Subordinated debt",
+    "definition": "Debt ranking behind senior debt by agreement or legal structure, giving senior lenders priority to payments and to borrower assets or revenues on default. Also called junior or mezzanine debt.",
+    "ref": "Glossary: Subordinated debt"
+  },
+  {
+    "id": "g-sunk-cost",
+    "kind": "term",
+    "term": "Sunk cost",
+    "definition": "A cost that has already been incurred and cannot be recovered.",
+    "ref": "Glossary: Sunk cost"
+  },
+  {
+    "id": "g-suppliers",
+    "kind": "term",
+    "term": "Suppliers",
+    "definition": "A subcontracting group specializing in a product or service used for construction, operation or maintenance of the facility.",
+    "ref": "Glossary: Suppliers"
+  },
+  {
+    "id": "g-swiss-challenge",
+    "kind": "term",
+    "term": "Swiss challenge",
+    "definition": "An unsolicited proposal mechanism: an open bidding process is held and, if the original proponent does not win, it may match the winning bid and take the contract.",
+    "ref": "Glossary: Swiss challenge"
+  },
+  {
+    "id": "g-syndication",
+    "kind": "term",
+    "term": "Syndication",
+    "definition": "The process by which the banks initially agreeing to provide a loan reduce their underwriting by placing part of it with other banks.",
+    "ref": "Glossary: Syndication"
+  },
+  {
+    "id": "g-systemic-risks",
+    "kind": "term",
+    "term": "Systemic risks",
+    "definition": "Risks related to general economic conditions which cannot be classified under specific strategies, and can be paid for only by a general increase in the asset's return.",
+    "ref": "Glossary: Systemic risks"
+  },
+  {
+    "id": "g-technical-completion",
+    "kind": "term",
+    "term": "Technical completion",
+    "definition": "In a two-stage completion process, the stage at which the completion certifier is satisfied with all specified tests and completion criteria.",
+    "ref": "Glossary: Technical completion"
+  },
+  {
+    "id": "g-technical-requirements",
+    "kind": "term",
+    "term": "Technical requirements",
+    "definition": "Technical details defining the infrastructure design and service characteristics and how performance and delivery will be achieved; essential for assessing and allocating costs in the commercial feasibility analysis.",
+    "ref": "Glossary: Technical requirements"
+  },
+  {
+    "id": "g-technological-obsolescence",
+    "kind": "term",
+    "term": "Technological obsolescence",
+    "definition": "The risk of equipment becoming inadequate or outdated for the purpose of the service.",
+    "ref": "Glossary: Technological obsolescence"
+  },
+  {
+    "id": "g-temerity",
+    "kind": "term",
+    "term": "Temerity",
+    "definition": "A reckless offer made to win the project and renegotiate later. Some jurisdictions (e.g., Spain) set a relative threshold, e.g., more than 15% below the average bid, and may require explanation or additional security.",
+    "ref": "Glossary: Temerity"
+  },
+  {
+    "id": "g-tender-process",
+    "kind": "term",
+    "term": "Tender process",
+    "definition": "The process of inviting bids from interested parties to carry out the project, using competition among bidders to obtain the best price and terms.",
+    "ref": "Glossary: Tender process"
+  },
+  {
+    "id": "g-term",
+    "kind": "term",
+    "term": "Term",
+    "definition": "The duration of the PPP contract, or the period until the final repayment date of the debt.",
+    "ref": "Glossary: Term"
+  },
+  {
+    "id": "g-termination-for-convenience",
+    "kind": "term",
+    "term": "Termination for convenience",
+    "definition": "Termination by the government without default or other triggers, based on public interest, a right the government always reserves. Also known as unilateral or voluntary termination.",
+    "ref": "Glossary: Termination for convenience"
+  },
+  {
+    "id": "g-termination-payment",
+    "kind": "term",
+    "term": "Termination payment",
+    "definition": "A payment made by the government under the PPP contract following termination of the project agreement. Also called termination compensation.",
+    "ref": "Glossary: Termination payment"
+  },
+  {
+    "id": "g-third-party-revenues",
+    "kind": "term",
+    "term": "Third-party revenues",
+    "definition": "The project company's ability to generate revenues other than from users or the public authority.",
+    "ref": "Glossary: Third-party revenues"
+  },
+  {
+    "id": "g-traditional-procurement",
+    "kind": "term",
+    "term": "Traditional procurement",
+    "definition": "Government delivery of infrastructure and services using design and construct, or other traditionally used procurement processes.",
+    "ref": "Glossary: Traditional procurement"
+  },
+  {
+    "id": "g-transferred-risk",
+    "kind": "term",
+    "term": "Transferred risk",
+    "definition": "The value of the risks (from the government's perspective) likely to be allocated to the private party under a PPP project.",
+    "ref": "Glossary: Transferred risk"
+  },
+  {
+    "id": "g-turnkey-contract",
+    "kind": "term",
+    "term": "Turnkey contract",
+    "definition": "A contract with single-point responsibility for design, engineering, procurement of equipment, and construction.",
+    "ref": "Glossary: Turnkey contract"
+  },
+  {
+    "id": "g-two-stage-tender",
+    "kind": "term",
+    "term": "Two-stage tender",
+    "definition": "A tender in which the government first issues an RFQ and, after assessing qualifications, issues the RFP only to pre-qualified (or short-listed) bidders.",
+    "ref": "Glossary: Two-stage tender"
+  },
+  {
+    "id": "g-unilateral-termination",
+    "kind": "term",
+    "term": "Unilateral termination",
+    "definition": "See termination for convenience: government termination on public interest grounds without default.",
+    "ref": "Glossary: Unilateral termination"
+  },
+  {
+    "id": "g-unitary-charge",
+    "kind": "term",
+    "term": "Unitary charge",
+    "definition": "A term for government payments under a government-pays PPP contract. Also called unitary payment or unitary compensation.",
+    "ref": "Glossary: Unitary charge"
+  },
+  {
+    "id": "g-unitary-compensation",
+    "kind": "term",
+    "term": "Unitary compensation",
+    "definition": "See unitary charge: government payments under a government-pays PPP.",
+    "ref": "Glossary: Unitary compensation"
+  },
+  {
+    "id": "g-unitary-payment",
+    "kind": "term",
+    "term": "Unitary payment",
+    "definition": "See unitary charge: government payments under a government-pays PPP.",
+    "ref": "Glossary: Unitary payment"
+  },
+  {
+    "id": "g-unsolicited-proposal",
+    "kind": "term",
+    "term": "Unsolicited proposal",
+    "definition": "A proposal by a private party to undertake a PPP project, submitted on its own initiative rather than in response to a government request. Also called a market initiated proposal.",
+    "ref": "Glossary: Unsolicited proposal"
+  },
+  {
+    "id": "g-upfront-payments-or-concession-fee",
+    "kind": "term",
+    "term": "Upfront payments or concession fee",
+    "definition": "A payment-sharing mechanism where the private partner pays the public authority upfront when the project's revenue potential exceeds what is needed for commercial feasibility.",
+    "ref": "Glossary: Upfront payments or concession fee"
+  },
+  {
+    "id": "g-upstream-contract",
+    "kind": "term",
+    "term": "Upstream contract",
+    "definition": "The contractual agreement between the procuring authority and the private partner.",
+    "ref": "Glossary: Upstream contract"
+  },
+  {
+    "id": "g-user-charges",
+    "kind": "term",
+    "term": "User charges",
+    "definition": "Payments made by users of the infrastructure, such as tolls on a toll road.",
+    "ref": "Glossary: User charges"
+  },
+  {
+    "id": "g-user-pays-ppp",
+    "kind": "term",
+    "term": "User-pays PPP",
+    "definition": "A PPP in which the private partner's revenues are based on user payments (e.g., road tolls); the Guide treats any PPP with most revenue from users as user-pays, even if hybrid.",
+    "ref": "Glossary: User-pays PPP"
+  },
+  {
+    "id": "g-user-funded-ppps",
+    "kind": "term",
+    "term": "User-funded PPPs",
+    "definition": "See user-pays PPP: PPPs where revenues come mainly from users.",
+    "ref": "Glossary: User-funded PPPs"
+  },
+  {
+    "id": "g-value-engineering",
+    "kind": "term",
+    "term": "Value engineering",
+    "definition": "Modifying designs and systems based on value analysis, typically to reduce costs.",
+    "ref": "Glossary: Value engineering"
+  },
+  {
+    "id": "g-value-for-money-vfm",
+    "kind": "term",
+    "term": "Value for Money (VfM)",
+    "definition": "Broadly, money spent is worthwhile when the value received equals or exceeds the amount spent; for government investment decisions it means net value to society, tested by techniques such as Cost-Benefit Analysis (CBA).",
+    "ref": "Glossary: Value for Money (VfM)"
+  },
+  {
+    "id": "g-value-for-money-in-the-ppp-context",
+    "kind": "term",
+    "term": "Value for Money (in the PPP context)",
+    "definition": "The benefits relative to costs of procuring via PPP versus other options, tested during appraisal/structuring and at bid evaluation. Positive VfM results from private efficiency and innovation, risk transfer, whole life cost and service provided.",
+    "ref": "Glossary: Value for Money (in the PPP context)"
+  },
+  {
+    "id": "g-value-testing",
+    "kind": "term",
+    "term": "Value testing",
+    "definition": "Testing the cost of soft services in the PPP contract against their market price at a point in time, to adjust service payments; most common methods are benchmarking and market testing.",
+    "ref": "Glossary: Value testing"
+  },
+  {
+    "id": "g-viability-gap-funding-vgf",
+    "kind": "term",
+    "term": "Viability Gap Funding (VGF)",
+    "definition": "Grants or other government support, up to a set percentage of project cost, making low-viability projects financially viable as PPPs; usually awarded to the bidder requesting the least support.",
+    "ref": "Glossary: Viability Gap Funding (VGF)"
+  },
+  {
+    "id": "g-voluntary-termination",
+    "kind": "term",
+    "term": "Voluntary termination",
+    "definition": "See termination for convenience: government termination without default.",
+    "ref": "Glossary: Voluntary termination"
+  },
+  {
+    "id": "g-weighted-average-cost-of-capital-wacc",
+    "kind": "term",
+    "term": "Weighted Average Cost of Capital (WACC)",
+    "definition": "The average cost of all private financing resources of the project: a weighted average of the cost of equity and the cost of debt.",
+    "ref": "Glossary: Weighted Average Capital Cost (WACC)"
+  },
+  {
+    "id": "g-willingness-to-pay",
+    "kind": "term",
+    "term": "Willingness to pay",
+    "definition": "The willingness and ability of users of a concession to pay the tolls or other usage fees required by the concessionaire.",
+    "ref": "Glossary: Willingness to pay"
+  },
+  {
+    "id": "g-windfall-gains",
+    "kind": "term",
+    "term": "Windfall gains",
+    "definition": "Politically sensitive profits made by PPP investors from high returns, debt refinancing, or sale of their investment.",
+    "ref": "Glossary: Windfall gains"
+  },
+  {
+    "id": "g-working-capital",
+    "kind": "term",
+    "term": "Working capital",
+    "definition": "The funding required for operating and financing costs incurred before revenues are received.",
+    "ref": "Glossary: Working capital"
+  },
+  {
+    "id": "g-yellowfield-projects",
+    "kind": "term",
+    "term": "Yellowfield projects",
+    "definition": "PPPs whose original investment relates to renewal, refurbishment or expansion of existing infrastructure. Also called secondary stage projects.",
+    "ref": "Glossary: Yellowfield projects"
+  },
+  {
+    "id": "g-adscr",
+    "kind": "acronym",
+    "term": "ADSCR",
+    "definition": "Annual Debt Service Cover Ratio. Cash available for debt service in a year divided by that year's debt service.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-afdb",
+    "kind": "acronym",
+    "term": "AfDB",
+    "definition": "African Development Bank. A Multilateral Development Bank (MDB).",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-adb",
+    "kind": "acronym",
+    "term": "ADB",
+    "definition": "Asian Development Bank. A Multilateral Development Bank (MDB).",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-alop",
+    "kind": "acronym",
+    "term": "ALOP",
+    "definition": "Advance Loss of Profit. Insurance covering lost revenue from delayed start-up after insured construction damage.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-bafo",
+    "kind": "acronym",
+    "term": "BAFO",
+    "definition": "Best And Final Offer. A further short-listing step in the RFP phase to select the preferred bidder.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-bcie",
+    "kind": "acronym",
+    "term": "BCIE",
+    "definition": "Central American Bank for Economic Integration (Banco Centroamericano de Integración Económica). A regional development bank for Central America.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-bok",
+    "kind": "acronym",
+    "term": "BoK",
+    "definition": "Body of Knowledge",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-boot",
+    "kind": "acronym",
+    "term": "BOOT",
+    "definition": "Build-Own-Operate-Transfer",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-bot",
+    "kind": "acronym",
+    "term": "BOT",
+    "definition": "Build-Operate-Transfer",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-bto",
+    "kind": "acronym",
+    "term": "BTO",
+    "definition": "Build-Transfer-Operate",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ca",
+    "kind": "acronym",
+    "term": "CA",
+    "definition": "Consortium Agreement. Contract among consortium members allocating responsibilities, risks and rewards.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-caf",
+    "kind": "acronym",
+    "term": "CAF",
+    "definition": "Corporación Andina de Fomento (Development Bank of Latin America). A Multilateral Development Bank.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-capex",
+    "kind": "acronym",
+    "term": "CapEx",
+    "definition": "Capital Expenditure. Initial construction costs plus non-operating spending on the PPP assets.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-capm",
+    "kind": "acronym",
+    "term": "CAPM",
+    "definition": "Capital Asset Pricing Model. Risk-free rate plus a sector-adjusted market risk premium to estimate required equity return.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-cba",
+    "kind": "acronym",
+    "term": "CBA",
+    "definition": "Cost-Benefit Analysis. Assesses the socio-economic feasibility of a project regardless of procurement method.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-cea",
+    "kind": "acronym",
+    "term": "CEA",
+    "definition": "Cost-Effectiveness Analysis. Relates an option's cost to a measure of its outcomes.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-cfads",
+    "kind": "acronym",
+    "term": "CFADS",
+    "definition": "Cash Flows Available for Debt Service. Basis for coverage ratios such as DSCR, LLCR and PLCR.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-cjv",
+    "kind": "acronym",
+    "term": "CJV",
+    "definition": "Cooperative Joint Venture",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-cpi",
+    "kind": "acronym",
+    "term": "CPI",
+    "definition": "Consumer Price Index. The official measure of inflation; also referred to as RPI.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-db",
+    "kind": "acronym",
+    "term": "DB",
+    "definition": "Design-Build. Conventional procurement: private designs and builds, paid from the public budget as works progress.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbf",
+    "kind": "acronym",
+    "term": "DBF",
+    "definition": "Design-Build-Finance. Private finances design and construction, repaid by long-term government payments.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbfm",
+    "kind": "acronym",
+    "term": "DBFM",
+    "definition": "Design-Build-Finance-Maintain. DBFOM without operations in scope.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbfo",
+    "kind": "acronym",
+    "term": "DBFO",
+    "definition": "Design-Build-Finance-Operate",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbfom",
+    "kind": "acronym",
+    "term": "DBFOM",
+    "definition": "Design-Build-Finance-Operate-Maintain. The full-scope contract type that can meet all PPP conditions.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbform",
+    "kind": "acronym",
+    "term": "DBFORM",
+    "definition": "Design-Build-Finance-Operate-Rehabilitate-Maintain",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbo",
+    "kind": "acronym",
+    "term": "DBO",
+    "definition": "Design-Build-Operate",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dbom",
+    "kind": "acronym",
+    "term": "DBOM",
+    "definition": "Design-Build-Operate-Maintain. Publicly funded construction plus private O&M at a pre-agreed price; no private finance.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-d-and-c",
+    "kind": "acronym",
+    "term": "D&C",
+    "definition": "Design and Construction. As in a D&C contract or D&C contractor.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-drb",
+    "kind": "acronym",
+    "term": "DRB",
+    "definition": "Dispute Resolution Board",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-drp",
+    "kind": "acronym",
+    "term": "DRP",
+    "definition": "Dispute Resolution Process",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-dscr",
+    "kind": "acronym",
+    "term": "DSCR",
+    "definition": "Debt Service Coverage Ratio. Operating cash flow before debt service divided by debt service for the year.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ebitda",
+    "kind": "acronym",
+    "term": "EBITDA",
+    "definition": "Earnings Before Interest, Taxes, Depreciation and Amortization",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ebrd",
+    "kind": "acronym",
+    "term": "EBRD",
+    "definition": "European Bank for Reconstruction and Development. A Multilateral Development Bank.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ec",
+    "kind": "acronym",
+    "term": "EC",
+    "definition": "European Commission",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-eca",
+    "kind": "acronym",
+    "term": "ECA",
+    "definition": "Export Credit Agency. Can provide loans, guarantees and credit enhancement.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-eia",
+    "kind": "acronym",
+    "term": "EIA",
+    "definition": "Environmental Impact Assessment. Formal process predicting a project's environmental consequences.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-esia",
+    "kind": "acronym",
+    "term": "ESIA",
+    "definition": "Environmental and Social Impact Assessment",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-eib",
+    "kind": "acronym",
+    "term": "EIB",
+    "definition": "European Investment Bank. The EU's multilateral development bank.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-eirr",
+    "kind": "acronym",
+    "term": "eIRR",
+    "definition": "Economic Internal Rate of Return. IRR including externalities (economic, social, environmental).",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-emde",
+    "kind": "acronym",
+    "term": "EMDE",
+    "definition": "Emerging Markets and Development Economies",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-enpv",
+    "kind": "acronym",
+    "term": "eNPV",
+    "definition": "Economic Net Present Value. NPV of economic (socially adjusted) flows used in CBA.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-eoi",
+    "kind": "acronym",
+    "term": "EOI",
+    "definition": "Expression of Interest. Used in some jurisdictions instead of RFQ.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-epc",
+    "kind": "acronym",
+    "term": "EPC",
+    "definition": "Engineering, Procurement and Construction. A fixed-price, date-certain, turnkey construction contract.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-epcc",
+    "kind": "acronym",
+    "term": "EPCC",
+    "definition": "Engineering, Procurement and Construction Consortium",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-epec",
+    "kind": "acronym",
+    "term": "EPEC",
+    "definition": "European PPP Expertise Centre",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-erm",
+    "kind": "acronym",
+    "term": "ERM",
+    "definition": "Enterprise Risk Management",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-esa",
+    "kind": "acronym",
+    "term": "ESA",
+    "definition": "European System of National and Regional Accounts. EU national accounts (statistical) rules that determine whether PPP assets and liabilities are recorded on the government balance sheet.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fc",
+    "kind": "acronym",
+    "term": "FC",
+    "definition": "Financial Close. All documents signed, financing conditions met, funds available.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fdi",
+    "kind": "acronym",
+    "term": "FDI",
+    "definition": "Foreign Direct Investment",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fidic",
+    "kind": "acronym",
+    "term": "FIDIC",
+    "definition": "International Federation of Consulting Engineers (Fédération Internationale Des Ingénieurs-Conseils). Publisher of standard form construction contracts.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fm",
+    "kind": "acronym",
+    "term": "FM",
+    "definition": "Facilities Management or Financial Modelling (depending on the context)",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fmc",
+    "kind": "acronym",
+    "term": "FMC",
+    "definition": "Facilities Management Company",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-foi",
+    "kind": "acronym",
+    "term": "FOI",
+    "definition": "Freedom of Information",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-fomin",
+    "kind": "acronym",
+    "term": "FOMIN",
+    "definition": "Multilateral Investment Fund (IDB Group).",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-forex",
+    "kind": "acronym",
+    "term": "FOREX",
+    "definition": "Foreign Exchange. Forex risk = currency exchange rate risk.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-gaap",
+    "kind": "acronym",
+    "term": "GAAP",
+    "definition": "Generally Accepted Accounting Principles",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-gdp",
+    "kind": "acronym",
+    "term": "GDP",
+    "definition": "Gross Domestic Product",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-hm-treasury",
+    "kind": "acronym",
+    "term": "HM Treasury",
+    "definition": "His Majesty's Treasury (UK). The UK finance ministry; responsible for PFI/PF2 policy and appraisal guidance such as the Green Book.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-hot",
+    "kind": "acronym",
+    "term": "HOT",
+    "definition": "High Occupancy Toll or Heads of Terms (depending on the context). Heads of Terms: key commercial areas agreed early among consortium parties.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ias",
+    "kind": "acronym",
+    "term": "IAS",
+    "definition": "International Accounting Standards",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-icc",
+    "kind": "acronym",
+    "term": "ICC",
+    "definition": "International Chamber of Commerce. Also administers international arbitration.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-icsid",
+    "kind": "acronym",
+    "term": "ICSID",
+    "definition": "International Center for Settlement of Investment Disputes. World Bank Group body for investor-state arbitration.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-idb",
+    "kind": "acronym",
+    "term": "IDB",
+    "definition": "Inter-American Development Bank. A Multilateral Development Bank.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-idc",
+    "kind": "acronym",
+    "term": "IDC",
+    "definition": "Interest During Construction. Interest accrued on loans before operations; financed as part of project cost.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ifc",
+    "kind": "acronym",
+    "term": "IFC",
+    "definition": "International Finance Corporation. World Bank Group arm lending to and investing in the private sector.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ifi",
+    "kind": "acronym",
+    "term": "IFI",
+    "definition": "International Financial Institutions",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ifrs",
+    "kind": "acronym",
+    "term": "IFRS",
+    "definition": "International Financial Reporting Standards",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-iic",
+    "kind": "acronym",
+    "term": "IIC",
+    "definition": "Inter-American Investment Corporation. IDB Group private-sector arm.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-imf",
+    "kind": "acronym",
+    "term": "IMF",
+    "definition": "International Monetary Fund",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ipo",
+    "kind": "acronym",
+    "term": "IPO",
+    "definition": "Initial Public Offering",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ipp",
+    "kind": "acronym",
+    "term": "IPP",
+    "definition": "Independent Power Producers",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ippp",
+    "kind": "acronym",
+    "term": "IPPP",
+    "definition": "Institutional PPP. A JV PPP company controlled (usually majority-owned) by government.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ipr",
+    "kind": "acronym",
+    "term": "IPR",
+    "definition": "Intellectual Property Rights",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ipsas",
+    "kind": "acronym",
+    "term": "IPSAS",
+    "definition": "International Public Sector Accounting Standards. Public-sector accounting standards relevant to recording PPP assets and liabilities.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-irr",
+    "kind": "acronym",
+    "term": "IRR",
+    "definition": "Internal Rate of Return. Discount rate equating the present value of future cash flows to the initial investment.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-irs",
+    "kind": "acronym",
+    "term": "IRS",
+    "definition": "Interest Rate Swap. Hedge converting a floating interest rate into a fixed rate.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-iso",
+    "kind": "acronym",
+    "term": "ISO",
+    "definition": "International Organization for Standardization",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-itp",
+    "kind": "acronym",
+    "term": "ITP",
+    "definition": "Invitation to Propose. The authority's call for proposal submissions.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-itpd",
+    "kind": "acronym",
+    "term": "ITPD",
+    "definition": "Invitation to Participate in the Dialogue. Invitation to enter the dialogue phase of a competitive dialogue.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-itsft",
+    "kind": "acronym",
+    "term": "ITSFT",
+    "definition": "Invitation to Submit a Final Tender. Issued at the end of a competitive dialogue.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-jv",
+    "kind": "acronym",
+    "term": "JV",
+    "definition": "Joint Venture",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-kpi",
+    "kind": "acronym",
+    "term": "KPI",
+    "definition": "Key Performance Indicators. Indicators measuring private party performance, often linked to payments.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ld",
+    "kind": "acronym",
+    "term": "LD",
+    "definition": "Liquidated Damages. Pre-agreed compensation payable for a contract breach.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-llcr",
+    "kind": "acronym",
+    "term": "LLCR",
+    "definition": "Loan Life Coverage Ratio. NPV of CFADS over the loan life divided by outstanding debt (listed in the Guide's acronym list as 'Life Loan Coverage Ratio').",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-loi",
+    "kind": "acronym",
+    "term": "LoI",
+    "definition": "Letter of Intent",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-lp",
+    "kind": "acronym",
+    "term": "LP",
+    "definition": "Limited Partners. The original investors whose money is pooled in an infrastructure fund that a management company manages on their behalf.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-mca",
+    "kind": "acronym",
+    "term": "MCA",
+    "definition": "Multi-Criteria Analysis",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-mdb",
+    "kind": "acronym",
+    "term": "MDB",
+    "definition": "Multilateral Development Bank. E.g., World Bank, ADB, AfDB, EBRD, EIB, IDB; lend, guarantee and advise on PPPs.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-meat",
+    "kind": "acronym",
+    "term": "MEAT",
+    "definition": "Most Economically Advantageous Tender. Bid evaluation combining price with quality factors.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-miga",
+    "kind": "acronym",
+    "term": "MIGA",
+    "definition": "Multilateral Investment Guarantee Agency. World Bank Group arm providing political risk insurance and guarantees.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-mirr",
+    "kind": "acronym",
+    "term": "MIRR",
+    "definition": "Modified Internal Rate of Return",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-mis",
+    "kind": "acronym",
+    "term": "MIS",
+    "definition": "Management Information Systems. Tool to record and manage PPP project activities and documents.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-m-and-e",
+    "kind": "acronym",
+    "term": "M&E",
+    "definition": "Monitoring and Evaluation",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-mou",
+    "kind": "acronym",
+    "term": "MOU",
+    "definition": "Memorandum of Understanding",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-nao",
+    "kind": "acronym",
+    "term": "NAO",
+    "definition": "National Audit Office. UK supreme audit institution; reviews PPP value for money.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-nda",
+    "kind": "acronym",
+    "term": "NDA",
+    "definition": "Non-Disclosure Agreement. Confidentiality undertaking required for access to project information.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ndb",
+    "kind": "acronym",
+    "term": "NDB",
+    "definition": "National Development Banks",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-npv",
+    "kind": "acronym",
+    "term": "NPV",
+    "definition": "Net Present Value. Discounted inflows minus discounted outflows.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-o-and-m",
+    "kind": "acronym",
+    "term": "O&M",
+    "definition": "Operations and Maintenance. Listed in the Guide's acronym list as 'Operate and Maintain'.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-oecd",
+    "kind": "acronym",
+    "term": "OECD",
+    "definition": "Organization for Economic Co-operation and Development",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ojeu",
+    "kind": "acronym",
+    "term": "OJEU",
+    "definition": "Official Journal of the European Union. Where EU public tenders are advertised.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-opco",
+    "kind": "acronym",
+    "term": "OpCo",
+    "definition": "Operating Company",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-opex-acronym",
+    "kind": "acronym",
+    "term": "OpEx",
+    "definition": "Operating Expenditure. Costs of operating the asset after construction.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pa",
+    "kind": "acronym",
+    "term": "PA",
+    "definition": "Procuring Authority. The public counterpart tendering and contracting the PPP.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pbce",
+    "kind": "acronym",
+    "term": "PBCE",
+    "definition": "Project Bonds Credit Enhancement. EIB/EU initiative enhancing the credit of project bonds.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pcg",
+    "kind": "acronym",
+    "term": "PCG",
+    "definition": "Parent Company Guarantee",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pem",
+    "kind": "acronym",
+    "term": "PEM",
+    "definition": "Project Evaluation Memo",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pf2",
+    "kind": "acronym",
+    "term": "PF2",
+    "definition": "Private Finance 2. The UK's reformed edition of the Private Finance Initiative.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pfi",
+    "kind": "acronym",
+    "term": "PFI",
+    "definition": "Private Finance Initiative. UK name for government-pays PPPs. (The Guide's acronym list also shows 'Public Finance Initiative', which is an error.)",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pim",
+    "kind": "acronym",
+    "term": "PIM",
+    "definition": "Project Information Memorandum. Document describing the project for lenders or prospective bidders.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-plcr",
+    "kind": "acronym",
+    "term": "PLCR",
+    "definition": "Project Life Coverage Ratio. NPV of CFADS over the remaining project life divided by outstanding debt.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pmo",
+    "kind": "acronym",
+    "term": "PMO",
+    "definition": "Project Management Office",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ppa",
+    "kind": "acronym",
+    "term": "PPA",
+    "definition": "Power Purchase Agreement. Off-take contract to buy a power project's output.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ppi",
+    "kind": "acronym",
+    "term": "PPI",
+    "definition": "Private Participation in Infrastructure. Also the World Bank's PPI project database.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ppiaf",
+    "kind": "acronym",
+    "term": "PPIAF",
+    "definition": "Public-Private Infrastructure Advisory Facility. Multi-donor facility funding PPP advisory and capacity building.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-ppp",
+    "kind": "acronym",
+    "term": "PPP",
+    "definition": "Public-Private Partnership",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-pppirc",
+    "kind": "acronym",
+    "term": "PPPIRC",
+    "definition": "Public-Private Partnerships Infrastructure Resource Center. World Bank online PPP legal and contractual resource center.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-psc",
+    "kind": "acronym",
+    "term": "PSC",
+    "definition": "Public Sector Comparator. Risk-adjusted cost of conventional delivery, used to test VfM.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-qc",
+    "kind": "acronym",
+    "term": "QC",
+    "definition": "Quality Control",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-qcbs",
+    "kind": "acronym",
+    "term": "QCBS",
+    "definition": "Quality and Cost Based Selection. Bid evaluation combining price with quality factors.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-qmpp",
+    "kind": "acronym",
+    "term": "QMPP",
+    "definition": "Quality Management Project Plan",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-qms",
+    "kind": "acronym",
+    "term": "QMS",
+    "definition": "Quality Management System",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-rfp",
+    "kind": "acronym",
+    "term": "RFP",
+    "definition": "Request For Proposal. Documents setting submission requirements, evaluation criteria and the contract.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-rfq",
+    "kind": "acronym",
+    "term": "RFQ",
+    "definition": "Request for Qualification. Documents used to qualify and short-list candidates.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-rot",
+    "kind": "acronym",
+    "term": "ROT",
+    "definition": "Rehabilitate-Operate-Transfer. Listed in the Guide's acronym list as 'Rehabilitate-Operate-Maintain'.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-row",
+    "kind": "acronym",
+    "term": "RoW",
+    "definition": "Right of Way. Land corridor needed for linear projects.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-rpi",
+    "kind": "acronym",
+    "term": "RPI",
+    "definition": "Retail Price Index. An inflation measure; see CPI.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-sc",
+    "kind": "acronym",
+    "term": "SC",
+    "definition": "Steering Committee",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-sia",
+    "kind": "acronym",
+    "term": "SIA",
+    "definition": "Social Impact Assessment",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-smart",
+    "kind": "acronym",
+    "term": "SMART",
+    "definition": "Specific, Measurable, Achievable, Relevant, and Time constrained. Criteria that well-drafted output specifications should meet.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-soe",
+    "kind": "acronym",
+    "term": "SOE",
+    "definition": "State Owned Enterprise",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-soq",
+    "kind": "acronym",
+    "term": "SoQ",
+    "definition": "Submission of Qualification. A bidder's response to an RFQ.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-sopc",
+    "kind": "acronym",
+    "term": "SoPC",
+    "definition": "Standardisation of PFI Contracts (UK). UK standard contract guidance for PFI.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-spc",
+    "kind": "acronym",
+    "term": "SPC",
+    "definition": "Special Purpose Company. Same as SPV.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-spv",
+    "kind": "acronym",
+    "term": "SPV",
+    "definition": "Special Purpose Vehicle. Single-project company contracting with government.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-tifia",
+    "kind": "acronym",
+    "term": "TIFIA",
+    "definition": "Transportation Infrastructure Finance and Innovation Act (US). US federal credit program (loans, guarantees) for transport projects including PPPs.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-tor",
+    "kind": "acronym",
+    "term": "ToR",
+    "definition": "Terms of Reference",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-twf",
+    "kind": "acronym",
+    "term": "TWF",
+    "definition": "Time Weighting Factors. Weights varying availability deductions by time of day/period of use.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-uncitral",
+    "kind": "acronym",
+    "term": "UNCITRAL",
+    "definition": "United Nations Commission on International Trade Law. Publishes model legislative provisions on PPPs.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-unece",
+    "kind": "acronym",
+    "term": "UNECE",
+    "definition": "United Nations Economic Commission for Europe. Publishes PPP good governance guidance.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-usp",
+    "kind": "acronym",
+    "term": "USP",
+    "definition": "Unsolicited Proposals",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-vat",
+    "kind": "acronym",
+    "term": "VAT",
+    "definition": "Value-Added Tax",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-vfm",
+    "kind": "acronym",
+    "term": "VfM",
+    "definition": "Value for Money",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-vgf",
+    "kind": "acronym",
+    "term": "VGF",
+    "definition": "Viability Gap Funding. Government support up to a set share of cost to make a project viable.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-wacc",
+    "kind": "acronym",
+    "term": "WACC",
+    "definition": "Weighted Average Cost of Capital. Weighted average of the cost of equity and cost of debt.",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-wbg",
+    "kind": "acronym",
+    "term": "WBG",
+    "definition": "World Bank Group",
+    "ref": "Acronyms"
+  },
+  {
+    "id": "g-wbi",
+    "kind": "acronym",
+    "term": "WBI",
+    "definition": "World Bank Institute",
+    "ref": "Acronyms"
+  }
+]

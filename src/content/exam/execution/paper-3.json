@@ -1,0 +1,1161 @@
+{
+  "id": "exec-3",
+  "level": "execution",
+  "title": "Arvenia Secondary Schools Bundle PPP",
+  "sector": "Education (social infrastructure)",
+  "scenario": "## Commonwealth of Arvenia: Secondary Schools Bundle PPP\n\n### Background\n\nThe Commonwealth of Arvenia is a middle-income country of 9.2 million people. Its Ministry of Education and Skills (MES) owns and runs 610 public secondary schools. About 25 years ago, a national condition survey found that 38% of secondary school buildings were in poor condition and that the maintenance backlog had reached ARD 900 million (ARD = Arvenian dollar). Under traditional procurement, MES built schools with capital grants, but annual maintenance budgets were cut whenever public finances were tight. At the same time, fast population growth in three provinces (Northmark, Valen and Coastline) left the school system short of about 30,000 secondary school places.\n\n### Project objectives\n\nThe Cabinet approved the Secondary Schools Bundle PPP with five objectives:\n\n1. Deliver 40 new secondary schools (32,000 places), each ready for use at the start of a school year on 1 September.\n2. Protect the condition of the buildings through whole-life maintenance and lifecycle renewal over the contract term.\n3. Achieve value for money compared with the Public Sector Comparator.\n4. Keep the annual availability payment within an affordability ceiling of ARD 80 million (Year 1 prices).\n5. Receive the schools back at expiry in a condition that allows MES to keep using them without having to replace major building elements all at once.\n\n### Institutions\n\nMES is the procuring authority. Its Schools PPP Directorate (the Directorate) was set up to prepare and tender the project and later to manage the contract. The Treasury PPP Unit must approve the tender package before launch and the final contract before signature. For all PPPs, the Arvenian Public Procurement Act requires (a) a staged evaluation, in which technical proposals are scored and the scores sealed before any financial envelope is opened; (b) a 10-day standstill period after the award decision; and (c) a ban on material changes to the tender terms after bid submission. Limited negotiation with a preferred bidder is permitted. Tessaly Engineering was appointed jointly by the parties as independent certifier.\n\n### Contract structure\n\nThe PPP contract is a design-build-finance-maintain (DBFM) contract with a term of 25 years from signature, including a planned three-year construction period. The project company designs and builds the schools and then provides building maintenance, lifecycle renewal, cleaning, security, grounds maintenance and a help desk. Teaching, school management and catering remain with MES.\n\nMES pays a monthly availability payment for each school. Payment for a school starts only when the independent certifier issues that school's completion certificate. The payment is indexed to the consumer price index (CPI) and is subject to deductions when teaching spaces are unavailable or service standards are missed. Performance points are also recorded for each failure. The contract includes liquidated damages for late service commencement, an on-demand construction bond, a long stop date for each school, a lifecycle renewal fund, handback requirements, and an option for MES to extend the term by up to five years. MES signed a direct agreement with the lenders.\n\n### Procurement and award\n\nMES used a two-stage open tender: a Request for Qualifications (RFQ), followed by a Request for Proposals (RFP) issued only to the prequalified consortia. The contract was awarded to Brightfield Learning Partners, whose shareholders are Kestrel Construction (40%, also the design-build contractor), Orla Infrastructure Fund (40%) and Maren Facilities (20%, also the facilities management contractor). Brightfield incorporated the project company, Brightfield Schools Ltd (BSL). The project was financed with 85% senior bank debt with a 19-year tenor and 15% equity, part of which was provided as shareholder loans.\n\n### Timeline\n\n| Period | Event |\n|---|---|\n| Year −2 | Structuring; draft RFP and draft contract prepared |\n| Year −1 | RFQ, RFP, bid evaluation and award |\n| Year 1 | Contract signature and financial close |\n| Years 1–4 | Construction and phased service commencement, school by school |\n| Year 20 | Senior debt repaid in full |\n| Year 22 (now) | Operations; planning for expiry |\n| End of Year 25 | Scheduled expiry of the contract |\n\n### Current position\n\nIt is now the middle of Contract Year 22. All 40 schools are open and pupil numbers are at the levels forecast. Performance has generally been good, but there are recurring heating failures at several schools in Valen. As the senior debt was repaid in Year 20, the lenders no longer have any role in the project. MES must now decide how the services will continue after expiry: retender the maintenance services, bring them in-house or extend the contract.\n\nEach question states the period of the project to which it refers. Answer each question as at that period.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "SC",
+      "title": "Structuring: RFP Evaluation Criteria and Commercial Terms",
+      "additionalInfo": "**Period: Year −2. Draft RFP evaluation criteria and draft contract provisions prepared by the Directorate and its advisers.**\n\nDraft evaluation criteria:\n\n- **E1**: Price (60%). Bidders quote a single first-year availability payment. The RFP fixes the same payment profile and indexation formula for all bidders.\n- **E2**: Technical (40%): design quality 14%, construction programme 6%, maintenance and lifecycle plan 12%, handback plan 4%, local employment and training 4%.\n- **E3**: A bonus of up to 5 price points for bidders that offer a construction period shorter than 36 months.\n- **E4**: A technical sub-criterion, ‘bidder experience of schools PPPs’, scored 0–10. Experience was already a pass/fail requirement in the RFQ.\n- **E5**: Maintenance is scored on the number of maintenance operatives the bidder commits to each school.\n- **E6**: Minimum technical scores of 6.0/10 overall and 7.0/10 for the maintenance and lifecycle plan. Bids below either minimum are rejected.\n- **E7**: The reliability of the financial package (lenders' letters of support, equity commitment) is scored in the technical envelope. Bidders are told not to show any payment amount in it.\n\nOther proposals:\n\n- MES's in-house architects want to issue complete detailed designs for all 40 schools with the RFP.\n- The draft RFP states that proposals will remain binding on bidders until the contract is signed, with no time limit.\n- One adviser proposes changing to a price-only evaluation with a technical pass/fail test.\n- The Directorate plans to send the tender package to the Treasury PPP Unit only when every document is final, one week before the planned launch date.\n\nDraft contract provisions:\n\n- **K1**: Classroom temperature must be between 18°C and 24°C during school hours, measured every 15 minutes by the building management system.\n- **K2**: Cleaning: four cleaners per 500 pupils, working daily from 16:00 to 20:00.\n- **K3**: BSL must maintain all-risks property damage insurance up to a minimum amount. No other insurance is required.\n- **K4**: The handback requirements will be agreed between MES and the project company in Year 20.\n- **K5**: From Year 20, 2% of each availability payment is retained in a handback reserve. Any balance is released to the project company once the handback requirements are met.",
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about structuring the RFP and the PPP contract.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "Which term describes an evaluation of proposals that combines price with qualitative factors, such as the quality of the design and of the operation and maintenance approach?",
+              "options": [
+                "Least cost selection with a technical pass/fail test",
+                "Most Economically Advantageous Tender (MEAT)",
+                "Best-and-Final Offer (BAFO)",
+                "Public Sector Comparator (PSC) test"
+              ],
+              "answer": 1,
+              "explanation": "The Guide calls a combined price and quality evaluation Quality and Cost Based Selection or, more often, Most Economically Advantageous Tender (MEAT). Least cost selection is the price-only approach, where technical factors are only pass/fail. BAFO is a stage in dialogue processes, not a type of evaluation criteria.",
+              "ref": "Ch 5 §8.2, p. 125"
+            },
+            {
+              "id": "1a-2",
+              "stem": "According to the Guide, what is a performance guarantee provided by the private partner mainly used for?",
+              "options": [
+                "To replace the equity as the first capital at risk",
+                "To guarantee repayment of the senior debt",
+                "To fund penalties and the cost of remedying breaches",
+                "To pre-fund the authority's termination compensation"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the performance guarantee, usually an on-demand bond or letter of credit, funds any penalty accrued and any loss or cost needed to re-establish operations or rectify a breach. The equity remains the first capital at risk, so the guarantee does not replace it. The guarantee protects the procuring authority, not the lenders.",
+              "ref": "Ch 5 §9.5, p. 152"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 1, answer the following questions about the draft RFP and draft contract.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "Under draft criterion E1, bidders quote a single first-year availability payment. Is this approach appropriate?",
+              "options": [
+                "No, because government-pays projects must always be compared on the NPV of the payments",
+                "No, because bidders should offer the number of schools they can build within the budget",
+                "No, because a single price ignores the indexation that will apply over the term",
+                "Yes, because every bidder uses the same payment profile and indexation formula"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says that when all bidders must use the same payment profile and indexation, a single price for the payment requested is more appropriate than NPV calculations. E1 fixes the profile and the indexation formula for every bidder. NPV is needed only when bidders can propose different profiles or indexation, which is not the case here.",
+              "ref": "Ch 5 §8.2, p. 126"
+            },
+            {
+              "id": "1b-2",
+              "stem": "MES's in-house architects want to issue complete detailed designs for all 40 schools with the RFP. What should the Directorate do instead?",
+              "options": [
+                "Issue only a reference or functional design, with output requirements set as KPIs",
+                "Issue the complete detailed designs, so that every bid is based on the same design",
+                "Issue no design information and let bidders define the service levels themselves",
+                "Issue the detailed designs and ask bidders to price the construction works only"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says PPP technical requirements should not be prescriptive: the RFP should give only a reference design in pre-design form or a functional design, with service requirements focused on results through KPIs. Detailed designs would limit innovation and take design risk back to MES. Giving no requirements at all is also wrong, because MES must still set the outputs it will pay for.",
+              "ref": "Ch 5 §8.2, p. 130"
+            },
+            {
+              "id": "1b-3",
+              "stem": "Why should MES's advisers recommend removing draft criterion E3?",
+              "options": [
+                "Because the construction period can only be assessed as a qualitative factor in the technical envelope",
+                "Because payment starts only on certification, so the price criterion already rewards faster building",
+                "Because a bonus for speed would reduce the effective weighting of price below 50%",
+                "Because bidders may not offer a construction period different from the one in the RFP"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says scoring bidders on a shorter construction period is undesirable and redundant when the payment mechanism already gives an incentive to build faster. In Arvenia, the availability payment for a school starts only when its completion certificate is issued, so BSL already gains from early completion. The Guide does not say the construction period can only be scored in the technical envelope.",
+              "ref": "Ch 5 §8.2, p. 126"
+            },
+            {
+              "id": "1b-4",
+              "stem": "Which change should MES's advisers recommend to draft provision K3?",
+              "options": [
+                "Delete K3, because BSL bears the construction risk and can decide for itself whether to insure",
+                "Limit K3 to the construction period, because the risk of damage ends at completion",
+                "Require third-party liability and business interruption cover as well as all-risks cover",
+                "Require MES to self-insure the schools, because the government can absorb losses more cheaply"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says insurance should cover physical damage (all risks), third-party liability and losses from delay in start-up or business interruption. K3 requires only all-risks property cover. Deleting K3 is wrong because the government should not rely entirely on the private partner's decision to self-insure, which is why a minimum insurance package is common practice.",
+              "ref": "Ch 5 §9.5, p. 153"
+            },
+            {
+              "id": "1b-5",
+              "stem": "The draft RFP states that proposals will remain binding on bidders until the contract is signed, with no time limit. What should MES's advisers recommend?",
+              "options": [
+                "Keep it, as an open-ended commitment protects MES if the evaluation or approvals take longer than planned",
+                "Remove it, as proposals should become binding on bidders only once the contract has been awarded",
+                "Keep it, but ask bidders to renew their bid bonds every month until the contract is signed",
+                "Set a limited validity period, after which bidders may confirm their offers or withdraw without losing the bid bond"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says it is good practice to limit the period for which a proposal is binding (for example, 180 days), so that bidders are protected from undue delays in evaluation and award; after that period bidders are asked to confirm their offers or may withdraw without losing the bid bond. The draft RFP's open-ended commitment ignores this, and bidders would price in the risk of delay. Making proposals binding only at award would remove the commitment that the bid bond is meant to secure.",
+              "ref": "Ch 5 §8.1, p. 122"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "multiple-response",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 1, answer the following questions. Each question requires TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "Which 2 items should MES include as factors when scoring the ‘maintenance and lifecycle plan’ criterion in E2?",
+              "options": [
+                "A renewal and major maintenance programme",
+                "The number of maintenance operatives per school",
+                "The quality and reliability of the maintenance plans and programmes",
+                "The construction contractor's annual turnover",
+                "The proposed first-year availability payment"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide lists maintenance criteria such as the quality and reliability of maintenance plans and programmes and renewal or major maintenance programmes. Counting operatives is an input measure, which the Guide says should not be scored. The payment belongs in the price envelope, and turnover is a qualification matter.",
+              "ref": "Ch 5 §8.2, p. 129"
+            },
+            {
+              "id": "1c-2",
+              "stem": "Apart from payment deductions, which 2 remedial tools should the draft contract give MES to deal with persistent non-performance by the project company?",
+              "options": [
+                "An automatic extension of the contract term",
+                "External audits at the project company's expense",
+                "A reduction in the handback requirements",
+                "Step-in by MES",
+                "Paying the availability payment to the lenders instead"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide's list of remedies beyond penalties and deductions includes a ratchet, external audits at the private partner's expense, step-in and termination for default. Extending the term or reducing handback requirements would reward poor performance, not remedy it. Redirecting payments to lenders is not a remedy listed in the Guide.",
+              "ref": "Ch 5 Box 5.31, p. 145"
+            },
+            {
+              "id": "1c-3",
+              "stem": "Which 2 statements describe how the contract should provide for monitoring of the classroom temperature standard in K1?",
+              "options": [
+                "MES installs its own sensors and measures every classroom directly",
+                "The monitoring method is agreed between the parties after service commencement",
+                "The project company runs a QMS and reports results, as a contract obligation",
+                "Teachers' complaints are the only basis used for calculating deductions",
+                "MES reviews the QMS records and carries out spot checks and audits"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "The Guide favours monitoring based on information from the private partner's QMS, which must be a contractual obligation, with the authority reviewing it and carrying out spot checks and audits. Direct measurement of every classroom by MES loses the cost-effectiveness of this approach. The contract must set out the monitoring method clearly, so leaving it until after service commencement is wrong.",
+              "ref": "Ch 5 §9.2, p. 143"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "matching",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 1, Column 1 lists draft criteria and draft contract provisions. For each item in Column 1, select from Column 2 the assessment that best reflects the Guide. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Appropriate as drafted",
+            "Inappropriate: it specifies or scores inputs rather than outputs",
+            "Inappropriate: it repeats a factor already used to qualify bidders",
+            "Inappropriate: it must be defined in the contract at tender launch",
+            "Inappropriate: it would reveal the price during a staged evaluation"
+          ],
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "E4: bidder experience of schools PPPs scored 0–10",
+              "answer": 2,
+              "explanation": "The Guide says that if experience has already been used to qualify bidders, it should not also be used as an evaluation criterion. Experience was a pass/fail requirement in Arvenia's RFQ. The criterion is not an input measure of the service, so the ‘inputs’ option does not fit.",
+              "ref": "Ch 5 §8.2, p. 130"
+            },
+            {
+              "id": "1d-2",
+              "stem": "E5: maintenance scored on the number of operatives committed per school",
+              "answer": 1,
+              "explanation": "The Guide says the technical evaluation should not be based on inputs committed, such as the number of workers. It should check that the proposed means meet the minimum requirements and will deliver quality outputs. E5 rewards staff numbers, not results.",
+              "ref": "Ch 5 §8.2, p. 130"
+            },
+            {
+              "id": "1d-3",
+              "stem": "E7: reliability of the financial package scored in the technical envelope, with no payment amounts shown",
+              "answer": 0,
+              "explanation": "The Guide accepts that the financial package can be evaluated for reliability. In a staged process, bidders must be strictly told not to disclose the price in that documentation, and E7 does this. So the risk of revealing the price has been dealt with, and the tempting ‘reveals price’ option is wrong.",
+              "ref": "Ch 5 §8.2, p. 130"
+            },
+            {
+              "id": "1d-4",
+              "stem": "K2: four cleaners per 500 pupils, working daily from 16:00 to 20:00",
+              "answer": 1,
+              "explanation": "K2 prescribes the means (staff numbers and hours) rather than the cleanliness result. The Guide says prescriptions of inputs should be avoided so that the private partner can innovate and carry the input risk. An output standard with measurable cleanliness levels would be appropriate.",
+              "ref": "Ch 5 §9.2, p. 143"
+            },
+            {
+              "id": "1d-5",
+              "stem": "K4: handback requirements to be agreed between MES and the project company in Year 20",
+              "answer": 3,
+              "explanation": "The Guide says handback requirements must be clearly defined in the contract from tender launch, so that bidders build the cost of meeting them into their financial models. Leaving them to be agreed in Year 20 means they are not priced and gives MES little bargaining power. It is a timing problem, not an input problem.",
+              "ref": "Ch 5 §9.10, p. 162"
+            },
+            {
+              "id": "1d-6",
+              "stem": "K5: 2% retention from Year 20 into a handback reserve, with any balance released once the handback requirements are met",
+              "answer": 0,
+              "explanation": "The Guide describes a retention of a percentage of payments (for example 2%) to fund a handback reserve, with any remaining amount released to the private partner once the handback requirements are met, as good practice. K5 follows this. It does not repeat a qualification factor or specify inputs.",
+              "ref": "Ch 5 §9.10, p. 162"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 1, select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "Draft provision K1 (classroom temperature).",
+              "options": [
+                "K1 is an appropriate output specification BECAUSE it sets a measurable result and leaves the heating method to the project company",
+                "K1 should be replaced by a list of heating equipment BECAUSE MES can only verify performance by inspecting inputs",
+                "K1 is an appropriate output specification BECAUSE the Guide requires the procuring authority itself to collect all performance data"
+              ],
+              "answer": 0,
+              "explanation": "K1 is specific, measurable and states the result, which matches the Guide's SMART output specifications and its preference for outputs over inputs. The Guide does not say only inputs can be verified. It also does not require the authority to collect all data itself: it favours using the private partner's QMS data, checked by audits.",
+              "ref": "Ch 5 §9.2, p. 143"
+            },
+            {
+              "id": "1e-2",
+              "stem": "The 4% weighting for local employment and training in E2.",
+              "options": [
+                "Including local employment and training in the scoring is inappropriate BECAUSE PPP evaluation criteria may only assess design, construction and maintenance",
+                "Including local employment and training in the scoring can be appropriate BECAUSE social criteria must always carry at least half of the technical weighting",
+                "Including local employment and training in the scoring can be appropriate BECAUSE social aspects of bids may be set as minimum requirements and/or rewarded with extra points"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says procuring authorities increasingly evaluate environmental and social aspects, through pass/fail minimums and/or extra points, for example for training and employment of community members. The Guide sets no rule that social criteria carry half of the technical weighting. Criteria are not limited to design, construction and maintenance.",
+              "ref": "Ch 5 §8.2, p. 128"
+            },
+            {
+              "id": "1e-3",
+              "stem": "The Directorate's plan to send the tender package to the Treasury PPP Unit only when every document is final.",
+              "options": [
+                "MES may launch the tender before the Treasury PPP Unit approves the package BECAUSE control checks are needed only before contract signature",
+                "The Directorate should send progress reports to the Treasury PPP Unit during structuring BECAUSE this reduces the risk of a last-minute rejection of the tender documents",
+                "The Directorate should wait until all documents are final before contacting the Treasury PPP Unit BECAUSE approving bodies should not see draft documents"
+              ],
+              "answer": 1,
+              "explanation": "The Guide recommends giving decision-makers progress reports, even informally, throughout structuring so that approvals are received on time and last-minute rejections are avoided. Sending everything one week before launch creates exactly that risk. The control check and approvals come before tender launch, and the Treasury must approve before launch in Arvenia.",
+              "ref": "Ch 5 §10, p. 163"
+            },
+            {
+              "id": "1e-4",
+              "stem": "The adviser's proposal to change to a price-only evaluation with a technical pass/fail test.",
+              "options": [
+                "A price-only evaluation would be more suitable BECAUSE the Guide requires price-only evaluation in all government-pays PPPs",
+                "A price-only evaluation would be less suitable BECAUSE a price-only process cannot contain any technical pass/fail test",
+                "A price-only evaluation would be less suitable BECAUSE it may attract aggressive bids that compromise maintenance quality"
+              ],
+              "answer": 2,
+              "explanation": "The Guide warns that price-only evaluation may create an auction with overly aggressive bids that compromise quality or reliability, and suits simpler projects. Whole-life maintenance quality is a core objective after Arvenia's history of maintenance cuts. Price-only processes do use technical pass/fail tests, so the second reason is false.",
+              "ref": "Ch 5 §8.2, p. 125"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "TA",
+      "title": "Tendering and Awarding the Contract",
+      "additionalInfo": "**Period: Year −1 to Year 1. Tender, award and financial close record.**\n\n- Four consortia were prequalified. Three proposals (Alderway, Brightfield, Corvane) were received and all passed the administrative check. The RFP did not invite innovative solutions needing bidder-specific contract changes.\n- Evaluation: price 60%, technical 40%. Minimum technical scores: 6.0/10 overall and 7.0/10 for the maintenance and lifecycle plan.\n- Technical scores (overall / maintenance): Alderway 5.8 / 6.9; Brightfield 7.6 / 7.4; Corvane 7.9 / 7.8. It was rumoured that Alderway had the lowest price.\n- First-year availability payment: Brightfield ARD 74.0 million; Corvane ARD 79.5 million. Brightfield ranked first, Corvane second.\n- Evaluation arrangements proposed by the Directorate: (i) an evaluation manual for all evaluators; (ii) a written record of every evaluation meeting, discussion and decision; (iii) the panel's technical score for each bid to be the panel chair's score; (iv) technical evaluators to see the financial offers to judge whether solutions are realistic; (v) the recommendation to the Minister to be made and signed by the external advisory firm.\n- Negotiation: the RFP allowed equity as share capital or shareholder loans, but the draft contract's equity clauses assumed share capital only. Brightfield asked for them to cover its shareholder loans.\n- The Minister's endorsement of the award came four months later than the RFP timetable.\n- After award, Brightfield asked MES to take the ground conditions risk at all 40 sites, which the RFP gave to the project company.\n- Prior conditions to signature, within 90 days of award: SPV incorporated, insurance in place, performance guarantee. By day 85, BSL was incorporated and the guarantee delivered, but the insurance policies were not yet issued. MES holds a bid bond from each bidder.\n- MES bears changes in base interest rates until financial close, due within six months after signature.\n- The draft loan agreement required MES to extend the contract term if the senior debt was not repaid by Year 22.\n- MES will publish the signed contract; Brightfield asks that its unit cost data be removed. MES plans to debrief Corvane with a side-by-side comparison of its scores and prices against Brightfield's.",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about tendering and awarding a PPP contract.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "According to the Guide, what does financial close mean?",
+              "options": [
+                "The signing of the PPP contract by the procuring authority and the project company",
+                "The signing of the financing documents and meeting the conditions for funds to be available",
+                "The first drawdown of senior debt to pay the design-build contractor for the works",
+                "The date on which the lenders have been repaid in full under the loan agreements"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says financial close means not only that the financing documents have been signed but also that the prior conditions for the availability of financing have been fulfilled. Signing the PPP contract is commercial close, which may happen at the same time or earlier. A first drawdown comes after financial close.",
+              "ref": "Ch 6 §13, p. 32"
+            },
+            {
+              "id": "2a-2",
+              "stem": "What is the purpose of a standstill period after an award decision?",
+              "options": [
+                "To give the preferred bidder time to arrange and sign its financing",
+                "To allow negotiations with the preferred bidder on the contract terms",
+                "To let rejected bidders review the decision and decide whether to challenge it",
+                "To let the ministry of finance repeat the value for money assessment"
+              ],
+              "answer": 2,
+              "explanation": "The Guide describes the standstill period as the time between the award decision and conclusion of the contract, during which rejected bidders can review the decision and decide whether to challenge it. It also stops challenges from being deferred strategically. It is not a period for finance or negotiation.",
+              "ref": "Ch 6 §11, p. 27"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "sequencing",
+          "level": 3,
+          "instruction": "Column 1 lists activities in MES's two-stage open tender, which followed the Arvenian Public Procurement Act. For each activity in Column 1, select from Column 2 its position in the order in which the activities should take place. Each position in Column 2 is used only once.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "First activity",
+            "Second activity",
+            "Third activity",
+            "Fourth activity",
+            "Fifth activity",
+            "Sixth activity"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Open the financial envelopes of the technically qualified bids and calculate the final scores",
+              "answer": 4,
+              "explanation": "Under a staged evaluation, which Arvenian law requires, the financial envelopes are opened only after the technical scores are completed and sealed. Final scoring then combines price and quality. It therefore follows the technical scoring.",
+              "ref": "Ch 6 §9.3, p. 23"
+            },
+            {
+              "id": "2b-2",
+              "stem": "Assess the submissions of qualification and select the prequalified consortia",
+              "answer": 0,
+              "explanation": "In a two-stage open tender, the pass/fail qualification test is done first, and the RFP is issued only after qualification is finished. Arvenia used an RFQ followed by an RFP to prequalified consortia. So qualification comes first.",
+              "ref": "Ch 6 §4, p. 8"
+            },
+            {
+              "id": "2b-3",
+              "stem": "Confirm that the SPV is incorporated, insured and has provided the performance guarantee, then sign the contract",
+              "answer": 5,
+              "explanation": "After award, the successful bidder must meet the prior conditions set in the RFP, such as setting up the SPV, insurance and performance guarantees. Only then is the contract signed with the SPV. This is the last of the listed activities.",
+              "ref": "Ch 6 §12.1, p. 30"
+            },
+            {
+              "id": "2b-4",
+              "stem": "Check that each proposal was submitted as required and that powers and signatures are valid",
+              "answer": 2,
+              "explanation": "The Guide says the administrative or compliance check is the first step of evaluation and must be done before the evaluation proper. It follows the receipt of proposals under the RFP. It comes before any technical scoring.",
+              "ref": "Ch 6 §9.1, p. 21"
+            },
+            {
+              "id": "2b-5",
+              "stem": "Issue the RFP and draft contract to the prequalified consortia",
+              "answer": 1,
+              "explanation": "In the two-stage process, the RFP with the draft contract is issued to prequalified candidates once qualification has finished. It must come before any proposals can be checked or evaluated. So it is the second activity.",
+              "ref": "Ch 6 §4, p. 8"
+            },
+            {
+              "id": "2b-6",
+              "stem": "Score the technical proposals and seal the technical scores",
+              "answer": 3,
+              "explanation": "After the compliance check, the staged process evaluates the technical offer and seals the results before the financial envelope is opened. Arvenian law requires this. It therefore comes fourth, before the price evaluation.",
+              "ref": "Ch 6 §9.3, p. 23"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions about the evaluation, award and signature of the contract.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "How should Alderway's proposal be treated?",
+              "options": [
+                "Its financial envelope should be opened, and it should win if its price is the lowest",
+                "It should be allowed to improve its maintenance plan, as this is a remediable error",
+                "It should be rejected and its financial offer not evaluated, even if its price is the lowest",
+                "Its maintenance score should be raised to 7.0, as it is only 0.1 below the minimum"
+              ],
+              "answer": 2,
+              "explanation": "Alderway scored 5.8 overall and 6.9 for maintenance, below both minimums set in the RFP. The Guide says an offer below a technical floor is rejected together with its economic offer. Remediable errors are limited to immaterial errors, not basic elements such as the quality of the maintenance plan, and a rejected bid's price is never considered, so the rumour is irrelevant.",
+              "ref": "Ch 6 §9.3, p. 23"
+            },
+            {
+              "id": "2c-2",
+              "stem": "Brightfield asks for the draft contract clauses on equity to be amended so that they also apply to its shareholder loans. How should MES respond?",
+              "options": [
+                "Negotiate it, as the RFP allowed shareholder loans and the contract should reflect this",
+                "Refuse, as any change to the draft contract after bid submission is a material change",
+                "Refuse, and require Brightfield to convert its shareholder loans into share capital",
+                "Agree, but only after reopening the evaluation so that Corvane can change its price"
+              ],
+              "answer": 0,
+              "explanation": "The Guide gives this exact situation as a legitimate reason for post-bid negotiation: the RFP allowed equity as share capital or subordinated debt, but the contract assumed share capital only. Arvenian law permits limited negotiation, and the change does not alter the original intent of the contract. Not every drafting change is material, so refusing is wrong.",
+              "ref": "Ch 6 §10, p. 25"
+            },
+            {
+              "id": "2c-3",
+              "stem": "After award, Brightfield asks MES to take the ground conditions risk at all 40 sites. How should MES respond?",
+              "options": [
+                "Accept it, as changes agreed after award are treated as clarifications",
+                "Accept it if Brightfield reduces its availability payment by an equivalent amount",
+                "Accept it, as ground conditions risk should always stay with the government",
+                "Refuse it, as it is a material change that could have led other bidders to bid differently"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says a material change that could have caused another bidder to bid differently is forbidden in most jurisdictions, and Arvenian law bans such changes. Moving a major risk to MES is a material change, not a clarification. MES should refuse even at the risk of the contract not being signed and a retender. A price reduction does not make it acceptable.",
+              "ref": "Ch 6 §12.2, p. 30"
+            },
+            {
+              "id": "2c-4",
+              "stem": "If the insurance policies are still not in place when the 90-day deadline expires, what may MES do?",
+              "options": [
+                "Sign the contract anyway, as insurance can be arranged after signature",
+                "Call Brightfield's bid bond and invite Corvane to sign the contract, or retender",
+                "Extend the deadline for as long as the insurers need",
+                "Award the contract to Alderway, which was rumoured to have the lowest price"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says that if the winning bidder cannot meet all prior conditions before the deadline, the authority may apply liquidated damages or call the bid bond, and will usually call the next-ranked bidder or reissue the tender. Corvane ranked second. Alderway was rejected, and insurance is a stated prior condition, so signing anyway is wrong.",
+              "ref": "Ch 6 §12.1, p. 30"
+            },
+            {
+              "id": "2c-5",
+              "stem": "How should MES carry out the debriefing of Corvane?",
+              "options": [
+                "Show the side-by-side comparison, as this gives Corvane full transparency on the result",
+                "Refuse a debriefing, as only the successful bidder should be debriefed",
+                "Hold the debriefing before signature, so that Corvane can decide whether to challenge",
+                "Give general guidance on how Corvane can better meet the government's future expectations"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says debriefing should not focus on the relative merits of the bids but on general information to help each bidder better meet the government's expectations in future. MES's side-by-side comparison does the opposite. Both successful and unsuccessful bidders should be debriefed, after the contract has been executed.",
+              "ref": "Ch 6 §12.4, p. 31"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, answer the following questions. Each question requires TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "When the negotiation with Brightfield is complete, which 2 actions should MES take before confirming the award?",
+              "options": [
+                "Allow Corvane to submit a revised price reflecting the negotiated terms",
+                "Require Brightfield to resubmit its proposal, amended to reflect the negotiations",
+                "Sign the contract immediately, as the evaluation is complete",
+                "Assess whether the updated proposal still offers value for money",
+                "Re-score the technical proposals of all three bidders"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says it is good practice to require the preferred bidder to resubmit its amended proposal and to assess whether it still offers value for money and should still be awarded. Letting Corvane reprice or re-scoring all bids would reopen a completed competition. Signing without this check skips the value for money test.",
+              "ref": "Ch 6 §10, p. 26"
+            },
+            {
+              "id": "2d-2",
+              "stem": "At financial close, which 2 actions should MES take in relation to the finance documents?",
+              "options": [
+                "Check the finance documents add no risks for MES and reject the extension clause",
+                "Accept the extension clause, as lenders' comfort is essential for financial close",
+                "Provide a direct guarantee of the senior debt to speed up financial close",
+                "Leave the finance documents to BSL, as financing is entirely its risk",
+                "Confirm the lenders' step-in rights agreed in the PPP contract, via the direct agreement"
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "The Guide says the authority must validate that the financial agreements do not contravene the contract or create risks not considered in it, and commonly validates lenders' rights, such as step-in, through direct agreements. The extension clause would add a risk for MES that the contract does not include. Leaving the review to BSL ignores MES's own exposure.",
+              "ref": "Ch 6 §13, p. 32"
+            },
+            {
+              "id": "2d-3",
+              "stem": "Which 2 of the Directorate's proposed evaluation arrangements are consistent with good practice?",
+              "options": [
+                "(iii) Using the panel chair's score as the panel's technical score",
+                "(i) An evaluation manual for all evaluators",
+                "(iv) Letting technical evaluators see the financial offers",
+                "(v) The recommendation to the Minister made and signed by the external advisory firm",
+                "(ii) A written record of every evaluation meeting, discussion and decision"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The Guide recommends an evaluation manual and a clear audit trail of all evaluation steps, discussions and decisions. The score should be the average of individual evaluators' scores, not the chair's. Technical and financial evaluations should be kept apart by barriers, and the recommendation should be decided by government employees on the advisers' advice.",
+              "ref": "Ch 6 §9, p. 21"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "The period between contract signature and financial close.",
+              "options": [
+                "MES has an interest in BSL reaching financial close promptly BECAUSE MES bears changes in base interest rates until financial close",
+                "MES has no interest in the timing of financial close BECAUSE arranging finance is entirely the project company's risk",
+                "MES should prefer a delay to financial close BECAUSE a longer period protects the project from interest rate changes"
+              ],
+              "answer": 0,
+              "explanation": "The Guide notes that where the procuring authority bears base interest rate risk before financial close, the financial close period has implications for it, and both parties benefit from reaching financial close promptly. In Arvenia's RFP, MES bears these changes. So MES is exposed and the timing is not only BSL's concern.",
+              "ref": "Ch 6 §13, p. 33"
+            },
+            {
+              "id": "2e-2",
+              "stem": "The use of a staged evaluation for the schools tender.",
+              "options": [
+                "MES must use a streamed evaluation BECAUSE any qualitative assessment requires the technical and financial teams to work in parallel",
+                "A staged evaluation suits this tender BECAUSE MES is seeking an acceptable technical solution at a good price without bidder-specific contract changes",
+                "A staged evaluation suits this tender BECAUSE it lets the technical team see the prices before scoring quality"
+              ],
+              "answer": 1,
+              "explanation": "Box 6.4 says a staged evaluation suits a government seeking an acceptable technical solution at a good price, while streamed evaluation is needed where innovative solutions require bidder-specific contract amendments. Arvenia's RFP did not invite such solutions. In a staged process, prices are opened only after technical scores are sealed, so the third reason is false.",
+              "ref": "Ch 6 Box 6.4, p. 24"
+            },
+            {
+              "id": "2e-3",
+              "stem": "Brightfield's request about its unit cost data in the published contract.",
+              "options": [
+                "MES should not publish the contract at all BECAUSE good practice prohibits publishing signed PPP contracts",
+                "MES should redact genuinely sensitive unit cost data BECAUSE disclosing it to competitors may deter bidders",
+                "MES should publish the unit cost data in full BECAUSE any redaction would breach the standstill period rules"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says that if the contract is made public it is good practice to redact genuinely proprietary or commercially sensitive information, because disclosing it to competitors may deter companies from bidding. Publication itself is encouraged, as it deflects transparency criticism. Redaction has no link to the standstill period.",
+              "ref": "Ch 6 §12.3, p. 31"
+            },
+            {
+              "id": "2e-4",
+              "stem": "The four-month delay in the Minister's endorsement of the award.",
+              "options": [
+                "MES should check that Brightfield can still meet its milestones BECAUSE an award delay may affect its commitments",
+                "MES should re-run the whole evaluation of all three bids BECAUSE any delay in the award makes the evaluation invalid",
+                "MES should extend all milestones by four months BECAUSE substantial date changes cannot be challenged"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says that if the award is delayed beyond the RFP timelines, the authority should consider whether the winning bidder can still meet its milestones and bid commitments. Revised dates may be agreed, but substantial changes may give other bidders grounds to challenge, so the third reason is false. A delay does not by itself invalidate the evaluation.",
+              "ref": "Ch 6 §11, p. 27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "CC",
+      "title": "Contract Management: Construction Stage",
+      "additionalInfo": "**Period: Years 1–4. Construction progress report and review of MES's contract management.**\n\nMES's contract management:\n\n- The Directorate had three directors in the first three years. The second director left without a handover file. Many design review records were kept only in officials' personal email accounts, and there is no lessons-learned log.\n- The review found the following about MES's own conduct:\n  1. The Directorate used MES's standard design-and-build contract procedures and treated BSL as an opponent at site meetings.\n  2. Routine design reviews took up to four months to be signed off, and there was no agreed procedure for day-to-day liaison with BSL.\n  3. Land title for three sites and access roads for two sites had not been secured before contract signature.\n  4. MES asked for larger sports halls at 12 schools without assessing the cost and time impact and without using the contract's change procedure. BSL and MES now disagree on the cost.\n  5. None of the Directorate's staff had engineering skills or experience of managing a long-term partnership contract.\n  6. MES officials assumed BSL would supply classroom furniture, while BSL understood that MES would supply it.\n\nConstruction delivery:\n\n- 34 schools received completion certificates before 1 September of Year 4. Six schools were late.\n- School 17 (Valen) is 14 months late because Kestrel's work failed the independent certifier's performance tests twice. BSL has not called Kestrel's completion guarantee. Kestrel is one of BSL's two largest shareholders. The long stop date for each school is 18 months after its scheduled service commencement date.\n- Before liquidated damages (ARD 45,000 per school per week) can be claimed, the contract requires MES to send a notice and allow a 30-day remedy period. For two late schools, the contract manager sent no notices during the first three months of delay.\n- School 22 is substantially complete and can operate safely. The independent certifier lists only minor defects (paintwork and signage).\n- MES finance officials propose paying BSL a milestone payment when the roofs of the remaining schools are finished, ‘to help BSL's cash flow’. The contract includes no capital contribution by MES.\n- At five schools, BSL installed powder-coated aluminium bicycle racks instead of the specified galvanised steel. BSL's engineer says their performance is the same.\n- The Directorate's architects want MES to approve every detail of BSL's designs, so that MES 'shares responsibility for the result'.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about contract management during the construction stage.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "According to the Guide, why is knowledge management important for the procuring authority's contract management team?",
+              "options": [
+                "It ensures continuity of knowledge and helps meet legislative and contractual requirements",
+                "It reduces the fees of the independent certifier and speeds up payments to the project company",
+                "It transfers all project records to the project company and reduces the authority's staffing needs",
+                "It prepares evidence for disputes and avoids the need to publish the contract"
+              ],
+              "answer": 0,
+              "explanation": "The Guide describes the importance of knowledge management as two-fold: continuity of knowledge throughout the project's life, and helping the contract management team meet legislative and contractual requirements. The other options describe benefits the Guide does not give. Records are not transferred to the project company.",
+              "ref": "Ch 7 §11.1, p. 83"
+            },
+            {
+              "id": "3a-2",
+              "stem": "What is the main function of a Dispute Avoidance Board (DAB)?",
+              "options": [
+                "To decide all disputes finally, replacing the courts and arbitration",
+                "To meet the parties regularly and help them resolve emerging issues by consensus",
+                "To certify completion of the works on behalf of the procuring authority",
+                "To calculate refinancing gains and inflation indexation as an independent expert"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says the function of a DAB is dispute avoidance: it meets the parties regularly during delivery to discuss emerging issues and help resolve them consensually, although either party can also refer a dispute for a written determination. It does not replace the courts or arbitration. Calculating refinancing gains is an example of fast-track independent expert determination.",
+              "ref": "Ch 7 §10.2.1, p. 81"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, Column 1 lists findings about MES's own conduct during construction. For each finding in Column 1, select from Column 2 the category of government-related issue, as described in the Guide, that it best illustrates. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Capability",
+            "Traditional thinking",
+            "Preparation",
+            "Expectations",
+            "Process",
+            "Oversight",
+            "Change"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "Finding 1: standard design-and-build procedures were used and BSL was treated as an opponent",
+              "answer": 1,
+              "explanation": "Managing a PPP as a conventional design-and-build contract in an adversarial ‘them-versus-us’ environment is the Guide's ‘traditional thinking’ issue. The finding is about attitude and approach, not about lack of skills. So ‘Capability’ is not the best match.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3b-2",
+              "stem": "Finding 2: design sign-offs took up to four months and there was no day-to-day liaison procedure",
+              "answer": 4,
+              "explanation": "The Guide's ‘process’ issue is a failure to set up streamlined, transparent procedures for daily liaison, with slow bureaucracy and delays in sign-off. Both facts in Finding 2 match this. ‘Oversight’ concerns deficiencies in supervision and control, not slow sign-offs.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3b-3",
+              "stem": "Finding 3: land title and access roads were not secured before signature",
+              "answer": 2,
+              "explanation": "The ‘preparation’ issue is the government's failure to complete enabling works, secure land and grant permits or approvals. MES had not secured land title for three sites or access roads for two. This happened before signature, so it is a preparation failure, not a change.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3b-4",
+              "stem": "Finding 4: larger sports halls requested without assessing cost and time and without using the change procedure",
+              "answer": 6,
+              "explanation": "The ‘change’ issue is the government pushing for scope or specification changes with limited regard for cost or time implications, or without contractual clarity on how they are handled. MES requested larger halls without impact assessment and outside the change procedure. It is not an expectations mismatch, as MES itself initiated the change.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Finding 5: no staff with engineering skills or experience of long-term partnership contracts",
+              "answer": 0,
+              "explanation": "The ‘capability’ issue is that the government lacked the experience, technical skills or resources to manage a long-term partnership. The Directorate had no engineering skills or partnership experience. ‘Oversight’ refers to weak supervision procedures, not the team's skills.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3b-6",
+              "stem": "Finding 6: each party assumed the other would supply classroom furniture",
+              "answer": 3,
+              "explanation": "The ‘expectations’ issue is where the government's view of who is responsible for what does not match the private sector's understanding. MES and BSL each believed the other would supply furniture. This is a mismatch of understanding, not a scope change requested by MES.",
+              "ref": "Ch 7 §4.3, p. 39"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "multiple-response",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3, answer the following questions. Each question requires TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "MES is considering waiving the bicycle rack non-compliance. Which 2 steps should the contract management team take before doing so?",
+              "options": [
+                "Ask BSL's engineer to confirm in writing that the change is not material",
+                "Obtain legal advice on waiving it and on documenting the waiver for this item only",
+                "Record the waiver verbally at the next site meeting to avoid delay",
+                "Obtain technical advice from MES's own engineers that it is not material",
+                "Word the waiver so that it also covers similar non-compliances in future"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "Before waiving a non-material technical non-compliance, the Guide says the team should get legal advice on waiving and documenting it for that item only, technical advice from the authority's engineering advisers, and approval through governance. BSL's own engineer is not independent advice for MES. A waiver covering future non-compliances would go beyond the specific item.",
+              "ref": "Ch 7 §9.1.2, p. 76"
+            },
+            {
+              "id": "3c-2",
+              "stem": "The Directorate's architects want MES to approve every detail of BSL's designs. Which 2 statements reflect the Guide on MES's role in reviewing the design?",
+              "options": [
+                "MES should have the right to review the designs and tell BSL where they do not comply with the contract",
+                "MES should approve every design detail, as shared responsibility for the design reduces disputes",
+                "BSL should remain responsible for achieving the output specifications and for any failure of the design",
+                "MES should obtain the building consents for BSL's designs, as the schools are public buildings",
+                "MES should redraw any non-compliant design elements itself, to avoid delaying construction"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide says the project company must be solely responsible for the design, while the procuring authority should have a right to review it and point out non-compliance with the contract. MES should not take approval rights that amount to accepting errors in the design, because BSL could then argue that MES has taken on the design risk, so the architects' aim of sharing responsibility is wrong. Design and construction consents are the project company's responsibility, and MES redrawing designs itself would also take design risk back.",
+              "ref": "Ch 7 §5.1.2, p. 43"
+            },
+            {
+              "id": "3c-3",
+              "stem": "Given the turnover of directors, which 2 measures should MES use to implement succession planning in the Directorate?",
+              "options": [
+                "Rely on BSL's staff to brief each new MES director on the project",
+                "Hand each new director a documented project history and a record of current issues",
+                "Keep project records in each official's own email account for easy access",
+                "Write the succession plan only when the construction stage has ended",
+                "Train all new staff in contract administration and the Contract Management Manual"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The Guide says succession plans are implemented by transferring a documented project history and a factual trail of current issues, and by training new staff on contract administration and the Contract Management Manual. Succession planning must be done when the Contract Management Manual is written, not at the end of construction. Relying on BSL would leave MES dependent on its counterparty.",
+              "ref": "Ch 7 §11.2.2, p. 84"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "classic",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, select the response that is most appropriate according to the Guide.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "How should MES deal with the start of services at School 22?",
+              "options": [
+                "Refuse service commencement until every defect is fixed, as partial compliance cannot be accepted",
+                "Let MES officials issue the completion certificate themselves to save time",
+                "Accept the school and permanently waive the minor defects",
+                "Allow a provisional acceptance with a punch list, with the minor defects fixed within a set time"
+              ],
+              "answer": 3,
+              "explanation": "The Guide allows a provisional acceptance where the project is substantially complete, can operate safely, and only minor defects on a punch list remain, to be fixed within a set time. School 22 meets these conditions. The defects are not waived, and the independent certifier, not MES officials, issues the certificate.",
+              "ref": "Ch 7 §5.1.4, p. 44"
+            },
+            {
+              "id": "3d-2",
+              "stem": "How should MES respond to the finance officials' proposal of a milestone payment when the roofs are finished?",
+              "options": [
+                "Reject it, as pre-service commencement milestones may reverse the risk allocation",
+                "Accept it, as milestone payments are normal in availability-payment PPPs",
+                "Accept it, provided the independent certifier confirms each roof is complete",
+                "Reject it, as MES may make payments only after the senior debt is repaid"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the authority should not impose pre-service commencement milestones or accept works in stages, as this may reverse the risk allocation. Milestone payments may be needed only where the authority makes a capital contribution, which MES does not. Certification of the roofs would not remove the risk transfer problem.",
+              "ref": "Ch 7 §5.1.4, p. 44"
+            },
+            {
+              "id": "3d-3",
+              "stem": "What is the effect of the missing notices for the two late schools, and what should MES do now?",
+              "options": [
+                "MES can claim liquidated damages for the whole delay, as late completion triggers them automatically",
+                "Its claim for the first three months may fail, so it should follow the notice procedure strictly",
+                "MES must now waive liquidated damages for all six late schools, not only these two",
+                "MES should deduct the liquidated damages from future availability payments without notice"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says liquidated damages regimes normally require a notice followed by a remedy period, and that lax contract management and procedural irregularities can undermine the claim. MES sent no notices for three months, so that part of the claim is at risk. The claims for the other schools and later periods are not lost, so waiving everything is wrong.",
+              "ref": "Ch 7 §9.2.2.1, p. 77"
+            },
+            {
+              "id": "3d-4",
+              "stem": "BSL has not called Kestrel's completion guarantee for School 17. Which response best reflects the Guide?",
+              "options": [
+                "MES should call Kestrel's completion guarantee itself, without involving BSL",
+                "MES should terminate the PPP contract because of Kestrel's conflict of interest",
+                "Independent adjudication may help where ownership and contract interests conflict",
+                "MES should ignore it, as it concerns only BSL and its construction contractor"
+              ],
+              "answer": 2,
+              "explanation": "The Guide notes that when the construction contractor is also a key shareholder, it may be reluctant to claim against guarantees it provides itself, and that independent adjudication has a place where ownership and contractual interests conflict. Kestrel is both contractor and a main shareholder of BSL. The guarantee is given to BSL, so MES cannot call it directly.",
+              "ref": "Ch 7 §4.3, p. 39"
+            },
+            {
+              "id": "3d-5",
+              "stem": "School 17 is now 14 months late. What should MES do?",
+              "options": [
+                "Start the termination process now, as the delay is already longer than 12 months",
+                "Step in and complete the works itself, using another construction contractor",
+                "Waive liquidated damages, as Kestrel is one of BSL's two largest shareholders",
+                "Keep applying the contract remedies and start termination only if the long stop date passes"
+              ],
+              "answer": 3,
+              "explanation": "The long stop date for each school is 18 months after the scheduled date, so it has not yet passed. The Guide says that if services have not commenced by the long stop date despite the other remedies, the authority should start the termination process. Until then, MES should keep using liquidated damages, the bond and other remedies.",
+              "ref": "Ch 7 §9.2.2.4, p. 78"
+            },
+            {
+              "id": "3d-6",
+              "stem": "How should MES first try to settle the disagreement about the cost of the larger sports halls?",
+              "options": [
+                "Use the contract's change procedure, with documented discussion and a note of agreement",
+                "Go straight to court, as court decisions help build a precedent base for PPPs",
+                "Call BSL's construction bond and hold the money until the cost is agreed",
+                "Let BSL set the cost itself, as MES was the party that requested the change"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says a partnering relationship should resolve problems quickly without formal dispute resolution, through documented discussion, formal notes of agreement and use of the contractual change mechanism. The sports halls were a change requested outside that procedure, so bringing it back into the procedure is the first step. Court action should be a last resort.",
+              "ref": "Ch 7 §10.1, p. 79"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3, select the option in which the assertion is true AND the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "The level of MES's liquidated damages (ARD 45,000 per school per week).",
+              "options": [
+                "MES's liquidated damages should reflect a genuine pre-estimate of its losses BECAUSE a sum unrelated to the harm may be an unenforceable penalty",
+                "MES should set liquidated damages as high as possible BECAUSE their purpose is to punish the project company whatever MES's loss",
+                "MES does not need liquidated damages BECAUSE the project company loses no revenue from late completion under an availability payment"
+              ],
+              "answer": 0,
+              "explanation": "The Guide defines liquidated damages as a genuine pre-estimate of the losses suffered from late service commencement, and notes that in some jurisdictions a ‘penalty’ bearing no relation to the harm is unenforceable. Their purpose is compensation, not punishment. The project company does lose revenue when late, as payments start only on completion.",
+              "ref": "Ch 7 §9.2, p. 76"
+            },
+            {
+              "id": "3e-2",
+              "stem": "The lenders' position if School 17 approaches its long stop date.",
+              "options": [
+                "The lenders are obliged to step in whenever a school is late BECAUSE step-in under a direct agreement is compulsory",
+                "The lenders may step in without paying BSL's liabilities to MES BECAUSE the direct agreement suspends the PPP contract",
+                "The lenders should be able to step in if termination becomes likely BECAUSE lender step-in aims to keep the project going"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says lender step-in happens mainly when termination becomes likely, to ensure the project continues, often under a direct agreement, which MES signed. Lender step-in is voluntary, so the first reason is false. The PPP contract continues during step-in, and lenders may step in only after paying the project company's liabilities to the authority.",
+              "ref": "Ch 7 §10.2.2.2, p. 82"
+            },
+            {
+              "id": "3e-3",
+              "stem": "The storage of design review records in officials' personal email accounts.",
+              "options": [
+                "MES does not need to manage its project documents BECAUSE the independent certifier keeps the official project records",
+                "MES should assign dedicated staff and a system for project documents BECAUSE knowledge management needs active document management",
+                "MES should postpone knowledge management until it buys specialist software BECAUSE knowledge management cannot work without it"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says implementing knowledge management requires dedicated personnel actively managing documentation with an appropriate system. Records in personal email accounts cannot be retrieved when staff leave, as happened here. The Guide says the Contract Management Manual can support this even without expensive software, so the third reason is false.",
+              "ref": "Ch 7 §11.1.2, p. 83"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "OM",
+      "title": "Contract Management: Operations, Expiry and Handback",
+      "additionalInfo": "**Period: Year 22 (now). Performance report and planning memo.**\n\nPerformance:\n\n- School 31 (Valen) had 11 heating failures in Year 21. Each failure attracts a deduction, and a ratchet doubles the deduction for each failure beyond five at the same school within 12 months.\n- BSL has 95 performance points. At 120 points, MES may step in or terminate after a 60-day remedy period.\n- A teachers' survey rated cleaning at 58%, against a target of 75%. The Directorate proposes to deduct payment in proportion to the shortfall.\n- BSL proposes LED lighting that would cut MES's energy bills by about ARD 1.1 million a year, and asks for a share of the savings. MES officials say MES should keep all savings and BSL can simply install it under the existing contract.\n\nFinance:\n\n- MES Finance proposes an ARD 60 million cash reserve in case the contract is terminated for BSL default.\n- The lifecycle renewal fund holds ARD 14 million. BSL's lifecycle plan shows roof replacements deferred at nine schools.\n\nExpiry and handback:\n\n- At handback, roofs and structure must have at least 10 years of remaining life, and building services equipment one-third of its original useful life. Since Year 20, 2% of each payment has been retained in a handback reserve.\n- Maren employs 410 staff on the project. Labour law requires staff consultation at least 12 months before a transfer to a new employer.\n- A ministerial adviser suggests simply exercising the five-year extension option, as the simplest route.\n- Draft expiry and handback plan:\n  - **P1**: Begin examining post-expiry options (retender, in-house or extension) at the start of Year 24.\n  - **P2**: From the start of Year 23, survey all 40 schools: examine the assets, schedule items needing remediation, set a remediation programme and costs, and inspect the completed work.\n  - **P3**: Release the handback reserve to BSL now, before the survey, to help pay for the deferred roofs.\n  - **P4**: Leave employee and intellectual property matters out of the plan, as the staff and the building management software licences are held by Maren and BSL.\n  - **P5**: Accept each school if it meets the contract's minimum remaining-life requirements, rather than requiring every element to be as new.\n  - **P6**: Start staff consultation on the transfer of Maren's employees one month before expiry.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about contract management during the operations stage.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "According to the Guide, what are the three key elements of the performance management model in a PPP contract?",
+              "options": [
+                "The required performance level, the means of monitoring, and the consequences of failure",
+                "The capital cost of the assets, the financing plan, and the lenders' step-in rights",
+                "The bid price, the technical score, and the handback survey programme",
+                "The risk matrix, the insurance package, and the dispute avoidance board"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the performance management model has three elements: the level of performance required to achieve the output specifications, the means the authority will use to monitor performance, and the consequences of failure. The other options mix financing, procurement and risk items that are not part of the model.",
+              "ref": "Ch 7 §15.1, p. 95"
+            },
+            {
+              "id": "4a-2",
+              "stem": "What are the contingency reserves of a project company mainly intended to cover?",
+              "options": [
+                "The authority's compensation payment if the contract is terminated",
+                "Events that no one could identify when the budget was prepared",
+                "‘Known-unknowns’ from identified risks it has accepted, such as rework",
+                "The lenders' debt service reserve account during operations"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the project company's contingency reserves are a budget for identified risks it has accepted, often seen as covering ‘known-unknowns’, such as rework whose amount is unknown. They are not for unidentified events. Termination compensation is paid by the authority, not from the project company's reserves.",
+              "ref": "Ch 7 §16.3, p. 105"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4 where relevant, Column 1 lists ways in which the Arvenia schools contract could end. For each item in Column 1, select from Column 2 the compensation that the Guide says is typically payable to the project company. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Nil",
+            "Debt plus equity (including shareholder loans), plus return on equity, plus hedge breakage costs",
+            "Typically the market value of the remaining contract period, or a percentage of the outstanding debt",
+            "Debt and breakage costs, plus shareholder loans and equity, less interest and distributions already paid to shareholders",
+            "Outstanding debt only, with nothing for equity"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "The contract runs until its scheduled expiry at the end of Year 25",
+              "answer": 0,
+              "explanation": "Table 7.13 shows that no compensation is payable on expiry. The project company has had the full term to earn its return. The handback reserve balance is a separate contractual matter, not termination compensation.",
+              "ref": "Ch 7 §18.4, p. 119"
+            },
+            {
+              "id": "4b-2",
+              "stem": "BSL's heating failures continue, it passes 120 points, the remedy period fails and MES terminates",
+              "answer": 2,
+              "explanation": "This is termination for project company default. Table 7.13 says compensation depends on the regime but is typically the market value of the remaining contract period or a percentage of outstanding debt. It would be wrong to pay the full debt plus equity and return, which applies to authority default.",
+              "ref": "Ch 7 §18.4, p. 119"
+            },
+            {
+              "id": "4b-3",
+              "stem": "MES stops paying the availability payments for nine months and BSL terminates after the remedy period",
+              "answer": 1,
+              "explanation": "Non-payment of money owed is a procuring authority default. Table 7.13 gives debt plus equity including shareholder loans, plus return on equity, plus hedge breakage costs. This is the most expensive outcome for MES.",
+              "ref": "Ch 7 §18.4, p. 119"
+            },
+            {
+              "id": "4b-4",
+              "stem": "A new government policy leads MES to end the contract early, with no fault by BSL, to move the schools to municipal trusts",
+              "answer": 1,
+              "explanation": "This is unilateral termination (termination for convenience). The Guide says it has the same financial consequences as authority default because the authority causes it. So the same compensation as for authority default applies.",
+              "ref": "Ch 7 §18.2.4, p. 118"
+            },
+            {
+              "id": "4b-5",
+              "stem": "A major flood makes the Coastline schools unusable for longer than the period set in the contract, and the contract is terminated",
+              "answer": 3,
+              "explanation": "Termination for force majeure is allowed when the event lasts longer than the contractual period. Table 7.13 gives debt and breakage costs plus shareholder loans and equity, less interest and distributions already paid to shareholders. Unlike authority default, there is no return on equity.",
+              "ref": "Ch 7 §18.4, p. 119"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions about managing performance and finances in the operations stage.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "Which deductions should MES apply for the 11 heating failures at School 31 in Year 21?",
+              "options": [
+                "The standard deduction for each of the 11 failures, with no increase",
+                "Standard deductions for the first five failures and doubled ones for the rest",
+                "No deductions, as recurring failures are dealt with only through performance points",
+                "No deductions, but immediate termination because the failures recur"
+              ],
+              "answer": 1,
+              "explanation": "The contract includes a ratchet, which the Guide describes as increasing the deduction for failures that recur more than a set number of times in a period. The first five failures attract the standard deduction and failures six to eleven the doubled one. Performance points run alongside deductions, not instead of them, and termination is a last resort.",
+              "ref": "Ch 7 §15.3, p. 99"
+            },
+            {
+              "id": "4c-2",
+              "stem": "How should MES use the teachers' satisfaction survey result on cleaning?",
+              "options": [
+                "Deduct payment in proportion to the survey shortfall, as the Directorate proposes",
+                "Ignore the survey, as it measures opinions rather than facts",
+                "Step in and take over the cleaning service at all 40 schools",
+                "Require an agreed rectification plan from BSL and use surveys to track progress"
+              ],
+              "answer": 3,
+              "explanation": "The Guide says it is difficult to base financial compensation on satisfaction surveys because they reflect perceptions, but where a survey shows a service below the agreed level a rectification plan should be required and agreed. Surveys are useful for monitoring over time, so ignoring them is wrong. Step-in is for serious threats, not a cleaning shortfall.",
+              "ref": "Ch 7 §15.2, p. 98"
+            },
+            {
+              "id": "4c-3",
+              "stem": "How should MES respond to MES Finance's proposal for an ARD 60 million termination reserve?",
+              "options": [
+                "Monitor and report the risk of termination for BSL default, without a cash reserve",
+                "Create the reserve, as good practice requires reserves for termination payments",
+                "Create the reserve using the handback retention of 2% of payments",
+                "Ask BSL to fund the reserve through higher deposits to the renewal fund"
+              ],
+              "answer": 0,
+              "explanation": "The Guide says it is not the norm for the authority to keep a contingency reserve for termination payments, as the probability is low and public budgeting rules discourage explicit reserves. Instead, the risk of termination following a project company breach should be monitored and reported to the relevant ministry. The handback retention has a different purpose.",
+              "ref": "Ch 7 §16.3.2, p. 107"
+            },
+            {
+              "id": "4c-4",
+              "stem": "BSL has deferred roof replacements at nine schools. What should MES require?",
+              "options": [
+                "Transfer of the ARD 14 million renewal fund to MES's budget now",
+                "Permission for BSL to pay part of the fund as dividends, as the lenders have been repaid",
+                "A maintenance and renewals report from BSL showing the deferrals and a revised renewals plan to expiry",
+                "Payment by MES for the roof replacements, as lifecycle risk passed to MES when the debt was repaid"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the project company should prepare a maintenance and renewals report showing costs, payments to and from the renewal fund, any deferrals and a revised renewals plan. Lifecycle risk stays with the project company for the whole term, not only while debt is outstanding. Renewal money should not be paid out as distributions to shareholders.",
+              "ref": "Ch 7 §16.4, p. 108"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, answer the following questions. Each question requires TWO answers.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "Which 2 statements correctly assess MES's position on BSL's heating performance in Year 22?",
+              "options": [
+                "MES should terminate as soon as BSL reaches 120 points, without a remedy period",
+                "MES should waive BSL's performance points to keep good relations before handback",
+                "Termination is not a useful remedy so near expiry, so the performance regime needs close use",
+                "MES can no longer rely on lender oversight, as the senior debt has been repaid",
+                "MES should ask the lenders to step in under the existing direct agreement"
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "The Guide says that late in the contract termination is not a useful remedy and lender oversight disappears once the debt is repaid, so the performance regime needs close attention. The debt was repaid in Year 20, so lender step-in is no longer available. The contract gives a 60-day remedy period before termination, and waiving points would encourage further failures.",
+              "ref": "Ch 7 §18.1.1, p. 116"
+            },
+            {
+              "id": "4d-2",
+              "stem": "Which 2 statements correctly assess BSL's LED lighting proposal?",
+              "options": [
+                "MES should share the benefit with BSL, so that BSL is encouraged to propose improvements",
+                "MES should keep all the savings, as MES pays the energy bills",
+                "BSL can install the fittings informally, without any change to the contract",
+                "MES should refuse, as improvements are not allowed under a fixed availability payment",
+                "The improvement should be introduced through the contract's variation procedure"
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "The Guide says the authority should not take all the benefit of performance improvements, as this deters the project company from identifying them, and that improvements should be introduced through the variation procedures. The officials' view that MES keeps all savings and BSL installs informally goes against both points. The Guide encourages improvements that add value, such as new technologies.",
+              "ref": "Ch 7 §15.3, p. 100"
+            },
+            {
+              "id": "4d-3",
+              "stem": "Which 2 elements should MES's exit strategy include?",
+              "options": [
+                "An options analysis, including the extension, with an initial recommendation",
+                "Exercise of the five-year extension as the default choice, as it is the simplest route",
+                "Plans for a post-implementation review within six months of expiry",
+                "A post-implementation review held three years after expiry",
+                "Delay of the exit strategy until the final year, when costs are known"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide says the exit strategy should include an options analysis with an initial recommendation and a post-implementation review within six months of expiry or termination. It says the authority should not exercise an extension right by default without checking that it gives better value, which rejects the adviser's suggestion. Robust plans should be in place three years before expiry.",
+              "ref": "Ch 7 §20, p. 123"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "matching",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 4, Column 1 lists items from the Directorate's draft expiry and handback plan. For each item in Column 1, select from Column 2 the assessment that best reflects the Guide. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Consistent with the Guide",
+            "Inconsistent: the action is planned too late",
+            "Inconsistent: it weakens MES's protection over the condition of the assets",
+            "Inconsistent: it overlooks a transfer that must be arranged for continuity of services"
+          ],
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "P1: begin examining the options after expiry at the start of Year 24",
+              "answer": 1,
+              "explanation": "The Guide says the authority should start to examine its options at least three years before expiry, which for Arvenia means by the end of Year 22. Starting in Year 24 leaves less than two years. The option analysis itself is right, but the timing is too late.",
+              "ref": "Ch 7 §18.1.1, p. 116"
+            },
+            {
+              "id": "4e-2",
+              "stem": "P2: from the start of Year 23, survey all 40 schools, schedule remediation items, set a remediation programme and its costs, and inspect the completed work",
+              "answer": 0,
+              "explanation": "P2 follows the Guide's handback survey procedure: examine the assets, prepare a schedule of items needing remediation, develop a programme, ascertain the costs and inspect the remediation work. This protects MES against BSL reducing maintenance in the final years. Starting at the beginning of Year 23 is about three years before expiry, in line with the Guide's advice to inspect the assets well in advance, so it is not too late.",
+              "ref": "Ch 7 §21.2, p. 124"
+            },
+            {
+              "id": "4e-3",
+              "stem": "P3: release the handback reserve to BSL now, before the survey",
+              "answer": 2,
+              "explanation": "The handback reserve is security that BSL will meet the asset condition requirements, and the Guide says any balance is released only when the handback requirements are met. Releasing it before the survey removes MES's protection at the time BSL has an incentive to cut maintenance. The deferred roofs should be funded from the renewal fund under BSL's own lifecycle obligation.",
+              "ref": "Ch 7 §21.2, p. 124"
+            },
+            {
+              "id": "4e-4",
+              "stem": "P4: leave employee and intellectual property matters out of the plan",
+              "answer": 3,
+              "explanation": "The Guide says expiry planning must deal with the transfer of intellectual property needed by the authority and the possible transfer of employees to a new operator or the authority, following labour law. MES will need the building management software and possibly Maren's staff to keep the schools running. Leaving these out threatens continuity of services.",
+              "ref": "Ch 7 §18.1.1, p. 116"
+            },
+            {
+              "id": "4e-5",
+              "stem": "P5: accept each school at expiry if it meets the contract's minimum remaining-life requirements, rather than requiring every element to be as new",
+              "answer": 0,
+              "explanation": "The Guide says the intention is not that assets can be used indefinitely, but that they have some residual life so that the authority does not have to replace everything at once. The contract sets 10 years for roofs and structure and one-third of useful life for equipment, like the Guide's examples. Demanding ‘as new’ condition would go beyond the contract.",
+              "ref": "Ch 7 §21.3, p. 125"
+            },
+            {
+              "id": "4e-6",
+              "stem": "P6: start staff consultation on the transfer of Maren's employees one month before expiry",
+              "answer": 1,
+              "explanation": "The Guide says employee transfers can be time-consuming and should start in good time to allow staff consultation before expiry. Arvenian labour law requires consultation at least 12 months before a transfer. One month before expiry is too late, although the transfer itself is correctly identified.",
+              "ref": "Ch 7 §18.1.1, p. 116"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "p08-economic-soundness",
+  "level": "preparation",
+  "order": 8,
+  "title": "Economic soundness: cost-benefit analysis and climate",
+  "minutes": 17,
+  "guideRef": "Ch 3 §8",
+  "objectives": [
+    "Explain what cost-benefit analysis (CBA) measures and how it differs from value for money (VfM) analysis.",
+    "Identify the costs, benefits and externalities a CBA should include, and how to value hard-to-measure benefits.",
+    "Apply the main adjustments that convert financial cash flows into economic flows: shadow prices, opportunity costs and tax removal.",
+    "Interpret eNPV and eIRR, and explain how the discount rate is chosen and tested.",
+    "Describe how risk and climate change, including nature-based solutions and the Triple Dividend of Resilience, are built into the CBA."
+  ],
+  "sections": [
+    {
+      "heading": "What a cost-benefit analysis does",
+      "body": "In the previous lesson, a solution was selected. Now we test its **economic soundness**. The main tool is **cost-benefit analysis (CBA)**.\n\nA CBA lists all the impacts of a project as **benefits** and **costs**, values them in the same unit (usually money), and calculates the **net benefit** compared with the **current situation**. It quantifies the value of all consequences **to all members of society**, not just to the government or the operator. In the words quoted by the Guide, it asks whether **societal welfare** will increase, meaning that, in aggregate, more people are better off.\n\nKey features:\n- It is usually done **ex ante**, before the decision to invest, to decide whether resources should go to that project.\n- It takes a **long-term view**, projecting costs and benefits over a period in line with the **useful economic life** of the asset.\n- For a project to proceed, **benefits to society must be higher than costs**.\n- CBA can **select** among several technical options, or simply **confirm** a chosen option. Even then it still compares options: the **project** versus the **'do nothing' option**.\n\nWhy is this needed for PPPs? Public infrastructure is always a **public investment**, whatever the procurement route. When a project is not commercially feasible and needs public money, under traditional procurement or a PPP, the government must show that the money is **well spent** and produces net benefits for society.\n\nThe steps of a CBA (Figure 3.3) are: project financial data with conversions and adjustments; add externalities; add other socioeconomic benefits; make relative price and risk adjustments; define the base case and discount rate and calculate eNPV and eIRR; test sensitivities; and report the assumptions and results in the **screening report**."
+    },
+    {
+      "heading": "CBA versus value for money analysis",
+      "body": "CBA and value for money (VfM) are often used as if they were the same. They are not, and the exam tests the difference.\n\n| | **CBA** | **VfM analysis** |\n|---|---|---|\n| Question | Is this project good for society? | Even if the project can be a PPP, **should** it be? |\n| Scope | Any project, **irrespective of procurement mode** | Typically only economic infrastructure projects already earmarked as PPPs |\n| Nature | Economic feasibility of the project | A **relative** concept comparing procurement options |\n| Risk | Does not always value and allocate risk | Focuses on **valuing and allocating risk** |\n\nImportant points from the Guide:\n- A **preliminary CBA** is sometimes prepared at screening, before any PPP decision. A **detailed CBA** may follow during preparation, especially in **social sectors** such as health and education, where benefits are hard to monetise and a PPP may aim at long-run cost minimisation for a set of outputs.\n- The first decision to propose a project for the PPP route is usually a **qualitative** judgement by the contracting authority; VfM analysis comes afterwards.\n- CBA may be more appropriate for screening in **less mature PPP markets** or where there is not enough data for a full VfM analysis.\n- Because the PPP decision is often made before VfM analysis, VfM is often used in practice to examine the **structure and risk allocation** of a proposed PPP, rather than as a genuine input into the PPP decision. The Guide quotes that VfM can be seen 'as a project management process, rather than a highly statistical-based, rigorous analysis'.\n\n**Exam shortcut:** CBA answers **'should we do the project?'**; VfM answers **'should we do it as a PPP?'**. The fact that a project might become a PPP does **not** change the CBA discount rate."
+    },
+    {
+      "heading": "Costs, benefits and externalities",
+      "body": "The Guide's **CBA primer** gives four core definitions:\n- **Willingness to pay**: the value users perceive in the benefits of the infrastructure.\n- **Financially viable project**: revenues exceed costs.\n- **Economically viable project**: benefits to society exceed costs to society.\n- **Viability gap**: the difference between revenues and costs when costs exceed revenues.\n\nSo a project can be economically viable but **not** financially viable; that is when a viability gap may need public support.\n\n**Benefits** are taken in the broad sense: direct or indirect, internal or **external** (affecting third parties beyond the target users). To estimate a **direct** benefit, first check whether **market data** exists for it. Where benefits are **cost savings**, such as less congestion or less pollution from replacing an old facility, their value is implicit in the cost comparison.\n\n**Externalities** are effects on others that are not reflected in prices. They can be positive or negative:\n- economic development, such as higher land values;\n- safety and health, such as fewer road deaths;\n- environmental impacts, such as more or less noise and air pollution.\n\n**Valuing intangible benefits** (quality of life, neighbourhood safety) is hard. One method is **willingness to pay**, the highest price a person would pay. If a person sees no alternative, the highest price equals the good's utility (the **reservation price**); if there is a cheaper alternative, it equals the economic value (the **maximum price**). Values from studies in other countries can help, but with care, because willingness to pay differs between countries.\n\nIf a benefit is not quantified, it should be treated **qualitatively** and presented alongside the numbers. The key rule is that the CBA should include **all costs and benefits, without double counting**. The detailed classification table in the Guide is for illustration only and is **not examinable**."
+    },
+    {
+      "heading": "From financial to economic flows",
+      "body": "Market prices usually reflect the real cost to society. But some prices are distorted, and some effects have no market at all. So financial cash flows must be **converted into economic flows**.\n\n**1. Market imperfections: shadow prices.** When a market is regulated or distorted (currencies, oil, energy, labour), the market price may not reflect real value. A **shadow price** is estimated and used instead. Examples:\n- With **high unemployment**, legal minimum wages push wages above the real cost of labour, so labour costs are **adjusted downwards**. With high employment, no adjustment is needed.\n- In many emerging economies, **electricity prices are below economic levels**. An energy-efficiency project valued at official tariffs would look worse than it is, so savings should be valued at the economic cost of electricity.\n\n**2. Other opportunity costs.** **Opportunity cost** is the value of the next best alternative use that is given up. If public land or a public building is provided free, it should still be included **at market value**. But if the asset has **no alternative use**, its cost is **zero**, because it is a **sunk cost** (money already spent that cannot be recovered).\n\n**3. Taxes.** Taxes are part of cash prices but are **public revenue**, not a cost to society. Remove corporate tax, **VAT** (on costs and revenues), social charges in labour costs and import duties. Exception: a tax designed to correct an externality (such as an energy tax to discourage pollution) may be kept, but then the externality must not also be counted, to **avoid double counting**.\n\n**4. Other adjustments.**\n- **Inflation**: build projections in **real terms** (without general inflation), and correct the cost items that are expected not to follow the general consumer price index. These are called relative price changes.\n- **Foreign exchange**: the currency is usually the decision-maker's budget currency, but projections should reflect the **currency of the project's payment obligations**; foreign exchange risk is assessed more fully in VfM.\n\nIn the Guide's Brazilian light rail example, labour costs were multiplied by shadow factors of 0.8 (construction) and 0.9 (O&M), and import duty was removed, reducing total CAPEX from 135 million to about 127.65 million in economic terms."
+    },
+    {
+      "heading": "Performance indicators: eNPV, eIRR and the discount rate",
+      "body": "The two main indicators are:\n- **Economic net present value (eNPV)**: projected economic benefits and costs, discounted with a suitable **real** discount rate. It should generally be **positive**, meaning benefits exceed costs after allowing for timing.\n- **Economic internal rate of return (eIRR)**: the discount rate that makes the eNPV equal to zero.\n\n**Which to use?**\n- eNPV is always a defined number, so it has broader use. An eIRR may be **undefined** for O&M projects or others without a significant initial capital outlay.\n- But eNPV does not consider the **volume of resources** used. When options differ greatly in resource consumption, eIRR may be more suitable.\n- The prudent approach is to consider **both**, plus any qualitative analysis.\n\n**The discount rate.** Choosing it is a key issue, because it expresses opportunity cost. There is **no universal consensus**, which leaves room for ad hoc choices and even manipulation. The Guide lists three usual approaches:\n1. The **opportunity cost of capital**, such as the longest-term public debt interest rate, with inflation removed.\n2. The **social time preference rate (STPR)**: the value society places on present versus future consumption, used for example in the United Kingdom.\n3. The expected or targeted **real GDP growth rate**, so that only projects at least matching the economy's growth are approved.\n\nBecause the rate is hard to set, some governments **publish a standard rate** and a range for **sensitivity analysis**. Australia, for example, uses 7% real as the base case and tests 4% and 10%. The latest published rate should always be used. The aim is to avoid two errors: **rejecting projects with strong value for society** and **approving projects that waste public resources**.\n\nRemember: CBA judges economic merit regardless of delivery method, so a possible PPP **does not change the discount rate**."
+    },
+    {
+      "heading": "Risk and uncertainty",
+      "body": "Project risks must be included in the appraisal, through adjustments and by showing **ranges of values** for critical variables (sensitivities).\n\nFor this, risks are evaluated quantitatively and their **expected value** is included in the results:\n\n**Expected value of a risk = likelihood of the risk occurring × size of the outcome in money.**\n\nFor example, a 10% chance of a 50 million cost overrun has an expected value of 5 million. This should be done for all relevant or **critical** risks whose likelihood and outcome can be reasonably estimated.\n\nSensitivity tests show how strong the proposed business case is and what happens if key variables change, such as demand, construction cost or the discount rate.\n\nThe Guide notes that **valuing risk in detail is more typical of VfM analysis**, covered in the appraisal chapter. At screening, the aim is to make sure the economic conclusion is not built on a single optimistic scenario."
+    },
+    {
+      "heading": "Climate change in the CBA",
+      "body": "Including climate change in the CBA is **essential** for the success and sustainability of PPPs. At screening, the CBA should include high-level estimates of the costs of **climate hazards**, **recovery**, **GHG emission reduction** measures and **climate resilience** measures, plus indirect costs of **operational disruption**. It should also quantify the benefits of risk reduction and **co-benefits**, such as access to green financing and higher project value.\n\nThe Guide gives five reasons:\n1. **Long-term impact and uncertainty**: climate impacts can hit long after financial close, so they must be assessed early.\n2. **Cost-effectiveness**: adaptation adds cost, but usually much less than the cost of asset loss, damage and service disruption.\n3. **Nature-based solutions (NbS)**: procuring authorities should consider NbS and blue-green or green-grey components. NbS protect, manage or restore ecosystems, address societal challenges, and benefit people and biodiversity. The three types are NbS that **protect and expand** existing ecosystems (for example rewetting peatland), that **sustainably manage or restore** them (for example reforestation), and that **create new ecosystems** (for example green roofs and walls). They are often low-cost alternatives to grey infrastructure of steel and concrete, and are most impactful **upstream**, in preparation and design.\n4. **Triple Dividend of Resilience (TDR)**: resilient investment can (i) **generate income through avoided disaster losses**, (ii) **stimulate additional development** by households and businesses, and (iii) **encourage multi-purpose design** with co-benefits. Research shows co-benefits accrue **whether or not the climate risk occurs**; in some stormwater NbS studies, over half of total benefits came from the third dividend. So the second and third dividends should be quantified in the CBA.\n5. **Policy and regulatory compliance**: climate-robust standards should be applied in design and specifications.\n\n**Climate risk assessment** analyses three components: **hazard, exposure and vulnerability**. Free online tools support a first assessment, and **climate change scenarios** (and socioeconomic scenarios) help deal with uncertainty.\n\n**Gender.** At this early stage, a **rapid gender analysis**, based mainly on existing data, can show how the project may affect women, men, girls and boys differently, and whether social risks could affect acceptability, cost or timing."
+    }
+  ],
+  "example": {
+    "title": "Converting costs for the Eastfield school bundle",
+    "body": "Imagine the fictional city of Eastfield preparing a CBA for a bundle of new schools.\n\nThe financial capital cost is 200 million, **including 20 million of VAT**. Labour is 60 million of the cost. Unemployment is high, so the economists use a **shadow price factor of 0.8** for labour. The city will also provide public land free of charge; that land could otherwise be sold for 15 million.\n\nThe economic capital cost is:\n- start with 200 million;\n- remove VAT, which is public revenue: minus 20 million;\n- shadow-price labour: 60 × (1 − 0.8) = minus 12 million;\n- add the **opportunity cost** of the land at market value: plus 15 million.\n\nEconomic capital cost = 200 − 20 − 12 + 15 = **183 million**.\n\nIf the land had **no alternative use**, it would be a sunk cost and counted as zero. Benefits such as improved learning are hard to monetise, so the team values what it can and presents the rest **qualitatively**. It uses the city's published real discount rate, tests higher and lower rates, and adds the expected value of a flood risk (a 5% chance of 40 million damage = 2 million). It also costs a green-roof and drainage NbS option, which lowers flood risk and cools classrooms, a co-benefit that counts even if no flood ever happens."
+  },
+  "examTraps": [
+    {
+      "trap": "Treating CBA and VfM analysis as the same test.",
+      "fix": "CBA tests whether the project creates net benefits for society, whatever the procurement route. VfM compares procurement options and asks whether the project should be done as a PPP, with a strong focus on risk."
+    },
+    {
+      "trap": "Confusing financial viability with economic viability.",
+      "fix": "Financially viable means revenues exceed costs. Economically viable means benefits to society exceed costs to society. A project can be economically viable but need a viability gap subsidy."
+    },
+    {
+      "trap": "Keeping VAT and other taxes in the economic cost of the project.",
+      "fix": "Taxes are transfers to government, not a cost to society, so they are removed. The exception is a corrective tax on an externality, but then the externality itself is not counted again."
+    },
+    {
+      "trap": "Leaving free public land out of the CBA, or always valuing it at market price.",
+      "fix": "Include public land at market value to reflect its opportunity cost. Only if it has no alternative use is it a sunk cost valued at zero."
+    },
+    {
+      "trap": "Using a higher discount rate in the CBA because the project may be a PPP.",
+      "fix": "CBA evaluates economic merit regardless of delivery method, so the possibility of a PPP does not affect the discount rate."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Cost-benefit analysis (CBA)",
+      "meaning": "A method that values all of a project's costs and benefits to society in money and calculates its net benefit compared with the status quo."
+    },
+    {
+      "term": "Economic NPV (eNPV)",
+      "meaning": "The discounted value of a project's economic benefits minus its economic costs; it should generally be positive."
+    },
+    {
+      "term": "Economic IRR (eIRR)",
+      "meaning": "The discount rate at which the eNPV equals zero."
+    },
+    {
+      "term": "Externality",
+      "meaning": "An effect of a project on others, positive or negative, that is not reflected in the prices charged."
+    },
+    {
+      "term": "Shadow price",
+      "meaning": "An estimated value used instead of a distorted market price, or where no market price exists."
+    },
+    {
+      "term": "Opportunity cost",
+      "meaning": "The value of the next best alternative use of a resource that is given up."
+    },
+    {
+      "term": "Sunk cost",
+      "meaning": "A cost already incurred that cannot be recovered; an asset with no alternative use is valued at zero."
+    },
+    {
+      "term": "Social time preference rate (STPR)",
+      "meaning": "The value society places on present consumption compared with future consumption, used as a discount rate in some countries."
+    },
+    {
+      "term": "Nature-based solutions (NbS)",
+      "meaning": "Approaches that protect, manage, restore or create ecosystems to meet challenges such as climate change while benefiting people and biodiversity."
+    },
+    {
+      "term": "Triple Dividend of Resilience (TDR)",
+      "meaning": "The idea that resilient investment avoids losses, stimulates development and brings multi-purpose co-benefits."
+    }
+  ],
+  "summary": [
+    "CBA values all costs and benefits to society and tests whether the project beats the 'do nothing' option.",
+    "CBA asks whether to do the project; VfM asks whether to do it as a PPP and focuses on risk.",
+    "Include direct, indirect and external effects without double counting; treat unquantified benefits qualitatively.",
+    "Convert financial flows to economic flows: shadow prices, opportunity costs (including free public land) and removal of taxes.",
+    "eNPV should be positive; eIRR makes eNPV zero; use both where resource use differs.",
+    "The discount rate has no consensus, so use the published standard rate, test sensitivities, and do not change it because of PPP.",
+    "Include expected values of critical risks and climate costs and co-benefits, including NbS and the Triple Dividend of Resilience."
+  ],
+  "slides": [
+    {
+      "title": "Is the project good for society?",
+      "points": [
+        "CBA values all costs and benefits in money",
+        "Compared with the do-nothing option",
+        "Covers the asset's useful economic life",
+        "Benefits to society must exceed costs"
+      ],
+      "narration": "Now that we've picked a solution, we ask the big question: is this project actually good for society? Cost-benefit analysis answers it. We list every effect of the project, good and bad, give each one a money value, and compare the total with what happens if we do nothing. We look over the whole useful life of the asset, not just the next few years. If society gains more than it spends, the project is economically sound. That matters for PPPs too, because public money is involved either way."
+    },
+    {
+      "title": "CBA is not value for money",
+      "points": [
+        "CBA: should we do the project?",
+        "VfM: should we do it as a PPP?",
+        "VfM focuses on valuing and allocating risk",
+        "CBA works for any procurement route"
+      ],
+      "narration": "Here is a classic exam trap. People mix up cost-benefit analysis and value for money analysis. Keep them apart with two questions. Cost-benefit analysis asks: should we do this project at all? It works the same whatever the procurement route. Value for money asks: if we do it, should we do it as a PPP? It compares delivery options and pays special attention to risk. And remember, because CBA ignores the delivery route, the possibility of a PPP never changes the CBA discount rate."
+    },
+    {
+      "title": "Counting benefits and externalities",
+      "points": [
+        "Economically viable versus financially viable",
+        "Include external effects on third parties",
+        "Willingness to pay values intangible benefits",
+        "No double counting; unvalued benefits described qualitatively"
+      ],
+      "narration": "Let's be clear on two terms. A project is financially viable when its revenues cover its costs. It is economically viable when society's benefits exceed society's costs. A project can be the second without the first, and that's where a viability gap subsidy comes in. In a CBA we count benefits widely, including externalities, like fewer accidents, less pollution or higher land values. For hard things like quality of life, we can use willingness to pay. What we cannot value, we describe in words. And never count anything twice."
+    },
+    {
+      "title": "Shadow prices and opportunity costs",
+      "points": [
+        "Distorted market prices replaced by shadow prices",
+        "High unemployment: adjust labour costs downwards",
+        "Free public land counted at market value",
+        "No alternative use means sunk cost, zero"
+      ],
+      "narration": "Cash prices don't always show the true cost to society. When a market is distorted, we use a shadow price instead. A common case is labour. If unemployment is high, minimum wage rules mean wages are above the true cost of labour, so we reduce labour costs. Another case is land. If the government gives public land to the project for free, it still has a cost, because it could be sold or used elsewhere. So we count it at market value. Only if it has no other use is it a sunk cost, valued at zero."
+    },
+    {
+      "title": "Take the taxes out",
+      "points": [
+        "Taxes are public revenue, not social cost",
+        "Remove VAT, corporate tax, social charges, duties",
+        "Corrective taxes may stay, avoiding double counting",
+        "Work in real terms and payment currency"
+      ],
+      "narration": "Next, taxes. From a company's point of view, VAT or import duty is a cost. But for society as a whole, it's just money moving from one pocket to the government's pocket. So in a CBA we remove taxes: VAT, corporate tax, social charges on wages and import duties. There's one exception. A tax designed to correct an externality, like an energy tax against pollution, can stay, but then we must not count the pollution effect again. We also build projections in real terms, without general inflation."
+    },
+    {
+      "title": "eNPV, eIRR and the discount rate",
+      "points": [
+        "eNPV should be positive",
+        "eIRR makes eNPV equal to zero",
+        "Discount rate: capital cost, STPR or GDP growth",
+        "Use published rate and test sensitivities"
+      ],
+      "narration": "The results come out as two numbers. Economic net present value should be positive. The economic internal rate of return is the discount rate that brings that value down to zero. Using both is wise, and note that the rate of return can be undefined for projects with no real upfront investment. The discount rate is the tricky part, because there's no agreement on the right one. It can be based on the cost of public borrowing, society's time preference, or expected growth. Some governments publish a standard rate, like seven percent real in Australia, tested at four and ten."
+    },
+    {
+      "title": "Risk and climate in the CBA",
+      "points": [
+        "Expected value equals likelihood times money impact",
+        "Include hazard, recovery, emissions and resilience costs",
+        "Nature-based solutions can be low-cost alternatives",
+        "Triple Dividend: avoided losses, development, co-benefits"
+      ],
+      "narration": "Finally, risk and climate. For each critical risk, we calculate its expected value: the chance it happens multiplied by its cost. Climate deserves special care because it can hit a thirty-year contract long after financial close. So the CBA should include the costs of climate hazards, recovery, emission cuts and resilience, and the benefits too. Nature-based solutions, like wetlands or green roofs, are often cheaper than concrete. And the Triple Dividend of Resilience reminds us that resilient projects avoid losses, boost development and bring co-benefits, even if no disaster ever comes."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A ministry has completed a CBA showing a strongly positive eNPV for a new hospital. The minister says this proves the hospital should be delivered as a PPP. What is the correct response?",
+      "options": [
+        "Agree, because a positive eNPV means the PPP gives value for money",
+        "Explain that CBA shows economic merit, while PPP suitability and VfM decide the procurement route",
+        "Repeat the CBA with a higher discount rate to reflect PPP finance",
+        "Agree, provided the eIRR is above the private partner's target return"
+      ],
+      "answer": 1,
+      "explanation": "CBA establishes economic feasibility irrespective of procurement mode; it is not designed to choose the procurement route. VfM analysis compares procurement options, and the possibility of a PPP does not change the CBA discount rate."
+    },
+    {
+      "question": "A rural water project has benefits to society that exceed its costs, but user tariffs will not cover its costs. How should it be described?",
+      "options": [
+        "Financially viable but not economically viable",
+        "Neither financially nor economically viable",
+        "Economically viable but not financially viable, with a viability gap",
+        "Financially and economically viable"
+      ],
+      "answer": 2,
+      "explanation": "Economic viability means benefits to society exceed costs to society; financial viability means revenues exceed costs. Here revenues fall short, so there is a viability gap even though the project is economically viable."
+    },
+    {
+      "question": "An analyst is converting a road project's financial costs into economic costs. Unemployment in the region is high and wages are set by a legal minimum. What should the analyst do with labour costs?",
+      "options": [
+        "Adjust them downwards using a shadow price",
+        "Leave them unchanged, because wages are market prices",
+        "Increase them to reflect social charges",
+        "Remove them entirely, because workers pay income tax"
+      ],
+      "answer": 0,
+      "explanation": "With high unemployment, regulated wages are above the real cost of labour, so the Guide says an adjustment decreasing labour costs should be made. With high employment no adjustment would be needed."
+    },
+    {
+      "question": "A city will provide a plot of public land free of charge for a PPP bus depot. The land could otherwise be sold to a developer. How should the land be treated in the CBA?",
+      "options": [
+        "Excluded, because there is no cash cost to the project",
+        "Treated as a sunk cost valued at zero",
+        "Included at the historic price the city paid for it",
+        "Included at market value to reflect its opportunity cost"
+      ],
+      "answer": 3,
+      "explanation": "Public land provided for free should be valued at market price to reflect the opportunity cost to the authority. It is treated as a zero sunk cost only if it has no alternative use, which is not the case here."
+    },
+    {
+      "question": "A project's cost estimates include VAT, import duties on equipment and social charges within wages. What should happen to these items in the CBA?",
+      "options": [
+        "Keep them, because they are real cash payments",
+        "Remove them, because they are transfers to government rather than costs to society",
+        "Keep VAT but remove import duties",
+        "Double them to reflect their effect on the economy"
+      ],
+      "answer": 1,
+      "explanation": "Taxes are part of cash prices but are public revenue, so the Guide says corporate taxes, VAT, social charges and import duties should be removed. Only corrective taxes on externalities may be kept, while avoiding double counting."
+    },
+    {
+      "question": "An authority is comparing a major maintenance contract with no significant capital cost against other options. Why might the eIRR be unsuitable as its only indicator?",
+      "options": [
+        "Because eIRR can be undefined when there is no initial negative outlay",
+        "Because eIRR always gives a higher result than eNPV",
+        "Because eIRR cannot be calculated in real terms",
+        "Because eIRR is only used for user-pays PPPs"
+      ],
+      "answer": 0,
+      "explanation": "An IRR presupposes an initial negative outlay, so an eIRR may be undefined for O&M projects without significant capital costs. eNPV is a defined number with broader applicability, and the Guide recommends considering both."
+    },
+    {
+      "question": "Consider two statements. 1: There is universal consensus on the discount rate to use in a CBA. 2: Where the government publishes a standard discount rate, the most up-to-date rate should be used.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says there is no universal consensus on the discount rate, which leaves room for ad hoc choices and manipulation. Where a standard rate is published, it may change over time and the most up-to-date one should always be used."
+    },
+    {
+      "question": "A screening team estimates a 20% chance that ground problems will add 30 million to construction cost. What value should it include in the CBA for this risk?",
+      "options": [
+        "30 million, the full cost of the outcome",
+        "Nothing, because risks are only valued in VfM analysis",
+        "6 million, the expected value of the risk",
+        "20 million, the likelihood applied as a percentage of cost"
+      ],
+      "answer": 2,
+      "explanation": "The expected value of a risk is its likelihood multiplied by the monetised size of the outcome: 20% × 30 million = 6 million. Risk valuation is more detailed in VfM, but critical risks should still be included in the CBA."
+    },
+    {
+      "question": "A coastal city is screening a flood defence PPP. Which approach best reflects the Guide's advice on climate change in the CBA?",
+      "options": [
+        "Ignore climate risks until after financial close, when data will be better",
+        "Include only the cost of the concrete sea wall, not any co-benefits",
+        "Choose the lowest capital cost option, since adaptation always costs more",
+        "Include hazard and resilience costs, consider nature-based options, and quantify co-benefits"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says climate costs, resilience measures and co-benefits should be included at screening, and NbS should be considered, often as low-cost alternatives. Adaptation usually costs much less than loss, damage and disruption."
+    },
+    {
+      "question": "Which statement best describes the Triple Dividend of Resilience?",
+      "options": [
+        "Resilient investment avoids disaster losses, stimulates development and brings multi-purpose co-benefits",
+        "Resilient investment pays dividends to equity investors in three stages",
+        "Resilience benefits only arise if a climate disaster actually occurs",
+        "Resilience projects need three separate cost-benefit analyses"
+      ],
+      "answer": 0,
+      "explanation": "TDR says resilient infrastructure generates income through avoided losses, stimulates additional development, and encourages multi-purpose design. Research shows co-benefits accrue whether or not the climate risk occurs, so the third option is wrong."
+    }
+  ]
+}

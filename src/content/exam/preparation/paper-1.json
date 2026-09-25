@@ -1,0 +1,1202 @@
+{
+  "id": "prep-1",
+  "level": "preparation",
+  "title": "Norland PPP Programme and the Aldmoor–Brennick Expressway",
+  "sector": "Transport (toll roads)",
+  "scenario": "## Republic of Norland: a first PPP programme and the Aldmoor–Brennick Expressway\n\n**Country context.** The Republic of Norland is a lower-middle-income country of 9.4 million people. Its economy has grown by about 5% a year since 2020, driven by agriculture, light manufacturing and trade through the seaport of Brennick. Norland's legal system follows the civil law tradition: public bodies may act only where a law expressly authorises them, and their decisions are closely controlled by administrative law. All public contracts are governed by the Public Procurement Act 2009. This Act requires works contracts to be awarded on lowest price alone and limits the term of any public contract to five years. The currency is the Norland florin (NF).\n\nPublic debt stands at 57% of GDP. The Fiscal Responsibility Law caps it at 60%, and the Ministry of Finance (MoF) has warned that there is little room for new borrowing in 2027–2030.\n\n**An earlier experience.** In 2015 the Ministry of Energy signed a 25-year take-or-pay power purchase agreement for a 300 MW thermal power plant. The project had been proposed by a single foreign sponsor. It was negotiated directly with that sponsor on the basis of the sponsor's own draft contract, and MoF was not consulted. The state guaranteed the payments of the state electricity company. When the florin lost 40% of its value in 2021, the guarantee was called and the government had to pay NF 180 million that was not in the budget. A 2022 Supreme Audit Office report found four failures: the plant was not part of any power sector plan; there was no competition; nobody assessed whether the commitments were affordable; and nobody was responsible for monitoring the guarantee.\n\n**The new PPP programme.** In February 2026 the Cabinet adopted a National PPP Policy Statement. Its objectives are to achieve value for money in delivering infrastructure, to mobilise private investment to close the transport and logistics gap, and to improve the whole-of-life maintenance of public assets. The Policy states that PPPs must not be used to keep investment off the government balance sheet, that PPP candidates must come from the National Infrastructure Plan 2025–2040 (NIP), and that all PPPs will be competitively tendered. The Policy also:\n\n- created a PPP Unit (PPPU) of six staff inside MoF;\n- asked the Ministry of Justice and the PPPU to prepare a draft PPP Law for Parliament by the end of 2026;\n- confirmed that sector ministries will act as procuring authorities for projects in their sectors;\n- confirmed that the National Planning Commission (NPC) owns the NIP, which ranks candidate investments by economic net present value (eNPV), whatever the procurement route. Norland publishes a real social discount rate of 6% for all cost-benefit analyses.\n\nThe Cabinet wants to agree general principles now and to develop the detailed rules and manuals alongside a first 'pathfinder' project: the Aldmoor–Brennick Expressway.\n\n**The Aldmoor–Brennick Expressway (ABX).** Aldmoor, the capital (2.1 million people), and Brennick, the main seaport (0.8 million people), are linked by National Road 3 (NR3). NR3 is a 58 km two-lane road through 11 villages. It carries 21,000 vehicles a day, 30% of them heavy goods vehicles (HGVs), and it has one of the worst accident records in the country. A car trip takes 85 minutes on average. Container traffic at Brennick port is growing by 7% a year. In the NIP, the ABX ranks second of 14 transport projects. A preliminary cost-benefit analysis (CBA) prepared by the NPC in 2024 gives an eNPV of NF 310 million.\n\nThe Ministry of Transport and Public Works (MTPW) is the procuring authority. It proposes a new 45 km, four-lane, access-controlled toll expressway. This includes a 1.2 km bridge over the Tessel River and a 6 km section across the Vell marshes, a protected wetland. Preliminary estimates (2026 prices) are:\n\n| Item | Estimate |\n|---|---|\n| Capital cost (including NF 95 million for the bridge) | NF 610 million |\n| Operation, maintenance and toll collection | NF 14 million a year |\n| Major maintenance (every 8 years) | NF 40 million |\n| Operating period | 30 years |\n\nMTPW envisages a concession to design, build, finance, operate and maintain the ABX, with the project company collecting and keeping the tolls. NR3 will remain toll-free. No toll road has ever operated in Norland. MTPW's 2025 traffic study forecasts 16,500 vehicles a day in the first year at NF 6 per car and NF 15 per HGV. On this basis, MTPW's financial adviser estimates that net toll revenue could repay only about 60% of the capital cost with a reasonable return. The rest is a viability gap.\n\nAbout 72% of the right of way is state land. The rest is private farmland, and 140 households must be resettled.\n\n**Stakeholders and timing.** The Brennick Port Authority and the Chamber of Commerce strongly support the ABX. The Road Hauliers Association opposes tolls for HGVs. An environmental NGO is concerned about the Vell marshes, while villagers along NR3 want through-traffic removed from their streets. The Northern Development Bank (NDB), a multilateral lender, is interested in providing a long-term loan if the project is competitively procured and meets international environmental and social standards. The Minister of Transport has announced that the ABX will open in 2030. MTPW's own estimate is a screening decision in early 2027, appraisal during 2027, tender in 2028, financial close in mid-2029 and opening in early 2033.",
+  "questions": [
+    {
+      "number": 1,
+      "area": "EF",
+      "title": "Establishing a PPP Framework",
+      "additionalInfo": "**Framework design memo (PPP Unit, October 2026)**\n\nThe Cabinet has asked the PPPU to settle the following points before the draft PPP Law goes to Parliament.\n\n1. **Location and funding of the PPPU.** MTPW proposes that the PPPU move from MoF into MTPW. There it would prepare transport PPPs, promote them to investors and give the final approval for them. It would be funded by a fee of 1% of capital cost, charged to the procuring authority for each transaction.\n2. **Legal instruments.** MoF proposes that the PPP Law define which bodies may act as procuring authorities, set out the approval gates, and exempt PPP contracts from the lowest-price rule and the five-year limit of the Public Procurement Act 2009. Detailed procedures and templates would sit in a PPP Procedures Manual issued and updated by MoF.\n3. **Approval gates.** Gate 1: after screening (PPPU review, MTPW decision). Gate 2: after appraisal (Cabinet, on MoF advice). Gate 3: before the tender is launched (MoF approves the tender documents). Gate 4: before the contract is signed (Cabinet, with Attorney General sign-off). MTPW argues that Gates 1 to 3 should be removed for projects already in the NIP, so that 'only the final contract is approved'. Some members of Parliament want Parliament to approve every PPP contract.\n4. **Scope.** A draft clause says that every PPP, including a proposed NF 3 million school canteen lease, must pass all four gates.\n5. **PPPU work plan for 2027:** (a) checking that MTPW's ABX screening report contains all the analysis required by the Manual before Gate 1; (b) revising the Manual in the light of the ABX experience; (c) seconding two analysts to help MTPW draft terms of reference for its transaction advisors; (d) publishing an online library of Norland PPP documents and lessons learned, open to all procuring authorities and the public; (e) after financial close, receiving quarterly ABX traffic reports and alerting MoF's Budget Department if guarantee payments become likely.\n6. **Unsolicited proposal.** A foreign consortium has proposed a second Tessel River bridge, 20 km upstream, under a 35-year concession. The bridge is not in the NIP. The consortium asks for direct negotiation because it has paid for its own studies.",
+      "parts": [
+        {
+          "id": "1a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about the purpose and content of a PPP framework.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "1a-1",
+              "stem": "According to the Guide, why does codifying standard practices in a PPP framework help when several sector agencies will develop PPPs?",
+              "options": [
+                "It removes the need for agencies to appoint external transaction advisors.",
+                "It reduces learning costs and mistakes, because most agencies procure PPPs only rarely.",
+                "It lets each agency design its own procedures to suit its own sector.",
+                "It ensures that PPP liabilities stay off the government balance sheet."
+              ],
+              "answer": 1,
+              "explanation": "Most sector agencies are not PPP experts because they procure PPPs infrequently, so codifying standard practice lowers learning costs and the risk of mistakes and lets skills move between projects. The first option is wrong: the Guide says even experienced governments still engage external advisors for detailed technical tasks.",
+              "ref": "Ch 2 §1.2, p. 3; §1.8.3, p. 57"
+            },
+            {
+              "id": "1a-2",
+              "stem": "Which set of elements does the Guide say a PPP framework typically defines?",
+              "options": [
+                "Toll levels, bidder shortlists and standard contract prices",
+                "Credit ratings, debt limits and tax rates for project companies",
+                "Procedures, decision criteria and institutional responsibilities",
+                "Design standards, construction methods and maintenance schedules"
+              ],
+              "answer": 2,
+              "explanation": "A PPP framework typically defines procedures (what is done, by whom and in what order), decision criteria and institutional responsibilities, and it also covers fiscal management and oversight. Design standards and construction methods are project-level technical matters, not the content of a framework.",
+              "ref": "Ch 2 §1.3, pp. 5-6"
+            },
+            {
+              "id": "1a-3",
+              "stem": "According to the Guide, what is the best way to deal with the conflicting objectives of the stakeholders in a PPP?",
+              "options": [
+                "Define program and project objectives, and their priorities, clearly and up front.",
+                "Let the private partner resolve conflicts in negotiations, as it carries most risk.",
+                "Give the sector agency the final say, as it is responsible for service delivery.",
+                "Postpone decisions on priorities until the bids have been received and compared."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the best way to address conflicting objectives (for example, sector agencies maximising service versus finance ministries managing fiscal risk) is to define the objectives of the program and each project clearly and up front, including their relative priorities. Giving the sector agency the final say ignores whole-of-government concerns such as fiscal risk.",
+              "ref": "Ch 2 Box 2.2, p. 2"
+            }
+          ]
+        },
+        {
+          "id": "1b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 1, Column 1 lists activities in the PPPU's 2027 work plan. For each activity in Column 1, select from Column 2 the PPP unit role, as described in the Guide, that the activity mainly performs. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Control and oversight of the PPP process",
+            "Development of the PPP framework",
+            "Promoting PPPs with the private sector",
+            "Advising and supporting agencies to implement PPPs",
+            "Acting as a knowledge center",
+            "Monitoring and support after financial close"
+          ],
+          "lines": [
+            {
+              "id": "1b-1",
+              "stem": "Checking that MTPW's ABX screening report contains all the analysis the Manual requires before Gate 1",
+              "answer": 0,
+              "explanation": "Control and oversight includes making sure the right steps are taken in developing and screening a candidate PPP and that the required analysis is complete before approval. This is a check on MTPW's work, not advice to MTPW, so 'advising and supporting agencies' is not the main role.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            },
+            {
+              "id": "1b-2",
+              "stem": "Revising the PPP Procedures Manual in the light of the ABX experience",
+              "answer": 1,
+              "explanation": "The Guide describes this role as managing the evolution (but not the creation) of the framework, including keeping process guidelines up to date. Updating the Manual after the pathfinder ABX is exactly that; it is not knowledge-center work, which is about collecting and sharing information.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            },
+            {
+              "id": "1b-3",
+              "stem": "Seconding two analysts to help MTPW draft terms of reference for its transaction advisors",
+              "answer": 3,
+              "explanation": "Offering PPP experience and specialist skills to a procuring authority is the role of advising and supporting agencies to implement PPPs. The PPPU is helping MTPW do its own task, not checking MTPW's compliance, so it is not control and oversight.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            },
+            {
+              "id": "1b-4",
+              "stem": "Publishing an online library of Norland PPP documents and lessons learned for all procuring authorities and the public",
+              "answer": 4,
+              "explanation": "Collating and disseminating PPP knowledge so that it is shared across procuring authorities and made available to the public is the knowledge-center role. It is not mainly promotion to the private sector, because the audience is procuring authorities and the public.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            },
+            {
+              "id": "1b-5",
+              "stem": "Receiving quarterly ABX traffic reports after financial close and alerting the Budget Department if guarantee payments become likely",
+              "answer": 5,
+              "explanation": "After financial close the PPP unit should help with contract management and make sure central agencies learn of changes in a PPP's risk status so that contingent liabilities can be monitored. This activity happens after financial close, so it is not control of the pre-tender process.",
+              "ref": "Ch 2 §1.8.6, p. 62"
+            }
+          ]
+        },
+        {
+          "id": "1c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the scenario and the additional information provided for Question 1, answer the following questions about the legal instruments and scope of Norland's PPP framework.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1c-1",
+              "stem": "Given Norland's legal tradition, which instrument should form the core of its PPP framework?",
+              "options": [
+                "A Cabinet policy statement alone, as civil servants follow policy by convention",
+                "A ministerial circular from MTPW, as MTPW will procure the first PPP",
+                "The ABX contract itself, as PPP contracts get their force from contract law",
+                "A PPP law, as public bodies may only do what a law expressly authorises"
+              ],
+              "answer": 3,
+              "explanation": "Norland follows the civil law tradition, where public bodies may act only where a law expressly authorises them, so the Guide notes such countries tend to embody the PPP framework in law. The policy-only option describes common law, Westminster-style systems where civil servants follow policy by convention, which does not fit Norland.",
+              "ref": "Ch 2 §1.6.2, p. 24"
+            },
+            {
+              "id": "1c-2",
+              "stem": "Why must the draft PPP Law deal with the Public Procurement Act 2009?",
+              "options": [
+                "Because PPP contracts are automatically outside procurement law in civil law countries",
+                "Because the Act's lowest-price rule and five-year limit would otherwise block PPPs",
+                "Because the Act would require every PPP to be approved by Parliament before tender",
+                "Because procurement law applies only to government-pays PPPs, not concessions"
+              ],
+              "answer": 1,
+              "explanation": "A PPP transaction must comply with public procurement law unless PPPs are specifically exempt, and a prescriptive procurement law can effectively outlaw PPPs. Norland's Act allows only lowest-price awards and a five-year term, which a 30-year ABX concession cannot meet, so the PPP Law must create exceptions. PPPs are not automatically exempt from procurement law.",
+              "ref": "Ch 2 §1.6.3, p. 25"
+            },
+            {
+              "id": "1c-3",
+              "stem": "MoF proposes that the PPP Law sets the key rules while a Procedures Manual, issued and updated by MoF, holds the detailed procedures. What is the main advantage of this approach?",
+              "options": [
+                "It gives the stability of a law while keeping detailed procedures easy to update",
+                "It avoids the need for Parliament to pass any PPP-specific legislation at all",
+                "It makes all the detailed procedures legally binding on private bidders",
+                "It allows each procuring authority to opt out of procedures it does not like"
+              ],
+              "answer": 0,
+              "explanation": "A law offers stability, accountability and a strong signal to investors, but it is slow to pass and hard to change as lessons are learned. Keeping detailed procedures in a Manual that MoF can update keeps that flexibility, which matters because Norland is developing its rules alongside the pathfinder ABX. The option about avoiding legislation is wrong because MoF's proposal is itself a PPP Law.",
+              "ref": "Ch 2 §1.6.2, p. 23"
+            },
+            {
+              "id": "1c-4",
+              "stem": "A draft clause requires every PPP, including a NF 3 million school canteen lease, to pass all four approval gates. How should the PPPU respond?",
+              "options": [
+                "Keep the clause, since every PPP creates fiscal commitments needing Cabinet approval",
+                "Remove all gates for small projects, since the framework should cover only transport",
+                "Define the framework's scope explicitly, including size, so small PPPs get lighter steps",
+                "Leave it to each procuring authority to decide the process case by case"
+              ],
+              "answer": 2,
+              "explanation": "The Guide says a framework should be explicit about its scope (jurisdiction, sector, size and contract type) and that low-value PPPs need not follow the same rigorous procedures as high-value ones. A NF 3 million lease does not justify the four gates designed for a NF 610 million expressway. Limiting the framework to transport is wrong, as sector scope is a separate choice and the clause is about size.",
+              "ref": "Ch 2 §1.5, p. 11"
+            }
+          ]
+        },
+        {
+          "id": "1d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 1, answer the following questions. Each question asks you to select 2 options.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1d-1",
+              "stem": "MTPW proposes moving the PPPU into MTPW, where it would prepare, promote and approve transport PPPs and be funded by a 1% fee per transaction. Which 2 statements correctly identify weaknesses of this proposal under the Guide?",
+              "options": [
+                "A PPP unit should have no role at all in promoting PPPs to investors.",
+                "A unit that both promotes and approves PPPs faces a conflict of interest unless there are firewalls or other approving bodies.",
+                "Charging procuring authorities a fee would make them more willing to involve the unit.",
+                "Relying on transaction fees may push the unit to seek involvement, in conflict with its control role.",
+                "A unit that promotes PPPs cannot also give technical advice to procuring authorities."
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide warns that a unit that guides, advises and approves PPPs needs internal firewalls, other approving entities or extra scrutiny, and that a unit living on fees from procuring authorities may be keen to get involved but conflicted in its control role. The fee option is wrong because the Guide says authorities that must pay may be less willing to involve the unit; promoting PPPs is a normal PPP unit role.",
+              "ref": "Ch 2 §1.8.6, pp. 64-65"
+            },
+            {
+              "id": "1d-2",
+              "stem": "Which 2 statements about Norland's proposed approval gates are consistent with the Guide?",
+              "options": [
+                "Gates 1 to 3 should be removed for NIP projects, since only the final contract needs approval.",
+                "Parliament should approve every PPP contract, as this is the most common practice.",
+                "Several decision points allow weak projects to be stopped before they use too many resources.",
+                "Gate 4 is useful because the final cost of a PPP is not known until procurement ends.",
+                "Gate 3 is unnecessary because MoF has already approved the business case at Gate 2."
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "The Guide supports several decision points so that weak projects are stopped before they use many resources or gain momentum, and a final approval before signing because the final cost is only known when procurement ends. MTPW's idea of approving only the final contract removes the early gates, and legislative approval of projects is required in only a few countries, not most.",
+              "ref": "Ch 2 §1.8.5, p. 60"
+            },
+            {
+              "id": "1d-3",
+              "stem": "The Supreme Audit Office found four failures in the 2015 power plant PPP. Which 2 elements of Norland's new arrangements most directly address those failures?",
+              "options": [
+                "The PPPU task of alerting the Budget Department when guarantee payments become likely",
+                "The appointment of MTPW as procuring authority for road projects",
+                "The rule that PPP candidates must come from the ranked National Infrastructure Plan",
+                "The objective of improving whole-of-life maintenance of public assets",
+                "The decision to develop the ABX as a pathfinder project"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "Two of the audit findings were that the plant was not part of any sector plan and that nobody monitored the guarantee. Drawing PPP candidates from the NIP answers the first, and PPPU monitoring of contingent liabilities after financial close answers the second, in line with the Guide's call for projects to fit a sector plan and for risk status to reach central agencies. Naming MTPW as procuring authority and the maintenance objective do not tackle any of the four failures.",
+              "ref": "Ch 2 §1.7.1, p. 33"
+            },
+            {
+              "id": "1d-4",
+              "stem": "How should the government respond to the consortium's unsolicited proposal for a second Tessel River bridge? Which 2 responses are consistent with the Guide?",
+              "options": [
+                "Negotiate directly, since the consortium has already paid for its own studies.",
+                "Reject it, since the Guide says governments must never consider unsolicited proposals.",
+                "Consider it only if it meets a clear public need and is first included in the plan.",
+                "Accept it quickly, since unsolicited proposals bring innovation at no cost to government.",
+                "If it goes ahead, procure it through a transparent and competitive process."
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "If governments consider private proposals, the Guide says their feasibility must be determined and they must be procured under guidelines that require transparency and competition (Ch 2). Chapter 3 adds that an unsolicited proposal must fit strategic objectives or a clear public need and be included in the project list or plan, rather than bypass the system. The bridge is not in the NIP, so it cannot go straight to negotiation just because the consortium paid for its studies. The Guide does not forbid unsolicited proposals, so outright rejection on that ground is wrong.",
+              "ref": "Ch 2 §1.4, p. 6; Ch 3 §3, p. 9"
+            }
+          ]
+        },
+        {
+          "id": "1e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 1, select the option in each question in which the assertion is true and the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "1e-1",
+              "stem": "Which option correctly evaluates where the PPPU should be located?",
+              "options": [
+                "The PPPU should move into MTPW BECAUSE line agencies are responsible for planning and delivering specific services.",
+                "The PPPU should stay in MoF BECAUSE a PPP unit must be fully independent of every other government body.",
+                "The PPPU's control role fits well in MoF BECAUSE units that regulate and control the PPP process should generally sit in finance ministries or planning agencies."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says that units focusing on regulating and controlling the PPP process should generally be located in finance ministries or planning agencies, which supports keeping the PPPU's gatekeeping role in MoF. The first reason is true (it is the Guide's definition of line agencies) but it does not justify giving a line ministry the control role. The second reason is false: PPP units are often inside existing departments.",
+              "ref": "Ch 2 §1.8.6, p. 64"
+            },
+            {
+              "id": "1e-2",
+              "stem": "Which option correctly explains MoF's role in reviewing the ABX at the approval gates?",
+              "options": [
+                "MoF should review the ABX at the gates BECAUSE sector agencies may be less alert to whole-of-government risks such as fiscal and reputational risks.",
+                "MTPW alone should approve the ABX BECAUSE sector agencies are usually experts in their own sector, such as highways.",
+                "MoF should be the procuring authority for the ABX BECAUSE the procuring authority must always be a central agency."
+              ],
+              "answer": 0,
+              "explanation": "The Guide notes that sector agencies focus on delivering a project that works for their sector and may miss whole-of-government risks such as fiscal and reputational risk, so a framework builds in central agency checks. This matters in Norland, where debt is close to its 60% cap. The second reason is true but does not explain why MTPW should approve alone; the third is false, as the procuring authority is usually the sector agency.",
+              "ref": "Ch 2 §1.2, p. 3"
+            },
+            {
+              "id": "1e-3",
+              "stem": "Which option correctly evaluates the Cabinet's decision to develop the detailed framework alongside the ABX?",
+              "options": [
+                "Norland should stop work on the ABX until the full framework is in force BECAUSE no PPP may be prepared before a detailed framework exists.",
+                "Developing the ABX alongside the detailed framework is sensible BECAUSE a framework designed without real projects may lock in unworkable procedures and approvals.",
+                "Developing the ABX alongside the detailed framework is sensible BECAUSE a detailed framework is worthwhile even when only one PPP is planned."
+              ],
+              "answer": 1,
+              "explanation": "The Guide recommends setting general principles first and then detailing the framework in parallel with the first projects, because a framework built in isolation may over-standardise and lock in unworkable procedures or approvals. The third reason is false: the Guide says an elaborate framework is worthwhile only if it will be applied to several projects. The first reason is also false.",
+              "ref": "Ch 2 §1.2, p. 5"
+            },
+            {
+              "id": "1e-4",
+              "stem": "Which option correctly evaluates the Policy Statement's rule that PPPs must not be used to keep investment off the government balance sheet?",
+              "options": [
+                "The rule is unnecessary BECAUSE PPP commitments never affect the government's reported debt.",
+                "The rule is sound BECAUSE PPPs always cost the government more over their life than public procurement.",
+                "The rule is sound BECAUSE a good framework should ensure PPPs are used for real benefits, not to manipulate accounting results."
+              ],
+              "answer": 2,
+              "explanation": "The Guide says the framework must reduce the risk that PPPs are used for the wrong reasons, such as lowering reported spending and borrowing, and should ensure they deliver substantial benefits. With Norland's debt at 57% against a 60% cap, the temptation is real. The second reason overstates the case: PPPs can deliver value for money, and they are not always more expensive.",
+              "ref": "Ch 2 §1.4, p. 9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "area": "IP",
+      "title": "Project Identification and PPP Screening",
+      "additionalInfo": "**Screening file, PPPU (December 2026)**\n\n*ABX screening data*\n\n- MTPW has drafted output requirements for lane availability, pavement condition, incident response time and accident rates; all are measurable.\n- MTPW proposes one contract to design, build, finance, operate and maintain the ABX for 30 years. Its engineers note that the choice of pavement and bridge design will largely determine maintenance costs over the 30 years.\n- Land: 28% of the right of way is private farmland; MTPW has no budget line yet for land acquisition; 140 households must be resettled.\n- Demand: the 2025 traffic study has no willingness-to-pay survey, and there are no toll-road precedents in Norland.\n- In 2024 a Tessel River flood closed NR3 for five days, and floods are becoming more frequent. Only four boreholes have been drilled in the Vell marshes, a protected wetland.\n- MTPW has no staff with PPP experience. The Minister's office has asked for the tender to be launched in mid-2027 so that the ABX opens in 2030.\n- The Road Hauliers Association has started a campaign against HGV tolls; villagers along NR3 support the project.\n\n*Other NIP projects screened*\n\n| Project | Screening facts |\n|---|---|\n| P1 Southern ring road resurfacing | Capital cost NF 12 million; estimated PPP transaction costs NF 3 million; only one local contractor active; funds available in MTPW's budget; eNPV positive |\n| P2 Kessa regional hospital (building and facilities management only) | Economically sound; outputs clearly specified; state-owned site; three international operators interested; precedents in neighbouring countries; within the affordability limit set by MoF |\n| P3 Orvik fishing harbour upgrade | Preliminary CBA: eNPV of minus NF 45 million at the 6% social discount rate; no change in assumptions expected |\n| P4 Aldmoor water treatment plant | eNPV positive; no raw water quality data; title to the site disputed in court; unclear whether the Water Act 1998 allows a private company to operate the plant |\n| P5 Customs IT modernisation | eNPV positive; the system must run inside 14 other agencies' IT systems and the Customs Agency says it cannot define measurable outputs; budget funds available |",
+      "parts": [
+        {
+          "id": "2a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about project identification and PPP screening.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "2a-1",
+              "stem": "Why does the Guide recommend a screening phase before the full appraisal of a PPP candidate?",
+              "options": [
+                "To select the winning bidder early so that it can help design the project",
+                "To replace the need for a cost-benefit analysis of the project",
+                "To fix the final contract price before the market is consulted",
+                "To avoid spending appraisal resources on projects unlikely to be feasible PPPs"
+              ],
+              "answer": 3,
+              "explanation": "The Guide recommends a two-step approach, preliminary analysis in screening and then full appraisal, so that resources are not sunk into analysing and structuring a non-feasible PPP. Screening does not replace the CBA; the CBA is one of the screening tasks.",
+              "ref": "Ch 3 §1, p. 1"
+            },
+            {
+              "id": "2a-2",
+              "stem": "According to the Guide, why is a comprehensive project pipeline attractive to investors?",
+              "options": [
+                "It guarantees each investor at least one project from the pipeline.",
+                "It signals a structured approach and shows opportunities across similar projects.",
+                "It means projects no longer need to be tested for economic feasibility.",
+                "It allows the government to negotiate directly with preferred investors."
+              ],
+              "answer": 1,
+              "explanation": "Investors prefer a market with a recognisable pipeline: it suggests a structured approach and a genuine intention to invest, and it lets them see a spread of projects in the same market segment. A pipeline does not remove the need to test each project's economic feasibility.",
+              "ref": "Ch 3 §3, p. 8"
+            }
+          ]
+        },
+        {
+          "id": "2b",
+          "type": "sequencing",
+          "level": 3,
+          "instruction": "Column 1 lists five tasks that MTPW and the PPPU will carry out for the ABX during the identification and screening phase. For each task in Column 1, select from Column 2 its position in the sequence of main screening tasks set out in the Guide. Each position is used exactly once.",
+          "usesAdditionalInfo": false,
+          "columnOptions": [
+            "First activity",
+            "Second activity",
+            "Third activity",
+            "Fourth activity",
+            "Fifth activity"
+          ],
+          "lines": [
+            {
+              "id": "2b-1",
+              "stem": "Test whether the ABX makes sense as a PPP and pre-test its affordability",
+              "answer": 3,
+              "explanation": "PPP suitability and affordability are tested only once the project is shown to be economically sound, so this comes after the CBA. It comes before the project management plan, which prepares readiness for appraisal.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-2",
+              "stem": "Compare a new expressway, an upgrade of NR3 and a rail freight shuttle, and select the preferred solution",
+              "answer": 0,
+              "explanation": "The phase starts with needs and option analysis to select the project, that is, the technical solution that best meets the need. All later tasks refer to the selected solution, so this must come first.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-3",
+              "stem": "Prepare a project management plan, including a staffing plan and a budget for advisors",
+              "answer": 4,
+              "explanation": "Once suitability is satisfactory and gaps are known, the readiness step develops a project management plan with staffing and advisor needs. Only the screening report and the decision to move to appraisal follow it.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-4",
+              "stem": "Update the 2024 CBA to confirm that the selected ABX solution is economically sound",
+              "answer": 2,
+              "explanation": "After scoping and collecting information, the economic soundness of the selected solution is tested through CBA. This must happen before the PPP suitability test, which assumes the project is economically sound.",
+              "ref": "Ch 3 §2, p. 6"
+            },
+            {
+              "id": "2b-5",
+              "stem": "Prepare the technical outline of the ABX and collect data on land, ground conditions and traffic",
+              "answer": 1,
+              "explanation": "Scoping the selected project and collecting information follows the option selection. The data (costs, traffic, land) feed the CBA, so this step comes before the economic test.",
+              "ref": "Ch 3 §2, p. 6"
+            }
+          ]
+        },
+        {
+          "id": "2c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the scenario and the additional information provided for Question 2, answer the following questions about screening the ABX.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2c-1",
+              "stem": "MTPW's adviser estimates that net toll revenue can repay only about 60% of the ABX capital cost. Which affordability question should the screening answer first?",
+              "options": [
+                "Can the required user charges and the long-term call on the budget be afforded?",
+                "Can a PPP overcome short-term borrowing limits if the project is affordable long term?",
+                "Will the equity IRR of the project company exceed the investors' hurdle rate?",
+                "Will the PPP cost less than the Public Sector Comparator in risk-adjusted terms?"
+              ],
+              "answer": 0,
+              "explanation": "The Guide's first affordability question is whether the project can be funded, meaning whether the required user charges and any long-term call on the budget (here, to fill the 40% gap) are affordable. The short-term borrowing question is the Guide's final question, asked only once long-term affordability is established, even though Norland's debt is close to its cap.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2c-2",
+              "stem": "The ABX demand forecast comes from a traffic study with no willingness-to-pay survey, in a country with no toll roads. Why should the screening report flag this?",
+              "options": [
+                "Because traffic studies are only needed for government-pays projects",
+                "Because demand forecasts only matter after the contract has been signed",
+                "Because toll-road forecasts often overestimate traffic, which threatens finance and creates fiscal risk",
+                "Because lenders never finance a toll road without ten years of measured traffic"
+              ],
+              "answer": 2,
+              "explanation": "The Guide warns that toll-road traffic forecasts have tended to exceed actual traffic, that finance is very hard to obtain without solid demand forecasts and sensitivities, and that overestimation creates fiscal risk where the government supports the project. With no Norland toll-road history and no willingness-to-pay data, the ABX forecast is uncertain. Lenders need solid forecasts, but the Guide sets no rule of ten years of data.",
+              "ref": "Ch 3 Box 3.6, p. 18"
+            },
+            {
+              "id": "2c-3",
+              "stem": "28% of the ABX right of way is private farmland, and MTPW has no budget line yet for land acquisition. Which PPP suitability question does this most directly raise?",
+              "options": [
+                "Is the project big enough to justify the costs of a PPP transaction?",
+                "Does it make sense to bundle construction and maintenance in one contract?",
+                "Are the output requirements of the project clearly identifiable?",
+                "Are there major risks, such as land availability and cost, a private partner cannot manage?"
+              ],
+              "answer": 3,
+              "explanation": "The suitability test asks whether there are significant risks the private partner cannot manage, naming non-availability of land or right of way and land acquisition cost overruns. The private farmland and missing budget line make this the key question. Size and bundling are separate suitability questions that the land facts do not address.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2c-4",
+              "stem": "The Minister's office wants the tender launched in mid-2027 so that the ABX opens in 2030, while MTPW's own estimate is early 2033. What should MTPW do at the end of the screening phase?",
+              "options": [
+                "Accept the Minister's dates and shorten the appraisal to meet them",
+                "Prepare an overall timetable based on similar PPPs to manage expectations",
+                "Skip market sounding so that the tender can be launched earlier",
+                "Ask the future bidders to propose a timetable for the appraisal work"
+              ],
+              "answer": 1,
+              "explanation": "The Guide says governments often have unrealistic expectations of speed, and pressure to rush leads to poor outcomes. MTPW should draft an overall timetable to contract award, using timetables of similar PPPs, which also manages government expectations. Shortening the appraisal to meet a political date is exactly the pressure the Guide warns against.",
+              "ref": "Ch 3 §11, p. 39"
+            }
+          ]
+        },
+        {
+          "id": "2d",
+          "type": "matching",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 2, Column 1 lists five other NIP projects that were screened. For each project in Column 1, select from Column 2 the screening outcome that the Guide supports. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Proceed to the appraisal phase as a PPP candidate",
+            "Dismiss as a PPP and appraise it for traditional public procurement",
+            "Recommend additional studies before deciding whether to move to appraisal",
+            "Do not take the project forward under any procurement route for now"
+          ],
+          "lines": [
+            {
+              "id": "2d-1",
+              "stem": "P1 Southern ring road resurfacing",
+              "answer": 1,
+              "explanation": "At NF 12 million, with NF 3 million of transaction costs and only one local contractor, the project is too small to justify a PPP transaction and lacks market interest. It is economically sound and budget funds exist, so the Guide recommends appraising it for traditional procurement rather than dropping it altogether.",
+              "ref": "Ch 3 §10, pp. 37-38"
+            },
+            {
+              "id": "2d-2",
+              "stem": "P2 Kessa regional hospital",
+              "answer": 0,
+              "explanation": "The hospital is economically sound, has clear outputs, available land, investor interest, precedents and fits within MoF's affordability limit, so the suitability test is satisfactory. Additional studies are not needed because no important information gap is reported.",
+              "ref": "Ch 3 §10, pp. 37-38"
+            },
+            {
+              "id": "2d-3",
+              "stem": "P3 Orvik fishing harbour upgrade",
+              "answer": 3,
+              "explanation": "PPP suitability is tested only for projects already shown to be economically sound. With a negative eNPV and no change expected in the assumptions, the harbour should not proceed by any route for now. Choosing traditional procurement is wrong, because it would still spend public money on a project with net costs to society.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2d-4",
+              "stem": "P4 Aldmoor water treatment plant",
+              "answer": 2,
+              "explanation": "Water quality data are missing, the site title is disputed and the legal basis for private operation is unclear. The Guide's outcome for missing information or uncertainty is to state the weaknesses and recommend further studies before moving on. It would be premature to reject it as a PPP, since the gaps may be resolvable.",
+              "ref": "Ch 3 §10, p. 38"
+            },
+            {
+              "id": "2d-5",
+              "stem": "P5 Customs IT modernisation",
+              "answer": 1,
+              "explanation": "The system cannot be ring-fenced from 14 other agencies' systems and its outputs cannot be defined, so it fails key PPP suitability questions. It is economically sound and budget funds exist, so it should be appraised for traditional procurement. More studies would not help, because the problem is the nature of the project, not missing data.",
+              "ref": "Ch 3 §10, pp. 37-38"
+            }
+          ]
+        },
+        {
+          "id": "2e",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 2, answer the following questions. Each question asks you to select 2 options.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "2e-1",
+              "stem": "Which 2 facts in the ABX screening data best support the view that the ABX is suitable as a PPP, as distinct from being economically sound?",
+              "options": [
+                "The NIP ranks the ABX second among transport projects by eNPV.",
+                "The output requirements, such as lane availability and incident response time, are measurable.",
+                "The Minister's office wants the ABX open by 2030.",
+                "NR3 will remain a toll-free alternative route.",
+                "Design choices for the road and bridge will largely determine 30 years of maintenance costs."
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "Two PPP suitability questions ask whether outputs are clearly identifiable and whether it makes sense to bundle construction with operation and maintenance; measurable outputs and the strong link between design and maintenance costs answer both positively. The eNPV ranking shows economic soundness, not suitability as a PPP, and the toll-free NR3 weakens rather than supports the case.",
+              "ref": "Ch 3 §10, p. 37"
+            },
+            {
+              "id": "2e-2",
+              "stem": "Given the hauliers' campaign against HGV tolls and the villagers' support, which 2 stakeholder actions should MTPW take during screening?",
+              "options": [
+                "Delay all public communication until the contract is signed, to avoid opposition.",
+                "Identify the critical stakeholder groups early and map their needs, concerns and interests.",
+                "Communicate only with potential investors, since they decide whether the ABX is financed.",
+                "Publish the preliminary NF 610 million estimate as a fixed target price for bidders.",
+                "Listen to and consider stakeholder input, rather than only sharing information."
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The Guide says the government should identify critical stakeholder groups early, map their needs and concerns, and listen to and consider their input as well as informing them. Delaying communication lets rumours and opposition grow, and the Guide notes that some governments guard against releasing the preliminary capital cost estimate to avoid unrealistic expectations.",
+              "ref": "Ch 3 §12, p. 41"
+            },
+            {
+              "id": "2e-3",
+              "stem": "Given the flood history and the Vell marshes, which 2 items should the ABX screening report record?",
+              "options": [
+                "A completed full ESIA and a final detailed design of the marsh section",
+                "A statement that site risks will be left to bidders, so no further information is needed",
+                "The protected wetland and the limited ground data as constraints to study in appraisal",
+                "A high-level climate risk screening of the design, location and operations, including floods",
+                "The removal of wetland issues from the report, since the NGO has no approval role"
+              ],
+              "answer": [
+                2,
+                3
+              ],
+              "explanation": "Screening should list constraints such as significant environmental concerns and site or geotechnical uncertainties for the full appraisal, and should include a high-level climate risk screening of design, location, operations and revenues. A completed full ESIA and final detailed design go far beyond the high-level information expected at screening (environmental feasibility is assessed in full during appraisal), and leaving site risk to bidders ignores the information gaps.",
+              "ref": "Ch 3 §7, pp. 16-18"
+            },
+            {
+              "id": "2e-4",
+              "stem": "MTPW has no staff with PPP experience. Which 2 steps should the project management plan include before the decision to move to appraisal?",
+              "options": [
+                "Confirm a project team to act as the project office, with a staffing plan",
+                "Ask potential bidders to prepare the feasibility studies free of charge",
+                "Postpone hiring advisors until the tender has been launched",
+                "Let the Minister's office set the schedule and staffing directly",
+                "Identify the external advisors needed and estimate their cost for the budget"
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "By the end of screening the availability of a project team must be confirmed, and the need for external capabilities identified and costed, which matters most where the procuring authority has little PPP experience. Postponing advisors until the tender is too late, because the appraisal studies need them.",
+              "ref": "Ch 3 §11, p. 40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "area": "AP",
+      "title": "Appraising PPP Projects",
+      "additionalInfo": "**Appraisal working papers (September 2027)**\n\n*A. Items for the updated CBA*\n\n1. Construction labour of NF 120 million, costed at the statutory minimum wage; unemployment in the ABX corridor is 18%.\n2. Construction contract prices include 20% VAT.\n3. 72% of the right of way is state land. MTPW pays nothing for it, but part of it is leased to farmers and its market value is NF 22 million.\n4. NF 8 million was spent in 2019 on design studies for an earlier alignment that has been abandoned and cannot be reused.\n5. Deaths and serious injuries are expected to fall once through-traffic leaves NR3.\n\n*B. Financial model*\n\n- Lenders' minimum DSCR for sizing debt: 1.35; lock-up DSCR: 1.15; default DSCR: 1.05.\n- Base case without public support: equity IRR 8.5%; investors' required return estimated at 14%.\n- Raising the car toll from NF 6 to NF 9 reduces total toll revenue, because traffic falls more than proportionally.\n- With a construction grant of NF 240 million: equity IRR 14.2% and minimum DSCR 1.38. In a sensitivity with traffic 20% below forecast, the minimum DSCR falls to 0.95.\n- The financial adviser suggests sculpting the debt repayments to raise more senior debt.\n\n*C. Technical review*\n\n- Only four boreholes have been drilled in the Vell marshes. MTPW proposes that bidders carry out their own investigations during a six-week bid period.\n- MTPW's draft requirements specify a cable-stayed Tessel bridge of a named supplier's design.\n\n*D. MTPW draft market sounding plan*\n\n1. Hold the sounding in late 2027, after the RFP and draft contract are final.\n2. Invite only three domestic contractors that have built roads for MTPW; no lenders.\n3. The invitation letter calls participants 'bidders' and says participation 'will be taken into account at pre-qualification'.\n4. Prepare a project information memorandum that describes the marsh ground conditions and traffic uncertainty openly.\n5. Two MTPW officials attend each meeting, and all meetings are minuted.\n6. Ask for views on scope, expected costs, the payment mechanism and the proposed risk allocation.\n\nThe Supreme Audit Office has warned about corruption risks in public works and has asked to observe the process. In earlier consultations, the three contractors asked the government to guarantee 100% of forecast toll revenue and to take all ground-condition risk.",
+      "parts": [
+        {
+          "id": "3a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about assessing commercial feasibility.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "3a-1",
+              "stem": "From which two points of view does the Guide say commercial feasibility must be assessed?",
+              "options": [
+                "Users and taxpayers",
+                "The procuring authority and the finance ministry",
+                "Lenders and equity investors",
+                "Construction contractors and operators"
+              ],
+              "answer": 2,
+              "explanation": "Commercial feasibility is assessed from the lenders' perspective (bankability, measured by ratios such as the DSCR) and the equity investors' perspective (return on equity). Users and taxpayers matter to the CBA and the affordability analysis, not to commercial feasibility.",
+              "ref": "Ch 4 §8.1, p. 41"
+            },
+            {
+              "id": "3a-2",
+              "stem": "According to the Guide, when is a PPP project considered commercially feasible from a financial perspective?",
+              "options": [
+                "When expected revenues cover all costs, debt service and a reasonable equity return",
+                "When the economic net present value of the project is positive",
+                "When the project company can repay its senior debt, whatever the equity return",
+                "When the government's payments are lower than the Public Sector Comparator"
+              ],
+              "answer": 0,
+              "explanation": "A project is financially feasible when expected revenues in a reasonable scenario cover O&M costs, interest, taxes, repayment of debt and repayment of equity with a reasonable return. A positive eNPV shows economic feasibility for society, which is a different test.",
+              "ref": "Ch 4 §8, p. 41"
+            }
+          ]
+        },
+        {
+          "id": "3b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3 (part A), Column 1 lists items for the updated ABX cost-benefit analysis. For each item in Column 1, select from Column 2 how the Guide says it should be treated in the economic analysis. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Include at market price without adjustment",
+            "Adjust downward using a shadow price",
+            "Remove, as it is a transfer to the government",
+            "Include at market value, as an opportunity cost",
+            "Exclude, as a sunk cost",
+            "Include as a benefit (positive externality)"
+          ],
+          "lines": [
+            {
+              "id": "3b-1",
+              "stem": "Construction labour costed at the statutory minimum wage",
+              "answer": 1,
+              "explanation": "With 18% unemployment and a legal minimum wage, the wage is above the real economic cost of labour, so the Guide calls for a downward shadow-price adjustment. Using the market price without adjustment would overstate the cost to society.",
+              "ref": "Ch 3 §8.3, p. 28"
+            },
+            {
+              "id": "3b-2",
+              "stem": "VAT included in construction contract prices",
+              "answer": 2,
+              "explanation": "Taxes such as VAT are part of the cash price but are public revenue, not a cost to society, so they are removed from the economic flows. This is a tax adjustment, not a shadow price for a market imperfection.",
+              "ref": "Ch 3 §8.3, p. 28"
+            },
+            {
+              "id": "3b-3",
+              "stem": "State land in the right of way, part of which is leased to farmers",
+              "answer": 3,
+              "explanation": "When land is provided by a public body at no cash cost, its market value should still be included to reflect the opportunity cost. It is not a sunk cost, because the land has an alternative use (it is leased to farmers and worth NF 22 million).",
+              "ref": "Ch 3 §8.3, p. 28"
+            },
+            {
+              "id": "3b-4",
+              "stem": "Design studies paid for in 2019 for the abandoned alignment",
+              "answer": 4,
+              "explanation": "Money already spent that cannot be recovered or reused is a sunk cost and is not a cost of going ahead with the ABX. It is not an opportunity cost, because the studies have no alternative use.",
+              "ref": "Ch 3 §8.3, p. 28"
+            },
+            {
+              "id": "3b-5",
+              "stem": "Fewer deaths and serious injuries once through-traffic leaves NR3",
+              "answer": 5,
+              "explanation": "The Guide gives a fall in accident deaths after a new road is built as an example of a positive externality to be valued in the CBA. It is a benefit to society, so it is not removed or treated as a cost.",
+              "ref": "Ch 3 Box 3.8, p. 23"
+            }
+          ]
+        },
+        {
+          "id": "3c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 3 (parts B and C), answer the following questions.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3c-1",
+              "stem": "In the base case without public support, the ABX equity IRR is 8.5% against a required return of 14%. What does this show?",
+              "options": [
+                "The project is commercially feasible, because its equity IRR is positive.",
+                "The project is commercially feasible if the minimum DSCR meets the lenders' 1.35.",
+                "Nothing yet, because equity returns are not relevant in user-pays PPPs.",
+                "It is not commercially feasible for investors, as the IRR is below their required return."
+              ],
+              "answer": 3,
+              "explanation": "A project is commercially attractive to investors only if the equity IRR is at least their required (hurdle) rate; 8.5% is well below 14%. Being bankable is not enough on its own, because the Guide says the capacity to pay equity investors is also essential to attract bidders.",
+              "ref": "Ch 4 §8.1.2, p. 44"
+            },
+            {
+              "id": "3c-2",
+              "stem": "With the NF 240 million grant, a 20% traffic shortfall would cut the minimum DSCR to 0.95. If this happened, what could the lenders typically do?",
+              "options": [
+                "Only stop distributions to shareholders until the DSCR recovers",
+                "Treat the project company as in default and demand repayment or take control",
+                "Require the government to pay the shortfall under the grant agreement",
+                "Nothing, because DSCR covenants apply only during construction"
+              ],
+              "answer": 1,
+              "explanation": "A DSCR of 0.95 is below the 1.05 default value, so the lenders can require repayment or even take control of the project. Stopping distributions is the consequence of falling below the lock-up value (1.15), which is the tempting but incomplete answer here.",
+              "ref": "Ch 4 §8.1.1, p. 42"
+            },
+            {
+              "id": "3c-3",
+              "stem": "MTPW considers raising the car toll cap from NF 6 to NF 9 to close the viability gap. What does the Guide suggest?",
+              "options": [
+                "Raise the cap, since higher tolls will always increase total revenue",
+                "Shorten the contract term so that the higher toll is paid for fewer years",
+                "Revise scope or requirements, or provide government support such as viability gap funding",
+                "Ask the project company to pay a concession fee to offset the gap"
+              ],
+              "answer": 2,
+              "explanation": "The model shows that a higher toll lowers total revenue, so demand cannot support feasibility even at the revenue-maximising tariff. The Guide's options are then to cancel, revise the scope or technical requirements, or provide government support such as direct payments or viability gap funding. A concession fee would widen the gap, because fees apply only to over-feasible projects.",
+              "ref": "Ch 4 §8.2, pp. 48-49"
+            },
+            {
+              "id": "3c-4",
+              "stem": "MTPW's draft requirements specify a cable-stayed Tessel bridge of a named supplier's design. What should the technical feasibility review recommend?",
+              "options": [
+                "Specify the performance the crossing must deliver, as a fixed design may limit innovation",
+                "Keep the named design, as fixing the technology removes all construction risk",
+                "Remove the bridge from the PPP, as bridges cannot be delivered through PPPs",
+                "Keep the named design, as output specifications are not used in road PPPs"
+              ],
+              "answer": 0,
+              "explanation": "The Guide cautions that proposing a specific technology may not be the best approach because it can constrain innovation. PPP requirements should focus on the outputs and performance of the asset. Fixing a design does not remove construction risk, which still depends on cost and schedule.",
+              "ref": "Ch 4 §7, p. 38"
+            },
+            {
+              "id": "3c-5",
+              "stem": "The financial adviser suggests sculpting the ABX debt repayments. What trade-off does the Guide point out?",
+              "options": [
+                "Sculpting lowers the DSCR lenders require but removes the lock-up covenant",
+                "Sculpting shortens the loan's average life but reduces the amount of debt",
+                "Sculpting transfers the traffic risk from the lenders to the government",
+                "Sculpting can raise more debt, but back-ended repayments may raise the interest rate"
+              ],
+              "answer": 3,
+              "explanation": "Debt sculpting shapes repayments to cash flow so more debt can be raised without breaching the DSCR covenant, improving commercial feasibility. But more back-ended principal lengthens the loan's average life and may lead to a higher interest rate. Sculpting lengthens, rather than shortens, the average life.",
+              "ref": "Ch 4 Box 4.7, p. 44"
+            }
+          ]
+        },
+        {
+          "id": "3d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the additional information provided for Question 3 (part D), answer the following questions about MTPW's draft market sounding plan. Each question asks you to select 2 options.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3d-1",
+              "stem": "Which 2 features of the draft plan are inconsistent with the Guide?",
+              "options": [
+                "Holding the sounding after the RFP and draft contract are final",
+                "Preparing an information memorandum that states the marsh and traffic uncertainties openly",
+                "Having two MTPW officials attend each meeting and minuting all meetings",
+                "Inviting only three domestic contractors and no lenders",
+                "Asking for views on scope, costs, the payment mechanism and risk allocation"
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "Sounding after the RFP is final is too late, because the project must still be flexible enough to absorb feedback (around the middle of appraisal is ideal). Inviting only three domestic contractors ignores lenders, international providers for a first-of-its-kind project, and new entrants. An open memorandum, two officials with minutes, and questions on scope and risk allocation are all good practice.",
+              "ref": "Ch 4 §9.1, pp. 51-52"
+            },
+            {
+              "id": "3d-2",
+              "stem": "Which 2 changes should MTPW make to its invitation letter?",
+              "options": [
+                "Ask participants to submit binding prices so that the cost estimates can be tested",
+                "Stop calling participants 'bidders' or presenting the sounding as a procurement opportunity",
+                "Remove the description of the marsh ground conditions to avoid discouraging firms",
+                "Offer one-to-one meetings only to the largest contractor, to save time",
+                "State clearly that taking part will give no advantage in the later procurement"
+              ],
+              "answer": [
+                1,
+                4
+              ],
+              "explanation": "The Guide advises against procurement language such as 'bidders' and says participation must give no advantage in the later procurement, which the letter's reference to pre-qualification breaks. Removing the marsh description is wrong, because hiding weak spots only creates problems later.",
+              "ref": "Ch 4 Box 4.9, p. 54; §9.1, p. 55"
+            },
+            {
+              "id": "3d-3",
+              "stem": "The Supreme Audit Office has warned about corruption risks and asked to observe. Which 2 measures should MTPW adopt?",
+              "options": [
+                "Invite the Supreme Audit Office to take part, including in meetings with companies",
+                "Keep meetings unrecorded so that companies can speak freely",
+                "Share meeting discussions with other participants and keep an audit trail of feedback",
+                "Let the Minister meet the largest contractors alone to build trust",
+                "Destroy meeting notes after the tender to protect companies' confidentiality"
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "To protect transparency the Guide suggests inviting audit institutions to take part, including in meetings, sharing meeting discussions with other bidders and leaving a clear audit trail of feedback. Unrecorded meetings or private ministerial meetings create exactly the suspicion of corruption the Guide warns about.",
+              "ref": "Ch 4 §9.1.1, pp. 55-56"
+            },
+            {
+              "id": "3d-4",
+              "stem": "The three contractors asked the government to guarantee 100% of forecast toll revenue and to take all ground-condition risk. Which 2 responses are consistent with the Guide?",
+              "options": [
+                "Adopt the requests, since the aim of sounding is to shape the project to the firms' wishes",
+                "Filter the feedback for bias, since firms' comments reflect their own interests",
+                "Ignore all feedback from contractors, since it is always self-interested",
+                "Recognise that shifting risk onto the government can harm affordability and value for money",
+                "Adopt the largest contractor's view so that at least one bid is received"
+              ],
+              "answer": [
+                1,
+                3
+              ],
+              "explanation": "The Guide says feedback must be filtered for bias, and feedback that pushes an unbalanced risk allocation onto the government can undermine affordability and value for money. The aim is a broadly competitive procurement, not adapting the project to particular firms, but feedback should still be considered rather than ignored.",
+              "ref": "Ch 4 §9.1, p. 55"
+            }
+          ]
+        },
+        {
+          "id": "3e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 3, select the option in each question in which the assertion is true and the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "3e-1",
+              "stem": "Which option correctly evaluates MTPW's plan for the Vell marsh ground conditions?",
+              "options": [
+                "MTPW should investigate the marsh further and share the results with all bidders BECAUSE giving all bidders a consistent risk assessment avoids an uneven or uncompetitive tender.",
+                "MTPW should leave the investigations to bidders during the six-week bid period BECAUSE the private partner generally bears design risk in a PPP.",
+                "MTPW should take all ground-condition risk in the contract BECAUSE the Guide requires site risks always to be retained by the government."
+              ],
+              "answer": 0,
+              "explanation": "With only four boreholes in a marsh, the Guide says further tests should be made and all bidders given consistent information, because relying on bidders' own assessment can drive good bidders away or create an uneven playing field. The second reason is true but does not justify leaving a major ground risk to a six-week bid period. The third reason is false.",
+              "ref": "Ch 4 §7, p. 39"
+            },
+            {
+              "id": "3e-2",
+              "stem": "Which option correctly evaluates the discount rate for the updated ABX cost-benefit analysis?",
+              "options": [
+                "The CBA should use the investors' 14% required return BECAUSE the ABX will be financed privately.",
+                "The CBA should keep Norland's published 6% social discount rate BECAUSE CBA assesses economic merit regardless of how the project is delivered.",
+                "The CBA should keep the 6% rate BECAUSE the discount rate for a CBA must always equal the government's borrowing rate."
+              ],
+              "answer": 1,
+              "explanation": "The Guide says that because CBA evaluates a project's economic merit regardless of delivery, the possibility that it becomes a PPP does not change the discount rate, and a published standard rate should be used. The third reason is false: the public borrowing rate is only one of several approaches, alongside the social time preference rate and GDP growth.",
+              "ref": "Ch 3 §8.2, p. 27"
+            },
+            {
+              "id": "3e-3",
+              "stem": "Which option correctly evaluates what should happen to the NPC's 2024 CBA during appraisal?",
+              "options": [
+                "The CBA need not be revisited BECAUSE CBA is used only to rank projects in the national plan.",
+                "The CBA should be replaced by a value for money analysis BECAUSE VfM analysis measures the net social benefits of the project.",
+                "The CBA should be updated BECAUSE the detailed scope, willingness-to-pay evaluations, technical specifications and risk assessments must be fed into it."
+              ],
+              "answer": 2,
+              "explanation": "The 2024 CBA relied on preliminary data; the Guide requires detailed scope, willingness-to-pay results, technical specifications and risk assessments from appraisal to be entered into it and its results revisited. VfM analysis compares procurement options; it does not measure the project's net social benefit, so it cannot replace the CBA.",
+              "ref": "Ch 4 §10, p. 57"
+            },
+            {
+              "id": "3e-4",
+              "stem": "Which option correctly evaluates how MTPW should treat the positive base case with the NF 240 million grant?",
+              "options": [
+                "The result should be tested against sensitivities and through market sounding BECAUSE commercial feasibility conclusions are biased by the modellers' view and the model's assumptions.",
+                "The result needs no further testing BECAUSE the base case already includes the construction grant.",
+                "The result should be left for lenders to test after award BECAUSE investors and lenders carry out their own due diligence."
+              ],
+              "answer": 0,
+              "explanation": "The Guide says the conclusions of the commercial feasibility exercise are inevitably biased by the modellers and the model's assumptions, so they must be tested against sensitivities and through market sounding. The 20% traffic sensitivity already pushes the DSCR below the default level. Bidders' own due diligence does happen, but it does not justify leaving the test until after award.",
+              "ref": "Ch 4 §8.4, p. 50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "area": "SC",
+      "title": "Structuring PPP Projects (financial structuring and risk allocation)",
+      "additionalInfo": "**Structuring proposals (March 2028)**\n\n- **Revenue regime.** User-pays concession: the project company collects and keeps the tolls, and NR3 stays toll-free. MTPW sets maximum tolls per vehicle class, indexed each year to CPI.\n- **Viability gap.** A construction grant of up to NF 250 million (41% of capital cost), paid monthly as a percentage of certified works. The PPPU suggests paying it only at completion instead. The PPPU is also studying whether to replace part of the grant with annual payments from the budget during operations.\n- **Draft risk matrix** includes: (i) steel and cement prices rise during construction; (ii) the cost of acquiring the private farmland exceeds the estimate; (iii) after signature, MTPW orders an extra interchange requested by a local council; (iv) an earthquake damages the Tessel bridge; (v) drivers evade paying tolls. The matrix also makes the project company bear all changes in law.\n- **MTPW's minimum revenue guarantee (MRG).** The government pays the difference whenever toll revenue falls below 90% of the base-case forecast, for the full 30 years, with no cap and no sharing of revenue above forecast.\n- **PPPU's alternative.** A guarantee of 70% of forecast revenue for the first 8 years of operation only, with a capped annual amount. Government payments would be a subordinated loan, repaid from later revenues ahead of dividends, and revenue above 120% of forecast would be shared with the government.\n- **HGV tolls.** The Road Hauliers Association wants the Minister to be able to freeze HGV tolls at any time. MTPW has proposed a clause allowing this without compensation.\n- **Alternative regime.** Some officials suggest that the government keeps the tolls and pays the project company availability payments instead.",
+      "parts": [
+        {
+          "id": "4a",
+          "type": "classic",
+          "level": 2,
+          "instruction": "Answer the following questions about revenue risk and contractual risk categories.",
+          "usesAdditionalInfo": false,
+          "lines": [
+            {
+              "id": "4a-1",
+              "stem": "In a user-pays PPP, which risk does the Guide describe as being at the heart of the structure and generally borne by the private party?",
+              "options": [
+                "Force majeure risk",
+                "Revenue (volume) risk",
+                "Discriminatory change in law risk",
+                "Land acquisition risk"
+              ],
+              "answer": 1,
+              "explanation": "Revenue risk, mainly the risk that demand is not at the forecast level, is at the heart of user-pays structures and should generally be borne by the private party, although sharing or limiting it may give value for money. Force majeure is shared and cannot be fully transferred.",
+              "ref": "Ch 5 §5.8, p. 96"
+            },
+            {
+              "id": "4a-2",
+              "stem": "What is a relief event in a PPP contract?",
+              "options": [
+                "An event for which the private partner receives full financial compensation",
+                "An event that automatically terminates the contract",
+                "An event that excuses the private partner's under-performance, without compensation",
+                "An event whose cost is shared equally between the parties"
+              ],
+              "answer": 2,
+              "explanation": "A relief event excuses the private partner from under-performance or breach caused by the event, but gives no financial compensation, for example extra time for unforeseen archaeological finds. An event that brings financial compensation is a compensation event.",
+              "ref": "Ch 5 §5.7, p. 91"
+            }
+          ]
+        },
+        {
+          "id": "4b",
+          "type": "matching",
+          "level": 3,
+          "instruction": "Using the additional information provided for Question 4, Column 1 lists risks from the draft ABX risk matrix. For each risk in Column 1, select from Column 2 the allocation that the Guide considers good practice. Each selection from Column 2 can be used once, more than once or not at all.",
+          "usesAdditionalInfo": true,
+          "columnOptions": [
+            "Borne by the project company",
+            "Retained by the procuring authority",
+            "Shared between the parties"
+          ],
+          "lines": [
+            {
+              "id": "4b-1",
+              "stem": "Steel and cement prices rise during construction",
+              "answer": 0,
+              "explanation": "Construction cost risk, including input price rises, is generally borne by the private partner, which buys in bulk and can hedge and pass risk to its contractors. It is not shared, because the private partner is better able to manage it.",
+              "ref": "Ch 5 §5.6, p. 90"
+            },
+            {
+              "id": "4b-2",
+              "stem": "The cost of acquiring the private farmland exceeds the estimate",
+              "answer": 1,
+              "explanation": "The Guide considers it good practice for the public party to retain the risk that land acquisition costs exceed expectations, especially in linear infrastructure like the ABX. Some countries share it with a cap, but that is presented as a partial alternative, not the preferred practice.",
+              "ref": "Ch 5 §5.8, p. 94"
+            },
+            {
+              "id": "4b-3",
+              "stem": "After signature, MTPW orders an extra interchange requested by a local council",
+              "answer": 1,
+              "explanation": "A scope change decided by the government for local interests cannot be managed by the private partner and would be expensive if transferred, so the government retains it. The contract should give fair compensation for such changes.",
+              "ref": "Ch 5 §5.6, p. 90"
+            },
+            {
+              "id": "4b-4",
+              "stem": "An earthquake damages the Tessel bridge",
+              "answer": 2,
+              "explanation": "Acts of God such as earthquakes are controllable by neither party and should be shared. They cannot be fully transferred to the project company because it can neither control them nor absorb unlimited impacts.",
+              "ref": "Ch 5 §5.8, p. 98"
+            },
+            {
+              "id": "4b-5",
+              "stem": "Drivers evade paying tolls",
+              "answer": 0,
+              "explanation": "Fraud and non-payment by users is a revenue risk generally borne by the private side, since the project company runs toll collection and enforcement. The government does not take this risk in a user-pays concession.",
+              "ref": "Ch 5 §5.8, p. 96"
+            }
+          ]
+        },
+        {
+          "id": "4c",
+          "type": "classic",
+          "level": 3,
+          "instruction": "Using the scenario and the additional information provided for Question 4, answer the following questions about structuring the ABX.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4c-1",
+              "stem": "How should the amount of the ABX construction grant be set?",
+              "options": [
+                "By MTPW in the tender documents, with bidders offering a toll level",
+                "By negotiation with the preferred bidder after the award",
+                "By the Northern Development Bank, based on its lending limits",
+                "By the bidders, who propose the grant they need within the NF 250 million cap"
+              ],
+              "answer": 3,
+              "explanation": "In user-pays PPPs where co-financing fills a viability gap, the grant size is usually proposed by the bidders, so competition keeps public support to the minimum needed. Setting the grant in the tender documents is the usual approach in government-pays PPPs, where bidders offer the service fee instead.",
+              "ref": "Ch 5 §4.2, p. 32"
+            },
+            {
+              "id": "4c-2",
+              "stem": "The PPPU suggests paying the grant only at completion instead of monthly against certified works. What does the Guide say about this choice?",
+              "options": [
+                "It strengthens the incentive to finish, but adds lender uncertainty and financing cost",
+                "It has no effect on financing costs, because the grant is public money",
+                "It is not allowed, because grants must be paid before construction starts",
+                "It lowers the cost of capital, because lenders prefer completion-linked payments"
+              ],
+              "answer": 0,
+              "explanation": "Making co-financing conditional on completion increases risk tension and the incentive to meet milestones, but it adds uncertainty for lenders and raises financing costs, so it is a value for money decision. Payment timing does affect financing costs, because the project company must pre-finance the works until the grant is paid.",
+              "ref": "Ch 5 §4.2, p. 32"
+            },
+            {
+              "id": "4c-3",
+              "stem": "The maximum grant is 41% of the ABX capital cost. What risk should the PPPU consider if the bids come close to this level?",
+              "options": [
+                "The grant will automatically turn the ABX into a government-pays PPP",
+                "Too much public finance may weaken the partner's risks and incentives, harming VfM",
+                "Lenders will refuse to lend to any project that receives a public grant",
+                "The toll cap will have to be removed to compensate the project company"
+              ],
+              "answer": 1,
+              "explanation": "The Guide warns that if public financing is too large a share, the private partner's risks and motivation shrink, the incentives start to look like normal procurement, and there may be national accounting consequences. Co-financing of 30 to 40% of capital cost is common, so 41% is at the upper edge. A grant does not make the ABX government-pays, because tolls remain its main revenue.",
+              "ref": "Ch 5 §4.2, p. 31"
+            },
+            {
+              "id": "4c-4",
+              "stem": "If the Cabinet decided that the ABX should be toll-free, which government payment mechanism would the Guide favour?",
+              "options": [
+                "Uncapped shadow tolls, so that payments simply follow actual traffic",
+                "A fixed annual payment with no link to performance",
+                "Availability and quality payments, or volume payments with downside and upside limits",
+                "A share of national fuel-tax revenue paid directly to the project company"
+              ],
+              "answer": 2,
+              "explanation": "For a toll-free road, payments linked purely to the number of users can create windfall profits or undue losses unrelated to performance. The Guide says transport payments should be based on availability or quality or, if based on volume, with limits on downside risk and windfalls. Uncapped shadow tolls also create open-ended fiscal risk.",
+              "ref": "Ch 5 §4.9, p. 50"
+            },
+            {
+              "id": "4c-5",
+              "stem": "MTPW proposes a clause letting the Minister freeze HGV tolls at any time without compensation. How should the contract treat such a freeze?",
+              "options": [
+                "As ordinary revenue risk for the project company",
+                "As a force majeure event that allows termination",
+                "As a relief event, with no financial compensation",
+                "As a compensation event that neutralises the impact on the project company"
+              ],
+              "answer": 3,
+              "explanation": "Where the authority keeps the power to set tariffs during the contract and does not approve them at the expected level, the Guide says the contract should include measures to neutralise the impact on the private partner. A freeze is a government act, not an ordinary business risk, so treating it as normal revenue risk would deter bidders and lenders.",
+              "ref": "Ch 5 §5.8, p. 96"
+            }
+          ]
+        },
+        {
+          "id": "4d",
+          "type": "multiple-response",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 4, answer the following questions. Each question asks you to select 2 options.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4d-1",
+              "stem": "Which 2 statements correctly identify weaknesses of MTPW's minimum revenue guarantee?",
+              "options": [
+                "Guaranteeing 90% of forecast revenue for 30 years leaves the project company almost no traffic risk, harming value for money.",
+                "Minimum revenue guarantees can never be used in user-pays road PPPs.",
+                "With no cap, the guarantee creates an open-ended fiscal commitment that may not have been budgeted.",
+                "The guarantee will raise the project's cost of capital.",
+                "The guarantee should be paid to the shareholders rather than to the project company."
+              ],
+              "answer": [
+                0,
+                2
+              ],
+              "explanation": "The Guide says mechanisms that temper traffic risk must not entirely protect the private partner, as this harms value for money, and that uncapped payments create open-ended fiscal risk; it also warns that unbudgeted guarantee calls cause fiscal problems. Guarantees actually lower the cost of capital, and the Guide cites minimum revenue guarantees in road PPPs as a legitimate tool.",
+              "ref": "Ch 5 §4.9, p. 52"
+            },
+            {
+              "id": "4d-2",
+              "stem": "Which 2 features of the PPPU's alternative guarantee are consistent with the Guide?",
+              "options": [
+                "Limiting it to the first 8 years, when uncertainty is greatest for a road with no traffic history",
+                "Treating government payments as a subordinated loan repaid from later revenues ahead of dividends",
+                "Sharing revenue above 120% of forecast, because this passes all the upside to the government",
+                "Capping the annual amount, because a cap removes the need to report the guarantee as a liability",
+                "Offering a guarantee, because traffic risk should generally be borne by the government"
+              ],
+              "answer": [
+                0,
+                1
+              ],
+              "explanation": "The Guide's revenue-shortfall example covers only the early years of operation and treats government contributions as a subordinated loan repaid from future revenues with priority over dividends. Revenue sharing shares the upside rather than passing all of it to the government. A cap does not remove the need to account for the contingent liability, and traffic risk in user-pays PPPs is generally private.",
+              "ref": "Ch 5 Box 5.12, p. 48"
+            },
+            {
+              "id": "4d-3",
+              "stem": "Which 2 scenario facts best justify sharing some ABX traffic risk rather than transferring all of it?",
+              "options": [
+                "No toll road has ever operated in Norland, so there is no traffic history.",
+                "The ABX ranks second in the NIP by eNPV.",
+                "Container traffic at Brennick port grows by 7% a year.",
+                "The Northern Development Bank is interested in lending.",
+                "NR3 will remain a toll-free competing route."
+              ],
+              "answer": [
+                0,
+                4
+              ],
+              "explanation": "The Guide says limiting or sharing volume risk may be needed where it is significant, for example in a greenfield project with no historical data, and it treats competing facilities as part of revenue risk. A free parallel NR3 makes ABX traffic harder to predict. Port growth supports demand rather than justifying protection, and the eNPV rank concerns economic merit.",
+              "ref": "Ch 5 §4.8, p. 47"
+            },
+            {
+              "id": "4d-4",
+              "stem": "The PPPU wants to compare ways of protecting the ABX against low revenue. Which 2 are mechanisms the Guide describes for road PPPs?",
+              "options": [
+                "A take-or-pay commitment guaranteeing a minimum off-take of the road",
+                "Shortening the contract term whenever traffic is below forecast",
+                "Government payments whenever revenue falls below set levels",
+                "Letting the project company raise tolls above the cap without approval",
+                "Extending the term until revenues reach an agreed present value"
+              ],
+              "answer": [
+                2,
+                4
+              ],
+              "explanation": "The Guide describes minimum revenue guarantees, where the government pays if revenue falls below set levels, and schemes where the term is extended until revenues reach an agreed NPV. Take-or-pay arrangements are used for water and energy plants, not toll roads, and shortening the term would make low traffic worse for the project company.",
+              "ref": "Ch 5 §4.6, p. 42"
+            },
+            {
+              "id": "4d-5",
+              "stem": "The PPPU is studying whether to replace part of the construction grant with annual budget payments during operations. Which 2 statements are consistent with the Guide?",
+              "options": [
+                "This would complement revenues rather than initial funding, creating a hybrid payment mechanism.",
+                "Such payments are possible only in government-pays PPPs, not in toll roads.",
+                "The payments should be irrevocable and unconditional to maximise value for money.",
+                "The payments should preferably depend on availability or volume served, not be unconditional.",
+                "Annual payments would remove all traffic risk from the project company."
+              ],
+              "answer": [
+                0,
+                3
+              ],
+              "explanation": "Instead of adding to initial funding, the government can complement revenues, creating a hybrid payment mechanism, and these payments should preferably be service-type payments linked to availability or volume, especially if they form a large share of revenue. Complementary payments are used in real-toll projects, so they are not limited to government-pays PPPs.",
+              "ref": "Ch 5 §4.4, p. 39"
+            }
+          ]
+        },
+        {
+          "id": "4e",
+          "type": "assertion-reason",
+          "level": 4,
+          "instruction": "Using the scenario and the additional information provided for Question 4, select the option in each question in which the assertion is true and the reason is true and correctly explains the assertion.",
+          "usesAdditionalInfo": true,
+          "lines": [
+            {
+              "id": "4e-1",
+              "stem": "Some officials suggest that the government keeps the tolls and pays the project company availability payments. Which option correctly evaluates this?",
+              "options": [
+                "Traffic risk would stay with the project company BECAUSE it would still operate the toll plazas.",
+                "Traffic risk would move to the government BECAUSE the government would retain the risk and reward of toll collection.",
+                "This option is not allowed BECAUSE user charges must always be assigned to the private partner."
+              ],
+              "answer": 1,
+              "explanation": "The Guide describes structures in which user charges exist but the government keeps them and pays the private partner, so the government retains the risk and reward of toll collection. With availability payments, the project company's income no longer depends on ABX traffic. The third option is false, because the Guide gives real examples of this structure.",
+              "ref": "Ch 5 §4.7, p. 45"
+            },
+            {
+              "id": "4e-2",
+              "stem": "The draft risk matrix makes the project company bear all changes in law. Which option correctly evaluates this?",
+              "options": [
+                "The matrix is correct BECAUSE a private partner can manage all legislative risks through insurance.",
+                "The matrix should make the government bear all changes in law BECAUSE the government controls legislation.",
+                "The matrix should protect the project company against discriminatory changes in law BECAUSE these are government acts aimed at the specific project, unlike general changes affecting all businesses."
+              ],
+              "answer": 2,
+              "explanation": "General changes in law that affect any business should be borne by the private partner, but discriminatory changes aimed at the project (and specific sector changes) should be taken back or shared. Making the government bear all changes goes too far, and insurance does not cover legislative risk.",
+              "ref": "Ch 5 §5.8, p. 97"
+            },
+            {
+              "id": "4e-3",
+              "stem": "Given Norland's legal system, which option correctly evaluates how the ABX contract should define force majeure?",
+              "options": [
+                "The contract should give a non-exhaustive list plus a catch-all definition BECAUSE in civil code countries force majeure is a legally defined concept.",
+                "The contract should give an exhaustive list only BECAUSE in civil law countries the parties are completely free to define force majeure.",
+                "The contract should not mention force majeure BECAUSE the Guide treats it as a risk borne wholly by the private partner."
+              ],
+              "answer": 0,
+              "explanation": "Norland is a civil law country, where force majeure is usually defined by law, so the Guide recommends a non-exhaustive list plus a catch-all definition that covers the legal concept. Exhaustive lists suit common law jurisdictions where the parties are free to agree terms. Force majeure cannot be fully transferred to the private partner.",
+              "ref": "Ch 5 §5.7, p. 91"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

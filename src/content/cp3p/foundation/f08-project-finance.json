@@ -1,0 +1,304 @@
+{
+  "id": "f08-project-finance",
+  "level": "foundation",
+  "order": 8,
+  "title": "How PPPs are financed: project finance, debt and equity",
+  "minutes": 18,
+  "guideRef": "Ch 1 §7 (intro), §7.1–§7.2",
+  "objectives": [
+    "Distinguish financing from funding in a PPP.",
+    "Explain project finance, non-recourse (limited-recourse) debt, ring-fencing and why equity costs more than debt.",
+    "Describe gearing, typical debt-to-equity ratios, the DSCR and LLCR, and the meaning of bankability.",
+    "Identify the main categories of funds and fund providers, including MDBs, ECAs and institutional investors.",
+    "Tell financial structuring apart from financial strategy and state what the government may and may not impose."
+  ],
+  "sections": [
+    {
+      "heading": "Financing versus funding",
+      "body": "In the last lesson you saw that the SPV pays for construction from equity and loans. Now we look at where that money comes from. Start with a key distinction from Box 1.22.\n\n- **Financing** is the money needed **up front** to pay for building the infrastructure. In traditional procurement the government finances through surpluses or borrowing. In a PPP the **private sector** raises **debt and equity**.\n- **Funding** is the source of money over the **long term** to pay the private partner for investment, operation and maintenance. It comes from **taxes** (government-pays PPPs) or **user charges** (user-pays PPPs). Governments may also use specific sources such as **land value capture**, which captures part of the increase in nearby property values that new infrastructure creates (for example through betterment taxes or development impact fees).\n\nSo private finance does not mean the public does not pay. Someone still funds the project: taxpayers or users.\n\nIn a PPP, the private partner raises the money for design and construction, except where the government provides part of it in a **co-financed** scheme. Because the SPV signs the contract, all project cash flows pass through the SPV, and the project's assets and liabilities sit on its balance sheet. This is called **ring-fencing** the cash flows.\n\nLike any company, the SPV uses a **mix of debt and equity**. Debt gives **tax efficiency** (interest creates a **tax shield**) and lowers the overall cost of capital, the **WACC** (weighted average cost of capital: the weighted average of the cost of equity and the cost of debt)."
+    },
+    {
+      "heading": "Project finance: non-recourse and ring-fenced",
+      "body": "The most frequent and efficient method is the **project finance technique**. It is a **non-recourse** technique: lenders can be repaid **only from the SPV's revenues**, without a claim against the equity investors. The debt is secured on the project's cash flows. In practice, pure non-recourse debt is rare, especially in less sophisticated markets, where lenders often have some recourse to the sponsors at least during construction. So many practitioners call it **limited-recourse** financing.\n\nThe finance combines:\n\n- **equity** from the SPV's shareholders (the members of the winning consortium);\n- **debt** from lenders such as commercial banks, usually as a long-term project loan, but possibly as a project bond or a mini-perm.\n\n**Equity always bears losses before debt**, because payments to equity are subordinated to debt service. Debt service follows a fixed schedule of principal and interest. That is why **equity requires a higher return than debt**.\n\nThe alternative is **corporate finance**: the SPV's debt is fully guaranteed by the sponsor, or the sponsor raises money at corporate level and passes it into the project as equity and subordinated sponsor loans. Project finance needs certain conditions (bankability, and enough size to absorb its **higher transaction costs**), which is a real challenge for small-scale PPPs.\n\nProject finance brings two important benefits:\n\n1. **Lender oversight.** Because project cash flows are the only source of repayment, lenders add their own layer of **due diligence** and control over governance and performance, on top of the government's appraisal and the bidders' checks.\n2. **Freed sponsor capacity.** Sponsors raise third-party money without being directly liable to lenders, so they have more capacity to invest in other projects while keeping a healthy corporate balance sheet."
+    },
+    {
+      "heading": "Gearing, cover ratios and bankability",
+      "body": "**Gearing** or **leverage** is the ratio of debt to equity. Lenders require a **material equity investment** before they allow debt drawdowns, and they set covenants on minimum cover ratios:\n\n- **DSCR (Debt Service Cover Ratio):** for each year, operating cash flow before debt service divided by that year's debt service. A DSCR of 1.2 means the available cash flow is 1.2 times the debt service, a cushion of about 20 percent.\n- **LLCR (Loan Life Cover Ratio):** the net present value of all remaining cash flow before debt service compared with the outstanding debt.\n\nThe **typical debt-to-equity ratio is between 60:40 and 80:20**. In developed countries some projects reach around **90 percent** debt, others only 60 percent; in **EMDE** markets the range slips to **50 to 80 percent**. Projects with significant **demand risk** have less predictable cash flows and **lower leverage**. **Availability payment PPPs** have stable cash flows, lower DSCR requirements (Figure 1.12 compares a DSCR of 1.4 with 1.2) and so **higher leverage**.\n\nWhy does government care? Debt is cheaper than equity, so higher leverage lowers the WACC. Then the **payments government must make are lower**, or, in user-pays PPPs, the project is more likely to be self-sustaining. But **excessive leverage** raises the risk that the SPV becomes insolvent, so PPP contracts usually set a **minimum equity** or **maximum leverage**.\n\n**Bankability** is the level of willingness of lenders to finance the project: how much and on what terms (amount of debt, loan term, cost). If lenders see unacceptable risk, the project is not bankable. Bankability is part of **commercial feasibility**, which the authority must assess (Chapter 4). Box 1.23 lists lenders' main concerns:\n\n- certainty and sufficiency of cash flows for debt service and a reasonable equity return;\n- creditworthiness of the public sector;\n- a sound, stable legal framework and an enforceable contract;\n- confidence in the regulatory regime;\n- the right to **step in** if the project fails, and alternative contractors;\n- contractors' ability, creditworthiness and guarantees;\n- risks that are understandable, controllable, finite and properly allocated;\n- an acceptable **termination regime** that protects the debt;\n- environmental and social reputation impact;\n- effective insurance, increasingly linked to climate change."
+    },
+    {
+      "heading": "Sources of funds: equity, quasi-equity and debt",
+      "body": "The two main types of funds are **debt** and **equity** (Table 1.6).\n\n**Equity**\n\n- **Capital shares:** usually from a **contractor or industrial developer** interested in construction or O&M. Sometimes a **financial investor** co-invests, typically an **infrastructure fund**. Occasionally the government takes shares, and in sophisticated markets retail investors may enter through IPOs.\n- **Quasi-equity:** **junior or subordinated debt** and **mezzanine debt**. It ranks **above equity shares but below senior debt**. It is often provided by the sponsors for **tax efficiency**, or by third-party investors who want more protection than equity but higher returns than senior debt.\n\n**Senior debt**\n\n- **Loans:** most often from **commercial and investment banks**. Other lenders include **MDBs**, **ECAs**, **national development banks**, **institutional investors** (pension funds, insurers, sovereign funds, usually through project bonds) and **debt funds**. MDBs, ECAs and NDBs may lend or instead provide **guarantees**.\n- The usual loan is **long-term**. A short-term loan meant to be refinanced is a **mini-perm** if it is based on the project's creditworthiness, or a **bridge loan** if fully guaranteed by the sponsor. In a **soft** mini-perm, if refinancing has not happened by the final repayment date, the loan is extended and all cash left after costs goes to repay it (a **full cash sweep**). In a **hard** mini-perm there is no such flexibility: the borrower is in default. Refinancing terms need to be cleared with the government.\n- **Project bonds:** tradeable debt bought by capital-market investors. This is called **disintermediation**, because no bank sits between borrower and investor. Bonds give access to longer terms but are less flexible, because funds often cannot be drawn down step by step. So they are more often used to **refinance** after construction ('bridge to bonds') than to finance construction. Global institutional investors usually require a **credit rating**.\n- **Other structures:** leasing, supplier credits and supplier financing, and Islamic finance.\n\nFor new projects in developing countries, the main equity provider is usually the **contractor**. **Infrastructure funds** (Box 1.25), the most common financial investors, pool money from **limited partners** (mostly institutional investors) under a management company. Financial investors prefer **operational** projects, avoiding construction risk. Buying into operating assets helps developers **recycle capital**. Governments should welcome them and allow reasonable flexibility for **equity transfers**, while also encouraging their participation in greenfield projects."
+    },
+    {
+      "heading": "Financial structuring and financial strategy",
+      "body": "These two terms overlap, so learn the Guide's definitions.\n\n**Financial structuring** is the art of designing the **mix of funds**: how much debt, with what repayment profile, which instruments (loans or bonds), which tranches (for example subordinated debt, which is more expensive but more flexible), the order and timing of drawdowns, and the support required from sponsors and subcontractors (parent or bank guarantees). The aim is to **maximise the equity IRR**, or, for the same target IRR, to offer a **more competitive price** in the bid.\n\n**Financial strategy** is the decision about **how and when to approach funders**, especially lenders. The main choice is between:\n\n- **short-term loans** (bridge or mini-perm) with refinancing risk after construction, which can capture the upside of de-risking and falling interest rates; and\n- a **long-term project finance loan** from the start, which gives more certainty and less risk. Bond-based packages are more complex and need active institutional investors.\n\nCommitment timing matters:\n\n- **Equity is always committed before bid submission**. Submitting a bid is a firm commitment to invest.\n- **Debt** may also be committed before bid submission when the tender requires it, which is common in dialogue processes and shortlisted tenders. In open tenders, the usual approach is to ask for **sufficient evidence** that finance is available. Not requiring full finance packages at bid can also suit markets with few long-term lenders, so the winner can approach all lenders after award.\n\n**What government may and may not do.** Structuring and strategy are the **private investor's responsibility**. The government should **not** dictate where to raise money (for example insisting on local banks) or which instruments to use, other than **setting a maximum leverage** or requiring a **lending competition** when appropriate. However, **availability of finance** is a **pre-condition** for any PPP. Where finance is scarce, governments may help through a national bank, by sharing foreign exchange risk, or with MDB support."
+    },
+    {
+      "heading": "MDBs, ECAs and hybrid models",
+      "body": "**Multilateral Development Banks (MDBs)** such as the World Bank Group (often through the IFC), IDB, ADB, EBRD, AfDB and IsDB play a big role in EMDE PPPs. They:\n\n- lend for **longer terms**, often in hard currency, than commercial banks can;\n- protect commercial lenders through **A/B loan** structures: the **A loan** comes from the MDB, and the **B loan** is syndicated to commercial banks, protected indirectly by the MDB's **preferred creditor status** and a cross-default clause;\n- provide **guarantees**, including partial risk and other partial guarantees, and political risk cover (for example from **MIGA**);\n- support project identification, structuring and PPP policy, and increasingly link concessional funding to **climate** mitigation and adaptation.\n\n**Export Credit Agencies (ECAs)** (Box 1.26) are national financial or insurance institutions that support their own countries' companies abroad. Their involvement is linked to a bidder from their country, and most often takes the form of **guarantees** or insurance rather than loans. Their terms are governed by the **OECD Consensus**, which aims to prevent subsidised financing competition between countries.\n\n**Hybrid PPP models** use public money, increasingly provided by MDBs, to solve affordability and bankability problems:\n\n1. **CAPEX VGF:** public funds buy down part of the capital cost, usually as output-based payments tied to construction milestones.\n2. **OPEX VGF:** the private partner finances all capex; public funds support operations or top up tariffs.\n3. **Build-Concession:** the government finances and builds the main works, then awards a separate contract for equipment and O&M. Civil works risk stays public, but **interface risk** must be managed.\n\nFinally, in **Islamic finance**, Sharia law does not permit interest; lenders may earn a profit by sharing the profit and loss of the enterprise."
+    }
+  ],
+  "example": {
+    "title": "Imagine the Riverton Ring Road financing",
+    "body": "Imagine the fictional Riverton Ring Road, a government-pays availability PPP costing 500 million. The winning SPV proposes this plan:\n\n- **Equity 100 million (20 percent):** 70 million from the builder's investment arm as shares and subordinated loans, and 30 million from an infrastructure fund.\n- **Senior debt 400 million (80 percent):** a long-term project finance loan from commercial banks. Because the road is paid on availability, cash flows are stable, lenders accept a DSCR around 1.2, and gearing can be high.\n\nWhat each party sees:\n\n- **Lenders** can be repaid only from the SPV's cash flows (**limited recourse**), so they do their own due diligence and ask for step-in rights and a fair termination regime.\n- **Equity** is paid last and takes losses first, so it expects a **higher return** than the banks.\n- **The government** benefits from high leverage, because a lower WACC means lower availability payments. But it sets a **maximum leverage** in the contract to protect the SPV from insolvency. It does **not** require the SPV to borrow only from local banks.\n\nIf Riverton were a low-income country with no long-term local lending, an MDB **A/B loan** or an MDB guarantee might be needed to make the project bankable."
+  },
+  "examTraps": [
+    {
+      "trap": "Confusing financing with funding",
+      "fix": "Financing is the up-front money to build (private debt and equity in a PPP). Funding is who pays over the long term: taxpayers or users."
+    },
+    {
+      "trap": "Thinking equity is cheaper because it has no fixed repayments",
+      "fix": "Equity is subordinated to debt and takes losses first, so it requires a higher return. More debt lowers the WACC and the payments the government must make."
+    },
+    {
+      "trap": "Assuming demand-risk projects get the highest leverage",
+      "fix": "Leverage is highest where cash flows are most stable, such as availability payment PPPs. Projects with significant demand risk get lower leverage."
+    },
+    {
+      "trap": "Mixing up financial structuring with financial strategy",
+      "fix": "Structuring designs the mix of funds and repayment profile. Strategy decides how and when to approach lenders, for example short-term loan with refinancing versus a long-term loan from the start."
+    },
+    {
+      "trap": "Mixing up a mini-perm with a bridge loan",
+      "fix": "Both are short-term loans meant to be refinanced. A mini-perm is based on the project's own creditworthiness; a bridge loan is fully guaranteed by the sponsor."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Financing",
+      "meaning": "The money needed up front to pay for building the infrastructure."
+    },
+    {
+      "term": "Funding",
+      "meaning": "The long-term source of money, taxes or user charges, used to pay the private partner."
+    },
+    {
+      "term": "Project finance",
+      "meaning": "A non-recourse or limited-recourse technique where lenders are repaid only from the project company's cash flows."
+    },
+    {
+      "term": "Ring-fencing",
+      "meaning": "Keeping all project cash flows, assets and liabilities inside the SPV, separate from the sponsors."
+    },
+    {
+      "term": "WACC",
+      "meaning": "Weighted average cost of capital: the weighted average of the cost of equity and the cost of debt."
+    },
+    {
+      "term": "DSCR",
+      "meaning": "Debt Service Cover Ratio: each year's operating cash flow before debt service divided by that year's debt service."
+    },
+    {
+      "term": "Bankability",
+      "meaning": "How willing lenders are to finance a project, and how much and on what terms they will lend."
+    },
+    {
+      "term": "Mezzanine or subordinated debt",
+      "meaning": "Quasi-equity that ranks above equity shares but below senior debt."
+    },
+    {
+      "term": "Mini-perm",
+      "meaning": "A short-term project finance loan designed to be refinanced, based on the project's own creditworthiness."
+    },
+    {
+      "term": "A/B loan",
+      "meaning": "An MDB lends the A loan and commercial banks lend the B loan, protected indirectly by the MDB's preferred creditor status."
+    }
+  ],
+  "summary": [
+    "Financing is up-front money to build; funding is the long-term payment by taxpayers or users.",
+    "Project finance is non-recourse (in practice limited-recourse): lenders rely only on ring-fenced SPV cash flows.",
+    "Equity is paid last and takes losses first, so it costs more than debt; more debt lowers the WACC.",
+    "Typical debt-to-equity is 60:40 to 80:20; availability PPPs support higher leverage than demand-risk projects.",
+    "Bankability is lenders' willingness to lend and is part of commercial feasibility; contracts cap leverage to avoid insolvency.",
+    "Funds: equity shares, quasi-equity, senior loans, project bonds and other structures, from banks, MDBs, ECAs and institutional investors.",
+    "Equity is always committed before bid submission; government may cap leverage but should not dictate lenders or instruments."
+  ],
+  "slides": [
+    {
+      "title": "Financing versus funding",
+      "points": [
+        "Financing: up-front money to build",
+        "Funding: long-term money to pay the partner",
+        "Funding comes from taxes or user charges"
+      ],
+      "narration": "Here is a pair of words that many people mix up: financing and funding. Financing is the money you need at the start to build the asset. In a PPP, the private partner raises it as debt and equity. Funding is the money that pays for everything over the long term. That comes from taxpayers in government-pays projects, or from users in user-pays projects. So private finance does not mean free for the public. Somebody always funds the project in the end. Keep this pair clear in your mind."
+    },
+    {
+      "title": "Project finance",
+      "points": [
+        "Lenders repaid only from the SPV's cash flows",
+        "Non-recourse, in practice limited recourse",
+        "Cash flows ring-fenced inside the SPV"
+      ],
+      "narration": "Most PPPs use project finance. The idea is simple. The SPV borrows, and the lenders can be repaid only from the project's own cash flows. They have no claim on the shareholders' other businesses. We call that non-recourse. In real life, especially in less mature markets, lenders often keep some claim on the sponsors during construction, so many people say limited recourse. All the project's money flows through the SPV and stays there. That is called ring-fencing, and it is why lenders watch the project so closely."
+    },
+    {
+      "title": "Why equity costs more",
+      "points": [
+        "Equity takes losses first, paid last",
+        "Debt has a fixed repayment schedule",
+        "More debt means lower WACC and lower payments"
+      ],
+      "narration": "Why do shareholders expect a higher return than banks? Because they stand at the back of the queue. Lenders get fixed payments of interest and principal. Shareholders get paid only after everyone else, and they lose their money first if things go wrong. More risk means a higher price. This is why debt matters to the government too. When a project uses more cheaper debt, its average cost of capital, the WACC, falls. That means lower payments from the government, or a better chance that user fees alone can pay for the project."
+    },
+    {
+      "title": "Gearing and cover ratios",
+      "points": [
+        "Typical debt to equity: 60:40 to 80:20",
+        "Stable availability PPPs support higher gearing",
+        "DSCR 1.2: cash covers debt service 1.2 times"
+      ],
+      "narration": "Gearing, or leverage, is the ratio of debt to equity. The typical PPP sits between sixty-forty and eighty-twenty, with some developed-country projects near ninety percent debt, and fifty to eighty percent in emerging markets. Stable cash flows allow more debt. So availability payment PPPs usually borrow more than projects with demand risk. Lenders test this with cover ratios. A debt service cover ratio of one point two means the cash available each year is one point two times the debt payment. That gives a safety cushion. Too much debt, however, risks insolvency, so contracts cap leverage."
+    },
+    {
+      "title": "Bankability",
+      "points": [
+        "Will lenders lend, how much, on what terms?",
+        "Part of commercial feasibility",
+        "Lenders check cash flows, contract, risks, termination"
+      ],
+      "narration": "Bankability means how willing lenders are to finance the project, and how much and on what terms. It is part of commercial feasibility, so the authority must care about it when preparing the project, not just the bidders. What do lenders look at? Reliable cash flows, a creditworthy government, a sound legal framework and an enforceable contract. They want step-in rights if things go wrong, strong contractors, clear and finite risks, and a termination regime that protects their debt. If these are missing, lenders walk away and the project cannot proceed."
+    },
+    {
+      "title": "Where the money comes from",
+      "points": [
+        "Equity: sponsors, infrastructure funds, sometimes government",
+        "Quasi-equity: subordinated or mezzanine debt",
+        "Senior debt: banks, MDBs, ECAs, bonds"
+      ],
+      "narration": "Let's map the sources. Equity usually comes from the builder or operator, sometimes joined by financial investors like infrastructure funds. Between equity and senior debt sits quasi-equity, such as subordinated or mezzanine debt, which is safer than shares but riskier than bank loans. Senior debt comes mostly from commercial banks, but also from development banks, export credit agencies and institutional investors buying project bonds. Short-term loans meant to be refinanced are called mini-perms when based on the project, and bridge loans when the sponsor guarantees them."
+    },
+    {
+      "title": "Structuring versus strategy",
+      "points": [
+        "Structuring: the mix and repayment profile",
+        "Strategy: how and when to approach lenders",
+        "Equity always committed before bid submission"
+      ],
+      "narration": "Two similar terms now. Financial structuring means designing the mix of funds: how much debt, which instruments, and what repayment profile, to maximise the equity return or offer a sharper price. Financial strategy means deciding how and when to approach lenders, for example a short-term loan refinanced later, or a long-term loan from day one. Remember that equity is always committed before the bid is submitted. And remember the government's role: it can cap leverage or ask for a lending competition, but it should not tell bidders which banks to use."
+    },
+    {
+      "title": "Development banks and export agencies",
+      "points": [
+        "MDBs: long-term loans, A/B loans, guarantees",
+        "ECAs: guarantees for their own countries' firms",
+        "Hybrid models use public or MDB money"
+      ],
+      "narration": "In emerging markets, multilateral development banks often make projects possible. They lend for longer than commercial banks and offer A/B loans, where the development bank lends the A part and commercial banks lend the B part under its protection. They also provide guarantees, including political risk cover, and advice. Export credit agencies support companies from their own country, mostly through guarantees, under the OECD Consensus rules. And when projects are not affordable or bankable, hybrid models use public or development bank money to support capital costs, operations, or the main construction works."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In the PPP Guide, what does 'funding' refer to?",
+      "options": [
+        "The up-front money needed to pay construction costs",
+        "The long-term source of money to pay the private partner, such as taxes or user charges",
+        "The equity contributed by the members of the consortium",
+        "The loans provided by multilateral development banks"
+      ],
+      "answer": 1,
+      "explanation": "Funding is the long-term source of money used to pay the private partner, from taxes in government-pays PPPs or user charges in user-pays PPPs. The up-front money for construction, including equity and loans, is financing."
+    },
+    {
+      "question": "What does 'non-recourse' mean in project finance?",
+      "options": [
+        "Lenders cannot claim against the shareholders if the project company defaults",
+        "The government guarantees the full repayment of the project debt",
+        "The project company never needs to repay the principal of the loan",
+        "The shareholders guarantee the debt through corporate guarantees"
+      ],
+      "answer": 0,
+      "explanation": "Non-recourse means lenders can be repaid only from the SPV's cash flows, with no claim against the equity investors. Sponsor guarantees describe corporate finance, which is the opposite approach."
+    },
+    {
+      "question": "What is the typical debt-to-equity ratio in a PPP financial structure, according to the Guide?",
+      "options": [
+        "Between 20:80 and 40:60",
+        "Exactly 50:50 in all projects",
+        "Between 60:40 and 80:20",
+        "Between 95:5 and 100:0"
+      ],
+      "answer": 2,
+      "explanation": "The Guide states that the typical debt-to-equity ratio is between 60:40 and 80:20. Some developed-country projects reach around 90 percent debt, but PPPs always require material equity."
+    },
+    {
+      "question": "A project has a Debt Service Cover Ratio (DSCR) of 1.2 in a given year. What does this mean?",
+      "options": [
+        "The project's debt is 1.2 times its equity",
+        "The loan will be repaid in 1.2 times the construction period",
+        "The equity return is 1.2 times the interest rate",
+        "The cash flow available for debt service is 1.2 times that year's debt service"
+      ],
+      "answer": 3,
+      "explanation": "The DSCR divides the year's operating cash flow before debt service by the debt service due that year. A ratio of 1.2 gives a cushion before the project cannot pay its debt; it says nothing directly about gearing or equity returns."
+    },
+    {
+      "question": "Consider these two statements. 1. Availability payment PPPs usually support higher leverage than projects with significant demand risk. 2. Because equity is subordinated to debt, equity requires a lower return than debt.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true because stable availability cash flows allow more debt. Statement 2 is false: equity bears losses first and is paid last, so it requires a higher return than debt."
+    },
+    {
+      "question": "A short-term loan, arranged on the basis of the project's own creditworthiness and intended to be refinanced later, is called a:",
+      "options": [
+        "bridge loan",
+        "mezzanine loan",
+        "mini-perm",
+        "project bond"
+      ],
+      "answer": 2,
+      "explanation": "A mini-perm is a short-term project finance loan meant to be refinanced. A bridge loan is also short-term but fully guaranteed by the sponsor rather than based on the project's creditworthiness."
+    },
+    {
+      "question": "Which best describes an A/B loan structure?",
+      "options": [
+        "The government lends the A loan and the sponsors lend a subordinated B loan",
+        "An MDB lends the A loan and commercial banks lend a B loan under its protection",
+        "Senior banks lend the A loan and bondholders refinance it later as the B loan",
+        "An export credit agency lends the A loan and insures the equity as the B loan"
+      ],
+      "answer": 1,
+      "explanation": "In an A/B loan, the MDB lends the A loan and syndicates the B loan to commercial lenders, who benefit from the MDB's preferred creditor status through a cross-default clause. It is not a government or sponsor loan."
+    },
+    {
+      "question": "Which best describes 'financial strategy' as defined in the Guide?",
+      "options": [
+        "Designing the mix of debt and equity to maximise the equity IRR",
+        "Choosing the payment mechanism for a government-pays PPP",
+        "Setting the maximum leverage allowed in the PPP contract",
+        "Deciding how and when to approach funders, especially lenders"
+      ],
+      "answer": 3,
+      "explanation": "The Guide defines financial strategy as the decision about how and when to approach funders, such as a short-term loan with refinancing versus a long-term loan. Designing the mix of funds is financial structuring."
+    },
+    {
+      "question": "Which restriction on the private partner's financing may the government reasonably include, according to the Guide?",
+      "options": [
+        "Insisting that all debt comes from local banks",
+        "Requiring bonds to be used instead of loans",
+        "Setting a maximum level of leverage",
+        "Selecting the lenders on the bidder's behalf"
+      ],
+      "answer": 2,
+      "explanation": "Financial structuring and strategy are the private investor's responsibility, so the government should not dictate lenders or instruments. It may set a maximum leverage, or require a lending competition when appropriate."
+    },
+    {
+      "question": "Consider these two statements. 1. Equity funds are always committed before bid submission. 2. Financial investors such as infrastructure funds usually prefer projects that are still under construction.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true: submitting a bid is a firm commitment to invest the equity. Statement 2 is false: financial investors prefer operational projects to avoid construction risk and receive distributions sooner."
+    }
+  ]
+}

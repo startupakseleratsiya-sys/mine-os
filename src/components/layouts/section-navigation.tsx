@@ -6,9 +6,7 @@ import { usePathname } from "next/navigation";
 const NAV_ITEMS = [
     { href: "/dashboard", label: "Kabinet" },
     { href: "/courses", label: "Kurslar" },
-    { href: "/exam", label: "Exam prep" },
     { href: "/tutor", label: "AI ustoz" },
-    { href: "/calculators", label: "Kalkulyator" },
     { href: "/progress", label: "Natijalar" },
 ];
 export function SectionNavigation({ mobile = false }: {

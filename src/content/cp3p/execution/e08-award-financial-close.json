@@ -1,0 +1,245 @@
+{
+  "id": "e08-award-financial-close",
+  "level": "execution",
+  "order": 8,
+  "title": "Negotiation, award, signature and financial close",
+  "minutes": 15,
+  "guideRef": "Ch 6 §10–§15",
+  "objectives": [
+    "Explain why post-bid negotiation with a preferred bidder may be needed, its risks, and how it should be managed.",
+    "Describe the award decision, the standstill period and how an authority should respond to challenges or to one or no valid bids.",
+    "List the typical prior conditions to contract signature and the consequences if the winner fails to meet them.",
+    "Distinguish an acceptable clarification from a forbidden material change before signature.",
+    "Explain financial close, how it differs from commercial close, and the authority's tasks around it and after the tender."
+  ],
+  "sections": [
+    {
+      "heading": "1. Negotiation with a preferred bidder",
+      "body": "After evaluation, the best-ranked bidder becomes the **preferred bidder**. It is not yet the successful bidder. Countries differ a lot in how far the government may **negotiate** with it before award.\n\n**Why negotiation may be needed.** The Guide gives four reasons:\n- The RFP or draft contract was **not clear**, and nobody noticed during clarifications. The bidder thought it was clear but read it differently from the government's intention.\n- The RFP or draft contract was **not acceptable** to bidders and their lenders, especially the proposed **risk allocation**.\n- The contract assumed bidders would meet the requirements in one way, but the preferred bidder chose a **different compliant solution**. Example: the RFP allows equity as share capital or subordinated debt, but the contract was drafted only for share capital, so some clauses must be adapted.\n- The proposal was clear enough to evaluate, but some **non-material details** are unclear or poorly worded.\n\n**Benefits and risks.** Negotiation can produce a mutually agreeable position and reduce later problems caused by unclear or inconsistent documents. But it is challenging and **creates a risk of reducing transparency**. It **should not change the original intent** of the draft contract in the RFP. The difficulty grows once a preferred bidder exists: it feels strong, **even if a reserve bidder is kept** as a fallback. The best protection is prevention: clear documents and an acceptable risk allocation from the start.\n\n**How to manage it.** If negotiation is needed and allowed, it must be carefully managed so that legitimate issues are resolved **without the preferred bidder gaining a better position at the government's expense**. Some governments **do not allow negotiation of contract terms** at any stage (though room may remain on bidders' proposals).\n\nAfter negotiation, good practice is to:\n1. Require the preferred bidder to **resubmit its proposal** reflecting the negotiated changes.\n2. Check that the updated proposal **still offers VfM** and that award to this bidder is still appropriate.\n3. Make sure the final negotiated offer **does not disadvantage the unselected bidders**, who might otherwise challenge the changes."
+    },
+    {
+      "heading": "2. The award decision and the standstill period",
+      "body": "Once evaluation and any negotiations are complete, the **relevant authority** makes the **award decision**, usually on the recommendation of the evaluation team.\n\nThe award may not be final straight away:\n- **Endorsement** at a higher level may be needed, for example by the cabinet.\n- Bidders may **challenge** the decision within a time limit called the **standstill period**. A standstill period, with challenges prohibited after it expires, is useful because it makes losing bidders challenge **promptly**, not strategically later. Under EU law, a **minimum standstill period of 10 days** is required between the award decision and the conclusion of the contract. An aggrieved bidder can now even seek to have the contract rendered ineffective (cancelled), not only compensation, if the rules were seriously breached.\n- In a few jurisdictions (uncommonly), validation by an attorney or general auditor, or even **ratification by the legislature**, may be needed.\n\nWhen endorsements are received and there are no appeals, the award becomes **definitive**. In some countries it is published in an official journal. The **awardee** is then called to sign the contract.\n\n**Delays in award.** If the award takes longer than the RFP timeline, the authority should check whether the winner can **still meet the contract milestones and its bid commitments**. Revised dates may be needed, but **substantial changes could let other bidders challenge** the award. The best mitigation is **realistic award timelines from the start**, and decision makers who understand the risks of delay.\n\n**Climate.** During tender and award, climate resilience must remain a core component. **Before award**, both parties must agree on **climate risk allocation**, including specific boundaries for when extreme climate events count as **force majeure**."
+    },
+    {
+      "heading": "3. Challenges and the one-bidder problem",
+      "body": "**Challenges.** The risk of a challenge is higher in PPPs than in conventional procurement. The authority must have sound processes and a **legal team and subject matter experts** ready to respond. Challenges can come after tender launch or after award. Challenges after award are usually based on **deviations from the evaluation and selection rules** in the RFP. A judge may then:\n- **reject** the challenge;\n- **temporarily suspend** the award to examine it more carefully;\n- declare the award **invalid**, which may lead to award to the **second-ranked bidder**; or\n- in the worst case, cause the process to be suspended and the project **retendered**.\n\n**No bidders.** If nobody bids, the process has clearly failed. If there is evidence that **lack of time** caused it, the authority may grant **more time**. Otherwise, the process is suspended and may be **retendered after adjusting** the structure or requirements, if this can be done without compromising VfM.\n\n**Bids received but all non-responsive.** This often reflects a lack of financial or commercial feasibility, for example a price ceiling that is too low. Authorities sometimes negotiate with the best proposer, but **redefining the project** (with reassessment) may be more appropriate.\n\n**Only one valid bid.** This puts the authority in a **weak bargaining position**, because there is no alternative bidder. It may signal a **poorly structured project** that is unlikely to succeed, or a sole bidder that is **overly ambitious** about what it can deliver. It can also happen when the RFP asks for an innovative approach to a **unique project with no precedent**. Responses include:\n- requiring a **minimum of two valid bids** to award;\n- **limiting what can be negotiated**. In the Philippines, direct negotiation with a sole bidder is allowed only on the financial proposal and rate of return, so the risk allocation cannot be renegotiated.\n\nThe Guide's good practice: the authority should **reserve the right to terminate the tender if only one valid bid is received**, and then retender or seek an alternative solution. A valid sole bid can still offer very poor VfM."
+    },
+    {
+      "heading": "4. Contract signature: prior conditions and clarifications",
+      "body": "After award, the successful bidder must **sign the contract within the period set in the RFP**. Before that deadline, it must meet the **prior conditions** in the RFP. Typical ones:\n- **Establishing the SPV** (Special Purpose Vehicle), the company that will be the concessionaire.\n- **Contracting insurance** (or proving it is available on the required terms) and providing any **performance guarantees** in favour of the authority.\n- **Financial close**, in some jurisdictions, where it happens at the same time as contract signature. In others, signature waits until all other preconditions to financial close are met.\n\nOnce the conditions are met, the contract is signed **with the SPV**, and the winner officially becomes the contractor.\n\n**If the winner fails.** If it cannot meet the conditions before the deadline, or refuses to sign, the authority may apply **liquidated damages** and/or **call the bid bond** (if one was required). It will usually then **call the next-ranked bidder** to sign, or it may reissue the tender.\n\n**Clarification versus change.** Before signature, both sides often agree **minor changes** to fix mistakes or clarify ambiguities. Some practices also copy specific features of the winning proposal into the contract; in others, the offer is directly part of the contract. However, in most jurisdictions, any **material change that could have made another bidder bid differently** (if it had known) is **forbidden**. The line between a clarification and a change can be subtle. The authority should carefully assess changes requested by the preferred bidder, **even at the risk of the contract not being signed and a retender**."
+    },
+    {
+      "heading": "5. Publishing the contract and debriefing bidders",
+      "body": "**Will the contract be made public?** Transparency and proactive disclosure bring significant benefits, and in some jurisdictions publishing the signed contract is **compulsory**. When the contract is published:\n- It is good practice to **redact genuinely proprietary or commercially sensitive information** that would disadvantage the winner if competitors saw it. Failing to redact may **deter companies from bidding** in future.\n- Some material may be **exempt for public interest reasons**, for example in defence or prison projects.\n- Publishing the contract also **deflects criticism** about the transparency of the procurement.\n\n**Debriefing.** Good practice is to debrief **both successful and unsuccessful bidders**, **after the contract has been executed**. The debriefing should **not focus on the relative merits of the bids**. It should give each bidder general information on how to better meet the government's expectations in future projects."
+    },
+    {
+      "heading": "6. Financial close",
+      "body": "**Commercial close** is the signature of the PPP contract. **Financial close** means that the **financing documents have been signed and the prior conditions for the availability of financing have been fulfilled**, so that money can actually flow. Market practice varies widely:\n- In some jurisdictions (for example Spain), the contract gives the private partner a **limited time after signature** to arrange finance and sign the financial agreements, from as little as **6 months to as much as 18 months**.\n- In other jurisdictions and processes (typically negotiated or dialogue processes), bidders have **arranged finance before award**, and financial close follows commercial close quickly, from a few hours to several weeks.\n\nThe Guide's examples show the range: the Ravenhall Prison in Victoria, Australia, reached financial close **1 day** after signing; a container terminal in India took **180 days**; an airport terminal in the Philippines took **244 days**.\n\n**The authority's tasks at financial close**, whenever it happens:\n- **Validate the financial agreements**, to check they do not contradict the contract or create any direct risk or extra responsibility for the authority that the contract did not foresee.\n- Often (especially in emerging markets) **acknowledge the lenders' rights** agreed in the contract, such as **step-in rights** to cure defaults.\n- Possibly make **direct representations to lenders** through **direct agreements or direct letters**. These are not necessarily guarantees, but they give lenders comfort that they can exercise their rights. Direct guarantees to lenders may also appear in some contracts.\n\nDuring this period, the authority and private partner are largely **aligned**: both want a prompt financial close so that finance is available. One more issue: some contracts use **base interest rate risk-sharing**, where the authority bears part or all of the risk of base rate changes before financial close. For **very long** financial close periods, the authority should check that project **feasibility has not been damaged** by the delay."
+    },
+    {
+      "heading": "7. Integrity of the process and outcomes of the phase",
+      "body": "**Oversight.** Some governments provide **independent oversight while the tender is running**. Australia and New Zealand appoint a **probity practitioner**: independent of the project team, usually with a legal or accounting background, appointed per project. The probity practitioner monitors the process, **receives bidders' complaints during the process** (so issues are resolved then, not in a challenge after award), attends critical stages such as bid opening and evaluation committee meetings, and finally **confirms that the evaluation met the requirements**. The Philippines is introducing a similar process. In many countries, **auditors-general** also do **ex-post** audit reviews of tenders.\n\n**Anti-corruption.** The tender terms should put the **onus on bidders** to avoid corrupt practices and let the authority take remedial action if a bidder is corrupt:\n- cancel the bidder's appointment as preferred bidder or contractor;\n- **call the bid bond**;\n- **sue for damages**, including the cost of rerunning the procurement.\n\n**Outcomes of the phase.** At the end, the authority has an **enforceable and effective contract**, executed after the prior conditions were met. Financing is either arranged in this phase (as a prior condition to signature) or before construction starts, because investors normally only start work after financial close.\n\nGood practice is a **lessons-learned review** of the tender, shared with the central PPP agency and other procuring agencies, and sometimes partly with the public.\n\nThe end of the tender is the **start of the contract's life**. A **contract management strategy must be established at contract signature**, and preparation for it usually runs in parallel with signature and even with the bid stage. The next lesson covers this contract management framework."
+    }
+  ],
+  "example": {
+    "title": "Illustrative case: the Northgate Water Plant award",
+    "body": "Imagine a city that has evaluated three bids for a water treatment PPP. Consortium Aqua ranks first. During negotiations, Aqua asks to change the termination clause so that the city would compensate lenders for construction cost overruns. The city's lawyers note that other bidders priced their bids on the original clause. This is a material change that could have changed how others bid, so the city refuses it and keeps the original risk allocation. Aqua then clarifies two unclear definitions, which is acceptable.\n\nThe city asks Aqua to resubmit its amended proposal and confirms it still offers VfM. The award decision is published, and a 10-day standstill period passes without challenge. Aqua must now create the SPV, provide insurance and a performance guarantee within 60 days. On day 58 it admits it cannot provide the guarantee. The city calls Aqua's bid bond and invites the second-ranked consortium to sign on the terms of its own bid. After signature, the city validates the lenders' financing documents, signs a direct agreement confirming the lenders' step-in rights, and debriefs all three bidders."
+  },
+  "examTraps": [
+    {
+      "trap": "Treating commercial close and financial close as the same event.",
+      "fix": "Commercial close is contract signature. Financial close is when financing documents are signed and the conditions for drawing the funds are met. They may be simultaneous or months apart, depending on the jurisdiction."
+    },
+    {
+      "trap": "Assuming a clarification and a change are the same, so any agreed wording is fine before signature.",
+      "fix": "Minor changes that correct mistakes or clarify ambiguities are acceptable. A material change that could have made another bidder bid differently is forbidden in most jurisdictions."
+    },
+    {
+      "trap": "Thinking a sole valid bid must be accepted because it complies.",
+      "fix": "The authority is in a weak bargaining position and the bid may offer poor VfM. Good practice is to reserve the right to terminate the tender and retender or find an alternative."
+    },
+    {
+      "trap": "Believing negotiation with the preferred bidder ends the process.",
+      "fix": "After negotiation, the bidder should resubmit its amended proposal, and the authority should recheck VfM and make sure unselected bidders are not disadvantaged."
+    },
+    {
+      "trap": "Confusing a probity practitioner with an auditor-general.",
+      "fix": "A probity practitioner oversees the tender while it runs and receives complaints in real time. An auditor-general usually reviews the tender after the event (ex-post)."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Preferred bidder", "meaning": "The best-ranked bidder after evaluation, which may negotiate with the government but has not yet been awarded the contract." },
+    { "term": "Reserve bidder", "meaning": "A lower-ranked bidder kept as a fallback in case negotiations with the preferred bidder fail." },
+    { "term": "Standstill period", "meaning": "A time limit after the award decision during which losing bidders may challenge it; in the EU at least 10 days before the contract is concluded." },
+    { "term": "Prior conditions", "meaning": "Requirements the winner must meet before signature, such as setting up the SPV, insurance, guarantees and sometimes financial close." },
+    { "term": "Bid bond", "meaning": "A guarantee submitted with a bid that the authority can call if the winner fails to sign or engages in corrupt practices." },
+    { "term": "Commercial close", "meaning": "The signature of the PPP contract." },
+    { "term": "Financial close", "meaning": "The point when financing documents are signed and the prior conditions for the availability of finance are fulfilled." },
+    { "term": "Direct agreement", "meaning": "A contract or letter between the authority and the lenders that gives lenders comfort they can exercise their rights, such as step-in." },
+    { "term": "Probity practitioner", "meaning": "An independent person who monitors a tender while it runs and confirms it met the required standards." }
+  ],
+  "summary": [
+    "Post-bid negotiation can fix real problems but must not change the contract's original intent or improve the bidder's position at the government's expense.",
+    "After negotiation: resubmit the proposal, recheck VfM, and protect unselected bidders.",
+    "The award becomes definitive after any endorsement and the standstill period; the EU minimum is 10 days.",
+    "With only one valid bid, the authority should reserve the right to terminate and retender.",
+    "Prior conditions include the SPV, insurance, guarantees and sometimes financial close; failure lets the authority call the bid bond and go to the next-ranked bidder.",
+    "Financial close means financing is signed and available; the authority validates the finance documents and may sign direct agreements with lenders.",
+    "The tender ends with an enforceable contract, a lessons-learned review, and the start of contract management."
+  ],
+  "slides": [
+    {
+      "title": "Negotiating with the preferred bidder",
+      "points": ["Fix unclear or unacceptable documents", "Never change the contract's original intent", "Resubmit, recheck VfM, protect other bidders"],
+      "narration": "Once evaluation is done, we have a preferred bidder. Sometimes we need to negotiate. Perhaps the contract was unclear, perhaps lenders cannot accept part of the risk allocation, or the bidder chose a different but compliant solution. Negotiation can fix these problems. But be careful: the preferred bidder knows it is in a strong position. The negotiation must not change the original intent of the contract. Afterwards, ask for a resubmitted proposal, check value for money again, and make sure the losing bidders are not disadvantaged."
+    },
+    {
+      "title": "From decision to definitive award",
+      "points": ["Award usually follows evaluation team's recommendation", "Standstill period allows prompt challenges", "Plan realistic timelines to avoid delay"],
+      "narration": "Next comes the award decision, usually based on the evaluation team's recommendation. It may not be final at once. A higher body, such as the cabinet, may need to endorse it, and losing bidders may challenge it during a standstill period. In the European Union, this is at least ten days. The standstill period is useful, because it forces challenges to come quickly. And remember: if the award is delayed, check that the winner can still meet its commitments. Realistic timelines from the start are the best protection."
+    },
+    {
+      "title": "Challenges and sole bidders",
+      "points": ["Judge may reject, suspend or annul", "No bids: more time or retender", "One valid bid: reserve right to terminate"],
+      "narration": "Challenges are more likely in PPPs, so the authority needs lawyers and experts ready. A judge may reject the challenge, suspend the award, or declare it invalid, which could mean the second-ranked bidder wins, or even a retender. What if nobody bids? If time was the problem, give more time; otherwise suspend and retender after adjusting the project. And if only one valid bid arrives, the authority is in a weak bargaining position. Good practice is to reserve the right to terminate and retender."
+    },
+    {
+      "title": "Signing the contract",
+      "points": ["Prior conditions: SPV, insurance, guarantees", "Sometimes financial close at signature", "Failure: bid bond called, next bidder invited"],
+      "narration": "Before signing, the winner must meet the prior conditions in the RFP. Typically, it sets up the special purpose vehicle, arranges insurance, and provides performance guarantees. In some countries, financial close is also required at the same time. The contract is then signed with the SPV. But what if the winner cannot meet the conditions, or refuses to sign? The authority can apply liquidated damages or call the bid bond, and usually invites the next-ranked bidder to sign instead."
+    },
+    {
+      "title": "Clarification or change?",
+      "points": ["Minor fixes and clarifications are acceptable", "Material changes that affect competition are forbidden", "Assess carefully, even risking a retender"],
+      "narration": "Here's a favourite exam topic. Before signature, the parties often tidy up the contract. Correcting a mistake or clarifying an unclear clause is fine. But a material change, one that might have made another bidder bid differently if it had known, is forbidden in most jurisdictions. The border can be subtle. So the authority must assess every change the preferred bidder requests very carefully, even if refusing means the contract might not be signed and the project has to be retendered."
+    },
+    {
+      "title": "Disclosure and debriefing",
+      "points": ["Publish contracts, redact genuine commercial secrets", "Some material exempt for public interest", "Debrief all bidders after execution"],
+      "narration": "Many jurisdictions publish the signed contract, and some make it compulsory. Publishing builds trust and deflects criticism. But redact information that is genuinely proprietary or commercially sensitive, otherwise good companies may stop bidding. Some material, for example in defence or prisons, may be withheld for public interest reasons. After the contract is signed, debrief both the winner and the losers. Don't compare the bids. Instead, help each bidder understand how to meet government expectations better next time."
+    },
+    {
+      "title": "Financial close",
+      "points": ["Finance signed and conditions for drawdown met", "Authority validates finance documents", "Direct agreements give lenders comfort"],
+      "narration": "Financial close is when the financing documents are signed and the conditions for using the money are met. In some countries it happens on the same day as contract signature. In others, the private partner gets six to eighteen months afterwards. Either way, the authority has work to do. It checks that the finance documents don't create new risks for the government, it may confirm lenders' step-in rights, and it may sign direct agreements with the lenders. Both sides want financial close quickly."
+    },
+    {
+      "title": "Integrity and next steps",
+      "points": ["Probity practitioner oversees the live process", "Remedies for corruption: cancel, bond, damages", "Lessons learned; contract management begins"],
+      "narration": "To protect integrity, Australia and New Zealand use a probity practitioner, an independent person who watches the tender while it runs, hears complaints, and confirms the process was proper. Auditors-general often review afterwards. If a bidder acts corruptly, the authority should be able to cancel its appointment, call its bid bond, and sue for damages. At the end of the phase, hold a lessons-learned review. And remember: signature is not the finish line. It is the start of contract management."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "After evaluation, the preferred bidder chose to invest part of its equity as subordinated debt, which the RFP allowed. The draft contract was written assuming only share capital. What is the most appropriate response?",
+      "options": [
+        "Disqualify the bidder for not following the contract assumptions",
+        "Award to the reserve bidder, whose equity is share capital only",
+        "Negotiate so the relevant clauses also apply properly to subordinated debt",
+        "Sign the contract unchanged and resolve the issue during operations"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives this exact situation as a legitimate reason for post-bid negotiation: a compliant solution that the contract wording did not anticipate. Leaving it unresolved risks later problems, and the bidder did nothing wrong."
+    },
+    {
+      "question": "A procuring authority has finished negotiations with its preferred bidder. Several clauses were amended. What should it do next, according to good practice?",
+      "options": [
+        "Ask the bidder to resubmit its amended proposal and check it still offers VfM",
+        "Sign immediately, since the negotiation outcome is binding",
+        "Reopen negotiations with all bidders on the amended clauses",
+        "Publish the negotiated clauses and wait for bidder comments"
+      ],
+      "answer": 0,
+      "explanation": "Good practice is to require the preferred bidder to resubmit its proposal reflecting the negotiations, then assess whether it still offers VfM and whether award remains appropriate, without disadvantaging unselected bidders."
+    },
+    {
+      "question": "Why is a standstill period, after which challenges are prohibited, considered beneficial?",
+      "options": [
+        "It gives the winner time to arrange financial close",
+        "It lets the authority renegotiate the contract with the winner",
+        "It replaces the need for a legal team to defend the award",
+        "It ensures challenges are made promptly and not strategically delayed"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a standstill period with a cut-off makes losing bidders challenge promptly instead of deferring challenges strategically. It is not a period for negotiation or finance, and the authority still needs legal resources."
+    },
+    {
+      "question": "An RFP set award for March, but internal approvals push the award to November. What should the procuring authority consider?",
+      "options": [
+        "Nothing, as the winning bid remains valid indefinitely",
+        "Whether the winner can still meet its milestones and bid commitments",
+        "Cancelling the tender because the RFP timeline was missed",
+        "Automatically extending all contract dates by eight months"
+      ],
+      "answer": 1,
+      "explanation": "When award is delayed beyond the RFP timeline, the authority should check whether the winner can still meet milestones and commitments. Revised dates may be needed, but substantial changes could invite challenges, so automatic extensions are unwise."
+    },
+    {
+      "question": "Only one bidder submits a valid bid. The price is high and the procuring authority doubts it offers VfM. What should the authority ideally have done to protect itself?",
+      "options": [
+        "Reserved the right in the tender to terminate the process if only one valid bid is received",
+        "Promised in the RFP to accept any compliant sole bid",
+        "Allowed the sole bidder to renegotiate the risk allocation",
+        "Required the sole bidder to lower its price by a fixed percentage"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says it is good practice to reserve the right to terminate if only one valid bid is received, then retender or find an alternative. Negotiating with a sole bidder puts the authority in a weak position, especially on risk allocation."
+    },
+    {
+      "question": "The successful bidder fails to provide the performance guarantee required as a prior condition and misses the signature deadline. What is the authority typically able to do?",
+      "options": [
+        "Sign the contract anyway and add the guarantee later",
+        "Extend the deadline indefinitely until the guarantee is ready",
+        "Call the bid bond and invite the next-ranked bidder to sign",
+        "Renegotiate the contract to remove the guarantee requirement"
+      ],
+      "answer": 2,
+      "explanation": "If the winner cannot meet the prior conditions or refuses to sign, the authority may apply liquidated damages and/or call the bid bond, and usually calls the next-ranked bidder or reissues the tender. Removing the requirement would be a material change."
+    },
+    {
+      "question": "Before signature, the preferred bidder asks to reduce the availability deduction rates in the contract. Other bidders priced their bids on the original rates. How should the authority treat this request?",
+      "options": [
+        "As a clarification, since it only affects numbers in a schedule",
+        "As acceptable, because the bidder has already been awarded",
+        "As acceptable if the bidder offers a small price reduction in return",
+        "As a material change that is generally forbidden"
+      ],
+      "answer": 3,
+      "explanation": "A change that could have made other bidders bid differently is material and is forbidden in most jurisdictions. The authority should assess it carefully even at the risk of the contract not being signed and a retender."
+    },
+    {
+      "question": "Consider two statements about financial close. 1: Financial close means only that the financing documents have been signed. 2: In some jurisdictions, financial close happens at the same time as contract signature.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: financial close also requires that the prior conditions for the availability of financing are fulfilled. Statement 2 is true: in some jurisdictions financial close is simultaneous with commercial close."
+    },
+    {
+      "question": "At financial close, the lenders send the procuring authority their loan documents. What should the authority do with them?",
+      "options": [
+        "Validate that they do not contradict the contract or add risk to the authority",
+        "Approve the interest rates and the lenders' margins",
+        "Refuse to review them, since financing is purely a private risk",
+        "Guarantee the loans so that financial close is reached quickly"
+      ],
+      "answer": 0,
+      "explanation": "The authority must validate that the financial agreements do not contravene the contract or create direct risks or responsibilities not foreseen in it. It does not set lenders' pricing, and giving guarantees is not required."
+    },
+    {
+      "question": "A government wants an independent person to watch its tender while it is running, receive bidder complaints and confirm the evaluation followed the rules. Which role fits?",
+      "options": [
+        "An auditor-general conducting an ex-post review",
+        "The contract manager of the future project",
+        "A probity practitioner appointed for the project",
+        "The lenders' technical adviser"
+      ],
+      "answer": 2,
+      "explanation": "A probity practitioner is independent of the project team, monitors the live process, receives complaints and confirms the evaluation met the requirements. Auditors-general usually review after the tender (ex-post)."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "e12-operations-monitoring",
+  "level": "execution",
+  "order": 12,
+  "title": "Operations stage: performance monitoring and underperformance",
+  "minutes": 15,
+  "guideRef": "Ch 7 §12–§15",
+  "objectives": [
+    "Plan the transition from construction to operations using a Transition Plan",
+    "Explain how contract management changes in the operations stage and why operations-stage PPPs fail",
+    "Describe the three elements of a performance monitoring methodology and the three levels of monitoring",
+    "Apply deductions, penalties, performance points and ratchet mechanisms in proportion to the failure",
+    "Use incentives and variations to encourage performance improvement and added value"
+  ],
+  "sections": [
+    {
+      "heading": "1. The handover from building to operating",
+      "body": "The **Operations Stage** runs from the moment the asset is built and commissioned until it is handed back to the Procuring Authority. The basic contract management mechanisms are the same as in construction, but the focus changes.\n\nThe move from construction to operations is risky. Almost all the professionals who designed, built and checked the asset leave, and **a new team** starts to operate it. The new staff often do not know why systems were designed the way they were. Assets also suffer from **performance decay**: buildings such as offices, schools and hospitals can lose as much as **30 percent of their efficiency in the first four years** of operation.\n\nThe Guide notes a weakness in many projects: the **facility manager** is rarely involved during design, although this person must later run the building. The facility manager should help weigh construction costs against operating and maintenance costs. Sometimes spending more on better construction saves money over the life of the asset.\n\nTo manage this risk, the authority should prepare a **Transition Plan**, with dependencies, timescales and resources, and update it regularly. It covers, where relevant:\n- the government resources that will be in place (who, what, when);\n- the move to suitable accommodation and equipment;\n- a **help desk**, the contact point for users to report problems;\n- contact lists and agreed lines of communication;\n- a familiarisation programme so users know what services to expect;\n- key milestones and a **data room** (library) of project information;\n- **trial running** of the payment mechanism and performance monitoring system;\n- confirmation that the facility management contractor can deliver the services.\n\nThe plan links to the communications plan. Above all, the authority must **not delay the contractor** by its own action or inaction. It needs staff and systems ready, and a full-time, respected senior person on site through the transition."
+    },
+    {
+      "heading": "2. Why contract management matters in operations",
+      "body": "The governance and structure of contract management stay the same, but the team's key actions change. Now they include managing payment regimes (including insurance and utilities), acting on customer surveys, seeking continuous improvement and, above all, **performance monitoring**. Good operations-stage contract management should maximise contractual performance, optimise project performance, support improvement and innovation, ensure VfM, manage commercial risks, be **auditable**, build good working relationships, allow flexibility, and make roles and accountability clear.\n\nThe Guide lists what goes wrong without an adequate system:\n1. **The authority pays for services it does not receive**, or that are poor. Weak monitoring leads to complacency, especially in accommodation projects where the authority is far from the users.\n2. **The project does not perform as expected.** In transport, high charges or poor service can deter users. This risk is highest where the authority has taken some **demand risk**, for example through a minimum revenue guarantee.\n3. **The risk balance shifts back to government.** If officials make their own minor modifications outside the contractual process, they may take back risk on lifecycle costs and asset condition. This usually happens through lack of knowledge.\n4. **The authority fails to foresee operator (O&M contractor) failure**, such as insolvency or a change of ownership, and has no contingency measures.\n5. **The relationship with the O&M contractor breaks down** through misunderstandings or failure to win stakeholder buy-in.\n\nReal cancellations illustrate these points. The London Underground PPP ended early, with problems of consortium management, lack of control and inappropriate risk transfer. In Victoria's trams and trains franchises, the authority's risk monitor failed to spot declining finances. In Metro Manila, a currency crisis pushed up the water concessionaire's debts, the government froze tariff increases, and the operator gave up its rights, citing breach of the tariff revision terms. In Dar es Salaam, weak risk mitigation, inefficient contract monitoring and improper bidding procedures led to termination within two years."
+    },
+    {
+      "heading": "3. What the team does day to day",
+      "body": "In operations, the key activities are: monitoring delivery and performance against **service outputs**, managing changes, managing disputes, and preparing for handover at the end.\n\n**Stakeholders change.** On the private side, construction companies move from building to maintenance and risk mitigation, and may sell their equity. The **operator** becomes central, focused on performance and asset management. On the public side, the authority moves from construction oversight to **performance oversight**, and may become a long-term agency such as a transit authority. The biggest new stakeholders are the **users**. In user-fee projects, user numbers also affect wear and lifecycle costs. The **independent engineer or certifier** usually leaves, so the two parties now deal with each other directly.\n\n**Monitoring tools** include self-reporting, independent audits, regular meetings and reports, and intelligent systems that automate data collection. The system mainly tracks **service performance**, but also other breaches.\n\nIf performance falls short, **deductions** (also called abatements) or **penalties** apply. In authority-pays contracts, the usual consequence is a payment reduction plus **performance points**. Direct penalties are used in some user-pays projects. The team must understand the exact method in its own contract.\n\n**Changes.** Variation clauses let the authority respond to new policy or a redefined need. They typically give the authority a right to request variations, limit their size, set a response process, test VfM, allocate costs and savings, and may offer a streamlined route for small changes. But the change process must **not be used to bypass** normal government scrutiny: every change must offer VfM. Too much flexibility raises risk for bidders and weakens competition. Changes *not* provided for in the contract are renegotiations and must follow the governing legislation and the Contract Management Manual. Disputes follow the approaches covered for construction."
+    },
+    {
+      "heading": "4. Breaches, deductions and performance points",
+      "body": "A **contract breach** is a failure to observe any provision of the contract. The Guide separates:\n- **service performance breaches**: not meeting service targets or standards; and\n- **other breaches**: failures to observe any other provision of the contract.\n\nThe distinction matters for the consequence:\n\n| Contract type | Typical financial consequence |\n|---|---|\n| Authority-pays | **Payment deductions (abatements)** from the unitary payment |\n| User-pays | **Direct penalties** or liquidated damages through a **penalty system** |\n\nThe principle is simple: **the worse the performance, and the longer it lasts, the larger the penalty**. Core areas attract bigger consequences. In a hospital, an unavailable operating theatre costs much more than a failure in ward food quality. In user-pays projects, the authority can deduct from any payment it makes (such as a minimum revenue guarantee or operating subsidy). If there is no payment stream, a **performance reserve account**, funded by the Project Company but controlled by the authority, can be used.\n\nMoney alone is not enough. The authority also **tracks breaches**, usually through a **performance points regime**. Each breach earns points. When points reach set thresholds, the authority can apply stronger remedies: more audits at the Project Company's cost, higher deductions through a **ratchet**, step-in, or finally **termination** for persistent breach. Because termination is the last resort, thresholds are set high, and a **remedy period** normally comes before termination even when the threshold is reached."
+    },
+    {
+      "heading": "5. The performance monitoring methodology",
+      "body": "A PPP contract's **performance management model** has three key elements:\n1. **The required level of performance**: standards that are reasonable and **objectively measurable**, linked to the output specifications.\n2. **The means of monitoring**, at three levels:\n   - systematic **self-monitoring** by the Project Company through its **Quality Management System (QMS)**;\n   - **review of that QMS** by the authority or an independent third party;\n   - **end-user feedback** on service quality.\n   The contract must also say how performance is reported.\n3. **The consequences of failure**: a range of responses from formal warnings, to penalties or deductions, to termination for Project Company default.\n\nIf the Project Company is prevented from performing by events outside its control defined in the contract, or by the authority itself, the penalty regime should give **appropriate relief**, just as with relief and compensation events in construction.\n\nThe monitoring system should let the team: check that all performance clauses are acted on; gather feedback from users and stakeholders; review third-party monitoring reports; inspect deliverables so that inferior goods or services are not accepted; and keep full documentation.\n\n**Settling-in.** The contract should state when full performance must be reached. In IT projects, some early problems are expected, so some flexibility may be allowed. In **roads and prisons**, where safety is crucial, full performance is required **from the outset**, even if the facility opens in phases. In phased openings, authority payments should **ramp up proportionately**.\n\n**Proportionate response.** Corrective action must follow the contract and match the severity of the failure. Being **too rigid** can endanger service to users; being **too lenient** encourages more breaches."
+    },
+    {
+      "heading": "6. Quality control, quality assurance and hard-to-measure services",
+      "body": "The contract should define performance through **output specifications, not inputs**. This leaves room for innovation and supports risk transfer. Performance levels are worked out during the competitive procurement, and the negotiated levels become a key part of the risk transfer mechanism.\n\nMonitoring requirements are set in the **Request for Proposals**, and bidders include a full methodology in their bids. Usually this means substantial **self-monitoring by the Project Company**, reviewed periodically by the authority. The authority can do extra monitoring where the project needs it: for example, clinical staff in a hospital may report failures. Keep two things apart: the Project Company's own monitoring system, which is its primary responsibility and the basis for calculating deductions; and the authority's own checks, which it carries out as and when the contract allows.\n\nObjective criteria should be used wherever possible. Some qualities matter to users but are hard to measure, such as staff helpfulness or catering quality. The Guide describes three approaches:\n\n| Approach | How it works | Watch out for |\n|---|---|---|\n| **End-user satisfaction surveys** | Ask users; if an area falls below the agreed level, require a **rectification plan** | Based on perceptions, so hard to link to payment; useful over time |\n| **Mystery shoppers** | Qualified individuals test the service using the same objective standards | Removes the perception problem |\n| **Sampling** | Check a sample of services | Sample size and frequency must be **agreed before signature** |\n\nSome projects suit none of these approaches, but service quality must always be considered in detail and written into the contract."
+    },
+    {
+      "heading": "7. Setting penalties and rewarding improvement",
+      "body": "Penalisations must be **appropriate and proportional**. Their value should be set on **commercial considerations, not on the cost of providing the service**. The contract should contain a schedule of penalties for each failure, or a clear deduction formula in the payment mechanism.\n\nThere must be a clear link between seriousness and financial impact. Failing to clean exterior hospital windows should cost less than failing to keep an operating theatre in the specified condition. Context matters too: serving food in poor condition is worse than serving it without a uniform. Deductions may start on the **first failure**, or only once performance falls **below a set level**.\n\nA **ratchet mechanism** increases the deduction for a failure that recurs too often in a set period. For example, if the normal deduction is x, each failure above the allowed number might cost x+3. Ratchets help when single deductions are too small to motivate action, and they make persistent poor performance hard for subcontractors and funders to ignore.\n\nImprovement is not about squeezing the Project Company; it is about **working together** for quality and VfM. The payment mechanism already gives some incentive: with fixed prices, the Project Company earns more by being efficient; with shared profits, it is motivated to be economical. The authority may also reward **early service commencement** if affordable and VfM.\n\nThe authority should **not keep all the benefit** of improvements, or the Project Company will stop proposing them. Incentives can be financial or non-financial, must be affordable, and should be introduced through the **variation procedures**. They should reward **added value**: something genuinely worthwhile beyond the original contract, such as removing services no longer needed, new cheaper technology, better working practices, or innovation."
+    }
+  ],
+  "example": {
+    "title": "Imagine: the first year of the Northgate Schools PPP",
+    "body": "Imagine a city that has just opened six PPP schools under an availability payment contract.\n\nBefore opening, the city followed its **Transition Plan**: it set up a help desk, trial-ran the payment mechanism, and placed a respected senior officer on site. Even so, in the first months the new facilities team does not understand the heating controls, so classrooms are cold. The Project Company's **self-monitoring** reports the failures, and the city's team reviews the QMS records.\n\nThe contract classes heating in classrooms as a core service. Each failure brings a **deduction** and **performance points**. When cold-room failures happen more than the allowed number of times in a month, the **ratchet** increases the deduction. The points approach the threshold for extra audits at the Project Company's expense. The Project Company then brings back the original design engineers to retrain staff, and performance recovers.\n\nParents also complain about unfriendly reception staff. This is hard to measure objectively, so the city uses an agreed **satisfaction survey**. The results fall below the agreed level, and the Project Company must produce a **rectification plan**.\n\nMeanwhile, a head teacher asks the facilities manager to move some walls informally. The city's contract manager stops this and uses the **variation procedure**, to avoid taking back risk on lifecycle costs."
+  },
+  "examTraps": [
+    {
+      "trap": "Using deductions and penalties as if they were the same thing",
+      "fix": "Deductions (abatements) reduce the unitary payment in authority-pays PPPs. In user-pays PPPs the authority usually pays nothing to deduct from, so the consequence is most often a direct penalty or liquidated damages through the penalty system."
+    },
+    {
+      "trap": "Setting penalty values by the cost of the failed service",
+      "fix": "The Guide says penalisation values should be set on commercial considerations, not on the cost of providing the service, and scaled to the seriousness of the failure."
+    },
+    {
+      "trap": "Thinking reaching the performance points threshold means instant termination",
+      "fix": "Thresholds are set high, termination is the last resort, and a remedy period normally comes first, even when the threshold is reached."
+    },
+    {
+      "trap": "Assuming a settling-in period always applies",
+      "fix": "Flexibility may suit IT projects, but in roads and prisons, where safety is crucial, full performance is required from the outset, with payments ramped up for phased openings."
+    },
+    {
+      "trap": "Treating informal changes by officials as harmless",
+      "fix": "Modifications made outside the contractual variation process can shift risk back to the authority, for example on lifecycle costs and asset condition."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Transition Plan",
+      "meaning": "The authority's plan for moving from construction to operations, covering resources, help desk, communications, data room and trial runs."
+    },
+    {
+      "term": "Performance decay",
+      "meaning": "The natural decline in an asset's efficiency after opening, up to 30 percent in the first four years in some buildings."
+    },
+    {
+      "term": "Deduction (abatement)",
+      "meaning": "A reduction in the authority's payment when the Project Company fails to meet availability or performance standards."
+    },
+    {
+      "term": "Performance points regime",
+      "meaning": "A system that records breaches as points and triggers stronger remedies when thresholds are reached."
+    },
+    {
+      "term": "Ratchet mechanism",
+      "meaning": "A rule that increases the deduction for a failure that repeats too often within a set period."
+    },
+    {
+      "term": "Quality Management System (QMS)",
+      "meaning": "The Project Company's system for self-monitoring its performance, reviewed by the authority or a third party."
+    },
+    {
+      "term": "Mystery shopper",
+      "meaning": "A qualified person who tests a service using the same objective standards each time."
+    },
+    {
+      "term": "Performance reserve account",
+      "meaning": "An account funded by the Project Company but controlled by the authority, used for penalties where there is no payment stream."
+    },
+    {
+      "term": "Added value",
+      "meaning": "Something genuinely worthwhile to the authority beyond what the original contract envisaged, which incentives should reward."
+    }
+  ],
+  "summary": [
+    "The staff change at handover and performance decay make the transition to operations a major risk; manage it with a Transition Plan.",
+    "Without good monitoring, the authority may pay for poor services or take back transferred risk.",
+    "The monitoring model has three elements: required level, means of monitoring, and consequences of failure.",
+    "Monitoring happens at three levels: Project Company self-monitoring (QMS), review of the QMS, and end-user feedback.",
+    "Authority-pays: deductions plus performance points; user-pays: penalties, often through a penalty system.",
+    "Penalties must be proportionate, set on commercial grounds, and can rise through a ratchet; termination is the last resort after a remedy period.",
+    "Share the benefits of improvement and reward added value through the variation procedures."
+  ],
+  "slides": [
+    {
+      "title": "From builders to operators",
+      "points": [
+        "Most construction professionals leave at handover",
+        "Assets can lose 30 percent efficiency early",
+        "Prepare a regularly updated Transition Plan"
+      ],
+      "narration": "The building is finished. Now what? This moment is riskier than it looks. Almost everyone who designed and built the asset walks away, and a new team starts running it without knowing the history. On top of that, buildings naturally lose efficiency. The Guide mentions up to thirty percent in the first four years. So the authority prepares a Transition Plan. It sets up a help desk, trial-runs the payment and monitoring systems, and puts a respected senior person on site."
+    },
+    {
+      "title": "How operations projects fail",
+      "points": [
+        "Paying for services not received",
+        "Taking back risk through informal changes",
+        "Missing warning signs of operator failure"
+      ],
+      "narration": "The Guide lists the classic failures. First, the authority keeps paying while services quietly get worse, because nobody is watching. Second, officials make small informal changes and, without realising it, take back risk they had transferred. Third, the authority misses the signs that the operator is in trouble, like insolvency or a change of owner. Real projects show this. In one tram and train franchise, the authority's risk monitor did not notice declining finances until the operators walked away."
+    },
+    {
+      "title": "The monitoring model",
+      "points": [
+        "Required level: reasonable and measurable",
+        "Means: three levels of monitoring",
+        "Consequences: warnings up to termination"
+      ],
+      "narration": "Every good monitoring system has three parts. First, the level of performance required, which must be reasonable and objectively measurable. Second, the means of monitoring. That works on three levels: the Project Company checks itself through its quality management system, the authority or a third party reviews that system, and users give feedback. Third, the consequences of failure, which range from a formal warning, to deductions or penalties, and finally to termination for default."
+    },
+    {
+      "title": "Deductions versus penalties",
+      "points": [
+        "Authority-pays: deductions from the unitary payment",
+        "User-pays: direct penalties via penalty system",
+        "No payment stream: performance reserve account"
+      ],
+      "narration": "How does money follow performance? In an authority-pays PPP it is easy. The authority simply deducts from the unitary payment. In a user-pays PPP, the drivers paying tolls cannot deduct anything, so the contract uses direct penalties through a penalty system. If the authority pays something, like a minimum revenue guarantee, it can deduct from that. And if there is no payment stream at all, a performance reserve account, funded by the company but controlled by the authority, can do the job."
+    },
+    {
+      "title": "Points, ratchets and remedy periods",
+      "points": [
+        "Each breach earns performance points",
+        "Ratchet raises deductions for repeated failures",
+        "Remedy period before termination"
+      ],
+      "narration": "Money alone does not show patterns. That is why contracts track breaches with performance points. As the points build up, stronger tools switch on: extra audits at the company's cost, bigger deductions, step-in, and at the very end, termination. A ratchet makes a repeated failure more expensive each time it passes the allowed number. But remember, termination is the last resort. Thresholds are set high, and a remedy period normally comes first, giving the company a real chance to recover."
+    },
+    {
+      "title": "Measuring the hard-to-measure",
+      "points": [
+        "Specify outputs, not inputs",
+        "Surveys, mystery shoppers, sampling",
+        "Agree sampling method before signature"
+      ],
+      "narration": "Some things are easy to measure, like whether a room is available. Others are not, like how friendly the staff are. The Guide suggests three tools. User satisfaction surveys are based on perceptions, so they are hard to link to money, but useful over time and can trigger a rectification plan. Mystery shoppers apply the same objective standard each time. And sampling works well, as long as the sample size and frequency were agreed before the contract was signed."
+    },
+    {
+      "title": "Proportion and incentives",
+      "points": [
+        "Penalty value set on commercial grounds",
+        "Operating theatre matters more than windows",
+        "Share benefits of improvement fairly"
+      ],
+      "narration": "Penalties must be proportionate. A dirty window should never cost as much as an unusable operating theatre. The value is set on commercial grounds, not on what the service costs to provide. Too rigid, and you may put the service to users at risk. Too lenient, and the company is encouraged to keep failing. Finally, think about the carrot as well as the stick. If the authority keeps all the benefit of every improvement, the company stops suggesting them. So reward genuine added value, and bring improvements in through the variation procedures."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A new PPP hospital will open in six months. The authority wants to reduce the risk created by the change from construction staff to operations staff. What should it prepare?",
+      "options": [
+        "A refinancing plan approved by the Ministry of Finance",
+        "A regularly updated Transition Plan with a help desk and trial runs",
+        "A new variation notice for the operations services",
+        "A handback survey of the asset's residual life"
+      ],
+      "answer": 1,
+      "explanation": "The Guide recommends a Transition Plan with dependencies, timescales and resources, covering items such as the help desk and trial running of the payment and monitoring systems. A handback survey belongs to the end of the contract, not the start of operations."
+    },
+    {
+      "question": "Officials at a PPP school ask the facility manager to remove some internal walls without using the contract's variation procedure. What is the main risk the Guide identifies?",
+      "options": [
+        "The lenders will gain an automatic right to step in",
+        "The Project Company will lose its right to deductions",
+        "The authority may take back risk on lifecycle costs and asset condition",
+        "The change will automatically count as a general change in law"
+      ],
+      "answer": 2,
+      "explanation": "Informal modifications outside the contractual process can reverse risk transfer, for example on lifecycle costs and the condition of the facility. This usually happens through lack of knowledge by officials."
+    },
+    {
+      "question": "Which of the following is NOT one of the three levels of monitoring described in the Guide's performance monitoring methodology?",
+      "options": [
+        "Self-monitoring by the Project Company through its Quality Management System",
+        "Review of the Project Company's QMS by the authority or a third party",
+        "End-user feedback on the quality of service delivery",
+        "Daily supervision of the operator's staff by the lenders' technical adviser"
+      ],
+      "answer": 3,
+      "explanation": "The three levels are Project Company self-monitoring through its QMS, review of that QMS by the authority or an independent party, and end-user feedback. Lender supervision of staff is not part of this model."
+    },
+    {
+      "question": "A toll road PPP has no payments from the Procuring Authority to the Project Company. The authority wants a practical way to apply financial penalties for poor maintenance. What could the contract use?",
+      "options": [
+        "A performance reserve account funded by the Project Company and controlled by the authority",
+        "Deductions from the unitary payment made each month",
+        "Deductions from the tolls charged to each driver",
+        "Refinancing gain sharing triggered by each failure"
+      ],
+      "answer": 0,
+      "explanation": "Where there is no payment stream from the authority, the Guide suggests a performance reserve account funded by the Project Company but controlled by the authority. Users cannot deduct from tolls, and there is no unitary payment to reduce."
+    },
+    {
+      "question": "A Project Company has reached the performance points threshold that permits termination. What should the Procuring Authority normally expect to happen next?",
+      "options": [
+        "The contract ends automatically on the same day",
+        "A remedy period is normally given before termination",
+        "The lenders must buy the project at book value",
+        "All previous deductions are refunded to the Project Company"
+      ],
+      "answer": 1,
+      "explanation": "Termination is the last resort, and the Guide notes it is common for a remedy period to precede termination even when the threshold has been reached. This gives the Project Company a chance to perform again."
+    },
+    {
+      "question": "A new PPP prison is opening in three phases. The Project Company asks for a settling-in period with relaxed performance standards. How should the authority respond?",
+      "options": [
+        "Agree, because settling-in problems are expected in every PPP",
+        "Agree, but only for the first phase of the prison",
+        "Refuse, and require full performance from the outset while ramping up payments by phase",
+        "Refuse, and delay all payments until the final phase is complete"
+      ],
+      "answer": 2,
+      "explanation": "In projects such as roads and prisons, where safety is crucial, full performance must be delivered from the outset, even with phased opening, and payments ramp up proportionately. Settling-in flexibility suits projects like IT systems."
+    },
+    {
+      "question": "Statement 1: Penalty values should be set according to the cost of providing each service. Statement 2: End-user satisfaction surveys are easy to link directly to payment because they are objective.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "Penalty values should be based on commercial considerations, not the cost of the service. Satisfaction surveys rely on perceptions, so they are hard to link to financial consequences, although useful over time."
+    },
+    {
+      "question": "A hospital cleaning failure keeps recurring, but each small deduction is not enough to make the Project Company fix it. What mechanism should the contract use?",
+      "options": [
+        "A ratchet that increases the deduction for repeated failures in a period",
+        "An immediate lender step-in under the Direct Agreement",
+        "A renegotiation of the output specification for cleaning",
+        "A cap on deductions to protect the Project Company"
+      ],
+      "answer": 0,
+      "explanation": "A ratchet increases deductions when a failure recurs too often in a set period, which is useful when single deductions give too little incentive. It also makes the problem harder for subcontractors and funders to ignore."
+    },
+    {
+      "question": "A Project Company proposes new technology that would make building maintenance cheaper and better. The authority wants to keep 100 percent of the savings. What does the Guide advise?",
+      "options": [
+        "Keep all savings, since the authority owns the asset",
+        "Reject the proposal, because inputs are fixed in the contract",
+        "Accept it outside the contract to avoid delay",
+        "Share the benefit and introduce the change through the variation procedures"
+      ],
+      "answer": 3,
+      "explanation": "If the authority takes all the benefit, the Project Company will stop identifying improvements. Incentives for added value should be shared, affordable, and introduced through the variation procedures."
+    },
+    {
+      "question": "In a PPP hospital, which failure should normally attract the largest financial consequence?",
+      "options": [
+        "Staff serving meals without the correct uniform",
+        "An operating theatre not available in the specified condition",
+        "Exterior windows not cleaned on schedule",
+        "A monthly report delivered two days late"
+      ],
+      "answer": 1,
+      "explanation": "Penalties must match seriousness, and core areas attract larger consequences. The Guide itself contrasts an unavailable operating theatre with less serious failures such as window cleaning or uniforms."
+    }
+  ]
+}

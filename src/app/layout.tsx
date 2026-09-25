@@ -21,28 +21,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-finance-tutor.vercel.app"),
   title: {
-    default: "Finora — Finance and PPP learning",
+    default: "Finora — CP3P exam preparation",
     template: "%s | Finora",
   },
   description:
-    "Learn finance and public-private partnerships in English. Practice with lessons, original questions and an AI tutor.",
+    "Prepare for the APMG CP3P Foundation, Preparation and Execution exams: video, audio and text lessons, a test after every lesson, and exam simulations.",
   keywords: [
-    "finance", "PPP", "public-private partnership", "CP3P", "AI tutor",
-    "financial literacy", "investment", "budgeting", "savings", "loan calculator",
+    "CP3P", "PPP", "public-private partnership", "APMG", "PPP certification",
+    "CP3P Foundation", "CP3P Preparation", "CP3P Execution", "PPP Guide",
   ],
   authors: [{ name: "Finora" }],
   creator: "Finora",
   openGraph: {
     type: "website",
     locale: "en_GB",
-    title: "Finora — Finance and PPP learning",
-    description: "Learn finance and public-private partnerships in English with lessons, practice questions and an AI tutor.",
+    title: "Finora — CP3P exam preparation",
+    description: "CP3P exam preparation: lessons, tests after every lesson and exam simulations.",
     siteName: "Finora",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Finora — Finance and PPP learning",
-    description: "Financial freedom starts with learning.",
+    title: "Finora — CP3P exam preparation",
+    description: "Pass the CP3P exams, one clear step at a time.",
   },
   robots: {
     index: true,
