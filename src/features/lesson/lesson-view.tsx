@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { AlertTriangle, ArrowLeft, CheckCircle2, Clock3, Headphones, ListChecks, MessageSquareText, PlayCircle, Target } from "lucide-react";
 import type { Lesson } from "@/content/cp3p/types";
@@ -37,12 +37,16 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
   const tutorContext = `CP3P ${lesson.level} lesson "${lesson.title}" (PPP Guide 2026, ${lesson.guideRef}). Key points: ${lesson.summary.join(" ")}`.slice(0, 600);
   const topRef = useRef<HTMLDivElement>(null);
   const testRef = useRef<HTMLDivElement>(null);
-  const listenParts = [
-    ...lesson.sections.map((s) => ({ heading: s.heading, text: plainForSpeech(s.body) })),
-    { heading: `Example: ${lesson.example.title}`, text: plainForSpeech(lesson.example.body) },
-    { heading: "Exam traps", text: lesson.examTraps.map((t) => `${t.trap}. ${t.fix}`).join(" ") },
-    { heading: "Summary", text: lesson.summary.join(" ") },
-  ];
+  // Barqaror massiv: pleyer davomiyliklarni har renderda qayta yuklamasin.
+  const listenParts = useMemo(
+    () => [
+      ...lesson.sections.map((s) => ({ heading: s.heading, text: plainForSpeech(s.body) })),
+      { heading: `Example: ${lesson.example.title}`, text: plainForSpeech(lesson.example.body) },
+      { heading: "Exam traps", text: lesson.examTraps.map((t) => `${t.trap}. ${t.fix}`).join(" ") },
+      { heading: "Summary", text: lesson.summary.join(" ") },
+    ],
+    [lesson],
+  );
 
   return (
     <div ref={topRef} className="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6 sm:py-12">
@@ -62,7 +66,7 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
       {/* Ikkala player doim yuklangan: tab almashganda faqat pauza, o'rin saqlanadi. */}
       <div className="mt-4">
         <div hidden={media !== "video"}><VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} active={media === "video"} /></div>
-        <div hidden={media !== "audio"}><ListenLesson parts={listenParts} audioBase={audio?.parts} active={media === "audio"} /></div>
+        <div hidden={media !== "audio"}><ListenLesson lessonId={lesson.id} title={lesson.title} parts={listenParts} audioBase={audio?.parts} active={media === "audio"} /></div>
       </div>
 
       <section className="mt-10 rounded-3xl bg-[#e7ece6] p-6">

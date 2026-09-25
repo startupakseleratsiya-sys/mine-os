@@ -37,3 +37,24 @@ export function levelOf(xp: number) {
   const into = xp % XP_PER_LEVEL;
   return { level, into, next: XP_PER_LEVEL, progress: into / XP_PER_LEVEL };
 }
+
+/**
+ * Test davomidagi «xavfsizlik zaxirasi»: o'tish chizig'idan tushmay yana nechta savolda xato qilish mumkin.
+ * Manfiy bo'lsa — bu urinishda o'tish endi imkonsiz.
+ */
+export function missesLeft(total: number, passMark: number, wrong: number) {
+  return total - passMark - wrong;
+}
+
+/** Ketma-ket to'g'ri javoblar seriyasi uchun qisqa maqtov (yo'q bo'lsa — null). */
+export function comboLabel(streak: number) {
+  if (streak >= 20) return "Unstoppable";
+  if (streak >= 10) return "On fire";
+  if (streak >= 5) return "Hot streak";
+  return null;
+}
+
+/** Kurs xaritasidagi tugun siljishi (0–2): yumshoq to'lqin 0,1,2,1,0,1,2,1… */
+export function pathOffset(index: number) {
+  return [0, 1, 2, 1][((index % 4) + 4) % 4];
+}

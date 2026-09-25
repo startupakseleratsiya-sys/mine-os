@@ -12,7 +12,7 @@ export default async function CoursesPage() {
   const user = await getCurrentUser();
   const rows = user ? await getLessonProgress(user.id) : [];
   return (
-    <SectionShell eyebrow="CP3P certification" title="Three levels. One clear path." description="Each lesson has a video, audio and text, then a 50-question test. Score 46/50 to unlock the next lesson and earn stars and XP. Finish a level to open its exam simulation.">
+    <SectionShell eyebrow="CP3P certification" title="Three levels. One clear path." description="Each lesson has a video, audio and text, then a 50-question test. Score 46/50 to unlock the next lesson and earn stars and XP. All three levels are open — start wherever you need. Finish a level to open its exam simulation.">
       <ul className="grid gap-5 md:grid-cols-3">
         {COURSES.map((course, i) => {
           const cp = courseProgress(rows, course);

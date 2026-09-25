@@ -224,3 +224,34 @@
   0% { transform: translateY(0) rotate(0deg); opacity: 1; }
   100% { transform: translateY(520px) rotate(540deg); opacity: 0; }
 }
+
+/* Dars pleyeri vaqt chizig'i (sudraladigan). --fill — o'tgan qism foizi. */
+.seek-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  background: transparent;
+  cursor: pointer;
+  --track: #e2e7e1;
+  --done: #28634f;
+  --thumb: #163e32;
+}
+.seek-range.seek-dark { --track: rgb(255 255 255 / 0.18); --done: #9fd3b8; --thumb: #ffffff; }
+.seek-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--done) var(--fill, 0%), var(--track) var(--fill, 0%));
+}
+.seek-range::-moz-range-track { height: 6px; border-radius: 999px; background: var(--track); }
+.seek-range::-moz-range-progress { height: 6px; border-radius: 999px; background: var(--done); }
+.seek-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--thumb);
+  box-shadow: 0 0 0 3px rgb(0 0 0 / 0.12);
+}
+.seek-range::-moz-range-thumb { width: 16px; height: 16px; border: 0; border-radius: 999px; background: var(--thumb); }
+.seek-range:focus-visible { outline: 2px solid #9fd3b8; outline-offset: 4px; border-radius: 8px; }

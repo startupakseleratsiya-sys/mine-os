@@ -24,7 +24,7 @@ export type Course = {
   emoji: string;
   outcomes: string[];
   chapters: Lesson[];
-  /** Kurs ochilishi uchun avval tugatilishi kerak bo'lgan kurs (CP3P: Practitioner uchun Foundation shart). */
+  /** Kurs ochilishi uchun avval tugatilishi kerak bo'lgan kurs. 2026-09-25 dan uchala kurs ham ochiq (null) — mijoz talabi. */
   requires: CourseSlug | null;
   /** Yakuniy bosqich — rasmiy formatdagi imtihon simulyatsiyasi. */
   finalExamHref: string;
@@ -58,7 +58,7 @@ export const COURSES: Course[] = [
     emoji: "📐",
     outcomes: ["Design a PPP framework and its institutions", "Screen and appraise projects: CBA, VfM, affordability", "Structure financial support and payment mechanisms", "Identify, assess and allocate risks"],
     chapters: LESSONS.preparation,
-    requires: "cp3p-foundation",
+    requires: null,
     finalExamHref: "/exam/preparation",
   },
   {
@@ -73,7 +73,7 @@ export const COURSES: Course[] = [
     emoji: "🏗️",
     outcomes: ["Draft qualification and evaluation criteria", "Run a fair tender through to financial close", "Manage change, claims and disputes in construction", "Manage performance, termination and handback"],
     chapters: LESSONS.execution,
-    requires: "cp3p-foundation",
+    requires: null,
     finalExamHref: "/exam/execution",
   },
 ];

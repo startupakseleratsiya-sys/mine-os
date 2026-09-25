@@ -65,3 +65,16 @@ test("safeNext blocks off-site redirects", () => {
   assert.equal(safeNext("/study/a/b"), "/study/a/b");
   for (const bad of ["//evil.com", "/\\evil.com", "/%5Cevil.com", "https://evil.com", "/%2F%2Fevil.com", "", null]) assert.equal(safeNext(bad), undefined, String(bad));
 });
+
+import { comboLabel, missesLeft, pathOffset } from "../src/lib/gamification.ts";
+
+test("missesLeft: 50 questions, pass 46 → 4 safe misses", () => {
+  assert.equal(missesLeft(50, 46, 0), 4);
+  assert.equal(missesLeft(50, 46, 4), 0);
+  assert.equal(missesLeft(50, 46, 5), -1);
+});
+
+test("combo labels and map offsets", () => {
+  assert.deepEqual([0, 4, 5, 10, 25].map(comboLabel), [null, null, "Hot streak", "On fire", "Unstoppable"]);
+  assert.deepEqual([0, 1, 2, 3, 4, 5, 6, 7].map(pathOffset), [0, 1, 2, 1, 0, 1, 2, 1]);
+});

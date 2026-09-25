@@ -2,13 +2,19 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, Flame, LoaderCircle, RotateCcw, Star, Trophy, XCircle } from "lucide-react";
+import { ArrowRight, CheckCircle2, Flame, LoaderCircle, RotateCcw, ShieldCheck, Star, Trophy, Volume2, VolumeX, XCircle, Zap } from "lucide-react";
 import { checkAnswer, finishTest, startTest, type TestResult } from "@/app/actions/progress";
 import type { PublicItem } from "@/lib/learning-path";
-import { XP, starsFor } from "@/lib/gamification";
+import { XP, comboLabel, missesLeft, starsFor } from "@/lib/gamification";
 import { Confetti } from "./confetti";
+import { floatUp, playTone, popIn, readMuted, unlockAudio, writeMuted } from "./game-fx";
 
 const LETTERS = ["A", "B", "C", "D"];
+
+// Ref callback'lar barqaror bo'lishi shart — aks holda har renderda animatsiya qayta o'ynaydi.
+const STAR_POP = [popIn(250), popIn(550), popIn(850)];
+const BADGE_POP = popIn(1100);
+const COMBO_POP = popIn();
 
 function hash(text: string) {
   let h = 2166136261;
@@ -28,12 +34,14 @@ function shuffle<T>(a: T[], seed: number) {
 }
 
 type Feedback = { chosen: number; correct: boolean; answer: number; explanation: string };
-type Session = { attemptId: string; items: PublicItem[]; idx: number; fb: Record<string, Feedback>; streak: number };
+/** best — shu urinishdagi eng uzun seriya (eski saqlangan sessiyalarda bo'lmasligi mumkin). */
+type Session = { attemptId: string; items: PublicItem[]; idx: number; fb: Record<string, Feedback>; streak: number; best?: number };
 
 /**
  * Test (dars testi yoki xatolar takrori). Server urinish ochadi; har savolga birinchi javob yakuniy;
  * ball serverda bazadagi javoblardan hisoblanadi. Tartib har urinishda tasodifiy (urinish id'sidan).
  * Holat localStorage'da — sahifa yangilansa yoki «Re-read» bosilsa ham shu joydan davom etadi.
+ * O'yin qatlami (seriya, XP, zaxira hisoblagich, ovoz) faqat ko'rinish — ball baribir serverda.
  */
 export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, nextHref, finalHref, onRestudy }: {
   mode?: "lesson" | "review";
@@ -59,6 +67,9 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
   const [checking, startCheck] = useTransition();
   const [pending, startTransition] = useTransition();
   const [starting, startStarting] = useTransition();
+  const [muted, setMuted] = useState(readMuted);
+  // Hozirgina to'g'ri topilgan savol kaliti — «+10 XP» faqat shu lahzada sakraydi.
+  const [justScored, setJustScored] = useState<string | null>(null);
 
   const save = useCallback((s: Session | null) => {
     try {
@@ -78,7 +89,7 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
         setError(r.error);
         return;
       }
-      const s = { attemptId: r.attemptId, items: r.items, idx: 0, fb: {}, streak: 0 };
+      const s = { attemptId: r.attemptId, items: r.items, idx: 0, fb: {}, streak: 0, best: 0 };
       save(s);
       setSession(s);
     });
@@ -122,6 +133,7 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
   }
 
   const { idx, fb, streak } = session;
+  const best = Math.max(session.best ?? 0, streak);
   const cur = order[Math.min(idx, order.length - 1)];
   const f = cur ? fb[cur.item.key] : undefined;
   const correctSoFar = Object.values(fb).filter((x) => x.correct).length;
@@ -130,11 +142,16 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
   const choose = (orig: number) => {
     if (f || checking) return;
     setError("");
+    if (!muted) unlockAudio(); // bosish paytida — brauzer ovozga faqat shu lahzada ruxsat beradi
+    const key = cur.item.key;
     startCheck(async () => {
-      const r = await checkAnswer({ attemptId: session.attemptId, key: cur.item.key, chosen: orig });
+      const r = await checkAnswer({ attemptId: session.attemptId, key, chosen: orig });
       if (r.ok) {
         const entry = { chosen: r.chosen, correct: r.correct, answer: r.answer, explanation: r.explanation };
-        update({ fb: { ...fb, [cur.item.key]: entry }, streak: r.correct ? streak + 1 : 0 });
+        const nextStreak = r.correct ? streak + 1 : 0;
+        update({ fb: { ...fb, [key]: entry }, streak: nextStreak, best: Math.max(best, nextStreak) });
+        setJustScored(r.correct ? key : null);
+        if (!muted) playTone(r.correct);
       } else setError(r.error);
     });
   };
@@ -148,9 +165,22 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
     });
   };
 
+  const toggleMute = () => {
+    const next = !muted;
+    setMuted(next);
+    writeMuted(next);
+    if (!next) unlockAudio();
+  };
+
+  const go = (to: number) => {
+    setJustScored(null);
+    update({ idx: to });
+  };
+
   const restart = () => {
     save(null);
     setSession(null);
+    setJustScored(null);
     autoStarted.current = true;
     begin();
   };
@@ -175,26 +205,39 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
           <Trophy className="size-10 text-amber-300" />
           <p className="mt-4 text-5xl font-semibold">{result.correct}/{result.total}</p>
           <p className="mt-2 text-lg font-medium">{result.correct === result.total ? "All fixed — these questions leave your mistakes list." : "Correct ones leave your list; the rest will come back next time."}</p>
-          <Link href={`/courses/${courseSlug}`} className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-xl bg-white px-6 font-semibold text-[#163e32]">Back to the course<ArrowRight className="size-4" /></Link>
+          {best >= 2 && <p ref={BADGE_POP} className="mt-4 inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1 text-sm font-semibold"><Flame className="size-4 text-amber-300" />Best combo {best}</p>}
+          <div><Link href={`/courses/${courseSlug}`} className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-xl bg-white px-6 font-semibold text-[#163e32]">Back to the course<ArrowRight className="size-4" /></Link></div>
         </div>
       );
     }
     const pct = Math.round((result.correct / Math.max(result.total, 1)) * 100);
     const stars = starsFor(result.correct, result.total);
     const xp = result.correct * XP.question + (result.passed ? XP.lesson : 0);
+    const short = result.passMark - result.correct;
     return (
       <div className={`relative overflow-hidden rounded-3xl p-6 sm:p-10 ${result.passed ? "bg-[#163e32] text-white" : "border border-red-200 bg-red-50"}`}>
-        {result.passed && <Confetti />}
+        {result.passed && <Confetti pieces={stars === 3 ? 48 : 36} />}
         {result.passed ? <Trophy className="size-10 text-amber-300" /> : <XCircle className="size-10 text-red-600" />}
         {result.passed && (
-          <p className="mt-4 flex gap-1" aria-label={`${stars} of 3 stars`}>
-            {[1, 2, 3].map((n) => <Star key={n} className={`size-8 ${n <= stars ? "fill-amber-300 text-amber-300" : "text-white/30"}`} />)}
+          <p className="mt-4 flex gap-1.5" aria-label={`${stars} of 3 stars`}>
+            {[1, 2, 3].map((n) => (
+              <span key={n} ref={STAR_POP[n - 1]} className="inline-block">
+                <Star className={`size-9 ${n <= stars ? "fill-amber-300 text-amber-300" : "text-white/30"}`} />
+              </span>
+            ))}
           </p>
         )}
         <p className="mt-4 text-5xl font-semibold">{result.correct}/{result.total}</p>
-        <p className="mt-2 text-lg font-medium">{result.passed ? "Passed — the next lesson is unlocked." : `Not yet. You need ${result.passMark}/${result.total}.`}</p>
+        <p className="mt-2 text-lg font-medium">
+          {result.passed
+            ? result.correct === result.total ? "Perfect score — the next lesson is unlocked." : "Passed — the next lesson is unlocked."
+            : `Not yet — ${short} more correct ${short === 1 ? "answer" : "answers"} needed (${result.passMark}/${result.total}).`}
+        </p>
         <p className="mt-1 text-sm opacity-80">{pct}% correct{result.answered < result.total ? ` · ${result.total - result.answered} unanswered` : ""}{result.passed && !result.saved ? " · progress could not be saved, please retry" : ""}</p>
-        <p className={`mt-3 inline-flex rounded-full px-3 py-1 text-sm font-semibold ${result.passed ? "bg-white/15" : "bg-white text-[#163e32]"}`}>+{xp} XP</p>
+        <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold">
+          <span ref={BADGE_POP} className={`inline-flex items-center gap-1 rounded-full px-3 py-1 ${result.passed ? "bg-amber-300 text-[#163e32]" : "bg-white text-[#163e32]"}`}><Zap className="size-4" />{xp} XP this run</span>
+          {best >= 2 && <span className={`inline-flex items-center gap-1 rounded-full px-3 py-1 ${result.passed ? "bg-white/15" : "bg-white text-[#163e32]"}`}><Flame className="size-4 text-amber-500" />Best combo {best}</span>}
+        </div>
         {!result.passed && <p className="mt-4 max-w-lg text-sm text-[#52665e]">Re-read the sections behind the questions you missed (the explanations point to them), then take the test again. The order changes every time, and missed questions also wait for you in “Review my mistakes”.</p>}
         <div className="mt-8 flex flex-wrap gap-3">
           {result.passed ? (
@@ -212,16 +255,45 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
 
   if (!cur) return null;
   const last = idx >= order.length - 1;
+  const total = order.length;
+  const wrongSoFar = answeredCount - correctSoFar;
+  const safe = missesLeft(total, passMark, wrongSoFar);
+  const combo = comboLabel(streak);
   return (
     <div className="rounded-3xl border border-[#13251f]/10 bg-white p-5 sm:p-8">
-      <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
-        <span className="font-semibold">Question {idx + 1} of {order.length}</span>
-        <span className="flex items-center gap-3 text-[#65736d]">
-          {streak >= 3 && <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-800"><Flame className="size-3.5" />{streak} in a row</span>}
-          {correctSoFar} correct{mode === "lesson" ? ` · pass ${passMark}` : ""}
+      <div className="flex items-center justify-between gap-2 text-sm">
+        <span className="font-semibold">Question {idx + 1} of {total}</span>
+        <span className="flex items-center gap-1.5">
+          {streak >= 2 && (
+            // key=seriya — har 5 talikda belgi bir marta «pop» qiladi.
+            <span key={streak} ref={streak % 5 === 0 ? COMBO_POP : undefined} className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-bold text-amber-800">
+              <Flame className="size-3.5" />{streak} in a row{combo && <span className="hidden sm:inline"> · {combo}</span>}
+            </span>
+          )}
+          <button type="button" onClick={toggleMute} aria-pressed={!muted} aria-label={muted ? "Turn sound on" : "Turn sound off"} title={muted ? "Sound off" : "Sound on"} className="grid size-9 place-items-center rounded-full text-[#65736d] hover:bg-[#f3f1eb]">
+            {muted ? <VolumeX className="size-4" /> : <Volume2 className="size-4" />}
+          </button>
         </span>
       </div>
-      <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-[#e9ebe7]"><div className="h-full rounded-full bg-[#28634f] transition-all" style={{ width: `${(answeredCount / order.length) * 100}%` }} /></div>
+      {/* Chiziq: yashil — to'g'ri, qizil — xato; to'q belgi — o'tish chizig'i (46/50). */}
+      <div className="relative mt-2 py-1">
+        <div className="flex h-2.5 overflow-hidden rounded-full bg-[#e9ebe7]" role="progressbar" aria-valuemin={0} aria-valuemax={total} aria-valuenow={correctSoFar} aria-label={`${correctSoFar} correct, ${wrongSoFar} wrong of ${total}`}>
+          <div className="h-full bg-[#28634f] transition-[width] duration-300" style={{ width: `${(correctSoFar / total) * 100}%` }} />
+          <div className="h-full bg-red-300 transition-[width] duration-300" style={{ width: `${(wrongSoFar / total) * 100}%` }} />
+        </div>
+        {mode === "lesson" && (
+          <span aria-hidden title={`Pass line ${passMark}/${total}`} className="absolute top-0 h-[18px] w-[3px] -translate-x-1/2 rounded-full bg-[#163e32] ring-2 ring-white" style={{ left: `${(passMark / total) * 100}%` }} />
+        )}
+      </div>
+      <div className="mt-1.5 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-xs font-medium text-[#65736d]">
+        <span><span className="font-semibold text-[#28634f]">{correctSoFar} correct</span>{mode === "lesson" ? ` · pass line ${passMark}` : ` · ${wrongSoFar} to fix`}</span>
+        {mode === "lesson" && (
+          <span className={`inline-flex items-center gap-1 font-semibold ${safe < 0 ? "text-red-700" : safe <= 1 ? "text-amber-700" : "text-[#28634f]"}`}>
+            <ShieldCheck className="size-3.5" />
+            {safe > 0 ? `You can still miss ${safe}` : safe === 0 ? "No misses left — stay sharp" : "Pass is out of reach — finish to learn, then retry"}
+          </span>
+        )}
+      </div>
       <p className="mt-6 whitespace-pre-line text-lg leading-8" data-testid="question">{cur.item.question}</p>
       <div className="mt-5 space-y-2.5">
         {cur.opts.map((orig, pos) => {
@@ -230,7 +302,7 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
           const tone = !f ? "border-[#13251f]/12 hover:bg-[#f7f6f1]" : isKey ? "border-[#28634f]/50 bg-[#e7ece6]" : isChosen ? "border-red-300 bg-red-50" : "border-[#13251f]/8 opacity-70";
           return (
             <button key={orig} type="button" disabled={Boolean(f) || checking} onClick={() => choose(orig)} className={`flex w-full items-start gap-3 rounded-2xl border p-4 text-left text-[15px] leading-6 ${tone}`}>
-              <span className="grid size-7 shrink-0 place-items-center rounded-full bg-[#f3f1eb] text-sm font-semibold">{LETTERS[pos]}</span>
+              <span className={`grid size-7 shrink-0 place-items-center rounded-full text-sm font-semibold ${isKey ? "bg-[#28634f] text-white" : isChosen ? "bg-red-500 text-white" : "bg-[#f3f1eb]"}`}>{LETTERS[pos]}</span>
               <span className="pt-0.5">{cur.item.options[orig]}</span>
             </button>
           );
@@ -245,16 +317,22 @@ export function LessonTest({ mode = "lesson", courseSlug, lessonId, passMark, ne
       )}
       {f && (
         <div className={`mt-5 rounded-2xl p-4 text-sm leading-6 ${f.correct ? "bg-[#f3f7f3]" : "bg-red-50/60"}`}>
-          <p className="flex items-center gap-1.5 font-semibold">{f.correct ? <CheckCircle2 className="size-4 text-[#28634f]" /> : <XCircle className="size-4 text-red-600" />}{f.correct ? "Correct" : "Not quite"}</p>
+          <p className="flex flex-wrap items-center gap-1.5 font-semibold">
+            {f.correct ? <CheckCircle2 className="size-4 text-[#28634f]" /> : <XCircle className="size-4 text-red-600" />}
+            {f.correct ? "Correct" : "Not quite"}
+            {f.correct && justScored === cur.item.key && mode === "lesson" && (
+              <span ref={floatUp} className="ml-1 inline-flex items-center gap-0.5 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-800"><Zap className="size-3" />+{XP.question} XP</span>
+            )}
+          </p>
           <p className="mt-1 text-[#52665e]">{f.explanation}</p>
         </div>
       )}
       <div className="mt-6 flex items-center justify-between gap-3">
-        <button type="button" disabled={idx === 0} onClick={() => update({ idx: idx - 1 })} className="min-h-11 rounded-xl px-3 text-sm font-semibold text-[#65736d] disabled:opacity-0">← Previous</button>
+        <button type="button" disabled={idx === 0} onClick={() => go(idx - 1)} className="min-h-11 rounded-xl px-3 text-sm font-semibold text-[#65736d] disabled:opacity-0">← Previous</button>
         {f && (last ? (
           <button type="button" onClick={submit} disabled={pending} className="inline-flex min-h-12 items-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white disabled:opacity-60">{pending ? "Checking…" : "See my result"}</button>
         ) : (
-          <button type="button" onClick={() => update({ idx: idx + 1 })} className="inline-flex min-h-12 items-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white">Next question<ArrowRight className="size-4" /></button>
+          <button type="button" onClick={() => go(idx + 1)} className="inline-flex min-h-12 items-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white">Next question<ArrowRight className="size-4" /></button>
         ))}
       </div>
     </div>

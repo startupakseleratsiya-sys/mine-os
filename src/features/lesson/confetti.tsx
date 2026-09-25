@@ -1,6 +1,6 @@
 "use client";
 
-/** Yengil konfetti (CSS animatsiya, kutubxonasiz). prefers-reduced-motion'da ko'rinmaydi. */
+/** Yengil konfetti (CSS animatsiya, kutubxonasiz, bir martalik). prefers-reduced-motion'da ko'rinmaydi. */
 const COLORS = ["#fbbf24", "#9fd3b8", "#ffffff", "#f472b6", "#60a5fa"];
 
 export function Confetti({ pieces = 36 }: { pieces?: number }) {
@@ -9,7 +9,8 @@ export function Confetti({ pieces = 36 }: { pieces?: number }) {
       {Array.from({ length: pieces }, (_, i) => (
         <span
           key={i}
-          className="absolute top-[-12px] block h-3 w-2 rounded-sm"
+          // Har xil shakl: to'rtburchak lenta, kvadrat va doira — «jonliroq» ko'rinadi.
+          className={`absolute top-[-12px] block ${i % 3 === 0 ? "size-2 rounded-full" : i % 3 === 1 ? "h-3 w-2 rounded-sm" : "h-2 w-3 rounded-[1px]"}`}
           style={{
             left: `${(i * 37) % 100}%`,
             background: COLORS[i % COLORS.length],
