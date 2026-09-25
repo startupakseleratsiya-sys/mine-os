@@ -3,5 +3,220 @@
     "slides": 8,
     "parts": 10,
     "published": true
+  },
+  "f02-not-a-ppp": {
+    "slides": 7,
+    "parts": 9,
+    "published": true
+  },
+  "f03-ppp-contract-types": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "f04-management-contracts-terminology": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "f05-why-use-ppps": {
+    "slides": 7,
+    "parts": 9,
+    "published": true
+  },
+  "f06-ppp-pitfalls": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "f07-project-structure": {
+    "slides": 9,
+    "parts": 10,
+    "published": true
+  },
+  "f08-project-finance": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "f09-co-financing-public-support": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "f10-project-failure": {
+    "slides": 7,
+    "parts": 9,
+    "published": true
+  },
+  "f11-framework-process-cycle": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "f12-glossary-essentials": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p01-why-a-framework": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p02-framework-scope-instruments": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p03-defining-ppp-process": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p04-institutional-roles": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p05-fiscal-commitments": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p06-oversight": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p07-identifying-projects": {
+    "slides": 7,
+    "parts": 9,
+    "published": true
+  },
+  "p08-economic-soundness": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "p09-ppp-screening": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p10-appraisal-scope-structure": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "p11-financial-model": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p12-commercial-feasibility": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "p13-economic-fiscal-feasibility": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p14-vfm-procurement-strategy": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p15-financial-structuring": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p16-revenue-payment-mechanisms": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "p17-risk-allocation": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "p18-risk-events-contract": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e01-structuring-tasks-marketing": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e02-qualification-rfq": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e03-rfp-evaluation-criteria": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e04-commercial-terms-1": {
+    "slides": 9,
+    "parts": 10,
+    "published": true
+  },
+  "e05-contract-provisions-2": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e06-tender-launch-bid-stage": {
+    "slides": 9,
+    "parts": 9,
+    "published": true
+  },
+  "e07-qualification-dialogue-evaluation": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "e08-award-financial-close": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e09-contract-management-framework": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "e10-construction-monitoring": {
+    "slides": 8,
+    "parts": 9,
+    "published": true
+  },
+  "e11-construction-change-claims": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
+  },
+  "e12-operations-monitoring": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "e13-finances-regulation-fiscal": {
+    "slides": 7,
+    "parts": 10,
+    "published": true
+  },
+  "e14-termination-handback": {
+    "slides": 8,
+    "parts": 10,
+    "published": true
   }
 }
