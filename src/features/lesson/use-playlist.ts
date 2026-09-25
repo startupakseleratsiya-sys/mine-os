@@ -12,10 +12,17 @@ import { useNarrator } from "./narrator";
  *    yuklanguncha matn uzunligidan taxminlanadi (chizig'i darhol ishlaydi).
  *  - brauzer ovozi (Web Speech): o'rin = gap raqami; vaqt gap uzunligidan taxminlanadi.
  *
- * O'rin localStorage'da saqlanadi (storageKey) — darsga qaytganda shu joydan davom etadi.
+ * O'rin saqlanadi: brauzerda (localStorage) va kirgan foydalanuvchida serverda (/api/media-position).
+ * Darsga qaytganda — sahifa ochilishi bilan pleyer o'sha joyda turadi (boshidan ham, oxiridan ham emas),
+ * foydalanuvchi o'zi boshqa joyga o'tkazmaguncha. Ikki nusxadan yangirog'i olinadi (boshqa qurilma).
+ * Dars oxirigacha ko'rilsa — o'rin o'chiriladi.
  */
 
 type Pos = { i: number; off: number };
+/** Saqlangan o'rin; at — qachon saqlangani (ms), qaysi nusxa yangi ekanini aniqlash uchun. */
+export type SavedPos = Pos & { at: number };
+
+const SERVER_EVERY_MS = 15_000;
 
 /** ~150 so'z/daqiqa — taxminiy davomiylik (soniya). */
 const estimate = (text: string) => Math.max(1.5, text.length / 14.5);
@@ -25,12 +32,12 @@ export function formatTime(sec: number) {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 }
 
-function readPos(key: string): Pos | null {
+function readPos(key: string): SavedPos | null {
   try {
     const raw = window.localStorage.getItem(key);
     if (!raw) return null;
-    const p = JSON.parse(raw) as Pos;
-    return Number.isFinite(p?.i) && Number.isFinite(p?.off) ? p : null;
+    const p = JSON.parse(raw) as SavedPos;
+    return Number.isFinite(p?.i) && Number.isFinite(p?.off) ? { i: p.i, off: p.off, at: Number(p.at) || 0 } : null;
   } catch {
     return null;
   }
@@ -38,14 +45,28 @@ function readPos(key: string): Pos | null {
 
 function writePos(key: string, pos: Pos | null) {
   try {
-    if (pos) window.localStorage.setItem(key, JSON.stringify(pos));
+    if (pos) window.localStorage.setItem(key, JSON.stringify({ i: pos.i, off: pos.off, at: Date.now() }));
     else window.localStorage.removeItem(key);
   } catch {
     /* maxfiy rejim — saqlamasak ham ishlayveradi */
   }
 }
 
-export function usePlaylist({ groups, urls, storageKey, active, title }: { groups: string[][]; urls?: string[]; storageKey: string; active: boolean; title: string }) {
+type Options = {
+  groups: string[][];
+  urls?: string[];
+  storageKey: string;
+  active: boolean;
+  title: string;
+  /** Serverda saqlangan o'rin (kirgan foydalanuvchi). */
+  initial?: SavedPos | null;
+  /** Berilsa — o'rin serverga ham yoziladi (boshqa qurilmada davom). */
+  sync?: { lessonId: string; kind: "video" | "audio" };
+  /** Yozuvlarning aniq davomiyliklari (audio.json) — vaqt chizig'i darhol aniq. */
+  knownDurations?: number[];
+};
+
+export function usePlaylist({ groups, urls, storageKey, active, title, initial, sync, knownDurations }: Options) {
   const narrator = useNarrator();
   const recorded = Boolean(urls?.length);
   const supported = recorded || narrator.supported;
@@ -61,7 +82,9 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
   const [ended, setEnded] = useState(false);
   const [rate, setRateState] = useState(1);
   const rateRef = useRef(1);
-  const [durations, setDurations] = useState<(number | null)[]>(() => Array(n).fill(null));
+  const [durations, setDurations] = useState<(number | null)[]>(() =>
+    Array.from({ length: n }, (_, i) => (recorded && knownDurations?.length === n ? knownDurations[i] : null)),
+  );
 
   const playing = recorded ? clipPlaying : narrator.speaking;
 
@@ -90,7 +113,7 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
   const [wanted, setWanted] = useState(active);
   if (active && !wanted) setWanted(true);
   useEffect(() => {
-    if (!recorded || !wanted || !urls) return;
+    if (!recorded || !wanted || !urls || knownDurations?.length === n) return;
     const probes = urls.map((url, i) => {
       const a = new Audio();
       a.preload = "metadata";
@@ -101,7 +124,50 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
       return a;
     });
     return () => probes.forEach((a) => a.removeAttribute("src"));
-  }, [recorded, wanted, urls]);
+  }, [recorded, wanted, urls, knownDurations, n]);
+
+  // ---- O'rinni saqlash ----
+  const lastSentRef = useRef(0);
+  const syncRef = useRef(sync);
+  useEffect(() => {
+    syncRef.current = sync;
+  });
+  const post = useCallback((body: Record<string, unknown>, beacon = false) => {
+    const target = syncRef.current;
+    if (!target) return;
+    const data = JSON.stringify({ ...target, ...body });
+    try {
+      if (beacon && navigator.sendBeacon) navigator.sendBeacon("/api/media-position", new Blob([data], { type: "application/json" }));
+      else void fetch("/api/media-position", { method: "POST", body: data, keepalive: true, headers: { "content-type": "application/json" } }).catch(() => {});
+    } catch {
+      /* saqlanmasa ham pleyer ishlayveradi */
+    }
+  }, []);
+  /** Brauzerga doim; serverga — darhol (pauza, sudrash) yoki 15 s da bir marta (o'ynayotganda). */
+  const persist = useCallback(
+    (p: Pos | null, immediate: boolean, beacon = false) => {
+      writePos(storageKey, p);
+      if (!immediate && Date.now() - lastSentRef.current < SERVER_EVERY_MS) return;
+      lastSentRef.current = Date.now();
+      post(p ? { part: p.i, offset: Math.min(3599, Math.max(0, Math.round(p.off * 10) / 10)) } : { clear: true }, beacon);
+    },
+    [post, storageKey],
+  );
+
+  // Sahifa ochilganda — saqlangan joyga qo'yish (pauzada). Brauzer va server nusxasidan yangirog'i.
+  const restoredRef = useRef(false);
+  useEffect(() => {
+    // Faqat bir marta: sahifa server tomonidan qayta chizilsa (initial yangi obyekt) o'rin orqaga sakramasin.
+    if (restoredRef.current) return;
+    restoredRef.current = true;
+    const local = readPos(storageKey);
+    const best = [local, initial ?? null].filter((x): x is SavedPos => Boolean(x) && x!.i < n).sort((a, b) => b.at - a.at)[0];
+    if (!best) return;
+    // localStorage — tashqi manba, faqat mount'dan keyin o'qiladi (SSR bilan mos kelishi uchun).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setPos({ i: best.i, off: best.off });
+    setStarted(true);
+  }, [storageKey, initial, n, setPos]);
 
   const audio = () => {
     if (!audioRef.current) audioRef.current = new Audio();
@@ -114,8 +180,8 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
     setStarted(false);
     setEnded(true);
     setPos({ i: 0, off: 0 });
-    writePos(storageKey, null);
-  }, [setPos, storageKey]);
+    persist(null, true);
+  }, [setPos, persist]);
 
   /** i-bo'lakni off joyidan yuklash; autoplay=false bo'lsa — pauzada turadi (sudrab qo'yilganda). */
   const load = (i: number, off: number, autoplay: boolean) => {
@@ -144,6 +210,7 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
     }
     narrator.stop();
     if (!autoplay) return;
+    markPlayed();
     narrator.speak(groups[i], {
       rate: rateRef.current,
       start: Math.floor(off),
@@ -152,7 +219,9 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
     });
   };
 
+  const playedRef = useRef(false);
   const start = (a: HTMLAudioElement) => {
+    markPlayed();
     setClipPlaying(true);
     setFailed(false);
     void a.play().catch((e: unknown) => {
@@ -163,21 +232,24 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
     });
   };
 
+  /** Birinchi tinglash — analitika uchun bir marta. */
+  const markPlayed = () => {
+    if (playedRef.current) return;
+    playedRef.current = true;
+    post({ played: true });
+  };
+
   const pause = () => {
     if (recorded) {
       audioRef.current?.pause();
       setClipPlaying(false);
     } else narrator.stop();
-    writePos(storageKey, posRef.current);
+    persist(posRef.current, true);
   };
 
   const play = () => {
     if (ended) return load(0, 0, true);
-    if (!started) {
-      // Darsga qaytganda — oldin to'xtagan joydan (localStorage).
-      const saved = readPos(storageKey);
-      return saved && saved.i < n ? load(saved.i, saved.off, true) : load(0, 0, true);
-    }
+    if (!started) return load(0, 0, true);
     const p = posRef.current;
     const a = audioRef.current;
     if (recorded && a?.getAttribute("src") && !a.ended) return start(a);
@@ -199,6 +271,7 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
         a.currentTime = within;
         setPos({ i, off: within });
         setEnded(false);
+        persist(posRef.current, true);
         return;
       }
       load(i, within, keepPlaying);
@@ -209,7 +282,8 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
       while (s < sentenceTimes[i].length - 1 && acc + sentenceTimes[i][s] <= within) acc += sentenceTimes[i][s++];
       load(i, s, keepPlaying);
     }
-    if (!keepPlaying) writePos(storageKey, posRef.current);
+    // Foydalanuvchi o'zi joyni o'zgartirdi — darhol saqlanadi.
+    persist(posRef.current, true);
   };
 
   const skip = (delta: number) => {
@@ -250,9 +324,15 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
     if (!active && playing) pauseRef.current();
   }, [active, playing]);
 
-  // Sahifadan chiqishda o'rinni saqlash va ovozni to'xtatish.
+  // Sahifadan chiqishda (ilova ichida boshqa sahifaga o'tish) — o'rinni saqlash va ovozni to'xtatish.
+  const liveRef = useRef({ started, ended, persist });
+  useEffect(() => {
+    liveRef.current = { started, ended, persist };
+  });
   useEffect(
     () => () => {
+      const live = liveRef.current;
+      if (live.started && !live.ended) live.persist(posRef.current, true, true);
       const a = audioRef.current;
       if (a) {
         a.onended = null;
@@ -265,9 +345,23 @@ export function usePlaylist({ groups, urls, storageKey, active, title }: { group
   );
   useEffect(() => {
     if (!playing) return;
-    const id = window.setInterval(() => writePos(storageKey, posRef.current), 5000);
+    const id = window.setInterval(() => persist(posRef.current, false), 5000);
     return () => window.clearInterval(id);
-  }, [playing, storageKey]);
+  }, [playing, persist]);
+  // Tab yopilsa / telefon boshqa ilovaga o'tsa — oxirgi soniyalar ham yo'qolmasin (sendBeacon).
+  useEffect(() => {
+    const save = () => {
+      const live = liveRef.current;
+      if (live.started && !live.ended) live.persist(posRef.current, true, true);
+    };
+    const onVis = () => document.visibilityState === "hidden" && save();
+    window.addEventListener("pagehide", save);
+    document.addEventListener("visibilitychange", onVis);
+    return () => {
+      window.removeEventListener("pagehide", save);
+      document.removeEventListener("visibilitychange", onVis);
+    };
+  }, []);
 
   // Telefon qulf ekrani / quloqchin tugmalari (Media Session API).
   useEffect(() => {

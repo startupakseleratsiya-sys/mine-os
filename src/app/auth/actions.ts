@@ -18,7 +18,7 @@ export type ActionResult = { ok: true } | { ok: false; error: string };
 /** Parolni tiklash xati. Xavfsizlik uchun email mavjud-yo'qligini oshkor qilmaydi. */
 export async function sendPasswordReset(email: string): Promise<ActionResult> {
   const clean = email.trim().toLowerCase();
-  if (!clean.includes("@")) return { ok: false, error: "To'g'ri email manzilini kiriting." };
+  if (!clean.includes("@")) return { ok: false, error: "Enter a valid email address." };
 
   const supabase = await createClient();
   const origin = await siteOrigin();
@@ -28,7 +28,7 @@ export async function sendPasswordReset(email: string): Promise<ActionResult> {
   if (error) {
     console.error("resetPasswordForEmail:", error.message);
     if (error.message.toLowerCase().includes("rate limit")) {
-      return { ok: false, error: "Ko'p urinish. Bir necha daqiqadan so'ng qayta urinib ko'ring." };
+      return { ok: false, error: "Too many attempts. Try again in a few minutes." };
     }
   }
   return { ok: true };

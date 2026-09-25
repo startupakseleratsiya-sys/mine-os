@@ -9,17 +9,17 @@ import { createClient } from "@/lib/supabase-client";
 import { sendPasswordReset } from "@/app/auth/actions";
 function friendlyAuthError(msg: string) {
     if (msg.includes("Invalid login credentials"))
-        return "Email yoki parol noto'g'ri.";
+        return "Incorrect email or password.";
     if (msg.includes("User already registered") || msg.includes("already been registered"))
-        return "Bu email allaqachon ro'yxatdan o'tgan. Kirish sahifasiga o'ting.";
+        return "This email is already registered. Please sign in.";
     if (msg.includes("Email not confirmed"))
-        return "Email manzilingizni tasdiqlang. Pochta qutingizni tekshiring.";
+        return "Confirm your email address. Check your inbox.";
     if (msg.toLowerCase().includes("rate limit"))
-        return "Ko'p urinish. Bir oz kuting va qayta urinib ko'ring.";
+        return "Too many attempts. Wait a moment and try again.";
     if (msg.includes("Password should be"))
-        return "Parol kamida 8 ta belgidan iborat bo'lishi kerak.";
+        return "Your password must contain at least 8 characters.";
     if (msg.includes("Failed to fetch"))
-        return "Server bilan aloqa yo'q. Internetni tekshiring.";
+        return "Cannot reach the server. Check your internet connection.";
     return msg;
 }
 export function AuthForm({ mode, next, notice, }: {
@@ -43,11 +43,11 @@ export function AuthForm({ mode, next, notice, }: {
     async function submit(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
         if (!email.includes("@"))
-            return setError("To'g'ri email manzilini kiriting.");
+            return setError("Enter a valid email address.");
         if (password.length < 8)
-            return setError("Parol kamida 8 ta belgidan iborat bo'lishi kerak.");
+            return setError("Your password must contain at least 8 characters.");
         if (isSignUp && name.trim().length < 2)
-            return setError("Ismingizni kiriting.");
+            return setError("Enter your name.");
         setError("");
         setSuccess("");
         setLoading(true);
@@ -72,10 +72,10 @@ export function AuthForm({ mode, next, notice, }: {
                 }
                 // Supabase mavjud emailga ham "muvaffaqiyat" qaytaradi (identities bo'sh bo'ladi).
                 if (data.user && data.user.identities?.length === 0) {
-                    setError("Bu email allaqachon ro'yxatdan o'tgan. Kirish sahifasiga o'ting.");
+                    setError("This email is already registered. Please sign in.");
                     return;
                 }
-                setSuccess("Email manzilingizga tasdiqlash xati yuborildi! Pochtangizni tekshiring.");
+                setSuccess("A confirmation email has been sent. Check your inbox.");
             }
             else {
                 const { error: signInError } = await supabase.auth.signInWithPassword({
@@ -89,7 +89,7 @@ export function AuthForm({ mode, next, notice, }: {
             }
         }
         catch (err: unknown) {
-            setError(friendlyAuthError(err instanceof Error ? err.message : "Xatolik yuz berdi"));
+            setError(friendlyAuthError(err instanceof Error ? err.message : "An error occurred"));
         }
         finally {
             setLoading(false);
@@ -104,44 +104,44 @@ export function AuthForm({ mode, next, notice, }: {
         setLoading(false);
         if (!result.ok)
             return setError(result.error);
-        setSuccess("Agar bu email ro'yxatda bo'lsa, parolni tiklash havolasi yuborildi. Pochtangizni tekshiring.");
+        setSuccess("If this email is registered, a password reset link has been sent. Check your inbox.");
     }
     if (view === "forgot") {
         return (<form onSubmit={submitForgot} className="mt-8 space-y-4">
-        <p className="text-sm text-[#65736d]"><>{t("Email manzilingizni kiriting \u2014 parolni yangilash havolasini yuboramiz.")}</></p>
+        <p className="text-sm text-[#65736d]"><>{t("Enter your email and we will send a password reset link.")}</></p>
         <Field label={t("Email")} icon={Mail}>
-          <input name="email" required type="email" autoComplete="email" placeholder={t("siz@example.com")} value={email} onChange={(e) => setEmail(e.target.value)} className="auth-input"/>
+          <input name="email" required type="email" autoComplete="email" placeholder={t("you@example.com")} value={email} onChange={(e) => setEmail(e.target.value)} className="auth-input"/>
         </Field>
 
         {error && <Alert kind="error">{t(error)}</Alert>}
         {success && <Alert kind="ok">{t(success)}</Alert>}
 
         <button type="submit" disabled={loading} className="flex w-full items-center justify-center gap-2 rounded-full bg-[#163e32] px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-[#0e3026] disabled:cursor-not-allowed disabled:opacity-60">
-          {loading ? <LoaderCircle className="size-4 animate-spin"/> : t("Havola yuborish")}
+          {loading ? <LoaderCircle className="size-4 animate-spin"/> : t("Send link")}
         </button>
         <button type="button" onClick={() => {
                 setView("form");
                 setError("");
                 setSuccess("");
             }} className="flex w-full items-center justify-center gap-1.5 pt-2 text-xs font-semibold text-[#315d4c] hover:underline">
-          <ArrowLeft className="size-3.5"/><>{t("Kirishga qaytish")}</></button>
+          <ArrowLeft className="size-3.5"/><>{t("Back to sign in")}</></button>
       </form>);
     }
     return (<form onSubmit={submit} className="mt-8 space-y-4">
       {notice && !error && !success && <Alert kind="info">{t(notice)}</Alert>}
 
-      {isSignUp && (<Field label={t("Ism va familiya")} icon={UserRound}>
-          <input name="name" required autoComplete="name" placeholder={t("Ismingiz")} value={name} onChange={(e) => setName(e.target.value)} className="auth-input"/>
+      {isSignUp && (<Field label={t("Full name")} icon={UserRound}>
+          <input name="name" required autoComplete="name" placeholder={t("Your name")} value={name} onChange={(e) => setName(e.target.value)} className="auth-input"/>
         </Field>)}
 
       <Field label={t("Email")} icon={Mail}>
-        <input name="email" required type="email" autoComplete="email" placeholder={t("siz@example.com")} value={email} onChange={(e) => setEmail(e.target.value)} className="auth-input"/>
+        <input name="email" required type="email" autoComplete="email" placeholder={t("you@example.com")} value={email} onChange={(e) => setEmail(e.target.value)} className="auth-input"/>
       </Field>
 
-      <Field label={t("Parol")} icon={LockKeyhole}>
+      <Field label={t("Password")} icon={LockKeyhole}>
         <div className="relative">
-          <input name="password" required type={showPassword ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete={isSignUp ? "new-password" : "current-password"} placeholder={t("Kamida 8 ta belgi")} className="auth-input pr-12"/>
-          <button type="button" onClick={() => setShowPassword((v) => !v)} aria-label={showPassword ? t("Parolni yashirish") : t("Parolni ko'rsatish")} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7e8984] hover:text-[#13251f] transition-colors">
+          <input name="password" required type={showPassword ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete={isSignUp ? "new-password" : "current-password"} placeholder={t("At least 8 characters")} className="auth-input pr-12"/>
+          <button type="button" onClick={() => setShowPassword((v) => !v)} aria-label={showPassword ? t("Hide password") : t("Show password")} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7e8984] hover:text-[#13251f] transition-colors">
             {showPassword ? <EyeOff className="size-4"/> : <Eye className="size-4"/>}
           </button>
         </div>
@@ -149,9 +149,9 @@ export function AuthForm({ mode, next, notice, }: {
 
       {isSignUp && (<div className="grid grid-cols-2 gap-2 text-[11px] text-[#68756f]">
           <span className="flex items-center gap-1.5">
-            <Check className={`size-3.5 transition-colors ${password.length >= 8 ? "text-emerald-600" : "text-[#9aa39f]"}`}/><>{t("8+ belgi")}</></span>
+            <Check className={`size-3.5 transition-colors ${password.length >= 8 ? "text-emerald-600" : "text-[#9aa39f]"}`}/><>{t("8+ characters")}</></span>
           <span className="flex items-center gap-1.5">
-            <Check className={`size-3.5 transition-colors ${/[0-9]/.test(password) ? "text-emerald-600" : "text-[#9aa39f]"}`}/><>{t("Kamida 1 raqam")}</></span>
+            <Check className={`size-3.5 transition-colors ${/[0-9]/.test(password) ? "text-emerald-600" : "text-[#9aa39f]"}`}/><>{t("At least 1 number")}</></span>
         </div>)}
 
       {!isSignUp && (<div className="flex justify-end text-xs">
@@ -159,7 +159,7 @@ export function AuthForm({ mode, next, notice, }: {
                 setView("forgot");
                 setError("");
                 setSuccess("");
-            }} className="font-semibold text-[#315d4c] hover:underline"><>{t("Parolni unutdingizmi?")}</></button>
+            }} className="font-semibold text-[#315d4c] hover:underline"><>{t("Forgot password?")}</></button>
         </div>)}
 
       {error && <Alert kind="error">{t(error)}</Alert>}
@@ -167,15 +167,15 @@ export function AuthForm({ mode, next, notice, }: {
 
       <button type="submit" disabled={loading} className="flex w-full items-center justify-center gap-2 rounded-full bg-[#163e32] px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-[#0e3026] disabled:cursor-not-allowed disabled:opacity-60">
         {loading ? (<LoaderCircle className="size-4 animate-spin"/>) : (<>
-            {isSignUp ? t("Hisob yaratish") : t("Kirish")}
+            {isSignUp ? t("Create account") : t("Sign in")}
             <ArrowRight className="size-4"/>
           </>)}
       </button>
 
       <p className="pt-2 text-center text-xs text-[#738079]">
-        {isSignUp ? t("Hisobingiz bormi?") : t("Hali hisobingiz yo'qmi?")}{" "}
+        {isSignUp ? t("Already have an account?") : t("Do not have an account yet?")}{" "}
         <Link href={isSignUp ? "/sign-in" : "/sign-up"} className="font-semibold text-[#315d4c] hover:underline">
-          {isSignUp ? t("Kirish") : t("Ro'yxatdan o'tish")}
+          {isSignUp ? t("Sign in") : t("Sign up")}
         </Link>
       </p>
     </form>);

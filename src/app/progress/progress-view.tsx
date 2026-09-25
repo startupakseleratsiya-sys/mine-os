@@ -43,8 +43,8 @@ export function ProgressView(p: ProgressViewProps) {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
         {[
             { icon: BookOpenCheck, value: `${p.totalCompleted}`, label: `Lessons completed (of ${p.totalChapters})`, color: "text-emerald-600" },
-            { icon: Clock3, value: `${hours}h`, label: "O'rganish vaqti", color: "text-sky-600" },
-            { icon: Award, value: `${overall}%`, label: "Umumiy natija", color: "text-violet-600" },
+            { icon: Clock3, value: `${hours}h`, label: "Estimated study time", color: "text-sky-600" },
+            { icon: Award, value: `${overall}%`, label: "Overall progress", color: "text-violet-600" },
             { icon: Flame, value: `${p.streak} ${p.streak === 1 ? "day" : "days"}`, label: "Streak", color: "text-amber-500" },
         ].map(({ icon: Icon, value, label, color }) => (<div key={label} className="rounded-3xl border border-[#13251f]/10 bg-white p-5">
             <Icon className={`size-5 ${color} mb-4`}/>
@@ -57,8 +57,8 @@ export function ProgressView(p: ProgressViewProps) {
         <div className="rounded-3xl border border-[#13251f]/10 bg-white p-6">
           <div className="flex items-center justify-between mb-2">
             <div>
-              <h2 className="font-bold text-[#0f2017]"><>{t("Haftalik faoliyat")}</></h2>
-              <p className="text-xs text-[#78837f] mt-0.5"><>{t("Oxirgi 7 kun \u00B7")}</>{weekMinutes > 0 ? t("{0} daqiqa", { "0": weekMinutes }) : t("hali faollik yo'q")}
+              <h2 className="font-bold text-[#0f2017]"><>{t("Weekly activity")}</></h2>
+              <p className="text-xs text-[#78837f] mt-0.5"><>{t("Last 7 days ·")}</>{weekMinutes > 0 ? t("{0} min", { "0": weekMinutes }) : t("no activity yet")}
               </p>
             </div>
             <TrendingUp className="size-5 text-[#37624f]"/>
@@ -71,7 +71,7 @@ export function ProgressView(p: ProgressViewProps) {
                   <span className="text-[9px] font-bold text-[#78837f]">{minutes > 0 ? t("{0}m", { "0": minutes }) : ""}</span>
                   <div className="w-full relative rounded-t-xl overflow-hidden" style={{ height: "152px" }}>
                     <div className="absolute inset-0 bg-[#f0f2ef] rounded-xl"/>
-                    <div style={{ height: `${pct}%` }} title={t("{0} bob", { "0": lessons })} className={`absolute bottom-0 left-0 right-0 rounded-xl ${isToday ? "bg-[#4a9e72]" : "bg-[#28634f]"}`}/>
+                    <div style={{ height: `${pct}%` }} title={t("{0} lessons", { "0": lessons })} className={`absolute bottom-0 left-0 right-0 rounded-xl ${isToday ? "bg-[#4a9e72]" : "bg-[#28634f]"}`}/>
                   </div>
                   <span className={`text-[10px] font-semibold ${isToday ? "text-[#163e32]" : "text-[#87928e]"}`}>{t(day)}</span>
                 </div>);
@@ -83,23 +83,23 @@ export function ProgressView(p: ProgressViewProps) {
           <div className="absolute -right-6 -top-6 size-32 bg-white/5 rounded-full blur-2xl pointer-events-none"/>
           <Target className="size-6 text-[#b7d2c1] mb-2 relative z-10"/>
           <div className="mt-auto relative z-10">
-            <p className="text-xs text-[#acc1b9] font-medium mb-1 tracking-widest uppercase"><>{t("Faol kurs")}</></p>
+            <p className="text-xs text-[#acc1b9] font-medium mb-1 tracking-widest uppercase"><>{t("Current course")}</></p>
             <h2 className="text-xl font-bold leading-tight mb-2">{t(p.active.title)}</h2>
             <p className="text-xs text-[#8dbca9] leading-relaxed">
               {p.active.remaining === 0
-            ? t("Kurs to'liq tugatildi. Zo'r!") : t("{0} ta bob qoldi.", { "0": p.active.remaining })}
+            ? t("Course completed. Well done!") : t("Lessons remaining: {0}.", { "0": p.active.remaining })}
             </p>
           </div>
           <div className="mt-6 relative z-10">
             <div className="flex justify-between items-end text-xs text-[#acc1b9] mb-2">
-              <span><>{t("Tayyorgarlik darajasi")}</></span>
+              <span><>{t("Completion")}</></span>
               <span className="font-bold text-xl text-white">{p.active.percent}%</span>
             </div>
             <div className="h-2.5 rounded-full bg-black/20 overflow-hidden">
               <div style={{ width: `${p.active.percent}%` }} className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-[#c7dbce]"/>
             </div>
             <Link href={p.active.href} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white hover:underline">
-              {p.active.remaining === 0 ? t("Kursga qaytish") : t("Davom etish")} <ArrowRight className="size-4"/>
+              {p.active.remaining === 0 ? t("Back to course") : t("Continue")} <ArrowRight className="size-4"/>
             </Link>
           </div>
         </div>
@@ -108,9 +108,9 @@ export function ProgressView(p: ProgressViewProps) {
       <div className="grid gap-5 lg:grid-cols-[1.4fr_0.9fr]">
         <div className="rounded-3xl border border-[#13251f]/10 bg-white p-6">
           <h2 className="font-bold text-[#0f2017] mb-5 flex items-center gap-2">
-            <CheckCircle2 className="size-4.5 text-emerald-600"/><>{t("So'nggi tugatilgan boblar")}</></h2>
-          {p.recent.length === 0 ? (<div className="rounded-2xl bg-[#f8f7f2] px-4 py-6 text-center text-sm text-[#78837f]"><>{t("Hali bob tugatilmagan.")}</>{" "}
-              <Link href="/courses" className="font-semibold text-[#163e32] underline"><>{t("Birinchi darsni boshlang")}</></Link>
+            <CheckCircle2 className="size-4.5 text-emerald-600"/><>{t("Recently completed lessons")}</></h2>
+          {p.recent.length === 0 ? (<div className="rounded-2xl bg-[#f8f7f2] px-4 py-6 text-center text-sm text-[#78837f]"><>{t("No lessons completed yet.")}</>{" "}
+              <Link href="/courses" className="font-semibold text-[#163e32] underline"><>{t("Start your first lesson")}</></Link>
             </div>) : (<div className="space-y-3">
               {p.recent.map((r) => (<Link key={r.href} href={r.href} className="flex items-center justify-between rounded-2xl bg-[#f8f7f2] px-4 py-3.5 hover:bg-[#f0f2ef] transition-colors">
                   <div>
@@ -126,7 +126,7 @@ export function ProgressView(p: ProgressViewProps) {
 
         <div className="rounded-3xl border border-[#13251f]/10 bg-white p-6">
           <h2 className="font-bold text-[#0f2017] mb-5 flex items-center gap-2">
-            <Award className="size-4.5 text-amber-500"/><>{t("Yutuqlar")}</></h2>
+            <Award className="size-4.5 text-amber-500"/><>{t("Achievements")}</></h2>
           <div className="grid grid-cols-3 gap-3">
             {p.achievements.map(({ icon, label, earned }) => (<div key={label} className={`flex flex-col items-center gap-2 rounded-2xl p-3 text-center transition-all ${earned
                 ? "bg-[#f3f1eb] border-2 border-[#dce7dd]"

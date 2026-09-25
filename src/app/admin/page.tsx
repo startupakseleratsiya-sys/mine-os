@@ -38,31 +38,31 @@ async function Stats() {
     return (<>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {[
-            { icon: Users, label: "Foydalanuvchilar", value: fmt(users), color: "text-sky-600" },
-            { icon: BookOpenCheck, label: "Tugatilgan boblar", value: fmt(lessons), color: "text-emerald-600" },
-            { icon: MessageSquareText, label: "AI suhbatlar", value: fmt(chats), color: "text-violet-600" },
+            { icon: Users, label: "Users", value: fmt(users), color: "text-sky-600" },
+            { icon: BookOpenCheck, label: "Completed lessons", value: fmt(lessons), color: "text-emerald-600" },
+            { icon: MessageSquareText, label: "AI conversations", value: fmt(chats), color: "text-violet-600" },
         ].map(({ icon: Icon, label, value, color }) => (<div key={label} className="rounded-2xl border border-[#13251f]/10 bg-white p-5">
             <Icon className={`size-5 ${color} mb-3`}/>
             <p className="text-2xl font-extrabold text-[#13251f]">{value}</p>
             <p className="text-xs text-[#65736d] mt-1 font-medium">{t(label)}</p>
           </div>))}
       </div>
-      {users === null && (<p className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800"><>{t("Baza jadvallari topilmadi \u2014")}</><code><>{t("supabase/migrations/00001_initial_schema.sql")}</></code><>{t("ni SQL Editor'da ishga tushiring.")}</></p>)}
+      {users === null && (<p className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800"><>{t("Database tables were not found —")}</><code><>{t("supabase/migrations/00001_initial_schema.sql")}</></code><>{t("in the SQL Editor.")}</></p>)}
 
       <section className="mt-8">
-        <h2 className="text-lg font-semibold text-[#13251f] mb-4"><>{t("Kurslar bo'yicha faollik")}</></h2>
+        <h2 className="text-lg font-semibold text-[#13251f] mb-4"><>{t("Activity by course")}</></h2>
         <div className="rounded-xl border border-[#13251f]/10 bg-white divide-y divide-[#13251f]/5">
           {COURSES.map((course) => {
             const done = perCourse?.get(course.slug) ?? 0;
             return (<div key={course.slug} className="flex items-center justify-between px-6 py-4">
                 <div>
                   <p className="text-sm font-semibold text-[#13251f]">{t(course.shortTitle)}</p>
-                  <p className="text-xs text-[#65736d]">{course.chapters.length}<>{" "}{t("bob \u00B7")}{" "}</>{t(course.level)}</p>
+                  <p className="text-xs text-[#65736d]">{course.chapters.length}<>{" "}{t("lessons ·")}{" "}</>{t(course.level)}</p>
                 </div>
-                <p className="text-sm font-bold text-[#163e32]">{perCourse ? t("{0} tugatish", { "0": done }) : "—"}</p>
+                <p className="text-sm font-bold text-[#163e32]">{perCourse ? t("{0} completions", { "0": done }) : "—"}</p>
               </div>);
         })}
-          <div className="px-6 py-3 text-xs text-[#65736d]"><>{t("Jami")}{" "}</>{TOTAL_CHAPTERS}<>{" "}{t("bob,")}{" "}</>{COURSES.length}<>{" "}{t("kurs.")}</></div>
+          <div className="px-6 py-3 text-xs text-[#65736d]"><>{t("Total")}{" "}</>{TOTAL_CHAPTERS}<>{" "}{t("lessons,")}{" "}</>{COURSES.length}<>{" "}{t("courses.")}</></div>
         </div>
       </section>
     </>);
@@ -71,8 +71,8 @@ export default async function AdminDashboardPage() {
     const { t } = await getI18n();
     return (<div className="p-6 sm:p-8">
       <header className="mb-8">
-        <h1 className="text-2xl font-bold tracking-tight text-[#13251f]"><>{t("Boshqaruv paneli")}</></h1>
-        <p className="mt-1 text-sm text-[#65736d]"><>{t("Tizimdagi umumiy ko'rsatkichlar va foydalanuvchilar.")}</></p>
+        <h1 className="text-2xl font-bold tracking-tight text-[#13251f]"><>{t("Administration")}</></h1>
+        <p className="mt-1 text-sm text-[#65736d]"><>{t("Overall system metrics and users.")}</></p>
       </header>
 
       <Suspense fallback={<div className="h-28 rounded-2xl bg-white border border-[#13251f]/10 animate-pulse"/>}>
@@ -81,10 +81,10 @@ export default async function AdminDashboardPage() {
 
       <section className="mt-8">
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-[#13251f]"><>{t("So'nggi foydalanuvchilar")}</></h2>
-          <Link href="/admin/users" className="text-sm font-semibold text-[#163e32] hover:underline"><>{t("Barchasi \u2192")}</></Link>
+          <h2 className="text-lg font-semibold text-[#13251f]"><>{t("Recent users")}</></h2>
+          <Link href="/admin/users" className="text-sm font-semibold text-[#163e32] hover:underline"><>{t("View all →")}</></Link>
         </div>
-        <Suspense fallback={<div className="h-40 flex items-center justify-center border border-[#13251f]/10 rounded-xl bg-white text-sm text-[#65736d]"><>{t("Yuklanmoqda...")}</></div>}>
+        <Suspense fallback={<div className="h-40 flex items-center justify-center border border-[#13251f]/10 rounded-xl bg-white text-sm text-[#65736d]"><>{t("Loading…")}</></div>}>
           <UsersTable limit={8}/>
         </Suspense>
       </section>

@@ -15,17 +15,17 @@ function CreditCalc() {
     const monthly = calculateLoanPayment({ amount, annualRate: rate, months });
     const total = monthly * months;
     const totalInterest = total - amount;
-    const fmt = (n: number) => new Intl.NumberFormat("uz-UZ", { style: "decimal" }).format(Math.round(n));
+    const fmt = (n: number) => new Intl.NumberFormat("en-GB", { style: "decimal" }).format(Math.round(n));
     return (<div className="space-y-5">
-      <Slider label={t("Kredit summasi")} value={amount} min={1000000} max={100000000} step={500000} display={t("{0} so'm", { "0": fmt(amount) })} onChange={setAmount}/>
-      <Slider label={t("Yillik nominal foiz stavkasi")} value={rate} min={0} max={60} step={0.5} display={`${rate}%`} onChange={setRate}/>
-      <Slider label={t("Muddat (oy)")} value={months} min={3} max={120} step={3} display={t("{0} oy", { "0": months })} onChange={setMonths}/>
+      <Slider label={t("Loan amount")} value={amount} min={1000000} max={100000000} step={500000} display={t("{0} UZS", { "0": fmt(amount) })} onChange={setAmount}/>
+      <Slider label={t("Nominal annual interest rate")} value={rate} min={0} max={60} step={0.5} display={`${rate}%`} onChange={setRate}/>
+      <Slider label={t("Term (months)")} value={months} min={3} max={120} step={3} display={t("{0} months", { "0": months })} onChange={setMonths}/>
       <div className="mt-4 grid grid-cols-3 gap-3">
-        <Result label={t("Oylik to'lov")} value={`${fmt(monthly)} UZS`} highlight/>
-        <Result label={t("Umumiy to'lov")} value={`${fmt(total)} UZS`}/>
-        <Result label={t("Foiz ulushi")} value={`${fmt(totalInterest)} UZS`}/>
+        <Result label={t("Monthly payment")} value={`${fmt(monthly)} UZS`} highlight/>
+        <Result label={t("Total repayment")} value={`${fmt(total)} UZS`}/>
+        <Result label={t("Interest paid")} value={`${fmt(totalInterest)} UZS`}/>
       </div>
-      <p className="text-xs leading-relaxed text-[#65736d]"><>{t("Stavka o\u2018zgarmaydi; oylik stavka \u2014 yillik nominal stavkaning 1/12 qismi. Teng to\u2018lovlar oy oxirida qilinadi. Komissiya va sug\u2018urta hisobga olinmagan.")}</></p>
+      <p className="text-xs leading-relaxed text-[#65736d]"><>{t("The rate is fixed; the monthly rate is 1/12 of the nominal annual rate. Equal payments are made at the end of each month. Fees and insurance are excluded.")}</></p>
     </div>);
 }
 /* ── Compound interest calculator ── */
@@ -38,16 +38,16 @@ function CompoundCalc() {
     const totalContrib = principal + monthly * 12 * years;
     const finalAmount = calculateSavings({ principal, monthly, annualRate: rate, months: years * 12 });
     const earned = finalAmount - totalContrib;
-    const fmt = (n: number) => new Intl.NumberFormat("uz-UZ").format(Math.round(n));
+    const fmt = (n: number) => new Intl.NumberFormat("en-GB").format(Math.round(n));
     return (<div className="space-y-5">
-      <Slider label={t("Boshlang'ich kapital")} value={principal} min={100000} max={50000000} step={100000} display={t("{0} so'm", { "0": fmt(principal) })} onChange={setPrincipal}/>
-      <Slider label={t("Oylik qo'shimcha")} value={monthly} min={0} max={5000000} step={50000} display={t("{0} so'm", { "0": fmt(monthly) })} onChange={setMonthly}/>
-      <Slider label={t("Yillik nominal daromad")} value={rate} min={0} max={50} step={0.5} display={`${rate}%`} onChange={setRate}/>
-      <Slider label={t("Muddat (yil)")} value={years} min={1} max={30} step={1} display={t("{0} yil", { "0": years })} onChange={setYears}/>
+      <Slider label={t("Initial capital")} value={principal} min={100000} max={50000000} step={100000} display={t("{0} UZS", { "0": fmt(principal) })} onChange={setPrincipal}/>
+      <Slider label={t("Monthly contribution")} value={monthly} min={0} max={5000000} step={50000} display={t("{0} UZS", { "0": fmt(monthly) })} onChange={setMonthly}/>
+      <Slider label={t("Nominal annual return")} value={rate} min={0} max={50} step={0.5} display={`${rate}%`} onChange={setRate}/>
+      <Slider label={t("Term (years)")} value={years} min={1} max={30} step={1} display={t("{0} years", { "0": years })} onChange={setYears}/>
       <div className="mt-4 grid grid-cols-3 gap-3">
-        <Result label={t("Yakuniy summa")} value={`${fmt(finalAmount)} UZS`} highlight/>
-        <Result label={t("Kiritilgan")} value={`${fmt(totalContrib)} UZS`}/>
-        <Result label={t("Qozonilgan")} value={`${fmt(earned)} UZS`}/>
+        <Result label={t("Final balance")} value={`${fmt(finalAmount)} UZS`} highlight/>
+        <Result label={t("Contributed")} value={`${fmt(totalContrib)} UZS`}/>
+        <Result label={t("Interest earned")} value={`${fmt(earned)} UZS`}/>
       </div>
       <SavingsAssumptions />
     </div>);
@@ -56,16 +56,16 @@ function CompoundCalc() {
 function BudgetCalc() {
     const { t } = useI18n();
     const [income, setIncome] = useState(5000000);
-    const fmt = (n: number) => new Intl.NumberFormat("uz-UZ").format(Math.round(n));
+    const fmt = (n: number) => new Intl.NumberFormat("en-GB").format(Math.round(n));
     const needs = income * 0.5;
     const wants = income * 0.3;
     const savings = income * 0.2;
     return (<div className="space-y-5">
-      <Slider label={t("Oylik daromad")} value={income} min={500000} max={50000000} step={100000} display={t("{0} so'm", { "0": fmt(income) })} onChange={setIncome}/>
+      <Slider label={t("Monthly income")} value={income} min={500000} max={50000000} step={100000} display={t("{0} UZS", { "0": fmt(income) })} onChange={setIncome}/>
       <div className="mt-4 space-y-3">
-        <BudgetBar label={t("Ehtiyojlar (50%)")} amount={needs} total={income} color="bg-[#163e32]" fmt={fmt}/>
-        <BudgetBar label={t("Istaklarlar (30%)")} amount={wants} total={income} color="bg-[#4a9e72]" fmt={fmt}/>
-        <BudgetBar label={t("Jamg'arma (20%)")} amount={savings} total={income} color="bg-amber-500" fmt={fmt}/>
+        <BudgetBar label={t("Needs (50%)")} amount={needs} total={income} color="bg-[#163e32]" fmt={fmt}/>
+        <BudgetBar label={t("Wants (30%)")} amount={wants} total={income} color="bg-[#4a9e72]" fmt={fmt}/>
+        <BudgetBar label={t("Savings (20%)")} amount={savings} total={income} color="bg-amber-500" fmt={fmt}/>
       </div>
     </div>);
 }
@@ -81,7 +81,7 @@ function BudgetBar({ label, amount, total, color, fmt }: {
     return (<div className="bg-[#f8f7f2] rounded-2xl p-4">
       <div className="flex justify-between mb-2">
         <span className="text-sm font-semibold text-[#0f2017]">{t(label)}</span>
-        <span suppressHydrationWarning className="text-sm font-bold text-[#0f2017]">{fmt(amount)}<>{" "}{t("so'm")}</></span>
+        <span suppressHydrationWarning className="text-sm font-bold text-[#0f2017]">{fmt(amount)}<>{" "}{t("UZS")}</></span>
       </div>
       <div className="h-2.5 bg-[#e9ebe7] rounded-full overflow-hidden">
         <div style={{ width: `${pct}%` }} className={`h-full rounded-full ${color}`}/>
@@ -97,24 +97,24 @@ function GoalCalc() {
     const [rate, setRate] = useState(15);
     const remaining = Math.max(goal - current, 0);
     const needed = calculateGoalContribution({ goal, current, annualRate: rate, months });
-    const fmt = (n: number) => new Intl.NumberFormat("uz-UZ").format(Math.round(n));
+    const fmt = (n: number) => new Intl.NumberFormat("en-GB").format(Math.round(n));
     return (<div className="space-y-5">
-      <Slider label={t("Maqsad summasi")} value={goal} min={1000000} max={500000000} step={1000000} display={t("{0} so'm", { "0": fmt(goal) })} onChange={setGoal}/>
-      <Slider label={t("Hozirgi jamg'arma")} value={current} min={0} max={500000000} step={100000} display={t("{0} so'm", { "0": fmt(current) })} onChange={setCurrent}/>
-      <Slider label={t("Muddat (oy)")} value={months} min={3} max={120} step={3} display={t("{0} oy", { "0": months })} onChange={setMonths}/>
-      <Slider label={t("Yillik nominal daromad")} value={rate} min={0} max={40} step={0.5} display={`${rate}%`} onChange={setRate}/>
+      <Slider label={t("Target amount")} value={goal} min={1000000} max={500000000} step={1000000} display={t("{0} UZS", { "0": fmt(goal) })} onChange={setGoal}/>
+      <Slider label={t("Current savings")} value={current} min={0} max={500000000} step={100000} display={t("{0} UZS", { "0": fmt(current) })} onChange={setCurrent}/>
+      <Slider label={t("Term (months)")} value={months} min={3} max={120} step={3} display={t("{0} months", { "0": months })} onChange={setMonths}/>
+      <Slider label={t("Nominal annual return")} value={rate} min={0} max={40} step={0.5} display={`${rate}%`} onChange={setRate}/>
       <div className="mt-4 grid grid-cols-2 gap-3">
-        <Result label={t("Oylik kerak")} value={`${fmt(Math.ceil(needed))} UZS`} highlight/>
-        <Result label={t("Qolgan summa")} value={`${fmt(remaining)} UZS`}/>
+        <Result label={t("Required each month")} value={`${fmt(Math.ceil(needed))} UZS`} highlight/>
+        <Result label={t("Remaining amount")} value={`${fmt(remaining)} UZS`}/>
       </div>
       <SavingsAssumptions />
-      <p className="text-xs leading-relaxed text-[#65736d]"><>{t("Mavjud jamg\u2018arma ham shu stavkada o\u2018sadi. Oylik badal maqsadga yetishi uchun yuqoriga, butun so\u2018mgacha yaxlitlanadi.")}</></p>
+      <p className="text-xs leading-relaxed text-[#65736d]"><>{t("Existing savings grow at the same rate. The monthly contribution is rounded up to a whole UZS to reach the target.")}</></p>
     </div>);
 }
 /* ── Shared sub-components ── */
 function SavingsAssumptions() {
     const { t } = useI18n();
-    return (<p className="text-xs leading-relaxed text-[#65736d]"><>{t("Oylik stavka \u2014 yillik nominal stavkaning 1/12 qismi. Foiz har oy jamg\u2018armaga qo\u2018shiladi, badal oy oxirida kiritiladi. Stavka o\u2018zgarmaydi; soliq, komissiya va inflyatsiya hisobga olinmagan.")}</></p>);
+    return (<p className="text-xs leading-relaxed text-[#65736d]"><>{t("The monthly rate is 1/12 of the nominal annual rate. Interest is added monthly; contributions are made at month-end. The rate is fixed; tax, fees and inflation are excluded.")}</></p>);
 }
 function Slider({ label, value, min, max, step, display, onChange, }: {
     label: string;
@@ -152,15 +152,15 @@ function Result({ label, value, highlight }: {
 }
 /* ── Tool card ── */
 const TOOLS = [
-    { id: "credit", icon: Landmark, title: "Kredit kalkulyatori", desc: "Oylik to'lov va umumiy foiz hisobi.", component: CreditCalc },
-    { id: "compound", icon: Percent, title: "Murakkab foiz", desc: "Jamg'arma vaqt bilan qanday o'sishini ko'ring.", component: CompoundCalc },
-    { id: "budget", icon: WalletCards, title: "Oylik budjet (50/30/20)", desc: "Daromadni oqilona taqsimlang.", component: BudgetCalc },
-    { id: "goal", icon: PiggyBank, title: "Maqsad kalkulyatori", desc: "Maqsadga yetish uchun oylik miqdorni biling.", component: GoalCalc },
+    { id: "credit", icon: Landmark, title: "Loan calculator", desc: "Calculate monthly payments and total interest.", component: CreditCalc },
+    { id: "compound", icon: Percent, title: "Compound interest", desc: "See how savings grow over time.", component: CompoundCalc },
+    { id: "budget", icon: WalletCards, title: "Monthly budget (50/30/20)", desc: "Allocate your income thoughtfully.", component: BudgetCalc },
+    { id: "goal", icon: PiggyBank, title: "Savings goal calculator", desc: "Find the monthly contribution needed to reach your goal.", component: GoalCalc },
 ];
 export default function CalculatorsPage() {
     const { t } = useI18n();
     const [openId, setOpenId] = useState<string>("credit");
-    return (<SectionShell eyebrow={t("Amaliy vositalar")} title={t("Hisoblang. Solishtiring. Keyin qaror qiling.")} description={t("Oddiy va shaffof kalkulyatorlar moliyaviy qarorning raqamlar ortidagi haqiqiy ta'sirini ko'rsatadi.")}>
+    return (<SectionShell eyebrow={t("Practical tools")} title={t("Calculate. Compare. Then decide.")} description={t("Clear, transparent calculators show how a financial decision affects the numbers.")}>
       <div className="space-y-4">
         {TOOLS.map(({ id, icon: Icon, title, desc, component: Comp }) => {
             const isOpen = openId === id;
@@ -190,8 +190,8 @@ export default function CalculatorsPage() {
       </div>
 
       <div className="mt-8 flex items-center gap-3 rounded-2xl bg-[#dce7dd] p-5 text-sm text-[#36584b]">
-        <Calculator className="size-5 shrink-0"/><>{t("Natijalar haqida savol bormi?")}</>{" "}
-        <Link href="/tutor" className="font-bold underline underline-offset-2 inline-flex items-center gap-1"><>{t("AI Tutorga so'rang")}</><ArrowRight className="size-3.5"/>
+        <Calculator className="size-5 shrink-0"/><>{t("Questions about your results?")}</>{" "}
+        <Link href="/tutor" className="font-bold underline underline-offset-2 inline-flex items-center gap-1"><>{t("Ask the AI tutor")}</><ArrowRight className="size-3.5"/>
         </Link>
       </div>
     </SectionShell>);

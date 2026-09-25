@@ -3,6 +3,7 @@ import { COURSES, TOTAL_CHAPTERS, getCourse, type Course } from "@/content/cours
 import { formatDate } from "@/lib/utils";
 import type { AnswerRow } from "@/lib/learning-path";
 import { bestStars, levelOf, xpTotal } from "@/lib/gamification";
+import { DAY_MS, USER_UTC_OFFSET_MS, computeStreak, dayKey } from "@/lib/day";
 
 export type LessonProgressRow = {
   course_slug: string;
@@ -58,26 +59,7 @@ export function lessonUnlocked(rows: LessonProgressRow[], course: Course, index:
   return index <= 0 || passed(index - 1);
 }
 
-function dayKey(date: Date) {
-  return date.toISOString().slice(0, 10);
-}
-
-/** Ketma-ket faol kunlar (bugun yoki kecha bilan tugaydigan). */
-export function computeStreak(rows: LessonProgressRow[]) {
-  const days = new Set(rows.map((r) => dayKey(new Date(r.completed_at))));
-  if (days.size === 0) return 0;
-  const cursor = new Date();
-  if (!days.has(dayKey(cursor))) {
-    cursor.setDate(cursor.getDate() - 1);
-    if (!days.has(dayKey(cursor))) return 0;
-  }
-  let streak = 0;
-  while (days.has(dayKey(cursor))) {
-    streak += 1;
-    cursor.setDate(cursor.getDate() - 1);
-  }
-  return streak;
-}
+export { computeStreak, dayKey } from "@/lib/day";
 
 const DAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -85,8 +67,7 @@ const DAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 export function weeklyActivity(rows: LessonProgressRow[]) {
   const result: { day: string; date: string; lessons: number; minutes: number; isToday: boolean }[] = [];
   for (let offset = 6; offset >= 0; offset--) {
-    const d = new Date();
-    d.setDate(d.getDate() - offset);
+    const d = new Date(Date.now() - offset * DAY_MS);
     const key = dayKey(d);
     const todays = rows.filter((r) => dayKey(new Date(r.completed_at)) === key);
     const minutes = todays.reduce((sum, r) => {
@@ -95,7 +76,7 @@ export function weeklyActivity(rows: LessonProgressRow[]) {
       return sum + (chapter?.minutes ?? 0);
     }, 0);
     result.push({
-      day: DAY_LABELS[d.getDay()],
+      day: DAY_LABELS[new Date(d.getTime() + USER_UTC_OFFSET_MS).getUTCDay()],
       date: key,
       lessons: todays.length,
       minutes,
@@ -145,12 +126,12 @@ export function achievements(rows: LessonProgressRow[], chatCount: number): Achi
   const completedCourses = COURSES.filter((c) => courseProgress(rows, c).percent === 100).length;
   const streak = computeStreak(rows);
   return [
-    { icon: "🎯", label: "Birinchi dars", earned: rows.length >= 1 },
-    { icon: "🧠", label: "AI bilan suhbat", earned: chatCount >= 1 },
-    { icon: "🔥", label: "3 kunlik streak", earned: streak >= 3 },
-    { icon: "📚", label: "5 dars tugatildi", earned: rows.length >= 5 },
-    { icon: "🏅", label: "Birinchi kurs", earned: completedCourses >= 1 },
-    { icon: "💰", label: "Barcha kurslar", earned: rows.length >= TOTAL_CHAPTERS },
+    { icon: "🎯", label: "First lesson passed", earned: rows.length >= 1 },
+    { icon: "🧠", label: "First AI tutor chat", earned: chatCount >= 1 },
+    { icon: "🔥", label: "3-day streak", earned: streak >= 3 },
+    { icon: "📚", label: "5 lessons passed", earned: rows.length >= 5 },
+    { icon: "🏅", label: "First level completed", earned: completedCourses >= 1 },
+    { icon: "🏆", label: "All three levels completed", earned: rows.length >= TOTAL_CHAPTERS },
   ];
 }
 

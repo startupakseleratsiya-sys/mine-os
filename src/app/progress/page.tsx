@@ -13,7 +13,7 @@ export default async function ProgressPage() {
         redirect("/sign-in?next=/progress");
     const [rows, chatCount] = await Promise.all([getLessonProgress(user.id), getChatSessionCount(user.id)]);
     const active = activeCourse(rows);
-    return (<SectionShell eyebrow={t("Mening natijalarim")} title={t("Bilimingiz qanday o'sayotganini ko'ring.")} description={t("Progress faqat ball emas \u2014 o'zlashtirilgan tushunchalar, amaliy odatlar va erishilgan maqsadlar yig'indisi.")}>
+    return (<SectionShell eyebrow={t("My results")} title={t("See how your knowledge is growing.")} description={t("Progress includes concepts understood, practical habits and goals achieved, not just a score.")}>
       <ProgressView totalCompleted={rows.length} totalChapters={TOTAL_CHAPTERS} minutesLearned={totalMinutesLearned(rows)} streak={computeStreak(rows)} weekly={weeklyActivity(rows).map(({ day, lessons, minutes, isToday }) => ({ day, lessons, minutes, isToday }))} recent={recentLessons(rows).map((r) => ({
             title: r.chapter.title,
             course: r.course.shortTitle,

@@ -10,8 +10,8 @@ import { activeCourse, computeStreak, courseProgress, courseUnlocked, getGameSta
 export const metadata = { title: "Dashboard" };
 const NAV = [
     { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
-    { href: "/courses", icon: BookOpen, label: "Kurslar" },
-    { href: "/tutor", icon: MessageSquareText, label: "AI Tutor" },
+    { href: "/courses", icon: BookOpen, label: "Courses" },
+    { href: "/tutor", icon: MessageSquareText, label: "AI tutor" },
     { href: "/progress", icon: Target, label: "Progress" },
 ];
 export default async function DashboardPage() {
@@ -23,9 +23,9 @@ export default async function DashboardPage() {
     catch {
         return (<div className="min-h-screen bg-[#F5F4EE] flex flex-col items-center justify-center gap-4 p-8 text-center">
         <CircleDollarSign className="size-12 text-[#163e32]"/>
-        <h1 className="text-2xl font-bold text-[#0f2017]"><>{t("Supabase sozlanmagan")}</></h1>
-        <p className="text-[#6B7A74] max-w-sm"><>{t("Iltimos,")}</><code className="bg-white px-2 py-1 rounded text-sm border border-[#E2E4DF]"><>{t(".env.local")}</></code><>{t("fayliga Supabase URL va Anon Key qiymatlarini kiriting va serverni qayta ishga tushiring.")}</></p>
-        <Link href="/" className="text-sm font-semibold text-[#163e32] underline"><>{t("Bosh sahifaga qaytish")}</></Link>
+        <h1 className="text-2xl font-bold text-[#0f2017]"><>{t("Supabase is not configured")}</></h1>
+        <p className="text-[#6B7A74] max-w-sm"><>{t("Please add the configuration to")}</><code className="bg-white px-2 py-1 rounded text-sm border border-[#E2E4DF]"><>{t(".env.local")}</></code><>{t("with the Supabase URL and anon key, then restart the server.")}</></p>
+        <Link href="/" className="text-sm font-semibold text-[#163e32] underline"><>{t("Back to home")}</></Link>
       </div>);
     }
     if (!user)
@@ -36,7 +36,7 @@ export default async function DashboardPage() {
     ]);
     const game = await getGameStats(user.id, rows);
     const metaName = typeof user.user_metadata?.full_name === "string" ? user.user_metadata.full_name : "";
-    const displayName = profile?.full_name || metaName || user.email?.split("@")[0] || "Foydalanuvchi";
+    const displayName = profile?.full_name || metaName || user.email?.split("@")[0] || "User";
     const initials = displayName
         .split(" ")
         .map((n: string) => n[0])
@@ -76,7 +76,7 @@ export default async function DashboardPage() {
               </div>
             </Link>
             <form action={signOut}>
-              <button type="submit" aria-label={t("Chiqish")} className="grid size-9 place-items-center rounded-lg text-[#65736d] hover:bg-[#f5f4ee] hover:text-red-600 transition-colors border border-[#E2E4DF]">
+              <button type="submit" aria-label={t("Sign out")} className="grid size-9 place-items-center rounded-lg text-[#65736d] hover:bg-[#f5f4ee] hover:text-red-600 transition-colors border border-[#E2E4DF]">
                 <LogOut className="size-4"/>
               </button>
             </form>
@@ -91,19 +91,19 @@ export default async function DashboardPage() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-14">
         <div className="mb-8 sm:mb-10">
-          <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-2"><>{t("Xush kelibsiz \uD83D\uDC4B")}</></p>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f2017] tracking-tight"><>{t("Salom,")}{" "}</>{displayName.split(" ")[0]}!
+          <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-2"><>{t("Welcome 👋")}</></p>
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f2017] tracking-tight"><>{t("Hello,")}{" "}</>{displayName.split(" ")[0]}!
           </h1>
           <p className="mt-2 text-[#6B7A74]">
-            {rows.length === 0 ? t("Birinchi darsni boshlaymizmi?") : t("O'rganishni davom ettiramizmi?")}
+            {rows.length === 0 ? t("Ready for your first lesson?") : t("Ready to continue learning?")}
           </p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { label: "Tugatilgan boblar", value: `${rows.length}/${TOTAL_CHAPTERS}`, icon: BookOpen, color: "text-emerald-600" },
-            { label: "Boshlangan kurslar", value: `${startedCourses}/${COURSES.length}`, icon: GraduationCap, color: "text-sky-600" },
-            { label: "O'rganish streigi", value: `${streak} ${streak === 1 ? "day" : "days"}`, icon: Flame, color: "text-amber-600" },
+            { label: "Completed lessons", value: `${rows.length}/${TOTAL_CHAPTERS}`, icon: BookOpen, color: "text-emerald-600" },
+            { label: "Courses started", value: `${startedCourses}/${COURSES.length}`, icon: GraduationCap, color: "text-sky-600" },
+            { label: "Learning streak", value: `${streak} ${streak === 1 ? "day" : "days"}`, icon: Flame, color: "text-amber-600" },
             { label: `Level ${game.level} · ${game.totalStars} ★`, value: `${game.xp.toLocaleString("en-US")} XP`, icon: Zap, color: "text-amber-500" },
         ].map(({ label, value, icon: Icon, color }) => (<div key={label} className="bg-white rounded-2xl p-5 border border-[#E2E4DF]">
               <Icon className={`size-5 ${color} mb-3`}/>
@@ -115,7 +115,7 @@ export default async function DashboardPage() {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">
             <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4">
-              {rows.length === 0 ? t("Tavsiya etilgan kurs") : t("Faol kurs")}
+              {rows.length === 0 ? t("Recommended course") : t("Current course")}
             </p>
             <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 sm:p-7 shadow-sm">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
@@ -126,7 +126,7 @@ export default async function DashboardPage() {
                   <h2 className="text-2xl font-extrabold text-[#0f2017] tracking-tight mb-1">{t(active.course.title)}</h2>
                   <p className="text-[#6B7A74] text-sm mb-6">
                     {active.nextChapter
-            ? t("Keyingi: {0}", { "0": t(active.nextChapter.title) }) : t("Barcha boblar tugatilgan \uD83C\uDF89")}
+            ? t("Next: {0}", { "0": t(active.nextChapter.title) }) : t("All lessons completed 🎉")}
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="flex-1 h-2 bg-[#F5F4EE] rounded-full overflow-hidden">
@@ -138,13 +138,13 @@ export default async function DashboardPage() {
                   </div>
                 </div>
                 <Link href={continueHref} className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#163e32] text-white font-bold rounded-2xl shadow-lg shadow-[#163e32]/15 hover:bg-[#0e3026] transition-all hover:-translate-y-0.5 shrink-0 text-sm">
-                  {active.completed === 0 ? t("Boshlash") : active.nextChapter ? t("Davom etish") : t("Ko'rish")}
+                  {active.completed === 0 ? t("Start") : active.nextChapter ? t("Continue") : t("View")}
                   <ArrowRight className="size-4"/>
                 </Link>
               </div>
             </div>
 
-            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4"><>{t("Barcha kurslar")}</></p>
+            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4"><>{t("All courses")}</></p>
             <div className="grid sm:grid-cols-3 gap-4">
               {COURSES.map((course) => {
             const cp = courseProgress(rows, course);
@@ -155,7 +155,7 @@ export default async function DashboardPage() {
                       <span className="text-xs font-bold text-[#354841]">{cp.percent}%</span>
                     </div>
                     <p className="text-sm font-bold text-[#0f2017] leading-snug">{t(course.shortTitle)}</p>
-                    <p className="text-xs text-[#6B7A74] mt-1">{cp.completed}/{cp.total}<>{" "}{t("bob")}</></p>
+                    <p className="text-xs text-[#6B7A74] mt-1">{cp.completed}/{cp.total}<>{" "}{t("lessons")}</></p>
                     <div className="mt-3 h-1.5 bg-[#F5F4EE] rounded-full overflow-hidden">
                       <div className="h-full bg-[#4a9e72] rounded-full" style={{ width: `${cp.percent}%` }}/>
                     </div>
@@ -163,12 +163,12 @@ export default async function DashboardPage() {
         })}
             </div>
 
-            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4"><>{t("Tezkor harakatlar")}</></p>
+            <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mt-8 mb-4"><>{t("Quick actions")}</></p>
             <div className="grid sm:grid-cols-3 gap-4">
               {[
-            { href: "/tutor", icon: MessageSquareText, label: "AI Tutor", desc: "Savol bering", color: "bg-violet-50 text-violet-600" },
+            { href: "/tutor", icon: MessageSquareText, label: "AI tutor", desc: "Ask a question", color: "bg-violet-50 text-violet-600" },
             { href: "/exam/flashcards", icon: BookOpen, label: "Flashcards", desc: "Glossary terms, 10 minutes a day", color: "bg-amber-50 text-amber-600" },
-            { href: "/progress", icon: TrendingUp, label: "Progress", desc: "Natijalar", color: "bg-sky-50 text-sky-600" },
+            { href: "/progress", icon: TrendingUp, label: "Progress", desc: "Results", color: "bg-sky-50 text-sky-600" },
         ].map(({ href, icon: Icon, label, desc, color }) => (<Link key={href} href={href} className="group bg-white rounded-2xl border border-[#E2E4DF] p-5 flex items-center gap-4 hover:border-[#a7c4b1] hover:shadow-md transition-all">
                   <span className={`grid size-10 place-items-center rounded-xl ${color}`}>
                     <Icon className="size-5"/>
@@ -184,7 +184,7 @@ export default async function DashboardPage() {
 
           <div className="space-y-6">
             <div>
-              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4"><>{t("Profil")}</></p>
+              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4"><>{t("Profile")}</></p>
               <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6">
                 <div className="flex items-center gap-4 mb-5">
                   <div className="size-14 rounded-full bg-[#163e32] grid place-items-center text-white text-xl font-bold">
@@ -196,27 +196,27 @@ export default async function DashboardPage() {
                   </div>
                 </div>
                 <Link href="/profile" className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl border border-[#E2E4DF] text-sm font-semibold text-[#354841] hover:bg-[#f5f4ee] transition-colors">
-                  <User className="size-4"/><>{t("Profilni tahrirlash")}</></Link>
+                  <User className="size-4"/><>{t("Edit profile")}</></Link>
               </div>
             </div>
 
             <div>
-              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4"><>{t("Umumiy yo'l")}</></p>
+              <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] uppercase mb-4"><>{t("Overall progress")}</></p>
               <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 text-center">
                 <div className="size-16 mx-auto bg-[#F5F4EE] border border-[#E2E4DF] rounded-full grid place-items-center mb-5">
                   <span className="text-3xl">{overallPercent === 100 ? "🏆" : overallPercent >= 50 ? "🚀" : "🏅"}</span>
                 </div>
                 <h3 className="font-bold text-[#0f2017] mb-2">
-                  {overallPercent === 100 ? t("Barcha kurslar tugatildi!") : overallPercent === 0 ? t("Boshlang'ich") : t("Yaxshi ketyapsiz")}
+                  {overallPercent === 100 ? t("All courses completed!") : overallPercent === 0 ? t("Beginner") : t("You are making progress")}
                 </h3>
                 <p className="text-sm text-[#6B7A74] leading-relaxed">
                   {TOTAL_CHAPTERS - rows.length === 0
-            ? t("Endi AI Tutor bilan bilimni mustahkamlang.") : t("Barcha kurslarni tugatish uchun yana {0} ta bob qoldi.", { "0": TOTAL_CHAPTERS - rows.length })}
+            ? t("Now reinforce your knowledge with the AI tutor.") : t("You have {0} lessons left to complete all courses.", { "0": TOTAL_CHAPTERS - rows.length })}
                 </p>
                 <div className="mt-5 h-1.5 bg-[#F5F4EE] rounded-full overflow-hidden">
                   <div className="h-full bg-[#163e32] rounded-full" style={{ width: `${overallPercent}%` }}/>
                 </div>
-                <p className="mt-2 text-right text-xs text-[#6B7A74]">{overallPercent}<>{t("% tayyor")}</></p>
+                <p className="mt-2 text-right text-xs text-[#6B7A74]">{overallPercent}<>{t("% complete")}</></p>
               </div>
             </div>
           </div>

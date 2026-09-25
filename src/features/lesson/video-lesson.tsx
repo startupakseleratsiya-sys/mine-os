@@ -4,7 +4,7 @@ import { useMemo, useRef, type KeyboardEvent } from "react";
 import { Maximize2, Pause, Play, RotateCcw, RotateCw, SkipBack, SkipForward } from "lucide-react";
 import type { Lesson } from "@/content/cp3p/types";
 import { splitSentences } from "./narrator";
-import { formatTime, usePlaylist, type Playlist } from "./use-playlist";
+import { formatTime, usePlaylist, type Playlist, type SavedPos } from "./use-playlist";
 
 const RATES = [0.85, 1, 1.15, 1.3, 1.5];
 
@@ -86,11 +86,13 @@ function SkipButton({ p, delta, dark }: { p: Playlist; delta: number; dark?: boo
  * Video dars: darsning slaydlari + ovozli tushuntirish (subtitr bilan).
  * audioBase berilsa — tabiiy ovozli yozuv; aks holda brauzer ovozi.
  */
-export function VideoLesson({ lesson, number, audioBase, active = true }: { lesson: Lesson; number: number; audioBase?: string; active?: boolean }) {
+type Resume = { initial?: SavedPos | null; sync?: boolean; durations?: number[] };
+
+export function VideoLesson({ lesson, number, audioBase, active = true, initial, sync, durations }: { lesson: Lesson; number: number; audioBase?: string; active?: boolean } & Resume) {
   const slides = lesson.slides;
   const groups = useMemo(() => slides.map((s) => splitSentences(s.narration)), [slides]);
   const urls = useMemo(() => (audioBase ? slides.map((_, i) => `${audioBase}/${i + 1}.mp3`) : undefined), [audioBase, slides]);
-  const p = usePlaylist({ groups, urls, storageKey: `finora:pos:video:${lesson.id}`, active, title: lesson.title });
+  const p = usePlaylist({ groups, urls, storageKey: `finora:pos:video:${lesson.id}`, active, title: lesson.title, initial, sync: sync ? { lessonId: lesson.id, kind: "video" } : undefined, knownDurations: durations });
   const boxRef = useRef<HTMLDivElement>(null);
   const s = slides[p.index];
   const sentence = p.activeSentence >= 0 ? groups[p.index][p.activeSentence] : null;
@@ -142,16 +144,16 @@ export function VideoLesson({ lesson, number, audioBase, active = true }: { less
       {!p.supported && <p className="px-4 pb-4 text-xs text-white/60">Your browser has no speech voice. You can still step through the slides.</p>}
       {p.failed && <p role="alert" className="px-4 pb-4 text-sm text-amber-200">The audio could not load. Check your connection and press Play again.</p>}
       {p.ended && <p className="px-4 pb-4 text-sm text-white/70">Lesson video finished — press Play to watch it again, or scroll down for the text and the test.</p>}
-      {!p.playing && p.started && !p.ended && <p className="px-4 pb-3 text-xs text-white/50">Paused at {formatTime(p.current)} — press Play to continue. Keys: ← → skip 10 s, space pauses.</p>}
+      {!p.playing && p.started && !p.ended && <p className="px-4 pb-3 text-xs text-white/50">Paused at {formatTime(p.current)} — press Play to continue from here. Keys: ← → skip 10 s, space pauses.</p>}
     </div>
   );
 }
 
 /** Butun darsni ovozda o'qib berish (audio dars) — vaqt chizig'i, ±10 s, istalgan bo'limga o'tish. */
-export function ListenLesson({ lessonId, title, parts, audioBase, active = true }: { lessonId: string; title: string; parts: { heading: string; text: string }[]; audioBase?: string; active?: boolean }) {
+export function ListenLesson({ lessonId, title, parts, audioBase, active = true, initial, sync, durations }: { lessonId: string; title: string; parts: { heading: string; text: string }[]; audioBase?: string; active?: boolean } & Resume) {
   const groups = useMemo(() => parts.map((pt) => [pt.heading + ".", ...splitSentences(pt.text)]), [parts]);
   const urls = useMemo(() => (audioBase ? parts.map((_, i) => `${audioBase}/p${i + 1}.mp3`) : undefined), [audioBase, parts]);
-  const p = usePlaylist({ groups, urls, storageKey: `finora:pos:audio:${lessonId}`, active, title });
+  const p = usePlaylist({ groups, urls, storageKey: `finora:pos:audio:${lessonId}`, active, title, initial, sync: sync ? { lessonId, kind: "audio" } : undefined, knownDurations: durations });
 
   return (
     <div tabIndex={0} onKeyDown={(e) => onPlayerKey(e, p)} className="rounded-3xl border border-[#13251f]/10 bg-white p-5 outline-none focus-visible:ring-4 focus-visible:ring-[#9fd3b8]/60">
@@ -164,6 +166,7 @@ export function ListenLesson({ lessonId, title, parts, audioBase, active = true 
         <div className="ml-auto"><SpeedPicker p={p} /></div>
       </div>
       <div className="mt-4"><Timeline p={p} /></div>
+      {!p.playing && p.started && !p.ended && <p className="mt-2 text-xs text-[#65736d]">You stopped at {formatTime(p.current)} — press “Continue listening” to carry on from there.</p>}
       <ol className="mt-4 space-y-1 text-sm">
         {parts.map((pt, i) => (
           <li key={i}>

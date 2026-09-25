@@ -23,13 +23,13 @@ export function AuthShell({ title, description, children, }: {
 
         {/* Form area */}
         <div className="my-auto mx-auto w-full max-w-[430px] py-14">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#527264]"><>{t("Xush kelibsiz")}</></p>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#527264]"><>{t("Welcome")}</></p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.045em]">{t(title)}</h1>
           <p className="mt-3 text-sm leading-6 text-[#6b7872]">{t(description)}</p>
           {children}
         </div>
 
-        <p className="text-center text-[10px] text-[#87918d]"><>{t("Davom etish orqali foydalanish shartlari va maxfiylik siyosatiga rozilik bildirasiz.")}</></p>
+        <p className="text-center text-[10px] text-[#87918d]"><>{t("By continuing, you agree to the terms of use and privacy policy.")}</></p>
       </section>
 
       {/* Right — dark panel */}
@@ -44,12 +44,12 @@ export function AuthShell({ title, description, children, }: {
 
         {/* Quote */}
         <div className="relative max-w-xl">
-          <blockquote className="text-4xl font-medium leading-[1.2] tracking-[-0.035em]"><>{t("&ldquo;Moliyaviy erkinlik katta daromaddan emas, ongli qarorlardan boshlanadi.&rdquo;")}</></blockquote>
+          <blockquote className="text-4xl font-medium leading-[1.2] tracking-[-0.035em]"><>{t("“Financial freedom begins with informed decisions, not a high income.”")}</></blockquote>
           <div className="mt-10 flex items-center gap-3 text-sm text-[#b9cbc4]">
-            <ShieldCheck className="size-5"/><>{t("Ma'lumotlaringiz himoyalangan")}</></div>
+            <ShieldCheck className="size-5"/><>{t("Your information is protected")}</></div>
         </div>
 
-        <p className="relative text-xs text-[#8eaaa0]"><>{t("Ta'lim. Tushunish. Ishonchli qaror.")}</></p>
+        <p className="relative text-xs text-[#8eaaa0]"><>{t("Learn. Understand. Decide with confidence.")}</></p>
       </aside>
     </main>);
 }

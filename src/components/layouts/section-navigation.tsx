@@ -4,17 +4,17 @@ import { useI18n } from "@/i18n/provider";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 const NAV_ITEMS = [
-    { href: "/dashboard", label: "Kabinet" },
-    { href: "/courses", label: "Kurslar" },
-    { href: "/tutor", label: "AI ustoz" },
-    { href: "/progress", label: "Natijalar" },
+    { href: "/dashboard", label: "Dashboard" },
+    { href: "/courses", label: "Courses" },
+    { href: "/tutor", label: "AI tutor" },
+    { href: "/progress", label: "Results" },
 ];
 export function SectionNavigation({ mobile = false }: {
     mobile?: boolean;
 }) {
     const { t } = useI18n();
     const pathname = usePathname();
-    return (<nav aria-label={t("Asosiy bo\u2018limlar")} className={mobile
+    return (<nav aria-label={t("Main sections")} className={mobile
             ? "flex gap-1 overflow-x-auto px-3 pb-2 md:hidden"
             : "hidden items-center gap-1 md:flex"}>
       {NAV_ITEMS.map(({ href, label }) => {

@@ -7,6 +7,7 @@ import type { Lesson } from "@/content/cp3p/types";
 import dynamic from "next/dynamic";
 import { Markdown } from "@/features/exam/markdown";
 import { ListenLesson, VideoLesson } from "./video-lesson";
+import type { SavedPos } from "./use-playlist";
 import { LessonTest } from "./lesson-test";
 import { plainForSpeech } from "./narrator";
 
@@ -26,11 +27,13 @@ type Props = {
   nextHref: string | null;
   finalHref: string;
   signedIn: boolean;
-  audio?: { slides?: string; parts?: string };
+  audio?: { slides?: string; parts?: string; slideDurations?: number[]; partDurations?: number[] };
+  /** Serverda saqlangan pleyer o'rni (kirgan foydalanuvchi). */
+  resume?: { video?: SavedPos | null; audio?: SavedPos | null };
 };
 
 /** Bitta dars: video / audio / matn → test. Oddiy, bir ustunli sahifa. */
-export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, passMark, nextHref, finalHref, signedIn, audio, testSize }: Props) {
+export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, passMark, nextHref, finalHref, signedIn, audio, testSize, resume }: Props) {
   const [media, setMedia] = useState<"video" | "audio">("video");
   const [testing, setTesting] = useState(false);
   const [tutorOpen, setTutorOpen] = useState(false);
@@ -65,8 +68,8 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
       </div>
       {/* Ikkala player doim yuklangan: tab almashganda faqat pauza, o'rin saqlanadi. */}
       <div className="mt-4">
-        <div hidden={media !== "video"}><VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} active={media === "video"} /></div>
-        <div hidden={media !== "audio"}><ListenLesson lessonId={lesson.id} title={lesson.title} parts={listenParts} audioBase={audio?.parts} active={media === "audio"} /></div>
+        <div hidden={media !== "video"}><VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} active={media === "video"} initial={resume?.video} sync={signedIn} durations={audio?.slideDurations} /></div>
+        <div hidden={media !== "audio"}><ListenLesson lessonId={lesson.id} title={lesson.title} parts={listenParts} audioBase={audio?.parts} active={media === "audio"} initial={resume?.audio} sync={signedIn} durations={audio?.partDurations} /></div>
       </div>
 
       <section className="mt-10 rounded-3xl bg-[#e7ece6] p-6">

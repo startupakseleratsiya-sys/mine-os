@@ -12,10 +12,10 @@ export function SectionShell({ eyebrow, title, description, children, }: {
 }) {
     const { t } = useI18n();
     return (<div className="min-h-screen bg-[#f3f1eb] text-[#13251f]">
-      <a href="#section-content" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-xl focus:bg-white focus:p-4 focus:text-[#163e32]"><>{t("Asosiy mazmunga o\u2018tish")}</></a>
+      <a href="#section-content" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-xl focus:bg-white focus:p-4 focus:text-[#163e32]"><>{t("Skip to main content")}</></a>
       <header className="sticky top-0 z-40 border-b border-[#13251f]/10 bg-[#f8f7f2]">
         <div className="mx-auto flex h-16 sm:h-18 max-w-[1120px] items-center justify-between px-4 sm:px-8">
-          <Link href="/dashboard" aria-label={t("Finora \u2014 shaxsiy kabinet")} className="flex items-center gap-2.5 shrink-0">
+          <Link href="/dashboard" aria-label={t("Finora — dashboard")} className="flex items-center gap-2.5 shrink-0">
             <span className="grid size-8 place-items-center rounded-full bg-[#163e32] text-white">
               <CircleDollarSign className="size-4"/>
             </span>
@@ -26,8 +26,8 @@ export function SectionShell({ eyebrow, title, description, children, }: {
 
           <Link href="/dashboard" className="inline-flex items-center gap-2 rounded-full border border-[#13251f]/12 bg-white px-4 py-2.5 text-xs font-semibold hover:bg-[#f5f4ee] transition-colors">
             <ArrowLeft className="size-3.5"/>
-            <span className="hidden sm:inline"><>{t("Kabinetga qaytish")}</></span>
-            <span className="sm:hidden"><>{t("Qaytish")}</></span>
+            <span className="hidden sm:inline"><>{t("Back to dashboard")}</></span>
+            <span className="sm:hidden"><>{t("Back")}</></span>
           </Link>
         </div>
 

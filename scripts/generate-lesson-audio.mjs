@@ -4,6 +4,7 @@
 //   (ixtiyoriy) TTS_VOICE=coral  TTS_MODEL=gpt-4o-mini-tts  TTS_CONCURRENCY=4
 // Natija: .audio-cache/<lessonId>/<n>.mp3 (slaydlar), p<n>.mp3 (audio dars bo'limlari) — keyin scripts/publish_lesson_audio.py
 //         va src/content/cp3p/audio.json. Mavjud fayllar qayta yaratilmaydi (pul ikki marta ketmasin).
+//         Yangi yozuvlardan keyin: python scripts/lesson_audio_durations.py (pleyer uchun davomiyliklar).
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

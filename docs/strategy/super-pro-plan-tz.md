@@ -548,19 +548,19 @@ Tinch, real sur’at: bir dasturchi + egasi; har bosqich oxirida prod’ga chiqa
 | Natija | Qabul mezonlari |
 |---|---|
 | Egasi 00003 ni qo‘llaydi (oldin service key tekshiriladi) | [ ] REST orqali `lesson_progress`ga yozish 401/403; dars testi prod’da o‘tadi va progress yoziladi |
-| Streak vaqt zonasi (TIME-01) | [ ] `users.timezone`; Toshkent 23:30 va 00:30 testlari o‘tadi |
-| Achievement va dashboard matnlari inglizcha | [ ] UI’da o‘zbekcha qator yo‘q (grep `[ʻ‘']` + o‘zbek so‘zlari ro‘yxati) |
-| `courses.ts` izohidagi «≥80%» → 92% | [ ] Kod va matn bir xil |
-| `events` jadvali + 8 ta asosiy hodisa | [ ] `signup_completed`, `lesson_opened`, `test_finished`, `media_played` bazada ko‘rinadi |
-| Eskirgan ochiq urinishlarni yopish (cron) | [ ] 24 soatdan eski `passed is null` qolmaydi |
+| Streak vaqt zonasi (TIME-01) | [x] UTC+5 (Toshkent = butun Qozog‘iston), `src/lib/day.ts` + testlar (23:30 / 00:30) o‘tdi; [ ] `users.timezone` — boshqa mintaqalar kelganda |
+| Achievement va dashboard matnlari inglizcha | [x] 22 fayl + yutuqlar inglizchaga o‘tdi; UI’da o‘zbekcha qator yo‘q (grep `[ʻ‘']` + o‘zbek so‘zlari ro‘yxati) |
+| `courses.ts` izohidagi «≥80%» → 92% | [x] Kod va matn bir xil |
+| `events` jadvali + 8 ta asosiy hodisa | [x] kod: `lesson_opened`, `test_started`, `test_finished`, `media_played` (`src/lib/events.ts`, migratsiya `00004_events_media.sql`); [ ] egasi 00004 ni qo‘llaydi; `signup_completed`, `lesson_opened`, `test_finished`, `media_played` bazada ko‘rinadi |
+| Eskirgan ochiq urinishlarni yopish (cron) | [x] cron o‘rniga: yangi test boshlanganda 24 soatdan eski ochiq dars/takrorlash urinishlari yopiladi; 24 soatdan eski `passed is null` qolmaydi |
 
 ### 1-bosqich · Pleyer 2.0 — 2026-10-05 → 2026-10-18
 
 | Natija | Qabul mezonlari |
 |---|---|
 | MP-01…MP-08, MP-12, MP-13 | [x] Seek-bar, ±10 s, klaviatura, qulf ekrani — 2026-09-25 da qilindi; [ ] iOS Safari’da qo‘lda sinov, CC tugmasi, avtomatik qayta urinish |
-| Pozitsiyani saqlash (`media_progress`) | [ ] Boshqa qurilmada «Continue from» to‘g‘ri (±10 s) |
-| `audio.json` durations | [ ] 44 dars to‘liq; skript mavjud MP3’lardan o‘lchaydi (**TTS chaqirmasdan**) |
+| Pozitsiyani saqlash (`media_progress`) | [x] sahifa ochilishi bilan pleyer to‘xtagan joyida turadi (brauzer + server, yangirog‘i; tab yopilganda `sendBeacon`), dars oxirigacha ko‘rilsa tozalanadi — lokal sinovdan o‘tdi; [ ] server qismi 00004 qo‘llangach prod’da sinaladi; Boshqa qurilmada «Continue from» to‘g‘ri (±10 s) |
+| `audio.json` durations | [x] 44/44 (`scripts/lesson_audio_durations.py`); 44 dars to‘liq; skript mavjud MP3’lardan o‘lchaydi (**TTS chaqirmasdan**) |
 | Tezlik byudjeti | [ ] Dars sahifasi JS o‘sishi ≤ 8 KB gz |
 
 ### 2-bosqich · O‘yin 2.0 — 2026-10-19 → 2026-11-01

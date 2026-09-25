@@ -133,7 +133,7 @@ export function TutorChat({ embedded = false, context, }: {
             setIsListening(true);
         }
         catch {
-            setError("Mikrofonni ishga tushirib bo'lmadi. Brauzer ruxsatini tekshiring.");
+            setError("Could not start the microphone. Check your browser permissions.");
         }
     };
     useEffect(() => {
@@ -184,12 +184,12 @@ export function TutorChat({ embedded = false, context, }: {
                     error?: string;
                 };
                 if (response.status === 401) {
-                    throw new Error("Sessiya tugagan. Qayta kiring.");
+                    throw new Error("Your session has expired. Please sign in again.");
                 }
-                throw new Error(errData.error ?? "Ulanishda xatolik yuz berdi");
+                throw new Error(errData.error ?? "A connection error occurred");
             }
             if (!response.body)
-                throw new Error("Bo'sh javob keldi");
+                throw new Error("An empty response was received");
             const newSession = response.headers.get("x-session-id");
             if (newSession && !sessionId)
                 setSessionId(newSession);
@@ -206,7 +206,7 @@ export function TutorChat({ embedded = false, context, }: {
             if (!received.trim()) {
                 // Stream xatosiz, lekin bo'sh tugadi (masalan, model xatosi onError'ga tushgan).
                 setMessages((prev) => prev.filter((m) => m.id !== assistantId));
-                setError("Javob kelmadi. Qayta urinib ko'ring.");
+                setError("No answer arrived. Please try again.");
             }
         }
         catch (caught: unknown) {
@@ -217,7 +217,7 @@ export function TutorChat({ embedded = false, context, }: {
                 return;
             }
             setMessages((prev) => prev.filter((m) => m.id !== assistantId));
-            setError(caught instanceof Error ? caught.message : "Noma'lum xatolik yuz berdi.");
+            setError(caught instanceof Error ? caught.message : "An unexpected error occurred.");
         }
         finally {
             setIsLoading(false);
@@ -250,7 +250,7 @@ export function TutorChat({ embedded = false, context, }: {
       {!embedded && (<header className="shrink-0 border-b border-[#13251f]/10 bg-[#f8f7f2]">
           <div className="mx-auto flex h-16 max-w-[900px] items-center justify-between px-4 sm:px-6">
             <div className="flex items-center gap-3">
-              <Link href="/dashboard" aria-label={t("Dashboardga qaytish")} className="grid size-9 place-items-center rounded-full border border-[#13251f]/10 bg-white hover:bg-[#f5f4ee] transition-colors">
+              <Link href="/dashboard" aria-label={t("Back to dashboard")} className="grid size-9 place-items-center rounded-full border border-[#13251f]/10 bg-white hover:bg-[#f5f4ee] transition-colors">
                 <ArrowLeft className="size-4"/>
               </Link>
               <Link href="/" className="flex items-center gap-2">
@@ -261,7 +261,7 @@ export function TutorChat({ embedded = false, context, }: {
               </Link>
             </div>
             <button onClick={clearChat} className="inline-flex items-center gap-2 rounded-full border border-[#13251f]/12 bg-white/60 px-4 py-2 text-xs font-semibold hover:bg-white transition-colors">
-              <Plus className="size-3.5"/><>{t("Yangi suhbat")}</></button>
+              <Plus className="size-3.5"/><>{t("New conversation")}</></button>
           </div>
         </header>)}
 
@@ -280,11 +280,11 @@ export function TutorChat({ embedded = false, context, }: {
                   </button>))}
               </div>
               {embedded && (<button onClick={clearChat} className="mt-6 text-xs font-semibold text-[#65736d] hover:text-[#13251f]">
-                  <Plus className="inline size-3 mr-1"/><>{t("Yangi suhbat")}</></button>)}
+                  <Plus className="inline size-3 mr-1"/><>{t("New conversation")}</></button>)}
             </div>) : (<div className="space-y-5 py-4">
               {embedded && (<div className="flex justify-end">
                   <button onClick={clearChat} className="inline-flex items-center gap-1.5 rounded-full border border-[#13251f]/12 bg-white/60 px-3 py-1.5 text-[11px] font-semibold hover:bg-white">
-                    <Plus className="size-3"/><>{t("Yangi suhbat")}</></button>
+                    <Plus className="size-3"/><>{t("New conversation")}</></button>
                 </div>)}
               {messages.map((message) => (<div key={message.id} className={`flex gap-3 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
                   {message.role === "assistant" && (<span className="mt-1 grid size-8 shrink-0 place-items-center rounded-full border border-[#163e32]/20 bg-[#e7ece6] text-[#163e32]">
@@ -311,23 +311,23 @@ export function TutorChat({ embedded = false, context, }: {
             </div>)}
 
           <form onSubmit={handleSubmit} className="flex items-end gap-2 rounded-[22px] border border-[#13251f]/12 bg-white p-2 shadow-[0_15px_40px_rgba(30,55,46,0.10)] focus-within:border-[#35624f]/40 transition-colors">
-            <textarea ref={inputRef} value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={handleKeyDown} rows={1} maxLength={8000} placeholder={isListening ? t("Gapiring...") : t("e.g. What does value for money mean in a PPP?")} className="max-h-36 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-sm leading-6 outline-none placeholder:text-[#89948f]"/>
+            <textarea ref={inputRef} value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={handleKeyDown} rows={1} maxLength={8000} placeholder={isListening ? t("Speak now…") : t("e.g. What does value for money mean in a PPP?")} className="max-h-36 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-sm leading-6 outline-none placeholder:text-[#89948f]"/>
 
-            {speechSupported && (<button type="button" onClick={toggleListening} title={isListening ? t("To'xtatish") : t("Ovozli kiritish")} aria-pressed={isListening} className={`grid size-11 shrink-0 place-items-center rounded-full transition-colors ${isListening
+            {speechSupported && (<button type="button" onClick={toggleListening} title={isListening ? t("Stop") : t("Voice input")} aria-pressed={isListening} className={`grid size-11 shrink-0 place-items-center rounded-full transition-colors ${isListening
                 ? "bg-red-100 text-red-600 animate-pulse border border-red-200"
                 : "bg-[#f3f1eb] text-[#65736d] hover:bg-[#e7ece6] hover:text-[#13251f]"}`}>
                 {isListening ? <MicOff className="size-5"/> : <Mic className="size-5"/>}
               </button>)}
 
-            {isLoading ? (<button type="button" onClick={stopGeneration} aria-label={t("To'xtatish")} className="grid size-11 shrink-0 place-items-center rounded-full bg-[#163e32] text-white hover:bg-[#0e3026]">
+            {isLoading ? (<button type="button" onClick={stopGeneration} aria-label={t("Stop")} className="grid size-11 shrink-0 place-items-center rounded-full bg-[#163e32] text-white hover:bg-[#0e3026]">
                 <Square className="size-4" fill="currentColor"/>
-              </button>) : (<button type="submit" disabled={!input.trim()} aria-label={t("Xabarni yuborish")} className="grid size-11 shrink-0 place-items-center rounded-full bg-[#163e32] text-white transition hover:bg-[#0e3026] disabled:cursor-not-allowed disabled:opacity-35">
+              </button>) : (<button type="submit" disabled={!input.trim()} aria-label={t("Send message")} className="grid size-11 shrink-0 place-items-center rounded-full bg-[#163e32] text-white transition hover:bg-[#0e3026] disabled:cursor-not-allowed disabled:opacity-35">
                 <ArrowUp className="size-5"/>
               </button>)}
           </form>
 
           <p className="mt-2 flex items-center justify-center gap-1.5 text-center text-[10px] text-[#7d8883]">
-            <ShieldCheck className="size-3"/><>{t("Finora xato qilishi mumkin. Muhim qarorlarni mustaqil tekshiring.")}</></p>
+            <ShieldCheck className="size-3"/><>{t("Finora can make mistakes. Verify important decisions independently.")}</></p>
         </div>
       </div>
     </div>);

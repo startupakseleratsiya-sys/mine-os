@@ -4,8 +4,8 @@ import { AuthForm } from "@/features/auth/components/auth-form";
 import { AuthShell } from "@/features/auth/components/auth-shell";
 export const metadata = { title: "Sign in" };
 const NOTICES: Record<string, string> = {
-    link: "Havola eskirgan yoki noto'g'ri. Qayta urinib ko'ring.",
-    confirmed: "Email tasdiqlandi. Endi kirishingiz mumkin.",
+    link: "The link is expired or invalid. Please try again.",
+    confirmed: "Email confirmed. You can now sign in.",
 };
 export default async function SignInPage({ searchParams, }: {
     searchParams: Promise<{
@@ -16,7 +16,7 @@ export default async function SignInPage({ searchParams, }: {
     const { t } = await getI18n();
     const { next, error } = await searchParams;
     const safe = safeNext(next);
-    return (<AuthShell title={t("Hisobingizga kiring.")} description={t("O\u2018quv progressingiz va AI tutor suhbatlaringizni davom ettiring.")}>
-      <AuthForm mode="sign-in" next={safe} notice={error ? NOTICES[error] ?? "Xatolik yuz berdi." : undefined}/>
+    return (<AuthShell title={t("Sign in to your account.")} description={t("Continue your learning and AI tutor conversations.")}>
+      <AuthForm mode="sign-in" next={safe} notice={error ? NOTICES[error] ?? "An error occurred." : undefined}/>
     </AuthShell>);
 }

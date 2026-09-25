@@ -3,7 +3,7 @@ import type { Lesson, QuizQuestion } from "./cp3p/types";
 
 /**
  * Kurslar — faqat CP3P'ning 3 bosqichi (user qarori 2026-09-25). Darslar src/content/cp3p/<level>/*.json da.
- * O'quv yo'li ketma-ket: dars → test (≥80%) → keyingi dars ochiladi. Bazada faqat progress saqlanadi.
+ * O'quv yo'li ketma-ket: dars → test (46/50, 92%) → keyingi dars ochiladi. Bazada faqat progress saqlanadi.
  */
 export type Chapter = Lesson;
 export type { Lesson, QuizQuestion };

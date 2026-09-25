@@ -7,6 +7,9 @@ import { getCurrentUser } from "@/services/user-service";
 import { courseProgress, courseUnlocked, getLessonProgress, lessonUnlocked } from "@/lib/progress";
 import { LessonView } from "@/features/lesson/lesson-view";
 import audio from "@/content/cp3p/audio.json";
+import { track } from "@/lib/events";
+import { getMediaPositions } from "@/lib/media-position";
+import { after } from "next/server";
 
 type Params = { params: Promise<{ course: string; chapter: string }> };
 
@@ -18,14 +21,18 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 /** Tabiiy ovozli yozuvlar (scripts/generate-lesson-audio.mjs → publish_lesson_audio.py) — faqat to'liq yuklangan bo'lsa. */
 function recordedAudio(lesson: { id: string; slides: unknown[]; sections: unknown[] }) {
-  const m = (audio as Record<string, { slides?: number; parts?: number; published?: boolean }>)[lesson.id];
+  const m = (audio as Record<string, { slides?: number; parts?: number; published?: boolean; slideDurations?: number[]; partDurations?: number[] }>)[lesson.id];
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   if (!m?.published || !url) return undefined;
   const base = `${url.replace(/\/$/, "")}/storage/v1/object/public/lesson-audio/${lesson.id}`;
+  const slides = m.slides === lesson.slides.length;
+  // Audio dars bo'limlari: sections + misol + tuzoqlar + xulosa (lesson-view listenParts bilan bir xil).
+  const parts = m.parts === lesson.sections.length + 3;
   return {
-    slides: m.slides === lesson.slides.length ? base : undefined,
-    // Audio dars bo'limlari: sections + misol + tuzoqlar + xulosa (lesson-view listenParts bilan bir xil).
-    parts: m.parts === lesson.sections.length + 3 ? base : undefined,
+    slides: slides ? base : undefined,
+    parts: parts ? base : undefined,
+    slideDurations: slides && m.slideDurations?.length === m.slides ? m.slideDurations : undefined,
+    partDurations: parts && m.partDurations?.length === m.parts ? m.partDurations : undefined,
   };
 }
 
@@ -57,6 +64,9 @@ export default async function StudyPage({ params }: Params) {
   }
 
   const items = lessonTest(course, chapter.id);
+  const resume = user ? await getMediaPositions(user.id, chapter.id) : undefined;
+  // Analitika javobni kechiktirmasin — sahifa yuborilgandan keyin yoziladi.
+  after(() => track("lesson_opened", user?.id ?? null, { course: course.slug, lesson: chapter.id }));
   return (
     <LessonView
       key={chapter.id}
@@ -73,6 +83,7 @@ export default async function StudyPage({ params }: Params) {
       finalHref={`/courses/${course.slug}#final`}
       signedIn={Boolean(user)}
       audio={recordedAudio(chapter)}
+      resume={resume}
     />
   );
 }

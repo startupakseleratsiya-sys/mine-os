@@ -7,6 +7,11 @@ import { createAdminClient } from "@/lib/supabase-admin";
 import { getChapter, getCourse, lessonTest, passMarkFor } from "@/content/courses";
 import { findQuestion, mistakes, type PublicItem } from "@/lib/learning-path";
 import { getLessonAnswers, getLessonProgress, lessonUnlocked } from "@/lib/progress";
+import { track } from "@/lib/events";
+import { after } from "next/server";
+
+/** Tashlab ketilgan dars/takrorlash urinishlari shu muddatdan keyin yopiladi (passed = false). */
+const STALE_MS = 24 * 3_600_000;
 
 /**
  * Dars testi — server boshqaradigan urinish (attempt):
@@ -53,6 +58,16 @@ export async function startTest(input: z.infer<typeof StartSchema>): Promise<Sta
     if (!keys.length) return { ok: false, error: "Nothing to review." };
   }
 
+  // Foydalanuvchining 24 soatdan eski ochiq urinishlari yopiladi (javoblari va XP saqlanadi). Mock/ssenariy tegilmaydi.
+  const { error: staleError } = await db
+    .from("exam_attempts")
+    .update({ passed: false, finished_at: new Date().toISOString() })
+    .eq("user_id", user.id)
+    .is("passed", null)
+    .or("exam.like.lesson:%,exam.like.review:%")
+    .lt("started_at", new Date(Date.now() - STALE_MS).toISOString());
+  if (staleError) console.error("eski urinishlarni yopishda xato:", staleError.message);
+
   const { data, error } = await db
     .from("exam_attempts")
     .insert({
@@ -71,6 +86,7 @@ export async function startTest(input: z.infer<typeof StartSchema>): Promise<Sta
     console.error("startTest:", error?.message);
     return { ok: false, error: "Could not start the test. Please try again." };
   }
+  after(() => track("test_started", user.id, { course: course.slug, kind, lesson: lessonId ?? null, size: keys.length }));
   const items = keys.map((key) => {
     const q = findQuestion(course, key)!.q;
     return { key, question: q.question, options: q.options, review: kind === "review" };
@@ -164,6 +180,7 @@ export async function finishTest(input: { attemptId: string }): Promise<TestResu
     }
   }
 
+  if (attempt.passed === null) after(() => track("test_finished", user.id, { course: course.slug, kind, exam: attempt.exam, score: correct, total, passed }));
   revalidatePath("/dashboard");
   revalidatePath("/progress");
   revalidatePath("/courses");

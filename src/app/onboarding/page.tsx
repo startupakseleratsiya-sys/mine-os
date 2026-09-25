@@ -17,31 +17,31 @@ export default async function OnboardingPage() {
       </Link>
 
       <div className="w-full max-w-4xl text-center mt-12">
-        <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] mb-3 uppercase"><>{t("Xush kelibsiz")}</></p>
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 text-[#13251F] tracking-tight"><>{t("Qayerdan boshlaymiz?")}</></h1>
-        <p className="text-[#6B7A74] mb-12 text-[17px] font-medium max-w-2xl mx-auto"><>{t("Bitta kursni tanlang \u2014 progress avtomatik saqlanadi, AI Tutor esa har bir bobda yoningizda bo'ladi.")}</></p>
+        <p className="text-xs font-bold tracking-[0.15em] text-[#6B7A74] mb-3 uppercase"><>{t("Welcome")}</></p>
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 text-[#13251F] tracking-tight"><>{t("Where shall we begin?")}</></h1>
+        <p className="text-[#6B7A74] mb-12 text-[17px] font-medium max-w-2xl mx-auto"><>{t("Choose a course, track your progress and ask the AI tutor for help in each lesson.")}</></p>
 
         <div className="grid md:grid-cols-3 gap-5 text-left">
           {COURSES.map((course, i) => (<Link key={course.slug} href={`/courses/${course.slug}`} className={`group p-7 bg-white rounded-[24px] hover:shadow-xl transition-all block border-2 ${i === 0 ? "border-[#13251F]" : "border-[#E2E4DF] hover:border-[#a7c4b1]"}`}>
               <div className="w-14 h-14 bg-[#F5F4EE] border border-[#E2E4DF] rounded-xl flex items-center justify-center text-2xl mb-6">
                 {course.emoji}
               </div>
-              {i === 0 && (<span className="inline-block text-[10px] font-bold px-2.5 py-1 rounded-full bg-[#dce7dd] text-[#2a5e47] uppercase tracking-wider mb-3"><>{t("Tavsiya etiladi")}</></span>)}
+              {i === 0 && (<span className="inline-block text-[10px] font-bold px-2.5 py-1 rounded-full bg-[#dce7dd] text-[#2a5e47] uppercase tracking-wider mb-3"><>{t("Recommended")}</></span>)}
               <h3 className="text-xl font-extrabold text-[#13251F] tracking-tight">{t(course.shortTitle)}</h3>
               <p className="text-[#6B7A74] text-sm mt-3 leading-relaxed">{t(course.description)}</p>
               <div className="mt-5 flex items-center gap-4 text-xs text-[#8e9b97]">
                 <span className="flex items-center gap-1.5">
-                  <BookOpen className="size-3.5"/> {course.chapters.length}<>{" "}{t("bob")}</></span>
+                  <BookOpen className="size-3.5"/> {course.chapters.length}<>{" "}{t("lessons")}</></span>
                 <span className="flex items-center gap-1.5">
                   <Clock3 className="size-3.5"/> {t(formatMinutes(courseMinutes(course)))}
                 </span>
               </div>
-              <div className="mt-6 flex items-center text-[#13251F] font-bold text-sm"><>{t("Kursni boshlash")}</><ArrowRight className="size-4 ml-2 group-hover:translate-x-1 transition-transform"/>
+              <div className="mt-6 flex items-center text-[#13251F] font-bold text-sm"><>{t("Start course")}</><ArrowRight className="size-4 ml-2 group-hover:translate-x-1 transition-transform"/>
               </div>
             </Link>))}
         </div>
 
-        <Link href="/dashboard" className="inline-block mt-10 text-sm font-semibold text-[#6B7A74] hover:text-[#13251F] underline underline-offset-4"><>{t("Hozircha o'tkazib yuborish \u2192 kabinetga")}</></Link>
+        <Link href="/dashboard" className="inline-block mt-10 text-sm font-semibold text-[#6B7A74] hover:text-[#13251F] underline underline-offset-4"><>{t("Skip for now → dashboard")}</></Link>
       </div>
     </div>);
 }

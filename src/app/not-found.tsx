@@ -8,11 +8,11 @@ export default async function NotFound() {
         <CircleDollarSign className="size-6"/>
       </span>
       <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#6B7A74]">404</p>
-      <h1 className="text-2xl font-bold"><>{t("Sahifa topilmadi")}</></h1>
-      <p className="max-w-sm text-sm text-[#6B7A74]"><>{t("Bu manzil mavjud emas yoki ko'chirilgan.")}</></p>
+      <h1 className="text-2xl font-bold"><>{t("Page not found")}</></h1>
+      <p className="max-w-sm text-sm text-[#6B7A74]"><>{t("This address does not exist or has moved.")}</></p>
       <div className="flex gap-3">
-        <Link href="/dashboard" className="rounded-xl bg-[#163e32] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#0e3026]"><>{t("Kabinet")}</></Link>
-        <Link href="/courses" className="rounded-xl border border-[#E2E4DF] bg-white px-5 py-2.5 text-sm font-semibold hover:bg-[#f5f4ee]"><>{t("Kurslar")}</></Link>
+        <Link href="/dashboard" className="rounded-xl bg-[#163e32] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#0e3026]"><>{t("Dashboard")}</></Link>
+        <Link href="/courses" className="rounded-xl border border-[#E2E4DF] bg-white px-5 py-2.5 text-sm font-semibold hover:bg-[#f5f4ee]"><>{t("Courses")}</></Link>
       </div>
     </div>);
 }

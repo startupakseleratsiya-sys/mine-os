@@ -19,14 +19,14 @@ export type ProfileResult = { ok: true } | { ok: false; error: string };
 export async function updateUserProfile(fullName: string): Promise<ProfileResult> {
   const trimmed = fullName.trim();
   if (trimmed.length < 2 || trimmed.length > 60) {
-    return { ok: false, error: "Ism 2–60 belgi oralig'ida bo'lsin." };
+    return { ok: false, error: "Your name must contain 2–60 characters." };
   }
 
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  if (!user) return { ok: false, error: "Kirish talab qilinadi." };
+  if (!user) return { ok: false, error: "Please sign in." };
 
   // auth metadata'da ham saqlaymiz — profil jadvali bo'lmasa ham ism ko'rinadi.
   const { error: metaError } = await supabase.auth.updateUser({ data: { full_name: trimmed } });
@@ -42,7 +42,7 @@ export async function updateUserProfile(fullName: string): Promise<ProfileResult
       ok: false,
       error:
         error.code === "PGRST205"
-          ? "Ism saqlandi, lekin profil jadvali hali yaratilmagan (baza migratsiyasi kerak)."
+          ? "Your name was saved, but the profile table has not been created yet."
           : error.message,
     };
   }

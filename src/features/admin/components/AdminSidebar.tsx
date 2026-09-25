@@ -8,7 +8,7 @@ import { signOut } from "@/app/actions/auth";
 import { cn } from "@/lib/utils";
 const navLinks = [
     { href: "/admin", icon: LayoutDashboard, label: "Dashboard" },
-    { href: "/admin/users", icon: Users, label: "Foydalanuvchilar" },
+    { href: "/admin/users", icon: Users, label: "Users" },
 ];
 export function AdminSidebar() {
     const { t } = useI18n();
@@ -31,7 +31,7 @@ export function AdminSidebar() {
         })}
         <Link href="/dashboard" className="flex shrink-0 items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-[#65736d] hover:bg-[#f3f1eb] hover:text-[#13251f] transition-colors">
           <ArrowLeft className="size-4 shrink-0"/>
-          <span className="hidden sm:inline"><>{t("Kabinetga")}</></span>
+          <span className="hidden sm:inline"><>{t("Dashboard")}</></span>
         </Link>
       </nav>
 
@@ -39,7 +39,7 @@ export function AdminSidebar() {
         <form action={signOut}>
           <button type="submit" className="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-red-600 hover:bg-red-50 transition-colors">
             <LogOut className="size-4 shrink-0"/>
-            <span className="hidden sm:inline"><>{t("Chiqish")}</></span>
+            <span className="hidden sm:inline"><>{t("Sign out")}</></span>
           </button>
         </form>
       </div>

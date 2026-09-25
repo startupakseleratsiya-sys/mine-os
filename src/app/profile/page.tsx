@@ -21,7 +21,7 @@ export default function ProfilePage() {
     const [resetState, setResetState] = useState<"idle" | "sending" | "sent" | "error">("idle");
     const isLoading = userLoading || profileLoading;
     const metaName = typeof user?.user_metadata?.full_name === "string" ? user.user_metadata.full_name : "";
-    const displayName = profile?.full_name || metaName || user?.email?.split("@")[0] || "Foydalanuvchi";
+    const displayName = profile?.full_name || metaName || user?.email?.split("@")[0] || "User";
     const initials = displayName
         .split(" ")
         .map((n: string) => n[0])
@@ -43,9 +43,9 @@ export default function ProfilePage() {
             return;
         const trimmed = nameInput.trim();
         if (!trimmed)
-            return setError("Ism bo'sh bo'lishi mumkin emas.");
+            return setError("Your name cannot be empty.");
         if (trimmed.length < 2)
-            return setError("Ism kamida 2 ta belgidan iborat bo'lsin.");
+            return setError("Your name must contain at least 2 characters.");
         setSaving(true);
         setError("");
         try {
@@ -60,7 +60,7 @@ export default function ProfilePage() {
             setTimeout(() => setSaved(false), 3000);
         }
         catch (err) {
-            setError(err instanceof Error ? err.message : "Xatolik yuz berdi.");
+            setError(err instanceof Error ? err.message : "An error occurred.");
         }
         finally {
             setSaving(false);
@@ -80,8 +80,8 @@ export default function ProfilePage() {
     }
     if (!user) {
         return (<div className="min-h-screen bg-[#f3f1eb] flex flex-col items-center justify-center gap-4">
-        <p className="text-[#65736d]"><>{t("Kirish talab qilinadi.")}</></p>
-        <Link href="/sign-in?next=/profile" className="text-sm font-semibold text-[#163e32] underline"><>{t("Kirish sahifasiga o'tish")}</></Link>
+        <p className="text-[#65736d]"><>{t("Please sign in.")}</></p>
+        <Link href="/sign-in?next=/profile" className="text-sm font-semibold text-[#163e32] underline"><>{t("Go to sign in")}</></Link>
       </div>);
     }
     const emailConfirmed = Boolean(user.email_confirmed_at);
@@ -102,8 +102,8 @@ export default function ProfilePage() {
 
       <main className="mx-auto max-w-[800px] px-4 py-10 sm:px-6 sm:py-16">
         <div className="mb-8">
-          <p className="text-xs font-bold tracking-[0.2em] uppercase text-[#527264] mb-3"><>{t("Hisob sozlamalari")}</></p>
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight"><>{t("Mening profilim")}</></h1>
+          <p className="text-xs font-bold tracking-[0.2em] uppercase text-[#527264] mb-3"><>{t("Account settings")}</></p>
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight"><>{t("My profile")}</></h1>
         </div>
 
         <div className="space-y-5">
@@ -121,35 +121,35 @@ export default function ProfilePage() {
                     void handleSave();
                 if (e.key === "Escape")
                     cancelEditing();
-            }} className="flex-1 min-w-0 text-2xl font-bold bg-transparent border-b-2 border-[#163e32] outline-none py-1" placeholder={t("Ismingiz")} maxLength={60}/>
-                      <button onClick={() => void handleSave()} disabled={saving} className="grid size-9 shrink-0 place-items-center rounded-full bg-[#163e32] text-white hover:bg-[#0e3026] disabled:opacity-50 transition-colors" aria-label={t("Saqlash")}>
+            }} className="flex-1 min-w-0 text-2xl font-bold bg-transparent border-b-2 border-[#163e32] outline-none py-1" placeholder={t("Your name")} maxLength={60}/>
+                      <button onClick={() => void handleSave()} disabled={saving} className="grid size-9 shrink-0 place-items-center rounded-full bg-[#163e32] text-white hover:bg-[#0e3026] disabled:opacity-50 transition-colors" aria-label={t("Save")}>
                         {saving ? <LoaderCircle className="size-4 animate-spin"/> : <Save className="size-4"/>}
                       </button>
-                      <button onClick={cancelEditing} className="grid size-9 shrink-0 place-items-center rounded-full border border-[#E2E4DF] hover:bg-[#f5f4ee] transition-colors" aria-label={t("Bekor qilish")}>
+                      <button onClick={cancelEditing} className="grid size-9 shrink-0 place-items-center rounded-full border border-[#E2E4DF] hover:bg-[#f5f4ee] transition-colors" aria-label={t("Cancel")}>
                         <X className="size-4"/>
                       </button>
                     </div>) : (<>
                       <h2 className="text-2xl font-bold text-[#0f2017] truncate">{displayName}</h2>
-                      <button onClick={startEditing} className="grid size-8 shrink-0 place-items-center rounded-lg text-[#65736d] hover:bg-[#f5f4ee] hover:text-[#0f2017] transition-colors" aria-label={t("Ismni tahrirlash")}>
+                      <button onClick={startEditing} className="grid size-8 shrink-0 place-items-center rounded-lg text-[#65736d] hover:bg-[#f5f4ee] hover:text-[#0f2017] transition-colors" aria-label={t("Edit name")}>
                         <Edit3 className="size-4"/>
                       </button>
                     </>)}
                 </div>
 
                 <span className="inline-block text-xs font-bold px-3 py-1.5 rounded-full bg-[#dce7dd] text-[#2a5e47] uppercase tracking-wider">
-                  {profile?.role === "admin" ? t("Admin") : t("O'quvchi")}
+                  {profile?.role === "admin" ? t("Admin") : t("Learner")}
                 </span>
 
                 {error && (<p className="mt-3 text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">{t(error)}</p>)}
                 {saved && (<p className="mt-3 text-xs text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2 flex items-center gap-1.5">
-                    <Check className="size-3.5"/><>{t("Profil saqlandi!")}</></p>)}
+                    <Check className="size-3.5"/><>{t("Profile saved!")}</></p>)}
               </div>
             </div>
           </div>
 
           <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 sm:p-7">
             <h3 className="text-sm font-bold text-[#0f2017] mb-5 flex items-center gap-2">
-              <User className="size-4 text-[#65736d]"/><>{t("Hisob ma'lumotlari")}</></h3>
+              <User className="size-4 text-[#65736d]"/><>{t("Account information")}</></h3>
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-3 py-3 border-b border-[#f5f4ee]">
                 <div className="flex items-center gap-3 min-w-0">
@@ -160,21 +160,21 @@ export default function ProfilePage() {
                   </div>
                 </div>
                 <span className={`shrink-0 text-[10px] font-bold px-2.5 py-1.5 rounded-full ${emailConfirmed ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700"}`}>
-                  {emailConfirmed ? t("Tasdiqlangan") : t("Tasdiqlanmagan")}
+                  {emailConfirmed ? t("Verified") : t("Not verified")}
                 </span>
               </div>
 
               <div className="py-3 border-b border-[#f5f4ee]">
-                <p className="text-xs text-[#65736d] font-medium mb-0.5"><>{t("Ro'yxatdan o'tgan sana")}</></p>
+                <p className="text-xs text-[#65736d] font-medium mb-0.5"><>{t("Joined")}</></p>
                 <p className="text-sm font-semibold text-[#0f2017]">
                   {joined ? formatDate(joined) : "—"}
                 </p>
               </div>
 
               <div className="py-3">
-                <p className="text-xs text-[#65736d] font-medium mb-0.5"><>{t("Hisob turi")}</></p>
+                <p className="text-xs text-[#65736d] font-medium mb-0.5"><>{t("Account type")}</></p>
                 <p className="text-sm font-semibold text-[#0f2017]">
-                  {profile?.role === "admin" ? t("Administrator") : t("Standart foydalanuvchi")}
+                  {profile?.role === "admin" ? t("Administrator") : t("Standard user")}
                 </p>
               </div>
             </div>
@@ -182,27 +182,27 @@ export default function ProfilePage() {
 
           <div className="bg-white rounded-3xl border border-[#E2E4DF] p-6 sm:p-7">
             <h3 className="text-sm font-bold text-[#0f2017] mb-5 flex items-center gap-2">
-              <ShieldCheck className="size-4 text-[#65736d]"/><>{t("Xavfsizlik")}</></h3>
+              <ShieldCheck className="size-4 text-[#65736d]"/><>{t("Security")}</></h3>
             <div className="flex items-center justify-between gap-4">
               <div>
-                <p className="text-sm font-semibold text-[#0f2017] mb-0.5"><>{t("Parol")}</></p>
+                <p className="text-sm font-semibold text-[#0f2017] mb-0.5"><>{t("Password")}</></p>
                 <p className="text-xs text-[#65736d]">
                   {resetState === "sent"
-            ? t("Havola emailingizga yuborildi. Pochtani tekshiring.") : resetState === "error"
-            ? t("Yuborib bo'lmadi. Birozdan keyin qayta urinib ko'ring.") : t("Parolni o'zgartirish uchun emailga havola yuboriladi")}
+            ? t("A link has been sent to your email. Check your inbox.") : resetState === "error"
+            ? t("Could not send. Please try again later.") : t("We will email you a link to change your password")}
                 </p>
               </div>
               <button onClick={() => void handlePasswordReset()} disabled={resetState === "sending" || resetState === "sent"} className="shrink-0 text-xs font-semibold text-[#163e32] hover:underline disabled:opacity-50 disabled:no-underline">
-                {resetState === "sending" ? t("Yuborilmoqda...") : resetState === "sent" ? t("Yuborildi") : t("O'zgartirish")}
+                {resetState === "sending" ? t("Sending…") : resetState === "sent" ? t("Sent") : t("Change")}
               </button>
             </div>
           </div>
 
           <div className="bg-white rounded-3xl border border-red-100 p-6 sm:p-7">
             <h3 className="text-sm font-bold text-red-700 mb-5 flex items-center gap-2">
-              <LogOut className="size-4"/><>{t("Hisobdan chiqish")}</></h3>
+              <LogOut className="size-4"/><>{t("Sign out of your account")}</></h3>
             <form action={signOut}>
-              <button type="submit" className="px-5 py-2.5 text-sm font-semibold text-red-600 border border-red-200 rounded-xl hover:bg-red-50 transition-colors"><>{t("Tizimdan chiqish")}</></button>
+              <button type="submit" className="px-5 py-2.5 text-sm font-semibold text-red-600 border border-red-200 rounded-xl hover:bg-red-50 transition-colors"><>{t("Sign out")}</></button>
             </form>
           </div>
         </div>

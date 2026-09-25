@@ -30,9 +30,9 @@ export default function ResetPasswordPage() {
     async function submit(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
         if (password.length < 8)
-            return setError("Parol kamida 8 ta belgidan iborat bo'lsin.");
+            return setError("Your password must contain at least 8 characters.");
         if (password !== confirm)
-            return setError("Parollar mos kelmadi.");
+            return setError("Passwords do not match.");
         setError("");
         setSaving(true);
         try {
@@ -47,30 +47,30 @@ export default function ResetPasswordPage() {
             }, 1200);
         }
         catch (err) {
-            const msg = err instanceof Error ? err.message : "Xatolik yuz berdi";
+            const msg = err instanceof Error ? err.message : "An error occurred";
             setError(msg.includes("same password")
-                ? "Yangi parol eskisidan farq qilishi kerak."
+                ? "Your new password must differ from your old password."
                 : msg);
         }
         finally {
             setSaving(false);
         }
     }
-    return (<AuthShell title={t("Yangi parol o'rnating.")} description={t("Xavfsizlik uchun kamida 8 ta belgi, ichida raqam bo'lsin.")}>
+    return (<AuthShell title={t("Set a new password.")} description={t("Use at least 8 characters, including a number.")}>
       {status === "checking" && (<div className="mt-10 flex justify-center">
           <LoaderCircle className="size-6 animate-spin text-[#163e32]"/>
         </div>)}
 
-      {status === "no-session" && (<div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm text-amber-800"><>{t("Havola eskirgan yoki allaqachon ishlatilgan.")}</>{" "}
-          <Link href="/sign-in" className="font-semibold underline"><>{t("Kirish sahifasiga")}</></Link>{" "}<>{t("qaytib, \"Parolni unutdingizmi?\" orqali yangi havola oling.")}</></div>)}
+      {status === "no-session" && (<div className="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm text-amber-800"><>{t("This link has expired or has already been used.")}</>{" "}
+          <Link href="/sign-in" className="font-semibold underline"><>{t("Return to sign in")}</></Link>{" "}<>{t("and select “Forgot password?” to request a new link.")}</></div>)}
 
       {status === "ready" && (<form onSubmit={submit} className="mt-8 space-y-4">
           <label className="block">
             <span className="mb-2 flex items-center gap-2 text-xs font-semibold text-[#53645d]">
-              <LockKeyhole className="size-3.5"/><>{t("Yangi parol")}</></span>
+              <LockKeyhole className="size-3.5"/><>{t("New password")}</></span>
             <div className="relative">
-              <input type={show ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="new-password" required className="auth-input pr-12" placeholder={t("Kamida 8 ta belgi")}/>
-              <button type="button" onClick={() => setShow((v) => !v)} aria-label={show ? t("Parolni yashirish") : t("Parolni ko'rsatish")} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7e8984] hover:text-[#13251f]">
+              <input type={show ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="new-password" required className="auth-input pr-12" placeholder={t("At least 8 characters")}/>
+              <button type="button" onClick={() => setShow((v) => !v)} aria-label={show ? t("Hide password") : t("Show password")} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7e8984] hover:text-[#13251f]">
                 {show ? <EyeOff className="size-4"/> : <Eye className="size-4"/>}
               </button>
             </div>
@@ -78,17 +78,17 @@ export default function ResetPasswordPage() {
 
           <label className="block">
             <span className="mb-2 flex items-center gap-2 text-xs font-semibold text-[#53645d]">
-              <Check className="size-3.5"/><>{t("Parolni takrorlang")}</></span>
-            <input type={show ? "text" : "password"} value={confirm} onChange={(e) => setConfirm(e.target.value)} autoComplete="new-password" required className="auth-input" placeholder={t("Yana bir marta")}/>
+              <Check className="size-3.5"/><>{t("Repeat password")}</></span>
+            <input type={show ? "text" : "password"} value={confirm} onChange={(e) => setConfirm(e.target.value)} autoComplete="new-password" required className="auth-input" placeholder={t("Enter it again")}/>
           </label>
 
           {error && (<p role="alert" className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-xs text-red-700">
               {t(error)}
             </p>)}
-          {done && (<p role="status" className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-xs text-emerald-700"><>{t("Parol yangilandi. Kabinetga o'tilmoqda...")}</></p>)}
+          {done && (<p role="status" className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-xs text-emerald-700"><>{t("Password updated. Opening your dashboard…")}</></p>)}
 
           <button type="submit" disabled={saving || done} className="flex w-full items-center justify-center gap-2 rounded-full bg-[#163e32] px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-[#0e3026] disabled:cursor-not-allowed disabled:opacity-60">
-            {saving ? <LoaderCircle className="size-4 animate-spin"/> : t("Parolni saqlash")}
+            {saving ? <LoaderCircle className="size-4 animate-spin"/> : t("Save password")}
           </button>
         </form>)}
     </AuthShell>);
