@@ -157,7 +157,7 @@
     },
     {
       "question": "An authority debates whether to require bidders to submit a financial model. Some officials say it is unnecessary for a fixed-price bid. What does the Guide recommend?",
-      "options": ["Not required; only the price matters", "Required only for user-pays projects", "Required, ideally built on a template with fixed assumptions such as inflation", "Required only from the preferred bidder after award"],
+      "options": ["Not required, because only the bid price really matters", "Required only for user-pays projects with traffic risk", "Required, using a template with set assumptions", "Required only from the preferred bidder after award"],
       "answer": 2,
       "explanation": "The Guide clearly advocates the financial model as a bid requirement, with a template or instructions so models are standardised. It is later used for changes, compensation and disputes."
     },
@@ -187,9 +187,249 @@
     },
     {
       "question": "A short-listed dialogue process has five bidders, a moderate effort to participate and a low risk of abandonment. The authority wants each candidate to post a bond guaranteeing it stays until the end. What should it do?",
-      "options": ["Require the bond, as it is standard good practice", "Require the bond only from the two weakest bidders", "Generally not require it, since it is only for few bidders and high abandonment risk", "Require it and also refuse stipends"],
+      "options": ["Require the bond, as it is standard good practice everywhere", "Require the bond only from the two weakest bidders", "Not require it; such bonds suit few bidders at high risk", "Require the bond and also refuse to pay any stipends"],
       "answer": 2,
       "explanation": "Dialogue bonds should be considered case by case where there are few bidders (about three or fewer), large effort and high abandonment risk. Otherwise they are unnecessary and inappropriate."
+    },
+    {
+      "question": "Which of the following is NOT one of the three things that the Guide says an RFP governs?",
+      "options": ["The bid requirements and how documents are presented", "The rules and methods used to evaluate and select", "Protections for the government, such as the right to cancel", "The lenders' final credit approval of the project"],
+      "answer": 3,
+      "explanation": "The RFP governs bid requirements, evaluation, and other matters such as the government's right to cancel or negotiate (Ch 5 §8). Lenders' credit approval is the bidder's own financing matter, not something the RFP governs."
+    },
+    {
+      "question": "A procuring authority is putting together its RFP package and asks which annex matters most. What should its adviser say?",
+      "options": ["The index of the technical studies in the data room", "The draft contract, which is the principal annex", "The list of short-listed bidders and their members", "The communication plan for the project launch"],
+      "answer": 1,
+      "explanation": "Much of the RFP comes as annexes, and the principal annex is the contract (Ch 5 §8). The other items may exist but are not the core of the RFP."
+    },
+    {
+      "question": "A ministry has already short-listed four consortia after an Expression of Interest. How should it issue the RFP?",
+      "options": ["As a public notice that any new bidder may answer", "Combined with the qualification document for all applicants", "Only after the contract has been signed with one bidder", "As a separate document sent only to the short-listed bidders"],
+      "answer": 3,
+      "explanation": "When pre-qualification or short listing has taken place, the RFP is a separate document issued to the pre-qualified or short-listed bidders (Ch 5 §8). Opening it to new bidders would undo the qualification stage."
+    },
+    {
+      "question": "Statement 1: In Spain and some Latin American countries, objective or numerical criteria commonly carry at least 50 percent of the total weighting. Statement 2: It is preferable for the final evaluation score to be the score given by the most senior evaluator.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 0,
+      "explanation": "Statement 1 is correct: in Spain and some Latin American countries objective criteria typically weigh at least 50 percent. Statement 2 is wrong: scores should preferably be the average of individual evaluators, so no single evaluator dominates (Ch 5 §8.2)."
+    },
+    {
+      "question": "Why is it good practice for the RFP to limit how long a proposal remains valid, for example to 180 days?",
+      "options": ["To let the authority change the contract after bids arrive", "To force bidders to reach financial close within that period", "To allow the authority to hold the bid bond for longer", "To protect bidders from undue delays in evaluation and award"],
+      "answer": 3,
+      "explanation": "Limiting validity protects bidders from undue delays in evaluation and awarding (Ch 5 §8.1). It is not a tool to change the contract or to extend the authority's hold on the bid bond."
+    },
+    {
+      "question": "A bidder asks how it should package its proposal. What will a typical PPP RFP require?",
+      "options": ["A single envelope containing all documents and the price", "Separate legal/administrative, technical and financial envelopes", "One envelope for the price and one for the bid bond only", "A technical envelope that also states the price offered"],
+      "answer": 1,
+      "explanation": "Proposals are typically presented in separate envelopes for legal/administrative matters, the technical proposal and the financial proposal (Ch 5 §8.1). Putting the price with technical documents breaks this separation."
+    },
+    {
+      "question": "A bidder's technical proposal, which will be scored by judgment, includes a table showing its annual service payment. What is the likely consequence?",
+      "options": ["The proposal may be found unresponsive and disqualified", "The authority will simply use that figure as the price", "It earns extra technical points for transparency", "The financial envelope of every bidder is opened early"],
+      "answer": 0,
+      "explanation": "Pricing information must not appear in any proposal document other than the price proposal; putting price values in documents subject to judgment may cause unresponsiveness and disqualification (Ch 5 §8.1, Box 5.25)."
+    },
+    {
+      "question": "An RFP gives points for the 'quality of the maintenance plan' but never asks bidders to submit a maintenance plan. Which principle has the authority broken?",
+      "options": ["Proposal documents must be consistent with the evaluation criteria", "Maintenance must never be used as an evaluation criterion", "Every technical criterion must be judged only pass/fail", "Documents may only be requested at the pre-qualification stage"],
+      "answer": 0,
+      "explanation": "The documents required must be consistent with the evaluation criteria in the RFP, and the rules for preparing them must be clear (Ch 5 §8.1). Maintenance plans are in fact a typical technical criterion."
+    },
+    {
+      "question": "A proposal leaves out the equity commitment statement and its technical and financial parts seriously contradict each other. What may the authority do under a well-drafted RFP?",
+      "options": ["Accept it and fill the gaps during contract negotiation", "Score it normally, because only the price really matters", "Disqualify it for missing or seriously inconsistent information", "Give only this bidder extra time to complete it"],
+      "answer": 2,
+      "explanation": "A material lack of information or serious inconsistencies may result in disqualification of the offer (Ch 5 §8.1). Fixing gaps later or giving one bidder extra time would be unfair to the others."
+    },
+    {
+      "question": "The RFP says only that 'bidders shall provide a suitable guarantee'. Bidders submit very different instruments, some of them conditional. What should the RFP have done?",
+      "options": ["Accept any document the bidder calls a guarantee", "Require a cash deposit equal to 10 percent of CapEx", "Drop the guarantee requirement from the tender", "Specify the acceptable instruments and annex a template"],
+      "answer": 3,
+      "explanation": "The RFP should be clear about which instruments are acceptable, and it is good practice to provide a template; the bid bond must be unconditional, irrevocable and payable on first demand (Ch 5 §8.1)."
+    },
+    {
+      "question": "The authority's official CapEx estimate for a road PPP is 500 million. What bid bond amount would be most typical?",
+      "options": ["About 25 to 50 million (5 to 10 percent)", "About 5 to 10 million (1 to 2 percent)", "About 0.5 million (0.1 percent)", "The full CapEx estimate of 500 million"],
+      "answer": 1,
+      "explanation": "The most typical bid bond is 1–2 percent of the 'value of the project', usually taken from the authority's official CapEx estimate (Ch 5 §8.1). 1–2 percent of 500 million is 5–10 million."
+    },
+    {
+      "question": "An RFP accepts financing offers that are not yet fully binding. What financing information should bidders still provide?",
+      "options": ["Only the name of their main bank and the loan currency", "Nothing about financing until financial close is reached", "Only the equity IRR that their shareholders expect to earn", "Debt structure and tranches, terms, and lender support letters"],
+      "answer": 3,
+      "explanation": "All projects should request information on the financial package: debt structure and amounts (instruments and tranches), terms agreed or under negotiation, and lenders' letters of commitment, whether or not the package must be fully arranged (Ch 5 §8.1)."
+    },
+    {
+      "question": "According to the Guide, for which kind of PPP is the word 'auction' most appropriate?",
+      "options": ["Complex availability-payment hospitals and school programmes", "Any project that is evaluated on both price and quality", "Asset monetisation or user-pays projects with surplus revenue", "Dialogue processes that end with two BAFO candidates"],
+      "answer": 2,
+      "explanation": "The Guide keeps 'auction' for asset monetisation PPPs and user-pays projects likely to generate excess revenue, where the winner offers the highest value to the authority (Ch 5 §8.2)."
+    },
+    {
+      "question": "A user-pays water PPP cannot be commercially viable on its own, so the government will give a grant. Evaluation is price-only. On what should bidders compete?",
+      "options": ["The highest tariff they would charge to users", "The longest construction period they can offer", "The largest number of staff they will employ", "The lowest grant they need to deliver the project"],
+      "answer": 3,
+      "explanation": "In a price-only process, 'price' can be the lowest grant required in a user-pays PPP that is not viable on a stand-alone basis (Ch 5 §8.2). Higher tariffs, longer construction or more staff are not value for the authority."
+    },
+    {
+      "question": "A road agency plans to award its PPP to the bidder offering the most kilometres of road for a fixed budget. What should its adviser say?",
+      "options": ["Good practice, because it gets the most output for the money", "Not advisable; the scope should reflect the need already assessed", "Acceptable only if the lenders verify the kilometres offered", "Required whenever a MEAT evaluation method is used"],
+      "answer": 1,
+      "explanation": "Evaluating the quantity offered for a fixed budget is not advisable for most PPPs, because the solution should reflect the total need assessed in project selection, with the scope clearly defined (Ch 5 §8.2)."
+    },
+    {
+      "question": "An authority must choose an evaluation method for four projects. Which one is the best candidate for a price-only evaluation?",
+      "options": ["A standard car park with no technical challenges", "An innovative hospital with a new model of care", "A first-of-its-kind desalination plant", "A metro line with complex tunnelling risks"],
+      "answer": 0,
+      "explanation": "Price-only evaluation typically suits simpler projects with no particular complexities or technical challenges (Ch 5 §8.2). Innovative or complex projects benefit from scoring quality."
+    },
+    {
+      "question": "An authority will use price-only evaluation but fears very aggressive bids that cut quality. Which safeguard does the Guide suggest?",
+      "options": ["Set higher minimum scores for key technical sub-criteria", "Award the contract to the second-lowest price offered", "Remove the technical requirements from the RFP", "Let each bidder choose its own technical pass mark"],
+      "answer": 0,
+      "explanation": "To limit the dangers of price-only criteria, set not only an overall technical pass (e.g. 6 out of 10) but higher scores (e.g. 7 or 8) for key technical elements (Ch 5 §8.2)."
+    },
+    {
+      "question": "In a price-only toll road tender, the authority also wants bidders to offer a share of revenue above a baseline. What must the RFP include for this extra factor?",
+      "options": ["A qualitative panel judgment of each offer", "A specific weighting and a clear scoring formula", "Nothing, because it is not part of the price", "A rule hiding the share from the evaluators"],
+      "answer": 1,
+      "explanation": "Where there are several quantitative factors, each numerical criterion should have its specific weighting and scoring formula clearly set out in the RFP (Ch 5 §8.2)."
+    },
+    {
+      "question": "In an availability PPP, payments start only on completion. An official wants to add points for a shorter construction period. What should the authority do?",
+      "options": ["Accept it and give it a weighting of about 30 percent overall", "Make it the only factor in the evaluation of bids", "Avoid it; the payment mechanism already rewards finishing early", "Score it instead of the availability payment requested"],
+      "answer": 2,
+      "explanation": "Scoring a shorter construction period is undesirable, especially when the payment mechanism already gives an incentive to finish early; it would also be redundant with the price factor (Ch 5 §8.2)."
+    },
+    {
+      "question": "In a toll road tender, bidders compete on the present value of revenues they need, and the concession ends when that value is reached. What else does this approach do?",
+      "options": ["It fixes the concession term at exactly 30 years", "It removes the need for any financial model", "It shares demand risk, because the term is variable", "It turns the project into an availability PPP"],
+      "answer": 2,
+      "explanation": "The Chilean approach of bidding the NPV of revenues is both a price mechanism and a risk-sharing mechanism, because the concession term varies until the NPV offered is reached (Ch 5 §8.2)."
+    },
+    {
+      "question": "A city is tendering an innovative waste-to-energy PPP where the technical approach is critical to success. How should it set the evaluation weighting?",
+      "options": ["Use price-only with a simple technical pass/fail", "Give relatively more weight to the technical approach", "Give quality zero weight to stay fully objective", "Weight bidders' past experience above all else"],
+      "answer": 1,
+      "explanation": "The weighting between quality and price should depend on the project; for very innovative projects the proposed approach, means and methods matter much more (Ch 5 §8.2)."
+    },
+    {
+      "question": "A country tendering its first PPP, with little investor trust in its procurement, wants to copy Australia's heavy reliance on qualitative criteria with little scoring detail. What should the adviser warn?",
+      "options": ["It is required by EU law for a country's first projects", "It works only where investors trust the fairness of evaluation", "It always attracts more bidders than price-only tenders", "It removes the need to publish any evaluation criteria"],
+      "answer": 1,
+      "explanation": "Relying heavily on qualitative assessment is possible only where there is strong confidence in the fairness of the evaluation, found in markets with high recognition among investors (Ch 5 §8.2)."
+    },
+    {
+      "question": "An RFP gives weightings to the main technical criteria but none to the sub-criteria. What is it customary to provide at least?",
+      "options": ["The names of the evaluators for each sub-criterion", "A list of factors that will be considered in scoring", "Each bidder's expected score in advance", "Nothing more, since sub-criteria are confidential"],
+      "answer": 1,
+      "explanation": "When a weighting is not provided for sub-criteria, it is customary to at least provide a 'list of factors' that will be considered in scoring (Ch 5 §8.2)."
+    },
+    {
+      "question": "An adviser drafts 140 technical sub-criteria, each with its own small weighting. What is the main risk?",
+      "options": ["The evaluation becomes far too subjective for bidders", "The bid bond can no longer be enforced by the authority", "Too much rigidity and loss of focus on the main objectives", "The weight of price automatically falls below 50 percent"],
+      "answer": 2,
+      "explanation": "Splitting scoring into too many factors introduces excessive rigidity and makes it hard for bidders to focus on the government's fundamental objectives (Ch 5 §8.2)."
+    },
+    {
+      "question": "In a MEAT evaluation, a proposal meets every mandatory requirement but scores only 5.5 out of 10 on technical quality. The RFP sets a minimum average of 7. What will happen?",
+      "options": ["It fails the minimum quality bar and goes no further", "It passes, because it met every mandatory requirement", "It wins anyway if its price is the lowest", "Its score is raised to 7 automatically"],
+      "answer": 0,
+      "explanation": "It is customary to set a minimum quality score above a mere pass, for example an average of 7 out of 10; a proposal below it does not meet the quality bar (Ch 5 §8.2)."
+    },
+    {
+      "question": "An authority wants its evaluation to encourage training and jobs for disadvantaged community members. How can it do this?",
+      "options": ["Use a pass/fail minimum and/or award extra points", "It cannot, as social criteria are not permitted", "Only by raising the amount of the bid bond", "Only by negotiating it after contract signature"],
+      "answer": 0,
+      "explanation": "Environmental and social aspects may be evaluated through pass/fail minimum requirements and/or extra points, for example for training and employment of disadvantaged community members (Ch 5 §8.2)."
+    },
+    {
+      "question": "In a staged evaluation, the authority scores the reliability of each bidder's financial package before opening the price envelopes. What instruction must it give bidders?",
+      "options": ["The financing documents must not reveal the price offered", "The financing must be fully arranged by all lenders", "The financing package goes in the technical envelope", "Lenders must attend the evaluation meetings"],
+      "answer": 0,
+      "explanation": "Where the financial package is scored for reliability, strict instructions should stop the financing documents from disclosing the overall price offered (Ch 5 §8.2)."
+    },
+    {
+      "question": "A technical evaluator wants to give the most points to the bidder that commits the largest maintenance workforce. What should the evaluation do instead?",
+      "options": ["Award points in direct proportion to the number of staff", "Ignore the technical proposal and decide on price alone", "Check means meet minimums and judge the likely output quality", "Ask the lenders which staffing level they consider best"],
+      "answer": 2,
+      "explanation": "Because PPPs are output-based, technical evaluation should not score inputs such as the number of workers; it should check the means meet the RFP minimums and judge how well they will deliver quality outputs (Ch 5 §8.2)."
+    },
+    {
+      "question": "Internal evaluation procedures are usually not detailed in the RFP. Which item about the evaluation should the RFP still state?",
+      "options": ["How long it will take to evaluate and announce the award", "The names and CVs of each member of the evaluation team", "Whether evaluators will score alone or together in groups", "The dates and agendas of the evaluators' internal meetings"],
+      "answer": 0,
+      "explanation": "The RFP usually does not describe team composition or individual versus group scoring, but it should state the time the authority will take to evaluate and publish the award, and whether envelopes are opened in public (Ch 5 §8.2)."
+    },
+    {
+      "question": "An EU authority is running a price-and-quality tender. When should it open the financial envelopes?",
+      "options": ["Only after technical scores are final for every bidder", "Before the technical envelopes, to filter by price", "At the same time as the technical envelopes", "Only for the bidder with the best technical score"],
+      "answer": 0,
+      "explanation": "Some jurisdictions evaluate sequentially: the financial envelope is opened only once technical evaluation is finished and scores are assigned. EU procurement rules universally adopt this approach (Ch 5 §8.2)."
+    },
+    {
+      "question": "A country with a new PPP programme and limited public capacity is thinking of competitive dialogue for a modest road project. What should its adviser point out?",
+      "options": ["Dialogue is always the cheapest route for new programmes", "Dialogue removes any risk to transparency and fairness", "Dialogue lets the authority skip short listing entirely", "Dialogue costs more time and money and suits mature markets"],
+      "answer": 3,
+      "explanation": "Dialogue can improve outcomes, but it demands much more time and resources and creates risks to transparency and fairness, so it works best in mature PPP markets and may be hard in some EMDEs (Ch 5 §8.3)."
+    },
+    {
+      "question": "An EU authority's descriptive document does not give the weightings of the evaluation criteria. What must it still do with the criteria?",
+      "options": ["List them in decreasing order of importance", "Keep them secret until the final tenders arrive", "Replace them with a price-only rule", "Let each bidder propose its own criteria"],
+      "answer": 0,
+      "explanation": "EU regulation allows the descriptive document to avoid defining weightings, but the criteria should be listed in decreasing order of importance (Ch 5 §8.2, footnote 77)."
+    },
+    {
+      "question": "An EU authority wants to use competitive dialogue for a routine road resurfacing contract with standard specifications. What will it find?",
+      "options": ["EU rules make dialogue compulsory for every PPP", "Dialogue is only allowed in user-pays projects", "Dialogue may be used only if price is below 50 percent", "EU rules allow competitive dialogue only for complex projects"],
+      "answer": 3,
+      "explanation": "Under EU regulations, competitive dialogue may only be used in 'complex projects' (Ch 5 §8.3, footnote 79)."
+    },
+    {
+      "question": "In a negotiated procedure with BAFO, short-listed candidates have submitted binding technical and price proposals. How many are normally taken into parallel negotiations?",
+      "options": ["Only one candidate, the one with the lowest price", "Every candidate that passed the pre-qualification", "Two, usually chosen on technical pass/fail and lowest price", "Between three and five of the best-ranked candidates"],
+      "answer": 2,
+      "explanation": "In the negotiated procedure, two candidates are selected (usually technical pass/fail and lowest price), negotiate in parallel and then submit BAFOs (Ch 5 §8.3)."
+    },
+    {
+      "question": "After receiving the BAFOs, the authority names a preferred bidder. What happens next under the Guide's description?",
+      "options": ["The runner-up is released at once and its bid bond is called", "The runner-up waits in reserve while final talks settle the risk", "Both candidates share the contract in equal parts for the term", "The tender restarts with a new call for proposals to the market"],
+      "answer": 1,
+      "explanation": "The other candidate remains in reserve; the final negotiation with the preferred bidder completes due diligence, settles the final risk sharing and gives time to arrange financial close (Ch 5 §8.3)."
+    },
+    {
+      "question": "During a competitive dialogue, one member of a short-listed consortium wants to leave for ordinary commercial reasons. What will the dialogue rules generally say?",
+      "options": ["Allowed at any time without the authority's approval", "Allowed if the leaving member pays back any stipend", "Allowed freely, but only after the BAFO stage", "Not allowed, except in some force majeure situations"],
+      "answer": 3,
+      "explanation": "Generally, changes in the composition of a short-listed consortium are not allowed, except in some force majeure circumstances (Ch 5 §8.3)."
+    },
+    {
+      "question": "In the EU competitive dialogue, what does the term 'business solutions' refer to?",
+      "options": ["The authority's final award decision and its reasons", "The lenders' term sheets attached to each bid", "The stipends paid to unsuccessful bidders", "Bidders' suggested changes to adapt the RFP and contract"],
+      "answer": 3,
+      "explanation": "'Business solutions' is the EU term for bidders' proposed changes or technical and commercial suggestions to adapt the RFP and final contract (Ch 5 §8.3)."
+    },
+    {
+      "question": "An authority fears it will receive only one or two bids in a costly dialogue process. Which tool do many processes use to keep competition alive?",
+      "options": ["Full repayment of every bidder's costs, with no cap", "A doubled bid bond for all of the short-listed bidders", "Capped stipends for part of responsive bidders' justified costs", "A promise of a second future contract for the runner-up"],
+      "answer": 2,
+      "explanation": "Many processes give responsive bidders stipends: compensation for part of their justified bid costs, never above a set percentage and always under a cap (Ch 5 §8.3)."
+    },
+    {
+      "question": "An authority wants to start a dialogue with short-listed bidders using only a two-page project outline. What is the main risk?",
+      "options": ["Bidders will have too much information to compare", "Bidders cannot judge feasibility, so interest may be low", "The dialogue will automatically become price-only", "The authority will have to pay every bid cost"],
+      "answer": 1,
+      "explanation": "The initial documents for a dialogue must be substantially developed so bidders can assess feasibility and their investment case; otherwise the risk of lack of interest is significant (Ch 5 §8.3)."
+    },
+    {
+      "question": "An EU competitive dialogue with the short-listed candidates has just ended and definitive requirements and criteria are approved. What does the authority issue next?",
+      "options": ["An invitation to participate in the dialogue (ITPD)", "A new Expression of Interest to the whole market", "An invitation to submit final tenders (ITP/ITSFT)", "A notice of commercial close to the preferred bidder"],
+      "answer": 2,
+      "explanation": "At the end of the dialogue, definitive requirements and criteria are approved and the authority issues the invitation to propose, also called the invitation to submit a final tender (Ch 5 §8.3). The ITPD was sent at the start."
     }
   ]
 }

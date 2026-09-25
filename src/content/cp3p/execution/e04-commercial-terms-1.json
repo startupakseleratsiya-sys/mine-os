@@ -139,7 +139,7 @@
   "quiz": [
     {
       "question": "A ministry wants to copy a foreign country's full standard PPP contract and make it mandatory for its very first PPP. What should its advisers recommend?",
-      "options": ["Adopt it as mandatory, because standardisation always reduces risk", "Use it as a resource, adapt it to the project, and standardise only specific clauses", "Avoid any standard clauses, including termination language", "Leave all provisions to the general law instead of the contract"],
+      "options": ["Adopt it as mandatory, because standardisation always cuts risk", "Use it as a resource, adapt it, and standardise only key clauses", "Avoid any standard clauses, including the termination language", "Leave all provisions to the general law instead of the contract"],
       "answer": 1,
       "explanation": "Standard contracts should be used with caution and adapted; a mandatory standard should only follow substantial experience. Specific clauses such as termination language can be standardised."
     },
@@ -151,7 +151,7 @@
     },
     {
       "question": "An authority wants cost-effective monitoring of a PPP's service performance. Which approach reflects the Guide's recommended practice?",
-      "options": ["Review the partner's QMS records and verify them with spot checks and audits", "Rely only on the partner's monthly self-assessment without any checks", "Employ a large team to measure every KPI directly", "Monitor performance only at hand-back"],
+      "options": ["Review the partner's QMS records and check them with spot audits", "Rely only on the partner's monthly self-assessment, with no checks", "Employ a large public team to measure every KPI directly on site", "Monitor the partner's performance only once, at contract hand-back"],
       "answer": 0,
       "explanation": "Many guides favour using the partner's information through its QMS, with the authority reviewing records and conducting spot checks and audits. Relying on unchecked self-reporting is not enough."
     },
@@ -187,15 +187,255 @@
     },
     {
       "question": "The parties use the financial model to calculate rebalancing after a compensation event. What is the correct approach?",
-      "options": ["Update all inputs to current forecasts, then compare", "Add the loss and its funding, keep other inputs unchanged, then adjust revenue until the IRR is restored", "Ignore the model and negotiate a lump sum", "Reduce the minimum DSCR so the loss disappears"],
+      "options": ["Update every input to current forecasts, then compare the two results", "Add the loss and its funding, keep other inputs, then raise revenue to restore IRR and DSCR", "Ignore the model and agree a lump sum through open-ended negotiation", "Lower the minimum DSCR in the model until the loss no longer shows"],
       "answer": 1,
-      "explanation": "Box 5.35: introduce the loss and its funding with other inputs unaltered, observe the lower IRR and DSCR, then increase revenue inputs to restore the IRR and respect the minimum DSCR. This avoids over-compensation."
+      "explanation": "Box 5.35: introduce the loss and its funding with the other inputs unaltered, observe the lower IRR and DSCR, then increase revenue inputs to restore the original IRR and respect the minimum DSCR. This avoids over-compensation."
     },
     {
       "question": "An SPV wants to use money in its renewal reserve fund to pay an early dividend. Its contract follows good practice. What must happen?",
       "options": ["Nothing; the SPV controls its reserve funds freely", "The lenders alone decide", "The SPV needs the procuring authority's specific authorisation", "The fund must be transferred to the authority first"],
       "answer": 2,
       "explanation": "Good practice sets limits on reserve funds: any use other than renewal or major maintenance requires specific authorisation from the procuring authority."
+    },
+    {
+      "question": "A drafting team writes vague definitions of risk events, planning to settle the details case by case later. What does the Guide call the essential driver for putting the commercial structure into the contract?",
+      "options": ["Maximum flexibility, with as few definitions as possible", "Short contracts that leave most matters to general law", "Leaving the detailed risk definitions to the lenders", "Clarity, especially on risk events and rights to compensation"],
+      "answer": 3,
+      "explanation": "Clarity is the essential driver, especially in defining risk events and the right to claim compensation; ambiguities should be avoided as far as possible (Ch 5 §9)."
+    },
+    {
+      "question": "Why does the Guide describe PPP contracts as 'necessarily incomplete'?",
+      "options": ["They are long, risky and complex, so cannot foresee every situation", "Their annexes are only added after financial close is reached", "The law in most countries forbids fully complete contracts", "The lenders must write the missing clauses after signature"],
+      "answer": 0,
+      "explanation": "Because PPPs are long-term, risky and complex, contracts cannot fully specify what to do in all future states of the world, so they need bounded flexibility (Ch 5 §9, Box 5.29)."
+    },
+    {
+      "question": "Twelve years into a PPP, demand patterns change in a way nobody foresaw. How does a well-designed contract aim to deal with this?",
+      "options": ["By automatic termination followed by a brand-new tender", "By open-ended renegotiation of all the contract terms", "Through a clear process and limits for change within the contract", "By ignoring the change until the contract finally expires"],
+      "answer": 2,
+      "explanation": "The aim is 'certainty where possible and bounded flexibility where needed', done by creating a clear process and boundaries for change, so changes are handled within the contract rather than by renegotiation or termination (Box 5.29)."
+    },
+    {
+      "question": "In a civil law country, the PPP law already regulates termination in detail. What does the Guide consider good practice for the contract?",
+      "options": ["Leave termination out of the contract and rely on the law alone", "Also develop termination terms in the contract, as far as the law allows", "Write termination terms that contradict the law to suit investors", "Copy a foreign termination clause into the contract unchanged"],
+      "answer": 1,
+      "explanation": "The Guide considers it good practice to also develop such provisions in the contract, adapted to the project as far as the law permits, for clarity and transparency, especially for international investors (Ch 5 §9.1)."
+    },
+    {
+      "question": "A lawyer is sorting provisions into the three groups of Figure 5.12. Which provision belongs to the 'rights of the private partner'?",
+      "options": ["The duty to report regularly to the procuring authority", "The hand-back requirements at the end of the contract", "The right to refinance and transfer shares, on conditions", "The minimum insurance package the SPV must maintain"],
+      "answer": 2,
+      "explanation": "The right to refinance and transfer shares (subject to conditions and authorisation) is a right of the private partner. Reporting, hand-back and insurance are obligations of the private partner (Ch 5 §9.1, Figure 5.12)."
+    },
+    {
+      "question": "In the Guide's grouping of contract provisions, which one falls under 'risks, changes and disputes'?",
+      "options": ["The payment or revenue mechanism", "The performance guarantee", "The dispute resolution procedures", "The right to pledge revenues and shares"],
+      "answer": 2,
+      "explanation": "Dispute resolution, together with risk event definitions, other changes, confidentiality and termination provisions, belongs to 'risks, changes and disputes'. The payment mechanism and pledge rights are rights of the partner; the guarantee is an obligation (Figure 5.12)."
+    },
+    {
+      "question": "During final negotiations, the preferred bidder asks to rewrite the risk allocation and payment mechanism from scratch. What should the authority do?",
+      "options": ["Accept, because negotiation is where the contract is designed", "Re-open the tender to all original bidders automatically", "Refuse radical changes, as the groundwork was set in the RFP", "Let the lenders decide on the new risk allocation alone"],
+      "answer": 2,
+      "explanation": "The groundwork of the contract lies in the RFP documents and should not be radically changed during contract negotiation (Ch 5 §9.1). Doing so would also be unfair to the other bidders."
+    },
+    {
+      "question": "An authority sets an availability target of 100 percent every hour for 30 years, with heavy deductions. Bidders say no operator could meet it. What is the main concern?",
+      "options": ["Targets should always be set at around 50 percent to be safe", "Unrealistic targets put viability and bidder interest at risk", "Very high targets always produce better value for money", "Targets have no effect on payments in availability PPPs"],
+      "answer": 1,
+      "explanation": "Targets should be 'challenging but achievable' for a good operator; overly ambitious targets can put at risk the financial sustainability and even the commercial acceptability of the contract, though the government should still be ambitious (Ch 5 §9.2)."
+    },
+    {
+      "question": "A draft output specification says the school must be 'pleasant and well kept'. What is the main problem with it?",
+      "options": ["It is output-based, which PPP contracts do not allow", "It is far too specific for a long-term PPP contract", "It prescribes inputs such as the number of cleaners", "It is not measurable, so monitoring will cause disputes"],
+      "answer": 3,
+      "explanation": "Requirements must be measurable to avoid conflicts when checking targets during monitoring (Ch 5 §9.2). Being output-based is good, and the wording does not prescribe inputs."
+    },
+    {
+      "question": "Output specifications are often tested against the SMART criteria. What does the 'A' in SMART stand for?",
+      "options": ["Achievable", "Affordable", "Auditable", "Automatic"],
+      "answer": 0,
+      "explanation": "SMART means Specific, Measurable, Achievable, Relevant and Time constrained (Ch 5 §9.2). 'Achievable' links to the rule that targets must be challenging but achievable."
+    },
+    {
+      "question": "An SPV refuses to set up a quality management system, saying it is only a voluntary management tool. What should a well-drafted contract say?",
+      "options": ["A QMS is optional as long as the KPIs are being met", "Running a QMS is a contractual obligation of the partner", "The authority must run the QMS on the partner's behalf", "Only the lenders can require the partner to run a QMS"],
+      "answer": 1,
+      "explanation": "The operator should develop and manage a quality management system, and this has to be a contractual requirement (Ch 5 §9.2). The authority then reviews and audits the QMS records."
+    },
+    {
+      "question": "Besides the partner's own records, which source of performance information does the Guide mention for a school PPP?",
+      "options": ["The partner's shareholders and board only", "The construction subcontractor's own reports", "The lenders' technical adviser acting alone", "Teachers and other users of the facility"],
+      "answer": 3,
+      "explanation": "Performance information can also come from sources independent of the private partner, such as users in general, or teachers and doctors in social infrastructure PPPs (Ch 5 §9.2)."
+    },
+    {
+      "question": "A hospital PPP achieves 97 percent availability in a month. How does the Guide suggest thinking about the payment?",
+      "options": ["The partner earns 97 percent of the payment for the service given", "It is paid 100 percent, then must pay a 3 percent fine", "It is paid nothing until it reaches 100 percent availability", "It is paid 100 percent, as 97 percent is close enough"],
+      "answer": 0,
+      "explanation": "Payment is earned on the basis of availability: meeting 97 percent availability earns 97 percent of the payment, the value of the service rendered, rather than 100 percent minus a penalty (Ch 5 §9.2)."
+    },
+    {
+      "question": "A road PPP is paid through shadow tolls based on traffic volume. How is performance usually encouraged under this kind of mechanism?",
+      "options": ["Mainly through availability deductions from each payment", "Only through calling the bid bond when quality drops", "It cannot be encouraged, as payment depends on traffic", "Mainly through explicit penalties or liquidated damages"],
+      "answer": 3,
+      "explanation": "In volume-based mechanisms such as shadow tolls, performance is more often incentivised through explicit penalties or LDs for lack of performance (Ch 5 §9.2)."
+    },
+    {
+      "question": "A local councillor says a school PPP means the government is paying the private partner to buy a school building. How should the adviser correct this?",
+      "options": ["The government is paying for the land under the school", "The government pays for the use of the asset at set standards", "The government pays only for the construction works", "The government pays the lenders directly for the debt"],
+      "answer": 1,
+      "explanation": "The government is not paying for the public asset but for the ability of the government or users to use it under the conditions set in the performance requirements (Ch 5 §9.2). PPPs are service contracts, not asset purchases."
+    },
+    {
+      "question": "An adviser in a common law country is drafting a clause that sets a fixed sum payable for each day a construction milestone is late. What should the clause call this sum?",
+      "options": ["Liquidated damages, since 'penalty' has a special legal meaning", "A penalty, because the term means the same in every country", "A bid bond, because it secures the construction timetable", "A compensation event payment owed by the private partner"],
+      "answer": 0,
+      "explanation": "In many common law countries 'penalty' legally means a sum out of proportion to the likely loss, so the term 'liquidated damages' is used instead (Ch 5 §9.3, footnote 86)."
+    },
+    {
+      "question": "Operations are failing badly and public safety is at risk. The authority takes direct control of the project and hires another operator for a period. Which remedy is this?",
+      "options": ["Step-in", "Hand-back", "Rebalancing", "Refinancing"],
+      "answer": 0,
+      "explanation": "Step-in means the authority takes on some or all of the private partner's obligations, possibly taking direct control and hiring a different operator (Ch 5 §9.2). Rebalancing and refinancing are financial processes, not remedies."
+    },
+    {
+      "question": "An authority wants the PPP to meet targets for women's participation in local training and employment. How can the contract support this?",
+      "options": ["It cannot, because social targets belong only in national law", "Only by raising the amount of the bid bond at tender stage", "Only by scoring it once at bid stage, with no later contract duty", "Include social output specifications backed by penalties or rewards"],
+      "answer": 3,
+      "explanation": "PPP contracts increasingly include environmental and social obligations, such as local content or community benefit clauses with targets for female participation, backed by penalties or rewards (Ch 5 §9.2)."
+    },
+    {
+      "question": "The shareholders of an SPV withdraw capital, so its equity falls below the minimum set in the contract. How should this be classified?",
+      "options": ["A compensation event for the SPV", "A relief event excusing performance", "Not a breach, as equity is a private matter", "A breach of contract (a financial requirement)"],
+      "answer": 3,
+      "explanation": "A breach is any failure to observe a contract provision, including financial requirements such as minimum equity investment (Ch 5 §9.3). It is not a risk event that entitles the SPV to compensation or relief."
+    },
+    {
+      "question": "Two breaches occur: a one-day delay in a minor report and a three-month delay in a key construction milestone. How should the penalties compare?",
+      "options": ["Equal, because both of them are breaches of the contract", "Larger for the milestone, reflecting importance and duration", "Larger for the report, since it is easier to prove", "Nothing for either, since only defaults carry penalties"],
+      "answer": 1,
+      "explanation": "The penalty should be commensurate with the importance of the obligation breached and the duration of the breach (Ch 5 §9.3)."
+    },
+    {
+      "question": "A contract deems a minor breach committed more than three times in 12 months to be major. An SPV commits the same minor breach four times in ten months. What follows?",
+      "options": ["It stays minor, since each breach on its own is small", "It is treated as a major breach with a higher penalty", "It automatically becomes an event of default", "It is ignored until 24 months have passed"],
+      "answer": 1,
+      "explanation": "It is common for a minor breach committed repeatedly (e.g. more than three times in 12 months) to be deemed a major breach for the purpose of a higher penalty (Ch 5 §9.3). That alone is not a default."
+    },
+    {
+      "question": "An SPV reaches the contract's persistent-breach threshold. Which consequence is typical before any termination?",
+      "options": ["An automatic increase in its availability payment", "Early release of its performance guarantee", "A free extension of the contract term", "Higher penalties, more audits at its cost, or step-in"],
+      "answer": 3,
+      "explanation": "Persistent breach may lead to a step-up in penalties, more quality audits at the project company's expense, or step-in with costs passed through, and ultimately to default (Ch 5 §9.3)."
+    },
+    {
+      "question": "A user-pays SPV owes a penalty but refuses to pay it. There is no government payment to deduct from. What can the authority do?",
+      "options": ["Deduct it from future availability payments", "Draw the amount from the performance guarantee", "Raise the user tariff to cover the penalty", "Waive it, as such penalties cannot be enforced"],
+      "answer": 1,
+      "explanation": "A penalty or LD is claimed against the partner, deducted from government payments, or taken from the performance guarantee (Ch 5 §9.3). In user-pays there is no government payment, so the guarantee is the practical route."
+    },
+    {
+      "question": "An authority imposes a formal penalty for every minor slip. Relations are tense and the partner has stopped proposing innovations. What does the Guide recommend?",
+      "options": ["Double every penalty so that discipline is quickly restored", "Remove every penalty from the contract for good", "Use performance points as an intermediate step before penalties", "Terminate the contract and tender the project again"],
+      "answer": 2,
+      "explanation": "If every minor breach leads directly to penalties, the scope for innovation and risk taking is reduced; performance points as an intermediate step are good practice (Box 5.33)."
+    },
+    {
+      "question": "Persistent breaches keep arising on one KPI in an otherwise well-run operation. What should the authority consider before acting?",
+      "options": ["The requirement or monitoring may be wrong, so investigate", "The partner must be incompetent, so terminate at once", "The KPI should be deleted from the contract without review", "The breaches should be left out of the monthly reports"],
+      "answer": 0,
+      "explanation": "Persistent breaches may show an incompetent partner, but may also show that the contract requirements are wrong or breach identification is too rigorous; they need to be investigated (Box 5.33)."
+    },
+    {
+      "question": "An SPV commits a material breach of an obligation that the contract defines as essential. Following good practice, what happens before the authority may terminate?",
+      "options": ["The SPV gets a period to rectify the default", "Termination is immediate, with no notice", "The authority first pays the SPV compensation", "The breach is turned into a relief event"],
+      "answer": 0,
+      "explanation": "It is good practice to require the breach to be material and to give the private partner a period to rectify the default before the government becomes entitled to terminate (Ch 5 §9.3)."
+    },
+    {
+      "question": "The authority lawfully terminates a PPP for private partner default. What typically happens to the performance guarantee?",
+      "options": ["The partner loses it", "It is returned in full", "It passes to the lenders", "It becomes a bid bond"],
+      "answer": 0,
+      "explanation": "Under termination by default, the private partner typically loses the performance guarantee and will likely suffer further financial harm, depending on the termination provisions (Ch 5 §9.3)."
+    },
+    {
+      "question": "A compensation event delays construction by six months, so the SPV starts earning toll revenue late. Can its claim include the revenue lost?",
+      "options": ["No, only extra construction costs can count", "No, lost revenue is always a relief event", "Yes, forgone revenue can form part of the loss", "Only if the lenders approve the claim first"],
+      "answer": 2,
+      "explanation": "The loss claimed after a compensation event may include forgone revenues, for example from a construction delay caused by the event (Ch 5 §9.4)."
+    },
+    {
+      "question": "In most civil code countries, what does 'rebalancing the contract' mean?",
+      "options": ["Restoring the project's finances as if the event had not happened", "Re-tendering the contract after a major change in the law", "Moving risks from the public to the private partner over time", "Changing the debt-to-equity ratio at the request of the lenders"],
+      "answer": 0,
+      "explanation": "Rebalancing is the process of restoring the financial equation of the project cash flows as if the compensation event had not occurred (Ch 5 §9.4)."
+    },
+    {
+      "question": "One compensation event requires 20 million of new capital works; another raises future operating costs. How are they commonly compensated?",
+      "options": ["CapEx by direct payment; future costs by extra payments or tariff rises", "CapEx by a tariff rise; future costs by a single direct lump sum", "Both by a longer term, whatever the debt covenants say", "Neither; the partner bears both as normal business risk"],
+      "answer": 0,
+      "explanation": "As a common rule, CapEx impacts are compensated by a direct payment, and impacts on future revenues or costs by supplementary payments or an increase in the service price or tariff (Ch 5 §9.4)."
+    },
+    {
+      "question": "The contract lets the government ask the SPV to finance the CapEx caused by a compensation event. How should this obligation be drafted?",
+      "options": ["Unconditional, whatever the state of the financial markets", "Required only if the SPV has made no profit in the year", "Financed only by the construction subcontractor's own cash", "Subject to funds from investors and lenders, with best endeavours"],
+      "answer": 3,
+      "explanation": "Good practice makes the obligation to finance the loss conditional on funds being available from shareholders and lenders, with a duty to use best endeavours to raise them (Ch 5 §9.4)."
+    },
+    {
+      "question": "The parties want to rebalance a contract by extending the concession term by four years. When is this acceptable?",
+      "options": ["If debt covenants are met and the extra cash restores equity IRR", "Always, because an extension costs the government nothing at all", "Only if the NPV of project costs stays exactly the same", "Never, because term extensions are banned as a rebalancing tool"],
+      "answer": 0,
+      "explanation": "Extending the term may restore financial balance, but only when it does not affect the partner's ability to meet its debt covenants and gives enough additional cash flow to restore the equity IRR (Ch 5 §9.4)."
+    },
+    {
+      "question": "The authority and the SPV cannot agree on the size of the loss caused by a compensation event. How does Box 5.35 suggest settling the estimate?",
+      "options": ["Apply the authority's own estimate automatically", "Apply the SPV's own estimate automatically", "Skip the estimate and raise tariffs by 10 percent", "Ask independent experts through the dispute procedures"],
+      "answer": 3,
+      "explanation": "The first step is to estimate the loss; without agreement, the parties may ask independent third parties for an opinion through the dispute resolution procedures (Box 5.35)."
+    },
+    {
+      "question": "The initial CapEx estimate of a PPP is 300 million. Which performance guarantee profile follows typical practice?",
+      "options": ["About 3 million, kept flat for the whole contract term", "About 30 million, required during operations only", "About 12 million in construction, then about 6 million in operations", "About 6 million in construction, then about 12 million later"],
+      "answer": 2,
+      "explanation": "Performance guarantees usually range from 2 to 4 percent of total CapEx, and are typically higher in construction than in operations, for example 4 percent then 2 percent (Ch 5 §9.5)."
+    },
+    {
+      "question": "The authority calls 1 million from the performance guarantee to fund a penalty. What must the private partner then do?",
+      "options": ["Nothing; the guarantee simply stays lower", "Restore the guarantee to its required amount", "Replace the guarantee with a bid bond", "Pay the same sum to its senior lenders"],
+      "answer": 1,
+      "explanation": "When the guarantee is executed in full or in part, the private partner must renew the guaranteed amount (Ch 5 §9.5)."
+    },
+    {
+      "question": "A country sets the operations-phase performance guarantee as a small multiple of annual O&M cost, far below the initial investment. What is the Guide's view?",
+      "options": ["This is best practice, as O&M is the only risk in operations", "The guarantee should be removed once construction ends", "The amount should stay in proportion to the initial investment", "The guarantee should be based on the lenders' fees instead"],
+      "answer": 2,
+      "explanation": "The operations-phase guarantee is sometimes set as a multiple of O&M costs, but the Guide considers that the amount should in any case be commensurate with the initial investment (Ch 5 §9.5, footnote 90)."
+    },
+    {
+      "question": "When is the way of funding the renewal investment reserve first set out?",
+      "options": ["Only when the first major renewal falls due during operations", "In the hand-back plan agreed at the end of the contract", "By the lenders alone, after the contract has been signed", "In the bid financial plan, possibly adjusted at financial close"],
+      "answer": 3,
+      "explanation": "The means to fund reserves is part of the financial plan provided at bid submission and is likely to be further adjusted at financial close (Ch 5 §9.5)."
+    },
+    {
+      "question": "A large, well-funded SPV says it will self-insure all physical damage and needs no insurance policies. What should the contract require?",
+      "options": ["Nothing, since self-insurance is enough for large firms", "A minimum insurance package prescribed in the contract", "Insurance only for the construction period", "Insurance paid for and held by the government"],
+      "answer": 1,
+      "explanation": "The government should not rely entirely on the partner's ability to self-insure, so a minimum insurance package is common practice in all PPP contracts (Ch 5 §9.5)."
+    },
+    {
+      "question": "Which cover belongs in the minimum insurance package described by the Guide?",
+      "options": ["Personal life cover for the SPV's directors", "Delay in start-up or business interruption cover", "Cover for the bidder's bid bond at tender stage", "Currency hedging of the investors' equity returns"],
+      "answer": 1,
+      "explanation": "Insurance should cover physical damage (all risks), third party liability, and losses from delay in start-up or business interruption (Ch 5 §9.5)."
+    },
+    {
+      "question": "A flood, a force majeure risk shared under the contract, damages the asset. The SPV receives 8 million from its insurers, and the government owes compensation for the same event. How do the insurance proceeds affect this?",
+      "options": ["They are added on top of the government's compensation", "They must be paid over to the lenders as a bonus", "They are deducted from the government's compensation", "They are ignored when compensation is calculated"],
+      "answer": 2,
+      "explanation": "The government is indirectly protected by the insurance package, because amounts received under the policy are deducted from the compensation payable by the government for the same event (Ch 5 §9.5)."
     }
   ]
 }

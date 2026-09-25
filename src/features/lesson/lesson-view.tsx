@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import { AlertTriangle, ArrowLeft, CheckCircle2, Clock3, Headphones, ListChecks, MessageSquareText, PlayCircle, Target } from "lucide-react";
 import type { Lesson } from "@/content/cp3p/types";
-import type { PublicItem } from "@/lib/learning-path";
 import dynamic from "next/dynamic";
 import { Markdown } from "@/features/exam/markdown";
 import { ListenLesson, VideoLesson } from "./video-lesson";
@@ -22,7 +21,7 @@ type Props = {
   index: number;
   total: number;
   completed: boolean;
-  items: PublicItem[];
+  testSize: number;
   passMark: number;
   nextHref: string | null;
   finalHref: string;
@@ -31,7 +30,7 @@ type Props = {
 };
 
 /** Bitta dars: video / audio / matn → test. Oddiy, bir ustunli sahifa. */
-export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, items, passMark, nextHref, finalHref, signedIn, audio }: Props) {
+export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, passMark, nextHref, finalHref, signedIn, audio, testSize }: Props) {
   const [media, setMedia] = useState<"video" | "audio">("video");
   const [testing, setTesting] = useState(false);
   const [tutorOpen, setTutorOpen] = useState(false);
@@ -60,7 +59,11 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
         <button type="button" onClick={() => setMedia("video")} className={`inline-flex min-h-10 items-center gap-2 rounded-xl px-4 text-sm font-semibold ${media === "video" ? "bg-[#163e32] text-white" : "border border-[#13251f]/15 bg-white"}`}><PlayCircle className="size-4" />Video lesson</button>
         <button type="button" onClick={() => setMedia("audio")} className={`inline-flex min-h-10 items-center gap-2 rounded-xl px-4 text-sm font-semibold ${media === "audio" ? "bg-[#163e32] text-white" : "border border-[#13251f]/15 bg-white"}`}><Headphones className="size-4" />Audio</button>
       </div>
-      <div className="mt-4">{media === "video" ? <VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} /> : <ListenLesson parts={listenParts} audioBase={audio?.parts} />}</div>
+      {/* Ikkala player doim yuklangan: tab almashganda faqat pauza, o'rin saqlanadi. */}
+      <div className="mt-4">
+        <div hidden={media !== "video"}><VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} active={media === "video"} /></div>
+        <div hidden={media !== "audio"}><ListenLesson parts={listenParts} audioBase={audio?.parts} active={media === "audio"} /></div>
+      </div>
 
       <section className="mt-10 rounded-3xl bg-[#e7ece6] p-6">
         <p className="inline-flex items-center gap-2 font-semibold"><Target className="size-4" />By the end of this lesson you can</p>
@@ -111,17 +114,18 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
       </section>
 
       {signedIn && (
-        <details className="mt-6 rounded-3xl border border-[#13251f]/10 bg-white" onToggle={(e) => setTutorOpen((e.currentTarget as HTMLDetailsElement).open)}>
+        <details className="mt-6 rounded-3xl border border-[#13251f]/10 bg-white" onToggle={(e) => { if ((e.currentTarget as HTMLDetailsElement).open) setTutorOpen(true); }}>
           <summary className="cursor-pointer list-none p-5 font-semibold">
             <span className="inline-flex items-center gap-2"><MessageSquareText className="size-4" />Stuck? Ask the AI tutor about this lesson</span>
           </summary>
+          {/* Bir marta ochilgach yuklangan qoladi — yopib-ochganda suhbat yo'qolmaydi. */}
           {tutorOpen && <div className="h-[520px] border-t border-[#13251f]/10"><TutorChat embedded context={tutorContext} /></div>}
         </details>
       )}
 
       <section ref={testRef} className="mt-10 scroll-mt-6">
         <h2 className="text-2xl font-semibold tracking-tight">Lesson test</h2>
-        <p className="mt-2 text-sm text-[#65736d]">{items.length} questions{items.some((i) => i.review) ? ", including 2 from earlier lessons" : ""}. Score {passMark}/{items.length} (80%) to unlock the next lesson. Try to answer from memory — that is what makes it stick.</p>
+        <p className="mt-2 text-sm text-[#65736d]">{testSize} questions on this lesson. Score {passMark}/{testSize} to unlock the next lesson — 3 stars for a perfect score. Your answers are saved as you go, so you can take a break. Try to answer from memory — that is what makes it stick.</p>
         <div className="mt-5">
           {!signedIn ? (
             <Link href={`/sign-in?next=${encodeURIComponent(`/study/${courseSlug}/${lesson.id}`)}`} className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-[#163e32] px-6 font-semibold text-white hover:bg-[#0e3026] sm:w-auto">
@@ -131,7 +135,6 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
             <LessonTest
               courseSlug={courseSlug}
               lessonId={lesson.id}
-              items={items}
               passMark={passMark}
               nextHref={nextHref}
               finalHref={finalHref}

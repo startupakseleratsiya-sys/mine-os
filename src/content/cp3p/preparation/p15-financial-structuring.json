@@ -209,8 +209,8 @@
       "question": "In a government-pays PPP, officials propose that public grants cover 75 percent of CapEx to lower annual payments. What is the main concern the Guide raises?",
       "options": [
         "Grants cannot legally be paid during construction",
-        "Heavy public funding may weaken private risk and incentives, harming VfM, and may bring the asset onto the public balance sheet",
-        "Grants always increase the private partner's cost of capital",
+        "It may weaken private risk and incentives and hurt VfM",
+        "Grants always raise the private partner's cost of capital",
         "Lenders will refuse to finance any project with a grant"
       ],
       "answer": 1,
@@ -219,7 +219,7 @@
     {
       "question": "A municipality is procuring a light rail PPP, but part of the grant will come from the regional government. What is good practice?",
       "options": [
-        "The municipality also assumes the regional government's grant commitment in the PPP contract",
+        "The municipality takes on the region's grant duty in the contract",
         "The private partner signs a separate grant contract with the region",
         "The grant is paid to the lenders directly by the region",
         "The municipality leaves the grant out of the contract to limit its liability"
@@ -230,10 +230,10 @@
     {
       "question": "A PPP is feasible only with a long-term loan from the national development bank. What should the procuring authority do before launching the tender?",
       "options": [
-        "Let the bank select the winning bidder",
+        "Let the development bank choose the winning bidder itself",
         "Offer the loan only to the bidder with the best technical score",
-        "Make sure the loan is available to any bidder, with clear eligibility rules consistent with the qualification criteria",
-        "Wait until after award to approach the bank"
+        "Open the loan to any bidder, with rules matching the qualification",
+        "Wait until after contract award before approaching the bank"
       ],
       "answer": 2,
       "explanation": "The Guide says necessary agency financing must be available for any bidder, assessed in advance, with requirements clear, accessible and consistent with the qualification criteria. Leaving it until after award risks the project's feasibility."
@@ -242,9 +242,9 @@
       "question": "In a country where project loans are available for up to 20 years, the authority proposes a 20-year DBFOM contract. What is the likely financial effect?",
       "options": [
         "Lenders will lend for 22 years, giving extra flexibility",
-        "Lenders may offer only 17 or 18 years; a slightly longer term could allow higher gearing and a lower WACC",
+        "Debt may be limited to 17 or 18 years; a longer term cuts WACC",
         "The term has no effect on the amount of debt that can be raised",
-        "Equity investors will have to provide the full CapEx"
+        "Equity investors will have to fund the full CapEx alone"
       ],
       "answer": 1,
       "explanation": "Lenders require a loan tail, so a 20-year contract may support only 17 to 18 years of debt. Extending the term allows more debt at the same cover ratio, higher gearing and a lower WACC."
@@ -255,7 +255,7 @@
         "Term cannot be combined with an availability payment mechanism",
         "Term cannot legally be a bid variable in any country",
         "Lenders cannot finance contracts shorter than 30 years",
-        "The result may be a term that does not support effective risk transfer and life-cycle management"
+        "The term chosen may not support risk transfer and life-cycle care"
       ],
       "answer": 3,
       "explanation": "The Guide says using the term as a bid factor should be carefully considered because it may produce a term that does not incentivise effective risk and life-cycle management, especially in government-pays PPPs."
@@ -276,7 +276,7 @@
       "options": [
         "Appoint a senior ministry official as the company's chief executive",
         "Require the private shareholders to accept the same equity IRR as government",
-        "Hold the stake through a trust fund, or use contractual monitoring and reporting rights instead",
+        "Use a trust fund, or contractual monitoring and reporting rights",
         "Give the public shares extra voting rights over all decisions"
       ],
       "answer": 2,
@@ -287,8 +287,8 @@
       "options": [
         "Include it fully, because it will probably be granted",
         "Include half of its expected benefit as a prudent estimate",
-        "Include it only in the winning bidder's model",
-        "Leave it out until access is granted and committed, while preparing access for all bidders"
+        "Include it only in the model of the winning bidder",
+        "Leave it out until access is committed, and prepare it for all"
       ],
       "answer": 3,
       "explanation": "The Guide says such support should not be included for affordability or feasibility purposes unless access is already granted and committed; government should prepare access to give all bidders a level playing field."
@@ -296,13 +296,453 @@
     {
       "question": "What is the main effect of an irrevocable payment tranche such as the French Cessions Dailly?",
       "options": [
-        "It lets government cancel payments if performance is poor",
-        "Part of the payment rights assigned to lenders after commissioning survive termination, so that debt carries the authority's credit rating",
+        "It lets government cancel the payments if performance is poor",
+        "Assigned payment rights survive termination, so debt gets public credit",
         "It converts user tolls into a guaranteed minimum revenue",
         "It replaces all availability payments with a single upfront grant"
       ],
       "answer": 1,
       "explanation": "Under Cessions Dailly, typically 70 percent of payment rights are transferred to creditors after commissioning and must be paid even if the contract ends. This raises that tranche to the public authority's credit level and lowers the WACC."
+    },
+    {
+      "question": "During structuring, a new tax law changes key assumptions in the procuring authority's base case. What should the authority do?",
+      "options": [
+        "Ignore it, because feasibility was settled in appraisal",
+        "Revisit the feasibility analysis in the light of the new law",
+        "Pass the new tax risk to bidders without analysis",
+        "Return the project to the Identification Phase"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says changes in the legal landscape, such as tax or environmental law, may mean the feasibility study has to be revisited (Ch 5 §1.2). Appraisal results are not frozen if their assumptions change."
+    },
+    {
+      "question": "A minister wants the tender package for a complex hospital PPP ready in three months, with no quality checks, to meet an election date. What is the main danger the Guide describes?",
+      "options": [
+        "Bidders will be forced to offer much lower prices",
+        "The contract term will be shortened automatically",
+        "A new cost-benefit analysis becomes a legal duty",
+        "A high risk that the tender or the contract fails"
+      ],
+      "answer": 3,
+      "explanation": "Complex projects usually need 12 to 18 months. If preparation is rushed and quality checks are missing, there is a high risk of failure of the tender or of the contract (Ch 5 Box 5.4)."
+    },
+    {
+      "question": "To save money, an authority plans to skip the ground surveys and ask bidders to collect the site data during the tender. How should its adviser respond?",
+      "options": [
+        "Support it, because bidders should carry survey costs",
+        "Support it, if the tender period is extended one month",
+        "Advise against it, as the shortcut often causes failure",
+        "Say that site data is only needed after financial close"
+      ],
+      "answer": 2,
+      "explanation": "Passing data collection to bidders is bad practice that causes many projects to fail, with no bidders, delays or renegotiations (Ch 5 §3.3). The authority should finish due diligence itself."
+    },
+    {
+      "question": "An authority has not yet decided whether to separate train operations from rail infrastructure management in its PPP. When should this scope decision be made?",
+      "options": [
+        "After tender launch, based on the bidders' comments",
+        "After financial close, once lenders confirm their terms",
+        "During operations, through a formal contract variation",
+        "After final legal due diligence, before structuring"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the contract model and scope should be decided after final legal due diligence and reflection on alternatives, but before structuring and final shaping of the project (Ch 5 §3.2)."
+    },
+    {
+      "question": "Appraisal decided that government will fund 30 percent of CapEx during construction. What does the structuring team still need to decide?",
+      "options": [
+        "Whether the project makes economic sense at all",
+        "Whether it is paid as works progress or on milestones",
+        "Whether the partner may repay the grant early",
+        "Whether the grant counts as the bidder's own equity"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's example: appraisal may fix the 30 percent share, but usually not whether it is paid as progress payments or milestone payments. That is decided during structuring (Ch 5 §3.6)."
+    },
+    {
+      "question": "After updating the definitive financial model, the team finds that the payments needed for feasibility stay below the affordability limits approved in appraisal. What follows?",
+      "options": [
+        "The whole appraisal must be repeated from the start",
+        "The ceiling of payments must be removed from the RFP",
+        "Earlier decisions based on the model can stand",
+        "The contract term must be cut to use the headroom"
+      ],
+      "answer": 2,
+      "explanation": "Provided the payments needed remain below the affordability limits approved at appraisal, the earlier decisions do not need to be reconsidered (Ch 5 §3.8). The model still sets the ceiling of payments in the RFP."
+    },
+    {
+      "question": "A procuring authority will run an open tender with no pre-qualification. By when must the contract be fully drafted?",
+      "options": [
+        "By the time the tender is launched",
+        "Before the final RFP of the second stage",
+        "During dialogue with shortlisted bidders",
+        "Just before signature with the preferred bidder"
+      ],
+      "answer": 0,
+      "explanation": "For an open tender with no pre-qualification, the contract must be complete for the launch. In dialogue processes it may be finalised later, and in two-stage processes before the final RFP (Ch 5 §3.13)."
+    },
+    {
+      "question": "Before tender launch, one potential bidder asks for a private meeting with the project team to discuss ground conditions. What is good practice?",
+      "options": [
+        "Hold it in confidence to encourage frank discussion",
+        "Hold it only if the bidder signs an NDA first",
+        "Refuse it and exclude the bidder from the tender",
+        "Avoid it, or record it and share it with all bidders"
+      ],
+      "answer": 3,
+      "explanation": "Individual discussions with bidders should be avoided. If they do occur, they should be recorded and shared with all bidders to protect competition (Ch 5 §3.14). An NDA alone does not solve the fairness problem."
+    },
+    {
+      "question": "Consider these two statements about data rooms. 1: Electronic data rooms are usually more efficient, and bidders should agree to clear access rules such as NDAs. 2: A data room should only be set up after tender launch, to protect confidentiality.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 matches the Guide. Statement 2 is false: setting up a data room takes time and should be planned early, and sharing information before launch gives bidders more time for due diligence (Ch 5 §3.14)."
+    },
+    {
+      "question": "In the Guide's public-sector sense, which of these is NOT part of a PPP's financial structure?",
+      "options": [
+        "Grants toward CapEx and their timing",
+        "Service payments and their indexation",
+        "The bidder's own mix of debt and equity",
+        "The NPV profile of public payments"
+      ],
+      "answer": 2,
+      "explanation": "The Guide uses financial structure from the public perspective: public payments, support and their conditions and fiscal profile. The bidder's financing strategy is excluded and should generally not be prescribed by government (Ch 5 §4, footnote 8)."
+    },
+    {
+      "question": "A finance ministry wants the tender to deliver the most affordable solution that is still commercially feasible. What should it make the financial variable that bidders compete on?",
+      "options": [
+        "The equity IRR that each bidder expects to earn",
+        "The key affordability measure, such as NPV of payments",
+        "The number of subcontractors each bidder will use",
+        "The length of the loan tail offered by lenders"
+      ],
+      "answer": 1,
+      "explanation": "With strong competition and the key affordability measure (user charge or NPV of payments) as the bid variable, bidders have a strong incentive to offer the most affordable feasible solution (Ch 5 Box 5.5)."
+    },
+    {
+      "question": "A PPP will build and run a traffic control system that depends heavily on fast-changing technology. What does this suggest about the contract term?",
+      "options": [
+        "A shorter term may give better VfM here",
+        "A longer term is always better for technology",
+        "The term does not affect technology risk",
+        "The term should equal the longest loan tenor"
+      ],
+      "answer": 0,
+      "explanation": "Where a project is highly exposed to technological change, a long term may unduly increase the risk profile, so shorter terms may be needed for VfM (Ch 5 §4.1, Table 5.1)."
+    },
+    {
+      "question": "Why do senior lenders usually require a loan tail between the end of the loan and the end of the PPP contract?",
+      "options": [
+        "So that cash is kept aside for the hand-back works at contract end",
+        "So that government can terminate early without paying compensation",
+        "So that sponsors can earn a higher equity return in the final years",
+        "So the debt can be restructured if the partner has temporary difficulties"
+      ],
+      "answer": 3,
+      "explanation": "The tail lets the private partner restructure its debt if it faces temporary solvency problems, for example lower yearly debt service in exchange for a longer loan (Ch 5 Box 5.7)."
+    },
+    {
+      "question": "A large government-pays PPP faces a tight yearly budget, and officials propose a much longer term to lower yearly payments. What should the ministry weigh against this benefit?",
+      "options": [
+        "Total fiscal exposure rises, and extra years may add no VfM",
+        "Longer terms always reduce the total cost in NPV terms",
+        "Lenders refuse any contract that is longer than 15 years",
+        "Yearly payments will rise sharply again after year ten"
+      ],
+      "answer": 0,
+      "explanation": "A longer term lowers the yearly burden, but private finance costs more than public finance, aggregated fiscal exposure grows with the term, and beyond a point extra years add no VfM from risk transfer (Ch 5 §4.1)."
+    },
+    {
+      "question": "A user-pays toll road will receive no public subsidy, and government wants tolls to stay at socially acceptable levels. Which structuring choice mainly decides commercial feasibility?",
+      "options": [
+        "The indexation of the ceiling of availability payments",
+        "The weighting of each section in the payment formula",
+        "The contract term, since more years mean more revenue",
+        "The number of data room documents shared with bidders"
+      ],
+      "answer": 2,
+      "explanation": "In user-pays projects without co-financing or other support, the term will define feasibility, because a longer term provides revenues for longer (Ch 5 §4.1). Availability weightings do not apply in a pure user-pays road."
+    },
+    {
+      "question": "Citizens complain that a long toll road concession will give the operator 'unwarranted profits'. Which responses does the Guide suggest?",
+      "options": [
+        "Retendering the concession every five years to cut profit",
+        "Profit sharing, or ending the contract at an agreed revenue",
+        "Freezing all tolls for the full life of the contract",
+        "Keeping the financial model secret from the public"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says political pressure can be handled through profit-sharing mechanisms, or by ending the contract when an agreed revenue is reached (as in Chilean toll roads), plus careful communication (Ch 5 §4.1)."
+    },
+    {
+      "question": "A city has an operating light rail PPP with 17 years left and is now structuring a separate new light rail line as a PPP. What term consideration does the Guide highlight?",
+      "options": [
+        "Always choose the longest term that the PPP law allows",
+        "Merge the new line into the existing contract straight away",
+        "Let bidders propose the term, to maximise competition",
+        "End the new contract around the same date as the old one"
+      ],
+      "answer": 3,
+      "explanation": "Aligning the end dates keeps flexibility to combine or separate operation of the two lines when the contracts expire (Ch 5 §4.1, relationships with other contracts)."
+    },
+    {
+      "question": "There is no formula for the optimum contract term. What minimum term does the Guide say should be considered?",
+      "options": [
+        "Exactly the maximum debt tenor, with no loan tail at all",
+        "Long enough for key life-cycle costs and maximum debt tenor",
+        "At least 30 years for every DBFOM contract signed",
+        "The full design life of the asset, whatever the finance"
+      ],
+      "answer": 1,
+      "explanation": "The term should at least capture key life-cycle renewals and let lenders offer maximum debt tenors, subject to the minimum equity in the RFP (Ch 5 §4.1). There is no fixed number of years."
+    },
+    {
+      "question": "A road authority proposes that the term will be the actual construction time plus 25 years of operation. What weakness does the Guide point out?",
+      "options": [
+        "It makes the term too short for any project lender",
+        "It prevents indexation of the payments to inflation",
+        "It weakens construction risk transfer and early opening",
+        "It forces government to pay during construction"
+      ],
+      "answer": 2,
+      "explanation": "This non-customary approach is less effective in transferring construction risk and may undermine the shared interest in finishing and starting operations as soon as possible (Ch 5 §4.1)."
+    },
+    {
+      "question": "A health ministry announces a programme of ten similar hospital refurbishment PPPs. How should it approach the contract term?",
+      "options": [
+        "Define one suitable term and use it for the whole programme",
+        "Tailor a different term to each hospital in the programme",
+        "Let each bidder propose its own term for each hospital",
+        "Use the shortest term the law allows for every hospital"
+      ],
+      "answer": 0,
+      "explanation": "In a programme it may be better to define the most appropriate term for that type of project and apply it consistently, rather than tailoring each project, to be consistent with the market (Ch 5 §4.1)."
+    },
+    {
+      "question": "A country with shallow financial markets plans a US$2 billion metro PPP. Fares are expected to cover costs, but banks may not raise enough debt. Why might government still co-finance?",
+      "options": [
+        "To fill a viability gap caused by low fare income",
+        "Because the law requires grants for all metro PPPs",
+        "To avoid the need for any payment mechanism at all",
+        "To raise commercial feasibility of a megaproject"
+      ],
+      "answer": 3,
+      "explanation": "One reason for co-financing is to increase commercial feasibility of viable projects, usually in shallow markets and megaprojects (normally above US$1 billion CapEx) (Ch 5 §4.2). Here there is no viability gap."
+    },
+    {
+      "question": "A government-pays school PPP would be affordable with 100 percent private finance, but the treasury wants to avoid a large deferred budget burden. Which tool does the Guide call most effective?",
+      "options": [
+        "A longer contract term",
+        "A minimum revenue guarantee",
+        "Grant financing toward CapEx",
+        "Government equity with votes"
+      ],
+      "answer": 2,
+      "explanation": "To increase affordability and lower the cost of capital in government-pays PPPs, the Guide says the most effective solution is grant financing; soft loans also help, depending on the subsidy (Ch 5 §4.2)."
+    },
+    {
+      "question": "A regional government wants to co-finance 35 percent of a new tram but has little cash available in the coming years. Which form of grant fits best?",
+      "options": [
+        "A direct grant paid in full at financial close",
+        "A deferred grant of fixed, irrevocable yearly payments",
+        "A grant paid only if passenger numbers beat forecasts",
+        "An in-kind grant of cash paid directly to lenders"
+      ],
+      "answer": 1,
+      "explanation": "Deferred grants suit a government that wants to co-finance but lacks liquidity. Because the payments are fixed and irrevocable, the project company can pre-finance them easily (Ch 5 §4.2)."
+    },
+    {
+      "question": "An authority considers deferring its grant payments over ten years after construction. How does the Guide rank the financing cost this deferral creates?",
+      "options": [
+        "Above public debt cost, below at-risk private finance",
+        "Below public debt cost, because it carries no risk",
+        "Above the cost of the at-risk private finance",
+        "Equal to the equity return of the sponsors"
+      ],
+      "answer": 0,
+      "explanation": "Deferring payments adds financial cost that is usually above the cost of public debt, but below the cost of the private finance exposed to deductions or volume adjustments, because of the risk premiums (Ch 5 §4.2)."
+    },
+    {
+      "question": "An authority wants to pay its construction grant only when set milestones are achieved. What trade-off does the Guide describe?",
+      "options": [
+        "No trade-off, as it lowers both risk and financing cost",
+        "It removes all construction risk from the private partner",
+        "It changes the grant into a repayable public loan",
+        "More incentive to hit milestones, but higher financing cost"
+      ],
+      "answer": 3,
+      "explanation": "More risk gives more incentive to meet milestones, but introduces uncertainty for lenders and a higher price in financing costs. It is a VfM decision (Ch 5 §4.2)."
+    },
+    {
+      "question": "Which of these is an example of an in-kind grant in a PPP?",
+      "options": [
+        "Handing over depots already built for a tram system",
+        "Paying 30 percent of CapEx as the works progress",
+        "Lending at below-market rates for twenty years",
+        "Guaranteeing a minimum level of traffic revenue"
+      ],
+      "answer": 0,
+      "explanation": "In-kind grants include land or elements of the infrastructure already built and financed, such as depots in a light rail system (Ch 5 §4.2). The other options are cash grants, loans and guarantees."
+    },
+    {
+      "question": "Why does the Guide say the most important point of a co-financing scheme is when payments accrue?",
+      "options": [
+        "It lets the authority cancel the grant if budgets change",
+        "It decides which tax rate applies to the project company",
+        "A right free of construction risk lowers finance cost",
+        "It lets the lenders avoid any public counterparty risk"
+      ],
+      "answer": 2,
+      "explanation": "The absence of construction and final acceptance risk in the right to payment is what makes co-financing effective in reducing the cost of capital. The contract must state clearly when payments accrue and are paid (Ch 5 §4.2)."
+    },
+    {
+      "question": "A finance ministry proposes that its national development bank lend to every PPP in the country on favourable terms. What concerns does the Guide raise?",
+      "options": [
+        "Higher equity returns and much shorter contract terms",
+        "Crowding out banks, and government keeping transferred risk",
+        "Loss of the VfM test and of the payment mechanism",
+        "Currency risk and lower quality of construction work"
+      ],
+      "answer": 1,
+      "explanation": "Systematic public lending may crowd out commercial banks, and through it government indirectly retains part of the risks the PPP contract transferred (Ch 5 §4.3)."
+    },
+    {
+      "question": "Consider these two statements. 1: A soft loan from the procuring authority is usually subordinated to senior debt but senior to equity. 2: A participative loan gives government a share of the upside in exchange for its favourable terms.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both match the Guide: procuring authority soft loans are usually subordinated but senior to equity, and are often participative, with government receiving part of the upside for the below-market terms (Ch 5 §4.3)."
+    },
+    {
+      "question": "A procuring authority will provide a subordinated soft loan alongside private senior lenders. What must the contract clearly address?",
+      "options": [
+        "The lenders' step-in rights over the authority's budget",
+        "The bidder's choice of its construction subcontractor",
+        "A waiver of any duty to repay the authority's loan",
+        "Inter-creditor issues and the authority's rights to returns"
+      ],
+      "answer": 3,
+      "explanation": "Soft loans from the procuring authority have clear drafting implications: the contract should settle inter-creditor issues with private lenders, and the authority's remuneration and distribution rights (Ch 5 §4.3)."
+    },
+    {
+      "question": "A finance ministry sees that a new metro cannot be financed from fares and concludes it lacks economic sense. How should an adviser respond?",
+      "options": [
+        "Agree: projects that cannot pay for themselves should stop",
+        "Disagree: social benefits may justify it despite low fares",
+        "Agree, unless fares can be raised to cover all its costs",
+        "Disagree, because metros are normally self-financing"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says commercial infeasibility does not imply a lack of economic sense; externalities and socio-economic benefits may justify the project. No heavy metro is financeable from its commercial margin alone (Ch 5 §4.4)."
+    },
+    {
+      "question": "A regional government will fill a toll tunnel's viability gap with yearly budget payments that will make up about half of the project's revenue. How should these payments preferably be structured?",
+      "options": [
+        "As fixed, unconditional payments that start at financial close",
+        "As an irrevocable payment stream that lenders can buy outright",
+        "As service payments tied to availability or to the volume served",
+        "As a share of tolls that the private partner pays to government"
+      ],
+      "answer": 2,
+      "explanation": "Complementing revenues creates a hybrid payment mechanism. The Guide prefers service-type payments that depend on availability or volume, not irrevocable or unconditional ones, especially when public support is a large share of revenue (for example above 40 percent) (Ch 5 §4.4)."
+    },
+    {
+      "question": "The government nominates a director to the board of a PPP company in which it holds shares. What problem does the Guide highlight?",
+      "options": [
+        "Duties to the company clash with the client role in disputes",
+        "The director is not allowed to see the company accounts",
+        "The director must fund any extra equity personally",
+        "The director can veto all lender decisions by law"
+      ],
+      "answer": 0,
+      "explanation": "A government-nominated director owes duties to the company, which can put them in a difficult position on confidential information and strategy in disputes or termination (Ch 5 §4.5)."
+    },
+    {
+      "question": "A government wants to share in a PPP's upside if traffic beats projections, but does not want an equity stake. What does the Guide suggest?",
+      "options": [
+        "A government-nominated board director",
+        "A lower equity IRR for private investors",
+        "A foreign exchange risk guarantee",
+        "Contractual benefit sharing mechanisms"
+      ],
+      "answer": 3,
+      "explanation": "Other ways exist to share profits without equity: contractually agreed benefit sharing mechanisms can capture upside if value drivers exceed projections (Ch 5 §4.5)."
+    },
+    {
+      "question": "Government will hold 25 percent of the SPV's shares. Where should its rights and duties as a shareholder be set out?",
+      "options": [
+        "Only in a letter sent to the winning bidder after award",
+        "Only in the lenders' finance documents at financial close",
+        "In the SPV articles and a draft shareholders' agreement",
+        "Nowhere, since public shareholders follow general law"
+      ],
+      "answer": 2,
+      "explanation": "The contract package must define the public partner's rights and duties as shareholder in the SPV's Articles of Association and a shareholders' agreement, a draft of which forms part of the tender (Ch 5 §4.5)."
+    },
+    {
+      "question": "Consider these two statements about government equity. 1: The public equity partner may accept a lower equity IRR than the private shareholders. 2: The public partner must always inject extra equity if a risk event requires a capital increase.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is a common limit on public equity. Statement 2 is false: the public partner may not be obliged to inject more equity, and then accepts dilution of its economic rights (Ch 5 §4.5)."
+    },
+    {
+      "question": "A PPP in a country with a weak local financial market must borrow in US dollars. Which government support addresses the resulting risk?",
+      "options": [
+        "A take-or-pay clause on plant output",
+        "A foreign exchange risk guarantee",
+        "A guarantee fund for government payments",
+        "A benefit sharing mechanism on revenue"
+      ],
+      "answer": 1,
+      "explanation": "Foreign exchange risk guarantees let the public party assume devaluation risk and its impact on hard-currency project debt (Ch 5 §4.6)."
+    },
+    {
+      "question": "Bidders fear that a municipality with a weak record will pay its availability payments late. Which tool secures government's payment obligations without transferring risk back to government?",
+      "options": [
+        "A guarantee fund",
+        "A minimum revenue guarantee",
+        "A foreign exchange guarantee",
+        "A participative public loan"
+      ],
+      "answer": 0,
+      "explanation": "Guarantee funds, such as the Indonesian Infrastructure Guarantee Fund, provide security for government payment obligations without transferring project risk back to government (Ch 5 §4.6)."
+    },
+    {
+      "question": "An early-stage PPP market wants to reassure lenders in its first availability PPP. Which adjustment does the Guide describe as usual in such markets?",
+      "options": [
+        "Remove all deductions and pay a fixed amount each year",
+        "Guarantee the sponsors' equity return in full",
+        "Pay the full unitary charge during construction",
+        "Limit deductions to a set share, keeping termination rights"
+      ],
+      "answer": 3,
+      "explanation": "Limiting deductions to a percentage of the payment (for example 20 percent), without giving up the right to terminate for default, is a usual adjustment in markets early on the PPP maturity curve (Ch 5 §4.6)."
+    },
+    {
+      "question": "Which of the following is NOT one of the three types of structuring described in the Guide?",
+      "options": [
+        "Construction method structuring",
+        "Financial and fiscal structuring",
+        "Risk structuring",
+        "Tender structuring"
+      ],
+      "answer": 0,
+      "explanation": "The Guide names financial/budgetary structuring, risk structuring and tender/procurement structuring. Construction methods are generally left to bidders (Ch 5 §2)."
     }
   ]
 }

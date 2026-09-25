@@ -304,6 +304,446 @@
       ],
       "answer": 2,
       "explanation": "Fast-track resolution by an Independent Expert suits factual questions such as indexation or refinancing gain calculations. Courts suit disputes where precedent matters, and are a last resort."
+    },
+    {
+      "question": "Construction of a PPP bridge is complete. The construction contractor, a shareholder in the Project Company, wants to sell its shares so it can invest in a new project. How should the Procuring Authority normally view this?",
+      "options": [
+        "As acceptable, provided it does not increase risk or reduce public benefit",
+        "As a breach of contract that should lead to termination",
+        "As a renegotiation that needs Ministry of Finance approval",
+        "As acceptable only if the buyer is another construction firm"
+      ],
+      "answer": 0,
+      "explanation": "The Guide gives a contractor exiting after completion, to recycle its capital, as an example of an appropriate change in ownership (Ch 7 §7.2). It should not be prohibited unless it increases the authority's risk or reduces public benefit."
+    },
+    {
+      "question": "An authority variation adds a new car park to a PPP hospital. The Project Company's variation proposal shows a cost well above the amount specified in the contract. How should the works be procured?",
+      "options": [
+        "By its existing subcontractors, as that is always the quickest route",
+        "By the Project Company tendering the works on the open market",
+        "By the authority tendering them separately to another firm",
+        "By the lenders choosing a contractor under the Direct Agreement"
+      ],
+      "answer": 1,
+      "explanation": "Where variation costs exceed a specified amount, the Project Company should tender the variation on the open market; relatively minor variations are done by its existing subcontractors because that is most cost and time efficient (Ch 7 §7.3.1). The authority pays for the variation but does not tender it itself."
+    },
+    {
+      "question": "A Procuring Authority is drafting the ownership clauses of a PPP contract. It wants the original sponsors to stay in the project while the asset is being built and settled. Which provision fits the Guide's approach?",
+      "options": [
+        "No change in shareholding at all for the full contract term",
+        "The lenders alone decide on every sale of Project Company shares",
+        "No share disposals until two years after construction is completed",
+        "Any share sale is allowed once the buyer pays a transfer fee"
+      ],
+      "answer": 2,
+      "explanation": "The contract may specify a period that must pass before any disposal, for example no sales until two years after construction (Ch 7 §7.2). A permanent ban goes too far, because ownership changes that do not raise risk should not be prohibited."
+    },
+    {
+      "question": "Statement 1: The authority should not use its right to approve changes in control in a way that interferes with the lenders' legitimate protections. Statement 2: The meaning of 'change in control' is best left undefined in the PPP contract so the authority keeps flexibility.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Lenders have legitimate interests in limiting changes of control, and the authority should not use its approval right to interfere with them. But the meaning of change in control and beneficial ownership must be defined in the PPP contract (Ch 7 §7.2), so Statement 2 is false."
+    },
+    {
+      "question": "A proposed scope change during construction of a PPP hospital has no cost implications. It only adjusts how a ward specification is applied. Who is best placed to manage agreement on it?",
+      "options": [
+        "The central PPP unit under the project governance arrangements",
+        "The Ministry of Finance through a formal amendment agreement",
+        "The lenders' technical adviser, acting on its own authority",
+        "A joint committee of Project Company and authority representatives"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says dynamic, empowered joint committees are a valuable tool for minor changes with no cost implications (Ch 7 §7.3). A central PPP unit is the approval route for significant changes, not for no-cost adjustments."
+    },
+    {
+      "question": "A variation would add 12 percent to the construction capital cost of a PPP road and materially change its scope. Who should approve it on the public side?",
+      "options": [
+        "The authority's contract management team, acting on its own",
+        "The approval authority under the project's governance arrangements",
+        "The Project Company's executives and its lenders only",
+        "The independent certifier, because it is a technical matter"
+      ],
+      "answer": 1,
+      "explanation": "Significant changes, expressed as a percentage of capital cost or involving a material change in risk or scope, are approved by the approval authority under project governance, such as a central PPP unit (Ch 7 §7.3). The contract management team approves only changes with minor cost implications."
+    },
+    {
+      "question": "A Project Company has already started building a changed car park layout on a PPP hospital site. It plans to tell the authority once the work is finished. Which rule has it broken?",
+      "options": [
+        "Layout changes may only be made once the operations stage has started",
+        "Every layout change must first be tendered on the open market",
+        "All variations must be notified to the authority before they are implemented",
+        "Only the lenders may approve a change to the approved site layout"
+      ],
+      "answer": 2,
+      "explanation": "The Guide states that the Procuring Authority must be notified of all variations prior to their implementation, whatever their source (Ch 7 §7.3). Open tendering applies only to authority variations above a cost threshold."
+    },
+    {
+      "question": "An authority is assessing a Project Company's price for an authority-initiated variation. The price contains large overheads and mark-ups. Which contract feature does the Guide call extremely useful here?",
+      "options": [
+        "A fixed rule that all variations are priced at cost plus 50 percent",
+        "A method that separates mark-ups from the contractors' base costs",
+        "A right to refuse every variation priced above the base case",
+        "A requirement that the lenders approve each variation price"
+      ],
+      "answer": 1,
+      "explanation": "The contract should identify the Project Company's overheads and mark-ups, so the decision to proceed depends on the base costs it receives from its contractors (Ch 7 §7.3.1). A fixed mark-up rule or a blanket refusal is not what the Guide recommends."
+    },
+    {
+      "question": "A Procuring Authority variation adds a new laboratory to a government-pays PPP hospital. The lab will also need extra cleaning and maintenance every year. How should these ongoing costs be covered?",
+      "options": [
+        "By raising the authority's payments after the variation is in place",
+        "By the Project Company, as part of its general operating risk",
+        "By a one-off increase in the lenders' senior loan facility",
+        "By an automatic increase in the charges paid by patients"
+      ],
+      "answer": 0,
+      "explanation": "The authority funds its own variations: a lump-sum capital grant is easiest for the build cost, and in authority-pays PPPs the payments are increased to cover new operating and maintenance costs (Ch 7 §7.3.1). Raising user fees is possible in user-pays PPPs, but not common."
+    },
+    {
+      "question": "A Project Company proposes a change to the way it meets an output specification. It asks the authority to pay part of the cost. What does the Guide say about such contributions?",
+      "options": [
+        "The authority must always pay half the cost of such changes",
+        "The authority should pay in full because it owns the asset",
+        "They are forbidden, as the contract price is fixed at close",
+        "They should be the exception, made only to increase VfM"
+      ],
+      "answer": 3,
+      "explanation": "Project Company-initiated changes are normally at its own cost and risk. The authority may occasionally contribute to increase Value for Money, but this should be the exception (Ch 7 §7.3.2)."
+    },
+    {
+      "question": "A rail Project Company proposes value engineering: less derailment containment than the output specification requires, but still within good industry practice. The cost saving would be shared. What should worry the authority most?",
+      "options": [
+        "Losing its right to charge liquidated damages for late completion",
+        "Triggering a general change in law for the whole rail sector",
+        "Sharing in a saving that could create shared liability after an accident",
+        "Breaching the lenders' rules on changes of control in the SPV"
+      ],
+      "answer": 2,
+      "explanation": "The Guide uses this exact type of case: if a derailment happens where containment was omitted in value engineering the authority shared in, it may face shared civil and even criminal liability (Ch 7 §7.3.2). Savings may be shared, but the risk must be examined carefully."
+    },
+    {
+      "question": "After financial close, the parties find a clear drafting error in a cross-reference inside the PPP contract. What is the right approach?",
+      "options": [
+        "Open a full renegotiation with the diligence of the PPP decision",
+        "Retender the contract to restore the competitive pressure",
+        "Refer it to the Ministry of Finance as a major amendment",
+        "Correct it under existing contract provisions, without renegotiation"
+      ],
+      "answer": 3,
+      "explanation": "Simple correction of errors or clarification of drafting can normally be handled under existing contract provisions and does not require renegotiation (Ch 7 §7.1). Renegotiation is for changes to the original terms and conditions."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for renegotiations undermining Value for Money?",
+      "options": [
+        "They always require the original lenders to be replaced",
+        "The winner may be the bidder most skilled in renegotiation",
+        "Bilateral talks lose the benefit of competitive pressure",
+        "They may interfere with the lenders' rights to intervene"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists distorted bidding, the loss of competitive pressure in bilateral talks, reduced economic benefits and interference with lender rights (Ch 7 §7.5). It does not say renegotiation requires the lenders to be replaced."
+    },
+    {
+      "question": "A PPP toll tunnel is in deep financial trouble. The lenders have stepped in, and several investors want to bid for the concession. The shareholders ask the authority to renegotiate and rescue them. What approach does the Guide favour?",
+      "options": [
+        "Rescue the shareholders to keep the original sponsors involved",
+        "Let the lenders sell the concession through competitive bidding",
+        "Terminate at once and take the tunnel into public operation",
+        "Raise the tolls through renegotiation to restore equity returns"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's lesson from the Sydney tunnels is to 'let the market work': lenders step in and sell the concession competitively (Ch 7 §7.1). Rescuing shareholders creates a strong moral hazard."
+    },
+    {
+      "question": "Statement 1: For a PPP project in financial difficulty, auctioning the PPP contract so that a new bidder pays the project's actual worth is the Guide's preferred method. Statement 2: When a Project Company restructures by extending loan maturities or converting debt to equity, the Procuring Authority negotiates these finance terms directly with the lenders.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Auctioning the contract is preferred because it is consistent with the risk allocation, although in less mature markets there may be no buyers. Finance document amendments and debt-to-equity conversions are managed within the Project Company, and the authority's role is limited to approving the changes, especially under change-of-control provisions (Ch 7 §7.6)."
+    },
+    {
+      "question": "A new air-quality law had already been published and was due to take effect before the PPP contract was signed. After signing, the Project Company claims its extra costs under the change-in-law clause. How should the authority respond?",
+      "options": [
+        "Accept it as a project-specific change in law",
+        "Reject it, because a foreseen law was priced into the bid",
+        "Accept it as a relief event giving extra time only",
+        "Share the cost equally as a force majeure event"
+      ],
+      "answer": 1,
+      "explanation": "The cost of complying with laws that are current or foreseen at signing is usually built into the bid price (Ch 7 §7.7). Change-in-law protection concerns unforeseen changes, and a project-specific change also requires discrimination."
+    },
+    {
+      "question": "A new general safety law applies to every building in the country. Because of it, the output specification of a PPP school must change. Which route fits the Guide?",
+      "options": [
+        "A Project Company variation, with the cost staying with the company",
+        "A Procuring Authority variation funded by a capital grant",
+        "A compensation event giving the company time and money",
+        "A renegotiation under the EU Concessions Directive rules"
+      ],
+      "answer": 0,
+      "explanation": "A general change in law stays at the Project Company's risk and cost. No variation is needed unless the output specification must change, and then a Project Company variation is appropriate (Ch 7 §7.7.2)."
+    },
+    {
+      "question": "A regional parliament proposes a new tax that will apply only to companies holding PPP contracts. The law has not yet passed. What does the Guide advise the parties to do?",
+      "options": [
+        "Wait until the law passes, then ask a court to classify it",
+        "Treat it as general, since the tax applies to many companies",
+        "Let the Project Company pass the cost on to its lenders",
+        "Meet early, and consider lobbying jointly against the change"
+      ],
+      "answer": 3,
+      "explanation": "A law aimed at businesses in PPP contracts is project-specific, so the authority would bear the cost. The Guide advises the parties to convene early and notes they may jointly lobby to avoid project-specific changes (Ch 7 §7.7.3)."
+    },
+    {
+      "question": "Under a PPP contract, the authority must provide the land, obtain the environmental consents and pay a capital grant. What does this mean for claims management?",
+      "options": [
+        "Claims are less likely, as government controls these risks",
+        "Claims are more likely, so the team must document every obligation",
+        "Claims cannot arise, as these items sit outside the contract",
+        "Claims must skip the DRP and go straight to the courts"
+      ],
+      "answer": 1,
+      "explanation": "The likelihood of claims increases with the government's involvement, such as land, consents and grants (Ch 7 §8.1). The contract management team must make sure government complies and must record everything, especially land documents and approvals."
+    },
+    {
+      "question": "A contract management team has identified the source of a new claim and confirmed that it has a basis in the PPP contract. What is the next step in the Guide's evaluation process?",
+      "options": [
+        "Develop the settlement or dispute strategy",
+        "Estimate the best-case and worst-case magnitude",
+        "Refer the claim to the independent certifier",
+        "Evaluate the merit of the claim"
+      ],
+      "answer": 3,
+      "explanation": "Table 7.9 sets the order: identification, legal compliance check, evaluate merit, evaluate magnitude, then strategy development (Ch 7 §8.1). Magnitude and strategy come after merit."
+    },
+    {
+      "question": "A listed event outside the Project Company's control delays construction of a PPP prison. Why does the Guide prefer an extension of time to starting a default process?",
+      "options": [
+        "It keeps the company motivated to finish, which is better VfM",
+        "It moves the full financial risk of the event to the authority",
+        "It allows both parties to avoid the dispute resolution process",
+        "It lets the lenders replace the construction contractor at once"
+      ],
+      "answer": 0,
+      "explanation": "Allowing an extension of time for events beyond the Project Company's control keeps it incentivised to complete, which is a better VfM outcome than a default process (Ch 7 §8.2). An extension does not by itself shift the financial risk."
+    },
+    {
+      "question": "Statement 1: A relief event notice must explain why the event qualifies and state the additional time needed. Statement 2: A relief event notice must show the extra costs, split into capital and operating costs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "A relief notice names the event and why it qualifies, its impact and the extra time needed (Ch 7 §8.2.1). The split into capital and operating costs belongs to a compensation event claim, which seeks money as well as time."
+    },
+    {
+      "question": "A PPP rail project is delayed for five months because the national environment agency is late in issuing a permit it is responsible for. How is this normally classified?",
+      "options": [
+        "A relief event, giving extra time but no money",
+        "A compensation event, giving time and possibly money",
+        "A general change in law borne by the company",
+        "Political force majeure that ends the contract"
+      ],
+      "answer": 1,
+      "explanation": "The Guide gives a delay caused by another government agency, like failure to provide land, as an example of a compensation event (Ch 7 §8.2.2). A relief event covers events such as unforeseeable weather, where the company bears the cost."
+    },
+    {
+      "question": "A major earthquake damages a PPP hospital while it is under construction. Neither party is at fault. How is this type of risk usually treated?",
+      "options": [
+        "As force majeure, with the risk usually shared by the parties",
+        "As a relief event, with all the cost borne by the authority",
+        "As a compensation event caused by the Procuring Authority",
+        "As a Project Company breach leading to termination"
+      ],
+      "answer": 0,
+      "explanation": "Natural disasters are typical force majeure events, and their risk is usually shared between the authority and the Project Company (Ch 7 §8.3). Force majeure is no-fault, severe, and may lead to termination if it lasts."
+    },
+    {
+      "question": "Civil war breaks out near a PPP highway site and work stops for a year. Who usually manages this type of risk, and why?",
+      "options": [
+        "The Project Company, as it bears general delivery risk",
+        "The authority, as government has more control over it",
+        "The lenders, as they finance the construction stage",
+        "The contractor, through its on-demand construction bond"
+      ],
+      "answer": 1,
+      "explanation": "Political force majeure events such as civil disturbance and war are usually managed by the Procuring Authority, because government has more control over these risks (Ch 7 §8.3). Natural disasters, by contrast, are usually shared."
+    },
+    {
+      "question": "The parties cannot agree the cost effect of a compensation event. The authority proposes that the independent certifier gives a final, binding ruling that also covers the legal questions. What does the Guide say?",
+      "options": [
+        "The certifier's ruling is final on both facts and law",
+        "The lenders must decide instead under the Direct Agreement",
+        "The certifier may help on facts, but the DRP is the fallback",
+        "The claim must be withdrawn and submitted again later"
+      ],
+      "answer": 2,
+      "explanation": "The independent certifier can help the parties agree schedule and cost implications, but it cannot give a final, binding decision on matters that may include legal issues (Ch 7 §8.4). The fallback is the Dispute Resolution Process."
+    },
+    {
+      "question": "To frighten the builder, an authority sets 'liquidated damages' for late opening of a PPP courthouse at ten times its expected losses. What legal risk does the Guide point to?",
+      "options": [
+        "Liquidated damages are never allowed in any PPP contract",
+        "The lenders would then be barred from their own damages",
+        "The amount would be treated as a general change in law",
+        "An amount with no link to the harm may be an unenforceable penalty"
+      ],
+      "answer": 3,
+      "explanation": "Liquidated damages must be a genuine pre-estimate of the loss, such as renting alternative accommodation. In some jurisdictions a 'penalty' that bears no relationship to the harm is unenforceable (Ch 7 §9.2)."
+    },
+    {
+      "question": "Statement 1: In many PPPs, both the Procuring Authority and the lenders are entitled to liquidated damages for late completion. Statement 2: The lenders' liquidated damages are usually much smaller than the authority's, so they give little incentive.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Both the authority and the lenders are often entitled to liquidated damages. The lenders' amounts are often significantly larger than the authority's and give a strong incentive to finish on time (Ch 7 §9.2), so Statement 2 is false."
+    },
+    {
+      "question": "A PPP museum misses its service commencement date. The contract requires a notice to the Project Company and a remedy period before liquidated damages are claimed, but the team skips both. What is the risk?",
+      "options": [
+        "The delay automatically becomes a relief event instead",
+        "The construction bond is released back to the builder",
+        "Procedural irregularities may undermine the damages claim",
+        "The long stop date moves back by the same period"
+      ],
+      "answer": 2,
+      "explanation": "Liquidated damages regimes usually require notification followed by a remedy period, and the procedure must be followed closely. If the team is lax, procedural irregularities can undermine the claim (Ch 7 §9.2.2.1)."
+    },
+    {
+      "question": "According to the Guide, when is the default risk that a construction bond protects against at its highest, and why?",
+      "options": [
+        "Early in construction, when a replacement is hard to find",
+        "Just before handback, when the asset is at its oldest",
+        "During operations, when user demand is most uncertain",
+        "At financial close, before any loan has been drawn"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says default risk is highest in the early part of the construction stage, because the authority may not find another party to take over and may face significant reinstatement costs (Ch 7 §9.2.2.2). The bond, usually an on-demand bank guarantee, gives security for this."
+    },
+    {
+      "question": "A PPP contract requires the Project Company's sponsors to give undertakings of technical support to help reach service commencement on time. Why is this common in PPPs?",
+      "options": [
+        "Sponsors must repay the senior debt if construction is late",
+        "The authority cannot claim liquidated damages from an SPV",
+        "Sponsor support replaces the need for a construction bond",
+        "The Project Company is an SPV with no resources of its own"
+      ],
+      "answer": 3,
+      "explanation": "Sponsor support is common because the Project Company is a Special Purpose Vehicle with no inherent ability to provide technology or experienced staff (Ch 7 §9.2.2.3). It works alongside liquidated damages and bonds, not instead of them."
+    },
+    {
+      "question": "Despite liquidated damages, a bond call and sponsor support, a PPP hospital has still not started services by the contract's long stop date. What should the Procuring Authority do?",
+      "options": [
+        "Grant another extension of time as a relief event",
+        "Waive the date as a non-material noncompliance",
+        "Start the process to terminate the PPP contract",
+        "Renegotiate a later long stop date with the sponsors"
+      ],
+      "answer": 2,
+      "explanation": "The long stop date is the date by which services must start whatever happens. If services have not commenced by then, the authority should begin the termination process (Ch 7 §9.2.2.4)."
+    },
+    {
+      "question": "For two years, a contract management team has accepted late and incomplete progress reports without applying any contractual remedy. It now wants to insist on compliance. What risk does the Guide identify?",
+      "options": [
+        "The reports now count as a project-specific change in law",
+        "The lenders must now take over the reporting obligation",
+        "The contract automatically converts to a user-pays model",
+        "Repeated acceptance may have cost it the right to insist"
+      ],
+      "answer": 3,
+      "explanation": "One isolated failure to apply a remedy is usually not a waiver, but depending on the legal system, repeated acceptance of noncompliance may remove the authority's right to insist on compliance later (Ch 7 §9.1.2)."
+    },
+    {
+      "question": "A Procuring Authority wants a body that meets both parties regularly during construction to discuss emerging issues, help settle them by consensus, and give written determinations if needed. What fits best?",
+      "options": [
+        "Full litigation in the national courts",
+        "A lender step-in under the Direct Agreement",
+        "A Dispute Avoidance Board",
+        "An independent certifier acting alone"
+      ],
+      "answer": 2,
+      "explanation": "Dispute Avoidance Boards meet the parties regularly to resolve emerging issues by consensus, at low cost, and either party can also refer a dispute for a written determination (Ch 7 §10.2.1)."
+    },
+    {
+      "question": "A Project Company wants disputes to go to arbitration, while the Procuring Authority prefers the national courts. Which argument in the Guide supports the authority's preference?",
+      "options": [
+        "Courts are always faster and cheaper than arbitration",
+        "Court decisions never need to be enforced by the parties",
+        "Courts let the authority avoid the DRP deadlines",
+        "Courts build precedent and transparency on PPP contracts"
+      ],
+      "answer": 3,
+      "explanation": "Authorities may argue that courts build a precedent base and grow expertise and transparency in interpreting PPP agreements (Ch 7 §10.2). Project Companies usually argue arbitration is faster; the choice is country-specific and court action is a last resort."
+    },
+    {
+      "question": "A PPP contract refers disputes about calculating a refinancing gain to fast-track resolution by an Independent Expert. The project is in a civil law country. What should the parties know?",
+      "options": [
+        "It is final and binding in every legal system, with no appeal",
+        "It is often binding in common law countries, but not in civil law",
+        "The expert must be appointed by the lenders acting on their own",
+        "The method may only be used for disputes on construction delays"
+      ],
+      "answer": 1,
+      "explanation": "Fast-track resolution by an Independent Expert is often final and binding in common law countries, but not in civil law countries, with an option to appeal (Ch 7 §10.2.1). The expert is appointed by agreement of both parties."
+    },
+    {
+      "question": "The Procuring Authority stepped in at a PPP school because the Project Company breached its safety obligations. After the authority steps out, the breach continues. What follows under the Guide?",
+      "options": [
+        "The authority must refund its step-in costs",
+        "The contract ends automatically that day",
+        "The lenders have the right to step in",
+        "The breach becomes a relief event for the company"
+      ],
+      "answer": 2,
+      "explanation": "Where step-in arises from a Project Company breach, the company remedies it at its own cost and pays the authority's step-in costs. If the breach persists after the authority steps out, the lenders have the right to step in (Ch 7 §10.2.2.1)."
+    },
+    {
+      "question": "Termination of a PPP road contract looks likely, and the lenders want to step in under the Direct Agreement. The Project Company owes the authority unpaid penalties. What must happen before the lenders can exercise step-in?",
+      "options": [
+        "The authority must cancel all outstanding penalties first",
+        "They must pay all outstanding liabilities to the authority",
+        "The authority must agree to suspend all future deductions",
+        "They must first buy out the Project Company's shareholders"
+      ],
+      "answer": 1,
+      "explanation": "Lenders step in voluntarily and may exercise step-in only after paying all such liabilities to the authority. The authority must not suffer, and the contract continues as originally set up, including penalty deductions (Ch 7 §10.2.2.2)."
+    },
+    {
+      "question": "A Procuring Authority wants to check whether its knowledge management for a PPP is working. Which test does the Guide suggest?",
+      "options": [
+        "Whether expensive document software has been purchased",
+        "Whether all documents are kept by one senior official",
+        "Whether the lenders have approved the filing system",
+        "Whether documents are easy to retrieve, recent and accurate"
+      ],
+      "answer": 3,
+      "explanation": "Success is measured by whether documentation is easily retrievable and identifiable, recent and accurate, and shared in the right form at the right time (Ch 7 §11.1.3). The Guide notes the manual can work without sophisticated, expensive software."
+    },
+    {
+      "question": "A new contract manager joins a 25-year PPP in its sixth year and struggles to understand past decisions. When should succession planning have been done?",
+      "options": [
+        "Only when a key staff member hands in notice",
+        "When the Contract Management Manual was first written",
+        "At handback, when the contract is about to end",
+        "Only after a dispute shows that knowledge is missing"
+      ],
+      "answer": 1,
+      "explanation": "Planning for succession must be done when the Contract Management Manual is written, with handover of documented history, training on the manual and a lessons-learned log (Ch 7 §11.2)."
     }
   ]
 }

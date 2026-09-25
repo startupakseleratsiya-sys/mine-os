@@ -186,10 +186,10 @@
     {
       "question": "Demand studies for a user-pays tunnel show that revenues would be far higher than needed to satisfy lenders and investors. What might the government do?",
       "options": [
-        "Reduce the reference price or require payments from the private party to the authority",
+        "Lower the reference price or require payments to the authority",
         "Provide viability gap funding to the private partner",
         "Cancel the project because it is over-feasible",
-        "Transfer all demand risk to the government"
+        "Transfer all of the demand risk to the government"
       ],
       "answer": 0,
       "explanation": "For an over-feasible project, the Guide suggests lowering the reference price or requiring payments from the private party (or other options like a shorter term). Viability gap funding is for projects that are not feasible."
@@ -219,13 +219,13 @@
     {
       "question": "During market sounding, a large construction firm asks for a private meeting and later receives cost data that other firms did not get. What principle has been broken?",
       "options": [
-        "Market sounding must only include lenders",
+        "Market sounding must only include the lenders",
         "Industry meetings must always be held abroad",
-        "Firms must submit binding bids during market sounding",
-        "Participation must give no advantage, and discussions should be shared with all firms"
+        "Firms must submit binding bids during the market sounding",
+        "Participation must give no advantage or unshared information"
       ],
       "answer": 3,
-      "explanation": "Market sounding must not give participants an advantage or information that breaks the level playing field. Good practice is to document meetings and share all discussions with other potential bidders."
+      "explanation": "Market sounding must not give participants an advantage or information that breaks the level playing field. Good practice is to document meetings and share all discussions with other potential bidders (Ch 4 §9.1, §9.1.1)."
     },
     {
       "question": "Consider these two statements. 1: In government-pays PPPs, the commercial feasibility exercise helps define the amount of public support needed. 2: In market sounding documents, the authority should use procurement language such as 'bidders'.",
@@ -237,6 +237,446 @@
       ],
       "answer": 0,
       "explanation": "In government-pays PPPs the exercise defines the support required to meet investors' and lenders' needs. The Guide's tips say not to use procurement language like 'bidders' in market sounding."
+    },
+    {
+      "question": "Which describes a commercially feasible PPP project, from the financial perspective?",
+      "options": [
+        "Revenues cover all costs, debt service and a reasonable equity return",
+        "Its economic benefits to society are higher than its costs",
+        "Its future payments fit within the government's budget",
+        "Its design can be built with proven, tested technology"
+      ],
+      "answer": 0,
+      "explanation": "A project is commercially feasible when expected revenues under a reasonable scenario cover O&M, interest, taxes, debt repayment and payback of equity with a reasonable return (Ch 4 §8). Social benefits are economic feasibility, and budget fit is affordability."
+    },
+    {
+      "question": "A government plans a user-pays airport PPP and wants the SPV to pay it a concession fee. What will the commercial feasibility exercise focus on?",
+      "options": [
+        "Whether the airport's social benefits exceed its social costs",
+        "How much the government must pay the SPV every year",
+        "Whether the airport should be procured traditionally",
+        "Whether free cash can service debt and equity and pay the fee"
+      ],
+      "answer": 3,
+      "explanation": "In user-pays projects the exercise tests the surplus after current costs, whether that free cash flow can service debt and equity to fund CAPEX, and, if the government wants, whether the SPV can pay a concession fee (Ch 4 §8)."
+    },
+    {
+      "question": "A prison PPP will have no user charges at all. What does the commercial feasibility exercise estimate in this case?",
+      "options": [
+        "The users' willingness to pay for the prison service",
+        "The concession fee the SPV can pay to the state",
+        "The government contributions needed, estimated directly",
+        "The fee level that maximizes the user revenue"
+      ],
+      "answer": 2,
+      "explanation": "In projects without user charges in the revenue mix, the government contributions are estimated directly (Ch 4 §8). There are no users paying, so willingness to pay and revenue-maximizing prices are not relevant."
+    },
+    {
+      "question": "Consider these two statements. 1: Climate measures add cost to the SPV, which usually means higher availability payments or user fees. 2: Transferring climate risks to the SPV increases the public partner's contingent liabilities.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is true. The Guide says transferring identified climate risks to the SPV reduces, not increases, the public partner's contingent liabilities (Ch 4 §8)."
+    },
+    {
+      "question": "Banks are asked to finance a new toll road with uncertain traffic and an availability-payment hospital. What cover ratio expectations are most likely?",
+      "options": [
+        "The same minimum DSCR for both of the projects",
+        "A higher minimum DSCR for the riskier toll road",
+        "A lower minimum DSCR for the riskier toll road",
+        "A higher minimum DSCR for the hospital project"
+      ],
+      "answer": 1,
+      "explanation": "A higher DSCR means less risk for lenders, and lenders expect higher ratios in sectors perceived as risky (Ch 4 §8.1.1). Demand risk makes the toll road riskier than an availability-based hospital."
+    },
+    {
+      "question": "A road SPV's cash flow collapses and its cover ratio drops under the default threshold in the loan agreement. What may the banks do?",
+      "options": [
+        "Require their debt to be repaid or take control of the project",
+        "Only block dividends until the cover ratio recovers",
+        "Nothing until the loan reaches its final maturity",
+        "Ask the authority to raise the tolls straight away"
+      ],
+      "answer": 0,
+      "explanation": "If the default value is reached, the lender can require its debt to be repaid or even take control of the project instead of the shareholders (Ch 4 §8.1.1). Blocking dividends is the lock-up effect, which applies at a higher level."
+    },
+    {
+      "question": "Which ratio divides the NPV of cash flow available for debt service, measured only up to the debt's maturity, by the outstanding debt?",
+      "options": [
+        "Project Life Cover Ratio (PLCR)",
+        "Debt Service Cover Ratio (DSCR)",
+        "Equity Internal Rate of Return",
+        "Loan Life Cover Ratio (LLCR)"
+      ],
+      "answer": 3,
+      "explanation": "The LLCR is the NPV of CFADS up to debt maturity divided by the outstanding debt (Ch 4 §8.1.1). The PLCR uses CFADS over the project's remaining life, and the DSCR looks at one period at a time."
+    },
+    {
+      "question": "A lender wants to know whether cash earned over the whole remaining life of the contract, including years after the loan matures, covers the outstanding debt. Which ratio fits?",
+      "options": [
+        "Loan Life Cover Ratio (LLCR)",
+        "Debt Service Cover Ratio (DSCR)",
+        "Project Life Cover Ratio (PLCR)",
+        "The payback period of equity"
+      ],
+      "answer": 2,
+      "explanation": "The PLCR compares the NPV of CFADS over the project's remaining life with the outstanding debt (Ch 4 §8.1.1). The LLCR stops at the loan's maturity."
+    },
+    {
+      "question": "A project's operating profit grows about 5% a year but dips in two years when assets close for renewal. How would debt sculpting shape the repayments?",
+      "options": [
+        "Equal principal repayments in every year of the loan",
+        "Lower debt service in weak years and higher in strong years",
+        "The same total debt service in every year of the loan",
+        "All of the principal repaid in the final year"
+      ],
+      "answer": 1,
+      "explanation": "Debt sculpting shapes the repayment schedule to follow the project's cash flow, so the DSCR covenant is respected in every period while more debt is raised (Ch 4 §8.1.1, Box 4.7). Equal principal is constant amortization."
+    },
+    {
+      "question": "An appraisal team must decide which DSCR lock-up and default levels to assume for a new port PPP. How should it set them?",
+      "options": [
+        "With the financial advisor or from recent similar projects",
+        "By using a fixed ratio of 1.4 for every project",
+        "By asking the winning bidder after contract signature",
+        "By copying the ratios of any project in any sector"
+      ],
+      "answer": 0,
+      "explanation": "Effective thresholds depend on market conditions in each country and sector, so they are approximated with the financial advisor's support and/or recent similar precedents (Ch 4 §8.1.1). The 1.4 in the Guide is only an example."
+    },
+    {
+      "question": "A PPP team is deciding which aspects of a new port project to test in its market sounding. Which rule does the Guide give?",
+      "options": [
+        "Test only the tariff that users will be asked to pay",
+        "Test only the aspects already fixed in the draft contract",
+        "Follow one fixed international checklist for every sector",
+        "Test all the significantly uncertain aspects of the project"
+      ],
+      "answer": 3,
+      "explanation": "There is no precise list, since it depends on the project and sector; the rule is to test all significantly uncertain aspects, and to include them in the project information memorandum (Ch 4 §9.1). Testing only fixed aspects would give no useful feedback."
+    },
+    {
+      "question": "Which describes the internal rate of return (IRR) of an equity cash flow?",
+      "options": [
+        "The interest rate the lenders charge the project company",
+        "The rate at which the government issues its own debt",
+        "The discount rate that makes the NPV of the cash flow equal zero",
+        "The minimum return the investors require from a project"
+      ],
+      "answer": 2,
+      "explanation": "Mathematically, the IRR is the discount rate that makes the NPV of a cash flow equal zero (Ch 4 §8.1.2). The minimum required return is the hurdle rate, which the IRR is compared with."
+    },
+    {
+      "question": "An adviser worries that the IRR assumes cash is reinvested at the IRR itself, which is unrealistic. Which tool lets the team set a separate reinvestment rate?",
+      "options": [
+        "The Loan Life Cover Ratio",
+        "The Modified IRR (MIRR)",
+        "The Capital Asset Pricing Model",
+        "The discounted payback period"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes the IRR assumes reinvestment at the IRR, and the Modified IRR lets the reinvestment rate be input separately to find the effective return (Ch 4 §8.1.2). CAPM estimates the cost of equity, not reinvestment."
+    },
+    {
+      "question": "Consider these two statements. 1: The return required by private investors is generally higher than the government's cost of capital. 2: Many financial advisors prefer the IRR as a technique to assess returns.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide says the investors' required return is different from, and generally higher than, the government's cost of capital, and that the IRR is the preferred technique of many financial advisors (Ch 4 §8.1.2)."
+    },
+    {
+      "question": "An authority plans a market sounding for a large PPP whose bankability is still uncertain. Besides prospective bidders, whom should it also consult?",
+      "options": [
+        "Commercial banks and multilateral development banks",
+        "Only the future users of the infrastructure service",
+        "Only the firms that submitted unsolicited proposals",
+        "Nobody else, since lenders join only at financial close"
+      ],
+      "answer": 0,
+      "explanation": "A second group to sound are lenders, especially commercial banks, and the government should also consider international financing agencies and multilateral development banks to diversify the view on bankability (Ch 4 §9.1). Limiting it to one group would narrow the feedback."
+    },
+    {
+      "question": "A team must estimate the cost of equity for a PPP, but no data on returns in similar projects is available. What does the Guide suggest trying next?",
+      "options": [
+        "Using the government's own cost of capital",
+        "Assuming the equity return equals the bank rate",
+        "Skipping the equity test and using the DSCR",
+        "A small market test with potential investors"
+      ],
+      "answer": 3,
+      "explanation": "The preferred source is returns in similar projects, often via advisers. If that is unavailable, a small market test with potential investors can help, and only if neither works is CAPM used (Ch 4 §8.1.2)."
+    },
+    {
+      "question": "Under the Capital Asset Pricing Model (CAPM), how is the cost of equity estimated?",
+      "options": [
+        "Bank base rate plus the lender's margin and arrangement fees",
+        "Government cost of capital plus the expected general inflation",
+        "Risk-free return plus the market risk premium adjusted by beta",
+        "Project IRR minus the cost of the senior debt of the SPV"
+      ],
+      "answer": 2,
+      "explanation": "CAPM estimates the cost of equity as the return on a riskless asset plus the market risk premium adjusted for the investment's volatility compared with the market, called beta (Ch 4 §8.1.2, Box 4.8)."
+    },
+    {
+      "question": "When using CAPM, how is the beta of a PPP project usually estimated?",
+      "options": [
+        "From the average DSCR of recent bank loans in the sector",
+        "From historical stock prices of listed firms running similar assets",
+        "From the government's bond yields over the contract term",
+        "From the equity IRR shown in the project's base case"
+      ],
+      "answer": 1,
+      "explanation": "Beta measures how a company's performance moves with the market, and is usually estimated by regressing historical stock prices of listed companies managing similar infrastructure (Ch 4 §8.1.2, Box 4.8). Government bond yields give the risk-free rate."
+    },
+    {
+      "question": "Shareholders of a PPP plan to sell their stake after a few years of operation. Which indicator helps them judge the quality of the whole project's cash flow and its enterprise value?",
+      "options": [
+        "The project IRR",
+        "The equity NPV only",
+        "The lock-up ratio",
+        "The reference price"
+      ],
+      "answer": 0,
+      "explanation": "The project IRR uses the project cash flow rather than the equity cash flow, so it shows the quality of the project as a whole and helps estimate enterprise value, for example for an exit (Ch 4 §8.1.2)."
+    },
+    {
+      "question": "Two PPP projects offer the same equity IRR, but one pays back in 18 years and the other in 9 years. How will investors usually see the first project?",
+      "options": [
+        "As safer, because its payback period is longer",
+        "As equal, because payback does not matter at all",
+        "As better, because it offers a higher equity IRR",
+        "As riskier, because its payback period is longer"
+      ],
+      "answer": 3,
+      "explanation": "Generally, the longer the payback period, the higher the risk perceived by investors (Ch 4 §8.1.2). The IRRs are the same, so the IRR cannot make the first project better."
+    },
+    {
+      "question": "A large PPP has an attractive equity IRR, but it needs a very large equity subscription. Why might few equity investors take part?",
+      "options": [
+        "A high IRR always makes lenders reject a project",
+        "Large projects cannot legally use project finance",
+        "The size of the investment can rule out some equity providers",
+        "Equity investors only look at the project's DSCR"
+      ],
+      "answer": 2,
+      "explanation": "The absolute size of the investment can be a key decision driver: some investors cannot provide such a large amount, while others have a minimum size, even when the IRR is attractive (Ch 4 §8.1.2)."
+    },
+    {
+      "question": "A user-pays tunnel is 'over-feasible'. The government does not want to lower tolls or ask for a fee. Which other parameter could it adjust to use the extra revenue?",
+      "options": [
+        "Provide viability gap funding",
+        "Reduce the contract term",
+        "Lower the lenders' DSCR",
+        "Increase the equity IRR target"
+      ],
+      "answer": 1,
+      "explanation": "Besides payments to the authority or lower user charges, the Guide lists other parameters to take advantage of over-feasibility, such as a reduction in the contract term (Ch 4 §8.4). Viability gap funding is for projects that are not feasible."
+    },
+    {
+      "question": "Why can raising the tariff of a user-pays transport PPP sometimes reduce its total revenue?",
+      "options": [
+        "Demand elasticity is above one, so lost use outweighs the higher price",
+        "Lenders cap the total revenue a project may earn from its users",
+        "Higher prices always increase the SPV's operating costs a lot",
+        "Tariffs are paid to the government, never to the project company"
+      ],
+      "answer": 0,
+      "explanation": "Beyond a certain point, when demand elasticity is higher than one, the reduction in usage outweighs the extra revenue from the remaining users, so total revenue falls (Ch 4 §8.2)."
+    },
+    {
+      "question": "In an availability-payment hospital PPP, the commercial feasibility exercise defines the payments investors and lenders need. Where is this basic fiscal commitment then tested?",
+      "options": [
+        "In the technical feasibility review",
+        "In the market sounding memorandum",
+        "In the lenders' credit committee only",
+        "In the affordability assessment"
+      ],
+      "answer": 3,
+      "explanation": "In government-pays PPPs, the exercise gives a revenue forecast for the model and the basic fiscal commitment structure that is tested in the affordability exercise (Ch 4 §8.3)."
+    },
+    {
+      "question": "To improve the cover ratios of a government-pays PPP, the team considers changing how the service payments are indexed. What should it keep in mind?",
+      "options": [
+        "Indexation can never be changed once the model exists",
+        "Cover ratios are not affected by payment features",
+        "Use such changes with caution so as not to harm Value for Money",
+        "Lenders alone decide the indexation of payments"
+      ],
+      "answer": 2,
+      "explanation": "The team may consider different indexation regimes to improve cover ratios, but with caution so as not to spoil the VfM assessment (Ch 4 §8.3)."
+    },
+    {
+      "question": "A government-pays road PPP is being appraised. Which structuring question can the commercial feasibility outputs help answer?",
+      "options": [
+        "Which bidder should be chosen as preferred bidder",
+        "Whether payments should be on an availability or volume basis",
+        "Whether the road meets the need set in identification",
+        "Which firms should join the project's evaluation panel"
+      ],
+      "answer": 1,
+      "explanation": "For government-funded PPPs, the assessment shows the level of support needed and gives information on structuring matters such as whether payments should be availability- or volume-based (Ch 4 §8.4)."
+    },
+    {
+      "question": "Which is NOT an output of the commercial feasibility assessment in a user-pays PPP?",
+      "options": [
+        "The selection of the preferred bidder",
+        "The users' willingness and ability to pay",
+        "The government payments needed if not feasible",
+        "Whether authority payments are up-front or deferred"
+      ],
+      "answer": 0,
+      "explanation": "User-pays outputs include the capacity to attract investors and lenders, needed government payments, payments to the authority if over-feasible, structuring information such as up-front or deferred payments, and willingness to pay (Ch 4 §8.4). Bidder selection happens in procurement."
+    },
+    {
+      "question": "A team built its base case without understanding the private sector's value drivers and constraints. What is the main risk?",
+      "options": [
+        "The project will automatically lose its economic feasibility",
+        "The lenders will set a much lower DSCR than expected",
+        "The contract term will have to be set by the users",
+        "The base case may be ineffective and fail to attract bidders"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the assumptions and base case will be completely ineffective if the team fails to understand the private sector's value drivers and constraints, which is why market sounding is used (Ch 4 §9)."
+    },
+    {
+      "question": "A PPP team wants to sound the market when it only has a broad idea of the project's size and scope. What problem does the Guide warn about?",
+      "options": [
+        "Firms will have no room left to influence the project",
+        "The tender will have to be launched at the same time",
+        "The government sounds imprecise and cannot ask the right questions",
+        "Lenders will refuse to take part in the sounding"
+      ],
+      "answer": 2,
+      "explanation": "Sounding too early makes the government seem imprecise, and the relevant questions are not yet identified, so they cannot be asked (Ch 4 §9.1). Losing influence is the problem of sounding too late."
+    },
+    {
+      "question": "A team runs its first market sounding only after every technical and contract detail is fixed. What is the main problem?",
+      "options": [
+        "The government will seem imprecise and far too vague",
+        "Little room for feedback, so firms doubt they can influence it",
+        "Lenders cannot give any opinions at such a late stage",
+        "The sounding will legally count as the formal tender"
+      ],
+      "answer": 1,
+      "explanation": "If sounding happens too late, the project is too detailed, leaving little room for effective feedback and making the private sector lose confidence in its ability to influence the process (Ch 4 §9.1)."
+    },
+    {
+      "question": "A metro PPP is the first of its kind in the country, and there are no experienced local providers. Whom should the market sounding include?",
+      "options": [
+        "International providers with experience of this type of project",
+        "Only local firms, in order to support the domestic industry",
+        "Only the lenders, since no providers can be found locally",
+        "Nobody, until local firms have gained enough experience"
+      ],
+      "answer": 0,
+      "explanation": "If experienced providers do not exist locally, especially for a first project in its sector, good practice is to search for international providers who can offer expertise (Ch 4 §9.1)."
+    },
+    {
+      "question": "Why should a market sounding also hear new entrants to the sector, not only established providers?",
+      "options": [
+        "To give them an advantage in the later tender",
+        "To replace the views of the experienced providers",
+        "Because new entrants must bid in the tender",
+        "To find and remove unintended barriers to competition"
+      ],
+      "answer": 3,
+      "explanation": "New entrants should be heard especially to search for ways to eliminate unintended barriers to a competitive procurement (Ch 4 §9.1). No participant should gain an advantage in the tender."
+    },
+    {
+      "question": "A project information memorandum is being drafted for market sounding. The team wants to leave out an unsolved land access problem. What should it do?",
+      "options": [
+        "Leave it out, so that firms stay interested in the project",
+        "Mention it only in private meetings with favoured firms",
+        "State the obstacle openly, since hiding it creates bigger problems later",
+        "Wait and reveal it only after the contract is signed"
+      ],
+      "answer": 2,
+      "explanation": "The memorandum should clearly point to uncertain aspects and state obstacles openly. Hiding weak spots only amplifies problems at later stages, when legal issues may arise close to procurement (Ch 4 §9.1)."
+    },
+    {
+      "question": "The authority holds one-to-one market sounding meetings with several contractors. Which practice should it follow?",
+      "options": [
+        "Keep no records, so that the firms speak more freely",
+        "Use the memorandum as the guide and document each meeting",
+        "Send only one official, to keep the messages simple",
+        "Give each firm different information on the project"
+      ],
+      "answer": 1,
+      "explanation": "In one-to-one meetings, the project information memorandum should guide the presentation and detailed documentation should be produced (Ch 4 §9.1). The top tips also advise involving more than one official and being consistent with all respondents."
+    },
+    {
+      "question": "During a market sounding meeting, a firm spends most of the time presenting its own design and asks the team to adopt it. How should the team respond?",
+      "options": [
+        "Avoid sales pitches and not shape the project around one proposal",
+        "Adopt the design, since the firm knows the market best",
+        "Promise the firm extra points in the future tender",
+        "End the sounding and move straight to procurement"
+      ],
+      "answer": 0,
+      "explanation": "The Guide's top tips say not to waste time on sales pitches and to avoid being seduced into shaping the project to suit a particular proposal (Ch 4 §9.1, Box 4.9)."
+    },
+    {
+      "question": "A contractor asks whether taking part in the market sounding counts as a formal expression of interest in the future tender. What is the correct answer?",
+      "options": [
+        "Yes, and only participants may bid in the tender",
+        "Yes, but only for firms that attend one-to-one meetings",
+        "No, but participants will get extra points in the tender",
+        "No, firms are not bidding or expressing formal interest"
+      ],
+      "answer": 3,
+      "explanation": "Invited companies should understand they are not bidding or making a formal expression of interest, and participation must give no advantage in the later procurement; this should be told to participants and non-participants (Ch 4 §9.1)."
+    },
+    {
+      "question": "The firm that submitted an unsolicited proposal for a PPP gives feedback that would make the specifications fit only its own technology. What should the team do?",
+      "options": [
+        "Adopt it, because this firm knows the project best",
+        "Exclude this firm from taking part in any future tender",
+        "Filter the feedback for bias and keep the competition broad",
+        "Stop the market sounding for the project altogether"
+      ],
+      "answer": 2,
+      "explanation": "Feedback naturally reflects each firm's interests, especially with unsolicited proposals. The aim is broadly competitive procurement, not adapting specifications to one bidder (Ch 4 §9.1)."
+    },
+    {
+      "question": "A PPP market has a serious corruption problem. How should the market sounding be conducted?",
+      "options": [
+        "Hold only one-to-one meetings, to keep them discreet",
+        "Avoid meetings with individual firms and use other methods",
+        "Skip documentation, to protect the firms' ideas",
+        "Invite only the firms the minister trusts"
+      ],
+      "answer": 1,
+      "explanation": "Where corruption is a relevant issue, good practice may be to avoid any meetings with individual companies and use only the other approaches, such as written comments and industry meetings (Ch 4 §9.1.1)."
+    },
+    {
+      "question": "Which is a transparency safeguard the Guide suggests for market sounding?",
+      "options": [
+        "Keeping all market feedback confidential from auditors",
+        "Video-recording one-to-one meetings for audit institutions only",
+        "Sharing each firm's comments only with that firm",
+        "Holding meetings without any written record"
+      ],
+      "answer": 1,
+      "explanation": "Safeguards include strict protocols, documenting meetings, sharing discussions with other bidders, public access to documents, a clear audit trail, inviting audit institutions and video-recording individual meetings for their exclusive use (Ch 4 §9.1.1)."
+    },
+    {
+      "question": "What is the fundamental output of market sounding during the Appraisal Phase?",
+      "options": [
+        "A shortlist of pre-qualified bidders for the tender",
+        "A signed agreement with the preferred private partner",
+        "A final tariff approved by the sector regulator",
+        "General alignment between the government and the market"
+      ],
+      "answer": 3,
+      "explanation": "The fundamental output is general alignment between government and private sector, which anticipates issues that would reduce market interest and reduces the risk of non-competitive procurement (Ch 4 §9.2). It does not select bidders."
     }
   ]
 }

@@ -304,6 +304,446 @@
       ],
       "answer": 2,
       "explanation": "Excessive debt can make the SPV fragile, and the public side benefits when the sponsor has real money at risk. The aim is resilience and commitment, not a higher WACC or easier share sales."
+    },
+    {
+      "question": "According to Appendix A of the Guide, what are the three basic sources by which a PPP project can be financed?",
+      "options": [
+        "Grants, bonds and user charges",
+        "Debt, equity and user charges",
+        "Equity, insurance and government support",
+        "Debt, equity and government support"
+      ],
+      "answer": 3,
+      "explanation": "Appendix A (A4) names debt, equity and government support as the three basic sources. User charges are a revenue source that repays finance, not a source of finance itself (Ch 1 App A4)."
+    },
+    {
+      "question": "Which situation best describes the purpose of Viability Gap Funding (VGF)?",
+      "options": [
+        "A private partner wants to sell its shares before the construction is finished",
+        "A viable user-pays project earns too little revenue to be commercially viable",
+        "A government-pays project needs a higher WACC to attract more equity investors",
+        "A project is economically unviable, and public money is used to cover its losses"
+      ],
+      "answer": 1,
+      "explanation": "VGF supports an economically viable user-pays project whose use-based revenue cannot make it commercially viable, or keeps prices socially acceptable (Ch 1 §7.3). It is not a way to rescue a project with no economic value."
+    },
+    {
+      "question": "Which de-risking tool does the Guide say multilateral development banks (MDBs) provide to mitigate counterparty risk?",
+      "options": [
+        "Participative loans on soft terms for unfeasible toll roads",
+        "Partial Risk Guarantees or Political Risk Insurance",
+        "Escrow accounts backed by a share of the user tariffs",
+        "Deferred payments certified as the construction progresses"
+      ],
+      "answer": 1,
+      "explanation": "The Guide lists Partial Risk Guarantees or Political Risk Insurance provided by MDBs to mitigate counterparty risk (Ch 1 §7.4.2). Participative loans are public subordinated debt, and escrow accounts are usually set up by the authority, not provided by MDBs."
+    },
+    {
+      "question": "Private finance for a project is doubtful even if the government offers financial support. What does the Guide suggest?",
+      "options": [
+        "Launch the tender quickly before the market conditions become any worse",
+        "Reconsider whether PPP is wise, partly because competition may be weak",
+        "Increase the grant until at least one bidder confirms it can raise the debt",
+        "Require the bidders to use only public loans and no commercial bank debt"
+      ],
+      "answer": 1,
+      "explanation": "When private finance is doubtful even with support, the wisdom of the PPP route should be reconsidered, not least because of the risk of weak competition (Ch 1 §7.3). Simply adding more grant does not make an unfeasible project feasible."
+    },
+    {
+      "question": "Why does the Guide say that an ambitious PPP program should plan in advance for the availability of finance?",
+      "options": [
+        "Programs are always funded by grants, so budget approval takes a very long time",
+        "Lenders refuse to finance any project that is part of a wider national program",
+        "Large programs must be financed only by multilateral development banks",
+        "Many projects reaching the market in a short time can exhaust local lending capacity"
+      ],
+      "answer": 3,
+      "explanation": "A local market may finance one large project but struggle when a program brings many projects in a short period, so this should be planned in advance (Ch 1 §7.3, note 100). Lenders do not refuse program projects as such."
+    },
+    {
+      "question": "In a co-financed PPP, what is ideally the only difference compared with a normal PPP?",
+      "options": [
+        "The SPV is jointly managed by the procuring authority and the sponsor",
+        "The private partner is no longer paid on the basis of its performance",
+        "The public sector takes over operation and maintenance after completion",
+        "Some payment during construction covers a fixed portion of the cost of works"
+      ],
+      "answer": 3,
+      "explanation": "A co-financed PPP should keep all the typical PPP features; the difference is some compensation during construction that pays a fixed portion of the works (Ch 1 §7.3). Removing performance-based pay or public management would change the nature of the PPP."
+    },
+    {
+      "question": "Under grant financing, which payment method is NOT described in the Guide?",
+      "options": [
+        "In one payment at the end of the construction period",
+        "When specific construction milestones are met",
+        "In annual amounts that fall when service performance is poor",
+        "Monthly or quarterly as the works progress"
+      ],
+      "answer": 2,
+      "explanation": "Grant financing is paid during construction: as works progress, at milestones, or at the end of construction (Ch 1 §7.3). Grants are not linked to operational performance, so performance-reduced annual amounts are not a grant method."
+    },
+    {
+      "question": "A ministry wants to co-finance a new railway PPP, but it has little cash available in the next few years. Which solution from the Guide fits best?",
+      "options": [
+        "A majority public equity stake with control of the SPV board of directors",
+        "Grants that accrue with construction milestones but are paid during operations",
+        "A preferred bidder debt funding competition after the contract award",
+        "A soft subordinated loan paid out from this year's investment budget"
+      ],
+      "answer": 1,
+      "explanation": "Deferred grant payments are the Guide's solution when the public sector wants to co-finance but lacks liquidity (Ch 1 §7.3). A public loan or equity stake would still need cash now."
+    },
+    {
+      "question": "Why is the loan that an SPV raises to pre-finance deferred public grant payments much easier to negotiate?",
+      "options": [
+        "The grant payments rise when the project performs above target",
+        "The lenders receive a seat on the procuring authority's board",
+        "The loan is guaranteed by the sponsor's corporate balance sheet",
+        "The public payment commitment is firm, unconditional and irrevocable"
+      ],
+      "answer": 3,
+      "explanation": "Deferred grants such as Spain's PDIFs or Peru's CRPAO are unconditional and irrevocable, so lenders see little risk in pre-financing them (Ch 1 §7.3). The payments are not linked to performance in either direction."
+    },
+    {
+      "question": "Consider two statements. 1. Fixed deferred payments may be regarded either as co-financing or as a de-risking technique. 2. Grant amounts are normally decided only after construction ends, based on the actual costs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says fixed deferred payments can be seen as deferred grant financing or as de-risking, so statement 1 is true. Grant amounts are normally fixed at PPP signing and accrue with work progress, so statement 2 is false (Ch 1 §7.3, §7.4.2)."
+    },
+    {
+      "question": "Consider two statements about co-financing. 1. It may lead to the private finance being reported as public debt. 2. It should reduce the autonomy of the SPV so that the government can protect its grant.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Co-financing may change the accounting treatment, even making private finance count as public debt, so statement 1 is true. The Guide says co-financing should NOT diminish the SPV's autonomy, so statement 2 is false (Ch 1 §7.3.1)."
+    },
+    {
+      "question": "Which pairing matches the Guide's description of public financial support and de-risking?",
+      "options": [
+        "Public loans fill an availability gap; de-risking improves access to market finance",
+        "Public loans lower political risk; de-risking replaces the private commercial lenders",
+        "Public loans improve access to capital markets; de-risking fills the public budget gap",
+        "Public loans raise the debt's credit rating; de-risking increases the equity returns"
+      ],
+      "answer": 0,
+      "explanation": "Instruments such as public loans (co-lending) help to fill a gap in the availability of finance, while de-risking and credit enhancement increase access to market finance (Ch 1 §7.4). Raising the debt rating describes credit enhancement, not public loans."
+    },
+    {
+      "question": "A government offers public loans at normal market interest rates during a financial crisis. What problem is this mainly meant to solve?",
+      "options": [
+        "A weak result in the cost-benefit analysis",
+        "The project's affordability for the public budget",
+        "The private partner's lack of technical skills",
+        "A lack of fund availability or market appetite"
+      ],
+      "answer": 3,
+      "explanation": "Funding at market conditions is usually a solution to fund availability, for example in a financial crisis (Ch 1 §7.4.1). Soft or concessional terms, not market terms, are the usual answer to affordability."
+    },
+    {
+      "question": "Which of the following is NOT one of the repayable public finance instruments listed by the Guide?",
+      "options": [
+        "Public long-term loans from a national financial agency",
+        "Equity through a public strategic infrastructure fund",
+        "Capital grants paid from the investment budget",
+        "Public subordinated debt, usually on soft terms"
+      ],
+      "answer": 2,
+      "explanation": "Loans, subordinated debt and equity must be repaid or earn a return, so the government acts like a market lender or investor (Ch 1 §7.4.1). Capital grants are not repaid; they are pure co-financing."
+    },
+    {
+      "question": "According to the Guide, how is equity from public strategic infrastructure funds usually provided?",
+      "options": [
+        "As a grant that never has to be returned to the fund's investors",
+        "At market conditions, managed independently by a management company",
+        "Only after the private sponsor has sold all of its own shares",
+        "On soft terms, managed directly by the procuring authority itself"
+      ],
+      "answer": 1,
+      "explanation": "Equity through public infrastructure or strategic funds, such as Fonadin in Mexico, is usually at market conditions and managed independently (Ch 1 §7.4.1). Management by the procuring authority would create conflicts."
+    },
+    {
+      "question": "A government buys 15 percent of an SPV's shares only to reduce the amount of equity the private investor must provide. How does the Guide treat this?",
+      "options": [
+        "As a form of credit enhancement for lenders",
+        "As traditional public works procurement",
+        "As a financial variation of a conventional PPP",
+        "As an institutional PPP or joint venture"
+      ],
+      "answer": 2,
+      "explanation": "When the public partner holds shares only as a financial investor, the Guide treats it as a mere financial variation of a conventional PPP (Ch 1 §7.4.1). An institutional PPP needs a majority or significant share with management or strategic control."
+    },
+    {
+      "question": "A minister wants public equity in an SPV so that officials can join its day-to-day management. What risk does the Guide highlight?",
+      "options": [
+        "The SPV will lose its right to pledge revenues to lenders",
+        "Investors may be deterred by fear of political interference",
+        "The project's WACC will fall too far below market levels",
+        "The grant amounts can no longer be fixed at contract signing"
+      ],
+      "answer": 1,
+      "explanation": "Using equity to gain control should be considered with extreme caution, as it can deter investors worried about political interference and limit efficiency gains (Ch 1 §7.4.1). It does not affect the lenders' security package as such."
+    },
+    {
+      "question": "Consider two statements about the government as an equity partner. 1. Investing equity means the government takes back more risk than investing the same amount as debt. 2. Being an equity partner gives the government the right to interfere in the running of the SPV.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says equity carries more risk for the government than an equivalent amount of debt, so statement 1 is true. Being an equity partner should NOT give the right to interfere in running the SPV, so statement 2 is false (Ch 1 §7.4.1)."
+    },
+    {
+      "question": "When should the government first pay attention to commercial feasibility and bankability?",
+      "options": [
+        "At financial close, when the lenders finally sign the loans",
+        "From the project's inception, in preparation and structuring",
+        "Only after the bids have been received and fully evaluated",
+        "During operations, when a refinancing of debt is considered"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says commercial feasibility, including bankability, needs attention right from the inception of the project (Ch 1 §7.4.2). Waiting until bids or financial close is too late to fix the risk structure."
+    },
+    {
+      "question": "In which situation does the Guide say a government may design a de-risked scheme to help raise debt?",
+      "options": [
+        "The private partner wants higher returns than its bid had assumed",
+        "The procuring authority lacks the staff to manage the contract itself",
+        "The cost-benefit analysis is negative, but the minister wants it built",
+        "Key risks cannot be absorbed by the private sector, but PPP is still valuable"
+      ],
+      "answer": 3,
+      "explanation": "De-risking fits when significant risks cannot be absorbed by the private sector but PPP is still valuable, in a bank crisis, or to develop a market (Ch 1 §7.4.2). It cannot rescue a project with a negative CBA."
+    },
+    {
+      "question": "Limiting deductions for poor performance to, for example, 20 percent of the service payment is an example of ____.",
+      "options": [
+        "a change in control threshold",
+        "a guaranteed portion of service payments",
+        "a minimum equity requirement",
+        "a refinancing gain-sharing clause"
+      ],
+      "answer": 1,
+      "explanation": "The Guide lists a guaranteed portion of service payments, such as limiting deductions to 20 percent, as a de-risking approach (Ch 1 §7.4.2). The 20 percent figure also appears for change in control, but there it refers to shares."
+    },
+    {
+      "question": "Which of the following describes 'debt underpinning'?",
+      "options": [
+        "Guaranteeing all or part of the outstanding debt on early termination",
+        "Holding part of the user tariffs in an account run by a trustee",
+        "Lending to the SPV on soft terms that are better than the market",
+        "Paying capital grants during construction as the works progress"
+      ],
+      "answer": 0,
+      "explanation": "Debt underpinning is a contractual guarantee to lenders covering all or a percentage of outstanding debt on early termination, even for private partner default (Ch 1 §7.4.2). A trustee account backed by tariffs is an escrow structure."
+    },
+    {
+      "question": "A user-pays toll road is financed partly in foreign currency. Which is a contractual way, listed in the Guide, to mitigate its Forex risk?",
+      "options": [
+        "Ban the SPV from refinancing its debt during the operations period",
+        "Cap the private partner's equity IRR at the level of its original bid",
+        "Allow the tariff to be revised in line with exchange rate movements",
+        "Require the sponsor to hold all of its equity in the local currency"
+      ],
+      "answer": 2,
+      "explanation": "For user-pays schemes the Guide mentions tariff revision linked to exchange rates, or treating a large devaluation as a compensation event (Ch 1 §7.4.2). The other options do not address currency movements."
+    },
+    {
+      "question": "Consider two statements about foreign exchange risk. 1. A devaluation beyond an agreed threshold can be treated as a compensation event. 2. In government-pays PPPs, payments may be made in a hard currency to reduce Forex risk.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists both: treating a large devaluation as a compensation event, and paying in a hard currency in government-pays PPPs (Ch 1 §7.4.2). Direct guarantees to lenders are a further option."
+    },
+    {
+      "question": "Under the EU's Project Bonds Credit Enhancement (PBCE), what does the EIB provide?",
+      "options": [
+        "Senior debt on soft terms alongside the commercial banks",
+        "A capital grant paid when the construction milestones are met",
+        "Equity through a strategic fund with an independent manager",
+        "A subordinated loan or guarantee covering the project's first loss"
+      ],
+      "answer": 3,
+      "explanation": "Under PBCE the EIB gives a subordinated loan or guarantee covering the first loss, typically up to 20 percent of capital cost, which raises the bonds' rating (Ch 1 §7.4.2). It is credit enhancement, not a grant or equity."
+    },
+    {
+      "question": "Which statement best separates de-risking from credit enhancement in the Guide?",
+      "options": [
+        "De-risking usually sits inside the contract; credit enhancement usually outside it",
+        "De-risking always protects lenders; credit enhancement always protects the SPV",
+        "De-risking is used only in EMDEs; credit enhancement only in developed markets",
+        "De-risking needs public equity; credit enhancement needs capital grants"
+      ],
+      "answer": 0,
+      "explanation": "De-risking is generally embedded in the contract (payment mechanism or risk structure), while credit enhancement is an explicit instrument outside it, often a commitment to lenders (Ch 1 §7.4, note 103). Both are used in all types of country."
+    },
+    {
+      "question": "Complete the sentence: 'After construction, the ____ is the only security for the lenders.'",
+      "options": [
+        "construction contractor's bond",
+        "sponsor's corporate guarantee",
+        "economic value of the project contract",
+        "procuring authority's budget"
+      ],
+      "answer": 2,
+      "explanation": "The lenders' main guarantee, and after construction the sole one, is the economic rights in the contract, that is, the economic value of the business (Ch 1 §7.5.1). Project finance does not rely on sponsor guarantees."
+    },
+    {
+      "question": "An SPV's sponsor is seriously underperforming and the company's finances are in danger. What is it good practice to allow before the government terminates?",
+      "options": [
+        "The lenders may cancel the grant agreement unilaterally",
+        "The lenders may step in and take control of the contract",
+        "The government may take the sponsor's shares for free",
+        "The contractor may raise user tariffs without approval"
+      ],
+      "answer": 1,
+      "explanation": "It is good practice to let lenders step in when the sponsor is seriously underperforming, before the government exercises its right to terminate (Ch 1 §7.5.1). This protects the lenders' only real security."
+    },
+    {
+      "question": "Which rights should the law and the contract allow the private partner to pledge to its lenders?",
+      "options": [
+        "Grant amounts not yet approved by parliament",
+        "The public land and the legal title to the assets",
+        "Its revenues, shares and compensation rights",
+        "The procuring authority's annual budget allocation"
+      ],
+      "answer": 2,
+      "explanation": "Both the legal framework and the contract should allow the private partner to pledge its economic rights (revenues, shares, compensation) to lenders (Ch 1 §7.5.1). Public land and the authority's budget are not the SPV's to pledge."
+    },
+    {
+      "question": "In some jurisdictions lenders are not allowed to step in directly. What may they do instead before the project is terminated?",
+      "options": [
+        "Take a seat on the procuring authority's board",
+        "Propose a remedy plan, including a new operator",
+        "Demand an immediate refinancing by government",
+        "Cancel the contract and claim full compensation"
+      ],
+      "answer": 1,
+      "explanation": "In some jurisdictions lenders may only suggest a remedy plan, including a new contractor, often chosen through a public process (Ch 1 §7.5.1). They cannot demand public refinancing or a board seat."
+    },
+    {
+      "question": "How does debt leverage help the public side in a government-pays PPP?",
+      "options": [
+        "It lowers the WACC, so the authority's total payments can fall",
+        "It removes the need for the lenders to carry out due diligence",
+        "It raises the sponsor's equity at risk, so default becomes less likely",
+        "It moves the demand risk from the SPV to the lenders directly"
+      ],
+      "answer": 0,
+      "explanation": "Leverage lowers the WACC, which increases affordability or decreases the authority's payments in government-pays PPPs (Ch 1 §7.5.2). Too much leverage, however, reduces equity at risk and makes insolvency more likely."
+    },
+    {
+      "question": "Some jurisdictions require a minimum equity stake from a 'key partner'. Who is this key partner?",
+      "options": [
+        "The public agency providing a co-lending facility",
+        "The shareholder with the smallest stake in the SPV",
+        "The member whose experience was used to qualify the consortium",
+        "The bank arranging the largest part of the senior debt"
+      ],
+      "answer": 2,
+      "explanation": "A key partner, such as the investor-contractor, is the one whose capacity or experience formed the basis for qualifying or shortlisting the consortium (Ch 1 §7.5.2). Requiring its equity keeps it committed to the project."
+    },
+    {
+      "question": "A winning bidder wants to sell a controlling stake in the SPV during construction. What is common practice?",
+      "options": [
+        "The sale needs approval from the lenders and nobody else",
+        "The sale is allowed if the buyer offers a higher share price",
+        "The sale is allowed freely once the government is notified",
+        "Such changes are often prohibited, or need prior authorisation"
+      ],
+      "answer": 3,
+      "explanation": "Transfers that cause a change in control need prior authorisation, and many contracts prohibit them during construction (Ch 1 §7.5.3). Notification alone is enough only for transfers that are not a change in control."
+    },
+    {
+      "question": "Consider two statements about share transfers. 1. Transfers that do not cause a change in control are usually allowed if the government is notified. 2. A contract may define a transfer of 20 percent of the shares as a change in control.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Transfers without a change in control are commonly permitted with notice, and the Guide notes some contracts set a threshold such as 20 percent rather than 51 percent (Ch 1 §7.5.3, note 109). Both statements are true."
+    },
+    {
+      "question": "Why does the Guide link the regulation of share transfers to the fairness of the procurement?",
+      "options": [
+        "The proposed ownership was likely considered when the bids were evaluated",
+        "Only public bodies may legally buy shares in a PPP company",
+        "Share prices must be published in the tender documents in advance",
+        "Lenders set the share price of the SPV at financial close"
+      ],
+      "answer": 0,
+      "explanation": "The ownership of the PPP company was probably part of the bid evaluation, so an early sale could undo the fairness of the competition (Ch 1 §7.5.3). This is why opportunistic 'win then sell' behaviour is controlled."
+    },
+    {
+      "question": "After some years of operation, an SPV replaces its bank loans with cheaper debt and its equity IRR rises. What do many contracts require?",
+      "options": [
+        "Share part of the IRR increase with the public partner",
+        "Return all construction grants to the government",
+        "Run a new tender for the refinanced contract",
+        "Keep the whole gain as a reward for performance"
+      ],
+      "answer": 0,
+      "explanation": "Refinancing gain clauses typically require the private partner to share a percentage of the increase in equity IRR with the public partner (Ch 1 §7.5.4). The contract is not re-tendered and grants are not returned."
+    },
+    {
+      "question": "Why is requiring a fully committed financial package at bid submission more common after a shortlist?",
+      "options": [
+        "Lenders are not allowed to support bidders in open tenders",
+        "A shortlist limits how many bidders need committed lenders",
+        "Shortlisted bidders are exempt from bank due diligence",
+        "A shortlist removes the need for any bank support letters"
+      ],
+      "answer": 1,
+      "explanation": "Requiring finance up front needs a longer bid period and many lenders; a shortlist narrows the number of bidders needing lenders (Ch 1 §7.5.5). Banks still carry out due diligence."
+    },
+    {
+      "question": "Consider two statements about the timing of finance. 1. In markets where competitive dialogue is standard, the financial package is usually arranged up front. 2. In one-stage open tenders, financing is never allowed after contract signature.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Negotiated markets such as competitive dialogue usually, though not always, require finance up front, so statement 1 is true. One-stage open tender markets often allow financing after commercial close, so statement 2 is false (Ch 1 §7.5.5)."
+    },
+    {
+      "question": "Between bid submission and financial close, interest base rates rise sharply. What does the Guide describe as good practice?",
+      "options": [
+        "The lenders absorb the change until operations start",
+        "The tender is cancelled and relaunched at new rates",
+        "The bidder bears all of the change within its offer",
+        "The authority retains or shares the base rate risk"
+      ],
+      "answer": 3,
+      "explanation": "It is becoming standard good practice for the authority to retain or share interest base rate movements up to financial close (Ch 1 §7.5.5). Other financial terms normally remain the bidder's risk."
+    },
+    {
+      "question": "In which situation is a preferred bidder debt funding competition most suitable?",
+      "options": [
+        "A market with limited liquidity just after a banking crisis",
+        "A project where financial innovation drives the bid competition",
+        "A small project where advisory costs must be kept very low",
+        "A large project in a liquid, highly competitive lending market"
+      ],
+      "answer": 3,
+      "explanation": "Debt funding competitions suit large projects in competitive markets; the authority keeps most of the benefit and risk (Ch 1 §7.5.6). They are not suitable with limited liquidity or where financial innovation matters, and costs outweigh benefits for small projects."
     }
   ]
 }

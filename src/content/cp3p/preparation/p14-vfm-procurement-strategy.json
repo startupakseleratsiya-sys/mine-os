@@ -303,6 +303,446 @@
       ],
       "answer": 0,
       "explanation": "EPEC lists accelerated delivery, enhanced delivery and wider social impacts. The other options are not non-financial benefits; several are risks or misconceptions."
+    },
+    {
+      "question": "Which describes when the procurement of a project as a PPP represents value for money?",
+      "options": [
+        "It gives the private investors a return that is acceptable to their lenders and boards",
+        "It keeps the asset and its liabilities off the government balance sheet for the contract",
+        "It gives the lowest construction price of all the bids received in the tender process",
+        "It gives higher net economic benefits to society than a public option, over the whole life"
+      ],
+      "answer": 3,
+      "explanation": "The Guide defines VfM as a PPP delivering higher net economic benefits to society than a public procurement option, taking into account whole-life costs (Ch 4 §16). Lowest capital cost or off balance sheet treatment are not the test."
+    },
+    {
+      "question": "A procuring authority wants to start its VfM assessment before it has confirmed that the project makes economic sense at all. What should it do?",
+      "options": [
+        "Use the VfM result to decide whether the project creates net benefits for society",
+        "Confirm economic feasibility with the CBA first, then use VfM to compare delivery routes",
+        "Skip the CBA, because a positive VfM already proves the project is worth doing",
+        "Run the CBA only after contract award, using the prices from the winning bid"
+      ],
+      "answer": 1,
+      "explanation": "The VfM assessment is typically done after the CBA. The CBA confirms the project's economic feasibility for society; VfM then indicates whether a PPP or another route delivers it more efficiently (Ch 4 §16)."
+    },
+    {
+      "question": "Consider these two statements about qualitative VfM analysis. (1) Its advantage over quantitative analysis is that it does not rely on sometimes uncertain numerical assumptions. (2) Because it is objective, it can replace the quantitative analysis in every case.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is true. The Guide notes that qualitative analysis avoids uncertain numerical assumptions, but it is inevitably subjective, so its conclusions should, where possible, be viewed alongside the quantitative analysis (Ch 4 §16.2.2)."
+    },
+    {
+      "question": "According to Box 4.20 of the Guide, what is the purpose of the VfM assessment carried out in the Appraisal Phase?",
+      "options": [
+        "It guides negotiations over contract amendments",
+        "It gives feedback on the final contract for future projects",
+        "It decides which bidder becomes the preferred bidder",
+        "It is indicative for the decision to proceed as a PPP"
+      ],
+      "answer": 3,
+      "explanation": "At appraisal, VfM uses available data and is indicative for the procurement decision to proceed as a PPP (Box 4.20). Feedback for future projects comes after award, and negotiation guidance comes during contract management."
+    },
+    {
+      "question": "A careful appraisal-stage VfM shows that a sports stadium PPP cannot deliver VfM, even under optimistic assumptions. What should the appraisal team do?",
+      "options": [
+        "Launch the tender to test whether the market disagrees",
+        "Hide the result and rely only on the qualitative analysis",
+        "Recommend not proceeding as a PPP before the Structuring Phase",
+        "Continue into structuring and hope bids will improve the result"
+      ],
+      "answer": 2,
+      "explanation": "It is good practice to produce a confident VfM at appraisal; if it shows VfM is practically impossible, the team should recommend that the project not proceed as a PPP before structuring. The government then considers traditional procurement (Ch 4 §16.1)."
+    },
+    {
+      "question": "A year after awarding a road PPP, the PPP unit repeats the VfM analysis with the signed contract. What is the main value of this exercise?",
+      "options": [
+        "It replaces the need for any VfM work in future projects",
+        "It checks with real data whether the risk transfer was well designed",
+        "It sets the tariff increases for the first years of operation",
+        "It allows the authority to reopen the award if the result is poor"
+      ],
+      "answer": 1,
+      "explanation": "After award, risk transfer is fixed and prices are known, so VfM can be run with real data to test whether risk transfer was properly developed and to draw lessons for future projects (Ch 4 §16.1, Box 4.20)."
+    },
+    {
+      "question": "In year 12 of a hospital PPP, the authority is negotiating a major contract amendment that changes the risk allocation. How should VfM be used?",
+      "options": [
+        "Run a full VfM with the amendment and revised risk allocation to guide negotiation",
+        "Ask the private partner to prepare the VfM and accept its figures as final",
+        "Replace VfM with a new cost-benefit analysis of the whole hospital project",
+        "Rely on the appraisal-stage VfM, because VfM is never revisited after award"
+      ],
+      "answer": 0,
+      "explanation": "During contract management, a full VfM considering amendments and reviewed risk allocation gives guidelines for negotiating with the private partner (Box 4.20). Ex-post reviews are also useful when a contract is significantly modified or extended."
+    },
+    {
+      "question": "An appraisal team needs cost data to build the raw Public Sector Comparator for a new courthouse. What is the most common source of this data?",
+      "options": [
+        "The prices in the bids received during the tender",
+        "The benefit estimates in the cost-benefit analysis",
+        "The banking case prepared by the bidders' lenders",
+        "The base case from the commercial feasibility exercise"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the most common source of raw PSC data is the base case produced in the commercial feasibility exercise (Ch 4 §16.2.1). Bids are not available at appraisal, and CBA benefits are not PSC costs."
+    },
+    {
+      "question": "The commercial base case for a prison assumes an 8 percent saving in operating costs from private sector innovation. How should this be treated in the raw PSC?",
+      "options": [
+        "Keep it, and add it again as a competitive neutrality adjustment",
+        "Remove the saving, as the PSC reflects direct government delivery",
+        "Keep the saving, as both options should have identical costs",
+        "Double the saving, to reflect weaker public sector management"
+      ],
+      "answer": 1,
+      "explanation": "All efficiency gains from private sector involvement that are in the base case must be excluded from the raw PSC, because the PSC reflects direct delivery by government (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "A toll bridge would collect the same user tolls under both traditional delivery and a PPP. How should the tolls be treated when building the PSC?",
+      "options": [
+        "Include them in the PPP cost but not in the PSC calculation",
+        "Exclude them, because only government costs belong in the PSC",
+        "Include them, because the PSC shows the net fiscal cost to government",
+        "Exclude them, because user revenue is a private sector benefit"
+      ],
+      "answer": 2,
+      "explanation": "Non-fiscal revenues such as user payments should be included in the PSC, because the raw PSC reflects the net fiscal impact (costs less revenues) (Ch 4 §16.2.1). Only revenues government could not easily earn, such as advertising, are left out."
+    },
+    {
+      "question": "The commercial base case for a tunnel already includes a contingency for construction risk. Historical data show public tunnels overrun by much more. How should the risk adjustment to the PSC be set?",
+      "options": [
+        "Remove the base case contingency and replace it with a private sector estimate",
+        "Make no adjustment, because a contingency already exists in the base case",
+        "Add the full historical overrun on top of the base case, including its contingency",
+        "Add only the cost variation of traditional delivery beyond what the base case allows"
+      ],
+      "answer": 3,
+      "explanation": "The base case already includes some evaluation of risk, so the PSC risk adjustment should cover potential cost variations of traditional procurement on top of the risks already considered (Ch 4 §16.2.1). Adding the full overrun would double count."
+    },
+    {
+      "question": "Under both the PPP and traditional delivery, the government would keep the risk of archaeological finds on the site. How should this risk be treated in the VfM comparison?",
+      "options": [
+        "Add it to the PSC only, to make the comparison prudent",
+        "Add it to the PPP cost only, as the contract names it",
+        "Leave it out of both options, as it is retained in both",
+        "Add it to both options at double the expected value"
+      ],
+      "answer": 2,
+      "explanation": "Only risks transferred to the private party under the PPP are used in the PSC adjustment. Risks allocated to government in both alternatives are disregarded in both, which is the simpler method (Ch 4 §16.2.1, footnote 59)."
+    },
+    {
+      "question": "Under traditional delivery, a new hospital is likely to open two years later than under a PPP, leaving patients without the service. Which PSC adjustment reflects this?",
+      "options": [
+        "A competitive neutrality adjustment adding a tax effect to the PSC",
+        "A socio-economic adjustment adding the cost of the absent service",
+        "A reduction in the PSC to reflect faster public capital spending",
+        "A regulatory cost adjustment added to the PPP cost stream"
+      ],
+      "answer": 1,
+      "explanation": "A socio-economic adjustment can add to the PSC the monetary cost of the absence of service during probable delays under traditional delivery (Ch 4 §16.2.1). It is less common than the risk adjustment, but some countries use it."
+    },
+    {
+      "question": "Under traditional delivery, the public agency would pay no corporate income tax, while the private partner would. Which adjustment does the Guide describe for this difference?",
+      "options": [
+        "A competitive neutrality adjustment, usually by adding a tax effect to the PSC",
+        "No adjustment, because tax is outside the scope of any VfM assessment",
+        "A risk adjustment, by adding expected construction overruns to the PSC",
+        "A socio-economic adjustment, by adding the cost of delays to the PSC"
+      ],
+      "answer": 0,
+      "explanation": "Competitive neutrality adjustments remove cost advantages of public delivery that are only apparent; the most common is adding a tax effect to the PSC (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "Under a PPP, the private operator will pay tax on the extra profit it earns for taking more risk. How should the VfM analysis treat this on the PPP side?",
+      "options": [
+        "Deduct it from the PSC as a public sector saving",
+        "Ignore it, because the tax goes to a different ministry",
+        "Reflect it as additional tax received by the government",
+        "Add it to the PPP cost as an extra charge to government"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says tax receipts differ under a PPP, because the private operator pays tax on its differential profit, so the analysis should reflect the additional tax received by government (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "The PPP option will need an independent construction certifier and four extra contract management staff, which traditional delivery would not need. How should these costs be treated?",
+      "options": [
+        "Split them equally between the PSC and the PPP cost streams",
+        "Ignore them, as they are small compared with the capital cost",
+        "Add them to the PSC, as the government would pay the staff anyway",
+        "Add them to the PPP cost, as they relate only to the PPP option"
+      ],
+      "answer": 3,
+      "explanation": "Project management and transaction costs, such as extra agency staff or independent certifiers, must be added to PPP costs whenever they relate exclusively to the PPP alternative (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "A state-owned bank will offer the PPP project company a loan at a subsidised interest rate that would not be available under traditional delivery. What should the VfM analysis do?",
+      "options": [
+        "Count the subsidy as a saving that reduces the PPP option cost",
+        "Count the subsidy as an extra cost of the PPP option to taxpayers",
+        "Add the subsidy to the PSC to make the options comparable",
+        "Ignore it, because the loan is made by a separate legal entity"
+      ],
+      "answer": 1,
+      "explanation": "Other public financial support only possible under the PPP, such as subsidised SOE loans, is an indirect cost to taxpayers that must be included in the PPP cost for a fair analysis (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "A ministry chooses to discount both the PSC and the PPP cost streams at the government's risk-free borrowing rate. Which justification does the Guide give for this approach?",
+      "options": [
+        "It is a government investment decision, so its cost of money applies",
+        "The project lenders fix this rate in the financing documents",
+        "Each project has its own risk profile, so each needs its own rate",
+        "Society values consumption today above consumption in the future"
+      ],
+      "answer": 0,
+      "explanation": "The Guide explains that using the government's opportunity cost of funds treats the PPP choice as a government investment decision whose cost of money sets the payment schedule (Ch 4 §16.2.1). The other two options justify the project-specific and social time preference rates."
+    },
+    {
+      "question": "A PPP unit uses a low discount rate for one project and a high rate for another, each time picking the rate that favours a PPP. What does the Guide say it should do?",
+      "options": [
+        "Let each bidder propose the rate used in the comparison",
+        "Choose the rate that gives the most positive VfM each time",
+        "Always use the same rate as the project's equity investors",
+        "Choose a clearly justified method and apply it consistently"
+      ],
+      "answer": 3,
+      "explanation": "Because the discount rate directly affects the VfM conclusion, its choice should be made carefully, clearly justified and applied through a consistent methodology, not inconsistent decisions for different projects (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "Consider these two statements about VfM discount rates. (1) The VfM discount rate must be the same as the rate used in the project's CBA. (2) The choice of discount rate has little effect on the VfM conclusion.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "Neither is true. The VfM rate need not match the CBA rate, because the CBA has different purposes and cash flows, and the Guide says the discount rate directly affects the VfM conclusion (Ch 4 §16.2.1, footnote 61)."
+    },
+    {
+      "question": "A VfM analysis gives an adjusted PSC NPV of 480 and a PPP NPV of 500. What is the correct response of the appraisal team?",
+      "options": [
+        "Lower the discount rate until the result becomes positive for the PPP",
+        "Reject the PPP at once, because the pass or fail test has been failed",
+        "Test the key inputs, because negative VfM does not prove the PPP is worse",
+        "Accept the PPP, because a difference of 20 is too small to matter"
+      ],
+      "answer": 2,
+      "explanation": "A negative VfM does not mean the PPP route is worse; sensitivities of important inputs should be developed to test the robustness of the result, and qualitative analysis must follow (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "Consider these two statements about quantitative VfM. (1) Some countries choose not to use quantitative VfM at all. (2) Taken as a reference only, VfM is useful to show the capacity of a PPP to increase efficiency.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. Because using VfM as a scientific pass or fail test is highly criticised, some countries do not use it; but as a reference only, the Guide says the tool is very useful (Ch 4 §16.2.1)."
+    },
+    {
+      "question": "Which of the following is a focus of qualitative VfM analysis, as described in the Guide?",
+      "options": [
+        "The discount rate chosen by the ministry of finance for all projects",
+        "The expertise the private sector can bring and ways to reduce information gaps",
+        "The historic overrun percentages used in the risk adjustment",
+        "The exact NPV difference between the PSC and the PPP cost streams"
+      ],
+      "answer": 1,
+      "explanation": "Qualitative VfM checks whether the project fits private investment, including the expertise the private sector can contribute and mechanisms to reduce information asymmetry between government and the private sector (Ch 4 §16.2.2)."
+    },
+    {
+      "question": "The benefit of earlier opening under a PPP has already been added to the PSC as a socio-economic adjustment. How should accelerated delivery be treated in the qualitative review?",
+      "options": [
+        "Not count it again as an extra benefit, to avoid double counting",
+        "Count it twice, because early delivery is the main PPP advantage",
+        "Add it again, because qualitative and quantitative views are separate",
+        "Remove it from the PSC and discuss it only in the qualitative review"
+      ],
+      "answer": 0,
+      "explanation": "Some non-financial benefits may already be in the PSC adjustments and must not be double counted; only factors that are not quantified should be discussed in depth qualitatively (Ch 4 §16.2.2)."
+    },
+    {
+      "question": "A government is appraising a 25-year PPP for a digital records system in a sector where technology changes fast. What should the qualitative VfM analysis highlight?",
+      "options": [
+        "The loss of policy flexibility and the risk of obsolescence, with mitigation",
+        "Nothing further, as the quantitative VfM already covers all the issues",
+        "The positive effect of long contracts on flexibility in dynamic sectors",
+        "Only the financial benefits, since qualitative problems are not relevant"
+      ],
+      "answer": 0,
+      "explanation": "The qualitative review must highlight problems such as lack of future policy flexibility, especially in dynamic sectors, with a strategy to mitigate them (Ch 4 §16.2.2). UK criteria treat fast-changing sectors such as ICT as unsuitable for PFI (Box 4.21)."
+    },
+    {
+      "question": "Which of the following is one of the UK Treasury's 'unsuitability' criteria for PFI, mentioned in the Guide?",
+      "options": [
+        "A competitive bidding market for this type of project",
+        "A contracting authority without the skills to manage a PPP",
+        "Stable and adequate public policy and institutions",
+        "A long-term and predictable need for the public service"
+      ],
+      "answer": 1,
+      "explanation": "UK unsuitability criteria include projects that are too small or too complicated, sectors with changing needs or obsolescence risk, and an inadequately skilled contracting authority (Box 4.21). The other options are suitability criteria."
+    },
+    {
+      "question": "A PPP unit says the procurement strategy is purely a task for the Structuring Phase and does not need to be considered at appraisal. How should the appraisal lead respond?",
+      "options": [
+        "Agree, because the procurement strategy is fixed only after the RFP is issued",
+        "The full detailed tender documents must be finished during appraisal",
+        "Agree, because the procurement route is set by the preferred bidder later",
+        "The general strategy should be chosen at least preliminarily during appraisal"
+      ],
+      "answer": 3,
+      "explanation": "Many details are designed in structuring, but the general procurement strategy should be chosen, at least preliminarily, during the Appraisal Phase (Ch 4 §17). The appraisal report also states the route chosen."
+    },
+    {
+      "question": "Which two issues does the Guide say drive the choice of the procurement strategy?",
+      "options": [
+        "The discount rate for VfM and the length of the construction period",
+        "The nationality of the bidders and the currency of their financing",
+        "The approach to qualifications and the approach to the request for proposals",
+        "The accounting standard used and the government's debt ceiling position"
+      ],
+      "answer": 2,
+      "explanation": "The two relevant issues are the approach to qualifications (timing of the RFQ, short list or pass/fail) and the approach to the RFP (timing of its finalisation and whether negotiations are allowed) (Ch 4 §17)."
+    },
+    {
+      "question": "A procuring authority publishes one tender package. Bidders submit qualifications together with their proposals, there is no short list, each bidder submits one bid, and only public clarifications are allowed. Which route is this?",
+      "options": [
+        "Open tender, or one-stage tender process",
+        "Open tender with pass/fail pre-qualification",
+        "Dialogue or interaction process",
+        "Restricted procedure with a short list"
+      ],
+      "answer": 0,
+      "explanation": "In the one-stage open tender, the RFQ is integrated with the RFP, there is no short list, only one bid is submitted and clarifications are allowed, with no negotiation (Appendix A, Table A1)."
+    },
+    {
+      "question": "An authority first issues an RFQ. Every firm that meets the minimum criteria is invited to bid, with no ranking or short list, and there is one round of bids without negotiation. Which route is this?",
+      "options": [
+        "Open tender, or one-stage tender process",
+        "Open tender with pass/fail pre-qualification",
+        "Negotiated process with a best and final offer",
+        "Restricted procedure with a short list"
+      ],
+      "answer": 1,
+      "explanation": "The open tender with pass/fail pre-qualification separates the RFQ and RFP but has no short listing; usually one round of bidding follows with no negotiations (Appendix A, A2.2)."
+    },
+    {
+      "question": "After an RFQ, an authority ranks the qualified firms and invites only the top four to submit one bid each, with no negotiations. Which route is this?",
+      "options": [
+        "Restricted procedure",
+        "Competitive dialogue",
+        "One-stage open tender",
+        "Negotiated process"
+      ],
+      "answer": 0,
+      "explanation": "In the restricted procedure, qualifying bidders are ranked and a limited number of the highest-ranking are short listed and invited to submit one bid (Appendix A, A2.3). A negotiated process would add negotiations and iterative bids."
+    },
+    {
+      "question": "An authority issues the RFP and contract, then holds interactive workshops with each bidder while they develop their bids, and has a final negotiation phase after evaluation. Which approach is this?",
+      "options": [
+        "The one-stage open tender with public clarifications",
+        "The EU style of competitive dialogue on the final RFP",
+        "The restricted procedure with one bid per short-listed firm",
+        "The Australia and New Zealand style of interaction process"
+      ],
+      "answer": 3,
+      "explanation": "In Australia and New Zealand, the RFP and contract are issued and workshops shape the bids rather than the RFP, and a final negotiation phase is usual (Appendix A, A2.5). The EU approach uses dialogue to change the RFP and contract."
+    },
+    {
+      "question": "Consider these two statements about dialogue processes. (1) In the EU approach, dialogue mainly helps bidders interpret an RFP that does not change. (2) In the Australia and New Zealand approach, a final negotiation phase after the first evaluation is usual.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Only statement 2 is true. In the EU approach, dialogue defines the final terms of the RFP and contract, which change to reflect bidders' feedback; it is the Australia and New Zealand approach that influences the bids rather than the RFP (Appendix A, A2.5)."
+    },
+    {
+      "question": "In the negotiated process with best and final offer (BAFO) described in the Guide, how is the preferred bidder normally chosen once the two remaining candidates submit their BAFOs?",
+      "options": [
+        "By negotiation with all bidders",
+        "By the highest technical score",
+        "Normally on price alone",
+        "By a vote of the lenders"
+      ],
+      "answer": 2,
+      "explanation": "In this negotiated process, two candidates are selected, negotiate in parallel and then submit BAFOs; the selection criterion for the preferred bidder will normally be price only (Appendix A, A2.4)."
+    },
+    {
+      "question": "To save time, a minister asks the PPP unit to negotiate a bus depot PPP directly with a well-known local firm, without a tender. What should the PPP unit advise?",
+      "options": [
+        "Negotiate directly, provided the firm accepts a lower equity return",
+        "Negotiate directly, but publish the final contract after signature",
+        "Negotiate directly, as a known firm reduces the risk of project failure",
+        "Run a competitive process, as direct negotiation suits only very few cases"
+      ],
+      "answer": 3,
+      "explanation": "The usual process should be competitive. Direct awarding or negotiation might be appropriate only in very few circumstances, and most reasons given for it are considered spurious (Appendix A, A1, footnote 68)."
+    },
+    {
+      "question": "A city decides to tender an innovative unsolicited proposal for flood defences. The proposer asks for some reward for its work. Which approach follows the Guide?",
+      "options": [
+        "Offer evaluation credits, while giving other bidders an equal and transparent chance",
+        "Grant the proposer the right to match the best bid received from any competitor",
+        "Award the contract directly, because the proposer owns the innovative idea",
+        "Give no recognition, because the proposer's intellectual property is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "The competitive procurement should recognise the proponent's intellectual property; the proponent may get benefits such as evaluation credits, but other bidders must have an equal and transparent opportunity to bid (Ch 4 §18)."
+    },
+    {
+      "question": "A ministry receives its first unsolicited proposal and wants to review it. What should it check before going any further with a USP approach?",
+      "options": [
+        "Whether the proposer will accept a direct award without competition",
+        "Whether a USP approach is legal and desirable under the country's policy",
+        "Whether the proposal is cheaper than all projects in the pipeline",
+        "Whether the proposer has already hired lenders and technical advisers"
+      ],
+      "answer": 1,
+      "explanation": "In all instances, the Guide says an assessment should be made of whether a USP approach is legal and desirable, and the country's legal parameters on USPs reviewed before any agency proceeds (Ch 4 §18)."
+    },
+    {
+      "question": "At the federal level in Brazil, which body makes the green light decision to procure a PPP?",
+      "options": [
+        "The contracting agency alone, once it has completed its appraisal report",
+        "An independent panel of lenders and multilateral development banks",
+        "A PPP council of the planning and finance ministries and the president's office",
+        "The national audit court, after reviewing the draft contract and tender"
+      ],
+      "answer": 2,
+      "explanation": "In Brazil, the appraisal report is submitted to a PPP council composed of representatives of the ministry of planning, the ministry of finance and the president's cabinet, which makes the green light decision (Ch 4 §19)."
+    },
+    {
+      "question": "A municipality in South Africa has obtained Treasury Approval I for its PPP, based on a feasibility report with statements of affordability and VfM. What does this approval allow?",
+      "options": [
+        "Starting construction before the tender is launched",
+        "Signing the contract directly with the preferred bidder",
+        "Reaching financial close with the project lenders",
+        "Moving on to draft the contract and the tender documents"
+      ],
+      "answer": 3,
+      "explanation": "Under Treasury Regulation 16, Treasury Approval I is based on the feasibility report, which includes statements of affordability and VfM, and allows the project to move to drafting the contract and tender documents (Ch 4 §19)."
+    },
+    {
+      "question": "A consultant prepares an appraisal report using a standard international template, but the country's PPP law requires specific reports in a set format for the green light. What should the procuring authority do?",
+      "options": [
+        "Replace the national reports with a single quantitative VfM summary",
+        "Adapt the appraisal to meet the national requirements for content and form",
+        "Wait for the regulator to request any missing reports after the tender",
+        "Submit the template, because international good practice overrides local law"
+      ],
+      "answer": 1,
+      "explanation": "Specific countries may have particular regulatory requirements for the content or form of the appraisal; these must be fully considered and the appraisal exercises adapted accordingly (Ch 4 §19)."
     }
   ]
 }

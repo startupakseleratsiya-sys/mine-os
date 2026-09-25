@@ -287,7 +287,7 @@
       "explanation": "The Guide classifies PPPs by revenue source, SPV ownership, contract scope and the relevance of private financing. Legal tradition affects the names used for PPPs, not the classification of PPP types."
     },
     {
-      "question": "Which statement about affermage is correct?",
+      "question": "Which statement best describes how affermage works?",
       "options": [
         "It is a UK term for government-pays DBFOM contracts",
         "It is always used for new infrastructure with large capital investment",
@@ -307,6 +307,446 @@
       ],
       "answer": 0,
       "explanation": "BOT, BOOT and similar names capture legal ownership, while DBFOM-type names describe functions and do not refer to ownership. Ownership is not at the heart of the PPP concept."
+    },
+    {
+      "question": "A city signs a 3-year contract for a private firm to maintain its street lights, paid a fixed fee with KPI deductions. Is it a service PPP under the Guide?",
+      "options": [
+        "No; 2–4 years is too short to transfer cost and result risks",
+        "Yes; the pay is linked to KPIs, so it is performance-based",
+        "Yes; any contract for existing infrastructure is a service PPP",
+        "No; every service PPP must include private finance"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says 2–4 years is not long enough for service management or maintenance to be a PPP, because risk linked to costs and results cannot be properly transferred (Ch 1 §2.3). Service PPPs do not need private finance."
+    },
+    {
+      "question": "Consider these two statements about leases (Table 1.4). 1: Leases are more commonly seen with O&M contracts on existing infrastructure, mostly in user-pays PPPs. 2: In some countries, 'lease' is reserved for contracts where the private partner is responsible for all capital expenditure.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.4 says leases are mostly used for O&M contracts on existing infrastructure, normally user-pays. In some countries 'lease' is reserved for contracts where the government stays responsible for capital expenditure, so statement 2 is false."
+    },
+    {
+      "question": "A 15-year contract to run a city's bus depot pays the operator its actual costs each year plus a 6% margin. Why is it not a PPP?",
+      "options": [
+        "Fifteen years is too short for any service PPP",
+        "Bus services can never be procured as PPPs",
+        "The operator does not own the depot buildings",
+        "Cost-plus pay transfers little, if any, risk to the operator"
+      ],
+      "answer": 3,
+      "explanation": "None of the Guide's service PPP examples is a PPP if pay is on a cost-plus basis, because it transfers little, if any, risk (Ch 1 §2.3). Length is not the problem here, and a 15-year bus concession is one of the Guide's examples."
+    },
+    {
+      "question": "A 15-year bus concession requires the partner to renew a few buses each year. Why is it treated as a service PPP rather than a DBFOM?",
+      "options": [
+        "Bus services never need any capital investment at all",
+        "The partner does not collect any fares from passengers",
+        "The initial investment is relatively small and the main cost is annual",
+        "Its term is too short for any DBFOM-type contract"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says such contracts are management or service contracts because the initial investment is relatively small and the predominant cost is annual. Where initial investment is significant, the contract could easily be a private finance PPP."
+    },
+    {
+      "question": "Consider these two statements. 1: A management contract with a significant initial investment could easily be classified as a private finance PPP. 2: Whether a contract is a PPP is a question of degree and judgement.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide says classifying a contract as a PPP is a matter of degree and judgement, and significant initial investment can make it a private finance PPP (Ch 1 §2.3)."
+    },
+    {
+      "question": "Why does the Guide say management contracts give more limited efficiency gains than PPPs?",
+      "options": [
+        "The contractor is always paid on a cost-plus basis for its work",
+        "Little private capital is at stake, so lenders' due diligence is missing",
+        "The public sector gives up ownership of the assets it manages",
+        "They must run for longer than the useful life of the assets"
+      ],
+      "answer": 1,
+      "explanation": "Management contracts involve no significant private capital, so they lack disciplinary mechanisms such as lenders' due diligence and capital exposed to performance risk (Ch 1 §2.3). The public sector keeps ownership."
+    },
+    {
+      "question": "A government wants private expertise in its water utility, but the public dislikes private investment and the government does not want a long-term commitment. Which option does the Guide suggest may be useful?",
+      "options": [
+        "A 30-year user-pays concession",
+        "A full privatisation by share sale",
+        "A management contract",
+        "An asset monetisation lease"
+      ],
+      "answer": 2,
+      "explanation": "Management contracts can be politically and socially more acceptable, for example in water, and are useful when there is no long-term commitment or no private willingness to invest. The other options are long-term or permanent."
+    },
+    {
+      "question": "Which best describes a conventional O&M contract, according to the Guide?",
+      "options": [
+        "Long-term and performance-based, with life-cycle risk transferred",
+        "Financed by the operator and repaid by availability payments",
+        "Often cost-plus or input-based, under highly prescriptive documents",
+        "Based on an upfront fee paid for the rights to user revenue"
+      ],
+      "answer": 2,
+      "explanation": "Conventional O&M contracts are usually based on cost-plus and/or pay for inputs rather than results, under highly prescriptive documents (Ch 1 §2.3). Long-term risk transfer and performance focus describe a service PPP."
+    },
+    {
+      "question": "Consider these two statements about conventional O&M contracts. 1: They are not regarded as PPPs. 2: The Guide says they should be avoided because they lack flexibility.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Conventional O&M contracts are not PPPs. But the Guide says they are suitable in many contexts and have the advantage of flexibility."
+    },
+    {
+      "question": "A government owns a profitable toll road. It grants a 40-year concession that transfers O&M, life-cycle costs and toll revenue rights, for a large upfront fee. How does the Guide treat this contract?",
+      "options": [
+        "As a privatisation, since revenue rights move",
+        "As a private finance PPP (asset monetisation)",
+        "As a management contract with no real risk",
+        "As a financial lease used for tax benefits"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.10 treats long-term leases or concessions of existing user-pays assets for an upfront fee as private finance PPPs. The asset is not permanently sold, so it is not a privatisation."
+    },
+    {
+      "question": "According to the Guide, what above all decides whether an asset monetisation gives value for the government?",
+      "options": [
+        "What is done with the proceeds",
+        "How long the lease term is",
+        "How many bidders take part",
+        "Which legal title is used"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.10 says value depends on a fair price and, above all, what is done with the proceeds, such as new infrastructure or less debt. A clear plan for the proceeds also helps public consent."
+    },
+    {
+      "question": "Consider these two statements about asset recycling. 1: Asset recycling always uses PPP structures. 2: Brownfield PPPs can be part of an asset recycling programme.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Brownfield PPPs can be part of asset recycling, but it can also use non-PPP structures such as securitisation of revenues or outright sale of assets (Box 1.10)."
+    },
+    {
+      "question": "Which is NOT one of the other ways listed in the Guide for a government to capture value when it monetises an asset?",
+      "options": [
+        "An upfront fee plus a minority stake in the project company",
+        "A yearly fee, fixed or as a percentage of revenue",
+        "A shorter lease term so the asset comes back sooner",
+        "Guaranteeing the partner a minimum return on equity"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.10 lists an upfront fee plus a minority stake, a yearly fee, and a shorter lease term. A return guarantee would give value away rather than capture it."
+    },
+    {
+      "question": "Complete the sentence: In its strictest sense, privatisation means ____.",
+      "options": [
+        "any form of private management of public services, including all PPPs",
+        "the permanent transfer of a public asset and service responsibility to the private sector",
+        "a time-limited contract that ends with hand-back of the asset to government",
+        "the sale of a minority of a public company's shares on the stock market"
+      ],
+      "answer": 1,
+      "explanation": "Strictly, privatisation is the permanent transfer of a public asset and the duty to deliver the service. Using the word broadly to include PPPs is exactly the confusion the Guide warns against (Ch 1 §2.4)."
+    },
+    {
+      "question": "In a privatised company, who mainly sets the quality, quantity and price of the service?",
+      "options": [
+        "The private provider, within market and regulatory rules",
+        "The government, through a detailed output specification",
+        "The lenders, through the covenants in their loans",
+        "The users, through a vote at the annual meeting"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.1 says in privatisation the private providers set quality, quantity and price, although regulation may impose KPIs or price rules. Detailed government specification is a PPP feature."
+    },
+    {
+      "question": "Consider these two statements about Table 1.1. 1: KPIs may be imposed on a privatised company through regulation. 2: A concession may include a buyback provision reflecting fair market value at the end of the term.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide notes that KPIs can be imposed on a privatised entity by regulation, and that a concession could include a buyback provision at fair market value (Table 1.1)."
+    },
+    {
+      "question": "In which sectors does the Guide say privatisation is typical?",
+      "options": [
+        "Hospitals and schools, when budgets are tight",
+        "Rail, when fares are kept low for social reasons",
+        "Prisons and courts, when capacity is too short",
+        "Telecoms and energy, when a sector is liberalised"
+      ],
+      "answer": 3,
+      "explanation": "The Guide gives telecoms and energy as typical examples: a government liberalises the sector and sells its monopoly company, sometimes after splitting it. Social infrastructure is usually procured through contracts."
+    },
+    {
+      "question": "Why are regulated investor-owned utilities NOT procurement methods, according to the Guide?",
+      "options": [
+        "They never charge users for the electricity or telecom services they provide",
+        "They are always owned by state enterprises rather than private investors",
+        "The government grants a right to run a business under regulation, for an unlimited time",
+        "They are paid availability payments by the sector regulator each month"
+      ],
+      "answer": 2,
+      "explanation": "The public sector is not contracting for a specific asset; it authorises a private business under regulated conditions with no time limit (Ch 1 §2.4). Like user-pays PPPs, these utilities do charge users."
+    },
+    {
+      "question": "Why is a 99-year public domain concession of port land NOT a PPP?",
+      "options": [
+        "Its term is longer than any PPP is allowed to last",
+        "The land never reverts to the government at the end",
+        "There is no contract and the government is a passive regulator",
+        "Port facilities can never be procured as PPPs"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says public domain concessions are not PPPs because there is no contract and the government acts as a relatively passive regulator, unlike a PPP where it actively manages a contract. The land does revert at the end."
+    },
+    {
+      "question": "A state sells 49% of its airport operator's shares through an IPO. The company's management does not change. How does the Guide classify this?",
+      "options": [
+        "An institutional PPP under public control",
+        "A partial privatisation, which is not a PPP",
+        "A joint venture, which counts as a PPP",
+        "An asset monetisation, which is a PPP"
+      ],
+      "answer": 1,
+      "explanation": "A share sale is a partial privatisation or divestiture. There is no contract in the strict sense and private investors do not control the service, as in the AENA case in 2014 (Ch 1 §2.4)."
+    },
+    {
+      "question": "In the Guide's comparison of contract types (Table 1.2), which feature does a DBOM have but a DBF does not?",
+      "options": [
+        "Finance provided by the private sector",
+        "A formal contract between the parties",
+        "Design-build and O&M bundled in one contract",
+        "Revenues linked to use by the users"
+      ],
+      "answer": 2,
+      "explanation": "Table 1.2 shows DB and O&M bundled in DBOM but not in DBF. DBF has private finance and DBOM does not; both have a formal contract."
+    },
+    {
+      "question": "Which scope type does the Guide use for a PPP where the partner develops infrastructure and also has the right and obligation to operate a service?",
+      "options": [
+        "An infrastructure PPP",
+        "An integrated PPP",
+        "An O&M or service PPP",
+        "An institutional PPP"
+      ],
+      "answer": 1,
+      "explanation": "Section 3.1 calls these integrated PPPs. An infrastructure PPP focuses on developing and managing the asset, a service PPP has no capital investment, and 'institutional' refers to ownership, not scope."
+    },
+    {
+      "question": "Under the ownership factor in Section 3.1, how does the Guide describe a conventional PPP?",
+      "options": [
+        "An SPV that is 100% privately owned",
+        "An SPV controlled by the public party",
+        "An SPV with material public equity and board votes",
+        "An SPV wholly owned by a state enterprise"
+      ],
+      "answer": 0,
+      "explanation": "Section 3.1 lists conventional PPPs as 100% private ownership. Public control makes it institutional, and a material public stake with board votes makes it a joint venture."
+    },
+    {
+      "question": "Which PPP classification does the Guide call the most relevant?",
+      "options": [
+        "Greenfield versus brownfield",
+        "User-pays versus government-pays",
+        "Conventional versus institutional",
+        "Infrastructure versus service"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the main classification is by the source of the partner's revenue: user-pays versus government-pays (Section 3.1 and Box 1.12). The others are secondary ways of describing PPPs."
+    },
+    {
+      "question": "Under the Guide's 'relevance of private financing' factor, what makes a PPP co-financed or hybrid?",
+      "options": [
+        "Public and private shareholders in the same SPV",
+        "A material portion of public finance, usually grants",
+        "A mix of bank loans and bonds in the financing",
+        "Both construction and O&M included in the scope"
+      ],
+      "answer": 1,
+      "explanation": "Section 3.1 defines co-financed or hybrid PPPs as schemes with a material portion of public finance, usually grants. Shared public and private ownership falls under the ownership factor instead."
+    },
+    {
+      "question": "An investor buys a stake in a toll road PPP that has been open and operating for eight years. In the investor industry's terms, what is this investment?",
+      "options": [
+        "Brownfield",
+        "Greenfield",
+        "Yellowfield",
+        "Asset recycling"
+      ],
+      "answer": 0,
+      "explanation": "Brownfield covers assets that existed before procurement or earlier greenfields that are now in operation. Greenfield means new assets under construction or recently awarded, and yellowfield means significant renewal or expansion."
+    },
+    {
+      "question": "When the name DBFO is used for a PPP, what is usually true about maintenance?",
+      "options": [
+        "Maintenance stays with the government's own staff",
+        "Maintenance is paid on a cost-plus basis",
+        "Maintenance is left out of the contract scope",
+        "Maintenance is treated as implicit in 'operate'"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.3 says that when DBFO is used, the 'maintain' function is sometimes considered implicit in operations. DBFO is still a synonym for a private finance PPP."
+    },
+    {
+      "question": "Why can BOT-type acronyms be confusing in many civil code countries?",
+      "options": [
+        "Civil code law does not allow any private finance of public assets",
+        "Civil code countries do not allow the asset to be handed back",
+        "The partner is usually only the economic owner; legal ownership stays public",
+        "In those countries BOT always means a government-pays contract"
+      ],
+      "answer": 2,
+      "explanation": "In many civil code countries full legal ownership by the partner is not possible; the asset stays in the public domain and the partner is only the economic owner (Table 1.3). So names built on 'own' and 'transfer' can mislead."
+    },
+    {
+      "question": "In a BTO contract, when is legal ownership of the asset on the private side?",
+      "options": [
+        "Only during operation",
+        "For the whole contract term",
+        "Only after the hand-back",
+        "Only during construction"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.3 says BTO refers to contracts where legal ownership is on the private side only during construction. The Guide treats BTO as a synonym of the DBFOM group."
+    },
+    {
+      "question": "What does the ROT name change compared with BOT?",
+      "options": [
+        "It replaces 'operate' with 'own' for permanent private assets",
+        "It removes the transfer of the asset at the end of the term",
+        "It adds government finance in place of private finance",
+        "It replaces 'build' with 'rehabilitate' for upgrading existing assets"
+      ],
+      "answer": 3,
+      "explanation": "ROT (Rehabilitate-Operate-Transfer) simply replaces 'build' with 'rehabilitate', for contracts whose investment is rehabilitation or upgrading. It is still a synonym of the DBFOM group."
+    },
+    {
+      "question": "Which describes a BOO arrangement in the Guide's nomenclature?",
+      "options": [
+        "The government builds and owns a facility, and the private sector only operates it",
+        "The private sector builds a facility and transfers it before it starts operating it",
+        "The private sector builds, owns and operates a facility and sells its output to users",
+        "The private sector rehabilitates an existing facility and returns it immediately"
+      ],
+      "answer": 2,
+      "explanation": "In a BOO the private sector builds, owns and operates the facility and sells the product or service to users or beneficiaries. Transfer before operation describes BTO, and rehabilitation describes ROO or ROT."
+    },
+    {
+      "question": "Consider these two statements about the term concession. 1: Chile and Spain also use it for government-pays DBFOM contracts. 2: All civil code countries reserve it for user-pays contracts only.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Some civil code countries, for example Chile and Spain, use 'concession' for government-pays DBFOMs, while others keep it for user-pays only. So statement 2 is false (Table 1.3)."
+    },
+    {
+      "question": "When can arrendamiento (leasing of public works) be used as a legal alternative to a government-pays DBFOM?",
+      "options": [
+        "When the asset is a toll road that is fully funded by user charges",
+        "When the land is disposable real estate, not land reserved for public use",
+        "When the private partner will keep the asset permanently after the term",
+        "When the tender process is exempt from public procurement law"
+      ],
+      "answer": 1,
+      "explanation": "Table 1.3 says arrendamiento is used for buildings when the land is real estate the government can dispose of. The contract is a private civil law contract, but the tender stays under public law."
+    },
+    {
+      "question": "How does Brazil's legal use of the term PPP differ from the approach in ESA 2010?",
+      "options": [
+        "Brazil uses PPP only for user-pays concessions",
+        "Brazil treats any DBFOM with any public payment as a PPP",
+        "Brazil requires most revenue to come from the budget",
+        "Brazil does not use PPP as a legal term at all"
+      ],
+      "answer": 1,
+      "explanation": "Under ESA 2010, and in many civil code laws, the legal term PPP applies where most revenue comes from the budget. Brazil treats any DBFOM with any level of public payment as a PPP (Table 1.3)."
+    },
+    {
+      "question": "What is a hybrid PPP, as defined in Table 1.3 of the Guide?",
+      "options": [
+        "A single contract that combines a lease title with an affermage title",
+        "An SPV owned half by the state and half by private investors",
+        "A PPP that switches from user-pays to government-pays during the term",
+        "Concessional financing combined with private investment to cover government support needs"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.3 describes hybrid PPPs as combining concessional financing with private investment, partly or fully covering the project's government support needs and improving affordability. Shared ownership describes a joint venture."
+    },
+    {
+      "question": "In the EBRD's 'public service contract plus project support agreement' structure, what does the project support agreement do?",
+      "options": [
+        "It transfers legal ownership of the water network to the EBRD",
+        "It records the authority's commitment to the EBRD to cover revenue shortfalls",
+        "It sets the tariffs that users must pay for the whole term",
+        "It appoints the EBRD as the private operator of the service"
+      ],
+      "answer": 1,
+      "explanation": "The project support agreement is signed by the procuring authority with the EBRD and contains a direct commitment to cover the financial revenue shortfall, often as service payments linked to performance (Table 1.3)."
+    },
+    {
+      "question": "Which describes a 'concession of services' in the Guide's Table 1.4?",
+      "options": [
+        "An O&M-type contract with no material investment, mostly funded by users",
+        "A DBFOM contract for new works paid mainly by availability payments",
+        "A permanent sale of a public utility company to private investors",
+        "A long grant of public land for a regulated use, such as a port"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.4 says a concession of services is an O&M-type contract with no significant investment, generally where most revenue comes from users, often for utilities. It can also be used for monetisation of an existing road or airport."
+    },
+    {
+      "question": "Consider these two statements about service contracts. 1: In civil code law, the term usually refers to transferring the operation of a public service such as water. 2: In common law countries, the term has a specific legal meaning linked to PPPs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "In civil code jurisdictions a service contract means transferring the operation of a public service. In common law countries it has no specific legal meaning and covers many short outsourcing contracts, and only a few are PPPs (Table 1.4)."
+    },
+    {
+      "question": "According to the Guide, what can give an O&M contract the attributes of a PPP?",
+      "options": [
+        "Payment on a cost-plus basis",
+        "A term of two to four years",
+        "Highly prescriptive input specifications",
+        "A requirement to invest substantial CAPEX"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.3 says an O&M contract can have PPP attributes when it requires substantial CAPEX, in addition to long term, life-cycle and cost risk transfer, and performance focus. Cost-plus pay and short terms point the other way."
+    },
+    {
+      "question": "Which group of PPP names is based mainly on the legal title to use and operate the asset?",
+      "options": [
+        "DBFOM, DBFM and DBFO",
+        "BOT, BOOT and BTO",
+        "Greenfield, brownfield and yellowfield",
+        "Lease, affermage and concession"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.12 says lease, affermage and concession describe the legal title granted to use and operate the asset. DBFOM names describe functions, BOT names describe ownership, and the 'field' terms describe the past use of the site."
     }
   ]
 }

@@ -38,7 +38,7 @@ export default async function CertificatePage({ params }: { params: Promise<{ le
         <p className="mt-8 text-sm text-[#65736d]">This certifies that</p>
         <p className="mt-2 text-3xl font-semibold tracking-tight sm:text-5xl">{name}</p>
         <p className="mx-auto mt-6 max-w-xl leading-7 text-[#52665e]">
-          completed all {course.chapters.length} lessons of the <span className="font-semibold text-[#13251f]">{course.title}</span> preparation course, passing every lesson test at 80% or more, and passed a full exam simulation in the official APMG format.
+          completed all {course.chapters.length} lessons of the <span className="font-semibold text-[#13251f]">{course.title}</span> preparation course, passing every 50-question lesson test with at least 46 correct, and passed a full exam simulation in the official APMG format.
         </p>
         <div className="mx-auto mt-8 grid max-w-lg grid-cols-3 gap-3 text-sm">
           <div><p className="text-[#65736d]">Best simulation</p><p className="text-lg font-semibold">{best.score}/{best.total}</p></div>

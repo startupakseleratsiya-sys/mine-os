@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, Award, CheckCircle2, Flag, Lock, Play, RotateCcw } from "lucide-react";
+import { ArrowLeft, Award, CheckCircle2, Flag, Lock, Play, RotateCcw, Star, Zap } from "lucide-react";
 import { LEGACY_COURSE_REDIRECTS, courseMinutes, formatMinutes, getCourse } from "@/content/courses";
 import { getCurrentUser } from "@/services/user-service";
-import { courseProgress, courseUnlocked, getLessonAnswers, getLessonProgress } from "@/lib/progress";
+import { courseProgress, courseUnlocked, getGameStats, getLessonAnswers, getLessonProgress } from "@/lib/progress";
 import { getExamHistory } from "@/lib/exam-data";
 import { mistakes, recentAccuracy } from "@/lib/learning-path";
 
@@ -22,9 +22,11 @@ export default async function CoursePage({ params }: Params) {
   const course = getCourse(slug);
   if (!course) notFound();
   const user = await getCurrentUser();
-  const [rows, answers, history] = user
-    ? await Promise.all([getLessonProgress(user.id), getLessonAnswers(user.id, course.slug), getExamHistory(user.id, `cp3p-${course.level}`)])
-    : [[], [], null];
+  const rows = user ? await getLessonProgress(user.id) : [];
+  const [answers, history, game] = user
+    ? await Promise.all([getLessonAnswers(user.id, course.slug), getExamHistory(user.id, `cp3p-${course.level}`), getGameStats(user.id, rows)])
+    : [[], null, null];
+  const courseStars = game ? course.chapters.reduce((n, ch) => n + (game.stars[ch.id] ?? 0), 0) : 0;
   const cp = courseProgress(rows, course);
   const toReview = mistakes(answers).length;
   const ready = recentAccuracy(answers);
@@ -41,16 +43,30 @@ export default async function CoursePage({ params }: Params) {
       <p className="mt-3 leading-7 text-[#52665e]">{course.description}</p>
       <p className="mt-2 text-sm text-[#65736d]">{cp.total} lessons · {formatMinutes(courseMinutes(course))} · {course.exam}</p>
 
-      <div className="mt-6 rounded-2xl bg-white p-4">
+      {game && (
+        <div className="mt-6 grid grid-cols-3 gap-2 text-center text-sm">
+          <div className="rounded-2xl bg-[#163e32] p-3 text-white"><p className="text-xs opacity-70">Level</p><p className="text-xl font-semibold">{game.level}</p><div className="mt-1.5 h-1 overflow-hidden rounded-full bg-white/20"><div className="h-full bg-amber-300" style={{ width: `${Math.round(game.progress * 100)}%` }} /></div></div>
+          <div className="rounded-2xl bg-white p-3"><p className="inline-flex items-center gap-1 text-xs text-[#65736d]"><Zap className="size-3.5 text-amber-500" />XP</p><p className="text-xl font-semibold">{game.xp.toLocaleString("en-US")}</p></div>
+          <div className="rounded-2xl bg-white p-3"><p className="inline-flex items-center gap-1 text-xs text-[#65736d]"><Star className="size-3.5 fill-amber-400 text-amber-400" />Stars</p><p className="text-xl font-semibold">{courseStars}<span className="text-sm font-normal text-[#65736d]">/{cp.total * 3}</span></p></div>
+        </div>
+      )}
+
+      <div className="mt-3 rounded-2xl bg-white p-4">
         <div className="flex justify-between text-sm font-semibold"><span>{cp.completed}/{cp.total} lessons passed</span><span>{cp.percent}%</span></div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-[#e9ebe7]"><div className="h-full rounded-full bg-[#28634f]" style={{ width: `${cp.percent}%` }} /></div>
         {ready && (
           <p className="mt-3 text-sm text-[#52665e]">
             Accuracy in your last {ready.answered} test answers: <span className={`font-semibold ${ready.accuracy >= 0.8 ? "text-[#28634f]" : ready.accuracy >= 0.6 ? "text-amber-700" : "text-red-700"}`}>{Math.round(ready.accuracy * 100)}%</span>
-            <span className="text-[#65736d]"> · aim for 80% before the exam</span>
+            <span className="text-[#65736d]"> · aim for 90% before the exam</span>
           </p>
         )}
       </div>
+      {user && (
+        <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold text-[#163e32]">
+          <Link href={`/exam/${course.level}`} className="hover:underline">Exam practice →</Link>
+          <Link href="/exam/flashcards" className="hover:underline">Glossary flashcards →</Link>
+        </p>
+      )}
       {toReview > 0 && (
         <Link href={`/courses/${course.slug}/review`} className="mt-3 flex items-center justify-between gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm hover:bg-amber-100">
           <span><span className="font-semibold text-amber-900">Review my mistakes ({toReview})</span><span className="block text-amber-900/80">Questions you missed come back until you get them right.</span></span>
@@ -77,6 +93,11 @@ export default async function CoursePage({ params }: Params) {
               <span className="min-w-0 flex-1">
                 <span className="block text-xs font-semibold uppercase tracking-[0.16em] text-[#65736d]">Lesson {i + 1} · {ch.minutes} min</span>
                 <span className={`mt-0.5 block font-semibold leading-snug ${locked ? "text-[#8a968f]" : ""}`}>{ch.title}</span>
+                {done && game && (
+                  <span className="mt-1 flex gap-0.5" aria-label={`${game.stars[ch.id] ?? 0} of 3 stars`}>
+                    {[1, 2, 3].map((n) => <Star key={n} className={`size-4 ${n <= (game.stars[ch.id] ?? 0) ? "fill-amber-400 text-amber-400" : "text-[#d5dbd6]"}`} />)}
+                  </span>
+                )}
                 {current && <span className="mt-1 block text-sm font-semibold text-[#28634f]">{cp.completed ? "Continue here" : "Start here"} →</span>}
               </span>
             </>

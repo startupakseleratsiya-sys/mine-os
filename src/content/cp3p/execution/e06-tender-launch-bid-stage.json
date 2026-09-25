@@ -65,15 +65,42 @@
     }
   ],
   "keyTerms": [
-    { "term": "Commercial close", "meaning": "Another term for contract signature." },
-    { "term": "Preferred bidder", "meaning": "The bidder selected at the end of evaluation, with whom the authority moves to award and signature." },
-    { "term": "One-stage open tender", "meaning": "A tender where RFQ and RFP are issued together and qualifications are submitted with the proposals." },
-    { "term": "Two-stage open tender", "meaning": "A tender with a pass/fail pre-qualification stage before the RFP is issued to qualified candidates." },
-    { "term": "Pre-launch strategy", "meaning": "Targeted communication before launch so capable bidders know about the project and its timing." },
-    { "term": "Bid stage", "meaning": "The period from the invitation to tender to the bid submission deadline." },
-    { "term": "Clarification", "meaning": "An answer that removes ambiguity in the RFP or contract without materially changing it." },
-    { "term": "Evaluation manual", "meaning": "An internal guide, prepared in advance, setting out how evaluators will apply the RFP's evaluation method." },
-    { "term": "Data room", "meaning": "A managed repository of project information made available equally to all bidders." }
+    {
+      "term": "Commercial close",
+      "meaning": "Another term for contract signature."
+    },
+    {
+      "term": "Preferred bidder",
+      "meaning": "The bidder selected at the end of evaluation, with whom the authority moves to award and signature."
+    },
+    {
+      "term": "One-stage open tender",
+      "meaning": "A tender where RFQ and RFP are issued together and qualifications are submitted with the proposals."
+    },
+    {
+      "term": "Two-stage open tender",
+      "meaning": "A tender with a pass/fail pre-qualification stage before the RFP is issued to qualified candidates."
+    },
+    {
+      "term": "Pre-launch strategy",
+      "meaning": "Targeted communication before launch so capable bidders know about the project and its timing."
+    },
+    {
+      "term": "Bid stage",
+      "meaning": "The period from the invitation to tender to the bid submission deadline."
+    },
+    {
+      "term": "Clarification",
+      "meaning": "An answer that removes ambiguity in the RFP or contract without materially changing it."
+    },
+    {
+      "term": "Evaluation manual",
+      "meaning": "An internal guide, prepared in advance, setting out how evaluators will apply the RFP's evaluation method."
+    },
+    {
+      "term": "Data room",
+      "meaning": "A managed repository of project information made available equally to all bidders."
+    }
   ],
   "summary": [
     "The tender phase runs from launch to award and financial close, aiming at a smooth, transparent, competitive process with VfM.",
@@ -87,110 +114,645 @@
   "slides": [
     {
       "title": "The tender phase at a glance",
-      "points": ["From launch to award and financial close", "Smooth, transparent, competitive process", "High certainty the winner can deliver", "Then contract management begins"],
+      "points": [
+        "From launch to award and financial close",
+        "Smooth, transparent, competitive process",
+        "High certainty the winner can deliver",
+        "Then contract management begins"
+      ],
       "narration": "Now the tender begins. This phase starts when the tender is launched and ends at contract award and financial close. After that, contract management takes over. What are we trying to achieve? A smooth process without delays, a contract that is value for money for both sides, fast approval to sign, a transparent selection, and real confidence that the winner can raise the finance and deliver on time. And we want competition to work hard for the public. Everything in this lesson serves those goals."
     },
     {
       "title": "Why PPP tenders are special",
-      "points": ["More time to prepare bids", "Controlled interaction with bidders", "Higher risk of challenges", "Harder evaluation and signature"],
+      "points": [
+        "More time to prepare bids",
+        "Controlled interaction with bidders",
+        "Higher risk of challenges",
+        "Harder evaluation and signature"
+      ],
       "narration": "A PPP tender follows the normal principles of public procurement, like fairness and transparency. But it is harder. Bidders need more time, because they are taking big risks and arranging finance. Some interaction during the tender is needed, but it must not put the process's legality at risk. Challenges are more likely, from losing bidders, civil groups, or even political pressure. Evaluation is more complex, and signature is more demanding, because the winner may need to create a project company, insure it and post new guarantees."
     },
     {
       "title": "Conditions for success",
-      "points": ["Political support and a credible team", "Clear RFP and good information", "Criteria never changed mid-process", "Evaluation organised in advance"],
+      "points": [
+        "Political support and a credible team",
+        "Clear RFP and good information",
+        "Criteria never changed mid-process",
+        "Evaluation organised in advance"
+      ],
       "narration": "The Guide lists conditions for a successful tender. The project needs clear direction and strong political support. The team must be skilled and credible in bidders' eyes. The RFP must be clear and consistent, and bidders need good information through conferences and a data room. Evaluation criteria should be objective, and they should never change during the process. Prepare the evaluation in advance with an internal manual, record decisions with reasons, and set realistic timelines for bidding, award and signature."
     },
     {
       "title": "Stages and process types",
-      "points": ["Pre-qualification, bid, evaluation, signature", "One-stage: qualifications with the proposal", "Two-stage: pre-qualify first, then RFP", "Dialogue: best in mature markets"],
+      "points": [
+        "Pre-qualification, bid, evaluation, signature",
+        "One-stage: qualifications with the proposal",
+        "Two-stage: pre-qualify first, then RFP",
+        "Dialogue: best in mature markets"
+      ],
       "narration": "Every tender has four basic stages: pre-qualification or short listing, the bid period, evaluation and award, and contract signature. In a one-stage open tender, bidders submit their qualifications and their proposals together. In a two-stage tender, qualification is a pass or fail test first, and only qualified candidates receive the RFP. Dialogue processes add a dialogue period with short-listed bidders. They can produce better projects, but they need experience and resources, so they work best in mature PPP markets."
     },
     {
       "title": "Too little time kills tenders",
-      "points": ["No bids at all", "Rushed bids that get disqualified", "Unrealistic winner planning to renegotiate", "Set time project by project"],
+      "points": [
+        "No bids at all",
+        "Rushed bids that get disqualified",
+        "Unrealistic winner planning to renegotiate",
+        "Set time project by project"
+      ],
       "narration": "One of the most common mistakes is giving bidders too little time. The result may be no bids at all, or rushed bids that fail the requirements. Worse, a weak bid might win, from a company that plans to renegotiate later. Remember why bidders need time: construction risk, financial feasibility, bankability checks, consortium agreements, board approvals and lender due diligence. The framework may set a minimum of thirty days, but the right period depends on the project, and complex projects need much more."
     },
     {
       "title": "Finding the right balance",
-      "points": ["Open tenders: often 30 to 90 days", "90 to 120 days often better", "Too long raises bidders' costs", "Do not plan on extensions"],
+      "points": [
+        "Open tenders: often 30 to 90 days",
+        "90 to 120 days often better",
+        "Too long raises bidders' costs",
+        "Do not plan on extensions"
+      ],
       "narration": "But more time is not always better. Bidding for a PPP is expensive, and every extra week costs bidders money. Open tenders often use thirty to ninety days, and ninety to one hundred and twenty days is often preferable for good quality. Two-stage processes with full designs and committed finance may need around one hundred and fifty days. Market sounding before launch helps bidders get ready. And never set a short deadline while planning to extend it later. Extensions should be the exception, because they make the government look unreliable."
     },
     {
       "title": "Launching the tender",
-      "points": ["Publish through official channels", "Pre-announce where rules require", "Pre-launch strategy targets capable bidders", "At least a pre-bid meeting"],
+      "points": [
+        "Publish through official channels",
+        "Pre-announce where rules require",
+        "Pre-launch strategy targets capable bidders",
+        "At least a pre-bid meeting"
+      ],
       "narration": "Launch is the formal start. The tender is published in official channels, such as the government journal or a procurement website, and in the European Union, in the Official Journal. Some systems require a pre-announcement. But publication alone does not mean the right companies will notice. So the authority should run a pre-launch strategy: road shows, press, trade magazines, embassies and industry associations. If no market testing happened earlier, the authority should at least hold a pre-bid information meeting before the invitation goes out."
     },
     {
       "title": "Clarifications and changes",
-      "points": ["Answers shared with all bidders", "Clarification removes ambiguity, not substance", "Affordable changes usually need an extension", "Substantial changes may need reissue"],
+      "points": [
+        "Answers shared with all bidders",
+        "Clarification removes ambiguity, not substance",
+        "Affordable changes usually need an extension",
+        "Substantial changes may need reissue"
+      ],
       "narration": "During the bid stage, bidders will ask many questions. Answer them in good time, and share the answers with everyone. A clarification only removes confusion; it does not change the rules, and it does not override the RFP unless the text is formally amended. Sometimes questions reveal a real problem, and a change is needed to avoid getting no bids. If the change is reasonable and affordable, amend the documents and usually give an extension. But if the change is legally substantial, the tender may have to be cancelled and reissued."
     },
     {
       "title": "Meetings and extension requests",
-      "points": ["Open meetings with all bidders", "Site visits managed fairly", "Extensions can be unfair to ready bidders", "Best cure: realistic deadline"],
+      "points": [
+        "Open meetings with all bidders",
+        "Site visits managed fairly",
+        "Extensions can be unfair to ready bidders",
+        "Best cure: realistic deadline"
+      ],
       "narration": "Open meetings with all bidders are good practice. They let the authority present answers and share updates, for example on land acquisition. Site visits can happen at the same time. And almost every tender gets extension requests. Be careful: an extension may be unfair to bidders who are ready, and it can look like the government is unstable. But refusing may leave too little competition. Weigh the situation, including outside factors like long holidays, and decide fairly. The best protection is a realistic deadline from day one."
     }
   ],
   "quiz": [
     {
       "question": "Which of the following is an objective of the PPP tender phase according to the Guide?",
-      "options": ["To maximise the number of changes to the contract during bidding", "To have high certainty at signature that the winner will secure financing and deliver", "To minimise the bid period regardless of project complexity", "To avoid all interaction with bidders after launch"],
+      "options": [
+        "To maximise the number of changes made to the contract during bidding",
+        "To have high certainty at signature that the winner will secure financing and deliver",
+        "To make the bid period as short as possible, whatever the project's complexity",
+        "To avoid all interaction with bidders once the tender has been launched"
+      ],
       "answer": 1,
       "explanation": "One objective is to ensure that, when the contract is executed, the government has high certainty the winner will secure financing and deliver outcomes on schedule. Short periods and no interaction are not objectives."
     },
     {
       "question": "A procuring authority is halfway through evaluation and realises one technical criterion is badly worded. A senior official suggests changing its weighting to fix it. What should the authority do?",
-      "options": ["Change the weighting, since the evaluation is internal", "Change it only for the leading bidder", "Keep to the criteria and method in the RFP, as criteria should not change during the process", "Ask bidders to vote on the new weighting"],
+      "options": [
+        "Change the weighting, since the evaluation is internal",
+        "Change it only for the bidder that is currently leading",
+        "Keep to the criteria and method set out in the RFP",
+        "Ask the bidders to vote on a new weighting"
+      ],
       "answer": 2,
       "explanation": "Evaluation criteria should not be changed during the process, and the authority must stick with the rules and methodology in the RFP, especially given the higher risk of challenges in PPPs."
     },
     {
       "question": "In a two-stage open tender with pre-qualification, when is the RFP issued?",
-      "options": ["After the qualification process has finished, to qualified candidates", "Together with the RFQ, to all interested firms", "After the preferred bidder is selected", "Only after financial close"],
+      "options": [
+        "After the qualification process has finished, to qualified candidates",
+        "Together with the RFQ, to all firms that show an interest",
+        "After the preferred bidder has been selected by the board",
+        "Only after financial close has been reached with the lenders"
+      ],
       "answer": 0,
       "explanation": "In a two-stage open tender, qualification is a pass/fail test in an earlier stage, and the RFP is issued only after it finishes. Issuing RFQ and RFP together describes a one-stage tender."
     },
     {
       "question": "A ministry plans a 30-day bid period for a complex hospital PPP, saying 'we can always extend if bidders complain'. What is the main problem with this approach?",
-      "options": ["Thirty days is longer than the legal minimum", "Extensions are prohibited in all jurisdictions", "Bidders must always receive at least one year", "Planning on extensions is a common mistake; the period should be realistic from the start"],
+      "options": [
+        "Thirty days is longer than the legal minimum for any tender",
+        "Extensions of the bid period are prohibited in all jurisdictions",
+        "Bidders must always receive at least one full year to bid",
+        "Relying on later extensions is a common mistake; set a realistic period"
+      ],
       "answer": 3,
       "explanation": "The Guide calls relying on short periods and later extensions a common mistake: extensions should be exceptional and harm credibility. Extensions are not prohibited, and one year is not a requirement."
     },
     {
       "question": "A bidder's clarification answer, shared with all bidders, seems to contradict a clause in the RFP. The RFP clause was not amended. Which text prevails?",
-      "options": ["The clarification, because it is more recent", "The original RFP text", "Whichever text favours the bidder that asked", "Neither; the tender must be cancelled"],
+      "options": [
+        "The clarification, because it is more recent",
+        "The original RFP text",
+        "Whichever text favours the bidder that asked",
+        "Neither; the tender must be cancelled"
+      ],
       "answer": 1,
       "explanation": "Clarification responses usually form part of the RFP package but do not prevail over the original RFP text unless that text is specifically amended."
     },
     {
       "question": "Mid-way through the bid stage, all bidders say the project is not bankable without a revenue floor. The change is reasonable and affordable, and legal advice says it is not substantial. What should the authority do?",
-      "options": ["Refuse the change to protect the original competition", "Accept the change for the bidder who asked first only", "Amend the RFP and contract and grant an extension to all bidders", "Cancel the tender immediately"],
+      "options": [
+        "Refuse the change to protect the original competition",
+        "Accept the change for the bidder who asked first only",
+        "Amend the RFP and contract and grant an extension to all bidders",
+        "Cancel the tender immediately and start the process again"
+      ],
       "answer": 2,
       "explanation": "If a requested change is reasonable and affordable, it usually requires an extension of the bidding period, and providing one is good practice. Cancelling and reissuing is needed only if the change is substantial."
     },
     {
       "question": "An authority did no structured market testing during the Structuring Phase. It is about to launch the tender. What should it do at a minimum?",
-      "options": ["Hold a pre-bid information meeting before releasing the invitation to tender", "Launch without any communication beyond the official journal", "Delay launch by two years to run a full market sounding", "Invite only the firms it already knows"],
+      "options": [
+        "Hold a pre-bid information meeting before releasing the invitation to tender",
+        "Launch without any communication beyond the official journal",
+        "Delay the launch by two years to run a full market sounding exercise",
+        "Invite only the firms it already knows well from past projects"
+      ],
       "answer": 0,
       "explanation": "Without structured testing and marketing, the Guide says the authority should at least hold a pre-bid information meeting or presentation before releasing the invitation to tender."
     },
     {
       "question": "Statement 1: During the bid stage, it is good practice to prepare an evaluation manual and train inexperienced evaluators. Statement 2: The deadline for questions exists so the authority has time to issue proper answers.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 2,
       "explanation": "Both reflect the Guide: the team prepares evaluation (including a manual and evaluator training) during the bid stage, and a question deadline lets the authority respond properly."
     },
     {
       "question": "Two days before the deadline, one of four bidders asks for a six-week extension. The other three are ready, and there were no unusual external events. What should the authority do?",
-      "options": ["Always grant it, since more time improves quality", "Grant it only to the bidder who asked", "Cancel the tender and start again", "Weigh fairness to ready bidders and competition, and likely refuse"],
+      "options": [
+        "Always grant it, since more time always improves bid quality",
+        "Grant the extension only to the bidder that asked for it",
+        "Cancel the tender and start the whole process again",
+        "Weigh fairness to ready bidders and competition, and likely refuse"
+      ],
       "answer": 3,
       "explanation": "An extension may unfairly disadvantage bidders ready to submit and signal volatility; the authority should find a balanced response considering external factors. Granting time to only one bidder would breach the level playing field."
     },
     {
       "question": "A procuring authority sets a 200-day bid period for a simple open tender because it believes a longer period is always safer. What is the main risk of too long a bid period?",
-      "options": ["It increases bidders' costs, since time in a PPP bid is essentially cost", "It is illegal under all PPP frameworks", "It prevents the use of a data room", "It automatically triggers a dialogue process"],
+      "options": [
+        "Time in a PPP bid is essentially cost, so bidders' costs rise",
+        "It is not allowed under any PPP framework in the world",
+        "It prevents the authority from using a data room",
+        "It automatically turns the tender into a dialogue process"
+      ],
       "answer": 0,
       "explanation": "The Guide warns that too long a bid period is also dangerous because PPP bids demand many resources and time is in essence cost. It is not illegal and does not change the process type."
+    },
+    {
+      "question": "A new PPP team asks where the Tender Phase ends and what follows it. What is the correct answer according to the Guide?",
+      "options": [
+        "It ends at bid submission; evaluation is a separate later phase",
+        "It ends at award and financial close; contract management then begins",
+        "It ends at the RFQ stage; the RFP belongs to the next phase",
+        "It ends at construction completion; operation then begins"
+      ],
+      "answer": 1,
+      "explanation": "The phase runs from tender launch (through an RFQ or directly an RFP) through qualification, evaluation and award to financial close; then the Contract Management Phase begins (Ch 6 §1)."
+    },
+    {
+      "question": "A country's general procurement law sets rules that do not fit PPP projects, for example very short fixed bid periods. What does the Guide say the government should do?",
+      "options": [
+        "Apply the general law unchanged, since principles are the same",
+        "Stop using PPPs until the general law is fully rewritten",
+        "Let each procuring authority ignore the rules it dislikes",
+        "Put in place specific requirements for PPPs rather than rely on general law"
+      ],
+      "answer": 3,
+      "explanation": "Where general procurement laws are not well suited to PPPs, the government will need to put in place specific requirements for PPPs (Ch 6 §2). Ignoring the law is never an option."
+    },
+    {
+      "question": "According to the Guide, what is 'the essence of a fair and competitive' PPP tender process?",
+      "options": [
+        "Transparency in tendering",
+        "The lowest possible bid price",
+        "Speed of contract award",
+        "A large number of bidders"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says transparency in tendering is the essence of a fair and competitive process, and the process should meet international standards and give a level playing field (Ch 6 §2)."
+    },
+    {
+      "question": "Statement 1: Tender processes vary a lot between countries because of different legal systems and past experience. Statement 2: Because of this, the underlying principles and objectives of PPP tenders also differ completely between countries.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says there is significant variation in tender processes between countries, but the underlying principles and objectives are much the same everywhere (Ch 6 §2). So only Statement 1 is true."
+    },
+    {
+      "question": "During a PPP tender, the authority finds an unintended error in the draft contract wording. What does the Guide say about interacting with bidders to fix it?",
+      "options": [
+        "No interaction is allowed once the tender has been launched",
+        "The authority should negotiate the fix privately with the leading bidder",
+        "Some interaction is needed, balanced so the legality of the process is not endangered",
+        "Errors should be left in and corrected only after signature"
+      ],
+      "answer": 2,
+      "explanation": "Some interaction during the tender is needed to inform bidders and fix inconsistencies or errors, but a balance is needed so as not to endanger legality and risk a challenge (Ch 6 §3)."
+    },
+    {
+      "question": "A PPP tender in a country new to PPPs attracts a legal challenge from a civil society group. Why does the Guide say the risk of challenges is higher in PPPs?",
+      "options": [
+        "PPP laws allow only losing bidders to challenge an award",
+        "Greater complexity, and parties beyond bidders may challenge",
+        "PPP tenders never use any written evaluation criteria",
+        "PPP contracts are always signed before evaluation ends"
+      ],
+      "answer": 1,
+      "explanation": "The risk of challenge is higher because of the added complexity; in some countries the public and civil organisations can challenge under administrative law, and the risk is greater where both sectors lack experience (Ch 6 §3)."
+    },
+    {
+      "question": "A bidder that is not ready to submit starts a political campaign against a PPP tender, hoping it will be cancelled. How does the Guide view this?",
+      "options": [
+        "It cannot happen, since only formal legal challenges count",
+        "It shows the bid period was too long for the other bidders",
+        "It proves that the authority must switch to competitive dialogue",
+        "It is a real risk: unready bidders may try to force a cancellation"
+      ],
+      "answer": 3,
+      "explanation": "The Guide notes non-legal routes such as political pressure and says some bidders may try to force a cancellation because they are not ready, which links to allowing enough bid time (Ch 6 §3)."
+    },
+    {
+      "question": "An authority plans to evaluate PPP bids using only engineers, since the scoring is mainly technical. What does the Guide warn about PPP evaluation?",
+      "options": [
+        "Evaluators need both technical and financial knowledge",
+        "PPP evaluation is simpler than in conventional procurement",
+        "Financial offers are always checked later by the lenders",
+        "Technical proposals no longer need to comply with the RFP"
+      ],
+      "answer": 0,
+      "explanation": "PPP evaluation needs knowledge of both technical and financial features, including how the technical proposal interacts with the financial sustainability of the offer, and room for non-compliance is larger (Ch 6 §3)."
+    },
+    {
+      "question": "A PPP has just been awarded. Which of these is a typical requirement before contract signature (commercial close) that the Guide mentions?",
+      "options": [
+        "Releasing the bid bonds of all bidders, including the winner",
+        "Replacing the bid bond with definitive bonds or guarantees",
+        "Starting operation of the facility for a trial year",
+        "Re-running the market sounding with all bidders"
+      ],
+      "answer": 1,
+      "explanation": "Before signature the awardee may need to form an SPV, book insurance and provide definitive bonds or guarantees in place of the bid bond (Ch 6 §3). Operation obviously comes much later."
+    },
+    {
+      "question": "A contract allows the SPV to arrange its finance after signature. When may the audit of the financial model take place in this case, according to the Guide?",
+      "options": [
+        "It must always happen before bid submission",
+        "It is never required in a PPP tender",
+        "It may be delayed until financial close",
+        "It must happen after the first year of operation"
+      ],
+      "answer": 2,
+      "explanation": "In some cases the financial model must be audited before signature, while in others this may be delayed until financial close, for contracts that allow finance to be arranged after signature (Ch 6 §3)."
+    },
+    {
+      "question": "Ten days before the deadline, all three bidders say they cannot submit a reliable offer in time. The authority's policy is that extensions are exceptional. What should it do?",
+      "options": [
+        "Refuse, since its policy says extensions are always exceptional",
+        "Grant extra time only to the bidder that asked for it first",
+        "Keep the deadline and accept whatever bids happen to arrive",
+        "Grant an extension, as this is better than failing with no bids"
+      ],
+      "answer": 3,
+      "explanation": "Extensions should be the exception, but the Guide says it is better to give an extension if the alternative is project failure because no bids are received (Ch 6 §5). Keeping the deadline risks no bids or poor bids, and extra time for one bidder breaks the level playing field."
+    },
+    {
+      "question": "A procurement board chooses a preferred bidder but keeps no written record of its reasons. Which Box 6.2 condition for a successful tender has it missed?",
+      "options": [
+        "Board decisions should be clearly recorded with reasons given",
+        "The RFP should be drafted in more than one language",
+        "The evaluation should be done by the lenders' advisers",
+        "The board should meet only after financial close"
+      ],
+      "answer": 0,
+      "explanation": "Box 6.2 says the formal evaluation should be run by an expert team and managed properly, for example with procurement board decisions clearly recorded with reasons. This also helps defend against challenges."
+    },
+    {
+      "question": "The Guide divides any tender into four main stages. Which sequence is correct?",
+      "options": [
+        "Bid period; pre-qualification; signature; evaluation and award",
+        "Pre-qualification; bid period; evaluation and award; signature",
+        "Evaluation and award; bid period; short list; signature",
+        "Signature; bid period; pre-qualification; evaluation and award"
+      ],
+      "answer": 1,
+      "explanation": "The four stages are pre-qualification or short listing (possibly through an EOI), bid period, bid evaluation and award, and contract signature (Ch 6 §4)."
+    },
+    {
+      "question": "In a one-stage open tender, when are bidders' qualifications submitted and assessed?",
+      "options": [
+        "Several months before the RFP is published at all",
+        "Only after the preferred bidder has signed the contract",
+        "At financial close, when the lenders review them",
+        "With the proposals, assessed during bid evaluation"
+      ],
+      "answer": 3,
+      "explanation": "In a one-stage open tender the RFQ and RFP are issued together and qualifications are submitted with the proposals, then evaluated in the evaluation stage (Ch 6 §4)."
+    },
+    {
+      "question": "After evaluation, the authority selects the winning proposal. What is this bidder usually called, and what may happen to financial close?",
+      "options": [
+        "The qualified candidate; financial close must happen before award",
+        "The short-listed bidder; financial close is not part of a PPP",
+        "The preferred bidder; financial close may occur at signature or later",
+        "The lead sponsor; financial close always comes before evaluation"
+      ],
+      "answer": 2,
+      "explanation": "The winner is usually named the preferred bidder, and financial close may occur at the end of the signature period or later (Ch 6 §4)."
+    },
+    {
+      "question": "A developing country with little PPP experience wants to use a highly interactive dialogue process for its first PPP. What does the Guide say?",
+      "options": [
+        "Dialogue is required for every first PPP in any country",
+        "Dialogue works best in mature markets; it may be hard here",
+        "Dialogue is simpler to run than any kind of open tender",
+        "Dialogue removes the need to qualify and evaluate bids"
+      ],
+      "answer": 1,
+      "explanation": "Dialogue and interactive processes work best in mature PPP markets and may be difficult to implement in some developing countries (Ch 6 §4). They still require qualification and evaluation."
+    },
+    {
+      "question": "An Australian authority runs an interactive tender. How does its interaction differ from EU competitive dialogue?",
+      "options": [
+        "It helps bidders develop bids with feedback, not change the RFP",
+        "It changes the RFP and contract step by step through dialogue",
+        "It allows no contact at all between bidders and government",
+        "It negotiates only with the single preferred bidder"
+      ],
+      "answer": 0,
+      "explanation": "In EU competitive dialogue the RFP and contract may evolve through the dialogue; in Australia and New Zealand the interaction focuses on helping bidders progressively develop their bids with government feedback (Ch 6 §4)."
+    },
+    {
+      "question": "Statement 1: The main management difference between open tenders and dialogue processes lies in the dialogue or interaction phase. Statement 2: Qualifying, evaluating, awarding and managing signature are challenges common to all tender types.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the main difference is the dialogue or interaction phase, while qualifying and evaluating offers, selecting the awardee and managing signature are common to all methods (Ch 6 §4)."
+    },
+    {
+      "question": "An authority gives bidders only three weeks for a complex toll road PPP. One bidder wins with a very low offer that seems unfeasible. What risk does the Guide describe here?",
+      "options": [
+        "The bid bond will be too large for the bidder to provide",
+        "The data room will close before all bidders can use it",
+        "The lenders will require a dialogue process instead",
+        "An inadequate offer wins from a bidder expecting to renegotiate later"
+      ],
+      "answer": 3,
+      "explanation": "Too little time can lead to no bids, poor bids that are disqualified or, worse, an inadequate offer that wins from a bidder that expects to renegotiate an unfeasible project (Ch 6 §5)."
+    },
+    {
+      "question": "A PPP framework sets a minimum bid period of 30 days. The authority is tendering a complex megaproject. What should it do?",
+      "options": [
+        "Use exactly 30 days, since the framework minimum is always enough",
+        "Decide project by project whether a longer period than the minimum is needed",
+        "Use fewer than 30 days to keep bidders' costs low",
+        "Let the bidders set the deadline among themselves"
+      ],
+      "answer": 1,
+      "explanation": "Good practice is a framework minimum (usually at least 30 days), but the minimum may not be enough; a decision must be made project by project, especially for complex megaprojects (Ch 6 §5)."
+    },
+    {
+      "question": "A construction company in the same group as a PPP bidder will build the project. Why does the bidder still need time for construction risk analysis?",
+      "options": [
+        "It must assess the risk and pass most of it to the subcontractor",
+        "Construction risk always stays with the government in a PPP",
+        "Group companies are not allowed to build any PPP assets",
+        "Construction risk is assessed only after the financial close"
+      ],
+      "answer": 0,
+      "explanation": "The private partner takes more construction cost and time risk than in traditional procurement and must assess it and transfer most of it to the subcontractor, even one from the same group (Ch 6 §5)."
+    },
+    {
+      "question": "A bidder's view of the cost of capital and risk premiums differs from the assumptions the government used at appraisal. How does the Guide link this to bid time?",
+      "options": [
+        "Bidders must use the government's appraisal assumptions without change",
+        "It shows the project should be cancelled and re-appraised at once",
+        "It means lenders should be excluded from the bid process",
+        "Bidders need time to test commercial feasibility and bankability themselves"
+      ],
+      "answer": 3,
+      "explanation": "Bidders must test feasibility and bankability; their capital costs and risk perception may differ from the government's original assumptions, and lenders may see risk differently too (Ch 6 §5)."
+    },
+    {
+      "question": "A PPP bid is prepared by a consortium of three companies. Which time need does the Guide link to this?",
+      "options": [
+        "Obtaining a separate RFP for each consortium member",
+        "Negotiating and implementing shareholder agreements before the offer",
+        "Waiting for the authority to approve each member's accounts",
+        "Holding a separate site visit for each consortium member"
+      ],
+      "answer": 1,
+      "explanation": "Bids usually come from consortia or joint ventures, which need complex shareholder agreements that take time to negotiate and implement before the offer (Ch 6 §5)."
+    },
+    {
+      "question": "An RFP requires bidders to submit a committed financial package with their bids. What does the Guide say about the bid period?",
+      "options": [
+        "The bid period can be shorter because finance is already agreed",
+        "Committed finance is only allowed in a dialogue process",
+        "Extra time is needed for lenders' due diligence and approvals",
+        "Lenders' approvals happen only after contract signature"
+      ],
+      "answer": 2,
+      "explanation": "When bidders must develop the financial package before submission, additional time is needed for lenders' due diligence and approval processes (Ch 6 §5)."
+    },
+    {
+      "question": "An authority is deciding the bid period for an open tender and wants good-quality responses. What range does the Guide say is often preferable in many projects?",
+      "options": [
+        "10–20 days",
+        "90–120 days",
+        "200–300 days",
+        "At least one year"
+      ],
+      "answer": 1,
+      "explanation": "The balance is often solved within 30–90 days for open tenders, although in many projects 90–120 days may be preferable to ensure good-quality responses (Ch 6 §5)."
+    },
+    {
+      "question": "A two-stage process requires bidders to submit extensive designs and committed finance. What bid period does the Guide give as typical in Australia for such cases?",
+      "options": [
+        "About 30 days",
+        "About 60 days",
+        "About 365 days",
+        "About 150 days"
+      ],
+      "answer": 3,
+      "explanation": "In some two-stage processes needing comprehensive proposals, a longer period is appropriate; in Australia it is typically around 150 days (Ch 6 §5)."
+    },
+    {
+      "question": "An authority wants bidders to respond to its RFP more efficiently, without an overly long bid period. What does the Guide suggest doing before launch?",
+      "options": [
+        "Market sounding, which gives bidders time to prepare",
+        "Hiding the project until the RFP is published",
+        "Letting bidders write the output specifications",
+        "Signing a pre-contract with the likely winner"
+      ],
+      "answer": 0,
+      "explanation": "Pre-marketing or market sounding can give potential qualified bidders time to prepare and respond to an RFP more efficiently (Ch 6 §5)."
+    },
+    {
+      "question": "An authority uses competitive dialogue, with the dialogue held before the final RFP is issued. Why is the length of the final bid period less of an issue here?",
+      "options": [
+        "Dialogue processes have no bid submission stage at all",
+        "The law always fixes the bid period for dialogue processes",
+        "The dialogue itself gives bidders time to assess and prepare",
+        "Bidders in a dialogue do not need their board approvals"
+      ],
+      "answer": 2,
+      "explanation": "Timing is less of an issue in dialogue processes where dialogue happens before the final RFP, because the dialogue period is designed to let bidders assess the project and prepare offers (Ch 6 §5)."
+    },
+    {
+      "question": "A regional government in an EU member state launches a PPP tender. Where must the tender be made public, in addition to national channels?",
+      "options": [
+        "Only on the private partner's project website",
+        "In the Official Journal of the European Union (OJEU)",
+        "In the World Bank's procurement bulletin",
+        "In the lenders' investment newsletters"
+      ],
+      "answer": 1,
+      "explanation": "In EU member states a public tender also needs to be made public in the Official Journal of the EU (OJEU) (Ch 6 §6.1). Subnational tenders may also appear in the central bulletin."
+    },
+    {
+      "question": "In an EU jurisdiction, an authority must pre-announce its PPP tender. What is the main purpose of this pre-announcement?",
+      "options": [
+        "To let the authority choose its bidders in private",
+        "To collect registration fees before the RFP is ready",
+        "To replace the formal publication of the tender",
+        "To make many firms aware so they can mobilise resources in time"
+      ],
+      "answer": 3,
+      "explanation": "The pre-announcement aims to make as many companies as possible aware of the project so they can mobilise resources; it describes the tender method, contract type and contract value (Ch 6 §6.1)."
+    },
+    {
+      "question": "A pre-announcement must state the 'contract value' of a PPP. What does this usually mean, according to the Guide?",
+      "options": [
+        "The estimated CapEx, or total payments at the ceiling",
+        "The winning bidder's expected return on its equity",
+        "The sum of all bid bonds that bidders must provide",
+        "The maximum senior debt amount that lenders will offer"
+      ],
+      "answer": 0,
+      "explanation": "Contract value is usually the capital expenditure estimated by the authority, or sometimes the total payments to be made if the bid equals the ceiling on payments (Ch 6 §6.1, note 5)."
+    },
+    {
+      "question": "A bidder asks what 'availability' means in the payment mechanism. The authority's answer removes the doubt but changes no obligation in the RFP or contract. How should this be treated?",
+      "options": [
+        "As a material change that needs the tender to be reissued",
+        "As a true clarification, shared with all the bidders",
+        "As a substantial change that requires an extension",
+        "As private advice, given only to the bidder who asked"
+      ],
+      "answer": 1,
+      "explanation": "A clarification in the true sense does not materially change the RFP or draft contract; it only removes ambiguity, and responses should go to all bidders for transparency (Ch 6 §6.3). Material or substantial changes are handled differently (Ch 6 §6.4)."
+    },
+    {
+      "question": "An authority has published its tender in the official bulletin, as the law requires. It worries that capable foreign firms may not notice it. What should it do?",
+      "options": [
+        "Nothing more, because formal publication reaches all potential bidders",
+        "Invite only foreign firms to avoid local competition",
+        "Delay publication until foreign firms contact the authority",
+        "Run a pre-launch strategy using road shows, embassies and industry associations"
+      ],
+      "answer": 3,
+      "explanation": "Formal publication does not ensure the full field of bidders notices the project, so the authority should run a pre-launch strategy; Box 6.3 lists channels such as road shows, embassies and industry associations (Ch 6 §6.1)."
+    },
+    {
+      "question": "An official says 'the bid stage is the bidders' job, so our team can rest until the deadline'. Why is this wrong?",
+      "options": [
+        "The team must help write parts of each bidder's proposal",
+        "The team must negotiate prices with each bidder in private",
+        "The team prepares evaluation, runs the data room and answers questions",
+        "The team must select the preferred bidder before submission"
+      ],
+      "answer": 2,
+      "explanation": "The bid stage has a private-sector focus, but the procurement team prepares evaluation and governance, trains evaluators, manages bidder conferences, site visits and the data room, and handles clarifications (Ch 6 §6.2)."
+    },
+    {
+      "question": "A bidder sends a clarification question that the authority thinks would undermine the RFP process if answered. What does the Guide allow?",
+      "options": [
+        "The authority keeps discretion on whether to respond",
+        "It must always answer every question in full",
+        "It must answer only that bidder in private",
+        "It must cancel the tender and start again"
+      ],
+      "answer": 0,
+      "explanation": "It is good practice to allow clarification requests, but the authority should retain discretion about whether to respond; answers go to all bidders where they help and do not undermine the process (Ch 6 §6.3)."
+    },
+    {
+      "question": "In a two-stage process whose rules allow it, a bidder asks a question that relates only to its own proposal. How may the authority respond?",
+      "options": [
+        "Refuse to answer, because private answers are always illegal",
+        "Answer only that bidder, taking great care to avoid an unfair advantage",
+        "Publish the bidder's proposal so others can see the question",
+        "Answer that bidder and extend its deadline alone"
+      ],
+      "answer": 1,
+      "explanation": "In some two-stage processes, if the rules allow, a response may go only to the bidder who asked, but great care must be taken so that bidder gets no unfair advantage (Ch 6 §6.3, note 6)."
+    },
+    {
+      "question": "For a novel and complex PPP, an authority releases the RFP for bidder comments, then reissues it and requires bidders to formally accept it. What is the main benefit of formal acceptance?",
+      "options": [
+        "It removes the need for any evaluation criteria",
+        "It lets the authority skip the data room entirely",
+        "It guarantees that every bidder will win part of the work",
+        "It protects the authority against later objections from losing bidders"
+      ],
+      "answer": 3,
+      "explanation": "Formal acceptance of the reissued RFP can protect the authority against subsequent objections from losing bidders, and bidders usually give more careful feedback than in market sounding (Ch 6 §6.4)."
+    },
+    {
+      "question": "Late in the bid period, the authority finds an important geotechnical survey that was never put in the data room. What should it consider?",
+      "options": [
+        "Keeping it secret to avoid delaying the tender timetable",
+        "Releasing it to all bidders, possibly with an extension",
+        "Giving it only to the bidder that is most likely to win",
+        "Adding it to the contract documents only after signature"
+      ],
+      "answer": 1,
+      "explanation": "The authority must manage the risk of late release of data room information; an extension may be appropriate so all bidders can consider it and adjust their bids (Ch 6 §6.4)."
+    },
+    {
+      "question": "The government keeps responsibility for land expropriation on a PPP road. Bidders want updates during the bid period. What does the Guide consider good practice?",
+      "options": [
+        "Interim open meetings with all bidders to report progress and answers",
+        "Private phone calls to each bidder's chief executive",
+        "No updates until the preferred bidder is chosen",
+        "A single update published after bid submission"
+      ],
+      "answer": 0,
+      "explanation": "Interim open meetings with prospective bidders are good practice to present answers and share relevant information, such as expropriation progress, usually with all bidders together; site visits may be held at the same time (Ch 6 §6.6)."
+    },
+    {
+      "question": "An authority grants a second bid extension. Apart from possible unfairness to ready bidders, what does the Guide say the market may think?",
+      "options": [
+        "It may be seen as proof of a very well-prepared project",
+        "It may be seen as a sign the project is fully risk-free",
+        "It may be seen as volatility and a lack of government commitment",
+        "It may be seen as a normal step in every PPP tender"
+      ],
+      "answer": 2,
+      "explanation": "An extension, like any other material change, may be perceived by the market as a sign of volatility and lack of commitment by the government (Ch 6 §6.7)."
     }
   ]
 }

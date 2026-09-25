@@ -290,13 +290,453 @@
     {
       "question": "Which of the following is NOT listed in the Guide as a possible objective of a PPP program?",
       "options": [
-        "Reducing reported government borrowing regardless of long-term cost",
+        "Transferring all project risks to the private partner",
         "Achieving Value for Money in infrastructure and public services",
         "Harnessing private sector innovation and efficiency",
         "Supporting sustainable, climate-resilient and inclusive development"
       ],
       "answer": 0,
-      "explanation": "Lowering reported borrowing without real benefit is exactly the wrong reason for PPPs that the framework must prevent. Value for Money, private innovation and sustainable, climate-resilient development are all listed objectives."
+      "explanation": "Transferring all risks to the private partner is not a listed objective; the Guide seeks an appropriate allocation of risk, not maximum transfer. Value for Money, private innovation and sustainable, climate-resilient development are all listed objectives (Ch 2 §1.4)."
+    },
+    {
+      "question": "A newly elected government asks what a PPP framework actually is. Which description matches the Guide?",
+      "options": [
+        "A single standard PPP contract that every agency must use for all its projects",
+        "The list of approved PPP projects, with their budgets, sponsors and timelines",
+        "The procedures, rules and institutional responsibilities governing PPPs",
+        "A law that moves the ownership of public infrastructure to private investors"
+      ],
+      "answer": 2,
+      "explanation": "The Guide defines a PPP framework as the established procedures, rules and institutional responsibilities that decide how government selects, implements and manages PPPs (Ch 2 §1.1). A standard contract or a project list is only one output of a framework, not the framework itself."
+    },
+    {
+      "question": "Foreign investors tell a ministry that they hesitate to bid because they cannot predict how projects will be prepared or how bids will be judged. Which feature of a published PPP framework addresses this concern?",
+      "options": [
+        "It guarantees investors a minimum return on every PPP project",
+        "It tells the market how projects will be developed and how bids are assessed",
+        "It lets investors write the project contract for the government",
+        "It removes the need for a competitive tender on each project"
+      ],
+      "answer": 1,
+      "explanation": "A good framework lets the market know how PPPs will be developed and how bids will be assessed, which leads to more competitive procurement and better value (Ch 2 §1.1). It does not guarantee returns or replace competition."
+    },
+    {
+      "question": "Consider two statements. 1: PPPs can be implemented on a one-off basis without any specific PPP framework. 2: By defining institutional responsibilities, a PPP framework makes institutions accountable for their role in the PPP process.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Ch 2 §1.1). A PPP can be done without a framework, but because PPPs are complex and involve conflicting objectives, a framework that makes each institution accountable greatly improves the chance of success."
+    },
+    {
+      "question": "Which of the following is NOT an aim of a good PPP framework, according to the Guide?",
+      "options": [
+        "Making sure that the right projects are selected as PPPs",
+        "Delivering projects in a structured, transparent and efficient way",
+        "Minimising the risk that a PPP will not deliver Value for Money",
+        "Guaranteeing that every PPP project is profitable for its investors"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a framework aims to select the right projects, deliver them in a structured, transparent and efficient way that meets procurement law, and minimise the risk of poor Value for Money (Ch 2 §1.2). Guaranteeing private profit is not a framework aim; private parties carry their own commercial risk."
+    },
+    {
+      "question": "A road PPP contract makes the ministry pay for all flood damage, although the ministry cannot control or reduce this risk, and floods are becoming more frequent. Which problem that a framework should prevent does this show?",
+      "options": [
+        "The tender ignored market conditions, so few firms bid",
+        "Contingent liabilities were reported to cabinet too often",
+        "The program objectives focused too much on speed of delivery",
+        "Risks were not allocated appropriately between the parties"
+      ],
+      "answer": 3,
+      "explanation": "The Guide warns that if risks are not allocated appropriately, the public sector may incur costs it cannot control, and notes that climate change risks are rising in intensity and frequency (Ch 2 §1.2). The problem here is risk allocation, not the level of competition."
+    },
+    {
+      "question": "A ministry launches a PPP tender without testing investor appetite or the capacity of local contractors. Only one weak bid arrives. According to the Guide, what went wrong?",
+      "options": [
+        "The project was too small to be tendered as a PPP",
+        "The ministry transferred too little risk to the bidders",
+        "The procurement process failed to consider market conditions",
+        "The framework was developed in parallel with the projects"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says that if the procurement process fails to consider market conditions, the tender may not be competitive (Ch 2 §1.2). Developing the framework in parallel with projects is actually the Guide's recommended approach."
+    },
+    {
+      "question": "A PPP contract says the government will pay the lenders only if traffic falls below a set level. How should a good framework treat this obligation?",
+      "options": [
+        "As a fixed availability payment in each year's budget",
+        "As a private risk that needs no government tracking",
+        "As a contingent liability that must be monitored",
+        "As an accounting benefit that lowers public borrowing"
+      ],
+      "answer": 2,
+      "explanation": "A payment that depends on an uncertain event is a contingent liability. The Guide warns that unmonitored contingent liabilities can create unexpected fiscal obligations for government (Ch 2 §1.2), so it cannot be ignored as a purely private risk."
+    },
+    {
+      "question": "A health ministry wants to add many extra services to a hospital PPP, while the finance ministry wants to limit long-term payments. What does the Guide say is the best way to handle this kind of conflict?",
+      "options": [
+        "Let the private partner decide which services to include",
+        "Let the ministry with the larger budget decide at the end",
+        "Settle the conflict during contract negotiations after bidding",
+        "Define the objectives and their relative priorities clearly and up front"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.2 says the best way to address conflicting objectives is to define program and project objectives clearly and up front, including relative priorities, so conflicts are found and resolved early (Ch 2 §1.2). Leaving it to negotiations after bidding is too late."
+    },
+    {
+      "question": "According to the Guide, what do private parties in a PPP typically seek?",
+      "options": [
+        "To maximise service delivery for the sector",
+        "To manage public financial obligations prudently",
+        "To pursue the public interest above all returns",
+        "To maximise profits while minimising risk"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.2 says private parties seek to maximise profits while minimising risk (Ch 2 §1.2). Maximising service delivery describes sector agencies, and prudent financial management describes the ministry of finance."
+    },
+    {
+      "question": "In one country, the water, education and transport agencies each procure a PPP only once every few years, and each repeats the same early mistakes. Which framework benefit would most directly help?",
+      "options": [
+        "Increasing agency capability through codified standard practice",
+        "Generating market interest by signalling government commitment",
+        "Limiting whole-of-government reputation and fiscal risk",
+        "Facilitating independent oversight of officials' decisions"
+      ],
+      "answer": 0,
+      "explanation": "Agencies are rarely PPP experts because they procure PPPs infrequently; codifying standard practice cuts learning costs and the risk of mistakes (Ch 2 §1.2). Market interest is about attracting bidders, not about agencies learning."
+    },
+    {
+      "question": "A minister asks what the government gains by setting PPP procedures and rules in a framework instead of deciding each project case by case. According to the Guide, what is the main effect?",
+      "options": [
+        "It removes the need for competitive tendering",
+        "It limits and manages government risk and ensures consistency",
+        "It moves all project risks to the private partner",
+        "It fixes the prices that bidders are allowed to offer"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says that by setting procedures and rules, good PPP practice is established in government, which limits and manages government risk and ensures consistency (Ch 2 §1.1). A framework supports competition; it does not replace it or move all risk to the private side."
+    },
+    {
+      "question": "A PPP program involves many ministries, lenders and contractors. The framework gives them joint training and manages their expectations, which builds shared goals and new mindsets that keep the program going. Which framework benefit is this?",
+      "options": [
+        "Providing a structured way of reconciling disparate objectives",
+        "Generating market interest among potential investors",
+        "Making sure that whole-of-government risk is limited",
+        "Facilitating probity and oversight of the PPP program"
+      ],
+      "answer": 0,
+      "explanation": "The Guide links managing expectations, training and skills development to reconciling disparate objectives, which builds a common objective and improves the longevity of the program through new mindsets (Ch 2 §1.2). Whole-of-government risk is about fiscal and reputation risk."
+    },
+    {
+      "question": "Consider two statements. 1: Risks that matter at whole-of-government level include government reputation and fiscal risks. 2: Most national PPP laws and policies already give clear, specific guidance on integrating gender equality across the whole PPP life cycle.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 2 §1.2). Statement 2 is false: Box 2.4 says more PPP instruments mention gender equality and social inclusion, but so far only a few give clear and specific guidance for the whole project life cycle."
+    },
+    {
+      "question": "Lenders offer better terms to PPPs in a country with transparent, competitive processes and effective oversight than to a neighbour with no framework. According to the Guide, why?",
+      "options": [
+        "Such projects are perceived by investors as less risky",
+        "Lenders are required by law to favour such countries",
+        "The framework guarantees lenders against all losses",
+        "Those projects no longer need any private finance"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says PPPs delivered by governments with transparent, competitive processes and effective oversight are perceived as less risky, making private finance more likely (Ch 2 §1.2). A framework does not guarantee lenders against losses."
+    },
+    {
+      "question": "Why does the Guide call a competitive procurement process a key factor for a successful PPP?",
+      "options": [
+        "Competition removes the need for a business case",
+        "Competition lets the bidders draft the contract",
+        "Competition moves all project risks to government",
+        "Competition drives down prices and promotes innovation"
+      ],
+      "answer": 3,
+      "explanation": "Under 'generating market interest', the Guide says competition helps drive down prices and promotes innovation (Ch 2 §1.2). It does not remove the need for appraisal or change who drafts the contract."
+    },
+    {
+      "question": "Evaluators of a PPP program find that officials followed every required step, yet projects still failed because one required step was badly designed. What should they conclude?",
+      "options": [
+        "The officials should be disciplined for breaking the rules",
+        "The framework itself needs to be improved in that part",
+        "The framework should be dropped in favour of one-off deals",
+        "Market interest in the program was too high"
+      ],
+      "answer": 1,
+      "explanation": "A clear, documented framework lets evaluators tell whether officials failed to follow it or whether the framework itself needs improving, and which part to change (Ch 2 §1.2). Here the officials complied, so the fault lies in the framework."
+    },
+    {
+      "question": "A private firm proposes a port project on its own initiative; it is not part of any plan. Based on the Guide's Dabhol comparison, what is the better approach to identifying projects?",
+      "options": [
+        "Accept any project that a credible private firm proposes",
+        "Identify projects from an integrated sector plan of economic investments",
+        "Identify projects by asking lenders what they will finance",
+        "Identify projects only after a contract has been drafted"
+      ],
+      "answer": 1,
+      "explanation": "Table 2.1 contrasts Dabhol, identified by a private party on its own initiative, with identification from an integrated sector plan showing the most economic set of investments (Ch 2 §1.2). Lender appetite is not a substitute for planning."
+    },
+    {
+      "question": "An international adviser warns that the payments under a proposed power purchase contract are unaffordable for the state utility. Under good practice, what should happen?",
+      "options": [
+        "The project should not proceed unless it is affordable",
+        "Proceed, backed by a federal counter-guarantee",
+        "Proceed, and renegotiate the price after any default",
+        "Proceed, because outside advice is never binding"
+      ],
+      "answer": 0,
+      "explanation": "In Dabhol, World Bank advice that the project was unaffordable was disregarded; the better approach is that unaffordable projects do not proceed (Ch 2 §1.2, Table 2.1). Dabhol shows that guarantees do not rescue an unaffordable project."
+    },
+    {
+      "question": "A state utility is preparing a PPP contract for a new power plant. According to the better approach in the Guide's Dabhol table, who should prepare the draft contract, and on what basis?",
+      "options": [
+        "The private proponent, since it knows the project best",
+        "The government, based on an optimal allocation of risks",
+        "The lenders, based on their standard loan documents",
+        "An arbitrator, once the first disputes have arisen"
+      ],
+      "answer": 1,
+      "explanation": "Table 2.1 says the better approach is a contract developed by the government based on an optimal allocation of risks; in Dabhol, negotiation was based on the private party's draft (Ch 2 §1.2)."
+    },
+    {
+      "question": "Which describes what happened in the Dabhol power project?",
+      "options": [
+        "The plant was cancelled before any construction began",
+        "The state terminated it early for poor plant performance",
+        "The company went bankrupt and the state took over smoothly",
+        "The board stopped paying and the federal guarantee was refused"
+      ],
+      "answer": 3,
+      "explanation": "In 2001, after phase one, the state electricity board did not meet its payments because of the high power price; the company called the guarantees, but the federal government refused, citing alleged technical breaches, and settlement came only in 2004 (Box 2.3)."
+    },
+    {
+      "question": "In the Dabhol case, under what type of contract was power to be sold to the state electricity board?",
+      "options": [
+        "A 30-year user-pays toll concession contract",
+        "A short-term sale on the spot power market",
+        "A 20-year take-or-pay power purchase contract",
+        "A management contract with no duty to buy"
+      ],
+      "answer": 2,
+      "explanation": "Box 2.3 says the Dabhol Power Corporation was to sell power to the Maharashtra State Electricity Board under a 20-year take-or-pay contract backed by a state guarantee and a federal counter-guarantee."
+    },
+    {
+      "question": "To meet a political deadline, officials take a PPP to tender before its feasibility work and design are complete. Which risk of working without a framework does this illustrate?",
+      "options": [
+        "Over-standardising procedures before any project starts",
+        "Codifying too many contract types in the PPP law",
+        "Lowering investors' perception of program risk",
+        "Taking a project to market before it is properly developed"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says that without a framework, officials risk poor decisions such as not procuring competitively or taking a project to market before it is properly developed (Ch 2 §1.2). Over-standardisation is the opposite danger of writing rules too early."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for developing the framework detail alongside the first projects?",
+      "options": [
+        "A framework written in isolation may lock in unworkable procedures",
+        "Links to tangible projects raise political and bureaucratic priority",
+        "Rules written in full first always attract more foreign investors",
+        "Refining principles through projects fits the framework to local needs"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives three reasons: avoiding over-standardised, unworkable procedures; higher priority for work tied to tangible results; and a better fit to the jurisdiction's needs (Ch 2 §1.2). It never claims that fully detailed rules written first attract more investors."
+    },
+    {
+      "question": "A province deliberately keeps its PPP framework non-specific, as British Columbia did. According to the Guide, what did British Columbia gain from this?",
+      "options": [
+        "Room to innovate, especially in financial structuring",
+        "Complete protection from construction cost overruns",
+        "A legal ban on unsolicited private proposals",
+        "Automatic cabinet approval of every PPP project"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says British Columbia's non-specific framework allowed a number of innovations, particularly in financial structuring, which supported the large number of PPPs in Canada (Ch 2 §1.2)."
+    },
+    {
+      "question": "Five years after a PPP framework is adopted, a parliamentary committee wants to judge whether it has worked. Which part of the framework gives the committee a basis for this evaluation?",
+      "options": [
+        "The list of bidders on the first project",
+        "The legal tradition of the country",
+        "The framework's stated objectives",
+        "The minimum project size threshold"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the framework's objectives make explicit what the government wants to achieve and also provide a basis for later evaluation of the framework (Ch 2 §1.3). Bidder lists and size thresholds do not say what success looks like."
+    },
+    {
+      "question": "Under a draft framework, a small municipal car park PPP would face the same heavy approval steps as a large hospital PPP. What does the Guide suggest the framework's scope can do?",
+      "options": [
+        "Make every PPP follow identical steps for fairness",
+        "Let low-value PPPs follow less rigorous procedures",
+        "Exempt small PPPs from all good practice rules",
+        "Give large PPPs lighter procedures than small ones"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes it may not be sensible for low-value PPPs to follow the same rigorous procedures as high-value PPPs, which is a matter for the framework's scope (Ch 2 §1.3). Lighter rules still do not mean dropping good practice."
+    },
+    {
+      "question": "A framework states that, at appraisal, the sector agency must collect cost and demand data and pass it to the PPP unit before any decision on using a PPP. Which core element of a framework is this?",
+      "options": [
+        "A procedure",
+        "A decision criterion",
+        "A program objective",
+        "A scope limit"
+      ],
+      "answer": 0,
+      "explanation": "Procedures set out what must be done, by whom and in what order; the Guide's example is how an agency gathers and processes information at appraisal (Ch 2 §1.3). A decision criterion is the test used to make the decision, not the steps."
+    },
+    {
+      "question": "A framework rule says a project may proceed as a PPP only if the public interest will be better served than by a conventional public sector project. Which core element of a framework is this?",
+      "options": [
+        "A procedure",
+        "An institutional responsibility",
+        "A scope limit",
+        "A decision criterion"
+      ],
+      "answer": 3,
+      "explanation": "This is the Guide's own example of a decision criterion at the appraisal phase: how the decision is made (Ch 2 §1.3). A procedure would describe the steps and their order, not the test itself."
+    },
+    {
+      "question": "A framework follows the Guide's example of institutional responsibilities. Which body is responsible for deciding whether a project should proceed as a PPP?",
+      "options": [
+        "The cabinet",
+        "The specialist PPP unit",
+        "The ministry of finance",
+        "The sector regulator"
+      ],
+      "answer": 0,
+      "explanation": "In the Guide's example, a PPP unit assesses whether a project is best done as a PPP, the cabinet decides whether it proceeds, and the ministry of finance advises on fiscal commitments (Ch 2 §1.3). The PPP unit assesses; it does not make the final decision."
+    },
+    {
+      "question": "Besides procedures, decision criteria and institutional responsibilities, what else should a PPP framework set out?",
+      "options": [
+        "The profit margin allowed for each winning bidder",
+        "The detailed engineering design of each project",
+        "The names of preferred private partners in advance",
+        "How fiscal commitments are managed and how oversight works"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the framework should also set out how fiscal commitments are managed and how proper oversight of the program is established (Ch 2 §1.3). Naming preferred partners in advance would undermine competition."
+    },
+    {
+      "question": "In what form are PPP frameworks typically set out, according to the Guide?",
+      "options": [
+        "Private contracts drafted by the leading investors",
+        "Policy and guideline documents in line with relevant laws",
+        "Court rulings made after each PPP dispute",
+        "Loan agreements signed with development banks"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says frameworks are typically manifested in policy and guideline documents that are harmonised with relevant laws, and are often embodied in PPP policy documents or legislation (Ch 2 §1.3)."
+    },
+    {
+      "question": "A ministry publishes a list of eight identified PPP projects and calls it the country's PPP program. What is missing from a full PPP program as the Guide defines it?",
+      "options": [
+        "Nothing, because a program and a pipeline are the same thing",
+        "Plans for unidentified projects, priority sectors and extent of PPP use",
+        "The final contract prices agreed with each winning bidder",
+        "The names of the lenders financing each identified project"
+      ],
+      "answer": 1,
+      "explanation": "A PPP program goes beyond the pipeline: it includes plans for projects not yet identified, priority sectors, and the extent to which government will use PPPs instead of other delivery methods (Ch 2 §1.4)."
+    },
+    {
+      "question": "A company submits an unsolicited proposal for a bridge, and the government's PPP program allows private proposals to be considered. What should the government do?",
+      "options": [
+        "Sign directly with the company as a reward for its idea",
+        "Reject it, since only government may identify projects",
+        "Test its feasibility and procure it transparently and competitively",
+        "Accept it if the company offers to carry all of the risks"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says that if private proposals are considered, their feasibility must be determined and they must be procured under guidelines that require transparency and competitiveness (Ch 2 §1.4). Direct signing repeats the Dabhol mistake."
+    },
+    {
+      "question": "A government plans to rely heavily on PPPs for new infrastructure. Why does the Guide advise it to adopt a structured, programmatic approach?",
+      "options": [
+        "It allows agencies to skip preparing business cases",
+        "It removes the need for independent oversight",
+        "It attracts stronger and more consistent private sector interest",
+        "It guarantees that every project will reach financing"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says governments that want to rely significantly on PPPs should adopt a structured, programmatic approach, as a way to attract stronger and more consistent interest from the private sector (Ch 2 §1.4)."
+    },
+    {
+      "question": "A city wants its bus depot PPP to focus on local job creation, which is not a national priority. What does the Guide say about local project objectives?",
+      "options": [
+        "They must copy the national objectives word for word",
+        "They may ignore national goals if the city pays",
+        "They rule out using a PPP under a national framework",
+        "They may differ but must still meet national development goals"
+      ],
+      "answer": 3,
+      "explanation": "The Guide notes that practical objectives may differ for national and local government projects, but all projects should meet national development goals and directives (Ch 2 §1.4)."
+    },
+    {
+      "question": "Why does the Guide say national and sectoral program objectives should be defined as the first step in developing a framework?",
+      "options": [
+        "They allow the framework designers to skip the review of existing laws",
+        "They fix the list of bidders for every future PPP project",
+        "They remove the need for a central PPP unit in government",
+        "They give designers direction for processes, criteria and responsibilities"
+      ],
+      "answer": 3,
+      "explanation": "Program objectives give framework designers the direction needed to formulate appropriate processes, decision criteria and institutional responsibilities (Ch 2 §1.4). They do not replace the review of existing laws."
+    },
+    {
+      "question": "A country fears its PPP program will weaken when the current minister, the champion in cabinet and the head of the PPP unit leave. Which objective from the Guide's list addresses this?",
+      "options": [
+        "Harnessing private sector innovation and efficiency",
+        "Enabling more investment through financing options",
+        "Sustainable long-term delivery as stakeholders change",
+        "Stimulating growth and development in the country"
+      ],
+      "answer": 2,
+      "explanation": "One listed objective is ensuring that long-term delivery and management of PPPs is sustainable, especially when stakeholders such as political actors, champions or PPP unit staff change (Ch 2 §1.4)."
+    },
+    {
+      "question": "A government with a tight budget wants its PPP program mainly to widen the ways in which infrastructure can be funded. Which objective from the Guide's list is this?",
+      "options": [
+        "Better accountability in public service provision",
+        "Meeting population gender equity goals",
+        "More investment through wider project financing options",
+        "Stimulating wider growth and development"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists 'enabling more investment in infrastructure by increasing project financing options' as a possible program objective (Ch 2 §1.4). Accountability and gender equity are separate objectives on the same list."
+    },
+    {
+      "question": "A draft PPP law requires climate and social issues to be considered only once, in the feasibility study. What does the World Bank guidance quoted in the Guide recommend instead?",
+      "options": [
+        "Consider them at every stage, from origination to contract management",
+        "Consider them only at contract signing, to avoid delaying the tender",
+        "Leave them to the private partner once financial close is reached",
+        "Consider them only for projects above the minimum size threshold"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.5 says PPP legal frameworks should require climate, environmental, resilience, social and human rights issues to be considered at every stage, from origination and appraisal to contract management, so the risks go to those best placed to manage them."
+    },
+    {
+      "question": "International banks tell a government they will finance only PPPs that meet their own environmental and social commitments. Which example of such commitments does the Guide give?",
+      "options": [
+        "The Equator Principles",
+        "The Private Finance Initiative",
+        "The Westminster system",
+        "The Code Napoleon"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.4 says private participants, especially international investors and lenders, increasingly want PPPs that satisfy their own environmental and social commitments, for example the Equator Principles. The PFI is a UK procurement model, not a lender commitment."
     }
   ]
 }

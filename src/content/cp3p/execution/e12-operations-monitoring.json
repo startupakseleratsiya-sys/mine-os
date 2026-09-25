@@ -290,6 +290,446 @@
       ],
       "answer": 1,
       "explanation": "Penalties must match seriousness, and core areas attract larger consequences. The Guide itself contrasts an unavailable operating theatre with less serious failures such as window cleaning or uniforms."
+    },
+    {
+      "question": "According to the Guide, over what period does the Operations Stage of a PPP contract run?",
+      "options": [
+        "From construction and commissioning of the asset until handback",
+        "From financial close until the end of the defects period",
+        "From the first user payment until the first refinancing",
+        "From preferred bidder selection until service commencement"
+      ],
+      "answer": 0,
+      "explanation": "The Guide takes the Operations Stage to run from the time the asset has been constructed and commissioned up to its handback to the Procuring Authority (Ch 7 §12)."
+    },
+    {
+      "question": "A PPP courthouse is about to open. Almost all the designers, builders and certifiers are leaving the project. Why does the Guide see this as one of the greatest risks of the transition?",
+      "options": [
+        "The Project Company loses its right to receive availability payments",
+        "New operating staff lack the history of why systems were designed that way",
+        "The lenders must refinance the debt as soon as construction staff leave",
+        "The contract automatically moves into the handback stage at that point"
+      ],
+      "answer": 1,
+      "explanation": "At transition most professionals who designed, built and verified the asset leave, and a new team starts to operate it without knowing why systems were designed as they were (Ch 7 §12.1). The Guide calls this change in personnel one of the greatest risks."
+    },
+    {
+      "question": "A city's new PPP office building is losing efficiency in its first years of use, even without any breach by the Project Company. What does the Guide say about this 'performance decay'?",
+      "options": [
+        "It only happens when the Project Company breaches the contract",
+        "It is limited to about 5 percent over the whole contract term",
+        "It can reach 30 percent lost efficiency in the first four years",
+        "It affects roads and bridges, but not buildings such as offices"
+      ],
+      "answer": 2,
+      "explanation": "Assets naturally trend toward performance decay, which can cause as much as a 30 percent loss in efficiency in the first four years in buildings such as offices, schools and hospitals (Ch 7 §12.1)."
+    },
+    {
+      "question": "During the design of a PPP hospital, the Project Company's facility manager is not invited to any design meetings. Which weakness does the Guide link to this?",
+      "options": [
+        "The authority loses its right to approve the hospital design",
+        "The independent certifier cannot sign off the completed works",
+        "The payment mechanism cannot be trial-run before opening",
+        "Trade-offs between build costs and O&M costs may be missed"
+      ],
+      "answer": 3,
+      "explanation": "The facility manager is rarely present during design, yet should help weigh construction costs against operating and maintenance costs; spending more on quality construction can reduce long-term costs (Ch 7 §12.1)."
+    },
+    {
+      "question": "Six months before a PPP hospital opens, the Procuring Authority is planning its own staffing for the transition. Which step does the Guide call essential?",
+      "options": [
+        "Leave the transition to the independent certifier to manage",
+        "Have a full-time, competent senior staff member on site",
+        "Rely on the builder's site manager to lead the handover",
+        "Assign a part-time junior officer to limit transition costs"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says it is essential to have a full-time, competent, knowledgeable and respected senior staff member on site leading up to and through the Transition Plan period (Ch 7 §12.1). The builder's team leaves at completion, and the certifier's role ends at service commencement."
+    },
+    {
+      "question": "Which item is NOT normally part of the Transition Plan described in the Guide?",
+      "options": [
+        "Assembling a data room, or library, of project information",
+        "Confirmation that the FM contractor can deliver the services",
+        "A benchmarking exercise to reset the unitary payment",
+        "A familiarisation programme so users know what to expect"
+      ],
+      "answer": 2,
+      "explanation": "Box 7.8 lists items such as government resources, the help desk, contact lists, a user familiarisation programme, milestones, a data room, trial running of the payment and monitoring systems, and confirmation from the FM contractor (Ch 7 §12.1). Benchmarking is not a transition task."
+    },
+    {
+      "question": "Two weeks before a PPP school opens, the authority has not yet appointed the staff needed to run its side of the payment and monitoring process. Which principle of the transition is at risk?",
+      "options": [
+        "The Project Company must pay for the authority's staff during transition",
+        "The contractor must not be delayed by the authority's action or inaction",
+        "The authority may delay opening until the handback terms are agreed",
+        "Staffing on the authority's side is the responsibility of the lenders"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says it is essential that the contractor is not delayed by any action or lack of action by the authority, which needs the right staff and systems in place to meet its obligations (Ch 7 §12.1)."
+    },
+    {
+      "question": "A PPP hospital has just opened. Which group of tasks becomes a key part of the contract management team's work in this stage?",
+      "options": [
+        "Managing payment regimes, acting on surveys and monitoring performance",
+        "Approving detailed designs and certifying construction milestones",
+        "Running the tender and choosing the preferred bidder for the project",
+        "Negotiating financial close and signing the lenders' Direct Agreement"
+      ],
+      "answer": 0,
+      "explanation": "Governance stays the same, but in operations the key actions shift to managing payment regimes (including insurance and utilities), acting on customer surveys, seeking continuous improvement and performance monitoring (Ch 7 §13.1)."
+    },
+    {
+      "question": "In a PPP office accommodation project, the authority is far from the staff who use the building and rarely checks the facilities services. Which failure does the Guide warn about?",
+      "options": [
+        "A project-specific change in law against the operator",
+        "Passing its demand risk back to the Project Company",
+        "An automatic refinancing gain for the sponsors",
+        "Paying for services that are not received or are poor"
+      ],
+      "answer": 3,
+      "explanation": "Lack of authority involvement and monitoring can make the Project Company complacent, so substandard services are delivered while payments continue. The Guide notes this in accommodation projects where the authority is not closely linked to users (Ch 7 §13.2.1)."
+    },
+    {
+      "question": "A PPP toll road has a minimum revenue guarantee from the authority. High tolls and poor road condition are putting drivers off. Why is this especially serious for the authority?",
+      "options": [
+        "It must refund all the tolls that users have paid so far",
+        "It loses its right to apply performance points to the road",
+        "It has taken on some demand risk through the guarantee",
+        "It becomes liable for the builder's construction bond"
+      ],
+      "answer": 2,
+      "explanation": "The risk of a project not performing as anticipated is highest where the authority has assumed some demand risk, for example through minimum revenue guarantees (Ch 7 §13.2.2)."
+    },
+    {
+      "question": "During operations, the O&M contractor of a PPP water plant is bought by a new owner that changes its business direction, and services start to slip. What should the authority have been doing all along?",
+      "options": [
+        "Ignoring it, since O&M subcontracts are purely private",
+        "Terminating the PPP on any change of O&M ownership",
+        "Taking over the O&M subcontract automatically",
+        "Monitoring the O&M contractor's finances and performance"
+      ],
+      "answer": 3,
+      "explanation": "The authority should be vigilant in monitoring the financial and performance aspects of the O&M contractor over the whole Operations Stage. Insolvency or changes in ownership or business direction can cause major failure (Ch 7 §13.2.4)."
+    },
+    {
+      "question": "In the Victoria trams and trains franchises, the private operators carried the demand risk and demand fell. Which contract management failure does the Guide highlight?",
+      "options": [
+        "The authority's risk monitor did not spot declining finances",
+        "The authority froze all fare increases after a currency crisis",
+        "The operators had been selected through improper bidding",
+        "The authority stepped in too early and took back the risk"
+      ],
+      "answer": 0,
+      "explanation": "Table 7.11 says the authority's risk monitor was unable to identify the operators' deteriorating financial performance, and the operators walked away, leading to renegotiation (Ch 7 §13.2). The tariff freeze was the Manila case."
+    },
+    {
+      "question": "Which statement correctly contrasts the usual financial consequence of poor service performance in an authority-pays PPP with that in a user-pays PPP?",
+      "options": [
+        "Authority-pays: direct penalties; user-pays: unitary payment deductions",
+        "Authority-pays: payment deductions; user-pays: mostly direct penalties",
+        "Both types: deductions from a unitary payment only",
+        "Both types: performance points only, with no money at stake"
+      ],
+      "answer": 1,
+      "explanation": "In authority-pays contracts, service failures are usually penalised through payment deductions or abatements; in user-pays contracts the consequence is most often a direct penalty or liquidated damages through the penalty system (Ch 7 §15). Performance points track breaches in addition to, not instead of, financial consequences."
+    },
+    {
+      "question": "Statement 1: The Dar es Salaam water contract was terminated within two years, with weak risk mitigation and inefficient contract monitoring among the causes. Statement 2: The London Underground PPP ran its full 20-year term before control returned to the authority.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Dar es Salaam ended within two years, citing weak risk mitigation, inefficient monitoring and improper bidding. The London Underground PPP began in 2004 for 20 years, but control returned to the authority by 2010 (Ch 7 §13.2, Table 7.11), so Statement 2 is false."
+    },
+    {
+      "question": "A PPP metro line has just started carrying passengers. Which change in stakeholder roles should the authority expect, according to the Guide?",
+      "options": [
+        "The operator's role grows, focused on performance and assets",
+        "The builder's role grows as it takes over lifecycle works",
+        "The independent certifier takes over daily monitoring",
+        "The users' role ends once the line is commissioned"
+      ],
+      "answer": 0,
+      "explanation": "In operations the operator's role increases, with performance management as the key activity followed by asset management. Construction companies' involvement falls, and users become the most important new stakeholder (Ch 7 §14.1)."
+    },
+    {
+      "question": "After service commencement at a PPP hospital, the independent certifier's appointment ends. What is the practical effect the Guide describes?",
+      "options": [
+        "The lenders must appoint a new certifier for the operations stage",
+        "The authority and Project Company must deal with each other directly",
+        "Performance monitoring stops until a new certifier is appointed",
+        "Deductions can no longer be calculated or applied to payments"
+      ],
+      "answer": 1,
+      "explanation": "A major change in operations is the end of the Independent Engineer or certifier's involvement, leaving the parties to engage directly without that neutral third party (Ch 7 §14.1)."
+    },
+    {
+      "question": "Traffic on a user-fee PPP bridge is far higher than forecast. Apart from revenue, what does the Guide say the number of users affects?",
+      "options": [
+        "Asset wear and lifecycle, renewal and refurbishment costs",
+        "Whether a change in law counts as general or specific",
+        "The date on which the project reached financial close",
+        "The membership of the original bid evaluation panel"
+      ],
+      "answer": 0,
+      "explanation": "Where user fees provide revenue, the number of users also affects asset usage and wear, with an impact on lifecycle, renewal and refurbishment costs (Ch 7 §14.1)."
+    },
+    {
+      "question": "Which set of tools does the Guide list for monitoring Project Company performance during operations?",
+      "options": [
+        "Market sounding, bid evaluation and preferred bidder negotiation",
+        "Construction bonds, sponsor support and the long stop date",
+        "Refinancing, debt-to-equity swaps and auctions of the contract",
+        "Self-reporting, independent audits, meetings and intelligent systems"
+      ],
+      "answer": 3,
+      "explanation": "Performance monitoring can include self-reporting, independent audits, regular meetings and reports, and intelligent systems that automate data collection and reporting (Ch 7 §14.1.1). The other options belong to procurement, construction or restructuring."
+    },
+    {
+      "question": "Statement 1: The operations monitoring system is mainly focused on service performance against the contract's service levels. Statement 2: The monitoring system should ignore breaches other than service performance failures.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The monitoring system focuses primarily on service performance, but it also tracks and monitors other breaches of contract (Ch 7 §14.1.1). So only Statement 1 is true."
+    },
+    {
+      "question": "A PPP prison's Project Company has built up many performance points, but it is still below the termination threshold. Which response does the Guide list as available at this stage?",
+      "options": [
+        "Immediate termination of the contract with no remedy period",
+        "Increased oversight, with extra work or audits at the company's cost",
+        "Suspension of all payments for the rest of the contract term",
+        "Automatic transfer of the whole contract to the lenders"
+      ],
+      "answer": 1,
+      "explanation": "As performance points build up, they can trigger increased oversight, work by the authority at the Project Company's expense, suspension of work and, at the top threshold, termination for persistent breach (Ch 7 §14.1.1, §15)."
+    },
+    {
+      "question": "Three years into operations, the education ministry adopts a new policy requiring science laboratories in all secondary schools, including a PPP school. What does this represent under the Guide?",
+      "options": [
+        "A general change in law borne by the Project Company",
+        "A relief event giving the Project Company extra time",
+        "A breach of contract by the Project Company",
+        "A typical reason to use the contract's variation clause"
+      ],
+      "answer": 3,
+      "explanation": "The need for variations typically arises when the authority wants to implement a new policy initiative or has redefined the need for the project (Ch 7 §14.1.2). Variation clauses are designed for exactly this."
+    },
+    {
+      "question": "An authority wants to use a PPP variation to buy new equipment quickly, avoiding the budget scrutiny it would normally need for such a purchase. What does the Guide say?",
+      "options": [
+        "Changes need the same scrutiny as similar spending outside a PPP",
+        "Variations are exempt from normal budget and approval scrutiny",
+        "The Project Company must design the scrutiny process itself",
+        "Scrutiny is needed only if the lenders object to the change"
+      ],
+      "answer": 0,
+      "explanation": "Changes should face the same scrutiny and control as any similar authority investment outside a PPP. The change process must not be used to circumvent ordinary government processes, and changes must offer VfM (Ch 7 §14.1.2)."
+    },
+    {
+      "question": "During contract design, an authority asks for maximum flexibility to change the services at any time over 30 years. What cost does the Guide attach to such enhanced flexibility?",
+      "options": [
+        "Lower unitary payments and a shorter contract term",
+        "Lower predictability, higher bidder risk and weaker competition",
+        "Automatic step-in rights for the lenders at any time",
+        "Loss of the right to apply deductions for poor service"
+      ],
+      "answer": 1,
+      "explanation": "Enhanced flexibility comes at the cost of lower predictability, higher risk for the private party and a less effective competitive selection. Too much flexibility can make the risk unacceptable to bidders (Ch 7 §14.1.2)."
+    },
+    {
+      "question": "Which is NOT a common feature of PPP variation clauses listed in the Guide?",
+      "options": [
+        "An unlimited right for the Project Company to change the services",
+        "Limits on the size or nature of variations the authority can require",
+        "Rules on how the costs and savings of variations are shared",
+        "A streamlined process for small variations"
+      ],
+      "answer": 0,
+      "explanation": "Common features include the authority's right to request variations, limits on their size or nature, a response process, a VfM test, allocation of costs and savings, and streamlined processes for small changes (Ch 7 §14.1.2). An unlimited Project Company right is not one of them."
+    },
+    {
+      "question": "An authority wants to extend a PPP road to a new town. The contract's variation clause does not cover a change of this kind. How must it be handled?",
+      "options": [
+        "As a Project Company variation at the company's own cost",
+        "As a renegotiation under the governing law and the manual",
+        "As a streamlined small variation agreed by committee",
+        "As a relief event that gives the company more time"
+      ],
+      "answer": 1,
+      "explanation": "Changes not provided for in the PPP contract are renegotiations. Their process should follow the governing legislation, and ideally the Contract Management Manual should guide how they are started, managed and concluded (Ch 7 §14.1.3)."
+    },
+    {
+      "question": "A user-pays PPP tunnel receives an annual operating subsidy from the authority. Lighting failures keep recurring. How can the authority apply a financial consequence?",
+      "options": [
+        "By cutting the tolls that users pay at the tunnel entrance",
+        "By taking a share of the interest paid to the lenders",
+        "By deducting from the operating subsidy it pays the company",
+        "By asking users to withhold their tolls for a month"
+      ],
+      "answer": 2,
+      "explanation": "In user-pays PPPs, the authority can apply penalties as deductions from a payment due to the Project Company, such as a minimum revenue guarantee or operating subsidy (Ch 7 §15). A performance reserve account is used only where there is no payment stream."
+    },
+    {
+      "question": "Classrooms at a PPP school are unavailable for a week because the authority's own contractor cut the power supply. How should the payment mechanism treat this failure?",
+      "options": [
+        "Apply full deductions, as availability is the company's risk",
+        "Apply higher deductions under the ratchet mechanism",
+        "Treat it as grounds to start termination for breach",
+        "Give the Project Company appropriate relief from deductions"
+      ],
+      "answer": 3,
+      "explanation": "Where the Project Company is prevented from performing by defined events outside its control, or by the authority itself, the penalty regime and payment mechanism should give adequate and appropriate relief (Ch 7 §15.1)."
+    },
+    {
+      "question": "An authority is setting the required level of performance for a new PPP hospital's services. Which standard does the Guide set for these levels?",
+      "options": [
+        "They must be as high as possible to protect users",
+        "They should be set by the operator after opening",
+        "They must be reasonable and objectively measurable",
+        "They should list the inputs the operator must use"
+      ],
+      "answer": 2,
+      "explanation": "The first element of the performance management model is the required level of performance, set so the standards are reasonable and objectively measurable (Ch 7 §15.1). Levels are agreed in procurement, not left to the operator."
+    },
+    {
+      "question": "A contract manager applies the largest deduction and a formal default warning for every small cleaning lapse at a PPP hospital, however minor. What risk does the Guide identify?",
+      "options": [
+        "An overly rigid approach may endanger service delivery to users",
+        "The deductions will be treated as a refinancing gain",
+        "The lenders will lose their step-in rights under the contract",
+        "The Project Company will gain a compensation event"
+      ],
+      "answer": 0,
+      "explanation": "Corrective action must be commensurate with the severity of the failure. An overly rigid approach may jeopardise continued service to end users, while too much leniency encourages further breaches (Ch 7 §15.1)."
+    },
+    {
+      "question": "A draft PPP prison contract tells the operator exactly how many guards to employ and which cleaning products to use. What does the Guide recommend instead?",
+      "options": [
+        "Specify even more inputs, to reduce the need for monitoring",
+        "Leave performance levels to be agreed after the prison opens",
+        "Let the prisoners' families choose the inputs each year",
+        "Specify required outputs, to support innovation and risk transfer"
+      ],
+      "answer": 3,
+      "explanation": "To encourage innovation and optimise risk transfer, the contract should specify performance through output specifications, not required inputs (Ch 7 §15.2). Performance levels are worked out during the competitive stages of procurement."
+    },
+    {
+      "question": "An authority is preparing to procure a PPP hospital. When should it set out the monitoring requirements, and what should bidders provide?",
+      "options": [
+        "After financial close, with a draft monitoring plan from the lenders",
+        "At handback, with a condition survey from the independent certifier",
+        "In the Request for Proposals, with a full methodology in each bid",
+        "At service commencement, with a short note from the facility operator"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring requirements should be set out in the Request for Proposals, and a full monitoring methodology must be included in the bid, normally with substantial self-monitoring by the Project Company (Ch 7 §15.2)."
+    },
+    {
+      "question": "At a PPP hospital, clinical staff also report cleaning failures they see on the wards. Under the Guide, what is the basis for calculating performance deductions?",
+      "options": [
+        "Only the failure reports made by the hospital's clinical staff",
+        "The lenders' quarterly technical reports on the facility",
+        "Complaints that members of the public post online",
+        "The Project Company's self-monitoring, as set out in the contract"
+      ],
+      "answer": 3,
+      "explanation": "The Project Company has primary responsibility for its self-monitoring, which forms the basis for calculating penalties or deductions. Extra authority monitoring, such as clinical staff reports, is additional and done as the contract allows (Ch 7 §15.2)."
+    },
+    {
+      "question": "An airport PPP authority wants to measure how helpful the terminal staff are, without relying on travellers' personal perceptions. Which approach fits best?",
+      "options": [
+        "End-user satisfaction surveys of departing travellers",
+        "Self-reporting by the operator's own customer staff",
+        "Mystery shoppers applying the same objective standards",
+        "A ratchet applied to the existing cleaning deductions"
+      ],
+      "answer": 2,
+      "explanation": "Mystery shoppers are qualified individuals who test the service against the same objective standards, which removes the perception problem of satisfaction surveys (Ch 7 §15.2, Table 7.12)."
+    },
+    {
+      "question": "A PPP contract will monitor cleaning quality by checking a sample of rooms. When should the sample size and frequency be agreed?",
+      "options": [
+        "At the first monthly performance meeting",
+        "Whenever the authority suspects poor cleaning",
+        "At the end of the settling-in period",
+        "Before the contract signature date"
+      ],
+      "answer": 3,
+      "explanation": "Where monitoring is done on a sampled basis, the sampling methodology, including sample size and frequency, should be agreed prior to the signature date (Ch 7 §15.2, Table 7.12)."
+    },
+    {
+      "question": "An agreed user survey at a PPP library shows that one area of the service is below the agreed satisfaction level. What should happen next?",
+      "options": [
+        "The company prepares a rectification plan agreed with the authority",
+        "The authority deducts the full unitary payment for that month",
+        "The contract moves straight to termination for persistent breach",
+        "The result is ignored, since surveys are based on perceptions"
+      ],
+      "answer": 0,
+      "explanation": "Where a survey shows that an aspect of the services falls below the agreed level, a rectification plan should be required and agreed with the authority (Ch 7 §15.2, Table 7.12). Surveys are hard to link to payment, but they are not ignored."
+    },
+    {
+      "question": "Two catering failures occur at a PPP hospital: meals served in poor condition, and meals served by staff without uniforms. How should the penalties compare?",
+      "options": [
+        "Both should attract the same penalty, as both concern catering",
+        "Serving food in poor condition should attract the higher penalty",
+        "The uniform failure should cost more, as patients can see it",
+        "Neither should be penalised, as catering is never a core service"
+      ],
+      "answer": 1,
+      "explanation": "Different failures in the same service can carry different penalties depending on context: delivering food in an unsuitable condition is more serious than serving it without a waiter's uniform (Ch 7 §15.3)."
+    },
+    {
+      "question": "Statement 1: In authority-pays contracts, payment deductions may start only once performance falls below a set level, or on the first failure. Statement 2: The contract should include a schedule of penalties for each failure, or a clear deduction formula.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says deductions may start once performance deteriorates below a particular level or accrue on the first failure, and the contract should contain a penalty schedule or a clear way to calculate deductions (Ch 7 §15.3). Both statements are true."
+    },
+    {
+      "question": "Apart from taking more money, why does the Guide see a ratchet mechanism as useful when poor performance continues for a long time?",
+      "options": [
+        "It moves the failed service back to the Procuring Authority",
+        "It cancels the remedy period that comes before termination",
+        "Subcontractors and funders find it harder to ignore the problem",
+        "It turns the repeated failure into a compensation event"
+      ],
+      "answer": 2,
+      "explanation": "A key advantage of the ratchet is that continuing poor performance becomes more difficult for other project participants, such as subcontractors and funders, to ignore, which encourages early action (Ch 7 §15.3)."
+    },
+    {
+      "question": "A PPP contract pays the Project Company a fixed price for its services. According to the Guide, how does this encourage performance improvement?",
+      "options": [
+        "The company earns a bonus for each failure it self-reports",
+        "The company can increase its profit by becoming more efficient",
+        "The price rises automatically whenever the company's costs rise",
+        "The company must pass all its savings on to the lenders"
+      ],
+      "answer": 1,
+      "explanation": "The payment mechanism gives some incentive: with fixed prices the Project Company can increase profit by improving efficiency, and with shared profits it is motivated to improve economy (Ch 7 §15.3)."
+    },
+    {
+      "question": "A Project Company at a PPP hospital proposes several ideas to the authority. Which one would count as 'added value' under the Guide?",
+      "options": [
+        "Delivering services exactly as the contract requires",
+        "Cutting staff training below the output specification",
+        "Removing a service the authority no longer needs",
+        "Raising user fees above the contract's indexation formula"
+      ],
+      "answer": 2,
+      "explanation": "Added value means something genuinely worthwhile beyond the original contract. Examples include eliminating services no longer required, new cheaper technology, better working practices and innovation (Ch 7 §15.3)."
     }
   ]
 }

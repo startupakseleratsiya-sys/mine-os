@@ -291,6 +291,446 @@
       ],
       "answer": 0,
       "explanation": "In operations, the framework must ensure that amendments and variations are made on the same basis as the original project, offering VfM and risk transfer. In South Africa, for example, material amendments need treasury approval on VfM, affordability and risk transfer."
+    },
+    {
+      "question": "Why does the Guide call the payment mechanism the very heart of risk transfer and VfM?",
+      "options": [
+        "It fixes the interest rate that the lenders will charge",
+        "It sets how strongly the Project Company is motivated to perform",
+        "It sets the tariffs that users pay in the first year",
+        "It defines how the refinancing gain will be shared"
+      ],
+      "answer": 1,
+      "explanation": "Risk transfer and VfM depend on how far the payment mechanism rewards full performance and penalises failure (Ch 7 §16.1). Interest rates and gain shares are set elsewhere."
+    },
+    {
+      "question": "An authority drafts hospital performance targets so demanding that the operator would need far more staff than patients need. What is the main problem with this design?",
+      "options": [
+        "It breaks the rule of no payment before commencement",
+        "It pushes the operator towards costly over-performance",
+        "It links the deductions to the operator's profitability",
+        "It removes the need for any change mechanism"
+      ],
+      "answer": 1,
+      "explanation": "The mechanism should encourage the right level of performance without unnecessary and costly over-performance (Ch 7 §16.1). The other options describe rules that this design does not break."
+    },
+    {
+      "question": "Drivers on a user-pays toll road suffer from potholes, but they cannot pay a lower toll. Who should hold the contractual right to penalise the Project Company?",
+      "options": [
+        "The drivers themselves, through a reduced toll",
+        "The lenders, through their direct agreement",
+        "The Project Company's own board of directors",
+        "The authority or an independent regulator"
+      ],
+      "answer": 3,
+      "explanation": "Users have no right to deduct from tolls, so the penalty right must sit with a body representing users' interests: the authority or an independent regulator (Ch 7 §16.1)."
+    },
+    {
+      "question": "A draft payment mechanism makes deductions larger in years when the Project Company is more profitable. What should the authority's adviser say?",
+      "options": [
+        "Deductions must be charged as a single annual sum",
+        "Deductions are only allowed in user-pays PPPs",
+        "Profitability should be the main performance indicator",
+        "Measures and deductions should not be linked to profitability"
+      ],
+      "answer": 3,
+      "explanation": "Performance measures should be simple, objective, equal to the underperformance, and not linked to profitability (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "Apart from risk transfer, VfM and affordability, which three factors must be considered when designing an authority-pays payment mechanism?",
+      "options": [
+        "Indicators and targets, regular measurement, and the link to deductions",
+        "Tariff levels, traffic forecasts, and toll collection systems",
+        "Gearing, debt cover ratios, and the equity IRR",
+        "Land acquisition, permits, and construction milestones"
+      ],
+      "answer": 0,
+      "explanation": "The Guide names performance indicators with initial targets, regular measurement in operations, and the link between indicators and deductions (Ch 7 §16.1.1). Gearing and cover ratios are monitored, but they are not design factors."
+    },
+    {
+      "question": "Statement 1: In a user-pays PPP, underperformance is punished only by lower demand, so the authority cannot set any contractual penalties. Statement 2: In an authority-pays PPP, the Project Company may earn some minor commercial income, such as from advertising.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: the authority may still define penalties, for example for late information or poor road maintenance. Statement 2 is true (Ch 7 §16.1–§16.1.1)."
+    },
+    {
+      "question": "A finance ministry worries that some authorities use PPPs to keep future payment obligations out of sight in the public accounts. Which principle from the Guide addresses this?",
+      "options": [
+        "Give guarantees to lenders without any fee",
+        "Keep PPP contracts confidential to protect bidders",
+        "Adopt modern accrual accounting standards for reporting",
+        "Let each authority approve its own PPPs alone"
+      ],
+      "answer": 2,
+      "explanation": "Modern accrual accounting standards reduce the temptation to use PPPs and contingent liabilities to disguise fiscal obligations (Ch 7 §19.2). The Guide also wants contracts or summaries published and PPPs approved by a body with an interest in future spending, so B and D go against it."
+    },
+    {
+      "question": "A bus PPP's main costs are fuel and wages, which have historically risen much faster than CPI. What should the authority consider when setting indexation?",
+      "options": [
+        "CPI must be used, because it is the only lawful index",
+        "An index that reflects those costs may give better VfM",
+        "No part of the payment should be indexed at all",
+        "All fuel risk should be passed on to the bus users"
+      ],
+      "answer": 1,
+      "explanation": "CPI is the default, but where key costs deviate from CPI the Project Company would price in that risk, so a more suitable index may give better VfM (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "Why is CPI the default index for the unitary payment?",
+      "options": [
+        "It matches how the authority's own budget is usually indexed",
+        "It is the index that lenders use for loan repayments",
+        "It always tracks construction costs most closely",
+        "It is required by international accounting standards"
+      ],
+      "answer": 0,
+      "explanation": "CPI reflects the overall indexation normally applied to the authority's budget (Ch 7 §16.1.1). Loan repayments are generally not affected by CPI, which is why the debt part should not be indexed."
+    },
+    {
+      "question": "A draft deduction table applies a very large deduction for one dirty window in a school. What is the risk?",
+      "options": [
+        "There is no risk, because deductions have no upper limit",
+        "Harsh penalties for minor failures can cause disputes",
+        "There is no risk, because harsh penalties always help",
+        "The deduction should be replaced by a gain share"
+      ],
+      "answer": 1,
+      "explanation": "Deductions should reflect the severity of the failure; too harsh a penalty for minor failures may lead to adverse outcomes and disputes (Ch 7 §16.1.1). 'No limit' applies to non-availability, not to proportionality."
+    },
+    {
+      "question": "Statement 1: Deductions that are too lenient may leave the authority with failures the Project Company has no incentive to fix. Statement 2: Sector specialists should help set the proportionality of deductions for each project.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide warns against both too-harsh and too-lenient deductions and says sector specialists and experts should determine proportionality (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "An authority in an emerging economy with a new PPP programme finds that banks will not lend unless deductions are capped. What does the Guide allow?",
+      "options": [
+        "Unlimited deductions, with no exceptions",
+        "Indexing the debt part of the payment instead",
+        "A full government guarantee of all the debt",
+        "A limit on deductions to support bankability"
+      ],
+      "answer": 3,
+      "explanation": "Generally there is no limit on non-availability deductions, but some projects in emerging and developing economies with immature programmes may have limits to ensure bankability (Ch 7 §16.1.1, footnote 53)."
+    },
+    {
+      "question": "In a hospital PPP, the authority decides how many meals each patient receives, so meal volumes depend on its own policy. How should the cost of food consumables be treated?",
+      "options": [
+        "As a risk fully borne by the operator",
+        "As a capped deduction item",
+        "As a pass-through cost",
+        "As a refinancing gain item"
+      ],
+      "answer": 2,
+      "explanation": "Pass-through costs suit items where the authority controls usage, so it is inappropriate to place usage and supply cost risk on the Project Company (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "Under a value-testing procedure, the Project Company compares its cleaning subcontractor's costs with market prices, without retendering the service. What is this method called?",
+      "options": [
+        "Market testing",
+        "Benchmarking",
+        "Refinancing",
+        "Pass-through"
+      ],
+      "answer": 1,
+      "explanation": "Benchmarking compares costs with market prices; market testing retenders the service to find the market price (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "Five years into a school PPP, the authority wants to add a new evening security service. Which part of the payment mechanism handles this?",
+      "options": [
+        "Market testing of soft services",
+        "Deductions for non-availability",
+        "The change or variation mechanism",
+        "Annual indexation of the payment"
+      ],
+      "answer": 2,
+      "explanation": "A mechanism for dealing with changes to service requirements must be built into the payment mechanism (Ch 7 §16.1.1). Market testing reprices existing soft services, not new ones."
+    },
+    {
+      "question": "A user-pays toll road contract sets penalties for poor maintenance. Which destination for the penalty money is NOT described in the Guide?",
+      "options": [
+        "Paid to the Procuring Authority",
+        "Refunded to the road users",
+        "Reinvested in the asset, with consent",
+        "Paid to shareholders as a dividend"
+      ],
+      "answer": 3,
+      "explanation": "Penalties can be paid to the authority, refunded to users, or reinvested in the asset with the authority's consent (Ch 7 §16.1.1). Paying them to shareholders would reward failure."
+    },
+    {
+      "question": "A user-pays airport earns far more than its base case return on equity because the national economy grew faster than expected. Which contract feature lets the public share this gain?",
+      "options": [
+        "Sharing of returns above a benchmark return",
+        "Deductions from the unitary payment",
+        "A minimum revenue guarantee",
+        "Pass-through of consumable costs"
+      ],
+      "answer": 0,
+      "explanation": "User-pays contracts may share returns above a benchmark or base case return on equity, so the public benefits from factors outside the Project Company's control (Ch 7 §16.1.1)."
+    },
+    {
+      "question": "In year six of a PPP, the unitary payment must be adjusted for both inflation and a force majeure event. Which tool should both parties use for these adjustments?",
+      "options": [
+        "The authority's pre-procurement model",
+        "The base case financial model",
+        "The lenders' credit rating report",
+        "The independent certifier's report"
+      ],
+      "answer": 1,
+      "explanation": "The base case financial model is used to adjust the unitary payment for inflation, deductions and special events such as force majeure (Ch 7 §16.2)."
+    },
+    {
+      "question": "A Project Company updates cost assumptions in the base case financial model without telling the authority. What does the Guide require?",
+      "options": [
+        "The Project Company may change the model on its own",
+        "Only the lenders need to approve model changes",
+        "All model changes must be recorded and agreed by both parties",
+        "Model changes are allowed only at contract expiry"
+      ],
+      "answer": 2,
+      "explanation": "All changes to the financial model need to be recorded accurately and agreed between the parties (Ch 7 §16.2)."
+    },
+    {
+      "question": "A Project Company expects some rework of its deliverables, but it does not know how much. How should it plan for this?",
+      "options": [
+        "Ask the authority to hold a reserve for it",
+        "Claim a compensation event in advance",
+        "Ignore it until the rework actually happens",
+        "Include a contingency reserve in its cost baseline"
+      ],
+      "answer": 3,
+      "explanation": "Contingency reserves cover the 'known-unknowns' among risks the Project Company has accepted, such as an uncertain amount of rework (Ch 7 §16.3)."
+    },
+    {
+      "question": "Statement 1: A contingency reserve may be a percentage of estimated cost, a fixed number, or calculated with quantitative methods. Statement 2: Once set, a contingency reserve cannot be reduced during the project.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. Statement 2 is false: as better information becomes available, the reserve may be used, reduced or eliminated (Ch 7 §16.3)."
+    },
+    {
+      "question": "A Procuring Authority keeps the land acquisition risk on a PPP road. How does it normally provide for this contingency?",
+      "options": [
+        "Through budget adjustments made annually or semi-annually",
+        "By keeping a large explicit reserve of cash",
+        "By transferring this risk to the lenders instead",
+        "By charging a risk fee to the Project Company"
+      ],
+      "answer": 0,
+      "explanation": "Explicit reserves are generally discouraged under public budgeting rules, so authorities adjust budgets annually or semi-annually for contingencies that occur (Ch 7 §16.3)."
+    },
+    {
+      "question": "A contract manager is writing the authority's contingency plan for a Project Company failure. Which approach fits the Guide?",
+      "options": [
+        "Make it very long so that it covers every possible event",
+        "Keep it only in the Project Company's own records",
+        "Keep it simple and accessible, as it will be used under pressure",
+        "Write it only after a failure has actually happened"
+      ],
+      "answer": 2,
+      "explanation": "The plan belongs in the Contract Management Manual and should not be over-complicated, because it will be used in a period of high pressure (Ch 7 §16.3, Box 7.10)."
+    },
+    {
+      "question": "How should a party estimate the contingency it sets aside for force majeure events?",
+      "options": [
+        "As a fixed ten percent of the total capital cost",
+        "As the full force majeure termination payment",
+        "From the Project Company's normal dividend policy",
+        "From its probability and the likely insurance shortfall"
+      ],
+      "answer": 3,
+      "explanation": "Estimates must be based on the probability of the risk and the likely shortfall in insurance proceeds, or the time before they are received (Ch 7 §16.3.1)."
+    },
+    {
+      "question": "A Project Company's finance director suggests keeping a large cash reserve for force majeure. What does the Guide say is more typical?",
+      "options": [
+        "Access to standby equity or debt facilities for a fee",
+        "Asking the authority to prepay the unitary charge",
+        "Paying higher dividends to keep shareholders loyal",
+        "Cancelling insurance to save on premium costs"
+      ],
+      "answer": 0,
+      "explanation": "The Project Company usually keeps access to standby equity or debt facilities and pays an availability fee; a large cash reserve is an expensive use of funds (Ch 7 §16.3.1)."
+    },
+    {
+      "question": "A Project Company's shareholders want the money included in revenues for future renewals to be paid out now as dividends. How should the authority and lenders respond?",
+      "options": [
+        "Agree, because renewal risk now sits with the authority",
+        "Refuse, because renewal money must not go to shareholders",
+        "Agree, provided depreciation is increased in the accounts",
+        "Refuse, and take over the renewal duty themselves"
+      ],
+      "answer": 1,
+      "explanation": "The renewal obligation and its risk stay with the Project Company, and the authority and lenders require that this money is not paid out as distributions (Ch 7 §16.4)."
+    },
+    {
+      "question": "Which statement correctly describes the difference between depreciation and a lifecycle renewal fund?",
+      "options": [
+        "They are two names for exactly the same cash reserve",
+        "Depreciation is cash; the fund is only an accounting entry",
+        "Depreciation is an accounting view; the fund is cash for renewal",
+        "The fund is held by the authority; depreciation by lenders"
+      ],
+      "answer": 2,
+      "explanation": "Depreciation recognises declining value in the accounts, while the renewal fund builds up cash to restore the asset's value and function (Ch 7 §16.4)."
+    },
+    {
+      "question": "Near the end of a PPP, the authority's final survey shows the assets are below the required standard of residual life. What may the authority do?",
+      "options": [
+        "Take the whole renewal fund balance in every case",
+        "Terminate the contract on grounds of force majeure",
+        "Extend the contract term automatically by five years",
+        "Withhold unitary payments or require a performance bond"
+      ],
+      "answer": 3,
+      "explanation": "The authority can withhold unitary charge payments or require a performance bond if assets are not restored to the required standard (Ch 7 §16.4). Any fund balance usually belongs to the Project Company."
+    },
+    {
+      "question": "In Chile's PPP framework, which body gives key approvals for contract amendments and dispute settlements, and has an officer who can stop any project?",
+      "options": [
+        "The Ministry of Finance",
+        "The Ministry of Public Works",
+        "The Technical Panel",
+        "The national parliament"
+      ],
+      "answer": 0,
+      "explanation": "The Ministry of Public Works leads and administers PPPs, but the Ministry of Finance gives key approvals and has an officer inside the works ministry who can stop any project (Ch 7 §17.1)."
+    },
+    {
+      "question": "Statement 1: In Chile, a Technical Panel acts as a quasi-independent regulator that can make recommendations on disputes between the parties. Statement 2: In South Africa, a material amendment must be approved by the relevant treasury against VfM, affordability and substantial risk transfer.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true: Chile's 2010 Concession Law created the Technical Panel, and South Africa's Treasury Regulation 16 sets the three tests for material amendments (Ch 7 §17.1)."
+    },
+    {
+      "question": "When is refinancing most attractive to a Project Company?",
+      "options": [
+        "When construction is delayed and costs start to rise",
+        "When interest rates fall or the project's risk profile improves",
+        "When the authority applies large performance deductions",
+        "When the project is very close to contract expiry"
+      ],
+      "answer": 1,
+      "explanation": "Refinancing is attractive when interest rates fall or the risk profile improves, for example once operations are running well (Ch 7 §17.2)."
+    },
+    {
+      "question": "Which of these is NOT a typical form of refinancing described in the Guide?",
+      "options": [
+        "Reducing the debt pricing",
+        "Extending the debt maturity",
+        "Releasing shareholder guarantees",
+        "Increasing the unitary payment"
+      ],
+      "answer": 3,
+      "explanation": "Refinancing may reduce pricing, extend maturity, raise gearing, lighten reserve accounts or release guarantees (Ch 7 §17.2). It changes the financing, not the payment the authority makes."
+    },
+    {
+      "question": "An authority is setting the refinancing gain share for a new user-pays PPP in which the Project Company takes full demand risk. What should be its foremost consideration?",
+      "options": [
+        "The risks the Project Company bears under the contract",
+        "A fixed 90 percent share for the authority in all cases",
+        "A 50/50 split, because every country now uses it",
+        "No share, because user-pays PPPs never refinance"
+      ],
+      "answer": 0,
+      "explanation": "The risks assumed by the Project Company must be the foremost consideration. Full demand risk argues for a larger private share, though gains often come from factors it does not control (Ch 7 §17.2.2)."
+    },
+    {
+      "question": "A government is preparing the bid documents for a new PPP. Which refinancing lesson from the Guide should it apply now?",
+      "options": [
+        "Leave refinancing terms to be agreed once operations start",
+        "Prescribe the gain calculation and share in the contract",
+        "Ban every refinancing for the full contract term",
+        "Let the lenders decide the share at financial close"
+      ],
+      "answer": 1,
+      "explanation": "Box 7.11 says refinancing should be planned at bidding stage and the calculation and share prescribed in the contract, because later negotiation leads to disputes or excessive private gains (Ch 7 §17.2.2)."
+    },
+    {
+      "question": "A Project Company raises new debt and pays it out at once as a distribution. Compared with no refinancing, what usually happens to its later distributions?",
+      "options": [
+        "They stay the same, because the debt is fixed",
+        "They rise, because interest costs fall to zero",
+        "They fall, because debt service payments are higher",
+        "They are paid to the authority instead"
+      ],
+      "answer": 2,
+      "explanation": "Changes in distributions can be positive or negative: an immediate payout is followed by higher debt service and lower future distributions, which the NPV calculation captures (Ch 7 §17.2.3)."
+    },
+    {
+      "question": "A Project Company plans to refinance its hospital PPP next year and asks how approvals should be handled. What is the recommended practice?",
+      "options": [
+        "The lenders alone approve, because it is their loan",
+        "The authority approves only after new loans are signed",
+        "The finance ministry approves on the authority's behalf",
+        "The authority and finance ministry approve separately, early"
+      ],
+      "answer": 3,
+      "explanation": "It is recommended practice for the Procuring Authority and the Ministry of Finance to give separate approvals before the refinancing, as early as possible, because the market sees the authority's support as a strong positive (Ch 7 §17.2.4). One approval cannot replace the other."
+    },
+    {
+      "question": "A feasibility study for a PPP road is being prepared. Which fiscal risk management step belongs to this phase?",
+      "options": [
+        "Quantify all fiscal obligations and assess affordability",
+        "Generate the fiscal risk register for monitoring",
+        "Monitor and report against the fiscal risk register",
+        "Require bidders to accept their allocated risks"
+      ],
+      "answer": 0,
+      "explanation": "Table 7.14 places explicit quantification of fiscal obligations and affordability at feasibility; the register comes at contract award and monitoring in construction and operations (Ch 7 §19.1)."
+    },
+    {
+      "question": "Under IAS 37, which of these is NOT a condition for recognising a provision?",
+      "options": [
+        "A present obligation arises from a past event",
+        "The obligation is guaranteed by the finance ministry",
+        "Payment is probable, or more likely than not",
+        "The amount can be estimated reliably"
+      ],
+      "answer": 1,
+      "explanation": "IAS 37 requires a present obligation from a past event, probable payment, and a reliable estimate (Ch 7 §19.1). A ministry guarantee is not one of the conditions."
+    },
+    {
+      "question": "A finance ministry has issued many credit guarantees to PPP lenders. Which practice does the Guide recommend?",
+      "options": [
+        "Give guarantees free to attract more bidders",
+        "Keep all guarantees out of budget documents",
+        "Charge fees for guarantees and use a guarantee fund",
+        "Let each authority issue guarantees without review"
+      ],
+      "answer": 2,
+      "explanation": "Authorities should charge fees for guarantees and use a guarantee fund to recognise their cost or help pay when they are called (Ch 7 §19.2)."
+    },
+    {
+      "question": "Statement 1: Cost-benefit analysis should be used to select projects. Statement 2: VfM analysis should be used to choose between a PPP and public finance.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide gives CBA the job of project selection and VfM analysis the job of choosing the delivery method (Ch 7 §19.2)."
     }
   ]
 }

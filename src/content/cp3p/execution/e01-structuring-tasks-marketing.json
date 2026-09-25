@@ -146,8 +146,8 @@
       "question": "An authority has refined its risk allocation and updated its financial model for an availability-payment road. What should it use the updated model to set in the RFP?",
       "options": [
         "The ceiling of payments acceptable for a qualifying bid",
-        "The bidders' target equity IRR",
-        "The lenders' debt service cover ratio",
+        "The target equity IRR that all bidders must earn",
+        "The debt service cover ratio that lenders will require",
         "The construction contractor's price"
       ],
       "answer": 0,
@@ -157,7 +157,7 @@
       "question": "To save time, a procuring authority plans to skip a geotechnical study and ask bidders to do their own investigations. How does the Guide view this?",
       "options": [
         "Good practice, because bidders are better at studies",
-        "Acceptable if the ceiling of payments is increased",
+        "Acceptable, provided the ceiling of payments is increased to match",
         "Required in all one-stage tenders",
         "Bad practice that can lead to no bids, delays or renegotiation"
       ],
@@ -167,10 +167,10 @@
     {
       "question": "During market testing, several potential bidders say they will not bid unless the authority takes back all demand risk and doubles the contract term. What should the authority do first?",
       "options": [
-        "Accept all requests to keep bidders interested",
-        "Critically evaluate the feedback, since bidders tend to overstate concerns",
+        "Accept all the requests so that bidders stay interested",
+        "Critically evaluate it, since bidders tend to overstate concerns",
         "Stop market testing and launch immediately",
-        "Hold private meetings with each bidder to negotiate"
+        "Hold private meetings with each bidder to negotiate the terms"
       ],
       "answer": 1,
       "explanation": "The Guide says feedback must be critically evaluated because bidders will likely overstate interest and concerns, and changes should be sensible and affordable. Private meetings would harm transparency and the level playing field."
@@ -180,7 +180,7 @@
       "options": [
         "Hold it, and keep the discussion confidential to protect the bidder",
         "Refuse all contact with bidders until contract award",
-        "Avoid individual discussions; if one happens, record it and share it with all bidders",
+        "Avoid them; if one happens, record it and share it with all bidders",
         "Hold it only if the bidder signs a data room NDA"
       ],
       "answer": 2,
@@ -192,7 +192,7 @@
         "Nothing, because testing and marketing are the same task",
         "Only publish the final contract on launch day",
         "Wait for bidders to contact it",
-        "Market the project, with at least an industry meeting and a Project Information Memorandum"
+        "Market it, with at least an industry meeting and a PIM"
       ],
       "answer": 3,
       "explanation": "Even without further testing, the project should still be marketed to build industry interest and let bidders form consortia. The minimum is an industry meeting and a detailed PIM."
@@ -200,7 +200,7 @@
     {
       "question": "Local activists oppose a planned waste-to-energy PPP. The procuring authority asks whether its industry meetings will solve this. What is the best answer?",
       "options": [
-        "No; it needs a separate communication plan, and public hearings if necessary",
+        "No; it needs a separate communication plan and, if needed, hearings",
         "Yes; industry meetings are the main tool for public acceptance",
         "Yes, if activists are invited to ask questions at the industry meeting",
         "No; public opposition cannot be addressed before financial close"
@@ -240,6 +240,446 @@
       ],
       "answer": 0,
       "explanation": "The Guide uses a wider meaning of structuring that includes the tender process. It says drafting should start once the risk allocation is defined, so statement 2 is false."
+    },
+    {
+      "question": "During structuring, the team finds that the project scope and the cost estimates have changed a lot since appraisal. What should it do with the cost-benefit analysis?",
+      "options": [
+        "Keep it unchanged, because it was final at appraisal",
+        "Ask bidders to redo it as part of their proposals",
+        "Replace it with a Value for Money test only, as it is quicker",
+        "Reopen and revisit it, because the changes are substantial"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the CBA could be reopened if substantial changes in scope or cost estimates emerge (Ch 5 §1.2). It is the authority's analysis, so it is not passed to bidders or dropped."
+    },
+    {
+      "question": "A new tax law passed during structuring changes the authority's base case assumptions. What is most likely needed?",
+      "options": [
+        "Nothing, because legal changes are always the bidder's risk",
+        "Revisit the feasibility study for the affected assumptions",
+        "Wait and review the assumptions after contract signature",
+        "Leave the issue for the winning bidder's own financial model"
+      ],
+      "answer": 1,
+      "explanation": "Changes in the legislative landscape, such as tax or environmental law, may mean the feasibility study has to be revisited (Ch 5 §1.2). Waiting until after signature would lock in wrong assumptions."
+    },
+    {
+      "question": "Appraisal approved a contract term of between 25 and 30 years for a hospital PPP. When is the exact contract term usually decided?",
+      "options": [
+        "At the first industry meeting, by a vote of bidders",
+        "During structuring, as part of the financial structure",
+        "By the winning bidder, in its own financial model",
+        "After signature, as part of contract management"
+      ],
+      "answer": 1,
+      "explanation": "A range or limit for the term may be approved in appraisal, but the exact term is usually decided during structuring, as part of financial structuring (Ch 5 §3.6). It is not left to bidders or to contract management."
+    },
+    {
+      "question": "A drafter proposes a short contract with no rules on how changes will be handled, saying changes can be negotiated when they come. What does the Guide suggest?",
+      "options": [
+        "Accept it, because short contracts reduce bidding costs",
+        "Accept it, if the RFP describes the change process",
+        "Reject it; the contract must manage future changes",
+        "Accept it, because general law handles all changes"
+      ],
+      "answer": 2,
+      "explanation": "Good drafting makes the contract a valid tool for contract management, especially for changes during its life (Ch 5 §1.1). The RFP ends at award, so it cannot manage changes over decades."
+    },
+    {
+      "question": "Consider two statements. 1: The Structuring Phase ends when the tender package is approved and authorised. 2: For convenience, the Guide assumes the whole tender package is prepared before launch, as in a one-stage process.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The phase finishes when the tender package is approved and authorised, and the Guide assumes all of the contract, RFQ and RFP are prepared before launch as if it were a one-stage process (Ch 5 §1.2)."
+    },
+    {
+      "question": "During structuring, the VfM result becomes unacceptable under the current risk allocation. What should the team do?",
+      "options": [
+        "Revisit the risk allocation, since the tasks depend on each other",
+        "Ignore the result, since VfM was already tested in appraisal",
+        "Raise the ceiling of payments until the VfM result becomes acceptable",
+        "Finish drafting the contract first and check VfM afterwards"
+      ],
+      "answer": 0,
+      "explanation": "Many structuring tasks run in parallel and are mutually dependent; the Guide's example is a VfM result that forces the risk structure to be revisited (Ch 5 §2). Raising payments would worsen, not fix, value for money."
+    },
+    {
+      "question": "Why does the Guide link the payment mechanism, part of financial structuring, so closely to risk structuring?",
+      "options": [
+        "Because lenders, not government, set the payment mechanism",
+        "Because the payment mechanism decides the qualification bar",
+        "Because the payment mechanism underpins the risk allocation",
+        "Because the payment mechanism replaces the risk matrix"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the payment mechanism is part of financial and budgetary structuring but is linked to risk structuring because it underpins the risk allocation (Ch 5 §2). It is set by the authority, not by lenders."
+    },
+    {
+      "question": "A country with mature PPP guidelines is structuring a simple school PPP with no major technical or risk complexity. What timescale for structuring is realistic?",
+      "options": [
+        "Around 2 weeks",
+        "Around 36 months",
+        "Around 5 years",
+        "Around 6 months"
+      ],
+      "answer": 3,
+      "explanation": "The Guide gives around 6 months for simple projects under sophisticated guidelines, and 12 to 18 months for complex ones (Ch 5 Box 5.4). Two weeks is far too short; 36 months or more is beyond the range."
+    },
+    {
+      "question": "An authority rushes its tender package to meet a date it announced to the market. Its approving body has strong quality checks. What is the most likely result?",
+      "options": [
+        "The tender still launches on time with no real effect",
+        "Bidders simply fix the gaps in their own proposals",
+        "It is sent back, the launch slips and reputation suffers",
+        "The approvers must accept the package as submitted"
+      ],
+      "answer": 2,
+      "explanation": "Where quality checks exist, approvers may require more refinement, and rescheduling the announced launch damages the authority's reputation (Ch 5 Box 5.4). Bidders cannot be relied on to fix a weak package."
+    },
+    {
+      "question": "In a country with no quality checks on tender packages, an authority rushes structuring to launch quickly. What does the Guide warn?",
+      "options": [
+        "Approvers will certainly send the whole package back",
+        "A high risk that the tender or the resulting contract fails",
+        "Only a small delay to the launch date announced",
+        "Bidders will then ask for a much longer bid validity period"
+      ],
+      "answer": 1,
+      "explanation": "If the package is rushed and quality checks are not in place, there is a high risk of failure of the tender or of the contract signed (Ch 5 Box 5.4). A send-back only happens where checks exist."
+    },
+    {
+      "question": "The Guide says structuring and drafting is a project in itself. How is success in this phase defined?",
+      "options": [
+        "Signing the contract with the lowest-priced bidder",
+        "Launching on the announced date, checked and approved",
+        "Reaching financial close within twelve months of launch",
+        "Receiving the largest possible number of proposals"
+      ],
+      "answer": 1,
+      "explanation": "Project success here is tendering out the project in the time expected and announced to the market, with all conditions checked and approvals received (Ch 5 §2). Signature and financial close come later, in the Tender Phase and after."
+    },
+    {
+      "question": "An authority's technical solution was approved in appraisal and will not change during structuring. Which adviser capability may not be required?",
+      "options": [
+        "Legal",
+        "Economic",
+        "Financial",
+        "Technical"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says economic capability may not be required if the project solution is already defined and approved with no changes (Ch 5 §3.1). Legal drafting, financial structuring and technical specifications are still needed."
+    },
+    {
+      "question": "The legal adviser asks where to focus in the Structuring Phase. What is the main legal capability needed?",
+      "options": [
+        "Carrying out most of the legal due diligence",
+        "Defending the authority against losing bidders",
+        "Buying the land for the project site",
+        "Procurement advice and contract drafting"
+      ],
+      "answer": 3,
+      "explanation": "Most due diligence was done in appraisal, so the primary legal need is procurement advice and contract drafting (Ch 5 §3.1). Doing most due diligence now would signal a poorly prepared project."
+    },
+    {
+      "question": "An authority has very little staff time to manage advisers during structuring. Which way of hiring advisers suits it best?",
+      "options": [
+        "An integrated team under one advisory contract",
+        "Separate selections of the best expert in each field",
+        "No advisers, because appraisal is already complete",
+        "Advisers nominated and paid by the likely bidders"
+      ],
+      "answer": 0,
+      "explanation": "An integrated team is more cohesive, while separate selections give flexibility but consume more government time and resources (Ch 5 §3.1). Bidder-paid advisers would create a conflict of interest."
+    },
+    {
+      "question": "An authority must still decide whether to separate train operations from management of the rail infrastructure. When should it make this decision?",
+      "options": [
+        "After the bids are received, opened and compared",
+        "During contract management, once the service operations start",
+        "After the contract has been fully drafted and approved",
+        "After final legal due diligence, before shaping the structure"
+      ],
+      "answer": 3,
+      "explanation": "The decision on contract model and scope should be made after final legal due diligence and reflection on alternative scopes, but before structuring and final shaping of the project (Ch 5 §3.2). Everything else depends on the scope."
+    },
+    {
+      "question": "Consider two statements. 1: Non-legal team members should be consulted when the contract model is confirmed. 2: Confirming the contract model is always needed, even if appraisal fully defined the pre-structure.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true, so legal effects of project decisions are understood. Statement 2 is false: the Guide says this step is not usually needed if the pre-structure and project definition were advanced enough in appraisal (Ch 5 §3.2)."
+    },
+    {
+      "question": "A technical adviser proposes specifying every material and building method for a hospital PPP. What does the Guide advise?",
+      "options": [
+        "Accept it, because detailed inputs remove all design risk",
+        "Accept it, because performance requirements then become unnecessary",
+        "Avoid over-rigid specs; PPPs pay for outputs and invite innovation",
+        "Remove all requirements and let bidders decide everything"
+      ],
+      "answer": 2,
+      "explanation": "When defining technical requirements, too much inflexibility should be avoided because PPPs focus on innovation and paying for service outputs (Ch 5 §3.4). Removing all requirements goes too far the other way."
+    },
+    {
+      "question": "Appraisal decided that the government will fund 30 percent of CAPEX during construction. What must structuring now decide?",
+      "options": [
+        "Whether the project should be procured as a PPP at all",
+        "Whether it is paid by works progress or by milestones",
+        "Which of the bidders will receive the public funding",
+        "The interest rate that the lenders will charge the SPV"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's example: appraisal fixes the 30 percent share, but whether it is paid through works progress or milestone payments is decided in structuring (Ch 5 §3.6). PPP suitability was settled in appraisal."
+    },
+    {
+      "question": "A rail PPP was given an availability payment model in appraisal. What must still be defined or refined in structuring?",
+      "options": [
+        "Whether to switch to user fees instead",
+        "The service levels and the mechanics for deductions",
+        "The equity returns that bidders are allowed to earn each year",
+        "The subcontracts of the construction company"
+      ],
+      "answer": 1,
+      "explanation": "The basic payment mechanism is set in appraisal, but service levels and deduction mechanics are defined or refined in structuring (Ch 5 §3.6). Bidders' returns and subcontracts are not prescribed by the authority."
+    },
+    {
+      "question": "An authority will share ground risk with the private partner but wants to limit the partner's right to claim. Which tool fits the Guide?",
+      "options": [
+        "Leaving the shared risk undefined in the contract",
+        "Transferring all ground risk to the lenders",
+        "A longer bid validity period in the RFP",
+        "Benchmarks and impact ceilings on claims"
+      ],
+      "answer": 3,
+      "explanation": "Refining risk allocation includes defining how far risks are shared, for example with benchmarks and impact ceilings that restrict the right to claim (Ch 5 §3.7). An undefined risk would cause disputes."
+    },
+    {
+      "question": "Risk allocation is defined, but the detailed risk analysis has produced significant new signs that the project may not be feasible. What should happen to contract drafting?",
+      "options": [
+        "Start drafting at once, since the allocation is defined",
+        "Hold drafting until the feasibility question is resolved",
+        "Pass the feasibility question to the bidders",
+        "Draft two alternative contracts in parallel"
+      ],
+      "answer": 1,
+      "explanation": "Drafting should start once risk allocation is defined, unless there are significant signs that the project is not feasible due to new information from the risk analysis (Ch 5 §3.7). Bidders should not carry the authority's feasibility doubts."
+    },
+    {
+      "question": "For a user-pays toll road that is expected to generate excess revenue, what does the authority's updated financial model set in the RFP?",
+      "options": [
+        "A maximum availability payment for a qualifying bid",
+        "The equity IRR every bidder must accept",
+        "A minimum concession fee a qualifying bid must offer",
+        "The total debt the project company may raise"
+      ],
+      "answer": 2,
+      "explanation": "The definitive model sets the ceiling for payments or, where the project generates excess revenue, the floor for the concession fee (Ch 5 §3.8). There are no availability payments in a pure user-pays toll road."
+    },
+    {
+      "question": "The updated financial model shows that the payments needed stay below the affordability limit approved in appraisal. What follows?",
+      "options": [
+        "Earlier appraisal decisions do not need to be reconsidered",
+        "Affordability must be fully re-approved in any case",
+        "The ceiling must be raised up to the approved limit",
+        "The project must go back to the Identification Phase for review"
+      ],
+      "answer": 0,
+      "explanation": "Provided payments needed remain below the limits approved for affordability, decisions made in the previous phase do not need to be reconsidered (Ch 5 §3.8). There is no reason to raise the ceiling to the limit."
+    },
+    {
+      "question": "Which of these items is dealt with under the task of defining other commercial terms and contract provisions?",
+      "options": [
+        "Net worth thresholds for qualifying bidders",
+        "Equity lock-in provisions and gearing caps",
+        "The cost-benefit analysis of the project",
+        "The timeline in the Project Information Memorandum"
+      ],
+      "answer": 1,
+      "explanation": "Other commercial terms include equity lock-in, gearing caps, refinancing, insurance, dispute resolution, termination and hand-back (Ch 5 §3.10). Net worth thresholds belong to qualification, the RFQ task."
+    },
+    {
+      "question": "In a country where qualification rules and bid requirements are issued in one combined document (a 'basis for tender'), how are bidders usually qualified?",
+      "options": [
+        "All that meet the minimum criteria qualify, with no short list",
+        "Only the three highest-ranked firms go on to a short list",
+        "Qualification is checked only after the contract is awarded",
+        "Only firms registered locally for ten years can qualify"
+      ],
+      "answer": 0,
+      "explanation": "When the RFQ and RFP are combined, it is not customary to restrict numbers through a short list; all companies or consortia meeting the minimum criteria are qualified (Ch 5 §3.11)."
+    },
+    {
+      "question": "An RFP states a bid validity period of 180 days. What does this mean?",
+      "options": [
+        "The time bidders are given to prepare their proposals",
+        "The time the data room remains open to all bidders",
+        "The time during which a proposal is binding on the bidder",
+        "The time between the contract award and financial close"
+      ],
+      "answer": 2,
+      "explanation": "The validity period is the time during which the proposal is binding on the bidder (Ch 5 §3.12). The preparation time is the submission deadline, which is a separate RFP item."
+    },
+    {
+      "question": "Consider two statements. 1: Evaluation criteria should be applied consistently across all bidders. 2: Many qualitative sub-criteria need to be defined specifically for each project.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The policy framework can guide criteria for consistency across a programme, but many sub-criteria, especially qualitative ones, are adapted for the project, and criteria must be applied consistently to all bidders (Ch 5 §3.12)."
+    },
+    {
+      "question": "A draft contract allocates flood risk to the authority but does not define when a flood event has occurred or how compensation is paid. What is the problem?",
+      "options": [
+        "The allocation is useless without clear trigger and payment rules",
+        "There is no problem at all, because the PIM's risk matrix is enough",
+        "Flood risk should then simply move to the private partner",
+        "Flood risk cannot be allocated in a PPP contract at all"
+      ],
+      "answer": 0,
+      "explanation": "Accuracy and clarity are paramount: a risk allocation decision is useless if the contract does not make clear when an event has occurred and how compensation works (Ch 5 §3.13). A PIM matrix is not enforceable."
+    },
+    {
+      "question": "An authority is using competitive dialogue for a complex hospital PPP. When can the contract drafting be finalised?",
+      "options": [
+        "Later, during or after the dialogue phase",
+        "It must be complete before the RFQ is issued",
+        "Only after the contract has been signed",
+        "At the first industry meeting before launch"
+      ],
+      "answer": 0,
+      "explanation": "For an open tender without pre-qualification the contract must be ready at launch, but in dialogue processes it may be finalised later, and in two-stage processes before the final RFP (Ch 5 §3.13)."
+    },
+    {
+      "question": "A port PPP will share confidential geotechnical reports with bidders. How should the authority organise this?",
+      "options": [
+        "Publish all reports openly with no conditions attached",
+        "Send the reports only to the bidders it knows best",
+        "Open the data room only after proposals are submitted",
+        "Set up a data room early, with clear protocols and NDAs"
+      ],
+      "answer": 3,
+      "explanation": "Confidential reference information is usually shared through a data room with clear access protocols, including NDAs, and setting it up takes time, so it should be planned early (Ch 5 §3.14). Sharing with favoured bidders breaks the level playing field."
+    },
+    {
+      "question": "Just before launch, the team runs the control check. What does this check confirm?",
+      "options": [
+        "All documents are complete, compliant and approved",
+        "The preferred bidder has already been identified",
+        "The lenders have signed their loan agreements with bidders",
+        "The contract has been signed by both of the parties"
+      ],
+      "answer": 0,
+      "explanation": "The control check confirms that all documents are in place, legally compliant and duly approved, and that all tests and exercises have been conducted (Ch 5 §3.15). Bidder selection and signature happen after launch."
+    },
+    {
+      "question": "An authority wants industry feedback on open structuring issues through a questionnaire. How should it run it?",
+      "options": [
+        "Send it only to the three largest national contractors",
+        "Keep both questions and answers secret from the market",
+        "Ask only the lenders, since they carry the most risk",
+        "On an open web page so any interested party can respond"
+      ],
+      "answer": 3,
+      "explanation": "A poll or questionnaire on an open web page gives any interested bidder or qualified person the chance to respond, ensuring a level playing field and avoiding future objections (Ch 5 §6)."
+    },
+    {
+      "question": "A foreign contractor learns about a PPP only on the day of launch and cannot find consortium partners in time. Which good practice would have helped?",
+      "options": [
+        "A shorter bid period, so that the tender ends more quickly",
+        "A private briefing given to that contractor alone",
+        "Earlier marketing, so bidders could form consortia in time",
+        "Removing the need for consortia from the RFQ rules"
+      ],
+      "answer": 2,
+      "explanation": "Marketing builds industry interest and lets potential bidders prepare: screen the project and look for partners to create a consortium (Ch 5 §6). A private briefing would break the level playing field."
+    },
+    {
+      "question": "What should a Project Information Memorandum (PIM) for the market usually include?",
+      "options": [
+        "The evaluation scores of bidders in earlier tenders",
+        "The contract structure, tender process and target timeline",
+        "Each bidder's own financial model and pricing",
+        "The final contract as it was signed with the winning bidder"
+      ],
+      "answer": 1,
+      "explanation": "The PIM, usually on a project web page, summarises the contract structure, procurement strategy or tender process and targeted timeline, with key appraisal documents attached (Ch 5 §6)."
+    },
+    {
+      "question": "At an industry meeting, bidders ask the authority to add a new branch to the motorway project. It would change the scope and break the affordability limits. What should the authority do?",
+      "options": [
+        "Accept it, so that market tension stays high",
+        "Accept it if most of the bidders at the meeting support the idea",
+        "Delay the launch until more budget can be found",
+        "Decline it, since it changes scope and breaks the budget"
+      ],
+      "answer": 3,
+      "explanation": "In Box 5.21, industry feedback is considered only if it is sensible, does not contravene objectives, impose undesirable scope or design changes, or compromise affordability (Ch 5 §6)."
+    },
+    {
+      "question": "After a first industry meeting and a questionnaire, structuring is now well advanced. What is the good-practice next step in Box 5.21?",
+      "options": [
+        "Stop all contact with the market until the contract has been awarded",
+        "Meet each bidder separately to explain the changes made",
+        "Launch the tender without explaining any of the changes",
+        "Publish a fuller PIM with a risk matrix; hold a second meeting"
+      ],
+      "answer": 3,
+      "explanation": "Box 5.21 describes a more developed PIM with a risk allocation matrix and a second meeting that explains changes made in response to industry concerns (Ch 5 §6). Separate meetings would harm transparency."
+    },
+    {
+      "question": "An authority announced a launch date and presented a structure at two industry meetings. What should the tender launch look like?",
+      "options": [
+        "Delayed, so that a completely new structure can be added first",
+        "On any convenient date, with a freshly revised structure",
+        "On the announced date, consistent with the structure presented",
+        "Only once every bidder has approved the draft contract"
+      ],
+      "answer": 2,
+      "explanation": "The project should be tendered on the due date as announced and be consistent with the structure and features presented in market interactions (Ch 5 Box 5.21). This keeps market tension and trust."
+    },
+    {
+      "question": "A water concession must raise tariffs for fiscal sustainability, and residents are worried. What should the authority communicate?",
+      "options": [
+        "Nothing at all until the new tariffs take effect",
+        "The project's benefits, such as better quality and coverage",
+        "Only the tariff formula, and only to the bidders",
+        "That the tariffs will be chosen freely by the private partner"
+      ],
+      "answer": 1,
+      "explanation": "Where tariffs must rise for fiscal sustainability, the benefits to be delivered, such as improved quality and service coverage, should be carefully and proactively communicated (Ch 5 §6). Silence tends to feed opposition."
+    },
+    {
+      "question": "In the Ravenhall Prison Project in Victoria, Australia, what was set up during the Structuring Phase to handle local input?",
+      "options": [
+        "A bidder short-listing panel",
+        "A lenders' steering committee",
+        "A Community Advisory Group",
+        "A dispute resolution board"
+      ],
+      "answer": 2,
+      "explanation": "A Community Advisory Group with local residents, local government, police and the procuring authority coordinated local input, supported by fact sheets and information sessions (Ch 5 §6). This is public communication, not marketing."
+    },
+    {
+      "question": "Consider two statements. 1: A project web page can promote transparency for the public as well as inform industry. 2: Industry meetings are the right forum for addressing public concerns.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true: the web page also promotes public transparency. Statement 2 is false: industry meetings are for industry players, while a communication plan and public hearings address public concerns (Ch 5 Box 5.21)."
     }
   ]
 }

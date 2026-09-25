@@ -1,14 +1,16 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
+import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, CheckCircle2, Clock3, Flag, XCircle } from "lucide-react";
-import { saveExamAttempt } from "@/app/actions/exam";
-import { passed as isPassed, scoreExam, type ExamQuestion, type ExamSpec } from "@/lib/exam";
+import { startMock, submitMock, type SubmitMockResult } from "@/app/actions/mock";
+import type { ExamQuestion, ExamSpec } from "@/lib/exam";
+import type { PublicQuestion } from "@/lib/exam-public";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
 
-type Saved = { answers: (number | null)[]; flags: boolean[]; endsAt: number; startedAt: string; extra: boolean };
+type Saved = { answers: (number | null)[]; flags: boolean[] };
+export type MockResume = { attemptId: string; questions: PublicQuestion[]; startedAt: string; endsAt: number };
 
 function formatClock(ms: number) {
   const s = Math.max(0, Math.ceil(ms / 1000));
@@ -16,72 +18,81 @@ function formatClock(ms: number) {
 }
 
 /**
- * Rasmiy formatdagi mock: vaqt tugasa avtomatik topshiriladi. Holat localStorage'da —
- * sahifa yangilansa ham davom etadi (faqat shu brauzerda, qulaylik uchun).
+ * Rasmiy formatdagi mock. Savollarni server tanlaydi (startMock), javob kalitlari faqat topshirilgach keladi
+ * (submitMock), vaqt serverda nazorat qilinadi. Tugallanmagan mock sahifaga qayta kirilganda davom etadi (resume).
+ * Javoblar localStorage'da (urinish id'si bo'yicha) — sahifa yangilansa ham yo'qolmaydi.
  */
-export function MockExam({ spec, questions: initialQuestions, seed, areaTitles }: { spec: ExamSpec; questions: ExamQuestion[]; seed: number; areaTitles: Record<string, string> }) {
-  // Savollar birinchi render'da qotiriladi: natija saqlangach server sahifani qayta chizadi va
-  // «ko'rilmagan savollar» ro'yxati o'zgargani uchun boshqa to'plam yuborishi mumkin — javoblar bilan aralashmasin.
-  const [questions] = useState(initialQuestions);
-  const storageKey = `finora-mock-${spec.slug}-${seed}`;
-  // Faqat brauzerda render qilinadi (mock-exam-client) — saqlangan holatni boshlang'ich qiymatga o'qiymiz.
-  const [restored] = useState<Saved | null>(() => {
+export function MockExam({ spec, seed, areaTitles, resume }: { spec: ExamSpec; seed: number; areaTitles: Record<string, string>; resume?: MockResume }) {
+  const [attempt, setAttempt] = useState<MockResume | null>(resume ?? null);
+  const questions = attempt?.questions ?? [];
+  const storageKey = attempt ? `finora-mock-${attempt.attemptId}` : "";
+  const [phase, setPhase] = useState<"intro" | "exam" | "result">(resume ? "exam" : "intro");
+  const [extra, setExtra] = useState(false);
+  const [answers, setAnswers] = useState<(number | null)[]>(() => {
+    if (!resume) return [];
     try {
-      const raw = localStorage.getItem(storageKey);
-      const s = raw ? (JSON.parse(raw) as Saved) : null;
-      return s?.answers?.length === questions.length ? s : null;
-    } catch {
-      return null;
-    }
-  });
-  const [phase, setPhase] = useState<"intro" | "exam" | "result">(restored ? "exam" : "intro");
-  const [extra, setExtra] = useState(restored?.extra ?? false);
-  const [answers, setAnswers] = useState<(number | null)[]>(() => restored?.answers ?? questions.map(() => null));
-  const [flags, setFlags] = useState<boolean[]>(() => restored?.flags ?? questions.map(() => false));
-  const [index, setIndex] = useState(0);
-  const [endsAt, setEndsAt] = useState(restored?.endsAt ?? 0);
-  const [startedAt, setStartedAt] = useState(restored?.startedAt ?? "");
-  const [now, setNow] = useState(() => Date.now());
-  const [confirming, setConfirming] = useState(false);
-  const [saveState, setSaveState] = useState<"idle" | "saved" | "error">("idle");
-  const [saveError, setSaveError] = useState("");
-  const [finishedAt, setFinishedAt] = useState(0);
-  const [pending, startTransition] = useTransition();
-
-  useEffect(() => {
-    if (phase !== "exam") return;
-    try {
-      localStorage.setItem(storageKey, JSON.stringify({ answers, flags, endsAt, startedAt, extra } satisfies Saved));
-    } catch {
-      /* saqlab bo'lmasa ham imtihon davom etadi */
-    }
-  }, [phase, answers, flags, endsAt, startedAt, extra, storageKey]);
-
-  const finish = useCallback(() => {
-    setPhase("result");
-    setConfirming(false);
-    const end = Date.now();
-    setFinishedAt(end);
-    try {
-      localStorage.removeItem(storageKey);
+      const s = JSON.parse(localStorage.getItem(`finora-mock-${resume.attemptId}`) ?? "null") as Saved | null;
+      if (s?.answers?.length === resume.questions.length) return s.answers;
     } catch {
       /* e'tiborsiz */
     }
+    return resume.questions.map(() => null);
+  });
+  const [flags, setFlags] = useState<boolean[]>(() => {
+    if (!resume) return [];
+    try {
+      const s = JSON.parse(localStorage.getItem(`finora-mock-${resume.attemptId}`) ?? "null") as Saved | null;
+      if (s?.flags?.length === resume.questions.length) return s.flags;
+    } catch {
+      /* e'tiborsiz */
+    }
+    return resume.questions.map(() => false);
+  });
+  const [index, setIndex] = useState(0);
+  const endsAt = attempt?.endsAt ?? 0;
+  const startedAt = attempt?.startedAt ?? "";
+  const [now, setNow] = useState(() => Date.now());
+  const [confirming, setConfirming] = useState(false);
+  const [result, setResult] = useState<SubmitMockResult | null>(null);
+  const [startError, setStartError] = useState("");
+  const [finishedAt, setFinishedAt] = useState(0);
+  const [pending, startTransition] = useTransition();
+  const [starting, startStarting] = useTransition();
+
+  useEffect(() => {
+    if (phase !== "exam" || !storageKey) return;
+    try {
+      localStorage.setItem(storageKey, JSON.stringify({ answers, flags } satisfies Saved));
+    } catch {
+      /* saqlab bo'lmasa ham imtihon davom etadi */
+    }
+  }, [phase, answers, flags, storageKey]);
+
+  // Imtihon davomida sahifadan chiqishdan oldin ogohlantirish.
+  useEffect(() => {
+    if (phase !== "exam") return;
+    const warn = (e: BeforeUnloadEvent) => e.preventDefault();
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [phase]);
+
+  const finish = useCallback(() => {
+    if (!attempt) return;
+    setPhase("result");
+    setConfirming(false);
+    setFinishedAt(Date.now());
     startTransition(async () => {
-      const res = await saveExamAttempt({
-        exam: spec.slug,
-        mode: "mock",
-        items: questions.map((q, i) => ({ questionId: q.id, chosen: answers[i] })),
-        startedAt: startedAt || undefined,
-        durationSeconds: startedAt ? Math.round((end - new Date(startedAt).getTime()) / 1000) : undefined,
-      });
-      if (res.ok) setSaveState("saved");
-      else {
-        setSaveState("error");
-        setSaveError(res.error);
+      const res = await submitMock({ attemptId: attempt.attemptId, answers });
+      setResult(res);
+      if (res.ok) {
+        try {
+          localStorage.removeItem(storageKey);
+        } catch {
+          /* e'tiborsiz */
+        }
       }
     });
-  }, [answers, questions, spec.slug, startedAt, storageKey]);
+  }, [answers, attempt, storageKey]);
 
   // Taymer: har soniya yangilanadi; vaqt tugasa shu yerning o'zida topshiriladi.
   const finishRef = useRef(finish);
@@ -99,7 +110,6 @@ export function MockExam({ spec, questions: initialQuestions, seed, areaTitles }
   }, [phase, endsAt]);
 
   const answered = answers.filter((a) => a !== null).length;
-  const result = useMemo(() => scoreExam(questions, answers), [questions, answers]);
 
   if (phase === "intro") {
     const minutes = spec.minutes + (extra ? spec.extraMinutes : 0);
@@ -120,35 +130,57 @@ export function MockExam({ spec, questions: initialQuestions, seed, areaTitles }
             <span className="mt-1 block text-[#65736d]">APMG gives non-native English speakers extra time. Practise with the time you will actually get.</span>
           </span>
         </label>
+        {startError && <p className="mt-6 text-sm font-semibold text-red-700">{startError}</p>}
         <button
           type="button"
-          onClick={() => {
-            const start = new Date();
-            setStartedAt(start.toISOString());
-            setEndsAt(start.getTime() + minutes * 60_000);
-            setNow(start.getTime());
-            setPhase("exam");
-          }}
-          className="mt-8 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white hover:bg-[#0e3026]"
+          disabled={starting}
+          onClick={() =>
+            startStarting(async () => {
+              setStartError("");
+              const r = await startMock({ exam: spec.slug, seed, extra });
+              if (!r.ok) return setStartError(r.error);
+              setAttempt({ attemptId: r.attemptId, questions: r.questions, startedAt: r.startedAt, endsAt: r.endsAt });
+              setAnswers(r.questions.map(() => null));
+              setFlags(r.questions.map(() => false));
+              setNow(Date.now());
+              setPhase("exam");
+            })
+          }
+          className="mt-8 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white hover:bg-[#0e3026] disabled:opacity-60"
         >
-          Start the exam <ArrowRight className="size-4" />
+          {starting ? "Preparing your mock…" : "Start the exam"} <ArrowRight className="size-4" />
         </button>
       </div>
     );
   }
 
   if (phase === "result") {
-    const pass = isPassed(spec, result.correct, result.total);
+    if (!result || !result.ok) {
+      return (
+        <div className="mx-auto max-w-2xl rounded-3xl border border-[#13251f]/10 bg-white p-6 sm:p-10">
+          {pending || !result ? (
+            <p className="text-lg font-semibold">Marking your paper…</p>
+          ) : (
+            <>
+              <p className="font-semibold text-red-700">Could not submit: {result.error}</p>
+              <p className="mt-1 text-sm text-[#65736d]">Your answers are kept on this device.</p>
+              <button type="button" onClick={finish} className="mt-4 inline-flex min-h-11 items-center rounded-xl bg-[#163e32] px-5 font-semibold text-white">Try again</button>
+            </>
+          )}
+        </div>
+      );
+    }
+    const pass = result.passed;
     const took = startedAt && finishedAt ? formatClock(finishedAt - new Date(startedAt).getTime()) : null;
+    const reviewById = new Map(result.review.map((r) => [r.id, r]));
     return (
       <div className="space-y-8">
         <section className={`rounded-3xl p-6 sm:p-10 ${pass ? "bg-[#163e32] text-white" : "border border-[#13251f]/10 bg-white"}`}>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] opacity-70">Result</p>
           <p className="mt-3 text-5xl font-semibold tracking-tight">{result.correct}/{result.total}</p>
-          <p className="mt-2 text-lg font-medium">{pass ? "Pass — well done." : `Not yet — you need ${spec.passMark} to pass.`}</p>
+          <p className="mt-2 text-lg font-medium">{pass ? "Pass — well done." : result.late ? "Submitted after the time limit, so it does not count as a pass." : `Not yet — you need ${spec.passMark} to pass.`}</p>
           <p className="mt-2 text-sm opacity-80">
-            {Math.round((result.correct / result.total) * 100)}% correct{took ? ` · time used ${took}` : ""}
-            {pending ? " · saving…" : saveState === "saved" ? " · saved to your results" : saveState === "error" ? ` · not saved: ${saveError}` : ""}
+            {Math.round((result.correct / result.total) * 100)}% correct{took ? ` · time used ${took}` : ""} · saved to your results
           </p>
           <p className="mt-4 max-w-xl text-sm opacity-80">Aim for 70% or more across several mocks before you book: the real exam has new questions and real pressure.</p>
         </section>
@@ -171,9 +203,10 @@ export function MockExam({ spec, questions: initialQuestions, seed, areaTitles }
         <section>
           <h3 className="text-lg font-semibold">Review every question</h3>
           <ol className="mt-5 space-y-4">
-            {questions.map((q, i) => (
-              <ReviewItem key={q.id} n={i + 1} q={q} chosen={answers[i]} />
-            ))}
+            {questions.map((q, i) => {
+              const r = reviewById.get(q.id);
+              return r ? <ReviewItem key={q.id} n={i + 1} q={{ ...q, answer: r.answer, rationale: r.rationale }} chosen={answers[i] ?? null} /> : null;
+            })}
           </ol>
         </section>
 

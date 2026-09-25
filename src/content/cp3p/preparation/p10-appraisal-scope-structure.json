@@ -132,7 +132,7 @@
       "options": [
         "Market sounding becomes impossible during structuring",
         "The authority loses the right to hire advisors",
-        "Public money may be wasted and officials may be biased toward approving the project",
+        "Wasted public money and bias toward approving the project",
         "The investment decision must then be taken again from the start"
       ],
       "answer": 2,
@@ -152,7 +152,7 @@
     {
       "question": "A health authority is preparing a hospital PPP and debates whether to include catering and cleaning in the contract, while keeping clinical services public. What is it deciding?",
       "options": [
-        "The contract scope, which sets the boundaries between public and private sectors",
+        "The contract scope, which sets public and private boundaries",
         "The payment mechanism, which sets triggers for government payments",
         "The discount rate used in the VfM analysis",
         "The debt structure of the project company"
@@ -198,7 +198,7 @@
       "options": [
         "Accept it, because all risks must be added to the cost base",
         "Accept it, but only for government-pays projects",
-        "Reject it, because systemic risks are reflected in a higher required return, not in costs",
+        "Reject it; systemic risk is priced in the required return",
         "Reject it, because recessions are always allocated to lenders"
       ],
       "answer": 2,
@@ -207,10 +207,10 @@
     {
       "question": "A government wants a tolled motorway PPP but does not want the private partner to bear traffic risk. Which revenue regime achieves this?",
       "options": [
-        "A pure user-pays regime with tolls kept by the partner",
-        "A concession fee paid by the partner to the government",
+        "A pure user-pays regime with all tolls kept by the partner",
+        "A concession fee paid each year by the partner to the government",
         "A mixed regime with construction grants only",
-        "A government-pays regime where the government collects tolls and pays the partner"
+        "Government-pays: the state collects tolls and pays the partner"
       ],
       "answer": 3,
       "explanation": "In a government-pays regime the government collects the tolls and pays the partner, so the partner's revenue does not change with demand. Under pure user-pays, the partner keeps demand risk."
@@ -229,13 +229,453 @@
     {
       "question": "A corrections ministry is appraising a prison PPP. Demand depends on sentencing policy and parole decisions. How should the preliminary structure treat demand?",
       "options": [
-        "Base payments on performance, availability and occupancy rather than transferring demand risk",
+        "Pay on performance, availability and occupancy, not demand",
         "Transfer full demand risk to the contractor to maximize risk transfer",
         "Let the contractor set the number of prisoners it accepts",
         "Fund the project entirely by user charges"
       ],
       "answer": 0,
       "explanation": "Prison demand is driven by government and court policy, so transferring it to the contractor is inefficient. The Guide suggests payments based on service performance, availability and occupancy."
+    },
+    {
+      "question": "A ministry is finishing the appraisal of a port PPP. According to the Guide, which formal decision should end the Appraisal Phase?",
+      "options": [
+        "A green light: procure it as a PPP, or reject it as a PPP",
+        "The award of the contract to the best-scoring bidder",
+        "Financial close signed with all of the project lenders",
+        "Approval of the final contract text by all bidders"
+      ],
+      "answer": 0,
+      "explanation": "The Appraisal Phase should end with the green light decision to procure the project as a PPP or to reject it as such (Ch 4 §1). Award and financial close happen much later, after the tender."
+    },
+    {
+      "question": "Why does the Guide describe the green light as one of the most important government decisions in the PPP process?",
+      "options": [
+        "It fixes the tariff that users will pay for the whole contract",
+        "It commits major resources and signals intent to reach financial close",
+        "It removes the need for any later government approvals at all",
+        "It selects the private partner directly, without any tender"
+      ],
+      "answer": 1,
+      "explanation": "The green light commits the government to a process needing a high level of internal and external resources, and signals to stakeholders its intention to take the project to financial close (Ch 4 §1). Later approvals are still needed."
+    },
+    {
+      "question": "A minister approves a complex PPP at the very start of appraisal, before the main issues are studied. What problem does the Guide predict from this early decision?",
+      "options": [
+        "Officials become biased toward approval after heavy structuring spend",
+        "The advisors lose their right to be paid for the studies",
+        "Obstacles are not anticipated, causing delays and a risk of termination",
+        "The investment decision automatically becomes legally invalid"
+      ],
+      "answer": 2,
+      "explanation": "A decision taken too early is made without understanding the issues that may cause failure, so obstacles are not anticipated; this often causes delays and political risk of termination (Ch 4 §1). Bias toward approval is the risk of a decision taken too late."
+    },
+    {
+      "question": "Which of these questions is NOT one that the Appraisal Phase must answer?",
+      "options": [
+        "Is the project commercially viable?",
+        "Is there adequate market interest and capability?",
+        "Is it affordable from the government's perspective?",
+        "Which bidder should win the tender?"
+      ],
+      "answer": 3,
+      "explanation": "Appraisal asks whether the project is economically sensible, commercially viable, practical and affordable as a PPP, whether there is market interest, and what the obstacles are (Ch 4 §2). Choosing the winning bidder is part of the Tender Phase."
+    },
+    {
+      "question": "A court of auditors asks a PPP unit how it reached its recommendation to procure a hospital as a PPP. What should the appraisal have produced?",
+      "options": [
+        "A detailed evidence base with a clear audit trail of assumptions",
+        "A short summary of the lead advisor's personal opinion on it",
+        "Letters of support from the firms that are planning to bid",
+        "The minister's signed statement of policy intent for it"
+      ],
+      "answer": 0,
+      "explanation": "The analysis should be detailed enough to be defended against public opinion and courts of auditors, with a clear audit trail so decision-makers can check the assumptions, evidence and calculations (Ch 4 §2)."
+    },
+    {
+      "question": "A bridge is shown to be feasible economically and technically, but the analysis finds no real Value for Money from using the private sector. What should the team conclude?",
+      "options": [
+        "The bridge must be cancelled because it failed feasibility",
+        "The bridge may be worth building, but not as a PPP",
+        "The bridge should be a PPP because it is technically feasible",
+        "The VfM result should be ignored because the CBA is positive"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes that some projects are feasible economically and technically but are not appropriate for the PPP process, for example when no real VfM is achieved (Ch 4 §2). The investment case and the PPP case are separate."
+    },
+    {
+      "question": "In Country X, the law says a green light decision is valid only if certain appraisal conclusions are formally documented. Which conclusions does the Guide give as examples?",
+      "options": [
+        "Bid prices, lenders' margins and the equity investors' returns",
+        "The winning design and the detailed construction schedule",
+        "Value for Money, affordability and the impact on public debt",
+        "User tariff complaints received in the first operating year"
+      ],
+      "answer": 2,
+      "explanation": "In some countries the conclusions on VfM, demonstration of affordability or debt impact must be formally documented for the green light to meet legal standards (Ch 4 §2). Bid prices do not exist yet at appraisal."
+    },
+    {
+      "question": "A PPP unit wants a checklist of the main deliverables that record the key decisions of the Appraisal Phase. Which set is correct?",
+      "options": [
+        "Signed contract, lenders' term sheet, bid bonds and the final RFP package",
+        "Screening report, market sounding letters and a detailed press strategy",
+        "Construction permits, hand-back survey and the project insurance policies",
+        "Technical requirements, financial model, pre-structure, procurement strategy"
+      ],
+      "answer": 3,
+      "explanation": "The appraisal decisions are embodied in the technical requirements, the financial model, the preliminary contract structure and a procurement strategy (Ch 4 §2). A signed contract and final RFP come in later phases."
+    },
+    {
+      "question": "A project team has confirmed the investment decision and has good signs that a PPP gives Value for Money. What else must it have before taking the procurement decision?",
+      "options": [
+        "A reliable business case, no blocking obstacles and the contract basics",
+        "A signed contract and a financial close date agreed with lenders",
+        "A preferred bidder and a final negotiated tariff schedule",
+        "Complete construction drawings approved by the regulator"
+      ],
+      "answer": 0,
+      "explanation": "Before the procurement decision the team must also have a reliable feasibility assessment (business case), no definitive blocking obstacles (or a plan for major threats) and the basics of the contract structure (Ch 4 §2)."
+    },
+    {
+      "question": "Consider these two statements about the Public Sector Comparator (PSC). 1: A preliminary risk allocation is needed at appraisal partly so the PSC can be adjusted in the VfM analysis. 2: The PSC shows what the project's costs would look like if it were delivered by traditional procurement.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "A generic proposed risk allocation lets the team adjust baseline costs, estimate the required return on equity and adjust the PSC for the VfM analysis (Ch 4 §5.2). The PSC is defined as the project's costs under traditional procurement, so both statements are true."
+    },
+    {
+      "question": "A coastal road PPP faces uncertain sea-level rise. The authority plans to pay for higher sea walls only when agreed climate indicators are reached. Which climate planning approach is this?",
+      "options": [
+        "A base plan, with all adaptation CAPEX spent upfront at construction",
+        "An adaptive plan, spreading adaptation spending over the project life",
+        "A full design, with every construction method prescribed in advance",
+        "A user-pays plan, with the road's drivers funding the sea walls"
+      ],
+      "answer": 1,
+      "explanation": "In an adaptive plan, adaptation and resilience spending is disbursed throughout the project depending on climate-related indicators; a base plan spends it all upfront (Ch 4 §2)."
+    },
+    {
+      "question": "An authority likes the cost-efficiency of an adaptive climate plan for a flood barrier PPP. What will it need for this plan to work?",
+      "options": [
+        "A fixed design that cannot change during the whole contract",
+        "All climate spending to be paid before construction starts",
+        "Modular designs plus a flexible contract and financial structure",
+        "A pure user-pays regime with no government support at all"
+      ],
+      "answer": 2,
+      "explanation": "The adaptive plan is cost-efficient but brings two challenges: designs must be modular or expandable, and the contract and financial structure must be flexible enough to support it (Ch 4 §2)."
+    },
+    {
+      "question": "A project passes the commercial, economic and VfM assessments but fails the environmental feasibility assessment. What does the Guide say about recommending it?",
+      "options": [
+        "It can proceed because most assessments are positive",
+        "Environmental results only matter after financial close",
+        "It should proceed because VfM is the only deciding test",
+        "It should not be recommended; each assessment must be positive"
+      ],
+      "answer": 3,
+      "explanation": "The feasibility assessments interact, but each is relevant in its own right, and each should reach a positive conclusion if the project is to be recommended for procurement approval (Ch 4 §3)."
+    },
+    {
+      "question": "Ground conditions are a serious uncertainty for a tunnel PPP. What should the government do about this during the Appraisal Phase?",
+      "options": [
+        "Plan geo-technical tests so the uncertainty is reduced before tender",
+        "Leave all ground studies to bidders after contract signing",
+        "Ignore the issue, because the contractor will bear it anyway",
+        "Postpone the ground tests until the Operations Phase"
+      ],
+      "answer": 0,
+      "explanation": "During appraisal the government identifies preparation activities it is responsible for before the tender, such as geo-technical tests when geo-technical risk is a serious uncertainty; these should be finished before the tender is launched (Ch 4 §3)."
+    },
+    {
+      "question": "A government compares two rail PPP options: in one the partner runs the trains, in the other it only provides the track. What does the Guide say about these options?",
+      "options": [
+        "They carry the same risks, so the scope choice does not matter",
+        "Their risk structure and revenue regime differ significantly",
+        "Only the track-only option can legally be a PPP",
+        "Train operation can never be included in a PPP contract"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says rail PPPs that integrate train operations differ significantly in risk structure and revenue regime from infrastructure-only contracts (Ch 4 §4.1). Both scopes are possible, as LRT/metro and high-speed rail examples show."
+    },
+    {
+      "question": "An authority asks why it should invest effort in precise, well-designed technical requirements before the tender. What benefit does the Guide give for bidders?",
+      "options": [
+        "The authority can then skip the Value for Money assessment",
+        "Bidders no longer carry any design responsibility at all",
+        "Bidders can price technical risks well, so competition improves",
+        "The contract then no longer needs a payment mechanism at all"
+      ],
+      "answer": 2,
+      "explanation": "Precise technical requirements give bidders the data to assess the technical risks they face and price the service, which contributes to a more competitive tender (Ch 4 §4.2). They also feed the VfM test rather than replace it."
+    },
+    {
+      "question": "A team designing requirements for a cargo rail PPP finds no PPP rail project in the country, but there are well-run public railways. What should it do?",
+      "options": [
+        "Use no benchmarks, because only PPP projects are valid benchmarks",
+        "Copy a foreign airport PPP, because any PPP is a valid benchmark",
+        "Wait until a PPP rail project exists somewhere in the country",
+        "Use the public railways as benchmarks; they need not be PPPs"
+      ],
+      "answer": 3,
+      "explanation": "Benchmark projects can be PPPs or traditionally procured, but must be comparable in complexity, risk and scope; the Guide's own example is public railways showing cargo station design features (Ch 4 §4.2)."
+    },
+    {
+      "question": "A private partner in a flood-prone area cannot buy normal climate insurance for a PPP asset. What might the procuring authority explore?",
+      "options": [
+        "Hybrid tools such as weather derivatives, Cat DDOs or state guarantees",
+        "Removing climate risk from the risk allocation matrix entirely",
+        "Forcing the partner to self-insure the asset without any limit",
+        "Treating floods as a systemic risk in the project discount rate"
+      ],
+      "answer": 0,
+      "explanation": "Where insurance is hard to obtain, authorities can develop hybrid solutions such as index-based products (weather derivatives), Catastrophic Drawdown Options and state guarantees, though these are still new (Ch 4 §5.2). Poor protection can create large contingent liabilities."
+    },
+    {
+      "question": "A country's law forbids private firms from delivering correctional services. A prison PPP is being appraised. What must the technical requirements do?",
+      "options": [
+        "Ignore the law, because the PPP contract can override it anyway",
+        "Reflect the limit: keep correctional services out of the private role",
+        "Transfer correctional services with a higher availability payment",
+        "Leave the whole question open until the Operations Phase begins"
+      ],
+      "answer": 1,
+      "explanation": "Some countries limit the private role, for example no correctional services in prison PPPs; these limits must be understood and built into the technical description, along with sector standards (Ch 4 §4.2)."
+    },
+    {
+      "question": "At appraisal, a team says the payment mechanism is a Structuring Phase matter and makes no assumptions about it. What does the Guide say?",
+      "options": [
+        "Nothing is needed until the draft contract is written in structuring",
+        "Only the final deduction formula matters at the appraisal stage",
+        "Assume the general triggers and timing now, as the tests need them",
+        "Bidders will set the payment mechanism themselves in their offers"
+      ],
+      "answer": 2,
+      "explanation": "The payment mechanism is detailed in structuring, but at appraisal at least the general triggers and timing must be assumed, because commercial feasibility, affordability, debt impact and VfM depend on them (Ch 4 §5.1)."
+    },
+    {
+      "question": "A city plans a PPP to resurface a simple car park and is certain of the best method to do it. Which design approach could the Guide accept here?",
+      "options": [
+        "No design work, leaving all estimates to bidders",
+        "A reference design, since it is always required",
+        "An adaptive plan based on climate indicators",
+        "Full design and construction prescriptions"
+      ],
+      "answer": 3,
+      "explanation": "A full design should only be considered when the project is technically simple AND the authority is certain of the optimal means of meeting the need (Ch 4 §4.2.1). Both conditions are met here."
+    },
+    {
+      "question": "Consider these two statements about design at appraisal. 1: When a full design is chosen, it is usually completed during the Appraisal Phase. 2: Whatever the approach, key design and time requirements and a reasonably precise cost estimate are needed at appraisal.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "A fully detailed design is usually not concluded during appraisal because of its engineering complexity, and it needs more detail in structuring. But a minimum level of detail, including key design and time requirements and a reasonably precise cost estimate, is always needed (Ch 4 §4.2.1)."
+    },
+    {
+      "question": "A draft hospital PPP requirement says: 'The partner must clean each ward twice a day using product X.' Which change fits the Guide's approach to service requirements?",
+      "options": [
+        "Set the required result, such as a cleanliness standard, as an output",
+        "Add more detail on the cleaning products and the staff numbers",
+        "Remove every cleaning requirement from the contract altogether",
+        "Let the government supply the cleaning staff for the wards instead"
+      ],
+      "answer": 0,
+      "explanation": "Service requirements should be verifiable output specifications, as opposed to input specifications (Ch 4 §4.2.2). Prescribing products and frequency is an input approach that limits innovation."
+    },
+    {
+      "question": "Which item is NOT normally part of the performance requirements prepared at appraisal?",
+      "options": [
+        "Requirements for hand-over at contract end",
+        "The final bid price for the service",
+        "A performance evaluation system with incentives",
+        "Minimum requirements for a maintenance plan"
+      ],
+      "answer": 1,
+      "explanation": "Performance requirements cover output specifications, user benefits, public responsibilities, a performance evaluation system, minimum maintenance requirements and hand-over requirements (Ch 4 §4.2.2). Bid prices come only at tender."
+    },
+    {
+      "question": "The government will keep land expropriation and resettlement outside a highway PPP. What must the appraisal still do about these activities?",
+      "options": [
+        "Ignore them, because they are outside the private partner's scope",
+        "Add their full costs to the bidders' prices in the tender anyway",
+        "Assess their costs and uncertainty for the VfM and affordability tests",
+        "Treat them as systemic risks priced in the investors' required return"
+      ],
+      "answer": 2,
+      "explanation": "Even when preparatory activities stay with the government, their costs and uncertainty should be assessed so the liabilities are included in the VfM and affordability analyses (Ch 4 §4.2.3)."
+    },
+    {
+      "question": "A team is preparing an urban light rail PPP. Which preparatory activity does the Guide specifically mention for linear transport projects?",
+      "options": [
+        "Choosing the preferred bidder's supplier of light rail trains",
+        "Setting the fare level for each of the future stations",
+        "Drafting the lenders' direct agreement with the authority",
+        "Mapping utilities along the route and assessing relocation needs"
+      ],
+      "answer": 3,
+      "explanation": "For linear transport infrastructure, especially in urban areas, the route must be defined and the location of utilities mapped with relocation needs assessed (Ch 4 §4.2.3). The other options are later tasks or bidder matters."
+    },
+    {
+      "question": "To save time, a PPP team plans to list only the top five risks of a complex port PPP during appraisal. What does the Guide say?",
+      "options": [
+        "Risk identification must be exhaustive; a missed risk can cause failure",
+        "Five risks are enough, since more can be added after signing",
+        "Only the lenders need a full list of risks, not the procuring authority",
+        "A full risk register is needed only once the Operations Phase starts"
+      ],
+      "answer": 0,
+      "explanation": "Risk identification must be exhaustive during appraisal, because failing to identify risks may lead to a flawed appraisal and project failure; a comprehensive risk register is good practice (Ch 4 §4.3)."
+    },
+    {
+      "question": "Risk assessment at appraisal has a quantitative part and a qualitative part. Which pairing is correct?",
+      "options": [
+        "Quantitative for risk allocation; qualitative for risk-adjusted costs",
+        "Quantitative for risk-adjusted costs; qualitative for preliminary allocation",
+        "Quantitative only for lenders; qualitative only for service users",
+        "Both parts happen only in the Tender Phase, not at appraisal"
+      ],
+      "answer": 1,
+      "explanation": "Risk assessment includes a quantitative assessment to develop risk-adjusted costs and a qualitative assessment for the preliminary risk allocation (Ch 4 §4.3). The first distractor simply swaps the two."
+    },
+    {
+      "question": "An advisor assumes private construction will cost 30% less than the public sector's costs, but has no evidence for this. How should the appraisal team respond?",
+      "options": [
+        "Accept it, because private costs are always lower than public",
+        "Double the saving to make the PPP option look more attractive",
+        "Accept gains only if strongly justified, avoiding optimism bias",
+        "Ignore private costs and use only the public sector's cost data"
+      ],
+      "answer": 2,
+      "explanation": "Costs should reflect the private sector's expected costs, and efficiency gains can be recognised only if there are strong reasons; extreme care is needed to avoid optimism bias that underestimates costs (Ch 4 §4.4)."
+    },
+    {
+      "question": "A base construction cost is $5 million. There is a 40% chance that better rock conditions will save $500,000, and no other risks. Using the Guide's simple method, what is the risk-adjusted cost?",
+      "options": [
+        "$5.0 million",
+        "$4.5 million",
+        "$5.2 million",
+        "$4.8 million"
+      ],
+      "answer": 3,
+      "explanation": "Risk adjustment works both ways: 0.40 × $500,000 = $200,000 is deducted, giving $4.8 million (Ch 4 §4.4). Deducting the full $500,000 would be the best case, not the expected value."
+    },
+    {
+      "question": "A PPP team reports the 'most likely' construction cost as its risk-adjusted cost. What is wrong with this?",
+      "options": [
+        "It should be the expected value: base cost plus weighted risks",
+        "The most likely cost already includes every risk at full impact",
+        "The risk-adjusted cost must always equal the worst-case cost",
+        "The most likely and expected values are always the same figure"
+      ],
+      "answer": 0,
+      "explanation": "Risk adjustment generates the expected value of costs, which differs from the most likely or best-case cost because it adds the economic value of risks to the base line (Ch 4 §4.4)."
+    },
+    {
+      "question": "In a tunnel PPP, ground conditions cannot be fully known before digging starts, and how they are handled strongly affects costs. Who should normally bear this risk?",
+      "options": [
+        "The government, as it owns the land",
+        "The contractor, as it is best able to manage it",
+        "The lenders, as they fund the construction",
+        "The tunnel users, through higher tolls"
+      ],
+      "answer": 1,
+      "explanation": "Under the best-placed party principle, the Guide's tunnel example gives ground-condition risk to the contractor, who is best able to manage it when it is encountered (Ch 4 §5.2, Box 4.4)."
+    },
+    {
+      "question": "Appraisal cost estimates for a school PPP describe costs and risks from the private sector's view. Where does the Guide add the possible cost overruns of traditional procurement?",
+      "options": [
+        "In the investors' required return on equity",
+        "In the affordability section of the screening report",
+        "In a later risk adjustment made within the VfM exercise",
+        "Nowhere, since they are never considered in appraisal"
+      ],
+      "answer": 2,
+      "explanation": "The appraisal costs describe the private sector's perspective; later, as part of the VfM exercise, an additional risk adjustment is made for possible overruns under traditional procurement (Ch 4 §4.4)."
+    },
+    {
+      "question": "A ministry wants its school PPP to include luxury features far beyond the needs identified at screening. What risk does the Guide highlight?",
+      "options": [
+        "Over-specification improves VfM by adding more quality for users",
+        "Over-specification moves more of the risk onto the lenders",
+        "Over-specification shortens the tender process for bidders",
+        "Over-specification raises service costs and harms affordability"
+      ],
+      "answer": 3,
+      "explanation": "Scope and technical requirements should meet the needs found at screening; over-specification may induce unrealistic service levels, increase the cost of service and hinder the affordability assessment (Ch 4 §4.5)."
+    },
+    {
+      "question": "Many technical details worked out during appraisal will not become binding in the PPP contract. What is their main use?",
+      "options": [
+        "They are the baseline assumptions for the financial base case",
+        "They are thrown away as soon as the tender is launched",
+        "They are given only to one preferred bidder as a help",
+        "They replace the output specifications in the contract"
+      ],
+      "answer": 0,
+      "explanation": "Non-binding technical details still fill in the blanks: they are the baseline assumptions for the base case used in the commercial feasibility and other financial appraisal work (Ch 4 §4.5)."
+    },
+    {
+      "question": "In the Guide, which item is part of the 'financial structure' seen from the government's perspective?",
+      "options": [
+        "The private partner's internal salary scales for its own staff",
+        "Payment conditions such as tenor, timing, indexation and deductions",
+        "The construction contractor's choice of machinery and tools",
+        "The lenders' own sources of wholesale funding and deposits"
+      ],
+      "answer": 1,
+      "explanation": "The financial structure covers public payments to the partner and their conditions (tenor, timing, indexation, deductions), any public financing support, and the resulting profile of government payments (Ch 4 §5, Box 4.3)."
+    },
+    {
+      "question": "A finance ministry prefers a tolled bridge PPP where users pay all the costs. What advantage of user-pays does the Guide give?",
+      "options": [
+        "The private partner then carries no demand risk at all",
+        "The government keeps all of the toll revenue for itself",
+        "A nearly neutral budget, with users paying the marginal cost",
+        "Users are protected from any future rise in the toll price"
+      ],
+      "answer": 2,
+      "explanation": "User-pays PPPs are popular for their practically neutral budget impact, and users paying the marginal cost of what they use aligns incentives and avoids overuse (Ch 4 §5.1). Under user-pays the partner usually bears demand risk."
+    },
+    {
+      "question": "A toll road's forecast revenue is far above its costs. The ministry wants to demand a very large concession fee from the partner. What does the Guide advise?",
+      "options": [
+        "Always impose the highest fee that the market is able to pay",
+        "Never allow a user-pays project to become over-feasible at all",
+        "Switch to government-pays so that the surplus disappears",
+        "Consider it carefully; other ways exist to capture excess profit"
+      ],
+      "answer": 3,
+      "explanation": "An 'over-feasible' user-pays project can pay a fee to the authority, but imposing concession fees should be carefully considered, and there are other ways to capture excess profit (Ch 4 §5.1)."
+    },
+    {
+      "question": "Metro demand is very sensitive to price, so higher fares would cut revenue, and fares cannot cover costs. The city decides to pay grants during construction. Which revenue regime is this?",
+      "options": [
+        "A mixed regime with co-financing grants",
+        "A pure user-pays regime",
+        "A pure government-pays regime",
+        "A mixed regime with a hybrid payment mechanism"
+      ],
+      "answer": 0,
+      "explanation": "User charges plus government support is a mixed regime. Grants during construction are called co-financing; complementary service payments during operation are the hybrid payment mechanism (Ch 4 §5.1)."
+    },
+    {
+      "question": "In a government-pays school PPP, the ministry proposes starting the service payments at contract signing to help the partner's cash flow. What does the Guide say?",
+      "options": [
+        "Payments should start at signing to cut financing costs",
+        "Government payments begin only once the service is operational",
+        "Payments must start on the first day of construction",
+        "Payments are made only once, at the end of the contract"
+      ],
+      "answer": 1,
+      "explanation": "Government service payments only begin once the service is operational and are usually regular, although their profile can be shaped for bankability (Ch 4 §5.1). Upfront support, if any, is a separate co-financing grant."
     }
   ]
 }

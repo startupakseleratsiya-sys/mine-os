@@ -3,6 +3,7 @@ import { SectionShell } from "@/components/layouts/section-shell";
 import { getPaper } from "@/content/exam/scenario";
 import { getCurrentUser } from "@/services/user-service";
 import { ScenarioExamClient } from "@/features/exam/mock-exam-client";
+import { publicPaper } from "@/lib/exam-public";
 
 type Params = { params: Promise<{ level: string; paperId: string }>; searchParams: Promise<{ q?: string }> };
 
@@ -32,7 +33,8 @@ export default async function PaperPage({ params, searchParams }: Params) {
       title={practice && question ? `Q${n} · ${question.area} — ${question.title}` : paper.title}
       description={practice ? "One exam question (20 marks) with the paper's scenario. Check your answers at the end to see every explanation." : "Exam conditions: one scenario, four questions, timed. Your own annotated PPP Guide is allowed."}
     >
-      <ScenarioExamClient spec={spec} paper={paper} mode={practice ? "practice" : "mock"} questionNumbers={practice ? [n] : [1, 2, 3, 4]} />
+      {/* Javob kalitlari va izohlar brauzerga yuborilmaydi — topshirilgach serverdan keladi. */}
+      <ScenarioExamClient spec={spec} paper={publicPaper(paper)} mode={practice ? "practice" : "mock"} questionNumbers={practice ? [n] : [1, 2, 3, 4]} />
     </SectionShell>
   );
 }

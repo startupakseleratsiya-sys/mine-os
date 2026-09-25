@@ -174,10 +174,10 @@
     {
       "question": "Midway through construction, the contractor's costs rise sharply. The contractor and the Project Company begin arguing about who should pay. The authority makes no capital contribution. What should the authority do?",
       "options": [
-        "Mediate the dispute to protect the construction schedule",
-        "Monitor the costs for information and avoid being drawn into the dispute",
-        "Pay half the overrun to keep the project moving",
-        "Take over the construction contract to control costs"
+        "Mediate the dispute to protect the construction schedule and budget",
+        "Note the costs for information and stay out of the dispute",
+        "Pay half of the overrun to keep the project moving forward",
+        "Take over the construction contract in order to control costs"
       ],
       "answer": 1,
       "explanation": "Cost overrun risk is typically passed to the Project Company and its contractor, who must fund overruns. The Guide says the authority should avoid being drawn into their disputes, and cost monitoring is for information only."
@@ -236,6 +236,446 @@
       ],
       "answer": 3,
       "explanation": "The baseline schedule is adjusted for approved change orders and time extensions; any other change proposed by the Project Company needs the authority's approval. The authority does not update the schedule itself, but must be informed of changes affecting milestones or the critical path."
+    },
+    {
+      "question": "Which describes the Construction Stage of a PPP, according to the Guide?",
+      "options": [
+        "The last stage of the Procurement Phase, when bidders prepare their designs",
+        "The stage after operations when the asset is handed back to government",
+        "The Implementation stage when finance is drawn and the asset is built",
+        "The stage when the authority builds the asset before the private partner operates it"
+      ],
+      "answer": 2,
+      "explanation": "The Construction Stage is the stage of the Implementation Phase when project finance is drawn down and the Project Company's contractors build, test and commission the asset. It ends when the project reaches the Operations Stage (Ch 7 §4, §4.1)."
+    },
+    {
+      "question": "A procuring authority says it does not need any technical knowledge during construction because the private partner controls the works. What does the Guide say?",
+      "options": [
+        "It must still understand the technicalities and time, quality and cost",
+        "It is right, since construction risk has been fully transferred",
+        "It should hire the construction contractor's engineers as advisers",
+        "It only needs technical knowledge if a claim is made"
+      ],
+      "answer": 0,
+      "explanation": "Even though the authority does not control construction, the Guide says it should have some understanding of the technicalities and acknowledge the relationship of time, quality and cost. Contract management must be in place from the outset (Ch 7 §4.1)."
+    },
+    {
+      "question": "During construction, the authority and the Project Company disagree about what a clause in the output specification for a hospital ward means. What should the authority do?",
+      "options": [
+        "Ignore it until the completion tests reveal who was right",
+        "Instruct the Project Company to follow the authority's reading at its own cost",
+        "Take steps to resolve the difference in interpretation of the output specification",
+        "Suspend construction until a new output specification is written"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists resolving differences in the interpretation of the output specifications as a key action for the authority during construction. Imposing its own reading as a free instruction could amount to a change (Ch 7 §4.1)."
+    },
+    {
+      "question": "Which of the following is NOT one of the key actions the Guide lists for the procuring authority during the Construction Stage?",
+      "options": [
+        "Overseeing required tests and evaluating the results",
+        "Inspecting equipment to be installed",
+        "Considering variations to the output specifications",
+        "Choosing the subcontractors for each work package"
+      ],
+      "answer": 3,
+      "explanation": "The key actions include monitoring progress and quality, overseeing tests, considering variations, inspecting equipment, and certifying or approving where the contract requires. Choosing subcontractors is the Project Company's execution decision (Ch 7 §4.1)."
+    },
+    {
+      "question": "A mega-project review focuses only on the technical tasks and ignores community and cultural issues. According to the Guide, why is this dangerous?",
+      "options": [
+        "Technical tasks are always the least important type of complexity",
+        "Ignoring social and cultural complexity sets a mega-project up to fail",
+        "Community issues are the private partner's risk and need no attention",
+        "Cultural complexity only matters in cross-border projects"
+      ],
+      "answer": 1,
+      "explanation": "The Guide distinguishes overall, task, social and cultural complexity. Literature usually looks only at task complexity, and if the other types are not addressed a mega-project is set for failure (Ch 7 §4.2)."
+    },
+    {
+      "question": "A light rail PPP was cancelled after its first construction phase. Reviewers found an unclear risk-sharing mechanism, no contingency plans and no expert contract managers. What does the Guide conclude from cases like this?",
+      "options": [
+        "Light rail projects are unsuitable for PPP in any country",
+        "Weak or missing contract management can cause cancellation",
+        "Cancellation happens only when the private partner is inexperienced",
+        "Contingency plans are the lenders' responsibility, not the authority's"
+      ],
+      "answer": 1,
+      "explanation": "Table 7.4 shows PPPs cancelled during construction due to a lack of, or poorly executed, contract management, such as Metro Sul do Tejo in Portugal with unclear risk sharing, no contingency plans and a lack of experts (Ch 7 §4.3)."
+    },
+    {
+      "question": "Consider these statements about the Robert Bain study of road PPPs. 1: Nearly 25 percent of responses pointed to the procuring authority as a cause of construction problems. 2: These problems were found only in countries new to PPPs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Nearly 25 percent of responses pointed, directly or indirectly, to the procuring authority. The study stressed that these issues were not restricted to countries new to PPPs, so statement 2 is false (Ch 7 §4.3)."
+    },
+    {
+      "question": "A ministry manages its first PPP using an amended design-and-build contract and treats the Project Company in a \"them-versus-us\" way. Which issue from the Guide's table of government problems does this show?",
+      "options": [
+        "Traditional thinking",
+        "Lack of capability",
+        "Poor preparation",
+        "Weak oversight"
+      ],
+      "answer": 0,
+      "explanation": "Table 7.5 describes traditional thinking as managing the PPP like a conventional design-and-build contract in an adversarial them-versus-us environment. Capability is about lacking skills and resources (Ch 7 §4.3)."
+    },
+    {
+      "question": "A government had weak project supervision under traditional procurement and expected that switching to PPP would solve it. What does the Guide say about this?",
+      "options": [
+        "PPP automatically removes the need for government supervision",
+        "The lenders take over all supervision duties under a PPP",
+        "The independent certifier becomes the government's supervisor",
+        "Existing oversight weaknesses cannot be cured simply by moving to PPP"
+      ],
+      "answer": 3,
+      "explanation": "Table 7.5 describes the oversight issue: existing deficiencies in supervision and control procedures could not be cured simply by moving from traditional procurement to PPP (Ch 7 §4.3)."
+    },
+    {
+      "question": "In a civil law country, the engineer who oversees a PPP's construction is hired by the procuring authority and reports only to it, and the authority keeps sole responsibility for approvals. What is this role often called?",
+      "options": [
+        "The lenders' technical agent for the debt",
+        "An independent certifier appointed by both parties",
+        "A Construction, Engineering and Inspection Engineer",
+        "The Project Company's own quality manager"
+      ],
+      "answer": 2,
+      "explanation": "In some countries, mostly civil law ones, oversight is done by a Construction, Engineering and Inspection (CEI) Engineer who is contracted by and reports to the authority, which keeps sole responsibility for approvals. An independent certifier, by contrast, owes a duty of care to both parties (Ch 7 §5.1.4, §6.1.3)."
+    },
+    {
+      "question": "Which of the following does the Guide list as a common reason for construction cost overruns?",
+      "options": [
+        "Over-aggressive bidding",
+        "Early handover of the site",
+        "Use of an independent certifier",
+        "A long defects liability period"
+      ],
+      "answer": 0,
+      "explanation": "Common reasons include over-aggressive bidding, excessive variations, very high specifications demanded by government and scope disputes. Early site handover actually reduces disputes (Ch 7 §4.3)."
+    },
+    {
+      "question": "The main construction contractor is also a major shareholder of a Project Company that is now in distress. Why might this be a problem, and what does the Guide suggest?",
+      "options": [
+        "It must sell its shares immediately; the authority should buy them",
+        "It loses all incentive to perform; the contract should be terminated",
+        "It may avoid claiming on its own guarantees; use independent adjudication",
+        "It cannot be paid for its works; the lenders should pay it directly"
+      ],
+      "answer": 2,
+      "explanation": "A contractor-shareholder normally has good incentives, but in distress it may be reluctant to claim against completion or performance guarantees that it provides. The Guide says independent adjudication has a place where ownership and contractual interests conflict (Ch 7 §4.3)."
+    },
+    {
+      "question": "A PPP prison opens 14 months late. According to the Guide, what is the usual cause of delays of months or even years?",
+      "options": [
+        "Bad weather during the construction period",
+        "Miscommunication about the parties' roles and responsibilities",
+        "The use of fixed-price contracts for the construction works",
+        "The late appointment of the lenders' technical agent"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says overruns of months or even years are usually due to miscommunication of the parties about their roles and responsibilities (Ch 7 §4.3)."
+    },
+    {
+      "question": "Which list shows the four key activities of the Construction Stage in the Guide?",
+      "options": [
+        "Tendering, bid evaluation, contract award and financial close",
+        "Feasibility study, structuring, drafting and market sounding",
+        "Operations, maintenance, benchmarking and final handback",
+        "Site set-up and permits, final design, works, and commissioning"
+      ],
+      "answer": 3,
+      "explanation": "The key activities are: establishing on site and obtaining permits, finalizing the design, carrying out the works, and commissioning and handing over to the Project Company's operations team (Ch 7 §5.1)."
+    },
+    {
+      "question": "A 200 km pipeline PPP needs land from hundreds of owners, and a continuous handover at signature is impossible. What must the PPP contract contain?",
+      "options": [
+        "Detailed handover rules and both parties' mitigation duties",
+        "A clause making the Project Company buy all the land itself",
+        "A rule that construction starts only when every plot is handed over",
+        "A waiver of all claims by the Project Company for late land"
+      ],
+      "answer": 0,
+      "explanation": "For linear projects, the Guide says land handover processes must be detailed in the contract, and both parties' obligations to mitigate late handover must be explicitly stated, so the authority avoids unnecessary claims (Ch 7 §5.1.1)."
+    },
+    {
+      "question": "A Project Company asks the authority to obtain the building consent for its own design, saying the authority has better contacts. What does the Guide recommend?",
+      "options": [
+        "The authority should obtain it, as it owns the land",
+        "The Project Company should obtain design and construction consents itself",
+        "The authority and Project Company should share the consent risk equally",
+        "The independent certifier should apply for the consent"
+      ],
+      "answer": 1,
+      "explanation": "Because the Project Company normally bears design and construction risk, it should identify and obtain all design- and construction-related consents. Otherwise these risks are transferred back to the authority (Ch 7 §5.1.2)."
+    },
+    {
+      "question": "A PPP contract says construction cannot begin until the authority, after reviewing the design, allows the Project Company to proceed. Is this consistent with the Guide?",
+      "options": [
+        "No, the authority must never see the design before construction",
+        "Yes, and it means the authority takes over the design risk",
+        "No, only the lenders may authorize construction to start",
+        "Yes, if the review does not mean accepting design errors"
+      ],
+      "answer": 3,
+      "explanation": "The contract may prohibit construction until the authority gives its go-ahead after review. But the authority should not have approval rights that amount to accepting design errors; the Project Company stays responsible for the design (Ch 7 §5.1.2)."
+    },
+    {
+      "question": "The Project Company's revised design for a rail depot needs an extra strip of land beyond the site the authority provided. Who bears the cost and risk of acquiring it?",
+      "options": [
+        "The procuring authority",
+        "The lenders",
+        "The Project Company",
+        "The independent certifier"
+      ],
+      "answer": 2,
+      "explanation": "The authority should ensure the design does not extend beyond the land provided; if it does, the cost and risk of acquiring additional land is the Project Company's responsibility (Ch 7 §6.3.1)."
+    },
+    {
+      "question": "After signature, a planning authority requires changes to a PPP courthouse design, and the Project Company revises its drawings. What should the PPP contract require regarding these revised designs?",
+      "options": [
+        "That all revised designs are submitted for review",
+        "That revised designs are kept confidential from the authority",
+        "That revised designs are approved by the lenders only",
+        "That revisions are forbidden once the contract is signed"
+      ],
+      "answer": 0,
+      "explanation": "The authority should ensure the contract is flexible enough for changes required by planning or environmental rules, and that the Project Company must submit all revised designs for review (Ch 7 §6.3.1)."
+    },
+    {
+      "question": "The construction contractor splits the works into packages and tenders them to subcontractors. A subcontractor's work is poor. Who is responsible for its quality?",
+      "options": [
+        "The procuring authority, which approved the subcontract",
+        "The subcontractor alone, with no link to the main contractor",
+        "The independent certifier, who inspected the work",
+        "The main contractor, who stays responsible for all work"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the main contractor retains responsibility for the quality of all work and for coordinating subcontractors, even when packages are tendered out (Ch 7 §5.1.3)."
+    },
+    {
+      "question": "When is the most work-intensive period of construction, and what needs particular attention then?",
+      "options": [
+        "The first month; land handover and design approval",
+        "The last weeks; the completion ceremony and the publicity",
+        "Mid-construction; sequencing, lead times and legal compliance",
+        "The tender period; bid evaluation and negotiations"
+      ],
+      "answer": 2,
+      "explanation": "The busiest period is the middle of construction, when all packages run with many subcontractors. Sequencing, lead times for materials and time-sensitive legislative compliance need attention (Ch 7 §5.1.3)."
+    },
+    {
+      "question": "A new water plant fails its commissioning performance tests. What must happen before the completion certificate can be issued?",
+      "options": [
+        "The authority must redesign the failed parts",
+        "The Project Company must remedy the defects",
+        "The certifier must lower the test standards",
+        "The lenders must approve a waiver of the tests"
+      ],
+      "answer": 1,
+      "explanation": "If performance tests fail, the Project Company must remedy the defects to obtain the completion certificate. The independent certifier assesses success or failure of the tests (Ch 7 §5.1.4, §6.3.4)."
+    },
+    {
+      "question": "Which describes the usual effect of reaching the service commencement date in a PPP?",
+      "options": [
+        "The construction contractor's defects liability ends immediately",
+        "Operations start and the right to revenue usually begins",
+        "The authority takes over operation of the asset",
+        "The lenders' senior debt is fully repaid"
+      ],
+      "answer": 1,
+      "explanation": "After the completion certificate, an authorization for service to begin is issued (the service commencement or operating commencement date), which typically starts the Project Company's right to collect or receive revenue (Ch 7 §5.1.4, §6.1.3)."
+    },
+    {
+      "question": "A government pays a capital contribution toward a PPP metro during construction and wants to link the payments to construction milestones. What does the Guide say?",
+      "options": [
+        "Milestones are prohibited in every PPP, with no exceptions",
+        "Milestone payments should be made before any equity is invested",
+        "They may be needed, but must be carefully crafted and show VfM",
+        "Milestones transfer all construction risk to the Project Company"
+      ],
+      "answer": 2,
+      "explanation": "Where the authority makes capital contributions, milestones may be needed; because this inserts the authority into the construction method, the terms must be carefully crafted and show overall VfM (Ch 7 §5.1.4)."
+    },
+    {
+      "question": "A hospital PPP starts services while some construction is still unfinished. What must the procuring authority make sure of?",
+      "options": [
+        "The payment mechanism keeps it incentivized to finish the works",
+        "The authority finishes the remaining works itself",
+        "The completion certificate is issued before any service starts",
+        "Payments are made in full from the first day of service"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says service commencement despite incomplete construction may be appropriate, but the authority must ensure the Project Company always remains incentivized, through the payment mechanism, to complete the outstanding works (Ch 7 §5.1.4)."
+    },
+    {
+      "question": "A campus PPP has several buildings that will be ready at different times. The authority wants to push the Project Company to bring every building to standard as quickly as possible. Which option does the Guide describe for this?",
+      "options": [
+        "Partial service commencement for each building as it is ready",
+        "Accepting each building in stages before service commencement",
+        "Paying the full unitary charge once the first building opens",
+        "Full commencement only when all elements meet the specification"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says stipulating full service commencement only when all elements reach the output specification incentivizes the Project Company to bring them all up to standard as quickly as possible. Partial commencement is the alternative approach (Ch 7 §5.1.4)."
+    },
+    {
+      "question": "A toll road concession is 20 years, but the pavement could last 40 years. What misalignment of incentives does the Guide warn about?",
+      "options": [
+        "It may cut construction costs and accept higher maintenance later",
+        "The Project Company may overbuild the road to raise its tolls",
+        "The authority may underpay because it owns the asset at the end",
+        "The lenders may refuse to lend beyond the construction period"
+      ],
+      "answer": 0,
+      "explanation": "When the contract is shorter than the asset's life, the Project Company may reduce construction costs and incur higher maintenance costs. The authority would usually prefer higher capital investment and a lower life-cycle cost (Ch 7 §6.1)."
+    },
+    {
+      "question": "Which of the following is NOT one of the regular monitoring tasks the Guide lists for the contract management team during construction?",
+      "options": [
+        "Monitoring against the scope and agreed variations",
+        "Quality control and materials monitoring",
+        "Setting the construction contractor's daily work methods",
+        "Stakeholder reporting and management"
+      ],
+      "answer": 2,
+      "explanation": "Regular tasks include monitoring schedule, scope and variations, legal compliance, quality and materials, daily relationships and stakeholder reporting. Setting work methods would mean managing the task for the Project Company (Ch 7 §6.1)."
+    },
+    {
+      "question": "During construction, a risk arises that the PPP contract does not allocate to either party. Is this part of the contract management team's risk monitoring?",
+      "options": [
+        "No, unallocated risks automatically belong to the Project Company",
+        "No, only risks the authority has retained are monitored",
+        "Yes, but only after the lenders have confirmed the risk",
+        "Yes, it monitors allocated, retained, unallocated and change risks"
+      ],
+      "answer": 3,
+      "explanation": "The team must monitor and manage risks allocated between the parties, inherent risks borne by the authority, risks not contractually allocated, and risks linked to changes to the contract (Ch 7 §6.1)."
+    },
+    {
+      "question": "The Project Company claims that an event during construction is a relief event. What is the authority's contract management role here?",
+      "options": [
+        "Accept every claim to protect the relationship",
+        "Assess the claim's validity and update the risk register",
+        "Reject every claim, since construction risk is private",
+        "Pass the claim to the lenders for decision"
+      ],
+      "answer": 1,
+      "explanation": "Box 7.5 lists discussing and assessing the validity of claims for relief events or compensation events, and maintaining the risk register, among the authority's roles in construction (Ch 7 §6.1.1)."
+    },
+    {
+      "question": "How does performance monitoring in the Construction Stage differ from the Operations Stage, according to the Guide?",
+      "options": [
+        "Construction uses independent reporters; operations uses self-reporting",
+        "Construction relies on self-reporting; operations uses independent parties",
+        "Construction focuses on service levels; operations focuses on the schedule",
+        "Construction is linked to deductions; operations has no penalty regime"
+      ],
+      "answer": 0,
+      "explanation": "In construction, independent parties such as the independent certifier and lenders' agent report on milestones and compliance. In operations, monitoring focuses on service levels, relies mainly on self-reporting and is linked to the penalty regime (Ch 7 §6.1.1)."
+    },
+    {
+      "question": "On an authority's construction-stage team, which role's input becomes most intensive near the end of construction because it helps the transition to operations?",
+      "options": [
+        "The architect monitoring build quality",
+        "The legal support adviser",
+        "The facilities management specialists",
+        "The quantity surveyor or commercial manager"
+      ],
+      "answer": 2,
+      "explanation": "Table 7.6 says FM specialists establish the effect of changes on the operating stage and aid transition, with more intensive input over the last months of construction. ICT input also peaks near the end (Ch 7 §6.1.2)."
+    },
+    {
+      "question": "In a jurisdiction where independent certifiers can have quasi-judicial powers, an authority fears the certifier might start deciding wider disputes. What does the Guide suggest?",
+      "options": [
+        "Give the certifier full powers to settle all contract disputes",
+        "Let the Project Company decide the scope of the certifier's powers",
+        "Replace the certifier with the lenders' technical agent",
+        "Limit its powers explicitly to certification in construction"
+      ],
+      "answer": 3,
+      "explanation": "Because certifiers' powers vary between jurisdictions, the Guide says it makes sense for the contract to explicitly limit the certifier's powers to certification in the Construction Stage and during commissioning (Ch 7 §6.1.3)."
+    },
+    {
+      "question": "The authority makes no milestone payments on a PPP. The Project Company wants to draw more senior debt after finishing a construction milestone. Who normally certifies that the milestone is achieved?",
+      "options": [
+        "The procuring authority's Contract Manager",
+        "The lenders' technical agent",
+        "The PPP Unit",
+        "The construction subcontractors"
+      ],
+      "answer": 1,
+      "explanation": "The independent certifier often certifies milestones when the authority makes milestone payments; otherwise the lenders' technical agent certifies the milestone and permits further debt drawdown (Ch 7 §6.2)."
+    },
+    {
+      "question": "Under a normal project finance structure, in what order are funding sources applied during construction?",
+      "options": [
+        "Equity, then mezzanine (quasi-equity), then senior debt",
+        "Senior debt first, then mezzanine debt, then equity last",
+        "Mezzanine debt first, then equity, then senior debt",
+        "Government grant first, then senior debt, then equity"
+      ],
+      "answer": 0,
+      "explanation": "Funding is applied in the sequence equity, quasi-equity or mezzanine debt, then senior debt. Senior debt drawdown depends on milestones, so the risk of poor construction sits mainly with equity providers (Ch 7 §6.2.3)."
+    },
+    {
+      "question": "A ministry's lease on its current offices ends in June. Its new PPP office building is falling behind schedule, but the Project Company has not told anyone. What risk does the Guide highlight?",
+      "options": [
+        "The Project Company will lose its equity automatically",
+        "The lenders will take over the ministry's lease",
+        "The authority may find itself without a \"home\"",
+        "The authority must pay for acceleration measures"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives this example: if the schedule is badly managed and a delay comes without enough notice, the authority might find itself without a home. Schedule management is the Project Company's responsibility but matters greatly to the authority (Ch 7 §6.4.1)."
+    },
+    {
+      "question": "The Project Company plans a major change in the sequence and durations of critical activities and the delivery date of a large turbine. What does the Guide say it will do?",
+      "options": [
+        "Ask the authority to redraw the whole programme",
+        "Ignore the baseline, since only the completion date matters",
+        "Obtain a new completion certificate from the certifier",
+        "Prepare a schedule revision that replaces the baseline"
+      ],
+      "answer": 3,
+      "explanation": "For major changes in critical or near-critical activities or major equipment delivery dates, the Project Company prepares a schedule revision, which is then used for coordination and monitoring in place of the baseline schedule (Ch 7 §6.4.2, Table 7.7)."
+    },
+    {
+      "question": "Which of the following is NOT one of the major elements of a Schedule Management Plan in the Guide?",
+      "options": [
+        "Baseline schedule development and approval",
+        "Setting the unitary charge for each month",
+        "Schedule changes and revisions",
+        "Schedule delay mitigation planning"
+      ],
+      "answer": 1,
+      "explanation": "The plan contains baseline development and approval, schedule analysis and coordination, changes and revisions, and delay mitigation planning. The unitary charge belongs to the payment mechanism (Ch 7 §6.4.2, Table 7.7)."
+    },
+    {
+      "question": "An authority wants to track construction progress without updating the schedule itself. What technique does the Guide recommend?",
+      "options": [
+        "Weekly redrafting of the baseline by the authority",
+        "Monthly visits by the Minister to the site",
+        "Measuring progress only by money spent",
+        "Milestones that are easily observed and verified"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a good technique is to set milestones that are easy to observe and verify. The authority does not update the schedule, but must be told of changes affecting milestones or the critical path (Ch 7 §6.4.3)."
+    },
+    {
+      "question": "Which of the following is part of QMS reporting in the Project Company's quality management system?",
+      "options": [
+        "Setting the authority's annual budget for the project",
+        "Approving the design on the authority's behalf",
+        "Using non-conformance data to drive improvement",
+        "Issuing the completion certificate at the end of works"
+      ],
+      "answer": 2,
+      "explanation": "Table 7.8 says QMS reporting measures and reports how well quality requirements and processes perform, and uses data on non-conformances to address improvement. Certificates are issued by the certifier (Ch 7 §6.5.1)."
     }
   ]
 }

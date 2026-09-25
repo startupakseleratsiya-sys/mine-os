@@ -240,6 +240,446 @@
       ],
       "answer": 2,
       "explanation": "A probity practitioner is independent of the project team, monitors the live process, receives complaints and confirms the evaluation met the requirements. Auditors-general usually review after the tender (ex-post)."
+    },
+    {
+      "question": "After evaluation, Consortium North is ranked first. The government begins talks with it before any award is made. What is Consortium North's status?",
+      "options": [
+        "Successful bidder with a binding signed contract",
+        "Contractor, responsible for setting up the SPV",
+        "Reserve bidder, kept as a fallback option",
+        "Preferred bidder, but not yet the successful bidder"
+      ],
+      "answer": 3,
+      "explanation": "The best-ranked bidder after evaluation is the 'preferred' but not yet successful bidder; negotiation may take place before award (Ch 6 §10)."
+    },
+    {
+      "question": "After evaluation, the authority finds that the preferred bidder read a clause on handback condition differently from what the government meant. Nobody raised it during clarifications. What does this situation show?",
+      "options": [
+        "A temerity offer that must be rejected",
+        "An unclear RFP, a reason to negotiate",
+        "A forbidden material change by the bidder",
+        "A reason to call the bid bond at once"
+      ],
+      "answer": 1,
+      "explanation": "One reason for post-bid negotiation is that the RFP or draft contract was not clear, and the bidder interpreted it differently from the government's intention (Ch 6 §10)."
+    },
+    {
+      "question": "During negotiations, the preferred bidder proposes to turn the availability-payment contract in the RFP into a user-pays concession. What is the main problem with this proposal?",
+      "options": [
+        "Such proposals may only be made during the standstill period",
+        "A user-pays contract cannot have a preferred bidder",
+        "The change must first be approved by the bidder's lenders",
+        "It changes the original intent of the RFP draft contract"
+      ],
+      "answer": 3,
+      "explanation": "Negotiation creates a risk to transparency and should not change the original intent of the draft contract in the RFP (Ch 6 §10)."
+    },
+    {
+      "question": "A PPP unit wants to reduce the need for difficult post-bid negotiations in its future tenders. What is the best preventive step?",
+      "options": [
+        "Let bidders negotiate every clause freely after the award",
+        "Make documents clear and the risk allocation acceptable from the start",
+        "Stop keeping a reserve bidder in future tenders",
+        "Shorten the standstill period to five days"
+      ],
+      "answer": 1,
+      "explanation": "Because negotiating with a preferred bidder is hard, care should be taken when structuring the tender so documents are clear and the risk allocation is acceptable to bidders (Ch 6 §10)."
+    },
+    {
+      "question": "Consider two statements. 1: Some governments do not allow negotiation of the contract terms at any stage of the process. 2: Even where contract terms cannot be negotiated, there may still be room to negotiate on bidders' proposals.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Ch 6 §10). Because of the risks, some governments ban negotiation of contract terms, although room may remain for negotiation on the bidders' proposals."
+    },
+    {
+      "question": "After negotiation, the preferred bidder's final offer includes a longer construction period that was never offered to the other bidders. What risk does this create for the authority?",
+      "options": [
+        "The preferred bidder may lose its bid bond",
+        "The lenders may refuse any step-in rights",
+        "The contract turns into a price-only contract",
+        "Unselected bidders may challenge the changes"
+      ],
+      "answer": 3,
+      "explanation": "The negotiated final offer must not disadvantage the unselected bidders, who might challenge the negotiated changes (Ch 6 §10)."
+    },
+    {
+      "question": "In one country, the cabinet must endorse every PPP award decision. The evaluation team has recommended a bidder and the minister has approved it. What is the status of the award until the cabinet acts?",
+      "options": [
+        "Definitive, since the minister's approval is final",
+        "Void, because two approvals are in conflict",
+        "Not yet definitive; cabinet endorsement is needed",
+        "Final, but open to renegotiation by the bidder"
+      ],
+      "answer": 2,
+      "explanation": "In some jurisdictions the award is not a definitive selection because endorsement at a higher level, for example the cabinet, is required (Ch 6 §11)."
+    },
+    {
+      "question": "Under EU legislation, what is the minimum standstill period between the PPP award decision and the conclusion of the contract?",
+      "options": [
+        "5 days",
+        "30 days",
+        "60 days",
+        "10 days"
+      ],
+      "answer": 3,
+      "explanation": "Box 6.5 (EPEC) states that EU law requires a minimum standstill period of 10 days so rejected bidders can decide whether to challenge the award."
+    },
+    {
+      "question": "Consider two statements about EU rules. 1: An aggrieved bidder can seek to have a PPP contract rendered ineffective if the authority seriously breached procurement rules. 2: Monetary compensation is now the only remedy an aggrieved bidder can seek.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is true (Box 6.5). Previously compensation was the sole remedy, but now an aggrieved bidder can seek cancellation of the contract."
+    },
+    {
+      "question": "A coastal road PPP is close to award, and storm surges are a growing concern. What must the parties agree before the contract is awarded?",
+      "options": [
+        "That every climate event will be treated as force majeure",
+        "Climate risk allocation, with limits for force majeure events",
+        "That the private partner bears all climate risk, without limit",
+        "That climate risk will be settled at the first contract review"
+      ],
+      "answer": 1,
+      "explanation": "Before award both parties must agree on climate risk allocation, including specific boundaries for extreme climate events to constitute force majeure (Ch 6 §11)."
+    },
+    {
+      "question": "A losing bidder challenges a PPP contract after it has been awarded. On what is such a challenge usually based?",
+      "options": [
+        "The winner's choice of lenders and financial advisers",
+        "The indexation formula for future contract payments",
+        "Deviations from the evaluation and selection rules in the RFP",
+        "The authority's choice of contract management staff"
+      ],
+      "answer": 2,
+      "explanation": "Challenges after award are usually based on potential deviations from the evaluation and selection rules set out in the RFP (Ch 6 §11.1)."
+    },
+    {
+      "question": "A judge is reviewing a challenge to a PPP award. Which is NOT one of the typical outcomes described in the Guide?",
+      "options": [
+        "Rejecting the challenge",
+        "Suspending the award for a time",
+        "Declaring the award invalid",
+        "Ordering talks with the challenger"
+      ],
+      "answer": 3,
+      "explanation": "The judge may reject the challenge, suspend the award, or declare it invalid (which may lead to award to the second-ranked bidder), and in the worst case the project may be retendered (Ch 6 §11.1)."
+    },
+    {
+      "question": "A tender closes with no bids. Market feedback shows that bidders simply needed more time to finish their due diligence. What may the authority do?",
+      "options": [
+        "Grant additional time for bid submission",
+        "Award the contract directly to a known firm",
+        "Cancel the project permanently",
+        "Remove the technical floor from the RFP"
+      ],
+      "answer": 0,
+      "explanation": "When there is evidence that insufficient time caused the failure, it is not uncommon to grant additional time for bids (Ch 6 §11.2)."
+    },
+    {
+      "question": "A tender receives no bids. Time was not the problem; market sounding shows the demand risk transfer was unacceptable to investors. What should the authority do?",
+      "options": [
+        "Grant more time and keep the structure exactly as it is",
+        "Suspend, adjust the structure and retender if VfM holds",
+        "Negotiate directly with the largest local construction firm",
+        "Go ahead and award the contract to the reserve bidder"
+      ],
+      "answer": 1,
+      "explanation": "Otherwise the process is suspended and may be retendered after adjusting the structure or requirements, if this can be done without compromising VfM (Ch 6 §11.2)."
+    },
+    {
+      "question": "Three bids arrive, but all are non-responsive because the price ceiling was too low for a feasible project. What may be more appropriate than negotiating with the best proposer?",
+      "options": [
+        "Awarding to the bid that is closest to the ceiling",
+        "Raising the ceiling for the best proposer only",
+        "Redefining the project, subject to a reassessment",
+        "Asking the bidders to merge into one consortium"
+      ],
+      "answer": 2,
+      "explanation": "Authorities often negotiate with the best proposer, but a redefinition of the project, subject to reassessment or reappraisal, may be more appropriate (Ch 6 §11.2)."
+    },
+    {
+      "question": "Only one valid bid is received for a routine school PPP that no other firm found attractive. What may this signal, according to the Guide?",
+      "options": [
+        "A competitive market with strong investor interest",
+        "A bid that is certain to offer excellent VfM",
+        "A project that needs no further review before award",
+        "A poorly structured, likely unsuccessful project"
+      ],
+      "answer": 3,
+      "explanation": "If a project was unattractive to all other bidders, it may reflect a poorly structured project that is unlikely to succeed; the sole bidder may also be overly ambitious (Ch 6 §11.2)."
+    },
+    {
+      "question": "A government wants to stop sole-bidder situations from weakening its negotiating position in future tenders. Which rule used by some governments fits this aim?",
+      "options": [
+        "Require at least two valid bids before a contract can be awarded",
+        "Require any sole bidder to cut its price by 10 percent",
+        "Let a sole bidder renegotiate the whole risk allocation",
+        "Award automatically to any compliant sole bid received"
+      ],
+      "answer": 0,
+      "explanation": "Some governments require a minimum of two valid bids for the authority to award the contract (Ch 6 §11.2)."
+    },
+    {
+      "question": "Under rules like the Philippines', an authority negotiates directly with a sole bidder. Which aspects may be negotiated?",
+      "options": [
+        "The risk allocation in the draft contract",
+        "Only its financial proposal and rate of return",
+        "The output specifications and service levels",
+        "Any term at all, since there is no competitor"
+      ],
+      "answer": 1,
+      "explanation": "The Philippines' PPP rules allow direct negotiation with a sole bidder only on its financial proposal and rate of return, so the risk allocation cannot be changed (Ch 6 §11.2)."
+    },
+    {
+      "question": "Which is NOT typically a prior condition the successful bidder must meet before contract signature?",
+      "options": [
+        "Establishing the SPV that will be the concessionaire",
+        "Contracting insurance or proving it is available",
+        "Completing construction of the first phase of the project",
+        "Providing any required performance guarantees"
+      ],
+      "answer": 2,
+      "explanation": "Typical prior conditions are setting up the SPV, insurance and performance guarantees, and in some jurisdictions financial close (Ch 6 §12.1). Construction comes after signature."
+    },
+    {
+      "question": "Consortium Delta has won the award and has met all the prior conditions in the RFP. With whom will the authority sign the PPP contract?",
+      "options": [
+        "Each consortium member separately",
+        "The consortium's lead lender",
+        "The consortium's construction firm",
+        "The SPV set up by the consortium"
+      ],
+      "answer": 3,
+      "explanation": "Once the prior conditions are fulfilled, the PPP contract is signed with the SPV and the successful bidder officially becomes a contractor (Ch 6 §12.1)."
+    },
+    {
+      "question": "An authority has named a preferred bidder and kept a reserve bidder as a fallback. Talks on some unclear clauses are about to start. Which risk must the authority manage most carefully?",
+      "options": [
+        "The preferred bidder gaining terms at the government's expense",
+        "The reserve bidder replacing the preferred bidder automatically",
+        "The lenders losing their step-in rights during the talks",
+        "The standstill period ending before the talks can start"
+      ],
+      "answer": 0,
+      "explanation": "Even with a reserve bidder, the preferred bidder will see itself in a strong position, so negotiation must be managed so that legitimate issues are resolved without it gaining a better position at the government's expense (Ch 6 §10). A reserve bidder is a fallback option, not an automatic replacement."
+    },
+    {
+      "question": "Before signature, the authority and the preferred bidder notice that two clauses give different dates for the same milestone. They agree to align them with what was clearly intended. How is this viewed?",
+      "options": [
+        "As a material change that is always forbidden",
+        "As an acceptable minor change that corrects a mistake",
+        "As a reason to restart the whole tender",
+        "As a change that needs a new standstill period"
+      ],
+      "answer": 1,
+      "explanation": "It is common to agree minor changes to resolve mistakes or clarify ambiguities before signature (Ch 6 §12.2). This does not change what other bidders would have bid."
+    },
+    {
+      "question": "A procuring authority knows that PPP tenders face a higher risk of challenge than conventional procurement. What should it have in place to reduce this risk?",
+      "options": [
+        "A promise to compensate every losing bidder",
+        "A rule that bars all challenges after tender launch",
+        "Sound processes and a legal team with experts ready",
+        "A deal with the winner to share any legal costs"
+      ],
+      "answer": 2,
+      "explanation": "Because the risk of challenge is higher in PPPs, the authority must have sound preparation and procurement processes and a legal team and subject matter experts ready to handle challenges (Ch 6 §11.1). Challenges can come after tender launch as well as after award, so barring them is not a Guide measure."
+    },
+    {
+      "question": "A jurisdiction requires signed PPP contracts to be published. The contract contains the winner's proprietary construction method. What is good practice?",
+      "options": [
+        "Publish the whole contract with no redactions of any kind",
+        "Keep the whole contract secret despite the legal rule",
+        "Ask the competitors whether the method is really sensitive",
+        "Redact genuinely proprietary or sensitive content first"
+      ],
+      "answer": 3,
+      "explanation": "It is good practice to redact genuinely proprietary or commercially sensitive information; failing to do so may deter companies from bidding (Ch 6 §12.3)."
+    },
+    {
+      "question": "A prison PPP contract is being published. Some sections describe the security systems in detail. What may the government do?",
+      "options": [
+        "Exempt it from disclosure in the public interest",
+        "Publish everything to avoid any criticism",
+        "Delay signature until the systems are replaced",
+        "Publish the material to the bidders only"
+      ],
+      "answer": 0,
+      "explanation": "In projects such as defence or prisons, the government may need to exempt some contractual material from disclosure for public interest reasons (Ch 6 §12.3)."
+    },
+    {
+      "question": "Consider two statements about publishing the signed contract. 1: Publishing the contract can help deflect criticism about the transparency of the procurement. 2: Publishing the signed contract is compulsory in every jurisdiction.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is true (Ch 6 §12.3). Publication is compulsory only in some jurisdictions, not all."
+    },
+    {
+      "question": "An authority wants to debrief bidders on a completed PPP tender. When should it do this, and with whom?",
+      "options": [
+        "With losing bidders only, before the award decision is made",
+        "With winning and losing bidders, after the contract is executed",
+        "With the winning bidder only, during the standstill period",
+        "With all the bidders, while the evaluation is still running"
+      ],
+      "answer": 1,
+      "explanation": "Good practice is to debrief both successful and unsuccessful bidders after the contract has been executed (Ch 6 §12.4)."
+    },
+    {
+      "question": "In a debriefing, an unsuccessful bidder asks why its bid scored lower than the winner's on each criterion. How should the debriefing be focused?",
+      "options": [
+        "On a detailed comparison of its bid with the winning bid",
+        "On the winning bidder's prices and financial model",
+        "On general advice for meeting the government's needs in future",
+        "On the score each evaluator gave to each bidder"
+      ],
+      "answer": 2,
+      "explanation": "The debriefing should not focus on the relative merits of the bids; it should give general information on how to better meet the government's expectations in future projects (Ch 6 §12.4)."
+    },
+    {
+      "question": "A project team reports that it reached commercial close today. What has happened?",
+      "options": [
+        "The lenders made the first loan drawdown",
+        "The award decision was published",
+        "Construction of the asset was completed",
+        "The PPP contract has been signed"
+      ],
+      "answer": 3,
+      "explanation": "Commercial close is the contract signature; financial close is when financing documents are signed and the conditions for availability of financing are fulfilled (Ch 6 §12.1, §13)."
+    },
+    {
+      "question": "In a jurisdiction such as Spain, how is project finance typically arranged in relation to contract signature?",
+      "options": [
+        "The partner gets a limited time after signing, about 6 to 18 months",
+        "Bidders must reach financial close before they submit bids",
+        "The government closes the financing on the partner's behalf",
+        "Finance is closed only after construction is complete"
+      ],
+      "answer": 0,
+      "explanation": "In some jurisdictions, such as Spain, the contract gives a limited time after signing (as little as 6 or as much as 18 months) to arrange finance and execute the financial agreements (Ch 6 §13)."
+    },
+    {
+      "question": "In a negotiated dialogue process, the bidders arranged their finance before the award. How soon after commercial close is financial close likely to follow?",
+      "options": [
+        "Only after 18 months at the earliest",
+        "Soon, from a few hours to several weeks",
+        "Only once construction is complete",
+        "Never, as signature replaces financial close"
+      ],
+      "answer": 1,
+      "explanation": "In negotiated or dialogue processes, finance is often arranged before award, and financial close follows soon after commercial close, from a few hours to several weeks (Ch 6 §13)."
+    },
+    {
+      "question": "At financial close, the lenders ask the authority to confirm their right to step in and cure defaults, as already agreed in the contract. What is common practice, especially in emerging markets?",
+      "options": [
+        "Refuse, because the lenders are not parties to the contract",
+        "Transfer ownership of the SPV to the lenders at once",
+        "Acknowledge the lenders' rights as agreed in the contract",
+        "Grant the lenders new rights beyond those in the contract"
+      ],
+      "answer": 2,
+      "explanation": "It is common, especially in emerging markets, for the authority to acknowledge the contract and validate the lenders' rights as agreed, such as step-in rights to cure defaults (Ch 6 §13)."
+    },
+    {
+      "question": "Consider two statements. 1: Direct agreements or direct letters to lenders are always direct guarantees of the loans. 2: Direct guarantees in favour of lenders may be set out in some PPP contracts.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Only statement 2 is true (Ch 6 §13, note 15). Direct agreements or letters are not necessarily guarantees; they give lenders comfort that they can exercise their rights."
+    },
+    {
+      "question": "A contract includes base interest rate risk-sharing. Base rates rise sharply between contract signature and financial close. Who may bear some or all of this change?",
+      "options": [
+        "The construction subcontractor",
+        "The bidders that lost the tender",
+        "The procuring authority itself",
+        "The probity practitioner alone"
+      ],
+      "answer": 2,
+      "explanation": "Under base interest rate risk-sharing, the procuring authority bears part or all of the risk that base rates change before financial close (Ch 6 §13)."
+    },
+    {
+      "question": "Financial close has taken 20 months after contract signature. What should the procuring authority make sure of?",
+      "options": [
+        "That the standstill period has been restarted",
+        "That the reserve bidder is still interested",
+        "That the bidders' debriefings are repeated",
+        "That project feasibility is not harmed by delay"
+      ],
+      "answer": 3,
+      "explanation": "For very long financial close periods, efforts should be made to ensure that project feasibility has not been negatively affected during the delay (Ch 6 §13)."
+    },
+    {
+      "question": "Consider two statements about oversight. 1: Probity practitioners are appointed project by project and usually have legal or accounting backgrounds. 2: Auditors-general usually oversee PPP tenders in real time while they are running.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Only statement 1 is true (Ch 6 §14). Auditors-general in many countries carry out ex-post audit reviews after the tender, not real-time oversight."
+    },
+    {
+      "question": "The tender terms allow remedial action if a bidder engages in corrupt practices. The preferred bidder is found to have bribed an official. What can the authority do?",
+      "options": [
+        "Only send the bidder a formal public warning letter",
+        "Cancel its appointment, call the bid bond and sue for damages",
+        "Reduce the bidder's technical score by ten points",
+        "Ask the lenders to replace the bidder's management"
+      ],
+      "answer": 1,
+      "explanation": "The onus is on bidders to avoid corruption; tender terms should let the authority cancel the appointment, call any bid bond and sue for damages, including the costs of rerunning the procurement (Ch 6 §14)."
+    },
+    {
+      "question": "The tender has ended and the contract is signed. What does the Guide recommend the authority do with its experience of the tender?",
+      "options": [
+        "Run a lessons-learned review and share it with other PPP agencies",
+        "Archive the files and close the project team at once",
+        "Publish every evaluator's detailed scores for each bid",
+        "Send the review only to the winning bidder's SPV"
+      ],
+      "answer": 0,
+      "explanation": "Good practice is a lessons-learned review, shared with the central PPP agency and other procuring agencies, and sometimes partly with the public (Ch 6 §15)."
+    },
+    {
+      "question": "An authority plans to design its contract management strategy only after construction has started. What does the Guide say?",
+      "options": [
+        "That timing is fine, as management begins with operations",
+        "It must be set at signature, with preparation done in parallel",
+        "It should wait until the first dispute or change arises",
+        "It should be written by the lenders at financial close"
+      ],
+      "answer": 1,
+      "explanation": "A contract management strategy must be established at contract signature, and preparation usually runs in parallel with signature and even the bid stage (Ch 6 §15)."
+    },
+    {
+      "question": "Financing is not a prior condition to signature in a PPP contract. Why will it still normally be in place before construction starts?",
+      "options": [
+        "The law forbids construction during the standstill period",
+        "The authority must first pay a construction advance",
+        "Investors normally only start work after financial close",
+        "The SPV cannot legally exist before financial close"
+      ],
+      "answer": 2,
+      "explanation": "Where finance is not arranged before signature, it is arranged before construction, because the standard approach of any investor is to start work only after financial close (Ch 6 §15)."
     }
   ]
 }

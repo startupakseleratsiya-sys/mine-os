@@ -301,6 +301,446 @@
       ],
       "answer": 1,
       "explanation": "The right to match the winning bid defines the Swiss challenge. A bid bonus instead adds a scoring advantage to the proponent's evaluation."
+    },
+    {
+      "question": "Which is NOT one of the features of a 'viable' PPP that the Guide says governments should look for?",
+      "options": [
+        "It is justified by cost-benefit analysis",
+        "It will attract interest from the market",
+        "It will cost less in cash terms than public borrowing",
+        "It is financially viable and fiscally responsible"
+      ],
+      "answer": 2,
+      "explanation": "Viable PPPs are cost-benefit justified, give better Value for Money than traditional procurement, are financially viable and fiscally responsible, and attract market interest (Ch 2 §1.7). The Guide never treats a PPP as cheaper borrowing."
+    },
+    {
+      "question": "At the identification stage, how does the Guide describe the screening of candidate projects for PPP potential?",
+      "options": [
+        "Indicative, using information available at relatively low cost",
+        "A full, quantified Value for Money test with detailed data",
+        "A detailed technical review carried out by the preferred bidder",
+        "A legal check done only after the contract is drafted"
+      ],
+      "answer": 0,
+      "explanation": "Screening at this stage is usually indicative and limited to low-cost information; many countries use standard screening tools (Ch 2 §1.7.1). Full quantified VfM comes later, at appraisal."
+    },
+    {
+      "question": "A ministry's PPP program objectives clearly list the types of project that should be considered. A proposal arrives for a type that is not on the list. What do the objectives allow the screening team to do?",
+      "options": [
+        "Send the proposal straight to tender",
+        "Skip the appraisal stage for this proposal",
+        "Screen the unsuitable proposal out easily",
+        "Pay the proposer a developer's fee"
+      ],
+      "answer": 2,
+      "explanation": "PPP program objectives should specify the types of projects to develop, so that unsuitable projects can be screened out easily (Ch 2 §1.7.1). Sending it to tender would skip screening altogether."
+    },
+    {
+      "question": "Revenues from a proposed toll road PPP will not cover its costs, and the government has no budget to pay for or subsidise the service. At screening, what should the framework require?",
+      "options": [
+        "Proceed, because the private party carries demand risk",
+        "Proceed, and look for a subsidy after financial close",
+        "Proceed, if lenders accept a higher interest rate",
+        "It should not proceed as a PPP in this form"
+      ],
+      "answer": 3,
+      "explanation": "PPPs should not be used unless project revenues cover costs or the government can pay for or subsidise the service (Ch 2 §1.7.1). Hoping to find a subsidy after financial close ignores the screening test."
+    },
+    {
+      "question": "Consider two statements. 1: Infrastructure assets are mainly threatened by isolated short-term extreme weather events and by long-term climate-related shifts. 2: Climate risk screening is a task only for procuring authorities; private developers do not need to assess it.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 matches Box 2.8. Statement 2 is false: private developers should also assess climate risks and include the rising probability of extreme events in their IRR calculations."
+    },
+    {
+      "question": "Early in the screening stage, a procuring authority has little detailed information but wants to understand the climate exposure of a planned coastal highway. What should it do?",
+      "options": [
+        "Wait until detailed design is complete before any assessment",
+        "Use a high-level, indicator-based approach within an early ESIA",
+        "Rely on the bidders' own climate studies once the contract is awarded",
+        "Commission a full quantified climate model before screening"
+      ],
+      "answer": 1,
+      "explanation": "Box 2.8 says procuring authorities should do early environmental and social impact assessments with climate sensitivity, using a high-level indicator approach when details are not yet available. Waiting for detailed design is too late to shape the project."
+    },
+    {
+      "question": "In the appraisal stage, what is the appraisal report often called, and what role does it usually play?",
+      "options": [
+        "A Request for Proposals, used to invite bids",
+        "A Business Case, the basis for approval to proceed",
+        "A project management plan, used during operations",
+        "A term sheet, used by lenders at financial close"
+      ],
+      "answer": 1,
+      "explanation": "The appraisal report, often called a Business Case, is typically the basis for approval to proceed with the PPP transaction (Ch 2 §1.7.2). An RFP belongs to the tender stage, not appraisal."
+    },
+    {
+      "question": "A finance minister says: 'Let's do the new schools as a PPP, because that way we avoid borrowing.' How does separating the investment decision from the procurement decision answer this view?",
+      "options": [
+        "It lets PPP projects skip the Value for Money test at appraisal",
+        "It guarantees PPP projects get budget priority",
+        "It removes the need for any cost-benefit analysis",
+        "It dispels the idea that PPPs are an alternative to borrowing"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.9 says the two-stage process stops budget impact from prejudicing the procurement choice and dispels the misconception that PPPs are an alternative to government borrowing. It does not remove VfM or cost-benefit tests."
+    },
+    {
+      "question": "A country has no systematic appraisal of public projects and cannot get a government-wide mandate for reform soon. What practical option does the Guide offer?",
+      "options": [
+        "Delay all PPPs until every public project is appraised",
+        "Let bidders appraise the project during the tender",
+        "Skip appraisal, as private finance will test the project",
+        "Require appraisal of PPP projects under the PPP framework"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.9 gives two options: appraise all projects (ideal but needs a mandate and time) or, under the PPP framework, require appraisal of PPP projects. The second avoids the delay of reforming all public appraisal."
+    },
+    {
+      "question": "Consider two statements. 1: Requiring appraisal only for PPP projects means PPPs face stricter scrutiny than non-PPP projects. 2: Appraisal techniques that work for PPP projects could later be extended to non-PPP projects.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Box 2.9). Stricter scrutiny of PPPs is the disadvantage of this option; the chance to extend proven methods to other projects is one of its advantages."
+    },
+    {
+      "question": "A roads agency must show that its project is economically, technically and legally feasible, but it has no staff with these specialist skills. What should it do?",
+      "options": [
+        "Skip feasibility, since it is not unique to PPPs",
+        "Ask the likely bidder to do the studies for free",
+        "Appoint advisors with the specialist skills",
+        "Treat the screening results as the full appraisal"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says specialist skills are needed for feasibility appraisal and, when they are not available in-house, advisors should be appointed (Ch 2 §1.7.2). Feasibility applies to all public projects, so it cannot be skipped."
+    },
+    {
+      "question": "Traffic forecasts for a PPP bridge assume that drivers will pay a high toll, but surveys show most drivers prefer a free ferry nearby. What problem does the Guide warn about?",
+      "options": [
+        "Tolls will always rise over time until they cover all costs",
+        "False willingness-to-pay expectations can leave the asset underused",
+        "Affordability to users does not matter once a PPP contract is signed",
+        "The nearby ferry must be closed so that the bridge succeeds"
+      ],
+      "answer": 1,
+      "explanation": "Affordability must be checked from both the government and the user side; false expectations of user willingness to pay may lead to underused infrastructure and financial trouble (Ch 2 §1.7.2)."
+    },
+    {
+      "question": "According to the Guide, a PPP is considered to give Value for Money if the project is expected to do what?",
+      "options": [
+        "Have the lowest upfront capital cost of any option",
+        "Attract the largest possible number of bidders",
+        "Keep all project debt off the public accounts",
+        "Deliver higher net economic benefits as a PPP"
+      ],
+      "answer": 3,
+      "explanation": "A PPP is Value for Money if it is expected to deliver higher net economic benefits if done as a PPP (Ch 2 §1.7.2). Low upfront cost or off-balance-sheet debt are not the test."
+    },
+    {
+      "question": "A state treasury tests whether a PPP will have a lower risk-adjusted cost to government than conventional procurement. Which approach is this, and what does it assume?",
+      "options": [
+        "The New Zealand approach; benefits are maximised for a fixed budget",
+        "The Canadian approach; its quantified results are exact and binding on government",
+        "The UK approach; the private party can be incentivised to manage risk better",
+        "The Chilean approach; the proponent always receives a scoring bonus"
+      ],
+      "answer": 2,
+      "explanation": "The traditional UK approach, also used in many Australian jurisdictions, compares risk-adjusted cost and assumes the private company can be incentivised to manage risks better (Ch 2 §1.7.2). New Zealand instead asks which option gives greater net economic benefits."
+    },
+    {
+      "question": "When is Value for Money usually assessed qualitatively, and when is it quantified?",
+      "options": [
+        "Quantified at screening, qualitative at full appraisal",
+        "Qualitative only at every stage, and never quantified in practice",
+        "Qualitative at initial screening, quantified at full appraisal",
+        "Quantified only after the contract has been signed"
+      ],
+      "answer": 2,
+      "explanation": "VfM is usually assessed qualitatively at initial screening through 'PPP suitability tests' and then quantified if the project moves to full appraisal (Ch 2 §1.7.2)."
+    },
+    {
+      "question": "A quantitative Value for Money analysis shows a PPP option is 4% cheaper than public delivery. How should a framework that follows the Canadian practice treat this result?",
+      "options": [
+        "As proof that the PPP option must go ahead",
+        "As an estimate, possibly used with qualitative indicators",
+        "As irrelevant, because only qualitative tests count in appraisal",
+        "As a binding cap on the price bidders can offer"
+      ],
+      "answer": 1,
+      "explanation": "Quantitative VfM rests on assumptions and forecasts, so in Canada the results are treated as an estimate only and are sometimes used with other qualitative indicators (Ch 2 §1.7.2). Treating a small margin as proof overstates its accuracy."
+    },
+    {
+      "question": "A proposed PPP would run one part of a city's integrated IT system that depends heavily on many other government systems. Which PPP-suitability test is most at risk?",
+      "options": [
+        "Affordability of the service to users",
+        "Legal feasibility of the contract",
+        "The ability to be ring-fenced",
+        "Economic feasibility of the project"
+      ],
+      "answer": 2,
+      "explanation": "A PPP must be separated enough from other government systems to keep accountability clear and limit interface risks (Ch 2 §1.7.2). Legal and economic feasibility are viability tests for any project."
+    },
+    {
+      "question": "A health department drafts a PPP contract that specifies the exact design and materials for a new hospital. What does the Guide suggest instead?",
+      "options": [
+        "Specify clear, measurable outputs so the partner can innovate",
+        "Specify even more detailed inputs to reduce the government's risk",
+        "Leave outputs undefined to keep the contract flexible",
+        "Let the lenders define the design and the materials"
+      ],
+      "answer": 0,
+      "explanation": "Definable outputs let the contract be monitored and enforced and give the private party freedom to find more efficient, innovative solutions, unlike traditional input-based contracts (Ch 2 §1.7.2)."
+    },
+    {
+      "question": "Potential bidders say they cannot price a PPP because ground conditions and demand data are unknown, so they cannot calculate their possible liability. Which suitability test is failing?",
+      "options": [
+        "Clear, measurable and definable outputs",
+        "The ability to be ring-fenced",
+        "Alignment of the project with the broader sector plan",
+        "Sufficient information to assess costs and risks"
+      ],
+      "answer": 3,
+      "explanation": "Bidders will only commit resources if they can calculate the potential liability, which needs risks to be identified and allocated (Ch 2 §1.7.2). Definable outputs concern what is delivered, not whether risks can be priced."
+    },
+    {
+      "question": "During appraisal, a transport agency is preparing its procurement strategy and wonders when to talk to potential bidders. What does the Guide recommend?",
+      "options": [
+        "Avoid any contact with bidders until the RFP is issued",
+        "Talk only to the preferred bidder, and only after the contract award",
+        "Ask the bidders to write the procurement strategy",
+        "Engage potential bidders early to test interest and use their ideas"
+      ],
+      "answer": 3,
+      "explanation": "The procurement strategy should engage potential bidders early, so the government knows suitable firms will bid and can build their ideas into the contract design (Ch 2 §1.7.2)."
+    },
+    {
+      "question": "In the structuring stage, a road authority leaves several significant risks unallocated, and no party is accountable for them. What does the Guide say is the likely result?",
+      "options": [
+        "Bidders will price these risks at zero",
+        "The project will cost more than necessary",
+        "Lenders will absorb the risks at no cost",
+        "The risks will disappear after financial close"
+      ],
+      "answer": 1,
+      "explanation": "The success of a PPP lies in how well risks are allocated and accountability described; if risks are not allocated properly, the project will cost more than necessary (Ch 2 §1.7.3)."
+    },
+    {
+      "question": "In a PPP contract the government keeps land acquisition risk. What should the framework require for this retained risk?",
+      "options": [
+        "A management plan that reduces its likelihood and impact",
+        "Transfer of the risk to the private party at signing",
+        "No plan, since retained risks are the state's own affair",
+        "Insurance bought by the bidder on the state's behalf"
+      ],
+      "answer": 0,
+      "explanation": "For risks allocated to the public sector, appropriate risk management plans (including risk matrices) should minimise both the likelihood and the impact of the risk (Ch 2 §1.7.3)."
+    },
+    {
+      "question": "A new PPP market has no local lawyers with PPP experience. What did British Columbia do in this situation, according to the Guide?",
+      "options": [
+        "Banned new PPPs until local lawyers were fully trained",
+        "Used only the attorney general's in-house lawyers",
+        "Let the bidders draft the contracts themselves",
+        "Hired foreign advisors who also built local capacity"
+      ],
+      "answer": 3,
+      "explanation": "When its PPP market was new, British Columbia brought in lawyers and technical advisors from Australia and the UK, who helped draft contracts and built local public and private capacity (Ch 2 §1.7.3)."
+    },
+    {
+      "question": "A country keeps facing complaints and legal challenges from losing bidders about how PPP awards are decided. Which part of the framework should help reduce these disputes?",
+      "options": [
+        "Clear procurement guidelines on the standard process",
+        "Higher bid bonds required from every bidder",
+        "Much shorter tender timelines for all projects",
+        "Keeping the award criteria confidential until award"
+      ],
+      "answer": 0,
+      "explanation": "Clear procurement guidelines tell line agencies and the market what the standard process is and reduce the likelihood of disputes about the award decision (Ch 2 §1.7.3). Secret criteria would breach transparency."
+    },
+    {
+      "question": "A PPP program will mainly consist of similar government-pays social infrastructure contracts, such as schools. What approach to standard contracts does the Guide suggest?",
+      "options": [
+        "A new bespoke contract for each school",
+        "No standard documents of any kind",
+        "One model contract per individual project",
+        "A single precedent contract may make sense"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.11 says that where most projects are fairly similar, such as government-pays social infrastructure, a single precedent contract may make sense. Bespoke drafting for every similar deal wastes time and money."
+    },
+    {
+      "question": "In the Guide's simple definition of climate risk, what does 'exposure' describe?",
+      "options": [
+        "How plausibly the hazard will affect the asset, such as its proximity",
+        "How sensitive the asset is to damage from one particular type of threat",
+        "The probability of the hazard occurring at a set intensity",
+        "The type of natural stressor, such as wind or flood"
+      ],
+      "answer": 0,
+      "explanation": "In Box 2.12, exposure is the plausibility of the hazard affecting the infrastructure, or its proximity to the hazard source. Sensitivity is vulnerability, and probability is likelihood."
+    },
+    {
+      "question": "A reform team studies unsolicited proposals. In Chile, 10 of 12 such concessions attracted competing bids and only five went to the original proponent. In the Philippines, all 11 went to the original proponent. What does the Guide suggest this shows?",
+      "options": [
+        "The Philippine approach created the most competitive tension",
+        "Chile's bid bonus gave its proponents far too large an advantage",
+        "All competition mechanisms work equally well in practice",
+        "The Swiss challenge may give the proponent an undue advantage"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the mechanisms have not proved equally effective: under the Philippine Swiss challenge every contract went to the original proponent, which might confirm that it confers undue advantage (Ch 2 §1.7.5). In Chile most proposals faced real competition and half were lost by the proponent."
+    },
+    {
+      "question": "An authority gives bidders only three weeks to prepare complex PPP proposals and asks for very heavy paperwork. Which tender decision criterion is most at risk?",
+      "options": [
+        "Whether the project can be ring-fenced",
+        "Whether the outputs are definable",
+        "Whether the project fits the sector plan",
+        "Whether the procurement is competitive"
+      ],
+      "answer": 3,
+      "explanation": "A competitive procurement needs qualified firms to hear about it and have ample opportunity to prepare; if timelines are too short or processes too onerous, firms stay away (Ch 2 §1.7.4)."
+    },
+    {
+      "question": "During evaluation, a procuring authority quietly changes the award criteria to help one bidder. Which decision criterion for the tender stage does this breach?",
+      "options": [
+        "Transparency and fair treatment of all bidders",
+        "Commercial viability and bankability",
+        "Affordability of the service to its future users",
+        "The ability to be ring-fenced"
+      ],
+      "answer": 0,
+      "explanation": "The tender should be transparent, with clear published award criteria, and all bidders must be treated fairly (Ch 2 §1.7.4). The other options are appraisal tests, not tender criteria."
+    },
+    {
+      "question": "Under a British Columbia-style approach, the preferred bidder asks to change a key commercial term after submitting its final proposal. What should the authority do?",
+      "options": [
+        "Accept, since negotiation normally continues until financial close",
+        "Refuse, because final bids were made on the final agreement",
+        "Accept, if the bidder's lenders support the change",
+        "Reopen the whole tender to all qualified firms"
+      ],
+      "answer": 1,
+      "explanation": "In British Columbia and most Canadian jurisdictions, final proposals are based on the final project agreement, and no changes to key commercial terms are permitted afterwards (Ch 2 §1.7.4)."
+    },
+    {
+      "question": "A procuring authority plans to leave flood protection out of a new hospital design and add it later, once operations begin. What does the Guide say?",
+      "options": [
+        "Retrofitting is cheaper, so adding protection later is good practice",
+        "Climate measures work best in the initial design; retrofits cost more",
+        "Climate measures belong only in the hand-back stage",
+        "Flood protection is the lenders' decision, not the state's"
+      ],
+      "answer": 1,
+      "explanation": "Climate-related investments are most effective when integrated in the initial design; retrofitting is costly and may need unplanned downtime (Ch 2 §1.7.4). This is why climate-smart evaluation criteria matter."
+    },
+    {
+      "question": "A state government signs a toll road PPP that has little public support, just before an election. What risk does the Guide's Melbourne example show?",
+      "options": [
+        "Lenders are legally required to take it over",
+        "The contract automatically becomes a concession",
+        "A new government may cancel it, at high cost",
+        "The private party must pay the state a penalty"
+      ],
+      "answer": 2,
+      "explanation": "In 2015 a proposed Melbourne toll road was cancelled by a newly elected state government, costing about $250 million in fees (Box 2.13). Continued public support and a stakeholder engagement policy reduce this risk."
+    },
+    {
+      "question": "In the Victoria tram and rail franchise case, why did the operators find walking away from their contracts attractive?",
+      "options": [
+        "Their equity was low compared with the expected losses",
+        "The government offered them a large bonus to leave",
+        "Passenger numbers grew much faster than the bids had forecast",
+        "Their contracts contained no subsidy payments at all"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.14 says the contractors' equity was low relative to expected losses, so abandoning the franchises was better for them than bearing the losses. Patronage growth was in fact lower than forecast."
+    },
+    {
+      "question": "A line agency managing a PPP sees that the risk status of the contract is getting worse. What should the PPP framework require it to do?",
+      "options": [
+        "Keep the issue inside the agency until the contract ends",
+        "Communicate the issues to the relevant central agencies",
+        "Hand management of the contract to the lenders",
+        "Terminate the contract without consulting anyone"
+      ],
+      "answer": 1,
+      "explanation": "Contracts are usually managed by the line agency, but central agencies must be informed of emerging issues and risks, and the framework sets how they communicate (Ch 2 §1.7.5; Table 2.5)."
+    },
+    {
+      "question": "A government negotiates a power plant directly with a private investor during a power crisis, with no competition. What does the Guide's Tanzania case show about this approach?",
+      "options": [
+        "It always gives the best price because it is faster",
+        "It can lead to inflated costs and long legal disputes",
+        "It removes any need for contract management after signing",
+        "It is the method the Guide recommends in a crisis"
+      ],
+      "answer": 1,
+      "explanation": "In the directly negotiated Tanzanian power deal, arbitrators found inflated costs and cut the recoverable amount by about 18%, and disputes continued for years (Box 2.16). Lack of competitive tension can mean poor Value for Money."
+    },
+    {
+      "question": "A firm submits an unsolicited proposal. In the competitive tender it does not reach the top two in the first round, but it is still invited to submit a final offer in the second round. Which mechanism is this?",
+      "options": [
+        "Inclusion in the BAFO round",
+        "A Swiss challenge process",
+        "A bid bonus on its score",
+        "A developer's fee payment"
+      ],
+      "answer": 0,
+      "explanation": "Under BAFO inclusion the proponent is automatically included in the final stage, as in the South Africa roads sector (Ch 2 §1.7.5). A Swiss challenge instead gives the proponent the right to match the winning bid."
+    },
+    {
+      "question": "An unsolicited proposal relies on the proponent's own patented toll technology. Where possible, how should the government tender the project?",
+      "options": [
+        "Specify the required outputs, not the proponent's technology",
+        "Publish the proponent's technology for all bidders to use",
+        "Award it directly to the proponent, without any competition at all",
+        "Require all bidders to license the proponent's patent"
+      ],
+      "answer": 0,
+      "explanation": "To protect intellectual property, the government can tender on required outputs rather than the technology to deliver them, consistent with output-based specifications (Ch 2 §1.7.5)."
+    },
+    {
+      "question": "A proponent's intellectual property is crucial: the project could not be implemented without it. What approach may be justified?",
+      "options": [
+        "An open tender that reveals the IP to all bidders",
+        "Rejecting the proposal because IP can never be used",
+        "Direct negotiation, with procedures to benchmark costs",
+        "A Swiss challenge with no limits on the time allowed"
+      ],
+      "answer": 2,
+      "explanation": "Where the IP is crucial so the project could not be done otherwise, direct negotiation may be warranted, together with cost benchmarking (Ch 2 §1.7.5). The government's IP position should be stated as soon as it considers the USP."
+    },
+    {
+      "question": "Consider two statements. 1: Once a government agency considers an unsolicited proposal, it is committed to proceed with the project. 2: Setting deadlines for each step can reassure proponents that their proposals will not languish.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: consideration of a USP must never be treated as a government commitment. Statement 2 is true: specific deadlines give the private sector assurance (Ch 2 §1.7.5)."
+    },
+    {
+      "question": "A country's rules allow competitors only 60 days to submit competing proposals after an unsolicited proposal is advertised. What does the Guide warn about such rules?",
+      "options": [
+        "Short windows always attract more competing bidders",
+        "Sixty days is the accepted international minimum standard",
+        "Too little time for due diligence can deter competition",
+        "Time limits matter only for government-pays PPPs"
+      ],
+      "answer": 2,
+      "explanation": "The Philippines allows three weeks of advertising and 60 days for competitors, which the Guide says is unlikely to give enough time for the due diligence needed for a strong proposal (Ch 2 §1.7.5)."
     }
   ]
 }

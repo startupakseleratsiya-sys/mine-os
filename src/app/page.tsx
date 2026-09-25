@@ -6,7 +6,7 @@ import { getCurrentUser } from "@/services/user-service";
 /** Bosh sahifa — faqat CP3P: 3 bosqich, o'quv yo'li qanday ishlaydi, boshlash tugmasi. */
 const STEPS = [
   { icon: PlayCircle, title: "Watch, listen or read", text: "Every lesson comes as a narrated video, an audio version and clear text with a worked example." },
-  { icon: BookOpenCheck, title: "Pass the lesson test", text: "10 exam-style questions plus 2 from earlier lessons. Score 80% to move on." },
+  { icon: BookOpenCheck, title: "Pass the lesson test", text: "50 exam-style questions after every lesson. Score 46/50 to move on — and collect stars and XP." },
   { icon: Lock, title: "Unlock the next lesson", text: "Lessons open one by one, so nothing is skipped and nothing is forgotten." },
   { icon: Flag, title: "Sit the exam simulation", text: "Finish a level to take timed mocks in the official APMG format." },
 ];

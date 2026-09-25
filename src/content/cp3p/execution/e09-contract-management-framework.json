@@ -131,7 +131,7 @@
       "question": "A finance ministry argues that, because the PPP contract puts most obligations on the private partner, the procuring authority only needs one part-time officer to manage it. What does the Guide say about this view?",
       "options": [
         "It is correct, as the lenders will monitor the private partner",
-        "It is a common mistake that leads to weak contract management and lost benefits",
+        "It is a common mistake that weakens management and cuts benefits",
         "It is acceptable if the contract includes a strong penalty regime",
         "It is correct for availability-based projects but not user-pays ones"
       ],
@@ -144,7 +144,7 @@
         "Defining job profiles and training needs for the team",
         "Developing partnership protocols and behaviours",
         "Identifying stakeholders' influence and expectations",
-        "Managing payment of the unitary charge and contract variations"
+        "Managing unitary charge payments and contract variations"
       ],
       "answer": 3,
       "explanation": "Contract administration monitors that obligations are met and manages underperformance, risks, payment of the unitary charge and variations. Job profiles and training belong to establishing the team; partnership protocols belong to relationship management."
@@ -152,10 +152,10 @@
     {
       "question": "A procuring authority is structuring a hospital PPP. When should it appoint the future Contract Manager?",
       "options": [
-        "During the Structuring Phase, so the manager helps develop the manual and payment mechanism",
-        "After financial close, when the private partner starts construction",
-        "At service commencement, when performance monitoring begins",
-        "Only if problems arise during the first year of operations"
+        "In the Structuring Phase, to help design the manual and payments",
+        "After financial close, once the private partner starts construction work",
+        "At service commencement, when the monitoring of performance begins",
+        "Only if serious problems arise during the first year of operations"
       ],
       "answer": 0,
       "explanation": "The Guide says the Contract Manager should be appointed in the Structuring Phase and the team should be fully in place by the end of the Tender phase. Late appointment causes pitfalls such as poor understanding of the contract and payment mechanism."
@@ -219,9 +219,9 @@
       "question": "The Project Company must obtain a permit from the environment ministry, a risk it bears under the contract. How can the contract management team help appropriately?",
       "options": [
         "Guarantee to the Project Company that the permit will be granted",
-        "Take over the permit application to speed it up",
+        "Take over the permit application itself to speed things up",
         "Take no action, since the risk sits with the Project Company",
-        "Help the ministry understand the project, without promising the permit will be granted"
+        "Brief the ministry on the project but give no promise on the permit"
       ],
       "answer": 3,
       "explanation": "Even when the private partner bears a stakeholder risk, the team can play a supportive role by informing the other department about the project, provided it gives no assurance that the permit will be granted. Taking over or guaranteeing would shift the risk back to government."
@@ -229,13 +229,453 @@
     {
       "question": "The Contract Manager and the Project Company's manager disagree about slow response times. There is no clear breach yet. What should they do first?",
       "options": [
-        "Use the informal issue-resolution procedures agreed at the start of the project",
+        "Use the informal issue-resolution steps agreed at the outset",
         "Start the formal dispute resolution procedure immediately",
-        "Refer the matter straight to the courts",
+        "Refer the matter straight to the national courts",
         "Apply the maximum penalty to encourage faster responses"
       ],
       "answer": 0,
       "explanation": "The Guide says procedures for quickly and informally rectifying issues should be in place from the outset, and formal dispute management should come into play only if mutual consensus cannot be reached. Misunderstandings, such as wrongly specified response times, are common."
+    },
+    {
+      "question": "According to the Guide, what is the second dimension of PPP contract management, beyond carrying out the contract?",
+      "options": [
+        "Renegotiating the contract every five years to reflect market prices",
+        "Replacing the private partner's management when performance falls",
+        "Proactive management of future needs and unforeseen situations",
+        "Reviewing the procurement decision to confirm the PPP route was right"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says a second dimension of contract management is proactive management to anticipate future needs and to react appropriately to unforeseen situations. Routine renegotiation or replacing the private partner's managers are not part of this definition (Ch 7 §1)."
+    },
+    {
+      "question": "For the purposes of the PPP Guide, over what period is PPP contract management applied?",
+      "options": [
+        "From financial close until the service commencement date",
+        "From contract signature until the end of the PPP contract",
+        "From the Appraisal Phase until the end of construction",
+        "From service commencement until the handback of the asset"
+      ],
+      "answer": 1,
+      "explanation": "The Guide states that PPP contract management is applied from contract signature until the end of the PPP contract. It is not limited to construction or to operations (Ch 7 §1)."
+    },
+    {
+      "question": "A road PPP must open two months earlier than planned because of a national event, but the authority has no extra budget. Based on the Guide's view of competing project constraints, what is most likely needed?",
+      "options": [
+        "A reduction in scope or targeted quality to finish in less time",
+        "No change at all, since schedule and budget are independent",
+        "An increase in the length of the operations period",
+        "A transfer of the schedule risk back to the procuring authority"
+      ],
+      "answer": 0,
+      "explanation": "The Guide explains that if the schedule is shortened, the budget usually rises; if a budget increase is not possible, scope or quality may be reduced. Constraints are linked, so changing one usually affects at least one other (Ch 7 §1, Box 7.2)."
+    },
+    {
+      "question": "Why does the Guide call contract management the \"forgotten child\" of many national PPP programs?",
+      "options": [
+        "Most PPP contracts do not mention contract management at all",
+        "Contract management is usually handed to the lenders after signature",
+        "Attention goes to procurement and the celebration of financial close",
+        "It is only needed for the small number of PPPs that get into trouble"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says great attention is paid to preparation and procurement, with celebrations after financial close, although services are built and delivered during implementation. Contract management is needed on every PPP, not only troubled ones (Ch 7 §2)."
+    },
+    {
+      "question": "Five years into operations, an unforeseen risk arises that the contract does not clearly allocate. What does the Guide say about managing the risk allocation in this situation?",
+      "options": [
+        "It is fixed at financial close and can never be revisited",
+        "The unforeseen risk automatically passes to the private partner",
+        "The unforeseen risk automatically passes to the lenders",
+        "It must be enforced, clarified or modified when unforeseen risks arise"
+      ],
+      "answer": 3,
+      "explanation": "The initial risk allocation must be managed over the whole life of the project, including enforcing, clarifying or modifying it when unforeseen risks or consequences arise. There is no automatic transfer to either party (Ch 7 §2)."
+    },
+    {
+      "question": "A new technology could cut the running costs of a PPP hospital. The contract contains a savings-sharing clause. According to the Guide, what makes it possible for the government to get a share of these savings?",
+      "options": [
+        "A unilateral cut in the unitary charge by the authority",
+        "Proper monitoring of the project by the government",
+        "A new tender for the hospital's operations",
+        "An instruction to the Project Company to adopt the technology"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says savings can be achieved and shared only if there is proper monitoring by the government, provided the contract allows sharing. Unilateral payment cuts or instructions would breach the contract and weaken risk transfer (Ch 7 §2)."
+    },
+    {
+      "question": "A PPP team wants to track whether climate change is affecting a coastal road. What does the Guide recommend monitoring during the Contract Management Phase?",
+      "options": [
+        "Only the traffic counts reported by the toll system",
+        "Only the lenders' annual financial model updates",
+        "The maintenance history provided by the private partner",
+        "The bid prices of other coastal road projects"
+      ],
+      "answer": 2,
+      "explanation": "The Guide recommends monitoring the maintenance history from the private partner to identify changes in climate risk and to inform future projects on resilience benefits. All partners are responsible for monitoring evolving climate risks (Ch 7 §2)."
+    },
+    {
+      "question": "An authority's team is agreeing communication routes with the Project Company and developing partnership protocols and behaviours. Which component of the contract management framework is this?",
+      "options": [
+        "Relationship management",
+        "Contract administration",
+        "Performance management",
+        "Establishing governance and the team"
+      ],
+      "answer": 0,
+      "explanation": "Figure 7.1 places communication protocols, partnership protocols and behaviours, and practical problem resolution under relationship management. Contract administration covers payments, variations and disputes (Ch 7 §3)."
+    },
+    {
+      "question": "A team checks each month whether services meet the required standards, whether remedial measures work and whether any trends appear, and links this to payment. Which component of the framework is this?",
+      "options": [
+        "Relationship management",
+        "Establishing governance and the team",
+        "Benchmarking and market testing",
+        "Performance management"
+      ],
+      "answer": 3,
+      "explanation": "Performance management assesses whether services meet the standards, whether remedies are effective and whether trends are evident, including monthly monitoring and payment. Benchmarking and market testing is an activity under contract administration, not a component (Ch 7 §3)."
+    },
+    {
+      "question": "A regional government plans five small school PPPs of similar design in the same sector. How should it organize contract management?",
+      "options": [
+        "A separate large team for each school from Identification onwards",
+        "No government team, with monitoring left to the lenders",
+        "A single contract management team for several of the projects",
+        "One team for construction and a new team for each year of operations"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says one team for multiple projects is often preferable when projects are smaller, less complex and in the same or similar sectors. A single-project team suits very large, complex or unique projects (Ch 7 §3.1)."
+    },
+    {
+      "question": "A ministry has created a contract management unit by law, but the signed PPP contract does not name it or give it any rights. Which characteristic of a contract management team is missing?",
+      "options": [
+        "A clear mandate",
+        "Adequate resources",
+        "Technical independence",
+        "Contractual standing"
+      ],
+      "answer": 3,
+      "explanation": "Contractual standing means the PPP contract itself empowers the team to act as the government's representative and exercise rights. The law gives it a mandate, but without contract rights it lacks standing (Ch 7 §3.1, Table 7.1)."
+    },
+    {
+      "question": "A ministry is designing the contract management team for a new cross-border rail PPP. Which set of factors does the Guide say will shape the team's mandate, contractual standing and resources?",
+      "options": [
+        "Bidder numbers, tariff levels and the lenders' credit rating",
+        "Project scale, administrative complexity and retained risk",
+        "Contract length, the construction method and the design life",
+        "Political support, media interest and the number of users"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says these functions depend on the scale of the project (for example the value of the assets), its administrative complexity, such as cross-border or cross-agency jurisdiction, and the extent of risk retained by government. The other sets are not the factors the Guide lists (Ch 7 §3.1)."
+    },
+    {
+      "question": "A PPP project is in the Appraisal Phase. According to the Guide, what should happen to the contract management function at this point?",
+      "options": [
+        "Describe it preliminarily and secure an indicative budget",
+        "Appoint the full team and finalise the Contract Management Manual",
+        "Agree communication protocols with the preferred bidder",
+        "Take no action until the preferred bidder is selected"
+      ],
+      "answer": 0,
+      "explanation": "In Appraisal the function should be described at least on a preliminary basis, staff needs outlined, and an indicative budget secured for the contract duration. The full team and final manual belong to the end of the Tender Phase (Ch 7 §3.1)."
+    },
+    {
+      "question": "By the end of the Tender Phase, which of the following should the Guide expect to be complete?",
+      "options": [
+        "The completion certificate issued and service commencement approved",
+        "The full team in place and communication protocols agreed",
+        "The first annual performance audit carried out and published",
+        "The first refinancing of the Project Company's debt approved"
+      ],
+      "answer": 1,
+      "explanation": "At the end of the Tender Phase the team should be fully in place, the final manual complete, communication channels and protocols agreed and training provided. Completion certificates and refinancing come much later (Ch 7 §3.1)."
+    },
+    {
+      "question": "Negotiations with the preferred bidder are still changing some obligations, and commercial close has not yet happened. What should the authority do with the Contract Management Manual?",
+      "options": [
+        "Finalise it now and make the contract match the manual",
+        "Delay any work on it until service commencement",
+        "Ask the preferred bidder to write and approve it",
+        "Keep it in draft and finalise it after commercial close"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the manual stays in draft until commercial close so that it reflects the obligations in the final signed contract, and it is finalised after that, with updates as the deal moves to financial close (Ch 7 §3.1, note 9)."
+    },
+    {
+      "question": "The contract management team of a metro PPP was not involved when the payment mechanism was designed during structuring. Which pitfall does the Guide link to this?",
+      "options": [
+        "A higher interest rate on the senior debt",
+        "Loss of the Project Company's insurance cover",
+        "Poorly monitored and executed financial management",
+        "An automatic right for bidders to challenge the award"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists poorly monitored and executed financial management as a pitfall when the contract management function was not involved in designing the payment mechanism at structuring. The other options are not linked to this (Ch 7 §3.1)."
+    },
+    {
+      "question": "In the governance of PPP contract management, which body typically oversees the project's fiscal commitments and the public sector's financial exposure?",
+      "options": [
+        "The Ministry of Finance",
+        "The sector regulator",
+        "The independent certifier",
+        "The Project Company's board"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the Ministry of Finance often oversees fiscal commitments and exposure, the PPP Unit gives oversight and guidance, and sector regulators monitor compliance with sector standards (Ch 7 §3.1.1)."
+    },
+    {
+      "question": "A strategic disagreement about future tariff policy between senior officials and the Project Company's directors is starting to affect daily site meetings. What governance arrangement does the Guide recommend to prevent this?",
+      "options": [
+        "One single meeting forum for every issue",
+        "Suspending daily meetings until the dispute is settled",
+        "Communication interfaces at different hierarchical levels",
+        "Moving all decisions to the Ministry of Finance"
+      ],
+      "answer": 2,
+      "explanation": "The Guide advises creating communication interfaces at several levels to mitigate personal conflicts and stop strategic disagreements from affecting day-to-day operations. A single forum mixes the levels, which is the problem (Ch 7 §3.1.1)."
+    },
+    {
+      "question": "In the example governance structure in the Guide, which body deals with strategic issues and meets quarterly to annually?",
+      "options": [
+        "The management committee",
+        "The operational management team",
+        "The contract administration unit",
+        "The steering committee"
+      ],
+      "answer": 3,
+      "explanation": "Figure 7.3 shows a steering committee for strategic issues (quarterly to annual), a management committee for ordinary issues (monthly to quarterly) and an operational management team for day-to-day issues (Ch 7 §3.1.1)."
+    },
+    {
+      "question": "After signing, an authority tells the Project Company it wants monthly reports in a new format that the contract never mentioned. Why does the Guide say reporting requirements should instead be set in the PPP contract?",
+      "options": [
+        "So the private partner can design compliant reporting systems",
+        "So the lenders can approve every report before it is sent",
+        "So the independent certifier can write the reports",
+        "So that no reports are needed during construction"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says reporting requirements must be communicated in the contract so the private partner can design and implement a compliant reporting process and information systems. Adding new formats later is harder and may be a change (Ch 7 §3.2.1)."
+    },
+    {
+      "question": "A procuring authority wants to tell the Project Company how many directors it must have and how its board committees should work. Why does the Guide advise against this?",
+      "options": [
+        "Board structure is set by the independent certifier under the contract",
+        "Lenders and shareholders already impose governance discipline",
+        "The PPP Unit must approve all board appointments",
+        "Corporate governance rules apply only after handback"
+      ],
+      "answer": 1,
+      "explanation": "The government should be careful not to prescribe how the private partner structures itself, because the project finance structure imposes discipline: lenders and shareholders ensure good corporate governance. It is prescriptive only on areas such as shareholding and financial structure (Ch 7 §3.2.1)."
+    },
+    {
+      "question": "Which of the following is NOT one of the steps the government should follow from the outset of a project, according to the Guide?",
+      "options": [
+        "Clearly define the roles of its contract management team",
+        "Manage changes not provided for in the PPP contract",
+        "Provide for dispute resolution",
+        "Direct the Project Company's construction methods"
+      ],
+      "answer": 3,
+      "explanation": "The steps are: define team roles, monitor delivery, manage changes permitted and not provided for in the contract, and provide for dispute resolution. Directing construction methods would interfere with execution and weaken risk transfer (Ch 7 §3.2.2)."
+    },
+    {
+      "question": "A Treasury asks the contract management team for a report on how a new guarantee in the PPP changes the government's possible future liabilities. Is this one of the team's roles?",
+      "options": [
+        "Yes, but only as a secondary role linked to public policy",
+        "Yes, reporting on contingent fiscal obligations is a primary role",
+        "No, only the Project Company reports on liabilities",
+        "No, this is solely the independent certifier's role"
+      ],
+      "answer": 1,
+      "explanation": "Reporting on the contingent fiscal obligations accruing to the government, and any changes to them, is listed as a primary role because it relates to the contract itself (Ch 7 §3.2.2.1)."
+    },
+    {
+      "question": "A Contract Manager faces a proposed change that would add significant cost and shift a major risk to the government. The decision is outside the manager's delegated authority. What should the manager do?",
+      "options": [
+        "Escalate it to the appropriate level of government",
+        "Approve it quickly to keep the relationship positive",
+        "Reject it without consultation to protect the budget",
+        "Ask the Contract Administrator to decide instead"
+      ],
+      "answer": 0,
+      "explanation": "A good Contract Manager acts within delegated authority day to day, and elevates extraordinary decisions with cost or risk implications to the right level of government. The Administrator supports on administration and does not take such decisions (Ch 7 §3.2.2.2)."
+    },
+    {
+      "question": "Which task does the Guide give to the Contract Manager rather than to the Contract Administrator?",
+      "options": [
+        "Organizing files and managing documents",
+        "Keeping records of risks and their possible impacts",
+        "Preparing annual oversight plans, including audits",
+        "Organizing meetings and communications"
+      ],
+      "answer": 2,
+      "explanation": "The Contract Manager develops the manual, leads the team and prepares annual plans for specific oversight, including audits and reports on key risk areas. Files, risk records and meetings are Contract Administrator tasks (Ch 7 §3.2.2.2–3.2.2.3)."
+    },
+    {
+      "question": "A newly recruited team member has no PPP experience. Who should identify her initial and ongoing training needs, and what two types of training does the Guide describe?",
+      "options": [
+        "The Contract Administrator; legal training and engineering training",
+        "The Project Company; induction and health and safety training",
+        "The PPP Unit; procurement training and bid evaluation training",
+        "The Knowledge and Training Specialist; general and specific training"
+      ],
+      "answer": 3,
+      "explanation": "The Knowledge and Training Specialist identifies initial and ongoing training needs. The two types are an overall introduction to PPPs and the project lifecycle, and specific training on contract and project management, payment mechanisms, risk analysis and similar topics (Ch 7 §3.2.2.4)."
+    },
+    {
+      "question": "A PPP runs for 25 years, and the Contract Manager will retire in three years. Which two elements does the Guide say support continuity of knowledge within government?",
+      "options": [
+        "Longer employment contracts and higher salaries for the team",
+        "Handing all records to the Project Company for safekeeping",
+        "Succession planning and written policies, procedures and manuals",
+        "Re-tendering the contract management function every five years"
+      ],
+      "answer": 2,
+      "explanation": "Because the team that starts a long PPP will rarely finish it, the Guide names succession planning and putting policies, procedures and manuals in place as the two elements supporting continuity (Ch 7 §3.2.2)."
+    },
+    {
+      "question": "A government wants to keep a new PPP contract confidential, although no part of it is specifically exempt. What does the Guide say about contract disclosure?",
+      "options": [
+        "Contracts should be disclosed only at handback",
+        "Full contract disclosure should be the default",
+        "Only a one-page summary should ever be disclosed",
+        "Disclosure is optional and depends on the lenders"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says full contract disclosure should be the default, with exceptions only for specifically exempt information. Renegotiations should also be disclosed transparently (Ch 7 §3.2.2.1)."
+    },
+    {
+      "question": "What should the \"summary of the deal\" in a Contract Management Manual do, according to the Guide?",
+      "options": [
+        "Explain the intent behind the contract's clauses",
+        "Replace the legal text of the contract for daily use",
+        "List only the penalty amounts for each type of failure",
+        "Record the bid prices of all the losing bidders"
+      ],
+      "answer": 0,
+      "explanation": "Box 7.3 says the manual should include a summary of the deal that illustrates the intent behind the contract and its key provisions, rather than simply repeating clauses. It never replaces the contract (Ch 7 §3.3.1)."
+    },
+    {
+      "question": "Where should a Contract Manager record the most immediate and critical actions the authority must take, including items such as gateway reviews that go beyond the contract?",
+      "options": [
+        "In the manual's obligations register",
+        "In the Project Company's quality management system",
+        "In the lenders' financial model",
+        "In the independent certifier's completion report"
+      ],
+      "answer": 0,
+      "explanation": "The manual must highlight, on a rolling basis, the most immediate and critical actions in an obligations register. These actions extend beyond the contract, for example gateway reviews during service delivery and before expiry (Ch 7 §3.3.1)."
+    },
+    {
+      "question": "An authority is drafting reporting obligations and proposes that the Project Company send hundreds of daily data fields that nobody will analyse. What is the problem, according to the Guide?",
+      "options": [
+        "Daily reporting is prohibited in PPP contracts",
+        "The data would breach the lenders' confidentiality rights",
+        "Too much information transfers design risk to the authority",
+        "Too much information is costly to produce and to analyse"
+      ],
+      "answer": 3,
+      "explanation": "The Guide warns against requiring too much information, which is costly for the private partner to produce and for the government to analyse, and too little, which limits the government's ability to do its job (Ch 7 §3.3.2)."
+    },
+    {
+      "question": "A PPP contract includes gender targets for local hiring. What should its monitoring and reporting obligations require?",
+      "options": [
+        "An annual statement that the targets are respected, without data",
+        "Reporting only if a complaint about hiring is received",
+        "Disaggregated data and regular progress reports on the targets",
+        "Reports on gender to the lenders instead of the authority"
+      ],
+      "answer": 2,
+      "explanation": "Where a contract includes social commitments such as gender specifications, reporting obligations should mandate disaggregated data collection and regular reports on progress, challenges and measures (Ch 7 §3.3.2)."
+    },
+    {
+      "question": "A Project Company's new MIS will be the government's main window on performance. When should the authority test-run it?",
+      "options": [
+        "After the first year of operations, once data exists",
+        "Before operations commence, to make sure it works",
+        "Only if the first performance report is late",
+        "At handback, to check the records are complete"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says governments should test-run the private partner's MIS in advance of operations commencement to ensure it is functional. They should also stress transparent access in the tender documents (Ch 7 §3.3.3)."
+    },
+    {
+      "question": "A consortium member already owns a proprietary MIS that can serve the project at low cost. The authority prefers a different system. What does the Guide suggest?",
+      "options": [
+        "The authority must always insist on its own system",
+        "Proprietary systems are banned in PPP projects",
+        "The Project Company must build an expensive bespoke system",
+        "Insisting on a different system may not be VfM"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the private partner should generally avoid expensive bespoke MIS, but where a consortium member has an existing low-cost system, it may not be VfM for the government to insist on a different one (Ch 7 §3.3.3)."
+    },
+    {
+      "question": "Consider these statements about relationship risk in PPPs. 1: It is easy to quantify because it appears in the risk matrix. 2: Damage to a relationship usually follows and worsens a reduction in mutual trust.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says relationship risk cannot easily be quantified and is more complex than many other risks, so statement 1 is false. Damage usually follows and exacerbates a reduction in mutual trust, so statement 2 is true (Ch 7 §3.4)."
+    },
+    {
+      "question": "From the first meeting, an authority's new team treats the Project Company as an opponent. What does the Guide warn is the likely result?",
+      "options": [
+        "The other party copies the approach, harming both sides",
+        "The Project Company will perform better because of the pressure",
+        "The lenders will step in and replace the Project Company",
+        "The risk allocation will automatically move to the authority"
+      ],
+      "answer": 0,
+      "explanation": "Relationship management should start with a collaborative, not adversarial, attitude. If either party starts adversarially, the other may copy it, compromising the long-term interests of both (Ch 7 §3.4.1)."
+    },
+    {
+      "question": "A new transport PPP program faces scepticism in parliament. Which stakeholder action does the Guide recommend for senior politicians?",
+      "options": [
+        "Exclude politicians from all project communications",
+        "Ensure there is a political champion for the program or project",
+        "Treat politicians as low-interest, low-influence stakeholders",
+        "Ask the Project Company to lobby parliament directly"
+      ],
+      "answer": 1,
+      "explanation": "The Guide, citing EPEC, says the contracting authority should ensure there is a political champion. Senior politicians who can influence implementation are usually in the high interest/high influence category (Ch 7 §3.4.2)."
+    },
+    {
+      "question": "A rural road PPP will affect elderly residents, young people and women traders differently. What does the Guide recommend for communication?",
+      "options": [
+        "One standard message for the whole community",
+        "Communication only with the village leaders",
+        "Specific communication strategies for each relevant group",
+        "No consultation, since the private partner holds the risk"
+      ],
+      "answer": 2,
+      "explanation": "The Guide stresses that communities are not homogeneous; women, men, the young, the elderly and people with disabilities may have different interests, so specific strategies may be needed for each group (Ch 7 §3.4.2)."
+    },
+    {
+      "question": "In a school PPP where the government is not the end user, why should the authority involve teachers and parents early?",
+      "options": [
+        "Poor consultation can cause delays, objections and other risks",
+        "Early consultation moves the demand risk to the Project Company",
+        "Teachers must approve the final design under the Guide",
+        "Consultation replaces the need for a grievance mechanism"
+      ],
+      "answer": 0,
+      "explanation": "Inadequate consultation can delay implementation and limit the ability to mitigate risks such as public objection to fees, permit problems, community opposition and operational staff (for example teachers) objecting (Ch 7 §3.4.3)."
+    },
+    {
+      "question": "A PPP team is designing a grievance mechanism. Which design choice does the Guide support to ensure equal access?",
+      "options": [
+        "A small fee to discourage minor or repeated complaints",
+        "No fee, several ways to submit a complaint, and anonymity",
+        "A single online form, available in the official language only",
+        "Access limited to registered users of the service"
+      ],
+      "answer": 1,
+      "explanation": "Box 7.4 recommends not charging a fee, offering more than one submission method, ensuring anonymity, and enabling access for people who speak only the local language or cannot read (Ch 7 §3.4.4)."
     }
   ]
 }

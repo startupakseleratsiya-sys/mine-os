@@ -2,6 +2,7 @@ import { createClient } from "@/lib/supabase-server";
 import { COURSES, TOTAL_CHAPTERS, getCourse, type Course } from "@/content/courses";
 import { formatDate } from "@/lib/utils";
 import type { AnswerRow } from "@/lib/learning-path";
+import { bestStars, levelOf, xpTotal } from "@/lib/gamification";
 
 export type LessonProgressRow = {
   course_slug: string;
@@ -168,4 +169,22 @@ export async function getLessonAnswers(userId: string, courseSlug: string): Prom
     return [];
   }
   return (data ?? []) as AnswerRow[];
+}
+
+/** O'yin statistikasi: XP, daraja, har dars yulduzlari (bazada xato bo'lsa — nol, sahifa yiqilmaydi). */
+export async function getGameStats(userId: string, rows?: LessonProgressRow[]) {
+  const supabase = await createClient();
+  const [answers, attempts, progress] = await Promise.all([
+    supabase.from("exam_answers").select("question_id").eq("user_id", userId).like("exam", "lessons:%").eq("correct", true).limit(10000),
+    supabase.from("exam_attempts").select("exam, mode, score, total, passed").eq("user_id", userId).limit(5000),
+    rows ? Promise.resolve(rows) : getLessonProgress(userId),
+  ]);
+  const att = (attempts.data ?? []) as { exam: string; mode: string; score: number; total: number; passed: boolean | null }[];
+  const xp = xpTotal({
+    correctQuestionIds: ((answers.data ?? []) as { question_id: string }[]).map((a) => a.question_id),
+    lessonsPassed: progress.length,
+    mocksPassed: new Set(att.filter((a) => a.mode === "mock" && a.passed && a.exam.startsWith("cp3p-")).map((a) => a.exam)).size,
+  });
+  const stars = bestStars(att);
+  return { xp, ...levelOf(xp), stars, totalStars: Object.values(stars).reduce((s, n) => s + n, 0) };
 }

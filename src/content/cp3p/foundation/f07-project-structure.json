@@ -272,6 +272,406 @@
       "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
       "answer": 0,
       "explanation": "Statement 1 matches the Guide's preferred use of the term. Statement 2 is false: user revenue encourages availability, but there is less incentive for quality outcomes that do not affect demand, so minimum service requirements with penalties may be needed."
+    },
+    {
+      "question": "The Guide says the project structure is based on the scope of the contract and also reflects two other structures. Which pair is it?",
+      "options": [
+        "The financial structure and the risk structure",
+        "The tender structure and the evaluation structure",
+        "The tax structure and the accounting structure",
+        "The ownership structure and the staffing structure"
+      ],
+      "answer": 0,
+      "explanation": "The project structure reflects the scope, the financial structure (how the partner is paid) and the risk structure (how responsibilities are qualified in terms of risk) (Ch 1 §6.1). Tender and tax arrangements are not the three elements named by the Guide."
+    },
+    {
+      "question": "Consider these two statements. 1. A company must be a shareholder in the SPV before it can act as the SPV's construction contractor. 2. Some shareholders of an SPV may be pure financial investors whose only role is to provide equity.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 1,
+      "explanation": "Statement 1 is false: it is not generally necessary to be a shareholder to act as a contractor, although some governments require it in some projects. Statement 2 is true (Ch 1 §6.1)."
+    },
+    {
+      "question": "A consortium has just been told it won a PPP tender. According to Box 1.21, when does it normally create the SPV?",
+      "options": [
+        "Before the bid is submitted to the authority",
+        "After financial close has been reached",
+        "After the award but before the contract is signed",
+        "After construction is completed and commissioned"
+      ],
+      "answer": 2,
+      "explanation": "The successful bidder constitutes the SPV after being awarded the contract but before signing it, and the SPV then signs (Box 1.21). Financial close and commissioning come later."
+    },
+    {
+      "question": "In a typical PPP with an SPV, which party signs the PPP contract with the procuring authority?",
+      "options": [
+        "The lead member of the consortium",
+        "The SPV created by the consortium",
+        "Each consortium member separately",
+        "The main lender acting as agent"
+      ],
+      "answer": 1,
+      "explanation": "It is the SPV that signs the contract with the procuring authority; the consortium members sign the shareholders agreement (Box 1.21, Ch 1 §6.1.1). Lenders sign only a direct agreement in some projects."
+    },
+    {
+      "question": "Consider these two statements. 1. Creating an SPV to sign a PPP contract is compulsory by law in every country. 2. The Guide regards requiring an SPV as good practice unless there are concrete reasons not to.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 1,
+      "explanation": "Statement 1 is false: in some countries an SPV is not compulsory. Statement 2 is true: the Guide considers it good practice unless there are concrete reasons against it (Box 1.21)."
+    },
+    {
+      "question": "An authority is procuring a small PPP that will not use project finance. The adviser suggests not requiring an SPV. What does the Guide say?",
+      "options": [
+        "An SPV is always required, whatever the project size",
+        "An SPV is only needed for user-pays projects",
+        "The lenders must decide, not the authority",
+        "This can be a valid exception, to avoid extra costs"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.21 accepts not requiring an SPV in small projects that do not need project finance, so as not to impose unnecessary transaction costs. The SPV is not linked to the user-pays or government-pays type."
+    },
+    {
+      "question": "According to Box 1.21, which situation is another accepted exception to requiring a new SPV?",
+      "options": [
+        "An existing state company becomes an empresa mixta",
+        "The winning consortium has only two member firms",
+        "The contract is a government-pays PPP",
+        "The lenders are national development banks"
+      ],
+      "answer": 0,
+      "explanation": "The Guide accepts an exception when the company that signs is an existing government-owned company transformed into an empresa mixta through a PPP joint venture (Box 1.21). The number of members or type of lender is not a reason."
+    },
+    {
+      "question": "Why is project finance through an SPV commonly described as 'off balance sheet' for equity investors?",
+      "options": [
+        "The debt is guaranteed in full by the government",
+        "The debt is recorded in the procuring authority's accounts",
+        "The debt sits in the SPV, not in the investors' holding",
+        "The debt is repaid before construction starts"
+      ],
+      "answer": 2,
+      "explanation": "Under project finance the SPV raises the debt and the finance is commonly regarded as off balance sheet from the holding perspective of the equity investors (Box 1.21). The government does not guarantee or record the SPV's debt."
+    },
+    {
+      "question": "By signing the PPP contract, the private partner takes on several obligations. Which is NOT one of them?",
+      "options": [
+        "Finalising the design and building the asset",
+        "Providing the land and right of way for the works",
+        "Financing the works, fully or in relevant part",
+        "Operating and maintaining the asset after commissioning"
+      ],
+      "answer": 1,
+      "explanation": "Providing land or right of way is typically a condition precedent that is the authority's responsibility (Ch 1 §6.1.3). The private partner commits to design and build, finance, and operate and maintain (Ch 1 §6.1.1)."
+    },
+    {
+      "question": "O&M will only start after several years of construction. Why must the O&M contracts still be signed by financial close at the latest?",
+      "options": [
+        "The authority must approve O&M staff before design",
+        "O&M contractors are paid in advance during building",
+        "The O&M contractor must fund part of the construction",
+        "Lenders and investors want certainty on O&M cost and risk"
+      ],
+      "answer": 3,
+      "explanation": "O&M contracts must be signed at least at financial close because lenders and investors require certainty about cost and risk transfer to the O&M contractor (Ch 1 §6.1.2). O&M contractors are not paid during construction."
+    },
+    {
+      "question": "An SPV signs its PPP contract in March but reaches financial close only in September. What is the usual effect on the project?",
+      "options": [
+        "The start of construction is also delayed",
+        "The PPP contract becomes void and is re-tendered",
+        "The authority must pay the SPV during the gap",
+        "Construction starts in March using only equity"
+      ],
+      "answer": 0,
+      "explanation": "Fund raising may be deferred after signature, and as a result construction initiation is also deferred by several months (Ch 1 §6.1.2). This does not void the contract or trigger payments from the authority."
+    },
+    {
+      "question": "The SPV for a light rail PPP signs separate contracts for civil works, track, systems and rolling stock. Who keeps the risk that these elements work together?",
+      "options": ["The civil works contractor", "The procuring authority", "The SPV", "The rolling stock supplier"],
+      "answer": 2,
+      "explanation": "With separate contracts, the integration risk is retained by the SPV; with one contract with a group of companies, it passes to that group (Ch 1 §6.1.2). The authority does not take it just because the SPV splits the works."
+    },
+    {
+      "question": "Complete the sentence: Construction normally starts when the authority gives the construction order, once the final design is approved and the ______ are met.",
+      "options": [
+        "hand-back requirements",
+        "conditions precedent",
+        "cover ratio covenants",
+        "deemed availability tests"
+      ],
+      "answer": 1,
+      "explanation": "The construction order is given after final design approval and once preset conditions, called conditions precedent (CPs), are met (Ch 1 §6.1.3). Hand-back and availability tests belong to later phases."
+    },
+    {
+      "question": "A toll road PPP is about to expire and the asset will be handed back. According to the Guide, what is critically important for the public partner to do?",
+      "options": [
+        "Refinance the SPV's remaining debt before expiry",
+        "Extend the O&M contract by three more years",
+        "Pay the SPV for its final renewal works",
+        "Complete a condition assessment of the asset"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says it is critically important that the public partner completes a condition assessment to ensure the asset is in good condition when handed back (Ch 1 §6.1.6). Final renewals are the private partner's obligation under the contract, not an extra paid service."
+    },
+    {
+      "question": "Consider these two statements. 1. In some countries, SPV shareholders must invest their equity before the loans can be drawn down. 2. In other countries, loan drawdowns happen in parallel with equity investment, in fixed percentages.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 2,
+      "explanation": "Both are true. Bank practice differs by country: equity first, or equity and debt drawn in parallel in fixed percentages (pari passu) (Ch 1 §6.1.3)."
+    },
+    {
+      "question": "What is the most common way for the SPV to pay its construction contractor, according to the Guide?",
+      "options": [
+        "Monthly progress payments for the works executed",
+        "One single lump-sum payment at the end of the works",
+        "A fixed share of the tolls after opening",
+        "Payments made directly by the authority"
+      ],
+      "answer": 0,
+      "explanation": "The most common approach is monthly progressive payments against partial invoicing of the works, often reviewed by the lenders' technical advisors (Ch 1 §6.1.3). The SPV, not the authority, pays the contractor."
+    },
+    {
+      "question": "A government-pays PPP includes five schools opening at different dates. How may payments work, according to the Guide?",
+      "options": [
+        "No payment at all until the last school has opened",
+        "Full payment for all schools once the first one opens",
+        "Partial payments as each school opens, full once all open",
+        "Monthly payments during construction of each school"
+      ],
+      "answer": 2,
+      "explanation": "In a multi-facility project, the government may make partial payments as each facility becomes operational and full payments only once all are operational (Ch 1 §6.1.3). Paying during construction would not be the typical private finance model."
+    },
+    {
+      "question": "In a government-pays PPP, how much can the SPV invoice the authority each period?",
+      "options": [
+        "Its actual operating costs plus a fixed margin",
+        "Up to the payment offered, minus any deductions",
+        "Whatever the lenders need for debt service",
+        "The full payment offered, with no deductions"
+      ],
+      "answer": 1,
+      "explanation": "The SPV invoices at the contract frequency, up to an amount equal to the payment offered minus payment deductions or abatements (Ch 1 §6.1.4). Paying actual costs would pay for inputs, not results."
+    },
+    {
+      "question": "In one year an SPV's revenue pays its O&M costs, taxes and reserves, but not all of its scheduled debt service. What should happen to dividends that year?",
+      "options": [
+        "Dividends are paid before the remaining debt",
+        "Dividends are paid from the reserves instead",
+        "Dividends are paid if the authority agrees",
+        "No dividends should be paid to shareholders"
+      ],
+      "answer": 3,
+      "explanation": "Dividends can be paid only when O&M costs, taxes and debt obligations are paid as scheduled and reserves are funded (Ch 1 §6.1.5). Equity is last in the cash flow waterfall."
+    },
+    {
+      "question": "When are O&M fees most likely to be set as a percentage of the SPV's revenue rather than a fixed yearly amount?",
+      "options": [
+        "When the SPV's revenue is based on demand or volume",
+        "When the SPV is paid only on an availability basis",
+        "When the O&M contractor is also a lender",
+        "When the asset is close to hand-back"
+      ],
+      "answer": 0,
+      "explanation": "O&M fees may be fixed or variable, and a percentage of revenue is used especially when the SPV's revenue depends on demand or volume (Ch 1 §6.1.4). Availability revenue does not need this link."
+    },
+    {
+      "question": "An authority deducts 3 percent from the SPV's monthly payment for poor cleaning. Under a typical O&M contract, what happens next?",
+      "options": [
+        "The SPV absorbs the loss from its own reserves only",
+        "The lenders pay the deduction on the SPV's behalf",
+        "The SPV applies a similar deduction to the O&M contractor",
+        "The authority recovers it from the EPC contractor"
+      ],
+      "answer": 2,
+      "explanation": "O&M fees are usually subject to the same deductions and liquidated damages that affect the SPV's revenue, transferring O&M performance risk to the O&M contractor (Ch 1 §6.1.4). The EPC contractor is not responsible for operations."
+    },
+    {
+      "question": "Who usually carries out renewals or major maintenance (life-cycle work) during the operations phase?",
+      "options": [
+        "The procuring authority, from its own budget",
+        "The O&M contractors, under the O&M contracts",
+        "The lenders' technical advisers",
+        "The users, through extra user charges"
+      ],
+      "answer": 1,
+      "explanation": "Renewals are usually done by the O&M contractors under the O&M contracts, though they may be contracted separately under a specific renewals contract (Ch 1 §6.1.4). They remain the private partner's responsibility."
+    },
+    {
+      "question": "How is the debt repayment profile of a PPP loan usually set?",
+      "options": [
+        "Each year, by the authority's budget office",
+        "At hand-back, based on the asset's condition",
+        "Freely by the SPV, depending on its dividends",
+        "In advance, sculpted to meet the required DSCR"
+      ],
+      "answer": 3,
+      "explanation": "The repayment profile is usually defined in advance in the financial agreements and sculpted to meet the Debt Service Cover Ratio (Ch 1 §6.1.5). It is not set by the authority or by dividend needs."
+    },
+    {
+      "question": "Most shareholder returns in a PPP arrive late in the contract. Which event could allow shareholders to receive value earlier?",
+      "options": [
+        "A refinancing of the project",
+        "A deduction for unavailability",
+        "A hand-back condition survey",
+        "A new condition precedent"
+      ],
+      "answer": 0,
+      "explanation": "The Guide notes that most dividends come late unless the project is refinanced or there is an equity transfer (sale of shares), both subject to contract restrictions (Ch 1 §6.1.5). Deductions reduce, not advance, returns."
+    },
+    {
+      "question": "Which of these is NOT a cause of early termination of a PPP contract mentioned in the Guide?",
+      "options": [
+        "A serious default by the private partner",
+        "A force majeure event",
+        "The end of the contract's original term",
+        "A unilateral decision by the authority"
+      ],
+      "answer": 2,
+      "explanation": "Early termination happens before the original term, due to serious default by either party, force majeure or a unilateral decision by the authority (Ch 1 §6.1.6). Reaching the end of the term is normal expiry, not early termination."
+    },
+    {
+      "question": "A 30-year road PPP expires normally. Which option does the Guide NOT list for the government after the asset returns?",
+      "options": [
+        "Re-tendering the asset under a new contract",
+        "Automatically extending the contract with the same SPV",
+        "Contracting O&M under shorter-term contracts",
+        "Managing the asset directly itself"
+      ],
+      "answer": 1,
+      "explanation": "At expiry the government may re-tender, contract O&M under shorter contracts, or manage the asset itself (Ch 1 §6.1.6). An automatic extension with the same SPV is not one of the listed options."
+    },
+    {
+      "question": "A hand-back is due in 2040 and the contract requires a specified condition. When does the private partner typically invest to meet it?",
+      "options": [
+        "Only in the first year after commissioning",
+        "After the asset is handed back",
+        "Only if the authority pays extra",
+        "In the last one to three years of the contract"
+      ],
+      "answer": 3,
+      "explanation": "To meet hand-back requirements, the private party usually invests during the last one to three years before expiry (Ch 1 §6.1.6). This is part of its contract obligations, not an extra paid service."
+    },
+    {
+      "question": "In a government-pays PPP, why should payments start only once the asset is in service?",
+      "options": [
+        "It transfers construction and time risk to the partner",
+        "It lowers the partner's cost of debt during building",
+        "It avoids the need for any deductions later",
+        "It lets the authority skip the condition assessment"
+      ],
+      "answer": 0,
+      "explanation": "A PPP transfers construction risk, including time; the asset creates value only once operational, so payments should start then (Ch 1 §6.2). Delayed payment does not lower the cost of debt or remove later deductions."
+    },
+    {
+      "question": "A single unitary payment covers O&M, renewals and the original capital investment together. What is the main effect of this design?",
+      "options": [
+        "The capital investment is repaid regardless of service",
+        "Only the O&M element can suffer deductions",
+        "The capital investment is also at risk of poor performance",
+        "The lenders can claim directly against the authority"
+      ],
+      "answer": 2,
+      "explanation": "Payments should compensate in an integrated way for O&M, renewals and the original capital investment, so the investment is at risk of performance or quality variance (Ch 1 §6.2). Deductions can therefore affect capital recovery too."
+    },
+    {
+      "question": "Complete the sentence: In PPPs, payments are for results, not for means, so the partner is paid when it meets the ______.",
+      "options": ["construction budget", "output specifications", "input specifications", "lenders' covenants"],
+      "answer": 1,
+      "explanation": "Payments are granted depending on whether the partner meets the output specifications, another term for performance requirements, not as it incurs costs (Ch 1 §6.2). Input specifications describe means, not results."
+    },
+    {
+      "question": "A government-pays motorway SPV also earns income from petrol stations along the route. How does the Guide describe this income?",
+      "options": [
+        "Part of the availability payment",
+        "A form of shadow toll",
+        "A construction grant",
+        "Revenue from collateral business"
+      ],
+      "answer": 3,
+      "explanation": "Besides the payment mechanism, other revenue may come from grants, subsidies, user fees or collateral business such as hotels and petrol stations (Ch 1 §6.2). It is not part of the availability payment or a shadow toll."
+    },
+    {
+      "question": "An authority designing an availability PPP wants cleanliness failures to reduce payments. Which approach is consistent with the Guide?",
+      "options": [
+        "Treat failures as unavailability, or use separate deductions",
+        "Add a volume payment based on the number of users",
+        "Rely on users' complaints to push the partner to improve",
+        "Deal with cleanliness only in the hand-back survey"
+      ],
+      "answer": 0,
+      "explanation": "Quality can be deemed part of availability (failures count as unavailability) or handled on a separate basis for deductions, and it is good practice to consider this in all availability PPPs (Ch 1 §6.2). Volume payments do not target quality."
+    },
+    {
+      "question": "A wastewater treatment PPP pays the private partner for each cubic metre of water treated. What type of payment mechanism is this?",
+      "options": ["An availability payment", "A user charge", "A volume payment", "An operating grant"],
+      "answer": 2,
+      "explanation": "Volume payments are linked to the number of users or other outputs measured by volume, such as cubic metres of water treated (Ch 1 §6.2). An availability payment rewards the asset being available, whatever the volume."
+    },
+    {
+      "question": "A city wants a new tram line to carry as many passengers as possible. Which payment approach does the Guide suggest may be sensible?",
+      "options": [
+        "Only availability payments, with no link to use",
+        "Payments linked at least partly to volume of use",
+        "Payments linked to the partner's construction costs",
+        "Payments linked only to hand-back condition"
+      ],
+      "answer": 1,
+      "explanation": "Volume-linked payments are sensible when the government aims to maximise use of the asset, for example public transportation, and may be combined with availability or quality payments (Ch 1 §6.2). Paying for costs pays for inputs."
+    },
+    {
+      "question": "A toll road SPV keeps all lanes open, but its drainage floods nearby homes. What should the authority include in future user-pays contracts?",
+      "options": [
+        "A higher toll to improve the SPV's incentives",
+        "A switch to shadow tolls paid per vehicle",
+        "A shorter contract term with no hand-back",
+        "Minimum service requirements backed by penalties"
+      ],
+      "answer": 3,
+      "explanation": "User revenue gives little incentive for quality outcomes that do not affect demand, so some user-pays PPPs include minimum service or quality requirements with penalties or liquidated damages (Ch 1 §6.2). Higher tolls or shadow tolls still reward volume."
+    },
+    {
+      "question": "Consider these two statements. 1. Figure 1.10 does not show payments to the government, which may occur in some over-feasible user-pays projects. 2. The same basic project structure in Figure 1.10 can only be used for government-pays PPPs.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 1 §6.1). Statement 2 is false: the Guide says the basic structure can be used for both user-pays and government-pays PPPs."
+    },
+    {
+      "question": "In France, high-speed rail PPPs cover only the infrastructure. Who operates the train services in that model?",
+      "options": [
+        "The same private partner that built the line",
+        "A public state-owned enterprise",
+        "The lenders through their step-in rights",
+        "The rolling stock supplier under a lease"
+      ],
+      "answer": 1,
+      "explanation": "In the French HSR model, the PPP covers only the infrastructure and the government keeps operations through a public state-owned enterprise (Ch 1 §6.3). Integrated infrastructure and operations is the Spanish metro model."
+    },
+    {
+      "question": "A PPP covers only a water treatment plant, and the partner sells treated water to a municipal utility. Under what kind of agreement does it usually work?",
+      "options": [
+        "A direct user-pays tariff to households",
+        "A shadow toll paid by the national ministry",
+        "An off-take agreement with the utility",
+        "A management contract for tariff collection"
+      ],
+      "answer": 2,
+      "explanation": "A water PPP may cover only a plant or group of plants under off-take agreements with a regional or municipal water utility (Ch 1 §6.3). Tariff collection is a separate, management-only scope."
+    },
+    {
+      "question": "Which health PPP model does the Guide call the predominant model in Canada, South Africa, Spain and the United Kingdom?",
+      "options": [
+        "Clinical services only, in public buildings",
+        "Medical equipment supply only",
+        "Building and maintenance, with clinical services public",
+        "Building, facilities and clinical services together"
+      ],
+      "answer": 2,
+      "explanation": "The predominant model in these countries is infrastructure provision and maintenance, with clinical services left to the public health agency (Ch 1 §6.3). The fully integrated model is illustrated by the Lesotho hospital."
+    },
+    {
+      "question": "Consider these two statements. 1. The Guide treats the penalties and liquidated damages for contract breaches as part of the payment mechanism. 2. In a user-pays PPP, users can never be charged before construction of the whole project is completed.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 3,
+      "explanation": "Neither is true. The Guide treats penalties and LDs as a separate penalty system, not part of the payment mechanism (Ch 1 §6.2, note 71), and in some upgrades of existing transport infrastructure users may be charged during construction (Ch 1 §6.1.4)."
     }
   ]
 }

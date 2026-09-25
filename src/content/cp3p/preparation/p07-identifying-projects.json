@@ -271,7 +271,7 @@
         "The project will be excluded from the pipeline",
         "The CBA will be impossible to calculate",
         "Bidders will not be able to price the project",
-        "It limits the private sector's ability to propose innovative, cost-effective solutions"
+        "It blocks private innovation and cheaper alternatives"
       ],
       "answer": 3,
       "explanation": "Input-based specifications lock the government into a single solution and block innovation, one of the objectives of a PPP. The Guide prefers output-based specifications, while still defining enough to cost and appraise the project."
@@ -297,6 +297,446 @@
       ],
       "answer": 2,
       "explanation": "A study of 104 toll roads found forecasts exceeded actual first-year traffic by 20 to 30 percent on average. Financing needs solid forecasts with sensitivity analyses, and over-estimation creates fiscal risk where the government supports the project."
+    },
+    {
+      "question": "A transport ministry took two years to decide on a metro PPP. It now demands that the tender starts in three months and wants to skip parts of screening. What does the Guide warn?",
+      "options": [
+        "Speed is always good, because bidders price the risk of any delay",
+        "Screening can safely be completed after the contract is signed",
+        "Short timelines are needed so that the CBA does not become outdated",
+        "Rushing leads to poor outcomes; later changes cost more time and money"
+      ],
+      "answer": 3,
+      "explanation": "The Guide warns that governments often decide slowly and then push to implement fast, which leads to poor outcomes. Changes made later in the cycle because of weak screening cost more money and more time (Ch 3 §1)."
+    },
+    {
+      "question": "Which is NOT one of the learning goals the Guide sets for the Project Identification and Screening Phase?",
+      "options": [
+        "Selecting the preferred bidder for the PPP contract",
+        "Ensuring the project has sufficient economic merit",
+        "Avoiding sinking resources into a non-feasible PPP",
+        "Preparing and getting ready for the Appraisal Phase"
+      ],
+      "answer": 0,
+      "explanation": "The chapter aims to confirm economic merit, avoid wasting resources on a non-feasible PPP and prepare for Appraisal (Box 3.1). Bidder selection happens much later, in the Tender Phase."
+    },
+    {
+      "question": "Screening shows that a new hospital is economically sound, but it is not a viable PPP. What should the authority do?",
+      "options": [
+        "Abandon the hospital, because only PPPs pass screening",
+        "Consider delivering it through traditional procurement",
+        "Proceed as a PPP anyway and fix the structure in appraisal",
+        "Ask bidders to redesign it until it becomes a viable PPP"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says that if the proposed project is not a viable PPP, traditional procurement should be considered instead (Ch 3 §1). A sound project is not abandoned just because the PPP route does not fit."
+    },
+    {
+      "question": "A screening team has just identified the need and selected the project and its best technical solution. In the Guide's sequence of main tasks, what comes next?",
+      "options": [
+        "Testing PPP suitability and affordability",
+        "Writing the screening report and decision",
+        "Scoping the project and collecting information",
+        "Preparing the project management plan"
+      ],
+      "answer": 2,
+      "explanation": "Figure 3.1 runs: needs and option analysis, scoping and collecting information, preliminary economic feasibility, PPP suitability and affordability, readiness (management plan), then the report and decision. Suitability testing comes after the economic test."
+    },
+    {
+      "question": "Consider two statements. 1: A CBA can be carried out for any project, irrespective of procurement mode. 2: A CBA is designed to decide the most appropriate procurement mode for a project.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says CBA establishes economic feasibility for any project, whatever the procurement route. It is not designed to support the decision on procurement mode; PPP suitability and VfM analysis do that (Ch 3 §2)."
+    },
+    {
+      "question": "A finance ministry says a new school should not be screened as a possible PPP because the budget could fund it directly. What is the Guide's position?",
+      "options": [
+        "Correct, PPPs are only for projects with no public funding",
+        "Correct, only projects from a national plan may be PPPs",
+        "It should be screened only if a private firm proposes it",
+        "Every pipeline project is a potential PPP candidate either way"
+      ],
+      "answer": 3,
+      "explanation": "The Guide states that every project in the pipeline is a potential PPP candidate, regardless of whether a public finance alternative exists (Ch 3 §2). The availability of budget money does not exclude PPP screening."
+    },
+    {
+      "question": "The technical scope of a water project covers a dam, pipelines and billing. The authority plans to build the dam itself and leave it out of the PPP contract. Is this possible?",
+      "options": [
+        "No, the PPP scope must always equal the technical scope",
+        "Yes, the PPP scope may differ a lot from the technical scope",
+        "No, the whole project must then be procured traditionally",
+        "Yes, but only if a new CBA uses a PPP discount rate"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes that the PPP project scope must be defined and may differ significantly from the technical scope, because some responsibilities and tasks can be removed from the PPP contract (Ch 3 §2)."
+    },
+    {
+      "question": "During screening, a team finds that demand data are weak and some results are unclear. What should it do before the decision to move to appraisal?",
+      "options": [
+        "Leave the gaps out, since appraisal will correct them anyway",
+        "Stop the project until every item of data is perfect",
+        "Describe the gaps, assess the uncertainty and plan further studies",
+        "Let the private partner collect the missing data after award"
+      ],
+      "answer": 2,
+      "explanation": "Some gaps may be handled in appraisal, but they must be clearly described and the uncertainty assessed as part of the decision to move forward. If information is insufficient, further studies are needed (Ch 3 §2)."
+    },
+    {
+      "question": "A screening team is preparing the project management plan at the end of the phase. Which item belongs in it?",
+      "options": [
+        "A staffing plan and a budget for hiring advisors",
+        "The signed PPP contract and payment mechanism",
+        "The final bid evaluation criteria and their weights",
+        "The lenders' term sheet and financial close date"
+      ],
+      "answer": 0,
+      "explanation": "The project management plan includes a staffing plan, any need for advisors for the appraisal studies, and budget estimates and a funding plan for external expertise (Ch 3 §2). Contracts, bid criteria and financing come in later phases."
+    },
+    {
+      "question": "A PPP unit wants a standard Excel tool that rates projects on strategic suitability, preliminary feasibility, risk, PPP suitability, fiscal affordability and institutional capacity. Which tool fits this description?",
+      "options": [
+        "A public sector comparator model built for value for money",
+        "The World Bank's PPP Project Screening and Analytics Tool",
+        "A multi-criteria analysis of the bids already submitted",
+        "A shadow bid financial model prepared by the advisors"
+      ],
+      "answer": 1,
+      "explanation": "The Guide mentions the World Bank's PSAT, an Excel-based screening tool that evaluates a project on exactly these six parameters (Ch 3 §2). A PSC and shadow bid are VfM tools used later."
+    },
+    {
+      "question": "What does the Guide recommend about the link between PPP screening and the government's Public Investment Management (PIM) framework?",
+      "options": [
+        "Keep PPP screening separate so that PIM rules do not slow it",
+        "Use the PIM framework only for traditionally procured projects",
+        "Apply the PIM framework only after financial close",
+        "Align, or even embed, PPP screening within the PIM framework"
+      ],
+      "answer": 3,
+      "explanation": "The Guide recommends aligning or even embedding PPP screening and prioritization in the PIM framework, which covers public investment from strategy and planning through appraisal and execution to ex-post evaluation (Ch 3 §2)."
+    },
+    {
+      "question": "A team finds that two PPPs of the same type failed in neighbouring countries. Why should these be recorded in the data checklist?",
+      "options": [
+        "Failed cases are irrelevant; only successful ones count",
+        "They prove this type of project can never be a PPP",
+        "They help identify the key risks and challenges of this type",
+        "They should be disclosed only to lenders, not decision-makers"
+      ],
+      "answer": 2,
+      "explanation": "The checklist asks for both successful and unsuccessful precedents. Successful ones show the project type is possible; unsuccessful ones help the authority understand the key risks and challenges (Ch 3 §7)."
+    },
+    {
+      "question": "A mayor announces 'We will build a new stadium' and asks the team to find reasons to support it. According to the Guide, what should the team do first?",
+      "options": [
+        "Identify the problem to be solved and the public need",
+        "Commission a detailed architectural design of the stadium",
+        "Start market sounding with stadium operators",
+        "Calculate the stadium's financial net present value"
+      ],
+      "answer": 0,
+      "explanation": "Projects are not an end in themselves; they are enablers of service delivery. The government must understand the problem it is trying to solve before it identifies possible projects (Ch 3 §3)."
+    },
+    {
+      "question": "A government prepares a national health strategy that lists twelve hospitals and clinics across several regions. Through which entry route do these projects enter the pipeline?",
+      "options": [
+        "Route 1, ad hoc individual projects",
+        "Route 2, a plan or program",
+        "The unsolicited proposal route",
+        "The PPP suitability route"
+      ],
+      "answer": 1,
+      "explanation": "Route 2 is when the government responds to a group of needs with a comprehensive plan that identifies a range of projects, for one or many sectors and regions (Ch 3 §3, Figure 3.2). Route 1 is an individual, ad hoc need."
+    },
+    {
+      "question": "A ring road will be far more useful if a planned river bridge is also built. How should the planners handle this?",
+      "options": [
+        "Evaluate each project in isolation to keep the analysis simple",
+        "Drop the bridge so that benefits are not counted twice",
+        "Merge both projects into one PPP contract automatically",
+        "Take the connection into account in the plan and the evaluation"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the connectedness of projects must not be overlooked: one project may be much more effective if another is also built, and this should affect how projects are planned and evaluated (Ch 3 §3)."
+    },
+    {
+      "question": "Two government agencies each propose their own desalination plant to serve the same city. What does the Guide say about this?",
+      "options": [
+        "Competition between agencies improves value for money",
+        "Both plants must be tendered as a single unsolicited proposal",
+        "Duplication of projects between agencies should be avoided",
+        "Both should proceed, because a large pipeline attracts investors"
+      ],
+      "answer": 2,
+      "explanation": "Good pipeline management avoids duplication of projects by other government agencies (Ch 3 §3). A larger pipeline attracts investors only when it contains genuine, well-selected projects."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for why a recognisable project pipeline attracts investors?",
+      "options": [
+        "It guarantees investors a minimum return on each project",
+        "It shows a structured approach and a real intention to invest",
+        "It lets investors spread across similar projects and reuse lessons",
+        "It encourages investors to mobilise resources, raising competition"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists a structured approach, a genuine intention to invest, the chance to invest across similar projects and learn, and mobilisation of resources leading to robust competition (Ch 3 §3). A pipeline guarantees no return."
+    },
+    {
+      "question": "A road in the national transport plan had a CBA five years ago, based on rough early data. The project now moves to assessment. What should happen?",
+      "options": [
+        "Skip the CBA, because plan projects are already approved",
+        "Reassess the CBA, depending on confidence in the earlier work",
+        "Replace the CBA with a value for money analysis",
+        "Treat the road as an unsolicited proposal instead"
+      ],
+      "answer": 1,
+      "explanation": "Projects from a plan move directly to assessment, starting with a CBA. If a CBA was done when the plan was drawn up, it may need to be reassessed depending on the level of confidence and work done then (Ch 3 §3)."
+    },
+    {
+      "question": "A government wants to encourage unsolicited proposals without weakening its system. Which mechanism matches the Guide?",
+      "options": [
+        "Award the contract directly to the proponent as a reward for its idea",
+        "Accept proposals only for projects that the public does not need",
+        "Review proposals carefully, then tender competitively for the investor",
+        "Keep all proposals confidential and outside the project list"
+      ],
+      "answer": 2,
+      "explanation": "The Guide describes mechanisms that encourage USPs while using competitive tendering to identify the best investor, after a careful review that the proposal is complete, viable, strategic and desirable (Ch 3 §3)."
+    },
+    {
+      "question": "A firm submits an unsolicited proposal for a toll road that is already in the pipeline and due for tender next year. What should the government do?",
+      "options": [
+        "Decline it as a new project, since it duplicates the pipeline",
+        "Replace the pipeline project with the firm's own proposal",
+        "Give the firm a special right to match the winning bid",
+        "Cancel next year's tender and negotiate only with the firm"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says USPs should not include projects already in the pipeline and must not bypass the system (Ch 3 §3). The existing project continues through the normal competitive process."
+    },
+    {
+      "question": "A region plans five tolled PPPs. Each is financially viable alone, but together the tolls would sharply raise the cost of doing business. What should the government recognise?",
+      "options": [
+        "Each project fails its CBA and must be dropped",
+        "The projects must all become availability-payment PPPs",
+        "Only the eIRR of the largest project matters",
+        "Users' capacity to pay is limited, so it must prioritize"
+      ],
+      "answer": 3,
+      "explanation": "The Guide notes that there are limits to society's ability and appetite to make user payments; many projects with user charges may have an unacceptable impact on the cost of living or doing business, so prioritization is needed (Ch 3 §4)."
+    },
+    {
+      "question": "A promoting department prepares a screening file for a new PPP. Which item is NOT marked in the Guide's data checklist as minimum information that the department must provide?",
+      "options": [
+        "The name and position of the project's proponent",
+        "A description of potential interest from private investors",
+        "A preliminary estimate of the capital cost (CAPEX)",
+        "The area and population affected by the project"
+      ],
+      "answer": 1,
+      "explanation": "The checklist marks proponent name, project description, CAPEX estimate, affected area/population, timetable, public justification, need fulfilment and site/land as minimum information (*). Investor interest is on the list but is not marked as minimum (Ch 3 §7)."
+    },
+    {
+      "question": "A government with little experience in project evaluation wants to build the capacity to appraise projects rigorously. Which approach matches the Guide?",
+      "options": [
+        "Rely permanently on the bidders' own feasibility studies",
+        "Let each ministry use its own evaluation method and criteria",
+        "Create a specialist unit, using outside experts while training staff",
+        "Wait for unsolicited proposals to reveal the best projects"
+      ],
+      "answer": 2,
+      "explanation": "Box 3.5 says governments should train the right people and build systems, for example new specialist units, initially tapping outside experts while training in-house staff (Ch 3 §4)."
+    },
+    {
+      "question": "According to the Guide, what should a government's benchmark database for project evaluation contain?",
+      "options": [
+        "Capital and life-cycle operating costs of public and PPP projects",
+        "Only the construction costs of completed PPP projects abroad",
+        "The names of past bidders and the prices they tendered",
+        "The toll rates charged on roads in neighbouring countries"
+      ],
+      "answer": 0,
+      "explanation": "Box 3.5 says benchmark databases should collect cost information on both public and PPP projects, including capital expenditure and the cost of operating over the life cycle (Ch 3 §4)."
+    },
+    {
+      "question": "A ministry receives a very early CAPEX estimate for a new port. Some officials want to publish it at once. What does the Guide note?",
+      "options": [
+        "Publication is compulsory under international PPP transparency rules",
+        "The estimate is final and becomes binding on future bidders",
+        "The estimate must be left out of the screening report",
+        "Some governments withhold it to avoid unrealistic expectations"
+      ],
+      "answer": 3,
+      "explanation": "At screening the CAPEX estimate is preliminary and subject to change. To avoid unrealistic expectations about costs, some governments guard against its public release (Ch 3 §7). It is still part of the minimum information."
+    },
+    {
+      "question": "Which is NOT one of the climate screening criteria the Guide recommends for PPP projects?",
+      "options": [
+        "Building resilience against the impacts of natural hazards",
+        "Maximising the private partner's carbon credit income",
+        "Adopting nature-based solutions where possible",
+        "Tackling poverty, gender discrimination and inequality"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's criteria include low or negative emissions, the transition to a decarbonized economy, adaptation and resilience, sustainable ecosystems, nature-based solutions and inclusive infrastructure (Ch 3 §4). Private carbon income is not a criterion."
+    },
+    {
+      "question": "A flood-protection project will also create parks and cleaner water, but these co-benefits are hard to value in money. How should they be treated at screening?",
+      "options": [
+        "Excluded, because only money values count in screening",
+        "Counted twice to reflect their special importance",
+        "Still included in the analysis, even if not in money",
+        "Treated as costs, because parks need maintenance"
+      ],
+      "answer": 2,
+      "explanation": "Climate actions often bring multiple benefits that are not always quantifiable in money, so the Guide says the project's co-benefits should be incorporated in the analysis (Ch 3 §4)."
+    },
+    {
+      "question": "For a river crossing, one option is a bridge with three times the capacity that traffic needs from day one. How should the government view it?",
+      "options": [
+        "As a likely inefficient option that gives far more than needed",
+        "As the best option, because extra capacity is always valuable",
+        "As a required option, because quality must be maximised",
+        "As unaffordable by definition, whatever its cost"
+      ],
+      "answer": 0,
+      "explanation": "In Box 3.2 the Guide says an option offering quality far above what is required from day one, such as a bridge with far greater capacity than users need, may be an inefficient solution. The best option suits society's identified needs."
+    },
+    {
+      "question": "The cheapest crossing option does not meet the minimum quality that users require. What should the government do?",
+      "options": [
+        "Choose it, because cost is the only selection criterion",
+        "Choose it and raise the quality during the contract",
+        "Choose it if the private sector will finance it",
+        "Reject it, because it fails users' quality requirements"
+      ],
+      "answer": 3,
+      "explanation": "The government cannot settle for a technical alternative that does not meet the quality requirements of users or other affected citizens (Box 3.2). Options must lie between the maximum affordable cost and minimum acceptable quality."
+    },
+    {
+      "question": "Consider two statements about national master plans. 1: A master plan should be prepared by planners alone, without input from citizens or business leaders. 2: The most effective master plans set clear targets for improvement in all relevant sectors.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Box 3.4 says effective master plans rest on a long-term development agenda, have clear targets in all relevant sectors and are crafted with input from all crucial constituencies, including citizens and business leaders. So statement 1 is false (Ch 3 §3)."
+    },
+    {
+      "question": "Two ministries appraise similar hospitals but assume very different financing costs for public versus private delivery, so their results cannot be compared. Which of the Guide's three focus areas for rigorous evaluation addresses this?",
+      "options": [
+        "Training staff and creating specialist evaluation units",
+        "Building benchmark databases of capital and operating costs",
+        "Standard methodologies with a common source of key assumptions",
+        "Publishing early cost estimates to test market reaction"
+      ],
+      "answer": 2,
+      "explanation": "Box 3.5's third area is standardized assessment methodologies and a common source of key assumptions, such as financing costs under a public versus a private approach, agreed with stakeholders nationally. Training and benchmark databases are the other two areas but do not fix inconsistent assumptions (Ch 3 §4)."
+    },
+    {
+      "question": "A ministry selected a hospital design using multi-criteria analysis. What must still happen before the project moves on?",
+      "options": [
+        "A CBA must be performed on the selected solution",
+        "Nothing, since the MCA already proves economic soundness",
+        "A CEA must replace the MCA to check costs",
+        "The private partner must repeat the MCA after award"
+      ],
+      "answer": 0,
+      "explanation": "When a technique other than CBA is used for selection, a CBA must still be performed on the selected technical solution to confirm economic soundness (Ch 3 §2)."
+    },
+    {
+      "question": "A planning office uses cost-effectiveness analysis to compare transit options. What is the main weakness of this technique, according to the Guide?",
+      "options": [
+        "It requires every benefit to be valued in money",
+        "It is more complex and resource-intensive than CBA",
+        "It cannot compare more than two options at once",
+        "Its ratio leaves a subjective judgement to policymakers"
+      ],
+      "answer": 3,
+      "explanation": "Because CEA produces a non-valued ratio of total cost to units of effectiveness, its major difficulty is that it leaves a subjective judgement to the policymaker (Ch 3 §5). CEA is actually less complex than CBA."
+    },
+    {
+      "question": "A junior team wants to use multi-criteria analysis 'because it is quick and easy for people with little experience'. How should the manager respond?",
+      "options": [
+        "Agree, because MCA was designed for inexperienced analysts",
+        "Disagree, MCA must not be seen as a shortcut or easy option",
+        "Agree, provided that every criterion is valued in money",
+        "Disagree, because MCA may only be used for private projects"
+      ],
+      "answer": 1,
+      "explanation": "The Guide quotes that MCA must not be seen as a short cut, nor as an easier technique for inexperienced people to use (Ch 3 §5). Its criteria need not be monetary."
+    },
+    {
+      "question": "A ministry ranks school options against explicit objectives such as access, safety, cost and community support, scoring each option on measurable criteria. Which technique is it using?",
+      "options": [
+        "Cost-benefit analysis",
+        "Cost-effectiveness analysis",
+        "Multi-criteria analysis",
+        "Value for money analysis"
+      ],
+      "answer": 2,
+      "explanation": "MCA establishes preferences between options by reference to an explicit set of objectives with measurable criteria, which need not be monetary (Ch 3 §5). CEA gives a single cost per unit of effectiveness."
+    },
+    {
+      "question": "What must the technical outline of the selected solution allow the government to do?",
+      "options": [
+        "Sign the PPP contract without further studies",
+        "Answer the PPP screening questions with enough certainty",
+        "Fix the final design so that bidders cannot change it",
+        "Set the toll level for the whole contract term"
+      ],
+      "answer": 1,
+      "explanation": "The technical outline describes the sector, features, physical conditions, site and affected population with enough certainty to answer the PPP screening questions (Ch 3 §6). It is not a final design."
+    },
+    {
+      "question": "A country plans its first-ever waste-to-energy PPP, with many interdependent technical factors. What should the team expect when defining the project scope?",
+      "options": [
+        "Less time, because novelty attracts more bidders",
+        "No change, because scoping is the same for every project",
+        "A shortcut, since complexity is handled in the contract",
+        "More time and effort to define the scope adequately"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says more time and effort may be needed where requirements are unclear, the activity is novel or lacks experience, or the project is complex with many interdependent factors (Ch 3 §6)."
+    },
+    {
+      "question": "An official argues that land and permit constraints only need to be listed if the project will be a PPP. Is the official right?",
+      "options": [
+        "Yes, traditional projects do not face such constraints",
+        "Yes, the private partner lists them after contract award",
+        "No, these constraints apply to any project, PPP or not",
+        "No, constraints only matter during contract management"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the information requirements and constraints, such as land availability and permits, represent potential obstacles and apply to any project, whether or not it is a PPP (Ch 3 §7)."
+    },
+    {
+      "question": "A metro line needs permits from a regional government, and there are open legal questions about fare regulation. What should the screening report contain?",
+      "options": [
+        "The constraints plus legal and regulatory issues to test later",
+        "Nothing, because permits are the private partner's problem",
+        "Only the permits, because legal issues arise at tender",
+        "A final legal opinion that settles every regulatory question"
+      ],
+      "answer": 0,
+      "explanation": "Constraints such as permits from other governments must be listed, and the screening report should include legal and regulatory issues to be further tested in the full appraisal. Political risk should also be assessed (Ch 3 §7)."
+    },
+    {
+      "question": "A project team has estimated a road's cost directly from its own engineering design. What should it also do, according to the Guide?",
+      "options": [
+        "Compare the estimate with market data from comparator projects",
+        "Accept the estimate, because direct estimates need no check",
+        "Raise the estimate by 30 percent to cover forecast error",
+        "Ask bidders to confirm the estimate before screening"
+      ],
+      "answer": 0,
+      "explanation": "Even when costs can be estimated directly, the Guide says they should be compared with market parameters for similar projects; a database of comparator projects helps assess whether the estimates are reasonable (Ch 3 §7)."
     }
   ]
 }

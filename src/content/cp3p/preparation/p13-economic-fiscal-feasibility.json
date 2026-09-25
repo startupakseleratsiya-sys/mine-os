@@ -306,6 +306,446 @@
       ],
       "answer": 0,
       "explanation": "The Guide says appraisal data such as technical specifications must be entered into the CBA and its results revisited; the conclusions drive the green light decision. VfM is a different test and cannot replace the CBA."
+    },
+    {
+      "question": "The demand study for a new bus rapid transit line includes a survey of how much travellers are willing to pay for faster trips. How should the appraisal team use this result in the cost-benefit analysis?",
+      "options": [
+        "To set the ceiling for the government's availability payments",
+        "To replace the whole-life cost estimate from the technical team",
+        "To fix the fare that the private partner will be allowed to charge",
+        "To give a clearer projection of the project's economic benefits"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says willingness-to-pay evaluations from the demand study allow a clearer projection of economic benefits in the CBA (Ch 4 §10). They do not set tariffs or payment ceilings; those come from the commercial and fiscal work."
+    },
+    {
+      "question": "The environmental study for a new road finds that the planned route crosses a valuable headwater area. A small change in the road alignment would avoid it. What should the mitigation strategy do?",
+      "options": [
+        "Keep the route and plan tree replanting to offset the damage",
+        "Leave the choice of route to the bidders in their proposals",
+        "Feed the change back into the technical requirements to alter the design",
+        "Drop the project, because the impact cannot be fully neutralised"
+      ],
+      "answer": 2,
+      "explanation": "Mitigation can feed back into the technical requirements to change the design when this significantly reduces environmental costs; the Guide's example is a small road design change that avoids a headwater region (Ch 4 §13.1). Compensation such as replanting is for effects that cannot be avoided, and the aim is not to neutralise every impact."
+    },
+    {
+      "question": "In a country's PPP framework, no full cost-benefit analysis is done at identification; it is only completed during appraisal. What should the appraisal team do?",
+      "options": [
+        "Skip the CBA, because the identification stage is already over",
+        "Replace the CBA with the value for money test against a PSC",
+        "Use the market sounding feedback as the measure of benefits",
+        "Run the Chapter 3 CBA method using the more accurate appraisal data"
+      ],
+      "answer": 3,
+      "explanation": "The Guide recognises that some countries only conclude a full CBA at appraisal; in that case the Chapter 3 exercise is run with the better appraisal data (Ch 4 §10). VfM is a different test and cannot replace the CBA."
+    },
+    {
+      "question": "A coastal highway PPP may face more frequent storm flooding over its 30-year life. How should climate risk be handled when confirming economic feasibility?",
+      "options": [
+        "Leave climate losses out of the analysis, since the private partner will insure them",
+        "Assess climate losses only after financial close, once the design is final",
+        "Quantify expected economic losses over the life cycle under several climate scenarios",
+        "Treat climate effects as a technical issue outside the economic analysis"
+      ],
+      "answer": 2,
+      "explanation": "Expected economic losses from climate impacts must be quantified over the life cycle, analysing different climate scenarios, so the project stays feasible even if impacts occur (Ch 4 §10). The Guide also encourages going beyond historic data and trends alone."
+    },
+    {
+      "question": "Consider these two statements about climate change in appraisal. (1) Calculated climate change risks can be used as extra parameters in the CBA or the VfM analysis. (2) Climate forecasts should rely only on historic data and trends, not on forward-looking models.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true: the Guide says calculated climate risks can be used as additional parameters in VfM or CBA (Ch 4 §10). Statement 2 is false: the Guide encourages forecasting models that go beyond historic data and trends."
+    },
+    {
+      "question": "The finance ministry asks whether the yearly availability payments of a proposed school PPP can fit within the government's current and future budget constraints. Which assessment answers this question?",
+      "options": [
+        "Commercial feasibility based on the equity return",
+        "Fiscal affordability from the government's point of view",
+        "Economic feasibility based on net benefits to society",
+        "User affordability of the tariffs for the target users"
+      ],
+      "answer": 1,
+      "explanation": "Affordability from the government perspective is the ability of the project to be accommodated within current and future budget constraints (Ch 4 §11). User affordability is a different test: whether tariffs are viable for users in a user-pays project."
+    },
+    {
+      "question": "Two years after appraisal, the inflation and demand forecasts behind a PPP's payment formula change. What should happen to the estimate of the project's direct liabilities?",
+      "options": [
+        "Update it, because direct liabilities are forecasts to review every year",
+        "Wait until the end of the contract before revising any estimate",
+        "Move the change into contingent liabilities instead of direct ones",
+        "Keep it, because direct liabilities are fixed amounts set at appraisal"
+      ],
+      "answer": 0,
+      "explanation": "Direct liabilities depend on assumptions such as demand, exchange rates and inflation, so they are forecasts, not fixed amounts, and should be updated annually (Ch 4 §11.1). A change in forecast does not turn them into contingent liabilities."
+    },
+    {
+      "question": "An analyst prepares the yearly direct liabilities of a PPP in real terms, using figures that differ from the project's financial model. What should the reviewer ask the analyst to change?",
+      "options": [
+        "Present them in real terms at the CBA social discount rate",
+        "Present only one total figure without a yearly cash flow",
+        "Present them in the lenders' currency to match the debt",
+        "Present them in nominal terms, aligned with the financial model"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says direct liabilities are estimated year by year in nominal terms (adjusted for inflation) and aligned with the financial model of the feasibility study (Ch 4 §11.1). A yearly cash flow is needed so it can then be discounted."
+    },
+    {
+      "question": "Which of the following is a direct liability of the Contracting Authority rather than a contingent liability?",
+      "options": [
+        "A payment due only after a discriminatory change in law",
+        "Co-financing that the authority pays during construction",
+        "A payment due only if traffic falls below a guaranteed level",
+        "Compensation due only if the contract ends early"
+      ],
+      "answer": 1,
+      "explanation": "Direct liabilities are the expected payments under the contract, such as land acquisition, co-financing and availability or volume payments (Box 4.10). The other options depend on an uncertain event, so they are contingent liabilities (Box 4.11)."
+    },
+    {
+      "question": "At appraisal, a project team is unsure how much effort to put into contingent liabilities, because the risk allocation is still preliminary. What does the Guide advise?",
+      "options": [
+        "Ignore contingent liabilities until the PPP contract has been signed",
+        "Quantify every contingent liability in full detail before the green light",
+        "Focus on direct liabilities, but flag the main contingencies with a tentative size",
+        "Treat all contingent liabilities as direct liabilities to be prudent"
+      ],
+      "answer": 2,
+      "explanation": "Contingent liabilities depend mainly on the risk allocation finalised in structuring, so appraisal focuses on direct liabilities (Ch 4 §11.1). But the Guide advises not to ignore contingencies: the main ones should be highlighted with a tentative quantification."
+    },
+    {
+      "question": "A demand guarantee has an estimated 10 percent probability of being called in year 6, with an impact of 50 million if it is called. Using the Guide's probabilistic method, what is the expected value for year 6?",
+      "options": [
+        "0.5 million",
+        "55 million",
+        "50 million",
+        "5 million"
+      ],
+      "answer": 3,
+      "explanation": "The Guide suggests estimating the probability that a guarantee is called and its impact, giving an expected value for each year (Ch 4 §11.1). Here 10 percent times 50 million gives 5 million; 50 million would be the full impact, not the expected value."
+    },
+    {
+      "question": "A draft contract includes several government guarantees. For which one can the yearly fiscal exposure be aggregated across the years of the contract?",
+      "options": [
+        "Termination compensation for government default",
+        "Termination compensation for private partner default",
+        "A minimum revenue guarantee on traffic",
+        "Termination compensation for force majeure"
+      ],
+      "answer": 2,
+      "explanation": "A minimum revenue guarantee can be called in any year, so its annual exposure can be aggregated (Ch 4 §11.1). Compensation on early contract termination can only happen once, so it is not aggregated; it is shown as a maximum exposure."
+    },
+    {
+      "question": "A PFRAM project risk matrix lists four risks. Which one would raise a flag and need immediate government attention?",
+      "options": [
+        "Low likelihood, small fiscal impact, mitigation strategy in place",
+        "High likelihood, significant fiscal impact, no mitigation strategy",
+        "High likelihood, small fiscal impact, mitigation strategy in place",
+        "Low likelihood, significant fiscal impact, mitigation strategy in place"
+      ],
+      "answer": 1,
+      "explanation": "PFRAM flags risks that have a large likelihood, a significant fiscal impact and no government mitigation strategy (Ch 4 §11.1, Box 4.12). Risks with a mitigation strategy in place are a lower priority."
+    },
+    {
+      "question": "Consider these two statements about PFRAM. (1) Even risks allocated to the private partner can create a significant fiscal risk for the government. (2) PFRAM summarises the user's answers in a project risk matrix shown as a heat map.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide notes that the private partner may not be able to cope with some risks allocated to it, creating a potentially large fiscal impact, and PFRAM generates a project fiscal risk matrix as a heat map (Ch 4 §11.1)."
+    },
+    {
+      "question": "A finance ministry has official revenue forecasts for only four years. It must run the total budget test for a 25-year PPP. How can it extend the revenue projection?",
+      "options": [
+        "Assume later revenues grow at the GDP growth rate",
+        "Use the agency's budget as a proxy for total revenues",
+        "Assume later revenues stay at the year-four level",
+        "Compare the liabilities with the four forecast years only"
+      ],
+      "answer": 0,
+      "explanation": "The Guide calls it a reasonable simplifying technique to assume that later budget revenues grow at the GDP growth rate (Ch 4 §11.1). The test then outputs a yearly percentage of total revenues committed to the project."
+    },
+    {
+      "question": "An adviser recommends rejecting a PPP because its payments exceed '10 percent of the agency budget, the international limit'. How should the appraisal team respond?",
+      "options": [
+        "Approve the project anyway, because agency tests are only optional",
+        "No such threshold is internationally recognised; judge the result in context",
+        "Accept the advice, because 10 percent is the accepted global benchmark",
+        "Drop the agency budget test and rely only on the total budget test"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says there is no internationally recognised threshold for the agency budget test, because agencies' capital spending varies a lot (Ch 4 §11.1). The result must be considered together with the agency's total infrastructure commitments."
+    },
+    {
+      "question": "A country uses a commitment-based budget system, in which the approved budget covers all the spending of a programme at the moment of approval. What must fit within the approved budget for a PPP?",
+      "options": [
+        "The maximum possible value of every contingent liability",
+        "Only the direct liabilities that fall during the construction period",
+        "Only the first year of availability payments after construction",
+        "Total direct liabilities plus the most likely contingent liabilities"
+      ],
+      "answer": 3,
+      "explanation": "In commitment-based systems, the sum of direct liabilities and the most likely case of contingent liabilities should fit within the approved budget (Ch 4 §11.1). Most countries instead use cash-based or accrual-based yearly budgets."
+    },
+    {
+      "question": "A state government in Brazil reports that its total PPP commitments are within the legal cap. Its finance officer says this proves the new PPP is affordable. What is the main weakness in this reasoning?",
+      "options": [
+        "The cap counts only direct liabilities and cannot replace a full analysis",
+        "The cap applies only to user-pays PPPs, not to government-pays PPPs",
+        "The cap is a guideline, so it has no role in the affordability tests",
+        "The cap applies only to federal projects, not to state governments"
+      ],
+      "answer": 0,
+      "explanation": "Brazil caps sub-national PPP commitments at 5 percent of yearly tax revenue over ten years, but it captures only direct liabilities, with no cap for contingent ones (Ch 4 §11.1). Caps are one-sided and cannot replace a comprehensive affordability analysis."
+    },
+    {
+      "question": "The affordability analysis for a government-pays hospital PPP shows that the expected availability payments are too high for the health budget. What should the project team do?",
+      "options": [
+        "Transfer all remaining risks to the private partner to cut the cost",
+        "Proceed anyway, because commercial feasibility has already been shown",
+        "Revisit the contract structure, financial model or technical requirements",
+        "Raise the fees paid by patients until the budget gap disappears"
+      ],
+      "answer": 2,
+      "explanation": "Affordability can limit the government payments assumed in the commercial feasibility; the contract structure, financial model or technical requirements may then be revisited so the project is both commercially feasible and affordable (Ch 4 §11.2)."
+    },
+    {
+      "question": "A country's public debt is close to its legal ceiling. The debt analysis shows a new PPP must be recorded on the government balance sheet, although its VfM is positive. What may the government have to do?",
+      "options": [
+        "Postpone the debt check until after financial close",
+        "Proceed, because a positive VfM overrides the ceiling",
+        "Relabel the project as user-pays to avoid recording it",
+        "Not develop the project, regardless of its VfM"
+      ],
+      "answer": 3,
+      "explanation": "When debt is close to or over the ceiling, the Guide says the project may have to not be developed, regardless of VfM considerations, if the asset must be recorded in national accounts (Ch 4 §12)."
+    },
+    {
+      "question": "A government-pays PPP meets the IPSAS 32 criteria. What is the effect on the government's balance sheet while the asset is under construction?",
+      "options": [
+        "Only the interest during construction is recorded",
+        "Gross debt rises, but the net balance sheet effect is nil",
+        "Nothing is recorded until the asset starts operating",
+        "Net debt rises by the full construction cost"
+      ],
+      "answer": 1,
+      "explanation": "Under IPSAS 32, construction costs are recorded together with the non-financial asset, increasing gross debt but creating a null net balance sheet effect (Ch 4 §12.1). Debt then falls during operation as payments repay the asset."
+    },
+    {
+      "question": "Under IPSAS 32, once a government-pays PPP asset is operating, by what amount is the recorded debt reduced each year?",
+      "options": [
+        "The part of each payment that repays the asset, excluding interest and service costs",
+        "The interest part of each government payment, excluding the capital element",
+        "The yearly depreciation charged on the asset over its expected useful life",
+        "The full availability payment, including the operation and maintenance element"
+      ],
+      "answer": 0,
+      "explanation": "The debt is amortised by the part of each government payment that relates to repaying the asset, excluding interest and service costs (Ch 4 §12.1). Depreciation reduces the asset value, not the debt."
+    },
+    {
+      "question": "A toll motorway is let as a DBFOM contract in an EU country, and 70 percent of its revenues come from tolls paid by users. Under ESA 2010, how is the asset generally treated?",
+      "options": [
+        "Off the balance sheet only if the state bears no risk",
+        "On the balance sheet, because the tolls are regulated",
+        "Off the government balance sheet, as a concession",
+        "On the balance sheet, because it is a DBFOM contract"
+      ],
+      "answer": 2,
+      "explanation": "ESA rules define a concession as a DBFOM contract where more than 50 percent of revenues are user payments, and concessions are generally treated as off the government balance sheet (Ch 4 §12.2). Regulating tariffs is a control idea from IPSAS 32, not the ESA test."
+    },
+    {
+      "question": "In a European government-pays PPP, the private partner bears construction and availability risk, but 60 percent of the financing comes from irrevocable deferred capital grants. How is the asset likely to be classified under ESA 2010?",
+      "options": [
+        "On the government balance sheet, as most financing is public",
+        "On the balance sheet only if demand risk is also retained",
+        "Off the balance sheet, as the key risks have been transferred",
+        "Off the balance sheet, as the grants are paid only later"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists projects where more than 50 percent of financing is public, including deferred grants that are irrevocable and not linked to performance, as generally requiring classification in government accounts (Ch 4 §12.2). Risk transfer alone does not change that."
+    },
+    {
+      "question": "An availability-based PPP contract includes a minimum payment that covers most of the senior debt, whatever the level of performance. What does this mean under ESA 2010?",
+      "options": [
+        "The floor has no effect, because only demand risk is tested",
+        "The asset is treated as a user-pays concession off the balance sheet",
+        "The asset stays off balance sheet because construction risk is private",
+        "The asset is likely to be recorded on the government balance sheet"
+      ],
+      "answer": 3,
+      "explanation": "Under ESA 2010, an availability-based project where poor performance has no material financial impact, or where a payment floor covers a substantial part of the financing, generally goes on the government balance sheet (Ch 4 §12.2)."
+    },
+    {
+      "question": "A country has no specific accounting rule for PPP contracts, and its general accounting principles do not address PPP-like contracts. What does the Guide say about the debt impact analysis?",
+      "options": [
+        "It must follow IPSAS 32, as the default global standard",
+        "It is unnecessary for accounting purposes in this case",
+        "It must record every PPP as a public debt of the state",
+        "It must follow ESA 2010, as the default global standard"
+      ],
+      "answer": 1,
+      "explanation": "Where no specific regulation exists and general principles do not address PPPs, the Guide says the assessment of the project's impact on public debt for accounting purposes is unnecessary (Ch 4 §12.3)."
+    },
+    {
+      "question": "An appraisal team and its specialist consultants start the environmental feasibility work for a new dam. What fundamental question must they answer?",
+      "options": [
+        "Will the bidders agree to take all the environmental risks of the dam?",
+        "Does the dam offer better value for money than a public sector option?",
+        "Will the dam have no negative environmental impact of any kind at all?",
+        "Is there anything that makes approvals impossible or too costly to obtain?"
+      ],
+      "answer": 3,
+      "explanation": "The fundamental question is whether any aspect of the project makes environmental approvals impossible or the costs of obtaining them prohibitive (Ch 4 §13.1). The aim is not zero impact, and VfM is a separate exercise."
+    },
+    {
+      "question": "Which of the following would NOT normally be part of the Environmental Impact Assessment described in the Guide?",
+      "options": [
+        "The physical and biological state of the area before the works",
+        "The financing terms expected from the bidders' lenders",
+        "The main inputs used in construction, such as water and energy",
+        "The direct and secondary impacts of the project on the area"
+      ],
+      "answer": 1,
+      "explanation": "The EIA describes the area before the project, the direct and secondary impacts, the main inputs such as materials, water and energy, and the area after construction and operation (Ch 4 §13.1). Lenders' financing terms belong to the commercial work."
+    },
+    {
+      "question": "Consider these two statements about environmental mitigation. (1) The aim of mitigation is to neutralise every environmental impact of the project. (2) Measures such as replanting trees can compensate for environmental effects that cannot be avoided.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Only statement 2 is true. The Guide says mitigation should include measures to compensate for inevitable consequences, such as tree replanting, but the aim is not to neutralise all impacts; it is to mitigate unintended consequences in line with approval rules (Ch 4 §13.1)."
+    },
+    {
+      "question": "At the end of the environmental feasibility work, which three answers should the team be able to give the decision-makers?",
+      "options": [
+        "Total licensing cost, compensation cost and time to full licensing",
+        "Time to full licensing, the debt ceiling and the VfM result",
+        "Compensation cost, the equity IRR and the discount rate used",
+        "Total licensing cost, the bidders' margin and the tariff level"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the analysis should answer: the total cost of environmental licensing, the cost of compensation measures and the estimated time to obtain full licensing (Ch 4 §13.1). These answers feed the green light decision."
+    },
+    {
+      "question": "Most bidders for a power plant PPP will need finance from multilateral development banks, whose standards are stricter than the national environmental law. What should the procuring authority do at appraisal?",
+      "options": [
+        "Exclude multilateral lenders from the tender so the stricter rules do not apply",
+        "Leave each bidder to agree environmental standards with its lenders after award",
+        "Include the lenders' standards, such as the Equator Principles, in the appraisal",
+        "Apply only the national law, because lenders' standards are always voluntary"
+      ],
+      "answer": 2,
+      "explanation": "If bidders are expected to rely on a particular class of lenders, it is good practice to include their environmental requirements in the appraisal (Ch 4 §13). The Equator Principles may be stricter than national rules and are required by many lenders and all MDBs."
+    },
+    {
+      "question": "Which of the following is NOT in the Guide's minimum list of social issues to address in the social feasibility exercise?",
+      "options": [
+        "Groups, such as women or minorities, affected differently",
+        "An influx of newcomers that may disrupt local society",
+        "Changes in the community's access to water and energy",
+        "The expected equity return of the project sponsors"
+      ],
+      "answer": 3,
+      "explanation": "The minimum list includes population movement, local economy and land values, access to water and energy, community governance, demand for public services, differently affected groups, the labour market, staff background and an influx of newcomers (Ch 4 §14.1). Sponsor returns are a commercial issue."
+    },
+    {
+      "question": "A team building the social baseline for a mining railway has census data and maps, but significant cultural issues are likely along the route. What should it do?",
+      "options": [
+        "Skip the baseline and move straight to the social action plan",
+        "Ask the winning bidder to build the baseline after contract award",
+        "Add field surveys, because secondary data alone is not enough here",
+        "Rely on the secondary data only, because official data is reliable"
+      ],
+      "answer": 2,
+      "explanation": "Baseline studies usually start with secondary data, but where significant social, economic or cultural issues are likely, secondary material alone is insufficient and field surveys must be undertaken (Ch 4 §14.2, Box 4.15)."
+    },
+    {
+      "question": "A social impact team has listed many possible impacts of a new port. According to the Guide, how should it classify their relative importance?",
+      "options": [
+        "By the number of people affected and the reach of the damage",
+        "By the political influence of each affected group",
+        "By the order in which the impacts were first reported",
+        "By the cost of each impact to the private partner only"
+      ],
+      "answer": 0,
+      "explanation": "Good practice classifies each impact by relative importance, considering the number of people affected and the reach of the damage, so impacts can be prioritised (Ch 4 §14.2). Impacts are estimated by projecting the baseline with and without the project."
+    },
+    {
+      "question": "A social impact assessment recommends that the private partner build a replacement market for traders who will lose their stalls. What should happen next in the appraisal?",
+      "options": [
+        "Estimate the cost of the action and put it into the financial model",
+        "Leave the cost out, as social actions are the government's duty",
+        "Ask the traders to fund the new market through higher rents",
+        "Record the action only after the contract has been signed"
+      ],
+      "answer": 0,
+      "explanation": "Where the SIA recommends actions to be taken by the private sector, a cost estimate should be produced as an input to the financial model (Ch 4 §14.3). Residual impacts that cannot be mitigated are presented for the green light decision."
+    },
+    {
+      "question": "For a large urban rail project, the social impact assessment cannot be fully completed during appraisal. What does the Guide expect before the green light decision?",
+      "options": [
+        "It should be left to the bidders to complete in their proposals",
+        "It should be dropped, since it cannot be finished in time",
+        "It should be significantly advanced, with mitigation options clear",
+        "It can wait until the contract management phase has begun"
+      ],
+      "answer": 2,
+      "explanation": "As with the EIA, a large project may not finish the SIA during appraisal, but it must be significantly advanced before the green light so decision-makers have a reasonably clear view of impacts and mitigation strategies (Ch 4 §14.2)."
+    },
+    {
+      "question": "A procuring authority plans a prison PPP in which the private partner would run custodial services. What should legal due diligence check first in the sector law?",
+      "options": [
+        "Whether the bidders have operated prisons in other countries",
+        "Whether the law allows the private sector to operate a prison",
+        "Whether the prison will be recorded on the balance sheet",
+        "Whether the prison design meets international building codes"
+      ],
+      "answer": 1,
+      "explanation": "The Guide gives this example: sector-specific law, such as corrections legislation, may regulate whether a prison PPP can be operated by the private sector (Ch 4 §15.1). This is part of analysing the applicable legal framework."
+    },
+    {
+      "question": "The national PPP law sets a maximum contract term of 20 years, but the preferred structure for a water PPP needs 30 years. What should the legal feasibility work include?",
+      "options": [
+        "A recommendation to drop the project without examining any options",
+        "A note that bidders may ignore the limit if the lenders agree to it",
+        "A decision to sign for 20 years and extend later by direct negotiation",
+        "The needed change in law, how it can be enacted, and its time and resources"
+      ],
+      "answer": 3,
+      "explanation": "The legal review should indicate any need for a change in law or regulation, the process to enact it, and the time and resources needed (Ch 4 §15.1). The output then recommends a strategy to overcome the obstacle."
+    },
+    {
+      "question": "A new regional transport agency wants to launch a PPP, but it is unclear whether it has the legal power to sign the contract. Which part of legal due diligence addresses this?",
+      "options": [
+        "Reviewing foreign investment and currency exchange rules",
+        "Checking the legal readiness of the procuring authority",
+        "Analysing the rights of other users of the project land",
+        "Reviewing the legal treatment of the project's revenues"
+      ],
+      "answer": 1,
+      "explanation": "The second task of legal due diligence is to assess whether the promoting authority and other bodies have the legal authority to launch and approve the project, and which bodies must be involved (Ch 4 §15.1)."
+    },
+    {
+      "question": "A new toll road will pass over pipelines owned by a state oil company and under power lines. Under which key project issue should legal due diligence examine this?",
+      "options": [
+        "Rights of other users of the land",
+        "Legal readiness of the procuring authority",
+        "Tax and accounting treatment of revenues",
+        "Employment of existing public staff"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists rights of other users as a key project issue, with examples such as a state oil company's buried pipes or a road crossing under transmission wires (Ch 4 §15.1). These rights can restrict how the site is used."
     }
   ]
 }

@@ -301,6 +301,446 @@
       ],
       "answer": 0,
       "explanation": "The contract should set a pre-expiry procedure, including a survey, remediation programme, costs and inspections, backed by acceptable security, such as retaining a percentage of yearly revenues. Assets need some residual life, not to be brand new."
+    },
+    {
+      "question": "According to the Guide, what normally starts the process that can lead to early termination of a PPP contract?",
+      "options": [
+        "A refinancing request from the Project Company",
+        "An act of default or a continuing force majeure event",
+        "The end of the defects liability period",
+        "A change in the authority's senior staff"
+      ],
+      "answer": 1,
+      "explanation": "Early termination is a last resort that follows a range of processes starting with default by one of the parties or continuing force majeure (Ch 7 §18)."
+    },
+    {
+      "question": "A contract management team wants to reduce the chance that its PPP will ever be terminated early. Which approach matches the Guide?",
+      "options": [
+        "Keep a large cash reserve ready for any termination payment",
+        "Manage performance and risks, act on defaults early, use the DRP",
+        "Avoid formally raising any defaults with the Project Company",
+        "Add automatic termination for every single missed KPI target"
+      ],
+      "answer": 1,
+      "explanation": "The focus should be on avoiding termination by managing performance, mitigating risks, dealing with defaults in good time and using the Dispute Resolution Process (Ch 7 §18)."
+    },
+    {
+      "question": "Three years before expiry, an authority must decide whether to retender its PPP and what investment the services will need. How should it answer these questions?",
+      "options": [
+        "By repeating the original contract terms unchanged",
+        "By letting the current Project Company decide",
+        "As rationally as in the original feasibility study",
+        "By waiting for the post-implementation review"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says these questions must be answered in a rational manner, in the same way as the original feasibility study before procurement (Ch 7 §18.1.1)."
+    },
+    {
+      "question": "Why does the Guide say that many PPP expiries lead to difficult and costly transitions?",
+      "options": [
+        "Expiry always triggers a large compensation payment",
+        "Lenders usually block the handover of the assets",
+        "Project Companies must then be paid a return on equity",
+        "Authorities are often unprepared, even though expiry is certain"
+      ],
+      "answer": 3,
+      "explanation": "Expiry is inevitable, yet many authorities are not prepared for it, which causes costly transitions (Ch 7 §18.1.1). No compensation is payable at expiry."
+    },
+    {
+      "question": "Three years before expiry, the authority finds that a bridge PPP's assets are below the residual life required by the contract. What should the team do?",
+      "options": [
+        "Terminate the contract for Project Company default at once",
+        "Start a remedial plan, possibly calling asset condition security",
+        "Accept the condition, because expiry is now quite close",
+        "Pay the Project Company to replace all of the assets"
+      ],
+      "answer": 1,
+      "explanation": "If the asset condition is below that required, a remedial plan including calling asset condition security must begin (Ch 7 §18.1.1)."
+    },
+    {
+      "question": "Before expiry, why must the authority assess the Project Company's operational standards?",
+      "options": [
+        "So the Project Company can claim a completion bonus",
+        "So the lenders can decide whether to refinance",
+        "So a new operator can step in and services continue",
+        "So the authority can reset the user tariff levels"
+      ],
+      "answer": 2,
+      "explanation": "Operational standards are assessed so a new operator can step in at expiry, and a Transition Program ensures continuity of services (Ch 7 §18.1.1)."
+    },
+    {
+      "question": "A high-technology traffic control PPP is two years from expiry. Which issue needs special attention from the authority?",
+      "options": [
+        "Extending the lenders' security over the software",
+        "Raising the Project Company's return on equity",
+        "Transfer of the IP rights that belong to the authority",
+        "Starting a new refinancing of the project debt"
+      ],
+      "answer": 2,
+      "explanation": "Transfer of intellectual property rights belonging to the authority is necessary on expiry, particularly in high-technology PPPs (Ch 7 §18.1.1)."
+    },
+    {
+      "question": "An authority plans for the Project Company's staff to move to a new operator at expiry. Why should it start this work early?",
+      "options": [
+        "All staff must be re-hired through a public examination",
+        "The lenders must approve each individual transfer",
+        "Staff transfers are only allowed after the expiry date",
+        "Transfers under labour law take time and need staff consultation"
+      ],
+      "answer": 3,
+      "explanation": "Employee transfers must follow the relevant legislation and labour laws, which is time-consuming and needs adequate time for staff consultation (Ch 7 §18.1.1)."
+    },
+    {
+      "question": "What does termination for Procuring Authority default indicate, according to the Guide?",
+      "options": [
+        "A severe failure of the contract management system",
+        "The normal expiry of a successful contract",
+        "Poor work by the operator's subcontractors",
+        "A routine change in government policy"
+      ],
+      "answer": 0,
+      "explanation": "Authority default shows a severe failure of contract management; it triggers large public payments and may leave the authority with an asset but no operator (Ch 7 §18.2.1)."
+    },
+    {
+      "question": "Which of these is NOT normally an event of Procuring Authority default?",
+      "options": [
+        "Non-payment of money owed to the Project Company",
+        "A slow reply to a minor request for information",
+        "Expropriation of the right to use the assets",
+        "Actions that prevent the Project Company performing"
+      ],
+      "answer": 1,
+      "explanation": "Authority default events are so severe that they completely frustrate the Project Company's ability to perform, such as non-payment or expropriation (Ch 7 §18.2.1). A slow reply is not."
+    },
+    {
+      "question": "Which list shows events that can be Project Company default?",
+      "options": [
+        "Expropriation, non-payment and blocking of access",
+        "Floods, earthquakes and other natural disasters",
+        "Performance failures, insolvency and loan cross-defaults",
+        "Equity sales, syndication and loan administration"
+      ],
+      "answer": 2,
+      "explanation": "Project Company defaults range from performance defaults to insolvency and cross-defaults under the loan agreements (Ch 7 §18.2.2). Expropriation and non-payment are authority defaults."
+    },
+    {
+      "question": "A Project Company in default submits a vague remedial plan, and termination now looks likely. What should the authority have done earlier to reduce this risk?",
+      "options": [
+        "Accepted any remedial plan that the lenders approve",
+        "Terminated the contract as soon as default occurred",
+        "Left the plan's content to the Project Company",
+        "Set explicit requirements for remedial plans and monitor them"
+      ],
+      "answer": 3,
+      "explanation": "Default leads to termination if remedy steps are inadequate; this may be avoided by being explicit about remedial plan requirements and monitoring them closely (Ch 7 §18.2.2)."
+    },
+    {
+      "question": "A Project Company is in serious default. Its lenders propose to step in and sell its rights to a new Project Company. How should the authority respond?",
+      "options": [
+        "Give the lenders every opportunity to do this",
+        "Refuse and terminate the contract immediately",
+        "Allow it only if the authority repays the debt",
+        "Let the defaulting sponsors decide the outcome"
+      ],
+      "answer": 0,
+      "explanation": "Lenders should be given every opportunity to step in and even to dispose of the Project Company's rights to a new Project Company (Ch 7 §18.2.2)."
+    },
+    {
+      "question": "Termination for Project Company default has become a real possibility. What should the authority do before it decides?",
+      "options": [
+        "Decide alone, so that the process stays confidential",
+        "Consult lenders and ministries, and weigh all consequences",
+        "Consider only the compensation amount it must pay",
+        "Issue a termination notice to pressure the lenders"
+      ],
+      "answer": 1,
+      "explanation": "The authority should communicate with lenders and all relevant ministries, and decide only after full consideration of financial and non-financial consequences (Ch 7 §18.2.2)."
+    },
+    {
+      "question": "A major earthquake stops a hospital PPP from operating. What must both parties do first?",
+      "options": [
+        "Terminate the contract immediately for force majeure",
+        "Stop all payments and delay any insurance claims",
+        "Mitigate their losses and try to keep the contract intact",
+        "Start a refinancing to cover the lost revenue"
+      ],
+      "answer": 2,
+      "explanation": "On a force majeure event, both parties must mitigate losses and attempt to keep the contract intact; termination comes only if the event continues for the contractual period (Ch 7 §18.2.3)."
+    },
+    {
+      "question": "A force majeure event has lasted four months. The contract allows termination only after the event has continued for six months. What can the authority do now?",
+      "options": [
+        "Terminate at once, because force majeure has occurred",
+        "Terminate for Project Company default instead",
+        "Claim a return on equity from the Project Company",
+        "Not terminate yet; keep mitigating and keep the contract going"
+      ],
+      "answer": 3,
+      "explanation": "Either party may terminate only if the event continues for the period specified in the contract, typically 6 or 12 months (Ch 7 §18.2.3)."
+    },
+    {
+      "question": "After a force majeure event, what does the Guide say about insurance?",
+      "options": [
+        "Claims must be lodged carefully to get the maximum proceeds",
+        "Insurance claims can only be made after termination",
+        "Insurance proceeds always go straight to the authority",
+        "Insurance is irrelevant, because the risk is shared"
+      ],
+      "answer": 0,
+      "explanation": "The amount of insurance proceeds is an important consideration, so care must be taken in lodging claims and receiving the maximum proceeds (Ch 7 §18.2.3)."
+    },
+    {
+      "question": "A Project Company says the handback rules mean the authority wants to use the assets forever. What is the real purpose of the residual life requirement?",
+      "options": [
+        "To let the authority use the assets indefinitely",
+        "To avoid having to replace all assets at the same time",
+        "To make sure every asset is brand new at expiry",
+        "To raise the value of the contract for retendering"
+      ],
+      "answer": 1,
+      "explanation": "The aim is not indefinite use, but to make sure the authority is not forced to replace all the assets needed for the services at once at expiry, so the assets must have some residual life (Ch 7 §21.3). Brand-new assets are not required."
+    },
+    {
+      "question": "A ministry plans to end a PPP for convenience next year. Which preparation does the Guide require?",
+      "options": [
+        "Keep it secret from the Project Company until the end",
+        "Leave the asset and IP issues for the courts to decide",
+        "Plan it like an expiry and budget for the compensation",
+        "Wait for a default so that compensation will be lower"
+      ],
+      "answer": 2,
+      "explanation": "Unilateral termination should be planned like expiry, covering assets, operations, IP and service continuity, and the compensation must be budgeted (Ch 7 §18.2.4)."
+    },
+    {
+      "question": "Statement 1: On termination, the contractual relationship ends, and so does the provision of services under the contract. Statement 2: On termination, all project assets automatically remain with the Project Company.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. Statement 2 is false: on termination the assets are divided between the parties, obligations are settled and compensation is calculated (Ch 7 §18.3)."
+    },
+    {
+      "question": "After a rail PPP is terminated, the authority fears trains will stop because of a lack of parts. Which of its priorities addresses this?",
+      "options": [
+        "Ensuring continued supply of spares and consumables",
+        "Appointing qualified people to calculate compensation",
+        "Preparing claims for any amounts owed to the authority",
+        "Holding a closure event to thank the project staff"
+      ],
+      "answer": 0,
+      "explanation": "One of the authority's priorities after termination is ensuring continued supply of spares and consumables to maintain operations (Ch 7 §18.3)."
+    },
+    {
+      "question": "Which of these is NOT one of the authority's priorities after termination listed in the Guide?",
+      "options": [
+        "Securing all assets that belong to the authority",
+        "Negotiating a refinancing with new lenders",
+        "Securing the IP needed to operate the assets",
+        "Transferring the employees needed for operations"
+      ],
+      "answer": 1,
+      "explanation": "The priorities cover service continuity, assets, spares, IP, employees, liabilities and claims, compensation experts and communication (Ch 7 §18.3). Refinancing is not among them."
+    },
+    {
+      "question": "Statement 1: After termination, the authority should communicate continuously with all stakeholders. Statement 2: After termination, the authority should prepare claims for any amounts owed to it.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. Liaising with all stakeholders and preparing claims for amounts owed are both listed priorities after termination (Ch 7 §18.3)."
+    },
+    {
+      "question": "A 30-year PPP reaches its planned end date with the assets in the agreed condition. What termination compensation is due?",
+      "options": [
+        "Debt plus equity",
+        "Market value",
+        "Return on equity",
+        "None"
+      ],
+      "answer": 3,
+      "explanation": "Table 7.13 shows that compensation at expiry is nil (Ch 7 §18.4)."
+    },
+    {
+      "question": "A PPP is terminated because the authority stopped paying the Project Company. What compensation is typically due?",
+      "options": [
+        "Debt, equity, return on equity and hedge breakage costs",
+        "Outstanding debt only, less any deductions made",
+        "The market value of the remaining contract period",
+        "Debt and equity, but with no return on equity"
+      ],
+      "answer": 0,
+      "explanation": "For authority default, Table 7.13 gives debt plus equity (including shareholder loans), plus return on equity, plus hedge breakage costs (Ch 7 §18.4)."
+    },
+    {
+      "question": "Which compensation typically applies when a PPP ends because of Project Company default?",
+      "options": [
+        "Debt plus equity plus the full return on equity",
+        "Market value of the remaining period, or a share of debt",
+        "Nil compensation, whatever the legal regime",
+        "Equity only, less the dividends already paid out"
+      ],
+      "answer": 1,
+      "explanation": "For Project Company default, compensation depends on the regime but is typically the market value of the remaining contract period or a percentage of outstanding debt (Ch 7 §18.4)."
+    },
+    {
+      "question": "A PPP ends for force majeure. The shareholders have already received dividends and interest on their shareholder loans. How are these treated in the compensation?",
+      "options": [
+        "They are ignored in the calculation",
+        "They are added to the amount paid",
+        "They are deducted from the amount paid",
+        "They must first be repaid to lenders"
+      ],
+      "answer": 2,
+      "explanation": "Force majeure compensation covers debt and breakage costs, plus shareholder loans and equity, less interest and dividends already paid to shareholders (Ch 7 §18.4)."
+    },
+    {
+      "question": "An authority terminates for Project Company default in a large, liquid market with many interested investors. How is the true market value best found?",
+      "options": [
+        "By asking the lenders to set a fair value",
+        "By using the base case equity IRR alone",
+        "By using the original construction cost",
+        "By retendering the remaining contract period openly"
+      ],
+      "answer": 3,
+      "explanation": "The true value is found by retendering the remaining period in an open, competitive market; an expert valuation is the fallback in illiquid markets (Ch 7 §18.4)."
+    },
+    {
+      "question": "What should the authority's exit strategy be based on?",
+      "options": [
+        "The contract's provisions on termination and expiry",
+        "The lenders' plans for refinancing the project",
+        "The Project Company's latest business plan",
+        "The criteria used in the original bid evaluation"
+      ],
+      "answer": 0,
+      "explanation": "The exit strategy is based on the PPP contract's provisions on termination and expiry (Ch 7 §20)."
+    },
+    {
+      "question": "What should the post-implementation review assess?",
+      "options": [
+        "Only the final compensation payment made",
+        "Key deliverables, VfM, quality and innovation",
+        "The lenders' return on their project loans",
+        "The bid scores given to losing bidders"
+      ],
+      "answer": 1,
+      "explanation": "The review assesses key deliverables, VfM, quality and project innovation (Ch 7 §20)."
+    },
+    {
+      "question": "A PPP expired eight months ago, and no post-implementation review has taken place yet. What has gone wrong?",
+      "options": [
+        "It should wait until two years after expiry",
+        "It was needed only after early termination",
+        "It should have been done within six months of expiry",
+        "It should have been done by the lenders"
+      ],
+      "answer": 2,
+      "explanation": "The exit strategy should plan a post-implementation review within six months of the expiry or termination date (Ch 7 §20)."
+    },
+    {
+      "question": "Which element of the exit strategy helps the authority to improve how it manages future PPPs?",
+      "options": [
+        "An extension option exercised by default",
+        "A final refinancing of the project debt",
+        "A final increase in the unitary payment",
+        "Steps to build the lessons learned into daily work"
+      ],
+      "answer": 3,
+      "explanation": "The exit strategy includes the steps taken to integrate the project's lessons into the authority's day-to-day work (Ch 7 §20)."
+    },
+    {
+      "question": "When should the exit strategy be reviewed?",
+      "options": [
+        "Regularly, with robust plans by three years before expiry",
+        "Only once, at the time the contract is signed",
+        "Only in the final month before the contract ends",
+        "Only after a termination notice has been served"
+      ],
+      "answer": 0,
+      "explanation": "The exit strategy should be reviewed at appropriate points and revised so robust plans are in place three years before expiry (Ch 7 §20)."
+    },
+    {
+      "question": "In a mature PPP market, when does experience suggest the authority should begin planning for handback?",
+      "options": [
+        "One year before expiry",
+        "Five to seven years before expiry",
+        "On the expiry date itself",
+        "Within six months after expiry"
+      ],
+      "answer": 1,
+      "explanation": "The 2021 EPEC guide notes that mature market experience suggests handback planning should begin five to seven years before expiry (Ch 7 §21.1)."
+    },
+    {
+      "question": "Which of these is NOT a key handback action named in the 2021 EPEC guide?",
+      "options": [
+        "Enforcing ongoing maintenance duties",
+        "Ensuring the final payments are made",
+        "Raising the Project Company's gearing",
+        "Reviewing scope against current strategy"
+      ],
+      "answer": 2,
+      "explanation": "Key handback actions include enforcing maintenance, ensuring final payments, reviewing scope, planning a smooth transition and gathering data for a final evaluation (Ch 7 §21.1)."
+    },
+    {
+      "question": "At contract signature, what must the parties agree about the end of the contract term?",
+      "options": [
+        "The share of any future refinancing gain",
+        "The exact sale price of each asset at expiry",
+        "The name of the future operator after expiry",
+        "Which assets the authority will need at the end"
+      ],
+      "answer": 3,
+      "explanation": "At signature the parties must agree which assets the authority will require at the end of the contract term (Ch 7 §21.2)."
+    },
+    {
+      "question": "An authority will need a water treatment plant after its PPP expires. What should the contract provide for?",
+      "options": [
+        "Transfer of possession and unencumbered title at expiry",
+        "A lease of the plant from the lenders after expiry",
+        "Title that stays with the Project Company forever",
+        "A purchase of the plant at market value on expiry"
+      ],
+      "answer": 0,
+      "explanation": "Where the authority needs the assets, the contract should provide for transfer of possession and unencumbered title on the expiry date (Ch 7 §21.2)."
+    },
+    {
+      "question": "What motive lies behind a Project Company reducing upkeep late in its contract?",
+      "options": [
+        "Lenders require it to lower its operating costs",
+        "Money saved on upkeep boosts its investment returns",
+        "The authority stops applying deductions then",
+        "Assets no longer need upkeep after many years"
+      ],
+      "answer": 1,
+      "explanation": "The Project Company has an incentive to reduce maintenance in later years because the money saved boosts returns, so the contract needs a pre-expiry procedure (Ch 7 §21.2)."
+    },
+    {
+      "question": "Which is the correct order of the steps in a pre-expiry handback survey?",
+      "options": [
+        "Inspect remediation, cost it, list items, then examine assets",
+        "Cost remediation, examine assets, inspect, then list items",
+        "Examine assets, list items, plan remediation, cost it, then inspect",
+        "List items, inspect, examine assets, then cost remediation"
+      ],
+      "answer": 2,
+      "explanation": "The survey examines the assets, schedules items needing remediation, develops a programme, ascertains the costs, and inspects that the work is properly completed (Ch 7 §21.2)."
+    },
+    {
+      "question": "A hospital PPP sets a handback rule for its equipment. Which requirement matches the Guide's example?",
+      "options": [
+        "Every item of equipment must be brand new at handback",
+        "Each item must remain usable for at least three years",
+        "No remaining life requirement, since assets are replaced",
+        "An average remaining life of at least one-third of the original"
+      ],
+      "answer": 3,
+      "explanation": "The Guide's hospital example requires categories of equipment to have an average remaining useful life of at least one-third; the three-year rule is the toll road example (Ch 7 §21.3)."
     }
   ]
 }

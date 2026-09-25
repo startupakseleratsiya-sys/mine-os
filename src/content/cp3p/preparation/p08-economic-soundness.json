@@ -196,23 +196,23 @@
       "question": "A ministry has completed a CBA showing a strongly positive eNPV for a new hospital. The minister says this proves the hospital should be delivered as a PPP. What is the correct response?",
       "options": [
         "Agree, because a positive eNPV means the PPP gives value for money",
-        "Explain that CBA shows economic merit, while PPP suitability and VfM decide the procurement route",
-        "Repeat the CBA with a higher discount rate to reflect PPP finance",
+        "Explain that CBA shows economic merit, not the best procurement route",
+        "Agree, provided the lenders confirm the project is bankable",
         "Agree, provided the eIRR is above the private partner's target return"
       ],
       "answer": 1,
-      "explanation": "CBA establishes economic feasibility irrespective of procurement mode; it is not designed to choose the procurement route. VfM analysis compares procurement options, and the possibility of a PPP does not change the CBA discount rate."
+      "explanation": "CBA establishes economic feasibility irrespective of procurement mode; it is not designed to choose the procurement route. PPP suitability and VfM analysis compare procurement options, and neither bankability nor the private return decides economic merit (Ch 3 §8, §8.1)."
     },
     {
       "question": "A rural water project has benefits to society that exceed its costs, but user tariffs will not cover its costs. How should it be described?",
       "options": [
         "Financially viable but not economically viable",
         "Neither financially nor economically viable",
-        "Economically viable but not financially viable, with a viability gap",
+        "Economically viable but not financially viable",
         "Financially and economically viable"
       ],
       "answer": 2,
-      "explanation": "Economic viability means benefits to society exceed costs to society; financial viability means revenues exceed costs. Here revenues fall short, so there is a viability gap even though the project is economically viable."
+      "explanation": "Economic viability means benefits to society exceed costs to society; financial viability means revenues exceed costs. Here revenues fall short, so the project is economically but not financially viable and has a viability gap (Box 3.7)."
     },
     {
       "question": "An analyst is converting a road project's financial costs into economic costs. Unemployment in the region is high and wages are set by a legal minimum. What should the analyst do with labour costs?",
@@ -240,8 +240,8 @@
       "question": "A project's cost estimates include VAT, import duties on equipment and social charges within wages. What should happen to these items in the CBA?",
       "options": [
         "Keep them, because they are real cash payments",
-        "Remove them, because they are transfers to government rather than costs to society",
-        "Keep VAT but remove import duties",
+        "Remove them, as they are transfers rather than real costs",
+        "Keep VAT on costs but remove the import duties",
         "Double them to reflect their effect on the economy"
       ],
       "answer": 1,
@@ -286,7 +286,7 @@
         "Ignore climate risks until after financial close, when data will be better",
         "Include only the cost of the concrete sea wall, not any co-benefits",
         "Choose the lowest capital cost option, since adaptation always costs more",
-        "Include hazard and resilience costs, consider nature-based options, and quantify co-benefits"
+        "Include climate costs and co-benefits, and consider NbS"
       ],
       "answer": 3,
       "explanation": "The Guide says climate costs, resilience measures and co-benefits should be included at screening, and NbS should be considered, often as low-cost alternatives. Adaptation usually costs much less than loss, damage and disruption."
@@ -294,13 +294,453 @@
     {
       "question": "Which statement best describes the Triple Dividend of Resilience?",
       "options": [
-        "Resilient investment avoids disaster losses, stimulates development and brings multi-purpose co-benefits",
+        "It avoids disaster losses, spurs development and adds co-benefits",
         "Resilient investment pays dividends to equity investors in three stages",
         "Resilience benefits only arise if a climate disaster actually occurs",
         "Resilience projects need three separate cost-benefit analyses"
       ],
       "answer": 0,
       "explanation": "TDR says resilient infrastructure generates income through avoided losses, stimulates additional development, and encourages multi-purpose design. Research shows co-benefits accrue whether or not the climate risk occurs, so the third option is wrong."
+    },
+    {
+      "question": "A transport ministry's draft CBA counts only the time saved by toll-paying drivers and the operator's profit. What is the main flaw?",
+      "options": [
+        "A CBA should value the consequences for all members of society",
+        "A CBA should count only the effects on the government budget",
+        "A CBA should leave drivers out, because they pay tolls",
+        "Nothing, because operator profit is the main benefit"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a CBA quantifies in money the value of all consequences to all members of society, asking whether societal welfare increases (Ch 3 §8). Counting only users and the operator misses wider costs and benefits."
+    },
+    {
+      "question": "An analyst projects the costs and benefits of a new bridge over 10 years, although the bridge will last about 60 years. What should the analyst change?",
+      "options": [
+        "Nothing, because a CBA always uses the PPP contract term",
+        "Nothing, because long periods add too much uncertainty",
+        "Use a period in line with the asset's useful economic life",
+        "Use exactly 30 years, the standard period for every CBA"
+      ],
+      "answer": 2,
+      "explanation": "CBA takes a long-term perspective, and the period considered has to be in line with the useful economic life of the infrastructure asset (Ch 3 §8)."
+    },
+    {
+      "question": "The best technical option for a hospital has already been chosen, so the CBA is used only to confirm the investment decision. What is the project compared against?",
+      "options": [
+        "Nothing, because only one option remains",
+        "The private partner's financial model",
+        "The public sector comparator",
+        "The 'do nothing' option"
+      ],
+      "answer": 3,
+      "explanation": "Even when CBA only confirms a chosen option, it still compares options: the 'project' and the 'doing nothing option' (Ch 3 §8). The PSC is a VfM tool."
+    },
+    {
+      "question": "A PPP for a rural road needs a large public contribution because it is not commercially feasible. Why must the government show that the project creates net benefits for society?",
+      "options": [
+        "Infrastructure is always public investment, so funds must be well spent",
+        "Lenders will always require a positive eNPV before financial close",
+        "PPPs that receive public money are exempt from value for money tests",
+        "The private partner's equity return depends directly on the eNPV"
+      ],
+      "answer": 0,
+      "explanation": "Whatever the procurement route, public infrastructure is always a public investment. When public resources are used, under traditional procurement or a PPP, the government must demonstrate they produce net benefits for society (Ch 3 §8)."
+    },
+    {
+      "question": "A detailed CBA for a school PPP struggles to put a money value on education outcomes. According to the Guide, what may a PPP in such social sectors aim for instead?",
+      "options": [
+        "Maximising user fee revenue per pupil",
+        "Monetising every outcome before any decision",
+        "Long-run cost minimisation for a set of outputs",
+        "Replacing the CBA with a financial NPV only"
+      ],
+      "answer": 2,
+      "explanation": "In social sectors a PPP may aim simply for long-run cost minimisation with respect to a set of outputs or performance measures, because health and education benefits are not always easy to monetise (Ch 3 §8.1)."
+    },
+    {
+      "question": "A country is preparing its first PPPs and lacks the data needed for a full value for money analysis. Which approach does the Guide suggest for project screening and selection?",
+      "options": [
+        "Skip economic testing until enough data exist",
+        "Use the bidders' own VfM models instead",
+        "Approve projects based on political priority",
+        "CBA may be the more appropriate approach"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says CBA may be a more appropriate approach to screening and selection in less mature PPP markets, or where there is insufficient data for a full VfM analysis (Ch 3 §8.1)."
+    },
+    {
+      "question": "According to the Guide, how is the first decision to propose a project for the PPP route usually made?",
+      "options": [
+        "By a qualitative assessment by the contracting authority",
+        "By a full quantitative value for money analysis of options",
+        "By comparing the project's eIRR with the discount rate",
+        "By an auction held among the interested investors"
+      ],
+      "answer": 0,
+      "explanation": "The initial decision to propose a project for the PPP route is based on a qualitative assessment by contracting authorities; VfM analysis comes afterwards (Ch 3 §8.1)."
+    },
+    {
+      "question": "A ministry decided to procure a motorway as a PPP before any VfM analysis was done. In practice, how is VfM analysis then often used?",
+      "options": [
+        "To recalculate the project's economic net present value",
+        "To choose between the remaining technical design options",
+        "To examine the PPP's structure and risk allocation",
+        "To set the government's official social discount rate"
+      ],
+      "answer": 2,
+      "explanation": "Because the PPP decision is often taken before VfM analysis, VfM is often used to examine and determine the structure and risk allocation of the proposed PPP, rather than as a real input into the PPP decision (Ch 3 §8.1)."
+    },
+    {
+      "question": "Consider two statements. 1: VfM analysis focuses on valuing and allocating risk in a way that CBA does not always do. 2: VfM analysis is typically applied to economic infrastructure projects already earmarked as PPPs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are in the Guide: VfM is typically applied to economic infrastructure already earmarked as PPPs, and its key additional difference from CBA is its focus on valuing and allocating risk (Ch 3 §8.1)."
+    },
+    {
+      "question": "A new metro raises land values near its stations, benefiting owners who never ride it. How should this effect be treated in the CBA?",
+      "options": [
+        "Ignored, because it does not affect the metro's target users",
+        "As an external benefit to third parties, included in the CBA",
+        "As financial revenue that belongs to the metro operator",
+        "As a cost, because higher land values hurt future buyers"
+      ],
+      "answer": 1,
+      "explanation": "Benefits are taken in the broad sense, including external ones that affect third parties beyond the target population. Economic development such as higher land values is a typical positive externality (Box 3.8)."
+    },
+    {
+      "question": "A new treatment plant replaces an old, polluting one and lowers pollution and running costs. How is this benefit captured in the CBA?",
+      "options": [
+        "It is implicit in comparing the costs of the alternatives",
+        "It is added twice, once as a saving and once as a benefit",
+        "It is ignored, because it creates no new revenue",
+        "It is captured only through the tariff level"
+      ],
+      "answer": 0,
+      "explanation": "Where benefits appear as cost savings, their quantification is implicit in the cost estimates of the alternatives being compared (Ch 3 §8). Adding them again would be double counting."
+    },
+    {
+      "question": "Which of the following best describes an externality?",
+      "options": [
+        "A payment that the private partner makes to its subcontractors",
+        "A tax that the government collects on the project's revenue",
+        "A benefit that users pay for directly through their tariffs",
+        "An effect on others that is not reflected in the prices charged"
+      ],
+      "answer": 3,
+      "explanation": "The Guide defines externalities as situations where production or consumption imposes costs or benefits on others that are not reflected in the prices charged for the goods and services (Ch 3 §8)."
+    },
+    {
+      "question": "The only cement supplier in a country is a monopoly and charges prices far above its costs. What should the CBA use to value cement?",
+      "options": [
+        "The monopoly price, because it is the market price",
+        "A shadow price reflecting the real cost to society",
+        "Zero, because cement is a sunk cost",
+        "The monopoly price with VAT added"
+      ],
+      "answer": 1,
+      "explanation": "Market prices are usually the best measure of opportunity cost, but not when distorted by monopolies or other market imperfections. Then a shadow price is estimated and used instead (Ch 3 §8, §8.3)."
+    },
+    {
+      "question": "A ferry is the only way to cross a lake, and a regular user sees no alternative at all. Under the willingness-to-pay concept quoted in the Guide, the highest price this user would pay equals what?",
+      "options": [
+        "The economic value of a competing alternative",
+        "The operator's full cost of running the trip",
+        "Its utility to the user: the reservation price",
+        "The tariff currently set by the regulator"
+      ],
+      "answer": 2,
+      "explanation": "If a person sees no alternative offering, the highest amount they will pay equals the utility of the good, which is the reservation price. Only when an alternative with economic value below utility exists does the ceiling become that economic value, the maximum price (Ch 3 §8)."
+    },
+    {
+      "question": "In an emerging economy, electricity tariffs are set below economic cost. An energy-efficiency project looks weak when its savings are valued at official tariffs. What should the CBA do?",
+      "options": [
+        "Reject the project, because its commercial NPV is weak",
+        "Value the savings at tariffs and then add VAT",
+        "Treat the savings as a sunk cost of zero",
+        "Value the savings at the economic cost of electricity"
+      ],
+      "answer": 3,
+      "explanation": "The Guide warns that a commercial NPV would tend to reject good energy-efficiency projects because savings at depressed tariffs are too low. Valuing savings at the economic cost of electricity gives the correct CBA outcome (Ch 3 §8.3)."
+    },
+    {
+      "question": "A government offers an old, disused tunnel shaft that has no possible alternative use to a new metro project. How should the shaft be valued in the CBA?",
+      "options": [
+        "At its original construction cost",
+        "At the market value of nearby land",
+        "At zero, because it is a sunk cost",
+        "At the cost of building a new shaft"
+      ],
+      "answer": 2,
+      "explanation": "A publicly provided asset is normally included at market value to reflect its opportunity cost. But where there is no alternative use, its cost is deemed zero because it is a sunk cost (Ch 3 §8.3)."
+    },
+    {
+      "question": "A water PPP's projected revenues include VAT charged to customers. How should the CBA treat this VAT?",
+      "options": [
+        "Keep VAT on revenues but remove VAT on costs",
+        "Remove VAT from revenues as well as from costs",
+        "Double the VAT to show the fiscal impact",
+        "Keep all VAT, because customers really pay it"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says VAT must be removed not only from costs but also from revenues, because taxes are public revenue rather than a cost or benefit to society (Ch 3 §8.3)."
+    },
+    {
+      "question": "A fuel tax exists to discourage air pollution. The analyst decides to keep this tax in the CBA. What must the analyst also make sure of?",
+      "options": [
+        "That the pollution cost is also counted separately in full",
+        "That the discount rate is raised to reflect the tax",
+        "That the tax is treated as a sunk cost",
+        "That the pollution effect is not counted a second time"
+      ],
+      "answer": 3,
+      "explanation": "Taxes that correct externalities, such as energy taxes against pollution, may be kept, but an adjustment is needed for the externality to avoid double counting (Ch 3 §8.3)."
+    },
+    {
+      "question": "In the Guide's Brazilian light rail example, O&M costs are 20 million a year, labour is 50% of O&M, and the O&M labour shadow factor is 0.9. What is the economic O&M cost?",
+      "options": [
+        "18 million a year",
+        "19 million a year",
+        "20 million a year",
+        "10 million a year"
+      ],
+      "answer": 1,
+      "explanation": "Economic O&M = 20 × (50% × 1 + 50% × 0.9) = 20 × 0.95 = 19 million a year (Box 3.10). Only the labour half is adjusted, so the cost falls by 1 million, not 2 million."
+    },
+    {
+      "question": "An analyst builds a CBA in nominal terms with 6% general inflation and assumes that every cost rises with the consumer price index. What does the Guide advise?",
+      "options": [
+        "Keep nominal terms, because relative prices do not matter",
+        "Use real terms and adjust items not expected to follow the CPI",
+        "Add inflation to the discount rate and change nothing else",
+        "Ignore inflation, because it is a transfer to government"
+      ],
+      "answer": 1,
+      "explanation": "The Guide advises building projections in real terms and correcting cost items that are likely not to follow the general CPI; these are relative price changes (Ch 3 §8)."
+    },
+    {
+      "question": "A PPP's payment obligations will be in US dollars, while the ministry's budget is in local currency. How should the CBA projections be built?",
+      "options": [
+        "Always in local currency, ignoring the dollar exposure",
+        "In the currency of the project's payment obligations",
+        "In euros, as a neutral currency for comparison",
+        "In whichever currency gives the higher eNPV"
+      ],
+      "answer": 1,
+      "explanation": "The currency is usually the decision-maker's budget currency, but the Guide advises building projections on the currency of the project's payment obligations; any foreign exchange risk is assessed more fully in the VfM (Ch 3 §8)."
+    },
+    {
+      "question": "Two options for a water network have similar eNPVs, but one uses far more capital than the other. Which indicator may be more appropriate for choosing between them?",
+      "options": [
+        "The eIRR, because eNPV ignores the volume of resources used",
+        "The eNPV alone, because it is always a defined number",
+        "The financial NPV of the private operator of the network",
+        "The simple payback period calculated in nominal terms"
+      ],
+      "answer": 0,
+      "explanation": "eNPV does not consider the volume of resources employed. Where alternatives differ significantly in resource consumption, the eIRR may be more appropriate, and it is prudent to consider both (Ch 3 §8.2)."
+    },
+    {
+      "question": "A ministry sets its CBA discount rate from the interest rate on its longest-term government debt, with inflation removed. Which approach is this?",
+      "options": [
+        "The social time preference rate",
+        "The real GDP growth rate",
+        "The opportunity cost of capital",
+        "The private sector cost of equity"
+      ],
+      "answer": 2,
+      "explanation": "Box 3.9 describes using the opportunity cost of capital, such as the public debt interest rate at the longest term available, with inflation removed to give a real rate (Ch 3 §8.2)."
+    },
+    {
+      "question": "Which of the following describes the social time preference rate (STPR)?",
+      "options": [
+        "The interest rate on the longest-term public debt, in real terms",
+        "The expected real growth rate of the national economy",
+        "The return that lenders demand from a PPP project company",
+        "The value society places on present versus future consumption"
+      ],
+      "answer": 3,
+      "explanation": "The STPR is defined as the value society attaches to present, as opposed to future, consumption; it is used in countries such as the United Kingdom (Box 3.9). The other options describe other approaches or private returns."
+    },
+    {
+      "question": "A government uses its targeted real GDP growth rate as the CBA discount rate. What is the effect on project approval?",
+      "options": [
+        "Only projects adding welfare at least equal to growth will pass",
+        "All projects will pass, provided they are procured as PPPs",
+        "The discount rate will fall whenever general inflation rises",
+        "Any project with a positive financial cash flow will pass"
+      ],
+      "answer": 0,
+      "explanation": "Using the expected or targeted real GDP growth rate means only projects expected to increase welfare at least as much as the economy's growth rate are developed (Box 3.9)."
+    },
+    {
+      "question": "A screening team's CBA reports a single, optimistic scenario for demand and construction cost. What should the team add to reflect risk and uncertainty?",
+      "options": [
+        "Ranges of values for critical variables through sensitivities",
+        "The removal of every benefit that is still uncertain",
+        "A switch to the single highest-cost case for all variables",
+        "A statement that all risks will pass to the private operator"
+      ],
+      "answer": 0,
+      "explanation": "Risks must be included through proper adjustments and by showing ranges of values for sensitivities on critical factors and variables, which test the strength of the business case (Ch 3 §8.4)."
+    },
+    {
+      "question": "An advisor proposes a higher discount rate in the CBA for a new hospital, because the hospital may later be delivered as a PPP with private finance. What should the analyst do?",
+      "options": [
+        "Use the higher rate, since private finance costs more",
+        "Use the private partner's expected return on equity",
+        "Use a lower rate, since a PPP transfers risk away",
+        "Keep the same rate, as a possible PPP does not change it"
+      ],
+      "answer": 3,
+      "explanation": "CBA evaluates economic merit regardless of how the project is delivered, so the fact that it might become a PPP does not affect the discount rate (Ch 3 §8.2). Financing costs and risk transfer are matters for the VfM analysis."
+    },
+    {
+      "question": "A resilient port design may improve access to green financing and raise the project's value. How should this be treated in the CBA?",
+      "options": [
+        "Ignored, because financing is never an economic effect",
+        "Quantified as a co-benefit of the climate investment",
+        "Counted as an extra cost of adaptation",
+        "Left for the VfM analysis only"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says quantifying the benefits of risk reduction and co-benefits to the economy, such as access to green financing and enhanced project value, is vital (Ch 3 §8.5)."
+    },
+    {
+      "question": "A board wants to reject flood-proofing a rail line because it adds 5% to construction cost. What does the Guide's evidence suggest?",
+      "options": [
+        "Adaptation is never worth its extra cost within a PPP",
+        "Adaptation costs should always be passed in full to users",
+        "Adaptation is only needed after a first disaster has occurred",
+        "Adaptation often costs far less than loss, damage and disruption"
+      ],
+      "answer": 3,
+      "explanation": "Studies suggest adaptation costs can be significantly lower than the costs of asset loss, damage and service disruption from climate hazards, so climate-inclusive CBAs pay off in the long run (Ch 3 §8.5)."
+    },
+    {
+      "question": "Why does the Guide say climate risks must be assessed early in the PPP process?",
+      "options": [
+        "Their impacts can hit the contract long after financial close",
+        "Climate data legally expire once the PPP contract is signed",
+        "Lenders refuse to discuss climate issues after the bidding stage",
+        "Climate risk is always kept by the government, never shared"
+      ],
+      "answer": 0,
+      "explanation": "Climate impacts are uncertain in size and timing but can significantly affect PPP projects long after financial close; ignoring them can have devastating consequences for the contract (Ch 3 §8.5)."
+    },
+    {
+      "question": "A PPP will replant trees on degraded land near a river (reforestation). Under the Guide's three types of nature-based solutions, which type is this?",
+      "options": [
+        "Creating new ecosystems",
+        "Grey infrastructure",
+        "Sustainably managing or restoring ecosystems",
+        "Protecting and expanding existing ecosystems"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists agroforestry, reforestation and blue carbon as NbS that develop sustainable procedures for managing or restoring ecosystems. Rewetting peatland is protecting and expanding; green roofs create new ecosystems (Ch 3 §8.5)."
+    },
+    {
+      "question": "A school PPP adds green roofs and green walls to its new buildings. How does the Guide classify this nature-based solution?",
+      "options": [
+        "It creates new ecosystems",
+        "It protects existing ecosystems",
+        "It restores degraded ecosystems",
+        "It is not an NbS at all"
+      ],
+      "answer": 0,
+      "explanation": "The third type of NbS creates new ecosystems that can sequester GHGs, for example green buildings including green roofs and walls (Ch 3 §8.5)."
+    },
+    {
+      "question": "At which stage of the PPP life cycle are nature-based solutions most impactful, according to the Guide?",
+      "options": [
+        "During construction, after the design is fixed",
+        "At handback, when the asset returns to government",
+        "During dispute resolution in operations",
+        "Upstream, during project preparation and design"
+      ],
+      "answer": 3,
+      "explanation": "NbS should be explored at every stage, but particularly upstream, during PPP project preparation and design, when they are most impactful (Ch 3 §8.5)."
+    },
+    {
+      "question": "A city's green stormwater park provides recreation and cooling every year, even in years with no flood. Which dividend of the Triple Dividend of Resilience is this mainly?",
+      "options": [
+        "The first dividend: avoided disaster losses",
+        "The second dividend: stimulated development",
+        "The third dividend: multi-purpose co-benefits",
+        "No dividend, because no flood occurred"
+      ],
+      "answer": 2,
+      "explanation": "The third dividend is multi-purpose design that maximises co-benefits, and these accrue whether or not the climate risk occurs. In some NbS stormwater studies, over half of total benefits came from this dividend (Ch 3 §8.5)."
+    },
+    {
+      "question": "After a flood defence is built, households and businesses start investing in the protected area because they feel safer. Which TDR dividend does this show?",
+      "options": [
+        "Avoided disaster losses",
+        "Stimulated additional development",
+        "Multi-purpose co-benefits",
+        "Viability gap funding support"
+      ],
+      "answer": 1,
+      "explanation": "The second dividend is that resilient investment stimulates additional development through investments by households and businesses (Ch 3 §8.5). The Guide says the second and third dividends should be quantified in the CBA."
+    },
+    {
+      "question": "A climate risk assessment for a coastal road will analyse three components. Which set does the Guide name?",
+      "options": [
+        "Hazard, exposure and vulnerability",
+        "Likelihood, impact and insurance",
+        "Mitigation, adaptation and finance",
+        "Design, build and operate"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says climate risk assessments include the analysis of three components: hazard, exposure and vulnerability. Free online tools can support a first high-level assessment (Ch 3 §8.5)."
+    },
+    {
+      "question": "Future sea-level rise at a port site is very uncertain. Which method does the Guide highlight to help decision-makers deal with this uncertainty?",
+      "options": [
+        "Assuming that the current climate will stay the same",
+        "Leaving climate out until the data are certain",
+        "Using the highest discount rate available",
+        "Developing climate change and socioeconomic scenarios"
+      ],
+      "answer": 3,
+      "explanation": "A key method for climate risk assessment is developing climate change scenarios; non-climate scenarios such as socioeconomic ones may also apply. They show the implications of uncertainty for decisions (Ch 3 §8.5)."
+    },
+    {
+      "question": "At screening, a team wants a first view of how a new market PPP may affect women, men, girls and boys differently. What does the Guide suggest?",
+      "options": [
+        "A full gender audit carried out after financial close",
+        "A rapid gender analysis based mainly on existing data",
+        "No analysis at all until the contract has been signed",
+        "A survey limited to the staff of the bidding companies"
+      ],
+      "answer": 1,
+      "explanation": "At this early stage, a rapid gender analysis based mainly on pre-existing information can give first insights into gender impacts and social risks that may affect acceptability, cost or timing (Ch 3 §8.5)."
+    },
+    {
+      "question": "A CBA team decides not to put a money value on the improved sense of neighbourhood safety from a new street-lighting PPP. What should it do with this benefit?",
+      "options": [
+        "Drop the benefit completely from the analysis",
+        "Present it qualitatively alongside the numbers",
+        "Give it an arbitrary high money value instead",
+        "Count it as a reduction in the project's costs"
+      ],
+      "answer": 1,
+      "explanation": "If a benefit is not quantified, it should be treated qualitatively and included alongside the quantitative results, so that decision-makers still see important aspects (Ch 3 §8)."
+    },
+    {
+      "question": "An analyst uses a value of travel time taken from a study in a rich country for a CBA in a low-income country. What caution does the Guide give?",
+      "options": [
+        "None, because values of time are universal across countries",
+        "The foreign value must always be doubled for poorer countries",
+        "Care is needed, as willingness to pay differs between countries",
+        "Foreign values are never allowed in a national CBA"
+      ],
+      "answer": 2,
+      "explanation": "Values from studies in other countries can help where monetary values are hard to set, but care is needed because willingness to pay in one country may differ from another (Ch 3 §8)."
     }
   ]
 }

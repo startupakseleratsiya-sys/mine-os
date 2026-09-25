@@ -297,6 +297,446 @@
       ],
       "answer": 0,
       "explanation": "Statement 1 matches the Guide's list of PPP unit roles. Statement 2 is false: PPP units cannot perform miracles and will not help much where high-level political commitment is lacking."
+    },
+    {
+      "question": "Which is NOT one of the Guide's general principles for designing institutional arrangements for PPPs?",
+      "options": [
+        "Build on existing responsibilities and processes",
+        "Develop policies in parallel with the first projects",
+        "Create a new agency for each PPP function",
+        "Avoid overlaps and extra coordination needs"
+      ],
+      "answer": 2,
+      "explanation": "The five principles are: build on existing roles, fit the likely scale, develop in parallel with first projects, assign roles by incentives, information and competence, and avoid overlaps (Ch 2 §1.8). Creating new agencies for every function goes against them."
+    },
+    {
+      "question": "A small country expects only two or three PPPs in the next ten years. It is considering a large new PPP agency with 80 staff. Which principle should guide its decision?",
+      "options": [
+        "Fit the institutional architecture to the likely scale of the task",
+        "Build the largest possible agency to attract more investors",
+        "Copy the institutions of the biggest PPP markets exactly as they are",
+        "Wait to design any institutions until the program is large"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says institutional architecture should be appropriate to the likely scale of the task (Ch 2 §1.8). A large agency for a handful of deals would waste resources."
+    },
+    {
+      "question": "A government plans to spend five years perfecting every PPP policy and institution before starting its first project. What does the Guide advise?",
+      "options": [
+        "Finish every policy fully before any project is started",
+        "Start projects first and write the policies only if problems arise later",
+        "Develop policies and institutions in parallel with the first projects",
+        "Let the first bidders design the institutions for government"
+      ],
+      "answer": 2,
+      "explanation": "One of the general principles is to develop policies and architectures in parallel with the first projects (Ch 2 §1.8), so that lessons from real deals shape the framework."
+    },
+    {
+      "question": "A government wants to give the task of checking fiscal affordability of PPPs to a ministry that has no access to budget data and whose success is judged by how many PPPs it signs. Which principle does this break?",
+      "options": [
+        "Develop policies and institutions in parallel with the first projects",
+        "Design the institutional architecture to fit the likely scale of the PPP program",
+        "Tailor the existing procurement rules to allow PPPs to be used",
+        "Assign roles to agencies with the right incentives, information and competence"
+      ],
+      "answer": 3,
+      "explanation": "Responsibilities should go to agencies with the incentives, information and competence to carry them out (Ch 2 §1.8). This ministry has neither the data nor neutral incentives for an affordability check."
+    },
+    {
+      "question": "Two separate agencies both review every PPP business case using the same checks, and projects are delayed while they coordinate. Which principle has the framework failed to follow?",
+      "options": [
+        "Build the architecture to suit the likely scale",
+        "Avoid creating overlaps and extra coordination needs",
+        "Develop policies alongside the first projects",
+        "Give sector agencies a continuing role in planning projects"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's principles include avoiding overlaps and additional coordination needs (Ch 2 §1.8). Duplicate reviews add delay without adding value."
+    },
+    {
+      "question": "A country already has public procurement and public financial management laws, and is now introducing PPPs. How does the Guide say these existing rules should be used?",
+      "options": [
+        "Replaced entirely by a separate PPP-only system",
+        "As the background framework, tailored to allow PPPs",
+        "Ignored, since PPPs use private finance instead of public funds",
+        "Applied to PPPs without any changes at all"
+      ],
+      "answer": 1,
+      "explanation": "Existing procurement and public financial management rules provide the background framework, which is then tailored to allow and support PPPs (Ch 2 §1.8). Replacing them would break the principle of building on what exists."
+    },
+    {
+      "question": "Which is NOT one of the four typical PPP responsibilities that the Guide says the framework should assign?",
+      "options": [
+        "Identifying and procuring PPP projects",
+        "Ensuring coordination and best practice",
+        "Public financial management of PPPs",
+        "Operating the service instead of the partner"
+      ],
+      "answer": 3,
+      "explanation": "The four typical responsibilities are identifying and procuring projects, ensuring coordination and best practice, public financial management, and approving projects (Ch 2 §1.8.1). Operating the service is the private partner's role."
+    },
+    {
+      "question": "An official's job is to check that the right steps were followed, that the analysis of a PPP is complete, that all agencies have commented, and that the approver has all the information it needs. Which responsibility is this?",
+      "options": [
+        "Identifying and procuring projects",
+        "Approving projects at decision points",
+        "Managing the contract after signing",
+        "Ensuring coordination and best practice"
+      ],
+      "answer": 3,
+      "explanation": "Ensuring coordination and best practice means checking process, completeness of analysis, comments from all relevant agencies, and full information for the approver (Ch 2 §1.8.1). Approving is a separate responsibility."
+    },
+    {
+      "question": "A treasury team checks whether the budget can pay a PPP's committed payments and also absorb spending if risks kept by government crystallise. Which responsibility is this?",
+      "options": [
+        "Approving PPP projects",
+        "Identifying PPP projects",
+        "Public financial management",
+        "Sounding out the market"
+      ],
+      "answer": 2,
+      "explanation": "Public financial management means ensuring enough fiscal space for direct liabilities and for retained risks that turn into fiscal expenditure (Ch 2 §1.8.1, §1.8.4)."
+    },
+    {
+      "question": "In Colombia, a sector ministry prepares a PPP and carries out the eligibility and Value for Money analyses. What does it then do with the results?",
+      "options": [
+        "Publish them as the tender documents",
+        "Submit them to the PPP unit",
+        "Send them to the lenders for approval",
+        "Keep them for internal use only"
+      ],
+      "answer": 1,
+      "explanation": "Under Colombia's PPP manual, procuring authorities conduct eligibility and VfM analyses and submit the results to the PPP unit; they also manage procurement (Box 2.17)."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for involving other bodies alongside sector agencies in developing PPPs?",
+      "options": [
+        "Sector agencies may have little experience with private finance",
+        "They may focus too little on VfM for government as a whole",
+        "They cannot provide coordination across all of government",
+        "Sector agencies are legally barred from signing PPP contracts"
+      ],
+      "answer": 3,
+      "explanation": "Sector agencies may lack private-finance experience, rigorous analysis skills or a whole-of-government VfM focus, and cannot coordinate across government (Ch 2 §1.8.3). They are usually the procuring authorities, so they are not barred from contracting."
+    },
+    {
+      "question": "A new PPP program relies on external advisors for most of the staff on each deal. Based on the Netherlands' experience, how is this mix likely to change?",
+      "options": [
+        "External advisors grow to nearly all of the staff",
+        "Advisors stop being used after the very first deal",
+        "Internal staff take a larger share as they gain skills",
+        "The mix stays about the same for the whole life of the program"
+      ],
+      "answer": 2,
+      "explanation": "In the Netherlands, external advisors were first about 75% of the staff on a PPP; this fell as internal staff became more qualified, and UK advisors were replaced by Dutch ones (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "A government creates a large inter-departmental committee for each PPP transaction, but it meets rarely and every decision needs all members. What risk does the Guide highlight?",
+      "options": [
+        "The committee will replace the procuring authority",
+        "The committee will remove the need for approvals",
+        "The committee may become a bureaucratic bottleneck",
+        "The committee will breach the procurement law"
+      ],
+      "answer": 2,
+      "explanation": "Inter-departmental committees help coordination, but their processes must be streamlined and efficient; otherwise they risk becoming bureaucratic bottlenecks (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "In British Columbia, when is each PPP project's steering committee set up, and how long does it stay in place?",
+      "options": [
+        "After financial close; it stays until hand-back of the asset",
+        "Before procurement begins; it stays through design and construction",
+        "After contract award; it stays in place only during the tender period",
+        "At screening; it is closed as soon as the RFP is issued"
+      ],
+      "answer": 1,
+      "explanation": "In British Columbia each project has a steering committee set up before procurement begins, with finance, infrastructure and procuring authority members; it remains through the Design and Construction Phase (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "A country wants its procurement agency to run PPP transactions, and a different body to check that private parties comply with their contracts during operations. Which example from the Guide fits this model?",
+      "options": [
+        "Jamaica, where the attorney general runs every tender",
+        "Chile, where the planning ministry signs every PPP contract",
+        "Peru, where sector regulators monitor contract compliance",
+        "Tanzania, where lenders monitor contract compliance"
+      ],
+      "answer": 2,
+      "explanation": "In Peru the procurement agency implements the PPP transaction, while sector regulatory agencies monitor the private parties' compliance with the contract (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "Which of the following is NOT usually a central agency in the Guide's sense?",
+      "options": [
+        "The ministry of transport",
+        "The treasury",
+        "The national planning agency",
+        "The attorney general's department"
+      ],
+      "answer": 0,
+      "explanation": "Central agencies have whole-of-government functions: finance ministry or treasury, economic planning, and legal compliance bodies such as the attorney general (Ch 2 §1.8.3). A transport ministry is a sector (line) agency."
+    },
+    {
+      "question": "What is the usual role of the central agencies in relation to the PPP framework?",
+      "options": [
+        "They manage each PPP contract day to day after signing",
+        "They act as the procuring authority for all PPP projects in every sector",
+        "They have no role once the PPP law has been passed",
+        "They help create it, and it then requires their advice at set points"
+      ],
+      "answer": 3,
+      "explanation": "Central agencies are generally involved in creating the PPP framework, which then requires their advice at particular points in project development (Ch 2 §1.8.3). Day-to-day contract management usually stays with the line agency."
+    },
+    {
+      "question": "Which is NOT one of the five gates in Victoria's gateway review process for PPPs?",
+      "options": [
+        "Strategic assessment",
+        "Readiness for market",
+        "Benefits evaluation",
+        "Financial close"
+      ],
+      "answer": 3,
+      "explanation": "Victoria's five gates for PPPs are strategic assessment, business case, readiness for market, readiness for service, and benefits evaluation (Box 2.18). Financial close is a transaction milestone, not a gate."
+    },
+    {
+      "question": "A state adopts a Victoria-style gateway review for high-value and high-risk projects. Who should carry out the review at each gate?",
+      "options": [
+        "The project team that prepared the business case",
+        "A panel of experts not directly involved in the project",
+        "The preferred bidder and its main lenders",
+        "The line minister and officials who are sponsoring the project"
+      ],
+      "answer": 1,
+      "explanation": "In Victoria, a panel of experts that is not directly involved in the project reviews it at key stages called gates (Box 2.18). Using the project's own team would remove the independence of the review."
+    },
+    {
+      "question": "In Chile, how does approval by the planning ministry relate to approval of a PPP by the finance ministry?",
+      "options": [
+        "Planning approval of the economic and social analysis is a prerequisite",
+        "The finance ministry must approve before the planning ministry acts",
+        "The two approvals are alternatives, so either one is enough",
+        "The planning ministry can overrule any finance ministry approval later on"
+      ],
+      "answer": 0,
+      "explanation": "In Chile, Ministry of Planning approval of the project's economic and social analysis is a prerequisite for the Ministry of Finance to approve a PPP (Box 2.19)."
+    },
+    {
+      "question": "Under Tanzania's PPP law, an implementing agency has finished negotiating a PPP contract. What must happen before the contract is executed?",
+      "options": [
+        "The lenders must approve the tender documents",
+        "The PPP unit must sign as the procuring authority",
+        "The legislature must pass a law for the project",
+        "The attorney general must approve the final draft"
+      ],
+      "answer": 3,
+      "explanation": "Tanzania's PPP law requires the implementing agency to submit the final draft contract to the attorney general for approval before execution; Jamaica requires this too (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "An Australian state is preparing a large PPP. Why do Australian governments often use leading private law firms rather than rely on the attorney general?",
+      "options": [
+        "They have more construction and project finance expertise",
+        "The attorney general is legally barred from PPP work",
+        "Private firms are always cheaper than public lawyers",
+        "The lenders insist on choosing the government's lawyers"
+      ],
+      "answer": 0,
+      "explanation": "Australian governments recognise that private law firms have greater expertise in construction and project finance, while attorney general departments tend to know administrative law (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "A country's national procurement agency has an oversight role over PPPs, as in Sri Lanka. What should the PPP framework ensure?",
+      "options": [
+        "PPPs are made exempt from all national procurement rules and checks",
+        "The agency approves every PPP payment each year",
+        "PPP procurement rules are harmonised with national rules",
+        "The agency replaces the PPP unit in every role"
+      ],
+      "answer": 2,
+      "explanation": "Because national procurement agencies may have an oversight role for PPPs, PPP procurement regulations should be harmonised with national procurement regulations (Ch 2 §1.8.3)."
+    },
+    {
+      "question": "Who normally has responsibility for the financial management of a PPP, according to the Guide?",
+      "options": [
+        "The procuring authority, overseen by the finance ministry",
+        "The private partner, overseen by its lenders",
+        "The PPP unit alone, with no outside oversight from any ministry",
+        "The legislature, through yearly budget votes"
+      ],
+      "answer": 0,
+      "explanation": "The financial management of PPPs is normally the responsibility of the procuring authority under the oversight of a finance ministry or treasury (Ch 2 §1.8.4)."
+    },
+    {
+      "question": "A ministry is responsible for promoting the PPP program and is also asked to certify whether each PPP is fiscally affordable. What does the Guide encourage?",
+      "options": [
+        "Keep both duties together to save staff costs",
+        "Give the affordability check to the bidders and their lenders",
+        "Drop the affordability check for small PPPs",
+        "Separate the promotion and affordability-checking duties"
+      ],
+      "answer": 3,
+      "explanation": "The Guide encourages segregation of duties between promoting the PPP program and ensuring fiscal affordability, because these interests conflict (Ch 2, Public Financial Management of PPPs)."
+    },
+    {
+      "question": "A government agrees to pay a PPP operator only if traffic falls below a set minimum level. What kind of fiscal liability is this?",
+      "options": [
+        "A direct liability",
+        "An equity contribution",
+        "A developer's fee",
+        "A contingent liability"
+      ],
+      "answer": 3,
+      "explanation": "A contingent liability is a payment that depends on an uncertain future event, such as low demand; a direct liability is a committed payment (Ch 2 §1.8.4). The framework must ensure fiscal space for both."
+    },
+    {
+      "question": "A country's budget law requires approval for capital investment projects. A new PPP needs no upfront government capital. What is the risk?",
+      "options": [
+        "It may escape approval unless PPP-specific rules exist",
+        "It must be approved twice under the capital rules",
+        "It cannot legally be signed by any ministry",
+        "It will automatically count as public borrowing under the law"
+      ],
+      "answer": 0,
+      "explanation": "Because PPPs often need no government capital investment, they may not automatically fall under capital approval rules, so many governments define similar approval requirements for PPPs (Ch 2 §1.8.5)."
+    },
+    {
+      "question": "Why do many PPP frameworks create several approval decision points during project development?",
+      "options": [
+        "To give bidders more chances to change the contract",
+        "To stop weak projects before they gain momentum of their own",
+        "To make sure every project eventually reaches financial close",
+        "To move approval power from cabinet to the lenders"
+      ],
+      "answer": 1,
+      "explanation": "Several decision points allow weak projects to be stopped before they consume too many resources or develop a momentum of their own (Ch 2 §1.8.5)."
+    },
+    {
+      "question": "Under South Africa's approach, which is NOT one of the four points at which the cabinet approves a PPP?",
+      "options": [
+        "After the feasibility study",
+        "After the first year of operations",
+        "After bids have been evaluated",
+        "When the contract is in final form"
+      ],
+      "answer": 1,
+      "explanation": "In South Africa the cabinet approves on Treasury recommendation after the feasibility study, after bid documents are prepared, after bids are evaluated, and when the contract is final (Table 2.7)."
+    },
+    {
+      "question": "In Colombia, which statement correctly describes the roles of CONFIS and CONPES in PPP approval?",
+      "options": [
+        "CONPES approves future budget commitments; CONFIS certifies strategic importance",
+        "CONFIS signs the contract; CONPES runs the procurement for the ministry",
+        "CONFIS approves future budget commitments; CONPES certifies strategic importance",
+        "Both bodies only advise, and the PPP unit gives the single approval"
+      ],
+      "answer": 2,
+      "explanation": "The National Fiscal Council (CONFIS) approves future appropriations for PPPs, while CONPES, the highest planning authority, certifies the project's strategic importance (Table 2.7)."
+    },
+    {
+      "question": "Which is NOT a typical role of a PPP unit listed in the Guide?",
+      "options": [
+        "Regulating user tariffs",
+        "Acting as a knowledge centre",
+        "Giving investors a contact point",
+        "Monitoring after financial close"
+      ],
+      "answer": 0,
+      "explanation": "Typical PPP unit roles include control and oversight, managing the framework's evolution, promotion, advice, acting as a knowledge centre, investor channels, and monitoring after financial close (Ch 2 §1.8.6). Tariff regulation is not on the list."
+    },
+    {
+      "question": "After financial close, a PPP unit learns that a toll road's risk status has changed sharply. What should it do, in its monitoring and support role?",
+      "options": [
+        "Keep the information private to protect the operator",
+        "Pass the information to central agencies that monitor liabilities",
+        "Take over the day-to-day operation of the toll road from the operator",
+        "Wait for the next tender before reporting anything"
+      ],
+      "answer": 1,
+      "explanation": "The monitoring role includes assisting contract management and making sure central agencies learn of changes in risk status so they can monitor contingent liabilities, over the full life cycle (Ch 2 §1.8.6)."
+    },
+    {
+      "question": "A new PPP unit cannot recruit lawyers and financial experts, because the private sector pays them much more. Which design choice is the government dealing with?",
+      "options": [
+        "Location, which decides the unit's parent ministry or agency",
+        "Resourcing, which may include a capacity-building role",
+        "Funding, which decides who pays the unit's fees",
+        "Mandate, which decides whether it can approve PPPs"
+      ],
+      "answer": 1,
+      "explanation": "Resourcing is about attracting and keeping the right talent, such as legal and financial skills that are better paid privately, and may include a capacity-building function (Ch 2 §1.8.6)."
+    },
+    {
+      "question": "A country wants one office to help line ministries develop and tender PPPs, and a separate unit to control the fiscal responsibility of PPPs. Is this possible, according to the Guide?",
+      "options": [
+        "Yes; Bangladesh has a PM's office unit and a finance ministry unit",
+        "No; the Guide requires one single PPP unit per country",
+        "No; fiscal control must always sit with the legislature",
+        "Yes, but only if both units are placed together in the same line ministry"
+      ],
+      "answer": 0,
+      "explanation": "More than one PPP unit may coexist; Bangladesh has a PPP office under the Prime Minister's Office to support ministries, plus a finance ministry unit for fiscal control (Ch 2 §1.8.6, Table 2.8)."
+    },
+    {
+      "question": "A newly created PPP unit currently promotes, advises, approves and monitors PPPs. How does the Guide expect its role to change as the program matures?",
+      "options": [
+        "It may move toward regulation and supervision",
+        "It should take over all procurement from agencies",
+        "It should add more advisory roles every year",
+        "It should close once the first PPP is signed"
+      ],
+      "answer": 0,
+      "explanation": "At the outset a PPP unit is likely to carry out multiple roles, but as agencies build expertise it may move toward the regulatory and supervision role (Ch 2 §1.8.6)."
+    },
+    {
+      "question": "A government sets up a PPP unit but never says whether it advises, approves or procures. Line ministries and the treasury now each ask it to do different things. Which pitfall does the Guide warn about?",
+      "options": [
+        "It will have to charge fees to cover its operating costs",
+        "It will automatically become the procuring authority",
+        "It may worsen coordination instead of improving it",
+        "It will remove the need for central agency advice"
+      ],
+      "answer": 2,
+      "explanation": "The Guide warns that if a PPP unit's mandate lacks clarity, it may end up as another entity worsening, not improving, coordination (Ch 2 §1.8.6). Funding choice and procuring-authority status are separate design questions."
+    },
+    {
+      "question": "The Philippines' BOT Center had no strong links to either the finance department or the planning agency, which limited project preparation for years. What lesson does the Guide draw?",
+      "options": [
+        "PPP units should be fully independent of all ministries",
+        "PPP units work best when placed inside a private bank",
+        "PPP units must be integrated into mainstream approval and budgeting",
+        "PPP units should be created only after the first projects are complete"
+      ],
+      "answer": 2,
+      "explanation": "PPP units need to be integrated into the government's mainstream project approval and budgeting processes to succeed; the BOT Center's weak links limited project preparation (Ch 2 §1.8.6)."
+    },
+    {
+      "question": "Consider two statements. 1: A PPP unit is always required for a PPP program to succeed. 2: Well-structured PPP units that champion and regulate PPPs have worked well in many countries.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: the Guide says PPP units are not always required and will not always succeed. Statement 2 is true, as the country examples show (Ch 2 §1.8.6)."
+    },
+    {
+      "question": "Consider two statements. 1: Institutional arrangements for PPPs are broadly the same in every country, whatever its existing institutions. 2: Governments often use PPP legal reforms to adopt emerging norms such as sustainability and protection of vulnerable groups.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: arrangements differ widely, depending on the program's needs and pre-existing institutional roles and capacities. Statement 2 is true: many governments use PPP reforms to adopt norms on sustainability, climate change and vulnerable groups (Ch 2 §1.8)."
+    },
+    {
+      "question": "Consider two statements. 1: In South Africa, the cabinet approves PPPs on the recommendation of the Treasury. 2: Legislative approval of individual PPP projects is the most common approach across countries.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Table 2.7). Statement 2 is false: only a few countries require legislative approval; approval more often comes from the cabinet, the finance ministry, or a combination (Ch 2 §1.8.5)."
     }
   ]
 }

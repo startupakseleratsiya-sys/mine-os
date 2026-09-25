@@ -65,15 +65,42 @@
     }
   ],
   "keyTerms": [
-    { "term": "Public asset", "meaning": "A fixed asset for long-term use that is used by the public or needed to provide a public service." },
-    { "term": "Economic infrastructure", "meaning": "Infrastructure that makes business activity possible, such as transport, utilities and telecoms, where use is usually charged." },
-    { "term": "Social infrastructure", "meaning": "Mostly buildings that host social services, such as hospitals, schools, prisons and courts, usually without user payments." },
-    { "term": "Value for Money (VfM)", "meaning": "The extra efficiency and value to society that PPP delivery gives compared with traditional, government-financed delivery." },
-    { "term": "Cost-benefit analysis (CBA)", "meaning": "Analysis of a project's costs and benefits to confirm it gives net value to society, done before testing it as a PPP." },
-    { "term": "Allocative efficiency", "meaning": "Efficiency in the original decision of whether a project or service should be delivered at all." },
-    { "term": "Output specifications", "meaning": "Contract requirements that describe the results or service level to achieve, not the inputs or methods." },
-    { "term": "Demonstration effect", "meaning": "When innovations introduced by a private partner are copied in other government projects or services." },
-    { "term": "EMDE", "meaning": "Emerging Market and Developing Economy, the IMF category for countries that are not classed as advanced." }
+    {
+      "term": "Public asset",
+      "meaning": "A fixed asset for long-term use that is used by the public or needed to provide a public service."
+    },
+    {
+      "term": "Economic infrastructure",
+      "meaning": "Infrastructure that makes business activity possible, such as transport, utilities and telecoms, where use is usually charged."
+    },
+    {
+      "term": "Social infrastructure",
+      "meaning": "Mostly buildings that host social services, such as hospitals, schools, prisons and courts, usually without user payments."
+    },
+    {
+      "term": "Value for Money (VfM)",
+      "meaning": "The extra efficiency and value to society that PPP delivery gives compared with traditional, government-financed delivery."
+    },
+    {
+      "term": "Cost-benefit analysis (CBA)",
+      "meaning": "Analysis of a project's costs and benefits to confirm it gives net value to society, done before testing it as a PPP."
+    },
+    {
+      "term": "Allocative efficiency",
+      "meaning": "Efficiency in the original decision of whether a project or service should be delivered at all."
+    },
+    {
+      "term": "Output specifications",
+      "meaning": "Contract requirements that describe the results or service level to achieve, not the inputs or methods."
+    },
+    {
+      "term": "Demonstration effect",
+      "meaning": "When innovations introduced by a private partner are copied in other government projects or services."
+    },
+    {
+      "term": "EMDE",
+      "meaning": "Emerging Market and Developing Economy, the IMF category for countries that are not classed as advanced."
+    }
   ],
   "summary": [
     "PPPs deliver long-life public assets; the government usually owns the asset or its land.",
@@ -186,7 +213,12 @@
     },
     {
       "question": "Consider these two statements. 1. The Guide describes the 'off balance sheet' motivation as a dangerous bias in favour of PPPs. 2. The 'cash motivation' is usually the main driver for PPPs in many EMDEs.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 2,
       "explanation": "Both are stated in section 5.1. The accounting (off balance sheet) motive is a dangerous bias, while the pure cash motive, getting extra resources and flexibility, is usually the main driver in many emerging and developing economies."
     },
@@ -225,7 +257,12 @@
     },
     {
       "question": "Consider these two statements. 1. A PPP that is not recorded as public debt creates no long-term commitment for the government. 2. Some jurisdictions set a legal limit on PPP procurement, for example as a percentage of capital expenditure or GDP.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 1,
       "explanation": "Box 1.15 says a PPP creates a long-term commitment of public payments even when it is not recorded as debt, so statement 1 is false. Because of this, some jurisdictions impose legal limits on PPP totals, so statement 2 is true."
     },
@@ -250,6 +287,446 @@
       ],
       "answer": 2,
       "explanation": "When the contract prescribes outputs rather than inputs, the partner is free to choose its own methods, which creates room and incentives for innovation. Input specifications and cost-based payments remove that freedom and incentive."
+    },
+    {
+      "question": "According to the Guide, why can a PPP keep services at pre-agreed quality levels more reliably than the public sector often can?",
+      "options": [
+        "Payments are linked to performance, so quality has a financial incentive",
+        "The private partner's staff are paid more than public servants",
+        "The authority no longer needs to monitor the service after signature",
+        "Public service quality standards do not apply to the private partner"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.2.5 says the public sector's service levels are often impeded by budget constraints, poor supply chain management and staff turnover, while linking payment to performance gives the PPP partner an extra incentive to maintain quality. Monitoring is still needed, and standards still apply."
+    },
+    {
+      "question": "Box 1.13 says infrastructure is usually tendered under public procurement rules. Which principles do these rules use?",
+      "options": [
+        "Speed, confidentiality, discretion and lowest price",
+        "Equality, non-discrimination, efficiency and transparency",
+        "Profit, flexibility, secrecy and direct negotiation",
+        "Local preference, speed, simplicity and low cost"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.13 lists equality, non-discrimination, efficiency and transparency as the principles of public procurement. Secrecy and direct negotiation go against these principles."
+    },
+    {
+      "question": "A city wants a PPP for one new tunnel on an existing metro line, not for the whole line. Is this consistent with how the Guide describes infrastructure?",
+      "options": [
+        "No, a PPP must always cover a complete transport system",
+        "No, a tunnel is too small to count as public infrastructure",
+        "Yes, but only if the tunnel is sold to the private partner",
+        "Yes, infrastructure may be a relevant part of a wider system"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.13 says infrastructure may be a complete system or relevant parts of a system that work as a single unit. There is no rule that a PPP must cover a whole system, and the asset is not sold."
+    },
+    {
+      "question": "Complete the sentence: When an infrastructure market such as telecoms is open to competition, it is sometimes called ______ infrastructure, a subset of economic infrastructure.",
+      "options": [
+        "accommodation",
+        "government",
+        "commercial",
+        "social"
+      ],
+      "answer": 2,
+      "explanation": "The Guide notes that infrastructure in markets open to competition is sometimes called 'commercial infrastructure', a subset of economic infrastructure (Ch 1 §4). Accommodation and government infrastructure describe buildings for public servants and assets such as defence."
+    },
+    {
+      "question": "Consider these two statements. 1. In many countries telecoms is deregulated and private operators are the ultimate legal owners of the networks. 2. Telecoms can never be treated as public infrastructure.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 1 §4). Statement 2 is false: telecoms can be public infrastructure where the utilities are publicly owned, or where the government invests to boost a network, for example in rural areas."
+    },
+    {
+      "question": "A ministry plans a PPP for an office building that will only house civil servants; no public service is delivered from it. How does the Guide usually describe this type of infrastructure?",
+      "options": [
+        "Economic infrastructure",
+        "Accommodation infrastructure",
+        "Environmental infrastructure",
+        "Commercial infrastructure"
+      ],
+      "answer": 1,
+      "explanation": "Buildings that only host administrative functions or house public servants are called accommodation infrastructure (Ch 1 §4). Economic, environmental and commercial infrastructure relate to business activity and utilities."
+    },
+    {
+      "question": "Which is NOT one of the reasons given in Box 1.14 why social infrastructure rarely generates user payments for the PPP?",
+      "options": [
+        "The service may be provided to users free of charge",
+        "A charge may be levied and retained by the developer",
+        "A charge may be collected by another public or private body",
+        "The law forbids users from ever paying for social services"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.14 gives three reasons: the service may be free, a charge may be kept by the developer, or a charge may be kept by another entity. It does not say that user charges are forbidden by law."
+    },
+    {
+      "question": "Consider these two statements. 1. Social infrastructure may have some user revenues, but they are usually marginal and ancillary. 2. Economic infrastructure may or may not generate user revenues.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both come from Box 1.14. Social infrastructure has at most marginal, collateral revenues, while economic infrastructure may or may not generate user revenue, so it is not automatically user-pays."
+    },
+    {
+      "question": "A government plans a PPP for a cold storage facility and grain storage for farmers. Under which sector does Table 1.5 of the Guide list these?",
+      "options": [
+        "Social – government accommodation",
+        "Economic – agribusiness",
+        "Economic – energy",
+        "Other – defence and border facilities"
+      ],
+      "answer": 1,
+      "explanation": "Table 1.5 lists cold storage, grain storage and irrigation under economic infrastructure, agribusiness. They support business activity, so they are not social or government accommodation."
+    },
+    {
+      "question": "A country's PPP law leaves out health infrastructure so that opposition parties will support the law. How does the Guide view this choice?",
+      "options": [
+        "It breaks international PPP standards and should be avoided",
+        "It may be an appropriate compromise to gain political consensus",
+        "It proves that health projects never give value for money",
+        "It must be reversed before any other PPP can be tendered"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says some jurisdictions leave sectors such as health out of PPP policy, and this may be an appropriate compromise to gain political consensus (Ch 1 §4). It is not a statement that health PPPs cannot give VfM."
+    },
+    {
+      "question": "The Guide groups the reasons for using PPPs into three families. Which is NOT one of them?",
+      "options": [
+        "Financial reasons, including the off balance sheet motive",
+        "Project efficiency and effectiveness",
+        "Other benefits for governments, such as transparency",
+        "Transfer of legal ownership of the assets to investors"
+      ],
+      "answer": 3,
+      "explanation": "Ch 1 §5 lists financial reasons, project efficiency and effectiveness, and other benefits for governments. Transferring ownership is privatisation, not a PPP motivation; the government usually keeps ownership."
+    },
+    {
+      "question": "Why is private finance in a PPP usually more expensive than government borrowing?",
+      "options": [
+        "Investors charge a blended cost of debt and equity above the government rate",
+        "Private lenders are not allowed to lend for longer than five years",
+        "Governments must pay a fee to a development bank on every PPP loan",
+        "The private partner must repay all of its debt during construction"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.1.1 explains that investors charge a blended cost of private debt and equity that is higher than the government's borrowing rate. The other options are not reasons given in the Guide."
+    },
+    {
+      "question": "Consider these two statements. 1. In a PPP, the funds for the works come from the private partner as equity plus debt raised through the PPP vehicle. 2. Direct or indirect government support to a PPP can create fiscal liabilities that must be considered before going ahead.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are in section 5.1.1. Private money replaces budget money for the works, but government support may create fiscal liabilities that must be taken into account in the decision."
+    },
+    {
+      "question": "Country Z's public debt is close to its legal limit. A minister says government-pays PPPs will 'certainly not count as public debt'. What is the best response based on the Guide?",
+      "options": [
+        "Agree, because PPPs never appear in the national accounts",
+        "Agree, because debt raised by a private company is not a public matter",
+        "Disagree, because the treatment depends on the accounting standards used",
+        "Disagree, because every PPP is always recorded as public debt"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.1.1 says private finance does not necessarily mean the investment stays off public debt, especially in government-pays PPPs; it depends on the national accounting standards. So 'never' and 'always' are both wrong."
+    },
+    {
+      "question": "In a user-pays toll road PPP, who ultimately pays for the infrastructure?",
+      "options": [
+        "Users, through the tolls they are charged",
+        "Taxpayers, through government payments",
+        "Lenders, through loan write-offs",
+        "The contractor, through a lower margin"
+      ],
+      "answer": 0,
+      "explanation": "In user-pays PPPs the users are charged directly, while in government-pays PPPs taxpayers pay (Ch 1 §5.1.1). Lenders and contractors are repaid from these sources; they do not bear the cost."
+    },
+    {
+      "question": "What does the Guide say can happen if a PPP chosen to access private finance does not show Value for Money?",
+      "options": [
+        "It may significantly reduce the project's cost-benefit outcome",
+        "It automatically becomes an off balance sheet project",
+        "The lenders must lower their interest margin",
+        "The government may skip the cost-benefit analysis"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.1.1 warns that if the PPP option shows no VfM compared with traditional delivery, it may significantly reduce the cost-benefit outcome of the project. Lack of VfM has no effect on accounting treatment or lenders' margins."
+    },
+    {
+      "question": "International banks will lend to a new water plant PPP in Country Q, but they will not lend directly to Q's government. Which PPP motivation does this illustrate?",
+      "options": [
+        "The off balance sheet motivation",
+        "The access to cash motivation",
+        "The demonstration effect",
+        "Allocative efficiency"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.1.2 says PPPs can mobilise lenders who are interested in the project but not in lending directly to the government; this is part of the cash motivation. The off balance sheet motive is about accounting, not about new lenders."
+    },
+    {
+      "question": "Consider these two statements. 1. Even if a PPP is reported as public debt, it has the advantage of transparency because it is a financial facility dedicated to one specific need. 2. The cash motivation only applies when the PPP is kept off the government's balance sheet.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is in section 5.1.2. Statement 2 is false: the cash motivation applies regardless of how the PPP is treated in the accounts."
+    },
+    {
+      "question": "Complete the sentence: In the Guide, ______ means achieving the desired outcomes in a time- and cost-effective way.",
+      "options": [
+        "allocative efficiency",
+        "X-efficiency",
+        "effectiveness",
+        "affordability"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.2 describes effectiveness as using PPPs to achieve the desired outcomes in a time- and cost-effective way. X-efficiency is about avoiding waste of inputs, and allocative efficiency is about whether to deliver at all."
+    },
+    {
+      "question": "Which describes X-efficiency?",
+      "options": [
+        "Deciding whether a service should be delivered at all",
+        "Preventing the wasteful use of inputs",
+        "Choosing the cheapest source of finance",
+        "Increasing the number of bidders in a tender"
+      ],
+      "answer": 1,
+      "explanation": "Following OECD, the Guide defines X-efficiency as preventing the wasteful use of inputs (Ch 1 §5.2). Deciding whether to deliver a service is allocative efficiency."
+    },
+    {
+      "question": "A government has already decided that a new prison is needed. It now chooses between PPP and traditional procurement. Which kinds of efficiency does this choice mainly involve?",
+      "options": [
+        "Allocative efficiency only",
+        "Technical efficiency and X-efficiency",
+        "Market efficiency and fiscal efficiency",
+        "Political efficiency and social efficiency"
+      ],
+      "answer": 1,
+      "explanation": "The decision to deliver the service involves allocative efficiency; once it is made, the choice of delivery mode mainly involves technical and X-efficiency (Ch 1 §5.2). Allocative efficiency was already settled when the need was decided."
+    },
+    {
+      "question": "According to the Guide, the majority of efficiency gains through PPPs relate mainly to which factors?",
+      "options": [
+        "Tax exemptions, subsidies and lower wages",
+        "Off balance sheet treatment and cheaper finance",
+        "Risk management, cost management and innovation",
+        "Faster permits, free land and direct awards"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.2 says most gains relate to risk management, cost management (including life-cycle management) and innovation, which are closely linked. Finance is more expensive in a PPP, not cheaper."
+    },
+    {
+      "question": "A ministry wants to test a proposed bridge as a PPP straight away, before checking whether the bridge itself makes sense for society. What should it do first according to the Guide?",
+      "options": [
+        "Run a Value for Money test of PPP against public delivery",
+        "Launch a market sounding with potential bidders",
+        "Decide the payment mechanism for the PPP contract",
+        "Test the project itself with a cost-benefit analysis"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says any project must first be tested through cost-benefit analysis, whatever the procurement route; only then is it tested as a PPP through VfM (Ch 1 §5.2). Running VfM first skips the question of whether the project is worth doing."
+    },
+    {
+      "question": "Which is a source of the private sector's cost management advantage described in the Guide?",
+      "options": [
+        "Exemption from the country's tax and labour laws for PPPs",
+        "Access to cheaper finance than the government can obtain",
+        "Guaranteed payments whatever its performance on the contract",
+        "Freedom to negotiate subcontracts outside public procurement rules"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.2.1 says the private sector can negotiate flexibly with subcontractors, outside public procurement rules, and has a more flexible labour framework and a for-profit nature. Private finance is more expensive, and payments depend on performance."
+    },
+    {
+      "question": "Under a DBOM contract, the contractor is paid for construction separately, as work progresses. What perverse incentive does the Guide warn about?",
+      "options": [
+        "To build slowly so that the contract lasts longer",
+        "To use too many expensive materials in the works",
+        "To refuse all maintenance duties after completion",
+        "To cut construction costs to increase its margin"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.2.2 says a DBOM contractor may have a perverse incentive to reduce construction costs to raise its margin, because it is paid for the works separately. It does not share the full life-cycle incentive of a private finance PPP."
+    },
+    {
+      "question": "Consider these two statements. 1. The private sector usually needs a lower risk premium for certain risks than the likely cost to government of keeping those risks. 2. Investors and lenders with capital at risk carry out their own due diligence, adding a layer of risk oversight.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both statements come from section 5.2.3 on risk transfer. Better risk management lowers the premium, and financiers with money at stake add their own checks."
+    },
+    {
+      "question": "How is time risk (having the asset in service on schedule) usually transferred to the private partner in a PPP?",
+      "options": [
+        "Most payments start only once the asset is built and in service",
+        "A penalty is paid to the lenders for each day of delay",
+        "The partner is paid in full before construction starts",
+        "The government keeps all construction and delay risk"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.2.3 and Figure 1.8 show that time risk is transferred through the payment mechanism: most, if not all, payments begin only when the asset is commissioned. Paying before construction would remove this incentive."
+    },
+    {
+      "question": "A government agrees to make viability gap funding (VGF) payments against construction milestones in a PPP. What does the Guide say about this?",
+      "options": [
+        "It is forbidden because it removes all transfer of time risk",
+        "It is possible in some cases and lowers the capital cost to government",
+        "It turns the PPP into a traditional public works contract",
+        "It is required in every government-pays PPP"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.2.3 notes that in some cases VGF payments can be made against construction milestones, which would lower the capital cost to the government. It is an exception, not a ban or a requirement."
+    },
+    {
+      "question": "In a PPP, a contractor with no capital at risk faces a large transferred risk that materialises. What does the Guide say may happen?",
+      "options": [
+        "The lenders automatically step in and run the project",
+        "It must fund the full loss from its own equity",
+        "It may walk away with a minimal loss rather than fix it",
+        "The risk is automatically covered by a government insurer"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.2.3 says risk transfer is never fully effective without capital at risk, because such a contractor can walk away with a minimal loss. A contractor with capital at risk in a well-structured PPP cannot do this."
+    },
+    {
+      "question": "A proposed PPP pays the partner on a cost-plus basis with a guaranteed profit and no deductions for poor performance. What does the Guide suggest?",
+      "options": [
+        "It shows optimal risk allocation and strong VfM",
+        "It should be procured by conventional means",
+        "It should transfer more risk to the lenders",
+        "It should be awarded directly to one bidder"
+      ],
+      "answer": 1,
+      "explanation": "A cost-plus mechanism with no deductions means low or marginal risk transfer, and the Guide says such a project should be procured by conventional means (Ch 1 §5.2.3). Direct award does not solve the lack of risk transfer."
+    },
+    {
+      "question": "Consider these two statements. 1. Transferring as much risk as possible to the private partner always maximises Value for Money. 2. Some national accounting standards may push for higher risk transfer than the optimum for Value for Money.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: the Guide says too much risk transfer may also spoil VfM (Ch 1 §5.2.3). Statement 2 is true: standards such as ESA may push risk transfer beyond the optimum."
+    },
+    {
+      "question": "How can the public authority capture the savings from private sector innovation for taxpayers?",
+      "options": [
+        "By writing detailed input specifications into the contract",
+        "By sharing the design work with the authority's own staff",
+        "By paying the contractor for its costs as they are incurred",
+        "Through a tender and evaluation focused on price and cost drivers"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.2.4 says innovation savings are captured through the tender and evaluation process, which should focus on price and cost drivers. Input specifications and cost-based payment would kill the incentive to innovate."
+    },
+    {
+      "question": "A user-pays airport PPP adds hotels and shops and earns more revenue than expected. According to the Guide, how can the public side benefit?",
+      "options": [
+        "The surplus must be paid to lenders as extra interest",
+        "The surplus is unlawful and must be returned to users",
+        "The surplus can be captured by a fee or reduce the viability gap",
+        "The surplus cancels the partner's maintenance obligations"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.2.6 says extra revenue from better use of the asset may give a surplus for the authority, captured by charging a fee to the partner, or may lower the budget cost by reducing any viability gap."
+    },
+    {
+      "question": "Consider these two statements. 1. Only user-pays PPPs can include incentives to maximise the use of the asset. 2. Some government-pays PPPs encourage alternative uses, such as optical fibre along a rail line.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false and statement 2 is true: section 5.2.6 says some government-pays PPPs also give incentives to maximise or find alternative uses, such as fibre in rail or commercial areas in transport schemes."
+    },
+    {
+      "question": "The up-front commitment of resources to maintenance is a PPP benefit. Which related pitfall does the Guide say qualifies it?",
+      "options": [
+        "Higher construction cost overruns",
+        "Lower service quality in later years",
+        "Loss of legal ownership of the asset",
+        "Decreased flexibility in budget management"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.3 says the long-term commitment to maintenance protects quality but must be qualified by the pitfall of decreased flexibility in budget management. It does not lower quality or transfer ownership."
+    },
+    {
+      "question": "A PPP transaction involves the authority and its advisors, investors, contractors, lenders and bid-side advisors. Which benefit does the Guide link to this?",
+      "options": [
+        "A lower financing cost than public borrowing",
+        "No further need for contract management",
+        "Automatic exclusion from public debt statistics",
+        "More transparency, assurance and less corruption"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.3 and Box 1.17 say the many parties involved bring more transparency and assurance and can help decrease corruption. Private finance is still more expensive, and contract management is still needed."
+    },
+    {
+      "question": "Consider these two statements. 1. Most reports by or for governments and audit offices conclude that PPPs do generate Value for Money. 2. The academic community unanimously agrees that PPPs are more efficient than traditional procurement.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.16 says most government and audit-office reports find VfM, so statement 1 is true. The Guide notes that academics are not unanimous and some find no evidence of extra efficiency, so statement 2 is false."
+    },
+    {
+      "question": "Citing the evidence in Box 1.16, a finance minister says: 'Studies prove PPPs are better, so all our projects should be PPPs.' What is the Guide's position?",
+      "options": [
+        "Correct, because UK departments saved 10 to 20 percent",
+        "Correct, because PPPs had fewer delays in the UK census",
+        "Incorrect, because the choice must be made project by project",
+        "Incorrect, because the evidence shows PPPs always cost more"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.16 ends with a note of caution: the procurement mode should be chosen project by project, on each project's merits. Positive average evidence does not make every project a good PPP."
+    },
+    {
+      "question": "According to the Guide, when may a project be considered suitable as a PPP from an efficiency point of view?",
+      "options": [
+        "When most efficiency drivers exist or can be triggered and protected",
+        "When the project can be kept off the government's balance sheet",
+        "When one company has offered to deliver it without a tender",
+        "When the project is too small for traditional procurement"
+      ],
+      "answer": 0,
+      "explanation": "The Guide (note to Box 1.17) says a project may be considered suitable when most of the efficiency drivers are present, or can be triggered and protected, if delivered as a PPP. Off balance sheet treatment is a dangerous bias, not a suitability test."
+    },
+    {
+      "question": "A critic says: 'Private finance costs more, so a PPP can never cost the public sector less over the long term.' What does the Guide say?",
+      "options": [
+        "Correct, because the higher cost of capital can never be offset",
+        "Correct, unless the PPP is kept off the public balance sheet",
+        "Incorrect, because private finance is cheaper than public debt",
+        "Incorrect, efficiency gains may still make the total cost lower"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.2 says the long-term expected cost to the public sector may be lower under a PPP (or the benefits higher) even after the higher cost of capital, and in user-pays PPPs efficiency may also mean lower charges. Private finance itself is not cheaper (Ch 1 §5.1.1), so C is wrong."
     }
   ]
 }

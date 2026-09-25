@@ -216,10 +216,10 @@
     {
       "question": "A Ministry of Finance wants to show the total commitment of a 20-year availability payment stream in its debt sustainability analysis. According to the Guide, which discount rate is most appropriate?",
       "options": [
-        "The private partner's target equity return",
-        "The social discount rate used in cost-benefit analysis",
+        "The private partner's target return on equity for the project",
+        "The social discount rate used in the project's cost-benefit analysis",
         "The yield on government bonds matching the remaining contract life",
-        "The project company's senior debt interest rate"
+        "The interest rate on the project company's senior debt facility"
       ],
       "answer": 2,
       "explanation": "The Guide says the most appropriate rate is the government's cost of borrowing for the remaining life of the agreement, such as the 10-year bond yield for 10 years remaining. The social discount rate is mentioned as an option but is not the most appropriate one."
@@ -230,7 +230,7 @@
         "Run a full Monte Carlo simulation for every project",
         "Wait until contracts are signed before estimating anything",
         "Record only direct liabilities and ignore contingent ones",
-        "Use scenario analysis, such as a worst-case termination cost each year"
+        "Use scenario analysis, e.g. a yearly worst-case termination cost"
       ],
       "answer": 3,
       "explanation": "Scenario analysis is the pragmatic approach, and the worst-case termination cost is its simplest form. Monte Carlo simulation depends on reliable data, so the Guide says it suits advanced administrations and mature PPP markets."
@@ -274,7 +274,7 @@
         "When the private partner finances more than half of the capital cost",
         "Only when the project is a user-pays concession",
         "When the majority of construction risk stays with the government",
-        "When government controls the services, users and prices, and the residual interest"
+        "When government controls services, users, prices and residual interest"
       ],
       "answer": 3,
       "explanation": "IPSAS 32 uses a control test: the government controls or regulates what services are provided, to whom and at what price, and controls any significant residual interest at the end. The 'majority of risks' test belongs to Eurostat, not IPSAS 32."
@@ -295,11 +295,451 @@
       "options": [
         "Recognised in full as debt on the balance sheet at signing",
         "Disclosed in the notes to the accounts, not recognised as a liability",
-        "Ignored, because it is only a contingent liability",
-        "Recorded as an annual expense equal to the maximum payment"
+        "Ignored completely, because it is only a contingent liability",
+        "Recorded each year as an expense equal to the maximum payment"
       ],
       "answer": 1,
       "explanation": "Most standards do not require recognition of contingent liabilities, but they agree these should be disclosed in notes. Accrual IPSAS requires recognition only when the event is likely and the amount measurable, which is not the case here."
+    },
+    {
+      "question": "A city signs a school PPP. It will pay the contractor a capital subsidy in stages as construction milestones are completed. How should the Ministry of Finance classify this commitment?",
+      "options": [
+        "As an implicit contingent liability, since milestones may slip",
+        "As an explicit contingent liability, like a termination payment",
+        "As no fiscal commitment, because it is paid before operation",
+        "As a direct liability, an upfront viability gap payment"
+      ],
+      "answer": 3,
+      "explanation": "An upfront capital subsidy, often paid as construction progresses, is a direct liability: a known payment if the PPP goes ahead (Ch 2 §1.8.7). It does not depend on an uncertain event outside government control, so it is not contingent."
+    },
+    {
+      "question": "A water PPP contract says the government will compensate the company for losses caused by specified uninsurable force majeure events. What kind of fiscal commitment is this?",
+      "options": [
+        "A direct liability",
+        "An implicit contingent liability",
+        "An explicit contingent liability",
+        "An availability payment deduction"
+      ],
+      "answer": 2,
+      "explanation": "Compensation clauses for specified uninsurable force majeure events are contingent liabilities, and because they are written in the contract they are explicit (Ch 2 §1.8.7). Implicit liabilities have no legal or contractual basis."
+    },
+    {
+      "question": "An energy ministry agrees to compensate a PPP company if the exchange rate moves outside a band written in the contract. Which describes the effect of this clause?",
+      "options": [
+        "Exchange rate risk is fully transferred to the private partner",
+        "It creates a direct liability that is paid every contract year",
+        "It creates no liability, as exchange rates are outside government control",
+        "Exchange rate risk is shared, creating a contingent liability"
+      ],
+      "answer": 3,
+      "explanation": "A guarantee on a risk variable, such as exchange rates staying within a range, shares that risk between government and private party and is a contingent liability (Ch 2 §1.8.7). Being outside government control is exactly what makes it contingent, not what removes it."
+    },
+    {
+      "question": "A state-owned water utility signs a PPP. The central government gives no guarantee for the utility's payments. What liability, if any, does the central government have?",
+      "options": [
+        "None, because only the utility signed the contract",
+        "An explicit contingent liability, as the utility is state owned",
+        "A direct liability that must go on the central balance sheet",
+        "At least an implicit contingent liability, as it may bail out the utility"
+      ],
+      "answer": 3,
+      "explanation": "For SOE and sub-sovereign PPPs there are two levels of liability. The central government's liability is explicit only with a contractual payment guarantee; otherwise it is at least implicit, because it may want to bail the entity out (Ch 2 §1.8.7)."
+    },
+    {
+      "question": "Which is NOT a form of minimum traffic guarantee described in the Guide?",
+      "options": [
+        "A cap on the tolls the concessionaire may charge users",
+        "An extension of the concession term if traffic is too low",
+        "Cash compensation plus a ceiling above which revenue goes to government",
+        "Standby government loans to support traffic and revenue risk"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.24 lists cash compensation, extension of the concession term, cash compensation with a traffic ceiling, and standby government loans. A toll cap is a tariff control, not a way of guaranteeing minimum traffic."
+    },
+    {
+      "question": "A Ministry of Finance is reviewing a toll road with a minimum traffic guarantee. In which situation is the guarantee most likely to be called?",
+      "options": [
+        "Few alternative routes and users who must travel whatever the toll",
+        "Price-sensitive users, many free alternative routes, and a recession",
+        "Strong economic growth and rising household incomes in the region",
+        "A low toll level combined with a revenue-sharing ceiling for government"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes it is not unusual for such guarantees to be called: when users are price-sensitive and there are many free alternative routes, an economic downturn can be expected to cut traffic (Box 2.24)."
+    },
+    {
+      "question": "Consider two statements about termination compensation. 1: It is unreasonable for a government to agree to it, because the government pays and receives nothing in return. 2: Lenders usually require it so that most or all of the debt can be recovered.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: the Guide says it is not unreasonable, because even on early termination the government receives the asset. Statement 2 is true: it is a lender requirement to recover a substantial portion, if not all, of the debt (Ch 2 §1.8.7)."
+    },
+    {
+      "question": "A PPP contract is incomplete, and a dispute over an unclear clause ends with the government paying compensation it never expected. How does the Guide describe this kind of exposure?",
+      "options": [
+        "A direct liability that was known when the contract was signed",
+        "An explicit contingent liability recorded as debt at contract signing",
+        "An implicit contingent liability, not recognised until the event occurs",
+        "Not a fiscal commitment, because a court or tribunal decided it"
+      ],
+      "answer": 2,
+      "explanation": "The Guide links implicit contingent liabilities to deficient studies, incomplete contracts and disputes, and says governments do not recognise them until the event occurs (Ch 2 §1.8.7). They are hard to assess precisely because they are implicit."
+    },
+    {
+      "question": "A regional government plans a single large PPP, while its neighbour plans a program of fifteen similar PPPs. Why does the Guide say a fiscal management framework is especially worthwhile for the neighbour?",
+      "options": [
+        "A program of PPPs creates no contingent liabilities for government",
+        "A program removes the need for Ministry of Finance approval of projects",
+        "A program lets each agency set its own fiscal rules and ceilings",
+        "Repetition allows standardisation and learning that offset the framework's cost"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a framework approach applies particularly to a program of PPPs, because repetition allows standardisation and learning, and the value for money achieved offsets the cost of building the framework (Ch 2 §1.8.8)."
+    },
+    {
+      "question": "A PPP unit is building its fiscal rules on Table 2.9. At which points should the fiscal impact of each PPP be evaluated by the relevant authority?",
+      "options": [
+        "At screening, before tender launch, before commercial close, and for variations",
+        "Only once, at financial close, when all the figures are known and final",
+        "Only at the end of the feasibility study, before the business case is approved",
+        "Every year after operation starts, but never during procurement itself"
+      ],
+      "answer": 0,
+      "explanation": "Table 2.9 (rule 3) says fiscal impact should be evaluated throughout the life cycle: initial screening, before tender launch, before commercial close and for any contract variations. A single check would miss changes in the fiscal exposure."
+    },
+    {
+      "question": "Members of parliament complain that they only ever see PPP information one project at a time. Under Table 2.9, what should the government provide?",
+      "options": [
+        "A copy of each project's financial model when the tender is launched",
+        "One consolidated report on all PPPs, their commitments and progress",
+        "A list of the preferred bidders selected in each year's tenders",
+        "Only the appropriations for PPP payments in the current budget year"
+      ],
+      "answer": 1,
+      "explanation": "Table 2.9 (rule 9) asks for a consolidated report on all PPP projects, including direct and contingent commitments, progress and value for money, disclosed to support oversight. The other options give partial or unrelated information."
+    },
+    {
+      "question": "A transport ministry is drafting the project concept note for a new port PPP. What should it do about fiscal risk at this stage?",
+      "options": [
+        "Leave fiscal risk until the contract fixes the final values",
+        "Ask bidders to identify the fiscal risks in their proposals",
+        "Highlight the possible fiscal risks already in the concept note",
+        "Estimate fiscal risk only after financial close is reached"
+      ],
+      "answer": 2,
+      "explanation": "Fiscal commitments are fixed by the contract, but the Guide says they can be approximated ex ante and potential fiscal risks should be identified as early as possible, for example in project concept notes (Ch 2 §1.8.9)."
+    },
+    {
+      "question": "A user-pays bridge PPP will not be commercially viable from tolls alone. How should the Ministry of Finance approximate the viability gap subsidy needed?",
+      "options": [
+        "The total undiscounted toll revenue expected over the contract life",
+        "The maximum termination payment the government could ever owe",
+        "The annual availability payment that brings the partner's NPV to zero",
+        "The negative NPV of projected toll income less capital and operating costs"
+      ],
+      "answer": 3,
+      "explanation": "The Guide approximates viability gap financing by the negative NPV of projected user-fee income minus capital and operating expenditure, or alternatively the NPV of equity contributions and expected dividends (Ch 2 §1.8.9). The goal-seek NPV method is for availability payments."
+    },
+    {
+      "question": "A Ministry of Finance analyst must estimate the availability payment for a government-pays hospital PPP from the project financial model. What method does the Guide describe?",
+      "options": [
+        "Solve for the payment that gives the private partner an NPV of zero",
+        "Multiply the expected number of patients by a fee per patient",
+        "Divide the capital cost by the number of years in the contract",
+        "Use the lowest payment accepted in any previous hospital tender"
+      ],
+      "answer": 0,
+      "explanation": "The periodic payment can be approximated with a goal-seek function, finding the incoming cash flow that gives an NPV of zero given the outgoing cash flows (Ch 2 §1.8.9). Multiplying usage by a unit price is the shadow toll method."
+    },
+    {
+      "question": "When budgeting an availability payment, an analyst proposes to reduce the forecast by 10% because some performance deductions are expected. What should the Ministry of Finance do?",
+      "options": [
+        "Accept the 10% reduction as the most likely payment level",
+        "Budget the full payment, assuming the partner performs as agreed",
+        "Budget 110% of the payment to allow for performance bonuses",
+        "Budget half the payment until performance data is available"
+      ],
+      "answer": 1,
+      "explanation": "The Guide encourages the prudency principle: assume the private partner delivers the service to the agreed standards and receives the full payment (Ch 2 §1.8.9). Budgeting for expected deductions could leave the budget short."
+    },
+    {
+      "question": "A highway PPP pays a shadow toll of 0.05 per vehicle-kilometre. Expected traffic is 200 million vehicle-kilometres a year. What is the approximate annual direct liability?",
+      "options": [
+        "4 million a year",
+        "40 million a year",
+        "10 million a year",
+        "1 million a year"
+      ],
+      "answer": 2,
+      "explanation": "Shadow tolls are approximated as the payment per unit of usage multiplied by expected usage (Ch 2 §1.8.9): 0.05 × 200 million = 10 million. The other figures come from wrong multiplication."
+    },
+    {
+      "question": "A budget office is preparing next year's budget and the medium-term expenditure framework. Which measure of a PPP's direct liabilities is most useful for this purpose?",
+      "options": [
+        "The net present value of all payments over the contract",
+        "The worst-case early termination value for the project",
+        "The probability that the contract will be cancelled",
+        "The estimated payments in each year of the contract"
+      ],
+      "answer": 3,
+      "explanation": "Estimated yearly payments are the most useful measure for budget impact and short- to medium-term fiscal planning. The NPV shows the total commitment and is used in financial reporting and debt sustainability analysis (Ch 2 §1.8.9)."
+    },
+    {
+      "question": "A government issues bonds of up to 5 years only. It needs to discount the payments of a 25-year PPP. What does the Guide suggest?",
+      "options": [
+        "Estimate a markup for the longer period, e.g. from comparable economies",
+        "Use the 5-year bond yield without any adjustment for the longer term",
+        "Use the private partner's target return on equity as the rate",
+        "Report the payments without discounting, since no long bond exists"
+      ],
+      "answer": 0,
+      "explanation": "Where governments have no long-term securities, a markup must be estimated for the time-related risk, which can be based on markups in comparable economies that have such instruments (Ch 2 §1.8.9). A 30-year commitment is more uncertain than a 10-year one."
+    },
+    {
+      "question": "The worst-case termination compensation of a PPP is estimated at 500 million this year. Using the cancellation rate the Guide cites from the World Bank database, what is the approximate probability-weighted value?",
+      "options": [
+        "About 500 million",
+        "About 20 million",
+        "About 50 million",
+        "About 2 million"
+      ],
+      "answer": 1,
+      "explanation": "The Guide cites a cancellation probability of some 4%, which can be multiplied by the early termination compensation to give a most likely value (Ch 2 §1.8.9): 4% × 500 million = 20 million. The full 500 million is the worst case."
+    },
+    {
+      "question": "Complete the Guide's definition: affordability is the ability to be accommodated within the ____ of the government.",
+      "options": [
+        "annual cash surplus of the treasury",
+        "sovereign credit rating targets",
+        "inter-temporal budget constraint",
+        "current-year public debt ceiling"
+      ],
+      "answer": 2,
+      "explanation": "The Guide quotes the OECD: affordability means the 'ability to be accommodated within the inter-temporal budget constraint of the government' (Ch 2 §1.8.10). It looks across years, not only at one year's cash or debt."
+    },
+    {
+      "question": "A line ministry wants to sign a PPP draft contract that departs from several standard clauses. Under the IMF view quoted in the Guide, what should happen?",
+      "options": [
+        "The PPP unit alone should decide, as the deviations are technical",
+        "The legislature should approve each clause before the tender launch",
+        "No approval is needed if the value for money test is positive",
+        "Seek the Finance Minister's approval of the draft and its deviations"
+      ],
+      "answer": 3,
+      "explanation": "Box 2.26 says contracting authorities must seek the Finance Minister's approval (nihil obstat) for project selection, the draft contract, explicitly any deviations from standard clauses, and award or renegotiation."
+    },
+    {
+      "question": "Which is NOT a key task of the Ministry of Finance in PPP fiscal risk governance, as listed in the Guide?",
+      "options": [
+        "Selecting the preferred bidder in each PPP tender",
+        "Giving guidance on fiscal aspects of feasibility studies",
+        "Collecting liability data from subnational bodies and SOEs",
+        "Developing accounting procedures and principles for PPPs"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists gatekeeping, guidance on fiscal aspects of feasibility, managing liabilities, accounting procedures, subnational data collection and reporting standards (Ch 2 §1.8.10). Bid evaluation is the procuring authority's job."
+    },
+    {
+      "question": "A minister argues that PPPs have no budget impact, because private finance pays for construction. What is the Guide's response?",
+      "options": [
+        "The minister is right, as long as the PPP is a user-pays concession",
+        "He is wrong: at least budget-year commitments must be appropriated",
+        "The minister is right until the asset starts to operate and earn",
+        "The minister is right if the project stays under the PPP ceiling"
+      ],
+      "answer": 1,
+      "explanation": "The Guide rejects the idea that PPPs bypass the budget constraint: at a minimum, the fiscal commitments of the budget year, including a provision for contingent liabilities, must be appropriated (Ch 2 §1.8.10)."
+    },
+    {
+      "question": "A government fears agencies choose PPP simply to keep spending off the budget. Which practice described in the Guide directly removes this incentive?",
+      "options": [
+        "Excluding PPP payments from the annual budget until operation starts",
+        "Treating PPP subsidy payments like automatic debt service",
+        "Appropriating the discounted value of all future PPP commitments up front",
+        "Raising the PPP ceiling so that more projects can be approved each year"
+      ],
+      "answer": 2,
+      "explanation": "The Netherlands appropriates the discounted value of all future PPP commitments in the annual budget to avoid the off-budget incentive (Ch 2 §1.8.10). Brazil's automatic appropriation addresses appropriation risk, not this incentive."
+    },
+    {
+      "question": "A government wants the decision to grant a revenue guarantee to have an immediate budget impact. Which approach, used in Colombia, achieves this?",
+      "options": [
+        "Disclosing the guarantee in the notes but paying only when called",
+        "Recording the maximum possible guarantee payment as public debt at signing",
+        "Asking parliament to approve the guarantee after the tender ends",
+        "A cash transfer to a contingency fund equal to the guarantee's expected value"
+      ],
+      "answer": 3,
+      "explanation": "Colombia's 1998 law requires implementing agencies to transfer cash to a contingency fund at signing, equal to the expected value of revenue guarantee payments, so accepting a contingent liability has an immediate budget impact (Ch 2 §1.8.10)."
+    },
+    {
+      "question": "A Ministry of Finance is appraising a government-pays PPP. The availability payments are indexed to inflation and partly paid in a foreign currency. What should it do to understand its fiscal exposure?",
+      "options": [
+        "Run a sensitivity analysis on how the payments change with these variables",
+        "Assume inflation and exchange rates stay at today's levels for the whole contract",
+        "Treat the payments as contingent liabilities and only disclose them in notes",
+        "Discount the payments at the social discount rate and ignore the variables"
+      ],
+      "answer": 0,
+      "explanation": "Where payments are linked to demand, inflation or a foreign currency, the Guide says their effect should be assessed through sensitivity analysis to see the government's exposure to uncertain parameters (Ch 2 §1.8.9). Indexed payments are still direct liabilities, not contingent ones."
+    },
+    {
+      "question": "A country limits the new PPP obligations it authorises each year to 0.55% of GDP, with no limit on the total stock. How is this ceiling built?",
+      "options": [
+        "A stock base with GDP as the reference",
+        "A flow base with GDP as the reference",
+        "A flow base with public expenditure as the reference",
+        "A stock base with capital expenditure as the reference"
+      ],
+      "answer": 1,
+      "explanation": "A PPP ceiling combines a base (stock of total commitments or flow of annual commitments) and a reference (GDP, revenue, expenditure or capital expenditure). Limiting new annual obligations as a share of GDP is a flow base with a GDP reference, as in Colombia (Table 2.10)."
+    },
+    {
+      "question": "A Ministry of Finance asks its PPP unit which PPP ceiling level international good practice recommends. What should the unit answer?",
+      "options": [
+        "The standard level is 5% of GDP for all countries",
+        "The standard level is 10% of annual capital expenditure",
+        "There is no rule of thumb; it depends on affordability over time",
+        "The standard level is 2% of total government expenditure"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says there is no special rule of thumb for setting a PPP ceiling; it should reflect the affordability of direct and contingent commitments in the short, medium and long term (Ch 2 §1.8.10). The percentages are examples from single countries."
+    },
+    {
+      "question": "Lenders in a new PPP market insist that government guarantees are fully backed by cash deposits. Based on Pakistan's experience, what can the government expect as the market matures?",
+      "options": [
+        "The cash requirement will stay at 100% for the life of the program",
+        "Lenders will soon ask for deposits above the full project value",
+        "Cash deposits will be replaced at once by implicit guarantees",
+        "The cash requirement may fall as lenders trust the appropriation process"
+      ],
+      "answer": 3,
+      "explanation": "In Pakistan, banks first required cash-deposited guarantees, but as they became comfortable with the government's ability to arrange appropriations, the requirement fell from over 100% to about 50% of project value (Box 2.27)."
+    },
+    {
+      "question": "A government sets up a dedicated viability gap fund for its PPP program. According to India's experience in the Guide, what effect can this have?",
+      "options": [
+        "Firms bid keenly, and some projects need no subsidy at all",
+        "Firms ask for larger subsidies once they know the fund exists",
+        "Firms stop bidding, because the fund signals weak projects",
+        "The fund replaces Ministry of Finance approval of projects"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.28 says knowing funding was available encouraged firms to bid, and the keen competition meant many projects expected to need a subsidy were fully privately financed."
+    },
+    {
+      "question": "In a country with a strict separation of powers, lenders fear the legislature may not appropriate availability payments in future years. Which mechanism described in the Guide addresses this?",
+      "options": [
+        "Paying every availability payment in advance during the construction period",
+        "Treating PPP subsidy payments like debt service, appropriated automatically",
+        "Converting the project into a user-pays concession after signing",
+        "Relying on disclosure of the payments in the notes to accounts"
+      ],
+      "answer": 1,
+      "explanation": "Where appropriation risk is high, the Guide cites Brazil's federal law requiring PPP subsidy payments to be treated like debt service, so they are automatically appropriated without further legislative approval (Ch 2 §1.8.11)."
+    },
+    {
+      "question": "Consider two statements. 1: Many jurisdictions have no special budget rule for long-term PPP payments, assuming the legislature will fund legally binding commitments. 2: Upfront grants are harder to fit into annual budgets than long-term availability payments.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 2 §1.8.11). Statement 2 is false: upfront grants are paid in the first years and fit easily into budgets and MTEFs, while long-term payments are harder because of the mismatch with the annual budget cycle."
+    },
+    {
+      "question": "A government wants to be able to pay a sudden guarantee call without asking parliament for a supplementary appropriation, but it does not want to set up a separate fund. What option does the Guide describe?",
+      "options": [
+        "Recording a provision under accrual IPSAS for each guarantee",
+        "Setting a lower PPP ceiling as a share of public expenditure",
+        "A contingency line in the budget, or defined permission to overspend",
+        "Renegotiating the contract each time a guarantee is called"
+      ],
+      "answer": 2,
+      "explanation": "The first option for budgeting contingent liabilities is more budget flexibility: a contingency line for one or several liabilities, or permission to spend above budget in defined circumstances (Ch 2 §1.8.11). The second option is a contingent liability fund."
+    },
+    {
+      "question": "Consider two statements about contingent liability funds. 1: A fund may sit within or outside the government's accounts. 2: Indonesia's IIGF works as a single window for appraising, structuring and providing PPP guarantees.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide defines a contingent liability fund as an account within or external to government accounts (Ch 2 §1.8.11), and Box 2.29 describes the IIGF as a single window, which gives consistency and market confidence."
+    },
+    {
+      "question": "An EU government's PPP transfers construction risk but keeps both demand risk and availability risk. How should it be treated under the Eurostat rule?",
+      "options": [
+        "It stays off the debt statistics, because construction risk moved",
+        "It stays off the debt statistics if value for money is proven",
+        "It goes on the debt statistics only if government sets the prices",
+        "The PPP liabilities should be recorded in government debt statistics"
+      ],
+      "answer": 3,
+      "explanation": "Eurostat keeps PPP liabilities off debt statistics only if the majority of risks is transferred, including construction risk and either demand or availability risk (Ch 2 §1.8.12). Keeping both demand and availability risk fails the test. Price control is the IPSAS 32 test."
+    },
+    {
+      "question": "A government using accrual IPSAS gives a debt guarantee that is likely to be called, and the cost can be measured with sufficient reliability. What should it record when the contract is signed?",
+      "options": [
+        "The NPV of the expected cost as a provision and an expense",
+        "Nothing until the guarantee is actually called and paid",
+        "Only a note to the accounts describing the guarantee",
+        "The full guaranteed debt amount as a direct liability"
+      ],
+      "answer": 0,
+      "explanation": "Accrual IPSAS is the exception that requires recognition of a contingent liability when the event is likely and the amount measurable; the NPV of the expected cost is then recognised as a provision and an expense at signing (Ch 2 §1.8.12)."
+    },
+    {
+      "question": "A country has a strict legal limit on public debt, and its PPP commitments are kept off the government balance sheet. What risk does the Guide highlight?",
+      "options": [
+        "PPP projects will automatically cost less than public projects",
+        "A dangerous bias towards PPP to get around the debt limit",
+        "Lenders will refuse to finance projects that are off balance sheet",
+        "IPSAS will forbid the country from signing any further PPPs"
+      ],
+      "answer": 1,
+      "explanation": "Because limits are often set on liabilities and spending, off-book treatment can create a dangerous bias in favour of the PPP tool rather than a choice based on value for money (Ch 2 §1.8.12)."
+    },
+    {
+      "question": "To keep a PPP off its debt statistics, a government structures the contract so that it transfers more risk to the private partner than is optimal. What is the likely consequence?",
+      "options": [
+        "Value for money always improves when more risk is transferred",
+        "The contingent liabilities of the government rise sharply",
+        "Value for money may be destroyed by the excess risk transfer",
+        "The PPP will be recognised under IPSAS 32 automatically"
+      ],
+      "answer": 2,
+      "explanation": "The Guide warns that when PPP accounting depends on risk transfer, it can push governments to transfer more risk than the optimum, destroying the PPP's value for money (Ch 2 §1.8.12). Risk should go to the party best able to manage it."
+    },
+    {
+      "question": "A Ministry of Finance wants to improve how it reports revenue guarantees that are not recognised as liabilities. What does good practice in the Guide suggest?",
+      "options": [
+        "Keep them confidential until one of the guarantees is actually called",
+        "Report only direct liabilities, because guarantees may never be paid",
+        "Disclose them only to lenders and rating agencies when they ask",
+        "Disclose size and likelihood, e.g. in a yearly contingent liability report"
+      ],
+      "answer": 3,
+      "explanation": "Standards agree unrecognised PPP commitments should be disclosed in notes, ideally showing magnitude and likelihood and supported by a report; Chile publishes an annual contingent liabilities report (Ch 2 §1.8.12, Box 2.31)."
+    },
+    {
+      "question": "A PPP unit has a legal duty to disclose contingent liabilities proactively, but officials struggle to comply. What does the Guide identify as the main obstacle and remedy?",
+      "options": [
+        "Lack of practical guidance; provide guidelines, templates and a web space",
+        "Lack of a PPP law; pass new legislation before any disclosure is made",
+        "Lack of IT systems; buy new accounting software for the unit",
+        "Objections from bidders; ask the private partners for consent"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the main challenge where disclosure is legally required appears to be the lack of practical internal guidance and processes; Kenyan officials said guidelines, templates and a website space would make compliance easier (Ch 2 §1.8.12)."
     }
   ]
 }

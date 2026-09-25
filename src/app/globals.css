@@ -219,3 +219,8 @@
     scroll-behavior: auto !important;
   }
 }
+
+@keyframes finora-confetti {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(520px) rotate(540deg); opacity: 0; }
+}

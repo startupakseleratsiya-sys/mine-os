@@ -224,10 +224,10 @@
         "A clear definition, or legal reference, of force majeure",
         "An all risk clause giving unlisted risks to the private party",
         "Procedures to assess whether a relief or compensation event occurred",
-        "A clause giving all unlisted risks to the procuring authority"
+        "A clause fixing each bidder's risk premium for every risk"
       ],
       "answer": 3,
-      "explanation": "The all risk clause does the opposite: any risk not described otherwise belongs to the private party. The other three items are on the Guide's list of contract must-haves."
+      "explanation": "The contract must include a clear force majeure definition, an all risk clause that gives unlisted risks to the private party, and procedures to assess relief and compensation events (Ch 5 §5.9). Risk premiums are priced by bidders in their offers, not fixed by a contract clause."
     },
     {
       "question": "Consider two statements. 1: The UK standardisation of PFI contracts treats acts of God as a relief event. 2: Political force majeure events such as war are typically borne by the private partner.",
@@ -239,6 +239,446 @@
       ],
       "answer": 0,
       "explanation": "The Guide notes the UK treats acts of God as relief events. Political risks such as war and terrorism are typically borne by the government, which is better placed to mitigate them, so statement 2 is false."
+    },
+    {
+      "question": "During operations, the authority orders a hospital PPP to add a new outpatient wing. The private partner's costs rise. How is this event typically treated in the contract?",
+      "options": [
+        "As a relief event that gives the partner extra time only",
+        "As a compensation event, with fair compensation under the change rules",
+        "As a force majeure event that may end the whole contract",
+        "As a private risk under the contract's all risk clause"
+      ],
+      "answer": 1,
+      "explanation": "A change in services ordered by the authority must be fairly compensated under clear contract rules, so it is a compensation event (Ch 5 §5.7 and §5.8). A relief event would give no money."
+    },
+    {
+      "question": "Why does force majeure usually get its own category in the contract, instead of being treated only as a compensation or relief event?",
+      "options": [
+        "It always gives full money compensation to the private partner",
+        "It is widely recognised, often set in law, and may end the contract",
+        "It can only happen during the construction phase of the project",
+        "It is the only type of event that the lenders can claim for"
+      ],
+      "answer": 1,
+      "explanation": "Force majeure has its own status because of its relevance and international consolidation, its definition in law in many countries, and because it may drive the contract to early termination (Ch 5 §5.7). It does not always give full compensation."
+    },
+    {
+      "question": "Consider two statements. 1: A relief event may excuse the private partner even from a breach of obligations caused by the event. 2: A relief event entitles the private partner to payment for its extra costs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Relief events excuse under-performance or even breach of obligations resulting from the event, but no financial compensation is granted (Ch 5 §5.7). So only statement 1 is true."
+    },
+    {
+      "question": "A draft PPP contract lists compensation events as 'any serious unexpected problem'. What is wrong with this drafting?",
+      "options": [
+        "Compensation events should be left for the courts to define later",
+        "The list should simply copy every force majeure event as well",
+        "Compensation events must be defined clearly, precisely and exhaustively",
+        "Compensation events are not allowed in availability-based PPPs"
+      ],
+      "answer": 2,
+      "explanation": "Because they are exceptions to the general rule, compensation and relief events should always be defined with clarity and precision in an exhaustive manner (Ch 5 §5.7). Vague wording invites disputes."
+    },
+    {
+      "question": "A storm that is listed as a relief event damages a toll plaza. The damage was made worse because the operator ignored its own maintenance plan. What relief should the operator get?",
+      "options": [
+        "Full relief for all the damage, since storms are listed events",
+        "No relief at all, because a storm is never a relief event",
+        "Full compensation in money, because the event was external",
+        "Relief only for the impact that due care could not have prevented"
+      ],
+      "answer": 3,
+      "explanation": "Relief or compensation is only available to the extent the impact could not have been prevented by the private partner's due care and diligence (Ch 5 §5.7 and §5.9). The part caused by poor maintenance stays with the operator."
+    },
+    {
+      "question": "Which statement is true of all force majeure events, according to the Guide?",
+      "options": [
+        "They are caused by poor performance of the private partner",
+        "They are exogenous, and their impact is impossible to estimate",
+        "Their likelihood can be estimated precisely from past data",
+        "They always end the PPP contract immediately and automatically"
+      ],
+      "answer": 1,
+      "explanation": "The common ground is that force majeure events are impossible to assess in terms of impact, very difficult to estimate in terms of likelihood, and always exogenous, unrelated to the private partner's performance (Ch 5 §5.7)."
+    },
+    {
+      "question": "In a civil code country, the legal definition of force majeure is very narrow and misses some serious risks of a particular project. The procurement framework gives some freedom. What may the authority do?",
+      "options": [
+        "Nothing, because a legal definition can never be widened",
+        "Define a wider term, or add specific risks similar to force majeure",
+        "Change the governing law of the contract to common law",
+        "Transfer these risks fully to the partner with no relief"
+      ],
+      "answer": 1,
+      "explanation": "A narrow legal definition should not prevent the authority, to the extent the procurement framework allows, from defining a wider term or including specific risks similar to force majeure (Ch 5 §5.7)."
+    },
+    {
+      "question": "An authority in a civil code country, where the law defines force majeure, is drafting the force majeure clause. What does the Guide recommend?",
+      "options": [
+        "An exhaustive list of events that replaces the legal definition",
+        "No reference to force majeure at all in the PPP contract",
+        "A non-exhaustive list plus a catch-all definition of the legal concept",
+        "A short list that covers natural disasters and nothing else"
+      ],
+      "answer": 2,
+      "explanation": "In civil code countries an exhaustive list may not be possible, so the recommended practice is a non-exhaustive list plus a catch-all definition that captures all events within the legal concept (Ch 5 §5.7). Exhaustive lists are common in common law systems."
+    },
+    {
+      "question": "A country's civil code includes the concept of 'unforeseen circumstances', and the authority will rely on it in a PPP contract. What does the Guide say the contract should do?",
+      "options": [
+        "Leave the term undefined, as the law covers it",
+        "Treat every cost overrun as an unforeseen event",
+        "Use it to replace force majeure completely",
+        "Define precisely what will count as unforeseen"
+      ],
+      "answer": 3,
+      "explanation": "Where unforeseen circumstances is a legal concept, unlike force majeure it is important to define in precise terms what will be regarded as unforeseen, to give a right to compensation or relief (Ch 5 §5.7, footnote 54)."
+    },
+    {
+      "question": "How does the South African standard limit its definition of force majeure?",
+      "options": [
+        "Events count only to the extent that they are uninsurable",
+        "Events count only if they last for more than one year",
+        "Only acts of God such as floods and storms are included",
+        "Only events that happen during construction are included"
+      ],
+      "answer": 0,
+      "explanation": "The South African definition covers war, terrorism and contamination only to the extent they are uninsurable (Ch 5 §5.7, Table 5.4). Acts of God appear in the Australian definition."
+    },
+    {
+      "question": "Under a force majeure definition like the UK standard, chemical contamination appears on a PPP site. An investigation shows that the private partner's subcontractor caused it. Is this force majeure?",
+      "options": [
+        "Yes, because every contamination event is force majeure",
+        "No, contamination caused by the contractor's side is excluded",
+        "Yes, but only if it happens during the operating phase",
+        "No, because contamination is always a relief event"
+      ],
+      "answer": 1,
+      "explanation": "The UK definition excludes contamination whose source or cause is the actions or breach of the contractor or its subcontractors, and South Africa has a similar exclusion for nuclear contamination (Ch 5 §5.7, Table 5.4). The private side cannot claim relief for its own fault."
+    },
+    {
+      "question": "Without any legal reason, the government cancels a key permit held by one PPP project. The private partner calls it 'political force majeure'. How should this risk be treated?",
+      "options": [
+        "Shared equally between the parties, in the same way as acts of God",
+        "Borne by the private partner under the contract's all risk clause",
+        "Borne by the public partner and not shared, as a government act",
+        "Treated only as a relief event that gives extra time"
+      ],
+      "answer": 2,
+      "explanation": "Direct government acts against the project, sometimes called Material Adverse Government Action, are under government control and should be borne by the public partner, not shared (Ch 5 §5.6, footnote 50)."
+    },
+    {
+      "question": "An authority plans a school PPP but has not yet secured the site. It wants to launch the tender now to save time. What does the Guide recommend?",
+      "options": [
+        "Launch now and transfer the site availability risk",
+        "Let each bidder find and buy its own school site",
+        "Treat late site availability as a force majeure event",
+        "Secure the site first, as expected in social infrastructure"
+      ],
+      "answer": 3,
+      "explanation": "In social infrastructure the site should be available at tender launch; uncertainty over the site causes delays and extra costs and may lead to no bids (Ch 5 §5.8)."
+    },
+    {
+      "question": "Consider two statements. 1: If the public party retains land acquisition cost risk, it also takes the benefit when costs turn out lower than expected. 2: In linear infrastructure, all land must always be acquired before tender launch.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide considers it good practice for the public party to retain the risk of higher-than-expected acquisition costs and the benefit in the opposite case (Ch 5 §5.8). In linear infrastructure it is common that land is still being acquired, so statement 2 is false."
+    },
+    {
+      "question": "The environmental assessment of a private partner's design for a waste plant requires design changes, raising CAPEX and causing delay. The authority's specifications did not cause the problem. Who bears this risk?",
+      "options": [
+        "The private partner, because it is essentially a design risk",
+        "The authority, because all environmental risk is public",
+        "Both parties equally, as a force majeure event",
+        "The lenders, because it becomes a financial risk"
+      ],
+      "answer": 0,
+      "explanation": "Environmental assessment risk is essentially a design risk and should generally be borne by the private partner (Ch 5 §5.8). The exceptions are pre-existing contamination and problems linked to the authority's own specifications."
+    },
+    {
+      "question": "An adverse environmental assessment arises because of the route that the authority fixed in the contract specifications. Who should remain responsible for this outcome?",
+      "options": [
+        "The private partner, as all design risk is private",
+        "The authority, since it set the specifications",
+        "The construction contractor, under its fixed-price deal",
+        "The users, through a higher tariff in operations"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the authority should remain responsible for adverse assessments related to the specifications settled in the contract (Ch 5 §5.8). General environmental design risk is private, but not when the authority's specification caused it."
+    },
+    {
+      "question": "A risk team lists environmental risk only under the construction phase of a water plant PPP. What does the Guide warn?",
+      "options": [
+        "It ends at commissioning, so construction is the only phase",
+        "During operations it always turns into a force majeure event",
+        "It can also affect O&M costs, for example a new environmental law",
+        "It must be moved into the financial risks category instead"
+      ],
+      "answer": 2,
+      "explanation": "Although usually categorised under construction, environmental risk may also affect O&M costs, for example non-compliance found during operations or changes in environmental law (Ch 5 §5.8)."
+    },
+    {
+      "question": "A private partner signs a fixed-price, date-certain contract with its builder. Construction costs later exceed projections, with no listed event involved. Which is correct?",
+      "options": [
+        "The authority pays the overrun as an ordinary compensation event",
+        "The overrun is a relief event, so nobody bears any cost at all",
+        "The lenders bear the overrun under their direct agreement",
+        "Construction risk is generally private and passed to the contractor"
+      ],
+      "answer": 3,
+      "explanation": "Construction risk, the risk that actual cost or time exceeds projections, is generally borne by the private partner, which passes it to its construction contractors; relief or compensation applies only to defined events (Ch 5 §5.8)."
+    },
+    {
+      "question": "A new desalination plant is finished on time, but during testing it cannot produce water of the quality in the output specification. What type of risk is this, and who bears it?",
+      "options": [
+        "Completion and commissioning risk, borne by the private partner",
+        "Demand risk, which is borne by the procuring authority",
+        "Force majeure risk, which is shared by both parties",
+        "Change in law risk, which is borne by the authority"
+      ],
+      "answer": 0,
+      "explanation": "Commissioning risk includes the constructed project failing to provide services as expected; it is a construction or design risk borne by the private partner (Ch 5 §5.8)."
+    },
+    {
+      "question": "A bidder asks the authority to take back the whole financial impact of any unexpected ground conditions on a metro PPP. What does the Guide say about this?",
+      "options": [
+        "Full relief is required for all site-specific risks by law",
+        "Full relief is not good practice; the partner needs an incentive",
+        "Ground conditions must always be classed as force majeure",
+        "The authority should also pay the partner a delay bonus"
+      ],
+      "answer": 1,
+      "explanation": "Site risks such as ground conditions may be relief events and some compensation events, but full relief is not good practice: the private partner should stay incentivised to manage the risk, for a price (Ch 5 §5.8)."
+    },
+    {
+      "question": "At the end of a 25-year road PPP, the road does not meet the hand-back conditions set in the contract. Who bears this risk?",
+      "options": [
+        "The authority, because it will own and run the road from then on",
+        "Both parties equally, because every asset wears out over time",
+        "The private partner, which must meet the contract's hand-back terms",
+        "The road users, through higher tolls charged after the hand-back"
+      ],
+      "answer": 2,
+      "explanation": "Residual value and hand-back conditions are a private partner risk: it must meet the requirements specified in the contract (Ch 5 §5.8). The authority's future ownership of the road does not move this risk back to it."
+    },
+    {
+      "question": "A road is paid by the government per vehicle using it (a usage-based government-pays PPP). Traffic may be well below forecast. What does the Guide say about this volume risk?",
+      "options": [
+        "It is always retained by the government, because it pays",
+        "It is always a force majeure event shared by both parties",
+        "It disappears, because the government is the only payer",
+        "As in user-pays: mostly private, but sharing may give VfM"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the same reflections as for user-pays volume risk apply to volume risk in usage-based government-pays PPPs: generally private, with sharing or limits possible when it gives VfM (Ch 5 §5.8)."
+    },
+    {
+      "question": "In a user-pays water PPP, the authority keeps the right to approve the tariff each year. It approves a lower tariff than the contract anticipated. What should the contract include?",
+      "options": [
+        "Measures to neutralise the impact on the private partner",
+        "Nothing, because inflation risk is always fully private",
+        "An automatic right for the partner to stop the service",
+        "Termination for authority default in every such case"
+      ],
+      "answer": 0,
+      "explanation": "Cost inflation not covered by indexation is generally private, but where the authority reserves the power to set tariffs and does not approve the expected level, the contract should include measures to neutralise the impact (Ch 5 §5.8)."
+    },
+    {
+      "question": "Failing availability and quality standards can reduce a private partner's revenue in two ways. Which pair is correct?",
+      "options": [
+        "Directly through new taxes, or indirectly through refinancing",
+        "Directly through abatements, or indirectly through penalties or LDs",
+        "Directly through termination, or indirectly through insurance",
+        "Directly through the risk premium, or indirectly through indexation"
+      ],
+      "answer": 1,
+      "explanation": "Failure to meet performance requirements affects revenue directly through abatement of payments or indirectly through penalties or liquidated damages (Ch 5 §5.8)."
+    },
+    {
+      "question": "A private partner asks the authority to share the risk of failing its own availability and quality targets in a school PPP. What should the authority answer?",
+      "options": [
+        "Yes, because every revenue risk should be shared in a PPP",
+        "Yes, as long as the event is recorded as a relief event",
+        "No, performance risk is the essence of a PPP and stays private",
+        "Yes, provided that the project's lenders agree to it"
+      ],
+      "answer": 2,
+      "explanation": "Revenue risk linked to availability and quality must be the private partner's responsibility, as it is the essence of the PPP objectives (Ch 5 §5.8)."
+    },
+    {
+      "question": "In an emerging market, many households do not pay their bills for a PPP water service. How does the Guide describe this risk?",
+      "options": [
+        "Always a government risk, because the users are its citizens",
+        "A force majeure event that lets either party terminate early",
+        "Not a revenue risk at all, but a type of construction risk",
+        "A crucial EMDE risk, generally private with some qualifications"
+      ],
+      "answer": 3,
+      "explanation": "Fraud or non-payment by users is a crucial risk in most EMDE countries; like other revenue risks it is generally private, with possible qualifications, especially for non-payment (Ch 5 §5.8)."
+    },
+    {
+      "question": "A project has hard-currency loans, but currency movements in the host country are small and it has a strong purchasing power parity relationship. How may forex risk be handled?",
+      "options": [
+        "An inflation adjustor may be enough, as inflation captures forex changes",
+        "A full government guarantee of the exchange rate is always needed",
+        "Foreign lenders should be excluded from financing the project",
+        "Forex movements should be treated as a force majeure event"
+      ],
+      "answer": 0,
+      "explanation": "Where forex fluctuations are not large and the country has a strong purchasing power parity relationship, an inflation adjustor is sufficient because inflation changes capture forex fluctuations (Ch 5 §5.8)."
+    },
+    {
+      "question": "In a hospital PPP, energy prices are very volatile and outside the operator's control. Which does the Guide list as a common exception to transferring O&M cost risk?",
+      "options": [
+        "Routine cleaning labour costs",
+        "Utility costs, especially energy",
+        "Major maintenance and renewals",
+        "Costs of fixing design errors"
+      ],
+      "answer": 1,
+      "explanation": "O&M cost risk is naturally private, but common exceptions include utility costs (especially energy), soft services, insurance premium costs and the inverse risk of usage (Ch 5 §5.8). Life-cycle and design costs stay private."
+    },
+    {
+      "question": "A PPP prison is paid by availability only. The number of inmates rises far above forecast, raising the operator's costs with no extra payment. What is this risk called?",
+      "options": [
+        "Volume risk in user-pays",
+        "Counterparty credit risk",
+        "Inverse risk of usage",
+        "Downside refinancing risk"
+      ],
+      "answer": 2,
+      "explanation": "The inverse risk of usage is the risk of higher-than-expected demand when revenue is not linked to usage, creating a misalignment between the parties (Ch 5 §5.8, footnote 60)."
+    },
+    {
+      "question": "At commercial close of a PPP, banks offer debt only on prohibitive terms. Who generally bears this risk, and what should the government have done?",
+      "options": [
+        "The government, which must always guarantee the project's debt",
+        "Both parties equally, since it is a force majeure event",
+        "The lenders, which must lend at the terms assumed in the bid",
+        "The private partner; the government should mitigate it by good preparation"
+      ],
+      "answer": 3,
+      "explanation": "Availability of finance relates to an essential PPP obligation and is generally private, but the government must proactively mitigate it through proper preparation and appraisal (Ch 5 §5.8)."
+    },
+    {
+      "question": "Between bid submission and financial close, base interest rates rise by one percentage point. How is this risk treated in a number of countries?",
+      "options": [
+        "It is taken back or shared by the authority",
+        "It is always borne fully by the bidder",
+        "It is treated as a force majeure event",
+        "It is paid by the construction contractor"
+      ],
+      "answer": 0,
+      "explanation": "Interest rate risk is an essential private risk, except the base rate risk between bid submission and financial close, which a number of countries take back or share (Ch 5 §5.8)."
+    },
+    {
+      "question": "Two years after completion, a project company refinances its debt on much better terms and its equity return rises. What do some jurisdictions require?",
+      "options": [
+        "Returning the whole gain to the original lenders",
+        "Sharing the refinancing gain with the government",
+        "Cancelling the refinancing as a breach of contract",
+        "Reducing the concession term by the same value"
+      ],
+      "answer": 1,
+      "explanation": "Some jurisdictions oblige the private partner to share refinancing gains with the government, and in some projects the government also shares the downside (Ch 5 §5.8)."
+    },
+    {
+      "question": "A new law raises taxes only for the energy sector in which a PPP company operates. What is good practice for the contract to provide?",
+      "options": [
+        "Nothing extra, since it is a general change affecting any business",
+        "Early termination for force majeure at the partner's request",
+        "Sharing or limiting mechanisms, as it is a specific change in law",
+        "Full relief from all tax obligations for the whole contract term"
+      ],
+      "answer": 2,
+      "explanation": "General changes in law affecting any business are private, but good practice is to include sharing and limiting mechanisms for discriminatory changes and for specific changes affecting only the project's sector (Ch 5 §5.8)."
+    },
+    {
+      "question": "A hurricane damages a PPP port. Neither party could have controlled it. How does the Guide's typical allocation treat acts of God?",
+      "options": [
+        "Borne fully by the private partner as a design risk",
+        "Borne fully by the government as a political risk",
+        "Ignored, because they cannot be measured in advance",
+        "Shared, and specifically defined in the contract if possible"
+      ],
+      "answer": 3,
+      "explanation": "Acts of God such as hurricanes and earthquakes are not controllable by either party and should be shared, and defined as such in the contract if possible (Ch 5 §5.8). Political risks like war are the ones typically borne by government."
+    },
+    {
+      "question": "During market sounding, bidders say the early termination compensation formula in the draft contract is unclear and hard to calculate. Why should the authority care?",
+      "options": [
+        "It may lose competitive bids or even face no bids",
+        "It will have to pay the full compensation twice",
+        "The lenders will take over the tender process",
+        "The project will move onto the balance sheet"
+      ],
+      "answer": 0,
+      "explanation": "A termination compensation method seen as unfair, unbalanced, ambiguous or difficult to assess may cost the authority competitive bids or lead to a no-bids situation (Ch 5 §5.8)."
+    },
+    {
+      "question": "Where do many relief and compensation events usually appear in a PPP contract?",
+      "options": [
+        "Only in an annex that is signed after financial close",
+        "As qualifications on obligations such as construction, O&M and payment",
+        "Only in the lenders' direct agreement with the authority",
+        "Only in the tender instructions given to the bidders"
+      ],
+      "answer": 1,
+      "explanation": "Many relief and compensation events are documented as qualifications on the relevant obligations, affecting design and construction, O&M, performance requirements and payment mechanism provisions; some get stand-alone clauses (Ch 5 §5.9)."
+    },
+    {
+      "question": "A draft contract lists 'unexpected ground conditions' as a compensation event, but does not say how serious the conditions must be. What is missing?",
+      "options": [
+        "An all risk clause giving the risk to the authority",
+        "A catch-all definition taken from the civil code",
+        "A precise materiality or significance threshold",
+        "A list of approved insurers for the private partner"
+      ],
+      "answer": 2,
+      "explanation": "The contract must clearly define the events that give relief and compensation, including a precise definition of materiality or significance thresholds (Ch 5 §5.9)."
+    },
+    {
+      "question": "An earthquake closes a PPP hospital for four months. What should the contract's force majeure rules already say?",
+      "options": [
+        "That the private partner must pay the authority a penalty",
+        "That the contract ends automatically on the first day",
+        "That the lenders decide all payments during the event",
+        "Whether and how much to pay, and when either party may terminate"
+      ],
+      "answer": 3,
+      "explanation": "The contract must contain force majeure rules on how to deal with the impact on service, such as whether and how much to pay during the event, and when either party may trigger early termination (Ch 5 §5.9)."
+    },
+    {
+      "question": "The parties to a PPP disagree about who can best manage the rising risk of floods caused by climate change. What does the Guide advise?",
+      "options": [
+        "Discuss climate risk allocation openly to find each party's real ability",
+        "Transfer all climate risk to the private partner without discussion",
+        "Leave climate risk out, as it is too uncertain to allocate",
+        "Let the insurers decide the allocation after contract signing"
+      ],
+      "answer": 0,
+      "explanation": "Inadequate protection from climate risks can threaten project viability for all parties, so climate risk allocation should be discussed openly and comprehensively to determine each party's ability to manage each risk (Ch 5 §5.9)."
+    },
+    {
+      "question": "Consider two statements. 1: Technology obsolescence is generally a risk for the private partner. 2: A mandatory technology upgrade imposed by the authorities is treated as a change in law, not as ordinary obsolescence.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Technology obsolescence generally has to be assumed by the private party, unless it relates to mandatory technological enhancements, which are a subset of changes in law (Ch 5 §5.8). Both statements are true."
     }
   ]
 }

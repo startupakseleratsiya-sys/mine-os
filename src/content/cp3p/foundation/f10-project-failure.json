@@ -291,6 +291,446 @@
       ],
       "answer": 1,
       "explanation": "The Guide warns that without a proper framework a ministry that thinks it can shift costs may commit to unaffordable PPPs. Force majeure is an unavoidable external risk, and step-in rights and consortia are normal features of PPPs."
+    },
+    {
+      "question": "According to the Guide, when should the PPP option be adopted for a project?",
+      "options": [
+        "When the public budget has no money for the capital cost in the current year",
+        "When there is significant evidence that it adds VfM compared with other methods",
+        "When at least three private bidders have already shown interest in the project",
+        "When the project is too complex for the ministry to manage on its own"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says PPP should only be adopted with significant evidence that it adds incremental VfM compared with other procurement methods (Ch 1 §8). Lack of budget cash is not a valid reason on its own."
+    },
+    {
+      "question": "Which of the following best describes the Guide's view of success in managing the PPP process?",
+      "options": [
+        "Attracting the highest possible number of bidders to each tender",
+        "Transferring as many risks as possible to the private partner",
+        "Effective risk management: avoiding or mitigating failure risks",
+        "Reaching contract signature within the timetable set in the RFP"
+      ],
+      "answer": 2,
+      "explanation": "Success means avoiding project failure risks or mitigating their consequences, which is in essence effective risk management (Ch 1 §8.1). Signature alone does not mean success."
+    },
+    {
+      "question": "Which is NOT one of the three conditions for success listed in the Guide?",
+      "options": [
+        "The project is appraised, prepared, structured and managed well",
+        "PPP is the right delivery model for the chosen project",
+        "The project is the right project and is properly prioritised",
+        "The private partner earns the highest possible equity return"
+      ],
+      "answer": 3,
+      "explanation": "The three conditions are the right project, PPP as the right delivery model, and good appraisal, preparation, structuring and management (Ch 1 §8.1). A maximum private return is not a success condition."
+    },
+    {
+      "question": "A ministry's own team has prepared an appraisal that strongly favours its preferred project. What does the Guide say may be needed at times?",
+      "options": [
+        "An independent appraiser to ensure objectivity",
+        "A second tender to test the appraisal results",
+        "A lenders' technical adviser to approve the CBA",
+        "A political champion to sign off the appraisal"
+      ],
+      "answer": 0,
+      "explanation": "The Guide notes that at times an independent appraiser may be brought in to ensure objectivity (Ch 1 §8.1). A champion leads the project but does not provide an unconflicted review."
+    },
+    {
+      "question": "Consider two statements. 1. VfM has to be protected only until the contract is signed. 2. Standard approaches and good practices are among the paramount conditions for PPP success.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "VfM must be protected throughout preparation, implementation and the whole life of the contract, so statement 1 is false. Following standard approaches and good practice, with proper process management and resources, is a paramount condition, so statement 2 is true (Ch 1 §8)."
+    },
+    {
+      "question": "A project team finds during appraisal that the scope must be changed, so it goes back and restarts the appraisal. What type of failure is this?",
+      "options": [
+        "Definitive cancellation of the project as a PPP",
+        "Full redefinition of the project before signature",
+        "Relative project failure after contract signature",
+        "Partial redefinition of the business terms only"
+      ],
+      "answer": 1,
+      "explanation": "Full redefinition changes the scope and starts the appraisal again; partial redefinition only refines some scope or business terms (Ch 1 §8.1). Both happen before signature, so relative failure does not apply."
+    },
+    {
+      "question": "Which describes the two categories of failure, in terms of consequences, during preparation and tender?",
+      "options": [
+        "The SPV seriously defaults, or the SPV goes bankrupt",
+        "The award is challenged, or the winner refuses to sign",
+        "Suspension with redefinition, or definitive cancellation",
+        "The contract is rescued, or the contract is re-tendered"
+      ],
+      "answer": 2,
+      "explanation": "Before signature the Guide names two categories: suspension with redefinition, and definitive cancellation, at least as a PPP (Ch 1 §8.1). Default and bankruptcy are causes of absolute failure after signature."
+    },
+    {
+      "question": "Why does the Guide advocate a step-by-step process with progressive approvals (a gateway process)?",
+      "options": [
+        "It removes the need for a separate affordability assessment",
+        "It allows the tender to be launched before the appraisal ends",
+        "Lenders require a gateway approval before they sign any loans",
+        "The more advanced the process, the higher the loss from a failure"
+      ],
+      "answer": 3,
+      "explanation": "Losses grow the further the process advances, which is the ultimate reason for progressive approvals (Ch 1 §8.1). A gateway process adds checks; it does not skip appraisal or affordability."
+    },
+    {
+      "question": "Which is an example of relative project failure given in the Guide?",
+      "options": [
+        "Compensation due for an unforeseen event was never budgeted",
+        "The SPV goes bankrupt and the contract has to be re-tendered",
+        "The tender receives no qualifying bids from the market",
+        "The appraisal shows the project should not be a PPP"
+      ],
+      "answer": 0,
+      "explanation": "Relative failure includes unforeseen events not provided for in the contract, or a government not prepared in budget terms to pay compensation due (Ch 1 §8.1). SPV bankruptcy with re-tender is absolute contract failure."
+    },
+    {
+      "question": "Consider two statements. 1. A change of administration that withdraws political support can reduce the perceived VfM of a project. 2. A government may breach a PPP contract because budget limits were not properly considered in the affordability analysis when the project was approved.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Political support can change under a new administration and seriously impede perceived VfM (Ch 1 §8.1). The Guide also lists a government that cannot afford payments, because budget limits were not considered in the affordability analysis, as a breach by the grantor (Ch 1 §8.3.2). Both statements are true."
+    },
+    {
+      "question": "When does PPP fail as a procurement mechanism, in the Guide's view?",
+      "options": [
+        "Whenever the government changes after a national election",
+        "Whenever the private partner earns less than it had expected",
+        "When the contract lacks flexibility to handle unforeseen events",
+        "Whenever a force majeure event affects the construction works"
+      ],
+      "answer": 2,
+      "explanation": "Force majeure and unforeseen events cannot be avoided; PPP fails as a mechanism when the contract does not give the parties flexibility to deal with them (Ch 1 §8.2). The event itself is not the failure."
+    },
+    {
+      "question": "Consider two statements about project failure. 1. Every project failure is a failure of PPP as a procurement mechanism. 2. Some failures would hurt a traditionally procured project equally or even more.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says not all project failures are failures of PPP as a mechanism, so statement 1 is false. For some failures the impact would be equal or greater under traditional delivery, so statement 2 is true (Ch 1 §8.2)."
+    },
+    {
+      "question": "Complete the sentence: 'Problems created by the contract itself are sometimes called ____.'",
+      "options": [
+        "counterparty risk",
+        "optimism bias",
+        "political risk",
+        "contract risk"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the contract itself may be a source of risks, sometimes defined as 'contract risk' (Ch 1 §8.2). Optimism bias is an error in forecasts, not a feature of the contract."
+    },
+    {
+      "question": "Why does the Guide link contract management failures to project preparation?",
+      "options": [
+        "Contract managers are the same people who wrote the appraisal",
+        "Lenders approve the contract management plan at appraisal",
+        "The management strategy must be built into the contract when drafted",
+        "Contract management legally begins before the tender is launched"
+      ],
+      "answer": 2,
+      "explanation": "Poor contract management is related to preparation because the contract management strategy must be considered, and provisions included, when the contract is drafted (Ch 1 §8.2)."
+    },
+    {
+      "question": "A PPP unit loses three project directors in two years, and each new director reopens key decisions. Which Box 1.30 factor does this show?",
+      "options": [
+        "Lack of continuity and succession planning in the team",
+        "Failure to identify the project stakeholders early",
+        "Absence of a fiscal management framework for PPPs",
+        "Once-off procurement of an extremely unique project"
+      ],
+      "answer": 0,
+      "explanation": "Frequent changes in the project team, with no succession planning, is listed in Box 1.30 (Ch 1 §8.2). The fiscal framework point belongs to the framework risk factors, not to project management."
+    },
+    {
+      "question": "A ministry's PPP decisions are often reversed by outside officials, and its team has little delegated power. Which Box 1.30 factor is this?",
+      "options": [
+        "Political rush and unrealistic timescales",
+        "Lack of proper quality control mechanisms",
+        "Failure in taking and managing decisions",
+        "Failure to communicate with investors"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.30 lists failure in taking and managing decisions, caused by insufficient delegation of powers or external interference (Ch 1 §8.2). Quality control and communication are separate factors."
+    },
+    {
+      "question": "Which describes a very common source of PPP failure in EMDEs, according to the Guide?",
+      "options": [
+        "Too much long-term finance in the local markets",
+        "Too little time for solid preparation and risk analysis",
+        "Too much in-house capacity in procuring authorities",
+        "Too many bidders competing for each single project"
+      ],
+      "answer": 1,
+      "explanation": "Especially in EMDEs, a common source of failure is the lack of time for solid preparation and risk analysis, under political pressure and unrealistic expectations (Ch 1 §8.2)."
+    },
+    {
+      "question": "In countries with little PPP experience, the Guide warns about players who seek advantage through influence or shortcuts. With which route is this particularly common?",
+      "options": [
+        "Two-stage tenders with prequalification",
+        "Preferred bidder debt funding competitions",
+        "Competitive dialogue",
+        "Unsolicited proposals (USPs)"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says players who do not follow the rules and seek advantage through influence or shortcuts are particularly common with USPs (Ch 1 §8.2). Competitive processes reduce, not create, this danger."
+    },
+    {
+      "question": "Which consequence does the Guide link to a complex and unclear institutional framework?",
+      "options": [
+        "Faster approval of unsolicited proposals",
+        "Lower construction costs through competition",
+        "Contradictory directions and changes in decisions",
+        "Higher interest rates on the project debt"
+      ],
+      "answer": 2,
+      "explanation": "A complex and unclear institutional framework makes stakeholder management difficult and may create contradictory directions and changes in decisions (Ch 1 §8.2)."
+    },
+    {
+      "question": "A country has no framework to control its total exposure to PPP commitments. What may happen, according to the Guide?",
+      "options": [
+        "Lower bid prices because of much stronger competition",
+        "Unexpected conflicts, even termination of an announced process",
+        "Automatic approval of all projects by the finance ministry",
+        "A legal ban on grants and public loans for all PPP projects"
+      ],
+      "answer": 1,
+      "explanation": "Without a fiscal management framework controlling aggregate PPP exposure, unexpected conflicts can arise and a PPP process may be terminated even after it was announced (Ch 1 §8.2)."
+    },
+    {
+      "question": "Consider two statements about a missing PPP framework. 1. A ministry that does not bear project risks may not ensure the private sector bears enough risk. 2. Agencies working in silos may fail to coordinate enough to make PPPs happen.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are listed as risk factors when there is no appropriate PPP framework: a ministry not bearing risks may not be diligent about risk transfer, and silo agencies may fail to coordinate (Ch 1 §8.2)."
+    },
+    {
+      "question": "Which consequence does the Guide link to missing information disclosure provisions?",
+      "options": [
+        "Less transparency and competition, which may feed corruption",
+        "Faster tenders because fewer documents need to be published",
+        "Better construction quality because bidders compete in secret",
+        "A lower WACC because lenders face less public pressure"
+      ],
+      "answer": 0,
+      "explanation": "Without disclosure provisions, transparency and competition suffer, harming private interest, public acceptance and political commitment, and this may increase corruption in a vicious circle (Ch 1 §8.2)."
+    },
+    {
+      "question": "An appraisal-phase CBA is much worse than the identification-phase result, because the earlier estimate used over-optimistic assumptions. Where does the real cause lie?",
+      "options": [
+        "In the tender evaluation criteria written in the RFP",
+        "In the lenders' due diligence before financial close",
+        "In poor contract management during the later operations phase",
+        "In poor screening at identification, including optimism bias"
+      ],
+      "answer": 3,
+      "explanation": "The Guide gives this as a pre-tender example: the CBA was not done earlier or used overly optimistic assumptions (Ch 1 §8.3.1). Optimism bias is one of the most common reasons for cancelling projects."
+    },
+    {
+      "question": "Before tender launch, a hospital PPP is abandoned because legal limits on land availability were never checked. What kind of failure is this?",
+      "options": [
+        "An absolute contract failure after signature",
+        "A pre-tender failure caused by weak appraisal",
+        "A tender failure caused by a competitor challenge",
+        "A relative failure caused by weak performance"
+      ],
+      "answer": 1,
+      "explanation": "Land limits for a hospital not detected in appraisal is the Guide's example of a project abandoned before tender launch (Ch 1 §8.3.1). No contract exists yet, so absolute or relative failure cannot apply."
+    },
+    {
+      "question": "A tender is suspended after launch because the public and civil society strongly oppose the project. Which preparation weakness does the Guide link to this?",
+      "options": [
+        "The contract lacked measurable performance standards",
+        "The bid period fell over a well-known national holiday",
+        "The SPV's minimum equity requirement was set too low",
+        "Project information was not made public in time for comments"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists strong stakeholder opposition and failure to publish project information in time for suggestions as reasons for suspending a tender (Ch 1 §8.3.1). A holiday bid period explains no bids, not opposition."
+    },
+    {
+      "question": "Which would NOT explain an empty tender with zero compliant offers, according to the Guide?",
+      "options": [
+        "The government was seen as not honouring similar PPP contracts",
+        "The authority told the market about the project well in advance",
+        "The tender was launched without any advance notice to the market",
+        "The contract as designed was not financially or technically feasible"
+      ],
+      "answer": 1,
+      "explanation": "Missing advance notice, an unfeasible contract, and a perception that government does not honour other PPP contracts are all listed causes of no bids (Ch 1 §8.3.1). Early notice to the market helps, rather than harms, competition."
+    },
+    {
+      "question": "A contract is awarded, but the successful bidder refuses to sign it. Which cause does the Guide give for this?",
+      "options": [
+        "The project had not been properly prepared",
+        "The bid bond required in the RFP was too low",
+        "The bid period had been longer than usual",
+        "The authority had shortlisted the bidders first"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a contract may be awarded but not signed because a competitor challenges the award, or because the winner refuses to sign due to a lack of project preparation (Ch 1 §8.3.1). A long bid period or a shortlist is not given as a cause."
+    },
+    {
+      "question": "Environmental permits are at risk because the authority managed the process badly, and financing does not close. How does the Guide categorise this?",
+      "options": [
+        "A pre-signature failure from unresolved preparation problems",
+        "A minor failure caused by an unclear risk allocation",
+        "A default by the private partner through lack of capacity",
+        "A relative failure during the life of the contract"
+      ],
+      "answer": 0,
+      "explanation": "Financing not closing because of unresolved preparation problems, such as permits at risk from poor authority management, is a failure before the contract takes effect (Ch 1 §8.3.1). The cause lies with the authority, not the private partner."
+    },
+    {
+      "question": "Construction is badly delayed because the government never secured access to the land. What does the Guide say lies behind this?",
+      "options": [
+        "Overly aggressive pricing in the private partner's bid",
+        "Weak step-in rights in the lenders' direct agreement",
+        "Weak government due diligence on risks it retained",
+        "A force majeure event outside anyone's control"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives construction delay from missing land or right of way as a result of the government's lack of due diligence on the risks it assumes (Ch 1 §8.3.2). It is a preparation failure, not force majeure."
+    },
+    {
+      "question": "The winning consortium's bid was so aggressive that it later defaults. According to the Guide, what should the tender have done?",
+      "options": [
+        "Been structured to detect or avoid overly aggressive offers",
+        "Allowed the bidder to renegotiate the price after signing",
+        "Awarded the contract to the lowest price without any checks",
+        "Required the government to guarantee the SPV's equity return"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says default from an overly aggressive bid shows the tender was not structured to avoid or detect overly optimistic offers (Ch 1 §8.3.2). Guaranteeing returns or renegotiating would destroy VfM."
+    },
+    {
+      "question": "A private partner cannot meet its minimum service standards because the authority set requirements no operator could achieve. What does the Guide identify as the cause of this default?",
+      "options": [
+        "A lack of capacity assessment during the tender",
+        "An over-optimistic traffic forecast in the appraisal",
+        "Interface works that the government did not deliver",
+        "Unrealistic performance requirements set by government"
+      ],
+      "answer": 3,
+      "explanation": "One listed cause of private partner default is the government setting unrealistic performance requirements (Ch 1 §8.3.2). Capacity not being assessed is a different cause, about the consortium itself."
+    },
+    {
+      "question": "An SPV becomes insolvent because the traffic forecast used in the appraisal was far too optimistic. What is the root cause?",
+      "options": [
+        "Weak lender step-in rights",
+        "Poor appraisal of the project",
+        "Excessive public co-financing",
+        "Poor hand-back of the assets"
+      ],
+      "answer": 1,
+      "explanation": "The Guide's example of contractor insolvency is a project found unfeasible because of poor appraisal, such as a too-optimistic traffic forecast (Ch 1 §8.3.2). The failure shows during the contract but was caused earlier."
+    },
+    {
+      "question": "A government is responsible for the civil works on a rail PPP but fails to deliver them on time, so the private partner cannot run its systems. How does the Guide classify this?",
+      "options": [
+        "Relative failure through weak performance measures",
+        "Force majeure affecting both parties equally",
+        "Absolute failure through private partner default",
+        "A government breach through failed interfacing works"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists the government failing to perform interfacing works, such as civil works for a rail project, as a breach by the grantor (Ch 1 §8.3.2). The private partner is not in default here."
+    },
+    {
+      "question": "Which is an example of a minor failure or loss of VfM given in the Guide?",
+      "options": [
+        "Cancellation of the tender after it has been launched",
+        "Costly disputes arising from an unclear risk allocation",
+        "No qualifying bids received from the market at all",
+        "Bankruptcy of the SPV during the construction period"
+      ],
+      "answer": 1,
+      "explanation": "Minor failures include costly disputes from unclear risk allocation and performance requirements that cannot be measured or enforced (Ch 1 §8.3.2). Cancellation after launch is the worst pre-signature failure."
+    },
+    {
+      "question": "Consider two statements about the private sector's view. 1. Bidders expect the process to follow the announced timetable. 2. Commercial feasibility is a necessary condition for a PPP, and it requires bankability.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says bidders want a reliable timetable and collaborative process management, and that commercial feasibility, which needs bankability, is a necessary condition (Ch 1 §8.4). Both statements are true."
+    },
+    {
+      "question": "According to Table 1.7, why do bidders want a project to be economically sound?",
+      "options": [
+        "Low use weakens public commitment and can hurt demand revenue",
+        "It allows the SPV to avoid all performance deductions",
+        "It removes the need for the lenders' due diligence",
+        "It guarantees that grants will be paid during construction"
+      ],
+      "answer": 0,
+      "explanation": "A project that fails as a solution, for example with use far below expectations, risks weaker public commitment and can compromise financial feasibility in demand projects (Ch 1 §8.4, Table 1.7)."
+    },
+    {
+      "question": "According to Table 1.7, what is likely if a project that is unsuitable for PPP is tendered as a PPP?",
+      "options": [
+        "An artificial risk structure brings no bids or later failure",
+        "The government must convert it into a grant-funded project",
+        "Lenders must accept a lower margin to support the project",
+        "It automatically becomes an institutional PPP with public control"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.7 says an unsuitable project tendered as a PPP will have an artificial, inefficient risk structure, likely leading to no bids or failures later (Ch 1 §8.4)."
+    },
+    {
+      "question": "In Table 1.7, which condition means the payment ceiling covers all costs, risk contingencies and a fair return?",
+      "options": [
+        "Legally feasible",
+        "Economically sound",
+        "Properly prepared",
+        "Commercially feasible"
+      ],
+      "answer": 3,
+      "explanation": "Commercial feasibility means the payment limit or price covers all costs and risk contingencies, plus a return in line with the cost of capital (Ch 1 §8.4, Table 1.7). Economic soundness is about being the right solution."
+    },
+    {
+      "question": "Why do good bidders want a properly structured tender with balanced but high capacity requirements?",
+      "options": [
+        "To remove the need for technical proposals in the bid",
+        "To reduce the number of lenders able to join the project",
+        "To allow the winner to sell its shares during construction",
+        "To avoid unfair competition from unrealistic, aggressive offers"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.7 says reputable players want high capacity requirements and technical proposals to avoid unfair competition from unrealistic and aggressive offers (Ch 1 §8.4)."
+    },
+    {
+      "question": "Under Table 1.7, what does 'properly prepared' require for the risks transferred to the private sector?",
+      "options": [
+        "Consistent and available information, such as utilities data",
+        "A price adjustment each year for any cost increase",
+        "An equity stake by the authority in the SPV",
+        "A guarantee that government insures all of those risks"
+      ],
+      "answer": 0,
+      "explanation": "A properly prepared project has enough due diligence, and for transferred risks the information must be consistent and available, for example environmental approvals and utilities allocation (Ch 1 §8.4, Table 1.7)."
     }
   ]
 }

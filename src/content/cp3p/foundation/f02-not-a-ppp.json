@@ -255,7 +255,7 @@
       "options": [
         "Because the finance is always provided by a public development bank",
         "Because the contractor is not allowed to borrow from commercial banks",
-        "Because the finance is not materially subject to project performance risk, only construction risk",
+        "Because it is exposed only to construction risk, not to performance risk",
         "Because DBF payments are made by users rather than by the government"
       ],
       "answer": 2,
@@ -293,6 +293,446 @@
       ],
       "answer": 1,
       "explanation": "The Guide states that a DBF is not a PPP. It adds that when a PPP is not the right option, a DBF may still offer some benefits compared with a conventional B or DB contract."
+    },
+    {
+      "question": "On the Guide's spectrum of private participation (Figure 1.1), what lies at the opposite end from public control?",
+      "options": [
+        "Full public delivery using public staff and equipment",
+        "Short-term operation and maintenance contracts",
+        "Private risk and control, with the state as regulator",
+        "Build-only contracts paid from the public budget"
+      ],
+      "answer": 2,
+      "explanation": "Figure 1.1 runs from public control at one end to private risk and control, with public control and regulation, at the other. Short O&M and B contracts sit near the public end."
+    },
+    {
+      "question": "A road authority signs a two-year contract with a private firm for routine road maintenance. Where does this sit on the Guide's spectrum?",
+      "options": [
+        "A service PPP",
+        "An infrastructure PPP",
+        "A non-PPP: a short-term O&M contract",
+        "A private finance infrastructure PPP"
+      ],
+      "answer": 2,
+      "explanation": "Figure 1.1 gives a two-year road O&M contract as a non-PPP example. It lacks a long-term contract and significant life-cycle risk transfer."
+    },
+    {
+      "question": "A city signs a 10-year at-risk contract under which a private firm manages its water supply service. Where does this sit on the spectrum?",
+      "options": [
+        "A service PPP",
+        "A non-PPP O&M contract",
+        "A private finance DBFOM PPP",
+        "A privatized firm in a regulated market"
+      ],
+      "answer": 0,
+      "explanation": "Figure 1.1 lists long-term at-risk management or service contracts, such as a 10-year water supply management contract, as service PPPs. There is no new build or private finance, so it is not a DBFOM."
+    },
+    {
+      "question": "A contractor designs and builds an asset, paid from the budget, and then also maintains it for a number of years. Where does the Guide's spectrum place this contract?",
+      "options": [
+        "DB, among non-PPPs",
+        "DBF, among non-PPPs",
+        "A public domain concession",
+        "DBOM, among infrastructure PPPs"
+      ],
+      "answer": 3,
+      "explanation": "Figure 1.1 places DBOM contracts, where the contractor also maintains the asset for years, among infrastructure PPPs. DB and DBF have no bundled long-term maintenance."
+    },
+    {
+      "question": "An investor receives a 99-year concession to use port land and develop port facilities entirely at its own risk. Where does the Guide place this?",
+      "options": [
+        "Outside procurement: a public domain concession",
+        "A government-pays private finance PPP contract",
+        "A long-term at-risk service PPP contract",
+        "A Design, Build and Finance (DBF) contract"
+      ],
+      "answer": 0,
+      "explanation": "Figure 1.1 (#9) places public domain concessions, such as a 99-year port land concession at the developer's risk, outside procurement. They are not PPPs because there is no contract and the government acts as a relatively passive regulator (Ch 1 §2.4)."
+    },
+    {
+      "question": "A telecom operator competes for customers under some regulatory limits. Where does this fit on the Guide's spectrum?",
+      "options": [
+        "A user-pays DBFOM private finance PPP contract",
+        "A privatized firm in a liberalized, regulated market",
+        "A long-term at-risk service PPP for telecoms",
+        "A short-term operation and maintenance contract"
+      ],
+      "answer": 1,
+      "explanation": "Figure 1.1 gives a telecom operator or electricity distributor competing for users under regulation as an example of privatized companies in liberalized, regulated markets, not a PPP."
+    },
+    {
+      "question": "A government grants a 30-year lease to operate an existing toll road in return for an upfront fee. How does the spectrum describe this?",
+      "options": [
+        "Privatization of the road in its true sense",
+        "Long-term management with asset monetization",
+        "A Design, Build and Finance (DBF) contract",
+        "A short-term operation and maintenance contract"
+      ],
+      "answer": 1,
+      "explanation": "Figure 1.1 shows a 30-year lease or concession of an existing toll road against an upfront fee as long-term management with asset monetization. It is not privatization, because nothing is transferred permanently."
+    },
+    {
+      "question": "Which statement matches the PPP Guide's use of the word “infrastructure”?",
+      "options": [
+        "It covers only large civil works such as roads",
+        "It includes equipment and plants, not only civil works",
+        "It covers economic but not social infrastructure",
+        "It excludes plants where civil works are minor"
+      ],
+      "answer": 1,
+      "explanation": "The Guide uses infrastructure in a broad sense: complete systems with civil works, but also equipment such as rolling stock and plants such as power or wastewater plants, both social and economic."
+    },
+    {
+      "question": "Complete the sentence: A programme to deliver 20 new schools is an example of ____ infrastructure.",
+      "options": [
+        "social",
+        "economic",
+        "regulated",
+        "brownfield"
+      ],
+      "answer": 0,
+      "explanation": "The Guide classes hospitals and schools as social infrastructure. Water, energy, transport and telecommunications are economic infrastructure."
+    },
+    {
+      "question": "Consider these two statements about the long-term nature row of Table 1.2. 1: A DB contract is not long-term in nature. 2: A DBF contract is sometimes long-term in nature.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. Table 1.2 marks long-term nature as No for DB and Sometimes for DBF, because DBF instalments may run over several years; DBOM and DBFOM are long-term."
+    },
+    {
+      "question": "According to the Guide, what two things does the term PPP imply, even as a broad concept?",
+      "options": [
+        "A contract and a government intention to contract out",
+        "Private finance and charges paid by the users",
+        "A state-owned partner and an open public tender",
+        "A permanent transfer of assets and a regulator"
+      ],
+      "answer": 0,
+      "explanation": "PPPs are an option to procure and/or manage infrastructure, so the term implies a contract and a specific intention by government to contract out development and/or management (Ch 1 §2)."
+    },
+    {
+      "question": "Consider these two statements. 1: A PPP in the broad sense requires significant private finance. 2: PPI is the Guide's formal name for private finance PPPs.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "Neither is true. Significant private finance is needed only for a private finance PPP, and PPI means any private investment in or management of infrastructure, which includes many non-PPPs."
+    },
+    {
+      "question": "A state-owned toll company borrows against future toll revenue and hires a contractor under a normal DB contract. How does the Guide classify this?",
+      "options": [
+        "Conventional procurement, not a PPP",
+        "A user-pays PPP, since users pay tolls",
+        "A private finance PPP, since debt is raised",
+        "A DBF contract, since finance is involved"
+      ],
+      "answer": 0,
+      "explanation": "The Guide gives this very example of conventional procurement: user revenue and borrowing do not make it a PPP. The contractor has no long-term risk and no finance at risk."
+    },
+    {
+      "question": "Which of these is NOT one of the four groups of options that the Guide examines in Chapter 1 Section 2?",
+      "options": [
+        "Procurement options not regarded as PPPs",
+        "Options for nationalizing private companies",
+        "Procurement options that may be PPPs",
+        "Contracts to manage services or existing assets"
+      ],
+      "answer": 1,
+      "explanation": "The four groups are options not regarded as PPPs, options that may be PPPs, contracts for managing services or existing infrastructure, and other private involvement such as privatization."
+    },
+    {
+      "question": "What is the usual source of funds for public works procured in the traditional way?",
+      "options": [
+        "Tolls collected by the contractor",
+        "The public budget",
+        "Loans raised by the contractor",
+        "Equity from a project company"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says public works are traditionally financed by the government from the public budget. Contractor loans are a feature of DBF, and project company equity of PPPs."
+    },
+    {
+      "question": "Under traditional procurement, can the public sector raise debt for one specific project?",
+      "options": [
+        "No, the single-till principle forbids it by law",
+        "Yes, and it is the usual approach in most countries",
+        "Yes, but it is not the most common approach",
+        "Only when the project is procured as a DBF"
+      ],
+      "answer": 2,
+      "explanation": "The public sector may raise debt for specific projects, but in most jurisdictions public debt follows the single-till principle, so this is not the most common approach."
+    },
+    {
+      "question": "Ministry engineers finish the full design of a bridge. The ministry then tenders a contract only to construct it. What type of contract is this?",
+      "options": [
+        "Build-only (B)",
+        "Design-Build (DB)",
+        "Design, Build and Finance (DBF)",
+        "Design, Build, Operate and Maintain"
+      ],
+      "answer": 0,
+      "explanation": "In a Build-only contract, the design has already been completed by another entity and the contract is tendered only to build. In a DB, one contract covers both design and construction."
+    },
+    {
+      "question": "A utility tenders one contract to design and construct a new desalination plant, paid from its budget. In some countries, what is this contract called?",
+      "options": [
+        "A DBFOM contract",
+        "A service PPP",
+        "An EPC contract",
+        "A forfaiting contract"
+      ],
+      "answer": 2,
+      "explanation": "B or DB contracts are sometimes called Engineering, Procurement and Construction (EPC) contracts, especially when the asset is mainly a plant. There is no finance or operation, so it is not a DBFOM."
+    },
+    {
+      "question": "Complete the sentence: A construction contract in which the price and the construction term are fixed is sometimes called a ____ contract.",
+      "options": [
+        "forfaiting",
+        "concession",
+        "affermage",
+        "turnkey"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a turnkey contract covers the same scope as B or DB, with price and construction term fixed. Forfaiting is a way to finance a DBF."
+    },
+    {
+      "question": "Under a B or DB contract, how is the contractor usually paid?",
+      "options": [
+        "In fixed instalments that start at commissioning",
+        "From the budget as work progresses, at the agreed price",
+        "Through tolls collected from the users",
+        "Through availability payments over 25 years"
+      ],
+      "answer": 1,
+      "explanation": "In traditional procurement the authority pays against its budget as the work progresses, at the stipulated price or subject to revisions. Instalments from commissioning describe a DBF."
+    },
+    {
+      "question": "Consider these two statements about a DB contractor's liability. 1: For a short period it may give security, such as a bank guarantee, for its liability for defects. 2: For hidden defects over a longer period, it normally gives a bank guarantee as well.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. The contractor may stay responsible for hidden defects for longer, but with no security during that period, so statement 2 is false (Ch 1 §2.1)."
+    },
+    {
+      "question": "In traditional procurement, how is the ordinary maintenance of a new asset usually handled?",
+      "options": [
+        "By the DB contractor under the same contract",
+        "By the lenders' technical adviser",
+        "By the users under a service charter",
+        "Through a separate contract with a private firm"
+      ],
+      "answer": 3,
+      "explanation": "Ordinary maintenance is usually contracted out through a separate contract, while life-cycle management, renewals and major maintenance stay with the government. It is not bundled with the DB contract."
+    },
+    {
+      "question": "Why do B and DB contracts give weak incentives for long-term asset quality?",
+      "options": [
+        "The contractor must maintain the asset for 30 years",
+        "Payments are linked to the asset's availability",
+        "The contractor's own finance is at risk",
+        "The contractor has no long-term interest after handover"
+      ],
+      "answer": 3,
+      "explanation": "B or DB contracts do not incentivise the contractor to care about long-term quality and resilience, because the authority takes full responsibility at completion."
+    },
+    {
+      "question": "During a DB project, the authority changes the scope and the contractor submits a large claim for extra payment. What does this illustrate?",
+      "options": [
+        "A sign that the contract is really a PPP",
+        "A motive to raise profit through variation claims",
+        "Normal performance deductions under a PPP",
+        "A transfer of demand risk to the contractor"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says a B or DB contractor may increase profit by cutting costs or by claiming extra payments, for example for government variations to the scope."
+    },
+    {
+      "question": "How can the public sector control the risk of poor quality or higher costs in B and DB contracts?",
+      "options": [
+        "By linking the payments to the use of the asset",
+        "Intensive quality assurance and detailed requirements",
+        "By making the contractor finance all the works",
+        "By using only output specifications for the works"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says these risks can only be controlled with intensive quality assurance oversight and highly prescriptive technical requirements, which means input specifications."
+    },
+    {
+      "question": "An authority lacks technical skills, is unsure what solution it needs and has no budget for the works this year. What does the Guide suggest about a DB contract here?",
+      "options": [
+        "DB is ideal because it is the simplest contract",
+        "DB is always the best route for public works",
+        "DB is required because a PPP is not allowed",
+        "The usual conditions that make DB suitable are missing"
+      ],
+      "answer": 3,
+      "explanation": "B or DB may be appropriate when the public sector has the skills, knows what it wants, prefers to keep maintenance and has budget funds. None of these holds here, and no route is universally best."
+    },
+    {
+      "question": "Consider these two statements. 1: The Guide says a PPP is the universally preferred procurement option for large infrastructure. 2: Each project demands its own specific procurement route as the optimum.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says there is no universally preferred or best procurement option for any infrastructure, so statement 1 is false. Each project needs its own optimum route."
+    },
+    {
+      "question": "In what way is a DBF contract similar to a DB contract?",
+      "options": [
+        "The government pays for the works as construction progresses",
+        "The state takes the asset at completion and keeps long-term risk",
+        "The contractor maintains the asset over its whole useful life",
+        "Payments to the contractor depend on the asset's availability"
+      ],
+      "answer": 1,
+      "explanation": "In both DB and DBF the government receives the asset at construction completion and retains long-term risks. The difference is that in a DBF payment is deferred."
+    },
+    {
+      "question": "The Guide calls a DBF a variation of traditional procurement. What is the variation?",
+      "options": [
+        "The transfer of maintenance risk",
+        "The link of pay to performance",
+        "The timing of the payment",
+        "The use of a project company"
+      ],
+      "answer": 2,
+      "explanation": "A DBF differs from traditional procurement only in the timing of payment, because the contractor funds construction. Maintenance risk and performance links stay as in a DB."
+    },
+    {
+      "question": "In a DBF, the contractor sells to a bank its right to receive the government payments, at a discount and without recourse. What is this structure called?",
+      "options": [
+        "Refinancing",
+        "Step-in",
+        "Co-financing",
+        "Forfaiting"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says selling the right to receive DBF payments to the lender, usually without recourse, is known as forfaiting (Ch 1 §2.1, footnote 14)."
+    },
+    {
+      "question": "In a DBF, what does the payment amount offered by the winning bidder usually include?",
+      "options": [
+        "Only construction costs; interest is paid apart",
+        "Only financing costs; works are paid as they go",
+        "Construction, maintenance and operating costs",
+        "Both construction costs and financing costs"
+      ],
+      "answer": 3,
+      "explanation": "DBF payments are fixed instalments over several years for an amount offered by the successful bidder, covering construction and financing costs. Maintenance and operation stay with the government."
+    },
+    {
+      "question": "Consider these two statements. 1: Countries following international government accounting standards should record a DBF asset and its liability in government accounts. 2: This is because the contractor keeps all the asset's risks after construction.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. The reason is that the procuring authority fully controls the asset and assumes all related risks once it is built, not the contractor, so statement 2 is false."
+    },
+    {
+      "question": "What extra value can the lender's involvement bring in a DBF?",
+      "options": [
+        "Extra due diligence on all the life-cycle risks",
+        "Removal of all construction risk from the contractor",
+        "Extra due diligence, but only on construction risks",
+        "A guarantee of quality over the asset's whole life"
+      ],
+      "answer": 2,
+      "explanation": "Because the debt is dedicated to the asset, the financer adds a layer of due diligence, but only for construction risks. Life-cycle risks stay with the public sector."
+    },
+    {
+      "question": "The Guide says a DBF may improve the reliability of the construction term. On what condition does this efficiency benefit depend?",
+      "options": [
+        "The contractor also maintains the asset for several years",
+        "The government pays a lower rate than on its own debt",
+        "Payments depend to some extent on completion and commissioning",
+        "Payments after opening are linked to user demand for the asset"
+      ],
+      "answer": 2,
+      "explanation": "The benefit arises provided that payments are to some extent conditional upon construction completion and commissioning (Ch 1 §2.1). A DBF has no maintenance or demand link, and it costs more than direct public debt."
+    },
+    {
+      "question": "The lenders in a DBF face very limited credit risk. What is that limited risk mainly related to?",
+      "options": [
+        "User demand for the asset over its whole life",
+        "The quality of long-term maintenance work",
+        "Construction; later the state pays fixed sums",
+        "Changes in the tolls charged to the users"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says credit risk in a DBF is very limited and basically related to construction. After commissioning, the government pays fixed instalments whatever the asset's condition."
+    },
+    {
+      "question": "What perverse incentive may a DBF contractor have, according to the Guide?",
+      "options": [
+        "To over-maintain the asset after handover",
+        "To reduce user demand for the asset",
+        "To delay completion to earn more interest",
+        "To maximize its margin during construction"
+      ],
+      "answer": 3,
+      "explanation": "Pay is not linked to the performance of the works or future service, and life-cycle cost stays with the public sector, so the contractor may try to maximize its construction margin. Delay would only postpone its payments."
+    },
+    {
+      "question": "Compared with a DB contract, which PPP feature from Table 1.2 does a DBF contract have?",
+      "options": [
+        "Private finance for the works",
+        "Bundling of design-build and O&M",
+        "Significant life-cycle risk transfer",
+        "Revenue linked to performance or use"
+      ],
+      "answer": 0,
+      "explanation": "Table 1.2 shows DBF has private finance (exposed only to construction risk) but, like DB, no bundling of O&M, no life-cycle risk transfer and no pay linked to performance or use."
+    },
+    {
+      "question": "A government plans a new road. Under which of these contracts does the government itself keep the long-term maintenance risk?",
+      "options": [
+        "A DBOM contract",
+        "A government-pays DBFOM",
+        "A DBF contract",
+        "A user-pays DBFOM"
+      ],
+      "answer": 2,
+      "explanation": "In a DBF the government takes over the asset at completion and keeps long-term risks. DBOM and both types of DBFOM bundle long-term maintenance with the contractor."
+    },
+    {
+      "question": "A contractor builds a school with a bank loan. The ministry pays 10 fixed annual instalments from commissioning, whatever the school's condition. How does the Guide classify this?",
+      "options": [
+        "A government-pays private finance PPP",
+        "A DBOM infrastructure PPP",
+        "A user-pays concession",
+        "A DBF, which is not a PPP"
+      ],
+      "answer": 3,
+      "explanation": "Deferred fixed instalments from commissioning, with no maintenance and no link to performance, describe a DBF. The finance is exposed only to construction risk, so the Guide does not regard it as a PPP."
+    },
+    {
+      "question": "Consider these two statements. 1: In the past, many governments built public works with their own equipment and staff. 2: Where public construction corporations exist today, they usually carry out all the works without subcontractors.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. Today practically all works are built by separate corporations, and even public corporations have most of the works carried out by private firms as subcontractors, so statement 2 is false."
     }
   ]
 }

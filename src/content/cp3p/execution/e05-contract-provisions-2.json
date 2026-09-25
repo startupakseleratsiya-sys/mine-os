@@ -69,16 +69,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Proactive disclosure", "meaning": "Publishing contract and performance information by default, with exceptions for legitimate confidentiality." },
-    { "term": "Renegotiation", "meaning": "A significant change to the contract itself made outside the contractual change processes." },
-    { "term": "Dispute Resolution Board", "meaning": "An independent expert or, preferably, a panel of experts set up under the contract to resolve disputes." },
-    { "term": "Waiver of immunity", "meaning": "A government's waiver of immunity from claims under the contract, needed for bidders to trust enforcement." },
-    { "term": "Termination for convenience", "meaning": "Unilateral early termination by the government in the public interest, with full compensation to the partner." },
-    { "term": "Outstanding equity", "meaning": "Equity invested minus all distributions received up to the termination date." },
-    { "term": "Haircut", "meaning": "Recovering only a percentage of the outstanding debt in debt-based default compensation, to keep lenders vigilant." },
-    { "term": "Open-market sale (re-tender)", "meaning": "Re-tendering the remaining contract after private default, with the price paid funding lenders and any surplus to equity." },
-    { "term": "Hand-back", "meaning": "The return of the assets to the authority at expiry in the condition defined in the contract." },
-    { "term": "Control check", "meaning": "A checklist review before launch confirming technical, economic, commercial, affordability, VfM and legal readiness." }
+    {
+      "term": "Proactive disclosure",
+      "meaning": "Publishing contract and performance information by default, with exceptions for legitimate confidentiality."
+    },
+    {
+      "term": "Renegotiation",
+      "meaning": "A significant change to the contract itself made outside the contractual change processes."
+    },
+    {
+      "term": "Dispute Resolution Board",
+      "meaning": "An independent expert or, preferably, a panel of experts set up under the contract to resolve disputes."
+    },
+    {
+      "term": "Waiver of immunity",
+      "meaning": "A government's waiver of immunity from claims under the contract, needed for bidders to trust enforcement."
+    },
+    {
+      "term": "Termination for convenience",
+      "meaning": "Unilateral early termination by the government in the public interest, with full compensation to the partner."
+    },
+    {
+      "term": "Outstanding equity",
+      "meaning": "Equity invested minus all distributions received up to the termination date."
+    },
+    {
+      "term": "Haircut",
+      "meaning": "Recovering only a percentage of the outstanding debt in debt-based default compensation, to keep lenders vigilant."
+    },
+    {
+      "term": "Open-market sale (re-tender)",
+      "meaning": "Re-tendering the remaining contract after private default, with the price paid funding lenders and any surplus to equity."
+    },
+    {
+      "term": "Hand-back",
+      "meaning": "The return of the assets to the authority at expiry in the condition defined in the contract."
+    },
+    {
+      "term": "Control check",
+      "meaning": "A checklist review before launch confirming technical, economic, commercial, affordability, VfM and legal readiness."
+    }
   ],
   "summary": [
     "Disclose proactively but protect legitimate confidentiality; summaries are good practice, full contracts are usually redacted.",
@@ -92,105 +122,635 @@
   "slides": [
     {
       "title": "Transparency with limits",
-      "points": ["Disclose contract and performance proactively", "Protect commercial confidentiality", "Publish a summary; redact the full contract", "Project website during construction"],
+      "points": [
+        "Disclose contract and performance proactively",
+        "Protect commercial confidentiality",
+        "Publish a summary; redact the full contract",
+        "Project website during construction"
+      ],
       "narration": "Let's finish the contract. First, transparency. Publishing the contract and performance information builds public trust in PPPs, and it allows the PPP programme to be audited. But some information is commercially sensitive, and the government must also protect its negotiating position. So the contract should say clearly what is published and what is exempt. Publishing a project summary is common good practice. Full contracts are published less often, and usually with some parts blacked out. A project website is another good idea."
     },
     {
       "title": "Contract changes",
-      "points": ["Authority-requested and partner-proposed changes", "Ownership and financing changes", "Compensation events and force majeure", "Bounded changes protect competition"],
+      "points": [
+        "Authority-requested and partner-proposed changes",
+        "Ownership and financing changes",
+        "Compensation events and force majeure",
+        "Bounded changes protect competition"
+      ],
       "narration": "Over twenty or thirty years, things will change. The authority may need more service, or new technology. The partner may propose improvements. Owners and lenders may change. And risk events may require the price to be adjusted. The best approach is to plan for change inside the contract, with clear limits. For example, a bus contract might let the authority add up to five percent more service each year at a price already offered in the bid. That way, change does not destroy the competition you ran."
     },
     {
       "title": "Dispute resolution",
-      "points": ["Courts alone are slow and costly", "Options: regulator, mediation, board, arbitration", "Check enforceability and treaties", "Waive immunity; be realistic on location"],
+      "points": [
+        "Courts alone are slow and costly",
+        "Options: regulator, mediation, board, arbitration",
+        "Check enforceability and treaties",
+        "Waive immunity; be realistic on location"
+      ],
       "narration": "Disputes are normal in long contracts. If the only option is the courts, the process is slow and expensive, and the service may suffer. So good contracts include dispute procedures, such as mediation, an expert dispute board, or arbitration. Make sure these rules are enforceable in your country and consistent with any investment treaties. Two more points matter to investors. The government should waive its immunity from claims, or nobody will bid. And the location of dispute resolution must feel fair to both sides."
     },
     {
       "title": "Four ways a contract ends early",
-      "points": ["Convenience: public interest decision", "Public partner default", "Force majeure lasting 6 or 12 months", "Private partner default after cure period"],
+      "points": [
+        "Convenience: public interest decision",
+        "Public partner default",
+        "Force majeure lasting 6 or 12 months",
+        "Private partner default after cure period"
+      ],
       "narration": "There are four early termination scenarios. The government can always terminate for convenience, in the public interest. The private partner may terminate if the authority seriously defaults, for example by not paying. Either party may terminate if force majeure lasts a long time, typically six or twelve months. And the authority may terminate if the partner defaults, but usually only after the partner has had a chance to fix the problem. If the company is insolvent, the lenders may be allowed to step in and try to rescue the project."
     },
     {
       "title": "Compensation: convenience and force majeure",
-      "points": ["Convenience: debt, breakage, equity plus return", "Public default: usually same basis", "Force majeure: investments back", "Equity IRR around zero"],
+      "points": [
+        "Convenience: debt, breakage, equity plus return",
+        "Public default: usually same basis",
+        "Force majeure: investments back",
+        "Equity IRR around zero"
+      ],
       "narration": "How much does the government pay? If it terminates for convenience, the partner should be made whole: debt, breakage costs, demobilisation, the equity still invested, and a return on that equity. Public partner default is usually calculated the same way. Force majeure is different, because it is nobody's fault. The risk is shared. The partner gets its investments back, debt and equity, but with an equity return of about zero. Whatever method is used, it must be written clearly in the contract from day one."
     },
     {
       "title": "Compensation on private partner default",
-      "points": ["Still some compensation: no windfall", "Book value minus damages and losses", "Debt-based, often with a haircut", "Market value re-tender, with fallback"],
+      "points": [
+        "Still some compensation: no windfall",
+        "Book value minus damages and losses",
+        "Debt-based, often with a haircut",
+        "Market value re-tender, with fallback"
+      ],
       "narration": "The hardest case is private partner default. You might think the partner deserves nothing. But the government gets the asset back, so paying nothing gives it a windfall and a reason to terminate. Civil law countries often use book value minus the government's losses. Emerging markets may pay the senior debt to keep projects bankable, often with a haircut so lenders stay alert. Common law countries often re-tender the remaining contract and use the sale price. The Guide likes this, but a fallback is needed if nobody bids."
     },
     {
       "title": "Hand-back",
-      "points": ["Minimum condition and remaining useful life", "Defined at tender launch", "Inspections from about 3 years before", "Retention reserve, released if criteria met"],
+      "points": [
+        "Minimum condition and remaining useful life",
+        "Defined at tender launch",
+        "Inspections from about 3 years before",
+        "Retention reserve, released if criteria met"
+      ],
       "narration": "At the end of the contract, the asset comes back to the public. Without rules, a partner might stop maintaining it in the final years. So the contract sets minimum conditions and a reasonable remaining useful life. These rules must be clear from the tender, so bidders can price them. Independent inspections start about three years before expiry, then every year. A small retention from payments, say two percent, builds a reserve. If the asset meets the criteria at hand-back, the remaining money goes back to the partner."
     },
     {
       "title": "Control check before launch",
-      "points": ["Checklist: technical, economic, commercial, affordability", "VfM and legal readiness confirmed", "Progress reports avoid last-minute rejection", "Outcome: approved package, authority to launch"],
+      "points": [
+        "Checklist: technical, economic, commercial, affordability",
+        "VfM and legal readiness confirmed",
+        "Progress reports avoid last-minute rejection",
+        "Outcome: approved package, authority to launch"
+      ],
       "narration": "Before the tender is launched, the authority should stop and check everything. A checklist confirms that the design is sound, the risks are clarified, the economics still work, the project is bankable, affordable under a cautious scenario, still value for money, and legally ready. Several bodies may need to approve. A smart team keeps them informed with progress reports all along, so there are no surprises at the end. The outcome is a complete tender package and formal permission to launch and, later, to sign."
     }
   ],
   "quiz": [
     {
       "question": "A procuring authority wants to follow good practice on disclosure for a new PPP. Which approach best reflects the Guide?",
-      "options": ["Keep the contract fully confidential to protect the private partner", "Publish a project or contract summary and state disclosure rules and exceptions in the contract", "Publish every page of the contract and financial model without redaction", "Let the private partner decide what to publish"],
+      "options": [
+        "Keep the contract fully confidential to protect the private partner's interests",
+        "Publish a contract summary and set disclosure rules and exceptions in the contract",
+        "Publish every page of the contract and financial model without any redaction",
+        "Let the private partner decide alone what it publishes and when"
+      ],
       "answer": 1,
       "explanation": "Contracts should set disclosure requirements and exceptions; publishing a summary is common good practice. Full publication is not universal and is usually redacted to protect legitimate confidentiality."
     },
     {
       "question": "A city expects it will need to increase bus services by small amounts each year. How should the PPP contract deal with this?",
-      "options": ["Renegotiate the contract each time more service is needed", "Launch a new tender for each increase", "Allow increases up to a set threshold at a unit price offered in the bid", "Forbid any change to protect the original competition"],
+      "options": [
+        "Renegotiate the contract each time that more service is needed",
+        "Launch a separate new tender for each yearly increase in service",
+        "Allow increases up to a set threshold at a unit price offered in the bid",
+        "Forbid any change so as to protect the original competition"
+      ],
       "answer": 2,
       "explanation": "Changes should be provided for and bounded in the contract. The Guide's bus example allows increases up to a threshold (e.g. 5 percent a year) at the bidder's offered price, avoiding negotiation."
     },
     {
       "question": "International bidders say they will not bid unless they can trust dispute resolution. The PPP law is silent on government immunity. What should the contract include?",
-      "options": ["A waiver by the government of immunity from claims under the contract", "A clause giving the government the sole right to interpret the contract", "A ban on arbitration of any kind", "A requirement that all disputes go to the sector regulator"],
+      "options": [
+        "A waiver by the government of immunity from claims under the contract",
+        "A clause giving the government the sole right to interpret the contract",
+        "A ban on arbitration of any kind",
+        "A requirement that all disputes go to the sector regulator"
+      ],
       "answer": 0,
       "explanation": "Unless the PPP law already provides it, the contract should include a waiver of immunity; otherwise bidders cannot be confident the government will meet its obligations."
     },
     {
       "question": "A severe force majeure event has stopped a PPP for 14 months. The contract sets a 12-month threshold. What is the position?",
-      "options": ["Only the government may terminate", "Only the private partner may terminate", "Neither may terminate until 24 months", "Either party may terminate unless they reach a specific agreement"],
+      "options": [
+        "Only the government may terminate, as the public interest comes first",
+        "Only the private partner may terminate, as it bears the losses",
+        "Neither may terminate until the event has lasted 24 months",
+        "Either party may terminate unless they reach a specific agreement"
+      ],
       "answer": 3,
       "explanation": "When a force majeure event is significant and lasts the defined period (typically 6 or 12 months), either party may terminate unless a specific agreement is reached."
     },
     {
       "question": "A government terminates a PPP for convenience to build a different scheme. Which compensation best reflects good practice?",
-      "options": ["Outstanding debt only", "Book value of the asset minus depreciation", "Debt, breakage and demobilisation costs, outstanding equity plus a return on equity", "Debt and equity with an equity IRR of zero"],
+      "options": [
+        "Outstanding senior debt only, with no payment for equity",
+        "Book value of the asset minus depreciation and any damages",
+        "Debt, breakage and demobilisation costs, and equity plus a return",
+        "Debt, breakage costs and equity, with an equity IRR of zero"
+      ],
       "answer": 2,
       "explanation": "Termination for convenience should compensate in full, including outstanding equity and its opportunity cost. An equity IRR of zero is the typical force majeure approach, not convenience."
     },
     {
       "question": "Statement 1: On termination for force majeure, good practice is to let the partner recover its investments with an equity IRR of about zero. Statement 2: On termination for private partner default, the partner should receive no compensation at all.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 0,
       "explanation": "Statement 1 is correct. Statement 2 is wrong: the partner or at least its lenders should still receive compensation to avoid a government windfall and a perverse incentive to terminate."
     },
     {
       "question": "An emerging-market authority wants private-default compensation that keeps the project bankable but still gives lenders a reason to monitor performance. What should it choose?",
-      "options": ["Full debt repayment with no conditions", "Debt-based compensation with a haircut, possibly combined with book value", "No compensation, so lenders monitor more closely", "Full convenience compensation including equity return"],
+      "options": [
+        "Full repayment of all debt with no conditions attached",
+        "Debt-based compensation with a haircut, possibly with book value",
+        "No compensation at all, so that lenders monitor more closely",
+        "Full convenience compensation, including a return on equity"
+      ],
       "answer": 1,
       "explanation": "Debt-based compensation supports bankability but weakens lenders' incentive to oversee; a haircut corrects this. A combination with book value is also suggested for EMDEs."
     },
     {
       "question": "An authority prefers the market value (re-tender) method for private partner default. What must the contract also include?",
-      "options": ["A fallback process if no bidders come forward for the re-tendered project", "A rule that the defaulting partner may bid again first", "A fixed price for the re-tender set at signature", "A ban on paying any surplus to equity"],
+      "options": [
+        "A fallback process if no bidders come forward for the re-tendered project",
+        "A rule that the defaulting partner may bid first in the re-tender",
+        "A fixed re-tender price set in the contract at signature",
+        "A ban on paying any re-tender surplus to the equity investors"
+      ],
       "answer": 0,
       "explanation": "The Guide considers re-tendering good practice but warns there may be no bidders, so the contract must include an alternative process with a termination payment."
     },
     {
       "question": "Four years before expiry, an authority fears the SPV will stop maintaining a road. Its contract follows good hand-back practice. What protects it?",
-      "options": ["Nothing can be done until the asset is returned", "Terminating immediately for convenience", "Inspections from about 3 years before expiry and a retention reserve released only if criteria are met", "Doubling the service payment in the final years"],
+      "options": [
+        "Nothing can be done until the asset is actually handed back at expiry",
+        "Terminating the contract immediately for convenience to protect the road",
+        "Inspections from about 3 years before expiry and a retention reserve",
+        "Doubling the service payment in the final years to fund the works"
+      ],
       "answer": 2,
       "explanation": "Good practice includes third-party inspections well before expiry, yearly follow-up and a retention (e.g. 2 percent of payments) whose balance is released only when hand-back requirements are met."
     },
     {
       "question": "A PPP team has finished structuring. The attorney general's office has not seen any documents yet. What should the team have done to avoid a late rejection?",
-      "options": ["Launch the tender first and seek approval during bidding", "Skip the checklist to save time", "Wait until the preferred bidder is selected", "Provide progress reports, even informal ones, to decision-makers throughout structuring"],
+      "options": [
+        "Launch the tender first and seek the approvals during bidding",
+        "Skip the control checklist to save time before the launch",
+        "Wait until the preferred bidder is selected before asking",
+        "Give decision-makers progress reports, even informal ones, throughout"
+      ],
       "answer": 3,
       "explanation": "The Guide recommends keeping approving bodies informed with progress reports throughout structuring so documents and affordability tests are not rejected at the last minute."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for proactive disclosure of a PPP contract and its performance?",
+      "options": [
+        "To promote transparency in the PPP programme",
+        "To let rival bidders copy the winner's pricing in future tenders",
+        "To build public acceptance of the PPP model",
+        "To allow performance auditing of the PPP programme"
+      ],
+      "answer": 1,
+      "explanation": "The Guide lists transparency, public acceptance and performance auditing (Ch 5 §9.6). Helping rivals copy prices is not a purpose; in fact commercial confidentiality is one of the limits on disclosure."
+    },
+    {
+      "question": "A finance ministry wants to publish the full, unredacted PPP contract, including the SPV's detailed cost data. Apart from the private partner's commercial confidentiality, what other interest does the Guide say disclosure must protect?",
+      "options": [
+        "The lenders' right to choose the dispute forum",
+        "The contractor's right to refuse inspections",
+        "The regulator's power to set user tariffs",
+        "The public partner's position in future negotiations"
+      ],
+      "answer": 3,
+      "explanation": "Disclosure is limited to protect the private partner's legitimate commercial confidentiality and the public partner's position for future negotiations (Ch 5 §9.6). The other options are not disclosure limits."
+    },
+    {
+      "question": "A highway PPP will be under construction for four years. Local residents want regular news about progress. Which approach does the Guide recommend?",
+      "options": [
+        "Require the partner to run a project website, especially in construction",
+        "Wait until the operation phase before sharing any project information",
+        "Publish only the financial model so residents can check costs",
+        "Ask residents to submit freedom-of-information requests each month"
+      ],
+      "answer": 0,
+      "explanation": "The Guide recommends requiring the private partner to set up a website about the project and its evolution, especially during the Construction Phase (Ch 5 §9.6). Waiting until operation defeats the aim of transparency."
+    },
+    {
+      "question": "After two years of operation, a hospital PPP's service targets prove unrealistic. The authority asks to change the performance requirements. Which type of contract change is this?",
+      "options": [
+        "A change in ownership and financing structure",
+        "A change proposed by the private partner",
+        "A change requested by the procuring authority",
+        "A renegotiation caused by force majeure"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists changes in performance requirements, for example when target levels prove too onerous or unrealistic, as changes requested by the authority (Ch 5 §9.7). The initiative here comes from the authority, not the partner."
+    },
+    {
+      "question": "Why does the Guide say changes to project and service requirements should be permitted cautiously and within clear boundaries?",
+      "options": [
+        "The law forbids any change once the operation phase begins",
+        "Otherwise competitive bidding is distorted and pressure is lost",
+        "Lenders never accept any change after financial close",
+        "Changes can only be approved by an arbitration panel"
+      ],
+      "answer": 1,
+      "explanation": "Open-ended change rights distort competition: bidders could win cheaply and recover through changes (Ch 5 §9.7, citing EPEC). Changes are not forbidden by law, and they do not need arbitration."
+    },
+    {
+      "question": "An unforeseen event, covered by the contract, raises the cost of cleaning a PPP school. The authority's budget is tight. How could the parties restore the balance without raising the service payment?",
+      "options": [
+        "Terminate the contract for private partner default",
+        "Treat the event as a breach and apply deductions",
+        "Extend the bid bond until the contract expires",
+        "Agree new, more relaxed performance standards for the service"
+      ],
+      "answer": 3,
+      "explanation": "Compensation events usually change only the financial equation, but the Guide notes they can be handled by agreeing more relaxed performance standards instead of increasing the price (Ch 5 §9.7). Deductions or default termination would punish the partner for a compensable event."
+    },
+    {
+      "question": "A PPP partner and an authority agree a significant change to the contract itself, outside the contract's change procedures. What is this called, and how should it be handled?",
+      "options": [
+        "A renegotiation, which must be managed carefully to protect the government",
+        "A compensation event, which is paid automatically by formula",
+        "A clarification, which needs no approval from anyone",
+        "A relief event, which only extends the construction deadline"
+      ],
+      "answer": 0,
+      "explanation": "Significant changes to the contract outside the contractual processes are renegotiations, and the Guide warns they must be managed carefully to avoid undesirable outcomes for the government (Ch 5 §9.7, note 93)."
+    },
+    {
+      "question": "Statement 1: Changes in the ownership and financing structure of the SPV are one of the types of change the Guide lists for a PPP. Statement 2: Changes caused by compensation events or force majeure usually only change payment amounts to restore the financial balance.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists four types of change, including ownership and financing changes, and notes that compensation events and force majeure usually only change payment amounts (Ch 5 §9.7). So both statements are true."
+    },
+    {
+      "question": "A government reserves the sole right to interpret a PPP contract. The partner's only option is the administrative court. What problem does the Guide highlight with this position?",
+      "options": [
+        "It makes the contract void under international law",
+        "It means costly processes and can endanger continuity of the service",
+        "It gives the private partner too much bargaining power",
+        "It removes the government's right to terminate for convenience"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says relying only on courts implies costly processes and endangers service continuity, which is why dispute resolution procedures or boards in the contract have become common (Ch 5 §9.8)."
+    },
+    {
+      "question": "Which of the following is NOT one of the typical areas of dispute listed in the Guide (Box 5.36)?",
+      "options": [
+        "Whether an event qualifies for compensation or time relief",
+        "Whether the index used for indexation is the contract index",
+        "The cost of additional investment after a change in service",
+        "Which bidder should have been named preferred bidder"
+      ],
+      "answer": 3,
+      "explanation": "Box 5.36 covers disputes during the life of the contract: compensation, payment adjustments, qualifying events, penalties, indexation and change costs. Bid award challenges belong to the tender phase, not contract disputes."
+    },
+    {
+      "question": "In a sector where a regulator resolves disputes, bidders say they are uneasy. What concern does the Guide say private partners may have about this mechanism?",
+      "options": [
+        "They may doubt the regulator's independence from government",
+        "They may find the regulator's decisions too slow to enforce",
+        "They may be unable to appoint their own sector regulator",
+        "They may lose the right to any arbitration of disputes"
+      ],
+      "answer": 0,
+      "explanation": "The Guide notes that where an independent regulatory body resolves disputes, the private partner may have concerns over the regulator's independence (Ch 5 §9.8). The other options are not concerns the Guide raises."
+    },
+    {
+      "question": "An authority wants to set up a Dispute Resolution Board for a complex rail PPP. What does the Guide say is the better and more frequent form of such a board?",
+      "options": [
+        "A single official from the procuring authority",
+        "A panel of independent experts rather than a single expert",
+        "A committee of the SPV's shareholders and lenders",
+        "A judge from the local administrative court"
+      ],
+      "answer": 1,
+      "explanation": "A Dispute Resolution Board comprises an independent expert or, better and more frequently, a panel of experts (Ch 5 §9.8). Authority officials or shareholders are not independent."
+    },
+    {
+      "question": "An international investor asks which bodies could run arbitration for its PPP dispute. Which examples does the Guide give?",
+      "options": [
+        "The WTO and the IMF dispute panel",
+        "The OECD and the UN Security Council",
+        "The ICC and ICSID, a World Bank Group institution",
+        "The national audit office and the ombudsman"
+      ],
+      "answer": 2,
+      "explanation": "The Guide gives international arbitration examples such as the International Chamber of Commerce (ICC) and ICSID, which is part of the World Bank Group (Ch 5 §9.8). The other bodies are not PPP arbitration forums."
+    },
+    {
+      "question": "In a civil code country, a dispute resolution board issues its opinion on a PPP dispute. National law does not make such opinions binding. What must the parties do to avoid going to court?",
+      "options": [
+        "Apply the board's decision automatically as binding",
+        "Ask the private lenders to decide the final outcome",
+        "Terminate the contract for convenience at once",
+        "Negotiate an agreement based on the board's result"
+      ],
+      "answer": 3,
+      "explanation": "Where results outside the courts are not binding, the parties must negotiate an agreement based on the result if they want to avoid escalation to the courts (Ch 5 §9.8). Some civil code countries, such as Uruguay, have made expert boards binding, but that is not the case here."
+    },
+    {
+      "question": "A PPP team is drafting the dispute clauses. The country has signed investment treaties with investor-state dispute processes. What should the team do?",
+      "options": [
+        "Ignore the treaties, since the contract always prevails over them",
+        "Have legal experts confirm the clauses are enforceable and treaty-consistent",
+        "Copy a dispute clause from another country's standard PPP contract",
+        "Leave dispute resolution out of the contract and rely on goodwill"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says to check with legal experts that dispute provisions are appropriate and enforceable, and consistent with treaty requirements identified in legal due diligence (Ch 5 §9.8). Copying a foreign clause may not be enforceable locally."
+    },
+    {
+      "question": "Foreign investors fear an unfair hearing in the host country, but the government sees foreign dispute venues as a loss of sovereignty. What approach does the Guide recommend?",
+      "options": [
+        "Be realistic: bidders will not bid if they doubt the process is fair",
+        "Always hold disputes abroad, whatever the government's view on it",
+        "Always hold disputes locally, since national sovereignty comes first",
+        "Let the parties choose a venue for each dispute when it arises"
+      ],
+      "answer": 0,
+      "explanation": "The Guide calls for a realistic approach to location, because potential bidders will not bid if they are not confident of the integrity and fairness of the process (Ch 5 §9.8). Neither extreme is presented as the answer."
+    },
+    {
+      "question": "A 25-year road PPP contract says nothing about the asset's remaining useful life at hand-back. Why does the Guide see this as a problem?",
+      "options": [
+        "The authority would have to repay the SPV's senior debt at expiry",
+        "Lenders would refuse to finance the construction of the road",
+        "The road would have to be re-tendered before the contract expires",
+        "The partner may avoid maintenance and renewals near the end of the term"
+      ],
+      "answer": 3,
+      "explanation": "The contract should require a reasonable remaining useful life at expiry; otherwise the private partner has a perverse incentive to avoid investing in the asset's condition, because it will not bear the consequences (Ch 5 §9.10). Hand-back requirements should be clear from tender launch so bidders build the cost into their financial models."
+    },
+    {
+      "question": "The procuring authority has delayed service payments for eight months without reason, well beyond normal practice. The contract regulates public partner default. What may the private partner do?",
+      "options": [
+        "Only suspend its services until all late payments resume",
+        "Terminate, but recover only its outstanding senior debt",
+        "Terminate the contract and claim its costs, including opportunity costs",
+        "Nothing, because only the government has a right to terminate"
+      ],
+      "answer": 2,
+      "explanation": "An unusual and material payment delay is the Guide's example of public partner default; the partner may terminate and claim all costs including opportunity costs (Ch 5 §9.9). Compensation is often calculated like convenience, so debt-only is wrong."
+    },
+    {
+      "question": "An SPV's maintenance subcontractor becomes insolvent, and service levels fall. The authority is considering termination for private partner default. What does good practice suggest first?",
+      "options": [
+        "Terminate at once to show the market it is serious",
+        "Allow the private partner to replace the failing subcontractor",
+        "Take over the maintenance work with public staff",
+        "Cancel the lenders' step-in rights as a penalty"
+      ],
+      "answer": 1,
+      "explanation": "When default is caused by an unresponsive or insolvent subcontractor, it is good practice to let the private partner replace the subcontractor (Ch 5 §9.9). Immediate termination skips the opportunity to remedy."
+    },
+    {
+      "question": "An SPV cannot service its debt, and lenders are about to accelerate the loan. What alternative to termination does the Guide suggest the government consider?",
+      "options": [
+        "Let the lenders restructure the debt or step in to rectify the default",
+        "Pay off the SPV's debt from the national budget at once",
+        "Convert the PPP into a traditional public works contract",
+        "Let the shareholders sell the asset to any buyer"
+      ],
+      "answer": 0,
+      "explanation": "On SPV insolvency the Guide suggests letting lenders and the company renegotiate the debt, or letting lenders step in and take control to rectify the default (Ch 5 §9.9). The government does not simply pay the debt."
+    },
+    {
+      "question": "Why is clear termination compensation in the contract described as paramount for the project?",
+      "options": [
+        "Because it prevents any disputes from ever arising",
+        "Because it allows the government to avoid paying compensation",
+        "Because it replaces the need for a payment mechanism",
+        "Because clarity and certain protection are essential for bankability"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a high degree of clarity and certain protection is paramount for the bankability of the project (Ch 5 §9.9). Clarity reduces disputes but cannot prevent every one."
+    },
+    {
+      "question": "In a civil law country, the PPP law already gives the private partner a right to termination compensation. What does the Guide say the contract should still do?",
+      "options": [
+        "Stay silent, since the law already covers everything",
+        "Describe the termination compensation in clear terms",
+        "Replace the law with a lower compensation amount",
+        "Leave the calculation to the courts after termination"
+      ],
+      "answer": 1,
+      "explanation": "It is not uncommon in civil law countries for the law to provide the right and the contract to refer to it, but the compensation should still be described in clear terms in the contract (Ch 5 §9.9)."
+    },
+    {
+      "question": "An SPV investor put in 100 million of equity and has received 30 million in distributions. The contract is terminated for convenience. What is the outstanding equity?",
+      "options": [
+        "100 million",
+        "130 million",
+        "70 million",
+        "30 million"
+      ],
+      "answer": 2,
+      "explanation": "Outstanding equity is invested equity minus all distributions received to the termination date: 100 minus 30 equals 70 million (Ch 5 §9.9). Adding the distributions, or ignoring them, is the common mistake."
+    },
+    {
+      "question": "A contract pays convenience compensation with a return giving the equity IRR of the original base case. The project has been over-performing. What is the drawback for the private partner?",
+      "options": [
+        "Its over-performance is not rewarded in the compensation",
+        "It is penalised for past poor performance",
+        "It loses the right to recover its outstanding debt",
+        "It receives an equity IRR of zero"
+      ],
+      "answer": 0,
+      "explanation": "The original base case method protects the partner from being penalised for past poor performance, but good or over-performance is not rewarded (Ch 5 §9.9). Being penalised for poor performance is the risk of the updated base case method."
+    },
+    {
+      "question": "A contract calculates convenience compensation using an updated base case reflecting current and projected performance. The project has under-performed so far. What is the effect?",
+      "options": [
+        "The partner is fully protected from past under-performance",
+        "The partner bears downside risk for its past under-performance",
+        "The partner receives the originally expected equity IRR",
+        "The partner receives only its outstanding senior debt"
+      ],
+      "answer": 1,
+      "explanation": "The updated base case or market value method rewards over-performance but creates downside risk for past under-performance (Ch 5 §9.9). Full protection from poor past performance comes with the original base case method."
+    },
+    {
+      "question": "A force majeure termination clause gives the partner its debt, breakage costs and equity with a small positive equity IRR of 2 percent. How does the Guide view this?",
+      "options": [
+        "Wrong: the equity IRR must be exactly the original base case IRR",
+        "Wrong: force majeure must give no compensation at all",
+        "Wrong: only lenders may receive force majeure compensation",
+        "Acceptable: a small positive IRR can mean close to zero in real terms"
+      ],
+      "answer": 3,
+      "explanation": "Good practice is an equity IRR of zero, but some countries allow a small positive rate, such as 2 percent, to give close to zero in real terms (Ch 5 §9.9). The key point is that the method is clear from the outset."
+    },
+    {
+      "question": "Under the book value method for private partner default, which items may the government deduct as damages and losses?",
+      "options": [
+        "The partner's expected future profits and dividends",
+        "The lenders' breakage costs and senior debt",
+        "Rectification costs, re-tendering costs and third-party claims",
+        "The original bid costs of all losing bidders"
+      ],
+      "answer": 2,
+      "explanation": "Box 5.37 lists damages and losses such as direct rectification costs, re-tendering costs and contingencies for third-party claims (for example, users). These are deducted from the compensation sum."
+    },
+    {
+      "question": "On private partner default, the authority uses the book value method and also calls the performance guarantee. How does the Guide describe the guarantee in this situation?",
+      "options": [
+        "As an advance on damages and losses or as an extra penalty",
+        "As a payment the authority must return to the lenders",
+        "As a replacement for the book value compensation",
+        "As proof that the default did not really happen"
+      ],
+      "answer": 0,
+      "explanation": "Box 5.37 says the government may call the performance guarantee, which may be treated either as an advance to damages and losses or as an additional penalty to them."
+    },
+    {
+      "question": "In the civil code book value method, how is the economic value of the asset usually calculated?",
+      "options": [
+        "The market price that the best re-tender bidder would pay",
+        "Construction, renewal and major maintenance costs, less depreciation",
+        "The outstanding senior debt minus an agreed haircut",
+        "The total service payments still due until contract expiry"
+      ],
+      "answer": 1,
+      "explanation": "Box 5.37 describes the economic value as construction costs plus investments in renewal and major maintenance, minus depreciation, usually linear over the term. The re-tender price is the market value method."
+    },
+    {
+      "question": "An emerging-market authority considers paying 100 percent of outstanding senior debt on private partner default. Apart from weaker lender supervision, what unfairness does the Guide note?",
+      "options": [
+        "Lenders will receive much less than they lent to the project",
+        "The authority must also pay the partner's expected profits",
+        "Users will have to pay higher tariffs from the next year",
+        "Losing all equity may exceed the government's real losses"
+      ],
+      "answer": 3,
+      "explanation": "Debt-based compensation can be unfair to the private partner because the loss of all equity may exceed the damages suffered by the public partner, creating a windfall and a perverse incentive to terminate (Ch 5 §9.9)."
+    },
+    {
+      "question": "Why does the Guide consider the market value (open-market sale) method for private partner default good practice?",
+      "options": [
+        "It ties compensation to real value and spares public cash",
+        "It guarantees the lenders full repayment in every single case",
+        "It never requires any fallback termination method at all",
+        "It lets the defaulting partner keep its full equity return"
+      ],
+      "answer": 0,
+      "explanation": "Re-tendering can avoid contract cancellation, links compensation to the project's real value, and lets the authority avoid paying from its own resources (Ch 5 §9.9). A fallback is still needed if no one bids."
+    },
+    {
+      "question": "A country with an immature PPP market wants to adopt the re-tender method for private partner default. What does the Guide advise?",
+      "options": [
+        "Re-tender is always required in emerging markets",
+        "Simpler, more straightforward methods may work better",
+        "No compensation should be paid in immature markets",
+        "Only the lenders may choose the compensation method"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says that in immature PPP markets in emerging economies, it may be better to rely on simpler methods such as book value or debt-based compensation (Ch 5 §9.9)."
+    },
+    {
+      "question": "After private partner default, the authority and the lenders want to agree between them who will replace the defaulting partner. What does the Guide say about this option?",
+      "options": [
+        "It is a mandatory step in every jurisdiction",
+        "It is only allowed after the financial close",
+        "It is an option, but some jurisdictions prohibit it",
+        "It counts as a termination for convenience"
+      ],
+      "answer": 2,
+      "explanation": "Alternatively, the authority may agree with the lenders who will replace the defaulting partner, but this is prohibited in some jurisdictions (Ch 5 §9.9)."
+    },
+    {
+      "question": "A draft default clause says the authority may terminate 'for any breach'. The lawyers also have not defined 'Senior Debt' or 'distribution'. What should the contract include?",
+      "options": [
+        "A general right to terminate for any breach, however small it is",
+        "A promise to define the key terms once a dispute actually arises",
+        "A rule that the lenders define the terms after any termination",
+        "Which material breaches are default, and precise term definitions"
+      ],
+      "answer": 3,
+      "explanation": "The contract should state what constitutes default, with materiality of breaches, and define precisely terms like 'distribution', 'IRR', 'Losses' and 'Senior Debt' (Ch 5 §9.9). Leaving definitions for later invites disputes."
+    },
+    {
+      "question": "An authority sets very demanding hand-back conditions for a 30-year road, far above what the service needs. What is the likely consequence?",
+      "options": [
+        "Bidders will ignore them because they apply only at the end",
+        "Bidders price them in, raising payments or user charges",
+        "The asset will have no remaining useful life at expiry",
+        "The lenders will pay for all the extra works themselves"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes that demanding requirements will be priced into the PPP contract, resulting in higher user charges or government payments (Ch 5 §9.10)."
+    },
+    {
+      "question": "Inspections show that the hand-back reserve, funded by a 2 percent retention of service payments, is larger than needed. What should happen?",
+      "options": [
+        "The retention percentage should be reduced",
+        "The reserve should be paid to the authority at once",
+        "The retention should be increased as a safety margin",
+        "The contract should be terminated for default"
+      ],
+      "answer": 0,
+      "explanation": "As soon as inspections detect that the reserve is oversized, the retention percentage should be downsized (Ch 5 §9.10). Any remaining balance is released to the partner at the end if requirements are met."
+    },
+    {
+      "question": "A procuring authority has finished drafting the tender documents. Besides raising approvals and the control check, what other final task does the Guide give for this phase?",
+      "options": [
+        "Selecting the preferred bidder before the tender is launched",
+        "Negotiating the financing terms with the lenders",
+        "Planning the tender phase: work programme, resources and team roles",
+        "Starting construction works on the project site"
+      ],
+      "answer": 2,
+      "explanation": "The last tasks include planning the tender process: programming the work, planning resources such as advisers and IT, and setting team roles from launch to signature (Ch 5 §10)."
+    },
+    {
+      "question": "The control checklist shows significant archaeological risk along a new rail corridor. According to the Guide's example checklist, what should be in place before launch?",
+      "options": [
+        "A rule that bidders carry all archaeological risk without data",
+        "A promise to study archaeology after financial close",
+        "A decision to remove archaeology from the risk matrix",
+        "A site map for bidders and risk mitigation provisions in the contract"
+      ],
+      "answer": 3,
+      "explanation": "Box 5.38 says that where archaeological risk is significant, a map of potential sites is given to bidders and mitigation provisions are included in the contract. Transferring the risk with no information is poor practice."
+    },
+    {
+      "question": "When checking affordability before launch, which scenario does the Guide's example checklist use to test the PPP commitments?",
+      "options": [
+        "A conservative scenario, for example zero growth in real terms",
+        "An optimistic scenario with strong real revenue growth",
+        "The private partner's own revenue forecast",
+        "The average growth of the last economic boom"
+      ],
+      "answer": 0,
+      "explanation": "Box 5.38 says commitments should be assumable under a moderated projection of revenues or a conservative scenario, such as zero real growth, with retained-risk contingencies considered."
+    },
+    {
+      "question": "Statement 1: At the end of the Structuring Phase, the tender package can never be refined after it is published. Statement 2: At the end of the phase, authorisation has been given to launch the tender and to sign if a bidder meets the criteria.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: RFP and contract terms may be refined during the tender, especially in competitive dialogue (Ch 5 §11). Statement 2 correctly describes the second outcome of the phase."
     }
   ]
 }

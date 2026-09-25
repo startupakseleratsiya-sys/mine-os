@@ -11,10 +11,10 @@ type Message = {
     content: string;
 };
 const STARTERS = [
-    "Oylik budjetni qanday tuzaman?",
-    "Murakkab foizni sodda tushuntir",
-    "Kredit olishdan oldin nimani tekshiraman?",
-    "Favqulodda jamg'arma qancha bo'lishi kerak?",
+    "What is the difference between commercial close and financial close?",
+    "Explain availability payments vs user-pays PPPs with an example",
+    "How do I tell a compensation event from a relief event?",
+    "What is a Public Sector Comparator and why does it matter?",
 ];
 function TypingDots() {
     return (<div className="flex items-center gap-1 px-1 py-1">
@@ -66,6 +66,8 @@ export function TutorChat({ embedded = false, context, }: {
     const bottomRef = useRef<HTMLDivElement>(null);
     const abortRef = useRef<AbortController | null>(null);
     const recognitionRef = useRef<SpeechRecognitionLike | null>(null);
+    // Komponent yopilsa (sahifadan chiqish) — davom etayotgan pullik so'rov to'xtatiladi.
+    useEffect(() => () => abortRef.current?.abort(), []);
     // Ovozli kiritish: boshlangandagi matn + yakuniy bo'laklar; interim natija har safar ALMASHTIRILADI
     // (oldingi versiyada interim natijalar qo'shilib ketib matn takrorlanardi).
     const speechBaseRef = useRef("");
@@ -78,7 +80,7 @@ export function TutorChat({ embedded = false, context, }: {
         const rec = new SpeechRecognition();
         rec.continuous = true;
         rec.interimResults = true;
-        rec.lang = "uz-UZ";
+        rec.lang = "en-GB";
         rec.onresult = (event) => {
             let interim = "";
             for (let i = event.resultIndex; i < event.results.length; i++) {
@@ -270,8 +272,8 @@ export function TutorChat({ embedded = false, context, }: {
               <div className="mx-auto grid size-14 place-items-center rounded-full border border-[#285744]/20 bg-[#e7ece6] text-[#285744]">
                 <GraduationCap className="size-6" strokeWidth={1.5}/>
               </div>
-              <h1 className={`mt-5 font-semibold tracking-[-0.04em] ${embedded ? "text-xl" : "text-3xl sm:text-4xl"}`}><>{t("Bugun nimani tushunib olamiz?")}</></h1>
-              <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-[#65736d]"><>{t("Moliyaviy savolingizni oddiy tilda yozing. Men tushunchani misollar va aniq qadamlar bilan tushuntiraman.")}</></p>
+              <h1 className={`mt-5 font-semibold tracking-[-0.04em] ${embedded ? "text-xl" : "text-3xl sm:text-4xl"}`}><>{t("What shall we make clear today?")}</></h1>
+              <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-[#65736d]"><>{t("Ask anything about PPPs or the CP3P exams. I explain with examples and point you to the PPP Guide.")}</></p>
               <div className={`mx-auto mt-8 grid w-full max-w-2xl gap-3 ${embedded ? "" : "sm:grid-cols-2"}`}>
                 {STARTERS.map((starter) => (<button key={starter} onClick={() => void sendMessage(starter)} disabled={isLoading} className="rounded-2xl border border-[#13251f]/10 bg-white/60 p-4 text-left text-sm font-medium leading-5 transition hover:-translate-y-0.5 hover:border-[#35624f]/30 hover:bg-white disabled:opacity-50">
                     {t(starter)}
@@ -309,7 +311,7 @@ export function TutorChat({ embedded = false, context, }: {
             </div>)}
 
           <form onSubmit={handleSubmit} className="flex items-end gap-2 rounded-[22px] border border-[#13251f]/12 bg-white p-2 shadow-[0_15px_40px_rgba(30,55,46,0.10)] focus-within:border-[#35624f]/40 transition-colors">
-            <textarea ref={inputRef} value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={handleKeyDown} rows={1} maxLength={8000} placeholder={isListening ? t("Gapiring...") : t("Masalan: 50/30/20 qoidasi nima?")} className="max-h-36 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-sm leading-6 outline-none placeholder:text-[#89948f]"/>
+            <textarea ref={inputRef} value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={handleKeyDown} rows={1} maxLength={8000} placeholder={isListening ? t("Gapiring...") : t("e.g. What does value for money mean in a PPP?")} className="max-h-36 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-sm leading-6 outline-none placeholder:text-[#89948f]"/>
 
             {speechSupported && (<button type="button" onClick={toggleListening} title={isListening ? t("To'xtatish") : t("Ovozli kiritish")} aria-pressed={isListening} className={`grid size-11 shrink-0 place-items-center rounded-full transition-colors ${isListening
                 ? "bg-red-100 text-red-600 animate-pulse border border-red-200"

@@ -235,24 +235,14 @@
       "explanation": "The DSCR divides the year's operating cash flow before debt service by the debt service due that year. A ratio of 1.2 gives a cushion before the project cannot pay its debt; it says nothing directly about gearing or equity returns."
     },
     {
-      "question": "Consider these two statements. 1. Availability payment PPPs usually support higher leverage than projects with significant demand risk. 2. Because equity is subordinated to debt, equity requires a lower return than debt.",
-      "options": [
-        "Only 1 is true",
-        "Only 2 is true",
-        "Both are true",
-        "Neither is true"
-      ],
+      "question": "Consider these two statements. 1. In EMDE markets, the usual range of leverage in PPPs is around 50–80 percent. 2. Because equity is subordinated to debt, equity requires a lower return than debt.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
       "answer": 0,
-      "explanation": "Statement 1 is true because stable availability cash flows allow more debt. Statement 2 is false: equity bears losses first and is paid last, so it requires a higher return than debt."
+      "explanation": "Statement 1 is true: the Guide says the leverage range slips to 50–80 percent in EMDE markets (Ch 1 §7.1). Statement 2 is false: equity bears losses first and is paid last, so it requires a higher return than debt."
     },
     {
       "question": "A short-term loan, arranged on the basis of the project's own creditworthiness and intended to be refinanced later, is called a:",
-      "options": [
-        "bridge loan",
-        "mezzanine loan",
-        "mini-perm",
-        "project bond"
-      ],
+      "options": ["bridge loan", "mezzanine loan", "mini-perm", "project bond"],
       "answer": 2,
       "explanation": "A mini-perm is a short-term project finance loan meant to be refinanced. A bridge loan is also short-term but fully guaranteed by the sponsor rather than based on the project's creditworthiness."
     },
@@ -291,14 +281,404 @@
     },
     {
       "question": "Consider these two statements. 1. Equity funds are always committed before bid submission. 2. Financial investors such as infrastructure funds usually prefer projects that are still under construction.",
-      "options": [
-        "Only 1 is true",
-        "Only 2 is true",
-        "Both are true",
-        "Neither is true"
-      ],
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
       "answer": 0,
       "explanation": "Statement 1 is true: submitting a bid is a firm commitment to invest the equity. Statement 2 is false: financial investors prefer operational projects to avoid construction risk and receive distributions sooner."
+    },
+    {
+      "question": "In traditional public procurement, where does the up-front financing of an infrastructure asset usually come from?",
+      "options": [
+        "Government surpluses or government borrowing",
+        "Debt and equity raised by a private SPV",
+        "User charges collected during operations",
+        "Availability payments made after completion"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.22 says financing is sourced by the government through surpluses or borrowing in traditional procurement, and by private debt and equity in PPPs. User charges and availability payments are funding, not up-front financing."
+    },
+    {
+      "question": "Consider these two statements. 1. PPP SPVs usually enjoy higher gearing than other companies because their revenues are more predictable. 2. If the PPP contract structure does not protect bankability, value for money will be lost.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 2,
+      "explanation": "Both are true (Box 1.24). SPVs gear higher thanks to predictable revenues and PPP business protections, and bankability is a cornerstone of feasibility that the contract must protect, although excessive debt can still endanger sustainability."
+    },
+    {
+      "question": "A city charges a special tax on properties whose value rose because a new metro opened nearby. What is this funding source called?",
+      "options": ["A shadow toll", "A viability gap grant", "Land value capture", "A performance bond"],
+      "answer": 2,
+      "explanation": "Land value capture retains part of the increase in property values created by infrastructure, for example through betterment taxes or development impact fees (Box 1.22). A shadow toll is a volume payment by government."
+    },
+    {
+      "question": "All project cash flows pass through the SPV, and the project's assets and liabilities sit on its balance sheet. What is this called?",
+      "options": [
+        "Sculpting the debt profile",
+        "Ring-fencing the cash flows",
+        "Disintermediation of the debt",
+        "A full cash sweep"
+      ],
+      "answer": 1,
+      "explanation": "Because the SPV signs the contract, all project cash flows are channelled through it and its assets and liabilities are recorded there; this is ring-fencing (Ch 1 §7). Sculpting refers to shaping debt repayment to meet the DSCR."
+    },
+    {
+      "question": "Why does the SPV use a mix of debt and equity rather than equity alone?",
+      "options": [
+        "Lenders forbid any project funded only by equity",
+        "Equity must be repaid before debt service",
+        "Debt removes the need for lender due diligence",
+        "Debt gives a tax shield and lowers the WACC"
+      ],
+      "answer": 3,
+      "explanation": "A mix of debt and equity provides tax efficiency through the tax shield and lowers the weighted average cost of capital (Ch 1 §7). Equity is paid after debt, and debt brings more lender due diligence, not less."
+    },
+    {
+      "question": "Why do many practitioners call project finance 'limited-recourse' rather than 'non-recourse'?",
+      "options": [
+        "Lenders often keep some claim on sponsors, at least during construction",
+        "Lenders can claim against the government if the SPV defaults",
+        "The lenders' claim is limited to the value of the land and site",
+        "The loan term is limited to the construction period"
+      ],
+      "answer": 0,
+      "explanation": "Pure non-recourse debt is rarely achieved, especially in less sophisticated markets, where lenders usually have recourse to equity holders at least during construction (Ch 1 §7.1). It has nothing to do with claims on the government."
+    },
+    {
+      "question": "A sponsor raises money at group level and passes it to the SPV as equity and subordinated sponsor loans. How does the Guide describe this approach?",
+      "options": ["Project finance", "A mini-perm structure", "Corporate finance", "An A/B loan structure"],
+      "answer": 2,
+      "explanation": "Corporate finance means the SPV's debt is fully guaranteed by the sponsor, or funds are raised at corporate level and passed to the project as equity and subordinated sponsor loans (Ch 1 §7). Project finance relies on the project's cash flows."
+    },
+    {
+      "question": "A small rural water PPP is worth only a few million dollars. Why may project finance be hard to use for it?",
+      "options": [
+        "Project finance is only allowed for user-pays projects",
+        "Its higher transaction costs may be too heavy for a small project",
+        "Lenders never lend to water projects on a project finance basis",
+        "Project finance requires a government guarantee of the debt"
+      ],
+      "answer": 1,
+      "explanation": "To access project finance, a project must meet lender requirements (bankability) and be large enough to offset the higher transaction costs, which is a major challenge for small-scale PPPs (Ch 1 §7). It is not limited to user-pays projects."
+    },
+    {
+      "question": "How does the procuring authority benefit from the use of project finance in a PPP?",
+      "options": [
+        "Lenders guarantee the authority's payments",
+        "The authority can borrow at the SPV's rate",
+        "The authority no longer needs to appraise the project",
+        "Lenders add their own due diligence and oversight"
+      ],
+      "answer": 3,
+      "explanation": "Because the loan is recovered only from project cash flows, lenders add another layer of due diligence and oversight of governance and performance, on top of the government's appraisal (Ch 1 §7.1). The authority must still appraise the project."
+    },
+    {
+      "question": "A construction group wants to bid for many PPPs while keeping a healthy corporate balance sheet. How does project finance help it?",
+      "options": [
+        "It raises third-party debt without being directly liable to lenders",
+        "It lets the group avoid putting in any equity at all in the SPV",
+        "It moves the project's risks to the procuring authority",
+        "It removes the need to meet any lender cover ratios"
+      ],
+      "answer": 0,
+      "explanation": "Project finance lets sponsors raise third-party funds without being directly liable to the lenders, freeing equity capacity for more projects (Ch 1 §7.1). Lenders still require material equity and cover ratios."
+    },
+    {
+      "question": "How does the Guide define the Loan Life Cover Ratio (LLCR) that lenders use as a covenant?",
+      "options": [
+        "One year's cash flow before debt service over that year's debt service",
+        "Total debt of the SPV divided by its total equity investment",
+        "NPV of remaining cash flow before debt service over outstanding debt",
+        "Total revenue of the SPV divided by its yearly O&M costs"
+      ],
+      "answer": 2,
+      "explanation": "The LLCR compares the net present value of all remaining cash flow before debt service with the outstanding debt (Ch 1 §7.1). The one-year measure is the DSCR, and debt over equity is gearing."
+    },
+    {
+      "question": "Before lenders allow an SPV to draw down its loan, which condition do they treat as paramount, together with cover ratio covenants?",
+      "options": [
+        "A guarantee of the loan by the government",
+        "A material equity investment by the shareholders",
+        "The completion of all the construction works",
+        "A credit rating for the procuring authority"
+      ],
+      "answer": 1,
+      "explanation": "Project finance relies on future cash flows, so a material equity investment is a paramount condition to draw down the debt, plus minimum cover ratios such as the DSCR and LLCR (Ch 1 §7.1). Drawdowns fund construction, so they cannot wait for completion."
+    },
+    {
+      "question": "A bidder increases its gearing from 70 percent to 80 percent debt on a stable availability PPP. From the government's view, what is the main benefit?",
+      "options": [
+        "A higher equity share, so less risk of SPV insolvency",
+        "Faster construction, because debt is drawn earlier",
+        "Fewer lender controls over the project's governance and performance",
+        "A lower WACC, so lower payments are needed from government"
+      ],
+      "answer": 3,
+      "explanation": "Debt costs less than equity, so higher leverage lowers the WACC and the payments the government must make, or makes a user-pays project more likely to be self-sustaining (Ch 1 §7.1). It means less equity, not more."
+    },
+    {
+      "question": "A bidder proposes 97 percent debt and 3 percent equity. What does the Guide say PPP contracts usually do to deal with this kind of risk?",
+      "options": [
+        "Set a minimum equity level or a maximum leverage",
+        "Ban all use of debt in the financial structure",
+        "Require the authority to guarantee the extra debt",
+        "Oblige the lenders to accept a lower DSCR"
+      ],
+      "answer": 0,
+      "explanation": "Excessive leverage increases the chance that the SPV becomes insolvent, so contracts usually require minimum equity or a maximum degree of leverage (Ch 1 §7.1). Debt itself is desirable in moderation."
+    },
+    {
+      "question": "Two road PPPs cost the same. One is a toll road with full demand risk; the other is paid on availability. Which is likely to support more debt?",
+      "options": [
+        "The toll road, as its revenue can grow with traffic",
+        "Both, because lenders ignore the payment type",
+        "The availability road, as its cash flows are more stable",
+        "The toll road, as its users pay instead of the taxpayers"
+      ],
+      "answer": 2,
+      "explanation": "Projects with significant demand risk have less predictable cash flows and lower leverage, while availability PPPs have very stable cash flows and higher leverage (Ch 1 §7.1). Possible upside does not make cash flows more reliable for lenders."
+    },
+    {
+      "question": "Lenders accept a DSCR of 1.2 instead of 1.4 for a project. According to Figure 1.12, what can this allow the bidder to do?",
+      "options": [
+        "Raise less debt and request more revenue",
+        "Raise more debt and request lower revenue",
+        "Pay dividends before paying the debt",
+        "Delay the start of the loan repayments"
+      ],
+      "answer": 1,
+      "explanation": "A lower required DSCR frees cash flow, allowing more debt, higher leverage and a higher equity IRR, so the bidder can ask for lower revenue (Figure 1.12). It does not change the waterfall order."
+    },
+    {
+      "question": "Consider these two statements. 1. Higher bankability means better access to debt in terms of amount, loan term and cost. 2. Bankability is only the bidders' concern, so the authority need not consider it when preparing a project.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 1 §7.1). Statement 2 is false: bankability is part of commercial feasibility, which the authority must assess when appraising and structuring the project (Chapter 4)."
+    },
+    {
+      "question": "Which of the following is NOT one of the major concerns of project lenders listed in Box 1.23?",
+      "options": [
+        "The creditworthiness of the public sector",
+        "An acceptable termination regime that protects the debt",
+        "The ability and creditworthiness of contractors",
+        "A promise that the authority will buy the SPV's shares"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.23 lists concerns such as cash flow certainty, public creditworthiness, legal framework, step-in rights, contractors' ability and creditworthiness, and an acceptable termination regime. A promise to buy the SPV's shares is not listed."
+    },
+    {
+      "question": "Lenders want to be able to act if the SPV fails badly during operations. Which lender concern in Box 1.23 addresses this?",
+      "options": [
+        "The right to step in and alternative contractors",
+        "The creditworthiness of the public sector",
+        "A sound and stable legal framework for PPPs",
+        "The environmental and social reputation impact of the project"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.23 includes the right to step in if a project fails, and the availability of alternative contractors. Public creditworthiness and the legal framework are separate concerns."
+    },
+    {
+      "question": "Where does quasi-equity, such as subordinated or mezzanine debt, rank in an SPV's financial structure?",
+      "options": [
+        "Above senior debt but below equity shares",
+        "Equal to senior debt in every respect",
+        "Above equity shares but below senior debt",
+        "Below equity shares in every respect"
+      ],
+      "answer": 2,
+      "explanation": "Quasi-equity products are senior to equity shares but subordinated to senior debt (Ch 1 §7.2.1). This is why they earn more than senior debt but offer more protection than shares."
+    },
+    {
+      "question": "Consider these two statements. 1. Retail investors entering through IPOs are the main source of equity for PPPs in developing countries. 2. The government is never allowed to hold equity shares in a PPP project company.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 3,
+      "explanation": "Neither is true. Retail investors via IPOs appear only in some highly sophisticated markets, and the government may sometimes invest in equity shares in the SPV as a financial partner (Table 1.6)."
+    },
+    {
+      "question": "Instead of lending, how may MDBs, ECAs and national development banks help an SPV access finance?",
+      "options": [
+        "By buying the SPV's ordinary shares at financial close",
+        "By providing guarantees to support the finance",
+        "By acting as the SPV's EPC contractor",
+        "By paying the SPV's availability fees"
+      ],
+      "answer": 1,
+      "explanation": "MDBs and ECAs in particular, and also NDBs, may either provide finance or facilitate access to it through guarantees, and some ECAs through credit risk insurance (Table 1.6). They do not act as contractors or pay availability fees."
+    },
+    {
+      "question": "In sophisticated markets, how do institutional investors such as pension funds usually provide debt to PPPs?",
+      "options": [
+        "Through short-term bridge loans to sponsors",
+        "Through A/B loans syndicated by an MDB",
+        "Through operating leases of the project's equipment",
+        "Through project bonds, often by private placement"
+      ],
+      "answer": 3,
+      "explanation": "Institutional investors (pension funds, insurers and sovereign funds) usually provide debt through project bonds under a private placement scheme (Table 1.6). A/B loans are MDB structures with commercial banks."
+    },
+    {
+      "question": "An SPV's short-term mini-perm reaches its final repayment date without refinancing. The loan is extended and all cash after costs goes to repay it. What kind of mini-perm is this?",
+      "options": ["A soft mini-perm", "A hard mini-perm", "A bridge loan", "A mezzanine loan"],
+      "answer": 0,
+      "explanation": "In a soft mini-perm the loan is extended under a full cash sweep if refinancing has not happened; in a hard mini-perm there is no such flexibility and the borrower is in default (Table 1.6, note 86)."
+    },
+    {
+      "question": "An SPV plans a short-term loan to be refinanced after construction. According to the Guide, what must happen with the refinancing terms?",
+      "options": [
+        "They must be approved by the O&M contractor",
+        "They must be agreed at bid stage by all of the bidders",
+        "They need to be cleared with the government partner",
+        "They need no approval, being a private matter"
+      ],
+      "answer": 2,
+      "explanation": "Table 1.6 states that refinancing terms' conditions need to be cleared with government partners. Financing is the private partner's responsibility, but refinancing affects the contract and may create gains to be shared."
+    },
+    {
+      "question": "Why is bond finance described as a form of 'disintermediation'?",
+      "options": [
+        "The government stands between the SPV and lenders",
+        "No bank stands between the borrower and the investor",
+        "The bonds cannot be traded after they are issued",
+        "The bond interest rate is set by the regulator"
+      ],
+      "answer": 1,
+      "explanation": "Bond finance is called disintermediation because there is no intermediary, such as a bank, between the borrower and the end investor (Table 1.6, note 87). Bonds are tradeable debt."
+    },
+    {
+      "question": "Why are project bonds more often used to refinance a PPP after construction than to finance the construction itself?",
+      "options": [
+        "Bonds cannot be used by government-pays PPPs",
+        "Bonds always have shorter terms than bank loans",
+        "Bonds are not permitted before commercial close",
+        "Bond funds often cannot be drawn down step by step"
+      ],
+      "answer": 3,
+      "explanation": "Bonds give access to longer terms but are less flexible because funds often may not be drawn progressively, so they are commonly used through 'bridge to bonds' refinancing (Ch 1 §7.2.2, note 94). They usually have longer, not shorter, terms."
+    },
+    {
+      "question": "A government wants to attract infrastructure funds to its PPP programme. What does Box 1.25 recommend it build into its PPP contracts?",
+      "options": [
+        "Reasonable flexibility for transfers of equity shares",
+        "A ban on selling any shares for the whole contract term",
+        "A duty for funds to take on construction work",
+        "A guarantee of a minimum dividend each year"
+      ],
+      "answer": 0,
+      "explanation": "To attract specialised financial investors, contracts should allow reasonable flexibility regarding equity share transfers (Box 1.25). Governments should also promote their participation in greenfield projects."
+    },
+    {
+      "question": "What is the aim of financial structuring from the sponsor's point of view?",
+      "options": [
+        "Minimise the amount of debt raised",
+        "Transfer all of the financial risk to the lenders",
+        "Maximise equity IRR, or bid a more competitive price",
+        "Set the payment mechanism of the contract"
+      ],
+      "answer": 2,
+      "explanation": "Financial structuring designs the mix of funds to maximise the private partner's equity IRR, or, for the same target IRR, to be more competitive in the bid price (Ch 1 §7.2.2). The payment mechanism is set by the authority."
+    },
+    {
+      "question": "An authority runs an open tender in a market with many lenders. What does the Guide say is the common approach for bidders' debt at bid stage?",
+      "options": [
+        "Require fully committed debt from every bidder",
+        "Ask for sufficient evidence that finance is available",
+        "Ask bidders for no information on finance at all",
+        "Require the authority to arrange the debt"
+      ],
+      "answer": 1,
+      "explanation": "Debt may be committed before bid submission when required, which is common in dialogue processes and shortlisted tenders; in open tenders the common approach is to request sufficient evidence of the availability of finance (Ch 1 §7.2.2)."
+    },
+    {
+      "question": "A country has only three banks able to lend long term. Why might the authority not require full finance packages at bid submission?",
+      "options": [
+        "So bidders can avoid committing any equity",
+        "So the authority can pick the lenders itself",
+        "So lenders need not do any due diligence on the project",
+        "So the winner can approach all lenders after award"
+      ],
+      "answer": 3,
+      "explanation": "Not requiring financial packages at bid suits markets with few long-term lenders, so the preferred bidder can access all available lenders after award (Ch 1 §7.2.2, note 91). Equity is still always committed at bid."
+    },
+    {
+      "question": "Consider these two statements. 1. A long-term project finance loan from the outset gives more flexibility but more risk than a short-term loan with refinancing. 2. A short-term loan strategy can capture the upside of de-risking after construction and falls in interest rates.",
+      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "answer": 1,
+      "explanation": "Statement 1 is false: a long-term loan from the outset gives higher certainty and less risk, but less flexibility. Statement 2 is true: short-term loans carry refinancing risk but can capture that upside (Ch 1 §7.2.2)."
+    },
+    {
+      "question": "A country has few lenders able to lend for more than 10 years and a weak banking system. According to the Guide, how may the government help?",
+      "options": [
+        "Provide part of the debt through a national bank",
+        "Require all debt to come from local banks",
+        "Ban all foreign lenders from the national PPP market",
+        "Guarantee a fixed equity return to sponsors"
+      ],
+      "answer": 0,
+      "explanation": "Availability of finance is a pre-condition for a PPP. Where it is insufficient, governments may provide part of the debt through a national bank or agency, share foreign exchange risk, or rely on MDB support (Ch 1 §7.2.2). Forcing local banks is discouraged."
+    },
+    {
+      "question": "Beyond providing finance, which is NOT a form of MDB support to PPPs described in the Guide?",
+      "options": [
+        "Helping to identify and select projects",
+        "Advising on or funding PPP structuring",
+        "Operating the asset in place of the SPV",
+        "Giving policy advice on the PPP framework"
+      ],
+      "answer": 2,
+      "explanation": "MDB support includes project identification and selection, help with structuring, and policy advice, and increasingly links concessional funding to climate goals (Ch 1 §7.2.3). MDBs do not operate PPP assets."
+    },
+    {
+      "question": "A Korean construction firm joins a bidding consortium in Africa. How is the Korean export credit agency most likely to support the project?",
+      "options": [
+        "By becoming the procuring authority",
+        "By providing guarantees or insurance",
+        "By buying the land for the project",
+        "By paying the availability fees"
+      ],
+      "answer": 1,
+      "explanation": "ECA participation is linked to a bidder from the ECA's country and most frequently takes the form of guarantees, to lenders and sometimes equity investors, or insurance against credit and political risk (Box 1.26)."
+    },
+    {
+      "question": "What is the aim of the OECD Consensus that governs ECA support?",
+      "options": [
+        "To set a maximum leverage for all PPP projects",
+        "To rank MDB loans ahead of all commercial bank loans",
+        "To standardise PPP payment mechanisms across all countries",
+        "To prevent subsidised financing competition between countries"
+      ],
+      "answer": 3,
+      "explanation": "The OECD Consensus regulates ECA support conditions to avoid financial dumping competition among countries by controlling subsidisation of financing (Box 1.26). Preferred creditor status relates to MDBs."
+    },
+    {
+      "question": "A PPP partner delivers the whole project, but MDB-funded public money pays part of the capital cost at construction milestones. Which hybrid model is this?",
+      "options": ["OPEX VGF", "CAPEX VGF", "Build-Concession", "Empresa mixta"],
+      "answer": 1,
+      "explanation": "Under CAPEX VGF, public funds, often provided by MDBs, buy down some or all of the capital cost, usually as output-based payments tied to construction milestones (Ch 1 §7.2.3). Under OPEX VGF the partner finances all capex."
+    },
+    {
+      "question": "A partner finances all the capital costs of a water project, and MDB-funded public money later tops up tariffs for poor households. Which hybrid model is this?",
+      "options": ["CAPEX VGF", "Build-Concession", "OPEX VGF", "A/B loan"],
+      "answer": 2,
+      "explanation": "Under OPEX VGF the private partner finances the full capital costs, and public support starts in operations, for example to top up tariffs or subsidise services for certain groups (Ch 1 §7.2.3)."
+    },
+    {
+      "question": "A government builds a BRT's civil works with MDB money, then awards a contract for buses and O&M. Under this Build-Concession model, what risk must still be carefully managed?",
+      "options": [
+        "The civil works construction risk by the concessionaire",
+        "The interface risk between the works and the concession",
+        "The demand risk of the MDB as lender",
+        "The refinancing risk of the civil works loan"
+      ],
+      "answer": 1,
+      "explanation": "In a Build-Concession, civil works risks are allocated to the public sector, but the interface risk still needs to be detailed and managed under the concession agreement (Ch 1 §7.2.3)."
+    },
+    {
+      "question": "Under Islamic finance rules described in the Guide, how can a bank earn a legitimate return on its lending?",
+      "options": [
+        "By charging a fixed rate of interest",
+        "By taking a fixed share of the user tolls only",
+        "By receiving a government subsidy instead",
+        "By sharing the profit and loss of the enterprise"
+      ],
+      "answer": 3,
+      "explanation": "Sharia law does not permit interest payments, but a bank may earn a legitimate profit by sharing the profit and loss of the enterprise it lends to (Ch 1 §7.2.4). A fixed interest charge is not permitted."
     }
   ]
 }

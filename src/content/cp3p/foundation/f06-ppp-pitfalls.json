@@ -69,16 +69,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Transaction costs", "meaning": "The extra costs of preparing, tendering and monitoring a PPP, for both the public and private sides." },
-    { "term": "Retrenchment", "meaning": "Cutting jobs, for example when a PPP replaces a service the public sector delivered directly; the Guide says it needs careful, specific management." },
-    { "term": "Commercial feasibility", "meaning": "The analysis that checks whether a project will attract quality bidders, investors and lenders, and on what conditions." },
-    { "term": "Direct negotiation", "meaning": "Awarding a contract to one party without a competitive tender; acceptable only in very few cases." },
-    { "term": "Unsolicited proposal (USP)", "meaning": "A project proposed to the government by a private party rather than identified by the government." },
-    { "term": "Project Champion", "meaning": "A clearly identified person who promotes and drives the project within its governance structure." },
-    { "term": "Gearing (leverage)", "meaning": "The ratio of a company's debt to its equity; the Guide uses the two terms interchangeably." },
-    { "term": "Foreign exchange risk", "meaning": "The risk that devaluation of the local currency increases debt owed in foreign currency compared with local-currency revenues." },
-    { "term": "Country risk", "meaning": "The collection of risks of investing in a foreign country, including exchange, political, legal, corruption and sovereign risk." },
-    { "term": "Pathfinder project", "meaning": "An early project used to test the market before committing extensive resources and reputation to a PPP programme." }
+    {
+      "term": "Transaction costs",
+      "meaning": "The extra costs of preparing, tendering and monitoring a PPP, for both the public and private sides."
+    },
+    {
+      "term": "Retrenchment",
+      "meaning": "Cutting jobs, for example when a PPP replaces a service the public sector delivered directly; the Guide says it needs careful, specific management."
+    },
+    {
+      "term": "Commercial feasibility",
+      "meaning": "The analysis that checks whether a project will attract quality bidders, investors and lenders, and on what conditions."
+    },
+    {
+      "term": "Direct negotiation",
+      "meaning": "Awarding a contract to one party without a competitive tender; acceptable only in very few cases."
+    },
+    {
+      "term": "Unsolicited proposal (USP)",
+      "meaning": "A project proposed to the government by a private party rather than identified by the government."
+    },
+    {
+      "term": "Project Champion",
+      "meaning": "A clearly identified person who promotes and drives the project within its governance structure."
+    },
+    {
+      "term": "Gearing (leverage)",
+      "meaning": "The ratio of a company's debt to its equity; the Guide uses the two terms interchangeably."
+    },
+    {
+      "term": "Foreign exchange risk",
+      "meaning": "The risk that devaluation of the local currency increases debt owed in foreign currency compared with local-currency revenues."
+    },
+    {
+      "term": "Country risk",
+      "meaning": "The collection of risks of investing in a foreign country, including exchange, political, legal, corruption and sovereign risk."
+    },
+    {
+      "term": "Pathfinder project",
+      "meaning": "An early project used to test the market before committing extensive resources and reputation to a PPP programme."
+    }
   ],
   "summary": [
     "PPP pitfalls: complexity, political exposure, public controversy, transaction costs, monitoring costs, dearer finance, fiscal risk, budget rigidity and post-award monopoly.",
@@ -188,13 +218,23 @@
     },
     {
       "question": "Complete the sentence from the Guide: A PPP will not make a good project out of a ______ project.",
-      "options": ["small", "complex", "public", "bad"],
+      "options": [
+        "small",
+        "complex",
+        "public",
+        "bad"
+      ],
       "answer": 3,
       "explanation": "The first condition for PPP benefits is a demonstrated need: a PPP will not make a good project out of a bad project. Small or complex projects raise other issues, but the key phrase is about bad projects."
     },
     {
       "question": "Consider these two statements. 1. According to the Guide, most reasons commonly used to justify direct negotiation are sound. 2. A better practice for unsolicited proposals is to introduce competition while granting some advantage to the original proposer.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 1,
       "explanation": "Box 1.18 says most reasons used to justify direct negotiation are spurious, so statement 1 is false. It also says the better practice for USPs is competitive tension with some advantage to the proposer, so statement 2 is true."
     },
@@ -255,9 +295,454 @@
     },
     {
       "question": "Consider these two statements. 1. Good project governance includes a full-time dedicated project manager and a clearly identified Project Owner and Project Champion. 2. A proper PPP framework should generally be in place before a PPP programme is announced and launched.",
-      "options": ["Only 1 is true", "Only 2 is true", "Both are true", "Neither is true"],
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
       "answer": 2,
       "explanation": "Both statements come from section 5.5. The governance list includes a full-time project manager, Project Owner and Project Champion, and the Guide says a framework should generally exist before a programme is launched, though it may be adapted with experience."
+    },
+    {
+      "question": "Which measures does the Guide suggest to mitigate the complexity of PPPs?",
+      "options": [
+        "Detailed guidelines, realistic timeframes and PPP units",
+        "Shorter preparation and fewer advisors on each project",
+        "Direct negotiation with experienced firms to save time",
+        "Using PPPs only for small and simple projects"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.4 says complexity can be mitigated by sound, detailed guidelines, realistic time frames and organised resources and knowledge, such as PPP units. Rushing, fewer advisors and direct negotiation would raise risk."
+    },
+    {
+      "question": "After an election, a new government complains that it is paying for a PPP hospital that brought political credit to its predecessor. Which PPP pitfall is this?",
+      "options": [
+        "Budget rigidity",
+        "Political exposure",
+        "Higher transaction costs",
+        "Lack of post-award competition"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.4 describes political exposure: new administrations may feel they are paying for a project that benefited their predecessors. Remedies are communication, political consensus and a PPP programme."
+    },
+    {
+      "question": "A city plans to replace a directly provided public service with a PPP, and unions strongly oppose it because of job cuts. Which issue does the Guide say needs careful and specific management?",
+      "options": [
+        "Gearing",
+        "Retrenchment",
+        "Refinancing",
+        "Hedging"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.4 says public controversy can arise when a PPP replaces direct public provision, and retrenchment (staff reductions) deserves careful attention and specific management. Gearing and hedging are financing terms."
+    },
+    {
+      "question": "Why does the Guide say the higher monitoring cost of a PPP is acceptable?",
+      "options": [
+        "It is always paid by the private partner, not the government",
+        "It is lower than monitoring costs in traditional projects",
+        "It is part of the price of a more reliable service quality",
+        "It removes the need for contract management later on"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.4 says higher surveillance cost is part of the price of more reliable quality, including ESG monitoring. In traditional projects this cost is often hidden or monitoring does not happen at all."
+    },
+    {
+      "question": "Complete the sentence: The government's cost of borrowing ______ the true cost of financing a project, because it does not pay the government for bearing project risk.",
+      "options": [
+        "understates",
+        "overstates",
+        "equals",
+        "replaces"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.4 says the government's borrowing rate understates the true cost because it does not remunerate the government for bearing risk. This is why a PPP is not by definition more expensive."
+    },
+    {
+      "question": "A PPP hospital was badly structured and poorly managed, so the expected efficiency gains never came. What does the Guide say about the extra cost of private finance in this case?",
+      "options": [
+        "It becomes an extra affordability burden not offset by savings",
+        "It is offset automatically by the risk transferred",
+        "It must be refunded to the government by the lenders",
+        "It becomes lower than the cost of public finance"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.4 says that if a project is unsuitable, poorly structured or poorly managed, expensive private finance is unlikely to be offset by efficiencies, creating an unexpected affordability burden. Risk transfer does not work automatically in a badly structured deal."
+    },
+    {
+      "question": "According to the Guide, the fiscal risk of PPPs is particularly high in which case?",
+      "options": [
+        "Unsolicited proposals in countries with weak fiscal monitoring",
+        "Competitive tenders in mature and well-regulated PPP markets",
+        "Small service contracts that use no private finance",
+        "Projects paid in full from the annual capital budget"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.4 says countries with less sophisticated accounting and fiscal monitoring risk excessive commitments, particularly with unsolicited proposals. Mature markets with controls and non-financed contracts carry less of this risk."
+    },
+    {
+      "question": "A country's PPPs are not counted as public debt, and officials ignore their long-term payments. What does the Guide recommend to offset this fiscal risk?",
+      "options": [
+        "Stop all PPPs until they are recorded as public debt",
+        "Robust appraisal and control of aggregated PPP commitments",
+        "Move all PPP payments to user charges instead",
+        "Ask the lenders to report the commitments each year"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.4 says fiscal risk may be offset by robust appraisal and a policy framework that controls aggregated PPP commitments (see Ch 2). Stopping all PPPs or shifting everything to users is not the Guide's advice."
+    },
+    {
+      "question": "In an unexpected economic downturn, a government wants to cut its PPP payments. Why does the Guide treat this as a problem of budget rigidity?",
+      "options": [
+        "PPP payments are always indexed to GDP growth",
+        "Lenders own the asset during a downturn",
+        "Payments can be cut freely, which harms quality",
+        "Renegotiating long-term contracts to cut costs is costly"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.4 says a PPP is a long-term commitment, so renegotiating to cut costs in a downturn is costly. The only way to handle this is to control aggregated exposure and analyse affordability carefully."
+    },
+    {
+      "question": "Which condition for accessing PPP benefits is linked to screening the project, as explained in Chapter 3?",
+      "options": [
+        "The project must be properly tendered",
+        "The project must be suitable for a PPP",
+        "The project must be proactively managed",
+        "The project must be properly structured"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.5 says PPP advantages come only in projects suitable for PPP, and Chapter 3 explains how to screen a project. Tendering is Chapters 5–6, structuring Chapter 5 and management Chapter 7."
+    },
+    {
+      "question": "How does the Guide define commercial feasibility?",
+      "options": [
+        "Whether the project gives net economic benefits to society",
+        "Whether the government can afford the payments over time",
+        "Whether it will attract good bidders, investors and lenders",
+        "Whether the PPP gives more VfM than traditional delivery"
+      ],
+      "answer": 2,
+      "explanation": "The Guide defines commercial feasibility as checking whether the project will attract quality bidders, investors and lenders, and on what conditions (Ch 1 §5.5). Net social benefit is CBA, and affordability and VfM are separate tests."
+    },
+    {
+      "question": "A PPP project passed appraisal, but the contract was drafted with no real performance incentives, so the value drivers could not emerge. Which condition for PPP success has failed?",
+      "options": [
+        "Demonstrated need",
+        "Proper structuring",
+        "Proper tendering",
+        "Suitability screening"
+      ],
+      "answer": 1,
+      "explanation": "Section 5.5 says efficiencies are only achieved with a suitable contract structure that lets the value drivers emerge and last (Chapter 5). The need and suitability were already confirmed by the appraisal."
+    },
+    {
+      "question": "A PPP contract was signed after a good tender, but the authority then stopped monitoring it and the efficiencies were lost. Which condition was not met?",
+      "options": [
+        "Proper appraisal of the project before tender",
+        "A demonstrated need for the project itself",
+        "Proper tendering with real competition",
+        "Proactive management through the contract life"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.5 says PPP efficiencies may be lost during the contract if there is improper contract management and accountability (Chapter 7). The tender was fine; the failure came after signature."
+    },
+    {
+      "question": "Consider these two statements. 1. The conditions for approving the project and the contract (the investment and procurement decisions) should be set out as clear guidelines. 2. Sustainability risks, especially climate change and gender equality, are an increasing focus of PPP benefit assessments.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both statements come from section 5.5. The Guide asks for clear, understandable guidelines with processes to ensure the conditions are met, and it lists sustainability risks as a growing focus."
+    },
+    {
+      "question": "According to Box 1.18, why does competition bring innovation into a PPP?",
+      "options": [
+        "It lets the government design every detail of the works",
+        "Pressure pushes firms to innovate and manage risk efficiently",
+        "It removes the need for any output specifications",
+        "It guarantees the lowest possible interest rate"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.18 says companies under competitive pressure have an incentive to innovate and to manage risks in the most efficient way. Without competition, the same project will likely cost more."
+    },
+    {
+      "question": "After a major earthquake, a government must restore a key water plant very fast, and it is evident that only one firm can mobilise in time. What does the Guide say?",
+      "options": [
+        "Direct negotiation is never acceptable in any situation",
+        "Direct negotiation may be appropriate, and VfM may be secondary",
+        "A full competitive dialogue must still be completed first",
+        "The project must be handled as an unsolicited proposal"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.18 says direct negotiation may be appropriate only in very few cases, such as natural disasters or when only one company is evidently prepared to deliver; then VfM may become secondary. It is a rare exception, not a general route."
+    },
+    {
+      "question": "Consider these two statements. 1. Good practice frameworks set clear and limited conditions on when direct negotiation is allowed. 2. No jurisdiction goes as far as forbidding direct negotiation altogether.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.18 praises frameworks with clear, limited conditions for direct negotiation, so statement 1 is true. It also notes that some jurisdictions forbid it (for example Brazil's Federal PPP Law of 2004), so statement 2 is false."
+    },
+    {
+      "question": "A small municipality with limited revenues wants to launch several large PPPs. What policy response does Box 1.19 support?",
+      "options": [
+        "Let it sign any PPP, since the central government pays if it fails",
+        "Central support such as grants or credit wraps, with exposure limits",
+        "Ban all sub-national PPPs, because local risk is always too high",
+        "Make it raise local tariffs until every PPP pays for itself"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.19 says local governments should only take on commitments in line with their revenue capacity; PPP policy should offer central support (grants, public loans or credit wraps) together with controls against excessive exposure and unfeasible projects. It does not call for a ban or for unlimited tariff rises."
+    },
+    {
+      "question": "Which is NOT a phase commonly governed by the published procurement framework for a PPP tender?",
+      "options": [
+        "Qualification of candidates",
+        "Bid submission and evaluation",
+        "Awarding and contract signature",
+        "Sale of the asset to the winning bidder"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.18 lists qualification, bid submission, evaluation, awarding and contract signature. A PPP does not sell the public asset; the government usually remains the ultimate owner."
+    },
+    {
+      "question": "When designing a PPP tender, deciding whether to shortlist bidders or apply only pass/fail criteria belongs to which approach?",
+      "options": [
+        "The approach to bid submittal",
+        "The approach to qualifications",
+        "The approach to evaluation criteria",
+        "The approach to contract management"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.18 says the approach to qualifications covers the timing of the request for qualifications and whether to shortlist or use pass/fail. Negotiations and iterative proposals belong to bid submittal and evaluation."
+    },
+    {
+      "question": "Why does the Guide stress transparency in the PPP procurement process?",
+      "options": [
+        "It is needed to keep the PPP off the government's balance sheet",
+        "It shortens the time needed to prepare and run the tender",
+        "It allows the project to be financed in local currency only",
+        "Without it, stakeholders cannot check the tender was competitive"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.18 says that without transparency it might be impossible for stakeholders to verify the competitiveness of the procurement. Transparency also keeps bidders interested in the programme; it has nothing to do with accounting or currency."
+    },
+    {
+      "question": "A government runs a flawed, non-transparent PPP tender. Besides losing the benefits of that project, what further harm does the Guide warn about?",
+      "options": [
+        "Damage to its reputation as a fair procurer in the market",
+        "Automatic cancellation of all its other PPP contracts",
+        "A legal duty to repay every bidder's costs",
+        "Loss of ownership of the land under the asset"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.5 says improper procurement may affect the government's overall reputation as a fair PPP and infrastructure procurer, with the public and the wider market. The other effects are not described in the Guide."
+    },
+    {
+      "question": "Which is NOT part of proper project governance as listed in the Guide?",
+      "options": [
+        "An advocate for the project outside the project team",
+        "A clear decision framework linked to programme governance",
+        "Stakeholder management from the early stages",
+        "A project team as large as possible to cover every risk"
+      ],
+      "answer": 3,
+      "explanation": "The Guide asks for sufficient resources in a team that is 'not too large nor too small' (Ch 1 §5.5). An outside advocate, a clear decision framework and early stakeholder management are all on the list."
+    },
+    {
+      "question": "According to the Guide, what is the only way to maximise Value for Money from PPPs?",
+      "options": [
+        "Transferring all project risks to the private partner",
+        "Keeping PPP commitments off the balance sheet",
+        "A sound framework and a strategic, programmatic approach",
+        "Using direct negotiation to speed up procurement"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.5 says a sound framework and a strategic, programmatic approach not only reduce failures but are the only way to maximise VfM. Transferring all risk can spoil VfM, and the off balance sheet motive is a bias."
+    },
+    {
+      "question": "Country R has no PPP experience and its market is not yet mature. Before committing large resources to a PPP programme, what does the Guide call good practice?",
+      "options": [
+        "Announce a large programme to attract investors",
+        "Copy a mature country's PPP law without change",
+        "Launch pathfinder projects to test the water",
+        "Rely only on unsolicited proposals at first"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says it is good practice to launch 'pathfinder' projects to test the water before committing extensive resources and reputation when the market is immature (Ch 1 §5.5). Box 1.20 warns against ambitious announcements."
+    },
+    {
+      "question": "According to Figure 1.9, what determines market appetite, that is, the interest of prospective bidders?",
+      "options": [
+        "Mainly the size and timing of the government's future payments",
+        "Mainly the country's sovereign credit rating from the agencies",
+        "Mainly the number of projects that the government announces",
+        "Good projects, reliable governance and framework, country factors"
+      ],
+      "answer": 3,
+      "explanation": "Figure 1.9 says market appetite depends on sound and feasible projects, reliable governance and an identifiable framework and strategy, plus macro country factors such as country risk and access to finance. No single factor decides it."
+    },
+    {
+      "question": "A PPP in a eurozone country earns revenues in euros and borrows in euros from banks in other eurozone countries. Does this create the currency mismatch the Guide warns about?",
+      "options": [
+        "No, because debt and revenues are in the same currency",
+        "Yes, because the debt comes from foreign lenders",
+        "Yes, because all cross-border debt creates FX risk",
+        "No, because the EU guarantees all PPP debt"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.6 says debt should ideally be in the same currency as revenues, and notes the exception of a supranational currency such as the euro. What matters is the currency, not the lender's nationality."
+    },
+    {
+      "question": "A country has no domestic financial system able to lend large amounts for long terms (for example above 10 years). What does the Guide say it will have to rely on?",
+      "options": [
+        "Only grants from donors, with no project debt at all",
+        "Short-term local bank loans that are rolled over each year",
+        "Cross-border hard-currency debt, if a mitigation option exists",
+        "Equity from the private partner alone, with no lenders"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.6 says such a country must rely on cross-border financing in hard currency, but only if a credible option exists: hedging, government guarantees or a smaller private finance package."
+    },
+    {
+      "question": "Lenders to a government-pays PPP in Country T ask for protection against devaluation. Which option gives the highest degree of protection according to the Guide?",
+      "options": [
+        "Contractual compensation once devaluation passes a threshold",
+        "Allowing tariffs to rise with the exchange rate",
+        "Paying in hard currency or guaranteeing the debt directly",
+        "Asking the private partner to add more equity"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.6 says the highest degree is to denominate payments in hard currency or give direct guarantees to lenders; contractual compensation above a threshold is a lower degree. Tariff indexation is a weaker, user-pays-only technique."
+    },
+    {
+      "question": "Consider these two statements. 1. For a government guarantee against devaluation to work, it should be clearly enforceable, for example irrevocable and unconditional. 2. Lenders may still ask for political risk cover, such as ECA insurance, or an MDB as co-lender in an A/B loan.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both statements come from section 5.6. Lenders must find the risk of the government breaching its guarantee acceptable, which is why they may also want political risk cover or MDB participation."
+    },
+    {
+      "question": "Country V cannot get currency hedging and will not give devaluation guarantees. It still wants a hospital PPP with foreign lenders. Which option from the Guide remains?",
+      "options": [
+        "Cut the private finance share; government funds much of capex",
+        "Index the hospital's user fees to the exchange rate",
+        "Ask the foreign lenders to carry the currency risk for free",
+        "Use a longer contract term to spread the currency risk"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.6 lists a significant reduction of the private finance package, with the government financing much of the capex (co-financing), as the third option. Tariff indexation only works in user-pays projects, and a hospital is usually government-pays."
+    },
+    {
+      "question": "A government decides to absorb foreign exchange risk to make a PPP bankable. What does the Guide say it should do?",
+      "options": [
+        "Exclude the risk from VfM because it is a financing matter",
+        "Pass the risk to users through tariffs at a later stage",
+        "Record the liability only when a devaluation happens",
+        "Include the risk and its liabilities in its VfM analysis"
+      ],
+      "answer": 3,
+      "explanation": "Section 5.6 says assuming FX risk may significantly increase government liabilities, so it should be incorporated in the VfM analysis. Ignoring it until devaluation happens hides a real cost."
+    },
+    {
+      "question": "Country W has no long-term local finance, and no hedging, guarantees or co-financing are workable. Which strategy fits the Guide's subsidiary strategies for private finance PPPs?",
+      "options": [
+        "Focus them on hard-currency revenue projects, such as ports",
+        "Launch many DBFOM schools with payments in local currency",
+        "Borrow in dollars for local-currency toll roads anyway",
+        "Index all water tariffs directly to the US dollar"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.6 says one subsidiary strategy is to restrict private finance PPPs to projects that earn hard-currency revenues, such as ports and airports, to match cross-border debt. The other options keep the currency mismatch."
+    },
+    {
+      "question": "Consider these two statements. 1. Using DBOM instead of DBFOM can help a country gain PPP experience without depending on long-term finance. 2. The Guide excludes service and management contracts from the PPP concept in this context.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true: section 5.6 suggests PPPs without private finance, such as DBOM instead of DBFOM. Statement 2 is false: the Guide suggests applying the PPP concept to service and management contracts as part of this strategy."
+    },
+    {
+      "question": "Country X has tight budgets but reasonable access to long-term finance in local currency. Which PPPs does the Guide say may still be possible?",
+      "options": [
+        "Large government-pays hospital programmes",
+        "Projects financed in foreign currency without hedging",
+        "User-pays revenue makers, if willingness to pay is tested",
+        "PPPs chosen mainly to avoid recording public debt"
+      ],
+      "answer": 2,
+      "explanation": "Section 5.6(b) says user-pays PPPs with strong revenue (revenue makers) should still be possible if willingness to pay is tested and tolls are affordable. Government-pays programmes would strain the tight budget."
+    },
+    {
+      "question": "Consider these two statements. 1. Small sub-sovereign governments usually find private finance easier to access than central government does. 2. A trend toward decentralising powers to local governments makes the local government challenge worse.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.19 says small sub-sovereign governments find it harder to access private finance, so statement 1 is false. It also says the trend toward decentralisation exacerbates this situation, so statement 2 is true."
+    },
+    {
+      "question": "Which describes 'transfer risk' as a component of country risk in the Guide?",
+      "options": [
+        "The risk that an investor cannot send payments offshore",
+        "The risk that the country defaults on its debts",
+        "The risk of strikes, riots and social unrest",
+        "The risk that new laws treat foreign investors worse"
+      ],
+      "answer": 0,
+      "explanation": "Section 5.6(c) defines transfer risk as the risk of an investor not being able to send payments offshore. Default by the country is sovereign risk, and strikes are social risk."
+    },
+    {
+      "question": "A ministry wants its first PPP water plant to use a brand-new, untested treatment technology. What does Box 1.20 advise?",
+      "options": [
+        "Do it, because PPPs are meant to reward innovation",
+        "Do it only if the lenders agree to the technology",
+        "Replace output specifications with input specifications",
+        "Don't specify unreliable or untested technology"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.20 says do not define unrealistic projects, and in particular do not specify unreliable or untested technology. Innovation in PPPs comes from output specifications, not from mandating unproven technology."
+    },
+    {
+      "question": "A region has ten small wastewater treatment plants to build. Which approach follows Box 1.20?",
+      "options": [
+        "Procure each plant as a separate PPP",
+        "Negotiate directly with one local firm",
+        "Bundle the plants into one procurement",
+        "Always use traditional procurement for plants"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.20 says do not use PPP for small projects as a general rule, but try to bundle them, giving a group of wastewater plants as the example. Bundling spreads the transaction costs over a larger project."
+    },
+    {
+      "question": "A government sets a very short tender timetable to show quick results. What risk does Box 1.20 highlight?",
+      "options": [
+        "Lenders will refuse to hedge the currency",
+        "The PPP will be counted as public debt",
+        "Transaction costs will become too low",
+        "Bidders may doubt the timetable and bid less"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.20 says do not rush: the private sector is less willing to bid if it is not confident the government can meet its timetable. Rushing has no link to hedging or accounting treatment."
     }
   ]
 }

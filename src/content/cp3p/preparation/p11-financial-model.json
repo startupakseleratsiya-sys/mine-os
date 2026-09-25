@@ -134,10 +134,10 @@
     {
       "question": "A PPP unit's team builds the appraisal financial model for a hospital PPP. Whose financial situation should the model primarily represent?",
       "options": [
-        "The ministry of finance's annual budget",
-        "The users of the hospital",
+        "The ministry of finance's annual budget plan",
+        "The future users of the hospital service",
         "The future private partner's project company (SPV)",
-        "The lenders' own balance sheets"
+        "The lenders' own corporate balance sheets"
       ],
       "answer": 2,
       "explanation": "Although the project team builds it, the model reflects the best available information about the private partner's future financial situation, that is, the SPV. Public cash flows are assessed in affordability and VfM work."
@@ -178,10 +178,10 @@
     {
       "question": "Shareholders of a project company want to raise leverage from 70% to 90% debt. What is the most likely effect, all else being equal?",
       "options": [
-        "Lower equity returns and lower volatility",
-        "A higher return on equity but more volatile equity returns, possibly with costlier debt",
-        "No change, because leverage does not affect returns",
-        "Lenders will always accept any leverage level"
+        "Lower equity returns and less volatile equity returns",
+        "Higher equity returns, but more volatile, and maybe costlier debt",
+        "No change, because leverage does not affect equity returns",
+        "No change in risk, because lenders accept any leverage level"
       ],
       "answer": 1,
       "explanation": "Higher leverage raises the relative return on equity (the positive leverage effect) but increases the exposure of equity IRR to volatility. Lenders cap leverage and debt costs may rise as it increases."
@@ -189,10 +189,10 @@
     {
       "question": "An availability-payment school PPP is being modelled. How should the team treat the government's service payments in the model?",
       "options": [
-        "As an output of the commercial feasibility exercise, linked to the affordability assessment",
-        "As a fixed input set before any feasibility work",
-        "As user-charge revenue requiring an elasticity study",
-        "As a concession fee paid to the authority"
+        "As an output of commercial feasibility, tied to affordability",
+        "As a fixed input set before any feasibility work is done",
+        "As user-charge revenue that needs a demand elasticity study",
+        "As a concession fee that the SPV pays to the authority"
       ],
       "answer": 0,
       "explanation": "Government payments, where included in the revenue regime, are an output of the commercial feasibility exercise, determined in connection with affordability. Elasticity studies are needed for user-charge revenue."
@@ -223,9 +223,9 @@
       "question": "Technical feasibility work on a tunnel PPP finds major uncertainty about ground conditions. What should the procuring authority do?",
       "options": [
         "Leave each bidder to investigate the ground on its own",
-        "Carry out further tests and share a consistent risk assessment with all bidders",
-        "Hide the uncertainty to keep bidder interest high",
-        "Automatically allocate all ground risk to the government"
+        "Run further tests and give all bidders one consistent risk assessment",
+        "Hide the uncertainty in order to keep bidder interest high",
+        "Automatically allocate all of the ground risk to government"
       ],
       "answer": 1,
       "explanation": "The Guide says further tests should be made and all bidders given a consistent risk assessment; leaving bidders alone can reduce competition. Allocating risk to government is possible only with extreme caution."
@@ -240,6 +240,446 @@
       ],
       "answer": 3,
       "explanation": "If confident 'no' answers cannot be solved by changing the technical requirements, the Guide says a recommendation for cancellation should be considered. Proceeding regardless would be poor practice."
+    },
+    {
+      "question": "Which appraisal exercise looks at the public sector's cash flows for the project under PPP delivery?",
+      "options": [
+        "Fiscal feasibility (affordability)",
+        "Commercial feasibility (bankability)",
+        "Economic feasibility (the CBA)",
+        "Technical feasibility review"
+      ],
+      "answer": 0,
+      "explanation": "Fiscal feasibility, or affordability, looks at public sector cash flows under PPP delivery (Ch 4 §6, Box 4.5). Commercial feasibility looks at the private sector's cash flows instead."
+    },
+    {
+      "question": "A ministry must decide whether to deliver a new prison as a PPP or through traditional public procurement. Which assessment compares public cash flows under both delivery modes?",
+      "options": [
+        "The commercial feasibility assessment",
+        "The lenders' bankability analysis",
+        "The technical feasibility review",
+        "The Value for Money assessment"
+      ],
+      "answer": 3,
+      "explanation": "VfM compares public (or user) cash flows under PPP delivery with those under traditional delivery, so it informs the choice of procurement mode (Ch 4 §6, Box 4.5). Commercial feasibility only looks at the private partner's cash flows."
+    },
+    {
+      "question": "A PPP adviser calls the authority's appraisal financial model a 'shadow bid'. What does the term mean?",
+      "options": [
+        "A hidden bid the authority submits in its own tender",
+        "A model of the government's annual budget over the contract",
+        "An estimate of the calculations a bidder would make before tendering",
+        "A back-up bid kept in reserve if the winner withdraws"
+      ],
+      "answer": 2,
+      "explanation": "In some countries the financial base case is called a shadow bid because it estimates the calculations a private bidder would make before the tender (Ch 4 §6). The authority does not bid in its own tender."
+    },
+    {
+      "question": "A PPP team starts building the appraisal financial model for upgrading an existing port. Where should it start?",
+      "options": [
+        "With a blank sheet, ignoring all earlier studies to avoid any bias",
+        "With existing data: the CBA, cost estimates, benchmarks and port records",
+        "With revenue figures suggested informally by one interested firm",
+        "With the sector's annual budget ceiling as the only real input"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says building the model should begin with existing financial data: the CBA, cost estimates from the technical requirements, benchmark projects, current data for an existing asset and earlier demand studies (Ch 4 §6). Ignoring this work wastes useful information."
+    },
+    {
+      "question": "A PPP contract has been signed and the authority needs a financial model to evaluate the impact of changes during operation. Which model does the Guide consider more appropriate?",
+      "options": [
+        "The successful bidder's own model, duly audited",
+        "The original appraisal model, left unchanged",
+        "A new model built only by the lenders",
+        "The Public Sector Comparator model"
+      ],
+      "answer": 0,
+      "explanation": "For contract management the Guide considers the private partner's model, duly audited, more appropriate (Ch 4 §6, §6.9). The appraisal model reflected assumptions made before the tender, not the winner's real cost and financial structure."
+    },
+    {
+      "question": "Consider these two statements. 1: Values in the financial model are generally presented in yearly periods. 2: Shorter periods, even monthly, can give more precise results during construction.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide says values are generally yearly sums, but periods of six months, three months or even one month are used during construction for more precise conclusions (Ch 4 §6)."
+    },
+    {
+      "question": "Which describes the risk-free interest rate used as a macroeconomic assumption in the financial model?",
+      "options": [
+        "The margin a commercial bank adds to its base rate",
+        "The minimum return that equity investors require",
+        "The rate charged on the project company's senior loans",
+        "The rate at which the government issues debt for the relevant term"
+      ],
+      "answer": 3,
+      "explanation": "The risk-free rate is the interest rate at which the government issues debt for the relevant term (Ch 4 §6.1). Adding a risk premium to it helps estimate the investors' required return, but the two are not the same."
+    },
+    {
+      "question": "A modeller finds that the equity returns change sharply when the assumed exchange rate moves. What should the team do?",
+      "options": [
+        "Remove the exchange rate from the model altogether",
+        "Fix the rate at today's level and never test it",
+        "Include the exchange rate in the sensitivity analysis",
+        "Tell bidders that currency risk can be ignored"
+      ],
+      "answer": 2,
+      "explanation": "When results are particularly sensitive to a macroeconomic variable, it should be included in the sensitivity analysis (Ch 4 §6.1). Removing or freezing the variable would hide a real risk."
+    },
+    {
+      "question": "Why does the Guide warn that a model built in real terms can distort its conclusions?",
+      "options": [
+        "Real-terms models cannot include any construction costs at all",
+        "Some items, such as traditional debt repayments, do not follow inflation",
+        "Real-terms models always overstate the project's future revenues",
+        "Lenders are not allowed to review models built in real terms"
+      ],
+      "answer": 1,
+      "explanation": "Real terms assume all revenues and costs follow the same inflation. But costs vary relative to each other over time and some items, like traditional debt repayments, do not move with inflation, so the simplification distorts results (Ch 4 §6.1)."
+    },
+    {
+      "question": "A modeller enters the whole construction cost of a three-year build in the first year of the model. What is the problem?",
+      "options": [
+        "Costs should be allocated to the periods when they will be incurred",
+        "Construction costs belong in the OpEx, not in the CAPEX of the model",
+        "Construction costs should be left for the future bidders to model",
+        "There is no problem, because timing does not affect the results"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says construction cost information must be time bound: costs must be allocated to the specific construction periods when they occur, not only to the initial period (Ch 4 §6.2). Timing affects financing needs and returns."
+    },
+    {
+      "question": "A team is unsure about the construction cost of a large bridge PPP. How should it estimate this cost in the model?",
+      "options": [
+        "At the lowest contractor quote, to improve returns",
+        "As a fixed share of the expected toll revenues",
+        "By leaving it blank until the bids arrive",
+        "With great care and prudence, even conservatism"
+      ],
+      "answer": 3,
+      "explanation": "Construction costs are likely to be the vast majority of private investment, so extreme care, prudence and even conservatism should be used (Ch 4 §6.2). Using the lowest quote would make the project look better than it is."
+    },
+    {
+      "question": "How does the Guide suggest bidding costs can be understood in the financial model?",
+      "options": [
+        "As an operating cost paid during the operations phase",
+        "As a government grant given to the winning consortium",
+        "As an early upfront form of equity in the project company",
+        "As a financing fee charged by the lenders"
+      ],
+      "answer": 2,
+      "explanation": "Bidding costs cover staff, advisers and the bid bond premium, and the Guide says they can be understood as an early upfront equity application in the project company (Ch 4 §6.2). They are CAPEX, not OpEx."
+    },
+    {
+      "question": "The future SPV of a hospital PPP wants protection against revenue lost if completion is late. Which insurance should the CAPEX estimate include for this?",
+      "options": [
+        "Third-party liability insurance",
+        "Advance Loss of Profit (ALOP) insurance",
+        "A performance bond for operations",
+        "An interest rate swap"
+      ],
+      "answer": 1,
+      "explanation": "ALOP covers loss of revenue due to delays in completion and is part of the CAPEX insurance costs (Ch 4 §6.2). Third-party liability covers damage to others, not lost revenue."
+    },
+    {
+      "question": "Environmental approvals for a PPP will not be obtained until after the Appraisal Phase. How should environmental compensation costs be treated in the model now?",
+      "options": [
+        "Make the best possible estimate now and revisit it later",
+        "Leave them out until the approvals are granted",
+        "Assume they are small and ignore them",
+        "Pass them to users through higher tariffs now"
+      ],
+      "answer": 0,
+      "explanation": "These costs can be very significant, and the Guide says the best possible estimate should be made at appraisal, then refined later when the model is revisited (Ch 4 §6.2). Leaving them out would distort the commercial feasibility result."
+    },
+    {
+      "question": "In a road PPP, the government will acquire the land itself and hand it to the project company. How should land costs be treated in the appraisal model of the SPV?",
+      "options": [
+        "They must be included as private CAPEX in every PPP project",
+        "They should be treated as yearly operating costs of the SPV",
+        "They should be modelled as an equity contribution by the SPV",
+        "They are not private CAPEX, since the SPV does not bear them"
+      ],
+      "answer": 3,
+      "explanation": "Expropriation and land acquisition costs are included only when the private sector bears them (Ch 4 §6.2). Since the model reflects the SPV, land provided by the government is not a private cost."
+    },
+    {
+      "question": "Why must corporate taxes be modelled even during the construction phase, when there is no revenue?",
+      "options": [
+        "Because VAT is always paid by the government",
+        "Because corporate tax replaces interest costs",
+        "Because they create tax shields during construction",
+        "Because tax is calculated on cash flow"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says corporate taxes must be modelled mostly because they create tax shields during the Construction Phase (Ch 4 §6.2). Tax is calculated on accounting profit, not on cash flow."
+    },
+    {
+      "question": "Lenders require a road SPV to set cash aside every year for a major resurfacing in year 12. How is this cost usually handled?",
+      "options": [
+        "It is ignored in the model until year 12 actually arrives",
+        "It is pre-funded through a reserve account and modelled as outflows",
+        "It is covered by a separate grant paid by the government",
+        "It is treated as part of the bidding costs in initial CAPEX"
+      ],
+      "answer": 1,
+      "explanation": "Major maintenance and life-cycle renewals are often pre-funded through reserve funds required by lenders or the contract, and are included as outgoing cash flows (Ch 4 §6.3). Ignoring them would overstate the free cash flow."
+    },
+    {
+      "question": "A prison SPV will subcontract its operations to one of its own shareholders. Which operating cost should the model use?",
+      "options": [
+        "The price payable under the subcontract",
+        "Only the shareholder's internal staff costs",
+        "Zero, because the shareholder is a related party",
+        "The government's current cost of running prisons"
+      ],
+      "answer": 0,
+      "explanation": "When operation is subcontracted, even to a shareholder, the relevant cost is the price payable under the subcontract (Ch 4 §6.3). The SPV pays that price, whatever the subcontractor's internal costs are."
+    },
+    {
+      "question": "The government will pay part of a metro's construction cost through viability gap funding. What does this mean for the project company's financial structure?",
+      "options": [
+        "No private debt or equity will be needed for the project at all",
+        "The project turns into a traditional public procurement instead",
+        "The grant must be counted as the shareholders' own equity",
+        "It covers part of the capital, but large private finance is still usual"
+      ],
+      "answer": 3,
+      "explanation": "Government support such as viability gap funding may meet part of the capital need, but PPPs almost always involve a great deal of private finance (Ch 4 §6.4). The grant is not shareholder equity."
+    },
+    {
+      "question": "A modeller needs long-term projections of inflation and exchange rates for a PPP financial model. Which source does the Guide prefer when it is available?",
+      "options": [
+        "Informal forecasts offered by one interested bidder",
+        "Today's values, held constant for the whole contract",
+        "Market data, such as hedge contracts and indexed bonds",
+        "The most optimistic figures proposed by the lenders"
+      ],
+      "answer": 2,
+      "explanation": "Macroeconomic variables should be estimated for the contract duration with the best information, and market data such as hedge contracts for exchange rates and implied inflation from inflation-indexed bonds is the preferred source (Ch 4 §6.1). Government economic agencies or macroeconomic consultancies are other possible sources."
+    },
+    {
+      "question": "Lenders offer an SPV either a 15-year or a 22-year loan on similar terms. What is the effect of choosing the longer term, all else being equal?",
+      "options": [
+        "Less total interest, but larger repayments in each period",
+        "More total interest, but smaller repayments and better cover ratios",
+        "No effect at all on the repayments or on the cover ratios",
+        "Larger repayments in each period, so the DSCR goes up"
+      ],
+      "answer": 1,
+      "explanation": "A longer debt term means more interest over the life of the loan, but smaller repayments per period. This frees cash and improves covenants such as the DSCR (Ch 4 §6.4)."
+    },
+    {
+      "question": "Which describes a constant amortization repayment profile?",
+      "options": [
+        "Equal principal each period, so total debt service falls",
+        "Equal total debt service in every single period",
+        "All of the principal repaid in the final period",
+        "Repayments chosen freely by shareholders each year"
+      ],
+      "answer": 0,
+      "explanation": "In constant amortization the principal is repaid in equal amounts, and interest falls as the balance falls, so total debt service decreases over time (Ch 4 §6.4, §8.1.1). Equal total debt service describes a flat repayment schedule."
+    },
+    {
+      "question": "A project will be financed with both senior bank debt and subordinated debt. Which debt is less exposed to risk?",
+      "options": [
+        "The subordinated debt, because it is repaid first",
+        "Both, because all debt ranks equally",
+        "Neither, because debt carries no risk",
+        "The senior debt, because it is repaid first"
+      ],
+      "answer": 3,
+      "explanation": "When there are several debt types, there is an order of priority (seniority). The higher the debt is in this order, the earlier it is repaid and the less it is exposed to risk (Ch 4 §6.4)."
+    },
+    {
+      "question": "An adviser proposes an unusual capital structure that promises a much lower cost of capital for the project. What should the appraisal team do?",
+      "options": [
+        "Adopt it at once to improve affordability",
+        "Assume every bidder will use the same structure",
+        "Treat it with caution and keep the assumptions realistic",
+        "Remove financing costs from the model"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says a cautious approach should be taken with unusual capital structures that may reduce the cost of capital, and assumptions should reflect realistic forecasts (Ch 4 §6.4)."
+    },
+    {
+      "question": "For which project is demand forecasting likely to be the most difficult?",
+      "options": [
+        "An existing toll road with many years of traffic data",
+        "A new railway mainly used to carry a single commodity",
+        "A renovated school with known pupil numbers",
+        "An existing water network with metered use"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says demand is especially hard to estimate for non-existing assets and for sectors highly sensitive to one economic activity, such as a railway carrying a single commodity (Ch 4 §6.5). Existing assets have historic data."
+    },
+    {
+      "question": "A team must estimate how users of a new ferry service will react to different fare levels. What does this usually require?",
+      "options": [
+        "Field research on users' willingness to pay",
+        "Only the historic general inflation rate",
+        "The lenders' minimum cover ratios",
+        "The EPC contractor's cost estimate"
+      ],
+      "answer": 0,
+      "explanation": "Price elasticity of demand depends on sound evaluations of users' willingness to pay, which very often needs field research (Ch 4 §6.5). Cover ratios and cost estimates do not show how demand reacts to price."
+    },
+    {
+      "question": "Why is the reference price for user charges usually a flexible modelling parameter at the Appraisal Phase?",
+      "options": [
+        "User prices are never regulated by the authority in PPPs",
+        "The lenders fix the price before the appraisal work starts",
+        "Users choose the price themselves once construction ends",
+        "The actual price may depend on the contract or on the tender"
+      ],
+      "answer": 3,
+      "explanation": "At appraisal, the price is flexible because the actual price will likely depend on contract mechanisms and may be an outcome of procurement (Ch 4 §6.5). Prices are usually regulated, often through a price cap."
+    },
+    {
+      "question": "The model shows the revenue a toll road would earn at its reference price. How can the commercial feasibility work use this revenue?",
+      "options": [
+        "As the basis for the lenders' lock-up and default thresholds",
+        "As the fixed final price of the construction (EPC) contract",
+        "As a floor for upfront payments or a ceiling for co-financing",
+        "As the rule for choosing firms to invite to market sounding"
+      ],
+      "answer": 2,
+      "explanation": "Through the commercial feasibility assessment, the revenue at the reference price can determine the floor for upfront payments to the government or the ceiling for co-financing or other public payments (Ch 4 §6.5)."
+    },
+    {
+      "question": "Why must the financial model also produce projected income statements and balance sheets, even though its bottom line is a cash flow?",
+      "options": [
+        "Equity free cash flow is an accounting concept",
+        "Taxes are calculated on accounting profit, not on cash flow",
+        "Lenders never look at cash flows, only at profit",
+        "Accounting profit always equals the free cash flow"
+      ],
+      "answer": 1,
+      "explanation": "Equity free cash flow is a financial concept, but taxes are based on accounting concepts such as net profit, so statements are needed (Ch 4 §6.6). They also support debt-impact analysis, bankability checks and dividend limits."
+    },
+    {
+      "question": "Consider these two statements. 1: The contract term is fixed once in the financial model and cannot be revisited later. 2: Affordability and commercial feasibility are among the factors in setting the term.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Only statement 2 is true. The term is preliminarily set in the model, confirmed or adjusted in structuring, and can be revisited through the PPP cycle; affordability and commercial feasibility are listed factors (Ch 4 §6.7)."
+    },
+    {
+      "question": "A team's base case shows better financial results than its upside case. What is wrong?",
+      "options": [
+        "The base case should sit between the conservative and upside cases",
+        "Nothing, because the base case should be the most optimistic case",
+        "The base case should always show the worst possible result",
+        "The upside case should always equal the base case exactly"
+      ],
+      "answer": 0,
+      "explanation": "The base case uses the most likely assumptions, so its results should be better than conservative scenarios but worse than upside cases (Ch 4 §6.9). A base case above the upside case suggests wrong assumptions."
+    },
+    {
+      "question": "Which describes a good financial model, according to the Guide?",
+      "options": [
+        "It produces one single, precise number for the project",
+        "It never changes its assumptions once they are set",
+        "It uses only the most favourable assumptions",
+        "It shows the main drivers and ranges in which its conclusions hold"
+      ],
+      "answer": 3,
+      "explanation": "A good model is not the one that gives a single, arguably precise number, but one that identifies the main drivers and shows reasonable ranges where its conclusions still hold (Ch 4 §6.9, Box 4.6)."
+    },
+    {
+      "question": "Why does the Guide recommend explicit technical feasibility criteria, even though the technical requirements are designed to be feasible?",
+      "options": [
+        "To replace the cost-benefit analysis done in identification",
+        "To set the user tariff that the bidders will have to charge",
+        "To improve transparency and highlight risks for the green light",
+        "To choose the winning bidder before the tender is launched"
+      ],
+      "answer": 2,
+      "explanation": "Specific criteria organize information, increase transparency, strengthen the appraisal recommendations and highlight risks for the green light decision (Ch 4 §7). They do not replace the CBA or bid evaluation."
+    },
+    {
+      "question": "A ministry wants the technical requirements of a waste plant to prescribe one specific technology. What concern does the Guide raise?",
+      "options": [
+        "It always lowers the construction cost",
+        "It may constrain innovation by bidders",
+        "It removes all technology risk from the project",
+        "It is required by lenders in every PPP"
+      ],
+      "answer": 1,
+      "explanation": "The Guide notes that proposing a specific technology may not always be the best approach, as it may constrain innovation (Ch 4 §7). It also still has to be proven or have manageable risks."
+    },
+    {
+      "question": "A team appraising a greenfield hospital says a complete geo-technical assessment is only needed for transport projects. How should it respond?",
+      "options": [
+        "Carry one out, as it should be done for all greenfield projects",
+        "Skip it, because ground risk only matters for road projects",
+        "Leave the whole ground assessment to the winning bidder",
+        "Replace it with a larger cost contingency in the model"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a complete geo-technical assessment is particularly relevant for transport, but should be done for all greenfield projects, because ground conditions affect costs and time (Ch 4 §7)."
+    },
+    {
+      "question": "Which question belongs among the technical feasibility criteria in the Guide?",
+      "options": [
+        "Is the equity IRR higher than the investors' hurdle rate?",
+        "Will the DSCR stay above the lenders' lock-up level?",
+        "Can the public budget afford the future service payments?",
+        "Can the service be specified as outputs and measured by KPIs?"
+      ],
+      "answer": 3,
+      "explanation": "Technical feasibility asks whether the service can be specified in terms of outputs and measured through performance indicators (Ch 4 §7). IRR and DSCR are commercial tests, and budget fit is affordability."
+    },
+    {
+      "question": "A desalination PPP will use a novel technology not yet tested at this scale. Which precaution does the Guide recommend?",
+      "options": [
+        "Avoid any market sounding, to protect the new technology",
+        "Let the winning bidder test the technology after signature",
+        "Add industry experts and seek supplier feedback in market sounding",
+        "Ignore precedent projects, because the technology is novel"
+      ],
+      "answer": 2,
+      "explanation": "For high technical risk, the Guide recommends industry experts in the team, careful study of benchmarks and precedents, and detailed risk information in market sounding, seeking feedback from industries such as equipment suppliers (Ch 4 §7)."
+    },
+    {
+      "question": "A technical risk in a PPP cannot be adequately described or quantified. The team considers allocating it to the government. Why must this be done with extreme caution?",
+      "options": [
+        "It always makes the project more bankable",
+        "It can weaken the private partner's incentives to perform",
+        "Lenders never accept any government-retained risk",
+        "The Guide forbids the government from taking risk"
+      ],
+      "answer": 1,
+      "explanation": "Allocating such a risk to the government may be appropriate, but managing it becomes less relevant to the private partner, which disturbs performance incentives (Ch 4 §7). It is allowed, but only with extreme caution."
+    },
+    {
+      "question": "At the technical feasibility stage, which climate-related assessment should the procuring authority carry out?",
+      "options": [
+        "A carbon reduction assessment of emission potential and targets",
+        "A check that the user tariffs will cover all climate costs",
+        "A review of the insurance policies required by the lenders",
+        "A test of the SPV's capacity to pay dividends to investors"
+      ],
+      "answer": 0,
+      "explanation": "At this stage the authority should conduct a comprehensive carbon reduction assessment to set greenhouse gas reduction potential, targets and strategies, which may require adjusting the technical requirements (Ch 4 §7)."
+    },
+    {
+      "question": "A coastal airport PPP stores emergency equipment and trains staff so that, when a storm hits, its consequences are less severe. Which type of adaptation measure is this?",
+      "options": [
+        "Prevention",
+        "Recovery",
+        "Mitigation",
+        "Preparation"
+      ],
+      "answer": 3,
+      "explanation": "Preparation measures reduce the severity of consequences once a hazard happens (Ch 4 §7). Prevention reduces the likelihood of the consequences, and recovery supports efficient recovery after the impact."
     }
   ]
 }

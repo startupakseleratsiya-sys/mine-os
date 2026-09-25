@@ -145,9 +145,9 @@
     {
       "question": "An authority will use competitive dialogue for a complex rail PPP. Eight consortia pass the pass/fail test. What should the authority do?",
       "options": [
-        "Invite all eight to the dialogue, as more competition is always better",
+        "Invite all eight to the dialogue, because more competition is always better",
         "Select bidders by lottery to avoid subjectivity",
-        "Rank them using published financial and technical criteria and short list a few, typically three to five",
+        "Rank them on financial and technical criteria; short list three to five",
         "Rank them using the legal criteria and choose the top two"
       ],
       "answer": 2,
@@ -156,8 +156,8 @@
     {
       "question": "A PPP's estimated equity requirement is 150 million. How should the authority design the net worth criterion?",
       "options": [
-        "Require net worth of at least 150 million, held by one member, usually the Lead Member",
-        "Allow members to add up their net worth freely to reach 150 million",
+        "At least 150 million of net worth held by one member, usually the Lead Member",
+        "Allow consortium members to add up their net worth freely to reach 150 million",
         "Require net worth equal to the total project CAPEX",
         "Accept bank letters of comfort instead of any net worth test"
       ],
@@ -167,10 +167,10 @@
     {
       "question": "A draft RFQ requires each bidding consortium to incorporate its project company (SPV) before submitting qualifications. How does the Guide view this?",
       "options": [
-        "Good practice, because it proves commitment",
-        "Required by all PPP laws",
-        "Acceptable only for foreign bidders",
-        "Generally bad practice, as it is expensive and time-consuming for bidders"
+        "Good practice, because it proves the members' real commitment",
+        "Required by all PPP laws for consortium bids",
+        "Acceptable, but only for foreign bidders in the consortium",
+        "Generally bad practice, as it is costly and slow for bidders"
       ],
       "answer": 3,
       "explanation": "The Guide says requiring an SPV at the qualification stage is generally regarded as bad practice because it imposes an unnecessary cost and delay. At this stage the Guide asks for evidence of the consortium agreement and the members' commitment instead."
@@ -189,8 +189,8 @@
     {
       "question": "A light rail project needs a signalling technology that only two companies in the world supply. How should the authority avoid limiting competition?",
       "options": [
-        "Require each consortium to own one of the two suppliers",
-        "Allow the technology suppliers to join several consortia as nominee contractors",
+        "Require each consortium to own one of the two suppliers outright",
+        "Let the suppliers join several consortia as nominee contractors",
         "Qualify only the two suppliers as bidders",
         "Remove all technical criteria from the RFQ"
       ],
@@ -200,10 +200,10 @@
     {
       "question": "A government wants to require construction contractors to hold equity in bidding consortia. What is a risk the Guide highlights?",
       "options": [
-        "Contractors may treat the equity as the price of buying the construction contract and neglect SPV oversight",
-        "Contractors will always have too much skin in the game",
-        "Lenders will refuse to finance any consortium with a contractor",
-        "It removes the need for technical qualification"
+        "A contractor may see equity as the price of the works and neglect oversight",
+        "Contractors will always end up with too much skin in the game",
+        "Lenders will refuse to finance any consortium that includes a building contractor",
+        "It removes the need for any technical qualification of bidders"
       ],
       "answer": 0,
       "explanation": "Requiring contractor equity can create conflicting roles: the contractor may see its equity as the price of the construction contract and not perform the oversight expected of an investor. It may also discourage contractors without investment appetite."
@@ -214,7 +214,7 @@
         "Allow it, because consortia may change freely after short listing",
         "Allow it only if the lead member is replaced",
         "Disqualify all consortia and restart the RFQ",
-        "Refuse it, as replacements are generally allowed only in exceptional circumstances"
+        "Refuse it; replacements are allowed only in exceptional cases"
       ],
       "answer": 3,
       "explanation": "The Guide says replacing or removing members should generally not be allowed except in exceptional cases such as bankruptcy. Some flexibility may be allowed provided the lead members do not change, not the other way round."
@@ -240,6 +240,446 @@
       ],
       "answer": 0,
       "explanation": "Legal criteria are always pass/fail. The Guide says pre-selection or qualification should always be done before the bids are opened, so statement 2 is false."
+    },
+    {
+      "question": "An authority sets very low qualification thresholds for a metro PPP so that almost any firm can bid. What risk does the Guide highlight?",
+      "options": [
+        "Too few bidders will then be able to pass the qualification stage",
+        "Highly qualified firms may stay away, seeing little chance to win",
+        "Legal criteria will then have to be scored instead of pass/fail",
+        "The RFQ will become far too long for bidders to prepare"
+      ],
+      "answer": 1,
+      "explanation": "A bar set too low may discourage highly qualified bidders because they perceive a very low chance of winning (Ch 5 §7). Too few qualified bidders is the risk of a bar set too high."
+    },
+    {
+      "question": "Why may a large number of pre-qualified bidders in a two-stage process compromise outcomes?",
+      "options": [
+        "The authority must then repay every losing bidder's bid costs",
+        "Lenders refuse to finance more than three bidders in any tender",
+        "Legal checks become impossible to complete before the deadline",
+        "Each bidder's chance falls, so it spends less on its proposal"
+      ],
+      "answer": 3,
+      "explanation": "With many bidders, each one's chance of success is lower, so bidders are less willing to spend funds on bidding (Ch 5 §7.3). The Guide does not say the authority repays bid costs."
+    },
+    {
+      "question": "Consider two statements. 1: With more bidders, winners must recover the costs of more lost bids. 2: In two-stage processes, criteria should aim for the largest possible number of pre-qualified bidders.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. Statement 2 is false: where the legal framework allows, criteria should give an optimal number of pre-qualified bidders rather than a large number (Ch 5 §7.3)."
+    },
+    {
+      "question": "The Guide cites the Channel Tunnel Rail Link. What lesson does this case illustrate?",
+      "options": [
+        "Success from short listing only two bidders in a dialogue",
+        "The danger of letting members add up their net worth",
+        "The value of marketing a project early to industry",
+        "Failure caused largely by not requiring the right skills"
+      ],
+      "answer": 3,
+      "explanation": "The Channel Tunnel Rail Link went wrong to a significant extent because the right skills and capacity were not required of bidders (Ch 5 §7.3). It is a technical qualification lesson."
+    },
+    {
+      "question": "A city wants a simple car park PPP. It knows exactly what it wants, and the finance and technology are not complex. Which qualification approach fits best?",
+      "options": [
+        "An open one-stage tender with pass/fail qualification",
+        "Short listing of three bidders followed by competitive dialogue",
+        "Pre-qualification with a ranked short list of five bidders",
+        "A direct award to the largest local construction firm"
+      ],
+      "answer": 0,
+      "explanation": "Table 5.5 says governments should use the open tender only when it is very clear what they want and the project is not too complex in financing and technical terms (Ch 5 §7). Dialogue would add time and cost."
+    },
+    {
+      "question": "An RFQ asks bidders to show they are up to date with tax payments and labour laws. By when should this evidence be provided?",
+      "options": [
+        "Only after the contract has been awarded",
+        "Within one year of financial close",
+        "By the proposal submission date",
+        "Only if a losing bidder files a protest"
+      ],
+      "answer": 2,
+      "explanation": "Tax and labour compliance is usually checked for each bidder, and the evidence should be provided by the proposal submission date (Ch 5 §7.1). Checking it after award would be too late to exclude a non-compliant bidder."
+    },
+    {
+      "question": "A bidder's qualification submission contains a formal, non-material error. Which approach gives the authority time to have it corrected before proposals are due?",
+      "options": [
+        "Pre-qualification through a separate RFQ stage",
+        "An open one-stage tender with qualifications in the bid",
+        "A price-only tender with a single sealed envelope",
+        "A direct negotiation with the first bidder to apply"
+      ],
+      "answer": 0,
+      "explanation": "Table 5.5 lists as a benefit of pre-qualification that it allows time to correct formal and other non-material errors in the qualification submission (Ch 5 §7). In a one-stage tender, there is no separate stage to fix them."
+    },
+    {
+      "question": "Which of these is a disadvantage of pre-qualification with no short listing?",
+      "options": [
+        "It costs bidders much more than an open one-stage tender does",
+        "It gives the authority no test of market appetite",
+        "Many pre-qualified bidders may discourage strong firms",
+        "It leaves no time to correct errors in submissions"
+      ],
+      "answer": 2,
+      "explanation": "If many bidders are pre-qualified, some strong bidders may see too much competition and be discouraged, and price pressure may grow (Table 5.5). Low bidder cost and a market test are advantages of pre-qualification."
+    },
+    {
+      "question": "An authority short lists four bidders for a dialogue process, and two of them withdraw before the RFP. Which disadvantage of short listing does this show?",
+      "options": [
+        "Open tenders carry a higher risk of protests by losers",
+        "Competition may drop if short-listed bidders drop out",
+        "Pre-qualification makes the tender process longer",
+        "Legal criteria must always be applied as pass/fail"
+      ],
+      "answer": 1,
+      "explanation": "Table 5.5 lists as a con of short listing that competition may be reduced, especially if short-listed bidders abandon or do not submit an offer (Ch 5 §7)."
+    },
+    {
+      "question": "Which of the following is NOT a disadvantage of short listing in the Guide?",
+      "options": [
+        "A longer time to sign the contract",
+        "Less time to prepare the RFP",
+        "Higher costs in dialogue processes",
+        "More complex, as it needs evaluation"
+      ],
+      "answer": 1,
+      "explanation": "Short listing actually gives more time to prepare the RFP, which is an advantage (Table 5.5). Longer signature time, higher costs in dialogue and more complexity are listed disadvantages."
+    },
+    {
+      "question": "Consider two statements. 1: The right qualification approach depends partly on the maturity of the market. 2: Qualitative assessment is a common part of short-listing criteria.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Box 5.22). Statement 2 is false: including qualitative assessment in short-listing criteria is uncommon, although some sub-criteria may involve some judgment, such as how similar an experience is (Ch 5 §7.4)."
+    },
+    {
+      "question": "A national PPP unit wants to standardise its RFQs across all projects. What must remain tailor-made for each project?",
+      "options": [
+        "The structure and general form of the RFQ document",
+        "The type of evidence required for financial data",
+        "The general list of legal documents to be submitted",
+        "The pass/fail thresholds and short-listing criteria"
+      ],
+      "answer": 3,
+      "explanation": "Standardising the RFQ structure, forms and evidence through PPP guidelines is good practice, but pass/fail thresholds and short-listing criteria must always be tailor-made (Box 5.22)."
+    },
+    {
+      "question": "A procuring authority faces a unique and highly complex project and is unsure how to set the qualification criteria. What may it do?",
+      "options": [
+        "Let each bidder propose its own qualification criteria",
+        "Copy another country's thresholds without any change",
+        "Use external consultants to help draft the criteria",
+        "Drop qualification and evaluate the bids on price only"
+      ],
+      "answer": 2,
+      "explanation": "The Guide notes that, due to complexity or uniqueness, the public sector might seek external consultants to draft qualification criteria (Ch 5 §7). Bidder-written criteria would not be neutral."
+    },
+    {
+      "question": "An authority wants the climate performance of a new hospital to be measurable over its whole life cycle. What does the Guide suggest?",
+      "options": [
+        "Rely on bidders' general statements about climate policy",
+        "Check climate performance only at hand-back of the asset",
+        "Add climate performance to the legal pass/fail criteria",
+        "Include climate KPIs in the technical specifications"
+      ],
+      "answer": 3,
+      "explanation": "Climate KPIs should be included in the technical specifications to create measurable output expectations over the life cycle (Ch 5 §7). General statements are not measurable."
+    },
+    {
+      "question": "Which document is part of legal qualification?",
+      "options": [
+        "An audited financial statement showing the member's net worth",
+        "A list of similar projects the member has built",
+        "A bank letter of comfort on raising funds",
+        "Evidence of the powers of each member's representatives"
+      ],
+      "answer": 3,
+      "explanation": "Legal qualification covers good standing, the consortium agreement, powers of representatives and licences for foreign firms (Ch 5 §7.1). Net worth and letters of comfort are financial; project lists are technical."
+    },
+    {
+      "question": "Company A leads one consortium. Its subsidiary wants to join a rival consortium in the same tender. What does common RFQ practice say?",
+      "options": [
+        "Allowed, because the two are separate legal entities",
+        "Not allowed; related firms cannot join a rival consortium",
+        "Allowed, if the subsidiary holds under 15 percent equity",
+        "Allowed, but only when the subsidiary is a foreign company"
+      ],
+      "answer": 1,
+      "explanation": "It is general practice to prohibit a bidder, or any of its subsidiaries or parent companies, from participating in more than one consortium (Ch 5 §7.1)."
+    },
+    {
+      "question": "The firm that advised the procuring authority on this same tender now wants to join a bidding consortium. What should happen?",
+      "options": [
+        "It may bid if it discloses its earlier advice publicly",
+        "It should be barred, because it has a vested interest",
+        "It may bid, but with a price penalty added to its offer",
+        "It may bid if it is later short listed on merit alone"
+      ],
+      "answer": 1,
+      "explanation": "RFQs commonly prevent a company with a vested interest, such as an adviser to the procuring authority in the same process, from bidding (Ch 5 §7.1)."
+    },
+    {
+      "question": "A draft RFQ requires every bidder to have been registered locally for five years before bidding. What concern does the Guide raise?",
+      "options": [
+        "It is too weak to count as a real legal test",
+        "It conflicts with the net worth rule for lead members",
+        "It may create a barrier for international bidders",
+        "It should be scored rather than applied as pass/fail"
+      ],
+      "answer": 2,
+      "explanation": "Legal qualification is mainly a local matter, but the government must avoid creating barriers for international bidders (Ch 5 §7.1). Foreign firms should only need a registration or licence where the activity requires it."
+    },
+    {
+      "question": "What do financial-economic capacity criteria aim to show about a bidder?",
+      "options": [
+        "Experience in operating and maintaining similar assets",
+        "Funds for equity and capacity to raise long-term debt",
+        "Good legal standing of each consortium member",
+        "Ability to design the project to the specifications"
+      ],
+      "answer": 1,
+      "explanation": "Financial capacity criteria show the bidder can meet the project's financial needs: funds for equity and capacity to raise third-party long-term debt (Ch 5 §7.2). Operating experience is a technical criterion."
+    },
+    {
+      "question": "A draft RFQ asks for ten years of financial statements to calculate financial ratios. What does the Guide suggest?",
+      "options": [
+        "Keep all ten years, as this is the standard practice",
+        "Use recent statements, normally no more than three years",
+        "Use only forecast statements prepared for the project",
+        "Use the financial statements of the future project company"
+      ],
+      "answer": 1,
+      "explanation": "Indicators are calculated from the balance sheet and profit and loss of the previous year or a few recent years, normally no more than three (Ch 5 §7.2). The SPV does not yet exist at qualification."
+    },
+    {
+      "question": "A draft RFQ says financial capacity will be judged 'as the evaluation committee sees fit'. What should the authority change?",
+      "options": [
+        "Nothing, since some judgment is always unavoidable",
+        "Replace the test with bank letters of comfort only",
+        "Set clear thresholds, defined ratios and specific forms",
+        "Move financial capacity into the legal pass/fail criteria"
+      ],
+      "answer": 2,
+      "explanation": "Financial criteria should be as objective as possible, with clear thresholds, defined ratios and forms showing how to calculate and present each indicator (Ch 5 §7.2)."
+    },
+    {
+      "question": "A bidder with weak accounts submits a strongly worded bank letter of comfort. What should the authority do?",
+      "options": [
+        "Accept the letter as full and final proof of solvency",
+        "Still analyse its capacity; the letter's value is limited",
+        "Reject the letter, because such letters are bad practice",
+        "Ask the bank that wrote the letter to join the consortium"
+      ],
+      "answer": 1,
+      "explanation": "Letters of comfort are generally good practice, but their value as proof of solvency is limited and should not substitute for an active analysis of the bidder's capacity (Ch 5 §7.2)."
+    },
+    {
+      "question": "A world-class builder with no appetite to run the asset or act as a long-term investor bids alone for a 30-year PPP. How does the Guide view this?",
+      "options": [
+        "Ideal, because construction is the biggest PPP risk of all",
+        "Acceptable, provided its net worth is high enough",
+        "A high risk of failure, since not all functions are covered",
+        "Acceptable, because operations are not assessed in PPPs"
+      ],
+      "answer": 2,
+      "explanation": "Failure can occur if the winner lacks experience in all areas of the contract cycle; an experienced contractor with no appetite to manage the asset or invest long term is a high risk (Ch 5 §7.3)."
+    },
+    {
+      "question": "A consortium cites a similar hospital whose construction is only 30 percent complete as experience. Under a common rule in tenders, does it count?",
+      "options": [
+        "No; many tenders need at least 50 percent completion",
+        "Yes; any ongoing project always counts as experience",
+        "Yes, as long as the bidder is the Lead Member",
+        "No; only projects operating for ten years can count"
+      ],
+      "answer": 0,
+      "explanation": "Ongoing projects often count if materially advanced; many tenders require construction to be at least 50 percent complete, or operations past the first two years (Ch 5 §7.3)."
+    },
+    {
+      "question": "An investor-led consortium has no construction firm among its shareholders. How can it usually show construction experience?",
+      "options": [
+        "It cannot qualify unless a contractor becomes a shareholder",
+        "Rely on a named contractor with evidence of its commitment",
+        "It can use the construction record of its lenders",
+        "It can promise to choose a contractor after the award"
+      ],
+      "answer": 1,
+      "explanation": "Generally the SPV owner need not be a contractor; the bidder can rely on a named contractor that is not a shareholder, with evidence of its commitment (Ch 5 §7.3). Some jurisdictions, however, only count contractors with equity."
+    },
+    {
+      "question": "A government decides that contractors in bidding consortia must also invest equity. What stake level does the Guide say is commonly seen?",
+      "options": [
+        "Between 15 and 30 percent",
+        "Between 51 and 70 percent",
+        "The full 100 percent",
+        "Between 1 and 5 percent"
+      ],
+      "answer": 0,
+      "explanation": "If contractor equity is required, the level should be prudently assessed; 15 to 30 percent is commonly seen (Ch 5 §7.3). A majority stake would deter contractors and developers."
+    },
+    {
+      "question": "Which is an advantage of requiring contractors to also be equity investors?",
+      "options": [
+        "It prevents conflicting contractor and investor roles",
+        "It lets contractors with no appetite to invest join bids",
+        "It gives the contractor a stake in overall project success",
+        "It helps developers who avoid co-investing with builders"
+      ],
+      "answer": 2,
+      "explanation": "Requiring contractor equity gives the contractor skin in the game (Table 5.6). The other three options are advantages of NOT requiring contractors to invest."
+    },
+    {
+      "question": "In an emerging market where local contractors lack PPP experience, how should an authority treat contractor equity in its RFQ?",
+      "options": [
+        "Require local contractors to hold majority equity stakes",
+        "Exclude local contractors from all bidding consortia",
+        "Make each local contractor act as the Lead Member",
+        "Limit it, to ease joint ventures with specialist investors"
+      ],
+      "answer": 3,
+      "explanation": "In EMDE markets, limiting contractors' equity investment helps joint ventures between local contractors and specialist investors and builds a national PPP industry (Ch 5 §7.3)."
+    },
+    {
+      "question": "An authority gives bidders two weeks to submit qualifications for a large, complex PPP. What is the concern?",
+      "options": [
+        "Forming consortia takes significant time, so allow more",
+        "Two weeks is too long and will delay the tender launch",
+        "An SoQ is just as demanding as a full proposal",
+        "Submission time only matters in one-stage open tenders"
+      ],
+      "answer": 0,
+      "explanation": "Sufficient time is needed for the SoQ: although it is less demanding than a proposal, finding partners and agreeing consortium terms takes significant time (Ch 5 §7.3)."
+    },
+    {
+      "question": "How should an authority check that its experience thresholds are realistic and achievable?",
+      "options": [
+        "Set them at the level of the largest global firm",
+        "Ask each likely bidder in a private meeting",
+        "Copy the thresholds from the last tender exactly",
+        "Use precedents, expert advice and market sounding"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says successful precedents help but need expert advice, and thresholds may be investigated through market sounding before qualification (Ch 5 §7.3). Private meetings would harm transparency."
+    },
+    {
+      "question": "An RFQ counts a past project as experience only if the consortium member held more than a minimum share of equity in it. What is this rule called?",
+      "options": [
+        "A significance threshold",
+        "A gearing cap rule",
+        "An equity lock-in rule",
+        "An aggregation limit rule"
+      ],
+      "answer": 0,
+      "explanation": "Significance level thresholds count experience only where the member invested more than a set percentage of the equity, showing substantial involvement (Ch 5 §7.3). Gearing caps and lock-ins are contract terms."
+    },
+    {
+      "question": "How can an authority make sure the experience bidders claim can be validated?",
+      "options": [
+        "Accept the bidder's own signed statement as sufficient proof",
+        "Rely on press articles written about the projects",
+        "Ask for client certificates or a client contact person",
+        "Use the bidder's marketing brochures and website"
+      ],
+      "answer": 2,
+      "explanation": "Evidence must be capable of validation, for example certificates from the government or client, or contact details of a key client person (Ch 5 §7.3)."
+    },
+    {
+      "question": "An RFQ scores both the total passengers handled and the number of qualifying transport projects. A bidder complains this is double counting. How does the Guide view it?",
+      "options": [
+        "It is real duplication, so one criterion must be removed",
+        "It is duplication, so both criteria must become pass/fail",
+        "Not necessarily duplication; each shows different experience",
+        "Double counting of experience is always acceptable in RFQs"
+      ],
+      "answer": 2,
+      "explanation": "Aggregated volume and number of qualifying projects are not necessarily duplication, because they show different forms of experience (Ch 5 §7.3). Real duplication should still be avoided."
+    },
+    {
+      "question": "An RFQ asks bidders to describe the project's key risks. When should a response be treated as unresponsive?",
+      "options": [
+        "Whenever it differs from the authority's own view of the risks",
+        "Only when it shows clear lack of interest and no useful content",
+        "Whenever it is much shorter than the other bidders' responses",
+        "Whenever it lists fewer than ten key risks for the project"
+      ],
+      "answer": 1,
+      "explanation": "Good practice is to state clearly that a response is unresponsive only when there is a very clear lack of interest and complete absence of valuable information (Ch 5 §7.3)."
+    },
+    {
+      "question": "Five consortia pass the pass/fail test, and the target short list is five. What evaluation is needed?",
+      "options": [
+        "A ranking of the five on the legal criteria",
+        "A lottery to remove one of the consortia",
+        "A new RFQ to attract more candidates first",
+        "No ranking is needed; all five go forward"
+      ],
+      "answer": 3,
+      "explanation": "No evaluation is needed when the number of candidates passing the pass/fail test equals the number sought (Ch 5 §7.4). Ranking is only needed when there are more candidates than places."
+    },
+    {
+      "question": "An authority plans to short list bidders. What must its RFQ explain?",
+      "options": [
+        "Only the names of the firms expected to apply",
+        "Only the legal documents that must be submitted",
+        "Nothing more, so that the panel keeps its full flexibility",
+        "The criteria, their weightings and how each is scored"
+      ],
+      "answer": 3,
+      "explanation": "Evaluation criteria must be clearly settled in the RFQ, including each criterion's weight in the overall score and how it will be scored (Ch 5 §7.4). Hidden weightings attract claims of subjectivity."
+    },
+    {
+      "question": "Why should an authority profile the most suitable private partner before deciding the short-listing weightings?",
+      "options": [
+        "Because the partner profile replaces the RFQ",
+        "Because the weightings are always fixed by law",
+        "Because the weightings decide who makes the short list",
+        "Because the partner profile is needed to register the SPV"
+      ],
+      "answer": 2,
+      "explanation": "Care should be taken to profile the most suitable partner before deciding the weighting, as this will define which firms or consortia form the short list (Ch 5 §7.4)."
+    },
+    {
+      "question": "A short-listed consortium wants to add a new member that had no role in any other short-listed consortium, while existing members keep their roles. What do some jurisdictions allow?",
+      "options": [
+        "Always forbid any new member after selection",
+        "Allow the new member under those conditions",
+        "Allow it only if the lead member also leaves",
+        "Allow it only after the contract is signed"
+      ],
+      "answer": 1,
+      "explanation": "Some jurisdictions allow new members to join if they had no previous involvement in any short-listed consortium and existing members retain their roles (Ch 5 §7.4)."
+    },
+    {
+      "question": "Consider two statements. 1: Flexibility on consortium changes can help when the full skill mix only becomes clear after bidders see the RFP. 2: This flexibility is acceptable even if the lead members change.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true. Statement 2 is false: the Guide supports flexibility provided that the lead members do not change (Ch 5 §7.4)."
+    },
+    {
+      "question": "In an emerging market, a local firm with little PPP experience wants to bid. What should the qualification rules allow?",
+      "options": [
+        "Only single firms bidding on their own, without any consortia",
+        "Local firms bidding alone, so their own skills are tested",
+        "Consortia with experienced partners, counting their experience",
+        "Only the Lead Member's experience counting toward the bar"
+      ],
+      "answer": 2,
+      "explanation": "Box 5.22 says rules should allow consortia, especially so less experienced firms in EMDE countries can join experienced partners, and count any member's experience if it commits equity or a specific role."
     }
   ]
 }

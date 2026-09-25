@@ -235,6 +235,446 @@
       ],
       "answer": 2,
       "explanation": "Temerity is a reckless offer made in the hope of winning and later negotiating a better outcome; the panel or awarding authority may reject it. The lowest price does not automatically mean VfM, and negotiating prices during scoring would breach fairness."
+    },
+    {
+      "question": "A ministry runs a two-stage open tender (with pre-qualification) for a toll road. When should it assess the candidates' qualifications?",
+      "options": [
+        "After the bids are opened, together with the price",
+        "Only for the winning bidder, just before signature",
+        "During the first year of contract management",
+        "Before inviting the candidates to prepare and submit bids"
+      ],
+      "answer": 3,
+      "explanation": "In a two-stage tender, qualification is done before candidates are invited to prepare and submit bids (Ch 6 §7). Checking only the winner, or after bids are opened, mixes up the two steps."
+    },
+    {
+      "question": "A procuring authority is drafting the RFQ for a two-stage PPP tender. Most candidates will be consortia. What should the RFQ say about changes in consortium membership?",
+      "options": [
+        "Whether changes are allowed, when, and what follows if they happen",
+        "Nothing; changes are judged case by case after bids arrive",
+        "That no change of any kind will ever be accepted",
+        "That any change is fine as long as the lead member stays"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the RFQ should specify whether changes are allowed, in what circumstances and with what consequences (Ch 6 §7). A total ban or total freedom both ignore the Guide's balanced view."
+    },
+    {
+      "question": "A pre-qualified consortium asks to add a specialist maintenance firm to strengthen its bid. The RFQ allows changes if all pre-qualification requirements are still met, and they are. What should the authority do?",
+      "options": [
+        "Refuse it, because pre-qualified teams can never change",
+        "Restart the pre-qualification of every consortium",
+        "Allow it but deduct points from its technical score",
+        "Allow it, as the RFQ permits it and all criteria are met"
+      ],
+      "answer": 3,
+      "explanation": "Some flexibility is desirable so a pre-qualified consortium can bring in firms that strengthen its bid (Ch 6 §7). The limit is that it must still meet the pre-qualification requirements, which it does here."
+    },
+    {
+      "question": "An authority plans a 14-month gap between pre-qualification and bid submission. Its adviser warns that this creates a risk. Which risk does the Guide link to a long gap?",
+      "options": [
+        "A higher chance that consortium membership will change",
+        "Automatic expiry of the RFQ under most PPP laws",
+        "Loss of the right to use a staged evaluation",
+        "A legal duty to re-advertise the whole project"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the authority should minimise changes in consortium membership by avoiding an unduly long period between pre-qualification and bidding (Ch 6 §7). The other options are not rules in the Guide."
+    },
+    {
+      "question": "Consider two statements about qualification. 1: In some two-stage processes, the qualifications are also evaluated to select a short list of candidates. 2: Apart from issues such as consortium changes, managing qualification is largely the same in one-stage and two-stage tenders.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Ch 6 §7). The Guide says the considerations are otherwise the same in one- and two-stage tenders, with the added task in some two-stage processes of selecting a short list."
+    },
+    {
+      "question": "During qualification, an evaluator decides to test bidders' financial capacity with a ratio that is not described in the RFQ, because she believes it is more accurate. What is the most likely result?",
+      "options": [
+        "A more transparent result that the bidders will welcome",
+        "No effect, because evaluators may choose their own methods",
+        "An automatic extension of the qualification period",
+        "A deviation from the RFQ method, likely leading to challenges"
+      ],
+      "answer": 3,
+      "explanation": "Qualifications must be assessed with the criteria and methodology announced in the RFQ; deviations are not consistent with transparency and will likely result in challenges (Ch 6 §7). A 'better' method is still an unannounced one."
+    },
+    {
+      "question": "In a PPP tender, bidders submit their financial offers in very different formats, which makes comparison slow and open to dispute. What should the authority do in its next tender?",
+      "options": [
+        "Allow free formats so bidders can show innovation",
+        "Require a standard format for financial offers where possible",
+        "Score only the headline price and ignore the other data",
+        "Let each bidder present its offer orally to the panel"
+      ],
+      "answer": 1,
+      "explanation": "If possible, a standardized approach to submitting financial offers should be used so that different offers can be easily compared (Ch 6 §9.3). Scoring only the headline price would skip the consistency and responsiveness checks the panel must make."
+    },
+    {
+      "question": "Consider two statements. 1: The main considerations for a proper qualification process also apply to the evaluation of proposals. 2: A qualification manual is mainly needed when a single person assesses all the criteria.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true: the Guide says these considerations also apply to evaluation (Ch 6 §7). Statement 2 is false: a manual is especially important, for consistency, when more than one person assesses the same criteria or subcriteria."
+    },
+    {
+      "question": "During a competitive dialogue for a hospital, one bidder proposes to change a basic specification of the project. How should the authority treat this change?",
+      "options": [
+        "Accept it if the bidder offers a lower price in return",
+        "Accept it only if it is clearly identifiable as an improvement",
+        "Reject it, since specifications can never change in dialogue",
+        "Accept it for that bidder only, without telling the others"
+      ],
+      "answer": 1,
+      "explanation": "In competitive dialogue, changes to the basic specifications or business terms must be clearly identifiable as improvements (Ch 6 §8). A price trade-off does not make a change an improvement."
+    },
+    {
+      "question": "An authority short-listed three consortia for a competitive dialogue. One consortium withdraws halfway through. Why does the Guide treat this kind of event as critical in dialogue processes?",
+      "options": [
+        "Withdrawal automatically cancels the whole tender by law",
+        "The authority must then repay the bidder's bid costs",
+        "The short list is small, so one loss can hurt competition",
+        "The authority must switch to a price-only evaluation"
+      ],
+      "answer": 2,
+      "explanation": "Because there are few short-listed bidders, situations such as a bidder withdrawing are critical in these processes (Ch 6 §8). The other options are not consequences described in the Guide."
+    },
+    {
+      "question": "During a dialogue, Bidder X explains an innovative design idea to the authority. Later, Bidder Y asks what solutions the other bidders are proposing. What should the authority do?",
+      "options": [
+        "Share X's idea with Y so that everyone competes on one design",
+        "Describe X's idea to Y but ask Y not to use it",
+        "End the dialogue with X to avoid any risk of unfairness",
+        "Keep X's idea confidential while treating all bidders fairly"
+      ],
+      "answer": 3,
+      "explanation": "Confidentiality has to be managed at the same time as fairness and transparency (Ch 6 §8). Passing on one bidder's idea breaks confidentiality and deters innovation."
+    },
+    {
+      "question": "Why can separate meetings with each bidder give better outcomes than a single meeting with all competitors in the room?",
+      "options": [
+        "Discussion can go deeper and bidders speak more openly about concerns",
+        "The authority can give each bidder its own confidential data",
+        "Nothing said in the meetings needs to be documented",
+        "The authority can agree prices before the bids arrive"
+      ],
+      "answer": 0,
+      "explanation": "Without competitors present, meetings allow greater depth of discussion and bidders are more willing to raise concerns (Ch 6 §8.1). Giving one bidder extra information is exactly the risk the safeguards prevent."
+    },
+    {
+      "question": "Which pair correctly names the two main risks of one-on-one meetings with bidders?",
+      "options": [
+        "Higher bid prices; fewer candidates at pre-qualification",
+        "More demand on government time; unequal information, real or perceived",
+        "Loss of the authority's copyright; delays to financial close",
+        "Lenders' step-in rights; changes in consortium membership"
+      ],
+      "answer": 1,
+      "explanation": "The Guide names the greater demand on government time and resources, and the risk (real or perceived) that one bidder gets information others do not (Ch 6 §8.1). The other pairs are unrelated issues."
+    },
+    {
+      "question": "An authority will hold one-on-one meetings with candidates before the RFP is released. What should it do to protect fairness?",
+      "options": [
+        "Give each candidate the extra data it asks for, and minute it",
+        "Hold the meetings without minutes so candidates speak freely",
+        "Send one information memorandum to all, and add nothing in meetings",
+        "Send the memorandum only to candidates that request a meeting"
+      ],
+      "answer": 2,
+      "explanation": "If meetings occur before the RFP is released, a project information memorandum is circulated to all participants in advance and no additional information is given in the meetings (Ch 6 §8.1). Sending it only on request would create unequal information."
+    },
+    {
+      "question": "In separate one-on-one meetings, two bidders ask the same question about demand risk. How should the authority make sure they receive the same answer?",
+      "options": [
+        "Let each team leader answer from memory",
+        "Answer only the bidder that asked first",
+        "Send the answer only to the leading bidder",
+        "Use a pre-prepared script for all the meetings"
+      ],
+      "answer": 3,
+      "explanation": "Good practice is to use a pre-prepared script so that, as far as possible, the same questions are answered in the same way in every meeting (Ch 6 §8.1)."
+    },
+    {
+      "question": "After a round of one-on-one meetings, an authority wants every bidder to benefit from the questions raised, without exposing any single bidder's ideas. What good practice fits?",
+      "options": [
+        "Share the questions and answers with all bidders, redacted",
+        "Publish the full minutes of every meeting on the website",
+        "Send each bidder the minutes of its rivals' meetings",
+        "Keep all questions and answers secret until after award"
+      ],
+      "answer": 0,
+      "explanation": "In some projects, questions and answers are circulated to all bidders in redacted form, without disclosing information specific to one bidder (Ch 6 §8.1). Full minutes would reveal confidential ideas."
+    },
+    {
+      "question": "A government worries that bidders will later claim the one-on-one meetings favoured a competitor. Which measure gives the strongest independent assurance?",
+      "options": [
+        "Ask each bidder to sign a statement that it was treated fairly",
+        "Have an independent party attend and confirm no one was favoured",
+        "Let the most senior minister chair every meeting in person",
+        "Hold the meetings in a neutral hotel, not government offices"
+      ],
+      "answer": 1,
+      "explanation": "In some projects an independent party attends the meetings and confirms that no bidder was given an unfair advantage (Ch 6 §8.1). A senior official chairing is not independent."
+    },
+    {
+      "question": "An authority has held one-on-one meetings with all short-listed bidders. It now needs to give everyone the same key messages about the project scope. What does the Guide suggest?",
+      "options": [
+        "Repeat the one-on-one meetings with the same agenda",
+        "Send the messages only to bidders who asked about scope",
+        "Also hold a forum or presentation with all bidders present",
+        "Wait and include the messages in the award notice"
+      ],
+      "answer": 2,
+      "explanation": "Even when individual meetings are held, a forum or presentation with all bidders is an efficient way to convey key messages (Ch 6 §8.1). Selective messages would treat bidders unequally."
+    },
+    {
+      "question": "Consider two statements about evaluating proposals. 1: A price-only evaluation is more complex to run than a combined quality-and-price evaluation. 2: The Guide's rules on evaluating proposals also apply to dialogue and interactive processes.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Only statement 2 is true: the evaluation section applies to any process type, including dialogue (Ch 6 §9). Statement 1 reverses the Guide: the quality-and-price combination is clearly more complex."
+    },
+    {
+      "question": "To save time, an evaluation committee chair proposes that only the chair's scores be used as the committee's final result. What does good practice require?",
+      "options": [
+        "The chair's score, since the chair holds final responsibility",
+        "The highest individual score given to each bidder",
+        "A score agreed with the preferred bidder's advisers",
+        "A final score that averages each evaluator's individual scores"
+      ],
+      "answer": 3,
+      "explanation": "The final score should be the average of the individual scores of each evaluator, so that no single member can bias the result (Ch 6 §9)."
+    },
+    {
+      "question": "Months after award, a losing bidder asks how its technical score was reached. Which good practice will best help the authority explain and defend the result?",
+      "options": [
+        "A clear audit trail of all evaluation steps, discussions and decisions",
+        "A press release that announces the name of the winning bidder",
+        "A copy of the winning bidder's signed PPP contract",
+        "The personal notes of the committee chair and no one else"
+      ],
+      "answer": 0,
+      "explanation": "A clear audit trail of all evaluation steps, discussions and decisions should be maintained (Ch 6 §9). The chair's notes alone do not document the whole process."
+    },
+    {
+      "question": "During the compliance check, the authority learns that one bidder faces a pending prosecution for fraud. Which requirement is the authority checking?",
+      "options": [
+        "Whether the bidder's technical solution is innovative",
+        "Whether the bidder is in good standing under general legal rules",
+        "Whether the bidder's price is below the temerity threshold",
+        "Whether the bidder has built a sound performance model"
+      ],
+      "answer": 1,
+      "explanation": "The administrative check confirms general legal requirements, such as no unresolved tax issues and no pending prosecutions for corruption or fraud, known as 'good standing' (Ch 6 §9.1)."
+    },
+    {
+      "question": "In a two-stage process, bidders' signing powers and tax status were checked at pre-qualification. The final bids have now arrived. What should the authority do?",
+      "options": [
+        "Skip the checks, since pre-qualification already covered them",
+        "Check them only for the lowest-priced bidder after award",
+        "Recheck these administrative requirements at the RFP stage",
+        "Ask each bidder's lawyers to certify them after signature"
+      ],
+      "answer": 2,
+      "explanation": "In two-stage processes these reviews are part of pre-qualification and are then rechecked at the RFP stage (Ch 6 §9.1). Things like tax status or prosecutions can change between the stages."
+    },
+    {
+      "question": "During the technical evaluation, a panel finds that one bid includes an alternative offer, although the RFP excluded alternatives. The compliance check missed it. Where should the process for handling this be set out?",
+      "options": [
+        "In the winning bidder's PPP contract",
+        "In a rule agreed with that bidder now",
+        "In the minutes of the next committee meeting",
+        "In the RFP and the evaluation manual"
+      ],
+      "answer": 3,
+      "explanation": "Subtle non-compliance, such as an excluded alternative bid, may only appear during evaluation; the RFP and the evaluation manual should document how to deal with it (Ch 6 §9.1). Agreeing a rule with one bidder afterwards is not transparent."
+    },
+    {
+      "question": "After bids are opened, a bidder says its availability payment figure was a mistake and asks to lower it. The RFP allows remediable errors to be corrected. What should the authority do?",
+      "options": [
+        "Refuse, because the price is a basic element, not an immaterial error",
+        "Accept, because the RFP allows remediable errors to be fixed",
+        "Accept, provided the corrected price is still the lowest",
+        "Accept, but reduce the bidder's technical score as a penalty"
+      ],
+      "answer": 0,
+      "explanation": "Correction of remediable errors must always be limited to immaterial errors and never extend to basic elements of the proposal (Ch 6 §9.1). The price is a basic element."
+    },
+    {
+      "question": "An authority publishes all bids under its transparency rules. During evaluation, one bidder was allowed to correct an immaterial error. What should the authority publish?",
+      "options": [
+        "Only the corrected bid, with no mention of the error",
+        "The error and the correction, together with the bid",
+        "Nothing about that bid until the contract is signed",
+        "Only the name of the bidder that made the error"
+      ],
+      "answer": 1,
+      "explanation": "If bids are made public under transparency principles, any errors and the corrections should also be made public (Ch 6 §9.1)."
+    },
+    {
+      "question": "An authority hires external consultants as subject matter experts for the qualitative part of the evaluation. What must it address when selecting them?",
+      "options": [
+        "Whether they have worked for this authority before",
+        "Whether they personally agree with the criteria",
+        "Potential conflicts of interest with the bidders",
+        "Whether they can also draft the PPP contract"
+      ],
+      "answer": 2,
+      "explanation": "When external advisers are used as evaluators, potential conflicts of interest must be addressed when selecting them (Ch 6 §9.2)."
+    },
+    {
+      "question": "Under EU legislation, when must a procuring authority form an evaluation committee of experts that includes independent experts?",
+      "options": [
+        "When price exceeds 50 percent of the total criteria weight",
+        "When fewer than three valid bids have been received",
+        "Whenever the authority uses any external advisers",
+        "When qualitative criteria exceed 50 percent of the total weight"
+      ],
+      "answer": 3,
+      "explanation": "Under EU legislation, when subjective or qualitative assessment is more than 50 percent of the total weight, the authority must constitute an expert committee with independent experts (Ch 6 §9.2)."
+    },
+    {
+      "question": "In a PPP tender, technical quality and price cannot be fully separated, because the design choices change the payment mechanism. How should the evaluation be organised for transparency?",
+      "options": [
+        "As a structured streamed process with parallel streams",
+        "As one joint panel that scores all criteria together at once",
+        "As a price-only evaluation that removes subjective judgement",
+        "As a staged process in which the price envelope is opened first"
+      ],
+      "answer": 0,
+      "explanation": "When technical and financial criteria cannot be completely separated, a structured streamed process is paramount for transparency (Ch 6 §9.3). A single joint panel removes the separation of scoring."
+    },
+    {
+      "question": "Which statement about the streamed evaluation approach is correct, according to the Guide?",
+      "options": [
+        "It requires the price envelope to be opened in public first",
+        "It is used mainly by countries with significant PPP experience",
+        "It is the approach made compulsory by EU legislation",
+        "It lets the teams share and align their actual scores"
+      ],
+      "answer": 1,
+      "explanation": "Box 6.4 says streamed processes are generally used in more developed countries with significant PPP experience. EU law prescribes the staged approach in some cases, and teams must keep actual scoring separate."
+    },
+    {
+      "question": "During a staged evaluation, a technical evaluator asks to see the bidders' prices 'to get the full picture' before scoring. What should happen?",
+      "options": [
+        "Allow it, since knowing prices makes scoring more realistic",
+        "Allow it only for the two lowest-priced bids",
+        "Refuse, as barriers keep financial details from technical evaluators",
+        "Allow it if the evaluator signs a confidentiality form"
+      ],
+      "answer": 2,
+      "explanation": "The elements of the evaluation should be kept apart by physical and informational barriers, so evaluators are not influenced by parts of the bid irrelevant to their criteria (Ch 6 §9.3)."
+    },
+    {
+      "question": "Which is NOT one of the techniques the Guide describes for applying evaluation criteria consistently across bids?",
+      "options": [
+        "One evaluator scores the same sub-criterion across all bids",
+        "Each evaluator scores one bid, then discusses with specialists",
+        "Several evaluators score bids jointly through consensus",
+        "Each evaluator picks the sub-criteria it finds most important"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists the other three techniques (Ch 6 §9.3). Letting evaluators choose their own sub-criteria would break consistency with the RFP."
+    },
+    {
+      "question": "In a committee meeting, one evaluator's score for a bid differs strongly from the others. The chair tells her to change it to match the group. What does the Guide say?",
+      "options": [
+        "Evaluators' different opinions should be respected",
+        "The chair should set the final score for everyone",
+        "The outlier score should be removed from the average",
+        "The evaluator should be replaced for the rest of the process"
+      ],
+      "answer": 0,
+      "explanation": "At all times it is important to respect the different opinions of evaluators (Ch 6 §9.3); averaging individual scores then limits the effect of any one view."
+    },
+    {
+      "question": "An RFP sets a minimum technical score of 60 points. Bid K scores 55 points but offers the lowest price. What will happen to Bid K?",
+      "options": [
+        "It goes forward because its price is the lowest",
+        "It is rejected, and its price offer is rejected too",
+        "Its price is scored, but at half the normal weight",
+        "It is invited to improve its technical offer"
+      ],
+      "answer": 1,
+      "explanation": "Under a technical floor, an offer below the minimum technical score is rejected, and its price or economic offer is also rejected (Ch 6 §9.3, note 10)."
+    },
+    {
+      "question": "An RFP allows bidders to submit an alternative offer together with their base bid. What must the evaluation process define?",
+      "options": [
+        "That only the alternative bid will actually be evaluated",
+        "That the cheaper of the two is selected automatically",
+        "How each of the two bids is treated, e.g. as separate bids",
+        "That the alternative is scored only if the base bid fails"
+      ],
+      "answer": 2,
+      "explanation": "If alternatives are allowed, the process must identify how each bid will be treated, for example as separate bids, provided the base bid meets the compliance requirements (Ch 6 §9.3)."
+    },
+    {
+      "question": "An authority wants to build a performance model to aggregate bidders' input data objectively during evaluation. What does this require?",
+      "options": [
+        "Approval of the model by every bidder before submission",
+        "Use of the winning bidder's own financial model only",
+        "Replacement of the evaluation manual by the model",
+        "Up-front investment, validation of the model, and transparency"
+      ],
+      "answer": 3,
+      "explanation": "A performance model needs up-front investment, validation that it links inputs correctly to the criteria, and a transparent process (Ch 6 §9.3). In some cases it can be built from the project's financial model."
+    },
+    {
+      "question": "An evaluation panel receives complex financial offers with different funding structures. Its timetable leaves only two days for financial analysis. What should it do?",
+      "options": [
+        "Get independent analysis by finance specialists, with time for it",
+        "Score the offers on headline price only to keep to the timetable",
+        "Ask each bidder to review the other bidders' financial offers",
+        "Accept each bidder's own summary as the financial evaluation"
+      ],
+      "answer": 0,
+      "explanation": "Analysis of financial offers can be complex; good practice is to obtain detailed independent analysis by finance specialists, and time should be allowed for this (Ch 6 §9.3)."
+    },
+    {
+      "question": "An RFP adopts a temerity rule like Spain's. One bid is 18 percent below the average bid. What may the authority do?",
+      "options": [
+        "Accept it automatically, because a lower price is always better",
+        "Treat it as too aggressive, hear the bidder, maybe ask for security",
+        "Reduce all the other bids by 18 percent before comparing them",
+        "Disqualify the bid at once without any chance to explain it"
+      ],
+      "answer": 1,
+      "explanation": "In Spain an offer more than 15 percent below the average bid is treated as too aggressive; the bidder may explain its rationale and additional security may be required (Ch 6 §9.3, note 12)."
+    },
+    {
+      "question": "At what point can the procuring authority announce the awardee based on the final scoring?",
+      "options": [
+        "As soon as the technical scores have been sealed",
+        "As soon as the lowest price has been identified",
+        "Only after responsive offers are checked and defined",
+        "Before the compliance check, to save time"
+      ],
+      "answer": 2,
+      "explanation": "Only after checking the financial offers and defining the responsive offers can the awardee be announced under the final scoring (Ch 6 §9.3)."
+    },
+    {
+      "question": "Consider two statements. 1: In some processes the financial offer is assessed qualitatively as well as numerically. 2: In many countries, the price envelope in a staged evaluation is opened in a public venue.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Ch 6 §9.3). Some processes add a qualitative assessment of the financial offer, and in many countries the staged process, including opening the financial envelope, occurs in a public venue."
     }
   ]
 }

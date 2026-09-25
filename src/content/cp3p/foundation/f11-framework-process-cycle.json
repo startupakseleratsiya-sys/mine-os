@@ -301,6 +301,446 @@
       ],
       "answer": 1,
       "explanation": "The Guide says the contract management team should be ready well before the Implementation Phase starts at financial close. Commercial close is signature, financial close can come later, and hand-back preparation starts well in advance, up to three to four years ahead."
+    },
+    {
+      "question": "A government wants its PPP rules to be binding on the officials who apply them. According to the Guide, how must the framework be underpinned?",
+      "options": [
+        "By informal advice notes that officials may follow or ignore as they wish",
+        "By the terms of each individual PPP contract once that contract is signed",
+        "By the statements that bidders make during market sounding exercises",
+        "By binding official documents, through law or consistently applied processes"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says framework rules must be set in documents that bind participants, either by legal enforceability or by robust, consistently applied government processes (Ch 1 §9). Individual contracts bind only their parties, not the whole framework."
+    },
+    {
+      "question": "Which two factors does the Guide say mainly determine how a country documents its PPP framework?",
+      "options": [
+        "Its credit rating and the size of its public debt",
+        "The number of bidders and the average project size",
+        "Its population and the pace of its urbanisation",
+        "Its legal tradition and its degree of PPP experience"
+      ],
+      "answer": 3,
+      "explanation": "The Guide names the legal system (common law or civil code) and the degree of PPP experience, such as a tradition of concessions (Ch 1 §9). Credit rating matters to investors but does not decide how the framework is documented."
+    },
+    {
+      "question": "Which of the following describes the 'operational' or 'process management' framework?",
+      "options": [
+        "Rules that cap the government's total payment commitments to PPPs",
+        "The architecture of agencies within government that govern PPPs",
+        "The list of priority sectors where the government will use PPPs",
+        "Rules to identify, prepare, appraise, structure, tender and manage PPP projects"
+      ],
+      "answer": 3,
+      "explanation": "Element 2 of the framework is the set of rules and procedures for the project process, usually in guidelines (Ch 1 §9.1). A cap on total commitments is the fiscal management framework, and the agency architecture is the institutional framework."
+    },
+    {
+      "question": "Consider two statements. 1. In some countries, no specific PPP law or PPP policy is required. 2. For a PPP framework to be legally defensible, it should be harmonised with other laws such as national procurement and PFM laws.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide notes that some countries need no specific PPP law or policy, and that harmonisation with procurement and public financial management laws makes the framework legally defensible (Ch 1 §9.1). Both statements are true."
+    },
+    {
+      "question": "A ministry of finance wants rules that limit the government's total long-term commitments to PPPs and that influence project approvals. Which element of the framework is this?",
+      "options": [
+        "The institutional framework",
+        "The fiscal management framework",
+        "The operational framework",
+        "The PPP legal framework"
+      ],
+      "answer": 1,
+      "explanation": "Rules that control aggregate exposure to PPPs and influence approvals are the fiscal management framework (Ch 1 §9.1). The institutional framework is about which bodies inside government manage PPPs."
+    },
+    {
+      "question": "Consider two statements. 1. Guidelines in the form of manuals or handbooks can be changed from time to time, but the version in force binds officials. 2. In common law countries, guidelines are never binding on public officials.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says manuals and handbooks can be changed but the current version binds officials. In common law countries guidelines are often binding unless approval to depart from them is given, so statement 2 is false."
+    },
+    {
+      "question": "Country A simply accommodates PPPs within its general procurement law, with no PPP-specific rules. According to the Guide, what is usually missing in such a framework?",
+      "options": [
+        "Specific rules on the long-term fiscal management of PPPs",
+        "Any rules on the transparent procurement of public works",
+        "Any authority able to approve public spending decisions",
+        "Any agency that controls environmental impacts"
+      ],
+      "answer": 0,
+      "explanation": "Where PPPs are just accommodated in general procurement laws, the Guide notes there are no specific rules on long-term fiscal management of PPPs (Ch 1 §9.3). Procurement rules, fiscal authorities and environmental authorities usually already exist."
+    },
+    {
+      "question": "Which statement about adapting the legal and procurement framework (Guide Table 1.8) is correct?",
+      "options": [
+        "Allowing DBFOM contracts is only useful, and is mainly an issue in common law countries",
+        "Allowing a government-paid DBFOM contract is necessary, and is more of an issue in civil code countries",
+        "Dialogue-based tender models should be banned when projects are very complex",
+        "Only user-pays concessions need to be covered by the legal and procurement framework"
+      ],
+      "answer": 1,
+      "explanation": "Table 1.8 marks the DBFOM adaptation as necessary and says it is more an issue for civil code countries. It also calls dialogue-based tender models good practice for complex projects, not something to ban."
+    },
+    {
+      "question": "A national procurement law requires every contract to be awarded to the lowest cost bidder. A PPP adviser reviews this rule. What concern should the adviser raise?",
+      "options": [
+        "PPP bids should never include any price component",
+        "The lowest bid always gives the best VfM in PPPs",
+        "In PPPs the lowest cost bid may not give the best overall VfM",
+        "Cost should be assessed only after contract signature"
+      ],
+      "answer": 2,
+      "explanation": "Table 1.8 warns that in PPPs cost is not the only part of the bid to assess, so the lowest cost bidder may not provide the best overall VfM. Price still matters, but alongside quality and other factors."
+    },
+    {
+      "question": "A government counts only PPP liabilities that are recorded as public debt when it controls its PPP exposure. Why does the Guide call this approach misleading?",
+      "options": [
+        "User-pays PPPs are always recorded as public debt in the national accounts",
+        "Public debt limits are not allowed in most civil code countries",
+        "PPP payments are made only during the construction period",
+        "They commit long-term budget resources even if not recorded as public debt"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.8 says relying only on public debt limits ignores that government-pays projects commit budget resources for the long term, regardless of how liabilities are recorded. Payments in these PPPs run through the operations period, not only construction."
+    },
+    {
+      "question": "A new framework has been approved, but no PPP project has yet been launched. According to the Guide, how is the success of the PPP tool ultimately measured?",
+      "options": [
+        "Through the projects that are actually implemented",
+        "Through the length and detail of the PPP law",
+        "Through the number of new PPP units created",
+        "Through how quickly the framework was approved"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a framework does not in itself ensure success; success can only be measured through implemented projects (Ch 1 §9.3). That is why pathfinder projects should follow promptly."
+    },
+    {
+      "question": "In Country B, each ministry structures and manages its PPPs in its own way, with different contracts and processes. According to the Guide, what is a likely result?",
+      "options": [
+        "Stronger competition, because bidders enjoy the variety",
+        "Higher costs and frustration for bidders, and the loss of some of them",
+        "Lower bid costs, because each ministry knows its sector",
+        "No effect, because investors only look at single projects"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says consistency lowers private sector costs and builds confidence; without a robust framework, inconsistent ministries frustrate bidders and some are lost (Ch 1 §9.4). Investors look at markets, not only single projects."
+    },
+    {
+      "question": "According to the Guide, why do PPP programs in most countries progress more slowly than they should?",
+      "options": [
+        "Private finance is not available for infrastructure",
+        "Bidders refuse to accept any transfer of risk",
+        "There are not enough suitable, well-prepared projects",
+        "PPP laws forbid more than a few projects a year"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says slow progress is not due to a lack of finance or commercial feasibility, but to an insufficient quantity of suitable, well-prepared PPP projects (Ch 1 §9.4)."
+    },
+    {
+      "question": "An investor asks whether Country C has a senior minister who strongly advocates its PPP program. Which factor from the Guide's Table 1.9 is the investor checking?",
+      "options": [
+        "Fiscal sustainability of the program",
+        "Public acceptability of PPPs",
+        "Track record of past PPP projects",
+        "Political commitment and a champion"
+      ],
+      "answer": 3,
+      "explanation": "Table 1.9 says the presence of a 'political champion', a senior minister who strongly advocates the PPP program, is part of strong political commitment and support. Public acceptability concerns the wider public's perception of PPPs."
+    },
+    {
+      "question": "Consider two statements. 1. According to Table 1.9, a relaxed government attitude to total PPP exposure reassures private investors. 2. Renegotiations caused by excessive aggregate PPP exposure create uncertainty for the private sector.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Table 1.9 says a relaxed attitude to aggregate exposure worries investors, as it signals rushed and poorly selected projects, so statement 1 is false. It also says renegotiations due to excessive exposure create uncertainty, so statement 2 is true."
+    },
+    {
+      "question": "Consider two statements. 1. The Guide says the names and limits of the phases in the PPP process cycle are somewhat arbitrary. 2. The Guide treats ex-post evaluation as a sixth phase of the PPP process cycle.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says phase definitions are somewhat arbitrary, with no universal consensus. Ex-post evaluation is not part of the described process; it is treated as a framework matter in Chapter 1, so statement 2 is false."
+    },
+    {
+      "question": "Country E has tight fiscal limits and uses PPPs mainly as an alternative to public finance. Why does the Guide's standard cycle screen the project for PPP potential early?",
+      "options": [
+        "To avoid paying for full appraisal of a project that cannot be a PPP",
+        "Because the investment decision is taken only after the tender",
+        "Because cost-benefit analysis is not allowed in EMDEs",
+        "To let bidders decide which projects should be appraised"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.33 explains that when a project unsuitable as a PPP may not be deliverable at all because of fiscal limits, early PPP screening avoids wasting money on appraisal. CBA is still used in the standard cycle."
+    },
+    {
+      "question": "In a jurisdiction like the State of Victoria, a strategic business case compares a bus way with a light rail line for a transit need. Which is true at this stage?",
+      "options": [
+        "A full CBA is required, and the PPP option is formally approved",
+        "Options are compared by multi-criteria analysis, with no procurement decision",
+        "The PSC is prepared, and bidders are shortlisted for the tender",
+        "The investment decision and procurement decision are taken together"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.37 says the strategic business case uses a form of multi-criteria analysis, true CBA is not required, and no decision on procurement is made at this stage. Full CBA comes later, in the full business case."
+    },
+    {
+      "question": "In the Victoria approach described in the Guide, what does the full business case contain?",
+      "options": [
+        "Only a multi-criteria comparison of different strategic responses",
+        "The signed PPP contract and the base case financial model",
+        "The appraisal with a full CBA of scope options, plus a procurement strategy",
+        "The final RFP and the list of shortlisted bidders"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.37 says the full business case contains the appraisal, including full CBA of scope options, and a qualitative procurement strategy. The multi-criteria comparison of strategic responses belongs to the earlier strategic business case."
+    },
+    {
+      "question": "A city faces a traffic congestion problem and considers a light rail line, a road upgrade and a metro. What does good practice in Phase 1 require?",
+      "options": [
+        "Choose the option that bidders like most during market sounding",
+        "Choose the cheapest option without making any comparison",
+        "Launch a tender for all three options at the same time",
+        "Compare options, including do-nothing, by CBA or a simpler method"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says several options, including a 'do nothing' baseline, should be compared and the best selected by CBA or simpler methods such as multi-criteria or cost-effectiveness analysis (Ch 1 §10, Phase 1)."
+    },
+    {
+      "question": "Why does the Guide include project identification in the same phase as PPP screening?",
+      "options": [
+        "To stress that a PPP only succeeds if the project is economically sound",
+        "Because identification is legally part of every PPP tender",
+        "Because the bidders carry out the project identification",
+        "Because PPP screening removes the need for any CBA"
+      ],
+      "answer": 0,
+      "explanation": "The Guide includes identification with screening to reinforce proper project selection: PPPs cannot perform miracles and only succeed with an economically sound project. Identification is done by the government, not by bidders."
+    },
+    {
+      "question": "At the end of Phase 2, which output normally contains the go/no-go recommendation covering the investment decision and the procurement decision?",
+      "options": [
+        "The PPP screening report",
+        "The feasibility report",
+        "The contract management manual",
+        "The signed PPP contract"
+      ],
+      "answer": 1,
+      "explanation": "Figure 1.13 lists a feasibility report with a go/no-go recommendation (investment and procurement decision) as an outcome of appraisal and preparation. The PPP screening report is the earlier Phase 1 output."
+    },
+    {
+      "question": "Which of these feasibility tests relates to the project as a PPP, rather than to the project itself?",
+      "options": [
+        "Technical feasibility of the proposed design",
+        "Socioeconomic feasibility measured by CBA",
+        "Affordability, including control of total PPP exposure",
+        "Environmental and social feasibility"
+      ],
+      "answer": 2,
+      "explanation": "The Guide separates project feasibility (technical, socioeconomic, legal, environmental, social) from PPP feasibility (PSC or similar test, financial and commercial feasibility, and affordability). CBA measures the value of the project itself."
+    },
+    {
+      "question": "According to the Guide, by when should the government's preparation activities be finalised?",
+      "options": [
+        "Before the PPP screening report is written in Phase 1",
+        "After commercial close but before the financial close",
+        "During the first year of the operations period",
+        "Before the tender launch, within the procurement plan timeline"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says preparation may continue into structuring but should be finalised within the timeline in the procurement plan and before the tender is launched (Ch 1 §10, Phase 2)."
+    },
+    {
+      "question": "During Phase 2, a project team defines the procurement strategy. Which decision belongs to this strategy?",
+      "options": [
+        "Whether to shortlist or use pass/fail qualification only",
+        "The level of payment deductions for each missed KPI",
+        "The amount of senior debt that the SPV will raise",
+        "The date on which the asset will be handed back"
+      ],
+      "answer": 0,
+      "explanation": "The procurement strategy covers the approach to qualification (RFQ timing, shortlist or pass/fail) and to the RFP (dialogue, negotiation, iterative bids). Deductions and debt levels are contract and financing matters."
+    },
+    {
+      "question": "An authority first invites qualifications, applies only pass/fail criteria without a shortlist, and then invites a single round of bids with no negotiation. Which tender type is this?",
+      "options": [
+        "Restricted procedure (shortlisting)",
+        "Open tender with pre-qualification",
+        "Competitive dialogue procedure",
+        "Negotiated process (shortlisting)"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.39 describes the two-stage open tender: an RFQ comes first, there is no shortlisting, and usually one round of bids and no negotiation. A restricted procedure ranks qualified bidders and shortlists them."
+    },
+    {
+      "question": "An authority ranks the qualified candidates and invites only the top four to submit one bid each, without negotiation. Which tender type is it using?",
+      "options": [
+        "One-stage open tender",
+        "Open tender with pre-qualification",
+        "Restricted procedure",
+        "Dialogue process"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.39 says in a restricted procedure qualifying bidders are ranked, a limited number are shortlisted, and the shortlist submits bids. In an open tender with pre-qualification there is no shortlist."
+    },
+    {
+      "question": "Consider two statements. 1. In a negotiated process, the Guide describes negotiating with the preferred bidder as not desirable. 2. In a one-stage open tender, qualifications and proposals are submitted together.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Box 1.39 says negotiations may be held with the preferred bidder but this is not desirable, and that a one-stage open tender integrates qualifications and proposals in one submission. Both statements are true."
+    },
+    {
+      "question": "Complete the sentence: 'Drafting of the RFQ, RFP and contract should occur only after the main characteristics of each document have been ____.'",
+      "options": [
+        "signed by the preferred bidder",
+        "reviewed by the project lenders",
+        "tested at financial close",
+        "outlined, discussed and approved"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says drafting should occur only after the main characteristics of each document have been outlined, discussed and approved (Ch 1 §10, Phase 3). Bidders and lenders come in much later."
+    },
+    {
+      "question": "In a two-stage tender, the authority wants to launch the RFQ before the RFP is complete. What does the Guide advise?",
+      "options": [
+        "Define the RFP and contract basics first, then finalise them during qualification",
+        "Delay the RFQ until every detail of the RFP has been drafted and signed",
+        "Let the shortlisted bidders draft the RFP and the contract themselves",
+        "Issue the RFP only after the PPP contract itself has been signed"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says in two-stage processes the RFP need not be final with the RFQ, but its foundations and those of the contract should be defined before launch; the qualification period is used to finalise them."
+    },
+    {
+      "question": "Which decision marks the end of the Structuring and Drafting Phase?",
+      "options": [
+        "The green light to full appraisal",
+        "The green light to launch the tender",
+        "The award decision",
+        "Financial close"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the drafts are submitted for internal approvals to obtain the green light for launching the tender. The green light to full appraisal ends Phase 1, and the award decision comes in the Tender Phase."
+    },
+    {
+      "question": "The RFP says the preferred bidder must form its SPV and give its constitution to the government before the contract can be signed. What is this requirement?",
+      "options": [
+        "A relief event under the contract",
+        "A payment deduction mechanism",
+        "A condition precedent to signature",
+        "A step-in right of the lenders"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the RFP defines precedent conditions that must be met before signature, in particular the constitution of the SPV that will sign the contract (Ch 1 §10, Phase 4)."
+    },
+    {
+      "question": "In Country F, construction does not start until financial close. The preferred bidder signed the contract in March and the finance became available in June. When did the procurement process end?",
+      "options": [
+        "In March, at contract signature",
+        "At the award decision, before March",
+        "At commissioning of the asset",
+        "In June, at financial close"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says that with the achievement of financial close the procurement process finishes and the Implementation Phase starts. Signature in March was commercial close."
+    },
+    {
+      "question": "Which of the following is NOT listed in the Guide as a tool of the procuring authority's contract management team?",
+      "options": [
+        "The losing bidders' proposals",
+        "The PPP contract",
+        "The financial model agreed at financial close",
+        "The risk register"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists the contract, the contract manual, the financial model agreed at financial close, the risk register and user satisfaction surveys. Losing proposals are not a contract management tool."
+    },
+    {
+      "question": "Which statement about the contract management manual is consistent with the Guide?",
+      "options": [
+        "It replaces the contract as the main legal reference document",
+        "It uses plain language to help the team, but does not replace the contract",
+        "It is written by the lenders after financial close",
+        "It is needed only for user-pays PPP contracts"
+      ],
+      "answer": 1,
+      "explanation": "The Guide calls the manual a user-friendly tool in 'common language' that should not substitute for the contract as the reference document, though it may clarify ambiguities (Ch 1 §10, Phase 5)."
+    },
+    {
+      "question": "Most of a procuring authority's pre-close project team will leave after financial close. What does the Guide recommend for continuity?",
+      "options": [
+        "Let the SPV manage the contract on the authority's behalf",
+        "Wait until operations start before forming the contract team",
+        "Move some into the contract team, or involve that team early",
+        "Rely only on external consultants hired after the close"
+      ],
+      "answer": 2,
+      "explanation": "Citing EPEC, the Guide says ideally some pre-financial close team members should move to the post-close team; if not, the contract management team should work closely with the pre-close team during preparation and procurement."
+    },
+    {
+      "question": "Consider two statements. 1. Climate change mitigation means reducing greenhouse gas emissions. 2. Climate change adaptation means increasing the ability of infrastructure to absorb, withstand and recover from shocks.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide defines mitigation as reducing GHG emissions and adaptation as measures that help infrastructure absorb, withstand and recover from shocks such as extreme weather. Both statements are true."
+    },
+    {
+      "question": "Which statement about gender in PPP projects is consistent with the Guide?",
+      "options": [
+        "PPP projects are gender-neutral because they serve all users equally",
+        "Gender matters only during the contract management phase",
+        "Gender assessment is a task for the private partner alone",
+        "PPP projects are not gender-neutral, so impacts should be assessed at each stage"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says PPP infrastructure projects are not 'gender neutral' and gender impacts should be identified and addressed throughout the life cycle. Monitoring gender obligations is shared by the authority and the private partner."
+    },
+    {
+      "question": "Which of the following is a NON-routine contract management activity, according to the Guide?",
+      "options": [
+        "Managing a request to renegotiate the PPP contract",
+        "Administering performance payments in a government-pays PPP",
+        "Managing a refinancing of the project company",
+        "Monitoring the SPV's performance and applying penalties"
+      ],
+      "answer": 0,
+      "explanation": "The Guide lists formal disputes, renegotiation requests and premature termination as non-routine contract management (Ch 1 §10, Phase 5). Administering payments, managing refinancings and monitoring performance are routine tasks."
+    },
+    {
+      "question": "When structuring a PPP, should the authority always design climate adaptation for the worst-case scenario?",
+      "options": [
+        "Yes, always, whatever the extra cost may be",
+        "Not necessarily, as high extra cost may threaten bankability",
+        "No, climate risk is only assessed during operations",
+        "Yes, because the private partner pays every extra cost"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says adaptation investment should not necessarily address the worst case, unless impacts are fairly certain, because significant extra cost may threaten bankability. Too little resilience, however, may threaten long-term viability."
     }
   ]
 }

@@ -43,7 +43,8 @@ function check(file) {
     const n = String(s.narration ?? "").split(/\s+/).length;
     if (n < 40 || n > 150) fail(`slide ${i}: narration ${n} words (60–110 wanted)`);
   });
-  const quiz = arr("quiz", 10, 10);
+  const QUIZ = Number(process.env.QUIZ_SIZE ?? 50);
+  const quiz = arr("quiz", QUIZ, QUIZ);
   const pos = [0, 0, 0, 0];
   const stems = new Set();
   quiz.forEach((q, i) => {
@@ -59,7 +60,15 @@ function check(file) {
     pos[q.answer] += 1;
     if (typeof q.explanation !== "string" || q.explanation.length < 30) fail(`${w}: explanation`);
   });
-  if (quiz.length === 10 && Math.max(...pos) > 4) fail(`answer positions unbalanced ${pos.join("/")} (max 4 per letter)`);
+  if (quiz.length === QUIZ && (Math.max(...pos) > Math.ceil(QUIZ * 0.32) || Math.min(...pos) < Math.floor(QUIZ * 0.18))) fail(`answer positions unbalanced ${pos.join("/")} (each letter 18–32%)`);
+  // Deyarli bir xil savollar bo'lmasin (so'zlar to'plami o'xshashligi ≥ 0.8).
+  const bag = (t) => new Set(t.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 3));
+  const bags = quiz.map((q) => bag(q.question ?? ""));
+  for (let i = 0; i < bags.length; i++) for (let j = i + 1; j < bags.length; j++) {
+    const inter = [...bags[i]].filter((w) => bags[j].has(w)).length;
+    const sim = inter / Math.max(1, Math.min(bags[i].size, bags[j].size));
+    if (sim >= 0.8 && Math.min(bags[i].size, bags[j].size) >= 5) fail(`quiz ${i + 1} and ${j + 1} are near-duplicates`);
+  }
   return bad;
 }
 

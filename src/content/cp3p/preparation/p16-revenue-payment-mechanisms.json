@@ -197,10 +197,10 @@
     {
       "question": "A health ministry is structuring a DBFM hospital PPP in which clinical services stay with the public health service. On what basis should the private partner be paid?",
       "options": [
-        "A payment per patient treated in the hospital",
-        "A shadow fee per bed occupied each night",
-        "Availability of the facility, such as beds and areas meeting the specified standards",
-        "User charges collected directly from patients"
+        "A payment for each patient treated in the hospital",
+        "A shadow fee for each bed that is occupied each night",
+        "Availability of beds and areas that meet the set standards",
+        "User charges collected directly from the patients"
       ],
       "answer": 2,
       "explanation": "Government does not want more sick people; it wants the facility available. The Guide says accommodation-type hospitals should be paid on availability, and paying per occupant is an improper volume risk transfer because health authorities decide where patients go."
@@ -208,7 +208,7 @@
     {
       "question": "A PPP covers design, build, finance and maintenance of a rail line, while trains are run by the national incumbent operator. The authority proposes paying the private partner per train using the line. What should an adviser recommend?",
       "options": [
-        "Pay on availability, because traffic volume is controlled by a third party",
+        "Pay on availability, as a third party controls traffic",
         "Keep the per-train payment, because it aligns interests",
         "Pay per passenger carried on the trains instead",
         "Add a traffic guarantee but keep volume payments"
@@ -220,9 +220,9 @@
       "question": "A shadow toll road PPP uses demand bands. The finance ministry worries that very high traffic could create unlimited payments. What should the contract include?",
       "options": [
         "No bands at all, only a fixed shadow toll per vehicle",
-        "A maximum traffic level above which no shadow payments are made, with limited compensation for extra O&M costs",
+        "A maximum traffic level above which no shadow toll is paid",
         "A guarantee that payments grow with traffic without limit",
-        "A minimum traffic guarantee only"
+        "A minimum traffic guarantee and nothing else"
       ],
       "answer": 1,
       "explanation": "The Guide says there should always be a maximum traffic level above which government pays nothing, to avoid open-ended fiscal risk. The partner should still be compensated for higher O&M costs above it, for example through a small shadow tariff."
@@ -232,8 +232,8 @@
       "options": [
         "Set the fee using the most optimistic traffic forecast",
         "Shorten the contract term instead of charging any fee",
-        "Raise tolls so that the fee can be maximised",
-        "Set a prudent fee on realistic, close to pessimistic traffic, and capture further upside with a variable fee"
+        "Raise the tolls so that the upfront fee can be maximised",
+        "A prudent fee on near-pessimistic traffic, plus a variable fee"
       ],
       "answer": 3,
       "explanation": "The Guide advises a prudent upfront fee, with the rest of the excess captured through a variable fee. Shortening the term may harm VfM, and fees should never lead to overcharging users."
@@ -241,10 +241,10 @@
     {
       "question": "In an availability-based school PPP, the project company will hedge its interest rate, so debt service will be fixed. About 35 percent of its outflows are inflation-linked. How should the unitary charge be indexed?",
       "options": [
-        "Index only a proportion of the charge, matching the inflation-linked share of costs",
-        "Index the whole charge to CPI every year",
-        "Apply a fixed 2 percent increase regardless of inflation",
-        "Do not index the charge at all"
+        "Index only the share of the charge matching inflation-linked costs",
+        "Index the whole unitary charge to CPI every single year",
+        "Apply a fixed 2 percent yearly increase, regardless of inflation",
+        "Do not index the unitary charge at all during the term"
       ],
       "answer": 0,
       "explanation": "Because debt service is usually fixed and inflation-linked costs are the minority, many projects index only the matching proportion. This gives higher nominal payments early and faster debt repayment."
@@ -254,7 +254,7 @@
       "options": [
         "Allow a standard 24-hour rectification period before any deduction",
         "Treat it as an excused event outside the partner's control",
-        "Apply a deduction immediately, as a critical criterion should have no rectification period",
+        "Deduct at once, as critical criteria need no rectification period",
         "Ignore it, because hospital power is a public responsibility"
       ],
       "answer": 2,
@@ -277,7 +277,7 @@
         "Deductions can never exceed the value of the affected area's payment",
         "Total deductions can exceed the full payment, so the partner pays the authority",
         "Deductions depend only on the length of the outage",
-        "Payment can reach zero before full unavailability, but total deductions are capped at 100 percent"
+        "Payment may hit zero early, but deductions are capped at 100 percent"
       ],
       "answer": 3,
       "explanation": "Area deductions may be worth 150 to 200 percent of the related payment, so payment can reach zero early. But it is not customary for the partner to pay the authority, so deductions are limited to 100 percent. Weighting, severity and timing also matter."
@@ -285,7 +285,7 @@
     {
       "question": "A private partner finishes a courthouse PPP six months before the target availability date and asks to start receiving payments. What does the Guide say?",
       "options": [
-        "The authority has no duty to pay before the target date; the contract should state whether it will accept early use",
+        "No duty to pay before the target date; the contract says if early use is accepted",
         "The authority must start full payments as soon as the building is available",
         "The authority must pay a bonus equal to six months of payments",
         "Payments during construction should have started anyway"
@@ -298,11 +298,451 @@
       "options": [
         "As the main basis for calculating the unitary payment",
         "Not at all, because the Guide forbids subjective measures",
-        "With only a small financial effect, touching mainly the equity return",
+        "With a small financial effect, mainly on the equity return",
         "As a trigger for immediate contract termination"
       ],
       "answer": 2,
       "explanation": "Because surveys are variable and subjective, the Guide allows them but says their financial effect should be small and affect mainly equity returns; any related bonus should also be modest. Objective criteria remain the basis of the system."
+    },
+    {
+      "question": "A wastewater treatment plant PPP delivers treated water to a public utility, which bills the households. Why will the private partner be paid by government rather than by users?",
+      "options": [
+        "Government has decided the service should be free of charge",
+        "It is one part of a network run by another operator",
+        "User charges exist but cannot close the viability gap alone",
+        "Government keeps user revenue to hold the collection risk"
+      ],
+      "answer": 1,
+      "explanation": "Government payments occur where the PPP is only one component of a wider network or service run by an incumbent operator, which the users pay (Ch 5 §4.7). The other options are the Guide's other reasons, which do not fit this case."
+    },
+    {
+      "question": "A state wants tolls on a new road but prefers to collect the tolls itself and pay the private partner through government payments. What is the main reason for this structure?",
+      "options": [
+        "To make the road free of tolls for all of its users",
+        "To remove the need for any payment mechanism at all",
+        "To transfer all of the demand risk to the private partner",
+        "To keep toll collection risk and reward in public hands"
+      ],
+      "answer": 3,
+      "explanation": "In this model (for example, the I-595 in Florida), government retains user revenues to offset its payments and keeps the risk and reward of toll collection (Ch 5 §4.7)."
+    },
+    {
+      "question": "A road authority wants to cap tolls but give the private partner some freedom to vary tolls between vehicles and times. Which approach fits?",
+      "options": [
+        "Let the partner set any toll, with no cap at all",
+        "Set a maximum average tariff within the caps",
+        "Fix one toll for every vehicle for the whole term",
+        "Replace all tolls with shadow tolls from government"
+      ],
+      "answer": 1,
+      "explanation": "Government typically sets maximum tolls per vehicle type; in some projects a maximum average tariff gives the partner flexibility to apply different toll strategies within the caps (Ch 5 §4.8)."
+    },
+    {
+      "question": "A city tenders an integrated water PPP covering infrastructure, supply to homes and tariff collection. How will the tariff normally be set?",
+      "options": [
+        "The private partner sets it freely to maximise revenue",
+        "Bidders propose any tariff structure that they like",
+        "It is indexed to GDP and reset by the lenders each year",
+        "It is regulated, leaving little room for the partner"
+      ],
+      "answer": 3,
+      "explanation": "In integrated water cycle projects, the tariff is always regulated because water is a basic public good, so there is usually no room for tariff definition by the private partner (Ch 5 §4.8)."
+    },
+    {
+      "question": "A government wants to capture excess revenue from a PPP. Which asset is most likely to produce excess revenue, according to the Guide?",
+      "options": [
+        "An existing airport with a known level of use",
+        "A new metro line in a city with no rail history",
+        "A greenfield road with no traffic data at all",
+        "A new hospital paid through availability payments"
+      ],
+      "answer": 0,
+      "explanation": "Excess revenue arises most often in existing infrastructure (roads, airports, some ports) with an established level of use. It can arise in greenfield roads, but less commonly (Ch 5 §4.8)."
+    },
+    {
+      "question": "A new greenfield toll road has no traffic history, so bidders see demand risk as very high. What structuring tool does the Guide suggest?",
+      "options": [
+        "A higher toll cap, with no other change",
+        "A shorter term, so the risk lasts fewer years",
+        "Removing tolls and paying one upfront grant",
+        "A minimum traffic or revenue guarantee"
+      ],
+      "answer": 3,
+      "explanation": "Where demand risk is significant, for example in a greenfield project with no historical data, it may be limited or shared through minimum traffic or revenue guarantees (Ch 5 §4.8)."
+    },
+    {
+      "question": "Why are lenders usually wary of payment mechanisms based on volume, such as shadow tolls?",
+      "options": [
+        "Volume payments are always made in foreign currency",
+        "Demand risk is hard for either party to control",
+        "Volume payments cannot be indexed to inflation",
+        "Volume payments are paid before construction ends"
+      ],
+      "answer": 1,
+      "explanation": "Volume payments bring demand risk into the contract, which is generally difficult for either party to control, unless demand is predictable, for example a corridor with a long record and no competing roads (Ch 5 §4.9)."
+    },
+    {
+      "question": "Consider these two statements about volume-linked payments. 1: They should be used only when the public party genuinely wants higher use. 2: Even then, the volume risk must be reasonably assessable and manageable by the private partner.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Guide requires both conditions: a clear alignment of interests (government wants more use, as in urban transport) and volume risk that the partner can reasonably assess and manage (Ch 5 §4.9)."
+    },
+    {
+      "question": "A wastewater plant PPP is paid purely per cubic metre treated, with no take-or-pay clause. Inflows fall well below forecast although the plant meets every specification. How does the Guide view this?",
+      "options": [
+        "A proper transfer, because the partner controls inflows",
+        "A proper transfer, because it creates a strong incentive",
+        "An improper transfer that penalises good performance",
+        "An improper transfer only if the plant was built late"
+      ],
+      "answer": 2,
+      "explanation": "Table 5.2 gives this as improper: the company suffers for reasons out of its control despite performing correctly. A take-or-pay or availability approach would fit better (Ch 5 §4.9)."
+    },
+    {
+      "question": "A toll-free road PPP pays the partner per vehicle. Traffic turns out to be twice the forecast, and payments soar. What does the Guide recommend for transport payment mechanisms?",
+      "options": [
+        "Use availability, or temper volume with guarantees and sharing",
+        "Keep uncapped per-vehicle payments, since traffic proves success",
+        "Keep per-vehicle payments, but pay them only after the term ends",
+        "Replace all payments with one upfront construction grant instead"
+      ],
+      "answer": 0,
+      "explanation": "Paying a toll-free road per user can give windfall profits or undeserved losses. Transport payments should be based on availability/quality or, where based on volume, temper windfalls with guarantees and profit-sharing bands (Ch 5 Table 5.2)."
+    },
+    {
+      "question": "A cross-border rail link PPP pays the partner per train run by each country's public operator. One country delays its upgrades, so traffic stays low. What problem does this structure create?",
+      "options": [
+        "The private partner gains windfall profits from the low traffic",
+        "Authorities have a perverse incentive to delay using the link",
+        "The private partner can simply raise tolls to cover its losses",
+        "The lenders must take over running the trains on the link"
+      ],
+      "answer": 1,
+      "explanation": "The Guide gives this as an improper transfer: the partner finished on time, but public authorities have a perverse incentive to delay effective use of the corridor to save costs (Ch 5 Table 5.2)."
+    },
+    {
+      "question": "A road authority is tempted by shadow tolls because payments are low in the early years. Why does the Guide say the total cost is usually higher than with availability payments?",
+      "options": [
+        "Shadow tolls cannot be indexed, so costs rise with inflation",
+        "Shadow tolls always require a much larger construction grant",
+        "Finance is repaid later, and lenders and investors want more",
+        "Shadow tolls are paid in full before the road is completed"
+      ],
+      "answer": 2,
+      "explanation": "Back-loaded payments lengthen the average life of the financing, and volume risk leads to higher DSCR, equity IRR and interest, so the total payments are usually higher in NPV terms (Ch 5 §4.9, Figure 5.7)."
+    },
+    {
+      "question": "A shadow toll proposal uses demand bands so generous that the partner earns almost the same revenue at any traffic level. What is the Guide's concern?",
+      "options": [
+        "Bands of any kind are banned in shadow toll PPPs",
+        "The partner will face open-ended losses at low traffic",
+        "Lenders will refuse to lend because risk is too low",
+        "Full protection from volume risk harms VfM"
+      ],
+      "answer": 3,
+      "explanation": "Bands should be carefully assessed so they do not entirely protect the private partner from the risk. That would harm VfM and the rationale of the whole PPP (Ch 5 §4.9)."
+    },
+    {
+      "question": "A ministry proposes a fixed 2 percent yearly increase in shadow tolls, whatever the actual inflation. What does the Guide say about this?",
+      "options": [
+        "Doubtful: government pays for the inflation risk",
+        "Best practice, because it removes all inflation risk",
+        "It is required by law in most PPP frameworks",
+        "It lowers the partner's return, with no other effect"
+      ],
+      "answer": 0,
+      "explanation": "A fixed indexation factor is of doubtful value: government ends up paying for transferring inflation risk, because the partner charges a premium on its equity IRR or hedges with an inflation swap (Ch 5 §4.9)."
+    },
+    {
+      "question": "An adviser proposes indexing a shadow tariff with a formula that combines eight different price indices for different cost items. What is the Guide's general advice?",
+      "options": [
+        "Use as many indices as possible for accuracy",
+        "Avoid indexation completely in shadow tariffs",
+        "Prefer simplicity, such as CPI or a sector index",
+        "Let the lenders choose the indices each year"
+      ],
+      "answer": 2,
+      "explanation": "A polynomic formula may suit very specific cases, but simplicity is the recommended general approach, usually CPI or a suitable sector index (Ch 5 §4.9)."
+    },
+    {
+      "question": "A shadow toll road contract has no built-in link between volume payments and road quality. How can the contract still enforce performance?",
+      "options": [
+        "Performance cannot be enforced in a volume-based contract",
+        "Penalties or LDs, or a quality component with points",
+        "Lower the shadow toll bands each time traffic falls",
+        "Let road users decide whether the shadow toll is paid"
+      ],
+      "answer": 1,
+      "explanation": "Volume payments are not inherently linked to performance, so the contract can impose penalties or liquidated damages, or a quality component based on performance points (Ch 5 §4.9)."
+    },
+    {
+      "question": "A power purchase agreement pays a fixed amount while the plant is able to supply energy, plus a variable amount for energy actually delivered. Which concept is its fixed part closest to?",
+      "options": [
+        "A shadow toll payment",
+        "A pure co-financing grant",
+        "A minimum traffic guarantee",
+        "An availability payment"
+      ],
+      "answer": 3,
+      "explanation": "The Guide notes that in energy the payment scheme is quite similar to availability: a fixed payment as long as the plant can supply, plus a variable payment for energy supplied (Ch 5 §4.10)."
+    },
+    {
+      "question": "One availability PPP contract covers five schools on separate sites. Three are complete and each can run on its own before the other two are finished. What does the Guide allow?",
+      "options": [
+        "Payment for the three usable schools, if intended",
+        "No payment at all until all five schools are complete",
+        "Full payment for all five from the first completion",
+        "Payment for construction progress on the last two"
+      ],
+      "answer": 0,
+      "explanation": "Payments during construction should be avoided, but an exception is a multi-facility project where each building gives a stand-alone service and the contract clearly states the intention to use it early (Ch 5 §4.10.9)."
+    },
+    {
+      "question": "An existing hospital must stay open while a PPP partner upgrades it over three years. What should the partner be paid during the upgrade?",
+      "options": [
+        "The full unitary charge from the very first day of works",
+        "Nothing at all until the whole upgrade is completed",
+        "A share of the upgrade cost as each month's works finish",
+        "At least O&M for the existing building, not the upgrade"
+      ],
+      "answer": 3,
+      "explanation": "For existing infrastructure kept in use during upgrading, payment should at least cover the O&M costs of the existing asset, but not pre-finance the upgrade works (Ch 5 §4.10.9)."
+    },
+    {
+      "question": "A road section is open to traffic, but its roughness index is worse than the contract threshold. How should the payment mechanism treat it?",
+      "options": [
+        "As fully available, because vehicles can still use it",
+        "As deemed unavailable, even though it is in use",
+        "As a matter for the next hand-back inspection only",
+        "As an excused event outside the partner's control"
+      ],
+      "answer": 1,
+      "explanation": "Availability has two sets of criteria: physical availability and condition criteria. If condition criteria such as roughness are breached, the asset may be deemed unavailable for payment even while in use (Ch 5 §4.10.1)."
+    },
+    {
+      "question": "In a unitary availability payment for a four-section road, one section is closed for a day because of the partner's failure. What is the payment for that section for that day?",
+      "options": [
+        "Half, because the rest of the road is open",
+        "Full, since the road as a whole is available",
+        "Zero, while the other sections are still paid",
+        "Zero for the whole road until it reopens"
+      ],
+      "answer": 2,
+      "explanation": "The unitary concept means the payment for a section or area is zero while it is unavailable. Payment is segmented and pro-rated, so the available sections continue to earn (Ch 5 §4.10, §4.10.2)."
+    },
+    {
+      "question": "Lenders to a first availability PPP in a developed market worry that all of the partner's revenue is at risk under a unitary payment. What is the Guide's view?",
+      "options": [
+        "Well-structured unitary payments are bankable, as the risks are operational",
+        "Unitary payments are never bankable and should always be avoided",
+        "Unitary payments are bankable only if government guarantees all debt",
+        "Lenders should be paid first, before any availability is measured"
+      ],
+      "answer": 0,
+      "explanation": "Availability risks are operational and largely in the partner's control, and with experience, appropriately structured unitary payments no longer raise bankability concerns (Ch 5 §4.10, footnote 24)."
+    },
+    {
+      "question": "A country is introducing availability payments for the first time, and lenders ask for the debt service part to be protected from deductions. How does the Guide view this?",
+      "options": [
+        "Always best practice in every PPP market",
+        "Sensible early on, but otherwise to be avoided",
+        "Never acceptable under any market conditions",
+        "Required whenever debt exceeds 70 percent"
+      ],
+      "answer": 1,
+      "explanation": "Box 5.13: breaking the unitary concept or limiting deductions may be sensible in markets introducing availability for the first time, but otherwise should be avoided because it weakens incentives and VfM (Ch 5 §4.10)."
+    },
+    {
+      "question": "An authority wants very high service standards in a court building PPP but does not want to create excessive risk for the partner. How can it balance this?",
+      "options": [
+        "Set high standards and also the highest possible deductions",
+        "Drop all rectification periods for every single standard",
+        "Pair high standards with generous rectification periods",
+        "Make the standards subjective so they are easier to meet"
+      ],
+      "answer": 2,
+      "explanation": "All factors must be balanced: high standards may be compensated by generous rectification periods or modest deductions (Ch 5 §4.10). Standards must stay objective, measurable and realistic."
+    },
+    {
+      "question": "Dry runs of a draft payment mechanism show that a good operator with acceptable performance would face insolvency. What should the team do?",
+      "options": [
+        "Keep the mechanism, since strict rules always protect VfM",
+        "Remove the performance monitoring regime from the contract",
+        "Let the bidders set the deduction levels in their own bids",
+        "Recalibrate so full payment is challenging but achievable"
+      ],
+      "answer": 3,
+      "explanation": "Calibration aims to ensure acceptable performance does not lead to insolvency, and that 100 percent of the payment is challenging but achievable for a high-standard operator (Ch 5 Box 5.14)."
+    },
+    {
+      "question": "In a hospital PPP, catering is paid through its own payment stream, separate from the unitary charge. Poor catering is found. Where should deductions be taken?",
+      "options": [
+        "Only from the catering payment stream",
+        "From the whole unitary charge",
+        "From the lenders' debt service reserve",
+        "From next year's indexation of the charge"
+      ],
+      "answer": 0,
+      "explanation": "When a service has its own payment stream, deductions for it are made only from that stream, not from the unitary charge. This keeps flexibility to change soft services during the contract (Ch 5 §4.10)."
+    },
+    {
+      "question": "In an availability-based hospital PPP, occupancy rises well above the level set in the contract, and the partner's cleaning and catering costs rise with it. Which approach does the Guide suggest?",
+      "options": [
+        "Switch the whole unitary charge to a payment per patient treated",
+        "Leave the charge unchanged, since the partner bears all demand risk",
+        "Adjust the charge above set occupancy levels, or pay those services apart",
+        "Treat the extra patients as an excused unavailability event"
+      ],
+      "answer": 2,
+      "explanation": "Payment stays availability-based, but above certain occupancy thresholds soft-service costs rise. The Guide suggests adjusting the unitary payment above thresholds set in the contract, or a separate payment component for demand-sensitive services (Ch 5 §4.10.10). Paying per patient would be an improper volume risk transfer."
+    },
+    {
+      "question": "On a three-lane road section, one lane is blocked by the partner's failure, but traffic still moves on the other two lanes. How is this usually reflected in a road availability mechanism?",
+      "options": [
+        "Full availability, because traffic is still moving",
+        "An unavailability factor between 0 and 1 for the section",
+        "Full unavailability of the entire road for the day",
+        "No effect, as lanes are not measured separately"
+      ],
+      "answer": 1,
+      "explanation": "Deductions consider whether the area is still used, such as how many lanes are blocked. In roads the payment per time unit is adjusted by a factor between 0 and 1, including intermediate values like 0.5 (Ch 5 §4.10.3)."
+    },
+    {
+      "question": "A metro availability PPP has the same fault once at 8 a.m. on a Tuesday and once at 2 a.m. on a Sunday. How would time weighting factors treat these?",
+      "options": [
+        "The same deduction for both, as duration is equal",
+        "A higher deduction for the Sunday night fault",
+        "No deduction for either, as metros are exempt",
+        "A higher deduction for the Tuesday peak fault"
+      ],
+      "answer": 3,
+      "explanation": "Time weighting factors make deductions higher at peak hours and on business days, and lower off-peak, because unavailability then affects more users (Ch 5 §4.10.4)."
+    },
+    {
+      "question": "A school PPP sets a requirement that a hallway light is replaced when broken. This is not critical, and the breach is minor. What rectification approach fits?",
+      "options": [
+        "A longer rectification period may be given",
+        "No rectification period and an immediate deduction",
+        "A ratchet applied from the first minute of failure",
+        "Termination rights if it is not fixed within one hour"
+      ],
+      "answer": 0,
+      "explanation": "For requirements that are not critical, or where the breach is not significant, longer rectification periods may be granted; critical criteria get none or very short periods (Ch 5 §4.10.5)."
+    },
+    {
+      "question": "A school window breaks. The contract gives 5 days to replace the glass but requires boards within 24 hours. The partner boards it after 3 days and replaces the glass on day 4. What follows?",
+      "options": [
+        "No breach, since the glass was replaced within 5 days",
+        "Only the glass delay counts, from day 5 onward",
+        "The contract is terminated for persistent failure",
+        "The late temporary fix is itself a breach"
+      ],
+      "answer": 3,
+      "explanation": "Temporary fixes may be required regardless of the rectification period. Failure to perform the urgent remedy is itself a performance breach, usually handled by penalties or performance points (Ch 5 §4.10.5)."
+    },
+    {
+      "question": "A road partner resurfaces one section at night, following the agreed maintenance plan. How should this closure be treated?",
+      "options": [
+        "As full unavailability at the peak-hour rate",
+        "Not as unavailability, since it follows the agreed plan",
+        "As unavailability, but with a 50 percent discount",
+        "As an excused event that extends the contract term"
+      ],
+      "answer": 1,
+      "explanation": "Closures for maintenance work under the agreed maintenance plans are not unavailability events. Zero time weighting at night or a 'bag' of maintenance hours are other ways to allow this (Ch 5 §4.10.7)."
+    },
+    {
+      "question": "Consider these two statements about exceptions to unavailability. 1: A closure ordered by the police may be exempt from unavailability. 2: The Guide recommends excusing road accidents rather than giving a rectification period.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Police orders and other lawful requirements may be exempt. Excusing accidents is generally not advisable, because a sufficient rectification period can allow for them (Ch 5 §4.10.7)."
+    },
+    {
+      "question": "A road authority caps tolls and wants the yearly toll update to push the private partner to manage its costs efficiently. Which indexation approach does the Guide give as an example?",
+      "options": [
+        "Index tolls to the partner's actual cost increases each year",
+        "Freeze the toll cap in nominal terms for the whole term",
+        "Index tolls to a fraction of CPI, such as 0.85 times CPI",
+        "Let the lenders reset the toll cap whenever the DSCR falls"
+      ],
+      "answer": 2,
+      "explanation": "Capped tariffs are usually reviewed yearly and indexed, most often to CPI; some countries, such as Spain, add a correction factor (for example 0.85 x CPI) to encourage efficient cost management (Ch 5 §4.8). Passing through actual costs would remove that incentive."
+    },
+    {
+      "question": "An authority wants to make availability payments only once a quarter because calculating deductions is complex. What is the main drawback?",
+      "options": [
+        "The partner must fund working capital, which may not be VfM",
+        "The partner will receive more money than it has earned",
+        "Deductions can no longer be applied to the payment",
+        "Payments can no longer be indexed to inflation at all"
+      ],
+      "answer": 0,
+      "explanation": "Quarterly payments force the partner to finance significant working capital, and private finance costs more than public finance, so this may not be VfM (Ch 5 §4.10.11)."
+    },
+    {
+      "question": "To ease its early budget, an authority wants availability payments that start low and rise steeply in real terms. How does the Guide view this?",
+      "options": [
+        "It is recommended, because it matches traffic growth",
+        "It should be avoided; the real price should stay constant",
+        "It is required when the contract exceeds 20 years",
+        "It is neutral, because the NPV is always unchanged"
+      ],
+      "answer": 1,
+      "explanation": "Back-ending the payment curve is a temptation that should be avoided: the price of the service should, at least in real terms, be the same over the contract life (Ch 5 §4.10.8)."
+    },
+    {
+      "question": "An availability road contract says the unitary charge will be revisited if traffic stays above a threshold for three consecutive years. How does the Guide compare this with a marginal shadow payment per heavy vehicle?",
+      "options": [
+        "Harder to regulate, but simpler to agree in practice",
+        "It is not allowed in availability contracts",
+        "Simpler to regulate, but harder to agree in practice",
+        "It shifts all demand risk to the private partner"
+      ],
+      "answer": 2,
+      "explanation": "Revisiting the charge is simpler to regulate, but harder to implement because the extra cost from excess traffic is controversial to calculate and agree (Ch 5 §4.10.10)."
+    },
+    {
+      "question": "An authority wants to pay monthly but calculate deductions quarterly. Which middle-path approach does the Guide describe?",
+      "options": [
+        "Full monthly payments with no later adjustment at all",
+        "One payment a year, calculated after the annual audit",
+        "Payments made only when the partner asks for them",
+        "Monthly advances such as 90 percent, trued up quarterly"
+      ],
+      "answer": 3,
+      "explanation": "Some authorities make advance payments in the first two months of a quarter, for example 90 percent of the pro-rata payment, and adjust for under- or over-payment in the final month (Ch 5 §4.10.11)."
+    },
+    {
+      "question": "A road availability PPP has several sections. How should the weighting of each section normally be set?",
+      "options": [
+        "Sections with higher demand get higher weightings",
+        "All sections always receive exactly equal weightings",
+        "The longest section always gets the lowest weighting",
+        "The partner sets the weightings after financial close"
+      ],
+      "answer": 0,
+      "explanation": "In transport, the weighting relates to use: sections with higher demand affect more users, so they carry a higher weighting (Ch 5 §4.10.2)."
+    },
+    {
+      "question": "The same lift in a hospital PPP fails for the fourth time in a month, and again it is not repaired within the rectification period. Which mechanism penalises this pattern?",
+      "options": [
+        "A time weighting factor for peak hours of the day",
+        "An early completion floor written into the contract",
+        "A ratchet that increases deductions for repeat failure",
+        "A maximum traffic level applied to the hospital lift"
+      ],
+      "answer": 2,
+      "explanation": "Ratchet mechanisms increase the value of deductions to penalise repeated or persistent under-performance, or unavailability that continues unresolved (Ch 5 §4.10.6)."
     }
   ]
 }

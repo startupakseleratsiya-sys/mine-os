@@ -307,6 +307,446 @@
       ],
       "answer": 2,
       "explanation": "Madrid Calle 30 was a 35-year DBFOM with availability payments. Eurostat judged the risk transfer insufficient, so the project was recorded as public debt."
+    },
+    {
+      "question": "Complete the sentence: If the contractor in a DBOM-type contract is not responsible for operating the infrastructure, the contract is usually called a ____.",
+      "options": [
+        "DBM",
+        "DBF",
+        "DB",
+        "DBFM"
+      ],
+      "answer": 0,
+      "explanation": "Without operations, a DBOM is usually called a DBM (Ch 1 §2.2). DBFM is the name for a DBFOM without operations, so it includes private finance."
+    },
+    {
+      "question": "How is maintenance work usually paid for under a DBOM contract?",
+      "options": [
+        "It is paid from user tolls that the contractor collects",
+        "It is paid on a cost-plus basis after each repair is done",
+        "It is financed by the contractor and repaid at hand-back",
+        "It is pre-contracted and paid by the government at a pre-agreed price"
+      ],
+      "answer": 3,
+      "explanation": "In a DBOM, maintenance is pre-contracted and paid directly by the government at a pre-agreed price (Ch 1 §2.2). The contractor does not finance anything and does not collect user charges."
+    },
+    {
+      "question": "Which risk usually remains mainly with the government in a DBOM contract?",
+      "options": [
+        "Minor maintenance defects covered by liquidated damages",
+        "The contractor's own labour cost increases during works",
+        "Maintenance risk that depends on proper design and construction",
+        "Accidents on the construction site during the works"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the main part of maintenance risk, which depends on good design and construction, usually stays with the government. Only limited maintenance cost risk moves to the contractor, through liquidated damages."
+    },
+    {
+      "question": "Besides current operations and maintenance, what does the Guide say a DBFOM contractor is also responsible for?",
+      "options": [
+        "Setting the user tariffs for the whole contract term",
+        "Managing the asset's life cycle, taking life-cycle cost risk",
+        "Regulating other operators in the same sector",
+        "Paying the authority an upfront fee for the asset"
+      ],
+      "answer": 1,
+      "explanation": "In a DBFOM the contractor finances the works and also manages the infrastructure life cycle, assuming life-cycle cost risks, usually through an SPV (Ch 1 §2.2). An upfront fee belongs to asset monetisation of existing assets, not to a new DBFOM."
+    },
+    {
+      "question": "Consider these two statements about DBOM. 1: The contractor may still have an incentive to lower construction quality to save costs. 2: The contractor has capital at risk, which protects the authority against poor construction.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide warns that DBOM contractors may cut construction quality, so quality must be carefully controlled. There is no capital at risk in a DBOM, because the works are paid from the budget."
+    },
+    {
+      "question": "A ministry wants one firm to build and then run a small water plant, but the project and financial context do not justify a private finance PPP. Which option best fits the Guide's reasoning?",
+      "options": [
+        "A DBOM, if the gain from integrated management is judged to exceed the loss",
+        "A DBFOM, because bundling build and O&M always needs private finance",
+        "A DB contract, then a cost-plus O&M contract with the same firm",
+        "A public domain concession granting the plant land for 99 years"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says a government may choose DBOM when the benefit of integrated management exceeds the efficiency lost by not tendering O&M separately, often when a private finance PPP is not justified. Bundling does not require private finance."
+    },
+    {
+      "question": "What efficiency does a government give up when it chooses a DBOM instead of separate construction and O&M contracts?",
+      "options": [
+        "The ability to pay for construction from its own budget",
+        "The chance to run a separate competition for the O&M contract",
+        "The right to set performance standards for maintenance",
+        "The option to keep legal ownership of the finished asset"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the loss of efficiency in a DBOM comes from giving up a separate competition for the future O&M contract. The government still pays from its budget and keeps ownership."
+    },
+    {
+      "question": "Which statement about DBOM and DBFOM-type contracts is correct according to the Guide?",
+      "options": [
+        "They are usually the only forms that bundle long-term maintenance with construction",
+        "They are the only forms of infrastructure contract that include private finance",
+        "Neither of them links the contractor's pay to the performance of the asset",
+        "Both of them transfer the full life-cycle risk of the asset to the lenders"
+      ],
+      "answer": 0,
+      "explanation": "Only DBOM and DBFOM-type contracts (such as BOT) bundle long-term maintenance with construction, and they are usually the only forms paid on asset performance (Box 1.11). DBF also has private finance, and DBOM has none."
+    },
+    {
+      "question": "Which best describes how a DBFOM contract is financed?",
+      "options": [
+        "The government pays for the works as they progress, and the contractor provides O&M",
+        "The contractor finances construction and is repaid in full when the works are complete",
+        "Lenders lend directly to the authority, which then pays the contractor for the works",
+        "The contractor provides all or most of the finance, from equity and lenders, at its own risk"
+      ],
+      "answer": 3,
+      "explanation": "In a DBFOM the contractor develops the asset with its own funds and funds from lenders, at its own risk (Ch 1 §2.2). Payment as works progress describes a DBOM, and full repayment at completion is closer to a DBF."
+    },
+    {
+      "question": "Complete the sentence: A DBFOM-type contract that does not include operations in its scope is often called a ____.",
+      "options": [
+        "DBM",
+        "DBOM",
+        "DBFM",
+        "BOO"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the contract is often called a DBFM when operations are not included. DBM is a DBOM without operations, so it has no private finance."
+    },
+    {
+      "question": "Complete the sentence: The European Commission uses the term ____ for PPP structures in which a public body and private investors share the equity of the project company.",
+      "options": [
+        "public-public partnerships",
+        "institutionalized PPPs",
+        "hybrid PPPs",
+        "regulated utilities"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.7 says such structures are called mixed equity companies or joint ventures in some countries, and the EU Commission uses the term institutionalized PPPs. Hybrid PPPs are about mixing public finance or payments, not shared equity."
+    },
+    {
+      "question": "According to the Guide, which contract type, in terms of scope, is the only one that meets all the conditions of a private finance PPP?",
+      "options": [
+        "DBOM, when maintenance risk is also transferred",
+        "DBF, when repayment follows commissioning",
+        "DBFOM and equivalents such as BOT or DBFM",
+        "Long-term management contracts with KPI deductions"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says DBFOM (and DBFM, BOT, BOOT, BTO and so on) are the only contract type in terms of scope that fulfils all the conditions of a private finance PPP (Ch 1 §2.2). A DBOM has no private finance, and a DBF has no bundled O&M."
+    },
+    {
+      "question": "What makes a user-pays PPP different from a government simply earmarking toll revenue to its own highway enterprise?",
+      "options": [
+        "The toll revenue is paid into the government's general budget each year",
+        "Future revenues are assigned by contract to a private partner's SPV to fund the asset",
+        "The toll revenue is used to fund the whole transport sector of the country",
+        "The government's own enterprise keeps the toll revenue and runs the road"
+      ],
+      "answer": 1,
+      "explanation": "The Guide defines a user-pays PPP as a contractual assignment to a private party of future revenues from public use of the asset. Paying tolls into the budget, a sector fund or a public enterprise are other uses of user revenue, not PPPs."
+    },
+    {
+      "question": "Complete the sentence: User-pays PPPs are also known as ____, especially in civil code countries.",
+      "options": [
+        "concession schemes",
+        "PFI schemes",
+        "affermage leases",
+        "institutional PPPs"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says user-pays PPPs are also known as concession schemes, especially in civil code countries. PFI is the UK name for government-pays PPPs."
+    },
+    {
+      "question": "How is the financing of a user-pays DBFOM typically treated under national accounting standards, according to the Guide?",
+      "options": [
+        "As public debt of the authority",
+        "As a capital grant of the authority",
+        "As an operating lease of the authority",
+        "As private finance"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says in a user-pays PPP the financing is private and typically considered private finance under national accounting standards. Recording as public debt happens when risk transfer is insufficient, as in Madrid Calle 30."
+    },
+    {
+      "question": "In a user-pays PPP, how does the private partner give returns to its investors?",
+      "options": [
+        "Through availability payments from the authority's budget",
+        "Through a fixed fee that is set in the lenders' loan agreement",
+        "Through equity dividends and/or repayment of shareholder loans",
+        "Through selling the asset to the authority at hand-back"
+      ],
+      "answer": 2,
+      "explanation": "The partner uses user payments to repay debt and to pay investors through dividends or repayment of shareholder loans (Ch 1 §2.2). Availability payments belong to government-pays PPPs."
+    },
+    {
+      "question": "In year 18 of a 30-year toll bridge concession, the bridge deck needs a major renewal that was foreseeable. Under the normal user-pays model, who should pay for it?",
+      "options": [
+        "The authority, because it is the legal owner",
+        "The users, through a special surcharge set by the partner",
+        "The lenders, from a reserve they must fund themselves",
+        "The private partner, at its own expense and risk"
+      ],
+      "answer": 3,
+      "explanation": "As economic owner during the contract, the concessionaire must maintain and renew the asset at its own expense and risk, with no claim on the public party except where the risk allocation says otherwise (Ch 1 §2.2)."
+    },
+    {
+      "question": "Traffic on a toll road concession is 40% above forecast, and the partner's revenue is far above the level needed for a minimum return. Which contract feature does the Guide say may let the authority benefit?",
+      "options": [
+        "Viability gap funding paid by the authority to the partner",
+        "Deductions from the partner's monthly availability payments",
+        "Revenue sharing, with a payment from the partner to the authority",
+        "A compensation event claimed by the authority from the partner"
+      ],
+      "answer": 2,
+      "explanation": "When revenues exceed what is needed for a minimum return, a user-pays PPP may include revenue sharing, paid by the private party to the authority (Ch 1 §2.2). Viability gap funding flows the other way."
+    },
+    {
+      "question": "In the Guide's basic scheme of a user-pays DBFOM, what does the authority give the private partner?",
+      "options": [
+        "Monthly availability payments",
+        "The right to charge users",
+        "A construction loan agreement",
+        "Shares in the EPC contractor"
+      ],
+      "answer": 1,
+      "explanation": "In Figure 1.5 the authority grants the right to charge users, and the partner provides the bundled DBFOM service. Loans come from lenders, and availability payments belong to government-pays PPPs."
+    },
+    {
+      "question": "According to the Guide's basic user-pays DBFOM scheme, what happens to the asset at the end of the contract?",
+      "options": [
+        "It is handed back to the authority",
+        "It is sold to the project lenders",
+        "It stays with the SPV permanently",
+        "It passes to the EPC contractor"
+      ],
+      "answer": 0,
+      "explanation": "The basic scheme shows hand-back of the asset to the authority. Permanent private ownership is a feature of privatisation, not of a PPP."
+    },
+    {
+      "question": "Which are the two forms of viability gap funding named by the Guide?",
+      "options": [
+        "Revenue sharing and refinancing gains shared with the authority",
+        "Shareholder loans and bond issues arranged by the SPV itself",
+        "Tax rebates for users and yearly increases in the tariffs",
+        "Grants (co-financing) and complementary budget payments linked to performance"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says a viability gap can be filled with public grants (co-financing) or with complementary budget payments linked to performance. Revenue sharing goes from the partner to the authority, so it does not fill a gap."
+    },
+    {
+      "question": "Consider these two statements about co-financing. 1: A government may fill a viability gap if the project brings enough economic and social benefits. 2: Co-financing can only be used when a user-pays project is not financially viable.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The government may fill the gap when the project is still valuable for society. But the Guide notes that co-financing may be used even when a user-pays project is self-viable, for other reasons (Box 1.7)."
+    },
+    {
+      "question": "Which describes a hybrid payment regime, such as those that are standard in rail PPPs?",
+      "options": [
+        "User charges mixed with availability or service payments",
+        "Public and private equity mixed in the project company",
+        "Construction and O&M mixed in a single contract",
+        "Bank loans mixed with bond finance in the SPV"
+      ],
+      "answer": 0,
+      "explanation": "Box 1.7 describes hybrid payment regimes as mixing user charges with availability or service payments. Mixing public and private equity is a joint venture, not a hybrid payment regime."
+    },
+    {
+      "question": "A tram's fares will cover its O&M but not its capital cost. The government gives a capital subsidy during construction to reduce what the SPV must finance. How does the Guide describe this approach?",
+      "options": [
+        "A public-public partnership run by the tram company",
+        "A government-pays PFI with no user revenue at all",
+        "An asset monetisation of an existing tram line",
+        "A hybrid structure that uses a subsidy to buy down capital costs"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.7 says hybrid PPP structures can use capital subsidies or viability gap financing to buy down capital costs and make the project viable. Fares still flow to the SPV, so it is not a pure government-pays scheme."
+    },
+    {
+      "question": "Which is NOT one of the features the Guide uses to identify a joint venture or mixed equity company?",
+      "options": [
+        "The government holds a material equity stake",
+        "It has board seats with voting rights in line with its shares",
+        "The government guarantees the SPV's senior debt",
+        "It takes an active part in management, such as naming senior staff"
+      ],
+      "answer": 2,
+      "explanation": "The Guide's JV features are a material public equity stake, board seats with matching voting rights, and active management (Box 1.7). A debt guarantee is not part of the definition."
+    },
+    {
+      "question": "A regional authority takes a 10% stake in a toll road SPV, with only the normal rights of a minority shareholder. How would the Guide usually describe this?",
+      "options": [
+        "An institutional PPP under public control of the SPV",
+        "A conventional PPP with government equity, not normally a JV",
+        "A public-public partnership, which is not a PPP",
+        "A mixed equity company, since any public stake counts"
+      ],
+      "answer": 1,
+      "explanation": "A simple minority stake with normal shareholder rights is not customarily called a joint venture (Box 1.7). An institutional PPP needs public control, usually a majority of shares."
+    },
+    {
+      "question": "Which is NOT a reason the Guide gives for choosing a government-pays PPP rather than a user-pays PPP?",
+      "options": [
+        "There are no final users who could be charged",
+        "Potential revenue is small compared with capital needs",
+        "User revenue is high enough to repay all the financing",
+        "The government wants the asset to be free for users"
+      ],
+      "answer": 2,
+      "explanation": "The Guide lists no users to charge, revenue too small compared with capital needs, and a policy of free use (such as non-toll roads). High user revenue would suit a user-pays concession instead."
+    },
+    {
+      "question": "In a government-pays PPP, when is the partner paid for construction and O&M?",
+      "options": [
+        "In instalments as construction work progresses on site",
+        "Only while the asset is available at the required quality",
+        "In one lump sum when construction is complete",
+        "According to its actual costs plus an agreed margin"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the government-pays partner is paid for both construction and O&M only as long as, and to the extent that, the asset is available at the specified standards. Payment as work progresses describes conventional procurement or DBOM."
+    },
+    {
+      "question": "Consider these two statements about government-pays PPPs. 1: The government is always the user of the asset. 2: A school or a prison can be procured as a government-pays PPP.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "In some government-pays PPPs the government is not the user, for example a toll-free road used by the public. Hospitals, prisons, courts and schools are the Guide's examples of assets used by government."
+    },
+    {
+      "question": "A government-pays hospital PPP also lets the SPV earn income from a car park and shops, about 15% of its total revenue. How should it be classified?",
+      "options": [
+        "Still a government-pays PPP, as user revenue is not the majority",
+        "A user-pays concession, because some users pay charges",
+        "A hybrid user-pays PPP with viability gap funding",
+        "Not a PPP, because commercial revenue is mixed in"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says government-pays PPPs may include user or commercial revenue; if it is not the majority, the contract is still government-pays. The classification follows where most revenue comes from."
+    },
+    {
+      "question": "Consider these two statements about names. 1: PFI is the name introduced in the United Kingdom for government-pays PPPs. 2: Some countries, especially in Latin America, use the term PPP only for government-pays contracts and call user-pays projects concessions.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true (Ch 1 §2.2, footnote 21). This is why the same contract can have different names in different countries."
+    },
+    {
+      "question": "In the I-595 project, what did FDOT's $685 million of deferred grants allow it to do?",
+      "options": [
+        "Transfer the toll traffic risk to the private partner",
+        "Avoid making any availability payments during operation",
+        "Keep the private partner out of the project financing",
+        "Use part of its budget early and lower its yearly availability payments"
+      ],
+      "answer": 3,
+      "explanation": "Box 1.8 says FDOT used part of its budget allocation in the early years while having lower yearly availability payment commitments. The partner still financed most of the project, and FDOT kept the traffic risk."
+    },
+    {
+      "question": "Why did FDOT decide to keep the toll revenue in the I-595 project instead of giving it to the private partner?",
+      "options": [
+        "Because the partner refused to take any financing risk",
+        "Because the tolls were too low to cover the O&M costs",
+        "To keep flexibility for dynamic tolling to manage congestion",
+        "Because the lenders did not accept any traffic forecast"
+      ],
+      "answer": 2,
+      "explanation": "FDOT used dynamic tolling to manage congestion. A partner paid by tolls would want to maximise revenue, which could conflict with that aim (Box 1.8)."
+    },
+    {
+      "question": "Consider these two statements about the I-595 project. 1: The deferred grants had to be repaid by the private partner from toll revenue. 2: FDOT carried the traffic revenue risk.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "The grants were not reimbursable and were paid in seven payments. The toll revenues stayed the property of FDOT, and therefore at its risk (Box 1.8)."
+    },
+    {
+      "question": "In the EBRD model for urban transport described by the Guide, which agreement does the authority sign with the EBRD?",
+      "options": [
+        "A Power Purchase Agreement",
+        "A direct agreement for step-in",
+        "A public domain concession",
+        "A Municipal Support Agreement"
+      ],
+      "answer": 3,
+      "explanation": "The authority signs a public service contract with its own public operator and a Municipal Support Agreement (MSA) with the EBRD to reinforce its financial commitment. The Guide does not treat this public-public structure as a PPP."
+    },
+    {
+      "question": "Consider these two statements about state-owned enterprises. 1: Many arrangements between governments and SOEs have no contract in the strict sense, only a general authorisation. 2: If an SOE arrangement uses project finance, the Guide then regards it as a PPP.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide notes that many SOE arrangements are only a general authorisation. Even with a strict contract and project finance, there are reasonable doubts about real risk transfer, so they are not PPPs."
+    },
+    {
+      "question": "In Madrid Calle 30, how was the private partner selected, and what else did it do?",
+      "options": [
+        "By direct award; it also built the tunnels under a DB contract",
+        "By public tender; it also held 80% of the project company equity",
+        "By public tender; it also ran O&M under a back-to-back subcontract",
+        "By the lenders; it also collected tolls directly from road users"
+      ],
+      "answer": 2,
+      "explanation": "The city council chose the private partner by public tender. It took 20% of the equity and delivered O&M under a back-to-back subcontract paid from part of the availability fees (Box 1.9)."
+    },
+    {
+      "question": "In Madrid Calle 30, who contracted the civil works contractors for the tunnels and road upgrades?",
+      "options": [
+        "The private partner, under its O&M subcontract",
+        "The mixed equity company, after a separate selection",
+        "The city council directly, under a DB contract",
+        "The lenders, as a condition of their loan"
+      ],
+      "answer": 1,
+      "explanation": "Box 1.9 notes that the civil works contractors were selected in a separate process and contracted directly by the mixed equity company, Madrid Calle 30."
+    },
+    {
+      "question": "What is the main focus of the PPP Guide's tender and contract management guidance?",
+      "options": [
+        "Conventional PPPs that are privately owned or controlled",
+        "Institutional PPPs controlled by the procuring authority",
+        "User-pays concessions only, not government-pays PPPs",
+        "PPPs with no public shareholding of any size at all"
+      ],
+      "answer": 0,
+      "explanation": "The Guide focuses on conventional PPPs, privately owned or controlled, possibly with a minority public stake. Most of its content still applies to joint ventures."
+    },
+    {
+      "question": "The city council held 80% of the Madrid Calle 30 project company. In the Guide's terms, what type of PPP is this?",
+      "options": [
+        "A public-public partnership with no private shareholder",
+        "A conventional PPP with a minority public stake",
+        "A DBOM, because the works were paid by the city",
+        "An institutional PPP, controlled by the public party"
+      ],
+      "answer": 3,
+      "explanation": "A joint venture where the government controls the SPV, usually with most of the shares, is an institutional PPP (Box 1.9). It had a 20% private partner, so it was not public-public, and it was a DBFOM, not a DBOM."
     }
   ]
 }

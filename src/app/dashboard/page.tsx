@@ -2,11 +2,11 @@ import { getI18n } from "@/i18n/server";
 import React from "react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { ArrowRight, BookOpen, CircleDollarSign, Flame, GraduationCap, LogOut, MessageSquareText, Target, TrendingUp, User, } from "lucide-react";
-import { getCurrentUser, getProfile, getChatSessionCount } from "@/services/user-service";
+import { ArrowRight, BookOpen, CircleDollarSign, Flame, GraduationCap, LogOut, MessageSquareText, Target, TrendingUp, User, Zap, } from "lucide-react";
+import { getCurrentUser, getProfile } from "@/services/user-service";
 import { signOut } from "@/app/actions/auth";
 import { COURSES, TOTAL_CHAPTERS } from "@/content/courses";
-import { activeCourse, computeStreak, courseProgress, courseUnlocked, getLessonProgress } from "@/lib/progress";
+import { activeCourse, computeStreak, courseProgress, courseUnlocked, getGameStats, getLessonProgress } from "@/lib/progress";
 export const metadata = { title: "Dashboard" };
 const NAV = [
     { href: "/dashboard", icon: TrendingUp, label: "Dashboard" },
@@ -30,11 +30,11 @@ export default async function DashboardPage() {
     }
     if (!user)
         redirect("/sign-in");
-    const [profile, rows, chatCount] = await Promise.all([
+    const [profile, rows] = await Promise.all([
         getProfile(user.id),
         getLessonProgress(user.id),
-        getChatSessionCount(user.id),
     ]);
+    const game = await getGameStats(user.id, rows);
     const metaName = typeof user.user_metadata?.full_name === "string" ? user.user_metadata.full_name : "";
     const displayName = profile?.full_name || metaName || user.email?.split("@")[0] || "Foydalanuvchi";
     const initials = displayName
@@ -104,7 +104,7 @@ export default async function DashboardPage() {
             { label: "Tugatilgan boblar", value: `${rows.length}/${TOTAL_CHAPTERS}`, icon: BookOpen, color: "text-emerald-600" },
             { label: "Boshlangan kurslar", value: `${startedCourses}/${COURSES.length}`, icon: GraduationCap, color: "text-sky-600" },
             { label: "O'rganish streigi", value: `${streak} ${streak === 1 ? "day" : "days"}`, icon: Flame, color: "text-amber-600" },
-            { label: "AI suhbatlar", value: `${chatCount}`, icon: MessageSquareText, color: "text-violet-600" },
+            { label: `Level ${game.level} · ${game.totalStars} ★`, value: `${game.xp.toLocaleString("en-US")} XP`, icon: Zap, color: "text-amber-500" },
         ].map(({ label, value, icon: Icon, color }) => (<div key={label} className="bg-white rounded-2xl p-5 border border-[#E2E4DF]">
               <Icon className={`size-5 ${color} mb-3`}/>
               <p className="text-2xl font-extrabold text-[#0f2017]">{value}</p>

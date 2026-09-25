@@ -1,3 +1,4 @@
+import { safeNext } from "@/lib/safe-next";
 import { getI18n } from "@/i18n/server";
 import { AuthForm } from "@/features/auth/components/auth-form";
 import { AuthShell } from "@/features/auth/components/auth-shell";
@@ -14,8 +15,8 @@ export default async function SignInPage({ searchParams, }: {
 }) {
     const { t } = await getI18n();
     const { next, error } = await searchParams;
-    const safeNext = next && next.startsWith("/") && !next.startsWith("//") ? next : undefined;
+    const safe = safeNext(next);
     return (<AuthShell title={t("Hisobingizga kiring.")} description={t("O\u2018quv progressingiz va AI tutor suhbatlaringizni davom ettiring.")}>
-      <AuthForm mode="sign-in" next={safeNext} notice={error ? NOTICES[error] ?? "Xatolik yuz berdi." : undefined}/>
+      <AuthForm mode="sign-in" next={safe} notice={error ? NOTICES[error] ?? "Xatolik yuz berdi." : undefined}/>
     </AuthShell>);
 }

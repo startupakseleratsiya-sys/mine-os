@@ -5,25 +5,18 @@ import { lessonTest, passMarkFor } from "../src/lib/learning-path.ts";
 const q = (n) => ({ question: `q${n}`, options: ["a", "b", "c", "d"], answer: n % 4, explanation: "e" });
 const course = { chapters: ["l1", "l2", "l3"].map((id) => ({ id, quiz: Array.from({ length: 10 }, (_, i) => q(i)) })) };
 
-test("first lesson test has only its own 10 questions", () => {
-  const t = lessonTest(course, "l1");
-  assert.equal(t.length, 10);
-  assert.ok(t.every((x) => !x.review));
+test("a lesson test is exactly that lesson's own questions", () => {
+  for (const id of ["l1", "l3"]) {
+    const t = lessonTest(course, id);
+    assert.equal(t.length, 10);
+    assert.ok(t.every((x) => x.lessonId === id && !x.review));
+  }
+  assert.deepEqual(lessonTest(course, "nope"), []);
 });
 
-test("later lessons add 2 review questions from earlier lessons, deterministically", () => {
-  const t = lessonTest(course, "l3");
-  assert.equal(t.length, 12);
-  const reviews = t.filter((x) => x.review);
-  assert.equal(reviews.length, 2);
-  assert.ok(reviews.every((x) => x.lessonId === "l1" || x.lessonId === "l2"));
-  assert.notEqual(reviews[0].key, reviews[1].key);
-  assert.deepEqual(lessonTest(course, "l3").map((x) => x.key), t.map((x) => x.key));
-});
-
-test("pass mark is 80%", () => {
-  assert.equal(passMarkFor(10), 8);
-  assert.equal(passMarkFor(12), 10);
+test("pass mark is 46/50 (92%)", () => {
+  assert.equal(passMarkFor(50), 46);
+  assert.equal(passMarkFor(25), 23);
 });
 
 import { findQuestion, mistakes, recentAccuracy, toPublic } from "../src/lib/learning-path.ts";
@@ -31,7 +24,7 @@ import { findQuestion, mistakes, recentAccuracy, toPublic } from "../src/lib/lea
 test("public items carry no answer key", () => {
   const pub = toPublic(lessonTest(course, "l2"));
   assert.ok(pub.every((p) => !("answer" in p) && !("q" in p)));
-  assert.equal(pub.length, 12);
+  assert.equal(pub.length, 10);
 });
 
 test("findQuestion resolves keys and rejects bad ones", () => {
@@ -52,4 +45,23 @@ test("mistakes keep only questions whose latest answer is wrong", () => {
   assert.equal(recentAccuracy(rows, 1).accuracy, 0);
   assert.equal(recentAccuracy(rows).answered, 5);
   assert.equal(recentAccuracy([]), null);
+});
+
+import { bestStars, levelOf, starsFor, xpTotal } from "../src/lib/gamification.ts";
+
+test("stars: 46–47 → 1, 48–49 → 2, 50 → 3, below pass → 0", () => {
+  assert.deepEqual([45, 46, 47, 48, 49, 50].map((c) => starsFor(c, 50)), [0, 1, 1, 2, 2, 3]);
+  assert.deepEqual(bestStars([{ exam: "lesson:a", score: 46, total: 50 }, { exam: "lesson:a", score: 50, total: 50 }, { exam: "cp3p-foundation", score: 50, total: 50 }]), { a: 3 });
+});
+
+test("XP counts each question once and levels every 1000", () => {
+  assert.equal(xpTotal({ correctQuestionIds: ["a", "a", "b"], lessonsPassed: 2, mocksPassed: 1 }), 20 + 200 + 300);
+  assert.deepEqual(levelOf(2450), { level: 3, into: 450, next: 1000, progress: 0.45 });
+});
+
+import { safeNext } from "../src/lib/safe-next.ts";
+
+test("safeNext blocks off-site redirects", () => {
+  assert.equal(safeNext("/study/a/b"), "/study/a/b");
+  for (const bad of ["//evil.com", "/\\evil.com", "/%5Cevil.com", "https://evil.com", "/%2F%2Fevil.com", "", null]) assert.equal(safeNext(bad), undefined, String(bad));
 });

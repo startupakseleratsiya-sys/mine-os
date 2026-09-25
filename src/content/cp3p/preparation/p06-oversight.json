@@ -213,10 +213,10 @@
     {
       "question": "A procuring authority is drafting a PPP contract. The national audit office warns it will have no legal right to examine the future project company. What should the authority do?",
       "options": [
-        "Accept that the project company's information will be unavailable",
+        "Accept that the project company's information will simply be unavailable",
         "Ask parliament to extend the audit mandate to all private firms",
         "Rely on the lenders to share information with auditors",
-        "Require the company in the contract to provide audited accounts and requested data"
+        "Make the contract require the company to give audited accounts and data"
       ],
       "answer": 3,
       "explanation": "Audit mandates usually cover only government bodies, so the Guide recommends that the PPP contract require the company to provide audited accounts and other relevant data, and that the audit entity be clear about its access rights."
@@ -268,7 +268,7 @@
     {
       "question": "A government wants the public to help monitor service quality during a 25-year water PPP. What is the most suitable measure?",
       "options": [
-        "Build user feedback and grievance mechanisms into the contract and its management",
+        "Build user feedback and grievance mechanisms into the contract",
         "Hold one public consultation before the PPP law is passed",
         "Publish the procurement timetable on the ministry website",
         "Ask the supreme audit institution to survey users every year"
@@ -297,6 +297,446 @@
       ],
       "answer": 2,
       "explanation": "Probity and fairness advisors give independent assurance of equal treatment, consistent processes and resolved conflicts of interest; Victoria requires such advice where complexity warrants it. A bidder or lender advisor is not independent of the outcome."
+    },
+    {
+      "question": "A parliamentary finance committee worries that today's PPPs will overload future taxpayers. What legislative tool does the Guide describe for this?",
+      "options": [
+        "Setting limits on total PPP commitments or on the amount taken on each year",
+        "Requiring every PPP to be a user-pays concession with no public payment",
+        "Banning all PPP contracts that last longer than ten years",
+        "Asking the audit office to approve each contract before signing"
+      ],
+      "answer": 0,
+      "explanation": "The legislature may limit total PPP fiscal commitments or the amount taken on in a year, or otherwise govern the risk and inter-generational equity issues PPPs create (Ch 2 §1.9.1). Audit offices do not pre-approve contracts."
+    },
+    {
+      "question": "Complete the sentence: long-term PPP payments raise ____ issues, because projects decided today are paid for by future taxpayers.",
+      "options": [
+        "value for money testing",
+        "procurement probity",
+        "optimal risk allocation",
+        "inter-generational equity"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says the legislature may govern the risk and inter-generational equity issues that PPPs can create (Ch 2 §1.9.1): fairness between today's and tomorrow's taxpayers."
+    },
+    {
+      "question": "A government wants parliament to control large PPPs, but market sounding shows investors dislike approval risk. What approach from the Guide balances both concerns?",
+      "options": [
+        "Require parliamentary approval of every PPP contract, whatever its size",
+        "Remove every legislative role in PPPs, including limits and reports",
+        "Require parliamentary approval only for PPPs above a size threshold",
+        "Let the supreme audit institution approve contracts instead"
+      ],
+      "answer": 2,
+      "explanation": "The approval requirement can be limited to PPPs above a certain size; Hungary requires approval for multi-year payment obligations above a set present value (Ch 2 §1.9.1). Approving every contract, as in Guatemala, adds the most approval risk."
+    },
+    {
+      "question": "A country is debating whether to pass a PPP law. Which reason for a PPP law does the Guide give in the context of oversight?",
+      "options": [
+        "It removes the need for Ministry of Finance approval of projects",
+        "It guarantees that every PPP project will give value for money",
+        "It moves all project risk from the government to the private partner",
+        "It sets rules against which those responsible can be held accountable"
+      ],
+      "answer": 3,
+      "explanation": "One rationale for a PPP law is that it lets the legislature set rules for how PPPs are developed and implemented, against which those responsible can be held accountable (Ch 2 §1.9.1)."
+    },
+    {
+      "question": "A state government tables a summary of each PPP contract in parliament within a set period after financial close. What is the main purpose of this practice?",
+      "options": [
+        "To let parliament scrutinise commitments and hold decision-makers responsible",
+        "To let parliament choose a different preferred bidder if it so wishes",
+        "To give losing bidders a formal chance to appeal against the award",
+        "To replace the audit of PPP commitments in government accounts"
+      ],
+      "answer": 0,
+      "explanation": "Some Australian states table project or contract summaries after financial close, giving parliament the chance to scrutinise PPP commitments and hold decision-makers responsible after the event (Ch 2 §1.9.1)."
+    },
+    {
+      "question": "Why did the UK government launch a call for evidence on the Private Finance Initiative (PFI) in 2011?",
+      "options": [
+        "A court ruled that PFI contracts breached national procurement law",
+        "Austerity: PFI payments could not be cut, and value for money was doubted",
+        "Investors demanded higher returns before joining any new PFI project",
+        "European rules required the UK to end private finance in public works"
+      ],
+      "answer": 1,
+      "explanation": "Box 2.32 says that during fiscal austerity the public and stakeholders worried PFI payments could not be cut, forcing deeper cuts elsewhere, and many questioned whether PFI gave value for money."
+    },
+    {
+      "question": "Which was NOT an aim of PF2, the model that replaced PFI after the UK call for evidence?",
+      "options": [
+        "More transparency of the liabilities from long-term projects",
+        "A faster and less costly procurement process",
+        "Ending the use of private finance for public infrastructure",
+        "Greater flexibility in the provision of services"
+      ],
+      "answer": 2,
+      "explanation": "PF2 aimed to improve value for money, increase transparency of liabilities, speed up and cut the cost of procurement, and give more flexible services (Box 2.32). It was a new way of involving private finance, not an end to it."
+    },
+    {
+      "question": "Which is NOT one of the groups outside the executive that the Guide names as having a role in PPP oversight?",
+      "options": [
+        "The legislature",
+        "Audit entities",
+        "The public",
+        "The PPP unit"
+      ],
+      "answer": 3,
+      "explanation": "The Guide names the legislature, audit entities, the public and other mechanisms such as probity advisors and watchdogs (Ch 2 §1.9). The PPP unit is part of the executive and provides checks inside it."
+    },
+    {
+      "question": "A minister says that because the PPP unit and the Ministry of Finance review every project, no further oversight by parliament or auditors is needed. What does the Guide imply?",
+      "options": [
+        "These are checks inside the executive; outside bodies must also hold it to account",
+        "The minister is right, since executive approvals already give full oversight",
+        "The minister is right, but only for user-pays PPPs with no public payment",
+        "The minister is wrong, because the PPP unit must sit outside the government"
+      ],
+      "answer": 0,
+      "explanation": "The Guide separates checks and balances within the executive from the broader governance in which the legislature, auditors and the public hold the executive accountable for its decisions (Ch 2 §1.9)."
+    },
+    {
+      "question": "A parliamentary committee reviews the national PPP program on governance, risk allocation, accountability, the public interest and value for money. What kind of oversight is this?",
+      "options": [
+        "A regularity audit of financial statements",
+        "Legislative oversight of the PPP program",
+        "Reactive disclosure under an information law",
+        "A probity review of a single tender process"
+      ],
+      "answer": 1,
+      "explanation": "This matches the Guide's example of Victoria's Public Accounts and Estimates Committee reviewing Partnerships Victoria, a case of legislative oversight of a PPP program (Box 2.33)."
+    },
+    {
+      "question": "Which best describes the role of supreme audit institutions in the chain of accountability for PPPs?",
+      "options": [
+        "They approve each PPP project before the tender is launched",
+        "They regulate the tariffs that PPP companies charge to users",
+        "They give independent reviews of government finances and performance",
+        "They represent the lenders' interests in PPP contract disputes"
+      ],
+      "answer": 2,
+      "explanation": "Audit entities are an important link in the chain of accountability, providing independent reviews of government finances and performance to parliaments and the public (Ch 2 §1.9.2). They do not approve projects in advance."
+    },
+    {
+      "question": "Consider two statements. 1: The mandate of supreme audit entities should generally include both regularity audits and performance audits. 2: Value for money audits can be done only at program level, not for single projects.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 is true (Ch 2 §1.9.2). Statement 2 is false: the Guide says value for money audits can be conducted at the program or the project level."
+    },
+    {
+      "question": "After many complaints about costs, auditors want to know whether a hospital PPP is really giving value for money. Which type of audit should they carry out?",
+      "options": [
+        "A regularity audit of the ministry's financial statements",
+        "A probity review of the original bid evaluation",
+        "A reactive disclosure request under the information law",
+        "A performance (value for money) audit of the project"
+      ],
+      "answer": 3,
+      "explanation": "Performance or value for money audits are done when there is concern whether processes were properly followed or whether a project provides value for money (Ch 2 §1.9.2). Regularity audits focus on accounts, compliance and probity."
+    },
+    {
+      "question": "Which is NOT among the topics INTOSAI says performance audits of PPP projects should cover?",
+      "options": [
+        "The private company's own staff salaries",
+        "How the PPP project was first identified",
+        "The tender process that was adopted",
+        "Ongoing management of the PPP contract"
+      ],
+      "answer": 0,
+      "explanation": "INTOSAI's list covers aspects affecting value for money, how the PPP was identified, how the transaction was managed, the tender process, how the contract was finalised and ongoing contract management (Ch 2 §1.9.2). Staff pay is not listed."
+    },
+    {
+      "question": "In the Guide's audit of the Cross City Tunnel in New South Wales, which issue did the auditor-general note?",
+      "options": [
+        "Traffic that was much higher than the forecast levels",
+        "A lack of transparency in amending the initial contract",
+        "Tolls that were too low to repay the project's debt",
+        "A failure to hold any public consultation on the route"
+      ],
+      "answer": 1,
+      "explanation": "The audit noted high tolls, lower than expected traffic, the effect of upfront fees paid by the concessionaire, and a lack of transparency in amending the initial contract (Box 2.34)."
+    },
+    {
+      "question": "Which is NOT one of the purposes of probity advisors and auditors listed in the Guide?",
+      "options": [
+        "Making sure that all suppliers are treated equally",
+        "Making sure intellectual property remains confidential",
+        "Negotiating better commercial terms for the government",
+        "Making sure that conflicts of interest are resolved"
+      ],
+      "answer": 2,
+      "explanation": "Probity advisors and auditors help ensure integrity and impartiality, equal treatment of suppliers, consistent and transparent processes, confidentiality of intellectual property and resolved conflicts of interest (Ch 2 §1.9.4). They give independent process assurance; they do not negotiate commercial terms."
+    },
+    {
+      "question": "A PPP program started eight years ago. The audit office wants to review the program as a whole. What should the review focus on?",
+      "options": [
+        "Finding the officials to blame for each weak project",
+        "Re-approving each contract before it continues",
+        "Checking the private companies' tax returns",
+        "Recommendations for improving the PPP program"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says it may be useful to audit the program after it has worked for some time, and program-based audits should focus on recommendations for improving the program, as in the UK NAO's 2011 review (Ch 2 §1.9.2)."
+    },
+    {
+      "question": "Consider two statements. 1: Regularity audits review the government's effectiveness and efficiency in delivering PPPs. 2: Regularity audits of PPPs can take place only after procurement is complete.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "Both are false. Reviewing effectiveness and efficiency is the role of performance (value for money) audits; regularity audits cover financial statements and the compliance and probity of decisions. Regularity audits can occur at any stage, including project preparation (Ch 2 §1.9.2)."
+    },
+    {
+      "question": "Before drafting its first PPP policy, a government invites citizens and business groups to comment on the proposed framework. At which stage of public participation is this?",
+      "options": [
+        "PPP program development",
+        "PPP project development",
+        "PPP contract monitoring",
+        "Post-procurement disclosure"
+      ],
+      "answer": 0,
+      "explanation": "Public participation in program development means involving the public in shaping the PPP policy framework and seeking feedback as the program develops (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "Residents object to the proposed site of a waste plant PPP. The authority consults them and changes the design before structuring the deal. Which stage of public participation is this?",
+      "options": [
+        "PPP program development",
+        "PPP project development",
+        "PPP contract monitoring",
+        "Reactive disclosure"
+      ],
+      "answer": 1,
+      "explanation": "Stakeholder consultation during PPP project development lets public concerns be taken into account when PPPs are structured and implemented (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "Why does the Guide say getting the right level of public involvement is so important for a PPP program?",
+      "options": [
+        "It is a legal requirement under IPSAS accounting rules",
+        "It replaces the need for legislative oversight of PPPs",
+        "It can make or break the legitimacy of the PPP program",
+        "It directly reduces the interest rate on project debt"
+      ],
+      "answer": 2,
+      "explanation": "PPPs are meant to provide value to the public, and the Guide says the right level of public involvement can make or break the legitimacy of a PPP program and contributes to good governance (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "A government wants to publish its signed PPP contracts, but the private partners fear revealing trade secrets. What approach does the Guide describe?",
+      "options": [
+        "Publish nothing, since contracts are private commercial documents",
+        "Publish everything, including the bidders' full financial models",
+        "Publish the contracts only once they have expired or ended",
+        "Publish the contracts but leave out the commercially sensitive parts"
+      ],
+      "answer": 3,
+      "explanation": "Governments can require disclosure of key clauses or whole contracts, typically excluding commercially sensitive elements; Victoria publishes all PPP contracts (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "In British Columbia, when are the redacted project agreement and the project summary report disclosed?",
+      "options": [
+        "As soon as possible after financial close",
+        "Only when someone files a formal request",
+        "Before the request for qualifications is issued",
+        "Only after the contract has expired"
+      ],
+      "answer": 0,
+      "explanation": "In British Columbia and most of Canada, requests for quotes and proposals are disclosed during procurement, and the redacted project agreement and a project summary report as soon as possible after financial close (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "Besides publishing its PPP contracts, what else does the state of Victoria require for each project?",
+      "options": [
+        "A parliamentary vote on each contract before signing",
+        "A project summary of key features and commercial terms",
+        "A fairness advisor's report on every contract variation",
+        "A public referendum on each project above a threshold"
+      ],
+      "answer": 1,
+      "explanation": "Victoria publishes all PPP contracts and also requires a project summary giving key project features and commercial terms (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "Consider two statements. 1: Many governments withhold key commercial terms when they publish PPP information. 2: The Guide says complete transparency can increase public trust, so it should be considered.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both are true. The Guide notes that many governments withhold key commercial terms, but complete transparency can increase public trust in the program and should be considered (Ch 2 §1.9.3)."
+    },
+    {
+      "question": "In one country, PPP information is released only when journalists file Freedom of Information requests. What does the Guide recommend?",
+      "options": [
+        "Close the Freedom of Information route for PPP documents",
+        "Rely on audit reports as the only public source of information",
+        "Institutionalise proactive disclosure through a specific framework",
+        "Release only the government's audited financial statements"
+      ],
+      "answer": 2,
+      "explanation": "Reactive disclosure is more common, and the main challenge is developing proactive disclosure; the Guide says disclosure should be institutionalised through a specific framework (Box 2.36)."
+    },
+    {
+      "question": "During a tender, a ministry posts the RFQ and RFP documents on its website on its own initiative. How is this disclosure classified?",
+      "options": [
+        "Reactive, pre-procurement disclosure",
+        "Proactive, post-procurement disclosure",
+        "Reactive, post-procurement disclosure",
+        "Proactive, pre-procurement disclosure"
+      ],
+      "answer": 3,
+      "explanation": "Information published without a request is proactive, and information disclosed before the contract is signed is pre-procurement (Box 2.36)."
+    },
+    {
+      "question": "Which factor does the Guide describe as paramount in promoting PPP information disclosure?",
+      "options": [
+        "An FOI law that requires proactive disclosure and applies to PPPs",
+        "Full adoption of accrual IPSAS by the central government",
+        "The creation of a PPP unit inside the Ministry of Finance",
+        "A high sovereign credit rating from international agencies"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.36 says a paramount factor is Freedom of Information legislation, or equivalent, that mandates proactive disclosure and applies to PPPs. The other key factor is pressure to create new infrastructure."
+    },
+    {
+      "question": "According to the Guide, why did PPP disclosure practices develop especially fast in Colombia?",
+      "options": [
+        "A requirement coming from European Union membership rules",
+        "Pressure to build new infrastructure and attract private investors",
+        "Conditions attached to a single large donor loan agreement",
+        "The very small number of PPP projects being procured there"
+      ],
+      "answer": 1,
+      "explanation": "Box 2.36 links the 'imperative and pressure to create new infrastructure' to increasing private involvement and reducing corruption, and says this may explain faster disclosure in some emerging countries, Colombia in particular."
+    },
+    {
+      "question": "Which is NOT one of the challenges to effective PPP disclosure listed in the Guide?",
+      "options": [
+        "Reluctance of public bodies to share without a clear mandate",
+        "Lack of clarity on disclosure rules specific to PPPs",
+        "A lack of interest in PPPs from the media",
+        "Confidentiality concerns about contracts and private interests"
+      ],
+      "answer": 2,
+      "explanation": "Box 2.36 lists reluctance without a mandate, lack of clarity on PPP-specific disclosure, and confidentiality issues. Media interest is not named as a challenge; an active media is part of how transparency works."
+    },
+    {
+      "question": "A government has a general disclosure policy and asks whether PPPs need anything more. What does the Guide say?",
+      "options": [
+        "No: the general policy is enough, as its broad elements are the same",
+        "No: PPPs are exempt, because contracts are commercially confidential",
+        "Yes: PPPs need a policy only for the pre-procurement phase",
+        "Yes: long, complex, multi-stakeholder PPPs need a more detailed policy"
+      ],
+      "answer": 3,
+      "explanation": "A PPP disclosure framework shares the broad elements of any policy, but the long contract period, complex structure and many stakeholders mean it must go beyond a general policy in detail (Box 2.36)."
+    },
+    {
+      "question": "A country is designing its PPP disclosure framework. Which combination of tools does the Guide see as the strongest?",
+      "options": [
+        "FOI law with proactive duties, PPP guidance, standard clauses and templates",
+        "A reactive FOI law alone, with each request handled case by case",
+        "Confidentiality agreements with every bidder and no publication at all",
+        "Occasional press releases issued by the procuring authority on progress"
+      ],
+      "answer": 0,
+      "explanation": "Box 2.36 says FOI Acts, preferably with proactive requirements, together with PPP-specific legislation or guidance, guidance on confidential information, standard contract clauses and templates, form the suite that enables sound disclosure."
+    },
+    {
+      "question": "A new PPP program attracts only a few opportunistic bidders. From a transparency point of view, what does the Guide suggest would draw serious investors?",
+      "options": [
+        "Keeping project studies secret until a single bidder is chosen",
+        "Rules that protect fairness and give access to useful project data",
+        "Offering higher guarantees without publishing the tender rules",
+        "Negotiating directly with firms that approach the government"
+      ],
+      "answer": 1,
+      "explanation": "Box 2.36 says the private sector will only engage on a significant scale, not opportunistically, if procurement rules protect transparency and fairness and give access to meaningful information and studies."
+    },
+    {
+      "question": "Which describes the two sources of corruption risk in high-value PPP transactions named in the Guide?",
+      "options": [
+        "Lenders refusing finance; sponsors leaving the project company",
+        "Users refusing to pay tolls; operators cutting service quality",
+        "Private players influencing deals; officials profiting from office",
+        "Auditors leaking data; journalists publishing contract terms"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says private players may try to improperly influence transactions, and public officials may try to extract private profit from public office (Ch 2 §1.9.4)."
+    },
+    {
+      "question": "Under Victoria's policy described in the Guide, when is independent probity advice required?",
+      "options": [
+        "On every public purchase, whatever its size or complexity",
+        "Only when a losing bidder files a formal complaint",
+        "Only when a foreign company is among the bidders",
+        "Where procurement complexity warrants independent oversight"
+      ],
+      "answer": 3,
+      "explanation": "The Victorian government requires independent probity advice 'where the complexity of the procurement activity warrants independent process oversight' (Ch 2 §1.9.4)."
+    },
+    {
+      "question": "During a PPP tender in British Columbia, a question arises whether a bidding team member has a conflict of interest. Who gives an opinion on this issue?",
+      "options": [
+        "The conflict-of-interest advisor",
+        "The provincial auditor-general",
+        "The lenders' technical advisor",
+        "A committee of the legislature"
+      ],
+      "answer": 0,
+      "explanation": "In British Columbia, besides the fairness advisor used on every PPP, a Conflict-of-Interest Advisor gives opinions on conflicts of interest that may arise with bidding teams (Ch 2 §1.9.4)."
+    },
+    {
+      "question": "A citizen writes to a public procurement watchdog, claiming a gas terminal project was directly negotiated without competition. What does the Guide's Jamaica case show can happen?",
+      "options": [
+        "Only a court can review the process, after the contract is signed",
+        "The watchdog can investigate the whole procurement and every actor",
+        "Citizens cannot trigger a review; only parliament can do that",
+        "The watchdog can review only the project company's accounts"
+      ],
+      "answer": 1,
+      "explanation": "In Jamaica, a 'concerned citizen' letter prompted the Contractor General to investigate the whole procurement process, examining each actor and highlighting potential conflicts of interest (Box 2.37)."
+    },
+    {
+      "question": "Which describes when probity advisors can be engaged in the PPP process, according to the Guide's overview?",
+      "options": [
+        "Only after signing, to audit the project company's accounts",
+        "Only during operation, to monitor service quality for users",
+        "At each stage, to spot and minimise real or perceived conflicts",
+        "Only when the legislature must approve the final contract"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says probity advisors can be engaged at each stage to identify and minimise any real or perceived conflicts of interest (Ch 2 §1.9)."
+    },
+    {
+      "question": "A government asks for the single measure that will remove corruption risk from its PPP program. What does the Guide's approach suggest?",
+      "options": [
+        "Rely on one fairness advisor to check every PPP tender",
+        "Rely on signed integrity declarations from each bidder",
+        "Rely on confidential negotiations to prevent leaks",
+        "Combine clear processes, oversight, transparency and probity"
+      ],
+      "answer": 3,
+      "explanation": "The Guide says corruption is minimised by clear processes and criteria, clear responsibilities, accountability, oversight by the legislature and audit bodies, transparency and public involvement, strengthened by probity advisors and watchdogs (Ch 2 §1.9.4)."
+    },
+    {
+      "question": "Consider two statements. 1: Proactive disclosure is already the most common type in existing PPP frameworks. 2: Governments must keep information available to be audited, including on the fairness of the procurement process.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 1,
+      "explanation": "Statement 1 is false: reactive disclosure is more common, and proactive disclosure is the main challenge. Statement 2 is true: accountability means information must be available to be audited, including on the fairness of the process (Box 2.36)."
     }
   ]
 }

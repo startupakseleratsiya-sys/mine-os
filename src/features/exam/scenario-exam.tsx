@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, Clock3, FileText, Flag, XCircle } from "lucide-react";
-import { saveScenarioAttempt } from "@/app/actions/exam";
+import { startScenario, submitScenario, type SubmitScenarioResult } from "@/app/actions/mock";
+import { withKey } from "@/lib/exam-public";
 import {
   LETTERS,
   TYPE_LABEL,
@@ -13,7 +14,6 @@ import {
   isAnswered,
   isLineCorrect,
   maskOf,
-  scenarioPassed,
   scorePaper,
   type Response,
   type ScenarioLine,
@@ -24,7 +24,7 @@ import {
 import { Markdown } from "./markdown";
 
 type Mode = "mock" | "practice";
-type Saved = { responses: Record<string, Response>; flags: string[]; endsAt: number; startedAt: string; extra: boolean };
+type Saved = { attemptId: string; responses: Record<string, Response>; flags: string[]; endsAt: number; startedAt: string; extra: boolean };
 
 function formatClock(ms: number) {
   const s = Math.max(0, Math.ceil(ms / 1000));
@@ -45,7 +45,8 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
   const [restored] = useState<Saved | null>(() => {
     try {
       const raw = localStorage.getItem(storageKey);
-      return raw ? (JSON.parse(raw) as Saved) : null;
+      const s = raw ? (JSON.parse(raw) as Saved) : null;
+      return s?.attemptId ? s : null;
     } catch {
       return null;
     }
@@ -62,50 +63,42 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
   const [showCase, setShowCase] = useState(false);
   const [endsAt, setEndsAt] = useState(restored?.endsAt ?? 0);
   const [startedAt, setStartedAt] = useState(restored?.startedAt ?? "");
+  const [attemptId, setAttemptId] = useState(restored?.attemptId ?? "");
+  const [result, setResult] = useState<SubmitScenarioResult | null>(null);
+  const [startError, setStartError] = useState("");
+  const [starting, startStarting] = useTransition();
   const [now, setNow] = useState(() => Date.now());
   const [confirming, setConfirming] = useState(false);
-  const [saveState, setSaveState] = useState<"idle" | "saved" | "error">("idle");
-  const [saveError, setSaveError] = useState("");
   const [finishedAt, setFinishedAt] = useState(0);
   const [pending, startTransition] = useTransition();
 
   useEffect(() => {
     if (phase !== "exam") return;
     try {
-      localStorage.setItem(storageKey, JSON.stringify({ responses, flags, endsAt, startedAt, extra } satisfies Saved));
+      localStorage.setItem(storageKey, JSON.stringify({ attemptId, responses, flags, endsAt, startedAt, extra } satisfies Saved));
     } catch {
       /* saqlab bo'lmasa ham davom etadi */
     }
-  }, [phase, responses, flags, endsAt, startedAt, extra, storageKey]);
+  }, [phase, attemptId, responses, flags, endsAt, startedAt, extra, storageKey]);
 
   const finish = useCallback(() => {
+    if (!attemptId) return;
     setPhase("result");
     setConfirming(false);
-    const end = Date.now();
-    setFinishedAt(end);
-    try {
-      localStorage.removeItem(storageKey);
-    } catch {
-      /* e'tiborsiz */
-    }
+    setFinishedAt(Date.now());
     window.scrollTo({ top: 0 });
     startTransition(async () => {
-      const res = await saveScenarioAttempt({
-        level: spec.slug,
-        paperId: paper.id,
-        mode,
-        questions: questionNumbers,
-        responses,
-        startedAt: startedAt || undefined,
-        durationSeconds: startedAt ? Math.round((end - new Date(startedAt).getTime()) / 1000) : undefined,
-      });
-      if (res.ok) setSaveState("saved");
-      else {
-        setSaveState("error");
-        setSaveError(res.error);
+      const res = await submitScenario({ attemptId, responses });
+      setResult(res);
+      if (res.ok) {
+        try {
+          localStorage.removeItem(storageKey);
+        } catch {
+          /* e'tiborsiz */
+        }
       }
     });
-  }, [mode, paper.id, questionNumbers, responses, spec.slug, startedAt, storageKey]);
+  }, [attemptId, responses, storageKey]);
 
   const finishRef = useRef(finish);
   useEffect(() => {
@@ -125,7 +118,9 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
   const setResponse = (lineId: string, value: Response) => setResponses((r) => ({ ...r, [lineId]: value }));
   const answeredIn = (qn: number) => lines.filter((l) => l.question.number === qn && isAnswered(l.part.type, responses[l.line.id] ?? null)).length;
   const answeredAll = lines.filter((l) => isAnswered(l.part.type, responses[l.line.id] ?? null)).length;
-  const score = useMemo(() => scorePaper(paper, responses, questionNumbers), [paper, responses, questionNumbers]);
+  // Kalit faqat topshirilgach serverdan keladi — natija sahifasi shu kalitli nusxa bilan chiziladi.
+  const keyed = useMemo(() => (result?.ok ? withKey(paper, result.key) : paper), [paper, result]);
+  const score = useMemo(() => scorePaper(keyed, responses, questionNumbers), [keyed, responses, questionNumbers]);
 
   if (phase === "intro") {
     const minutes = baseMinutes + (extra ? extraMinutes : 0);
@@ -162,23 +157,45 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
         </label>
         <button
           type="button"
-          onClick={() => {
-            const start = new Date();
-            setStartedAt(start.toISOString());
-            setEndsAt(start.getTime() + minutes * 60_000);
-            setNow(start.getTime());
-            setPhase("exam");
-          }}
+          disabled={starting}
+          onClick={() =>
+            startStarting(async () => {
+              setStartError("");
+              const r = await startScenario({ level: spec.slug, paperId: paper.id, mode, questions: questionNumbers, extra });
+              if (!r.ok) return setStartError(r.error);
+              setAttemptId(r.attemptId);
+              setStartedAt(r.startedAt);
+              setEndsAt(r.endsAt);
+              setNow(Date.now());
+              setPhase("exam");
+            })
+          }
           className="mt-8 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[#163e32] px-6 font-semibold text-white hover:bg-[#0e3026]"
         >
           {mode === "mock" ? "Start the exam" : "Start the question"} <ArrowRight className="size-4" />
         </button>
+        {startError && <p className="mt-3 text-sm font-semibold text-red-700">{startError}</p>}
       </div>
     );
   }
 
   if (phase === "result") {
-    const pass = scenarioPassed(spec, score.correct, score.total);
+    if (!result || !result.ok) {
+      return (
+        <div className="mx-auto max-w-2xl rounded-3xl border border-[#13251f]/10 bg-white p-6 sm:p-10">
+          {pending || !result ? (
+            <p className="text-lg font-semibold">Marking your answers…</p>
+          ) : (
+            <>
+              <p className="font-semibold text-red-700">Could not submit: {result.error}</p>
+              <p className="mt-1 text-sm text-[#65736d]">Your answers are kept on this device.</p>
+              <button type="button" onClick={finish} className="mt-4 inline-flex min-h-11 items-center rounded-xl bg-[#163e32] px-5 font-semibold text-white">Try again</button>
+            </>
+          )}
+        </div>
+      );
+    }
+    const pass = result.passed;
     const took = startedAt && finishedAt ? formatClock(finishedAt - new Date(startedAt).getTime()) : null;
     const areaTitle = Object.fromEntries(spec.areas.map((a) => [a.id, a.title]));
     return (
@@ -189,7 +206,7 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
           <p className="mt-2 text-lg font-medium">{pass ? (mode === "mock" ? "Pass — well done." : "Above the pass line.") : `Below the pass line (${mode === "mock" ? `${spec.passMark}/${spec.marks}` : "50%"}).`}</p>
           <p className="mt-2 text-sm opacity-80">
             {Math.round((score.correct / Math.max(score.total, 1)) * 100)}% correct{took ? ` · time used ${took}` : ""}
-            {pending ? " · saving…" : saveState === "saved" ? " · saved to your results" : saveState === "error" ? ` · not saved: ${saveError}` : ""}
+            {" · saved to your results"}{result.late ? " · submitted after the time limit, so it does not count as a pass" : ""}
           </p>
           <p className="mt-4 max-w-xl text-sm opacity-80">Aim for 60% or more on unseen papers before booking. Read every explanation below — most lost marks come from the same few misreadings.</p>
         </section>
@@ -201,7 +218,7 @@ export function ScenarioExam({ spec, paper, mode, questionNumbers }: { spec: Sce
 
         <section className="space-y-8">
           <h3 className="text-lg font-semibold">Review every line</h3>
-          {questions.map((q) => (
+          {keyed.questions.filter((q) => questionNumbers.includes(q.number)).map((q) => (
             <div key={q.number} className="space-y-4">
               <h4 className="font-semibold">Question {q.number} · {q.area} — {q.title}</h4>
               {q.additionalInfo && (
@@ -407,12 +424,18 @@ function LineView({ n, part, line, value, onChange, reveal, flagged, onFlag }: {
   const correct = isLineCorrect(part.type, line, value);
   const keyIdx = Array.isArray(line.answer) ? line.answer : [line.answer];
   const chosenIdx = value === null ? [] : multi ? indexesOf(value) : [value];
+  const [tooMany, setTooMany] = useState(false);
 
   const toggle = (i: number) => {
     if (!onChange) return;
     if (!multi) return onChange(value === i ? null : i);
     const cur = chosenIdx.includes(i) ? chosenIdx.filter((x) => x !== i) : [...chosenIdx, i];
-    if (cur.length > 2) return; // imtihondagidek: aynan 2 ta
+    if (cur.length > 2) {
+      // imtihondagidek: aynan 2 ta — uchinchisini bosganda nima qilish kerakligini aytamiz
+      setTooMany(true);
+      return;
+    }
+    setTooMany(false);
     onChange(cur.length ? maskOf(cur) : null);
   };
 
@@ -422,7 +445,7 @@ function LineView({ n, part, line, value, onChange, reveal, flagged, onFlag }: {
         <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full bg-[#f3f1eb] text-sm font-semibold">{n}</span>
         <div className="min-w-0 flex-1">
           <p className="whitespace-pre-line leading-7">{line.stem}</p>
-          {multi && !reveal && <p className="mt-1 text-xs font-semibold text-[#527264]">Select 2 · {chosenIdx.length}/2 selected</p>}
+          {multi && !reveal && <p className={`mt-1 text-xs font-semibold ${tooMany ? "text-red-700" : "text-[#527264]"}`}>{tooMany ? "Only 2 answers — unselect one first." : `Select 2 · ${chosenIdx.length}/2 selected`}</p>}
           {shared ? (
             <div className="mt-3 flex flex-wrap gap-2" role="radiogroup" aria-label={`Line ${n} answer`}>
               {(part.columnOptions ?? []).map((_, i) => {

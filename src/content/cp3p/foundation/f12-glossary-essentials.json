@@ -300,6 +300,446 @@
       ],
       "answer": 1,
       "explanation": "Termination for convenience, also called unilateral termination, is used without any default, on public interest grounds. Persistent breach and contract default are failures by the private partner that may lead to termination."
+    },
+    {
+      "question": "Which of the following is NOT one of the features of a private finance PPP in the Guide's definition?",
+      "options": [
+        "The private party bears significant risk and management responsibility",
+        "Ownership of the asset passes permanently to the private party",
+        "The private party provides significant finance at its own risk",
+        "Pay is significantly linked to performance and/or demand"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary defines a private finance PPP by long-term contract, significant private risk and management responsibility, private finance at risk, and pay linked to performance or demand. A permanent transfer of ownership is privatization, not a PPP."
+    },
+    {
+      "question": "A hospital PPP's private partner is paid monthly from the health ministry's budget, with deductions for poor service. What type of PPP is this?",
+      "options": [
+        "A user-pays PPP",
+        "An institutional PPP",
+        "A privatization scheme",
+        "A government-pays PPP"
+      ],
+      "answer": 3,
+      "explanation": "In a government-pays PPP the private partner's revenue comes from budget payments, usually linked to performance or use (Glossary). In a user-pays PPP most revenue comes from users such as patients or drivers."
+    },
+    {
+      "question": "A toll road PPP earns 70% of its revenue from tolls and 30% from a government subsidy. How does the Guide classify it?",
+      "options": [
+        "As government-pays, because there is a public payment",
+        "As a DBF contract, because the government contributes",
+        "As not a PPP at all, because its revenue is hybrid",
+        "As user-pays, because most of its revenue comes from users"
+      ],
+      "answer": 3,
+      "explanation": "The Guide treats any PPP where the majority of revenue comes from users as user-pays, even if revenue is hybrid and includes some public payments (Glossary: user-pays PPP)."
+    },
+    {
+      "question": "A study guide asks for the Glossary meaning of 'concession'. Which answer is correct?",
+      "options": [
+        "A permanent sale of a public asset to a private company for cash",
+        "A grant of economic rights over a public asset, in administrative law",
+        "A short-term contract to clean and guard a public school building",
+        "A government loan at below-market interest rates to a new SPV"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary defines a concession as a grant of economic rights of a public asset in an administrative law jurisdiction, and notes the word is also used for PPPs where most revenue comes from users. A permanent sale is privatization."
+    },
+    {
+      "question": "Consider two statements. 1. DBFOM and DBFM are the only contract scopes that can fulfil all the conditions of a PPP. 2. Every DBFOM contract is automatically a true PPP, whatever its risk transfer.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Glossary says DBFOM and DBFM are the only scopes that fulfil all PPP conditions, but whether a DBFOM is a true PPP depends on effective risk transfer and the link between performance and revenue. So only statement 1 is true."
+    },
+    {
+      "question": "A contractor designs and builds a school, finances the works, and is then paid fixed, unconditional instalments for 15 years. The ministry maintains the school itself. Which contract is this?",
+      "options": [
+        "DBFOM (Design-Build-Finance-Operate-Maintain)",
+        "DBF (Design-Build-Finance)",
+        "DBFM (Design-Build-Finance-Maintain)",
+        "DBOM (Design-Build-Operate-Maintain)"
+      ],
+      "answer": 1,
+      "explanation": "In a DBF contract the contractor finances the works and is paid by long-term, usually unconditional payments, while operation and maintenance stay with the government (Glossary). DBFM and DBFOM would transfer maintenance too."
+    },
+    {
+      "question": "A city and a private firm create a company to run the city's bus depots; the city holds 60% of the shares. What is this structure called?",
+      "options": [
+        "A privatization",
+        "An unsolicited proposal",
+        "A user-pays concession",
+        "An institutional PPP"
+      ],
+      "answer": 3,
+      "explanation": "An institutional PPP is a form of joint venture in which the government controls the PPP company, usually with a majority of shares (Glossary). The city keeps ownership and control, so this is not a privatization."
+    },
+    {
+      "question": "A construction group approaches a ministry with its own idea for a port PPP, without any request from the government. What is this called?",
+      "options": [
+        "A market sounding",
+        "A Submission of Qualifications",
+        "A competitive dialogue",
+        "An unsolicited proposal"
+      ],
+      "answer": 3,
+      "explanation": "An unsolicited proposal is made at the private firm's own initiative, not in response to a government request (Glossary). A Submission of Qualifications answers a government RFQ."
+    },
+    {
+      "question": "A ministry asks: 'Is this bridge a good project, and are we willing and able to fund it, after counting expected tolls, however it is procured?' Which decision is this?",
+      "options": [
+        "The procurement decision",
+        "The investment decision",
+        "The green light decision",
+        "The award decision"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary defines the investment decision as whether the project is good and the government is willing and able to fund it, after user fees, regardless of procurement. The procurement decision asks whether PPP gives better VfM."
+    },
+    {
+      "question": "How does the Glossary define the green light decision?",
+      "options": [
+        "The decision to award the contract to the preferred bidder",
+        "The decision to procure, taken after appraisal and confirmed after drafting",
+        "The lenders' decision to release the funds at financial close",
+        "The authority's decision to accept the asset at commissioning"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary says the green light decision is the authority's decision to procure the project, usually at the end of appraisal, confirmed after the tender package is structured and drafted. Award comes later, at the end of the tender."
+    },
+    {
+      "question": "A government publishes a document naming health and transport as priority PPP sectors and setting out plans for future projects not yet identified. What is this document mainly describing?",
+      "options": [
+        "Its PPP pipeline",
+        "Its PPP screening report",
+        "Its PPP program",
+        "Its PPP contract structure"
+      ],
+      "answer": 2,
+      "explanation": "A PPP program goes beyond the pipeline to include future, unidentified projects and priority sectors (Glossary). A pipeline is only a list of projects being considered over a set time frame."
+    },
+    {
+      "question": "Consider two statements. 1. A PPP pipeline is a list of projects the government is considering as PPPs over a set time frame. 2. The PPP framework is the rules, procedures and institutional responsibilities that decide how PPPs are selected, implemented and managed.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Both statements match the Glossary definitions of PPP pipeline and PPP framework. Remember: pipeline is the list, program is the plan, framework is the rules."
+    },
+    {
+      "question": "At which two points in the project cycle can VfM in the PPP context be tested, according to the Glossary?",
+      "options": [
+        "At commercial close, and again at hand-back of the asset",
+        "During construction, and again during operations",
+        "At market sounding, and again at financial close",
+        "During appraisal and structuring, and during bid evaluation"
+      ],
+      "answer": 3,
+      "explanation": "The Glossary says VfM can be tested during appraisal and structuring, to see if PPP is a supportable procurement option, and during bid evaluation, to see if bids beat conventional procurement."
+    },
+    {
+      "question": "According to the Glossary, a positive VfM from the PPP option comes from which combination?",
+      "options": [
+        "Lower interest rates, tax exemptions and higher user tariffs",
+        "Off-balance-sheet treatment and deferred government payments",
+        "The lowest construction price and a shorter contract term",
+        "Efficiency and innovation, risk transfer, whole life cost and service"
+      ],
+      "answer": 3,
+      "explanation": "The Glossary says VfM from a PPP results from private sector efficiency and innovation, risk transfer, whole life cost and the service provided. Off-balance-sheet treatment is not a source of VfM."
+    },
+    {
+      "question": "A ministry of finance checks whether future availability payments for a PPP will fit within its budget limits over the years. Which test is it doing?",
+      "options": [
+        "Affordability",
+        "Bankability",
+        "Cost-benefit analysis",
+        "Market sounding"
+      ],
+      "answer": 0,
+      "explanation": "Affordability is the ability of a project to be realistically accommodated within the government's budget constraints over time (Glossary). Bankability is about whether lenders will accept the project."
+    },
+    {
+      "question": "Consider two statements. 1. Commercial feasibility checks whether the project will attract quality bidders, investors and lenders. 2. In the Glossary, 'financial feasibility' is another name for affordability.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Statement 1 matches the Glossary definition of commercial feasibility, which also includes financial feasibility. 'Fiscal feasibility', not financial feasibility, is the other name for affordability, so statement 2 is false."
+    },
+    {
+      "question": "Lenders conclude that a project's future cash flows are sufficient and reliable enough to support long-term project finance loans. What quality does the project have?",
+      "options": [
+        "Affordability",
+        "Bankability",
+        "Value for Money",
+        "A contingent liability"
+      ],
+      "answer": 1,
+      "explanation": "Bankability is the ability of a project to be accepted by lenders under project finance, based on the sufficiency and reliability of future cash flows (Glossary). Affordability concerns the government's budget."
+    },
+    {
+      "question": "An analyst uses adjusted economic flows to test whether a new rail line is worth doing for society, without looking at how it will be procured. What tool is she using?",
+      "options": [
+        "Public Sector Comparator (PSC)",
+        "Affordability analysis",
+        "Cost-Benefit Analysis (CBA)",
+        "The project financial model"
+      ],
+      "answer": 2,
+      "explanation": "CBA compares options using adjusted economic flows, mainly to assess socioeconomic value regardless of the procurement method (Glossary). The PSC compares procurement methods."
+    },
+    {
+      "question": "A road authority's forecast assumes traffic will double in three years, although similar roads grew slowly. Which term describes this problem?",
+      "options": [
+        "Demand risk guarantee",
+        "Retained risk",
+        "Temerity",
+        "Optimism bias"
+      ],
+      "answer": 3,
+      "explanation": "Optimism bias makes people believe they are less at risk of a negative outcome; the Glossary's own example is an unrealistic traffic forecast. Temerity describes a reckless bid by a bidder."
+    },
+    {
+      "question": "The government promises to pay the SPV if traffic falls below a minimum level. Why is this a contingent liability?",
+      "options": [
+        "Payment is triggered only if an uncertain future event happens",
+        "Payment is certain and fixed from the start of the contract",
+        "It is paid by the users, not by the government budget",
+        "It is recorded as senior debt in the SPV's balance sheet"
+      ],
+      "answer": 0,
+      "explanation": "Contingent liabilities are obligations triggered by a discrete but uncertain future event, such as a minimum traffic guarantee being called (Glossary). Payments that are certain are direct liabilities."
+    },
+    {
+      "question": "Consider two statements. 1. An SPV is a company with no activity other than the project, and no financial or operating history. 2. The SPV is also called the project company or the private partner.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Glossary says an SPV has no activity other than the project and no historical record the government can assess, and that the term also covers 'private partner' and 'project company'. Both statements are true."
+    },
+    {
+      "question": "A project has two loans. Loan X is repaid first and its lenders have priority decision powers; Loan Y is repaid only after Loan X. Which is correct?",
+      "options": [
+        "X is subordinated debt and Y is senior debt",
+        "X is senior debt and Y is subordinated debt",
+        "Both loans are equity, as they depend on cash flow",
+        "Y is the safer loan, so it earns a lower return"
+      ],
+      "answer": 1,
+      "explanation": "Senior debt has first priority for repayment and priority decision powers; subordinated (junior or mezzanine) debt is repaid after it, so it is riskier (Glossary)."
+    },
+    {
+      "question": "What does the Weighted Average Cost of Capital (WACC) measure?",
+      "options": [
+        "The interest rate paid on the project's senior debt only",
+        "The ratio of the SPV's debt to the value of its equity",
+        "The average cost of all private finance, weighting equity and debt",
+        "The discount rate the government uses in its CBA"
+      ],
+      "answer": 2,
+      "explanation": "The Glossary defines WACC as the average cost of all private financing resources, weighted between the cost of equity and the cost of debt. The ratio of debt to equity is gearing."
+    },
+    {
+      "question": "In one year, a project's cash flow available for debt service is 12 million and its debt service due is 10 million. What is the DSCR, and what does it show?",
+      "options": [
+        "0.83; the project cannot fully pay its lenders",
+        "2.2; the project has repaid all of its debt",
+        "1.2; the project must pay 20% more interest",
+        "1.2; the project can cover its debt service with a margin"
+      ],
+      "answer": 3,
+      "explanation": "DSCR is cash flow available for debt service divided by debt service due: 12 / 10 = 1.2 (Glossary). A ratio above 1 means the project can pay its lenders, and a higher ratio means a better ability to pay."
+    },
+    {
+      "question": "Consider two statements. 1. Step-in rights can belong to the government as well as to the lenders. 2. Step-in means taking over a party's contract responsibilities only after the contract has been terminated.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Glossary defines step-in as the government's or the lender's option to take over a party's contractual responsibilities when that party is not meeting its obligations. It is used to keep the contract running, not after termination, so statement 2 is false."
+    },
+    {
+      "question": "Before finalising the structure, an authority meets investors and lenders to test their interest in, and reaction to, the proposed project. What is this?",
+      "options": [
+        "Market sounding",
+        "Competitive dialogue",
+        "Pre-qualification",
+        "Lenders' due diligence"
+      ],
+      "answer": 0,
+      "explanation": "Market sounding, or market testing, assesses the market's reaction to a proposed project and its level of interest (Glossary). Competitive dialogue happens later, during the tender, with shortlisted candidates."
+    },
+    {
+      "question": "What is a bidder's response to a Request for Qualifications (RFQ) called?",
+      "options": [
+        "A Best and Final Offer (BAFO)",
+        "A Submission of Qualifications (SoQ)",
+        "An Invitation to Propose (ITP)",
+        "A Heads of Terms (HOT)"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary says the response to the RFQ is the Submission of Qualifications, also called a submission of Expression of Interest. The ITP is issued by the authority, not by bidders."
+    },
+    {
+      "question": "Consider two statements. 1. The RFP sets out what bidders must submit, the evaluation criteria and the PPP contract to be signed. 2. In a one-stage open tender, the RFQ rules are included in the RFP.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "The Glossary defines the RFP by these three contents, and says that in one-stage open tenders the RFQ contents are embedded in the RFP. Both statements are true."
+    },
+    {
+      "question": "According to the Glossary, how does an interactive tender process differ from competitive dialogue?",
+      "options": [
+        "An interactive process has no shortlist of bidders at all",
+        "Only competitive dialogue allows one-to-one meetings",
+        "The RFP is largely defined at the start, and talks mainly clarify it",
+        "An interactive process ends without any final bid"
+      ],
+      "answer": 2,
+      "explanation": "In an interactive process the RFP is fully or substantially defined when interaction starts, and the talks help bidders understand it rather than change it. Both processes use one-to-one meetings with shortlisted bidders."
+    },
+    {
+      "question": "A bidder gives the authority a bank guarantee that it will go ahead with the contract if it is selected. When is this guarantee generally returned to the winning bidder?",
+      "options": [
+        "As soon as the RFQ is first issued",
+        "At hand-back of the asset to the government",
+        "When the first KPI report is approved",
+        "On contract effectiveness or at financial close"
+      ],
+      "answer": 3,
+      "explanation": "This is a bid bond, also called a bid submission guarantee. The Glossary says it is generally returned to the successful bidder on effectiveness of the contract or on financial close."
+    },
+    {
+      "question": "Consider two statements. 1. In a two-stage tender, the RFP is issued only to bidders who have pre-qualified, or been shortlisted, after the RFQ. 2. Key Performance Indicators (KPIs) are used only to score bids during the tender.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Glossary says a two-stage tender issues the RFQ first and then the RFP only to pre-qualified or shortlisted bidders. KPIs measure the private party's performance during the operating term and may be the basis for payments, so statement 2 is false."
+    },
+    {
+      "question": "A contract says the authority will pay the SPV 50% of the extra costs caused by a specified event. How does the Glossary describe this?",
+      "options": [
+        "A compensation event in which the risk is shared",
+        "A relief event, because only half is paid",
+        "A force majeure event, because costs are split",
+        "A retained risk, fully borne by the government"
+      ],
+      "answer": 0,
+      "explanation": "The Glossary says compensation may be only partial, in which case the event may be referred to as a shared risk. A relief event gives protection from penalties, not money."
+    },
+    {
+      "question": "Which events does the term 'force majeure' cover in the Glossary?",
+      "options": [
+        "Any event caused by the private partner's own poor management of the works",
+        "External, unpredictable events beyond either party's control, as defined by law or contract",
+        "Any change in the government's policy priorities during the contract",
+        "Any delay caused by the construction subcontractor's lack of resources"
+      ],
+      "answer": 1,
+      "explanation": "Force majeure covers external, unpredictable events beyond the control of either party, such as natural disasters and often war or terrorism, as defined by law, policy or the contract. Events caused by the private side are its own risk."
+    },
+    {
+      "question": "A government-pays PPP contract sets how often the unitary payment is paid and how it is indexed to inflation. Which part of the contract is this?",
+      "options": [
+        "The direct agreement",
+        "The shareholders agreement",
+        "The payment mechanism",
+        "The output specifications"
+      ],
+      "answer": 2,
+      "explanation": "The payment mechanism sets the payment arrangements in government-pays PPPs, normally including timing and how payments vary over time, for example with inflation (Glossary). Output specifications define the required results."
+    },
+    {
+      "question": "A hospital's operating theatre is unavailable for two days, and the authority reduces its monthly payment to the SPV. What is this reduction called?",
+      "options": [
+        "A termination payment",
+        "A compensation event",
+        "A call on the bid bond",
+        "A payment deduction"
+      ],
+      "answer": 3,
+      "explanation": "Payment deductions, also called abatements, are the immediate way to penalise under-performance financially in government-pays PPPs (Glossary). A compensation event would pay money to the SPV, not reduce payments."
+    },
+    {
+      "question": "After 25 years, the SPV transfers a water plant, and responsibility for it, back to the city in the condition the contract requires. What is this called?",
+      "options": [
+        "Hand-back",
+        "Privatization",
+        "Refinancing",
+        "Commissioning"
+      ],
+      "answer": 0,
+      "explanation": "Hand-back is the transfer of the project assets, and responsibility for them, to the government on termination or expiry of the PPP contract (Glossary). Commissioning is testing at the end of construction."
+    },
+    {
+      "question": "What are 'conditions precedent' in a PPP?",
+      "options": [
+        "Conditions that bidders must meet to pass the pre-qualification",
+        "Conditions to meet before drawing debt or before contracts take effect",
+        "Conditions on the physical state of the asset at hand-back",
+        "Conditions that allow the government to terminate for convenience"
+      ],
+      "answer": 1,
+      "explanation": "The Glossary defines conditions precedent as conditions the project company must fulfil before drawing on the debt or before the project contracts become effective. Pass/fail criteria for bidders belong to pre-qualification."
+    },
+    {
+      "question": "Before the tender, an authority runs geotechnical tests and secures the site, so that these risks do not threaten the project. What does the Glossary call these activities?",
+      "options": [
+        "Appraisal",
+        "Market sounding",
+        "Project preparation",
+        "Commissioning"
+      ],
+      "answer": 2,
+      "explanation": "Project preparation is the set of activities by the government to mitigate project risks and advance its own responsibilities before the contract is tendered (Glossary). Appraisal is the series of feasibility exercises that inform the decision to approve the project."
+    },
+    {
+      "question": "Who is the 'sponsor' in a PPP bid?",
+      "options": [
+        "The government body that tenders and signs the PPP contract",
+        "A bank that provides only senior debt to the project company",
+        "An adviser who monitors the probity of the tender process",
+        "A private firm that leads the bid and usually stays invested"
+      ],
+      "answer": 3,
+      "explanation": "The Glossary defines sponsors as the private company or companies that lead bid preparation and usually remain during the contract until they may sell their equity. The government body is the procuring authority."
+    },
+    {
+      "question": "What is meant by 'project finance'?",
+      "options": [
+        "Long-term debt where the loan is based on the cash flow of the project alone",
+        "A government grant paid in stages during the construction period",
+        "A loan secured on the whole balance sheet of the sponsor companies",
+        "Short-term credit that covers the bidders' tender preparation costs"
+      ],
+      "answer": 0,
+      "explanation": "The Glossary defines project finance as a technique for long-term debt where the basis of the loan is the cash flow generated by the project alone. A grant during construction is co-financing by the government."
     }
   ]
 }

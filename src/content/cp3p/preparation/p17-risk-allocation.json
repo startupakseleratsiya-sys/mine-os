@@ -258,7 +258,7 @@
         "Commission a geotechnical study, share it with bidders and use it as a contract baseline"
       ],
       "answer": 3,
-      "explanation": "The public partner is best placed to do risk studies in advance and share them; a study can even set a baseline for compensation. Passing the study burden to bidders is bad practice that causes projects to fail."
+      "explanation": "The public partner is best placed to do risk studies in advance and share them with bidders, and a geotechnical study can even set the baseline that decides when compensation is due (Ch 5 §5.5). Leaving studies to bidders or skipping them loses this early mitigation."
     },
     {
       "question": "Which of the following is NOT one of the Guide's risk treatment strategies for risks retained by the public partner?",
@@ -303,6 +303,446 @@
       ],
       "answer": 0,
       "explanation": "The public partner monitors both retained and transferred risks because it has ultimate responsibility for the asset and service. For the same reason it always remains exposed to reputational risk, so statement 2 is false."
+    },
+    {
+      "question": "Which best describes risk allocation in a PPP?",
+      "options": [
+        "Pricing each risk into the winning bidder's financial model",
+        "Deciding which party will assume each risk, and to what extent",
+        "Buying insurance for all construction and operating risks",
+        "Listing every possible risk event in a long register"
+      ],
+      "answer": 1,
+      "explanation": "Risk allocation defines which party assumes each risk and to what extent (Ch 5 §5.1). Pricing, insurance and listing risks are other steps or tools, not the allocation itself."
+    },
+    {
+      "question": "During market sounding for a port PPP, lenders say they will not finance the project if the private partner carries the risk of new limits on currency convertibility. No bidder will accept it at any price. What should the authority conclude?",
+      "options": [
+        "The premium is simply high, so the risk should stay with the bidders",
+        "The market cannot assume this risk, so the authority should retain it",
+        "The authority should give more evaluation weight to the bid price",
+        "The project can only be procured as a traditional works contract"
+      ],
+      "answer": 1,
+      "explanation": "Some risks are simply not assumable by investors and lenders; when a transfer will be unacceptable, the risk should be retained (Ch 5 §5.1). Limits on convertibility are also on the Guide's list of government actions that should never be transferred (§5.6)."
+    },
+    {
+      "question": "To make the bid price look low, a procuring authority plans to force bidders to accept ground, demand and change-in-law risks that they say they cannot manage. What is the main danger the Guide warns about?",
+      "options": [
+        "Too many bids arriving and a much longer evaluation period",
+        "A lower risk premium in the bidders' equity IRR and tariffs",
+        "Serious project failure and unnecessary escalation of project costs",
+        "Loss of the authority's legal right to monitor the contract"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says the government should not push bidders too aggressively to accept risks they cannot manage, as this can cause serious project failure, and ill-considered transfers cause cost escalation (Ch 5 §5.1). Aggressive transfer raises premiums; it does not lower them."
+    },
+    {
+      "question": "An authority shared its draft risk structure with the market during appraisal. In structuring, it now wants to move a major risk from the government to the private partner. What should it do?",
+      "options": [
+        "Make the change quietly, because market sounding is never binding",
+        "Wait and make the change only after financial close",
+        "Cancel the tender and repeat the full screening phase",
+        "Avoid the material change, or explain it carefully and update the appraisal"
+      ],
+      "answer": 3,
+      "explanation": "When the risk structure was shared with the market, material changes should be avoided or carefully communicated, and relevant changes affect the financial base case, so VfM, commercial feasibility and affordability must be revisited (Ch 5 Box 5.16)."
+    },
+    {
+      "question": "In the Structuring Phase of a coastal road PPP, the team must deal with flood risk made worse by climate change. What does the Guide recommend at this stage?",
+      "options": [
+        "Model the expected hazard intensity, then allocate to the best manager",
+        "Leave climate risk out of the contract, since nobody can foresee it",
+        "Transfer all climate risk to the private partner, whatever the hazard",
+        "Retain every climate event, because no party can control the weather"
+      ],
+      "answer": 0,
+      "explanation": "At this stage climate-change risks should be assessed with advanced modelling based on the expected intensity of the hazard, then allocated to the party best able to manage them (Ch 5 Box 5.16). Blanket transfer or blanket retention ignores that test."
+    },
+    {
+      "question": "In theory, where is the optimum point of risk allocation?",
+      "options": [
+        "Where the private partner carries every risk in the register",
+        "Where moving one more risk in either direction would reduce VfM",
+        "Where the risk premium is zero for all the transferred risks",
+        "Where each party carries exactly half of every project risk"
+      ],
+      "answer": 1,
+      "explanation": "The optimum is where the marginal VfM of changing the allocation becomes negative: taking back or transferring one more risk would lower VfM (Ch 5 §5.1, Figure 5.8). Full transfer can lead to no bids."
+    },
+    {
+      "question": "A team cannot measure how much a private operator's management skill would reduce a certain operating risk. According to the Guide, what should the analyst mainly rely on?",
+      "options": [
+        "A full probabilistic simulation, whatever the quality of data",
+        "The accounting treatment that keeps the asset off balance sheet",
+        "Precedents, common practice and judgment about who manages it better",
+        "The lowest risk premium seen in earlier tenders in other countries"
+      ],
+      "answer": 2,
+      "explanation": "Because innovation and management capability are hard to quantify, the analyst relies on precedents and judgment, asking whether the private partner can manage the risk more efficiently than the public partner (Ch 5 §5.1)."
+    },
+    {
+      "question": "The OECD, as cited in the Guide, says risk should go to the party 'best able to carry it'. What does this phrase mean?",
+      "options": [
+        "The party with the largest balance sheet",
+        "The party that will own the asset at hand-back",
+        "The party that first identified the risk",
+        "The party that can carry the risk at the least cost"
+      ],
+      "answer": 3,
+      "explanation": "The OECD clarifies that 'best able to carry it' means the party that can carry the risk at the least cost (Ch 5 §5.1). Size of balance sheet or ownership of the asset is not the test."
+    },
+    {
+      "question": "Consider two statements. 1: 'Best able to manage a risk' always means the party that can prevent the risk from happening. 2: What the OECD calls 'risk profiling' means listing every risk event in a register.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 3,
+      "explanation": "The OECD notes that 'best able to manage' can mean the party that can prevent the risk or the party that can best deal with its consequences, so statement 1 is false. Risk profiling is the ability to price risk appropriately, not a register of events (Ch 5 §5.1), so statement 2 is false."
+    },
+    {
+      "question": "A country is preparing its first PPP road. Long-term finance is scarce and the optimal risk structure would not be bankable. What does the Guide accept in this situation?",
+      "options": [
+        "Sacrificing some VfM through de-risking until the market matures",
+        "Transferring even more risk so that lenders see strong incentives",
+        "Delaying every PPP until the country has a mature PPP market",
+        "Choosing the allocation that meets off-balance-sheet rules"
+      ],
+      "answer": 0,
+      "explanation": "In emerging or less mature markets, especially when finance is scarce, it may be reasonable to sacrifice VfM to a limited extent through de-risking to ensure bankability and commercial feasibility (Ch 5 §5.1). More transfer would make bankability worse."
+    },
+    {
+      "question": "A finance ministry wants to design a PPP's risk allocation mainly so that the project is recorded off the government's balance sheet. What is the Guide's view?",
+      "options": [
+        "This is good practice, as accounting is the main driver",
+        "Accounting is not a proper driver; this may give lower VfM",
+        "This is required wherever accounting is based on risk",
+        "This is acceptable, but only for user-pays projects"
+      ],
+      "answer": 1,
+      "explanation": "The Guide does not consider accounting treatment an appropriate driver for risk allocation; a structure built for off-balance-sheet treatment may give lower VfM than the optimum (Ch 5 §5.6, footnote 51). VfM is the driver."
+    },
+    {
+      "question": "An authority's team has identified and assessed the risks of a water PPP and has taken early mitigation steps. In the Guide's risk management cycle, what comes next?",
+      "options": [
+        "Monitoring of the risks already transferred",
+        "Ex-post management of the retained risks",
+        "Risk allocation, followed by risk structuring",
+        "Treatment of risks through contingency funds"
+      ],
+      "answer": 2,
+      "explanation": "The cycle runs identification, assessment, early mitigation, allocation, structuring into the contract, then treatment, monitoring and ex-post management (Ch 5 §5.2, Figure 5.9). Treatment and monitoring come only after risks are allocated and structured."
+    },
+    {
+      "question": "A team has agreed that ground risk is private except for conditions materially different from a baseline study. Which step now writes this into contract provisions that define when the event occurs and how the other party is compensated?",
+      "options": [
+        "Risk identification",
+        "Risk monitoring",
+        "Risk assessment",
+        "Risk structuring"
+      ],
+      "answer": 3,
+      "explanation": "Structuring implements the allocation in the contract: it defines when a risk event has occurred, the extent and form in which each party bears it, and how compensation works (Ch 5 §5.1). Identification and assessment come earlier; monitoring comes after signing."
+    },
+    {
+      "question": "Which definition of risk does the Guide prefer?",
+      "options": [
+        "Uncertainty of outcome, whether positive opportunity or negative threat",
+        "The chance or possibility of danger, loss or injury to people",
+        "The probability that actual profits differ from expected profits",
+        "Any event that causes a cost overrun during construction works"
+      ],
+      "answer": 0,
+      "explanation": "The Guide prefers the UK Orange Book definition because it covers both probability and impact (Ch 5 §5.2). Option B is the Oxford dictionary definition and option C is close to the OECD's, and both focus on probability or loss only."
+    },
+    {
+      "question": "Consider two statements. 1: Uncertainty is the part of risk that cannot be measured with probabilities. 2: The Guide generally uses the words risk and uncertainty interchangeably.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 2,
+      "explanation": "Box 5.17 explains that immeasurable risk is called uncertainty, and that the Guide nevertheless uses the two words interchangeably because assessments include both measurable and immeasurable risks (Ch 5 §5.2). Both statements are true."
+    },
+    {
+      "question": "A team scores a flood risk before any action. It then scores it again after planning drainage works and buying insurance. What does the second score measure?",
+      "options": [
+        "Inherent risk",
+        "Residual risk",
+        "Counterparty risk",
+        "Country risk"
+      ],
+      "answer": 1,
+      "explanation": "Residual risk is the risk that remains after treatment to mitigate and manage it; inherent risk is the risk before treatment (Ch 5 §5.2, footnote 39)."
+    },
+    {
+      "question": "An authority retains the risk of minor damage to public access roads near a PPP hospital. It will not buy insurance or set up a fund; it will simply deal with damage if it happens. Is this a recognised treatment for a retained risk?",
+      "options": [
+        "No, every retained risk must always be fully insured",
+        "No, retained risks must be passed back to the private partner",
+        "Yes, relying only on reactive management is one listed option",
+        "Yes, but only when the risk is recorded as force majeure"
+      ],
+      "answer": 2,
+      "explanation": "For retained risks the Guide lists self-insurance and contingency funds, insurance, hedging, and relying only on reactive management when the risk occurs (Ch 5 §5.2). Insurance is an option, not a must."
+    },
+    {
+      "question": "A bidder decides to keep a moderate operating risk itself and asks for a higher equity IRR to cover it. Which private partner strategy is this?",
+      "options": [
+        "Passing the risk down to its main contractors",
+        "Hedging the risk in the financial markets",
+        "Handing the risk back to the procuring authority",
+        "Absorbing and pricing it, a form of self-insurance"
+      ],
+      "answer": 3,
+      "explanation": "Absorbing a risk and pricing it into the bid, through a premium in the equity IRR or contingencies, is considered self-insurance (Ch 5 Box 5.18). Passing it to contractors would create counterparty risk instead."
+    },
+    {
+      "question": "No insurer or other market party will cover a certain catastrophic risk for a flood defence PPP, but the project has strong socio-economic benefits. What should happen to this risk?",
+      "options": [
+        "Retain it with the authority and include it in the overall assessment",
+        "Transfer it fully so that the bidders price it into their offers",
+        "Cancel the project, because the risk cannot be insured by anyone",
+        "Pass it to the lenders through the direct agreement with them"
+      ],
+      "answer": 0,
+      "explanation": "Risks that no party in the market can assume must be retained by the authority; the project may still show a positive outcome because the decision to invest is based on socio-economic factors (Ch 5 Box 5.18)."
+    },
+    {
+      "question": "A team preparing the risk allocation has a 400-item risk register from appraisal. A junior analyst wants a separate contract clause for every item. What should the team do?",
+      "options": [
+        "Draft a separate clause for every item so that nothing is missed",
+        "Prioritise significant risks; this implicitly covers minor ones",
+        "Drop the register and restart the identification from zero",
+        "Transfer all 400 risks to the private partner without analysis"
+      ],
+      "answer": 1,
+      "explanation": "Identification for allocation is less exhaustive and prioritised: allocating the significant risks in the contract implicitly allocates many less significant ones, so teams are not overwhelmed (Ch 5 §5.3)."
+    },
+    {
+      "question": "Traffic on a toll road falls because a new government policy encourages rail travel. A team member cannot decide whether this is market risk or political risk. What does the Guide advise?",
+      "options": [
+        "Record it twice, once in each category, just to be safe",
+        "Ignore it, because risks with unclear categories cannot be allocated",
+        "Accept the overlap and use a register to avoid double counting",
+        "Classify it as force majeure, because its cause is political"
+      ],
+      "answer": 2,
+      "explanation": "The Guide accepts that categories overlap, for example lower demand caused by a policy decision, and recommends a risk register and brainstorming to avoid blind spots and double counting (Ch 5 §5.3)."
+    },
+    {
+      "question": "Which is NOT one of the broad risk categories in the Guide's project-level classification?",
+      "options": [
+        "Commissioning risks",
+        "Early termination risks",
+        "Changes in law",
+        "Country risk"
+      ],
+      "answer": 3,
+      "explanation": "The classification is done from a project standpoint, so it does not cover country risk, although some political risks appear under change in law or force majeure (Ch 5 §5.3)."
+    },
+    {
+      "question": "Which item is NOT among the minimum contents of a risk matrix in the Guide?",
+      "options": [
+        "Each bidder's proposed risk premium",
+        "Risk effects and consequences",
+        "Mitigation measures, where available",
+        "Risk response accountability"
+      ],
+      "answer": 0,
+      "explanation": "Box 5.19 lists risk name and category, description, effects, mitigation measures, allocation and response accountability (Ch 5 §5.3). Bidders' premiums are not known when the matrix is prepared."
+    },
+    {
+      "question": "For a significant risk, the qualitative assessment gives no clear answer on allocation. What does the Guide suggest the team should do?",
+      "options": [
+        "Transfer it by default, in exactly the same way as green risks",
+        "Compare the VfM of transfer with retaining, sharing or capping it",
+        "Remove the risk from the matrix until construction work starts",
+        "Let the lenders decide the final allocation at financial close"
+      ],
+      "answer": 1,
+      "explanation": "Quantitative analysis may be used for significant risks where the qualitative view is unclear, comparing transfer with taking the risk back, sharing it or capping it (Ch 5 §5.4.1). Default transfer applies to green, not significant, risks."
+    },
+    {
+      "question": "An authority is planning a new stadium PPP. Which step is an example of early mitigation through optimising scope and planning?",
+      "options": [
+        "Asking each bidder to carry out the ESIA at its own cost",
+        "Adding innovative features even when they cost more than they give",
+        "Scheduling key building works in summer to reduce weather delays",
+        "Choosing the earliest possible delivery date to please users"
+      ],
+      "answer": 2,
+      "explanation": "The Guide's examples are avoiding innovation and complexity when the benefit does not outweigh the cost, choosing a realistic delivery date, and planning crucial works in summer (Ch 5 §5.5). Leaving studies to bidders is bad practice."
+    },
+    {
+      "question": "Why does the Guide say the tender selection process itself helps to mitigate risk?",
+      "options": [
+        "It moves all construction risk to the lenders of the winner",
+        "It removes the need for a risk matrix in the contract",
+        "It guarantees that no risk events will occur in operation",
+        "It reduces the chance that the winner cannot deliver or bid unreliably"
+      ],
+      "answer": 3,
+      "explanation": "A good selection process should ensure, as far as possible, that the successful bidder is capable of delivering the project and that its bid is reliable (Ch 5 §5.5). It does not eliminate risk events."
+    },
+    {
+      "question": "Steel prices rise sharply because of global market volatility, raising a private partner's construction costs. The contract has no special clause on this. Who bears this risk?",
+      "options": [
+        "The private partner, as normal price volatility is part of its business",
+        "The authority, because the event is exogenous to the partner",
+        "Both parties equally, as a force majeure event",
+        "The authority, through an automatic compensation event"
+      ],
+      "answer": 0,
+      "explanation": "The default private risks include exogenous events that commonly affect the business, such as price volatility affecting costs (Ch 5 §5.6). The Guide's rising oil price example is also transferred, because the private partner buys in bulk and hedges."
+    },
+    {
+      "question": "In a bus depot PPP, bus operations stay outside the private partner's scope. Who should bear the risk of lower passenger demand?",
+      "options": [
+        "The private partner, because demand risk is always private",
+        "The authority, because demand is not part of the private scope",
+        "Both parties equally, as a force majeure event",
+        "The lenders, through their security package"
+      ],
+      "answer": 1,
+      "explanation": "Risks not naturally embedded in the scope are retained; some risks are allocated by removing obligations from the scope, such as demand in a transport project where operating the service is not included (Ch 5 §5.6)."
+    },
+    {
+      "question": "Consider two statements. 1: Direct government acts against the project should be borne by the public partner and not shared. 2: A war or a general strike belongs to the same category as a discriminatory change in law.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "Direct government acts, sometimes called Material Adverse Government Action, are under government control and should not be shared (Ch 5 §5.6, footnote 50). The Guide says events like war or a general strike are of a quite different category, so statement 2 is false."
+    },
+    {
+      "question": "Earthquake risk for a bridge PPP is outside both parties' control. The authority is thinking of giving the private partner a small, compensated share of it. Why might this make sense?",
+      "options": [
+        "It allows force majeure to be transferred fully to the partner",
+        "It removes the need for any insurance during operations",
+        "It gives an incentive to reduce the impact, for example through design",
+        "It turns the earthquake into a simple relief event"
+      ],
+      "answer": 2,
+      "explanation": "Even when a risk is beyond the private partner's control, bearing some of it at a reasonable cost can incentivise better design and mitigation of consequences (Ch 5 §5.6). Force majeure can be partly but never fully transferred."
+    },
+    {
+      "question": "A private partner runs a new tram depot next to a public bus station it does not own. It could protect the station cheaply with its own security staff. What might the authority do?",
+      "options": [
+        "Retain all vandalism risk, including the risk on the depot",
+        "Treat vandalism at the bus station as a force majeure event",
+        "Forbid the partner to provide any security outside its site",
+        "Ask it to carry part of the station's vandalism risk, with incentives"
+      ],
+      "answer": 3,
+      "explanation": "One exception to the general rules is asking the private partner to assume part of a risk outside its scope, such as vandalism on nearby assets, where it is efficient for it to provide protection (Ch 5 §5.6)."
+    },
+    {
+      "question": "Traffic on a PPP road grows far above forecast, and the authority needs the road widened from two to three lanes. How should this risk be treated?",
+      "options": [
+        "As a scope change the authority orders, with fair compensation",
+        "As a private risk, since the partner gains from higher traffic",
+        "As a relief event that gives only extra time",
+        "As force majeure that allows early termination"
+      ],
+      "answer": 0,
+      "explanation": "Changes in service requirements or scope needed to adapt to new circumstances, such as upgrading a road because demand is much higher, should never be transferred (Ch 5 §5.6); the contract should fairly compensate ordered changes."
+    },
+    {
+      "question": "Which is NOT one of the Guide's signs that the private partner adds value by taking a risk?",
+      "options": [
+        "It has a greater ability to assess the risk",
+        "It has a larger annual budget than the public partner",
+        "It can pass the risk to third parties at an efficient price",
+        "It has project knowledge that reveals risks the public side missed"
+      ],
+      "answer": 1,
+      "explanation": "The Guide lists greater ability to assess, to pass through efficiently, to reduce probability, to mitigate consequences, and previous project knowledge (Ch 5 §5.6). Budget size is not a sign of better risk management."
+    },
+    {
+      "question": "For a significant risk in a prison PPP, the private partner cannot assess it better, cannot pass it on, cannot reduce its probability and cannot limit its consequences. What should the authority do?",
+      "options": [
+        "Transfer it anyway, because it falls within the contract scope",
+        "Transfer it but increase the payment deductions for failure",
+        "Retain it or take it back from the natural private position",
+        "Leave it out of the contract and the risk matrix entirely"
+      ],
+      "answer": 2,
+      "explanation": "When none of the value-adding factors is present and the risk has a significant potential impact, it should be retained or taken back (Ch 5 §5.6). Transfer here would only buy an expensive premium."
+    },
+    {
+      "question": "On what basis does the Guide say exceptions to the default risk allocation can be identified?",
+      "options": [
+        "Only the preferences bidders express after contract award",
+        "The national accounting rules on public debt registers",
+        "One fixed international list that is used for every project",
+        "Precedents, experience of advisers and government, and market tests"
+      ],
+      "answer": 3,
+      "explanation": "Exceptions are identified from real precedents, advisers' or government's own experience, public sector experiences, and market tests during appraisal or structuring (Ch 5 §5.6)."
+    },
+    {
+      "question": "A toll road is finished, but the government's toll authorisation procedure is delayed. The private partner cannot speed it up, but it can avoid toll operating costs while no toll is collected. Which allocation does the Guide's example suggest?",
+      "options": [
+        "A sharing mechanism in the PPP agreement",
+        "Full transfer to the private partner",
+        "Full retention by the government",
+        "Early termination for force majeure"
+      ],
+      "answer": 0,
+      "explanation": "In Table 5.3 the private partner cannot control the authorisation procedure but can partly control the consequences, so a sharing mechanism is often applied (Ch 5 §5.6)."
+    },
+    {
+      "question": "During construction, key ministry officials are unavailable for months because of an election, so approvals arrive late. Who should bear this risk?",
+      "options": [
+        "The private partner, since construction delay is its risk",
+        "The public agency, which plans the availability of its own staff",
+        "Both parties equally, as a political force majeure event",
+        "The construction contractor, under its turnkey contract"
+      ],
+      "answer": 1,
+      "explanation": "Table 5.3 says the public partner is responsible for planning and for the availability of its staff, so this risk is retained by the public agency (Ch 5 §5.6)."
+    },
+    {
+      "question": "During tunnel excavation, water leaks into the works and causes delay. The private partner could reduce the chance by following its procedures and can stop leaks quickly. Who should bear this risk?",
+      "options": [
+        "The authority, because underground risks are always public",
+        "Both parties equally, since water leaks are acts of God",
+        "The private partner, which can influence and mitigate it",
+        "The authority, through an automatic compensation event"
+      ],
+      "answer": 2,
+      "explanation": "In Table 5.3 the private partner can influence the probability by following plans and procedures and can mitigate damage and delay, so the risk is transferred (Ch 5 §5.6)."
+    },
+    {
+      "question": "Storms are becoming more frequent because of climate change. For a coastal hospital PPP, how does the Guide's example allocate this risk?",
+      "options": [
+        "Every weather event, big or small, retained by the authority",
+        "Every weather event, including catastrophes, sent to the private side",
+        "Weather risk left out of the contract because it cannot be measured",
+        "Resilient design to the private side; catastrophes shared if needed"
+      ],
+      "answer": 3,
+      "explanation": "Table 5.3 says climate-appropriate design can be allocated to the private sector, while catastrophic events should be shared when this is in the interest of the project's survival (Ch 5 §5.6)."
+    },
+    {
+      "question": "According to the Guide, which two interrelated factors define the default risk allocation in a PPP contract?",
+      "options": [
+        "The scope of obligations, and the financial structure and economic rights",
+        "The accounting treatment, and the government's credit rating",
+        "The number of bidders, and the length of the tender period",
+        "The lenders' preferences, and the state of the insurance market"
+      ],
+      "answer": 0,
+      "explanation": "The default position comes from the scope of obligations and service requirements, and from the financial structure and economic rights, including the payment mechanism (Ch 5 §5.6)."
     }
   ]
 }

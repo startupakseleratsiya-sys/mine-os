@@ -145,9 +145,9 @@
     {
       "question": "A city has shown that a new hospital is economically sound. Its budget cannot afford the long-term payments, so traditional delivery is not possible. What should the PPP team do next?",
       "options": [
-        "Screen the project as a PPP and ask whether innovative structures could make it affordable",
+        "Screen it as a PPP and test if innovative structures make it affordable",
         "Cancel the project immediately because it has failed affordability",
-        "Move straight to the Appraisal Phase without further questions",
+        "Move straight to the Appraisal Phase without asking any further questions",
         "Transfer all demand risk to the private partner to reduce costs"
       ],
       "answer": 0,
@@ -158,7 +158,7 @@
       "options": [
         "Whether the output requirements are clearly identifiable",
         "Whether the project fits within the legal framework",
-        "Whether a short-term financing constraint exists that a PPP could help overcome",
+        "Whether a PPP could overcome a short-term financing constraint",
         "Whether the project is too small to justify transaction costs"
       ],
       "answer": 2,
@@ -170,10 +170,10 @@
         "Relaunch the screening as a PPP with a longer contract term",
         "Move the project to the Appraisal Phase as a PPP anyway",
         "Recommend further market studies before any decision",
-        "Dismiss it as a PPP and appraise it for traditional procurement with public funds"
+        "Appraise it for traditional procurement with public funds"
       ],
       "answer": 3,
-      "explanation": "When a project is not suitable as a PPP, the Guide recommends appraising it for traditional procurement if a public budget is available. Further studies are the answer only when information is missing."
+      "explanation": "When a project is not suitable as a PPP, it is dismissed as a PPP and the Guide recommends appraising it for traditional procurement if a public budget is available (Ch 3 §10). Further studies are the answer only when information is missing."
     },
     {
       "question": "Which of the following is NOT one of the PPP suitability questions in the Guide?",
@@ -200,10 +200,10 @@
     {
       "question": "An authority is unsure whether a project is suitable as a PPP and has no time pressure. It is hiring transaction advisors. Which approach should it take?",
       "options": [
-        "Sign one contract covering all phases to financial close",
-        "Limit the advisory contract to the Appraisal Phase, possibly with an option to retain the advisors",
-        "Hire no advisors until the PPP decision is made",
-        "Ask the advisors to act as bidders later in the tender"
+        "Sign one contract covering all phases through to financial close",
+        "Limit it to appraisal, with an option to retain the advisors",
+        "Hire no advisors at all until the final PPP decision is made",
+        "Ask the appraisal advisors to act as bidders later in the tender"
       ],
       "answer": 1,
       "explanation": "When there is no time pressure, or there are doubts about PPP suitability, the Guide says it may be sensible to limit the contract to appraisal. This also avoids a conflict of interest, and an option to retain the advisors is a useful middle way. One contract to the end suits projects with clear policy support and time pressure."
@@ -222,7 +222,7 @@
     {
       "question": "During screening, a project team meets one construction firm privately and gives it traffic data that no other firm receives. Which principle has the team broken?",
       "options": [
-        "Communication must be coordinated, archived and shared so no future bidder gets an unfair advantage",
+        "Information must be shared equally so no bidder gains an advantage",
         "Stakeholder engagement should only begin in the Tender Phase",
         "Only internal stakeholders should receive project information",
         "Construction firms are not stakeholders in a PPP project"
@@ -240,6 +240,446 @@
       ],
       "answer": 2,
       "explanation": "When technical work is very important or intense, the Guide says it may be reasonable to separate that task so the best technical solution is designed. Some authorities then hire a joint financial and legal team in a separate contract."
+    },
+    {
+      "question": "A water ministry is scoping a bulk water plant PPP. It must decide whether the private partner will also bill customers and collect tariffs. Which part of scoping is this?",
+      "options": [
+        "Defining the scope of the service or business the partner will handle",
+        "Choosing the discount rate to be used in the cost-benefit analysis",
+        "Selecting the preferred bidder that will sign the future contract",
+        "Setting the payment deductions that apply to poor performance"
+      ],
+      "answer": 0,
+      "explanation": "Scoping includes the scope of the service or business given to the private partner, which may or may not include tariff collection (Ch 3 §9). Bidder selection and deductions come much later, in structuring and tender."
+    },
+    {
+      "question": "A PPP unit is writing down the agreed scope of a new bus depot PPP. According to the Guide, in what form should the scope be expressed?",
+      "options": [
+        "As a detailed list of the construction methods and materials to use",
+        "As a service standard: what is done, to what quality, and by whom",
+        "As a fixed budget ceiling the private partner can never exceed",
+        "As a list of the firms that will be invited to bid for it"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says the scope should be expressed as a service standard defining what will be done, to what quality levels, and by whom (Ch 3 §9). A list of methods is an input approach, which PPPs try to avoid."
+    },
+    {
+      "question": "A PPP team uses a short checklist to clear up uncertainty about scope. Which item does NOT belong on that scoping checklist?",
+      "options": [
+        "Who are the parties ultimately involved and who is accountable?",
+        "What resources are required to do the work?",
+        "What discount rate should the Value for Money test use?",
+        "When does the work have to be done?"
+      ],
+      "answer": 2,
+      "explanation": "The scoping questions cover the parties, accountability, what each party wants, how the work is done, the resources required and the timing (Ch 3 §9). The VfM discount rate is an appraisal issue, not a scoping question."
+    },
+    {
+      "question": "A PPP unit director says: 'Scoping is just paperwork. Let us skip it and go straight to the tender.' Which benefit of robust scoping, named in the Guide, answers her?",
+      "options": [
+        "Guaranteed approval of the project by the finance ministry and cabinet",
+        "No further need for a cost-benefit analysis at any later stage",
+        "A higher tariff that users will then accept without complaint",
+        "More accurate risk estimates and better planning, as uncertainty falls"
+      ],
+      "answer": 3,
+      "explanation": "Robust scoping reduces uncertainty, giving more accurate risk calculations, reduced control costs, more effective teams and improved planning (Ch 3 §9). It does not guarantee approval or replace the CBA."
+    },
+    {
+      "question": "Consider these two statements about scoping. 1: Many projects fail because of poor scoping in the early phases. 2: The final decision on the contract scope must be taken in the Identification Phase and can never be postponed.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says many projects fail due to poor scoping in the early phases. It also says a definitive decision on the contract scope is sometimes postponed to the Appraisal Phase, so statement 2 is false (Ch 3 §9)."
+    },
+    {
+      "question": "A city wants to screen a metro line as a PPP. Its cost-benefit analysis is not finished, so nobody knows yet whether the line is economically sound. What should the PPP team do?",
+      "options": [
+        "Run the PPP suitability test now and let it replace the CBA entirely",
+        "Finish the economic test first; suitability applies to sound projects",
+        "Launch market sounding and let investor interest prove economic value",
+        "Move to appraisal and complete the CBA after the green light"
+      ],
+      "answer": 1,
+      "explanation": "The PPP suitability test applies to a project already tested as economically and environmentally sound under the CBA (Ch 3 §10). Investor interest shows market appetite, not economic value."
+    },
+    {
+      "question": "A road project needs land from 3,000 private owners. The expropriation law is unclear and land costs could rise sharply. Which PPP suitability question does this raise?",
+      "options": [
+        "Whether it makes sense to bundle construction with long-term maintenance",
+        "Whether the output requirements of the road are clearly identifiable",
+        "Whether some risks, like land availability, are beyond a partner's control",
+        "Whether precedent PPP transactions exist in the region or country"
+      ],
+      "answer": 2,
+      "explanation": "The first suitability question asks about significant risks a private partner cannot manage, and names land or right-of-way availability and land acquisition cost overruns (Ch 3 §10). The other options are different suitability questions."
+    },
+    {
+      "question": "A ministry wants a PPP for new prisons, but the national PPP law only lists transport and energy as eligible sectors. At screening, which question must it answer?",
+      "options": [
+        "Is the prison big enough to attract international lenders and funds?",
+        "Will prisoners' families accept paying user charges for the service?",
+        "Can a Monte Carlo analysis be run on the construction costs?",
+        "Can the project be accommodated within the legal framework as a PPP?"
+      ],
+      "answer": 3,
+      "explanation": "One suitability question is whether the project can fit within the legal framework as a PPP, having considered all relevant laws (Ch 3 §10). A sector the law does not allow is a legal obstacle, whatever the project size."
+    },
+    {
+      "question": "A small town proposes a PPP for a single public toilet block worth about $200,000. What concern should PPP screening raise?",
+      "options": [
+        "It may be too small to justify the transaction costs of a complex tender",
+        "It may be too large for local construction companies to build it",
+        "It cannot have any clearly identifiable output requirements at all",
+        "It must be delivered as a user-pays PPP under the national law"
+      ],
+      "answer": 0,
+      "explanation": "The size question asks whether a project is big enough to justify the costs of structuring and managing a complex tender (Ch 3 §10). A very small project usually is not; being too large is the opposite concern."
+    },
+    {
+      "question": "A small country plans a $6 billion rail PPP, which is larger than the lending capacity of its whole banking sector. Which screening concern is most relevant?",
+      "options": [
+        "It may be too small to justify the costs of running a complex tender",
+        "It may be too big for the market and too costly to finance successfully",
+        "It cannot be bundled with maintenance in one single long contract",
+        "Its output requirements cannot be defined for a national rail system"
+      ],
+      "answer": 1,
+      "explanation": "The size question works in both directions: is the project too big for the market, too large for local builders, or so costly it cannot be financed (Ch 3 §10)? Here the risk is that it is too big, not too small."
+    },
+    {
+      "question": "A ministry wants to know whether investors would bid for a first-of-its-kind cable car PPP. What evidence does the Guide suggest it should look for at screening?",
+      "options": [
+        "Whether ministry staff have personally used a cable car before",
+        "Whether the cable car has been in the national budget for ten years",
+        "Precedent PPPs of this type in the country, region or similar countries",
+        "Whether a construction contractor has already been appointed"
+      ],
+      "answer": 2,
+      "explanation": "The market appetite question asks whether investors and competitors would be interested and whether precedent PPP transactions exist in the country, region or similar countries (Ch 3 §10)."
+    },
+    {
+      "question": "A city wants a stadium PPP in which one firm only builds the stadium, while a public agency will operate and maintain it for its whole life. Which suitability question is weak here?",
+      "options": [
+        "Can the project fit within the existing legal framework as a PPP?",
+        "Is there a short-term borrowing constraint on the city's budget?",
+        "Does the stadium have a clear service standard for its catering?",
+        "Does bundling construction with operations or maintenance make sense?"
+      ],
+      "answer": 3,
+      "explanation": "A key suitability question is whether it makes sense to bundle construction with operations and/or maintenance in one contract (Ch 3 §10). A build-only arrangement gives up the bundling that drives PPP life-cycle benefits."
+    },
+    {
+      "question": "An agency wants a PPP for 'modernising government IT', but it cannot say what service levels or results it expects. Which suitability question shows a weakness?",
+      "options": [
+        "Are the output requirements clearly identifiable?",
+        "Is the project big enough to justify the tender costs?",
+        "Is there a risk of land acquisition cost overruns?",
+        "Can the government meet its short-term cash needs?"
+      ],
+      "answer": 0,
+      "explanation": "One suitability question asks whether the output requirements are clearly identifiable (Ch 3 §10). PPPs are output-based, so vague results make a PPP hard to specify and monitor."
+    },
+    {
+      "question": "In PPP screening, what does the affordability question ask?",
+      "options": [
+        "Whether investors can earn a return above the market rate",
+        "Whether the public sector can pay the PPP's CAPEX and OpEx",
+        "Whether the project's economic benefits exceed its costs",
+        "Whether the private partner can raise enough equity"
+      ],
+      "answer": 1,
+      "explanation": "Affordability asks whether, if the project is a PPP, the public sector can afford the necessary payments for CAPEX and OpEx (Ch 3 §10). Benefits exceeding costs is the CBA test, which is a different question."
+    },
+    {
+      "question": "A PPP team is working through the three affordability questions in the Guide. Which question should it consider first, before screening for PPP potential?",
+      "options": [
+        "Can a PPP overcome a short-term borrowing restriction on the state?",
+        "Are innovative structures available that could make it affordable?",
+        "Can the required user charges and long-term budget calls be afforded?",
+        "Can the private partner carry all of the traffic and demand risk?"
+      ],
+      "answer": 2,
+      "explanation": "The first question, whether user charges and/or the long-term call on the budget are affordable, is considered before screening for PPP potential (Ch 3 §10). Innovative structures come in only if the answer is 'No', and the short-term question comes last."
+    },
+    {
+      "question": "A ministry's appraisal team for a dam PPP has engineers, economists, financial analysts and lawyers. Which capability group named in the Guide is still missing?",
+      "options": [
+        "Marketing and sales of the service",
+        "Bid preparation for private consortia",
+        "Construction contracting and site works",
+        "Environmental, climate and social"
+      ],
+      "answer": 3,
+      "explanation": "The Guide lists five capability groups for appraisal: technical, environmental/climate/social, economic, financial and legal (Ch 3 §13.1). This team lacks the environmental, climate and social group; preparing bids for consortia would be a conflict of interest."
+    },
+    {
+      "question": "Consider these two statements about the short-term financing question. 1: It should be considered for both traditional delivery and PPP delivery. 2: It is asked only when the project is not affordable in the long term.",
+      "options": [
+        "Only 1 is true",
+        "Only 2 is true",
+        "Both are true",
+        "Neither is true"
+      ],
+      "answer": 0,
+      "explanation": "The Guide says the short-term cash question should be considered for both traditional and PPP delivery. It is asked assuming the project IS affordable in the long term, so statement 2 is false (Ch 3 §10)."
+    },
+    {
+      "question": "After screening a ferry PPP, the team finds there is no reliable data on passenger demand. What should the appraiser do?",
+      "options": [
+        "Declare the project unsuitable and drop the public need altogether",
+        "State the weaknesses and recommend further studies before the next stage",
+        "Move to appraisal and let the bidders supply the demand data later",
+        "Approve the PPP and fix the demand risk in the contract terms now"
+      ],
+      "answer": 1,
+      "explanation": "When information is missing or uncertainties must be clarified, the appraiser states the project's weaknesses and recommends further analysis before moving to the next stage (Ch 3 §10). It is not a 'not suitable' result."
+    },
+    {
+      "question": "Which of these is NOT one of the sections the Guide expects in a screening report?",
+      "options": [
+        "Legal and regulatory issues affecting the project",
+        "Readiness of the project, including stakeholder identification",
+        "The signed contract and the lenders' term sheets",
+        "An outline of the project management plan"
+      ],
+      "answer": 2,
+      "explanation": "The screening report covers items such as legal and regulatory issues, information availability and an outline project management plan (Ch 3 §14). A signed contract and lenders' terms come only at the end of the tender."
+    },
+    {
+      "question": "A finance minister asks why the government should pay for careful PPP screening at all. Which benefit does the Guide give?",
+      "options": [
+        "It removes the need for any later Value for Money test",
+        "It guarantees that several bidders will compete for it",
+        "It fixes the final contract price before the appraisal",
+        "It avoids using resources on projects that should not continue"
+      ],
+      "answer": 3,
+      "explanation": "If screening is done well, the government avoids unnecessarily consuming resources by continuing the process, which is the benefit of the stage-by-stage approach (Ch 3 §10). VfM is still tested later in appraisal."
+    },
+    {
+      "question": "A project has passed screening and the ministry now plans to hire transaction advisors. What should the list of tasks and schedule prepared at screening serve as?",
+      "options": [
+        "The basis for the Request for Proposals to hire the advisors",
+        "The final contract timetable that every bidder must then accept",
+        "A full replacement for the stakeholder communications plan",
+        "The document that fixes the project's payment mechanism"
+      ],
+      "answer": 0,
+      "explanation": "The task list and schedule serve as the basis for the Request for Proposals for external advisors, and help identify risks linked to the proposed schedule (Ch 3 §11). The payment mechanism is designed much later."
+    },
+    {
+      "question": "A PPP team is drafting the project plan at the end of screening. Which item should this plan include?",
+      "options": [
+        "The final bid evaluation scores of each of the shortlisted bidders",
+        "An action plan for permits, environmental approvals and land availability",
+        "The signed financing agreements with the project's senior lenders",
+        "The detailed penalty regime for poor service delivery by the partner"
+      ],
+      "answer": 1,
+      "explanation": "The plan should include an action plan describing all permits, environmental approvals and other precedent conditions such as land availability, plus target dates and sign-offs (Ch 3 §11). Bid scores and financing come in later phases."
+    },
+    {
+      "question": "A new PPP unit must estimate how long it will take to reach contract award for its first hospital PPP. What does the Guide suggest as a good starting point?",
+      "options": [
+        "The shortest timetable that any interested bidder says it can meet",
+        "The political calendar leading up to the next national election",
+        "Timetables of past similar PPPs delivered under similar processes",
+        "A standard six-month period that the law applies to all PPPs"
+      ],
+      "answer": 2,
+      "explanation": "Analysing the timetables of previous, similar PPP projects is a good starting point, and it also helps manage government expectations about the time needed (Ch 3 §11). There is no standard period for all PPPs."
+    },
+    {
+      "question": "A PPP team fears that environmental and finance clearances will delay its project. What does the Guide name as a key success factor for the approval process?",
+      "options": [
+        "Contacting the approvers only after the tender has launched",
+        "Asking the bidders to obtain all the approvals themselves",
+        "Removing the approval steps from the work program",
+        "Engaging early with the approval decision-makers on time estimates"
+      ],
+      "answer": 3,
+      "explanation": "Early engagement with the decision-makers responsible for social, environmental, economic and finance clearance, including their feedback on time estimates, is a key success factor, especially for timing (Ch 3 §11)."
+    },
+    {
+      "question": "Which of the following is NOT a key element of project management planning and governance strategy at screening?",
+      "options": [
+        "Negotiating the final contract terms with the preferred bidder",
+        "Defining a detailed work program for the Appraisal Phase",
+        "Including a stakeholder analysis and communications plan",
+        "Identifying the accountable parties for the project"
+      ],
+      "answer": 0,
+      "explanation": "Box 3.12 lists a detailed appraisal work program, a plan for information weaknesses and risks, a stakeholder and communications plan, a staffing plan and the accountable parties (Ch 3 §11). Negotiation with a preferred bidder happens in the Tender Phase."
+    },
+    {
+      "question": "A PPP unit is mapping stakeholders for a new hospital PPP. Which group belongs to the internal audience?",
+      "options": [
+        "Labor unions representing construction workers",
+        "Government legal staff working on the project",
+        "Multilateral funders considering a loan",
+        "Journalists from the national press"
+      ],
+      "answer": 1,
+      "explanation": "The internal audience is public officers linked to the project cycle, such as the PPP unit, departments and government legal staff (Ch 3 §12.1). Unions, funders and the press are external stakeholders."
+    },
+    {
+      "question": "An authority must finish appraisal within eight months and expects many changes to the design and scope along the way. How should it hire its advisors?",
+      "options": [
+        "Run separate tenders for every single discipline",
+        "Hire no advisors and use only internal staff",
+        "Appoint one integrated team under a single contract",
+        "Let each likely bidder provide one advisor"
+      ],
+      "answer": 2,
+      "explanation": "Time constraints may make one team under a single contract more advisable, because it is better coordinated and handles iterations in design or scope more efficiently (Ch 3 §13.3). Separate contracts need more government time to manage."
+    },
+    {
+      "question": "At identification a project team built a short stakeholder list. As the project moves into the Structuring and Tender Phases, what does the Guide expect to happen?",
+      "options": [
+        "The stakeholder list stays the same until the contract is signed",
+        "Communication stops completely to protect the tender process",
+        "Only the bidders remain as stakeholders in the project",
+        "The stakeholders grow in number, needing more channels and information"
+      ],
+      "answer": 3,
+      "explanation": "The relationship with stakeholders is not static: audiences are few in the Identification Phase and grow through structuring and tender, so more channels, actions and information are needed (Ch 3 §12)."
+    },
+    {
+      "question": "During identification and screening, which topics should communication with stakeholders mainly focus on?",
+      "options": [
+        "The project's scope, transparency, objectives and benefits",
+        "The winning bidder's price offer and its equity return",
+        "The detailed payment deductions and penalty regime",
+        "The refinancing gains and the hand-back conditions"
+      ],
+      "answer": 0,
+      "explanation": "Table 3.2 gives the communication focus at identification and screening as scope, transparency, objectives and benefits (Ch 3 §12). Prices, deductions and hand-back are later-phase contract topics."
+    },
+    {
+      "question": "A ministry sends many press releases about a landfill PPP but holds no meetings to hear the concerns of nearby residents. What does the Guide say is missing?",
+      "options": [
+        "A bigger advertising budget to reach more people in the area",
+        "Listening to stakeholder input, not only sending information out",
+        "A decision to keep the project secret until the tender launch",
+        "A private briefing for the most likely bidder on the project"
+      ],
+      "answer": 1,
+      "explanation": "The Guide says that while sharing information matters, it is equally important to listen to and consider stakeholder input (Ch 3 §12). A private briefing for one bidder would break the equal-information rule."
+    },
+    {
+      "question": "During consultation on a water PPP, very few women attend the evening meetings because of childcare duties and safety concerns. What should the project team do?",
+      "options": [
+        "Accept the low attendance, since the meetings were open to all",
+        "Send only written notices in the official national language instead",
+        "Meet at times and places women find convenient, perhaps with childcare",
+        "Ask the male heads of households to speak for the women instead"
+      ],
+      "answer": 2,
+      "explanation": "The Guide says extra effort is needed so vulnerable groups are not overlooked, for example scheduling meetings at convenient times and places and considering childcare (Ch 3 §12, Box 3.15). Open meetings alone do not remove these barriers."
+    },
+    {
+      "question": "A PPP unit asks when, and by whom, its proactive communications plan should be designed and run. What does the Guide recommend?",
+      "options": [
+        "After financial close, run by the private partner",
+        "During the tender, run jointly by the bidders",
+        "Only once opposition appears, run by the press office",
+        "Early in screening, run by a dedicated and experienced team"
+      ],
+      "answer": 3,
+      "explanation": "A proactive communications plan should be designed at an early stage of screening and implemented by a dedicated and experienced team (Ch 3 §12.2). Waiting for opposition to appear loses the benefit of early engagement."
+    },
+    {
+      "question": "Which of the following is NOT normally part of the communications plan designed at screening?",
+      "options": [
+        "The evaluation criteria for choosing the preferred bidder",
+        "The points of contact who will inform the general public",
+        "The media used to reach each of the interest groups",
+        "A basic strategy and protocols for relations with the press"
+      ],
+      "answer": 0,
+      "explanation": "The communications plan names the interest groups, key concepts, media, the style for each group, points of contact and a press strategy with protocols (Ch 3 §12.2). Bid evaluation criteria belong to the tender documents."
+    },
+    {
+      "question": "A country is preparing its very first PPP. Local groups know nothing about how PPPs work. What extra communication does the Guide suggest?",
+      "options": [
+        "Avoid using the word PPP so that no one becomes worried",
+        "Inform stakeholders about PPP fundamentals and what they imply",
+        "Talk only to the investors and not to the service users",
+        "Delay all the communication until the contract is signed"
+      ],
+      "answer": 1,
+      "explanation": "For first-time projects the Guide says it is necessary to inform stakeholders about the fundamentals of PPPs and the implications of the project being a PPP (Ch 3 §12.1). Hiding or delaying information feeds rumours."
+    },
+    {
+      "question": "A PPP unit is screening a port project and asks when it should plan the team that will do the appraisal. What does the Guide recommend?",
+      "options": [
+        "Outline and hire it only after the tender has been launched",
+        "Hire all advisors fully before the screening report is drafted",
+        "Outline it during screening; plan staff and hire after the go decision",
+        "Leave it to the winning bidder to provide the team later"
+      ],
+      "answer": 2,
+      "explanation": "The team should be outlined during screening, because advisor costs or lack of capacity may lead to a decision not to proceed as a PPP; the detailed staffing plan and hiring follow the decision to move forward (Ch 3 §13)."
+    },
+    {
+      "question": "An authority lacks the internal capacity to do the appraisal and has no suitable person available to lead it. According to the Guide's decision flow, what should it do?",
+      "options": [
+        "Proceed with the appraisal using only its existing staff",
+        "Ask the most likely bidders to lead the appraisal work",
+        "Skip appraisal and move directly to the Structuring Phase",
+        "Launch a tender to hire a team leader as well as external advisors"
+      ],
+      "answer": 3,
+      "explanation": "Figure 3.5 shows that with no internal capacity and no person to lead the appraisal, the authority tenders to hire a team leader and external advisors (Ch 3 §13). Bidders leading the appraisal would create a clear conflict of interest."
+    },
+    {
+      "question": "Which of the following is NOT a role of the public project leader during appraisal?",
+      "options": [
+        "Preparing a private consortium's bid for the tender",
+        "Coordinating the studies from different fields",
+        "Controlling and overseeing the results of studies",
+        "Managing public decisions in a reasonable time"
+      ],
+      "answer": 0,
+      "explanation": "The project leader coordinates the studies, controls their results, links the advisors with the authority and manages the public decision-making process (Ch 3 §13). Helping a bidder would be a serious conflict of interest."
+    },
+    {
+      "question": "A ministry is hiring a legal advisor for appraisal. Why does the Guide want this advisor to have PPP contract drafting experience, even though the contract is drafted later?",
+      "options": [
+        "The legal advisor will later write the bidders' proposals",
+        "It is needed to assess the existing legal framework properly",
+        "The final contract must be fully drafted during appraisal",
+        "The legal advisor must approve all advisors' invoices"
+      ],
+      "answer": 1,
+      "explanation": "Knowledge of PPP contracts is needed to properly assess the existing legal framework, even though drafting happens later (Ch 3 §13.1). Approving advisors' invoices is a task the authority can never delegate to an advisor."
+    },
+    {
+      "question": "A ministry has no budget for preparation advisors. It sets up a fund that pays for appraisal and structuring, and each winning bidder repays the costs at contract signing. What is this?",
+      "options": [
+        "A construction co-financing grant",
+        "A concession fee paid to the authority",
+        "A revolving project development fund",
+        "A performance bond from the bidders"
+      ],
+      "answer": 2,
+      "explanation": "A revolving project development fund pays for appraisal and structuring and is repaid by a fee charged to the successful bidder, recycling money to other projects (Ch 3 §13, Box 3.16). A concession fee is paid by the partner for the right to run the project."
+    },
+    {
+      "question": "A country new to PPPs is selecting transaction advisors. Which approach fits the Guide's advice?",
+      "options": [
+        "Choose the lowest price, because it is the only objective criterion",
+        "Hire local firms only, because foreign experience does not transfer",
+        "Hire foreign firms only, because local knowledge adds little value",
+        "Weigh skills and experience with price; mix global and local know-how"
+      ],
+      "answer": 3,
+      "explanation": "Advisors should be chosen on technical capability and experience of similar projects, not only price; international experience is a must in new PPP markets but must be enriched with local knowledge, and contracts should include knowledge transfer (Ch 3 §13.3)."
     }
   ]
 }
