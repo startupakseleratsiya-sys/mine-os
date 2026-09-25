@@ -31,6 +31,11 @@ async function findOpenMock(userId: string, exam: NonNullable<ReturnType<typeof 
   return { attemptId: row.id, questions, startedAt: row.started_at, endsAt: Number(row.area_scores.endsAt) };
 }
 
+function pickSeed(param: string | undefined) {
+  const n = Number(param);
+  return Number.isInteger(n) && n > 0 ? n : newSeed();
+}
+
 export default async function MockPage({ params, searchParams }: Params) {
   const { level } = await params;
   const exam = getExam(level);
@@ -40,14 +45,14 @@ export default async function MockPage({ params, searchParams }: Params) {
 
   const resume = await findOpenMock(user.id, exam);
 
-  const { seed: seedParam } = await searchParams;
-  const seed = Number(seedParam);
-  if (!resume && (!Number.isInteger(seed) || seed <= 0)) redirect(`/exam/${level}/mock?seed=${newSeed()}`);
+  // Redirect qilinmaydi: topshirilgach server sahifani qayta chizganda (urinish yopilgan, URL'da seed yo'q)
+  // yangi mockka o'tib ketib, natija ekrandan yo'qolib qolardi. Savollarni baribir server startMock'da tanlaydi.
+  const seed = pickSeed((await searchParams).seed);
   const areaTitles = Object.fromEntries(exam.spec.areas.map((a) => [a.id, a.title]));
 
   return (
     <SectionShell eyebrow={`${exam.spec.title} · mock exam`} title="Exam conditions: timed, no notes." description="Answer every question — there is no penalty for a wrong answer. Flag anything you want to revisit and use the navigator to jump back.">
-      <MockExamClient spec={exam.spec} seed={resume ? 1 : seed} areaTitles={areaTitles} resume={resume} />
+      <MockExamClient spec={exam.spec} seed={seed} areaTitles={areaTitles} resume={resume} />
     </SectionShell>
   );
 }
