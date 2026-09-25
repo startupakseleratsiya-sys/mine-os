@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase-server";
 import { COURSES, TOTAL_CHAPTERS, getCourse, type Course } from "@/content/courses";
 import { formatDate } from "@/lib/utils";
+import type { AnswerRow } from "@/lib/learning-path";
 
 export type LessonProgressRow = {
   course_slug: string;
@@ -150,4 +151,21 @@ export function achievements(rows: LessonProgressRow[], chatCount: number): Achi
     { icon: "🏅", label: "Birinchi kurs", earned: completedCourses >= 1 },
     { icon: "💰", label: "Barcha kurslar", earned: rows.length >= TOTAL_CHAPTERS },
   ];
+}
+
+/** Kurs darslari savollariga berilgan javoblar (xatolar daftari va tayyorlik uchun). */
+export async function getLessonAnswers(userId: string, courseSlug: string): Promise<AnswerRow[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("exam_answers")
+    .select("question_id, correct, answered_at")
+    .eq("user_id", userId)
+    .eq("exam", `lessons:${courseSlug}`)
+    .order("answered_at", { ascending: false })
+    .limit(2000);
+  if (error) {
+    console.error("exam_answers (lesson) o'qishda xato:", error.message);
+    return [];
+  }
+  return (data ?? []) as AnswerRow[];
 }

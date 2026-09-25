@@ -86,7 +86,7 @@ export async function POST(req: Request) {
       if (error) console.warn("chat_messages insert (user):", error.message);
     }
 
-    const system = context ? `${SYSTEM_PROMPT}\n\nJoriy kontekst: ${context}` : SYSTEM_PROMPT;
+    const system = context ? `${SYSTEM_PROMPT}\n\nThe learner is studying this lesson right now — ground your answer in it and in the PPP Guide 2026: ${context}` : SYSTEM_PROMPT;
 
     // Opus 5 temperature/top_p qabul qilmaydi (400) — sampling parametrlari yuborilmaydi.
     const result = streamText({

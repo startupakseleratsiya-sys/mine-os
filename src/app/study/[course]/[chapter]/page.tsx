@@ -3,6 +3,7 @@ import { permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { Lock } from "lucide-react";
 import { LEGACY_COURSE_REDIRECTS, getChapter, lessonTest, passMarkFor } from "@/content/courses";
+import { toPublic } from "@/lib/learning-path";
 import { getCurrentUser } from "@/services/user-service";
 import { courseProgress, courseUnlocked, getLessonProgress, lessonUnlocked } from "@/lib/progress";
 import { LessonView } from "@/features/lesson/lesson-view";
@@ -14,6 +15,19 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { course, chapter } = await params;
   const found = getChapter(course, chapter);
   return { title: found ? found.chapter.title : "Lesson not found" };
+}
+
+/** Tabiiy ovozli yozuvlar (scripts/generate-lesson-audio.mjs → publish_lesson_audio.py) — faqat to'liq yuklangan bo'lsa. */
+function recordedAudio(lesson: { id: string; slides: unknown[]; sections: unknown[] }) {
+  const m = (audio as Record<string, { slides?: number; parts?: number; published?: boolean }>)[lesson.id];
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  if (!m?.published || !url) return undefined;
+  const base = `${url.replace(/\/$/, "")}/storage/v1/object/public/lesson-audio/${lesson.id}`;
+  return {
+    slides: m.slides === lesson.slides.length ? base : undefined,
+    // Audio dars bo'limlari: sections + misol + tuzoqlar + xulosa (lesson-view listenParts bilan bir xil).
+    parts: m.parts === lesson.sections.length + 3 ? base : undefined,
+  };
 }
 
 export default async function StudyPage({ params }: Params) {
@@ -53,12 +67,12 @@ export default async function StudyPage({ params }: Params) {
       index={index}
       total={course.chapters.length}
       completed={cp.completedIds.has(chapter.id)}
-      items={items}
+      items={toPublic(items)}
       passMark={passMarkFor(items.length)}
       nextHref={next ? `/study/${course.slug}/${next.id}` : null}
       finalHref={`/courses/${course.slug}#final`}
       signedIn={Boolean(user)}
-      recorded={(audio as Record<string, number>)[chapter.id] === chapter.slides.length}
+      audio={recordedAudio(chapter)}
     />
   );
 }

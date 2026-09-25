@@ -2,13 +2,18 @@
 
 import { useRef, useState } from "react";
 import Link from "next/link";
-import { AlertTriangle, ArrowLeft, CheckCircle2, Clock3, Headphones, ListChecks, PlayCircle, Target } from "lucide-react";
+import { AlertTriangle, ArrowLeft, CheckCircle2, Clock3, Headphones, ListChecks, MessageSquareText, PlayCircle, Target } from "lucide-react";
 import type { Lesson } from "@/content/cp3p/types";
-import type { TestItem } from "@/content/courses";
+import type { PublicItem } from "@/lib/learning-path";
+import dynamic from "next/dynamic";
 import { Markdown } from "@/features/exam/markdown";
 import { ListenLesson, VideoLesson } from "./video-lesson";
 import { LessonTest } from "./lesson-test";
 import { plainForSpeech } from "./narrator";
+
+const TutorChat = dynamic(() => import("@/features/tutor/components/tutor-chat").then((m) => m.TutorChat), {
+  loading: () => <p role="status" className="p-5 text-sm">Loading the tutor…</p>,
+});
 
 type Props = {
   courseSlug: string;
@@ -17,18 +22,20 @@ type Props = {
   index: number;
   total: number;
   completed: boolean;
-  items: TestItem[];
+  items: PublicItem[];
   passMark: number;
   nextHref: string | null;
   finalHref: string;
   signedIn: boolean;
-  recorded: boolean;
+  audio?: { slides?: string; parts?: string };
 };
 
 /** Bitta dars: video / audio / matn → test. Oddiy, bir ustunli sahifa. */
-export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, items, passMark, nextHref, finalHref, signedIn, recorded }: Props) {
+export function LessonView({ courseSlug, courseTitle, lesson, index, total, completed, items, passMark, nextHref, finalHref, signedIn, audio }: Props) {
   const [media, setMedia] = useState<"video" | "audio">("video");
   const [testing, setTesting] = useState(false);
+  const [tutorOpen, setTutorOpen] = useState(false);
+  const tutorContext = `CP3P ${lesson.level} lesson "${lesson.title}" (PPP Guide 2026, ${lesson.guideRef}). Key points: ${lesson.summary.join(" ")}`.slice(0, 600);
   const topRef = useRef<HTMLDivElement>(null);
   const testRef = useRef<HTMLDivElement>(null);
   const listenParts = [
@@ -53,7 +60,7 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
         <button type="button" onClick={() => setMedia("video")} className={`inline-flex min-h-10 items-center gap-2 rounded-xl px-4 text-sm font-semibold ${media === "video" ? "bg-[#163e32] text-white" : "border border-[#13251f]/15 bg-white"}`}><PlayCircle className="size-4" />Video lesson</button>
         <button type="button" onClick={() => setMedia("audio")} className={`inline-flex min-h-10 items-center gap-2 rounded-xl px-4 text-sm font-semibold ${media === "audio" ? "bg-[#163e32] text-white" : "border border-[#13251f]/15 bg-white"}`}><Headphones className="size-4" />Audio</button>
       </div>
-      <div className="mt-4">{media === "video" ? <VideoLesson lesson={lesson} number={index + 1} recorded={recorded} /> : <ListenLesson parts={listenParts} />}</div>
+      <div className="mt-4">{media === "video" ? <VideoLesson lesson={lesson} number={index + 1} audioBase={audio?.slides} /> : <ListenLesson parts={listenParts} audioBase={audio?.parts} />}</div>
 
       <section className="mt-10 rounded-3xl bg-[#e7ece6] p-6">
         <p className="inline-flex items-center gap-2 font-semibold"><Target className="size-4" />By the end of this lesson you can</p>
@@ -103,6 +110,15 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
         </ul>
       </section>
 
+      {signedIn && (
+        <details className="mt-6 rounded-3xl border border-[#13251f]/10 bg-white" onToggle={(e) => setTutorOpen((e.currentTarget as HTMLDetailsElement).open)}>
+          <summary className="cursor-pointer list-none p-5 font-semibold">
+            <span className="inline-flex items-center gap-2"><MessageSquareText className="size-4" />Stuck? Ask the AI tutor about this lesson</span>
+          </summary>
+          {tutorOpen && <div className="h-[520px] border-t border-[#13251f]/10"><TutorChat embedded context={tutorContext} /></div>}
+        </details>
+      )}
+
       <section ref={testRef} className="mt-10 scroll-mt-6">
         <h2 className="text-2xl font-semibold tracking-tight">Lesson test</h2>
         <p className="mt-2 text-sm text-[#65736d]">{items.length} questions{items.some((i) => i.review) ? ", including 2 from earlier lessons" : ""}. Score {passMark}/{items.length} (80%) to unlock the next lesson. Try to answer from memory — that is what makes it stick.</p>
@@ -119,7 +135,6 @@ export function LessonView({ courseSlug, courseTitle, lesson, index, total, comp
               passMark={passMark}
               nextHref={nextHref}
               finalHref={finalHref}
-              signedIn={signedIn}
               onRestudy={() => { setTesting(false); topRef.current?.scrollIntoView({ behavior: "smooth" }); }}
             />
           ) : (

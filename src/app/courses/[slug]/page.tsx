@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, CheckCircle2, Flag, Lock, Play } from "lucide-react";
+import { ArrowLeft, Award, CheckCircle2, Flag, Lock, Play, RotateCcw } from "lucide-react";
 import { LEGACY_COURSE_REDIRECTS, courseMinutes, formatMinutes, getCourse } from "@/content/courses";
 import { getCurrentUser } from "@/services/user-service";
-import { courseProgress, courseUnlocked, getLessonProgress } from "@/lib/progress";
+import { courseProgress, courseUnlocked, getLessonAnswers, getLessonProgress } from "@/lib/progress";
+import { getExamHistory } from "@/lib/exam-data";
+import { mistakes, recentAccuracy } from "@/lib/learning-path";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -20,8 +22,13 @@ export default async function CoursePage({ params }: Params) {
   const course = getCourse(slug);
   if (!course) notFound();
   const user = await getCurrentUser();
-  const rows = user ? await getLessonProgress(user.id) : [];
+  const [rows, answers, history] = user
+    ? await Promise.all([getLessonProgress(user.id), getLessonAnswers(user.id, course.slug), getExamHistory(user.id, `cp3p-${course.level}`)])
+    : [[], [], null];
   const cp = courseProgress(rows, course);
+  const toReview = mistakes(answers).length;
+  const ready = recentAccuracy(answers);
+  const passedMock = history?.attempts.find((a) => a.mode === "mock" && a.passed) ?? null;
   const open = courseUnlocked(rows, course);
   const currentId = open ? cp.nextChapter?.id ?? null : null;
   const allDone = cp.total > 0 && cp.completed === cp.total;
@@ -37,7 +44,19 @@ export default async function CoursePage({ params }: Params) {
       <div className="mt-6 rounded-2xl bg-white p-4">
         <div className="flex justify-between text-sm font-semibold"><span>{cp.completed}/{cp.total} lessons passed</span><span>{cp.percent}%</span></div>
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-[#e9ebe7]"><div className="h-full rounded-full bg-[#28634f]" style={{ width: `${cp.percent}%` }} /></div>
+        {ready && (
+          <p className="mt-3 text-sm text-[#52665e]">
+            Accuracy in your last {ready.answered} test answers: <span className={`font-semibold ${ready.accuracy >= 0.8 ? "text-[#28634f]" : ready.accuracy >= 0.6 ? "text-amber-700" : "text-red-700"}`}>{Math.round(ready.accuracy * 100)}%</span>
+            <span className="text-[#65736d]"> · aim for 80% before the exam</span>
+          </p>
+        )}
       </div>
+      {toReview > 0 && (
+        <Link href={`/courses/${course.slug}/review`} className="mt-3 flex items-center justify-between gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm hover:bg-amber-100">
+          <span><span className="font-semibold text-amber-900">Review my mistakes ({toReview})</span><span className="block text-amber-900/80">Questions you missed come back until you get them right.</span></span>
+          <RotateCcw className="size-5 shrink-0 text-amber-900" />
+        </Link>
+      )}
 
       {!open && (
         <p className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
@@ -73,7 +92,15 @@ export default async function CoursePage({ params }: Params) {
           );
         })}
         <li id="final">
-          {allDone ? (
+          {passedMock && allDone ? (
+            <div className="space-y-2">
+              <Link href={`/certificate/${course.level}`} className="flex items-center gap-4 rounded-2xl bg-amber-400 p-1.5 text-[#163e32]">
+                <span className="relative z-10 grid size-14 shrink-0 place-items-center rounded-full border-4 border-[#F5F4EE] bg-[#163e32] text-amber-300"><Award className="size-6" /></span>
+                <span><span className="block text-xs font-semibold uppercase tracking-[0.16em]">Simulation passed · {passedMock.score}/{passedMock.total}</span><span className="block font-semibold">Get your Finora certificate</span></span>
+              </Link>
+              <Link href={course.finalExamHref} className="block pl-[76px] text-sm font-semibold text-[#163e32] hover:underline">Take another exam simulation →</Link>
+            </div>
+          ) : allDone ? (
             <Link href={course.finalExamHref} className="flex items-center gap-4 rounded-2xl bg-[#163e32] p-1.5 text-white">
               <span className="relative z-10 grid size-14 shrink-0 place-items-center rounded-full border-4 border-[#F5F4EE] bg-amber-400 text-[#163e32]"><Flag className="size-6" /></span>
               <span><span className="block text-xs font-semibold uppercase tracking-[0.16em] text-white/70">Final step</span><span className="block font-semibold">Exam simulation — official format, timed</span></span>

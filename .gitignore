@@ -49,3 +49,6 @@ next-env.d.ts
 
 # PPP Guide 2026 (v2) manba PDF'lari — litsenziya tasdiqlanguncha repo/saytga chiqmaydi
 /sources/
+
+# TTS audio (raw, local) — published to Supabase Storage
+/.audio-cache/

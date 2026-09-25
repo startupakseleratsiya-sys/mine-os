@@ -3,12 +3,52 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { createClient } from "@/lib/supabase-server";
-import { getChapter, lessonTest, passMarkFor } from "@/content/courses";
+import { getChapter, getCourse, lessonTest, passMarkFor } from "@/content/courses";
+import { findQuestion } from "@/lib/learning-path";
 import { getLessonProgress, lessonUnlocked } from "@/lib/progress";
 
 export type TestResult =
   | { ok: true; correct: number; total: number; passed: boolean; passMark: number; saved: boolean }
   | { ok: false; error: string };
+
+export type CheckResult = { ok: true; correct: boolean; answer: number; explanation: string } | { ok: false; error: string };
+
+/** Dars savollari javoblari shu nom bilan saqlanadi (xatolar daftari va tayyorlik uchun). */
+const answersExam = (courseSlug: string) => `lessons:${courseSlug}`;
+
+const CheckSchema = z.object({
+  courseSlug: z.string().max(40),
+  key: z.string().max(90),
+  chosen: z.number().int().min(0).max(3),
+});
+
+/**
+ * Bitta javobni tekshiradi (kalit brauzerga oldindan yuborilmaydi) va natijani yozib qo'yadi.
+ * Faqat foydalanuvchiga ochiq darslarning savollari tekshiriladi.
+ */
+export async function checkAnswer(input: z.infer<typeof CheckSchema>): Promise<CheckResult> {
+  const parsed = CheckSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: "Invalid answer." };
+  const { courseSlug, key, chosen } = parsed.data;
+  const course = getCourse(courseSlug);
+  const found = course && findQuestion(course, key);
+  if (!course || !found) return { ok: false, error: "Question not found." };
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { ok: false, error: "Sign in to take the test." };
+  const rows = await getLessonProgress(user.id);
+  const lessonIndex = course.chapters.findIndex((l) => l.id === found.lessonId);
+  // Takrorlash savollari oldingi darslardan — ular ham ochiq; yopiq dars savolini tekshirib bo'lmaydi.
+  if (!lessonUnlocked(rows, course, lessonIndex)) return { ok: false, error: "This lesson is locked." };
+
+  const correct = chosen === found.q.answer;
+  const { error } = await supabase.from("exam_answers").insert({ user_id: user.id, exam: answersExam(courseSlug), question_id: key, chosen, correct });
+  if (error) console.error("exam_answers (lesson) yozishda xato:", error.message);
+  return { ok: true, correct, answer: found.q.answer, explanation: found.q.explanation };
+}
 
 const Schema = z.object({
   courseSlug: z.string().max(40),
@@ -71,4 +111,14 @@ export async function submitLessonTest(input: z.infer<typeof Schema>): Promise<T
   revalidatePath("/courses");
   revalidatePath(`/courses/${courseSlug}`);
   return { ok: true, correct, total, passed, passMark, saved };
+}
+
+/** Xatolar takrorlash sessiyasi yakuni — javoblar checkAnswer'da allaqachon yozilgan, faqat ballni qaytaradi. */
+export async function finishReview(input: { courseSlug: string; answers: Record<string, number | null> }): Promise<TestResult> {
+  const course = getCourse(input.courseSlug);
+  if (!course) return { ok: false, error: "Course not found." };
+  const keys = Object.keys(input.answers).slice(0, 50);
+  const correct = keys.filter((k) => findQuestion(course, k)?.q.answer === input.answers[k]).length;
+  revalidatePath(`/courses/${course.slug}`);
+  return { ok: true, correct, total: keys.length, passed: correct === keys.length, passMark: keys.length, saved: true };
 }
