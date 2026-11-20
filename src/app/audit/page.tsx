@@ -8,7 +8,7 @@ export default function AuditPage() {
     <SectionShell
       eyebrow="BAIM audit"
       title="Auditorlik imtihoni trenajyori"
-      description="Tashqi audit malaka imtihoniga tayyorgarlik: ruscha va o‘zbekcha savollar bazasi. O‘rganish rejimida to‘g‘ri javob darhol ko‘rinadi — o‘qib yodlaysiz; Mashq rejimida o‘zingizni sinaysiz; Imtihon rejimida 60 ta tasodifiy savol, 75% o‘tish chegarasi."
+      description="Tashqi audit malaka imtihoniga tayyorgarlik (ruscha va o‘zbekcha). O‘rganish — to‘g‘ri javob darhol ko‘rinadi; Mashq — o‘zingizni sinaysiz, natija saqlanadi; Imtihon — 60 ta tasodifiy savol, 3 soat, o‘tish 75%."
     >
       <BaimTest />
     </SectionShell>
