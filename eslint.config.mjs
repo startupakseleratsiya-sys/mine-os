@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Lokal, git'ga kirmaydigan yordamchi skriptlar.
+    ".tmp/**",
+    "tmp/**",
   ]),
   {
     rules: {

@@ -34,7 +34,8 @@ export async function getExamHistory(userId: string, exam: string) {
   if (attempts.error) console.error("exam_attempts o'qishda xato:", attempts.error.message);
   if (answers.error) console.error("exam_answers o'qishda xato:", answers.error.message);
   return {
-    attempts: (attempts.data ?? []) as AttemptRow[],
+    // Ochiq (hali topshirilmagan yoki tashlab ketilgan) mock tarixda «Fail 0/50» bo'lib chiqmasin.
+    attempts: ((attempts.data ?? []) as AttemptRow[]).filter((a) => !(a.mode === "mock" && a.passed === null)),
     answers: (answers.data ?? []) as AnswerRecord[],
     storageReady: !attempts.error,
   };
